@@ -1,0 +1,14 @@
+slug: marine-le-pen
+full_name: Marine Le Pen
+tier: "4"
+bio_md: French politician and leader of the National Rally (formerly National Front). Perennial presidential candidate representing right-wing populism, Euroscepticism, and immigration restriction.
+role: politician
+affiliation: National Rally
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances: []

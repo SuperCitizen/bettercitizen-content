@@ -1,0 +1,39 @@
+slug: book-banning-in-schools
+name: Book removal in schools
+category: education
+summary: Removing or restricting books from K-12 school libraries and curricula, often centered on sexually explicit content, depictions of race and history, or LGBTQ+ themes.
+body_md: |-
+  The number of formal book challenges in K-12 schools has risen sharply in recent years, according to the American Library Association and PEN America. Challenges have focused heavily on titles addressing sexuality, gender identity, race, and US racial history, with some overlapping LGBTQ+ themes.
+
+  State and local responses vary widely. Some states have passed laws restricting "obscene" or "harmful to minors" materials in school libraries, requiring parental review, or creating civil and criminal exposure for librarians. Others have passed counter-laws protecting library collections from political removal.
+
+  Underneath the headline-grabbing fights sit harder questions: what role should parents, communities, librarians, and professional standards each play in curating what's available to which-aged children, and where does community curation end and government censorship begin?
+spectrum:
+  left: Progressives generally oppose removal campaigns as censorship targeting LGBTQ+, racial-history, and minority voices, and support professional librarian control over collections.
+  center: Centrists often distinguish age-appropriate curation (legitimate, especially for sexually explicit material with young children) from broader ideological removal (problematic), seeking transparent local processes.
+  right: Many conservatives support parental authority to remove sexually explicit or otherwise objectionable material from schools their children attend, viewing recent removals as appropriate community standards rather than censorship.
+contested:
+  perspectives:
+    - label: Anti-censorship advocates
+      summary: Removing books because they address LGBTQ+ lives, racial injustice, or other politically disfavored topics is censorship — an attempt to erase certain people and histories from the school environment. Children, especially marginalized ones, lose access to mirrors and windows that books provide. Librarians are professionals, not the enemy.
+      key_concerns:
+        - Censorship of LGBTQ+ and minority voices
+        - Access to diverse perspectives
+        - Professional library standards
+    - label: Parental-rights advocates
+      summary: Parents have primary responsibility for their children's upbringing, including what they encounter in publicly funded schools. The materials at issue often contain graphic sexual content inappropriate for the assigned grade level, and ordinary parents reviewing library shelves are not censors but accountable citizens.
+      key_concerns:
+        - Age-appropriate content for children
+        - Parental authority over schools
+        - Local community standards
+    - label: Process-and-pluralism perspective
+      summary: Disputes over school content should be resolved through transparent local processes — clear age-appropriateness standards, professional librarian input, open challenge procedures, and parental opt-outs. Both blanket statewide removals and complete deference to one side fail communities that include diverse families.
+      key_concerns:
+        - Transparent local review processes
+        - Opt-out vs. removal distinction
+        - Balancing parent input and professional judgment
+related_lesson_slugs: []
+tags:
+  - education
+  - first-amendment
+  - libraries

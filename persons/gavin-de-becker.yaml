@@ -1,0 +1,14 @@
+slug: gavin-de-becker
+full_name: Gavin de Becker
+tier: "4"
+bio_md: Security expert and author of The Gift of Fear. Advisor to governments and corporations on threat assessment and personal safety.
+role: author, security consultant
+affiliation: Gavin de Becker & Associates
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances: []

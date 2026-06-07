@@ -1,0 +1,24 @@
+slug: jb-pritzker
+full_name: JB Pritzker
+tier: "3"
+bio_md: Governor of Illinois since 2019. Billionaire businessman and philanthropist, an heir to the Hyatt Hotels fortune. Founded 1871, a Chicago technology incubator. Has signed major progressive legislation in Illinois including a graduated income tax proposal, recreational cannabis legalization, and abortion protections.
+role: Governor of Illinois
+affiliation: State of Illinois
+party: Democrat
+lean_left: 72
+lean_right: 22
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: GovPritzker
+issue_stances:
+  - slug: abortion-access
+    stance: Signed laws protecting abortion access in Illinois after the Dobbs decision
+  - slug: second-amendment-regulation
+    stance: Signed Illinois assault weapons ban in 2023
+  - slug: minimum-wage
+    stance: Signed legislation raising Illinois minimum wage to $15 per hour
+  - slug: climate-policy
+    stance: Signed the Climate and Equitable Jobs Act setting 100% clean energy by 2050

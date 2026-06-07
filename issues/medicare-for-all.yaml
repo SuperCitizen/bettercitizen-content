@@ -1,0 +1,40 @@
+slug: medicare-for-all
+name: Medicare for All
+category: healthcare
+summary: A single-payer national health insurance program that would replace private and most public insurance with one government plan covering all Americans.
+body_md: |-
+  Medicare for All (M4A) proposals (Sanders, Jayapal) would expand Medicare to cover every U.S. resident, eliminate most private insurance, and pay providers at single negotiated rates. Coverage would include comprehensive medical, mental health, dental, and vision care with no premiums, deductibles, or copays.
+
+  Cost estimates vary widely. CBO and similar analyses generally find total national health spending would change modestly (savings on administration and drug prices roughly offset by higher utilization), but federal spending would rise substantially — requiring significant new revenue (payroll taxes, wealth taxes, premium replacement).
+
+  Defenders argue M4A delivers universal coverage at lower per-capita cost than the U.S. fragmented system. Critics argue it disrupts existing coverage 160 million Americans like, requires unprecedented tax increases, and could reduce provider supply.
+spectrum:
+  left: Progressives strongly favor Medicare for All as the only path to true universal coverage.
+  center: Many moderates favor incremental expansion (public option, Medicare buy-in) over full single-payer.
+  right: Most conservatives oppose M4A as government takeover; favor market-based reforms.
+contested:
+  perspectives:
+    - label: Single-payer advocates
+      summary: The U.S. spends nearly twice the per-capita health-care cost of peer nations with worse outcomes. M4A delivers universal coverage and bargaining power that fragmented private insurance cannot.
+      key_concerns:
+        - Universal coverage
+        - Reducing administrative cost
+        - Provider price negotiation
+    - label: Public-option advocates
+      summary: Build a public option that competes with private insurance, capping costs and covering the uninsured without disrupting employer coverage that millions value.
+      key_concerns:
+        - Avoiding disruption of existing coverage
+        - Political feasibility
+        - Gradual transition path
+    - label: Market-reform alternatives
+      summary: Health-savings accounts, transparent pricing, association health plans, and reduced regulatory burden lower costs and expand choice without nationalizing insurance.
+      key_concerns:
+        - Patient choice and provider competition
+        - Avoiding government rationing
+        - Innovation in care delivery
+related_lesson_slugs:
+  - healthcare
+tags:
+  - healthcare
+  - insurance
+  - single-payer

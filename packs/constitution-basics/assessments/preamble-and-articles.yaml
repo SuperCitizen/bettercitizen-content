@@ -1,0 +1,53 @@
+schema: supercitizen.assessment/v1
+lesson: preamble-and-articles
+questions:
+  - id: q1-preamble
+    kind: multiple-choice
+    text: Which of these is NOT one of the goals the Preamble lists for forming the
+      Constitution?
+    choices:
+      - id: a
+        text: Establish Justice
+      - id: b
+        text: Provide for the common Defence
+      - id: c
+        text: Promote the general Welfare
+      - id: d
+        text: Protect private Property
+    correct_choice_id: d
+    explanation: "The Preamble lists six purposes: Union, Justice, domestic
+      Tranquility, common Defence, general Welfare, and the Blessings of
+      Liberty. 'Property' isn't named in the Preamble itself."
+    concepts:
+      - preamble
+  - id: q2-article-i
+    kind: multiple-choice
+    text: Article I of the Constitution sets up which part of the federal government?
+    choices:
+      - id: a
+        text: The Presidency
+      - id: b
+        text: Congress
+      - id: c
+        text: The federal courts
+      - id: d
+        text: The states' relationships to one another
+    correct_choice_id: b
+    explanation: Article I — the longest article — creates Congress and lays out its
+      powers. Article II creates the Presidency; Article III creates the
+      judiciary.
+    concepts:
+      - constitution
+  - id: q3-supremacy
+    kind: free-response
+    text: In your own words, what does the Supremacy Clause (Article VI, Clause 2)
+      do? Give one example of how it might come up in real life.
+    concepts:
+      - supremacy-clause
+  - id: q4-amendment
+    kind: free-response
+    text: Article V describes how the Constitution can be amended. Why do you think
+      the framers made it deliberately hard to amend?
+    concepts:
+      - amendment-process
+      - ratification

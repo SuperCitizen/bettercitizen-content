@@ -1,0 +1,15 @@
+slug: mark-zuckerberg
+full_name: Mark Zuckerberg
+tier: "4"
+bio_md: CEO of Meta (formerly Facebook). Built the world's largest social network. Increasingly focused on AI and the metaverse while navigating content moderation controversies.
+role: tech executive
+affiliation: Meta
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: true
+twitter: faborman
+issue_stances: []

@@ -1,0 +1,38 @@
+slug: death-penalty
+name: Death penalty
+category: criminal-justice
+summary: Whether the federal government and states should impose capital punishment — the U.S. is the only Western democracy that retains it, with 27 states authorizing it as of 2024.
+body_md: |-
+  As of 2024, 27 states authorize the death penalty (though some have moratoria), 23 have abolished it, and the federal government retains it for certain offenses. Roughly 2,300 people are on death row nationwide. The federal government carried out 13 executions in 2020-21 (the most in any year in 70+ years), then re-imposed a moratorium.
+
+  Empirical research: Execution does not appear to have a measurable deterrent effect beyond life imprisonment. The death penalty is significantly more expensive than life-without-parole due to mandatory appeals. Innocence is documented: 200+ death-row exonerations since the 1970s.
+
+  Defenders cite retribution for the worst crimes. Critics cite irreversibility, cost, racial and geographic arbitrariness, and risk of executing innocent people.
+spectrum:
+  left: Most progressives strongly favor abolishing the death penalty.
+  center: Many centrists favor abolition or restriction to extreme cases (terrorism, multiple murder).
+  right: "Conservative views split: many favor retention for serious crimes; some Catholic and small-government conservatives oppose."
+contested:
+  perspectives:
+    - label: Abolitionists
+      summary: The death penalty is irreversible, applied arbitrarily, costs more than life imprisonment, and has resulted in executions of innocent people. It cannot be made fair enough to justify.
+      key_concerns:
+        - Irreversibility and innocence risk
+        - Racial and geographic arbitrariness
+        - Cost compared to life without parole
+    - label: Retentionists
+      summary: Some crimes — terrorist mass murder, repeat-offender child murder — are so serious that justice requires execution. Modern procedural protections minimize wrongful executions.
+      key_concerns:
+        - Retribution for the worst crimes
+        - Closure for victims' families
+        - Permanent incapacitation
+    - label: Restrict-to-extreme-cases reformers
+      summary: Limit the death penalty to a narrow set of extreme crimes (terrorism, mass murder, killing of officers) with heightened evidentiary standards and mandatory DNA testing.
+      key_concerns:
+        - Restricting to clearest cases
+        - Heightened evidentiary protection
+        - Reducing arbitrariness
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - capital-punishment

@@ -1,0 +1,9 @@
+slug: majority-threshold
+name: Majority threshold
+short_definition: More than 50 percent. RCV elimination rounds continue until one candidate exceeds the majority threshold among continuing ballots.
+body_md: ""
+category: government
+difficulty: intermediate
+status: active
+related_term_slugs: []
+tags: []

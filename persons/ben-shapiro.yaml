@@ -1,0 +1,22 @@
+slug: ben-shapiro
+full_name: Ben Shapiro
+tier: "4"
+bio_md: Conservative political commentator, media host, and co-founder of The Daily Wire. Known for his rapid-fire debate style and orthodox Jewish perspective.
+role: commentator, media executive
+affiliation: The Daily Wire
+party: Republican
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: benshapiro
+issue_stances:
+  - slug: section-230
+    stance: Strong defender of free expression on campuses and online
+  - slug: corporate-tax-rate
+    stance: Favors lower taxes and limited government spending
+  - slug: second-amendment-regulation
+    stance: Opposes gun control as a Second Amendment issue

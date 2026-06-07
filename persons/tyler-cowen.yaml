@@ -1,0 +1,21 @@
+slug: tyler-cowen
+full_name: Tyler Cowen
+tier: "4"
+bio_md: Economist at George Mason University and blogger at Marginal Revolution. One of the most influential economics bloggers, known for his intellectual curiosity and nuanced analysis.
+role: economist, blogger
+affiliation: George Mason University
+lean_left: 40
+lean_right: 60
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: tyaborman
+issue_stances:
+  - slug: ai-regulation
+    stance: Cautiously optimistic about AI productivity gains
+  - slug: tariffs
+    stance: Strong advocate for free trade and globalization
+  - slug: rent-control
+    stance: Supports deregulation of housing markets

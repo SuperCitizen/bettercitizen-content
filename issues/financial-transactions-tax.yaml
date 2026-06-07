@@ -1,0 +1,39 @@
+slug: financial-transactions-tax
+name: Financial Transactions Tax
+category: economy-and-taxation
+summary: A small tax levied on stock, bond, and derivatives trades — proposed as both a revenue source and a brake on short-term speculation and high-frequency trading.
+body_md: |-
+  A financial transactions tax (FTT) imposes a small percentage levy on the value of trades in financial instruments. Variants tax equities only, equities plus bonds, or a broader basket including derivatives. Several countries levy some form of FTT; the U.S. once had a small stamp tax on stock transfers but ended it in the mid-twentieth century.
+
+  Proponents argue an FTT raises substantial revenue with limited impact on long-term investors and reduces socially wasteful high-frequency trading. Critics counter that the tax cascades through retirement accounts, pension funds, and market-making activity, raising costs for ordinary savers and potentially harming liquidity and price discovery.
+
+  Estimated revenue depends heavily on rate, base, and behavioral response. Designs range from very low rates on equities and derivatives to higher rates targeted at particular venues or instruments.
+spectrum:
+  left: Progressives largely favor an FTT as a way to raise revenue from Wall Street, curb high-frequency speculation, and fund public investments without taxing wages.
+  center: "Moderates are divided: some support a small, broad-based FTT for its revenue, while others worry about cascading effects on retirement savers and market liquidity."
+  right: Most conservatives oppose an FTT, arguing it hits middle-class savers through pension funds and 401(k)s, harms market liquidity, and raises capital costs across the economy.
+contested:
+  perspectives:
+    - label: Tax speculation, fund priorities
+      summary: A tiny FTT raises substantial revenue from the segment of the economy least burdened by tax, slows socially wasteful high-frequency strategies, and barely affects ordinary buy-and-hold investors.
+      key_concerns:
+        - Revenue for public investment
+        - Curbing high-frequency trading
+        - Tax-system fairness
+    - label: Liquidity-aware skeptics
+      summary: Markets need active market-makers and arbitrageurs to keep spreads tight and prices accurate. An FTT, even at low rates, taxes that activity many times over and raises costs for retirement funds and ordinary investors.
+      key_concerns:
+        - Market liquidity and spreads
+        - Costs to pension and retirement accounts
+        - Capital-formation effects
+    - label: Design-it-narrowly camp
+      summary: A well-targeted FTT — focused on derivatives or excessive cancellation rates rather than every share trade — could deter genuinely harmful behavior without hitting long-term investors or core market function.
+      key_concerns:
+        - Targeting truly harmful trading
+        - Sparing long-term investors
+        - Administrative feasibility
+related_lesson_slugs: []
+tags:
+  - ftt
+  - wall-street
+  - tax-policy

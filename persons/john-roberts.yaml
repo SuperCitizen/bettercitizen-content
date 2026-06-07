@@ -1,0 +1,14 @@
+slug: john-roberts
+full_name: John Roberts
+tier: "4"
+bio_md: Chief Justice of the United States since 2005. Known for institutionalist approach and occasional swing votes on the Roberts Court, including upholding the ACA.
+role: jurist
+affiliation: US Supreme Court
+lean_left: 35
+lean_right: 65
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances: []

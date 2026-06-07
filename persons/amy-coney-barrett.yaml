@@ -1,0 +1,14 @@
+slug: amy-coney-barrett
+full_name: Amy Coney Barrett
+tier: "4"
+bio_md: Associate Justice of the Supreme Court since 2020. Former law professor at Notre Dame. Known for her originalist philosophy and devout Catholic faith.
+role: jurist
+affiliation: US Supreme Court
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances: []

@@ -1,0 +1,14 @@
+slug: alex-jones
+full_name: Alex Jones
+tier: "4"
+bio_md: Far-right radio host and conspiracy theorist. Founder of InfoWars. Known for promoting unfounded conspiracy theories including Sandy Hook denialism, for which he was found liable.
+role: media personality
+affiliation: InfoWars
+lean_left: 5
+lean_right: 95
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances: []

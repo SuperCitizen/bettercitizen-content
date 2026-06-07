@@ -1,0 +1,10 @@
+slug: federal-reserve-system
+name: Federal Reserve System
+kind: government
+subtype: executive-independent
+description: Central banking system of the United States, conducting monetary policy, supervising banks, and providing payment-system infrastructure.
+website: https://www.federalreserve.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

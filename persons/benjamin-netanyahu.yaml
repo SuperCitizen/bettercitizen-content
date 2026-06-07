@@ -1,0 +1,15 @@
+slug: benjamin-netanyahu
+full_name: Benjamin Netanyahu
+tier: "4"
+bio_md: Prime Minister of Israel. The longest-serving PM in Israeli history. A polarizing figure whose leadership through multiple wars and corruption charges has defined modern Israeli politics.
+role: politician
+affiliation: Likud
+party: Likud
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances: []

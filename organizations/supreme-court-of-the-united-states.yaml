@@ -1,0 +1,16 @@
+slug: supreme-court-of-the-united-states
+name: Supreme Court of the United States
+kind: government
+subtype: judicial
+description: "Highest federal court: nine justices with life tenure, final interpreter of federal law and the US Constitution."
+website: https://www.supremecourt.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - citizens-united
+  - buckley-v-valeo
+  - due-process
+  - first-amendment
+  - fourth-amendment
+  - fifth-amendment
+is_active: true

@@ -1,0 +1,10 @@
+slug: federal-trade-commission
+name: Federal Trade Commission
+kind: government
+subtype: executive-independent
+description: Independent agency enforcing antitrust law and consumer-protection rules, including unfair-and-deceptive-practices authority.
+website: https://www.ftc.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

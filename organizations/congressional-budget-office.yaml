@@ -1,0 +1,12 @@
+slug: congressional-budget-office
+name: Congressional Budget Office
+kind: government
+subtype: legislative
+description: Nonpartisan legislative-branch agency providing budget and economic analysis to Congress, including cost estimates of pending legislation.
+website: https://www.cbo.gov
+jurisdiction: federal
+partisan_lean: none
+concept_tags:
+  - fiscal-impact
+  - fiscal-gap
+is_active: true

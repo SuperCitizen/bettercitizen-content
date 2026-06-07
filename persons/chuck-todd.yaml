@@ -1,0 +1,19 @@
+slug: chuck-todd
+full_name: Chuck Todd
+tier: "4"
+bio_md: American television journalist and former moderator of NBC's Meet the Press, the longest-running program on American television. Served as NBC News political director and host of MTP Daily on MSNBC. Stepped down as Meet the Press moderator in 2024.
+role: journalist, former Meet the Press moderator
+affiliation: NBC News
+lean_left: 52
+lean_right: 48
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: chucktodd
+issue_stances:
+  - slug: gerrymandering
+    stance: Has reported on the impact of gerrymandering on competitive elections
+  - slug: electoral-college
+    stance: Has covered debates over electoral reform and the Electoral College

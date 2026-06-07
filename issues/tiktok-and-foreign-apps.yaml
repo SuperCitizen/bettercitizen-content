@@ -1,0 +1,39 @@
+slug: tiktok-and-foreign-apps
+name: TikTok and foreign-controlled apps
+category: technology-and-data
+summary: Whether the U.S. should ban or force divestiture of apps controlled by adversary-nation companies, with TikTok's Chinese parent ByteDance the central case.
+body_md: |-
+  Concerns about TikTok's Chinese parent ByteDance focus on (a) potential PRC government access to U.S. user data, (b) potential covert manipulation of the recommendation algorithm to influence U.S. opinion, and (c) data on minors.
+
+  The Protecting Americans from Foreign Adversary Controlled Applications Act (signed April 2024) requires ByteDance to divest TikTok or face a U.S. ban; the Supreme Court upheld the law in TikTok Inc. v. Garland (2025). Implementation has been politically contested.
+
+  Broader implications include other Chinese-controlled apps (Temu, Shein, RedNote), American app access in China (Apple's App Store local-compliance debates), and precedents for foreign-app restrictions.
+spectrum:
+  left: "Progressive views split: civil-liberties progressives oppose the ban as overbroad; many support it on national-security grounds."
+  center: Most centrists support the divest-or-ban framework; debates over implementation details.
+  right: Most conservatives strongly support the ban or forced divestiture.
+contested:
+  perspectives:
+    - label: Ban-or-divest advocates
+      summary: A 170M-user platform controlled by an adversary nation is an unprecedented national-security risk. Algorithmic manipulation and bulk-data access by PRC are real risks; divestiture is the only credible fix.
+      key_concerns:
+        - PRC data access and algorithmic manipulation
+        - National-security concerns
+        - Reciprocity (U.S. apps banned in China)
+    - label: Civil-liberties opponents
+      summary: Banning a speech platform on national-security grounds is a dangerous First Amendment precedent. Privacy and security concerns are real but should be addressed by comprehensive privacy law, not platform-specific bans.
+      key_concerns:
+        - First Amendment / free-expression
+        - Comprehensive-privacy alternative
+        - Precedent for future bans
+    - label: Conditional-divestiture advocates
+      summary: A negotiated divestiture or robust data-localization arrangement (Project Texas style) addresses concerns without outright ban. Pursue conditions before resorting to a ban.
+      key_concerns:
+        - Data-localization arrangements
+        - Negotiated divestiture
+        - Avoiding full ban
+related_lesson_slugs: []
+tags:
+  - technology
+  - china
+  - national-security

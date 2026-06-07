@@ -1,0 +1,12 @@
+slug: exit-poll
+name: Exit Poll
+short_definition: Surveys of voters taken after they cast their ballots, used to predict election outcomes and understand voting patterns.
+body_md: ""
+category: elections
+difficulty: foundational
+status: active
+etymology: "English: 'exit' from Latin exitus (a going out) + 'poll' from Middle Low German polle (head, top of the head) — originally a head count"
+why_it_matters: Exit polls reveal the demographics and motivations behind election results, shaping the post-election narrative and informing future campaign strategies.
+context_example: Exit polls showed that the economy was the top issue for 62% of voters, and those who cited it broke two-to-one for the challenger.
+related_term_slugs: []
+tags: []

@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is the defining feature of a Super PAC vs. a traditional PAC?"
+    choices:
+      - id: a
+        text: "Super PACs can give directly to candidates; traditional PACs cannot."
+      - id: b
+        text: "Super PACs accept uncapped contributions from any source but can only make independent expenditures (no direct contributions to candidates)."
+      - id: c
+        text: "Traditional PACs are required to disclose donors; Super PACs are not."
+      - id: d
+        text: "Super PACs operate under FECA; traditional PACs operate under the Lobbying Disclosure Act."
+    correct_choice_id: b
+    explanation: "Super PACs were created by SpeechNow.org v. FEC (2010), which extended Citizens United's logic to political committees. They accept unlimited contributions from individuals, corporations, and unions — but can only make independent expenditures, not direct contributions to candidates. Traditional PACs have capped contributions ($5,000/donor/year) but can give directly to candidates. Both must disclose donors to the FEC."
+    concepts: [pacs, super-pacs]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What is a Hybrid PAC ('Carey Committee')?"
+    choices:
+      - id: a
+        text: "A PAC operating in both federal and state elections."
+      - id: b
+        text: "A PAC that operates two segregated funds — one with capped contributions for direct candidate giving, one with uncapped contributions for independent expenditures."
+      - id: c
+        text: "A leadership PAC operated by current officeholders."
+      - id: d
+        text: "A non-partisan PAC."
+    correct_choice_id: b
+    explanation: "Created by Carey v. FEC (D.C. Cir. 2011), Hybrid PACs operate two legally separate funds: one with capped contributions for direct candidate/committee giving, one with uncapped contributions for independent expenditures. The two funds must be kept separate. Effectively a single organizational structure with both PAC and Super PAC capabilities. The NRA Political Victory Fund is a prominent example."
+    concepts: [pacs, hybrid-pacs]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What does 'coordination' mean for the legal classification of a Super PAC's expenditures?"
+    choices:
+      - id: a
+        text: "Whether the Super PAC's spending was approved by a majority of its donors."
+      - id: b
+        text: "Whether the Super PAC made strategic decisions in concert with the campaign it supports — sharing personnel, vendors, non-public information, or strategic communication. Coordinated expenditures count as direct contributions (capped); independent expenditures are uncapped."
+      - id: c
+        text: "Whether the Super PAC operates in multiple states."
+      - id: d
+        text: "Whether the Super PAC files quarterly reports with the FEC."
+    correct_choice_id: b
+    explanation: "Coordination is the legal threshold that determines whether spending counts as an 'independent expenditure' (uncapped, what makes a Super PAC a Super PAC) or a 'contribution' (capped). The FEC's coordination test has source, content, and conduct prongs. The conduct prong is the live battleground: shared vendors, former-campaign-employee mobility, public coordination via published strategic information are all in the gray zone. The FEC has been deadlocked on most coordination cases for over a decade."
+    concepts: [super-pacs, coordination]
+
+  - id: q4
+    kind: free-response
+    text: "The PAC-defender and the PAC-restrictionist disagree fundamentally about whether independence (between Super PAC and campaign) is real or fictional. State the strongest version of each position."
+    socratic_seed: "PAC-defender: independence is legally meaningful — the FEC's coordination rules do constrain real activity, even if some shared-vendor and personnel arrangements look suspicious. The constitutional doctrine (Citizens United, SpeechNow) treats independence as real, and the empirical evidence that this distinction is doing real legal work supports the doctrine. PAC-restrictionist: independence has eroded substantially in practice. Joint vendors, joint personnel (with brief cooling-off), public coordination via published strategic information — these are not what Buckley contemplated by 'independent.' The post-2010 system functions more like coordinated spending with a legal fiction of independence than like genuinely independent expression. Both sides agree on most of the facts; they disagree about whether the legal-political distinction is meaningful given the empirical reality."
+    concepts: [pacs, super-pacs, coordination]

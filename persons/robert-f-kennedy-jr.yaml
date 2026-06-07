@@ -1,0 +1,22 @@
+slug: robert-f-kennedy-jr
+full_name: Robert F. Kennedy Jr.
+tier: "4"
+bio_md: Environmental lawyer and 2024 independent presidential candidate. Son of Robert F. Kennedy. Known for vaccine skepticism and anti-establishment views. Endorsed Trump and was nominated to head HHS.
+role: politician, activist, lawyer
+affiliation: Independent / Trump administration
+party: Independent
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: RobertKennedyJr
+issue_stances:
+  - slug: medicare-for-all
+    stance: Challenges pharmaceutical industry power and vaccine policy
+  - slug: data-privacy-law
+    stance: Advocates against government and corporate surveillance
+  - slug: climate-policy
+    stance: Lifelong environmental lawyer and advocate

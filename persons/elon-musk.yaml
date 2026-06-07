@@ -1,0 +1,23 @@
+slug: elon-musk
+full_name: Elon Musk
+tier: "4"
+bio_md: CEO of Tesla and SpaceX, owner of X (formerly Twitter). World's wealthiest person at times. Head of the Department of Government Efficiency (DOGE) under Trump. Controversial and active presence in global politics.
+role: tech executive, entrepreneur
+affiliation: DOGE / Independent
+lean_left: 25
+lean_right: 75
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: true
+twitter: elonmusk
+issue_stances:
+  - slug: ai-regulation
+    stance: Co-founded OpenAI, then departed; now developing Grok. Warns of AI risks but pushes development
+  - slug: section-230
+    stance: Acquired Twitter/X citing commitment to free speech absolutism
+  - slug: border-security
+    stance: Vocal critic of illegal immigration; supports merit-based legal immigration
+  - slug: national-debt
+    stance: Co-leads DOGE effort to cut federal spending

@@ -1,0 +1,12 @@
+slug: us-department-of-the-treasury
+name: US Department of the Treasury
+kind: government
+subtype: executive-cabinet
+description: Cabinet department responsible for federal finances, tax administration (via the IRS), debt issuance, and economic policy.
+website: https://home.treasury.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - fiscal-impact
+  - fiscal-gap
+is_active: true

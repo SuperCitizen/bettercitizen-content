@@ -1,0 +1,33 @@
+slug: public-lands-protection
+name: Public lands protection
+category: environment-and-energy
+summary: How federal public lands should be managed — designation of national monuments and wilderness, multiple-use balancing, and state-versus-federal control.
+body_md: |-
+  The federal government manages roughly 640 million acres of public land — about 28% of the U.S. — through the Bureau of Land Management, Forest Service, National Park Service, and Fish and Wildlife Service. Mandates range from strict preservation (national parks, wilderness areas) to multiple use (BLM and Forest Service lands open to grazing, logging, mining, and energy development alongside recreation and conservation).
+
+  The Antiquities Act of 1906 lets presidents designate national monuments unilaterally, a tool used to protect millions of acres but also a recurring flashpoint when administrations expand, shrink, or restore monument boundaries. The "30 by 30" goal — protecting 30% of U.S. lands and waters by 2030 — has framed recent conservation debates.
+
+  Western states and many rural communities seek greater state and local say over federal-land decisions affecting their economies. Conservation groups, tribes, and outdoor-recreation interests push for stronger protections and tribal co-management.
+spectrum:
+  left: Most progressives favor expanding monument designations, wilderness areas, and "30 by 30" conservation, with strong tribal co-management and limits on extractive uses.
+  center: Centrists generally support a balance of conservation and multiple use, durable monument designations with local input, and case-by-case decisions on leasing and protection.
+  right: Conservatives generally favor multiple-use management, greater state and local say over federal lands, and restraint in monument designations — with internal divisions over outright transfer to states.
+contested:
+  perspectives:
+    - label: Conservation and tribal-rights advocates
+      summary: Public lands are an irreplaceable inheritance. Strong protections — national monuments, wilderness, "30 by 30" — guard biodiversity, climate buffers, cultural sites, and access for recreation. Tribal co-management should be standard practice on ancestral lands.
+      key_concerns:
+        - Biodiversity and habitat protection
+        - Tribal cultural sites and co-management
+        - Climate resilience and carbon storage
+    - label: Multiple-use and local-control advocates
+      summary: Federal lands sustain rural economies through ranching, timber, energy, and mining. Multiple-use is the statutory mandate for most federal lands and should be honored. Local and state governments deserve a real voice in decisions that affect their tax base, schools, and jobs.
+      key_concerns:
+        - Rural economies dependent on multiple use
+        - Local input in monument designations
+        - Access for grazing, logging, and energy
+related_lesson_slugs: []
+tags:
+  - environment
+  - public-lands
+  - conservation

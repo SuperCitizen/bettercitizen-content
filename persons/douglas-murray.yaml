@@ -1,0 +1,15 @@
+slug: douglas-murray
+full_name: Douglas Murray
+tier: "4"
+bio_md: British author and commentator, Associate Editor at The Spectator. Known for books on Western decline and mass immigration. A prominent voice in conservative and neoconservative thought.
+role: author, commentator
+affiliation: The Spectator / The Free Press
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: DouglasKMurray
+issue_stances: []

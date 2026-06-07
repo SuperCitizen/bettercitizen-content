@@ -1,0 +1,41 @@
+slug: cash-bail
+name: Cash bail reform
+category: criminal-justice
+summary: Whether to eliminate or significantly reduce cash bail — replacing it with risk-based release decisions — debated as criminal-justice equity vs. public-safety tool.
+body_md: |-
+  Cash bail conditions pretrial release on the defendant's ability to post a bond. Critics argue it incarcerates the poor regardless of public-safety risk and pressures plea deals. Reform efforts include:
+
+  - **Eliminating cash bail entirely** (NJ, IL, NY for certain offenses, DC).
+  - **Risk assessment**: Algorithm-assisted decisions on flight risk and danger to community.
+  - **Hybrid approaches**: Eliminate cash bail for non-violent offenses; preserve detention for high-risk charges.
+
+  Empirical evidence is mixed and depends on implementation. NJ's 2017 reform (mostly elimination of cash bail) showed sustained low pretrial-failure rates. NY's 2020 reform faced backlash and was partially rolled back amid concerns about repeat offenders.
+spectrum:
+  left: Progressives strongly favor eliminating or sharply reducing cash bail.
+  center: Most centrists favor risk-based hybrids that eliminate cash bail for low-risk cases while allowing detention for high-risk ones.
+  right: Many conservatives oppose broad bail elimination citing public-safety effects; some favor targeted reforms.
+contested:
+  perspectives:
+    - label: Bail-elimination advocates
+      summary: Cash bail jails the poor while letting the wealthy buy freedom. It distorts plea decisions and disrupts work, family, and housing. Risk-based release without cash addresses public safety more directly.
+      key_concerns:
+        - Equity for low-income defendants
+        - Pretrial detention harms
+        - Plea-coercion effects
+    - label: Public-safety skeptics
+      summary: Bail elimination has correlated with increases in repeat offenses in some jurisdictions. Judges need a meaningful tool — including financial conditions — to ensure return to court and protect victims.
+      key_concerns:
+        - Repeat offending pretrial
+        - Victim and community safety
+        - Judicial discretion
+    - label: Risk-assessment reformers
+      summary: "Replace cash bail with validated risk-assessment tools: automatic release for low-risk, supervision for medium-risk, detention for high-risk. Algorithmic transparency and bias auditing required."
+      key_concerns:
+        - Validated risk-assessment tools
+        - Algorithmic bias
+        - Combined supervision and release options
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - pretrial
+  - bail

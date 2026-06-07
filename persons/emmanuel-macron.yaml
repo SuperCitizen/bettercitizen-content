@@ -1,0 +1,15 @@
+slug: emmanuel-macron
+full_name: Emmanuel Macron
+tier: "4"
+bio_md: President of France since 2017. Centrist who founded En Marche! and defeated Marine Le Pen twice. Known for economic reform efforts and pro-EU stance.
+role: politician
+affiliation: Renaissance (En Marche!)
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: EmmanuelMacron
+issue_stances: []

@@ -1,0 +1,14 @@
+slug: representus
+name: RepresentUs
+kind: civic-reform
+subtype: structural-reform
+description: Nonpartisan anti-corruption advocacy organization promoting state and local reforms including ranked-choice voting, redistricting commissions, and ethics laws.
+website: https://represent.us
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - ranked-choice-voting
+  - gerrymandering
+  - electoral-reform
+  - campaign-finance
+is_active: true

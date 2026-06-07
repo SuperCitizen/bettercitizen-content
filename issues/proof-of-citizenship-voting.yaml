@@ -1,0 +1,43 @@
+slug: proof-of-citizenship-voting
+name: Documentary proof-of-citizenship for voter registration
+category: elections-and-voting
+summary: Whether voters should have to present documentary proof of citizenship — such as a passport or birth certificate — when registering to vote, beyond the attestation under penalty of perjury required by federal law.
+body_md: |-
+  Federal law requires applicants registering to vote to attest to U.S. citizenship under penalty of perjury but does not require documentary proof such as a passport or birth certificate. Several states have proposed or enacted laws requiring such documents at registration, sparking legal challenges and partial court invalidations.
+
+  Supporters argue that citizenship is a constitutional prerequisite for voting in federal elections and that requiring documentary proof is a modest, common-sense safeguard against noncitizen registration — particularly given lax cross-checking of registration databases against immigration records.
+
+  Critics argue that documented evidence of noncitizen voting in federal elections is exceedingly rare, that millions of eligible Americans lack ready access to a passport or birth certificate, and that document requirements disproportionately burden the elderly, naturalized citizens, and lower-income voters. They also argue the existing attestation under penalty of perjury, combined with criminal penalties, is sufficient deterrent.
+spectrum:
+  left: Documentary proof-of-citizenship requirements solve a near-nonexistent problem by erecting real barriers for naturalized citizens, the elderly, and lower-income voters who lack ready access to passports or birth certificates.
+  center: Citizenship is a legitimate eligibility requirement, but the right enforcement is database cross-checks and severe penalties for fraud — not document requirements that block eligible voters with no recent passport renewal or accessible birth records.
+  right: Voting is reserved to citizens; requiring documentary proof at registration is a straightforward way to enforce that constitutional limit and shore up public confidence in the rolls.
+contested:
+  perspectives:
+    - label: Documentary-requirement supporters
+      summary: Citizenship is the constitutional baseline for voting in federal elections. Attestation under penalty of perjury is too weak an enforcement; documentary proof at registration is a low-cost, common-sense safeguard that aligns voter rolls with constitutional eligibility.
+      key_concerns:
+        - Citizenship is a constitutional eligibility rule
+        - Attestation alone is weak enforcement
+        - Public confidence depends on accurate rolls
+        - Database cross-checks against immigration records are inadequate
+    - label: Access-focused opponents
+      summary: Noncitizen voting in federal elections is vanishingly rare in documented evidence. Documentary requirements impose real costs — fees, travel, and lost time — that disproportionately fall on naturalized citizens, the elderly, and lower-income voters without convenient access to passports or birth certificates.
+      key_concerns:
+        - Documented noncitizen voting is extremely rare
+        - Burden falls on naturalized citizens and seniors
+        - Birth-certificate access can be costly and slow
+        - Existing perjury penalties already deter fraud
+    - label: Verification pragmatists
+      summary: The goal is accurate rolls without disenfranchisement. Better database cross-checks against DMV, Social Security, and naturalization records — paired with cure procedures — achieve citizenship verification without forcing eligible voters to dig up rare documents.
+      key_concerns:
+        - Backend database matching is more accurate than document checks
+        - Cure procedures protect eligible registrants
+        - Information-sharing across agencies needs investment
+        - Auditable, evidence-based design matters
+related_lesson_slugs: []
+tags:
+  - voting
+  - voter-id
+  - citizenship
+  - registration

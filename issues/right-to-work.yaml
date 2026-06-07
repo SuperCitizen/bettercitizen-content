@@ -1,0 +1,33 @@
+slug: right-to-work
+name: Right-to-work laws
+category: labor-and-welfare
+summary: State laws (in 27 states) that prohibit unions from requiring covered workers to pay union dues or fees, even if they benefit from collective bargaining.
+body_md: |-
+  The Taft-Hartley Act (1947) authorizes states to enact right-to-work (RTW) laws prohibiting "union security" agreements that require membership or fee payment as a condition of employment. As of 2024, 27 states have RTW laws.
+
+  Janus v. AFSCME (2018) extended RTW principles to public-sector unions nationwide, holding that mandatory agency fees for non-members violate the First Amendment.
+
+  Defenders argue RTW protects workers' freedom not to fund union activity they disagree with. Critics argue RTW creates "free rider" problems where workers benefit from collective bargaining without contributing, weakening unions and lowering wages.
+spectrum:
+  left: Most progressives oppose RTW and favor federal preemption (PRO Act would override state RTW laws).
+  center: Mixed views; some moderates accept RTW as a state-level decision.
+  right: Most conservatives support RTW as a worker-freedom protection.
+contested:
+  perspectives:
+    - label: RTW supporters
+      summary: Workers should not be forced to fund union activity. RTW protects First Amendment freedom of association and economic freedom; states with RTW have stronger job growth.
+      key_concerns:
+        - Worker freedom on dues
+        - First Amendment association rights
+        - State economic competitiveness
+    - label: Anti-RTW labor advocates
+      summary: RTW creates free-riders who benefit from union-negotiated wages, benefits, and protections without paying. The result is weaker unions, lower wages, and weaker worker voice.
+      key_concerns:
+        - Free-rider problem
+        - Union-bargaining strength
+        - Wage and benefits effects
+related_lesson_slugs: []
+tags:
+  - labor
+  - unions
+  - workers-rights

@@ -1,0 +1,33 @@
+slug: hate-crime-laws
+name: Hate crime laws
+category: civil-rights-and-liberties
+summary: Federal and state laws that enhance penalties for crimes motivated by bias against protected characteristics — race, religion, sexual orientation, gender identity, disability.
+body_md: |-
+  The Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act (2009) is the federal hate-crime statute. Most states have their own hate-crime laws with varying protected categories.
+
+  Hate-crime statutes generally enhance penalties for underlying crimes (assault, vandalism, homicide) when motivated by bias. The Supreme Court upheld penalty-enhancement statutes against First Amendment challenge in Wisconsin v. Mitchell (1993).
+
+  Defenders argue hate crimes inflict community-wide harm and warrant enhanced penalties as a deterrent and statement of social values. Critics argue penalty enhancements amount to thought-crime prosecution and that existing assault and vandalism laws are sufficient.
+spectrum:
+  left: Progressives strongly favor robust hate-crime laws covering race, religion, sexual orientation, gender identity, and disability.
+  center: Most centrists support hate-crime laws, with debates over which categories to include.
+  right: "Conservative views split: many support hate-crime laws; some libertarians and free-speech advocates oppose penalty enhancements."
+contested:
+  perspectives:
+    - label: Hate-crime law advocates
+      summary: Bias-motivated crimes harm not just individual victims but entire communities. Penalty enhancements deter such crimes, recognize their distinctive harm, and signal civic commitment to equal protection.
+      key_concerns:
+        - Community-wide harm of bias crimes
+        - Deterrence of bias-motivated violence
+        - Equal protection commitment
+    - label: Penalty-enhancement skeptics
+      summary: Existing criminal laws already punish assault, vandalism, and murder. Enhancing penalties based on the offender's motive comes uncomfortably close to criminalizing thought.
+      key_concerns:
+        - Free-speech / free-thought concerns
+        - Existing laws' adequacy
+        - Subjective motive determination
+related_lesson_slugs: []
+tags:
+  - civil-rights
+  - criminal-law
+  - discrimination

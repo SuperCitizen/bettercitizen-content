@@ -1,0 +1,11 @@
+slug: more-in-common
+name: More in Common
+kind: civic-reform
+subtype: depolarization
+description: Research nonprofit best known for the Hidden Tribes study; produces survey work on identity, polarization, and the perception gap.
+website: https://www.moreincommon.com
+jurisdiction: international
+partisan_lean: none
+concept_tags:
+  - polarization
+is_active: true

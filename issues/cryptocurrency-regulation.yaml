@@ -1,0 +1,43 @@
+slug: cryptocurrency-regulation
+name: Cryptocurrency regulation
+category: economy-and-taxation
+summary: How the U.S. should regulate digital assets — securities-law treatment, consumer protection, anti-money-laundering, stablecoin oversight, and CBDC questions.
+body_md: |-
+  Cryptocurrency regulation is fragmented across the SEC (securities), CFTC (commodities), Treasury/FinCEN (anti-money-laundering), state regulators, and IRS (taxation). Recent SEC enforcement actions have applied securities laws to many tokens; courts have split on the Howey-test analysis.
+
+  Pending legislative proposals include:
+  - **Market-structure bills** (e.g. FIT21) to allocate jurisdiction between SEC and CFTC.
+  - **Stablecoin frameworks** to require dollar-equivalent reserves and federal supervision.
+  - **Anti-money-laundering** updates to apply Bank Secrecy Act rules to DeFi protocols and self-hosted wallets.
+  - **CBDC**: Whether the Federal Reserve should issue a digital dollar.
+
+  Defenders see crypto as a financial-innovation engine; critics see it as a vehicle for fraud, ransomware, and speculative excess.
+spectrum:
+  left: Progressives largely favor strict consumer-protection rules, anti-laundering controls, and skepticism of crypto industry lobbying.
+  center: Many moderates favor a clear market-structure framework with delineated SEC/CFTC roles.
+  right: "Conservative views split: free-market and libertarian camps favor light regulation and oppose CBDC; national-security camps favor strict AML and stablecoin rules."
+contested:
+  perspectives:
+    - label: Innovation-friendly framework
+      summary: Clear, technology-neutral rules let legitimate crypto applications (remittances, tokenized assets, programmable money) flourish while addressing fraud and AML concerns.
+      key_concerns:
+        - Regulatory clarity
+        - Avoiding driving innovation overseas
+        - Preserving open-source development
+    - label: Consumer-protection focus
+      summary: Crypto markets have been characterized by fraud, market manipulation, ransomware, and speculative collapses (FTX, Terra/Luna). Strict securities-law application and AML rules protect investors and the financial system.
+      key_concerns:
+        - Investor protection
+        - Anti-money-laundering
+        - Systemic risk
+    - label: Anti-CBDC / financial-privacy advocates
+      summary: A government-issued digital dollar (CBDC) creates surveillance and control risks. Private stablecoins and self-hosted wallets preserve financial privacy.
+      key_concerns:
+        - Financial surveillance
+        - Government control of personal finance
+        - Self-custody rights
+related_lesson_slugs: []
+tags:
+  - finance
+  - technology
+  - regulation

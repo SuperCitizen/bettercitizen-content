@@ -1,0 +1,26 @@
+slug: justin-trudeau
+full_name: Justin Trudeau
+tier: "4"
+bio_md: Prime Minister of Canada from November 2015 to early 2025 and leader of the Liberal Party of Canada during that period. The son of former Prime Minister Pierre Trudeau, he previously worked as a teacher before entering federal politics. He won three consecutive elections before stepping down as party leader.
+role: former Prime Minister of Canada
+affiliation: Liberal Party of Canada
+party: Liberal
+lean_left: 65
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: JustinTrudeau
+issue_stances:
+  - slug: climate-policy
+    stance: Implemented a federal carbon-pricing system and supported phasing in clean-electricity standards
+  - slug: ukraine-support
+    stance: Provided sustained military, financial, and humanitarian aid to Ukraine and welcomed Ukrainian refugees
+  - slug: nato-and-alliances
+    stance: Reaffirmed Canada's NATO commitments and increased defense spending toward the 2% target
+  - slug: abortion-access
+    stance: Supports broad legal access to abortion and reproductive health services
+  - slug: lgbtq-protections
+    stance: Expanded protections for LGBTQ+ Canadians and apologized for historical state discrimination

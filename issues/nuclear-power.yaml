@@ -1,0 +1,43 @@
+slug: nuclear-power
+name: Nuclear power
+category: environment-and-energy
+summary: Whether and how to expand nuclear power — extending existing plants' lives, building advanced small modular reactors, and addressing waste storage.
+body_md: |-
+  Nuclear power supplies roughly 18% of U.S. electricity and ~50% of U.S. low-carbon generation. The fleet is aging — most plants were built in the 1970s and 1980s. Key debates:
+
+  - **License extensions**: NRC license renewals to 60 and 80 years.
+  - **Advanced reactors**: Small modular reactors (SMRs), microreactors, advanced reactor designs (NuScale, X-Energy, TerraPower, Kairos).
+  - **Waste storage**: Yucca Mountain remains stalled; consolidated interim storage debates continue.
+  - **Loan guarantees and subsidies**: IRA includes nuclear PTC; DOE loan-guarantee programs.
+  - **NRC reform**: Speeding up advanced-reactor licensing, fee structure debates.
+
+  After decades of decline, nuclear has gained bipartisan support as a low-carbon firm power source.
+spectrum:
+  left: 'Progressive views split: some progressives oppose nuclear (waste, weapons, cost); a growing "ecomodernist" faction strongly supports it.'
+  center: Most centrists support preserving the existing fleet and developing advanced reactors.
+  right: Most conservatives favor expanded nuclear, citing baseload reliability and energy security.
+contested:
+  perspectives:
+    - label: Pro-nuclear advocates
+      summary: Nuclear is the only proven, scalable, firm low-carbon power source. Preserve the existing fleet, build advanced reactors, and reform NRC licensing to enable buildout.
+      key_concerns:
+        - Firm low-carbon generation
+        - Energy reliability
+        - Advanced-reactor deployment
+    - label: Anti-nuclear advocates
+      summary: Nuclear is expensive, slow to build, leaves dangerous waste, and historic plants have had safety incidents. Renewables plus storage can deliver low-carbon firm power without these problems.
+      key_concerns:
+        - Cost and construction overruns
+        - Waste storage
+        - Safety and proliferation
+    - label: Pragmatist middle ground
+      summary: Preserve the existing fleet (closing operating reactors raises emissions). Carefully fund advanced-reactor demonstrations. Don't rely on nuclear as primary expansion strategy.
+      key_concerns:
+        - Existing-fleet preservation
+        - Targeted advanced-reactor R&D
+        - Realistic deployment timelines
+related_lesson_slugs: []
+tags:
+  - energy
+  - nuclear
+  - climate

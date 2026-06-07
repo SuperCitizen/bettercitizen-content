@@ -1,0 +1,15 @@
+slug: marc-andreessen
+full_name: Marc Andreessen
+tier: "4"
+bio_md: Co-founder of Netscape and venture capital firm Andreessen Horowitz (a16z). Influential tech investor and author of the 'techno-optimist manifesto.' Emerging as a prominent critic of 'progress-blocking' institutions.
+role: tech executive, investor
+affiliation: Andreessen Horowitz
+lean_left: 25
+lean_right: 75
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: true
+twitter: pmarca
+issue_stances: []

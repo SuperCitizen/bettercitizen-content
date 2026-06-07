@@ -1,0 +1,19 @@
+slug: michael-barbaro
+full_name: Michael Barbaro
+tier: "4"
+bio_md: American journalist and podcast host. Host of The Daily, The New York Times' flagship news podcast, since its launch in 2017. Previously served as a political reporter for The New York Times covering campaigns including the 2016 presidential election. Known for in-depth conversational interviews with reporters about their stories.
+role: host of The Daily podcast
+affiliation: The New York Times
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: mikiebarb
+issue_stances:
+  - slug: abortion-access
+    stance: Has produced extensive Daily episodes on the legal and personal dimensions of reproductive rights
+  - slug: climate-policy
+    stance: Has covered climate policy debates and impacts across multiple Daily episodes

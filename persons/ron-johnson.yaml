@@ -1,0 +1,24 @@
+slug: ron-johnson
+full_name: Ron Johnson
+tier: "3"
+bio_md: US Senator from Wisconsin since 2011. Former plastics manufacturing executive before entering politics. Former chair of the Senate Homeland Security and Governmental Affairs Committee. Known for skepticism of COVID-19 vaccine mandates and questions about the 2020 election.
+role: US Senator from Wisconsin
+affiliation: United States Senate
+party: Republican
+lean_left: 12
+lean_right: 82
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: SenRonJohnson
+issue_stances:
+  - slug: social-security-solvency
+    stance: Has proposed making Social Security and Medicare subject to discretionary appropriations
+  - slug: ukraine-support
+    stance: Has voted against multiple Ukraine aid packages in the Senate
+  - slug: corporate-tax-rate
+    stance: Strong supporter of the 2017 Tax Cuts and Jobs Act and pass-through deduction
+  - slug: abortion-access
+    stance: Opposes federal abortion protections and supports state-level restrictions

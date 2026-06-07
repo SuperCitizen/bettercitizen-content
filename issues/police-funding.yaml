@@ -1,0 +1,43 @@
+slug: police-funding
+name: Police funding and reform
+category: criminal-justice
+summary: How to structure police budgets, training, oversight, and alternative-response programs after the 2020 protests over George Floyd's killing.
+body_md: |-
+  Police-funding debates surged after 2020 protests. Three broad framings emerged:
+  - **"Defund the police"**: Reduce police budgets and reallocate to social services, mental-health response, and community programs. Some advocates mean abolition; others mean modest budget shifts.
+  - **"Reform the police"**: Maintain or increase funding while requiring training (de-escalation, anti-bias), body cameras, oversight (civilian review boards), and accountability (qualified-immunity reform).
+  - **"Fund the police"**: Increase funding for officers, training, and equipment to address rising crime and recruitment shortfalls.
+
+  Empirical evidence:
+  - Cities that significantly cut police budgets in 2020-21 mostly restored or increased them by 2022-23.
+  - Alternative-response programs (mental-health teams) have shown promise for non-violent calls.
+  - Crime rates rose in 2020-22 in many cities and have since fallen.
+spectrum:
+  left: "Progressive views vary: some favor significant reallocation to social services; others favor reform with adequate funding."
+  center: "Most centrists favor reform-with-funding: training, oversight, accountability, and alternative-response."
+  right: Most conservatives favor maintaining or increasing police funding and oppose "defund" framing.
+contested:
+  perspectives:
+    - label: Reallocation advocates
+      summary: Police are over-deployed for problems they're not trained to handle (mental health, homelessness, social conflict). Reallocate to specialists, social services, and community programs.
+      key_concerns:
+        - Right-sizing police role
+        - Mental-health and social-services investment
+        - Reducing harm in non-criminal encounters
+    - label: Reform-with-funding advocates
+      summary: "Better policing requires investment: training, body cameras, oversight, civilian review, and pay to attract good officers. Combined with accountability reforms, this delivers safer communities."
+      key_concerns:
+        - Officer training and standards
+        - Civilian oversight and accountability
+        - Recruitment and retention
+    - label: Pro-funding / pro-policing advocates
+      summary: Cities that experimented with cuts saw rising crime and officer departures. Adequate funding, equipment, and respect for police are essential to public safety.
+      key_concerns:
+        - Crime rates and public safety
+        - Officer recruitment and retention
+        - Support for line officers
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - policing
+  - public-safety

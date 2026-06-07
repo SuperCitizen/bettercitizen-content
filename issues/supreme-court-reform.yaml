@@ -1,0 +1,43 @@
+slug: supreme-court-reform
+name: Supreme Court reform
+category: governance-and-institutions
+summary: Proposals to change the size of the Supreme Court, impose term limits, or restructure judicial selection — debated intensely after high-profile decisions on abortion, guns, and administrative law.
+body_md: |-
+  The Supreme Court has had nine justices since 1869, set by statute (not the Constitution). Justices serve life terms, with the median tenure now exceeding 25 years. Recent proposals include:
+
+  - **Court expansion** ("court-packing"): Adding seats by statute. Proposed at various points by both parties; FDR's 1937 plan was rejected by Congress.
+  - **Term limits**: 18-year staggered terms, with a new appointment every two years, often paired with senior-status retirement.
+  - **Jurisdictional reform**: Stripping the Court of jurisdiction over particular subject areas via Article III, §2.
+  - **Ethics reform**: Binding code of conduct, recusal rules, and disclosure requirements.
+
+  The reforms range from constitutional amendments (term limits for current justices) to statutory changes Congress could enact directly.
+spectrum:
+  left: After Dobbs and other recent decisions, many progressives support expansion, term limits, or jurisdictional reform to rebalance the Court.
+  center: Some moderates favor term limits and a binding ethics code as least-disruptive structural reforms.
+  right: Most conservatives oppose expansion as a partisan power grab; some support term limits or ethics reform.
+contested:
+  perspectives:
+    - label: Court-expansion advocates
+      summary: The current Court was assembled through unprecedented norm-breaking (denying Garland, rushing Barrett). Expansion is a constitutional remedy authorized by the same statute that set the count at nine.
+      key_concerns:
+        - Restoring balance after norm-breaking confirmations
+        - Statutory authority for Court size
+        - Rebalancing politicized rulings
+    - label: Term-limits advocates
+      summary: 18-year staggered terms regularize appointments, reduce strategic retirements, and lower the stakes of any one vacancy. They may be enacted via statute or constitutional amendment.
+      key_concerns:
+        - Regularizing appointments
+        - Reducing politicization of vacancies
+        - Bringing the U.S. in line with peer nations
+    - label: Status-quo defenders
+      summary: Life tenure protects judicial independence. Court expansion would trigger an arms race that destroys judicial legitimacy. Reform should focus on confirmation norms, not Court structure.
+      key_concerns:
+        - Judicial independence
+        - Avoiding partisan retaliation cycles
+        - Constitutional stability
+related_lesson_slugs:
+  - three-branches
+tags:
+  - supreme-court
+  - judicial-reform
+  - institutions

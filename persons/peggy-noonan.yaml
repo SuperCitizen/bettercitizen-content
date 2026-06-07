@@ -1,0 +1,18 @@
+slug: peggy-noonan
+full_name: Peggy Noonan
+tier: "4"
+bio_md: American author and weekly columnist for The Wall Street Journal. Former special assistant and speechwriter to President Ronald Reagan, where she helped craft major addresses including the Challenger disaster remarks. Won a Pulitzer Prize for commentary in 2017. Has authored several books on American politics and culture.
+role: WSJ columnist, former Reagan speechwriter
+affiliation: The Wall Street Journal
+lean_left: 30
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances:
+  - slug: religious-liberty
+    stance: Has written about the importance of religious faith in American public life
+  - slug: free-speech-on-campus
+    stance: Has expressed concern about declining free speech norms on college campuses

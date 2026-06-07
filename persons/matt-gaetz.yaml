@@ -1,0 +1,24 @@
+slug: matt-gaetz
+full_name: Matt Gaetz
+tier: "4"
+bio_md: Former U.S. Representative from Florida's 1st district (2017-2024). Led the historic October 2023 motion to vacate that removed Speaker Kevin McCarthy. Nominated by President-elect Donald Trump for U.S. Attorney General in late 2024, but withdrew his nomination amid controversy. Resigned from the House before the nomination was withdrawn.
+role: former representative
+affiliation: U.S. House of Representatives (former)
+party: Republican
+lean_left: 10
+lean_right: 90
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: mattgaetz
+issue_stances:
+  - slug: ukraine-support
+    stance: Strongly opposed to continued U.S. aid to Ukraine
+  - slug: border-security
+    stance: Supports strict border enforcement and mass deportation policies
+  - slug: military-spending
+    stance: Has criticized open-ended defense spending and called for audits of the Pentagon
+  - slug: congressional-stock-trading
+    stance: Supported banning members of Congress from individual stock trading

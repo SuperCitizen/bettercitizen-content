@@ -1,0 +1,24 @@
+slug: kamala-harris
+full_name: Kamala Harris
+tier: "4"
+bio_md: 47th Vice President of the United States (2021–2025) and 2024 Democratic presidential nominee. Former California Attorney General and US Senator.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 70
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: KamalaHarris
+issue_stances:
+  - slug: cash-bail
+    stance: As California AG, pursued a complex record on criminal justice
+  - slug: border-security
+    stance: Led Biden administration's work on Central American root causes of migration
+  - slug: second-amendment-regulation
+    stance: Supports universal background checks and assault weapon restrictions
+  - slug: climate-policy
+    stance: Co-sponsored the Green New Deal as a Senator

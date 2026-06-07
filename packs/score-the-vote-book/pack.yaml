@@ -1,0 +1,40 @@
+schema: supercitizen.content/v1
+slug: score-the-vote-book
+title: Score the Vote
+summary: Why Score Voting Is the Best Way to Fix American Democracy A
+  book-length advocacy treatment by Chris Borgia (2026); ingested as a contested
+  pack. (License auto-set to CC-BY-SA-4.0 — original book metadata says "© 2026
+  Chris Borgia. All rights reserved.". Author confirmation required before
+  merging.)
+author: Chris Borgia
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags:
+  - voting-systems
+  - electoral-reform
+  - book
+level: intermediate
+official: false
+contested: true
+languages:
+  - en
+lessons:
+  - introduction.md
+  - the-plurality-problem.md
+  - what-is-score-voting.md
+  - the-reform-landscape.md
+  - simplicity-wins.md
+  - the-strategy-question.md
+  - voter-satisfaction-efficiency.md
+  - where-score-voting-works.md
+  - rcv-credit-where-due.md
+  - star-voting-the-hybrid.md
+  - the-math-chapter.md
+  - primaries-and-the-extremism-machine.md
+  - the-media-and-education-challenge.md
+  - money-and-elections.md
+  - constitutional-and-legal-questions.md
+  - the-objections.md
+  - building-the-movement.md
+  - the-path-to-fifty-states.md
+  - your-move.md

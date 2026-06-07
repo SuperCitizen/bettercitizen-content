@@ -1,0 +1,15 @@
+slug: steven-pinker
+full_name: Steven Pinker
+tier: "4"
+bio_md: Harvard psychologist and author of The Better Angels of Our Nature and Enlightenment Now. Known for his defense of Enlightenment values and data-driven optimism about human progress.
+role: psychologist, author
+affiliation: Harvard University
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: sapinker
+issue_stances: []

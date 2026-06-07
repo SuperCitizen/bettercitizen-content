@@ -1,0 +1,24 @@
+slug: anthony-albanese
+full_name: Anthony Albanese
+tier: "3"
+bio_md: Prime Minister of Australia since May 2022 and leader of the Australian Labor Party. A long-serving Member of Parliament for an inner-Sydney seat, he held senior cabinet roles under prior Labor governments, including as Deputy Prime Minister. Known by the nickname 'Albo'.
+role: Prime Minister of Australia
+affiliation: Australian Labor Party
+party: Labor
+lean_left: 60
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: AlboMP
+issue_stances:
+  - slug: climate-policy
+    stance: Legislated stronger emissions-reduction targets and expanded renewable-energy investment
+  - slug: taiwan-and-china
+    stance: Stabilized strained relations with Beijing while maintaining the AUKUS security pact
+  - slug: nato-and-alliances
+    stance: Deepened the U.S. alliance through AUKUS submarine cooperation and increased defense spending
+  - slug: union-rights
+    stance: Strengthened collective bargaining and pay-equity rules through industrial-relations reform

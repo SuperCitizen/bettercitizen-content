@@ -1,0 +1,24 @@
+slug: mitt-romney
+full_name: Mitt Romney
+tier: "4"
+bio_md: Former U.S. Senator from Utah (2019-2025) and 2012 Republican presidential nominee. Previously served as the 70th Governor of Massachusetts and led the 2002 Salt Lake City Winter Olympics. Co-founder of Bain Capital. Known for his willingness to break with his party, including voting to convict Donald Trump in both impeachment trials.
+role: former senator, businessman
+affiliation: U.S. Senate (former)
+party: Republican
+lean_left: 30
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: MittRomney
+issue_stances:
+  - slug: ukraine-support
+    stance: Strong supporter of military and economic aid to Ukraine against Russian invasion
+  - slug: climate-policy
+    stance: Acknowledges human role in climate change and has supported some emissions-related policy responses
+  - slug: nato-and-alliances
+    stance: Defender of NATO and traditional U.S. alliance structures
+  - slug: corporate-tax-rate
+    stance: Supported the 2017 Tax Cuts and Jobs Act reduction in corporate rates

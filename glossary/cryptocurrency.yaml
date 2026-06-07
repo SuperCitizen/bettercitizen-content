@@ -1,0 +1,12 @@
+slug: cryptocurrency
+name: Cryptocurrency
+short_definition: A digital or virtual currency secured by cryptography and typically operating on a decentralized blockchain network, independent of central banks.
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "Greek: kryptos (hidden, secret) + Latin: currens (running, flowing). Bitcoin, the first cryptocurrency, was created in 2009 by the pseudonymous Satoshi Nakamoto"
+why_it_matters: Cryptocurrency challenges the government's monopoly on money and raises fundamental questions about financial regulation, monetary policy, and the future of the global financial system.
+context_example: Bitcoin's price surge to $100,000 forced regulators to confront the reality that cryptocurrency had grown too large to ignore, with trillions of dollars in total market capitalization.
+related_term_slugs: []
+tags: []

@@ -1,0 +1,15 @@
+slug: mehdi-hasan
+full_name: Mehdi Hasan
+tier: "4"
+bio_md: British-American journalist and broadcaster. Former MSNBC host and Al Jazeera presenter. Known for his combative interview style and progressive Muslim perspective.
+role: journalist
+affiliation: Zeteo
+lean_left: 80
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: mehdirhasan
+issue_stances: []

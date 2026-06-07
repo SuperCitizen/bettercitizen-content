@@ -1,0 +1,15 @@
+slug: candace-owens
+full_name: Candace Owens
+tier: "4"
+bio_md: Conservative commentator and media personality. Former communications director for Turning Point USA. Known for her vocal criticism of progressive politics.
+role: commentator
+affiliation: Conservative media
+lean_left: 10
+lean_right: 90
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: RealCandaceO
+issue_stances: []

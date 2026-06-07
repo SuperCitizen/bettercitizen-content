@@ -1,0 +1,39 @@
+slug: medicare-advantage-reform
+name: Medicare Advantage reform
+category: healthcare
+summary: Whether and how to reform Medicare Advantage — the privately-administered Medicare program — addressing concerns about upcoding, marketing practices, prior authorization, and taxpayer cost.
+body_md: |-
+  Medicare Advantage (Part C) lets private insurers offer Medicare coverage, often with extra benefits (dental, vision, gym memberships) in exchange for accepting capitated payments from CMS. More than half of Medicare beneficiaries are now enrolled in MA plans.
+
+  Critics — including MedPAC, the OIG, and many academic researchers — point to evidence of risk-score "upcoding" (insurers coding patients as sicker than they are to collect higher payments), aggressive and sometimes misleading marketing, frequent prior-authorization denials, and total taxpayer costs that exceed what equivalent traditional Medicare would cost.
+
+  Defenders point to extra benefits, lower out-of-pocket costs for many enrollees, care coordination, and high member-satisfaction scores. Reform proposals range from incremental adjustments to risk-adjustment formulas up to structural changes in how MA plans are paid and regulated.
+spectrum:
+  left: Progressives often want substantial MA reform or rollback — fixing upcoding, tightening marketing rules, requiring transparency on denials, and reducing taxpayer overpayments to insurers.
+  center: Centrists tend to support targeted reforms — better risk adjustment, stronger oversight of marketing and prior authorization — while preserving the program structure.
+  right: Many conservatives defend Medicare Advantage as a successful market-based model that delivers value to seniors and warn that aggressive reform would reduce benefits and choices.
+contested:
+  perspectives:
+    - label: Cost-control reformers
+      summary: Medicare Advantage now costs taxpayers tens of billions more per year than traditional Medicare would for the same beneficiaries, largely because of risk-coding gaming. Without aggressive reform, MA threatens Medicare's long-term solvency.
+      key_concerns:
+        - Risk-score upcoding by insurers
+        - Taxpayer overpayments and trust-fund solvency
+        - Marketing misrepresentations to seniors
+    - label: MA defenders
+      summary: Medicare Advantage delivers integrated care, extra benefits, and lower out-of-pocket costs that traditional Medicare does not. High member satisfaction and growing enrollment show the model works for seniors who choose it.
+      key_concerns:
+        - Extra benefits valued by enrollees
+        - Care coordination and chronic-disease management
+        - Senior choice and plan competition
+    - label: Prior-authorization critics
+      summary: Whether the program is reformed or replaced, prior-authorization denials and post-acute care restrictions are causing real harm. Doctors and patients face administrative burden and delayed care, and oversight has been weak.
+      key_concerns:
+        - Prior-authorization denials and delays
+        - Administrative burden on providers
+        - Transparency on denial rates
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - medicare
+  - insurance

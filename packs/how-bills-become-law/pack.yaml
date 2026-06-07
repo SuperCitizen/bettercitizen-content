@@ -1,0 +1,17 @@
+schema: supercitizen.content/v1
+slug: how-bills-become-law
+title: How a bill becomes law
+summary: The actual path from a senator or representative's idea to an enacted
+  federal law — committee, floor, conference, and the President's desk.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags:
+  - civics-101
+level: intro
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - from-idea-to-law.md

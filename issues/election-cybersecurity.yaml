@@ -1,0 +1,33 @@
+slug: election-cybersecurity
+name: Election cybersecurity
+category: technology-and-data
+summary: Federal versus state authority over election infrastructure cybersecurity, including CISA support, voting-system standards, and post-2020 disputes.
+body_md: |-
+  Elections in the U.S. are administered by states and localities, but election infrastructure was designated critical infrastructure in 2017, bringing federal cybersecurity support to bear. The Cybersecurity and Infrastructure Security Agency (CISA) provides threat information, vulnerability scanning, training, and incident response to state and local election officials. The Election Assistance Commission (EAC) develops voluntary voting-system standards.
+
+  Concerns span foreign interference (Russian probing in 2016, ongoing nation-state activity), ransomware and other criminal threats, voter-registration database security, mis- and disinformation in the broader information environment, and physical security of election workers and facilities. Routine post-election audits and paper-ballot backup are widely cited as core resilience measures.
+
+  Debates after the 2020 election sharpened over CISA's role on disinformation, the boundary between cybersecurity assistance and content moderation, voter-roll maintenance, and the proper federal role in standards. Some states have welcomed federal coordination; others have grown skeptical.
+spectrum:
+  left: Most progressives support robust federal cybersecurity assistance to states, mandatory paper-ballot backup and post-election audits, and federal voting-system standards.
+  center: Centrists generally support CISA cybersecurity assistance to willing states, paper-ballot backup, risk-limiting audits, and voluntary federal standards, while respecting state administration.
+  right: Conservative views vary. Many support CISA technical assistance but oppose federal mandates and CISA roles seen as edging into content moderation; election-integrity emphasis varies widely.
+contested:
+  perspectives:
+    - label: Federal-coordination advocates
+      summary: Election infrastructure faces nation-state and criminal cyber threats that no single county can address alone. Federal cybersecurity coordination through CISA, common standards through the EAC, paper-ballot backup, and post-election audits are core resilience measures. State administration remains intact under federal support.
+      key_concerns:
+        - Foreign-adversary cyber threats
+        - Paper-ballot backup and post-election audits
+        - Common cybersecurity standards across jurisdictions
+    - label: State-authority and scope skeptics
+      summary: States and localities run elections under the Constitution. Federal mandates risk centralizing authority, and some past CISA activities — particularly around disinformation — have edged into content moderation that goes beyond cybersecurity. Federal help should be voluntary, technical, and tightly scoped to actual infrastructure security.
+      key_concerns:
+        - Constitutional state authority over elections
+        - Scope of federal cybersecurity agencies
+        - Avoiding content-moderation drift
+related_lesson_slugs: []
+tags:
+  - technology
+  - elections
+  - cybersecurity

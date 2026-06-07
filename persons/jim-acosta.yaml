@@ -1,0 +1,19 @@
+slug: jim-acosta
+full_name: Jim Acosta
+tier: "4"
+bio_md: American journalist and former CNN chief domestic correspondent. Previously served as CNN's chief White House correspondent during the Trump and Biden administrations, where he had notable confrontations with President Trump. Author of The Enemy of the People, a memoir about covering the Trump White House. Left CNN in 2025.
+role: former CNN chief domestic correspondent
+affiliation: Substack (independent)
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: Acosta
+issue_stances:
+  - slug: border-security
+    stance: Has reported critically on aggressive immigration enforcement policies
+  - slug: free-speech-on-campus
+    stance: Strong advocate for press freedom and journalists' access to officials

@@ -1,0 +1,39 @@
+slug: universal-pre-k
+name: Universal pre-kindergarten
+category: education
+summary: Federal or state proposals to provide free, voluntary, high-quality preschool to all 3- and 4-year-olds.
+body_md: |-
+  Universal pre-K proposals have broad support but vary in design: which ages (3-4, or 4 only?), funding (federal grants, state-led, refundable tax credit?), provider mix (public schools, child-care centers, head-start integrated?), and standards (teacher credentials, curriculum, hours).
+
+  Empirical evidence is robust on high-quality programs (Boston, NYC, Tulsa, Perry Preschool) showing durable academic and life-outcome gains, especially for low-income children. Lower-quality, larger-scale programs show smaller and sometimes fade-out effects.
+
+  States with universal-or-near-universal pre-K (Oklahoma, Florida, Georgia, NY, DC) provide natural experiments.
+spectrum:
+  left: Progressives strongly favor federal universal pre-K with strong quality standards.
+  center: Many moderates favor universal pre-K, often through state-grant federal partnerships.
+  right: "Conservative views split: some support targeted programs for low-income children; others oppose new federal entitlements and prefer parental choice / homeschooling support."
+contested:
+  perspectives:
+    - label: Universal-program advocates
+      summary: High-quality pre-K delivers durable academic, behavioral, and life-outcome gains, especially for low-income children. Universal access prevents the stigma and complexity of means-testing.
+      key_concerns:
+        - Early-childhood developmental gains
+        - Closing readiness gaps before kindergarten
+        - Avoiding means-test stigma
+    - label: Targeted-program advocates
+      summary: Targeting resources at low-income children delivers more cost-effective gains. Universal pre-K is regressive — providing free care to families that already pay for it.
+      key_concerns:
+        - Cost-effectiveness
+        - Avoiding subsidy of high-income families
+        - Maintaining program quality
+    - label: Parental-choice / homeschool support
+      summary: Federal pre-K crowds out family time and varied early-childhood arrangements (homeschool, family child care, stay-at-home parenting). Direct support to parents — child tax credit, child-care subsidies — preserves choice.
+      key_concerns:
+        - Parental choice in early childhood
+        - Avoiding institutional bias
+        - Supporting diverse family arrangements
+related_lesson_slugs: []
+tags:
+  - education
+  - early-childhood
+  - k-12

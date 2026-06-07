@@ -1,0 +1,36 @@
+slug: epa-authority
+name: EPA regulatory authority
+category: environment-and-energy
+summary: The scope of EPA's authority under the Clean Air Act, Clean Water Act, and other statutes — narrowed by recent Supreme Court major-questions and Chevron-overturning decisions.
+body_md: |-
+  Recent Supreme Court decisions have significantly constrained EPA authority:
+  - **West Virginia v. EPA (2022)**: Used "major questions doctrine" to strike down power-sector emissions regulation.
+  - **Sackett v. EPA (2023)**: Narrowed Clean Water Act jurisdiction over wetlands.
+  - **Loper Bright v. Raimondo (2024)**: Overturned Chevron deference, requiring courts to independently interpret ambiguous statutes.
+
+  Pending fights include power-sector greenhouse-gas standards, vehicle emissions standards, methane rules, PFAS regulation, and Endangered Species Act listings.
+
+  Defenders argue EPA needs broad authority to address evolving environmental threats Congress wrote statutes to address. Critics argue agency rule-making has expanded beyond statutory authorization, requiring judicial correction.
+spectrum:
+  left: Progressives generally favor robust EPA authority and oppose major-questions / Chevron-overturning decisions.
+  center: Many centrists favor strong environmental protection within clearer statutory limits.
+  right: Most conservatives favor judicial limits on EPA authority and clearer congressional authorization for major regulations.
+contested:
+  perspectives:
+    - label: Robust-EPA-authority advocates
+      summary: Congress wrote broad environmental statutes intending broad enforcement. The major-questions and post-Chevron framework hamstring EPA from addressing evolving threats Congress wanted addressed.
+      key_concerns:
+        - Statutory authority and intent
+        - Addressing climate, PFAS, novel pollutants
+        - Congressional gridlock on environmental statutes
+    - label: Limited-authority advocates
+      summary: Major regulatory decisions should require clear congressional authorization. EPA's recent rule-makings — especially on climate — exceed what Congress authorized in mid-20th-century statutes.
+      key_concerns:
+        - Congressional authorization
+        - Separation of powers
+        - Predictable regulatory environment
+related_lesson_slugs: []
+tags:
+  - environment
+  - regulation
+  - administrative-law

@@ -1,0 +1,12 @@
+slug: misinformation
+name: Misinformation
+short_definition: False or inaccurate information spread without deliberate intent to deceive.
+body_md: ""
+category: media-information
+difficulty: foundational
+status: active
+etymology: "English: mis- (wrongly) + information. From Latin informare (to give form to, instruct). Distinguished from disinformation by the absence of intent to deceive"
+why_it_matters: Misinformation spreads faster than truth on social media, and well-meaning people sharing inaccurate health, science, or political claims can do enormous damage.
+context_example: The viral post claiming the vaccine contained a microchip was misinformation — the person who shared it genuinely believed it, though it had no basis in fact.
+related_term_slugs: []
+tags: []

@@ -1,0 +1,72 @@
+schema: supercitizen.assessment/v1
+lesson: the-science-and-the-stakes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which of these claims is established (not contested) in the climate-science literature?"
+    choices:
+      - id: a
+        text: "Whether human emissions are the primary cause of the post-1850 warming."
+      - id: b
+        text: "Whether warming this century will be 1.5°C or 4°C."
+      - id: c
+        text: "Whether geoengineering should be used as a backup option."
+      - id: d
+        text: "Whether the optimal carbon price is above $50/ton."
+    correct_choice_id: a
+    explanation: "The first is established science (IPCC AR6, multiple lines of evidence). The second is a *projection* depending on emissions trajectories — not science but a conditional outcome. The third and fourth are policy questions, not scientific ones. Distinguishing established physics from projections from policy is the core of careful climate reasoning."
+    concepts: [climate]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What was the temperature target set by the Paris Agreement (2015)?"
+    choices:
+      - id: a
+        text: "Limiting warming to exactly 1.5°C above pre-industrial levels."
+      - id: b
+        text: "Holding warming 'well below 2°C' with efforts to limit it to 1.5°C."
+      - id: c
+        text: "Reducing warming to pre-industrial levels by 2100."
+      - id: d
+        text: "Stabilizing emissions at 2010 levels."
+    correct_choice_id: b
+    explanation: "The Paris Agreement targets warming 'well below 2°C' with 'efforts to limit to 1.5°C.' The 1.5°C target is more ambitious; current NDCs (Nationally Determined Contributions) collectively project ~2.5-3°C if fully implemented. Closing this gap requires either more ambitious NDCs or technologies that enable faster reductions."
+    concepts: [climate, paris-agreement]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What does West Virginia v. EPA (2022) limit?"
+    choices:
+      - id: a
+        text: "EPA's authority to regulate any greenhouse gas emissions."
+      - id: b
+        text: "EPA's authority to require 'generation shifting' (cap-and-trade-style power-plant regulation) without clear congressional authorization."
+      - id: c
+        text: "California's authority to set vehicle emissions standards."
+      - id: d
+        text: "States' authority to participate in cap-and-trade programs."
+    correct_choice_id: b
+    explanation: "West Virginia v. EPA limited EPA's authority to require generation shifting under §111(d) of the Clean Air Act — the agency cannot push utilities away from coal as a regulatory matter without clear statutory authorization. The Court applied the 'major questions doctrine': agencies need clear authorization for actions of major political-economic significance. EPA retains authority to regulate vehicle emissions, methane, and plant-level standards."
+    concepts: [climate, epa-regulation]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which best describes the Inflation Reduction Act's approach to climate?"
+    choices:
+      - id: a
+        text: "Economy-wide carbon tax."
+      - id: b
+        text: "Cap-and-trade with declining emissions caps."
+      - id: c
+        text: "Tax credits and manufacturing incentives for clean-energy technology, plus a methane fee on oil-and-gas."
+      - id: d
+        text: "A direct fossil-fuel phaseout mandate."
+    correct_choice_id: c
+    explanation: "The IRA is essentially the innovation-led model: ~$370B in tax credits and manufacturing incentives for solar, wind, batteries, EVs, hydrogen, etc., plus a methane fee on oil-and-gas. It does not include carbon pricing or fossil-fuel phaseouts. Independent modeling projects U.S. emissions falling 40-44% below 2005 by 2030 with full implementation."
+    concepts: [climate, inflation-reduction-act]
+
+  - id: q5
+    kind: free-response
+    text: "The aggressive-mitigation and adaptation-first positions disagree about how to allocate climate-policy resources. State the strongest version of each side's argument about distribution."
+    socratic_seed: "Aggressive-mitigation: climate damages fall disproportionately on poor and vulnerable populations who haven't contributed much to emissions; this distributional asymmetry is itself a moral argument for the wealthy world to lead on mitigation. Adaptation-first: mitigation costs (energy-price increases, coal-region job losses) fall disproportionately on lower-income workers in wealthy countries; ignoring these costs produces democratic backlash that ultimately undoes the policy. Both sides agree distribution matters; they disagree about which distributional cost is the binding constraint."
+    concepts: [climate, mitigation, adaptation]

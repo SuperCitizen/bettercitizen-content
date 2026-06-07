@@ -1,0 +1,43 @@
+slug: israel-palestine-policy
+name: U.S. policy on Israel and Palestine
+category: foreign-policy
+summary: How the U.S. should structure military aid, diplomatic support, settlement policy, and humanitarian assistance regarding Israel and the Palestinian territories.
+body_md: |-
+  U.S. policy provides Israel with $3.8B/year in military aid under a 10-year Memorandum of Understanding, plus political and diplomatic support. The U.S. recognizes Israel's right to exist and historically supports a two-state solution, though that goal has receded as a near-term reality.
+
+  Recent debates have intensified after the October 7, 2023 Hamas attacks and the subsequent Gaza war:
+  - **Conditions on military aid**: Whether to condition aid on humanitarian access, settlement policy, or compliance with U.S. arms-export law.
+  - **Humanitarian aid**: Funding to Gaza and the West Bank.
+  - **UN votes**: U.S. Security Council vetoes of resolutions critical of Israel.
+  - **West Bank settlements**: U.S. policy on annexation and settlement expansion.
+  - **Two-state solution**: Whether and how to pursue.
+spectrum:
+  left: Progressive views range from continued strong support for Israel to substantial conditioning of aid; growing left wing favors restrictions.
+  center: Most centrists support continued strong U.S.-Israel partnership, with debates over humanitarian access and settlements.
+  right: Most conservatives strongly support unconditional U.S.-Israel partnership.
+contested:
+  perspectives:
+    - label: Strong-partnership advocates
+      summary: Israel is a close democratic ally facing genuine security threats. U.S. aid is essential to its defense; conditioning or weakening aid emboldens Hamas, Hezbollah, and Iran.
+      key_concerns:
+        - Israeli security
+        - Counter-Iran posture
+        - Democratic-ally solidarity
+    - label: Conditional-aid advocates
+      summary: U.S. aid carries U.S. interests and U.S. legal obligations (Leahy laws, arms-export rules). Conditions on humanitarian access, civilian protection, and settlement policy align Israeli policy with U.S. values and law.
+      key_concerns:
+        - Civilian protection in Gaza and West Bank
+        - Compliance with U.S. arms-export law
+        - Two-state solution pathway
+    - label: Pro-Palestinian rights advocates
+      summary: U.S. support has enabled occupation, settlement expansion, and disproportionate civilian harm. Significant restrictions on aid, recognition of Palestinian state, and accountability mechanisms are needed.
+      key_concerns:
+        - Palestinian self-determination
+        - Civilian-casualty accountability
+        - Settlement-expansion policy
+related_lesson_slugs:
+  - foreign-policy
+tags:
+  - foreign-policy
+  - israel
+  - middle-east

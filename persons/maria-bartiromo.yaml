@@ -1,0 +1,19 @@
+slug: maria-bartiromo
+full_name: Maria Bartiromo
+tier: "4"
+bio_md: American journalist and television anchor. Host of Mornings with Maria on Fox Business and Sunday Morning Futures on Fox News. Previously spent two decades at CNBC where she became the first journalist to report live from the floor of the New York Stock Exchange daily. Focuses on business, finance, and political interviews.
+role: Fox News business anchor
+affiliation: Fox News, Fox Business
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: MariaBartiromo
+issue_stances:
+  - slug: corporate-tax-rate
+    stance: Generally supports lower corporate tax rates to encourage business investment
+  - slug: trade-with-china
+    stance: Has hosted extensive coverage critical of Chinese trade and economic practices

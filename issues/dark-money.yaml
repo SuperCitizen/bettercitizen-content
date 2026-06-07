@@ -1,0 +1,35 @@
+slug: dark-money
+name: Dark money in elections
+category: money-in-politics
+summary: Political spending whose original donors are not publicly disclosed — typically routed through 501(c)(4) "social welfare" nonprofits or shell LLCs that contribute to Super PACs.
+body_md: |-
+  "Dark money" refers to political spending where the ultimate donor is shielded from public view. The most common channel is the 501(c)(4) social-welfare nonprofit, which can spend on issue advocacy and political activity (so long as politics isn't its "primary" purpose) without disclosing donors. LLCs and trusts can also be used to route money into Super PACs while obscuring origin.
+
+  Dark-money spending exceeded $1 billion across recent presidential cycles, on both left and right. Disclosure proposals — DISCLOSE Act variants, FEC rule changes, IRS reforms — have so far stalled.
+
+  Defenders argue donor anonymity protects free association and shields donors from harassment; critics argue voters cannot evaluate political speech without knowing who paid for it.
+spectrum:
+  left: Progressives strongly favor disclosure of all political spending donors as a transparency baseline.
+  center: Reformers across parties support disclosure as compatible with the First Amendment.
+  right: Some conservatives oppose donor disclosure on association-rights and harassment-protection grounds.
+contested:
+  perspectives:
+    - label: Disclosure advocates
+      summary: Voters have a right to know who is funding the political speech they encounter. Disclosure is the bare minimum and is fully compatible with the First Amendment per Citizens United itself.
+      key_concerns:
+        - Voter informational interest
+        - Deterring foreign and corporate influence
+        - Closing 501(c)(4) loopholes
+    - label: Donor-privacy defenders
+      summary: Forced disclosure exposes donors to harassment, doxxing, and economic retaliation — chilling free association. NAACP v. Alabama (1958) protects associational privacy; modern donors deserve no less.
+      key_concerns:
+        - Donor harassment and retaliation
+        - Associational privacy rights
+        - Government weaponization of donor lists
+related_lesson_slugs:
+  - dark-money
+  - money-in-politics-101
+tags:
+  - campaign-finance
+  - transparency
+  - disclosure

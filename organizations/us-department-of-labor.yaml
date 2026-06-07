@@ -1,0 +1,10 @@
+slug: us-department-of-labor
+name: US Department of Labor
+kind: government
+subtype: executive-cabinet
+description: Cabinet department covering wages, workplace safety (OSHA), unemployment statistics (BLS), and labor-standards enforcement.
+website: https://www.dol.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

@@ -1,0 +1,12 @@
+slug: fiat-currency
+name: Fiat Currency
+short_definition: Government-issued money that is not backed by a physical commodity like gold, but by the trust and authority of the issuing government.
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "Latin: fiat (let it be done). The term reflects that the currency has value because the government decrees it so, not because it can be exchanged for gold or silver"
+why_it_matters: Every major currency in the world today is fiat — its value depends entirely on faith in the issuing government, making monetary policy and government debt levels critical.
+context_example: Critics of fiat currency argue that the government's ability to print money without constraint inevitably leads to inflation, pointing to hyperinflation in Zimbabwe and Venezuela.
+related_term_slugs: []
+tags: []

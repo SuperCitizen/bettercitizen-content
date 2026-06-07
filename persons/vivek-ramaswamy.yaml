@@ -1,0 +1,24 @@
+slug: vivek-ramaswamy
+full_name: Vivek Ramaswamy
+tier: "4"
+bio_md: Biotech entrepreneur and 2024 Republican presidential candidate. Author of Woke, Inc. Known for policy-dense debate performances and his critique of corporate activism. Later appointed to co-lead DOGE.
+role: entrepreneur, politician
+affiliation: Republican Party / DOGE
+party: Republican
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: VivekGRamaswamy
+issue_stances:
+  - slug: ai-regulation
+    stance: Opposes heavy AI regulation as stifling American competitiveness
+  - slug: national-debt
+    stance: Co-leads DOGE effort to dramatically cut federal spending
+  - slug: higher-education-funding
+    stance: Wants to abolish the Department of Education
+  - slug: section-230
+    stance: Sued ESG-focused institutions; opposes corporate political activism

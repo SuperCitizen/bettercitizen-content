@@ -1,0 +1,12 @@
+slug: gdp
+name: GDP
+short_definition: Gross Domestic Product — the total monetary value of all goods and services produced within a country's borders in a specific time period.
+body_md: ""
+category: economy
+difficulty: foundational
+status: active
+etymology: English acronym coined in 1934 by economist Simon Kuznets for a US Congressional report on national income
+why_it_matters: The most widely used measure of a nation's economic health, though it fails to capture inequality, environmental damage, or unpaid labor.
+context_example: The Commerce Department reported that GDP grew at an annualized rate of 2.8% in the third quarter, beating economists' expectations.
+related_term_slugs: []
+tags: []

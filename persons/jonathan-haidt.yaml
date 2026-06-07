@@ -1,0 +1,19 @@
+slug: jonathan-haidt
+full_name: Jonathan Haidt
+tier: "4"
+bio_md: Social psychologist at NYU Stern School of Business. Author of The Righteous Mind and The Anxious Generation. Studies moral psychology and the effects of social media.
+role: social psychologist, author
+affiliation: NYU
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: JonHaidt
+issue_stances:
+  - slug: section-230
+    stance: Studies how social media damages democratic discourse
+  - slug: higher-education-funding
+    stance: Advocates for childhood development and screen time limits

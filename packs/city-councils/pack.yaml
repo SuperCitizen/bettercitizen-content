@@ -1,0 +1,15 @@
+schema: supercitizen.content/v1
+slug: city-councils
+title: How City Councils Work
+summary: How U.S. city councils actually function — strong-mayor vs. council-manager governance, council member election (at-large vs. district), the role of city budgets, the legislative process at the local level — plus practical guidance on how to engage with your city council. Mostly civics-101 in spirit; the policy disagreements (size of councils, election method) are noted but not the focus.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [local-civics, city-government, civics-101]
+level: intro
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-how-it-works.md
+  - 02-how-to-engage.md

@@ -1,0 +1,44 @@
+slug: permitting-reform
+name: Permitting reform
+category: environment-and-energy
+summary: Whether and how to streamline federal environmental permitting under NEPA, the Clean Water Act, and ESA — needed for clean-energy buildout but resisted as environmental rollback.
+body_md: |-
+  The National Environmental Policy Act (NEPA) requires environmental impact statements for major federal actions. Average EIS preparation time is now 4-5 years. Reformers argue this prevents both clean-energy buildout (transmission, solar, wind, batteries) and infrastructure projects.
+
+  Permitting reform proposals include:
+  - **NEPA timelines**: Hard deadlines (2 years for EIS).
+  - **Litigation reforms**: Statute of limitations, fee-shifting.
+  - **Categorical exclusions**: Expanded categories of routine actions exempt from full review.
+  - **Single lead agency**: One agency takes the lead on multi-agency reviews.
+  - **Transmission siting**: Federal authority for interstate transmission lines.
+
+  Defenders argue reform is essential to climate goals and infrastructure needs. Critics argue NEPA review protects communities — especially low-income and minority — and shouldn't be sacrificed.
+spectrum:
+  left: "Progressive views split: clean-energy and union-aligned progressives favor reform; environmental-justice and conservation groups oppose weakening review."
+  center: Most centrists favor reform tied to clean-energy buildout.
+  right: Most conservatives favor permitting reform, especially for infrastructure and traditional energy.
+contested:
+  perspectives:
+    - label: Reform advocates
+      summary: NEPA delays now block more clean energy than fossil energy. Hard timelines, single-lead-agency reviews, and modernized litigation rules are essential to climate goals and infrastructure renewal.
+      key_concerns:
+        - Clean-energy buildout pace
+        - Transmission and infrastructure
+        - Climate-policy effectiveness
+    - label: Environmental-justice defenders
+      summary: NEPA review is the primary tool low-income and minority communities have to challenge harmful projects. Streamlining cuts public participation and risks repeating the harms NEPA was designed to address.
+      key_concerns:
+        - Public participation
+        - Environmental-justice protections
+        - Quality of impact assessment
+    - label: Targeted-reform middle ground
+      summary: Reform NEPA for clean-energy and transmission projects (where climate goals create urgency) while preserving full review for high-impact fossil-fuel and toxic-industry projects.
+      key_concerns:
+        - Sector-specific reform
+        - Categorical exclusions for low-impact projects
+        - Preserving review for high-impact projects
+related_lesson_slugs: []
+tags:
+  - environment
+  - energy
+  - infrastructure

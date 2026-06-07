@@ -1,0 +1,24 @@
+slug: olaf-scholz
+full_name: Olaf Scholz
+tier: "4"
+bio_md: Chancellor of Germany from December 2021 to early 2025, leading a three-party 'traffic light' coalition of the SPD, Greens, and FDP. Previously served as Finance Minister and Vice Chancellor under Angela Merkel, and as Mayor of Hamburg. A lawyer by training, he is a longtime figure in the center-left Social Democratic Party.
+role: former Chancellor of Germany
+affiliation: Social Democratic Party of Germany (SPD)
+party: SPD
+lean_left: 60
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: OlafScholz
+issue_stances:
+  - slug: ukraine-support
+    stance: Announced the Zeitenwende, raising defense spending and authorizing weapons transfers to Ukraine
+  - slug: nato-and-alliances
+    stance: Reaffirmed Germany's commitment to NATO and pushed allies to meet the 2% defense target
+  - slug: climate-policy
+    stance: Backed phasing out coal and expanding renewables while navigating the post-Russian-gas energy shock
+  - slug: trade-with-china
+    stance: Pursued cautious de-risking from China while preserving German export ties

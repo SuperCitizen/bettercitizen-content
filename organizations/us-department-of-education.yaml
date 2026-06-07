@@ -1,0 +1,10 @@
+slug: us-department-of-education
+name: US Department of Education
+kind: government
+subtype: executive-cabinet
+description: Cabinet department administering federal student aid, K-12 funding programs (Title I, IDEA), and civil-rights enforcement in education.
+website: https://www.ed.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

@@ -1,0 +1,24 @@
+slug: spencer-cox
+full_name: Spencer Cox
+tier: "3"
+bio_md: Governor of Utah since 2021. Previously served as Utah's Lieutenant Governor from 2013 to 2021. Known for his 'Disagree Better' initiative as chair of the National Governors Association, encouraging political civility across party lines. Member of The Church of Jesus Christ of Latter-day Saints.
+role: Governor of Utah
+affiliation: State of Utah
+party: Republican
+lean_left: 28
+lean_right: 65
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: GovCox
+issue_stances:
+  - slug: section-230
+    stance: Signed Utah laws restricting minors' use of social media platforms
+  - slug: abortion-access
+    stance: Signed Utah's trigger law banning most abortions, partly blocked by state courts
+  - slug: lgbtq-protections
+    stance: Vetoed a 2022 bill banning transgender girls from school sports, later overridden by legislature
+  - slug: border-security
+    stance: Advocates state cooperation with federal immigration enforcement while emphasizing political civility

@@ -1,0 +1,24 @@
+slug: eric-swalwell
+full_name: Eric Swalwell
+tier: "3"
+bio_md: U.S. Representative from California's 14th district since 2013. Former Alameda County deputy district attorney. Served on the House Intelligence Committee and as an impeachment manager in Donald Trump's second impeachment trial. Briefly ran for the 2020 Democratic presidential nomination.
+role: representative
+affiliation: U.S. House of Representatives
+party: Democratic
+lean_left: 80
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: RepSwalwell
+issue_stances:
+  - slug: second-amendment-regulation
+    stance: Supports an assault weapons ban and expanded background checks
+  - slug: abortion-access
+    stance: Supports codifying Roe-era abortion protections in federal law
+  - slug: ukraine-support
+    stance: Supports continued U.S. military and economic aid to Ukraine
+  - slug: voting-rights-act-restoration
+    stance: Supports federal legislation restoring Voting Rights Act protections

@@ -1,0 +1,12 @@
+slug: echo-chamber
+name: Echo Chamber
+short_definition: An environment where a person encounters only beliefs or opinions that reinforce their own, amplifying confirmation bias.
+body_md: ""
+category: media-information
+difficulty: intermediate
+status: active
+etymology: "English: from the acoustic echo chamber (a room designed to produce reverberations). Applied to media and politics in the early 2000s to describe self-reinforcing information environments"
+why_it_matters: Social media algorithms create echo chambers by showing users content that confirms their existing beliefs, contributing to political polarization and making compromise harder.
+context_example: The researcher found that 93% of the content shared within the political Facebook group reinforced the same viewpoint, creating a nearly impenetrable echo chamber.
+related_term_slugs: []
+tags: []

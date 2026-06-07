@@ -1,0 +1,24 @@
+slug: brian-kemp
+full_name: Brian Kemp
+tier: "3"
+bio_md: Governor of Georgia since 2019. Previously served as Georgia Secretary of State. Known for resisting pressure from President Trump to overturn Georgia's 2020 election results, certifying Joe Biden's win in the state. Signed Georgia's Election Integrity Act of 2021 and the state's heartbeat abortion law.
+role: Governor of Georgia
+affiliation: State of Georgia
+party: Republican
+lean_left: 20
+lean_right: 72
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: BrianKempGA
+issue_stances:
+  - slug: voter-id
+    stance: Signed Georgia's Election Integrity Act of 2021 expanding ID requirements for absentee voting
+  - slug: abortion-access
+    stance: Signed Georgia's six-week abortion ban (LIFE Act) in 2019
+  - slug: second-amendment-regulation
+    stance: Signed Georgia's permitless concealed carry law in 2022
+  - slug: border-security
+    stance: Deployed Georgia National Guard members to support border operations in Texas

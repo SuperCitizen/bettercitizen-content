@@ -1,0 +1,15 @@
+slug: volodymyr-zelenskyy
+full_name: Volodymyr Zelenskyy
+tier: "4"
+bio_md: President of Ukraine since 2019. Former comedian and actor who became a wartime leader after Russia's 2022 invasion, rallying Western support and global attention.
+role: politician
+affiliation: Servant of the People
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: ZelenskyyUa
+issue_stances: []

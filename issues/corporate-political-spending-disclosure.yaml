@@ -1,0 +1,43 @@
+slug: corporate-political-spending-disclosure
+name: Corporate political spending disclosure
+category: money-in-politics
+summary: Whether publicly traded companies should be required by the SEC or other regulators to disclose to shareholders the full extent of their political contributions and trade-association payments used for political activity.
+body_md: |-
+  Publicly traded companies in the U.S. are not currently required to disclose to shareholders the full scope of their political spending. Direct contributions to candidates and PACs are reported under campaign-finance law, but corporate giving to trade associations, 501(c)(4) "social welfare" groups, and other organizations engaged in political activity often flows through channels that do not show up in either SEC filings or FEC reports.
+
+  Proponents — including many institutional investors — argue that political spending creates real business and reputational risks that shareholders are entitled to evaluate. They argue uniform disclosure would let shareholders assess whether corporate political activity matches stated company values and whether the spending creates legal or boycott exposure.
+
+  Critics argue that targeted disclosure mandates can be used to chill controversial speech, that requiring disclosure of trade-association payments forces unwilling association with controversial positions, and that shareholders who care can already use private engagement. Some prefer voluntary disclosure or company-by-company shareholder proposals to a mandate.
+spectrum:
+  left: Mandatory disclosure of corporate political spending — direct, indirect, and through trade associations — is essential information for shareholders, customers, and the public; current loopholes hide enormous flows of money.
+  center: Shareholders have a legitimate interest in knowing about political spending that creates business risk; the SEC or other regulators could require disclosure with reasonable scope and avoid chilling protected speech.
+  right: Mandated disclosure can be a tool of political pressure and boycott; companies and shareholders can negotiate disclosure voluntarily, and existing campaign-finance reporting already covers the most direct contributions.
+contested:
+  perspectives:
+    - label: Pro-disclosure investors
+      summary: Political spending creates material legal, reputational, and customer-relations risk. Shareholders cannot evaluate that risk if substantial flows — particularly through trade associations and dark-money intermediaries — remain hidden. Disclosure is a basic investor-protection issue.
+      key_concerns:
+        - Political risk is material to shareholders
+        - Trade-association giving is largely invisible
+        - Reputational and boycott risk needs assessment
+        - Disclosure aligns spending with stated values
+    - label: Speech-and-burden critics
+      summary: Mandated disclosure can be weaponized to pressure corporations away from controversial speech, particularly disfavored political positions. Existing campaign-finance reporting and shareholder-engagement processes are adequate; expanding mandates risks chilling associations and association giving.
+      key_concerns:
+        - Disclosure can chill controversial speech
+        - Existing campaign-finance reporting covers contributions
+        - Boycott pressure rather than informed investment
+        - Compliance burden on smaller companies
+    - label: Process-focused middle
+      summary: Voluntary disclosure has expanded under shareholder pressure but remains inconsistent. A modest SEC rule scoped to direct spending and significant trade-association contributions would provide useful information without forcing disclosure of every advocacy payment.
+      key_concerns:
+        - Voluntary disclosure is inconsistent
+        - Scope-limited rule could balance interests
+        - Materiality thresholds would limit burden
+        - Trade-association lobbying is the major gap
+related_lesson_slugs: []
+tags:
+  - campaign-finance
+  - corporate-governance
+  - disclosure
+  - sec

@@ -1,0 +1,15 @@
+slug: cornel-west
+full_name: Cornel West
+tier: "4"
+bio_md: Philosopher, activist, and public intellectual. Professor at Union Theological Seminary. Known for his critiques of racial injustice and capitalism from a democratic socialist perspective.
+role: philosopher, activist
+affiliation: Union Theological Seminary
+lean_left: 90
+lean_right: 10
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: CornelWest
+issue_stances: []

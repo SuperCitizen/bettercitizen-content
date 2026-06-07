@@ -1,0 +1,21 @@
+slug: glenn-greenwald
+full_name: Glenn Greenwald
+tier: "4"
+bio_md: Journalist and author who broke the Edward Snowden NSA surveillance story. Known for his adversarial journalism and critiques of establishment media and government overreach.
+role: journalist
+affiliation: Independent
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: ggreenwald
+issue_stances:
+  - slug: data-privacy-law
+    stance: Broke the Snowden story exposing mass surveillance
+  - slug: section-230
+    stance: Opposes corporate and government censorship
+  - slug: military-spending
+    stance: Critic of US military interventionism

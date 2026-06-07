@@ -1,0 +1,24 @@
+slug: friedrich-merz
+full_name: Friedrich Merz
+tier: "3"
+bio_md: Chancellor of Germany since 2025 and leader of the center-right Christian Democratic Union (CDU). A lawyer and former corporate executive, Merz spent years outside politics in the private sector after losing internal party battles to Angela Merkel before returning to lead the CDU.
+role: Chancellor of Germany
+affiliation: Christian Democratic Union (CDU)
+party: CDU
+lean_left: 25
+lean_right: 65
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: _FriedrichMerz
+issue_stances:
+  - slug: nato-and-alliances
+    stance: Strong Atlanticist who emphasizes rebuilding German military capability within NATO
+  - slug: ukraine-support
+    stance: Advocates for robust military and political support for Ukraine, including longer-range weapons
+  - slug: immigration-related-issues
+    stance: Favors tighter asylum rules and stronger external EU border enforcement
+  - slug: climate-policy
+    stance: Supports climate goals but emphasizes industrial competitiveness and market-based instruments

@@ -1,0 +1,41 @@
+slug: student-loan-forgiveness
+name: Student loan forgiveness
+category: education
+summary: Whether and how the federal government should cancel some or all of the $1.7 trillion in outstanding federal student loan debt.
+body_md: |-
+  Federal student-loan debt has grown to over $1.7 trillion, owed by roughly 43 million borrowers. The Biden administration's 2022 broad forgiveness plan was struck down in Biden v. Nebraska (2023). Subsequent narrower programs (Public Service Loan Forgiveness improvements, IDR account adjustments, Borrower Defense, SAVE plan) have provided relief to specific borrower categories.
+
+  Key debates:
+  - **Across-the-board forgiveness**: Cancel all or a flat amount? Means-tested?
+  - **Targeted programs**: Public Service Loan Forgiveness, income-driven repayment with eventual forgiveness, Borrower Defense for defrauded borrowers.
+  - **Future debt**: How to prevent the same accumulation again — cap interest, free community college, restructure loan terms?
+  - **Authority**: Can the executive branch forgive debt unilaterally, or does this require Congress?
+spectrum:
+  left: Progressives strongly favor broad cancellation ($10K-$50K or more), with some calling for full cancellation.
+  center: Many moderates favor targeted relief (PSLF, IDR, Borrower Defense) over broad cancellation.
+  right: Most conservatives oppose broad forgiveness as unfair to non-borrowers and a reward for higher-tuition institutions.
+contested:
+  perspectives:
+    - label: Cancellation advocates
+      summary: Student debt is a structural drag on home-ownership, family formation, and small-business creation, with disproportionate impact on Black borrowers. Broad cancellation delivers immediate economic and equity benefits.
+      key_concerns:
+        - Home-ownership and family formation
+        - Racial wealth gap
+        - Predatory institutional pricing
+    - label: Cancellation critics
+      summary: Broad cancellation is regressive (most debt is held by college graduates with higher lifetime incomes), unfair to those who paid off loans or didn't attend college, and doesn't fix the underlying tuition spiral.
+      key_concerns:
+        - Distributional regressivity
+        - Fairness to non-borrowers
+        - Failure to address underlying tuition costs
+    - label: Reform-the-system advocates
+      summary: "Cancellation alone doesn't fix what's broken. Pair targeted relief with structural reforms: cap institutional pricing increases, expand income-driven repayment, fund community college, simplify the loan system."
+      key_concerns:
+        - Tuition-increase caps and accountability
+        - Income-driven repayment redesign
+        - Community college and apprenticeship investment
+related_lesson_slugs: []
+tags:
+  - education
+  - student-loans
+  - higher-education

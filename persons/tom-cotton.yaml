@@ -1,0 +1,24 @@
+slug: tom-cotton
+full_name: Tom Cotton
+tier: "3"
+bio_md: U.S. Senator from Arkansas since 2015. Army veteran with combat tours in Iraq and Afghanistan. Harvard Law graduate. Known as one of the Senate's leading hawkish voices on foreign policy and a frequent commentator on national security, immigration, and China policy.
+role: senator
+affiliation: U.S. Senate
+party: Republican
+lean_left: 10
+lean_right: 90
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: SenTomCotton
+issue_stances:
+  - slug: trade-with-china
+    stance: Hawkish on China; supports decoupling key supply chains and tougher trade restrictions
+  - slug: border-security
+    stance: Favors stricter enforcement, expanded barriers, and reduced legal immigration levels
+  - slug: military-spending
+    stance: Supports significant increases in defense spending and military modernization
+  - slug: taiwan-and-china
+    stance: Strong supporter of arming Taiwan and deterring Chinese aggression in the Pacific

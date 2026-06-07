@@ -1,0 +1,24 @@
+slug: lauren-boebert
+full_name: Lauren Boebert
+tier: "3"
+bio_md: U.S. Representative from Colorado since 2021. Originally elected from Colorado's 3rd district; switched to the 4th district for the 2024 election cycle. Former restaurant owner of Shooters Grill in Rifle, Colorado. Associated with the House Freedom Caucus and known as a vocal supporter of gun rights and a frequent figure in cultural-issue debates.
+role: representative
+affiliation: U.S. House of Representatives
+party: Republican
+lean_left: 8
+lean_right: 92
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: laurenboebert
+issue_stances:
+  - slug: second-amendment-regulation
+    stance: Strong opponent of new gun regulations and high-profile gun rights advocate
+  - slug: border-security
+    stance: Supports strict border enforcement and barrier construction
+  - slug: abortion-access
+    stance: Opposes abortion access; supports federal limits
+  - slug: ukraine-support
+    stance: Opposed to additional U.S. aid to Ukraine

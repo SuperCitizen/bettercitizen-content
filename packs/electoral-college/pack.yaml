@@ -1,0 +1,17 @@
+schema: supercitizen.content/v1
+slug: electoral-college
+title: The Electoral College
+summary: How U.S. presidential elections actually work — state-level allocation, the 12th Amendment, faithless electors, the contingent-election fallback — plus the strongest cases for keeping it, abolishing it, and reforming it without amending the Constitution. Five elections have ended with the popular-vote loser winning; the institution is a live political question and was a contested compromise from the day it was drafted.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [voting-systems, presidential-elections, constitution, civics-201, federalism]
+level: intermediate
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-how-it-works.md
+  - 02-the-strongest-cases.md
+  - 03-how-its-played-out.md
+  - 04-the-reform-debate.md

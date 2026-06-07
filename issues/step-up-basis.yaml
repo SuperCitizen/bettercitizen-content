@@ -1,0 +1,39 @@
+slug: step-up-basis
+name: Stepped-Up Basis at Death
+category: economy-and-taxation
+summary: Whether inherited assets should keep their stepped-up cost basis at the owner's death — erasing unrealized capital gains — or whether those gains should be taxed at transfer.
+body_md: |-
+  Under current U.S. tax law, when an asset is passed on at death, its cost basis is generally "stepped up" to the fair-market value on the date of death. The result is that unrealized capital gains accrued during the decedent's lifetime are never subject to capital-gains tax, though the assets may be subject to the federal estate tax above a high exemption threshold.
+
+  Critics argue step-up creates a significant gap in the income-tax base, disproportionately benefits the wealthy, and incentivizes holding appreciated assets until death rather than redeploying them. Defenders argue it avoids double taxation given the estate tax, prevents heirs from facing tax bills on assets whose original cost may be undocumented, and protects family-owned businesses and farms.
+
+  Reform proposals range from full repeal (treating death as a realization event), to carryover basis (heirs inherit the decedent's basis), to narrower limits on the value of assets eligible for step-up.
+spectrum:
+  left: Progressives generally favor repealing or sharply limiting step-up, viewing it as a loophole that allows large fortunes to escape income tax across generations.
+  center: Moderates often look for middle ground — preserving step-up below a high threshold or for farms and small businesses — to capture the largest gains without disrupting middle-class inheritances.
+  right: Conservatives largely defend step-up, citing double-taxation concerns relative to the estate tax and the burden of recordkeeping and forced sales for family businesses and farms.
+contested:
+  perspectives:
+    - label: Close the gap
+      summary: Step-up lets enormous capital gains escape income tax entirely, undermining horizontal equity between wage earners and asset holders. Treating death as a realization event — or carrying basis forward — restores integrity to the income tax.
+      key_concerns:
+        - Equal treatment of labor and capital income
+        - Revenue from untaxed gains
+        - Disincentive to hold assets purely for the basis step-up
+    - label: Narrow exemption-based reform
+      summary: Wholesale repeal could force sales of family farms, small businesses, and homes where original basis is poorly documented. A high exemption that captures only the largest estates avoids those harms while still closing the gap at the top.
+      key_concerns:
+        - Family-business continuity
+        - Recordkeeping burdens for heirs
+        - Targeting the largest accumulations
+    - label: Preserve step-up
+      summary: Inherited assets are already subject to the estate tax above a threshold. Repealing step-up adds a second layer of tax, imposes severe recordkeeping burdens on grieving families, and risks forced sales of illiquid family businesses.
+      key_concerns:
+        - Avoiding double taxation
+        - Compliance burden on heirs
+        - Protecting illiquid family assets
+related_lesson_slugs: []
+tags:
+  - estate-tax
+  - capital-gains
+  - inheritance

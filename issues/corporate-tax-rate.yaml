@@ -1,0 +1,33 @@
+slug: corporate-tax-rate
+name: Corporate tax rate
+category: economy-and-taxation
+summary: The headline U.S. federal corporate income-tax rate, currently 21% after the 2017 Tax Cuts and Jobs Act dropped it from 35%, plus debates over the global minimum tax.
+body_md: |-
+  The 2017 Tax Cuts and Jobs Act (TCJA) cut the federal corporate tax rate from 35% to 21% — a structural change that brought U.S. rates close to OECD averages but reduced corporate-tax revenue as a share of GDP.
+
+  Subsequent debates have focused on whether to raise the rate (proposed: 25-28%), broaden the base, or impose a corporate alternative minimum tax based on book income. The OECD/G20 negotiated a 15% global minimum tax (Pillar Two) that the U.S. has only partially implemented.
+
+  Defenders of low rates argue they attract investment and competitiveness. Critics argue corporate profits and stock buybacks have boomed while wage growth has been modest, suggesting the cuts didn't deliver promised gains.
+spectrum:
+  left: Progressives favor raising the rate to 25-28% and a strong corporate AMT.
+  center: Moderates often favor moderate rate increases combined with global-minimum-tax implementation.
+  right: Most conservatives favor preserving the 21% rate or lowering it further to maintain competitiveness.
+contested:
+  perspectives:
+    - label: Rate-increase advocates
+      summary: The TCJA cut produced record stock buybacks but modest wage growth. A 25-28% rate combined with a corporate AMT and global-minimum-tax implementation captures revenue from highly profitable firms.
+      key_concerns:
+        - Restoring corporate-tax revenue share
+        - Reducing reliance on individual income taxes
+        - Funding social investments
+    - label: Competitiveness defenders
+      summary: 21% is roughly in line with OECD averages. Higher rates would push investment, jobs, and headquarters overseas. The TCJA delivered measurable gains in business investment.
+      key_concerns:
+        - International competitiveness
+        - Preserving U.S. corporate domicile
+        - Protecting capital investment
+related_lesson_slugs:
+  - taxes
+tags:
+  - taxation
+  - corporate-tax

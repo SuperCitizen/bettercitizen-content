@@ -1,0 +1,45 @@
+slug: inspectors-general-independence
+name: Inspectors general independence
+category: governance-and-institutions
+summary: Whether statutory protections for federal inspectors general should be strengthened to prevent politically motivated dismissal by the executive and preserve their independent oversight of agency conduct.
+body_md: |-
+  Inspectors general (IGs) are statutorily independent watchdogs embedded in federal agencies, charged with auditing operations, investigating fraud, and reporting waste and abuse to Congress. The Inspector General Act of 1978 created the framework; subsequent amendments have addressed reporting structure, qualifications, and removal procedures. IGs are typically nominated by the president and confirmed by the Senate but are intended to operate independently of agency leadership.
+
+  Recent dismissals of multiple IGs — across administrations — have raised concerns about whether existing statutory protections are sufficient. Proposals include requiring "good cause" for removal, mandatory advance notice to Congress, and protection against retaliation for ongoing investigations.
+
+  Proponents of stronger protections argue that effective oversight requires real independence from agency and presidential pressure, that IGs uniquely surface waste and abuse that would otherwise be invisible to Congress and the public, and that politically motivated removals chill the entire IG community.
+
+  Opponents argue that the president's removal power is a core executive responsibility, that overly rigid protections could insulate underperforming or politicized IGs from accountability, and that Congress retains oversight tools (subpoenas, hearings, GAO) independent of the IG framework.
+spectrum:
+  left: IGs are essential checks on executive abuse; statutory good-cause protections, advance notice to Congress, and protection of ongoing investigations are necessary safeguards after recent waves of politically motivated dismissals.
+  center: IG independence is a legitimate goal balanced against the president's constitutional removal authority; reasonable procedural protections — notice, justification, congressional oversight — strengthen oversight without unconstitutional restraint.
+  right: The president's removal power is core to executive accountability; IGs can be poorly performing or politically biased too, and entrenching them risks creating an unaccountable layer of bureaucracy.
+contested:
+  perspectives:
+    - label: Stronger-protections advocates
+      summary: IGs surface waste, fraud, and abuse that no one else in the executive branch is structurally positioned to find. Recent politically motivated dismissals — across administrations — show that current protections are inadequate. Good-cause removal, advance notice, and investigation protections are necessary structural reforms.
+      key_concerns:
+        - Politically motivated dismissals chill oversight
+        - Loss of institutional knowledge in transitions
+        - Ongoing investigations should be protected
+        - Congress depends on IG findings
+    - label: Executive-authority defenders
+      summary: The president's removal power over executive officers is a core constitutional responsibility, recognized since Myers v. United States. Statutory good-cause restrictions on at-will removal raise serious separation-of-powers concerns and risk creating unaccountable bureaucratic actors.
+      key_concerns:
+        - Article II removal authority
+        - IGs can be poor performers or biased
+        - Accountability through the political process
+        - Congress has other oversight tools
+    - label: Procedural middle
+      summary: Notice-and-reasons requirements — without good-cause restrictions — could strengthen oversight without raising the constitutional concerns. Requiring the president to explain dismissals to Congress, with a reasonable transition period, achieves transparency without constraining the underlying removal power.
+      key_concerns:
+        - Notice and reasons advance transparency
+        - Avoids constitutional confrontation
+        - Public accountability for dismissals
+        - Compatible with executive authority
+related_lesson_slugs: []
+tags:
+  - oversight
+  - inspectors-general
+  - executive-branch
+  - accountability

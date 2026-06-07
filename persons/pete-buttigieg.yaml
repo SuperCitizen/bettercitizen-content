@@ -1,0 +1,22 @@
+slug: pete-buttigieg
+full_name: Pete Buttigieg
+tier: "4"
+bio_md: Former Secretary of Transportation and mayor of South Bend, Indiana. First openly gay person confirmed to a US cabinet position. 2020 presidential candidate who briefly led in Iowa.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: PeteButtigieg
+issue_stances:
+  - slug: permitting-reform
+    stance: Oversaw $1.2 trillion infrastructure law implementation as Transportation Secretary
+  - slug: climate-policy
+    stance: Advocates for electric vehicles and clean transportation
+  - slug: higher-education-funding
+    stance: Supports targeted student loan relief

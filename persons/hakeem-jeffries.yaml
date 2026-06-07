@@ -1,0 +1,24 @@
+slug: hakeem-jeffries
+full_name: Hakeem Jeffries
+tier: "3"
+bio_md: U.S. Representative from New York's 8th district since 2013 and House Democratic Leader since 2023, succeeding Nancy Pelosi. The first Black American to lead a major party caucus in Congress. Previously served as chair of the House Democratic Caucus and as an impeachment manager in Donald Trump's first impeachment trial. Attorney by training.
+role: representative, House Democratic Leader
+affiliation: U.S. House of Representatives
+party: Democratic
+lean_left: 80
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: RepJeffries
+issue_stances:
+  - slug: voting-rights-act-restoration
+    stance: Strong advocate for restoring federal voting rights protections
+  - slug: abortion-access
+    stance: Supports codifying Roe-era abortion protections in federal law
+  - slug: ukraine-support
+    stance: Supports continued U.S. aid to Ukraine and worked across the aisle to pass aid packages
+  - slug: minimum-wage
+    stance: Supports raising the federal minimum wage

@@ -1,0 +1,39 @@
+slug: disability-rights
+name: Disability rights
+category: civil-rights-and-liberties
+summary: Enforcement of the ADA and related laws, employment protections, accessible housing and transit, education for students with disabilities, and home- and community-based services.
+body_md: |-
+  The Americans with Disabilities Act (1990) and the Rehabilitation Act (1973) prohibit discrimination on the basis of disability across employment, public services, public accommodations, and federally funded programs. IDEA (1975, last reauthorized 2004) governs special education in K-12. Together these laws underpin US disability civil rights, and they remain partly under-enforced.
+
+  Ongoing issues include subminimum-wage 14(c) certificates that let some employers pay disabled workers below minimum wage, the Olmstead requirement that states serve people with disabilities in the most integrated setting (often unmet due to home-care worker shortages and Medicaid waitlists), digital-accessibility requirements that are still being clarified, and educational outcomes for students with disabilities.
+
+  Disabled people are roughly a quarter of the US adult population. Public policy increasingly recognizes that physical and digital access, employment opportunity, and community-based long-term services are civil-rights matters, not merely welfare matters.
+spectrum:
+  left: Progressives generally support strong ADA enforcement, ending subminimum wage 14(c) certificates, expanded HCBS funding, accessible-housing mandates, and robust digital-accessibility rules.
+  center: Centrists usually support ADA enforcement and modernization while balancing compliance costs on small businesses and seeking flexibility in implementation.
+  right: Conservatives generally support core ADA protections while opposing what they view as drive-by ADA lawsuits, costly mandates on small businesses, and federal overreach into local building decisions.
+contested:
+  perspectives:
+    - label: Disability-justice advocates
+      summary: Real equal opportunity requires substantive accessibility — built environments, transit, websites, schools, and workplaces designed for actual disabled people. Subminimum wage is segregation by another name, Medicaid waitlists strand people in institutions Olmstead said they should not be in, and full enforcement of existing laws is still overdue.
+      key_concerns:
+        - Olmstead implementation and HCBS access
+        - Ending subminimum wage certificates
+        - Accessibility in physical and digital spaces
+    - label: Small-business and compliance-cost perspective
+      summary: Most businesses, schools, and local governments want to comply. But ambiguous standards, predatory ADA-lawsuit practices, and costly retrofits on tiny businesses produce compliance theater rather than access. Clearer safe harbors, technical assistance, and proportionality in enforcement would deliver more real-world accessibility.
+      key_concerns:
+        - Compliance burden on small businesses
+        - Predatory drive-by ADA lawsuits
+        - Clearer technical standards
+    - label: Service-system reformers
+      summary: "Civil-rights protections matter, but the binding constraint for many disabled Americans is the long-term-services system: Medicaid HCBS waitlists, direct-care worker shortages, low wages for personal-care attendants, and inadequate housing. Rights without services are unevenly real."
+      key_concerns:
+        - Direct-care workforce wages and supply
+        - Medicaid HCBS funding and waitlists
+        - Accessible affordable housing supply
+related_lesson_slugs: []
+tags:
+  - civil-rights
+  - disability
+  - ada

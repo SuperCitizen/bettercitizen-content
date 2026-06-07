@@ -1,0 +1,24 @@
+slug: ron-desantis
+full_name: Ron DeSantis
+tier: "4"
+bio_md: Governor of Florida and 2024 Republican presidential candidate. Former US Navy JAG officer and congressman. Known for conservative governance including opposition to COVID mandates and 'woke ideology.'
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: GovRonDeSantis
+issue_stances:
+  - slug: higher-education-funding
+    stance: Banned DEI programs from Florida public universities
+  - slug: section-230
+    stance: Signed law requiring social media platforms to carry conservative speech
+  - slug: border-security
+    stance: Transported migrants to northern states as political statement
+  - slug: second-amendment-regulation
+    stance: Signed permitless carry legislation in Florida

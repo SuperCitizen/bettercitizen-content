@@ -1,0 +1,39 @@
+slug: paid-family-leave
+name: Paid family and medical leave
+category: labor-and-welfare
+summary: Federal proposals to provide paid leave for new parents, family caregivers, and serious-illness recovery — the U.S. is the only OECD nation without national paid parental leave.
+body_md: |-
+  The Family and Medical Leave Act (1993) guarantees up to 12 weeks of unpaid, job-protected leave for qualifying employees of larger employers — covering only ~60% of workers and providing no income during leave.
+
+  Federal paid-leave proposals include the FAMILY Act (12 weeks paid via payroll-tax-funded insurance) and various employer-mandate or tax-credit alternatives. Thirteen states and DC have enacted paid leave programs of varying generosity.
+
+  Defenders argue paid leave benefits child development, maternal health, business productivity, and family stability. Critics argue federal mandates increase employer costs and disadvantage small businesses; tax-credit alternatives are less burdensome.
+spectrum:
+  left: Progressives strongly favor a federal paid-leave entitlement funded by payroll tax (FAMILY Act model).
+  center: Most moderates support some form of paid leave, with debates over funding model and duration.
+  right: "Conservative views split: some support tax-credit or Social Security advance models; others oppose new federal mandates."
+contested:
+  perspectives:
+    - label: Federal-entitlement advocates
+      summary: Paid leave is a basic standard of a humane economy. A federal payroll-tax-funded insurance program (like Social Security or unemployment) provides reliable, portable benefits.
+      key_concerns:
+        - Universal access to leave
+        - Portability across employers
+        - Closing OECD gap
+    - label: Tax-credit / market alternatives
+      summary: Tax credits to small businesses, Social Security advance options for new parents, and state-level pilots are less coercive than a federal mandate and don't burden small employers.
+      key_concerns:
+        - Small-business costs
+        - Choice in benefit design
+        - Avoiding new entitlement programs
+    - label: Employer-mandate skeptics
+      summary: Mandated paid leave will be borne by workers in the form of lower wages or reduced employment, and disproportionately hurts small employers and the workers they hire.
+      key_concerns:
+        - Wage effects
+        - Employment effects on entry-level workers
+        - Small-employer competitiveness
+related_lesson_slugs: []
+tags:
+  - labor
+  - family-policy
+  - benefits

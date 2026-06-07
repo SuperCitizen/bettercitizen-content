@@ -1,0 +1,38 @@
+slug: felony-disenfranchisement
+name: Felony disenfranchisement
+category: elections-and-voting
+summary: State laws that strip voting rights from people convicted of felonies — from automatic restoration on release to permanent disenfranchisement — affect about 4.6 million U.S. citizens.
+body_md: |-
+  Felony disenfranchisement varies enormously by state. Maine, Vermont, and DC never strip voting rights, even from incarcerated citizens. Most states restore rights upon release or completion of sentence. A handful (notably Iowa and Mississippi) impose permanent disenfranchisement absent gubernatorial restoration.
+
+  Florida's Amendment 4 (2018) restored voting rights to most former felons; subsequent legislation requiring payment of fines and fees before restoration has been controversial.
+
+  The policy questions: at what point should voting rights be restored — release from prison, completion of probation/parole, or never? Should incarcerated citizens vote? How should fines, fees, and restitution interact with restoration?
+spectrum:
+  left: Progressives generally favor automatic restoration on release, and some support voting from prison as a fundamental civil right.
+  center: Reformers across parties often favor automatic restoration after sentence completion, with a small but growing center supporting on-release restoration.
+  right: Many conservatives support disenfranchisement at least during incarceration and probation, citing accountability and the social-contract framing.
+contested:
+  perspectives:
+    - label: Automatic-restoration advocates
+      summary: Disenfranchisement is a vestige of Jim Crow whose racial impact persists today. Restoring voting rights aids reentry, reduces recidivism, and reaffirms the dignity of citizenship.
+      key_concerns:
+        - Racial disparities in disenfranchisement
+        - Reentry and recidivism reduction
+        - Universal civic membership
+    - label: Sentence-completion advocates
+      summary: Voting rights are part of full civic standing, which is restored when the person has completed their sentence — including probation, parole, and any restitution.
+      key_concerns:
+        - Completion of debt to society
+        - Accountability through the full sentence
+        - Clear, predictable restoration rules
+    - label: Permanent-restriction defenders
+      summary: Serious felons broke the social contract; their permanent loss of voting rights is a legitimate consequence and a deterrent.
+      key_concerns:
+        - Deterrence and accountability
+        - Maintaining the integrity of the franchise
+        - Distinguishing serious from minor offenses
+related_lesson_slugs: []
+tags:
+  - voting-rights
+  - criminal-justice

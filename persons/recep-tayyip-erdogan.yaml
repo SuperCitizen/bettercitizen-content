@@ -1,0 +1,24 @@
+slug: recep-tayyip-erdogan
+full_name: Recep Tayyip Erdoğan
+tier: "3"
+bio_md: President of Turkey since 2014 and leader of the Justice and Development Party (AKP). Previously served as Prime Minister from 2003 to 2014 and as Mayor of Istanbul in the 1990s. Under his long tenure, Turkey has shifted from a parliamentary to a presidential system and his government has consolidated significant executive power.
+role: President of Turkey
+affiliation: Justice and Development Party (AKP)
+party: AKP
+lean_left: 20
+lean_right: 70
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: RTErdogan
+issue_stances:
+  - slug: nato-and-alliances
+    stance: Keeps Turkey in NATO while pursuing an independent line, including blocking and later approving Sweden's accession
+  - slug: ukraine-support
+    stance: Sold drones to Ukraine and brokered the Black Sea grain deal while maintaining economic ties with Russia
+  - slug: israel-palestine-policy
+    stance: Sharp critic of Israeli military operations in Gaza and vocal supporter of the Palestinian cause
+  - slug: religious-liberty
+    stance: Has expanded the role of Sunni Islamic identity in Turkish public life, including reconverting Hagia Sophia into a mosque

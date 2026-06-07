@@ -1,0 +1,39 @@
+slug: four-day-work-week
+name: Four-Day Work Week
+category: labor-and-welfare
+summary: Proposals — public and private — to reduce the standard workweek from five days to four, often at full pay, sometimes paired with overtime-law changes.
+body_md: |-
+  The four-day work week refers to a range of proposals to reduce the standard full-time week from roughly forty hours across five days to roughly thirty-two hours across four. Some employers have piloted the change voluntarily; some lawmakers have proposed changes to federal overtime rules that would treat hours above thirty-two as overtime for covered workers.
+
+  Pilots in several countries and at private firms have reported productivity holding steady or improving, with gains in employee well-being and retention. Skeptics note that pilots self-select firms able to absorb the change and that results may not generalize to retail, manufacturing, or shift work where output scales with hours.
+
+  Policy proposals vary widely — from voluntary tax incentives, to research and pilot funding, to legally mandating a shorter workweek for some classes of employer. Each carries different implications for small businesses, hourly workers, and exempt salaried roles.
+spectrum:
+  left: Progressives often support a shorter standard workweek as a step toward sharing productivity gains with workers and improving family life and health.
+  center: Moderates emphasize voluntary adoption, pilots, and research before considering mandates, and worry about effects on hourly and shift workers.
+  right: Most conservatives oppose mandated changes to the workweek as government overreach into employer-employee contracts, while remaining open to voluntary adoption.
+contested:
+  perspectives:
+    - label: Worker-time advocates
+      summary: Productivity has grown for decades while hours have not fallen. A shorter workweek shares those gains with workers, reduces burnout, and improves family and community life — and pilots suggest output need not fall.
+      key_concerns:
+        - Worker well-being and burnout
+        - Sharing productivity gains
+        - Family and community time
+    - label: Evidence-first incrementalists
+      summary: Early results are promising but mostly come from self-selected firms in particular sectors. Expanded pilots, tax incentives, and rigorous research can build the evidence base before any large policy change.
+      key_concerns:
+        - External validity of pilots
+        - Sector and firm variation
+        - Effects on hourly workers
+    - label: Flexibility-first employers
+      summary: Mandating a four-day week imposes a one-size-fits-all schedule on highly varied workplaces. Letting firms and workers negotiate hours — including remote and compressed schedules — produces better outcomes than legislating a single norm.
+      key_concerns:
+        - Employer-worker flexibility
+        - Avoiding cost burdens on small business
+        - Heterogeneity of work arrangements
+related_lesson_slugs: []
+tags:
+  - workweek
+  - labor
+  - productivity

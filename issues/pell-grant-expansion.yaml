@@ -1,0 +1,39 @@
+slug: pell-grant-expansion
+name: Pell Grant Expansion
+category: labor-and-welfare
+summary: Whether to expand the federal Pell Grant program — increasing maximum awards, indexing them to inflation, and extending eligibility to short-term workforce programs and incarcerated students.
+body_md: |-
+  The Pell Grant is the federal government's largest need-based student-aid program, providing grants — not loans — to low- and moderate-income undergraduates. The maximum award has lost significant purchasing power relative to college costs over the past several decades, even after recent increases.
+
+  Expansion proposals include doubling the maximum award, indexing it to inflation or college costs, extending eligibility to shorter-term workforce-training programs (sometimes called "Workforce Pell" or "short-term Pell"), and restoring full eligibility to incarcerated students, which was partly restored in recent years.
+
+  Critics of broad expansion raise concerns about cost, about subsidizing tuition increases, and about quality controls if eligibility extends to short-term programs. Supporters argue Pell remains among the most effective tools for raising college access and credential attainment.
+spectrum:
+  left: Progressives generally favor large Pell increases, automatic indexing, and broad expansion to short-term programs and incarcerated students.
+  center: Moderates often favor targeted increases paired with quality safeguards on eligible programs and stronger reporting on outcomes.
+  right: "Conservatives are split: many favor Workforce Pell for short-term credentialing; others worry larger grants enable tuition inflation and prefer outcome-based accountability."
+contested:
+  perspectives:
+    - label: Expand broadly with indexing
+      summary: Pell has lost purchasing power for decades while college costs climbed. A doubled, indexed grant — extended to high-quality short-term programs and incarcerated students — is among the most cost-effective ways to expand opportunity.
+      key_concerns:
+        - Restoring real purchasing power
+        - Access to short-term workforce training
+        - Re-entry through education
+    - label: Quality-gated expansion
+      summary: Expansion is welcome but only if dollars flow to programs that produce real labor-market value. Workforce Pell needs strong completion and earnings standards; institutions receiving large Pell dollars need outcome reporting.
+      key_concerns:
+        - Program-quality standards
+        - Outcome reporting
+        - Guarding against weak short-term programs
+    - label: Reform-first restraint
+      summary: Bigger grants without structural reform risk subsidizing tuition increases rather than student opportunity. Pair any expansion with institutional accountability, transparency on prices, and skin-in-the-game rules for poor outcomes.
+      key_concerns:
+        - Tuition inflation
+        - Institutional accountability
+        - Skin-in-the-game for poor outcomes
+related_lesson_slugs: []
+tags:
+  - pell-grants
+  - higher-education
+  - student-aid

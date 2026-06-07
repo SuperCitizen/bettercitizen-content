@@ -1,0 +1,15 @@
+slug: greta-thunberg
+full_name: Greta Thunberg
+tier: "4"
+bio_md: Swedish climate activist who sparked the global Fridays for Future movement. Known for her blunt, confrontational style of climate advocacy aimed at world leaders.
+role: activist
+affiliation: Fridays for Future
+lean_left: 85
+lean_right: 15
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: true
+twitter: GretaThunberg
+issue_stances: []

@@ -1,0 +1,24 @@
+slug: raphael-warnock
+full_name: Raphael Warnock
+tier: "3"
+bio_md: US Senator from Georgia since 2021, the first Black senator from Georgia. Senior pastor of Ebenezer Baptist Church in Atlanta, the church once led by Martin Luther King Jr. Won a 2021 runoff special election and a full term in 2022. Has been a strong advocate for voting rights legislation.
+role: US Senator from Georgia
+affiliation: United States Senate
+party: Democrat
+lean_left: 75
+lean_right: 22
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: SenatorWarnock
+issue_stances:
+  - slug: voting-rights-act-restoration
+    stance: Lead Senate advocate for the John Lewis Voting Rights Advancement Act
+  - slug: medicaid-expansion
+    stance: Pushes Georgia and other holdout states to expand Medicaid under the Affordable Care Act
+  - slug: child-tax-credit
+    stance: Supports making the expanded child tax credit permanent
+  - slug: abortion-access
+    stance: Supports federal abortion protections grounded in his role as a pastor and senator

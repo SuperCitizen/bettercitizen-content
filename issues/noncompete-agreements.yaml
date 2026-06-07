@@ -1,0 +1,39 @@
+slug: noncompete-agreements
+name: Non-Compete Agreements
+category: labor-and-welfare
+summary: Whether the Federal Trade Commission and Congress should ban or sharply restrict non-compete clauses that bar workers from joining competitors after leaving a job.
+body_md: |-
+  A non-compete agreement is a contractual clause that restricts an employee from working for a competitor or starting a competing business for some period after leaving a job. Use of non-competes has grown well beyond senior executives, with many studies finding they cover meaningful shares of low- and middle-wage workers.
+
+  The Federal Trade Commission moved to issue a sweeping rule restricting most non-competes; courts and state legislatures have taken varied positions. Several states have long prohibited or heavily restricted non-competes; many others have moved to limit them.
+
+  Defenders argue non-competes protect legitimate investments in training, trade secrets, and customer relationships. Critics argue they suppress wages, depress entrepreneurship, and disproportionately hurt workers who lack bargaining power to negotiate them out.
+spectrum:
+  left: Progressives largely favor a broad federal ban, citing evidence that non-competes suppress wages and mobility for ordinary workers far beyond any legitimate trade-secret rationale.
+  center: Moderates often favor restricting non-competes for low- and middle-wage workers and narrowing their scope, while preserving them in narrowly defined contexts such as senior executives or sale of a business.
+  right: "The right is split: many conservatives defend non-competes as freely negotiated contracts protecting employer investments; others view broad use of non-competes for ordinary workers as anti-competitive."
+contested:
+  perspectives:
+    - label: Ban broadly
+      summary: Non-competes lock workers into jobs, suppress wages, and depress new-business formation. Evidence from states that restrict them shows higher wages and more entrepreneurship without measurable harm to firm investment.
+      key_concerns:
+        - Wage suppression
+        - Worker mobility
+        - Entrepreneurship and dynamism
+    - label: Tiered restriction
+      summary: A blanket ban sweeps too broadly. Restricting non-competes for low- and middle-wage workers — while preserving narrowly tailored ones for senior executives and in the sale of a business — captures most of the benefit with fewer unintended effects.
+      key_concerns:
+        - Protecting low-wage workers
+        - Targeted use for executives and sales
+        - Reasonableness standards
+    - label: Preserve negotiated contracts
+      summary: Non-competes protect legitimate employer investments in training, R&D, and customer relationships. Existing tools — trade-secret law, reasonable-scope tests, state oversight — already constrain abuses without a sweeping federal ban.
+      key_concerns:
+        - Protecting employer investments
+        - Freedom of contract
+        - Federalism in employment law
+related_lesson_slugs: []
+tags:
+  - non-competes
+  - labor
+  - mobility

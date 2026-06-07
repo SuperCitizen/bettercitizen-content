@@ -1,0 +1,10 @@
+slug: us-courts-of-appeals
+name: US Courts of Appeals
+kind: government
+subtype: judicial
+description: Thirteen federal circuit courts hearing appeals from US district courts and federal agency decisions.
+website: https://www.uscourts.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

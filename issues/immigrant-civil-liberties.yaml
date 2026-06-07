@@ -1,0 +1,37 @@
+slug: immigrant-civil-liberties
+name: Immigrant civil liberties
+category: civil-rights-and-liberties
+summary: The constitutional and statutory protections immigrants have during enforcement encounters, detention, and removal proceedings — and how they differ from citizen protections.
+body_md: |-
+  Non-citizens have constitutional protections (due process, equal protection, freedom from unreasonable search) but the level of protection varies with status and proximity to the border. Key issue areas:
+  - **Right to counsel** in removal proceedings: Not provided at government expense; legal-representation programs vary by city.
+  - **Detention conditions**: Federal facility standards, state-jail contracts, family-detention practices.
+  - **Expedited removal** and administrative removal without judicial review.
+  - **Border-zone enforcement**: 100-mile-from-border zone where Border Patrol exercises broader authority.
+  - **ICE enforcement at sensitive locations** (schools, hospitals, courthouses, churches).
+  - **Citizenship-screening errors** that affect U.S. citizens.
+spectrum:
+  left: Progressives favor strong civil-liberties protections including funded counsel, sensitive-location restrictions, and detention reform.
+  center: Many centrists favor reforming detention conditions and expediting case adjudication.
+  right: Most conservatives favor preserving enforcement tools and oppose expanding government-funded counsel for non-citizens.
+contested:
+  perspectives:
+    - label: Civil-liberties reformers
+      summary: Immigration enforcement should comply with constitutional and humanitarian standards. Funded counsel, restrictions on detention conditions, and limits on enforcement at sensitive locations are baseline civil-liberties protections.
+      key_concerns:
+        - Right to counsel in removal proceedings
+        - Detention conditions
+        - Sensitive-location protections
+    - label: Enforcement-tools defenders
+      summary: Effective immigration enforcement requires meaningful detention authority, expedited procedures for clear cases, and broad enforcement discretion. Adding civil-counsel rights and sensitive-location bans cripples enforcement.
+      key_concerns:
+        - Operational enforcement capacity
+        - Avoiding sanctuary-style restrictions
+        - Speed of removal proceedings
+related_lesson_slugs:
+  - immigration
+  - bill-of-rights
+tags:
+  - immigration
+  - civil-rights
+  - due-process

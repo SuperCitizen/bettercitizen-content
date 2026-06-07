@@ -1,0 +1,20 @@
+slug: martha-nussbaum
+full_name: Martha Nussbaum
+tier: "4"
+bio_md: American philosopher and Ernst Freund Distinguished Service Professor of Law and Ethics at the University of Chicago. Co-developed the capabilities approach with Amartya Sen. Author of more than two dozen books including Frontiers of Justice, Creating Capabilities, and The Monarchy of Fear. Her work spans ancient philosophy, political philosophy, ethics, and animal rights.
+role: philosopher
+affiliation: University of Chicago
+lean_left: 70
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: lgbtq-protections
+    stance: Long-standing philosophical defender of equal dignity and rights for LGBTQ people
+  - slug: higher-education-funding
+    stance: Has argued for the central importance of humanities education to democratic citizenship
+  - slug: religious-liberty
+    stance: Has written extensively on balancing religious liberty with equal protection

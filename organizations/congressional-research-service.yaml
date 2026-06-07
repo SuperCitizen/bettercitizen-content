@@ -1,0 +1,10 @@
+slug: congressional-research-service
+name: Congressional Research Service
+kind: government
+subtype: legislative
+description: Nonpartisan public-policy research arm of Congress, housed at the Library of Congress; produces analysis exclusively for members and committees.
+website: https://www.loc.gov/crsinfo/
+jurisdiction: federal
+partisan_lean: none
+concept_tags: []
+is_active: true

@@ -1,0 +1,42 @@
+slug: misinformation-policy
+name: Misinformation and disinformation policy
+category: media-and-information
+summary: How government, platforms, and civil society should respond to false or misleading information online — particularly around elections, health, and foreign influence operations.
+body_md: |-
+  Concerns about online misinformation accelerated after 2016 — Russian election interference, COVID-19 health misinformation, election-fraud claims surrounding 2020 results, and AI-generated deepfakes.
+
+  Policy responses have been controversial:
+  - **Government-platform coordination**: The Murthy v. Missouri (2024) Supreme Court ruling weakened standing for First Amendment challenges to government communication with platforms about content; debates over the Disinformation Governance Board (DHS, briefly stood up and dissolved in 2022).
+  - **Platform action**: Labels, downranking, removal, account suspensions.
+  - **Foreign-influence-operations** disruption (FBI, DHS).
+  - **Election-specific rules**: Deepfake disclosure, AI-content labeling.
+  - **Media literacy**: School curriculum, public education programs.
+spectrum:
+  left: "Progressive views vary: some favor robust platform action against misinformation; civil-liberties progressives worry about coordination with government."
+  center: Most centrists support transparency in government-platform interaction and targeted election-specific rules.
+  right: Most conservatives oppose government-driven misinformation efforts, viewing them as censorship of disfavored views.
+contested:
+  perspectives:
+    - label: Active-response advocates
+      summary: Online misinformation undermines elections, public health, and social cohesion. Coordinated action by government, platforms, and civil society — within First Amendment limits — is essential.
+      key_concerns:
+        - Election integrity
+        - Public-health information
+        - Foreign influence operations
+    - label: Free-expression / anti-censorship advocates
+      summary: Government pressure on platforms to remove "misinformation" has chilled lawful speech, including views later proven correct. The cure is worse than the disease; rely on counter-speech and transparency, not removal.
+      key_concerns:
+        - Government pressure on speech
+        - Defining "misinformation" reliably
+        - Counter-speech alternatives
+    - label: Targeted-narrow-response advocates
+      summary: "Focus on narrow, clear harms: foreign influence operations, fraud, election deepfakes. Use transparency and labeling rather than removal; avoid government determinations of truth on contested topics."
+      key_concerns:
+        - Targeted foreign-influence response
+        - Labeling and transparency
+        - Avoiding government truth-determination
+related_lesson_slugs: []
+tags:
+  - media
+  - disinformation
+  - first-amendment

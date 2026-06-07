@@ -1,0 +1,12 @@
+slug: braver-angels
+name: Braver Angels
+kind: civic-reform
+subtype: depolarization
+description: National grassroots organization running Red/Blue workshops, debates, and skills training to reduce political polarization at the citizen level.
+website: https://braverangels.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - polarization
+  - civic-engagement
+is_active: true

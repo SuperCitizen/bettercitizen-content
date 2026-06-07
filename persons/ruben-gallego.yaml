@@ -1,0 +1,24 @@
+slug: ruben-gallego
+full_name: Ruben Gallego
+tier: "3"
+bio_md: US Senator from Arizona since 2025. Former US Representative for Arizona's 3rd congressional district from 2015 to 2025. Marine Corps veteran of the Iraq War. Defeated Republican Kari Lake in the 2024 Arizona Senate race for the seat previously held by Kyrsten Sinema. Has emphasized working-class outreach and border policy.
+role: US Senator from Arizona
+affiliation: United States Senate
+party: Democrat
+lean_left: 62
+lean_right: 32
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: SenRubenGallego
+issue_stances:
+  - slug: border-security
+    stance: Supports stronger border enforcement alongside legal immigration reform
+  - slug: abortion-access
+    stance: Supports codifying Roe v. Wade abortion protections into federal law
+  - slug: daca-and-dreamers
+    stance: Supports a permanent path to citizenship for DACA recipients
+  - slug: union-rights
+    stance: Supporter of the PRO Act and expanded labor organizing protections

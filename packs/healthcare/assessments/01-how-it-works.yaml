@@ -1,0 +1,72 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is the largest single source of health insurance coverage in the United States?"
+    choices:
+      - id: a
+        text: "Medicare"
+      - id: b
+        text: "Medicaid"
+      - id: c
+        text: "Employer-sponsored insurance"
+      - id: d
+        text: "ACA Marketplace plans"
+    correct_choice_id: c
+    explanation: "Employer-sponsored insurance covers ~156M people, roughly 48% of the U.S. population. Medicare (~65M), Medicaid (~87M), and Marketplace plans (~21M) together cover most of the rest, with ~26M still uninsured."
+    concepts: [healthcare]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did NFIB v. Sebelius (2012) decide about the ACA?"
+    choices:
+      - id: a
+        text: "It struck down the entire ACA as unconstitutional."
+      - id: b
+        text: "It upheld the individual mandate as a tax and made Medicaid expansion optional for states."
+      - id: c
+        text: "It required all states to expand Medicaid."
+      - id: d
+        text: "It ruled the ACA Marketplace exchanges unconstitutional."
+    correct_choice_id: b
+    explanation: "The 5–4 ruling upheld the individual mandate under Congress's taxing power (not its commerce power), but struck down the provision that would have penalized states refusing to expand Medicaid. This is why 9 states still haven't expanded Medicaid as of 2025."
+    concepts: [healthcare, aca]
+
+  - id: q3
+    kind: multiple-choice
+    text: "According to the Anderson, Hussey & Petrosyan analysis (Health Affairs 2019), what is the primary driver of the U.S./peer-country healthcare cost gap?"
+    choices:
+      - id: a
+        text: "Americans use significantly more healthcare than peers."
+      - id: b
+        text: "Americans have unhealthier behaviors at scale."
+      - id: c
+        text: "U.S. prices for the same drugs, devices, and procedures are 2–4× peer prices."
+      - id: d
+        text: "U.S. demographics skew older than peer-country populations."
+    correct_choice_id: c
+    explanation: "Anderson et al.'s 'It's still the prices, stupid' finding: utilization rates are similar to peer countries, but prices for the same care are dramatically higher. Provider compensation is higher, drug prices are higher, and administrative overhead is dramatically higher. The cost gap is a price gap, not a volume gap."
+    concepts: [healthcare]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which model best describes Germany's, the Netherlands', and Switzerland's healthcare systems?"
+    choices:
+      - id: a
+        text: "Single-payer (one government insurer covering everyone)."
+      - id: b
+        text: "Multi-payer with regulation (private insurers competing under tight government rules)."
+      - id: c
+        text: "Pure market-based (individual insurance with minimal government role)."
+      - id: d
+        text: "Public provider (government runs hospitals and employs doctors directly)."
+    correct_choice_id: b
+    explanation: "Germany, Netherlands, and Switzerland all use multi-payer regulated systems — private insurers compete under strong government rules including required coverage, price negotiation, and risk pooling. They achieve universal or near-universal coverage with strong outcomes at significantly lower per-capita cost than the U.S."
+    concepts: [healthcare]
+
+  - id: q5
+    kind: free-response
+    text: "The single-payer advocate and the market-reform advocate disagree about why U.S. healthcare costs are so high. State the strongest version of each side's empirical claim."
+    socratic_seed: "Single-payer side: multi-payer fragmentation creates massive administrative overhead and prevents the payer-side bargaining power that keeps prices in check elsewhere. Market-reform side: third-party-payer distortions kill demand-side discipline, and regulatory capture (licensure, certificate-of-need, slow drug approvals) restricts supply elasticity. Both sides agree the cost gap is real; they disagree about which structural feature is causing it."
+    concepts: [healthcare, single-payer, market-reform]

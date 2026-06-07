@@ -1,0 +1,20 @@
+slug: judith-butler
+full_name: Judith Butler
+tier: "4"
+bio_md: American philosopher and gender theorist, Distinguished Professor in the Graduate School at UC Berkeley. Author of Gender Trouble, Bodies That Matter, Precarious Life, and Who's Afraid of Gender? A foundational figure in queer theory and feminist philosophy, known for developing the theory of gender performativity. Their work has influenced fields from literary theory to political philosophy.
+role: philosopher, gender theorist
+affiliation: UC Berkeley
+lean_left: 85
+lean_right: 15
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: lgbtq-protections
+    stance: Leading academic voice for transgender rights and against anti-trans legislation
+  - slug: israel-palestine-policy
+    stance: Has been publicly critical of Israeli government policies toward Palestinians
+  - slug: free-speech-on-campus
+    stance: Defends academic freedom while critiquing how free speech debates are framed

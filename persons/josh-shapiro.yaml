@@ -1,0 +1,24 @@
+slug: josh-shapiro
+full_name: Josh Shapiro
+tier: "3"
+bio_md: Governor of Pennsylvania since 2023. Previously served as Pennsylvania Attorney General from 2017 to 2023, where he led the grand jury investigation into clergy abuse in the Catholic Church. Defeated Doug Mastriano in the 2022 gubernatorial election by a wide margin. Considered a potential Democratic presidential contender.
+role: Governor of Pennsylvania
+affiliation: Commonwealth of Pennsylvania
+party: Democrat
+lean_left: 62
+lean_right: 32
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: GovernorShapiro
+issue_stances:
+  - slug: abortion-access
+    stance: Pledged to veto any legislation restricting abortion access in Pennsylvania
+  - slug: climate-policy
+    stance: Defended Pennsylvania's participation in carbon-pricing programs while supporting natural gas industry
+  - slug: lgbtq-protections
+    stance: Signed executive order banning conversion therapy for minors in Pennsylvania
+  - slug: voting-rights-act-restoration
+    stance: Supported automatic voter registration and access expansions in Pennsylvania

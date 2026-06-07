@@ -1,0 +1,33 @@
+slug: pipeline-projects
+name: Pipeline projects
+category: environment-and-energy
+summary: Federal approval and permitting of major oil and gas pipelines, including Keystone XL, Mountain Valley, and Dakota Access, and the broader debate over fossil-fuel infrastructure.
+body_md: |-
+  Major interstate pipelines require federal approvals — typically including FERC certification for natural gas pipelines, State Department permits for cross-border oil pipelines, Clean Water Act permits from the Army Corps of Engineers, and environmental review under NEPA. High-profile projects have become flashpoints in the broader fight over fossil-fuel infrastructure.
+
+  Keystone XL would have carried Canadian oil-sands crude to U.S. refineries; its cross-border permit was denied, granted, denied, and granted across administrations before the developer cancelled the project in 2021. The Dakota Access pipeline drew sustained protests led by the Standing Rock Sioux. Mountain Valley Pipeline's natural gas line through Appalachia was completed in 2024 after years of litigation, ultimately advanced by congressional action.
+
+  Debates center on climate compatibility, eminent domain and landowner rights, tribal consent and sovereignty, energy security, the permitting process itself, and the role of long-lived infrastructure in a transitioning energy system.
+spectrum:
+  left: Most progressives oppose major new fossil-fuel pipelines, citing climate impacts, tribal sovereignty, and the long lifetimes of pipeline assets.
+  center: Centrists generally support case-by-case review balancing energy needs against environmental and community impacts, often favoring permitting reform on both sides.
+  right: Most conservatives strongly support pipeline approval as the safest mode of oil and gas transport, key to energy security, and important to U.S. and allied energy supplies.
+contested:
+  perspectives:
+    - label: Energy-infrastructure advocates
+      summary: Pipelines are the safest and lowest-emission way to move oil and gas — far safer than rail or truck transport. Blocking pipelines does not reduce demand; it shifts transport to dirtier modes or sends production overseas. Predictable permitting is essential for energy security and allied gas exports.
+      key_concerns:
+        - Pipeline safety versus rail and truck transport
+        - Energy security and LNG exports to allies
+        - Permitting predictability for infrastructure investment
+    - label: Climate-and-sovereignty opponents
+      summary: New pipelines lock in fossil-fuel use for decades, contradicting climate commitments. Many pipeline routes cross tribal lands or sacred sites without meaningful consent, and use eminent domain against unwilling landowners. The energy transition requires winding down, not expanding, this infrastructure.
+      key_concerns:
+        - Long-lived infrastructure and climate commitments
+        - Tribal sovereignty and free, prior, informed consent
+        - Eminent domain against private landowners
+related_lesson_slugs: []
+tags:
+  - environment
+  - energy
+  - infrastructure

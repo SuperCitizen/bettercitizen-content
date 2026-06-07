@@ -1,0 +1,20 @@
+slug: emmanuel-saez
+full_name: Emmanuel Saez
+tier: "4"
+bio_md: French-American economist and professor at the University of California, Berkeley. Director of the Center for Equitable Growth at UC Berkeley. Recipient of the John Bates Clark Medal in 2009 and a MacArthur Fellow. Best known for research on income and wealth inequality with collaborators including Thomas Piketty and Gabriel Zucman.
+role: UC Berkeley economist
+affiliation: UC Berkeley
+lean_left: 75
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: wealth-tax
+    stance: Prominent academic advocate for a progressive wealth tax on ultra-high-net-worth households
+  - slug: capital-gains-tax
+    stance: Supports higher capital gains taxes and equal treatment with ordinary income
+  - slug: corporate-tax-rate
+    stance: Supports higher corporate taxation and stronger enforcement against tax avoidance

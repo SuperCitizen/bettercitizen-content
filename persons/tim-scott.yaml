@@ -1,0 +1,16 @@
+slug: tim-scott
+full_name: Tim Scott
+tier: "4"
+bio_md: US Senator from South Carolina. The first African American senator from the South since Reconstruction. Known for his optimistic conservatism and Opportunity Zone legislation.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: SenatorTimScott
+issue_stances: []

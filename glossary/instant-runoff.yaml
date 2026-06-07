@@ -1,0 +1,9 @@
+slug: instant-runoff
+name: Instant runoff
+short_definition: The single-winner form of ranked-choice voting that simulates a series of runoff elections in one ballot.
+body_md: ""
+category: government
+difficulty: intermediate
+status: active
+related_term_slugs: []
+tags: []

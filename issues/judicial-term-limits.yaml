@@ -1,0 +1,43 @@
+slug: judicial-term-limits
+name: Supreme Court term limits
+category: governance-and-institutions
+summary: Whether Supreme Court justices should serve fixed terms — most commonly proposed as staggered 18-year terms with regular vacancies — rather than life tenure, to regularize appointments and reduce the stakes of any single seat.
+body_md: |-
+  Article III justices currently serve "during good behavior," effectively for life. Vacancies arise unpredictably, sometimes producing two or three appointments in a single presidential term and none in another. Recent proposals — most prominently the Presidential Commission on the Supreme Court of the United States (2021) — have suggested 18-year staggered terms that would create a vacancy every two years, ensuring each president gets two appointments per term.
+
+  Proponents argue regular vacancies would lower the stakes of any single confirmation, reduce strategic retirement and death gambling around presidential cycles, and align the Court with peer constitutional courts that almost universally use term limits. Most propose senior-justice status (similar to senior judges on lower courts) for retired justices.
+
+  Critics argue that life tenure protects judicial independence, that term limits would require a constitutional amendment given Article III's good-behavior clause, and that statutory work-arounds risk constitutional crisis. Others argue that term limits would not depoliticize confirmations and might increase the politicization of each scheduled vacancy.
+spectrum:
+  left: Life tenure produces wildly unequal appointment power and incentivizes strategic timing; staggered 18-year terms would regularize the Court, lower the stakes of each seat, and align with global constitutional-court norms.
+  center: Regularizing appointments has appeal, but the constitutional mechanics (amendment vs. statute) are critical; reformers should be honest about whether Article III permits the change they want.
+  right: Life tenure shields judges from political pressure exactly so they can rule against majorities when the law requires; term limits would inject scheduled politics into the Court and require a constitutional amendment, not a statutory workaround.
+contested:
+  perspectives:
+    - label: Staggered-term reformers
+      summary: Eighteen-year staggered terms — two per presidential term — would regularize appointments, end strategic retirement gambling, and lower the stakes of each individual seat. Senior-justice status preserves the judge's role and addresses life-tenure concerns.
+      key_concerns:
+        - Unequal appointment opportunities across presidents
+        - Strategic retirement timing
+        - Outsized stakes on each individual seat
+        - Peer constitutional courts use term limits
+    - label: Life-tenure defenders
+      summary: Life tenure protects judges from political pressure and from short-term incentives to please future employers. Article III's "good behavior" clause was a deliberate constitutional choice. Term limits would inject scheduled politics into every two-year cycle.
+      key_concerns:
+        - Judicial independence requires tenure
+        - Constitutional design protects unpopular rulings
+        - Post-judicial-career incentives could corrupt
+        - Scheduled vacancies could intensify politicization
+    - label: Constitutional-mechanics skeptics
+      summary: Whatever the merits, Article III's good-behavior clause likely requires a constitutional amendment to impose term limits, not a statutory workaround. Statutory schemes that demote justices to "senior" status after 18 years risk a constitutional showdown the Court itself would decide.
+      key_concerns:
+        - Article III likely requires amendment
+        - Statutory workarounds risk being struck down
+        - Court would decide its own case
+        - Constitutional path is honest but harder
+related_lesson_slugs: []
+tags:
+  - supreme-court
+  - judiciary
+  - term-limits
+  - constitutional-reform

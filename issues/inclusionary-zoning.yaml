@@ -1,0 +1,43 @@
+slug: inclusionary-zoning
+name: Inclusionary zoning
+category: housing
+summary: Whether new market-rate housing developments should be required (or incentivized) to set aside a share of units as below-market affordable housing, and how to design such requirements without suppressing overall supply.
+body_md: |-
+  Inclusionary zoning (IZ) requires or incentivizes residential developers to make a percentage of new units affordable to lower-income households — typically 10–25% of units, with affordability tied to area median income (AMI) and durations ranging from 30 years to perpetuity. IZ exists in hundreds of U.S. cities with widely varying designs: mandatory vs. voluntary, on-site vs. fee-in-lieu, with or without density bonuses.
+
+  Proponents argue IZ integrates affordable housing into market-rate developments, prevents concentrated poverty, and captures a share of land-value appreciation for public benefit. Well-designed IZ — with density bonuses, fee-in-lieu options, and predictable rules — can produce affordable units alongside new market-rate supply.
+
+  Critics — including some economists across the political spectrum — argue IZ acts as a tax on new construction that suppresses overall housing supply, raises market-rate prices, and ultimately produces few affordable units. They argue that broad-based subsidies (LIHTC, vouchers) or land-value taxation would produce affordable housing without suppressing market supply. Empirical research on IZ's net effect is contested and depends heavily on local-market conditions and program design.
+spectrum:
+  left: Inclusionary zoning ensures that new development includes affordable units, prevents concentrated poverty, and captures rising land values for public benefit; mandatory IZ with on-site requirements is a core affordable-housing tool.
+  center: IZ can work — but only when paired with density bonuses, predictable rules, and in markets where new construction would happen anyway; poorly designed IZ suppresses supply and produces few affordable units.
+  right: IZ is a tax on new construction that ultimately raises housing costs by suppressing supply; broad-based subsidies and supply-friendly zoning would produce more housing for everyone, including lower-income households.
+contested:
+  perspectives:
+    - label: IZ supporters
+      summary: New development raises land values and changes neighborhood character; IZ ensures that some share of new units are affordable, integrates lower-income households into mixed-income developments, and captures land-value appreciation for public benefit rather than letting it all flow to developers and landowners.
+      key_concerns:
+        - Mixed-income housing prevents concentrated poverty
+        - Land-value capture for affordable housing
+        - New development raises area rents without offset
+        - Affordable units in opportunity neighborhoods
+    - label: Supply-focused critics
+      summary: IZ functions as a tax on new construction. In supply-constrained markets, taxing new housing means less new housing — and fewer total units (market-rate and affordable) than supply-friendly zoning would produce. Broad-based subsidies are more efficient than per-project requirements.
+      key_concerns:
+        - Acts as a tax on new development
+        - Suppresses overall housing supply
+        - Few affordable units produced in practice
+        - Broad subsidies are more efficient
+    - label: Design-matters pragmatists
+      summary: "IZ outcomes depend heavily on design: percentage required, AMI targeting, density bonuses, fee-in-lieu options, in-lieu fees, and market conditions. Well-designed IZ with strong density bonuses can produce affordable units without suppressing supply; poorly designed IZ does the opposite."
+      key_concerns:
+        - Density bonuses can offset cost
+        - Fee-in-lieu flexibility helps in low-margin areas
+        - AMI targeting decisions matter
+        - Empirical outcomes vary by market
+related_lesson_slugs: []
+tags:
+  - housing
+  - zoning
+  - affordable-housing
+  - inclusionary-zoning

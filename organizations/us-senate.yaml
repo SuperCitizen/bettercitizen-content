@@ -1,0 +1,13 @@
+slug: us-senate
+name: US Senate
+kind: government
+subtype: legislative
+description: "Upper chamber of Congress: two senators per state, six-year staggered terms, advice-and-consent role for treaties and confirmations."
+website: https://www.senate.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - filibuster
+  - advice-and-consent
+  - committee-system
+is_active: true

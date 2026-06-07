@@ -1,0 +1,43 @@
+slug: data-privacy-law
+name: Federal data privacy law
+category: technology-and-data
+summary: Whether and how the U.S. should enact comprehensive federal privacy legislation — currently a patchwork of state laws (CCPA, others) and sectoral federal rules (HIPAA, GLBA, COPPA).
+body_md: |-
+  The U.S. lacks a comprehensive federal privacy law. Sectoral laws cover medical (HIPAA), financial (GLBA), education (FERPA), and child (COPPA) data. State laws — California Consumer Privacy Act/CPRA, Virginia, Colorado, Connecticut, others — create a growing patchwork.
+
+  The American Privacy Rights Act (APRA), the latest federal-bill effort, would establish baseline rights (access, correction, deletion, portability), data-minimization requirements, and limits on targeted advertising. It has stalled over preemption (whether to override state laws) and private-right-of-action questions.
+
+  Key debates:
+  - **Preemption**: Federal floor, ceiling, or middle-ground that preserves stronger state laws.
+  - **Private right of action**: Whether individuals can sue, or only enforcement by AGs / FTC.
+  - **Special categories**: Biometric data, location, health data outside HIPAA.
+  - **Children's privacy**: COPPA modernization, age-verification rules.
+spectrum:
+  left: Progressives favor strong federal privacy law with private right of action and floor preemption.
+  center: Most centrists favor federal privacy law; debates over preemption and private right of action are central.
+  right: "Conservative views vary: some favor federal privacy law with broad preemption; others favor state-led approach."
+contested:
+  perspectives:
+    - label: Strong-federal-privacy advocates
+      summary: Personal data is collected and traded with virtually no consumer control. A strong federal law with private right of action — like APRA — gives Americans the rights European citizens have under GDPR.
+      key_concerns:
+        - Comprehensive data rights
+        - Private right of action
+        - Closing patchwork gaps
+    - label: Preemption-focused advocates
+      summary: A strong, preemptive federal law replaces a costly state-by-state patchwork. Without preemption, businesses face compliance complexity that small companies can't afford.
+      key_concerns:
+        - Federal preemption
+        - Compliance simplicity
+        - Small-business burden
+    - label: State-led / minimal-federal advocates
+      summary: States are doing the work. Federal preemption would weaken protections in California and other strong-protection states. Let the states lead and Congress fill specific gaps.
+      key_concerns:
+        - State protection floors
+        - Federalism in privacy
+        - Avoiding watered-down federal law
+related_lesson_slugs: []
+tags:
+  - technology
+  - privacy
+  - data

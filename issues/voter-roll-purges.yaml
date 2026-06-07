@@ -1,0 +1,42 @@
+slug: voter-roll-purges
+name: Voter roll maintenance and purges
+category: elections-and-voting
+summary: How aggressively states should remove inactive or potentially ineligible voters from registration rolls, balancing roll hygiene against the risk of removing eligible voters who then face barriers at the polls.
+body_md: |-
+  States are required by the National Voter Registration Act to maintain accurate voter rolls — removing voters who have died, moved out of state, or otherwise become ineligible. They are also prohibited from removing voters solely for not voting. The practical implementation varies enormously: some states purge cautiously and reinstate easily, others run aggressive cross-state matches and remove voters who miss multiple elections.
+
+  Supporters of robust roll maintenance argue that outdated rolls — full of dead voters, duplicate registrations, and voters who have moved — invite fraud, waste election-administration resources, and undermine public confidence. They point to bloated rolls in some jurisdictions as evidence that maintenance has lapsed.
+
+  Critics argue that purge processes — especially those triggered by inactivity, address-matching, or interstate database checks — disproportionately remove eligible voters, particularly renters, military families, and voters with common names. They point to documented cases of large erroneous purges and to the chilling effect of having to re-register at the polling place.
+spectrum:
+  left: Aggressive purges — especially inactivity-triggered ones and error-prone interstate matches — disproportionately disenfranchise eligible voters; maintenance should be conservative and easy to cure with same-day reinstatement.
+  center: Roll maintenance is necessary and required by federal law; the question is which procedures minimize both bloated rolls and erroneous removals, with notice requirements and clear cure paths.
+  right: Clean rolls are foundational to election integrity; removing dead, moved, and ineligible voters protects against fraud and waste, and inactivity-based maintenance is a reasonable signal under the NVRA framework.
+contested:
+  perspectives:
+    - label: Cautious-maintenance advocates
+      summary: Aggressive purges — especially those keyed to inactivity or to error-prone interstate database matches — remove far more eligible voters than ineligible ones. Eligible voters face a sudden surprise at the polls, and curing erroneous removals is harder than preventing them.
+      key_concerns:
+        - Inactivity-based purges remove eligible voters
+        - Interstate database matches have high false-positive rates
+        - Notice procedures often fail to reach affected voters
+        - Renters and movers are hit hardest
+    - label: Roll-hygiene advocates
+      summary: Maintaining accurate rolls is required by the National Voter Registration Act and is essential for confidence in elections. Removing voters who have died, moved out of state, or become otherwise ineligible is a basic administrative responsibility, not voter suppression.
+      key_concerns:
+        - Bloated rolls invite fraud and confusion
+        - Dead and moved voters should not remain registered
+        - Administrative cost of bloated rolls is real
+        - Federal law requires maintenance
+    - label: Procedural reformers
+      summary: Both bloated rolls and erroneous purges are problems. The right solution is better data — automatic updates through DMV, USPS, and Social Security records — combined with strong notice requirements, easy reinstatement, and same-day registration as a backstop.
+      key_concerns:
+        - Better source data prevents both problems
+        - Notice procedures need real reach
+        - Same-day registration cures erroneous removals
+        - Independent auditing of purge accuracy
+related_lesson_slugs: []
+tags:
+  - voting
+  - voter-rolls
+  - election-administration

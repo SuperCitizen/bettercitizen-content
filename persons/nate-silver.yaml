@@ -1,0 +1,19 @@
+slug: nate-silver
+full_name: Nate Silver
+tier: "4"
+bio_md: Statistician and founder of FiveThirtyEight. Known for election forecasting and applying data analytics to politics. Author of The Signal and the Noise.
+role: statistician, journalist
+affiliation: Silver Bulletin (Substack)
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: NateSilver538
+issue_stances:
+  - slug: voter-id
+    stance: Data-driven analysis of election forecasting and polling accuracy
+  - slug: medicare-for-all
+    stance: Applies probabilistic modeling to policy outcomes

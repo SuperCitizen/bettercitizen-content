@@ -1,0 +1,14 @@
+slug: unite-america
+name: Unite America
+kind: civic-reform
+subtype: structural-reform
+description: Philanthropic venture fund and advocacy organization backing open primaries, ranked-choice voting, and other structural electoral reforms.
+website: https://www.uniteamerica.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - ranked-choice-voting
+  - electoral-reform
+  - alaska-election-reform
+  - maine-election-reform
+is_active: true

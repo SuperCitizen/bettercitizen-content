@@ -1,0 +1,43 @@
+slug: section-230
+name: Section 230 of the Communications Decency Act
+category: technology-and-data
+summary: The 1996 federal law that shields online platforms from liability for user-generated content and for "good-faith" content moderation — central to debates over social-media regulation.
+body_md: |-
+  Section 230 has two key provisions: (c)(1) protects platforms from being treated as the publisher of user content; (c)(2) protects "good-faith" content moderation. Together, these rules underpinned the modern internet by letting platforms host vast user content without per-post liability.
+
+  Reform proposals span the spectrum:
+  - **Repeal entirely** (right and left both have advocates).
+  - **Carve-outs**: For specific harms (CSAM — already partially carved by FOSTA-SESTA, terrorism, election misinformation, AI-generated content).
+  - **Conditional immunity**: Tied to algorithmic transparency, content-moderation standards, or anti-bias requirements.
+  - **Common-carrier proposals**: Treat large platforms as common carriers prohibited from discriminating among users.
+
+  Defenders argue Section 230 is essential to free expression online; without it, platforms over-moderate (or under-moderate) to avoid liability. Critics argue it lets platforms enable real-world harm without accountability.
+spectrum:
+  left: "Progressive views vary: some favor reform to address harassment, misinformation, child safety; others defend Section 230 broadly."
+  center: Most centrists favor targeted carve-outs (CSAM, terrorism) without repealing the law.
+  right: "Conservative views split: some favor reform / repeal citing perceived bias against conservatives; others defend it as essential to free speech."
+contested:
+  perspectives:
+    - label: Section 230 defenders
+      summary: Section 230 is the legal foundation of the modern internet. Repeal or major reform would silence ordinary users and entrench Big Tech (which can afford legal costs). Targeted laws addressing specific harms are better tools.
+      key_concerns:
+        - Free expression online
+        - Avoiding entrenchment of large platforms
+        - Targeted harm-specific laws
+    - label: Reform advocates
+      summary: Section 230 immunizes platforms whose algorithms promote harm. Conditional immunity tied to transparency, anti-harassment standards, and CSAM enforcement would align platform incentives with user safety.
+      key_concerns:
+        - Platform accountability
+        - Algorithmic harm
+        - Child safety online
+    - label: Common-carrier advocates
+      summary: Large platforms exercise quasi-governmental control over public discourse. Treating them as common carriers — prohibited from political discrimination — protects free speech in the digital town square.
+      key_concerns:
+        - Platform political bias
+        - Free-speech protection on dominant platforms
+        - Anti-discrimination in viewpoint
+related_lesson_slugs: []
+tags:
+  - technology
+  - free-speech
+  - platforms

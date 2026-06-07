@@ -1,0 +1,33 @@
+slug: police-body-cameras
+name: Police body cameras
+category: criminal-justice
+summary: Mandates requiring officers to wear body-worn cameras, and policies on when footage must be recorded, released to the public, and retained.
+body_md: |-
+  Body-worn cameras spread rapidly across U.S. police departments in the 2010s, accelerated by federal grants and high-profile incidents. Most large departments now equip patrol officers with cameras, though policies vary widely on when cameras must be activated, who can review footage, and how quickly (or whether) recordings are released to the public.
+
+  Research on body cameras has been mixed. Some studies find reductions in use-of-force complaints; others find little change. Outcomes appear to depend heavily on activation policies and supervisory enforcement. Cameras have also been credited with both exonerating officers and producing key evidence in misconduct prosecutions.
+
+  Debates continue over public-disclosure timelines (especially after critical incidents), officer review of footage before writing reports, data-retention periods, redaction of bystanders, and storage and infrastructure costs that fall heavily on smaller departments.
+spectrum:
+  left: Most progressives favor mandates with strict activation rules, prompt public release after critical incidents, and limits on officer review of footage before writing reports.
+  center: Centrists generally support body-camera mandates with clear activation policies and transparent release rules that balance accountability, privacy, and ongoing investigations.
+  right: Conservatives are divided. Many support cameras as a tool that protects good officers from false claims; some raise concerns about cost, privacy, and union and operational considerations.
+contested:
+  perspectives:
+    - label: Accountability advocates
+      summary: Body cameras are essential for accountability in use-of-force incidents and for building public trust. Mandates need strict activation rules, prompt release after critical incidents, and limits on letting officers review footage before writing initial reports.
+      key_concerns:
+        - Prompt public release after critical incidents
+        - Strict camera-activation policies
+        - Independent review of footage
+    - label: Officer-protection and operational concerns
+      summary: Cameras can protect officers from false complaints and document context that exonerates them. But policies need to account for victim and witness privacy, ongoing investigations, costs for smaller departments, and the realities of fast-moving incidents where activation is not always possible.
+      key_concerns:
+        - Officer exoneration in disputed incidents
+        - Privacy for victims, witnesses, and bystanders
+        - Equipment, storage, and staffing costs
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - policing
+  - transparency

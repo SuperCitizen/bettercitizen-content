@@ -1,0 +1,21 @@
+slug: sam-harris
+full_name: Sam Harris
+tier: "4"
+bio_md: Neuroscientist, philosopher, and host of the Making Sense podcast. Known for his work on consciousness, free will, and rational discourse. A prominent voice against religious extremism and for evidence-based policy.
+role: philosopher, podcast host
+affiliation: Making Sense
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: SamHarrisOrg
+issue_stances:
+  - slug: ai-regulation
+    stance: Warns about existential risk from unaligned AI
+  - slug: section-230
+    stance: Advocates for free speech with limits on disinformation
+  - slug: voter-id
+    stance: Emphasizes importance of institutional trust

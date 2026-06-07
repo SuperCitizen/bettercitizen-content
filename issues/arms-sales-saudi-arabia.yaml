@@ -1,0 +1,33 @@
+slug: arms-sales-saudi-arabia
+name: Arms sales to Saudi Arabia
+category: foreign-policy
+summary: U.S. weapons sales to Saudi Arabia, including conditioning sales on human-rights concerns and conduct in the Yemen war.
+body_md: |-
+  Saudi Arabia is one of the largest purchasers of U.S. weapons. Major U.S. systems — combat aircraft, missile-defense systems, precision-guided munitions, naval platforms — are integral to the Saudi military. The Saudi-led coalition's intervention in Yemen, beginning in 2015, drew sustained criticism over civilian casualties from airstrikes, often involving U.S.-supplied munitions.
+
+  Congress has repeatedly voted to block or condition Saudi arms sales, often through joint resolutions or amendments tied to defense bills, with several vetoes by the executive branch. The Biden administration suspended sales of "offensive" weapons in 2021 while continuing defensive sales, particularly air and missile defense, which has become especially salient with regional tensions and Houthi missile and drone strikes.
+
+  Debates weigh the strategic value of the U.S.-Saudi relationship — including against Iran, in oil markets, and on Israel normalization — against human-rights concerns, conduct in Yemen, and the 2018 murder of journalist Jamal Khashoggi.
+spectrum:
+  left: Most progressives favor sharply conditioning or halting offensive weapons sales to Saudi Arabia, citing Yemen, Khashoggi, and broader human-rights concerns.
+  center: Centrists generally support continued defensive sales and selective offensive sales tied to conduct, while preserving the strategic relationship.
+  right: Most conservatives support robust U.S.-Saudi defense ties as a counterweight to Iran and for regional stability, with internal debate over specific human-rights conditions.
+contested:
+  perspectives:
+    - label: Conditioning-and-restraint advocates
+      summary: U.S. weapons have been used in airstrikes that killed civilians in Yemen. Continuing to arm Saudi Arabia without meaningful conditions makes the U.S. complicit in war crimes, undercuts U.S. human-rights credibility globally, and entangles the U.S. in Saudi regional adventures. Sales should be conditioned on verifiable changes in conduct.
+      key_concerns:
+        - Civilian casualties in Yemen
+        - Human-rights record and Khashoggi murder
+        - U.S. complicity through arms transfers
+    - label: Strategic-partnership advocates
+      summary: Saudi Arabia is a long-standing U.S. partner against Iran, anchors stability in critical oil markets, and is central to potential Israel normalization. Cutting off sales pushes the Saudis toward Russia and China, weakens deterrence against Iran, and surrenders influence the U.S. uses to shape Saudi conduct.
+      key_concerns:
+        - Deterrence against Iran
+        - Energy markets and global oil stability
+        - Saudi-Israel normalization track
+related_lesson_slugs: []
+tags:
+  - foreign-policy
+  - saudi-arabia
+  - arms-sales

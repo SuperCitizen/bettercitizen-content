@@ -1,0 +1,12 @@
+slug: yield-curve
+name: Yield Curve
+short_definition: A graph showing the relationship between bond yields and their maturity dates; an inverted yield curve often signals an upcoming recession.
+body_md: ""
+category: economy
+difficulty: expert
+status: active
+etymology: "English financial terminology: 'yield' from Old English gieldan (to pay, give) + 'curve' from Latin curvus (bent). The concept was formalized by economists in the mid-20th century"
+why_it_matters: An inverted yield curve has preceded every US recession since 1955 — it's the most reliable recession indicator economists have, and markets watch it obsessively.
+context_example: The yield curve inverted for the first time since 2019, with the two-year Treasury paying more than the ten-year, sending recession fears rippling through financial markets.
+related_term_slugs: []
+tags: []

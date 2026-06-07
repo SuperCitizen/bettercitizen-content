@@ -1,0 +1,16 @@
+slug: nancy-pelosi
+full_name: Nancy Pelosi
+tier: "4"
+bio_md: Former Speaker of the House (2007–2011, 2019–2023) and US Representative from California. The most powerful woman in US political history, known for passing the ACA and overseeing two Trump impeachments.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 70
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: SpeakerPelosi
+issue_stances: []

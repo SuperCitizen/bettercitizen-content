@@ -1,0 +1,43 @@
+slug: border-security
+name: Border security and migration management
+category: immigration
+summary: Federal investments in border infrastructure, personnel, and processing capacity, plus policy choices on parole, "remain in Mexico," and metering at ports of entry.
+body_md: |-
+  Border encounters at the U.S.-Mexico border have hit historic highs in recent years, driven by economic and political instability in source countries, post-pandemic mobility, and changes in U.S. processing policies.
+
+  Components of "border security" include:
+  - **Physical infrastructure**: Wall, sensors, surveillance towers, drones.
+  - **Personnel**: Border Patrol, port-of-entry officers, asylum officers.
+  - **Processing**: Asylum-officer interviews, immigration courts, detention capacity.
+  - **Policy choices**: Parole programs (Title 42, CHNV humanitarian parole), Migrant Protection Protocols ("Remain in Mexico"), metering, expedited removal.
+  - **Source-country / regional cooperation**: Mexico, Northern Triangle, Colombia.
+spectrum:
+  left: Progressives generally favor investing in processing capacity and humanitarian alternatives over enforcement-only approaches.
+  center: Most centrists favor a mix of physical security, processing capacity, and orderly legal pathways.
+  right: Most conservatives favor stronger enforcement, expanded wall, expedited removal, and tighter asylum standards.
+contested:
+  perspectives:
+    - label: Enforcement-first advocates
+      summary: Open-border conditions have created humanitarian and security crises. Restore "Remain in Mexico," expand expedited removal, finish the wall, and strictly enforce asylum standards.
+      key_concerns:
+        - Operational control of the border
+        - Deterring future migration
+        - National-security and fentanyl concerns
+    - label: Processing-capacity advocates
+      summary: The bottleneck is processing — asylum officers, courts, and orderly pathways. Invest there to handle claims quickly while maintaining humanitarian commitments.
+      key_concerns:
+        - Asylum-system processing time
+        - Orderly legal pathways
+        - Humanitarian obligations
+    - label: Comprehensive-reform advocates
+      summary: Border-only policies fix nothing. Reform legal immigration, address source-country drivers, expand work-authorized pathways, and modernize the immigration system as a whole.
+      key_concerns:
+        - Legal-immigration reform
+        - Source-country investment
+        - Work-authorized pathways
+related_lesson_slugs:
+  - immigration
+tags:
+  - immigration
+  - border
+  - enforcement

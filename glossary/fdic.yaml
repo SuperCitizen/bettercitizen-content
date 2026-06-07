@@ -1,0 +1,12 @@
+slug: fdic
+name: FDIC
+short_definition: The Federal Deposit Insurance Corporation — an independent agency that insures deposits in US banks up to $250,000 per depositor.
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English acronym: Federal Deposit Insurance Corporation. Established 1933 by the Banking Act (Glass-Steagall)"
+why_it_matters: FDIC insurance prevents bank runs by guaranteeing that depositors will not lose their savings if a bank fails, a cornerstone of financial stability since the Great Depression.
+context_example: When Silicon Valley Bank collapsed in 2023, regulators invoked a systemic risk exception to guarantee all deposits, even those exceeding the FDIC's $250,000 limit.
+related_term_slugs: []
+tags: []

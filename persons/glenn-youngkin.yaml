@@ -1,0 +1,24 @@
+slug: glenn-youngkin
+full_name: Glenn Youngkin
+tier: "3"
+bio_md: Governor of Virginia since 2022. Former co-CEO of the Carlyle Group, a private equity firm. Won the 2021 Virginia gubernatorial election in an upset, focusing his campaign on parental rights in education and economic issues. Virginia governors are limited to a single consecutive term.
+role: Governor of Virginia
+affiliation: Commonwealth of Virginia
+party: Republican
+lean_left: 22
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: GlennYoungkin
+issue_stances:
+  - slug: abortion-access
+    stance: Proposed a 15-week abortion limit in Virginia with exceptions, blocked by Democratic legislature
+  - slug: corporate-tax-rate
+    stance: Pushed for cuts to Virginia's corporate and individual income tax rates
+  - slug: climate-policy
+    stance: Withdrew Virginia from the Regional Greenhouse Gas Initiative in 2023
+  - slug: lgbtq-protections
+    stance: Issued model policies on transgender students in schools requiring parental involvement

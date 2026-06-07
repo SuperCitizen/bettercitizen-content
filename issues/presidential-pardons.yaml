@@ -1,0 +1,33 @@
+slug: presidential-pardons
+name: Presidential pardon power
+category: governance-and-institutions
+summary: The Article II power letting the President grant clemency for federal offenses, and proposals to constrain it after high-profile uses.
+body_md: |-
+  Article II, §2 grants the President sole authority to "grant Reprieves and Pardons for Offences against the United States, except in Cases of Impeachment." The power is essentially unreviewable: the Supreme Court has consistently held it is a core executive function.
+
+  Recent pardons — preemptive pardons before charges, pardons of close associates, self-pardon hypotheticals — have prompted reform proposals: requiring DOJ pardon-attorney review, banning self-pardons by constitutional amendment, prohibiting pardons of close family or campaign aides, and creating notification requirements for Congress.
+
+  Defenders argue the pardon power is a constitutional safety valve and judicial-system check. Critics argue uncontrolled use undermines accountability and rule of law.
+spectrum:
+  left: Many progressives want explicit limits on self-pardons, family pardons, and pardons that obstruct justice.
+  center: Reformers favor procedural reforms (DOJ review, public reasons) without constitutional amendment.
+  right: Most conservatives oppose limits on the Article II pardon power, viewing it as a constitutionally vested executive function.
+contested:
+  perspectives:
+    - label: Pardon-reform advocates
+      summary: The pardon power was designed for mercy, not as a tool for self-protection or political loyalty payoffs. Constitutional and statutory limits should bar self-pardons and pardons that obstruct justice.
+      key_concerns:
+        - Self-pardons and abuse of the power
+        - Pardons of close associates / family
+        - Obstruction of justice via pardons
+    - label: Article II defenders
+      summary: The pardon power is constitutionally vested in the President. Statutory restrictions are unconstitutional; any reform requires constitutional amendment, which is rightly difficult.
+      key_concerns:
+        - Constitutional separation of powers
+        - Executive prerogative
+        - Safety valve against unjust prosecutions
+related_lesson_slugs:
+  - three-branches
+tags:
+  - executive-power
+  - constitutional-law

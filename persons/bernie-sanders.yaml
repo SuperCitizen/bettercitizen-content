@@ -1,0 +1,28 @@
+slug: bernie-sanders
+full_name: Bernie Sanders
+tier: "4"
+bio_md: US Senator from Vermont and twice-presidential candidate. Longtime independent who caucuses with Democrats. America's most prominent democratic socialist, known for Medicare for All and taxing the ultra-wealthy.
+role: politician
+affiliation: Independent/Democratic Party
+party: Independent
+lean_left: 90
+lean_right: 10
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: BernieSanders
+issue_stances:
+  - slug: medicare-for-all
+    stance: Champion of Medicare for All as the solution to the healthcare crisis
+  - slug: corporate-tax-rate
+    stance: Advocates for wealth taxes and higher marginal rates on the ultra-wealthy
+  - slug: tariffs
+    stance: Opposed NAFTA, TPP, and most free trade deals as harmful to workers
+  - slug: rent-control
+    stance: Supports massive public housing investment and rent control
+  - slug: higher-education-funding
+    stance: Author of legislation to make public college tuition-free
+  - slug: national-debt
+    stance: Argues deficit concerns are overblown compared to inequality

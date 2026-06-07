@@ -1,0 +1,33 @@
+slug: iran-nuclear-deal
+name: Iran nuclear deal
+category: foreign-policy
+summary: U.S. policy on the Joint Comprehensive Plan of Action (JCPOA), including the 2018 withdrawal, sanctions, and options for renewed nuclear diplomacy.
+body_md: |-
+  The Joint Comprehensive Plan of Action (JCPOA), agreed in 2015 between Iran, the U.S., the U.K., France, Germany, Russia, China, and the EU, traded significant constraints on Iran's nuclear program for sanctions relief. The U.S. withdrew in 2018 and reimposed sanctions; Iran subsequently exceeded the deal's limits on enrichment levels and stockpiles, shortening its potential breakout time.
+
+  Negotiations to restore some form of compliance stalled in 2022, and Iran's nuclear program has since advanced substantially. U.S. policy has continued to combine sanctions, diplomatic outreach through intermediaries, and threats of military action against any move toward weaponization, while regional tensions and Iranian support for groups in Lebanon, Iraq, Syria, Yemen, and Gaza complicate any deal.
+
+  Debates center on whether the JCPOA was a flawed but worthwhile constraint that should be revived in some form, or a fundamentally bad deal whose expiration provisions and limited scope made withdrawal correct, and on what mix of pressure and engagement best blocks an Iranian bomb.
+spectrum:
+  left: Most progressives support returning to a JCPOA-style agreement (or stronger), prioritizing diplomacy over military options and easing sanctions in exchange for verifiable constraints.
+  center: Centrists are divided between supporting a revived nuclear deal with expanded scope and maintaining maximum economic pressure, with broad agreement on preventing Iranian weaponization.
+  right: Most conservatives oppose returning to the JCPOA, favor maximum-pressure sanctions, and view credible military threats as essential to preventing Iranian nuclear weapons.
+contested:
+  perspectives:
+    - label: Diplomacy-and-constraints advocates
+      summary: The JCPOA verifiably constrained Iran's nuclear program; since U.S. withdrawal, Iran has advanced. A return to negotiated constraints — even imperfect ones — is far better than the alternative of a near-threshold or nuclear-armed Iran. Diplomacy backed by sanctions is a more durable path than military strikes.
+      key_concerns:
+        - Verifiable constraints on enrichment
+        - Avoiding war with Iran
+        - Multilateral support and IAEA inspections
+    - label: Maximum-pressure advocates
+      summary: The JCPOA traded short-term constraints for permanent legitimization of an Iranian enrichment program, with sunset clauses, no missile or terror constraints, and inadequate inspections. Sustained economic pressure, credible military deterrence, and support for regional partners are the better tools to block a bomb.
+      key_concerns:
+        - JCPOA sunset clauses and limited scope
+        - Iranian missile program and regional proxies
+        - Credible military deterrence
+related_lesson_slugs: []
+tags:
+  - foreign-policy
+  - nuclear
+  - iran

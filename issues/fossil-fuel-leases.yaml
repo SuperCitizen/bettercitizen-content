@@ -1,0 +1,40 @@
+slug: fossil-fuel-leases
+name: Fossil-fuel leases on federal lands
+category: environment-and-energy
+summary: Whether the federal government should continue offering oil, gas, and coal leases on federal lands and offshore waters — and at what royalty rates.
+body_md: |-
+  Roughly a quarter of U.S. oil and gas production comes from federal lands and waters. Key debates:
+  - **New leasing pauses**: Biden's 2021 leasing pause was partially overturned in court; subsequent administration policies have varied.
+  - **Royalty rates**: Long held at 12.5% on onshore federal leases — lower than most state and private rates. The IRA raised them to 16.67% with adjustments.
+  - **Methane regulations**: Limits on methane venting and flaring on federal leases.
+  - **ANWR and offshore drilling**: Specific contested areas (Arctic National Wildlife Refuge, Atlantic and Gulf offshore).
+  - **Mineral leasing reform**: Modernizing 1872 Mining Law for hardrock minerals.
+spectrum:
+  left: Progressives favor halting or sharply restricting new fossil-fuel leases.
+  center: Many centrists favor reforming royalty rates, methane standards, and leasing practices without halting all leasing.
+  right: Most conservatives favor expanded leasing as energy security and economic policy.
+contested:
+  perspectives:
+    - label: Lease-restriction advocates
+      summary: Federal lands are a public trust. Continuing to lease them for fossil fuels at low royalty rates is incompatible with climate goals and shortchanges taxpayers.
+      key_concerns:
+        - Climate-policy consistency
+        - Below-market royalty rates
+        - Public-trust stewardship
+    - label: Energy-security advocates
+      summary: Federal lands and offshore waters are critical for U.S. energy independence and consumer prices. Continued responsible leasing — with modern environmental standards — is essential.
+      key_concerns:
+        - Energy security
+        - Consumer energy prices
+        - Federal-revenue contributions
+    - label: Royalty-and-standards reformers
+      summary: Continue leasing but at modern royalty rates and with strict methane / venting / reclamation standards — addressing both fiscal and environmental concerns without ending federal energy production.
+      key_concerns:
+        - Royalty modernization
+        - Methane and reclamation standards
+        - Bonding and cleanup obligations
+related_lesson_slugs: []
+tags:
+  - energy
+  - fossil-fuels
+  - public-lands

@@ -1,0 +1,33 @@
+slug: private-prisons
+name: Private prisons and detention
+category: criminal-justice
+summary: Whether the federal government and states should contract with private companies (CoreCivic, GEO Group) to run prisons and immigration-detention facilities.
+body_md: |-
+  Private prisons house roughly 8% of state prisoners and held federal Bureau of Prisons inmates until a 2021 executive order ended new federal contracts. Private detention plays a much larger role in immigration: ICE detains the majority of immigration detainees in privately operated facilities.
+
+  Defenders argue private operators provide capacity flexibility, lower costs, and innovation. Critics argue private prisons have profit incentives to maximize population, lobby against criminal-justice reform, and provide lower-quality conditions.
+
+  Empirical evidence on cost savings is mixed and contested. Multiple studies find safety and rehabilitation outcomes worse in private facilities; industry-funded studies disagree.
+spectrum:
+  left: Progressives strongly favor eliminating private prisons and detention contracts.
+  center: Many centrists favor stricter contracting standards and oversight; mixed on full elimination.
+  right: Most conservatives accept private prisons; some favor expansion citing market efficiency.
+contested:
+  perspectives:
+    - label: Eliminate-private-prisons advocates
+      summary: Profit motives in incarceration are inherently corrupting. Private operators lobby for harsher sentences and provide worse conditions. Public agencies should run detention.
+      key_concerns:
+        - Profit incentives in incarceration
+        - Lobbying influence on sentencing policy
+        - Conditions of confinement
+    - label: Contracting-flexibility defenders
+      summary: Public agencies face capacity and cost constraints. Well-managed contracts with strong oversight let governments handle population fluctuations and pilot innovations.
+      key_concerns:
+        - Capacity flexibility
+        - Cost and innovation
+        - Performance-based contracting
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - incarceration
+  - privatization

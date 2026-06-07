@@ -1,0 +1,33 @@
+slug: mental-health-parity
+name: Mental health parity
+category: healthcare
+summary: Whether insurance plans cover mental health and substance-use disorder care on the same terms as physical health care, as required by the 2008 Mental Health Parity Act.
+body_md: |-
+  The Paul Wellstone and Pete Domenici Mental Health Parity and Addiction Equity Act (2008), expanded by the ACA, requires insurance plans to cover mental-health and substance-use disorder treatment on terms no more restrictive than physical health.
+
+  Enforcement remains a problem. Studies find systematic disparities: out-of-network use rates 5-10x higher for mental health, narrower provider networks, more frequent prior-authorization, and lower reimbursement rates. The 2024 final rule strengthens analysis and reporting requirements.
+
+  Provider supply is also a constraint: most U.S. counties have severe shortages of psychiatrists and substance-use specialists.
+spectrum:
+  left: Progressives favor strict parity enforcement, broader coverage, and substantial federal investment in mental-health workforce.
+  center: Most centrists support strengthening parity rules and addressing the workforce shortage.
+  right: Conservatives generally support parity in principle but worry about regulatory burden on small employers and insurers.
+contested:
+  perspectives:
+    - label: Strict-parity advocates
+      summary: 15 years after the parity act, mental-health coverage still lags physical-health coverage in measurable ways. Stricter rule enforcement, network-adequacy standards, and reimbursement equalization are needed.
+      key_concerns:
+        - Network adequacy for mental-health providers
+        - Equal reimbursement rates
+        - Reducing utilization barriers
+    - label: Workforce-first advocates
+      summary: Parity rules cannot deliver coverage if there are no providers to deliver care. Federal investment in psychiatric residency, loan forgiveness, and tele-mental-health expansion is the binding constraint.
+      key_concerns:
+        - Provider workforce shortage
+        - Tele-mental-health access
+        - Rural and underserved areas
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - mental-health
+  - insurance

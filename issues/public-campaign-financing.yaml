@@ -1,0 +1,34 @@
+slug: public-campaign-financing
+name: Public campaign financing
+category: money-in-politics
+summary: Government programs that match small donations, provide grants to qualifying candidates, or otherwise reduce candidates' dependence on private fundraising.
+body_md: |-
+  Public financing programs vary widely. Presidential candidates have had access to optional matching funds since 1976, though most major-party candidates now decline them. New York City's 8-to-1 small-donor match is widely cited as a model. Seattle issues "democracy vouchers" — $100 in publicly-funded vouchers each registered voter can give to qualifying candidates.
+
+  Proposals at the federal level include the For the People Act's 6-to-1 small-donor match, fully public-financed congressional campaigns, and democracy-voucher pilots.
+
+  Defenders argue public financing reduces dependence on wealthy donors and broadens the candidate pool. Critics argue it's a subsidy for fringe candidates and unconstitutional compelled speech.
+spectrum:
+  left: Progressives favor robust small-donor matching and democracy vouchers as a counterweight to big money.
+  center: Good-government reformers support voluntary matching as a way to amplify small donors without restricting other speech.
+  right: Most conservatives oppose taxpayer-funded campaign subsidies, especially for parties or candidates they oppose.
+contested:
+  perspectives:
+    - label: Public-financing advocates
+      summary: Public financing makes candidates accountable to voters, not donors. NYC's 8-to-1 match has diversified the candidate pool and reduced reliance on big money.
+      key_concerns:
+        - Reducing dependence on wealthy donors
+        - Broadening the candidate pool
+        - Empowering small donors
+    - label: Compelled-speech objectors
+      summary: Forcing taxpayers to fund campaigns they disagree with is itself a First Amendment problem. Public financing also creates incumbent-protection effects when matching formulas favor establishment candidates.
+      key_concerns:
+        - Compelled subsidization of disliked speech
+        - Risk of incumbent protection
+        - Cost to taxpayers
+related_lesson_slugs:
+  - money-in-politics-101
+tags:
+  - campaign-finance
+  - public-financing
+  - small-donor

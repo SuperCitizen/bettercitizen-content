@@ -1,0 +1,24 @@
+slug: joe-manchin
+full_name: Joe Manchin
+tier: "4"
+bio_md: Former US Senator from West Virginia, serving from 2010 to 2025. Former Governor of West Virginia from 2005 to 2010. Registered as an independent in May 2024 after a career as a Democrat. Pivotal centrist vote during the 117th Congress who shaped major legislation including the Inflation Reduction Act. Did not seek re-election in 2024.
+role: Former US Senator from West Virginia
+affiliation: Independent
+party: Independent
+lean_left: 40
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: Sen_JoeManchin
+issue_stances:
+  - slug: filibuster
+    stance: Long-time defender of the Senate filibuster and bipartisan dealmaking
+  - slug: climate-policy
+    stance: Negotiated and voted for the Inflation Reduction Act while defending coal and natural gas industries
+  - slug: fossil-fuel-leases
+    stance: Supported expanded federal oil and gas leasing alongside permitting reform
+  - slug: abortion-access
+    stance: Voted to codify Roe v. Wade after the Dobbs decision while opposing late-term abortions

@@ -1,0 +1,33 @@
+slug: term-limits-congress
+name: Congressional term limits
+category: governance-and-institutions
+summary: Proposals to cap the number of terms a member of Congress can serve, typically requiring a constitutional amendment after U.S. Term Limits v. Thornton (1995).
+body_md: |-
+  Congress has no term limits. The 22nd Amendment limits the President to two terms, but the Supreme Court held in U.S. Term Limits v. Thornton (1995) that states cannot impose term limits on their congressional delegations — any such limit requires a constitutional amendment.
+
+  Proposals vary: 12-year limits in House and Senate, 6 House terms / 2 Senate terms, or longer caps. Polling consistently shows broad public support across parties.
+
+  Defenders of term limits argue they reduce career-politician dynamics, regularize turnover, and disrupt seniority-based capture. Opponents argue they discard accumulated expertise, empower lobbyists and unelected staff, and reduce voter choice.
+spectrum:
+  left: "Progressive views are mixed: term limits are popular but some progressives worry they empower lobbyists and reduce institutional knowledge."
+  center: Reformers across parties often support modest term limits as an antidote to career incumbency.
+  right: Many conservatives strongly favor term limits as a check on Washington insiderism.
+contested:
+  perspectives:
+    - label: Term-limits advocates
+      summary: Career politicians grow disconnected from constituents and entrenched in Washington. Term limits force fresh faces, reduce incumbency advantage, and align Members with their districts.
+      key_concerns:
+        - Reducing incumbency advantage
+        - Disrupting seniority capture
+        - Increasing turnover and accountability
+    - label: Expertise / voter-choice defenders
+      summary: Term limits replace experienced legislators with novices reliant on lobbyists and staff. Voters already have term limits — they're called elections.
+      key_concerns:
+        - Loss of legislative expertise
+        - Empowerment of unelected staff and lobbyists
+        - Reducing voter choice
+related_lesson_slugs: []
+tags:
+  - congress
+  - incumbency
+  - constitutional-reform

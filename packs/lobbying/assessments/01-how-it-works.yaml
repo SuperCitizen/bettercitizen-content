@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Under the Lobbying Disclosure Act, who must register as a lobbyist?"
+    choices:
+      - id: a
+        text: "Anyone who contacts a member of Congress."
+      - id: b
+        text: "Anyone paid by a client to advocate for that client's position to government officials, who spends at least 20% of their time on such advocacy and has more than one lobbying contact per quarter."
+      - id: c
+        text: "Anyone employed by an interest group."
+      - id: d
+        text: "Only attorneys representing clients before the federal government."
+    correct_choice_id: b
+    explanation: "The 20% time threshold + paid + multiple contacts is the LDA's registration trigger. This means many activities that look like lobbying — strategic advice without direct contact, coalition-building, issue advocacy through op-eds — don't fall under registration requirements. Total spending on policy influence is significantly larger than registered lobbying spending captures."
+    concepts: [lobbying, lobbying-disclosure-act]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What is the 'revolving door' in U.S. lobbying?"
+    choices:
+      - id: a
+        text: "A new disclosure requirement under the LDA."
+      - id: b
+        text: "The flow of personnel between government service and lobbying — ~50% of senators leaving office become lobbyists or lobbying-adjacent; salaries in private practice are typically 5-10× government salaries."
+      - id: c
+        text: "A judicial doctrine limiting executive ethics rules."
+      - id: d
+        text: "A FARA term for foreign-influence activities."
+    correct_choice_id: b
+    explanation: "The revolving door describes the flow of personnel between government service and lobbying. Cooling-off periods (1-2 years for direct lobbying contacts) limit immediate post-government activity but don't bar advising clients, contact with the other chamber, or hiring by lobbying firms. The pattern is structural — government gives policy expertise that lobbying firms value, with salary differentials of 5-10×."
+    concepts: [lobbying, revolving-door]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What does Hall & Wayman (1990) and similar lobbying-effectiveness research generally show?"
+    choices:
+      - id: a
+        text: "Lobbying has no measurable effect on policy outcomes."
+      - id: b
+        text: "Lobbying primarily flips floor votes on major bills."
+      - id: c
+        text: "Lobbying is more effective at shaping bill content (technical amendments, exemptions, regulatory details) than at flipping floor votes — the action is in markup, not the final vote."
+      - id: d
+        text: "Lobbying is uniformly ineffective in modern politics."
+    correct_choice_id: c
+    explanation: "Hall & Wayman and successors document that lobbying does affect policy outcomes, but in a specific way: it's much more effective at shaping bill content during markup (technical amendments, special-interest provisions, regulatory details) than at flipping floor votes on major bills. This matters for understanding what lobbying actually does — it's less about big public confrontations and more about quiet, technical work in committee."
+    concepts: [lobbying]
+
+  - id: q4
+    kind: free-response
+    text: "The transparency-only advocate and the restriction-first reformer disagree about whether disclosure alone is sufficient. State the strongest version of each."
+    socratic_seed: "Transparency-only: lobbying is First Amendment-protected petition activity; restrictions face strict scrutiny; the right policy is robust disclosure plus enforcement so voters can evaluate legislators by the lobbying contacts they have. Restriction-first: structural dependence corruption (Lessig framework) operates even with disclosure; the 30:1 asymmetry between business and public-interest lobbying produces systematically tilted policy outcomes that disclosure doesn't address. Both sides agree disclosure is necessary; they disagree about whether it's sufficient or whether deeper restrictions are also required."
+    concepts: [lobbying, first-amendment]

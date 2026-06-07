@@ -1,0 +1,42 @@
+slug: carbon-tax
+name: Carbon tax / pricing
+category: economy-and-taxation
+summary: A federal price on greenhouse-gas emissions — typically a tax per ton of CO2 — proposed as the most efficient way to reduce emissions.
+body_md: |-
+  Carbon pricing comes in two main flavors: a carbon tax (fixed price per ton of CO2-equivalent) and cap-and-trade (fixed quantity of permits). Most economists, across the political spectrum, favor carbon pricing as the most economically efficient way to reduce emissions.
+
+  The Climate Leadership Council has proposed a "carbon dividend": a rising carbon tax with all revenue returned to households as equal per-capita rebates. The Energy Innovation and Carbon Dividend Act has had bipartisan sponsorship.
+
+  Despite economist support, carbon pricing has not passed Congress. The Inflation Reduction Act (2022) instead used subsidies and tax credits — politically easier but less economically efficient.
+
+  Critics on the left argue pricing is too slow and regressive without strong rebates; critics on the right argue any tax raises consumer costs and harms competitiveness.
+spectrum:
+  left: "Progressives are split: many support carbon pricing combined with rebates and supplementary regulation; others prefer direct subsidies and standards."
+  center: Moderates and economists across the spectrum favor revenue-neutral carbon pricing.
+  right: Most current Republican leaders oppose carbon taxes; some conservative groups (Climate Leadership Council) support a carbon-dividend swap.
+contested:
+  perspectives:
+    - label: Carbon-dividend advocates
+      summary: A revenue-neutral carbon tax with per-capita dividends sends the right price signal, boosts incomes for most households, and can replace less-efficient subsidies and regulations.
+      key_concerns:
+        - Economic efficiency in emissions reduction
+        - Progressive distributional impact via dividends
+        - Replacing patchwork regulation
+    - label: Subsidy-and-standards advocates
+      summary: Carbon pricing has failed politically. Direct subsidies for clean energy (IRA), efficiency standards, and clean-electricity mandates are politically more durable and more visible to voters.
+      key_concerns:
+        - Political durability
+        - Industrial-policy benefits
+        - Visible benefits to consumers
+    - label: Carbon-tax opponents
+      summary: A carbon tax raises energy costs, hurts manufacturing, and disproportionately burdens working families. Innovation, not taxation, is the path to clean energy.
+      key_concerns:
+        - Consumer energy costs
+        - Manufacturing competitiveness
+        - Regressive impact on low-income households
+related_lesson_slugs:
+  - climate
+tags:
+  - climate
+  - taxation
+  - environment

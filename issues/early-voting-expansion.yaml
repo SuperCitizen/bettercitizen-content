@@ -1,0 +1,42 @@
+slug: early-voting-expansion
+name: Early voting expansion
+category: elections-and-voting
+summary: Whether states should expand in-person early-voting windows to make voting more accessible or restrict them to control costs and reduce administrative complexity.
+body_md: |-
+  Early voting lets registered voters cast in-person ballots at designated locations during a window before Election Day. Most states offer some form of early voting, but the duration, hours, weekend availability, and number of locations vary widely — from no early voting at all to multi-week windows including evenings and Sundays.
+
+  Supporters argue early voting reduces lines on Election Day, accommodates workers who cannot take time off, and increases turnout among voters with inflexible schedules. They point to higher participation in jurisdictions with broad early-voting access and emphasize that long lines on a single day amount to a tax on voters.
+
+  Critics argue early voting is costly for election administrators, that votes cast before debates and late-breaking news lock in less-informed choices, and that consolidating voting on a single Election Day produces a shared civic moment. The debate increasingly turns on which specific schedule — duration, weekend hours, Sunday voting — is being expanded or curtailed.
+spectrum:
+  left: Expanding early voting — including evenings, weekends, and Souls-to-the-Polls Sundays — is essential to remove barriers for working voters and voters of color and to bring U.S. turnout closer to peer democracies.
+  center: A reasonable early-voting window with adequate locations balances access, cost, and the integrity of Election Day; the goal is administrable convenience, not maximalism in either direction.
+  right: Election Day should anchor civic participation; modest early voting can help, but very long windows raise costs, complicate ballot security, and let voters cast ballots before the full campaign has concluded.
+contested:
+  perspectives:
+    - label: Access-first reformers
+      summary: Expanding early-voting hours, weekend days, and locations is a direct way to lower the cost of voting for shift workers, caregivers, and voters who lack flexible schedules. Long lines on Election Day are themselves a form of disenfranchisement.
+      key_concerns:
+        - Working voters cannot always take time off on a Tuesday
+        - Long Election Day lines fall hardest on dense, often nonwhite, precincts
+        - Sunday voting supports community-organized turnout traditions
+        - Higher turnout strengthens democratic legitimacy
+    - label: Administrative pragmatists
+      summary: Early voting works when funded and staffed properly. The right policy question is which schedule, which locations, and what audit and chain-of-custody rules — not whether to expand or restrict in the abstract.
+      key_concerns:
+        - Election offices need adequate funding for long windows
+        - Chain-of-custody for early ballots must be auditable
+        - Hours and locations should match where demand is
+        - Consistency across counties matters for equity
+    - label: Election Day traditionalists
+      summary: A shared Election Day produces a focal civic moment, simpler administration, and a clear cutoff for the campaign. Early voting locks in votes before late information and adds cost and complexity for marginal turnout gains.
+      key_concerns:
+        - Voters may cast ballots before debates or late developments
+        - Administrative cost of long windows is significant
+        - Shared Election Day reinforces civic ritual
+        - Security and ballot custody is harder over weeks than one day
+related_lesson_slugs: []
+tags:
+  - voting
+  - early-voting
+  - election-administration

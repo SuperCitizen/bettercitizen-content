@@ -1,0 +1,24 @@
+slug: nancy-mace
+full_name: Nancy Mace
+tier: "3"
+bio_md: U.S. Representative from South Carolina's 1st district since 2021. The first woman to graduate from The Citadel's Corps of Cadets. Previously served in the South Carolina House of Representatives. Known for occasionally breaking with her party on issues including same-sex marriage, contraception access, and her stance on the January 6 Capitol attack.
+role: representative
+affiliation: U.S. House of Representatives
+party: Republican
+lean_left: 25
+lean_right: 75
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: RepNancyMace
+issue_stances:
+  - slug: abortion-access
+    stance: Opposes most abortion access but has called for the GOP to soften its messaging on the issue
+  - slug: border-security
+    stance: Supports stricter border enforcement
+  - slug: lgbtq-protections
+    stance: Voted to codify same-sex marriage protections in the Respect for Marriage Act
+  - slug: congressional-stock-trading
+    stance: Supports banning members of Congress from individual stock trading

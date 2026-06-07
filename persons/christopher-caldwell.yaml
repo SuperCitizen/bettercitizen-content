@@ -1,0 +1,14 @@
+slug: christopher-caldwell
+full_name: Christopher Caldwell
+tier: "4"
+bio_md: "Contributing editor at the Claremont Review of Books and contributing opinion writer for The New York Times. Author of 'The Age of Entitlement: America Since the Sixties' and 'Reflections on the Revolution in Europe: Immigration, Islam, and the West.' A leading intellectual trying to define a coherent Trumpism and right-wing populism."
+role: author, journalist, intellectual
+affiliation: Claremont Review of Books / New York Times
+lean_left: 25
+lean_right: 75
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances: []

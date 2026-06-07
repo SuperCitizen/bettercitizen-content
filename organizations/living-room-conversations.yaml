@@ -1,0 +1,12 @@
+slug: living-room-conversations
+name: Living Room Conversations
+kind: civic-reform
+subtype: depolarization
+description: Open-source conversation guides and facilitator training for structured small-group dialogue across difference.
+website: https://livingroomconversations.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - polarization
+  - civic-engagement
+is_active: true

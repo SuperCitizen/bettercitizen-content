@@ -1,0 +1,12 @@
+slug: miranda-rights
+name: Miranda Rights
+short_definition: The rights that must be read to criminal suspects upon arrest, including the right to remain silent and the right to an attorney.
+body_md: ""
+category: rights-and-law
+difficulty: foundational
+status: active
+etymology: Named after Ernesto Miranda, whose 1966 Supreme Court case (Miranda v. Arizona) established the requirement that police inform suspects of their Fifth and Sixth Amendment rights
+why_it_matters: Miranda rights ensure that the power imbalance between the state and the individual does not lead to coerced confessions — they are a cornerstone of criminal justice.
+context_example: The confession was thrown out because the officer failed to read the suspect his Miranda rights before the interrogation began.
+related_term_slugs: []
+tags: []

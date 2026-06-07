@@ -1,0 +1,45 @@
+slug: nimby-and-yimby
+name: NIMBY versus YIMBY
+category: housing
+summary: The conflict between residents who resist new development near their homes (NIMBY — "not in my backyard") and a growing pro-housing movement that argues abundant new supply is the only durable answer to housing affordability (YIMBY — "yes in my backyard").
+body_md: |-
+  The terms NIMBY and YIMBY describe coalitions in local-housing politics that have become more visible nationally as housing costs have surged in major cities and metros. Existing-homeowner concerns about neighborhood character, infrastructure capacity, school crowding, and property values often collide with younger residents, renters, and pro-supply advocates who argue restrictive zoning and discretionary approval processes have driven housing prices unaffordable.
+
+  YIMBY arguments draw on a near-consensus among urban economists that housing supply is the long-run driver of prices in metro areas. By restricting height, density, and use, local governments suppress supply below what would naturally meet demand — producing high prices, long commutes, displacement, and homelessness.
+
+  NIMBY arguments — though the label is often used pejoratively — express a coherent set of concerns: that new development is often poorly designed, displaces existing communities, overwhelms local infrastructure, and proceeds without genuine community consent. Some opposition to development also reflects sincere environmental, historic-preservation, or character-based values.
+
+  The terms can obscure a more nuanced reality: many "NIMBYs" support more housing in the abstract but oppose specific projects, and many "YIMBYs" acknowledge that supply alone does not address all distributional concerns. The political fight is increasingly playing out in state preemption of local zoning.
+spectrum:
+  left: Genuine pro-housing reform requires both abundant supply and protections for existing low-income tenants; YIMBYism without anti-displacement guardrails can accelerate gentrification, but blocking development entirely traps low-income renters in worsening shortages.
+  center: The empirical evidence strongly suggests supply is the long-run answer to housing prices; reforms should make development by-right where appropriate while accommodating reasonable design, infrastructure, and community-input concerns.
+  right: Local control over zoning is a core property right and a check on top-down planning; pro-supply reforms can be valuable but should be locally led, not imposed by state or federal preemption, and should respect single-family neighborhood character.
+contested:
+  perspectives:
+    - label: YIMBY supply advocates
+      summary: Decades of restrictive zoning have created a structural housing shortage in metros where jobs exist. Supply restrictions raise prices, displace lower-income workers, lengthen commutes, and worsen homelessness. Liberalizing zoning and approval processes is essential to affordability, mobility, and climate.
+      key_concerns:
+        - Structural housing shortage in productive metros
+        - Zoning suppression of supply
+        - Displacement and homelessness linked to shortage
+        - Commute and climate cost of restrictive zoning
+    - label: Community-preservation residents
+      summary: Existing residents have legitimate interests in neighborhood scale, design quality, infrastructure capacity, and community character. Sweeping density mandates ignore site-specific concerns and treat all opposition as bad-faith. Genuine community consent should be part of how change happens.
+      key_concerns:
+        - Neighborhood scale and character
+        - Infrastructure capacity for schools, parking, water
+        - Quality of new development
+        - Genuine community consent
+    - label: Equity-focused tenants
+      summary: Pure supply reform without tenant protections can accelerate displacement in existing low-income neighborhoods. Affordability requires deed-restricted housing, anti-displacement protections, and tenant rights — alongside, not instead of, supply liberalization.
+      key_concerns:
+        - Displacement of existing low-income tenants
+        - Need for affordable-housing requirements
+        - Tenant protections (just cause, rent stabilization)
+        - Public and nonprofit housing production
+related_lesson_slugs: []
+tags:
+  - housing
+  - zoning
+  - yimby
+  - nimby

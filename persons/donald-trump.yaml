@@ -1,0 +1,28 @@
+slug: donald-trump
+full_name: Donald Trump
+tier: "4"
+bio_md: 45th and 47th President of the United States. Real estate developer turned politician who reshaped the Republican Party around populist nationalism.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: realDonaldTrump
+issue_stances:
+  - slug: border-security
+    stance: Advocates strict border enforcement and wall construction
+  - slug: tariffs
+    stance: Promotes tariffs on imports, especially from China
+  - slug: corporate-tax-rate
+    stance: Signed Tax Cuts and Jobs Act reducing corporate and individual rates
+  - slug: military-spending
+    stance: Supports increased defense spending
+  - slug: voter-id
+    stance: Contests 2020 election results
+  - slug: second-amendment-regulation
+    stance: Opposes most gun restrictions

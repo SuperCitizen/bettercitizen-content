@@ -1,0 +1,21 @@
+slug: christiane-amanpour
+full_name: Christiane Amanpour
+tier: "4"
+bio_md: British-Iranian journalist and television host. CNN's chief international anchor and host of Amanpour on CNN International and PBS. Has reported from major conflict zones including the Gulf War, the Balkans, and the Middle East. Known for high-profile interviews with world leaders and her advocacy for press freedom.
+role: CNN/PBS international correspondent
+affiliation: CNN, PBS
+lean_left: 58
+lean_right: 42
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: camanpour
+issue_stances:
+  - slug: foreign-aid
+    stance: Has reported extensively on humanitarian crises and the importance of international assistance
+  - slug: ukraine-support
+    stance: Has covered the war in Ukraine extensively and reported on its humanitarian impact
+  - slug: nato-and-alliances
+    stance: Has reported on NATO's role in European security throughout her career

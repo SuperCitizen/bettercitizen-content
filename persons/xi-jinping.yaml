@@ -1,0 +1,14 @@
+slug: xi-jinping
+full_name: Xi Jinping
+tier: "4"
+bio_md: General Secretary of the Chinese Communist Party and President of China. The most powerful Chinese leader since Mao, consolidating authority and pursuing global influence.
+role: politician
+affiliation: Chinese Communist Party
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances: []

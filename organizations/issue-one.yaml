@@ -1,0 +1,14 @@
+slug: issue-one
+name: Issue One
+kind: civic-reform
+subtype: structural-reform
+description: Cross-partisan political-reform group focused on reducing the influence of money in politics, strengthening ethics rules, and protecting election integrity.
+website: https://issueone.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - campaign-finance
+  - dark-money
+  - donor-disclosure
+  - citizens-united
+is_active: true

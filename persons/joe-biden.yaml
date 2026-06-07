@@ -1,0 +1,23 @@
+slug: joe-biden
+full_name: Joe Biden
+tier: "4"
+bio_md: 46th President of the United States (2021-2025). Former Vice President and longtime US Senator from Delaware. Oversaw infrastructure legislation and pandemic recovery.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: permitting-reform
+    stance: Signed the Bipartisan Infrastructure Law
+  - slug: climate-policy
+    stance: Signed the Inflation Reduction Act with major climate provisions
+  - slug: second-amendment-regulation
+    stance: Signed the Bipartisan Safer Communities Act
+  - slug: national-debt
+    stance: Oversaw significant deficit spending during recovery

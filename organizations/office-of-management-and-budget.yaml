@@ -1,0 +1,12 @@
+slug: office-of-management-and-budget
+name: Office of Management and Budget
+kind: government
+subtype: executive-independent
+description: White House office that prepares the President’s budget, oversees agency regulations, and coordinates executive-branch performance.
+website: https://www.whitehouse.gov/omb
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - fiscal-impact
+  - fiscal-gap
+is_active: true

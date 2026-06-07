@@ -1,0 +1,33 @@
+slug: arctic-drilling
+name: Arctic drilling
+category: environment-and-energy
+summary: Federal oil and gas leasing on Alaska's North Slope, including the Arctic National Wildlife Refuge (ANWR) and the National Petroleum Reserve-Alaska.
+body_md: |-
+  Federal lands on Alaska's North Slope contain two principal areas of energy debate. The Arctic National Wildlife Refuge (ANWR) coastal plain was opened to leasing by Congress in 2017; subsequent lease sales drew minimal interest, and the legal status of those leases has been contested. The National Petroleum Reserve-Alaska (NPR-A), set aside in 1923 specifically as a petroleum reserve, has seen more active development, including the Willow project approved in 2023.
+
+  Alaska Native communities are divided. The Inupiat of the North Slope, including local governments, broadly support development for jobs and tax revenue. The Gwich'in of the interior, who depend on the Porcupine caribou herd that calves in ANWR's coastal plain, broadly oppose drilling there.
+
+  Debates weigh long-term oil production, climate commitments, wildlife and subsistence impacts, Alaska Native consent and benefits, and U.S. energy security.
+spectrum:
+  left: Most progressives oppose ANWR leasing and seek to limit NPR-A development, citing climate, wildlife, and Gwich'in subsistence concerns.
+  center: Centrists generally distinguish ANWR (more protective) from NPR-A (more open to development), and weigh project-specific impacts case by case.
+  right: Most conservatives strongly support both ANWR and NPR-A development for energy security, federal revenue, jobs, and Alaska Native economic interests in the North Slope.
+contested:
+  perspectives:
+    - label: Energy-development and North Slope advocates
+      summary: North Slope oil has produced enormous economic benefits for Alaska and the United States, including for Inupiat communities that support continued development. ANWR's coastal plain represents a small footprint with major potential. Locking up these resources weakens U.S. energy security and harms Alaska.
+      key_concerns:
+        - Energy security and federal revenue
+        - Alaska state revenue and Permanent Fund
+        - Inupiat support for development
+    - label: Wildlife and Gwich'in subsistence advocates
+      summary: The ANWR coastal plain is the calving ground for the Porcupine caribou herd that the Gwich'in have depended on for millennia. Drilling there would breach a half-century bipartisan protection, harm one of America's last truly wild places, and contradict the climate commitments the U.S. has made.
+      key_concerns:
+        - Porcupine caribou herd and Gwich'in subsistence
+        - Climate commitments
+        - Habitat protection in one of America's last wild places
+related_lesson_slugs: []
+tags:
+  - environment
+  - energy
+  - alaska

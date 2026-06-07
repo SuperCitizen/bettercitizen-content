@@ -1,0 +1,42 @@
+slug: homelessness-policy
+name: Homelessness policy
+category: housing
+summary: How cities, states, and the federal government should address homelessness — Housing First vs. treatment-first, encampment policy, and the response to Grants Pass v. Johnson (2024).
+body_md: |-
+  Roughly 650,000 people are homeless on a given night in the U.S., concentrated in West Coast cities with high housing costs. Two policy frameworks compete:
+  - **Housing First**: Provide permanent supportive housing without preconditions; address substance use, mental illness, and other issues from a stable base.
+  - **Treatment First / "compassionate enforcement"**: Require treatment compliance for housing access; allow encampment removal and involuntary commitment for the chronically unsheltered.
+
+  The Supreme Court in Grants Pass v. Johnson (2024) held that cities can enforce camping bans without violating the 8th Amendment, freeing local governments to clear encampments more aggressively.
+
+  Federal funding flows through HUD's Continuum of Care program; the Built for Zero campaign and Housing First framework have been federal priorities.
+spectrum:
+  left: Progressives generally favor Housing First, expanded affordable housing, and skepticism of encampment sweeps.
+  center: Many moderates favor a mix of Housing First and treatment-engaged approaches; pragmatic encampment management.
+  right: Most conservatives favor treatment-first, work-conditional programs, and aggressive encampment enforcement.
+contested:
+  perspectives:
+    - label: Housing First advocates
+      summary: Permanent supportive housing without preconditions is the most cost-effective intervention. Addressing addiction and mental illness is far more successful from a stable base.
+      key_concerns:
+        - Cost-effectiveness of permanent housing
+        - Treatment success after stabilization
+        - Reducing emergency-services use
+    - label: Treatment-first / enforcement advocates
+      summary: Untreated addiction and mental illness drive most chronic homelessness. Treatment must come before housing; encampments harm public safety and the homeless themselves.
+      key_concerns:
+        - Public safety in cities
+        - Treatment for addiction and mental illness
+        - Compassionate but firm enforcement
+    - label: Supply / preventive focus
+      summary: The single best predictor of homelessness rates is housing cost. Build more housing, expand vouchers, and intervene early to prevent people from becoming homeless in the first place.
+      key_concerns:
+        - Housing supply and affordability
+        - Voucher expansion
+        - Eviction prevention
+related_lesson_slugs:
+  - housing
+tags:
+  - housing
+  - homelessness
+  - social-services

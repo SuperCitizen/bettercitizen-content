@@ -1,0 +1,39 @@
+slug: chips-act-implementation
+name: CHIPS Act implementation
+category: technology-and-data
+summary: Implementation of the 2022 CHIPS and Science Act, including grants to semiconductor manufacturers, R&D programs, and conditions attached to awards.
+body_md: |-
+  The CHIPS and Science Act of 2022 authorized roughly $52 billion in funding to revive U.S. semiconductor manufacturing and research, plus a 25% investment tax credit for semiconductor fabrication facilities. The bulk of the manufacturing grants are administered by the Commerce Department's CHIPS Program Office, which has announced major awards to Intel, TSMC, Samsung, Micron, GlobalFoundries, and others.
+
+  Awards have conditions including domestic manufacturing commitments, limits on expanding leading-edge capacity in China, claw-back provisions, and varying requirements around workforce, childcare for workers, project labor agreements, and equity provisions. The Act also created a National Semiconductor Technology Center and funded broader research at the National Science Foundation, NIST, and the Department of Energy.
+
+  Debates center on the size and pace of awards, the conditions attached, the geopolitical strategy versus China, the role of foreign-headquartered companies receiving U.S. subsidies, and broader questions about U.S. industrial policy.
+spectrum:
+  left: Most progressives support CHIPS Act funding with strong worker, equity, and community conditions, and see it as a model for broader industrial policy.
+  center: Centrists broadly support the CHIPS Act on national-security and supply-chain grounds, with debate over how aggressively to attach social-policy conditions.
+  right: Conservative views split. Many support the national-security rationale and tax credits but object to grant conditions seen as social-policy mandates; some oppose industrial policy generally.
+contested:
+  perspectives:
+    - label: National-security and supply-chain advocates
+      summary: The pandemic showed the cost of concentrated semiconductor production in Taiwan, and a Chinese move against Taiwan would devastate the global economy. CHIPS Act investments reshoring leading-edge and trailing-edge fab capacity are a national-security necessity that markets alone would not deliver.
+      key_concerns:
+        - Taiwan concentration risk
+        - Supply-chain resilience
+        - Leading-edge manufacturing capability
+    - label: Industrial-policy critics
+      summary: Subsidizing private corporations at this scale picks winners, distorts markets, and uses taxpayer dollars to underwrite profitable companies. The conditions attached add costly mandates around labor, childcare, and equity that delay projects and raise costs. Tax credits and deregulation would be more effective.
+      key_concerns:
+        - Picking winners with taxpayer dollars
+        - Cost and delay from grant conditions
+        - Risk of expanding into broader industrial policy
+    - label: Worker-and-equity advocates
+      summary: Public subsidies should produce public benefit beyond corporate profit. Grant conditions on prevailing wages, project labor agreements, workforce development, childcare for workers, and community equity ensure CHIPS funding builds durable middle-class jobs and broad-based prosperity.
+      key_concerns:
+        - Worker pay and benefits at funded facilities
+        - Workforce training and pipelines
+        - Equity in supplier and contractor opportunities
+related_lesson_slugs: []
+tags:
+  - technology
+  - industrial-policy
+  - semiconductors

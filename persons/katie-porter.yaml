@@ -1,0 +1,16 @@
+slug: katie-porter
+full_name: Katie Porter
+tier: "4"
+bio_md: Former US Representative from California. Known for her whiteboard-wielding interrogations of corporate executives in committee hearings and consumer protection advocacy.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 75
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: KatiePorter
+issue_stances: []

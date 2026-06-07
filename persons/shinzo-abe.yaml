@@ -1,0 +1,23 @@
+slug: shinzo-abe
+full_name: Shinzo Abe
+tier: "4"
+bio_md: Late Prime Minister of Japan and Japan's longest-serving prime minister, holding the office from 2006 to 2007 and again from 2012 to 2020. A leader of the Liberal Democratic Party (LDP), he championed the economic program known as 'Abenomics' and a more assertive Japanese foreign and security policy. He was assassinated in Nara in July 2022.
+role: former Prime Minister of Japan
+affiliation: Liberal Democratic Party (LDP)
+party: LDP
+lean_left: 20
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: nato-and-alliances
+    stance: Deepened the U.S.-Japan alliance and championed the 'Free and Open Indo-Pacific' concept and the Quad with the U.S., Australia, and India
+  - slug: taiwan-and-china
+    stance: Emphasized Taiwan's strategic importance and pushed back against Chinese coercion in the East and South China Seas
+  - slug: military-spending
+    stance: Reinterpreted Japan's pacifist constitution to allow collective self-defense and laid groundwork for higher defense budgets
+  - slug: trade-with-china
+    stance: Pursued the Trans-Pacific Partnership and economic engagement with China while hedging through security ties

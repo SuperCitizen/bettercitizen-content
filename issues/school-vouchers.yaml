@@ -1,0 +1,39 @@
+slug: school-vouchers
+name: School vouchers
+category: education
+summary: Programs that provide public funds — through vouchers, education savings accounts, or tax-credit scholarships — for families to use at private or religious schools.
+body_md: |-
+  School-voucher and education-savings-account (ESA) programs let public education dollars follow students to private schools, including religious schools. Programs began as targeted efforts (low-income, special-needs, or failing-district students) but have expanded dramatically since 2021, with several states enacting universal or near-universal eligibility.
+
+  The Supreme Court's ruling in Carson v. Makin (2022) held that states offering tuition assistance for private schools cannot exclude religious schools, reshaping First Amendment questions about state funding of religious education.
+
+  Empirical research has produced mixed findings. Some early studies found neutral or modest gains for voucher students; some large-scale recent studies — notably in Louisiana, Indiana, and Ohio — found negative impacts on academic outcomes. Advocates argue these studies measure narrow outcomes and miss family-satisfaction and values gains.
+spectrum:
+  left: Progressives generally oppose vouchers as diverting funds from public schools, subsidizing religious education, lacking accountability, and harming the public-school system.
+  center: Centrists are often cautious — sometimes supporting targeted voucher programs for low-income students or those in failing schools while opposing universal eligibility.
+  right: Conservatives broadly support vouchers and education savings accounts as parental rights, religious freedom, and competition that improves all schools.
+contested:
+  perspectives:
+    - label: Parental-choice advocates
+      summary: Public education dollars belong to children, not buildings. Parents — not bureaucrats — are best positioned to decide what school fits their child, and competition forces public schools to improve. Religious schools should not be excluded from public benefits available to others.
+      key_concerns:
+        - Parental decision-making authority
+        - Religious-school inclusion (post-Carson)
+        - Competitive pressure on public schools
+    - label: Public-school defenders
+      summary: Vouchers drain funding from public schools while leaving them with the highest-need students. They subsidize private schools that can discriminate, lack accountability for outcomes, and primarily benefit families already using private school. The evidence on outcomes is at best mixed and often negative.
+      key_concerns:
+        - Funding loss for traditional districts
+        - Lack of accountability and admissions controls
+        - Subsidy of existing private-school enrollment
+    - label: Church-state separationists
+      summary: Routing public tax dollars to religious schools — many of which can discriminate based on religion, sexual orientation, or other grounds — undermines the separation of church and state and forces taxpayers to subsidize doctrines they may oppose.
+      key_concerns:
+        - Taxpayer funding of religious instruction
+        - Discrimination by religious schools
+        - Erosion of Establishment Clause limits
+related_lesson_slugs: []
+tags:
+  - education
+  - k12
+  - school-choice

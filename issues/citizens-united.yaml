@@ -1,0 +1,41 @@
+slug: citizens-united
+name: Citizens United and corporate political spending
+category: money-in-politics
+summary: The 2010 Supreme Court decision that struck down restrictions on independent political expenditures by corporations and unions, and the campaign-finance debates that followed.
+body_md: |-
+  Citizens United v. FEC (2010) held that the First Amendment protects independent political expenditures by corporations, unions, and other associations. SpeechNow.org v. FEC (2010), decided shortly after, allowed unlimited contributions to PACs that make only independent expenditures — creating the modern Super PAC.
+
+  The decision did not change limits on direct contributions to candidates or parties, nor did it overturn disclosure requirements. But subsequent IRS rules and tax-status regimes (501(c)(4) "social welfare" organizations) created channels for "dark money" — political spending whose donors are not publicly disclosed.
+
+  Reform proposals range from a constitutional amendment to overturn the decision, to disclosure-focused legislation (DISCLOSE Act), to public financing of campaigns.
+spectrum:
+  left: Progressives generally view Citizens United as a corrupting decision and support a constitutional amendment to overturn it.
+  center: Reformers focus on disclosure and small-donor empowerment as workable responses within the current First Amendment framework.
+  right: Many conservatives view Citizens United as correctly applying the First Amendment to political speech, including by corporations.
+contested:
+  perspectives:
+    - label: Pro-overturn reformers
+      summary: Money is not speech, and corporations are not people. Citizens United enabled an arms race of independent spending that drowns out ordinary voters and corrupts the political process.
+      key_concerns:
+        - Equal political voice for citizens
+        - Reducing the influence of large donors
+        - Restoring pre-2010 contribution limits
+    - label: First Amendment defenders
+      summary: Political speech is the core of the First Amendment. Restrictions on independent expenditures censor advocacy and entrench incumbent advantage. Disclosure, not prohibition, is the right answer.
+      key_concerns:
+        - First Amendment protection of political speech
+        - Avoiding incumbent protection
+        - Preserving association rights
+    - label: Disclosure-focused middle path
+      summary: Citizens United is here to stay, but voters deserve to know who funds political speech. Robust disclosure of donors and ad spending addresses corruption concerns without restricting speech.
+      key_concerns:
+        - Donor and ad-spending disclosure
+        - Closing 501(c)(4) dark-money loopholes
+        - Real-time public access to filings
+related_lesson_slugs:
+  - citizens-united
+  - money-in-politics-101
+tags:
+  - campaign-finance
+  - supreme-court
+  - first-amendment

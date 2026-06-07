@@ -1,0 +1,39 @@
+slug: earned-income-tax-credit-expansion
+name: Earned Income Tax Credit Expansion
+category: economy-and-taxation
+summary: Whether to expand the Earned Income Tax Credit — particularly for workers without qualifying children — and to raise income thresholds and phaseout points.
+body_md: |-
+  The Earned Income Tax Credit (EITC) is a refundable federal tax credit aimed at low- and moderate-income working households. It phases in with earnings, plateaus, and phases out, with the largest benefits going to workers with children. Childless workers currently receive a much smaller credit and a narrower eligibility range.
+
+  Both Republican and Democratic administrations have historically expanded the EITC, citing its work-incentive structure and bipartisan economic literature on its anti-poverty effects. Recent proposals would substantially raise the maximum credit for childless workers, lower the minimum age, and raise income thresholds.
+
+  Critics of expansion raise concerns about administrative complexity, error rates, marriage penalties at certain income levels, and whether the credit is the best mechanism compared to wage policy or direct cash benefits.
+spectrum:
+  left: Progressives broadly support a larger EITC, often alongside a robust Child Tax Credit and minimum-wage increases, viewing expansion as a proven anti-poverty tool that rewards work.
+  center: Moderates emphasize the EITC's bipartisan track record and favor targeted expansions — especially for childless workers — over more contested wage or benefit changes.
+  right: Many conservatives support EITC expansion as a pro-work alternative to broader welfare programs, though some worry about error rates, marriage penalties, and overall program cost.
+contested:
+  perspectives:
+    - label: Expand broadly
+      summary: The EITC is one of the most evidence-backed anti-poverty programs, lifting millions out of poverty while encouraging work. Expanding it — especially the small credit for childless workers — addresses a glaring gap with minimal labor-market distortion.
+      key_concerns:
+        - Anti-poverty impact
+        - Work incentives
+        - Closing the childless-worker gap
+    - label: Reform before expansion
+      summary: The EITC has persistent error and improper-payment issues, marriage penalties, and complexity that depresses take-up. Expansion should be paired with structural reform — simpler forms, advance payments, and addressing marriage penalties — to deliver real gains.
+      key_concerns:
+        - Improper-payment rates
+        - Marriage-penalty design
+        - Simplification and take-up
+    - label: Prefer alternatives
+      summary: A larger EITC delivers benefits through the tax code with delays and complexity. Direct cash support, child allowances, or wage policy may better reach families when they need help and avoid tying anti-poverty policy to annual tax filing.
+      key_concerns:
+        - Timing of household support
+        - Administrative simplicity for families
+        - Comparative effectiveness vs. cash benefits
+related_lesson_slugs: []
+tags:
+  - eitc
+  - poverty
+  - tax-credits

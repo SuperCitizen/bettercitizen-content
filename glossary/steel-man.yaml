@@ -1,0 +1,14 @@
+slug: steel-man
+name: Steel-Man
+short_definition: "The opposite of a strawman: restating an opponent's argument in its strongest, most defensible form before responding to it."
+body_md: ""
+category: rhetoric
+difficulty: intermediate
+status: emerging
+etymology: Coined in early-2000s rationalist and analytic-philosophy circles as the deliberate inverse of 'straw man' — a 'steel man' is built to withstand attack, not to be flimsy.
+why_it_matters: Steel-manning is the discipline that makes serious cross-spectrum debate possible. It forces you to engage with the best version of an opposing view rather than the cartoon version, which is the only path to changing your own mind on contested questions.
+context_example: "Before refuting the libertarian position on rent control, the panelist steel-manned it: prices are signals, suppressing them suppresses housing supply, and tenants ultimately pay the cost in shortages."
+related_term_slugs:
+  - strawman
+tags:
+  - mirror

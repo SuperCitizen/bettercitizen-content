@@ -1,0 +1,41 @@
+slug: national-debt
+name: National debt and fiscal sustainability
+category: economy-and-taxation
+summary: The total federal debt — over $34 trillion — and debates over whether deficits matter, what level is sustainable, and how to address it.
+body_md: |-
+  Federal debt held by the public has risen from ~30% of GDP in 2000 to ~100% of GDP after the COVID response, with Congressional Budget Office projections showing it growing further as Social Security and Medicare costs rise. Net interest on the debt now exceeds the entire defense budget.
+
+  Key debates:
+  - **Do deficits matter?** "Modern Monetary Theory" argues sovereign currency issuers face inflation, not solvency, constraints. Mainstream economics holds that high debt eventually raises interest costs and crowds out investment.
+  - **What level is sustainable?** Some economists target debt/GDP < 100%; others say the right metric is interest-payments-as-share-of-GDP.
+  - **How to address?** Tax increases, spending cuts (especially mandatory programs), economic growth, or some combination.
+spectrum:
+  left: Progressives often emphasize that debt-financed investment in infrastructure, climate, and human capital pays for itself; others want substantial revenue increases on the wealthy.
+  center: Centrists worry about long-term debt-to-GDP trajectories and favor a mix of tax increases and entitlement reform.
+  right: Most conservatives focus on spending cuts (especially non-defense discretionary and mandatory programs) over tax increases.
+contested:
+  perspectives:
+    - label: Debt-hawk reformers
+      summary: High and rising debt is a generational injustice that crowds out investment, eats the discretionary budget through interest, and constrains future policy. Both tax increases and entitlement reform are needed.
+      key_concerns:
+        - Interest costs crowding out programs
+        - Intergenerational equity
+        - Avoiding fiscal crisis
+    - label: Investment-first proponents
+      summary: Debt-financed investment in infrastructure, climate, education, and research pays back through higher growth. The debt level matters less than what borrowing is used for and the interest-rate environment.
+      key_concerns:
+        - Productive vs unproductive borrowing
+        - Long-term growth dividends
+        - Interest-rate context
+    - label: Spending-cut focused
+      summary: Tax increases harm growth. Sustainable fiscal policy requires reducing the size of government — discretionary spending, federal workforce, regulatory state, and reform of mandatory programs.
+      key_concerns:
+        - Limited government
+        - Avoiding tax-rate-driven growth drag
+        - Entitlement reform
+related_lesson_slugs:
+  - taxes
+tags:
+  - budget
+  - debt
+  - fiscal-policy

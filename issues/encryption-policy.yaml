@@ -1,0 +1,37 @@
+slug: encryption-policy
+name: Encryption policy
+category: technology-and-data
+summary: Whether law enforcement should have legal access to encrypted communications and devices — the long-running "going dark" / "backdoor" / "lawful access" debate.
+body_md: |-
+  End-to-end encryption (E2EE) — used in iMessage, Signal, WhatsApp, and many other services — makes message content inaccessible to anyone except sender and recipient, including the platform.
+
+  Federal law-enforcement officials have repeatedly called for "lawful access" mechanisms. Cryptographers and security experts have responded that such mechanisms would undermine the security of all users, since any backdoor for law enforcement creates a vulnerability that adversaries can find or compel.
+
+  Specific recent flashpoints include:
+  - **CSAM detection** vs. encryption (Apple's 2021 client-side scanning proposal, then withdrawn).
+  - **Going-dark legislation** (EARN IT Act, others).
+  - **State laws** mandating backdoors.
+  - **Cross-border** data access (CLOUD Act).
+spectrum:
+  left: "Progressive views split: civil-liberties progressives strongly support encryption; child-safety advocates favor exceptions."
+  center: Most centrists support strong encryption with targeted lawful-access proposals.
+  right: "Conservative views split: civil-libertarian conservatives support encryption; law-enforcement-aligned conservatives favor lawful access."
+contested:
+  perspectives:
+    - label: Strong-encryption advocates
+      summary: Any "lawful-access" backdoor is a vulnerability for everyone, including journalists, dissidents, and ordinary users. Strong encryption is essential to privacy, security, and human rights worldwide.
+      key_concerns:
+        - Security for ordinary users
+        - Press freedom and dissent globally
+        - Critical-infrastructure protection
+    - label: Lawful-access advocates
+      summary: Encryption is increasingly enabling serious crime — child exploitation, terrorism, organized crime — that law enforcement cannot reach. Targeted lawful-access mechanisms with judicial oversight are necessary.
+      key_concerns:
+        - Investigation of serious crimes
+        - Child sexual abuse material
+        - Counter-terrorism
+related_lesson_slugs: []
+tags:
+  - technology
+  - privacy
+  - encryption

@@ -1,0 +1,24 @@
+slug: claudia-sheinbaum
+full_name: Claudia Sheinbaum
+tier: "3"
+bio_md: President of Mexico since October 2024, the first woman elected to the office. A climate scientist and engineer by training who contributed to IPCC reports, she previously served as Head of Government of Mexico City. She is a close ally of her predecessor Andrés Manuel López Obrador and a leader of the Morena party.
+role: President of Mexico
+affiliation: Morena
+party: Morena
+lean_left: 70
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: Claudiashein
+issue_stances:
+  - slug: climate-policy
+    stance: A trained climate scientist who supports expanding renewables while maintaining state control of the oil sector
+  - slug: trade-with-china
+    stance: Manages Mexico's role in nearshoring while preserving the USMCA trade relationship with the U.S.
+  - slug: minimum-wage
+    stance: Backs continued increases in Mexico's minimum wage and expanded social programs
+  - slug: immigration-related-issues
+    stance: Cooperates with U.S. on migration management while advocating development-focused regional approaches

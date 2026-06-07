@@ -1,0 +1,39 @@
+slug: zoning-reform
+name: Zoning reform and land use
+category: housing
+summary: Whether to relax restrictive single-family-only zoning, parking minimums, and height limits to allow more housing — the "YIMBY" movement vs. neighborhood-preservation defenders.
+body_md: |-
+  Most U.S. residential land is zoned single-family-only, prohibiting duplexes, ADUs, and apartments. Zoning reform proposals — implemented at the state level in Oregon (HB 2001), California (multiple bills), Minneapolis, and elsewhere — legalize "missing middle" housing, eliminate parking minimums, and override local exclusionary zoning.
+
+  Defenders of reform ("YIMBY" — Yes In My Back Yard) argue that artificial supply restrictions cause the housing affordability crisis. Defenders of existing zoning argue local control protects neighborhood character, schools, infrastructure, and home values.
+
+  Federal involvement is limited but growing: HUD's "Affirmatively Furthering Fair Housing" rule, conditioning some federal grants on local zoning reform.
+spectrum:
+  left: "Progressive views are split: many YIMBY supporters favor aggressive zoning reform; some preservationists worry about gentrification and developer windfalls."
+  center: Most centrist housing economists favor zoning reform as the binding constraint on supply.
+  right: "Conservative views split: property-rights libertarians favor reform; local-control conservatives oppose state and federal preemption."
+contested:
+  perspectives:
+    - label: YIMBY reformers
+      summary: Housing prices have risen 5x faster than wages because supply is artificially constrained. Legalize missing-middle housing, eliminate parking minimums, allow ADUs by-right.
+      key_concerns:
+        - Housing affordability
+        - Reducing artificial supply restrictions
+        - Allowing diverse housing types
+    - label: Local-control defenders
+      summary: Land-use is the quintessential local matter. State and federal preemption strips communities of the right to shape their own neighborhoods, schools, and infrastructure.
+      key_concerns:
+        - Local control
+        - Neighborhood character and infrastructure
+        - Property values and school quality
+    - label: Equity-focused reformers
+      summary: Zoning reform alone doesn't guarantee affordability — the new housing may be high-end. Combine reform with affordability requirements, anti-displacement measures, and tenant protections.
+      key_concerns:
+        - Affordability requirements
+        - Anti-displacement protections
+        - Equity in new development
+related_lesson_slugs: []
+tags:
+  - housing
+  - zoning
+  - land-use

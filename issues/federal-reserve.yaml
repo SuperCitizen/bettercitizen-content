@@ -1,0 +1,41 @@
+slug: federal-reserve
+name: Federal Reserve independence and mandate
+category: economy-and-taxation
+summary: The U.S. central bank's structure, dual mandate (price stability + maximum employment), and ongoing debates over its political independence and scope.
+body_md: |-
+  The Federal Reserve, established 1913, has a "dual mandate" of stable prices and maximum employment, plus banking-system stability and supervisory roles. Its 12 regional banks and Board of Governors are statutorily independent of the executive — though presidents nominate the Chair and Governors.
+
+  Recent debates:
+  - **Political independence**: Calls for removing the Chair, audits of monetary decisions, and proposals to subject the Fed to congressional appropriations.
+  - **Mandate expansion**: Should the Fed address climate-financial risks, racial wealth gaps, or asset inflation?
+  - **Tools**: Quantitative easing, balance-sheet reduction, and emergency lending facilities — what's the right scope?
+  - **Currency**: Whether the Fed should issue a Central Bank Digital Currency.
+spectrum:
+  left: "Progressive views vary: some favor a broader employment-focused mandate; others want climate-financial-risk authority and stricter bank-supervision tools."
+  center: Most centrists strongly favor Fed independence and the existing dual mandate.
+  right: 'Conservative views vary: some favor a single price-stability mandate (Taylor Rule, gold standard); others favor "Audit the Fed" and political accountability.'
+contested:
+  perspectives:
+    - label: Independence preservers
+      summary: Central-bank independence is essential to credible monetary policy. Politicizing the Fed leads to short-term inflation bias, as comparative experience (Turkey, Argentina) demonstrates.
+      key_concerns:
+        - Inflation credibility
+        - Insulating monetary policy from political cycles
+        - International confidence in U.S. assets
+    - label: Audit-and-reform advocates
+      summary: The Fed makes consequential decisions — emergency lending, asset purchases, regulatory choices — with limited transparency. More congressional oversight and audits are warranted.
+      key_concerns:
+        - Democratic accountability
+        - Transparency of emergency facilities
+        - Quantitative-easing distributional effects
+    - label: Mandate-expansion advocates
+      summary: The Fed already shapes inequality, climate-related financial risk, and asset prices through its tools. Formalizing those concerns in the mandate would lead to more transparent decisions.
+      key_concerns:
+        - Climate-financial risk
+        - Racial wealth gap
+        - Asset-price effects of monetary policy
+related_lesson_slugs: []
+tags:
+  - monetary-policy
+  - central-bank
+  - institutions

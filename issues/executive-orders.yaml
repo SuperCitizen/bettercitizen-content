@@ -1,0 +1,34 @@
+slug: executive-orders
+name: Executive orders and unilateral executive action
+category: governance-and-institutions
+summary: The use of executive orders, memoranda, and rule-making to make policy without congressional legislation — and the question of when that crosses constitutional bounds.
+body_md: |-
+  Executive orders are presidential directives to executive agencies. They have no special constitutional status — they are valid only insofar as they exercise authority Congress has delegated or that Article II grants directly. Recent administrations of both parties have used executive orders to advance immigration policy, regulatory rollbacks, climate action, and student-loan forgiveness — often when Congress is unable to legislate.
+
+  Courts increasingly police the boundaries: the "major questions doctrine" (West Virginia v. EPA, 2022) requires clear congressional authorization for sweeping regulatory actions. Biden v. Nebraska (2023) struck down student-loan forgiveness under HEROES Act authority.
+
+  Reform proposals include requiring statutory citations and sunset provisions on EOs, congressional review of major orders, and clarifying delegation doctrine.
+spectrum:
+  left: Progressives often defend executive action when Congress is gridlocked, but worry about post-Chevron rollback and major-questions limits.
+  center: Many moderates favor procedural reforms (sunset, review) and a more disciplined nondelegation doctrine.
+  right: Many conservatives favor judicial limits on executive action, especially through major-questions and nondelegation doctrines.
+contested:
+  perspectives:
+    - label: Defenders of executive action
+      summary: When Congress fails to legislate, the executive branch must use existing authority to address pressing issues. Executive orders are constrained by statute and judicial review.
+      key_concerns:
+        - Governing through congressional gridlock
+        - Implementing existing statutory authority
+        - Responding to emergencies
+    - label: Restraint advocates
+      summary: Major policy decisions belong to Congress. Aggressive executive action — especially "creative" use of statutory authority — undermines democratic accountability and produces whiplash policy.
+      key_concerns:
+        - Separation of powers
+        - Congressional accountability
+        - Stability across administrations
+related_lesson_slugs:
+  - three-branches
+tags:
+  - executive-power
+  - administrative-law
+  - separation-of-powers

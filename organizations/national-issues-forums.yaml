@@ -1,0 +1,12 @@
+slug: national-issues-forums
+name: National Issues Forums
+kind: civic-reform
+subtype: deliberation
+description: Network of organizations that convene nonpartisan deliberative forums on hard public issues, using issue guides that frame multiple options and trade-offs.
+website: https://www.nifi.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - civic-engagement
+  - polarization
+is_active: true

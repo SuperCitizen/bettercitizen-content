@@ -1,0 +1,10 @@
+slug: us-department-of-commerce
+name: US Department of Commerce
+kind: government
+subtype: executive-cabinet
+description: Cabinet department covering economic data (Census, BEA), trade, patents, weather (NOAA), and standards (NIST).
+website: https://www.commerce.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

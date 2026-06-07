@@ -1,0 +1,43 @@
+slug: pac-bundlers-disclosure
+name: Disclosure of PAC bundlers
+category: money-in-politics
+summary: Whether the identities and aggregate contributions of "bundlers" — individuals who solicit and pool donations from many other donors — should be publicly disclosed beyond the limited categories that current law covers.
+body_md: |-
+  A "bundler" is someone who solicits, collects, and delivers contributions from many other people to a candidate, PAC, or party committee — concentrating influence in their name even though no single check exceeds the legal limit. Federal law requires disclosure of bundlers who are registered lobbyists and whose bundling exceeds a threshold, but the bulk of bundler activity is not publicly reported.
+
+  Proponents of broader bundler disclosure argue that bundlers exercise outsized influence — they often get access, ambassadorships, or other rewards — and that voters have a right to know who is delivering large sums of money even when those sums come from many individual donors. They cite the long-established practice of "$100,000 bundler" rewards by major campaigns.
+
+  Critics argue that disclosing the identities of non-lobbyist bundlers could chill ordinary civic participation in fundraising — hosts of house parties and informal solicitors — and that existing disclosure of individual contributions already lets reporters and watchdogs reconstruct bundler networks. Some prefer tightening lobbyist-bundler rules over a broader sweep.
+spectrum:
+  left: Bundler disclosure is a transparent way to reveal who really controls campaign fundraising; current rules cover only a tiny fraction of bundling activity and let influence flow invisibly to favored donors.
+  center: Bundlers exercise real influence, and broader disclosure would help voters; the challenge is distinguishing professional bundlers from ordinary volunteers and setting reasonable thresholds.
+  right: Existing disclosure of individual contributions is sufficient; expanding bundler reporting risks chilling voluntary civic participation in fundraising and adds compliance burden for limited public benefit.
+contested:
+  perspectives:
+    - label: Broader-disclosure advocates
+      summary: Bundlers concentrate political influence — they get access, recognition, and sometimes appointments — without any single check exceeding contribution limits. Voters have a right to know who is delivering bundles of money, not just who wrote each underlying check.
+      key_concerns:
+        - Bundlers wield concentrated influence
+        - Current rules cover only lobbyist-bundlers
+        - Rewards (ambassadorships, access) follow bundling
+        - Voters need to see who controls fundraising
+    - label: Limited-scope critics
+      summary: Bundling includes everything from professional rainmakers to a friend who organizes a house party. Sweeping disclosure could chill ordinary civic fundraising and impose compliance burden without commensurate transparency gains. Existing individual disclosures already reveal donor networks.
+      key_concerns:
+        - House-party hosts are not lobbyists
+        - Compliance burden on volunteers
+        - Existing individual disclosures suffice for analysis
+        - Risk of chilling civic engagement
+    - label: Lobbyist-rule strengtheners
+      summary: The existing lobbyist-bundler rule could be tightened — lower threshold, faster reporting, easier searchability — without sweeping in non-lobbyist activity. That captures the highest-risk bundling for influence without the overbreadth concerns.
+      key_concerns:
+        - Lobbyist-bundling is the highest-risk slice
+        - Lower thresholds and faster reporting are achievable
+        - Searchable, machine-readable databases help analysis
+        - Avoids overbroad disclosure of volunteers
+related_lesson_slugs: []
+tags:
+  - campaign-finance
+  - bundlers
+  - disclosure
+  - lobbying

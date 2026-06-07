@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: what-it-believes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Edmund Burke is often called the 'father of modern conservatism' even though he was a Whig in British parliamentary terms. Why?"
+    choices:
+      - id: a
+        text: "He invented the term 'conservative' in 1790."
+      - id: b
+        text: "Reflections on the Revolution in France (1790) gave the canonical statement of skepticism toward revolutionary politics in favor of inherited institutions."
+      - id: c
+        text: "He was the first to argue against democracy."
+      - id: d
+        text: "He converted to Catholicism late in life."
+    correct_choice_id: b
+    explanation: "Burke's Reflections on the Revolution in France (1790) is the canonical defense of inherited institutions against revolutionary disruption. It introduced themes — order before freedom, accumulated wisdom, generational contract — that became central to the conservative tradition that emerged in the next century. Burke himself was a Whig, but the substance of his arguments became foundational for what conservatives later named themselves."
+    concepts: [conservatism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did the post-WWII 'fusionist' synthesis combine?"
+    choices:
+      - id: a
+        text: "Republicans and Democrats."
+      - id: b
+        text: "Traditionalists, free-market classical liberals, and anti-communists."
+      - id: c
+        text: "Religious conservatives and secular conservatives."
+      - id: d
+        text: "Northern and Southern conservative voters."
+    correct_choice_id: b
+    explanation: "Frank Meyer and William F. Buckley's fusionism combined three streams: traditionalists (Kirk's circle, focused on cultural and religious continuity), free-market classical liberals (Hayek and Friedman, focused on economic freedom), and anti-communists (Chambers, Burnham, focused on the Soviet threat). The synthesis defined American conservatism roughly 1955-2008."
+    concepts: [conservatism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which of these is the strongest version of the national-conservative critique of classical-liberal conservatism?"
+    choices:
+      - id: a
+        text: "Classical liberalism is too individualistic and ignores class."
+      - id: b
+        text: "Classical liberalism conflates one variant of conservatism (post-WWII fusionist) with conservatism as such, and the older conservative tradition was more comfortable with state action in service of national interests."
+      - id: c
+        text: "Classical liberalism is incompatible with religious commitment."
+      - id: d
+        text: "Classical liberalism produces inequality."
+    correct_choice_id: b
+    explanation: "The strongest national-conservative critique is historical: that the post-WWII fusionist synthesis was a particular response to particular conditions (Cold War, globalization, mass prosperity), and treating it as conservatism-as-such ignores the older Burkean and civic-republican traditions that were more comfortable with state action in service of national interests. Hazony's Conservatism: A Rediscovery makes this case at book length."
+    concepts: [conservatism, national-conservatism]
+
+  - id: q4
+    kind: free-response
+    text: "Both American conservatives and progressive communitarians share critiques of pure individualism. State the substantive overlap, and identify where they nonetheless disagree."
+    socratic_seed: "Overlap: both tradition (Deneen, Reno) and communitarianism (Sandel, Etzioni) argue that pure individualism dissolves the institutions that give life meaning, that civic and religious institutions matter for human flourishing, and that public policy should support family, neighborhood, and voluntary association. Disagreement: communitarians generally support inclusive multicultural civic frameworks; traditionalists are more committed to particular cultural inheritances (religious, ethnic, regional) and skeptical of multicultural reforms that they see as displacing them. The disagreement is about which inheritances should be preserved and how change should occur."
+    concepts: [conservatism, communitarianism]

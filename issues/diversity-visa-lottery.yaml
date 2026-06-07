@@ -1,0 +1,39 @@
+slug: diversity-visa-lottery
+name: Diversity Immigrant Visa Lottery
+category: immigration
+summary: The Diversity Immigrant Visa program — commonly called the green-card lottery — which allocates a fixed number of immigrant visas annually to applicants from countries with low recent immigration to the U.S.
+body_md: |-
+  The Diversity Immigrant Visa program (often called the DV-1 or "green-card lottery") was created by the Immigration Act of 1990. It allocates a fixed number of immigrant visas — roughly fifty thousand annually — to applicants from countries that have sent relatively few immigrants to the United States over the prior years. Applicants must meet basic education or work-experience requirements and pass security and health screening.
+
+  The program is widely used in many African, Eastern European, and other regions with limited family- or employment-based immigration paths to the United States. Selection is by random lottery among eligible entrants.
+
+  Reform debates include whether to eliminate the program, replace it with merit-weighted criteria, redirect the visas to backlog reduction or employment-based use, or to retain it while tightening eligibility and security checks.
+spectrum:
+  left: Progressives generally support retaining the diversity lottery as a unique pathway for would-be immigrants from underrepresented regions, often paired with expanded family and employment visas.
+  center: "Moderates are divided: some favor retention with tighter vetting; others favor consolidating diversity slots into employment-based or backlog-relief pathways."
+  right: Most conservatives favor eliminating the diversity lottery in favor of skills-based selection or reallocation to address visa backlogs.
+contested:
+  perspectives:
+    - label: Preserve the diversity pathway
+      summary: The lottery is one of the few immigration paths open to applicants from countries with no large family-sponsor networks or employer pipelines into the U.S. Retaining it broadens the source-country mix and honors the country's pluralist tradition.
+      key_concerns:
+        - Source-country diversity
+        - Access for under-networked applicants
+        - Pluralist immigration tradition
+    - label: Reform vetting and eligibility
+      summary: The principle of opening immigration to applicants from underrepresented regions is sound, but the program needs tighter vetting, higher educational thresholds, and stronger fraud controls to maintain integrity.
+      key_concerns:
+        - Vetting and fraud protection
+        - Higher eligibility thresholds
+        - Program integrity
+    - label: Replace with skills-based selection
+      summary: Allocating immigrant visas by random lottery is hard to justify when employment-based backlogs stretch for decades. Reallocating these slots to high-skill, family-reunification, or backlog-relief categories would produce more public benefit.
+      key_concerns:
+        - Reducing employment-based backlogs
+        - Skills-based selection
+        - Coherence of immigration priorities
+related_lesson_slugs: []
+tags:
+  - diversity-visa
+  - immigration
+  - green-card

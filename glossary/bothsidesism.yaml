@@ -1,0 +1,13 @@
+slug: bothsidesism
+name: Bothsidesism
+short_definition: A framing tendency in journalism and commentary that treats two positions as equally credible regardless of the underlying evidence, in the name of balance.
+body_md: ""
+category: rhetoric
+difficulty: intermediate
+status: emerging
+etymology: American media criticism, late 2010s. A pejorative coinage for the long-standing 'view from nowhere' newsroom convention, applied especially to coverage of climate change, election fraud claims, and vaccine science.
+why_it_matters: Treating asymmetric claims symmetrically is itself a substantive editorial choice — one that transfers credibility from a well-evidenced position to a poorly-evidenced one. Real fairness sometimes requires the journalist to say which side the evidence is on.
+context_example: 'The cable segment was textbook bothsidesism: a climate scientist with a thirty-year record was paired against a think-tank lobbyist, with the moderator framing it as "the debate continues" rather than reporting where the evidence actually sat.'
+related_term_slugs:
+  - false-dichotomy
+tags: []

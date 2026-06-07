@@ -1,0 +1,43 @@
+slug: compulsory-voting
+name: Compulsory voting
+category: elections-and-voting
+summary: Whether eligible citizens should be legally required to participate in elections, with modest penalties for unjustified non-voting — as practiced in Australia, Belgium, and several other democracies.
+body_md: |-
+  Compulsory voting — the legal requirement that eligible citizens cast a ballot, typically with a small fine for unjustified non-voting — exists in Australia, Belgium, Brazil, and roughly two dozen other democracies. Australia's system, often cited as a model, produces turnout above 90% with broad public acceptance and a small administrative fine for skippers.
+
+  Advocates argue that universal participation strengthens democratic legitimacy, forces parties to appeal to median voters rather than mobilizing narrow bases, and reduces the influence of intense-minority politics that comes with low turnout. They emphasize that "compulsory voting" usually means compulsory ballot-casting — voters can still spoil or leave blank.
+
+  Critics argue that voting should be a right, not a duty; that the state should not punish citizens for political non-participation; and that forced participation by disengaged voters degrades the quality of the electorate's signal. Many also note that the U.S. constitutional and cultural tradition is incompatible with civic compulsion.
+spectrum:
+  left: Compulsory voting would raise turnout dramatically, especially among lower-income and younger voters, and would force political competition back toward the median; modest fines are a small price for universal participation.
+  center: Compulsory voting has a strong empirical track record in Australia, but transplanting it to the U.S. faces constitutional and cultural obstacles; making voting easier may achieve similar goals without coercion.
+  right: Voting is a right, not a duty; the state should not fine citizens for not voting, and forcing disengaged voters to participate dilutes the signal from those who actually follow politics.
+contested:
+  perspectives:
+    - label: Compulsory-voting advocates
+      summary: Universal turnout produces more representative elections, pushes parties toward median voters, and ends turnout-suppression strategies. The Australian model — modest fine, easy excuses, and acceptance of spoiled or blank ballots — has worked for a century.
+      key_concerns:
+        - Higher turnout strengthens democratic legitimacy
+        - Forces parties to compete for the median voter
+        - Reduces influence of mobilization-driven extremes
+        - Australia's model has broad public support
+    - label: Rights-not-duties opponents
+      summary: Voting is a fundamental right exercised freely; the state should not fine citizens for choosing not to vote. Coerced participation undermines the meaning of consent and conflicts with American traditions of voluntary civic engagement.
+      key_concerns:
+        - Voting is a right, not a duty
+        - State penalty for non-voting is coercive
+        - First Amendment concerns about compelled political expression
+        - Voluntarism is core to U.S. civic tradition
+    - label: Quality-of-electorate skeptics
+      summary: Forcing disengaged voters to the polls produces low-information ballots, increases random or protest votes, and can elevate name-recognition over policy. Making voting easy and the cost of participation low is preferable to compelling it.
+      key_concerns:
+        - Disengaged voters cast low-information ballots
+        - Random and donkey-vote outcomes
+        - Easier voting (early, mail) achieves similar goals
+        - Cultural fit with U.S. norms is poor
+related_lesson_slugs: []
+tags:
+  - voting
+  - turnout
+  - compulsory-voting
+  - electoral-reform

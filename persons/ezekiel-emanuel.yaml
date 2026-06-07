@@ -1,0 +1,21 @@
+slug: ezekiel-emanuel
+full_name: Ezekiel Emanuel
+tier: "4"
+bio_md: American oncologist, bioethicist, and vice provost for global initiatives at the University of Pennsylvania. One of the architects of the Affordable Care Act while serving as special advisor for health policy in the Obama administration. Brother of Rahm Emanuel and Ari Emanuel. Has written extensively on health policy, end-of-life care, and medical ethics.
+role: bioethicist, ACA architect
+affiliation: University of Pennsylvania
+lean_left: 70
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: ZekeEmanuel
+issue_stances:
+  - slug: medicare-for-all
+    stance: Skeptical of single-payer but supports universal coverage through ACA expansion and a public option
+  - slug: drug-price-negotiation
+    stance: Supports allowing Medicare to negotiate prescription drug prices
+  - slug: mental-health-parity
+    stance: Advocates for full implementation of mental health parity in insurance coverage

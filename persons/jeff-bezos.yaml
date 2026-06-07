@@ -1,0 +1,15 @@
+slug: jeff-bezos
+full_name: Jeff Bezos
+tier: "4"
+bio_md: Founder of Amazon and Blue Origin. Owner of The Washington Post. One of the wealthiest people in history, he reshaped commerce, cloud computing, and space exploration.
+role: tech executive, entrepreneur
+affiliation: Amazon / Blue Origin
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: JeffBezos
+issue_stances: []

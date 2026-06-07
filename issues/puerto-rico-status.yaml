@@ -1,0 +1,39 @@
+slug: puerto-rico-status
+name: Puerto Rico's political status
+category: governance-and-institutions
+summary: Whether Puerto Rico — a U.S. territory of 3.2 million American citizens — should become a state, gain independence, enter free association, or retain commonwealth status.
+body_md: |-
+  Puerto Rico has been a U.S. territory since 1898. Its residents are U.S. citizens by statute (since 1917) but cannot vote in presidential elections and have only a non-voting Resident Commissioner in the House. The Insular Cases (1901-1922) created a doctrine of "unincorporated territories" subject to less-than-full constitutional protection — a doctrine many legal scholars consider vestigial.
+
+  Puerto Ricans have voted in non-binding plebiscites multiple times. The 2020 plebiscite showed a narrow majority for statehood (52%); turnout and ballot-design questions complicate interpretation. Independence and free-association options have minority support.
+
+  Congress has constitutional authority to admit Puerto Rico as a state, recognize independence, or restructure its territorial status. Recent bipartisan bills propose binding plebiscites limited to non-territorial options.
+spectrum:
+  left: Progressives generally support Puerto Rican self-determination through a binding plebiscite, with most favoring statehood.
+  center: Many moderates support a binding self-determination process without prejudging the outcome.
+  right: Conservatives are split; some favor statehood, others independence or maintaining commonwealth status.
+contested:
+  perspectives:
+    - label: Statehood advocates
+      summary: Statehood ends second-class citizenship, brings full federal representation, and resolves the colonial relationship. Recent plebiscites show majority support.
+      key_concerns:
+        - Equal citizenship and representation
+        - Ending the territorial limbo
+        - Federal benefits parity
+    - label: Independence advocates
+      summary: Puerto Rico has a distinct national identity, language, and history. True self-determination means sovereignty, with the option of free association if desired.
+      key_concerns:
+        - Cultural and linguistic self-determination
+        - Decolonization
+        - Economic sovereignty
+    - label: Commonwealth defenders
+      summary: The current status preserves U.S. citizenship with cultural autonomy. Statehood imposes federal taxes; independence loses citizenship and federal investment.
+      key_concerns:
+        - Tax-status balance
+        - Cultural and political autonomy
+        - Maintaining U.S. citizenship
+related_lesson_slugs: []
+tags:
+  - representation
+  - territories
+  - self-determination

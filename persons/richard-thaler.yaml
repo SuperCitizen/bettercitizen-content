@@ -1,0 +1,19 @@
+slug: richard-thaler
+full_name: Richard Thaler
+tier: "4"
+bio_md: American economist and Charles R. Walgreen Distinguished Service Professor of Behavioral Science and Economics at the University of Chicago Booth School of Business. Awarded the Nobel Memorial Prize in Economic Sciences in 2017 for his contributions to behavioral economics. Co-author with Cass Sunstein of Nudge, which popularized choice architecture and libertarian paternalism.
+role: behavioral economist, Nobel laureate
+affiliation: University of Chicago
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: R_Thaler
+issue_stances:
+  - slug: social-security-solvency
+    stance: Has researched automatic enrollment and default options to improve retirement saving
+  - slug: ai-regulation
+    stance: Has discussed behavioral implications of AI systems and the need for thoughtful design

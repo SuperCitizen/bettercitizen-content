@@ -1,0 +1,20 @@
+slug: janet-yellen
+full_name: Janet Yellen
+tier: "4"
+bio_md: Former U.S. Treasury Secretary (2021-2025) under President Joe Biden. The first woman to hold that position. Previously served as the 15th chair of the Federal Reserve (2014-2018), the first woman to lead the Fed. Earlier roles include chair of the Council of Economic Advisers under President Bill Clinton and president of the San Francisco Fed. Labor economist by training.
+role: former Treasury Secretary, economist
+affiliation: U.S. Treasury (former)
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: corporate-tax-rate
+    stance: Championed the global minimum corporate tax framework agreed to among OECD nations
+  - slug: climate-policy
+    stance: Advocated for integrating climate-related financial risk into Treasury and regulatory analysis
+  - slug: ukraine-support
+    stance: Oversaw the implementation of sanctions and financial assistance to Ukraine as Treasury Secretary

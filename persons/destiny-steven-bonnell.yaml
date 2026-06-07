@@ -1,0 +1,15 @@
+slug: destiny-steven-bonnell
+full_name: Destiny (Steven Bonnell)
+tier: "4"
+bio_md: Political streamer and commentator with a large online following. Known for marathon debates, combative style, and center-left positions that challenge both progressive and conservative orthodoxy.
+role: streamer, commentator
+affiliation: Independent
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: TheOmniLiberal
+issue_stances: []

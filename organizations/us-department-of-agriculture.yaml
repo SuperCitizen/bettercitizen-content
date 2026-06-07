@@ -1,0 +1,10 @@
+slug: us-department-of-agriculture
+name: US Department of Agriculture
+kind: government
+subtype: executive-cabinet
+description: Cabinet department covering farm policy, food safety, nutrition assistance (SNAP, WIC), forestry, and rural development.
+website: https://www.usda.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

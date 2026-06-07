@@ -1,0 +1,17 @@
+schema: supercitizen.content/v1
+slug: constitution-basics
+title: Constitution basics
+summary: What the Constitution actually says, what it set out to do, and how the
+  Preamble and the seven Articles fit together.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags:
+  - civics-101
+level: intro
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - preamble-and-articles.md

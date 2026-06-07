@@ -1,0 +1,21 @@
+slug: tucker-carlson
+full_name: Tucker Carlson
+tier: "4"
+bio_md: Conservative commentator and former Fox News host. Known for his populist right-wing commentary and adversarial interviewing style.
+role: commentator
+affiliation: Independent
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: TuckerCarlson
+issue_stances:
+  - slug: border-security
+    stance: Advocates for dramatic reduction in immigration
+  - slug: tariffs
+    stance: Supports protectionist trade policy
+  - slug: military-spending
+    stance: Skeptical of foreign military interventions

@@ -1,0 +1,24 @@
+slug: chris-sununu
+full_name: Chris Sununu
+tier: "4"
+bio_md: Former Governor of New Hampshire, serving four two-year terms from 2017 to 2025. Son of former White House Chief of Staff John H. Sununu and brother of former US Senator John E. Sununu. Frequently cited as a centrist or moderate Republican voice. Declined to seek the 2024 Republican presidential nomination.
+role: Former Governor of New Hampshire
+affiliation: Republican Party
+party: Republican
+lean_left: 32
+lean_right: 60
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: ChrisSununu
+issue_stances:
+  - slug: abortion-access
+    stance: Signed New Hampshire's 24-week abortion limit while describing himself as pro-choice within limits
+  - slug: second-amendment-regulation
+    stance: Generally opposed new gun restrictions in New Hampshire
+  - slug: corporate-tax-rate
+    stance: Signed multiple cuts to New Hampshire's business profits and business enterprise taxes
+  - slug: climate-policy
+    stance: Supported regional energy initiatives while resisting carbon taxes

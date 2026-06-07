@@ -1,0 +1,17 @@
+schema: supercitizen.content/v1
+slug: bill-of-rights
+title: The Bill of Rights
+summary: What the first ten amendments protect, why they were added in 1791, and
+  how the Supreme Court has interpreted them since.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags:
+  - civics-101
+level: intro
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - first-ten-amendments.md

@@ -1,0 +1,11 @@
+slug: listen-first-project
+name: Listen First Project
+kind: civic-reform
+subtype: depolarization
+description: "Coordinator of the #ListenFirst Coalition and the annual National Week of Conversation; pushes media and institutional norms toward curiosity over contempt."
+website: https://www.listenfirstproject.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - polarization
+is_active: true

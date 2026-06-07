@@ -1,0 +1,24 @@
+slug: eric-schmitt
+full_name: Eric Schmitt
+tier: "3"
+bio_md: U.S. Senator from Missouri since 2023. Previously served as Missouri Attorney General (2019-2023) and State Treasurer. As AG, he filed numerous lawsuits against the Biden administration and against China over COVID-19. Known for an aggressive litigation record and conservative legal positions.
+role: senator
+affiliation: U.S. Senate
+party: Republican
+lean_left: 12
+lean_right: 88
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: Eric_Schmitt
+issue_stances:
+  - slug: border-security
+    stance: Supports stricter border enforcement and challenged federal immigration policies as AG
+  - slug: abortion-access
+    stance: Opposes abortion access; supported Missouri's post-Dobbs restrictions
+  - slug: trade-with-china
+    stance: Hawkish on China; sued the Chinese government over COVID-19 origins
+  - slug: second-amendment-regulation
+    stance: Opposes most new gun regulations; defends broad Second Amendment protections

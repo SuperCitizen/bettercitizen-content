@@ -1,0 +1,12 @@
+slug: kettering-foundation
+name: Kettering Foundation
+kind: civic-reform
+subtype: deliberation
+description: Research foundation studying what it takes to make democracy work as it should, with a long focus on public deliberation and citizen engagement.
+website: https://www.kettering.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - civic-engagement
+  - polarization
+is_active: true

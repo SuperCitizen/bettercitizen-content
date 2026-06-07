@@ -1,0 +1,15 @@
+slug: nigel-farage
+full_name: Nigel Farage
+tier: "4"
+bio_md: British politician and leader of Reform UK. Former leader of UKIP and the Brexit Party. The driving force behind the UK's vote to leave the European Union.
+role: politician
+affiliation: Reform UK
+party: Reform UK
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances: []

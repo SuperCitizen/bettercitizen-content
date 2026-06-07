@@ -1,0 +1,33 @@
+slug: electric-vehicle-mandates
+name: Electric vehicle mandates
+category: environment-and-energy
+summary: Federal and state policies setting EV-sales targets or phasing out internal-combustion vehicles, alongside emissions standards and consumer incentives.
+body_md: |-
+  EV-related policy in the U.S. combines several tools: federal vehicle emissions standards (set by EPA and NHTSA) that effectively push manufacturers toward electrification, federal consumer tax credits (expanded by the Inflation Reduction Act), grants for chargers and battery manufacturing, and state-level zero-emission-vehicle (ZEV) requirements led by California under its Clean Air Act waiver.
+
+  California's Advanced Clean Cars II rule requires 100% of new passenger vehicles sold to be zero-emission by 2035. Roughly a dozen states follow California's standards. EPA's recent multi-pollutant vehicle rules tighten emissions standards but stop short of an explicit ICE phaseout.
+
+  Debates center on the pace of transition, grid and charging readiness, costs to lower-income buyers, the trade balance of imported critical minerals, domestic manufacturing and jobs, and whether technology-neutral emissions standards or explicit EV mandates are the right tool.
+spectrum:
+  left: Most progressives strongly support ambitious EV targets, expanded consumer credits, and aggressive emissions standards, often paired with public-transit investment.
+  center: Centrists generally support gradual EV adoption through emissions standards and incentives rather than hard mandates, with attention to charging buildout and affordability.
+  right: Most conservatives oppose EV mandates and the IRA EV credits, favoring technology-neutral standards, consumer choice, and protection of the ICE-vehicle industry and supply chain.
+contested:
+  perspectives:
+    - label: Climate-and-industrial-policy advocates
+      summary: Transportation is the largest U.S. source of greenhouse gas emissions, and the global auto industry is going electric. Clear targets, strong standards, and consumer credits drive investment in domestic manufacturing, batteries, and chargers, and prevent the U.S. from ceding the auto industry to China.
+      key_concerns:
+        - Transportation emissions reduction
+        - Domestic battery and EV manufacturing
+        - Avoiding loss of the auto industry to China
+    - label: Consumer-choice and grid-readiness skeptics
+      summary: EV mandates outrun consumer demand, charging infrastructure, and grid capacity, especially outside dense urban areas. They impose costs on lower-income drivers, depend on imported critical minerals, and threaten ICE-vehicle jobs. Technology-neutral standards and market signals are better than hard sales mandates.
+      key_concerns:
+        - Affordability and rural charging gaps
+        - Grid capacity for widespread charging
+        - ICE-vehicle manufacturing and refining jobs
+related_lesson_slugs: []
+tags:
+  - environment
+  - energy
+  - transportation

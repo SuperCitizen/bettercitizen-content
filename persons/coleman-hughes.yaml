@@ -1,0 +1,19 @@
+slug: coleman-hughes
+full_name: Coleman Hughes
+tier: "4"
+bio_md: Writer, podcast host (Conversations with Coleman), and author. A leading voice on race, civil liberties, and rational public discourse. Known for his measured, evidence-based approach to controversial topics.
+role: writer, podcast host
+affiliation: Conversations with Coleman
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: ColemanHughes
+issue_stances:
+  - slug: cash-bail
+    stance: Advocates evidence-based reform over ideology-driven policy
+  - slug: higher-education-funding
+    stance: Supports school choice and merit-based education policy

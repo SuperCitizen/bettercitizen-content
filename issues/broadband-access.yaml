@@ -1,0 +1,44 @@
+slug: broadband-access
+name: Broadband access
+category: technology-and-data
+summary: Federal investments to deploy high-speed internet to unserved and underserved communities — primarily through the BEAD program — and broader policy on broadband access.
+body_md: |-
+  The Infrastructure Investment and Jobs Act of 2021 created the $42.5B Broadband Equity, Access, and Deployment (BEAD) program — the largest federal broadband investment ever. States lead deployment with federal oversight.
+
+  Other recent programs:
+  - **Affordable Connectivity Program (ACP)**: $30/month broadband subsidy for low-income households (lapsed in 2024).
+  - **Digital Equity Act**: Adoption and skills programs.
+  - **Tribal Broadband Connectivity Program**.
+
+  Debates have intensified over BEAD speed standards, technology neutrality (fiber vs. fixed wireless / satellite), labor and equity requirements, and program timelines.
+
+  Roughly 14M-30M Americans (estimates vary) lacked reliable broadband at the start of BEAD; geographically, rural and tribal areas predominate.
+spectrum:
+  left: Progressives favor robust federal investment, ACP-style subsidies, and equity / labor requirements in deployment.
+  center: Most centrists support BEAD-style deployment investment; debates over implementation details.
+  right: Many conservatives support rural broadband but oppose specific program rules (labor, equity, speed standards).
+contested:
+  perspectives:
+    - label: Robust-investment advocates
+      summary: Universal broadband is 21st-century infrastructure. Sustained federal investment, subsidies for low-income households (ACP), and meaningful adoption support are needed to close the digital divide.
+      key_concerns:
+        - Closing the digital divide
+        - Affordability for low-income households
+        - Adoption / digital-skills support
+    - label: Streamlined-deployment advocates
+      summary: BEAD has stalled in regulatory complexity. Strip back labor, equity, and rate-regulation rules; pursue technology-neutral deployment; let providers actually build.
+      key_concerns:
+        - Deployment speed
+        - Technology neutrality
+        - Avoiding regulatory burden
+    - label: Permanent-subsidy / Universal Service Fund reformers
+      summary: BEAD is a one-time deployment program. The harder issue is durable affordability — modernize the Universal Service Fund and reauthorize ACP-style ongoing subsidies.
+      key_concerns:
+        - Durable affordability
+        - USF modernization
+        - ACP reauthorization
+related_lesson_slugs: []
+tags:
+  - technology
+  - broadband
+  - infrastructure

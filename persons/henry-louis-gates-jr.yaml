@@ -1,0 +1,19 @@
+slug: henry-louis-gates-jr
+full_name: Henry Louis Gates Jr.
+tier: "4"
+bio_md: American literary critic, historian, and filmmaker. Alphonse Fletcher University Professor at Harvard University and director of the Hutchins Center for African and African American Research. Host of the PBS series Finding Your Roots, which uses genealogical and DNA research to trace the family histories of public figures. Author and editor of numerous works on African American history and literature.
+role: historian, PBS host
+affiliation: Harvard University
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: henrylouisgates
+issue_stances:
+  - slug: higher-education-funding
+    stance: Advocates for sustained investment in humanities and African American studies programs
+  - slug: dei-programs
+    stance: Defends the value of diversity initiatives while emphasizing scholarship and inclusion

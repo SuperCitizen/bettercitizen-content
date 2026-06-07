@@ -1,0 +1,17 @@
+slug: sam-altman
+full_name: Sam Altman
+tier: "4"
+bio_md: CEO of OpenAI. Former president of Y Combinator. A leading figure in the AI industry advocating for both rapid development and safety.
+role: tech executive
+affiliation: OpenAI
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: sama
+issue_stances:
+  - slug: ai-regulation
+    stance: Calls for government oversight of frontier AI while leading development

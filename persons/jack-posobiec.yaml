@@ -1,0 +1,15 @@
+slug: jack-posobiec
+full_name: Jack Posobiec
+tier: "4"
+bio_md: Right-wing political activist, author, and social media influencer. Known for promoting conspiracy theories and provocative political content.
+role: influencer, activist
+affiliation: Turning Point USA
+lean_left: 5
+lean_right: 95
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: JackPosobiec
+issue_stances: []

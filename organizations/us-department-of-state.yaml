@@ -1,0 +1,13 @@
+slug: us-department-of-state
+name: US Department of State
+kind: government
+subtype: executive-cabinet
+description: Cabinet department leading US foreign policy, diplomacy, treaty negotiation, and the foreign service.
+website: https://www.state.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - foreign-policy
+  - china-policy
+  - alliance-system
+is_active: true

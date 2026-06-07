@@ -1,0 +1,33 @@
+slug: public-broadcasting-funding
+name: Public broadcasting funding
+category: media-and-information
+summary: Whether the federal government should continue funding the Corporation for Public Broadcasting (CPB) — which supports PBS, NPR, and local public stations — at $500M+/year.
+body_md: |-
+  The Corporation for Public Broadcasting receives ~$500M/year in federal funding, distributed mostly to local public-television and public-radio stations. PBS and NPR receive smaller direct shares; the bulk goes to local affiliates.
+
+  CPB's federal funding is debated regularly. Defenders argue public broadcasting fills gaps left by commercial media — local journalism, educational programming, classical and rural-news coverage. Critics argue it favors progressive viewpoints, that commercial alternatives now exist, and that federal funding is unnecessary.
+
+  Local journalism deserts have grown rapidly: more than 200 counties now have no local news source, and many more have only one. Public broadcasting often fills these gaps where it operates.
+spectrum:
+  left: Progressives strongly favor preserving and expanding federal funding for public broadcasting.
+  center: Most centrists support public-broadcasting funding as a public good.
+  right: "Conservative views split: some favor defunding citing perceived bias; others favor preserving rural and educational programming."
+contested:
+  perspectives:
+    - label: Funding defenders
+      summary: Public broadcasting is one of the highest-trusted news sources, fills local-journalism gaps, and provides educational programming commercial media can't profitably support. $500M/year is a small price.
+      key_concerns:
+        - Local-journalism deserts
+        - Educational programming
+        - Public-good media
+    - label: Defund advocates
+      summary: In a media-saturated era, federal funding for one set of broadcasters is unjustified. Public broadcasting reflects coastal-progressive views; commercial alternatives exist; private donations sustain quality programming.
+      key_concerns:
+        - Avoiding government-funded media
+        - Perceived editorial bias
+        - Avoiding crowd-out of private media
+related_lesson_slugs: []
+tags:
+  - media
+  - broadcasting
+  - public-funding

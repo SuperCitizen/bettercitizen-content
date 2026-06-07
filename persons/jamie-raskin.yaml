@@ -1,0 +1,24 @@
+slug: jamie-raskin
+full_name: Jamie Raskin
+tier: "3"
+bio_md: U.S. Representative from Maryland's 8th district since 2017. Constitutional law scholar and former professor at American University Washington College of Law. Served as lead impeachment manager in Donald Trump's second impeachment trial and as a member of the House Select Committee on the January 6th Attack. Ranking member of the House Judiciary Committee.
+role: representative, legal scholar
+affiliation: U.S. House of Representatives
+party: Democratic
+lean_left: 85
+lean_right: 15
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: RepRaskin
+issue_stances:
+  - slug: electoral-college
+    stance: Supports replacing the Electoral College with a national popular vote
+  - slug: voting-rights-act-restoration
+    stance: Strong advocate for restoring and expanding federal voting rights protections
+  - slug: supreme-court-reform
+    stance: Supports ethics reforms and has been open to structural changes to the Court
+  - slug: citizens-united
+    stance: Favors a constitutional amendment to overturn Citizens United

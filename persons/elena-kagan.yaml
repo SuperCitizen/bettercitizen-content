@@ -1,0 +1,14 @@
+slug: elena-kagan
+full_name: Elena Kagan
+tier: "3"
+bio_md: Associate Justice of the U.S. Supreme Court since 2010. Nominated by President Barack Obama. The fourth woman to serve on the Court. Previously served as U.S. Solicitor General (2009-2010) and as dean of Harvard Law School (2003-2009). Earlier roles include service in the Clinton White House. Known for clear, accessible prose in her opinions and for forceful dissents in voting-rights and administrative-law cases.
+role: jurist
+affiliation: U.S. Supreme Court
+lean_left: 75
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances: []

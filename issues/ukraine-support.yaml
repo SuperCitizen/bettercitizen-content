@@ -1,0 +1,43 @@
+slug: ukraine-support
+name: U.S. support for Ukraine
+category: foreign-policy
+summary: How much military and economic aid the U.S. should provide Ukraine in its defense against Russia's 2022 invasion, and what conditions or end-state to pursue.
+body_md: |-
+  Since Russia's February 2022 invasion, the U.S. has provided over $175B in military, economic, and humanitarian aid. Assistance has included Javelins, HIMARS, Patriot systems, ATACMS, F-16s, and ammunition. EU and other partners have provided substantial additional aid.
+
+  Debates:
+  - **Aid levels**: Additional supplemental packages; sustaining vs. winding down.
+  - **Weapons systems**: Long-range strike, advanced air defense, F-16 deliveries, ATACMS use restrictions.
+  - **End-state goals**: Restoration of pre-2014 borders, current lines, frozen-conflict status, Korean DMZ-style settlement.
+  - **NATO membership**: Path for Ukraine.
+  - **Frozen Russian assets**: Whether to seize ~$300B in Russian central-bank assets for Ukraine reconstruction.
+spectrum:
+  left: Most progressives support continued aid, often emphasizing diplomatic resolution and humanitarian assistance.
+  center: Most centrists strongly support continued military and economic aid through Ukrainian victory.
+  right: 'Conservative views split: traditional internationalists support aid; "restrainer" and "America First" voices favor reduction or conditional aid.'
+contested:
+  perspectives:
+    - label: Sustained-aid advocates
+      summary: Ukraine is defending Europe, the international order, and U.S. security at a fraction of U.S. defense spending. Continued aid is the most cost-effective security investment available.
+      key_concerns:
+        - Deterring Russian aggression
+        - Preserving the international order
+        - Cost-effectiveness vs. direct U.S. involvement
+    - label: Aid-reduction / conditional advocates
+      summary: Open-ended aid risks escalation, drains U.S. resources, and serves European interests more than U.S. ones. Pursue a negotiated settlement and condition further aid on European matching.
+      key_concerns:
+        - European burden-sharing
+        - Avoiding escalation
+        - Resources for Indo-Pacific
+    - label: Diplomatic-track advocates
+      summary: The conflict will end at the negotiating table. Aid Ukraine's defense while pushing both sides toward credible negotiations, with security guarantees that prevent future Russian aggression.
+      key_concerns:
+        - Negotiated settlement
+        - Security guarantees
+        - Reducing further casualties
+related_lesson_slugs:
+  - foreign-policy
+tags:
+  - foreign-policy
+  - ukraine
+  - russia

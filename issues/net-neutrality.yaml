@@ -1,0 +1,33 @@
+slug: net-neutrality
+name: Net neutrality
+category: technology-and-data
+summary: Whether broadband internet providers should be regulated as common carriers under Title II, prohibiting blocking, throttling, or paid prioritization of traffic.
+body_md: |-
+  Net neutrality is the principle that internet service providers (ISPs) should treat all internet traffic equally — not blocking, throttling, or accepting payment to prioritize specific content or services. In U.S. policy, the practical fight has been over whether to classify broadband as a Title II "telecommunications service" under the Communications Act, which would give the FCC strong common-carrier regulatory authority.
+
+  The FCC has reversed course several times: classifying broadband under Title II in 2015, reversing to Title I light-touch regulation in 2017, and reclassifying under Title II again in 2024. Some states, notably California, have passed their own net-neutrality laws. The underlying legal authority continues to be litigated.
+
+  Debates center on whether ISPs have engaged in or would engage in non-neutral conduct absent regulation, the impact of Title II on broadband investment, the FCC's authority under the Communications Act, and whether Congress should legislate clear net-neutrality rules rather than relying on shifting FCC interpretation.
+spectrum:
+  left: Most progressives strongly support Title II classification and strong net-neutrality rules, citing free expression, competition, and consumer protection.
+  center: Centrists generally support net-neutrality principles but are divided on whether Title II classification or narrower FCC or legislative tools are the right vehicle.
+  right: Most conservatives oppose Title II classification as regulatory overreach that suppresses broadband investment, while many support narrower rules against blocking through legislation.
+contested:
+  perspectives:
+    - label: Strong-rules advocates
+      summary: Broadband ISPs are gatekeepers to the modern internet, with limited competition in most markets. Without strong rules, they have economic incentives to favor their own content, slow competitors, or charge for fast lanes. Title II is the FCC's long-established legal authority for common-carrier protections.
+      key_concerns:
+        - Free expression and content access
+        - Limited ISP competition in many markets
+        - ISP incentives to favor their own services
+    - label: Light-touch and investment-focused critics
+      summary: U.S. broadband investment, speeds, and rural deployment have grown rapidly under light-touch regulation. Title II imposes utility-style rules designed for the rotary-telephone era on a fast-moving industry, risking investment and innovation. Targeted legislation can address specific harms without sweeping classification.
+      key_concerns:
+        - Broadband investment and deployment
+        - Regulatory uncertainty from shifting classification
+        - Innovation in network management and services
+related_lesson_slugs: []
+tags:
+  - technology
+  - internet
+  - regulation

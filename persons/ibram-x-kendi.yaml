@@ -1,0 +1,15 @@
+slug: ibram-x-kendi
+full_name: Ibram X. Kendi
+tier: "4"
+bio_md: Author of How to Be an Antiracist and founding director of the Boston University Center for Antiracist Research. A leading but controversial voice in the antiracism movement.
+role: author, academic
+affiliation: Boston University
+lean_left: 90
+lean_right: 10
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: DrIbram
+issue_stances: []

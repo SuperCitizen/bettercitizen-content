@@ -1,0 +1,42 @@
+slug: election-day-holiday
+name: Election Day as a national holiday
+category: elections-and-voting
+summary: Whether federal Election Day should be a national holiday so that more voters — especially hourly and shift workers — can participate without conflicting work obligations.
+body_md: |-
+  Federal Election Day in the United States falls on a Tuesday, a convention dating to the 19th century when farmers needed travel time on horseback after Sunday worship. Several democracies hold elections on weekends or make Election Day a holiday; proposals in the U.S. would do the same, typically by designating the first Tuesday after the first Monday in November as a federal holiday.
+
+  Advocates argue a holiday would reduce the conflict between work and voting, particularly for hourly workers without paid time off, and signal that civic participation is a shared national priority. Some pair the holiday with mandates for private employers to grant paid voting leave.
+
+  Skeptics question whether a holiday would meaningfully raise turnout — many service-sector workers (retail, food, transit) still work on federal holidays — and note that the holiday cost falls on private employers and the federal payroll. Critics also argue that expanded early voting and mail voting are more direct ways to address scheduling barriers.
+spectrum:
+  left: A national Election Day holiday — paired with paid voting leave for hourly workers — would remove a major barrier to participation and treat voting as the foundational civic act it is.
+  center: A holiday alone is symbolic; the real fix is some combination of weekend voting, a robust early-voting window, and mandatory paid voting leave for workers whose schedules conflict.
+  right: A federal holiday imposes costs on employers and taxpayers for unclear turnout gains; existing absentee, early-voting, and state-level voting-leave laws already handle scheduling conflicts.
+contested:
+  perspectives:
+    - label: Holiday proponents
+      summary: Making Election Day a federal holiday — paired with paid voting leave — removes a structural barrier for hourly and shift workers, signals the centrality of voting, and aligns the U.S. with democracies that vote on weekends or holidays.
+      key_concerns:
+        - Hourly workers lose pay or shifts to vote
+        - A shared holiday reinforces civic identity
+        - Many peer democracies vote on weekends or holidays
+        - Pairing with paid voting leave covers service workers
+    - label: Access-via-other-means advocates
+      summary: Early voting, mail voting, and same-day registration address scheduling conflicts more directly than a holiday — many essential workers still work on federal holidays. The real lever is multiple ways to cast a ballot, not a single non-working day.
+      key_concerns:
+        - Service workers still work on federal holidays
+        - Early and mail voting reach more schedules
+        - A holiday adds cost without solving the core problem
+        - Voting leave laws can be expanded without a holiday
+    - label: Holiday skeptics
+      summary: A new federal holiday imposes real costs on employers and the federal payroll for uncertain turnout gains. Workers who most need flexibility — in retail, hospitality, healthcare — typically work on holidays anyway. State-level voting-leave laws already exist.
+      key_concerns:
+        - Cost to employers and federal payroll
+        - Holidays do not protect retail and service workers
+        - State voting-leave laws already cover this need
+        - Turnout gains are unproven
+related_lesson_slugs: []
+tags:
+  - voting
+  - turnout
+  - election-administration

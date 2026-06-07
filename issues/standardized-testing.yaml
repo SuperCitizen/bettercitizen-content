@@ -1,0 +1,39 @@
+slug: standardized-testing
+name: Standardized testing
+category: education
+summary: The role of standardized tests in K-12 accountability, school evaluation, and college admissions, including state assessments, the SAT/ACT, and alternatives.
+body_md: |-
+  Standardized testing in US education spans two largely distinct domains. K-12 state assessments, mandated since No Child Left Behind (2001) and continued in modified form under ESSA (2015), measure schools and identify achievement gaps. College-entrance tests (SAT/ACT) have been used since the early 20th century for admissions selection.
+
+  The COVID-19 pandemic disrupted both. Most selective colleges adopted "test-optional" policies; several have since restored test requirements, citing evidence that scores predict college performance and that dropping them disadvantaged some applicants. Meanwhile, K-12 testing has faced criticism for narrowing curriculum, consuming instructional time, and reflecting socioeconomic gaps rather than school quality.
+
+  Research is contested: tests do predict some outcomes meaningfully, but they also correlate with family income, and the relative weight they should carry in high-stakes decisions remains disputed.
+spectrum:
+  left: Progressives are often critical of high-stakes testing, viewing it as reflecting wealth and resources more than learning, and supporting reduced testing, holistic admissions, and alternatives to standardized assessments.
+  center: Centrists tend to support some standardized testing as a guard against grade inflation and as a tool for identifying achievement gaps, while wanting tests to be one factor among many.
+  right: Many conservatives support standardized testing as an objective accountability measure that surfaces school failure and as a meritocratic admissions tool less susceptible to bias.
+contested:
+  perspectives:
+    - label: Accountability advocates
+      summary: Standardized tests are how we know which schools are failing which children. Without comparable measures, achievement gaps stay hidden behind grade inflation and rosy local reports. Tests are imperfect but irreplaceable for civil-rights accountability.
+      key_concerns:
+        - Identifying achievement gaps
+        - Comparable cross-school measurement
+        - Civil-rights accountability
+    - label: Holistic-assessment advocates
+      summary: High-stakes tests narrow curriculum, reward test-prep wealth, and capture a narrow slice of what schools should develop. Portfolios, performance tasks, and teacher judgment together give a richer, more equitable picture of student learning.
+      key_concerns:
+        - Curriculum narrowing to tested subjects
+        - Test-prep advantages for affluent families
+        - Stress and instructional-time costs
+    - label: Meritocratic admissions defenders
+      summary: Test scores predict college performance and identify talented students from under-resourced schools whose grades may not stand out. Dropping tests increases reliance on essays, recommendations, and activities — all of which are more, not less, correlated with privilege.
+      key_concerns:
+        - Predictive validity of scores
+        - Identifying talent from underserved schools
+        - Grade inflation and admissions opacity
+related_lesson_slugs: []
+tags:
+  - education
+  - k12
+  - admissions

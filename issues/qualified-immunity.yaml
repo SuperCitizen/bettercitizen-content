@@ -1,0 +1,39 @@
+slug: qualified-immunity
+name: Qualified immunity
+category: criminal-justice
+summary: The judicially created doctrine that shields government officials — especially police — from civil-rights lawsuits unless they violated "clearly established" law.
+body_md: |-
+  Qualified immunity bars civil-rights damages claims against government officials unless the plaintiff can show the official violated a "clearly established" constitutional right — usually meaning a prior case with nearly identical facts. The Supreme Court has repeatedly applied the doctrine narrowly, ruling for officials even where conduct seemed clearly wrongful.
+
+  Recent reform efforts include the George Floyd Justice in Policing Act (qualified-immunity elimination for police, passed House but not Senate), state-level reforms (Colorado, New Mexico, NYC), and bipartisan academic critique (Justices Thomas and Sotomayor have separately questioned the doctrine).
+
+  Defenders argue qualified immunity protects public servants from liability for split-second judgment calls. Critics argue it blocks accountability for clear constitutional violations and shifts burden to taxpayers when paid out.
+spectrum:
+  left: Most progressives strongly favor eliminating or significantly reforming qualified immunity.
+  center: Many centrists favor reform that preserves protection for genuinely difficult judgment calls but allows recovery in egregious cases.
+  right: "Conservative views split: libertarian conservatives often favor reform; some prefer preserving qualified immunity to avoid chilling police work."
+contested:
+  perspectives:
+    - label: Elimination / reform advocates
+      summary: "Qualified immunity creates an impossible standard: there's never a prior case with identical facts. Officials face no civil consequence for clearly unconstitutional conduct."
+      key_concerns:
+        - Civil-rights accountability
+        - "\"Clearly established\" standard's narrowness"
+        - Aligning protection with traditional good-faith standards
+    - label: Preservationists
+      summary: Police make split-second decisions in dangerous situations. Without qualified immunity, frivolous lawsuits chill effective policing and discourage recruitment.
+      key_concerns:
+        - Officer recruitment and morale
+        - Avoiding chilling effects on law enforcement
+        - Frivolous-suit deterrence
+    - label: Modify-the-standard reformers
+      summary: Replace "clearly established" with a "good-faith" standard, or require employer-municipality liability rather than personal liability. Preserves accountability without bankrupting individual officers.
+      key_concerns:
+        - Good-faith standard
+        - Employer-municipality liability
+        - Officer indemnification practices
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - civil-rights
+  - policing

@@ -1,0 +1,14 @@
+slug: fairvote
+name: FairVote
+kind: civic-reform
+subtype: structural-reform
+description: Research and advocacy organization that has led US adoption of ranked-choice voting and works on broader electoral-system reform.
+website: https://fairvote.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - ranked-choice-voting
+  - electoral-college
+  - electoral-reform
+  - voting-rights-act
+is_active: true

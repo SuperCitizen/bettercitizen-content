@@ -1,0 +1,24 @@
+slug: muriel-bowser
+full_name: Muriel Bowser
+tier: "3"
+bio_md: Mayor of the District of Columbia since January 2015, now in her third term. Previously served on the D.C. Council representing Ward 4. A longtime advocate for D.C. statehood, she leads a city government that operates without full congressional representation.
+role: Mayor of Washington, D.C.
+affiliation: Government of the District of Columbia
+party: Democratic
+lean_left: 60
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: MayorBowser
+issue_stances:
+  - slug: abortion-access
+    stance: Supports abortion rights and access to reproductive health services in the District
+  - slug: zoning-reform
+    stance: Set ambitious housing-production targets and supported upzoning in transit-rich corridors
+  - slug: second-amendment-regulation
+    stance: Backs strict local gun-control laws and has fought to preserve them against congressional preemption
+  - slug: lgbtq-protections
+    stance: Supports broad nondiscrimination protections for LGBTQ residents

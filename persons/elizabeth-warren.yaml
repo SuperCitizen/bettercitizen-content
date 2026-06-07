@@ -1,0 +1,26 @@
+slug: elizabeth-warren
+full_name: Elizabeth Warren
+tier: "4"
+bio_md: US Senator from Massachusetts and former Harvard Law professor. Consumer advocate who created the Consumer Financial Protection Bureau. Known for detailed policy plans on economic reform and corporate accountability.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 80
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: SenWarren
+issue_stances:
+  - slug: corporate-tax-rate
+    stance: Proposed 2% annual wealth tax on fortunes above $50 million
+  - slug: medicare-for-all
+    stance: Initially supported Medicare for All, later proposed more incremental path
+  - slug: rent-control
+    stance: Authored major housing legislation to build millions of new units
+  - slug: higher-education-funding
+    stance: Supports student debt cancellation and tuition-free college
+  - slug: tariffs
+    stance: Supports fair trade with strong labor and environmental standards

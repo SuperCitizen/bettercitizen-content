@@ -1,0 +1,22 @@
+slug: tulsi-gabbard
+full_name: Tulsi Gabbard
+tier: "4"
+bio_md: Former US Representative from Hawaii and 2020 Democratic presidential candidate. Served in the Army National Guard. Left the Democratic Party and became Director of National Intelligence under Trump.
+role: politician, government official
+affiliation: Independent / Trump administration
+party: Independent
+lean_left: 40
+lean_right: 60
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: TulsiGabbard
+issue_stances:
+  - slug: military-spending
+    stance: Consistent critic of US military interventionism and regime-change wars
+  - slug: data-privacy-law
+    stance: As DNI, positioned as opponent of surveillance state
+  - slug: section-230
+    stance: Opposes censorship and corporate control of speech

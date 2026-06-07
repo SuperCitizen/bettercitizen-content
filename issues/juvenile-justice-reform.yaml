@@ -1,0 +1,33 @@
+slug: juvenile-justice-reform
+name: Juvenile justice reform
+category: criminal-justice
+summary: How the justice system should handle minors who commit crimes, including transfer to adult court, sentencing limits, and raise-the-age laws.
+body_md: |-
+  The U.S. operates a separate juvenile justice system rooted in the idea that children are more amenable to rehabilitation and less culpable than adults. Every state allows some minors to be tried as adults, with the threshold and mechanism varying widely. Some states draw the line at 16; most use 18.
+
+  Supreme Court decisions over the past two decades have limited the harshest punishments for juveniles: capital punishment for crimes committed under 18 is unconstitutional, as are mandatory life-without-parole sentences for juveniles. Many states have passed "raise the age" laws moving 17-year-olds out of adult court.
+
+  Debates continue over how to handle serious violent offenses by minors, the conditions of juvenile detention, and whether the system should focus more on rehabilitation, accountability, or victim concerns.
+spectrum:
+  left: Most progressives favor expanded raise-the-age laws, ending juvenile life without parole, and shifting from detention to community-based rehabilitation.
+  center: Centrists generally back raising the age of adult-court jurisdiction while preserving prosecutorial discretion to transfer the most serious violent offenders.
+  right: Conservatives are divided. Many favor keeping adult-court transfer for serious violent crimes; some emphasize rehabilitation and faith-based mentorship for younger offenders.
+contested:
+  perspectives:
+    - label: Rehabilitation-first reformers
+      summary: Adolescent brains are still developing, and rehabilitation outcomes are far better than adult-style punishment. Detention should be a last resort, with community supervision, education, and mental-health treatment as the default.
+      key_concerns:
+        - Adolescent brain development and reduced culpability
+        - Recidivism reduction through rehabilitation
+        - Racial disparities in juvenile transfer to adult court
+    - label: Accountability and victim-focused advocates
+      summary: Some juvenile offenses — especially violent crimes — demand serious accountability for the sake of victims and public safety. Prosecutors need discretion to transfer the most serious cases to adult court.
+      key_concerns:
+        - Public safety and serious violent offenses
+        - Victim closure and proportionality
+        - Preserving prosecutorial discretion
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - juvenile
+  - sentencing

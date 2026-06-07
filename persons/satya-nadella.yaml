@@ -1,0 +1,15 @@
+slug: satya-nadella
+full_name: Satya Nadella
+tier: "4"
+bio_md: CEO of Microsoft. Transformed the company around cloud computing and AI. Oversaw the partnership with OpenAI and integration of AI across Microsoft products.
+role: tech executive
+affiliation: Microsoft
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: sataborman
+issue_stances: []

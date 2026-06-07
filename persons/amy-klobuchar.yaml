@@ -1,0 +1,24 @@
+slug: amy-klobuchar
+full_name: Amy Klobuchar
+tier: "3"
+bio_md: US Senator from Minnesota since 2007. Former Hennepin County Attorney. Sought the 2020 Democratic presidential nomination before endorsing Joe Biden. Senior member of the Senate Judiciary Committee and ranking member or chair of the Senate Rules Committee. Known for her focus on antitrust enforcement and election administration.
+role: US Senator from Minnesota
+affiliation: United States Senate
+party: Democrat
+lean_left: 62
+lean_right: 32
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: amyklobuchar
+issue_stances:
+  - slug: antitrust-enforcement
+    stance: Lead Senate advocate for tougher antitrust laws targeting Big Tech and consolidation
+  - slug: automatic-voter-registration
+    stance: Lead sponsor of the Freedom to Vote Act including automatic voter registration provisions
+  - slug: ai-regulation
+    stance: Co-sponsor of bipartisan AI legislation addressing deepfakes and election integrity
+  - slug: abortion-access
+    stance: Supports codifying Roe v. Wade abortion protections into federal law

@@ -1,0 +1,39 @@
+slug: antitrust-enforcement
+name: Antitrust enforcement
+category: economy-and-taxation
+summary: Whether and how to enforce antitrust laws against major tech, healthcare, and consumer-goods firms — the renewed "neo-Brandeisian" approach vs. the consumer-welfare standard.
+body_md: |-
+  Modern antitrust has been dominated since the 1980s by the "consumer welfare standard": mergers and conduct are anticompetitive only if they raise prices or reduce output. Under this framework, enforcement has been relatively narrow.
+
+  The "neo-Brandeisian" or "new antitrust" movement (Lina Khan, Tim Wu, others) argues this standard is too narrow — that concentration harms innovation, labor markets, supply-chain resilience, and political power even when consumer prices fall.
+
+  Major recent cases include FTC and DOJ actions against Google, Meta, Apple, Amazon, and Live Nation. Bipartisan congressional bills (American Innovation and Choice Online Act, Open App Markets Act) have advanced but not passed.
+spectrum:
+  left: Progressives broadly favor aggressive antitrust enforcement against tech, healthcare, and food firms.
+  center: Moderates often favor enforcement modernization without abandoning the consumer-welfare standard entirely.
+  right: "Conservative views split: some favor aggressive enforcement (especially against tech firms perceived as biased); others defer to free-market outcomes."
+contested:
+  perspectives:
+    - label: Neo-Brandeisian advocates
+      summary: Concentration harms innovation, workers, suppliers, and democracy — not just consumers. Antitrust should consider full effects on market power, not just price.
+      key_concerns:
+        - Tech-platform dominance
+        - Labor-market monopsony
+        - Supply-chain resilience
+    - label: Consumer-welfare defenders
+      summary: The consumer-welfare standard provides predictable, evidence-based enforcement. Expanding antitrust to political and structural concerns produces inconsistent decisions and chills pro-consumer innovation.
+      key_concerns:
+        - Predictable, rules-based enforcement
+        - Avoiding politicized antitrust
+        - Recognizing pro-consumer scale
+    - label: Conservative anti-Big-Tech
+      summary: Major tech platforms exercise quasi-governmental power over speech and commerce. Aggressive antitrust action against them, including breakups, restores market competition and free expression.
+      key_concerns:
+        - Tech-platform censorship
+        - Conservative voice in market gatekeepers
+        - Restoring small-business competition
+related_lesson_slugs: []
+tags:
+  - antitrust
+  - competition
+  - tech

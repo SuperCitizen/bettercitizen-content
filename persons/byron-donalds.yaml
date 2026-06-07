@@ -1,0 +1,24 @@
+slug: byron-donalds
+full_name: Byron Donalds
+tier: "3"
+bio_md: U.S. Representative from Florida's 19th district since 2021. Previously served in the Florida House of Representatives. Member of the House Freedom Caucus. Has been mentioned as a potential candidate for higher office in Florida and was named in some 2024 vice-presidential speculation.
+role: representative
+affiliation: U.S. House of Representatives
+party: Republican
+lean_left: 12
+lean_right: 88
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: ByronDonalds
+issue_stances:
+  - slug: border-security
+    stance: Supports stricter border enforcement and finishing the southern border wall
+  - slug: corporate-tax-rate
+    stance: Favors low corporate tax rates and making 2017 tax cuts permanent
+  - slug: abortion-access
+    stance: Opposes abortion access; supports federal limits
+  - slug: second-amendment-regulation
+    stance: Opposes most new gun regulations

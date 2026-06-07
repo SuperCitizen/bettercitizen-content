@@ -1,0 +1,24 @@
+slug: sarah-huckabee-sanders
+full_name: Sarah Huckabee Sanders
+tier: "3"
+bio_md: Governor of Arkansas since 2023, the first woman to serve as Governor of Arkansas. Previously served as White House Press Secretary under President Donald Trump from 2017 to 2019. Daughter of former Arkansas Governor Mike Huckabee. Delivered the Republican response to President Biden's 2023 State of the Union address.
+role: Governor of Arkansas
+affiliation: State of Arkansas
+party: Republican
+lean_left: 12
+lean_right: 82
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: SarahHuckabee
+issue_stances:
+  - slug: abortion-access
+    stance: Defends Arkansas's near-total abortion ban triggered by the Dobbs decision
+  - slug: lgbtq-protections
+    stance: Signed Arkansas legislation restricting gender-affirming care for minors and bathroom access
+  - slug: corporate-tax-rate
+    stance: Signed Arkansas income tax cuts reducing top individual and corporate rates
+  - slug: border-security
+    stance: Sent Arkansas National Guard members and state troopers to assist Texas border operations

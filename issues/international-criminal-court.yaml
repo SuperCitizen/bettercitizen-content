@@ -1,0 +1,33 @@
+slug: international-criminal-court
+name: International Criminal Court
+category: foreign-policy
+summary: The U.S. relationship with the International Criminal Court (ICC), including non-membership, cooperation on specific cases, and concerns over jurisdiction.
+body_md: |-
+  The International Criminal Court (ICC), established by the 1998 Rome Statute, prosecutes individuals for genocide, war crimes, crimes against humanity, and the crime of aggression. The U.S. signed but never ratified the Rome Statute and is not a member; over 120 countries are. U.S. policy across administrations has ranged from hostility (sanctions on ICC officials in 2020) to selective cooperation (support for the ICC's arrest warrants for Russian officials over Ukraine).
+
+  The 2002 American Service-Members' Protection Act, sometimes called the "Hague Invasion Act," restricts U.S. cooperation with the ICC and authorizes measures to free U.S. service members detained by the Court. U.S. concerns have focused on possible ICC jurisdiction over U.S. or allied (especially Israeli) nationals not from member states.
+
+  Recent ICC actions — including warrants for Russian and Israeli officials — have intensified debates over whether the U.S. should support the Court selectively, oppose its jurisdictional reach, or pursue deeper engagement.
+spectrum:
+  left: Most progressives favor closer U.S. engagement with the ICC, support for its accountability mandate including warrants against Russian officials, and revisiting U.S. non-membership.
+  center: Centrists generally support selective cooperation on specific cases (Russia, Sudan, Libya) without joining the Court, and oppose specific ICC actions seen as overreach.
+  right: Most conservatives oppose ICC jurisdiction over U.S. or allied non-member nationals, support the Service-Members' Protection Act, and view the Court as a sovereignty risk.
+contested:
+  perspectives:
+    - label: Accountability and engagement advocates
+      summary: The ICC is the only standing international body able to prosecute the worst atrocity crimes when national courts cannot or will not. U.S. selective cooperation has already supported accountability for Russia, Sudan, and others. Closer engagement strengthens international rule of law and U.S. credibility on the issues it champions.
+      key_concerns:
+        - Accountability for atrocity crimes
+        - Consistency in U.S. positions on Russia versus other cases
+        - International rule of law
+    - label: Sovereignty and jurisdiction skeptics
+      summary: The ICC asserts jurisdiction over nationals of states that never joined the Court, an extraordinary reach with no parallel in U.S. law. Without ratification, U.S. service members and officials remain subject to a foreign court they had no say in creating. Existing U.S. military justice and accountability mechanisms are more legitimate.
+      key_concerns:
+        - Jurisdiction over non-member-state nationals
+        - Risk to U.S. service members and officials
+        - Accountability through U.S. courts and military justice
+related_lesson_slugs: []
+tags:
+  - foreign-policy
+  - international-law
+  - sovereignty

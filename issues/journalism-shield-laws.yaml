@@ -1,0 +1,33 @@
+slug: journalism-shield-laws
+name: Journalism shield laws
+category: media-and-information
+summary: Whether to enact a federal "shield law" protecting journalists from being compelled to reveal confidential sources — building on shield laws in 49 states.
+body_md: |-
+  Forty-nine states and DC have shield laws or court-recognized privileges protecting journalists from compelled source disclosure. The federal government does not — the Supreme Court rejected a constitutional reporter's privilege in Branzburg v. Hayes (1972).
+
+  The PRESS Act, repeatedly proposed and passed by the House but stalled in the Senate, would provide federal protection for journalists from compelled disclosure of sources, with exceptions for terrorism and imminent harm.
+
+  Defenders argue source protection is essential to investigative journalism and informing the public. Critics argue it can shield criminal activity and that "journalist" is hard to define in an era of bloggers, podcasters, and citizen journalists.
+spectrum:
+  left: Most progressives strongly support a federal shield law.
+  center: Most centrists support shield laws, including federal versions.
+  right: 'Conservative views split: many support the PRESS Act; some oppose protections for "mainstream media."'
+contested:
+  perspectives:
+    - label: Shield-law advocates
+      summary: Investigative journalism — Watergate, NSA surveillance, government waste — depends on confidential sources. A federal shield law brings the U.S. in line with 49 states and protects democracy's watchdog function.
+      key_concerns:
+        - Investigative-journalism viability
+        - Source-protection certainty
+        - Federal-state harmonization
+    - label: Skeptics
+      summary: Shield laws can be exploited to protect criminal conspiracies, leaks of classified information that endanger lives, and to apply selectively to favored "journalists." Define narrowly or not at all.
+      key_concerns:
+        - Defining who counts as a journalist
+        - Carve-outs for genuine harm
+        - Avoiding political-favoritism in protections
+related_lesson_slugs: []
+tags:
+  - media
+  - journalism
+  - first-amendment

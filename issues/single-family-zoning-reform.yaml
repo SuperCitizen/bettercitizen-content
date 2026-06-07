@@ -1,0 +1,45 @@
+slug: single-family-zoning-reform
+name: Single-family zoning reform
+category: housing
+summary: Whether cities and states should end exclusive single-family zoning — allowing duplexes, triplexes, or small multifamily buildings on parcels currently restricted to detached single-family homes.
+body_md: |-
+  Roughly 75% of residential land in major U.S. cities is zoned exclusively for detached single-family homes — a regulatory pattern with origins in the early 20th century, including overtly racial origins in many municipalities. Single-family zoning prevents the construction of duplexes, triplexes, small apartment buildings, and accessory dwelling units that historically existed in nearly every American neighborhood.
+
+  Recent reforms — Minneapolis ending single-family-only zoning in 2019, Oregon and California enacting statewide reforms in 2019 and 2021, Washington State in 2023 — have legalized "missing middle" housing types in formerly single-family-only zones. These reforms typically allow 2-4 units per parcel by right, sometimes with size or design standards.
+
+  Proponents argue that exclusive single-family zoning is a major driver of housing scarcity in metros, that the missing middle (duplexes through small apartments) is the historic American norm, and that single-family-only zoning has perpetuated segregation. They emphasize that the reforms allow but do not require multifamily housing.
+
+  Opponents argue that single-family neighborhoods are voluntary choices that residents value, that allowing multifamily by-right erodes neighborhood character and infrastructure, and that the supply impact of such reforms has been modest in practice. Some prefer targeted zoning changes near transit and commercial corridors rather than blanket reform.
+spectrum:
+  left: Exclusive single-family zoning is a regulatory legacy of segregation that has perpetuated racial and economic exclusion; legalizing duplexes and triplexes is a modest, overdue correction that allows — but does not require — more housing in walkable neighborhoods.
+  center: Reform should allow missing-middle housing in appropriate locations while accommodating legitimate concerns about scale, design, and infrastructure; statewide preemption may overreach but local resistance can be intractable.
+  right: Single-family neighborhoods reflect the voluntary choices of millions of homeowners; mandating multifamily housing through state preemption overrides local control and erodes the character that residents specifically chose and paid for.
+contested:
+  perspectives:
+    - label: Missing-middle reformers
+      summary: Exclusive single-family zoning is a 20th-century regulatory innovation — often racially motivated in its origins — that prevents the duplex/triplex/small-apartment housing types that defined most American neighborhoods historically. Reform legalizes a return to historic norms.
+      key_concerns:
+        - Single-family zoning has racial and exclusionary origins
+        - Missing middle was the historic norm
+        - Modest reforms compatible with neighborhood scale
+        - Supply increases needed near jobs
+    - label: Local-control defenders
+      summary: Homeowners specifically chose single-family neighborhoods for character, schools, and stability. State preemption of local zoning overrides the deliberate choices of residents, devalues their investment, and erodes the participatory tradition of local land-use planning.
+      key_concerns:
+        - Local control over land use
+        - Homeowner investment in neighborhood character
+        - Participatory planning traditions
+        - State preemption overreach
+    - label: Targeted-reform pragmatists
+      summary: Zoning reform should focus on areas with transit, walkable commercial cores, and infrastructure capacity — not blanket changes everywhere. Allowing density near amenities concentrates benefits where they make most sense while preserving lower-density character elsewhere.
+      key_concerns:
+        - Density near transit and amenities is most valuable
+        - Infrastructure capacity varies by area
+        - Blanket reforms produce modest results
+        - Phased and targeted changes are more durable
+related_lesson_slugs: []
+tags:
+  - housing
+  - zoning
+  - single-family
+  - missing-middle

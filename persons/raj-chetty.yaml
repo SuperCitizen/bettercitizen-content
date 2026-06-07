@@ -1,0 +1,20 @@
+slug: raj-chetty
+full_name: Raj Chetty
+tier: "4"
+bio_md: Indian-American economist and the William A. Ackman Professor of Public Economics at Harvard University. Director of Opportunity Insights, a research and policy institute. Recipient of the John Bates Clark Medal in 2013 and a MacArthur Fellow. His research uses big data to study economic opportunity, intergenerational mobility, education, and inequality.
+role: Harvard economist
+affiliation: Harvard University, Opportunity Insights
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: higher-education-funding
+    stance: Research shows public colleges drive substantial upward mobility and merit increased investment
+  - slug: child-tax-credit
+    stance: Has produced research on how cash transfers and tax credits affect child outcomes
+  - slug: zoning-reform
+    stance: Research on neighborhood effects suggests housing access shapes economic mobility

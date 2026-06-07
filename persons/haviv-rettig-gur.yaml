@@ -1,0 +1,16 @@
+slug: haviv-rettig-gur
+full_name: Haviv Rettig Gur
+tier: "4"
+bio_md: Senior analyst at The Times of Israel. Known for his deep, nuanced analysis of Israeli politics and society, making complex Middle Eastern issues accessible.
+role: journalist, analyst
+affiliation: The Times of Israel
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: voter-id
+    stance: Analyzes democratic resilience in complex political environments

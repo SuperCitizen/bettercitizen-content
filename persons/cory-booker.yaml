@@ -1,0 +1,16 @@
+slug: cory-booker
+full_name: Cory Booker
+tier: "4"
+bio_md: US Senator from New Jersey and former mayor of Newark. Known for his bipartisan criminal justice reform work and passionate advocacy for social justice.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 75
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: CoryBooker
+issue_stances: []

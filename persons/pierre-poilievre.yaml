@@ -1,0 +1,24 @@
+slug: pierre-poilievre
+full_name: Pierre Poilievre
+tier: "3"
+bio_md: Leader of the Conservative Party of Canada since September 2022 and a longtime Member of Parliament for an Ottawa-area riding. First elected to the House of Commons in 2004 at age 25, he held cabinet roles under Stephen Harper and is known for a combative, populist communications style.
+role: Leader of the Conservative Party of Canada
+affiliation: Conservative Party of Canada
+party: Conservative
+lean_left: 20
+lean_right: 75
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: PierrePoilievre
+issue_stances:
+  - slug: climate-policy
+    stance: Opposes the federal carbon tax and campaigns on its repeal
+  - slug: ukraine-support
+    stance: Supports continued aid to Ukraine and condemns Russia's invasion
+  - slug: nato-and-alliances
+    stance: Backs Canadian NATO membership and meeting the alliance's 2% spending target
+  - slug: zoning-reform
+    stance: Proposes tying federal infrastructure funding to municipal housing-construction targets to combat sprawl-induced shortages

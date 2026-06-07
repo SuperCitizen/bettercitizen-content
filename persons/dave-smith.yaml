@@ -1,0 +1,15 @@
+slug: dave-smith
+full_name: Dave Smith
+tier: "4"
+bio_md: Libertarian commentator, stand-up comedian, and host of Part of the Problem podcast. A prominent voice for non-interventionism and individual liberty.
+role: commentator, comedian
+affiliation: Libertarian
+party: Libertarian
+lean_left: 30
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances: []

@@ -1,0 +1,72 @@
+schema: supercitizen.assessment/v1
+lesson: what-it-believes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Herbert Croly's foundational text The Promise of American Life (1909) advocated combining which two American traditions?"
+    choices:
+      - id: a
+        text: "Jacksonian populism and Madisonian federalism."
+      - id: b
+        text: "Hamiltonian strong federal government in service of Jeffersonian-democratic ends."
+      - id: c
+        text: "Wilsonian internationalism and Jeffersonian agrarianism."
+      - id: d
+        text: "Hamiltonian commercialism and Jacksonian honor culture."
+    correct_choice_id: b
+    explanation: "Croly argued for using Hamiltonian strong-federal-government instruments in service of Jeffersonian-democratic ends — i.e., active federal government pursuing equality and shared prosperity. This synthesis was foundational for the early-1900s progressive movement and influenced Theodore Roosevelt's 'New Nationalism' platform."
+    concepts: [progressivism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which of these did the New Deal NOT include?"
+    choices:
+      - id: a
+        text: "Social Security (Old-Age Insurance)."
+      - id: b
+        text: "Securities and Exchange Commission."
+      - id: c
+        text: "Medicare and Medicaid."
+      - id: d
+        text: "National Labor Relations Act (Wagner Act)."
+    correct_choice_id: c
+    explanation: "Medicare and Medicaid were Great Society programs (1965 Social Security Amendments under Lyndon Johnson), not New Deal. The New Deal (1933-1945) included Social Security, the SEC, the Wagner Act, FDIC, agricultural reform, and the Tennessee Valley Authority. The Great Society explicitly extended the New Deal framework to healthcare and to civil rights."
+    concepts: [progressivism, new-deal]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What is the strongest version of the New Deal liberal critique of identity-justice progressivism?"
+    choices:
+      - id: a
+        text: "Identity-justice goals are wrong."
+      - id: b
+        text: "Identity-justice framing fragments the political coalition that economic-justice progressivism requires, while universal economic programs deliver disproportionate benefits to historically excluded groups anyway."
+      - id: c
+        text: "Identity politics is unconstitutional."
+      - id: d
+        text: "Identity-justice progressives don't care about the working class."
+    correct_choice_id: b
+    explanation: "The strongest New Deal liberal critique is strategic and substantive: that universal programs (Social Security, Medicare, public education) are politically more durable than targeted ones, and that universal programs deliver disproportionate benefits to historically excluded groups precisely because those groups are over-represented in working-class positions. This is not 'identity goals are wrong' but 'there's a more effective way to achieve them.' Adolph Reed Jr.'s essays make this case at length."
+    concepts: [progressivism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Why did the New Deal initially exclude many Black Americans from key programs like Social Security?"
+    choices:
+      - id: a
+        text: "FDR personally opposed including Black Americans."
+      - id: b
+        text: "Constitutional limitations prevented federal coverage of all workers."
+      - id: c
+        text: "Compromises with Southern Democrats — needed for Senate passage — excluded agricultural and domestic workers, who were overwhelmingly Black."
+      - id: d
+        text: "The programs were never intended to be universal."
+    correct_choice_id: c
+    explanation: "Social Security as enacted in 1935 excluded agricultural and domestic workers (roughly 65% of Black workers nationally, even higher in the South), in part to secure the Southern Democratic votes needed for passage. Subsequent expansions (1950, 1954) gradually included these categories. The identity-justice progressive reading: this is not an accident but a structural feature of the New Deal coalition. The New Deal liberal reading: the exclusions were tragic compromises that subsequent legislation has corrected."
+    concepts: [progressivism, new-deal]
+
+  - id: q5
+    kind: free-response
+    text: "American progressivism and American national conservatism share more substantive policy commitments than partisan rhetoric suggests. State the strongest version of the overlap, and identify where the genuine disagreement remains."
+    socratic_seed: "Overlap: both center the working class, both worry about concentrated private power (corporations, finance, Big Tech), both support family-supporting policies (CTC expansion, parental leave), both favor industrial policy and supply-chain reshoring, both are skeptical of post-1990s free-trade orthodoxy. Genuine disagreement: progressives generally support immigration as economic and demographic stabilizer; national conservatives generally favor restriction on cultural-cohesion grounds. Progressives generally support inclusive cultural agendas; national conservatives generally support traditional cultural agendas. The economic substance overlaps; the cultural substance does not."
+    concepts: [progressivism, national-conservatism]

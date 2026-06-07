@@ -1,0 +1,19 @@
+slug: jake-tapper
+full_name: Jake Tapper
+tier: "4"
+bio_md: American journalist, author, and cartoonist. Anchor of The Lead with Jake Tapper and CNN's chief Washington correspondent. Has moderated presidential debates and authored books on politics and the military, including The Outpost about the Battle of Kamdesh in Afghanistan.
+role: CNN anchor, journalist, author
+affiliation: CNN
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: jaketapper
+issue_stances:
+  - slug: military-spending
+    stance: Has reported extensively on veterans' issues and military affairs
+  - slug: free-speech-on-campus
+    stance: Has covered debates over free speech and press freedom

@@ -1,0 +1,42 @@
+slug: shareholder-political-spending-vote
+name: Shareholder vote on corporate political spending
+category: money-in-politics
+summary: Whether shareholders of publicly traded companies should have a binding or advisory vote on the company's political contributions and lobbying expenditures, similar to "say-on-pay" votes on executive compensation.
+body_md: |-
+  Following Citizens United, corporations can spend unlimited amounts on independent political expenditures. Most shareholders, however, have no formal voice in how a company spends those funds. Various proposals — at the SEC, in state law, and as voluntary corporate bylaws — would require shareholder votes (binding or advisory) on political spending budgets, similar to existing "say-on-pay" votes on executive compensation.
+
+  Proponents argue that shareholders own the company and should have a say in how it engages in politics, especially when political spending creates business risk or conflicts with stated corporate values. They argue a vote — even if advisory — would discipline corporate political activity and align it with shareholder interests.
+
+  Critics argue that political spending decisions are part of management's ordinary responsibility, that requiring shareholder votes would politicize ordinary business decisions and create endless proxy fights, and that activist shareholders could pressure companies away from contributions to disfavored causes. Some prefer disclosure to a vote.
+spectrum:
+  left: Shareholders should have a binding vote on corporate political spending — and ideally on lobbying budgets too; the corporation acts in their name and on their dime, and Citizens United made the case for accountability stronger, not weaker.
+  center: An advisory shareholder vote on political spending — similar to say-on-pay — could discipline corporate political activity without removing management discretion; mandated disclosure paired with regular votes is a reasonable middle ground.
+  right: Corporate political activity is part of normal management discretion, accountable through ordinary corporate governance; shareholder votes would invite politically motivated activist campaigns and chill participation in policy debates that affect the company.
+contested:
+  perspectives:
+    - label: Shareholder-democracy advocates
+      summary: Companies act in shareholders' name; shareholders should have a vote on political spending the same way they vote on executive compensation. After Citizens United expanded corporate political spending, expanded shareholder oversight is the natural counterweight.
+      key_concerns:
+        - Shareholders own the corporation
+        - Political spending creates real business risk
+        - Alignment with stated corporate values
+        - Parallel to existing say-on-pay framework
+    - label: Management-discretion defenders
+      summary: Political and trade-association spending is part of ordinary business management — defending the company's interests in regulation, tax, and trade. Requiring shareholder votes would politicize routine decisions and create activist-driven proxy fights over every political contribution.
+      key_concerns:
+        - Political spending is normal business activity
+        - Activist-driven shareholder politics
+        - Operational delay from required votes
+        - Existing fiduciary duties already constrain management
+    - label: Disclosure-instead pragmatists
+      summary: Robust disclosure — with shareholder access to detailed political-spending reports — achieves transparency without forcing votes on individual contributions. Markets and reputation pressure can then discipline misalignment without inviting endless ballot battles.
+      key_concerns:
+        - Disclosure achieves transparency more cheaply
+        - Market pressure can discipline misalignment
+        - Avoids procedural overhead of votes
+        - Investor stewardship can replace formal vote
+related_lesson_slugs: []
+tags:
+  - campaign-finance
+  - corporate-governance
+  - shareholder-rights

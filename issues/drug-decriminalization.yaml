@@ -1,0 +1,42 @@
+slug: drug-decriminalization
+name: Drug decriminalization and harm reduction
+category: criminal-justice
+summary: Whether possession of small amounts of drugs should be a civil rather than criminal offense, and broader harm-reduction approaches to substance use.
+body_md: |-
+  Approaches range:
+  - **Cannabis legalization**: 24 states have legalized recreational cannabis; 38 have medical programs.
+  - **Cannabis decriminalization**: Civil penalties only for possession.
+  - **Broader decriminalization**: Oregon's Measure 110 (2020) decriminalized possession of all drugs and funded treatment; the legislature largely re-criminalized in 2024 amid concerns about open-air drug use.
+  - **Portugal model**: Decriminalize personal possession; mandate treatment referrals.
+  - **Harm reduction**: Naloxone distribution, syringe-services programs, supervised-consumption sites, fentanyl-test strips.
+
+  Defenders argue decriminalization reduces incarceration, racial disparities, and overdose deaths. Critics argue it increases drug use, public-disorder, and youth uptake.
+spectrum:
+  left: Progressives broadly favor decriminalization, harm reduction, and treatment over incarceration.
+  center: Many centrists favor cannabis legalization and broader harm reduction with continued enforcement against trafficking.
+  right: "Conservative views split: federalist conservatives accept state-level cannabis policy; many oppose broader decriminalization."
+contested:
+  perspectives:
+    - label: Decriminalization / treatment advocates
+      summary: Criminalizing addiction has produced mass incarceration without reducing drug use. A treatment-and-harm-reduction model — Portugal style — saves lives and money.
+      key_concerns:
+        - Reducing incarceration
+        - Treating addiction as a health issue
+        - Reducing overdose deaths
+    - label: Public-order skeptics
+      summary: Oregon's Measure 110 produced surging open-air drug use and overdoses without delivering on treatment promises. Decriminalization without robust treatment infrastructure fails.
+      key_concerns:
+        - Public order and street conditions
+        - Treatment infrastructure adequacy
+        - Youth uptake
+    - label: Targeted-cannabis-only approach
+      summary: Legalize cannabis (treating it like alcohol) but keep harder drugs criminal. Cannabis is uniquely safer; treating fentanyl, meth, and cocaine the same way is not justified.
+      key_concerns:
+        - Distinguishing cannabis from harder drugs
+        - Avoiding open-air drug markets
+        - Federal-state conflict on cannabis
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - drugs
+  - harm-reduction

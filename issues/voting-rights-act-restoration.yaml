@@ -1,0 +1,33 @@
+slug: voting-rights-act-restoration
+name: Voting Rights Act restoration
+category: elections-and-voting
+summary: Federal proposals (notably the John Lewis Voting Rights Advancement Act) to restore preclearance and other VRA protections weakened by Shelby County v. Holder (2013).
+body_md: |-
+  The Voting Rights Act of 1965 used a coverage formula in §4(b) to require certain jurisdictions with a history of discrimination to "preclear" voting changes with the federal government before implementing them. In Shelby County v. Holder (2013), the Supreme Court struck down the coverage formula as outdated, effectively suspending §5 preclearance.
+
+  Restoration proposals include the John Lewis Voting Rights Advancement Act, which would create a new coverage formula based on recent voting-rights violations, and the Freedom to Vote Act, which sets federal standards on registration, mail voting, and redistricting.
+
+  The debate centers on whether federal preclearance is needed to deter voting discrimination or whether existing §2 case-by-case litigation is sufficient.
+spectrum:
+  left: Progressives strongly support restoring preclearance and federalizing election standards as essential civil-rights protections.
+  center: Civil-rights moderates favor restoring preclearance with a updated coverage formula tied to current violations.
+  right: Conservatives generally view current §2 enforcement as sufficient and oppose new federal preclearance regimes.
+contested:
+  perspectives:
+    - label: Restoration advocates
+      summary: Since Shelby County, formerly covered jurisdictions have enacted voting-restriction laws at higher rates than non-covered. Preclearance is the only effective deterrent.
+      key_concerns:
+        - Deterring discriminatory voting changes
+        - Updating coverage to reflect recent violations
+        - Federal floor on voting access
+    - label: Federalism / states-rights skeptics
+      summary: Elections are constitutionally a state matter. Federal preclearance was a temporary, emergency measure tied to 1960s Jim Crow conditions; current §2 litigation handles real violations.
+      key_concerns:
+        - State sovereignty over elections
+        - Sufficiency of §2 case-by-case enforcement
+        - Avoiding indefinite federal supervision
+related_lesson_slugs: []
+tags:
+  - voting-rights
+  - civil-rights
+  - federalism

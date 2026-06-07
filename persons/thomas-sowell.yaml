@@ -1,0 +1,22 @@
+slug: thomas-sowell
+full_name: Thomas Sowell
+tier: "4"
+bio_md: Economist, social theorist, and senior fellow at Stanford's Hoover Institution. Author of dozens of books on economics, race, and society from a libertarian-conservative perspective.
+role: economist, author
+affiliation: Hoover Institution
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: higher-education-funding
+    stance: Advocates school choice as path to improving outcomes for disadvantaged students
+  - slug: corporate-tax-rate
+    stance: Opposes progressive taxation; advocates for flatter tax structure
+  - slug: rent-control
+    stance: Argues zoning and regulations are primary cause of unaffordable housing
+  - slug: cash-bail
+    stance: Critical of policies he argues ignore root causes of crime

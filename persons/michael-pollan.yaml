@@ -1,0 +1,19 @@
+slug: michael-pollan
+full_name: Michael Pollan
+tier: "4"
+bio_md: American author, journalist, and professor of journalism at UC Berkeley. Author of The Omnivore's Dilemma, In Defense of Food, Cooked, and How to Change Your Mind. Known for writing on food systems, agriculture, and more recently psychedelic medicine. His work has shaped public discourse about industrial agriculture, nutrition, and mental health treatment.
+role: food and science writer
+affiliation: UC Berkeley
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: michaelpollan
+issue_stances:
+  - slug: drug-decriminalization
+    stance: Advocates for reforming policy around psychedelics for therapeutic and research use
+  - slug: climate-policy
+    stance: Has written about industrial agriculture's contribution to climate change

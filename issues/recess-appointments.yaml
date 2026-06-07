@@ -1,0 +1,45 @@
+slug: recess-appointments
+name: Recess appointments
+category: governance-and-institutions
+summary: How broadly the president's constitutional power to make recess appointments should extend — and whether modern Senate practices have effectively eliminated meaningful recesses, making the power moot or available for circumvention.
+body_md: |-
+  The Constitution's Recess Appointments Clause lets the president fill vacancies that "may happen during the Recess of the Senate" without immediate Senate confirmation, with the appointment expiring at the end of the next Senate session. Originally a practical accommodation when senators traveled long distances between sessions, the practice has evolved into a contested executive-legislative power.
+
+  The Supreme Court's 2014 NLRB v. Noel Canning decision narrowed presidential recess-appointment power: recesses must be at least ten days long (with case-by-case exceptions for unusual circumstances), and the vacancy need not have arisen during the recess but must exist during it. Pro forma sessions — three-minute Senate sessions held to prevent recess — were upheld as effective.
+
+  Modern Senates routinely use pro forma sessions to prevent recess appointments, effectively eliminating the power when the opposing party controls the chamber. Recent debates have proposed extending or curtailing the practice, including some proposals to use a House motion to force adjournment.
+
+  Proponents of robust recess-appointment power argue that Senate obstruction of nominations has reached unprecedented levels, that the executive branch needs functional leadership, and that the framers intended recess appointments as a remedy for legislative inaction. Opponents argue that pro forma sessions are a constitutionally legitimate Senate procedure and that loosening recess-appointment rules would let presidents circumvent advice-and-consent entirely.
+spectrum:
+  left: When recess appointments have been used to install qualified nominees that the Senate is filibustering or blocking for unrelated reasons, the practice is a legitimate response to Senate obstruction; pro forma sessions are gimmicks designed to nullify a constitutional power.
+  center: Recess appointments were intended for genuine recesses, not for political circumvention of Senate confirmation; the Noel Canning framework — requiring real recesses — strikes a reasonable balance, even if pro forma sessions feel artificial.
+  right: Advice-and-consent is a core Senate power; loosening recess-appointment rules would let presidents bypass confirmation entirely, especially for controversial or unqualified appointees. Pro forma sessions are a legitimate Senate response.
+contested:
+  perspectives:
+    - label: Executive-flexibility advocates
+      summary: Senate obstruction of nominations — through blanket holds, filibusters, and pro forma sessions — has reached the point that executive branches cannot staff their senior positions. Recess appointments are a constitutional remedy for legislative inaction the framers anticipated.
+      key_concerns:
+        - Unprecedented Senate confirmation obstruction
+        - Need for functional executive leadership
+        - Framers anticipated recess-appointment use
+        - Pro forma sessions are constitutional gimmicks
+    - label: Advice-and-consent defenders
+      summary: The Senate's confirmation power is a core constitutional check on executive personnel choices. Recess appointments were designed for genuine pre-jet-age recesses, not for circumventing Senate disagreement. Pro forma sessions are a constitutionally protected Senate procedure under Noel Canning.
+      key_concerns:
+        - Confirmation is a core Senate power
+        - Recess clause designed for travel-era reality
+        - Pro forma sessions are constitutional Senate procedure
+        - Loose rules permit circumvention of advice-and-consent
+    - label: Reform-the-confirmation pragmatists
+      summary: The underlying problem is dysfunctional confirmation politics, not the recess-appointment doctrine. Time limits on holds, faster-track procedures for non-controversial nominees, and rules reform in the Senate would address the staffing problem more directly than litigating recess appointments.
+      key_concerns:
+        - Confirmation process is the root problem
+        - Time-limited holds and faster procedures
+        - Non-controversial nominees should not languish
+        - Senate rules reform rather than constitutional litigation
+related_lesson_slugs: []
+tags:
+  - recess-appointments
+  - separation-of-powers
+  - confirmation
+  - senate

@@ -1,0 +1,40 @@
+schema: supercitizen.assessment/v1
+lesson: what-it-is
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What are the two core mechanical moves of partisan gerrymandering?"
+    choices:
+      - id: a
+        text: "Concentration and dilution"
+      - id: b
+        text: "Packing and cracking"
+      - id: c
+        text: "Stacking and splitting"
+      - id: d
+        text: "Apportioning and reapportioning"
+    correct_choice_id: b
+    explanation: "Packing concentrates the opposition's voters into a few districts where they win by huge margins (wasting votes above the threshold); cracking splits them across multiple districts so they're a minority in each (wasting votes below the threshold)."
+    concepts: [gerrymandering]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which of the following is NOT, by itself, evidence of gerrymandering?"
+    choices:
+      - id: a
+        text: "An efficiency-gap value above 7%"
+      - id: b
+        text: "A district that hugs a coastline or river"
+      - id: c
+        text: "Documented partisan intent in the legislative record"
+      - id: d
+        text: "A map that produces durable partisan advantage outside the range from neutral simulations"
+    correct_choice_id: b
+    explanation: "Geographic constraints often produce non-compact shapes that aren't gerrymandering. Compactness alone proves nothing; the analysis requires partisan-impact measures or documented intent."
+    concepts: [gerrymandering]
+
+  - id: q3
+    kind: free-response
+    text: "Distinguish partisan gerrymandering from racial gerrymandering. Why does the legal framework treat them differently?"
+    socratic_seed: "Consider the constitutional source of authority for each kind of claim. The Reconstruction Amendments + the VRA give racial claims a federal hook that partisan claims (post-Rucho) lack."
+    concepts: [gerrymandering]

@@ -1,0 +1,26 @@
+slug: giorgia-meloni
+full_name: Giorgia Meloni
+tier: "3"
+bio_md: Prime Minister of Italy since October 2022 and leader of Fratelli d'Italia (Brothers of Italy), a right-wing party with post-fascist roots that she has steered toward mainstream European conservatism. She is the first woman to serve as Italian prime minister.
+role: Prime Minister of Italy
+affiliation: Fratelli d'Italia
+party: Fratelli d'Italia
+lean_left: 15
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: GiorgiaMeloni
+issue_stances:
+  - slug: immigration-related-issues
+    stance: Pursues aggressive measures to limit irregular migration, including offshoring asylum processing to Albania
+  - slug: ukraine-support
+    stance: Consistently backed military and financial aid to Ukraine despite skepticism from coalition partners
+  - slug: nato-and-alliances
+    stance: Firmly Atlanticist; supports strong Italian commitment to NATO
+  - slug: abortion-access
+    stance: Personally opposes abortion and has expanded access for anti-abortion counseling in clinics, while leaving the underlying 1978 law in place
+  - slug: lgbtq-protections
+    stance: Opposes same-sex marriage and restricts parental rights for same-sex couples

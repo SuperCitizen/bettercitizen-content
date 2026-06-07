@@ -1,0 +1,10 @@
+slug: us-district-courts
+name: US District Courts
+kind: government
+subtype: judicial
+description: "Trial-level federal courts: 94 districts hearing federal civil and criminal cases of first instance."
+website: https://www.uscourts.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

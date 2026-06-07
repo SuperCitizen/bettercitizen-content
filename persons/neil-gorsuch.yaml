@@ -1,0 +1,14 @@
+slug: neil-gorsuch
+full_name: Neil Gorsuch
+tier: "3"
+bio_md: Associate Justice of the U.S. Supreme Court since 2017. Nominated by President Donald Trump to fill the seat left vacant by Justice Antonin Scalia's death. Previously served on the U.S. Court of Appeals for the Tenth Circuit. Known for an originalist and textualist judicial philosophy, with notable opinions including Bostock v. Clayton County (extending Title VII protections to LGBTQ workers) and McGirt v. Oklahoma.
+role: jurist
+affiliation: U.S. Supreme Court
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances: []

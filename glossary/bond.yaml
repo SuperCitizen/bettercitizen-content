@@ -1,0 +1,12 @@
+slug: bond
+name: Bond
+short_definition: A fixed-income investment representing a loan from an investor to a borrower, typically a corporation or government.
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English: from Old English bonda (householder, farmer). The financial meaning evolved from the concept of a binding agreement or obligation — a 'bond' of indebtedness"
+why_it_matters: Government bonds are the backbone of global finance — their interest rates set the benchmark for everything from mortgages to corporate debt, and movements in bond markets can signal recession.
+context_example: When the 10-year Treasury bond yield spiked above 5%, mortgage rates followed, cooling the housing market and raising borrowing costs across the economy.
+related_term_slugs: []
+tags: []

@@ -1,0 +1,16 @@
+slug: ilhan-omar
+full_name: Ilhan Omar
+tier: "4"
+bio_md: US Representative from Minnesota and member of 'The Squad.' First Somali American and one of the first Muslim women elected to Congress. Known for progressive foreign policy views.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 90
+lean_right: 10
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: IlhanMN
+issue_stances: []

@@ -1,0 +1,44 @@
+slug: public-housing
+name: Public housing and Section 8
+category: housing
+summary: How federal subsidized-housing programs — public housing, Section 8 vouchers, LIHTC — should be funded and structured to serve low-income renters.
+body_md: |-
+  Federal subsidized housing operates through several programs:
+  - **Public housing** (HUD-owned, ~1M units): aging stock with $70B+ in deferred maintenance.
+  - **Housing Choice Vouchers / Section 8** (~2.3M households): tenants pay ~30% of income, federal subsidy makes up the difference. Long waitlists in most metros.
+  - **Low-Income Housing Tax Credit (LIHTC)**: subsidizes new construction and rehabilitation through tax credits to private developers.
+  - **Project-based rental assistance, USDA rural housing, others**.
+
+  Demand vastly exceeds supply: only ~25% of eligible households receive any federal housing assistance.
+
+  Reforms debated include voucher expansion (some proposals universal entitlement), Faircloth Amendment repeal (lifting cap on public-housing units), LIHTC expansion, source-of-income discrimination bans, and "small-area" voucher reforms to broaden access to opportunity neighborhoods.
+spectrum:
+  left: Progressives favor major expansion of vouchers (toward universal entitlement) and public housing investment.
+  center: Most centrists favor expanded vouchers, LIHTC, and source-of-income discrimination bans.
+  right: "Conservative views vary: some favor work requirements, devolution to states, and skepticism of public-housing build-out."
+contested:
+  perspectives:
+    - label: Voucher / public-housing expansion advocates
+      summary: Housing assistance reaches only a quarter of eligible households. Expanding vouchers to universal entitlement, repealing the Faircloth Amendment, and rebuilding public housing addresses scarcity directly.
+      key_concerns:
+        - Closing the assistance gap
+        - Aging public-housing stock
+        - Long waitlists for vouchers
+    - label: Reform-and-target advocates
+      summary: "Voucher and LIHTC programs have inefficiencies: source-of-income discrimination, geographic concentration, developer rents. Fix these before major expansion."
+      key_concerns:
+        - Source-of-income discrimination
+        - Concentration in low-opportunity neighborhoods
+        - LIHTC efficiency
+    - label: Devolution / work-requirement advocates
+      summary: Federal programs are inflexible. Devolve funding to states and cities, attach work requirements for able-bodied adults, and let local governments tailor programs.
+      key_concerns:
+        - Federalism in housing policy
+        - Work-requirement design
+        - Avoiding indefinite dependence
+related_lesson_slugs:
+  - housing
+tags:
+  - housing
+  - subsidized-housing
+  - vouchers

@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: what-it-believes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is the 'non-aggression principle' (NAP) in libertarian thought?"
+    choices:
+      - id: a
+        text: "The U.S. should not initiate war with foreign countries."
+      - id: b
+        text: "Initiating force or fraud against another person or their property is wrong; this applies to private actors and to the state."
+      - id: c
+        text: "Property owners may not use force to defend their property."
+      - id: d
+        text: "Pacifism in all circumstances."
+    correct_choice_id: b
+    explanation: "The NAP is a foundational libertarian principle: initiating force or fraud is morally wrong, whether by private actors or by the state. It applies symmetrically — the state's claim to monopolize legitimate force is itself subject to NAP scrutiny. Most libertarians regard taxation, drug prohibition, occupational licensing, mandatory military service, and many other state activities as forms of aggression that require strong justification."
+    concepts: [libertarianism, non-aggression-principle]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which of these is NOT a libertarian position on civil liberties?"
+    choices:
+      - id: a
+        text: "Strong support for marriage equality."
+      - id: b
+        text: "Drug-policy liberalization."
+      - id: c
+        text: "Restrictions on speech that promotes 'subversive' political views."
+      - id: d
+        text: "Skepticism of mass surveillance."
+    correct_choice_id: c
+    explanation: "Speech restrictions on political views are anti-libertarian. Libertarians strongly support free-speech protections, including for unpopular political speech. The other three are core libertarian positions where libertarians often align with progressives on civil-liberties questions and against certain conservative positions."
+    concepts: [libertarianism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Robert Nozick's Anarchy, State, and Utopia (1974) gave the canonical philosophical defense of which position?"
+    choices:
+      - id: a
+        text: "Anarcho-capitalism (no state at all)."
+      - id: b
+        text: "Bleeding-heart libertarianism (libertarianism + social-justice goals)."
+      - id: c
+        text: "Minarchist libertarianism (a minimal state legitimately limited to protecting rights)."
+      - id: d
+        text: "Classical conservative-libertarianism."
+    correct_choice_id: c
+    explanation: "Nozick's argument is that, starting from individual rights and voluntary exchange, a minimal state emerges as the largest morally legitimate organization. The book is the canonical philosophical defense of minarchist libertarianism. Anarcho-capitalists (Rothbard, Friedman) reject even Nozick's minimal state; bleeding-heart libertarians (Tomasi) accept more redistribution than Nozick licenses."
+    concepts: [libertarianism, minarchism]
+
+  - id: q4
+    kind: free-response
+    text: "Libertarians and progressives substantially agree on civil liberties, drug policy, immigration, and criminal-justice reform but diverge sharply on economic policy. State the strongest version of how the same political philosophy can produce these patterns."
+    socratic_seed: "The libertarian commitment is to individual liberty against coercion. Coercion is broader than state action — but the state, as monopolizer of legitimate violence, is its most concentrated source. Coercion in the form of drug prohibition, sexual-conduct laws, immigration restriction, and surveillance is presumptively wrong. Coercion in the form of redistributive taxation is also presumptively wrong but is sometimes defensible if it addresses background-condition unfairness (the bleeding-heart libertarian view) or rejected even then (the minarchist view). The pattern of libertarian-progressive alignment is consistent if you treat libertarianism as 'minimize coercion' rather than 'minimize state.' On civil-liberties questions, both libertarians and progressives oppose state coercion of personal life. On economic-policy questions, libertarians treat redistributive taxation as state coercion while progressives treat market outcomes as themselves coercive (employer power, market concentration). The disagreement is about what counts as coercion."
+    concepts: [libertarianism]

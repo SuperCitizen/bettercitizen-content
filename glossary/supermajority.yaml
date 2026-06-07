@@ -1,0 +1,12 @@
+slug: supermajority
+name: Supermajority
+short_definition: A requirement for more than a simple majority to approve a measure, typically two-thirds or three-fifths of a legislative body.
+body_md: ""
+category: elections
+difficulty: intermediate
+status: active
+etymology: "Latin: super (above, beyond) + major (greater). The concept of requiring more than a simple majority dates to Roman law and was incorporated into the US Constitution in multiple places"
+why_it_matters: Supermajority requirements protect against hasty action on the most consequential decisions — amending the Constitution, overriding vetoes, and ending filibusters all require them.
+context_example: The proposed constitutional amendment fell five votes short of the two-thirds supermajority needed for passage, despite having majority support in both chambers.
+related_term_slugs: []
+tags: []

@@ -1,0 +1,12 @@
+slug: ranked-choice-voting
+name: Ranked-choice voting (RCV)
+short_definition: A voting method in which voters rank candidates by preference. If no one has a majority of first-choice votes, the lowest-ranked candidate is eliminated and their votes transfer to voters' next choices.
+body_md: ""
+category: elections
+difficulty: intermediate
+status: active
+etymology: "Modern English coinage: combines 'ranked' (ordered by preference) with 'choice voting' — also known as instant-runoff voting"
+why_it_matters: Proponents say it reduces negative campaigning and ensures winners have broader support, while critics argue it confuses voters and can produce unexpected outcomes.
+context_example: Alaska's ranked choice voting system produced a surprise result when the moderate Republican won after absorbing second-choice votes from the Democratic candidate.
+related_term_slugs: []
+tags: []

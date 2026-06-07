@@ -1,0 +1,42 @@
+slug: legal-immigration-levels
+name: Legal immigration levels
+category: immigration
+summary: How many immigrants the U.S. should admit annually, and through what categories — family-based, employment-based, diversity, refugee — debated in the context of demographic and labor-market trends.
+body_md: |-
+  The U.S. admits roughly 1 million lawful permanent residents per year, mostly through family-sponsored categories (about 65%), employment-based (about 15%), refugee/asylum (about 12%), and the diversity lottery (about 5%). Country caps and per-category limits create multi-decade backlogs in some categories (Indian and Chinese employment-based, Mexican family-based).
+
+  Reform proposals span:
+  - **Increase total levels**: Especially employment-based or skilled categories.
+  - **Restructure**: Shift toward employment-based ("merit-based"), reduce family categories.
+  - **Decrease**: Lower overall levels.
+  - **Backlog clearing**: Recapture unused green cards, eliminate per-country caps.
+  - **High-skilled**: Stapling green cards to STEM PhDs, expanding O-1, etc.
+spectrum:
+  left: Many progressives favor increasing legal immigration levels, especially family reunification and humanitarian categories.
+  center: Many moderates favor expanded high-skilled immigration and clearing backlogs.
+  right: "Conservative views split: some favor expanded high-skilled immigration; others favor lower overall levels."
+contested:
+  perspectives:
+    - label: Increase-and-modernize advocates
+      summary: Demographic decline and labor shortages require higher legal immigration. Modernize the system with higher caps, point-based supplements, and faster processing for all categories.
+      key_concerns:
+        - Demographic and labor-market needs
+        - Backlog clearance
+        - Family reunification
+    - label: Skill-shift advocates
+      summary: Shift the mix toward employment-based and skill-based admissions while holding overall levels constant. The U.S. should compete globally for talent rather than mostly admit family of recent arrivals.
+      key_concerns:
+        - Skill-based selection
+        - Global talent competition
+        - Reducing chain migration
+    - label: Lower-levels advocates
+      summary: Current legal-immigration levels suppress wages for native workers, especially the working class, and stress public services. Lower overall levels and prioritize American workers.
+      key_concerns:
+        - Wage effects on native workers
+        - Assimilation capacity
+        - Public-service strain
+related_lesson_slugs:
+  - immigration
+tags:
+  - immigration
+  - legal-immigration

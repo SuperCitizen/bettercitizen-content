@@ -1,0 +1,61 @@
+# Validates all content in this repo on every PR + push.
+#
+# This repo is pure content with no toolchain of its own. Validation
+# lives in the SuperCitizen app (it owns the schemas), so CI checks out
+# the app, points CONTENT_LOCAL_PATH at this repo, and runs the app's
+# DB-free validator (`pnpm validate-content`).
+#
+# The app is checked out at `main` by default. Pin SC_APP_REF to a tag
+# if you need validation against a specific app release.
+
+name: Validate content
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate content
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SC_APP_REF: main
+    steps:
+      - name: Checkout content
+        uses: actions/checkout@v4
+        with:
+          path: supercitizen-content
+
+      - name: Checkout app (schemas + validator)
+        uses: actions/checkout@v4
+        with:
+          repository: SuperCitizen/supercitizen
+          ref: ${{ env.SC_APP_REF }}
+          path: supercitizen
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: supercitizen/.nvmrc
+          cache: pnpm
+          cache-dependency-path: supercitizen/pnpm-lock.yaml
+
+      - name: Install app dependencies
+        working-directory: supercitizen
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate this PR's content
+        working-directory: supercitizen
+        env:
+          # Point the validator at the content checkout (sibling dir).
+          CONTENT_LOCAL_PATH: ../supercitizen-content
+        run: pnpm validate-content

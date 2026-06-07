@@ -1,0 +1,39 @@
+slug: carbon-capture-and-sequestration
+name: Carbon capture and sequestration
+category: environment-and-energy
+summary: Federal subsidies and standards for capturing CO2 from industrial sources or the atmosphere and storing it underground, including the 45Q tax credit.
+body_md: |-
+  Carbon capture and sequestration (CCS) covers a range of technologies: capturing CO2 from large point sources (power plants, refineries, cement and steel facilities) before it is emitted, and direct air capture (DAC) of CO2 already in the atmosphere. Captured CO2 is typically injected into deep underground formations for long-term storage, or used for enhanced oil recovery.
+
+  The 45Q federal tax credit, significantly expanded by the Inflation Reduction Act, pays operators per ton of CO2 captured and stored, with higher rates for direct air capture. The Bipartisan Infrastructure Law funded large DAC and CCS hub projects. Several major industrial facilities and pipelines for CO2 transport are now under development.
+
+  Supporters argue CCS is essential for hard-to-decarbonize sectors and for net-negative emissions. Critics question commercial viability, point to a record of failed projects, and worry CCS extends fossil-fuel lifelines rather than displacing them.
+spectrum:
+  left: Progressives are divided. Many support direct air capture and CCS for cement and steel; many oppose 45Q for fossil-fuel applications and enhanced oil recovery.
+  center: Centrists generally support CCS as part of a portfolio approach, including the 45Q credit and DAC investments, while pushing for accountability on storage integrity.
+  right: Conservative views split. Some support 45Q and CCS as technology-based climate policy that preserves the fossil-fuel industry; others oppose the subsidies as picking winners.
+contested:
+  perspectives:
+    - label: Portfolio-approach climate advocates
+      summary: Net-zero pathways for cement, steel, refining, and gas-fired power realistically require some carbon capture, and reaching climate goals likely needs direct air capture too. The 45Q credit and federal funding accelerate cost reductions in technologies that no purely market-driven approach would scale fast enough.
+      key_concerns:
+        - Decarbonizing cement, steel, and refining
+        - Cost reductions in direct air capture
+        - Net-zero pathways needing carbon removal
+    - label: CCS skeptics
+      summary: CCS has a long record of cost overruns, missed capture targets, and projects that produced more emissions than they prevented when used for enhanced oil recovery. 45Q subsidies risk locking in fossil-fuel infrastructure and diverting resources from cheaper, proven decarbonization options.
+      key_concerns:
+        - Track record of failed CCS projects
+        - Use of captured CO2 for enhanced oil recovery
+        - Opportunity cost versus proven clean technologies
+    - label: Subsidy-skeptic conservatives
+      summary: Whatever CCS's technical merits, 45Q and large federal grants pick technology winners and subsidize industries that should compete on their own. If CCS works, markets and corporate climate commitments will deploy it; if it doesn't, taxpayers will have funded another failure.
+      key_concerns:
+        - Federal subsidies picking winners
+        - Cost to taxpayers
+        - Distortion of energy markets
+related_lesson_slugs: []
+tags:
+  - environment
+  - climate
+  - carbon-capture

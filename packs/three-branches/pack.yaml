@@ -1,0 +1,15 @@
+schema: supercitizen.content/v1
+slug: three-branches
+title: The three branches
+summary: How U.S. federal power is divided across the legislative, executive, and judicial branches — what each does, what it cannot do, and why the Founders separated them.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [civics-101, constitution, separation-of-powers]
+level: intro
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-overview.md
+  - 02-checks-and-balances.md

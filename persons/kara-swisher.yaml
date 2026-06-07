@@ -1,0 +1,23 @@
+slug: kara-swisher
+full_name: Kara Swisher
+tier: "4"
+bio_md: American technology journalist and podcaster. Co-host of the Pivot podcast with Scott Galloway and host of On with Kara Swisher. Co-founded Recode and All Things Digital. Known for incisive interviews with technology executives and her critical reporting on Silicon Valley.
+role: tech journalist, podcaster
+affiliation: New York Magazine, Vox Media
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: karaswisher
+issue_stances:
+  - slug: antitrust-enforcement
+    stance: Advocates for stronger antitrust enforcement against major technology companies
+  - slug: section-230
+    stance: Has called for reforming Section 230 to increase platform accountability
+  - slug: ai-regulation
+    stance: Supports thoughtful regulation of artificial intelligence development
+  - slug: social-media-algorithms
+    stance: Critical of social media platforms' algorithmic amplification of harmful content

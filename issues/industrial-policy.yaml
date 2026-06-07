@@ -1,0 +1,39 @@
+slug: industrial-policy
+name: Federal Industrial Policy
+category: economy-and-taxation
+summary: Federal use of subsidies, grants, and tax credits to target strategic industries like semiconductors, batteries, and clean energy — a return of large-scale industrial policy.
+body_md: |-
+  Industrial policy is the federal use of subsidies, tax credits, loan guarantees, and direct investment to encourage domestic production in industries deemed strategic. Recent U.S. legislation — including major investments in semiconductors and clean-energy supply chains — represented the largest peacetime industrial-policy push in decades.
+
+  Supporters argue that without coordinated federal action, key supply chains migrate to geopolitical rivals and the U.S. loses critical capabilities. Critics argue that picking winners is inherently distortive, fosters cronyism, and substitutes political judgment for market signals.
+
+  Debate also turns on design: whether incentives should be technology-neutral, whether they should attach conditions (e.g. on labor, exports, or buybacks), and how to evaluate success once funds are obligated.
+spectrum:
+  left: Progressives generally support industrial policy paired with strong labor, climate, and equity conditions, viewing it as a tool for high-quality jobs and a green transition.
+  center: Moderates often support industrial policy on national-security and supply-chain grounds, with an emphasis on accountability, neutral design where possible, and clear sunset provisions.
+  right: "The right is split: economic-nationalist conservatives back industrial policy for security and manufacturing; market-oriented conservatives oppose it as cronyism and distortion."
+contested:
+  perspectives:
+    - label: Strategic-investment advocates
+      summary: Markets underinvest in critical supply chains and high-fixed-cost industries with national-security implications. Targeted federal investment in semiconductors, batteries, and clean energy is the only credible way to restore domestic capacity.
+      key_concerns:
+        - Supply-chain resilience
+        - National security
+        - High-quality manufacturing jobs
+    - label: Conditional, accountable industrial policy
+      summary: If taxpayers fund private investment, the public deserves binding conditions — on wages, training, equity, environmental performance — and rigorous outcome measurement. Without those, industrial policy risks becoming corporate welfare.
+      key_concerns:
+        - Labor and equity conditions
+        - Transparency and outcome metrics
+        - Avoiding corporate windfalls
+    - label: Market-oriented skeptics
+      summary: Federal officials cannot reliably pick winning technologies. Subsidies tend to entrench incumbents, invite lobbying, and crowd out private capital that would have funded the same projects. Broad-based tax reform delivers more growth than targeted handouts.
+      key_concerns:
+        - Government picking winners
+        - Crowding out private capital
+        - Distortion and rent-seeking
+related_lesson_slugs: []
+tags:
+  - industrial-policy
+  - manufacturing
+  - subsidies

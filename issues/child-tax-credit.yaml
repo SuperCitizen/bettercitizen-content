@@ -1,0 +1,42 @@
+slug: child-tax-credit
+name: Child tax credit
+category: labor-and-welfare
+summary: The federal tax credit for families with children — temporarily expanded in 2021 to $3,000-$3,600 per child fully refundable, with debate over making the expansion permanent.
+body_md: |-
+  The Child Tax Credit (CTC) was created in 1997 and significantly expanded by the TCJA (2017) and again temporarily by the American Rescue Plan (2021).
+
+  The 2021 expansion: $3,000/child ages 6-17, $3,600/child ages 0-5, full refundability (the lowest-income families got the full benefit), and monthly advance payments. The expansion lapsed at the end of 2021. Current law: $2,000/child, only partially refundable, no monthly payments.
+
+  Empirical evidence: the 2021 expansion is credited with cutting child poverty roughly in half; expiration roughly reversed those gains. Effects on parental labor-force participation are debated.
+
+  Reform proposals range from making the 2021 expansion permanent (some with means-testing or phase-outs) to varied "family allowance" designs.
+spectrum:
+  left: Progressives strongly favor restoring and making permanent the 2021 CTC expansion with full refundability.
+  center: Many moderates favor a permanent partial expansion with some refundability and possible work tie-ins.
+  right: "Conservative views split: pro-family conservatives favor expanded CTC; others worry about labor-force effects of full refundability."
+contested:
+  perspectives:
+    - label: Permanent-expansion advocates
+      summary: The 2021 expansion cut child poverty in half — the largest one-year reduction in U.S. history. Making it permanent is the highest-return social investment available.
+      key_concerns:
+        - Child poverty reduction
+        - Long-run child-development outcomes
+        - Family financial stability
+    - label: Work-conditional advocates
+      summary: Tie the credit to work to preserve labor-force participation incentives. A pro-family work-conditional credit (like an expanded EITC for parents) better balances goals.
+      key_concerns:
+        - Labor-force participation
+        - Work-conditional design
+        - Pro-family policy through work
+    - label: Pro-family conservative variant
+      summary: Larger child credits (or per-child allowances) support family formation and parenthood — a conservative pro-natalist priority. Means-test or phase out at higher incomes.
+      key_concerns:
+        - Birth rates and family formation
+        - Parental support across income levels
+        - Reducing dependence on day-care subsidies
+related_lesson_slugs:
+  - taxes
+tags:
+  - family-policy
+  - taxation
+  - poverty

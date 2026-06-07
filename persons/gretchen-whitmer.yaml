@@ -1,0 +1,24 @@
+slug: gretchen-whitmer
+full_name: Gretchen Whitmer
+tier: "3"
+bio_md: Governor of Michigan since 2019. Former Michigan state senator and state representative. Known for her response to the COVID-19 pandemic, her infrastructure focus (the 'fix the damn roads' campaign), and Michigan's expansion of reproductive rights protections following the Dobbs decision.
+role: Governor of Michigan
+affiliation: State of Michigan
+party: Democrat
+lean_left: 70
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: GovWhitmer
+issue_stances:
+  - slug: abortion-access
+    stance: Championed Proposal 3 enshrining abortion rights in Michigan's constitution
+  - slug: lgbtq-protections
+    stance: Signed expansion of Michigan's Elliott-Larsen Civil Rights Act to include sexual orientation and gender identity
+  - slug: second-amendment-regulation
+    stance: Signed Michigan gun safety package including universal background checks and red flag laws
+  - slug: union-rights
+    stance: Signed repeal of Michigan's right-to-work law in 2023

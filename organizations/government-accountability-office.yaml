@@ -1,0 +1,10 @@
+slug: government-accountability-office
+name: Government Accountability Office
+kind: government
+subtype: legislative
+description: Nonpartisan legislative-branch audit and evaluation agency that examines federal programs and reports to Congress.
+website: https://www.gao.gov
+jurisdiction: federal
+partisan_lean: none
+concept_tags: []
+is_active: true

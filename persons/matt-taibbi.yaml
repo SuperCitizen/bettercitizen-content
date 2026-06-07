@@ -1,0 +1,15 @@
+slug: matt-taibbi
+full_name: Matt Taibbi
+tier: "4"
+bio_md: Journalist and author known for his Rolling Stone coverage including the Goldman Sachs 'vampire squid' piece. Later moved to Substack and was involved in releasing the Twitter Files.
+role: journalist
+affiliation: Racket News (Substack)
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: mtaibbi
+issue_stances: []

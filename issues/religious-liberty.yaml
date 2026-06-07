@@ -1,0 +1,42 @@
+slug: religious-liberty
+name: Religious liberty
+category: civil-rights-and-liberties
+summary: How First Amendment Free Exercise and Establishment Clause rights, plus statutory protections (RFRA, RLUIPA), apply to conflicts between religious practice and other legal obligations.
+body_md: |-
+  Religious-liberty law has shifted substantially in recent years. Key Supreme Court decisions:
+  - Employment Division v. Smith (1990) held that neutral, generally applicable laws don't require religious exemptions.
+  - The Religious Freedom Restoration Act (RFRA, 1993) restored a strict-scrutiny test for federal laws.
+  - Burwell v. Hobby Lobby (2014) extended RFRA protections to closely held corporations.
+  - Fulton v. Philadelphia (2021) and 303 Creative v. Elenis (2023) expanded religious accommodations.
+
+  Ongoing debates include religious exemptions from anti-discrimination laws (especially LGBTQ); religious schools' eligibility for state programs; conscience-based exemptions from medical procedures; and prayer in public schools.
+spectrum:
+  left: Progressives generally favor narrower religious exemptions, especially where they conflict with anti-discrimination laws.
+  center: Many centrists favor accommodations that respect both religious practice and non-discrimination, often through case-by-case balance.
+  right: Most conservatives strongly favor robust religious-liberty protections, including for corporations and against anti-discrimination requirements.
+contested:
+  perspectives:
+    - label: Robust religious-liberty advocates
+      summary: Religious liberty is a foundational constitutional commitment. Government should accommodate sincere religious practice except where overriding interests demand otherwise — and broad anti-discrimination laws do not always qualify.
+      key_concerns:
+        - Free Exercise protections
+        - Religious-school participation in public programs
+        - Conscience exemptions
+    - label: Anti-discrimination / non-establishment advocates
+      summary: Religious-liberty claims should not become a license to discriminate or impose religious practice on others. Public accommodations and government programs require equal treatment regardless of religious belief.
+      key_concerns:
+        - Anti-discrimination protections
+        - Establishment Clause limits
+        - Equal access regardless of belief
+    - label: Pluralist-balance advocates
+      summary: Religious liberty and anti-discrimination both deserve protection. Carefully drawn exemptions that don't eliminate access to services for others can honor both — through narrow tailoring and case-by-case adjudication.
+      key_concerns:
+        - Narrow tailoring of exemptions
+        - Balancing competing rights
+        - Case-by-case adjudication
+related_lesson_slugs:
+  - bill-of-rights
+tags:
+  - religion
+  - first-amendment
+  - civil-rights

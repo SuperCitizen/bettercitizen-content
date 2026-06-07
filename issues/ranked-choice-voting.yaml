@@ -1,0 +1,43 @@
+slug: ranked-choice-voting
+name: Ranked-choice voting
+category: elections-and-voting
+summary: Voters rank candidates in order of preference; if no candidate wins outright, the lowest-ranked candidate is eliminated and their votes redistributed until one candidate has a majority.
+body_md: |-
+  Ranked-choice voting (RCV), also called instant-runoff voting in single-winner contests, lets voters express preferences beyond a single candidate. Maine uses it for federal elections; Alaska uses it for state and federal races; New York City and dozens of other cities use it for municipal elections.
+
+  Proponents argue RCV reduces "spoiler" effects, encourages broader-appeal campaigning, and yields majority winners without the cost of a second-round runoff. Critics argue it is harder for voters to understand, can produce non-monotonic outcomes in unusual edge cases, and that ballot exhaustion (voters who don't rank enough candidates) can yield winners with less than a true majority of original ballots cast.
+
+  The practical question for any jurisdiction is whether the trade-offs — added ballot complexity for richer expression of preference — produce better representation of the median voter than the existing plurality system.
+spectrum:
+  left: Reformers see RCV as a way to break two-party dominance and let voters honestly rank third-party or insurgent candidates without "wasting" their vote.
+  center: Good-government advocates emphasize that RCV produces majority winners, reduces strategic voting, and pushes candidates toward broader coalitions.
+  right: Some conservatives support RCV as an alternative to costly runoffs; others worry it dilutes accountability and confuses voters relative to plurality.
+contested:
+  perspectives:
+    - label: Pro-RCV reformers
+      summary: RCV better captures voter preferences, reduces negative campaigning, and produces winners with majority support — fixing structural defects of plurality voting.
+      key_concerns:
+        - Spoiler effects under plurality distort outcomes
+        - Two-party duopoly limits voter choice
+        - Plurality winners may lack majority legitimacy
+        - Runoff elections are costly and have low turnout
+    - label: Plurality defenders
+      summary: Plurality voting is simple, transparent, and produces clear accountability. RCV adds complexity without proven benefits, and ballot exhaustion can yield non-majority winners anyway.
+      key_concerns:
+        - Voter understanding and ballot error rates
+        - Tabulation transparency and audit complexity
+        - Non-monotonicity in rare edge cases
+        - Ballot exhaustion when voters rank too few candidates
+    - label: Score / approval alternatives
+      summary: Some reformers prefer cardinal methods (approval voting, score voting, STAR) that avoid RCV's monotonicity issues and may be simpler to count.
+      key_concerns:
+        - Approval voting is simpler to implement
+        - Score voting better captures intensity of preference
+        - RCV requires centralized tabulation
+related_lesson_slugs:
+  - ranked-choice-voting-book
+  - voting-systems-overview
+tags:
+  - voting
+  - electoral-reform
+  - voting-method

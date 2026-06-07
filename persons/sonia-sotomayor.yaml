@@ -1,0 +1,14 @@
+slug: sonia-sotomayor
+full_name: Sonia Sotomayor
+tier: "3"
+bio_md: Associate Justice of the U.S. Supreme Court since 2009. Nominated by President Barack Obama. The first Latina and the third woman to serve on the Court. Previously served on the U.S. Court of Appeals for the Second Circuit and the U.S. District Court for the Southern District of New York. Known for vigorous dissents in criminal-justice and voting-rights cases.
+role: jurist
+affiliation: U.S. Supreme Court
+lean_left: 85
+lean_right: 15
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances: []

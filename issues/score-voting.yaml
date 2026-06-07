@@ -1,0 +1,35 @@
+slug: score-voting
+name: Score voting
+category: elections-and-voting
+summary: Voters score each candidate independently on a numeric scale (often 0–5); the candidate with the highest total or average score wins.
+body_md: |-
+  Score voting (sometimes called range voting) lets voters rate every candidate on a fixed scale, rather than ranking them or picking one. Variants include STAR voting (Score Then Automatic Runoff), used in some local Oregon races, and approval voting, where voters simply mark every candidate they "approve" of.
+
+  Advocates argue cardinal methods better capture intensity of preference, eliminate spoiler effects without RCV's monotonicity edge cases, and are simple to tabulate at the precinct level. Critics note that score voting is vulnerable to "min-max" strategic voting (giving max score to your favorite and min to all others), and that voters tend to bullet-vote in practice anyway.
+
+  Score voting and approval voting have a small but growing footprint in the U.S. — primarily in nonpartisan municipal elections and party primaries.
+spectrum:
+  left: Some reformers see score voting as a more honest aggregation of preferences than RCV, especially in multi-candidate fields.
+  center: Election scientists note score voting passes more axiomatic fairness criteria than plurality or RCV, but adoption is rare.
+  right: Some libertarians favor approval voting as a low-cost reform that doesn't require new tabulation hardware.
+contested:
+  perspectives:
+    - label: Cardinal-method reformers
+      summary: Score and approval voting avoid RCV's edge cases (non-monotonicity, ballot exhaustion) and let voters express degrees of preference. Tabulation is precinct-level and transparent.
+      key_concerns:
+        - Monotonicity and other voting-theory criteria
+        - Tabulation simplicity and auditability
+        - Reducing the spoiler effect
+    - label: Skeptics
+      summary: Score voting incentivizes strategic min-max voting, collapsing it to approval voting in practice. The added scale doesn't deliver promised expressiveness.
+      key_concerns:
+        - Strategic voting under cardinal methods
+        - Voter understanding of scoring scales
+        - Lack of large-scale empirical evidence
+related_lesson_slugs:
+  - score-the-vote-book
+  - voting-systems-overview
+tags:
+  - voting
+  - electoral-reform
+  - voting-method

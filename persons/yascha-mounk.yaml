@@ -1,0 +1,16 @@
+slug: yascha-mounk
+full_name: Yascha Mounk
+tier: "4"
+bio_md: German-American political scientist at Johns Hopkins SAIS, founder of *Persuasion* magazine and *The Good Fight* podcast. Author of *The People vs. Democracy*, *The Great Experiment*, and *The Identity Trap*. A center-liberal voice focused on the health of democratic institutions, illiberalism on both left and right, and the politics of pluralistic societies.
+role: political scientist, podcast host
+affiliation: Persuasion / Johns Hopkins SAIS
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: Yascha_Mounk
+wikipedia: https://en.wikipedia.org/wiki/Yascha_Mounk
+issue_stances: []

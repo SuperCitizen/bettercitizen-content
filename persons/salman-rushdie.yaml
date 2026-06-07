@@ -1,0 +1,16 @@
+slug: salman-rushdie
+full_name: Salman Rushdie
+tier: "4"
+bio_md: British-American novelist and essayist. Author of The Satanic Verses, which led to a fatwa calling for his death. A prominent defender of free expression.
+role: author
+affiliation: Independent
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: section-230
+    stance: Lifelong defender of artistic and political expression

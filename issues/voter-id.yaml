@@ -1,0 +1,39 @@
+slug: voter-id
+name: Voter ID requirements
+category: elections-and-voting
+summary: Whether and what kind of identification a voter must present at the polls — a perennial flashpoint between fraud-prevention and access-protection arguments.
+body_md: |-
+  As of recent election cycles, 36 states have some form of voter-ID law; about half are "strict" (requiring specific photo IDs with limited fallback options) and the rest are non-strict. The federal HAVA Act of 2002 already requires first-time mail-registered voters to provide identification.
+
+  Empirical evidence on in-person voter impersonation finds it exceedingly rare; studies dispute whether ID laws meaningfully reduce turnout, with most rigorous estimates in the 0–3% range, often concentrated among low-income, elderly, and minority voters who are less likely to have current photo ID.
+
+  Proposals range from universal automatic photo-ID issuance to abolition of ID requirements entirely.
+spectrum:
+  left: Progressives generally oppose strict voter-ID laws, arguing they suppress turnout among populations less likely to have photo ID without addressing meaningful fraud.
+  center: Many centrists support ID requirements coupled with free, accessible ID issuance and broad fallback options (signature match, sworn affidavit).
+  right: Conservatives generally favor strict photo-ID laws as an election-integrity measure on par with bank or air-travel ID norms.
+contested:
+  perspectives:
+    - label: ID supporters
+      summary: Photo ID is a basic, universal requirement for daily life. Voters expect election integrity, and confidence in elections matters even where measurable fraud is low.
+      key_concerns:
+        - Public confidence in election outcomes
+        - Preventing in-person impersonation
+        - Parity with other ID-required activities
+    - label: Access-first opponents
+      summary: Strict ID laws disenfranchise voters who lack current photo ID — disproportionately elderly, poor, and minority — while preventing a near-zero rate of impersonation fraud.
+      key_concerns:
+        - Disparate impact on low-income and minority voters
+        - Cost and accessibility of obtaining ID
+        - Lack of evidence of widespread impersonation
+    - label: Universal-ID compromise
+      summary: Couple ID requirements with free, automatic ID issuance to every eligible citizen — addressing both integrity and access concerns.
+      key_concerns:
+        - Funding universal ID issuance
+        - Implementation complexity
+        - Bipartisan acceptability
+related_lesson_slugs:
+  - voter-id-and-mail-ballots
+tags:
+  - voting-rights
+  - election-integrity

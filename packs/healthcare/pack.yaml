@@ -1,0 +1,16 @@
+schema: supercitizen.content/v1
+slug: healthcare
+title: Healthcare in the United States
+summary: How the U.S. healthcare system actually works (employer insurance + Medicare + Medicaid + ACA marketplaces + uninsured), the strongest cases for single-payer, market reform, and ACA expansion, and the empirical record on cost, access, and outcomes. Genuinely contested — values disagreements ride alongside empirical disagreements about what the evidence shows.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [issues, healthcare, civics-201, public-policy]
+level: intermediate
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-how-it-works.md
+  - 02-the-strongest-cases.md
+  - 03-the-policy-landscape.md

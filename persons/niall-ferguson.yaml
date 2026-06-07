@@ -1,0 +1,15 @@
+slug: niall-ferguson
+full_name: Niall Ferguson
+tier: "4"
+bio_md: Scottish-American historian and author. Senior fellow at Stanford's Hoover Institution. Known for his sweeping historical narratives and analysis of financial history.
+role: historian, author
+affiliation: Stanford University
+lean_left: 35
+lean_right: 65
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: naborman
+issue_stances: []

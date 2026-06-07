@@ -1,0 +1,40 @@
+schema: supercitizen.assessment/v1
+lesson: the-flow-of-political-money
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which of the four political-money vehicles can accept *unlimited* contributions AND keep donor names *anonymous* under current law?"
+    choices:
+      - id: a
+        text: "Candidate campaign committee"
+      - id: b
+        text: "Traditional PAC"
+      - id: c
+        text: "Super PAC"
+      - id: d
+        text: "501(c)(4) social-welfare organization"
+    correct_choice_id: d
+    explanation: "Super PACs accept unlimited contributions but disclose donors. 501(c)(4)s can do both unlimited contributions AND not disclose donors under current IRS rules — this is the structural source of \"dark money.\""
+    concepts: [dark-money, super-pac]
+
+  - id: q2
+    kind: multiple-choice
+    text: "An individual U.S. citizen wants to maximally support a Senate candidate they like. Which of these is LEGAL under the current federal regime?"
+    choices:
+      - id: a
+        text: "Give the candidate's campaign \\$50,000 directly"
+      - id: b
+        text: "Give a Super PAC supporting the candidate \\$50,000, without coordinating with the campaign"
+      - id: c
+        text: "Give the candidate's campaign \\$3,500 for the primary AND \\$3,500 for the general AND give a Super PAC supporting the candidate \\$50,000 independently"
+      - id: d
+        text: "Both b and c are legal"
+    correct_choice_id: d
+    explanation: "Direct contributions cap at the per-election limit (\\$3,500 in the current cycle, treated separately for primary and general). Super PAC contributions are unlimited as long as the spending is independent. So both b and c describe legal arrangements."
+    concepts: [campaign-finance, independent-expenditure]
+
+  - id: q3
+    kind: free-response
+    text: "In your own words, why might someone argue that \\$50 million in 501(c)(4) spending is more concerning than \\$50 million in Super PAC spending — even though the same dollar amount is involved?"
+    socratic_seed: "Both are legal. What's different about what the public can see?"
+    concepts: [dark-money, super-pac, campaign-finance]

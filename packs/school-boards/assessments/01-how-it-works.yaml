@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which level of government has primary responsibility for setting K-12 curriculum standards?"
+    choices:
+      - id: a
+        text: "Federal — the U.S. Department of Education sets national standards."
+      - id: b
+        text: "State — state constitutions establish state responsibility for education; states set curriculum standards, graduation requirements, and teacher certification."
+      - id: c
+        text: "Local — school boards set curriculum standards."
+      - id: d
+        text: "Schools individually — each school sets its own curriculum."
+    correct_choice_id: b
+    explanation: "States have primary authority over K-12 education. State constitutions establish state responsibility; states set curriculum standards, graduation requirements, and teacher certification. The federal role is funding (Title I, IDEA, school nutrition) and civil-rights enforcement (Title VI, IX, Section 504), not curriculum-setting. Local school boards implement state standards, choose textbooks and supplemental materials, and make many operational decisions — but the standards themselves are state-set."
+    concepts: [school-board, k12-governance]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What is the school board's most-important governance relationship?"
+    choices:
+      - id: a
+        text: "With the state legislature."
+      - id: b
+        text: "With the superintendent — the board hires and oversees the superintendent, who manages day-to-day operations and implements board policy."
+      - id: c
+        text: "With the local mayor."
+      - id: d
+        text: "With teachers' unions."
+    correct_choice_id: b
+    explanation: "The board's relationship with the superintendent is the most-important governance relationship. The board hires and oversees; the superintendent manages day-to-day operations. A common dysfunction: boards trying to manage operations themselves rather than setting policy and overseeing the superintendent. Effective boards focus on goals, policy, and oversight; they leave operations to professional staff. Superintendent tenure has been declining nationally (urban average ~3 years), correlating with district instability."
+    concepts: [school-board, superintendent]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Are most U.S. school boards elected or appointed?"
+    choices:
+      - id: a
+        text: "Most are elected (~90%)."
+      - id: b
+        text: "Most are appointed by mayors."
+      - id: c
+        text: "Most are appointed by state governors."
+      - id: d
+        text: "It varies; about 50/50."
+    correct_choice_id: a
+    explanation: "About 90% of U.S. school boards are elected. A small number of large urban districts (NYC, Chicago, Boston until 2024) use mayor-appointed boards. The argument for elected boards is democratic representation; the argument for appointed boards is professional accountability and alignment with city priorities. Most school-board elections are formally nonpartisan and held off-cycle (often producing 5-10% turnout), though partisan dynamics often appear in campaigns."
+    concepts: [school-board]
+
+  - id: q4
+    kind: free-response
+    text: "What does effective school-board engagement look like, and why is engaging earlier in the process often more effective than at final-vote meetings?"
+    socratic_seed: "Effective: show up consistently across multiple meetings; be specific (refer to specific agenda items); connect to direct experience (your child's school, your role); acknowledge complexity (boards face real trade-offs); build relationships with individual board members through email/phone; engage with site councils and parent organizations (where many decisions originate); contact the superintendent's office for operational issues. Why earlier matters: most decisions are made before the public meeting, in staff discussions and committee work. By the time a final vote happens, positions are usually fixed. Engaging during proposal-drafting, committee review, and informal community discussion is more effective than dramatic final-meeting interventions."
+    concepts: [school-board, civic-engagement]

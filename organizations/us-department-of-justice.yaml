@@ -1,0 +1,13 @@
+slug: us-department-of-justice
+name: US Department of Justice
+kind: government
+subtype: executive-cabinet
+description: Cabinet department enforcing federal law and administering federal prosecutions, including civil rights, antitrust, and voting rights enforcement.
+website: https://www.justice.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - voting-rights-act
+  - due-process
+  - enforcement
+is_active: true

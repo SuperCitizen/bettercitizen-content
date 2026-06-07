@@ -1,0 +1,42 @@
+slug: same-day-registration
+name: Same-day voter registration
+category: elections-and-voting
+summary: Whether voters should be allowed to register and cast a ballot on the same day at the polls, rather than registering days or weeks in advance of an election.
+body_md: |-
+  Same-day registration (SDR) — sometimes called Election Day registration — lets eligible citizens register and vote in a single trip to the polls, typically with proof of identity and residence. More than twenty states plus the District of Columbia offer some form of SDR; the rest require registration anywhere from a few days to a month before Election Day.
+
+  Supporters point to consistently higher turnout in SDR states, especially among young voters, renters, and people who move frequently. They argue that pre-registration deadlines disenfranchise voters whose interest peaks in the closing weeks of a campaign — exactly when registration windows have already closed in many states.
+
+  Opponents argue SDR strains poll workers, complicates same-day verification, and increases the risk of fraudulent or erroneous registrations being processed under time pressure. They prefer in-advance registration with provisional ballots as a backstop for late registrants and emphasize the importance of stable voter rolls before Election Day.
+spectrum:
+  left: SDR is a proven turnout booster that especially helps young people, renters, and voters of color; arbitrary pre-Election Day registration cutoffs disenfranchise engaged citizens for no real benefit.
+  center: SDR can work where election offices are properly resourced and verification procedures are tight; the key is administrative capacity, not whether SDR is acceptable in principle.
+  right: Pre-Election Day registration gives officials time to verify eligibility and clean rolls; same-day signup under polling-place pressure invites errors and undermines confidence in roll integrity.
+contested:
+  perspectives:
+    - label: Turnout reformers
+      summary: SDR reliably increases turnout, particularly among young voters and voters who move often. Pre-Election Day cutoffs penalize the people whose attention peaks in the final stretch of a campaign — when registration is already closed in most states.
+      key_concerns:
+        - Renters and young voters move often and miss deadlines
+        - Civic attention peaks in the last weeks of a campaign
+        - States with SDR have higher turnout
+        - Pre-deadline cutoffs disenfranchise the engaged
+    - label: Administrative skeptics
+      summary: Same-day registration puts time pressure on poll workers who must verify eligibility, residence, and identity simultaneously with running an election. Errors and inconsistencies cluster on Election Day. Pre-registration with provisional-ballot backstops is safer.
+      key_concerns:
+        - Poll workers face high cognitive load on Election Day
+        - Verification of residency is harder same-day
+        - Provisional ballots already backstop late registrants
+        - Roll integrity benefits from in-advance verification
+    - label: Conditional supporters
+      summary: SDR works in well-resourced jurisdictions with electronic poll books, real-time database checks, and trained staff. Implementation quality — not the policy itself — determines whether SDR adds or subtracts from administrative confidence.
+      key_concerns:
+        - Electronic poll books and connectivity are prerequisites
+        - Funding for staffing and training matters
+        - Audit and reconciliation procedures must be robust
+        - Outcomes vary widely by state implementation
+related_lesson_slugs: []
+tags:
+  - voting
+  - registration
+  - turnout

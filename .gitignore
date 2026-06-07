@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Editor cruft
+*.swp
+*~
+.idea/
+.vscode/
+
+# This repo is pure content — no build artifacts, no node_modules.
+# Validation runs from a SuperCitizen app checkout, not from here.
+node_modules/

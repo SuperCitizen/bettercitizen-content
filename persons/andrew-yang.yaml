@@ -1,0 +1,17 @@
+slug: andrew-yang
+full_name: Andrew Yang
+tier: "4"
+bio_md: American entrepreneur, author of *The War on Normal People*, and 2020 Democratic presidential candidate best known for his Universal Basic Income ("Freedom Dividend") platform. Founder of Venture for America and, after his presidential and 2021 NYC mayoral campaigns, of the Forward Party — a centrist third party advocating ranked-choice voting, open primaries, and structural reform of the two-party system.
+role: entrepreneur, political reformer
+affiliation: Forward Party
+party: Forward
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: AndrewYang
+wikipedia: https://en.wikipedia.org/wiki/Andrew_Yang
+issue_stances: []

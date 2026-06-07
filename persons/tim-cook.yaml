@@ -1,0 +1,15 @@
+slug: tim-cook
+full_name: Tim Cook
+tier: "4"
+bio_md: CEO of Apple since 2011. Under his leadership Apple became the world's most valuable company. Known for privacy advocacy and supply chain expertise.
+role: tech executive
+affiliation: Apple
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: tim_cook
+issue_stances: []

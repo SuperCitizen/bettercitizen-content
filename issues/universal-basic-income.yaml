@@ -1,0 +1,39 @@
+slug: universal-basic-income
+name: Universal basic income
+category: economy-and-taxation
+summary: A regular, unconditional cash payment to every adult citizen — proposed variously as poverty relief, automation insurance, and replacement for fragmented welfare programs.
+body_md: |-
+  UBI is a regular cash payment to every adult, with no work requirements or means-testing. Proposals range from modest ($500/month, Yang 2020) to comprehensive ($1,000/month or more). Pilot programs (Stockton CA, Compton CA, Mississippi mothers, Finland's 2-year national pilot) have produced varied evidence on work participation, mental-health outcomes, and household stability.
+
+  Key design questions: universality (every citizen vs. low-income only?), funding (VAT, wealth tax, automation tax?), interaction with existing programs (replace SNAP/TANF/EITC or stack on top?), and citizenship/residency requirements.
+
+  The expanded Child Tax Credit during 2021 — a near-universal monthly cash benefit for families with children — was a partial natural experiment, with strong poverty-reduction effects.
+spectrum:
+  left: "Progressive views split: many favor UBI or expanded child allowances; others prefer targeted programs (SNAP, EITC, CTC)."
+  center: Some moderates support UBI as a streamlined alternative to fragmented welfare; others worry about cost.
+  right: Some libertarians (Hayek, Friedman variants) support UBI as replacement for welfare bureaucracy; most current conservatives oppose unconditional cash transfers.
+contested:
+  perspectives:
+    - label: UBI advocates
+      summary: UBI removes paternalism, reduces administrative cost, and provides automation insurance. Pilot evidence shows recipients use the money productively (housing, debt reduction, job search).
+      key_concerns:
+        - Poverty reduction
+        - Automation and labor-market change
+        - Removing administrative burden of means-testing
+    - label: Targeted-program defenders
+      summary: UBI sprays money at people who don't need it while underfunding those who do. Targeted programs (EITC, CTC, SNAP, housing) deliver more poverty reduction per dollar.
+      key_concerns:
+        - Per-dollar poverty-reduction efficacy
+        - Avoiding payments to high-income households
+        - Preserving existing program infrastructure
+    - label: Work-incentive skeptics
+      summary: Unconditional cash transfers risk reducing labor-force participation. Work-conditional alternatives (EITC, expanded apprenticeships) preserve dignity-of-work norms.
+      key_concerns:
+        - Labor-force participation effects
+        - Work-condition alternatives
+        - Long-run cultural effects of unconditional cash
+related_lesson_slugs: []
+tags:
+  - welfare
+  - poverty
+  - cash-transfer

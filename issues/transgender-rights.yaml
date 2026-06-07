@@ -1,0 +1,39 @@
+slug: transgender-rights
+name: Transgender rights
+category: civil-rights-and-liberties
+summary: Anti-discrimination protections, healthcare access (including for minors), identity-document policies, and other legal questions affecting transgender Americans.
+body_md: |-
+  The legal status of transgender Americans spans many domains. In Bostock v. Clayton County (2020), the Supreme Court held that Title VII's prohibition on sex discrimination in employment covers discrimination based on gender identity. Lower courts have extended that reasoning to other contexts; the Supreme Court has not resolved all applications.
+
+  Recent state legislation has restricted gender-affirming medical care for minors in over 20 states, sometimes with criminal penalties; courts have stayed parts of some laws. States have also legislated on athletic eligibility, bathroom access, and identification-document rules. The federal government has at various times issued guidance under Title IX and Section 1557 of the ACA.
+
+  Medical organizations broadly support gender-affirming care for adolescents under existing clinical guidelines; several European countries have recently tightened access to puberty blockers for minors after evidence reviews. The clinical, ethical, and legal landscape is unsettled.
+spectrum:
+  left: Progressives generally support broad anti-discrimination protections, gender-affirming care including for minors with appropriate clinical oversight, and accessible identity-document updates.
+  center: Centrists tend to support adult anti-discrimination protections and accessible identity changes, while questioning aspects of minors' medical care given evolving evidence and proposing more stringent clinical guardrails.
+  right: Many conservatives oppose medical transition for minors entirely, support sex-based rather than identity-based rules in some contexts, and emphasize parental rights and religious exemptions.
+contested:
+  perspectives:
+    - label: Trans-rights advocates
+      summary: Transgender people are who they say they are. Medical and major professional associations support gender-affirming care, including for adolescents under clinical guidelines. Legal protections against discrimination in employment, housing, healthcare, and public accommodations should be robust, and care for minors should remain a medical decision between families and clinicians.
+      key_concerns:
+        - Anti-discrimination protections
+        - Access to evidence-based medical care
+        - Mental-health and suicide-prevention outcomes
+    - label: Medical-caution and parental-rights perspective
+      summary: Adolescent gender medicine has expanded rapidly with relatively limited long-term evidence; several European countries have tightened practice after systematic reviews. Adults should generally make their own choices, but minors deserve careful gatekeeping, real informed consent, and protection from premature irreversible interventions.
+      key_concerns:
+        - Evidence base for adolescent care
+        - Reversibility and long-term outcomes
+        - Informed consent for minors
+    - label: Sex-based-rights perspective
+      summary: Some legal protections — particularly in sports, prisons, shelters, and certain rape-crisis settings — rest on biological sex rather than identity. Maintaining sex-based categories in these contexts does not require denying anyone's dignity or anti-discrimination protections in other domains.
+      key_concerns:
+        - Sex-based protections in specific contexts
+        - Privacy and safety in single-sex spaces
+        - Reconciling identity and sex-based rights
+related_lesson_slugs: []
+tags:
+  - civil-rights
+  - transgender
+  - healthcare

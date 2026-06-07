@@ -1,0 +1,40 @@
+schema: supercitizen.assessment/v1
+lesson: overview
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which Article of the U.S. Constitution establishes the Presidency?"
+    choices:
+      - id: a
+        text: "Article I"
+      - id: b
+        text: "Article II"
+      - id: c
+        text: "Article III"
+      - id: d
+        text: "The First Amendment"
+    correct_choice_id: b
+    explanation: "Article I creates Congress, Article II creates the Presidency, Article III creates the federal courts."
+    concepts: [executive-branch, separation-of-powers]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What is the core power of the legislative branch?"
+    choices:
+      - id: a
+        text: "To resolve disputes about what the law means"
+      - id: b
+        text: "To carry out the laws and command the armed forces"
+      - id: c
+        text: "To write federal law and decide how money is spent"
+      - id: d
+        text: "To nominate federal judges"
+    correct_choice_id: c
+    explanation: "Article I gives Congress 'all legislative Powers' — including taxing, spending, and lawmaking."
+    concepts: [legislative-branch, separation-of-powers]
+
+  - id: q3
+    kind: free-response
+    text: "In your own words, why did the Framers separate federal power across three branches rather than concentrate it in one?"
+    concepts: [separation-of-powers]
+    socratic_seed: "What is the worst thing that could happen if the same body wrote the laws, enforced them, and decided what they meant?"

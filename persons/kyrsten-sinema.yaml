@@ -1,0 +1,24 @@
+slug: kyrsten-sinema
+full_name: Kyrsten Sinema
+tier: "4"
+bio_md: Former US Senator from Arizona, serving from 2019 to 2025. Began her Senate term as a Democrat and registered as an independent in December 2022. Former US Representative and member of the Arizona legislature. Known as a centrist who frequently broke with progressive priorities, particularly on the filibuster and tax policy. Declined to seek re-election in 2024.
+role: Former US Senator from Arizona
+affiliation: Independent
+party: Independent
+lean_left: 42
+lean_right: 48
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: kyrstensinema
+issue_stances:
+  - slug: filibuster
+    stance: Defended the Senate filibuster and voted to preserve it against Democratic efforts to weaken it
+  - slug: corporate-tax-rate
+    stance: Blocked rollback of the 2017 tax law's corporate rate and carried-interest changes in 2022 negotiations
+  - slug: border-security
+    stance: Co-led the bipartisan border security and asylum reform negotiation in 2024
+  - slug: lgbtq-protections
+    stance: Co-sponsored and helped pass the Respect for Marriage Act protecting same-sex and interracial marriages

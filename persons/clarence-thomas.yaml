@@ -1,0 +1,14 @@
+slug: clarence-thomas
+full_name: Clarence Thomas
+tier: "4"
+bio_md: Associate Justice of the Supreme Court since 1991. The longest-serving current justice. Known for his originalist judicial philosophy and silence during oral arguments.
+role: jurist
+affiliation: US Supreme Court
+lean_left: 10
+lean_right: 90
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+issue_stances: []

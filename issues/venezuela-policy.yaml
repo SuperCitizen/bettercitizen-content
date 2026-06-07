@@ -1,0 +1,33 @@
+slug: venezuela-policy
+name: Venezuela policy
+category: foreign-policy
+summary: U.S. policy toward Venezuela, including sanctions on its oil sector, recognition questions, response to disputed elections, and migration pressures.
+body_md: |-
+  U.S. policy toward Venezuela has shifted across administrations and within the Biden era. The U.S. imposed broad sanctions, including on the state oil company PDVSA, in response to the Maduro government's consolidation of power and disputed 2018 election. The Trump administration recognized opposition leader Juan Guaidó as interim president; the Biden administration later dropped that recognition while continuing to challenge the Maduro government's legitimacy.
+
+  In 2023-24, the U.S. temporarily eased oil sanctions in exchange for the Maduro government's commitments on a competitive 2024 election; the U.S. reimposed many sanctions after the government barred leading opposition candidates and disputed the announced results. Venezuelan migration to the U.S. southern border surged through this period as the economy and humanitarian conditions deteriorated.
+
+  Debates center on whether sanctions pressure the regime or harm ordinary Venezuelans, the role of oil-sector concessions in negotiations, recognition of the National Assembly or opposition, and humanitarian protections for Venezuelans in the U.S.
+spectrum:
+  left: Progressives are split. Many favor easing broad sanctions citing humanitarian impact and migration drivers; many also support targeted sanctions on regime officials and democracy support.
+  center: Centrists generally support a mix of targeted sanctions on regime officials, conditional sectoral sanctions tied to electoral commitments, humanitarian protections for Venezuelan migrants, and negotiations with the Maduro government.
+  right: Conservative views split. Most oppose sanctions relief for the Maduro government; some emphasize migration-driver consequences and favor renewed pressure paired with regional partner support.
+contested:
+  perspectives:
+    - label: Democracy-and-pressure advocates
+      summary: The Maduro government has dismantled democratic institutions, jailed opposition figures, and overseen the worst economic and humanitarian collapse in the modern Western Hemisphere. Sustained pressure, sanctions on regime officials, and support for the democratic opposition are essential. Sanctions relief without verifiable democratic reform legitimizes repression.
+      key_concerns:
+        - Democratic backsliding and political prisoners
+        - Election integrity in disputed 2024 vote
+        - Support for democratic opposition
+    - label: Humanitarian-and-migration advocates
+      summary: Broad sectoral sanctions have not produced regime change; they have deepened a humanitarian catastrophe that drives the largest migration crisis in the hemisphere, including to the U.S. southern border. Engagement, targeted sanctions on regime officials, and humanitarian protections better address the actual crisis.
+      key_concerns:
+        - Humanitarian impact and migration drivers
+        - Temporary Protected Status for Venezuelans
+        - Effectiveness of broad sectoral sanctions
+related_lesson_slugs: []
+tags:
+  - foreign-policy
+  - venezuela
+  - sanctions

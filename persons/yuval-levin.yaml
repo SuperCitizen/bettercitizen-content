@@ -1,0 +1,14 @@
+slug: yuval-levin
+full_name: Yuval Levin
+tier: "4"
+bio_md: Conservative intellectual, editor of National Affairs, and fellow at the American Enterprise Institute. Author of 'A Time to Build.' Known for his nuanced critique that 'Trump governs retail, not wholesale.'
+role: intellectual, editor
+affiliation: American Enterprise Institute / National Affairs
+lean_left: 30
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances: []

@@ -1,0 +1,42 @@
+slug: capital-gains-tax
+name: Capital gains taxation
+category: economy-and-taxation
+summary: How investment gains are taxed — long-term rates of 0/15/20%, "stepped-up basis" at death, and proposals to tax unrealized gains for the ultra-wealthy.
+body_md: |-
+  Long-term capital gains (assets held over a year) are taxed at preferential rates: 0%, 15%, or 20% depending on income, plus a 3.8% Net Investment Income Tax for high earners. Short-term gains are taxed as ordinary income.
+
+  Two structural features generate ongoing debate:
+  - **Stepped-up basis at death** lets heirs inherit assets at fair market value — eliminating capital-gains tax on appreciation that occurred during the decedent's lifetime.
+  - **Unrealized gains** are not taxed at all under current law. Proposals (Biden's "billionaire minimum tax," Wyden's Mark-to-Market) would tax unrealized appreciation for the ultra-wealthy.
+
+  Defenders argue preferential rates reward investment and avoid double-taxation. Critics argue they primarily benefit the wealthy and erode the income-tax base.
+spectrum:
+  left: Progressives favor taxing capital gains as ordinary income, ending stepped-up basis, and taxing unrealized gains for ultra-wealthy.
+  center: Reformers often favor ending stepped-up basis or capping it.
+  right: Most conservatives favor preserving or expanding capital-gains preferences as pro-growth.
+contested:
+  perspectives:
+    - label: Equalization advocates
+      summary: Taxing capital gains at lower rates than wages tilts the system toward the rich. Stepped-up basis lets dynastic wealth escape income tax entirely.
+      key_concerns:
+        - Equity between wage and investment income
+        - Closing the stepped-up basis loophole
+        - Reducing dynastic wealth concentration
+    - label: Investment-incentive defenders
+      summary: Capital is mobile and patient capital is essential to growth. Higher capital-gains taxes reduce investment, especially in startups, and encourage lock-in.
+      key_concerns:
+        - Encouraging long-term investment
+        - Avoiding double-taxation of corporate profits
+        - Capital mobility
+    - label: Unrealized-gains tax skeptics
+      summary: Taxing unrealized gains creates valuation problems, liquidity problems, and constitutional questions. Income should be taxed when realized, not on paper.
+      key_concerns:
+        - Constitutionality of unrealized-gains taxes
+        - Liquidity for asset-rich, cash-poor taxpayers
+        - Valuation of illiquid assets
+related_lesson_slugs:
+  - taxes
+tags:
+  - taxation
+  - capital-gains
+  - wealth

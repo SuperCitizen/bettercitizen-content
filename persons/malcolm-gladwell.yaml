@@ -1,0 +1,15 @@
+slug: malcolm-gladwell
+full_name: Malcolm Gladwell
+tier: "4"
+bio_md: Canadian journalist and bestselling author of The Tipping Point, Outliers, and Blink. Known for making social science accessible through compelling storytelling.
+role: author, journalist
+affiliation: The New Yorker / Pushkin Industries
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: Gladwell
+issue_stances: []

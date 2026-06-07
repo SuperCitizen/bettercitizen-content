@@ -1,0 +1,14 @@
+slug: common-cause
+name: Common Cause
+kind: civic-reform
+subtype: democracy-defense
+description: Government-accountability nonprofit working on voting rights, redistricting reform, ethics, money in politics, and media policy.
+website: https://www.commoncause.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - gerrymandering
+  - campaign-finance
+  - voter-id
+  - voting-rights-act
+is_active: true

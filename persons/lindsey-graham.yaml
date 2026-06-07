@@ -1,0 +1,16 @@
+slug: lindsey-graham
+full_name: Lindsey Graham
+tier: "4"
+bio_md: US Senator from South Carolina. Known for his hawkish foreign policy stance and shifting relationship with Donald Trump.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 25
+lean_right: 75
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: LindseyGrahamSC
+issue_stances: []

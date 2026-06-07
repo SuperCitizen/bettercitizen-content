@@ -1,0 +1,33 @@
+slug: ai-deepfakes-and-disclosure
+name: AI deepfakes and disclosure
+category: technology-and-data
+summary: Whether to require disclosure or watermarking of AI-generated media, regulate election deepfakes, and address non-consensual intimate deepfakes.
+body_md: |-
+  Advances in generative AI have made convincing synthetic images, audio, and video — commonly called deepfakes — widely accessible. The rise of high-quality synthetic media raises distinct concerns across several domains: political deepfakes used to deceive voters, non-consensual intimate imagery, fraud and impersonation, and broader erosion of trust in recorded media.
+
+  Federal and state responses have begun to take shape. Several states have enacted laws against election-related deepfakes and non-consensual intimate deepfakes. Federal action has focused on watermarking standards, disclosure requirements for political ads, and criminal prohibitions on non-consensual intimate imagery (passed in 2025). The FCC has acted against AI-generated robocalls.
+
+  Debates center on the First Amendment implications of restricting political deepfakes, the technical feasibility and effectiveness of watermarking and provenance standards, criminal versus civil remedies, platform liability, and how to balance regulation against legitimate uses of synthetic media in entertainment, education, and accessibility.
+spectrum:
+  left: Most progressives support disclosure mandates, election-deepfake laws, criminal liability for non-consensual intimate deepfakes, and platform accountability.
+  center: Centrists generally support narrow criminal prohibitions on the worst harms (election fraud, non-consensual intimate imagery, financial fraud) plus disclosure and watermarking standards.
+  right: Conservative views split. Many support narrow criminal prohibitions; others raise First Amendment concerns about election-deepfake laws and resist broad platform mandates.
+contested:
+  perspectives:
+    - label: Strong-regulation advocates
+      summary: Synthetic media is being used to deceive voters, defraud consumers, and create non-consensual intimate imagery at scale. Disclosure mandates, watermarking, election-deepfake laws, and criminal liability for the worst abuses are essential to preserve trust in elections, media, and personal identity.
+      key_concerns:
+        - Election deception and voter manipulation
+        - Non-consensual intimate deepfakes
+        - Fraud and impersonation scams
+    - label: Free-speech and feasibility skeptics
+      summary: Many deepfake laws raise serious First Amendment problems, particularly when they reach political satire and commentary. Watermarking can be stripped, provenance schemes are bypassable, and broad mandates risk pushing legitimate creative tools out of reach. Existing fraud, defamation, and harassment laws already reach the worst conduct.
+      key_concerns:
+        - First Amendment and political satire
+        - Technical feasibility of watermarking
+        - Overreach into legitimate uses
+related_lesson_slugs: []
+tags:
+  - technology
+  - ai
+  - elections

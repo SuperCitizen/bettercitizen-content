@@ -1,0 +1,24 @@
+slug: lula-da-silva
+full_name: Luiz Inácio Lula da Silva
+tier: "3"
+bio_md: President of Brazil since January 2023, serving his third non-consecutive term. A former metalworker and union leader, he co-founded the Workers' Party (PT) and previously served as president from 2003 to 2010. After a corruption conviction was annulled by Brazil's Supreme Court, he returned to electoral politics and defeated Jair Bolsonaro in 2022.
+role: President of Brazil
+affiliation: Workers' Party (PT)
+party: PT
+lean_left: 75
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: LulaOficial
+issue_stances:
+  - slug: climate-policy
+    stance: Has prioritized reducing Amazon deforestation and hosted international climate diplomacy
+  - slug: trade-with-china
+    stance: Cultivates close trade ties with China while balancing relations with the United States
+  - slug: ukraine-support
+    stance: Calls for negotiated peace in Ukraine and has declined to send arms, framing Brazil as nonaligned
+  - slug: minimum-wage
+    stance: Raised Brazil's minimum wage and expanded the Bolsa Família cash-transfer program

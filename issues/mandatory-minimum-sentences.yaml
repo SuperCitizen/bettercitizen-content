@@ -1,0 +1,39 @@
+slug: mandatory-minimum-sentences
+name: Mandatory minimum sentences
+category: criminal-justice
+summary: Federal and state laws requiring minimum prison terms for specified offenses, removing judicial discretion — debated as a deterrent vs. driver of mass incarceration.
+body_md: |-
+  Mandatory minimums proliferated during the 1980s-90s "tough on crime" era, especially for drug offenses. Examples include the 1986 Anti-Drug Abuse Act's 5/10-year minimums for crack and powder cocaine.
+
+  Recent reform: The First Step Act (2018) reduced some federal mandatory minimums and expanded "safety valve" exceptions. The Fair Sentencing Act (2010) reduced the crack/powder disparity from 100:1 to 18:1.
+
+  Defenders argue mandatory minimums ensure proportionate punishment, deter serious crime, and prevent inconsistent sentencing. Critics argue they drive mass incarceration, transfer power from judges to prosecutors, and impose injustice in individual cases.
+spectrum:
+  left: Progressives strongly favor eliminating or significantly reducing mandatory minimums.
+  center: Most centrists favor expanded safety-valve exceptions and reductions for non-violent drug offenses.
+  right: "Conservative views split: some favor preserving mandatory minimums for violent crimes; First Step coalition supports targeted reform."
+contested:
+  perspectives:
+    - label: Reform / elimination advocates
+      summary: Mandatory minimums drove mass incarceration, separated families, and produced grossly disproportionate sentences for low-level offenses. Restore judicial discretion guided by sentencing guidelines.
+      key_concerns:
+        - Mass-incarceration costs
+        - Disproportionate sentences
+        - Judicial discretion
+    - label: Public-safety / proportionality defenders
+      summary: Mandatory minimums ensure that serious crimes — especially violent and major-drug offenses — receive serious punishment. They prevent disparate sentencing across judges.
+      key_concerns:
+        - Deterrence of serious crime
+        - Sentencing consistency
+        - Victim and community safety
+    - label: Targeted-reform middle ground
+      summary: Preserve mandatory minimums for violent and major-trafficking offenses; eliminate for low-level drug and property crimes. Expand safety-valve exceptions for first offenders.
+      key_concerns:
+        - Distinguishing serious from minor offenses
+        - Safety-valve expansion
+        - Targeted compromise
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - sentencing
+  - incarceration

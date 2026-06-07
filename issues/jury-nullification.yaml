@@ -1,0 +1,39 @@
+slug: jury-nullification
+name: Jury nullification
+category: civil-rights-and-liberties
+summary: Whether juries should be told they have the power to acquit a defendant they believe technically violated a law, when they consider the law itself or its application unjust.
+body_md: |-
+  Jury nullification is the practice by which a jury returns a "not guilty" verdict despite believing the defendant technically violated the law, either because they consider the law unjust or its application to this defendant unjust. The Double Jeopardy Clause makes acquittals essentially final, so juries have unreviewable power to acquit on any basis.
+
+  Courts have long held that while juries have the power to nullify, they have no right to be told they have that power. Most jurisdictions instruct jurors that they "must follow the law as given," and judges typically dismiss prospective jurors who say they would consider nullification. New Hampshire is unusual in having a statute permitting nullification arguments.
+
+  Historical examples include Northern juries refusing to convict under the Fugitive Slave Act, Prohibition-era juries refusing to convict for alcohol offenses, and modern juries declining to convict in some drug-possession cases or against protesters.
+spectrum:
+  left: Progressives are often sympathetic to nullification in cases involving drug laws, protest activity, or perceived prosecutorial overreach; some support informing juries explicitly of the power.
+  center: Centrists tend to see existing practice — juries have the power but are not informed of it — as a workable compromise that allows nullification as a safety valve while preserving rule-of-law norms.
+  right: "Conservatives are divided: some libertarians and originalists support informing juries of nullification power; many law-and-order conservatives oppose it as undermining rule of law."
+contested:
+  perspectives:
+    - label: Nullification advocates
+      summary: Juries are the people's check on government overreach. From the Fugitive Slave Act to modern drug-war prosecutions, juries refusing to convict have corrected unjust laws. Hiding this power from jurors lets the state weaponize formal rules against the conscience of the community.
+      key_concerns:
+        - Citizen check on unjust laws
+        - Historical precedents of just nullification
+        - Conscience and community judgment
+    - label: Rule-of-law defenders
+      summary: Jury nullification, openly invited, undermines equal application of law. Nullification has historically been used to acquit racially motivated violence (e.g., lynching cases in the Jim Crow South) as well as for sympathetic causes. Citizens should change unjust laws through democratic processes, not through unaccountable jury vetoes.
+      key_concerns:
+        - Equal application of law
+        - Historical misuse against minorities
+        - Democratic accountability for legal change
+    - label: Pragmatic status-quo perspective
+      summary: Current practice — juries can nullify but are not instructed to consider it — captures the right balance. Genuine moral disagreement with a law occasionally produces principled acquittals, while the absence of explicit invitation prevents nullification from becoming routine.
+      key_concerns:
+        - Safety valve without routinization
+        - Stability of jury instructions
+        - Existing practical compromise
+related_lesson_slugs: []
+tags:
+  - civil-rights
+  - criminal-procedure
+  - juries

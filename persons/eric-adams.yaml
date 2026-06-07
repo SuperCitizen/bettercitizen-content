@@ -1,0 +1,22 @@
+slug: eric-adams
+full_name: Eric Adams
+tier: "3"
+bio_md: 110th Mayor of New York City since 2022. The second Black American to serve as the city's mayor. Previously served as Brooklyn Borough President and as a member of the New York State Senate. Retired NYPD captain who founded the advocacy group 100 Blacks in Law Enforcement Who Care. Indicted in 2024 on federal corruption charges; the charges were later dismissed in 2025.
+role: mayor of New York City
+affiliation: City of New York
+party: Democratic
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: ericadamsfornyc
+issue_stances:
+  - slug: police-funding
+    stance: Opposes defunding police; favors increased NYPD presence and public-safety investment
+  - slug: border-security
+    stance: Has criticized federal handling of migrant arrivals and the strain on NYC's services
+  - slug: second-amendment-regulation
+    stance: Supports stricter gun laws and federal action against illegal firearms trafficking

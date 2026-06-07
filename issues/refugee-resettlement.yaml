@@ -1,0 +1,39 @@
+slug: refugee-resettlement
+name: Refugee Resettlement
+category: immigration
+summary: The annual presidential ceiling on U.S. refugee admissions and the scope of the federal program that resettles vetted refugees in cooperation with nonprofit partners.
+body_md: |-
+  The United States Refugee Admissions Program resettles refugees referred primarily by the UN High Commissioner for Refugees and vetted through extensive interagency screening before travel. The annual admissions ceiling is set by the president after consultation with Congress and has varied dramatically across recent administrations.
+
+  Resettlement is implemented through partnerships with nonprofit "resettlement agencies" that provide housing, case management, and integration services in receiving communities, supported by federal funding. State and local governments play a role through cooperative agreements and consent provisions in some periods.
+
+  Debates concern the size of the annual ceiling, regional allocations, the role of state and local consent, and how to balance refugee resettlement with other immigration and asylum priorities. Vetting timelines, security screening, and integration outcomes are also recurring areas of contention.
+spectrum:
+  left: Progressives strongly support high admissions ceilings and a well-funded program, framing refugee resettlement as a humanitarian obligation and a source of long-term economic contribution.
+  center: Moderates emphasize predictable ceilings, robust vetting, and adequate resettlement-agency capacity, often supporting moderate increases over recent low years.
+  right: "The right is split: some conservatives back resettlement for persecuted religious and ethnic minorities; others favor lower ceilings, stronger state consent, and stricter screening."
+contested:
+  perspectives:
+    - label: Humanitarian-leadership advocates
+      summary: The U.S. helped build the modern refugee regime and benefits from leading it. Higher admissions, robust funding, and strong agency infrastructure honor commitments to vetted refugees and strengthen alliances with frontline host countries.
+      key_concerns:
+        - Humanitarian obligations
+        - Strengthening allies hosting refugees
+        - Long-run economic and civic contribution
+    - label: Predictability and capacity
+      summary: Whatever the ceiling, refugees, agencies, and receiving communities need stability. Multi-year admissions planning, adequate funding, and strong vetting let the program function regardless of administration changes.
+      key_concerns:
+        - Multi-year admissions planning
+        - Resettlement-agency capacity
+        - Continued strong vetting
+    - label: Lower ceilings with local consent
+      summary: Communities should have a meaningful voice in resettlement. Lower ceilings, focus on persecuted minorities most acutely at risk, and explicit state and local consent processes produce a more sustainable program.
+      key_concerns:
+        - Local capacity and consent
+        - Targeted protection for acute persecution
+        - Integration outcomes
+related_lesson_slugs: []
+tags:
+  - refugees
+  - humanitarian
+  - immigration

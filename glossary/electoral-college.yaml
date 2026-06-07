@@ -1,0 +1,12 @@
+slug: electoral-college
+name: Electoral College
+short_definition: The body of state-allocated electors that formally elects the President. Each state has electors equal to its House + Senate seats; D.C. has three.
+body_md: ""
+category: elections
+difficulty: foundational
+status: active
+etymology: "Latin: elector (one who chooses) + collegium (association, body)"
+why_it_matters: A candidate can win the presidency without winning the popular vote, as happened in 2000 and 2016, making the Electoral College one of the most debated features of American democracy.
+context_example: Despite winning nearly three million more votes nationally, the candidate lost the Electoral College 227 to 304, reigniting calls for a popular-vote compact.
+related_term_slugs: []
+tags: []

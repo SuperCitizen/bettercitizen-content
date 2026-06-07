@@ -1,0 +1,39 @@
+slug: mass-deportation
+name: Mass Interior Enforcement and Removal
+category: immigration
+summary: Proposals for large-scale interior immigration enforcement aimed at removing a significant share of the estimated unauthorized population residing in the United States.
+body_md: |-
+  Interior enforcement refers to the apprehension, detention, and removal of noncitizens already inside the United States, primarily under the authority of Immigration and Customs Enforcement (ICE) and partner agencies. The unauthorized population is widely estimated in the millions, with long-term residents and mixed-status families a large share.
+
+  Recent proposals envision dramatically expanded enforcement — large-scale workplace raids, expanded detention capacity, use of expedited removal further from the border, and greater state and local cooperation. Critics raise legal, humanitarian, fiscal, economic, and operational concerns.
+
+  Estimates of the cost and economic effects of large-scale removal vary, with most analyses projecting substantial direct enforcement costs, labor-market disruption in sectors heavily reliant on unauthorized workers, and significant family-separation impacts.
+spectrum:
+  left: Progressives oppose mass-deportation proposals on humanitarian, economic, and due-process grounds, and favor targeted enforcement with legal pathways for long-term residents.
+  center: Moderates emphasize enforcement priorities — focused on public-safety threats and recent arrivals — paired with broader reform that includes legal pathways for long-settled residents.
+  right: Many conservatives support large-scale interior enforcement as essential to restoring the integrity of the immigration system; others are split on scope and methods.
+contested:
+  perspectives:
+    - label: Restore enforcement integrity
+      summary: A functioning immigration system requires credible interior enforcement. Years of lax enforcement have created incentives for unauthorized entry and visa overstays; broad, sustained enforcement is necessary to restore rule of law.
+      key_concerns:
+        - Deterrence and rule of law
+        - Credibility of legal pathways
+        - Workplace and visa-overstay enforcement
+    - label: Priority-based enforcement
+      summary: Resources are finite. Enforcement focused on public-safety threats, recent unlawful entrants, and serious immigration violators produces more public safety per dollar than indiscriminate removal of long-settled residents.
+      key_concerns:
+        - Public-safety priorities
+        - Focus on recent entrants and serious violations
+        - Cost-effective use of enforcement resources
+    - label: Humanitarian and economic concerns
+      summary: Mass removal would tear apart millions of mixed-status families, disrupt key industries, and impose enormous fiscal and human costs. Legal pathways for long-term residents and rigorous due process are more humane and effective.
+      key_concerns:
+        - Mixed-status families
+        - Labor-market and fiscal effects
+        - Due-process safeguards
+related_lesson_slugs: []
+tags:
+  - deportation
+  - immigration-enforcement
+  - ice

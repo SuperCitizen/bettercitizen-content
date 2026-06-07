@@ -1,0 +1,24 @@
+slug: wes-moore
+full_name: Wes Moore
+tier: "3"
+bio_md: Governor of Maryland since 2023, the first Black governor of Maryland and only the third Black governor in US history elected to the office. US Army combat veteran who served in Afghanistan. Rhodes Scholar and bestselling author of The Other Wes Moore. Former CEO of the Robin Hood Foundation, an anti-poverty nonprofit.
+role: Governor of Maryland
+affiliation: State of Maryland
+party: Democrat
+lean_left: 68
+lean_right: 28
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: GovWesMoore
+issue_stances:
+  - slug: minimum-wage
+    stance: Signed legislation accelerating Maryland's $15 minimum wage
+  - slug: child-tax-credit
+    stance: Expanded Maryland's state child tax credit as part of his anti-poverty agenda
+  - slug: abortion-access
+    stance: Supported the constitutional amendment enshrining abortion rights in Maryland's constitution
+  - slug: climate-policy
+    stance: Advanced Maryland's clean energy goals and offshore wind development

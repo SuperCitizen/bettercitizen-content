@@ -1,0 +1,14 @@
+slug: tu-quoque
+name: Tu Quoque
+short_definition: A fallacy that dismisses an argument by pointing to the speaker's hypocrisy — "you do it too" — instead of engaging with the argument's substance.
+body_md: ""
+category: rhetoric
+difficulty: intermediate
+status: active
+etymology: "Latin: 'you also.' Catalogued as a distinct ad-hominem variant since medieval scholastic logic. Frequently appears in modern partisan rebuttals."
+why_it_matters: Hypocrisy is a real thing, but pointing at it doesn't refute the underlying claim. A liar can correctly say the building is on fire. Tu quoque conflates the speaker with the argument and shuts down the conversation.
+context_example: Asked about his vote against the infrastructure bill after demanding infrastructure for his district, the senator answered with tu quoque, noting the opposition had done the same thing in the prior session.
+related_term_slugs:
+  - ad-hominem
+  - whataboutism
+tags: []

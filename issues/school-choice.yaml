@@ -1,0 +1,40 @@
+slug: school-choice
+name: School choice (vouchers, charters, ESAs)
+category: education
+summary: Policies that let public funds follow students to private schools, charter schools, or homeschool — vouchers, education savings accounts, and tax-credit scholarships.
+body_md: |-
+  School-choice mechanisms include traditional vouchers (tuition payments to private schools), charter schools (publicly funded but independently operated), education savings accounts (parents can spend on tuition, tutoring, materials), and tax-credit scholarships.
+
+  The trend over the past five years has been toward "universal" ESAs — programs not means-tested or geographically limited (Arizona, Iowa, Indiana, others). Empirical evidence on academic outcomes is mixed: charters in some cities (NYC, Boston) consistently outperform comparable public schools; voucher programs in Washington DC, Indiana, and Louisiana have shown mixed results.
+
+  Defenders argue choice empowers parents, especially in failing districts. Critics argue it drains resources from public schools, lacks accountability, and can fund religious instruction with public money.
+spectrum:
+  left: Most progressives oppose private-school vouchers as draining from public schools; many support charter schools with caveats.
+  center: Many moderates favor charter schools and limited targeted vouchers for low-income students.
+  right: Most conservatives strongly favor universal school choice including vouchers and ESAs.
+contested:
+  perspectives:
+    - label: School-choice advocates
+      summary: Public money should follow students, not bureaucracies. Choice empowers parents — especially in failing districts — and pressure improves all schools through competition.
+      key_concerns:
+        - Parent empowerment and educational diversity
+        - Competitive pressure on public schools
+        - Options for families in failing districts
+    - label: Public-school defenders
+      summary: Vouchers and ESAs drain resources from already-underfunded public schools, lack accountability for academic outcomes, and disproportionately benefit families already in private schools.
+      key_concerns:
+        - Public-school funding adequacy
+        - Accountability for outcomes
+        - Equity for the most disadvantaged
+    - label: Charter-only middle ground
+      summary: Charter schools (publicly funded, independently operated, with accountability) deliver real innovation without the church-state and accountability problems of vouchers.
+      key_concerns:
+        - Innovation within public-school framework
+        - Accountability requirements
+        - Avoiding religious-instruction subsidy
+related_lesson_slugs:
+  - school-boards
+tags:
+  - education
+  - school-choice
+  - k-12

@@ -1,0 +1,33 @@
+slug: right-to-repair
+name: Right to repair
+category: technology-and-data
+summary: Laws requiring manufacturers to provide consumers and independent shops the manuals, parts, and tools needed to repair electronics, vehicles, and farm equipment.
+body_md: |-
+  Right-to-repair legislation requires manufacturers to make available to consumers and independent repair shops the documentation, replacement parts, diagnostic tools, and firmware needed to repair their products. The movement spans consumer electronics, vehicles, medical devices, and agricultural equipment, with each sector having its own dynamics.
+
+  Several states — including New York, Minnesota, California, and Colorado — have enacted right-to-repair laws covering consumer electronics or agricultural equipment. Farmers have pushed particularly hard for tractor repair access. The FTC unanimously supported right-to-repair principles in 2021. Some manufacturers have voluntarily expanded repair-parts availability and self-repair programs.
+
+  Debates center on the scope of covered products, security and safety concerns when third parties modify firmware, intellectual property protection, warranties, and whether voluntary manufacturer programs are enough or legislation is needed.
+spectrum:
+  left: Most progressives strongly support right-to-repair laws across product categories, citing consumer power, environmental waste reduction, and pushback against corporate control.
+  center: Centrists generally support targeted right-to-repair laws focused on common consumer goods and farm equipment, with sensible carve-outs for security-sensitive components.
+  right: Conservative views split. Many farm-state conservatives strongly support tractor right-to-repair; some others raise concerns about IP, warranties, and federal mandates.
+contested:
+  perspectives:
+    - label: Consumer-and-farmer advocates
+      summary: Owners should be able to repair what they own. Manufacturer-only repair monopolies inflate prices, force consumers to discard fixable products, leave rural areas with no nearby authorized service, and trap farmers waiting weeks for tractor repairs during planting and harvest. Legislation is necessary because voluntary measures have not solved the problem.
+      key_concerns:
+        - Repair monopolies inflating prices
+        - E-waste from disposable electronics
+        - Farmer access to timely equipment repair
+    - label: Manufacturer and security concerns
+      summary: Some products contain genuinely sensitive components — security elements, calibrated sensors, batteries with safety controls — where third-party repair carries real risks. Manufacturers also have legitimate IP interests in proprietary diagnostics and firmware. Voluntary self-repair programs are expanding and offer better outcomes than one-size-fits-all mandates.
+      key_concerns:
+        - Safety and security of consumer modifications
+        - Intellectual property in diagnostics and firmware
+        - Warranty and liability allocation
+related_lesson_slugs: []
+tags:
+  - technology
+  - consumer-rights
+  - agriculture

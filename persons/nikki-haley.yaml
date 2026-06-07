@@ -1,0 +1,22 @@
+slug: nikki-haley
+full_name: Nikki Haley
+tier: "4"
+bio_md: Former Governor of South Carolina and US Ambassador to the UN under Trump. 2024 Republican presidential candidate who outlasted most rivals before losing to Trump in the primary.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 25
+lean_right: 75
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: NikkiHaley
+issue_stances:
+  - slug: nuclear-power
+    stance: Hawkish on Iran and North Korea during UN tenure
+  - slug: tariffs
+    stance: Supports free trade but with reciprocity requirements
+  - slug: national-debt
+    stance: Has called for entitlement reform and fiscal discipline

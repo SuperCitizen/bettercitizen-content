@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: what-it-believes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is the central philosophical claim that distinguishes communitarianism from rights-based liberalism?"
+    choices:
+      - id: a
+        text: "Communitarianism rejects individual rights."
+      - id: b
+        text: "Communitarianism treats community as primary, with selves constituted through community membership; rights-based liberalism treats individuals as primary."
+      - id: c
+        text: "Communitarianism supports more redistribution than liberalism."
+      - id: d
+        text: "Communitarianism is anti-democratic."
+    correct_choice_id: b
+    explanation: "Sandel's foundational critique in Liberalism and the Limits of Justice (1982) was that the 'unencumbered self' of Rawlsian theory is a fiction; actual selves come into being through families, neighborhoods, religious communities, languages, and shared traditions. Communitarianism doesn't reject individuality — it argues that genuine individuality is developed within community, not in opposition to it. The disagreement with rights-based liberalism is about the order of explanation, not about whether individuals matter."
+    concepts: [communitarianism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Why does communitarianism cross the conventional left-right axis?"
+    choices:
+      - id: a
+        text: "Because it has no coherent political position."
+      - id: b
+        text: "Because its philosophical commitments (community, civic participation, shared goods, critique of atomized individualism) can be deployed in support of either progressive or conservative political projects."
+      - id: c
+        text: "Because most communitarians are political moderates."
+      - id: d
+        text: "Because communitarianism is purely descriptive, not prescriptive."
+    correct_choice_id: b
+    explanation: "Communitarianism's core philosophical commitments cut across the left-right axis. On the political left, Sandel and Walzer use them to argue for strengthened civic institutions and shared social provision; on the political right, MacIntyre and Reno use them to argue for religious-traditional renewal. The tradition is genuinely cross-cutting — same philosophical commitments, different political alignments depending on which inheritances and which institutions one prioritizes."
+    concepts: [communitarianism, civic-republicanism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Robert Putnam's Bowling Alone (2000) is associated with which observation that has been important for communitarian thought?"
+    choices:
+      - id: a
+        text: "Empirical evidence of declining civic and community participation in the U.S. since the 1960s."
+      - id: b
+        text: "A theoretical critique of Rawlsian liberalism."
+      - id: c
+        text: "A defense of religious traditionalism."
+      - id: d
+        text: "An analysis of the rise of social media."
+    correct_choice_id: a
+    explanation: "Putnam's Bowling Alone documented the decline of civic participation, social trust, and community organization since the 1960s — using bowling-league participation as one of many indicators. The empirical findings — fewer people in civic organizations, fewer informal social ties, declining social trust — provide empirical support for the communitarian claim that something important has been lost. Putnam himself is more progressive than communitarian-traditional, but his work has been influential across communitarian streams."
+    concepts: [communitarianism]
+
+  - id: q4
+    kind: free-response
+    text: "Civic-republican (left) communitarianism and religious-traditionalist (right) communitarianism share the philosophical commitment that community matters for human flourishing. State the strongest version of where they nonetheless disagree, and what would resolve the disagreement."
+    socratic_seed: "Both traditions agree that pure individualism is corrosive and that civic and religious institutions matter. They disagree about which inheritances should be preserved and how change should occur. Civic-republicans support inclusive multicultural civic frameworks that build shared identity across religious and ethnic differences; religious-traditionalists support particular religious-cultural inheritances and worry that pure inclusion drains civic life of substantive content. The disagreement is partly empirical (does inclusive civic identity actually build solidarity?) and partly normative (which inheritances have priority?). Resolution would require either showing that inclusive civic identity can substitute for particular religious-traditional substance, or finding a synthesis that honors both."
+    concepts: [communitarianism, civic-republicanism, religious-traditionalism]

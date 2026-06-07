@@ -1,0 +1,12 @@
+slug: omnibus-bill
+name: Omnibus Bill
+short_definition: A single bill that packages together several measures into one, often spanning multiple policy areas.
+body_md: ""
+category: government
+difficulty: advanced
+status: active
+etymology: "Latin: omnibus (for all)"
+why_it_matters: Omnibus bills allow Congress to pass controversial provisions that might not survive a standalone vote, raising concerns about transparency and accountability.
+context_example: The 4,155-page omnibus spending bill was released at 2 a.m. and voted on 12 hours later, with most members acknowledging they had not read it.
+related_term_slugs: []
+tags: []

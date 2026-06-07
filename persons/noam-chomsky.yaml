@@ -1,0 +1,22 @@
+slug: noam-chomsky
+full_name: Noam Chomsky
+tier: "4"
+bio_md: MIT linguist, philosopher, and among the most widely cited intellectuals globally. Known for his critique of US foreign policy, corporate media, and capitalism. Considered the founder of modern linguistics.
+role: linguist, philosopher, activist
+affiliation: MIT / University of Arizona
+lean_left: 95
+lean_right: 5
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: nuclear-power
+    stance: Calls for nuclear disarmament and dismantling of deterrence doctrine
+  - slug: military-spending
+    stance: Persistent critic of US military interventionism and defense industry
+  - slug: section-230
+    stance: Classic free speech defender; critical of corporate content control
+  - slug: tariffs
+    stance: Opposes corporate-driven trade agreements that undermine labor rights

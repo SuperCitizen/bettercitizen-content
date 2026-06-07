@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is the key difference between a primary and a caucus?"
+    choices:
+      - id: a
+        text: "Primaries are run by the federal government; caucuses by the state government."
+      - id: b
+        text: "Primaries are state-administered elections (cast a ballot at a polling place); caucuses are party-administered meetings (gather in person and physically separate by candidate)."
+      - id: c
+        text: "Primaries are for major parties; caucuses are for minor parties."
+      - id: d
+        text: "There's no functional difference."
+    correct_choice_id: b
+    explanation: "Primaries are state-administered elections — voters cast ballots at polling places. Caucuses are party-administered meetings where voters gather in person, physically separate into groups by candidate, and re-shuffle through multiple rounds. Caucus turnout is typically much lower than primary turnout because the time commitment is much higher. Most states have moved from caucuses to primaries; only a few still use caucuses."
+    concepts: [primaries, caucuses]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Who actually controls the rules for presidential nomination — federal government, state government, or political parties?"
+    choices:
+      - id: a
+        text: "Federal government, under the Constitution."
+      - id: b
+        text: "State governments, under their plenary election authority."
+      - id: c
+        text: "Political parties, with state-level administrative cooperation."
+      - id: d
+        text: "The Supreme Court, through interpretation of voting-rights statutes."
+    correct_choice_id: c
+    explanation: "Presidential nomination is governed by party rules. The Constitution doesn't specify how parties choose nominees; political parties are formally private associations. The DNC and RNC set broad rules; state parties operate within those rules and choose specifics. State election boards administer the voting (counting ballots, opening polling places), but the rules they administer come from the parties — not from federal or state law."
+    concepts: [primaries, party-rules]
+
+  - id: q3
+    kind: multiple-choice
+    text: "How does the Democratic Party allocate delegates differently from the Republican Party in 2024?"
+    choices:
+      - id: a
+        text: "Democrats use winner-take-all; Republicans use proportional."
+      - id: b
+        text: "Democrats use proportional allocation in all states (with 15% threshold); Republicans use mostly winner-take-all or modified winner-take-all."
+      - id: c
+        text: "There's no significant difference."
+      - id: d
+        text: "Democrats use a national primary; Republicans use sequential state primaries."
+    correct_choice_id: b
+    explanation: "Democrats use proportional allocation in all primaries — a candidate must hit 15% in a district or statewide to receive delegates from that area. Republicans use mostly winner-take-all or modified winner-take-all (some states require 50% threshold; some are proportional). The difference matters: Republican primaries can produce decisive winners faster (a 30% lead in a winner-take-all state gives 100% of delegates), while Democratic primaries produce more gradual delegate accumulation."
+    concepts: [primaries, delegate-allocation]
+
+  - id: q4
+    kind: free-response
+    text: "Defenders of the current primary system and reformers both claim the system produces representative nominees. State the strongest version of how each side reads the same evidence."
+    socratic_seed: "Status-quo defender: high turnout in competitive primaries, sequential structure surfaces lesser-known candidates, party endorsements still substantially shape outcomes (Cohen et al.'s 'Party Decides'), the federal structure is preserved. Reformer: turnout is much lower than general elections, low-turnout activists drive results in safe-seat districts, primary-driven polarization is empirically documented, the early-state structure is demographically unrepresentative. Both sides agree on most facts; they disagree about which facts are decisive — whether nominee quality is more about voter participation breadth or about the depth of party-elite engagement."
+    concepts: [primaries]

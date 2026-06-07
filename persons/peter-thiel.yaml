@@ -1,0 +1,20 @@
+slug: peter-thiel
+full_name: Peter Thiel
+tier: "4"
+bio_md: Co-founder of PayPal and Palantir, first outside investor in Facebook. Libertarian contrarian thinker and influential GOP donor. Vocal critic of higher education and champion of startup culture.
+role: tech executive, investor
+affiliation: Founders Fund
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: ai-regulation
+    stance: Investor in AI; generally opposes heavy regulation as anti-competitive
+  - slug: higher-education-funding
+    stance: Funds Thiel Fellowships to encourage students to drop out of college
+  - slug: national-debt
+    stance: Concerned about fiscal sustainability and dollar hegemony

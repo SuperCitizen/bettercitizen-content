@@ -1,0 +1,39 @@
+slug: nonpartisan-primaries
+name: Nonpartisan / open primaries
+category: elections-and-voting
+summary: Election rules that let voters of any party affiliation cast primary ballots, or that send the top several finishers (regardless of party) to the general election.
+body_md: |-
+  Most states hold partisan primaries: registered Democrats vote for Democratic nominees, Republicans for Republican nominees. Some states "open" their primaries to any voter; others use "top-two" (CA, WA), "top-four" (AK), or full nonpartisan (NE legislative) designs in which the top finishers across all parties advance to the general.
+
+  Reform advocates argue that closed primaries empower the most ideologically committed minority of each party — rewarding extremism — while open or nonpartisan primaries push candidates toward the median voter.
+
+  Critics counter that parties have associational rights to choose their own nominees, and that nonpartisan systems may shut out small-party candidates from general elections entirely.
+spectrum:
+  left: Some progressives favor open primaries and nonpartisan reform; others worry it moderates left-flank candidates and dilutes party discipline.
+  center: Reformers across the spectrum support nonpartisan primaries as an antidote to base-driven extremism.
+  right: Some conservatives favor nonpartisan primaries; others, especially those concerned with party discipline, oppose opening primaries to crossover voting.
+contested:
+  perspectives:
+    - label: Nonpartisan-reform advocates
+      summary: Closed primaries reward ideological extremism and produce general-election candidates far from the median voter. Top-two and top-four primaries push candidates to compete for broader coalitions.
+      key_concerns:
+        - Reducing primary-electorate extremism
+        - Median-voter representation
+        - Empowering independents
+    - label: Party-associational defenders
+      summary: Parties are private associations with constitutional rights to choose their own candidates. Open primaries dilute party meaning and invite "raiding" by hostile voters.
+      key_concerns:
+        - Associational rights of parties
+        - Coherent party platforms
+        - Strategic raiding by opposing partisans
+    - label: Top-two skeptics
+      summary: Top-two primaries can lock out third parties from general elections entirely, paradoxically reducing voter choice in some districts.
+      key_concerns:
+        - Third-party access
+        - Effective competition in safe districts
+        - Combining with RCV to preserve choice
+related_lesson_slugs:
+  - primaries-and-caucuses
+tags:
+  - primaries
+  - electoral-reform

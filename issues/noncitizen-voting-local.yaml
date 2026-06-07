@@ -1,0 +1,43 @@
+slug: noncitizen-voting-local
+name: Noncitizen voting in local elections
+category: elections-and-voting
+summary: Whether long-term noncitizen residents — including green-card holders and others paying local taxes — should be allowed to vote in municipal or school-board elections, even while federal voting remains restricted to citizens.
+body_md: |-
+  Federal law restricts voting in federal elections to U.S. citizens, and most states extend that to state elections. But a small number of municipalities — including parts of Maryland, Vermont, and historically San Francisco for school-board elections — allow some noncitizen residents to vote in purely local races. New York City passed and then had struck down a broader municipal-noncitizen-voting law.
+
+  Supporters argue that long-term residents — green-card holders, work-visa holders, parents of citizen children — pay local taxes, send their kids to local schools, and are deeply embedded in their communities. Allowing them to vote in school-board or municipal races, they argue, follows a long American tradition of property-tax-paying noncitizens voting locally (which existed in many states until the early 20th century).
+
+  Critics argue that voting is a core privilege of citizenship and should not be diluted; that mixing citizen and noncitizen voters on a single ballot creates administrative confusion; and that extending the franchise to noncitizens undermines incentives to naturalize and shifts political power toward immigrant-heavy areas in ways that distort representation.
+spectrum:
+  left: Long-term residents who pay taxes and live in a community deserve a voice in local schools and municipal governance; restricting all voting to citizens excludes families with strong ties from decisions that directly affect them.
+  center: Federal elections should remain citizen-only, but local jurisdictions might reasonably extend municipal voting to long-term legal residents — with clear administrative separation between ballots and a documented policy rationale.
+  right: Voting is a defining privilege of citizenship; extending it to noncitizens — even locally — devalues naturalization, complicates election administration, and risks expanding from local races over time.
+contested:
+  perspectives:
+    - label: Local-franchise advocates
+      summary: Long-term noncitizen residents — especially lawful permanent residents and parents of citizen children — pay property taxes, use schools and roads, and live with the consequences of local policy. Letting them vote in purely local elections aligns representation with stake.
+      key_concerns:
+        - Long-term residents pay local taxes
+        - School-board decisions affect their citizen children
+        - Historical precedent for noncitizen local voting
+        - Local stake justifies local voice
+    - label: Citizenship-only traditionalists
+      summary: Voting is a constitutive privilege of citizenship. Extending it to noncitizens — even at the local level — blurs the meaning of citizenship, reduces incentives to naturalize, and risks creeping expansion. The path to a vote should run through naturalization.
+      key_concerns:
+        - Voting is a defining attribute of citizenship
+        - Naturalization should be the path to the franchise
+        - Local expansions can creep upward
+        - Public confusion when ballots differ by status
+    - label: Administrative skeptics
+      summary: "Separate-ballot administration for citizens and noncitizens is operationally fraught: poll workers must reliably issue the correct ballot, registration systems must track eligibility for each contest, and errors invite both lawsuits and confusion. The cost may outweigh the benefit."
+      key_concerns:
+        - Two-tier ballots increase administrative error
+        - Eligibility tracking is complex
+        - Legal challenges in mixed-jurisdiction states
+        - Voter and poll-worker confusion
+related_lesson_slugs: []
+tags:
+  - voting
+  - noncitizen-voting
+  - local-elections
+  - immigration

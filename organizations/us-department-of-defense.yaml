@@ -1,0 +1,13 @@
+slug: us-department-of-defense
+name: US Department of Defense
+kind: government
+subtype: executive-cabinet
+description: Cabinet department overseeing the armed forces and military operations; largest federal agency by both budget and personnel.
+website: https://www.defense.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - foreign-policy
+  - aumf
+  - alliance-system
+is_active: true

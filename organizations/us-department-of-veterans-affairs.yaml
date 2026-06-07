@@ -1,0 +1,10 @@
+slug: us-department-of-veterans-affairs
+name: US Department of Veterans Affairs
+kind: government
+subtype: executive-cabinet
+description: Cabinet department providing health care, benefits, and burial services to US military veterans and their families.
+website: https://www.va.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

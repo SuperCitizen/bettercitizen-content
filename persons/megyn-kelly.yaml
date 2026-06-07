@@ -1,0 +1,15 @@
+slug: megyn-kelly
+full_name: Megyn Kelly
+tier: "4"
+bio_md: Journalist and broadcaster, formerly of Fox News and NBC. Known for her tough interviewing style and independent stance on political issues.
+role: journalist, broadcaster
+affiliation: The Megyn Kelly Show
+lean_left: 35
+lean_right: 65
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: megaborman
+issue_stances: []

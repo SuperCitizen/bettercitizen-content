@@ -1,0 +1,24 @@
+slug: tim-walz
+full_name: Tim Walz
+tier: "3"
+bio_md: Governor of Minnesota since 2019. Former US Representative for Minnesota's 1st congressional district (2007-2019). Retired Army National Guard command sergeant major and former high school social studies teacher and football coach. Selected as Kamala Harris's running mate in the 2024 Democratic presidential ticket.
+role: Governor of Minnesota
+affiliation: State of Minnesota
+party: Democrat
+lean_left: 70
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: Tim_Walz
+issue_stances:
+  - slug: abortion-access
+    stance: Signed Minnesota legislation codifying abortion rights into state law in 2023
+  - slug: paid-family-leave
+    stance: Signed Minnesota's paid family and medical leave program into law in 2023
+  - slug: second-amendment-regulation
+    stance: Signed universal background checks and red flag laws in Minnesota in 2023
+  - slug: child-tax-credit
+    stance: Signed Minnesota's expanded state child tax credit into law in 2023

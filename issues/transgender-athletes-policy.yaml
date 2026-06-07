@@ -1,0 +1,39 @@
+slug: transgender-athletes-policy
+name: Transgender athletes in sports
+category: education
+summary: Eligibility rules for transgender athletes — particularly transgender women and girls — in scholastic, collegiate, and Olympic sports.
+body_md: |-
+  Athletic-eligibility policies for transgender athletes vary widely across governing bodies. The NCAA, the IOC, individual sport federations, US state legislatures, and the NFHS have adopted different and sometimes shifting rules. A growing number of states have passed laws restricting transgender girls and women from female-category school sports.
+
+  The debate has both empirical and normative dimensions. Empirically: how much athletic advantage does going through male puberty confer, does hormone therapy reduce it, and over what time frame? Normatively: how should sports balance inclusion, fairness, safety, and the original purpose of sex-segregated competition?
+
+  The Title IX legal framework is in active flux. Federal regulations have proposed allowing case-by-case eligibility decisions; courts have stayed portions of related rules. The Supreme Court has not yet decisively ruled on the underlying questions.
+spectrum:
+  left: Progressives generally support inclusion of transgender athletes consistent with their gender identity, with concerns about elite-level fairness addressed through sport-specific governance rather than blanket bans.
+  center: Centrists often look for case-by-case approaches — including hormone-suppression criteria, sport-specific rules, and accommodations at recreational levels — while acknowledging some categorical limits at elite female-category competition.
+  right: Many conservatives support categorical separation by biological sex for female-category sports, especially in K-12 and college, citing fairness and safety concerns.
+contested:
+  perspectives:
+    - label: Inclusion advocates
+      summary: Sports inclusion matters for the mental health and social development of transgender youth. The number of elite trans women in women's sports is tiny, performance evidence is mixed, and blanket bans inflict real harm on real children to address a largely speculative problem.
+      key_concerns:
+        - Mental health of trans youth
+        - Real-world prevalence and impact
+        - Avoiding categorical discrimination
+    - label: Female-category fairness advocates
+      summary: Sex-segregated sports exist because of measurable physiological differences. Allowing transgender women who went through male puberty to compete in female categories undermines fair competition, the safety of female athletes in collision sports, and the integrity of Title IX's sex-based protections.
+      key_concerns:
+        - Performance advantages from male puberty
+        - Safety in collision and contact sports
+        - Preserving female-category competition
+    - label: Sport-specific governance perspective
+      summary: Different sports involve different physiological factors. One-size-fits-all laws — banning or guaranteeing inclusion — fit poorly. Governing bodies should set evidence-based, sport-specific eligibility rules, with recreational and elite levels handled differently.
+      key_concerns:
+        - Evidence-based sport-by-sport rules
+        - Distinguishing recreational and elite levels
+        - Avoiding legislative micromanagement
+related_lesson_slugs: []
+tags:
+  - education
+  - transgender
+  - sports

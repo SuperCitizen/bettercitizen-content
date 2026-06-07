@@ -1,0 +1,15 @@
+slug: daniel-dennett
+full_name: Daniel Dennett
+tier: "4"
+bio_md: American philosopher, cognitive scientist, and longtime co-director of the Center for Cognitive Studies at Tufts. Author of *Consciousness Explained*, *Darwin's Dangerous Idea*, *Breaking the Spell*, and *From Bacteria to Bach and Back*. One of the "Four Horsemen" of New Atheism alongside Hitchens, Harris, and Dawkins, and a leading naturalist voice on free will, evolution, and the philosophy of mind. Died April 2024.
+role: philosopher, cognitive scientist
+affiliation: Tufts University
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+wikipedia: https://en.wikipedia.org/wiki/Daniel_Dennett
+issue_stances: []

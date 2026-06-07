@@ -1,0 +1,19 @@
+slug: george-stephanopoulos
+full_name: George Stephanopoulos
+tier: "4"
+bio_md: American television host and political commentator. Chief anchor for ABC News and co-anchor of Good Morning America. Anchors This Week with George Stephanopoulos. Previously served as White House communications director and senior advisor to President Bill Clinton in the 1990s before transitioning to journalism.
+role: ABC News chief anchor
+affiliation: ABC News
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: georgestephanopoulos
+issue_stances:
+  - slug: abortion-access
+    stance: Has covered reproductive rights debates extensively as ABC's chief anchor
+  - slug: supreme-court-reform
+    stance: Has moderated discussions on Supreme Court ethics and reform proposals

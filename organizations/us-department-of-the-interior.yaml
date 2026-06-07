@@ -1,0 +1,10 @@
+slug: us-department-of-the-interior
+name: US Department of the Interior
+kind: government
+subtype: executive-cabinet
+description: Cabinet department managing federal lands, national parks, public-lands resources, and trust responsibilities to Native American tribes.
+website: https://www.doi.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

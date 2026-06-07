@@ -1,0 +1,11 @@
+slug: us-department-of-health-and-human-services
+name: US Department of Health and Human Services
+kind: government
+subtype: executive-cabinet
+description: Cabinet department covering public health (CDC, FDA, NIH), Medicare and Medicaid (CMS), and federal health policy.
+website: https://www.hhs.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - aca
+is_active: true

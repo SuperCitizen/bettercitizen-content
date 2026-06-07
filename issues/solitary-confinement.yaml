@@ -1,0 +1,33 @@
+slug: solitary-confinement
+name: Solitary confinement
+category: criminal-justice
+summary: The use of long-term isolation in U.S. prisons and jails, and whether to set limits on duration, conditions, and the populations it can apply to.
+body_md: |-
+  Solitary confinement — also called restrictive housing, segregation, or administrative isolation — confines prisoners to a cell for roughly 22-23 hours a day with minimal human contact. Tens of thousands of people are held in some form of solitary on any given day in U.S. prisons and jails.
+
+  Research links prolonged isolation to severe psychological harm, including depression, paranoia, hallucinations, and elevated suicide risk. International bodies treat prolonged solitary as cruel treatment. Several states have enacted limits on duration, populations (juveniles, pregnant people, those with serious mental illness), or conditions.
+
+  Corrections officials argue some form of segregation is necessary to manage violent prisoners, gang activity, and prisoners who pose risks to staff or other inmates. The debate is over duration limits, which populations should be exempt, and what alternatives can manage security risks.
+spectrum:
+  left: Most progressives support strict caps on solitary duration (often 15 days), categorical exemptions for vulnerable populations, and major investment in alternatives.
+  center: Centrists generally back duration limits, exemptions for juveniles and people with serious mental illness, and improved oversight, while leaving corrections officials operational flexibility.
+  right: Conservative views vary. Many defer to corrections expertise on managing violent prisoners; some reform-minded conservatives back limits on duration and use against vulnerable populations.
+contested:
+  perspectives:
+    - label: Limit-and-reform advocates
+      summary: Prolonged solitary causes lasting psychological harm and is overused. Duration should be strictly capped, vulnerable populations exempted, and alternatives like step-down units and mental-health treatment scaled up. The current system harms prisoners without making prisons safer.
+      key_concerns:
+        - Psychological harm from prolonged isolation
+        - Use against juveniles and people with mental illness
+        - Lack of meaningful review and oversight
+    - label: Corrections-flexibility defenders
+      summary: Prisons house violent offenders, gang leaders, and people who pose serious risks to staff and other inmates. Some form of segregation is essential for institutional security. Reforms should improve conditions and review, not impose rigid duration caps that ignore operational realities.
+      key_concerns:
+        - Managing violent or gang-affiliated prisoners
+        - Staff and inmate safety
+        - Operational flexibility for corrections leadership
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - prisons
+  - mental-health

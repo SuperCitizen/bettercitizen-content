@@ -1,0 +1,13 @@
+slug: motte-and-bailey
+name: Motte and Bailey
+short_definition: A rhetorical move that switches between a controversial, ambitious claim (the "bailey") and a much milder, easily defended claim (the "motte") whenever pressed.
+body_md: ""
+category: rhetoric
+difficulty: advanced
+status: emerging
+etymology: "From medieval Norman castle architecture: the bailey was the lush courtyard occupied in peacetime; the motte was the small, fortified hill retreat used under siege. Coined as a fallacy by philosopher Nicholas Shackel in 2005."
+why_it_matters: Recognizing motte-and-bailey reveals when an argument's defenders are bait-and-switching the proposition itself. It explains a great deal of frustrating online discourse where every challenge produces a retreat to a less interesting claim, only for the original claim to reappear unmodified.
+context_example: "The columnist deployed a motte-and-bailey: when challenged on the strong claim that all market regulation is tyranny (the bailey), she retreated to the milder claim that some regulations have unintended consequences (the motte)."
+related_term_slugs:
+  - strawman
+tags: []

@@ -1,0 +1,16 @@
+slug: adam-schiff
+full_name: Adam Schiff
+tier: "4"
+bio_md: US Senator from California. Former chair of the House Intelligence Committee and lead impeachment manager. Known for his role investigating Trump–Russia ties.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 70
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: SenSchiff
+issue_stances: []

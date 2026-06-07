@@ -1,0 +1,24 @@
+slug: katie-britt
+full_name: Katie Britt
+tier: "3"
+bio_md: U.S. Senator from Alabama since 2023. The first woman elected to the Senate from Alabama and one of the youngest Republican women ever to serve in the chamber. Previously served as chief of staff to Senator Richard Shelby and as CEO of the Business Council of Alabama. Delivered the Republican response to the 2024 State of the Union.
+role: senator
+affiliation: U.S. Senate
+party: Republican
+lean_left: 18
+lean_right: 82
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: SenKatieBritt
+issue_stances:
+  - slug: border-security
+    stance: Supports stricter border enforcement and increased Border Patrol funding
+  - slug: paid-family-leave
+    stance: Has advocated for policies supporting working families and child care access
+  - slug: abortion-access
+    stance: Opposes abortion access; has expressed support for IVF protections
+  - slug: ukraine-support
+    stance: Has expressed concerns about open-ended Ukraine aid without clear strategy

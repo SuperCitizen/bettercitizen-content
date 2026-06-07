@@ -1,0 +1,24 @@
+slug: doug-burgum
+full_name: Doug Burgum
+tier: "3"
+bio_md: US Secretary of the Interior in the second Trump administration. Former Governor of North Dakota from 2016 to 2024. Software entrepreneur who led Great Plains Software, which he sold to Microsoft in 2001. Briefly sought the 2024 Republican presidential nomination before endorsing Donald Trump.
+role: US Secretary of the Interior
+affiliation: US Department of the Interior
+party: Republican
+lean_left: 25
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: DougBurgum
+issue_stances:
+  - slug: fossil-fuel-leases
+    stance: Supports expanding oil and gas leasing on federal lands as Interior Secretary
+  - slug: climate-policy
+    stance: Emphasizes an 'all of the above' energy approach including fossil fuels and renewables
+  - slug: nuclear-power
+    stance: Supports nuclear power as part of a broad domestic energy strategy
+  - slug: corporate-tax-rate
+    stance: Supported pro-business tax policy and regulatory rollback as North Dakota governor

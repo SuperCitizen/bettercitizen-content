@@ -1,0 +1,21 @@
+slug: francis-fukuyama
+full_name: Francis Fukuyama
+tier: "4"
+bio_md: American political scientist and political economist. Olivier Nomellini Senior Fellow at Stanford University's Freeman Spogli Institute for International Studies and director of its Center on Democracy, Development, and the Rule of Law. Author of The End of History and the Last Man, Political Order and Political Decay, and Identity. Best known for his thesis on liberal democracy at the end of the Cold War.
+role: political scientist
+affiliation: Stanford University
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: FukuyamaFrancis
+issue_stances:
+  - slug: ukraine-support
+    stance: Strong supporter of continued Western military and economic aid to Ukraine
+  - slug: nato-and-alliances
+    stance: Defends the importance of NATO and democratic alliances against authoritarian challenges
+  - slug: dei-programs
+    stance: Critical of identity politics on both left and right, argues for shared civic identity

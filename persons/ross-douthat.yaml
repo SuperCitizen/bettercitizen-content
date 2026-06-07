@@ -1,0 +1,23 @@
+slug: ross-douthat
+full_name: Ross Douthat
+tier: "4"
+bio_md: Op-ed columnist for The New York Times since 2009 and the paper's prominent traditionalist conservative voice. A practicing Catholic, his books include 'Bad Religion', 'The Decadent Society', and 'Believe'. He previously wrote for The Atlantic and co-authored 'Grand New Party' with Reihan Salam.
+role: columnist, author
+affiliation: The New York Times
+lean_left: 20
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: DouthatNYT
+issue_stances:
+  - slug: abortion-access
+    stance: Opposes abortion on moral grounds and writes in defense of the pro-life movement after Dobbs
+  - slug: religious-liberty
+    stance: Defends robust religious-liberty protections, especially for traditional Christian institutions
+  - slug: ai-regulation
+    stance: Skeptical of unbounded AI development and open to substantial government guardrails
+  - slug: immigration-related-issues
+    stance: Favors lower legal-immigration levels and stronger border enforcement, paired with assimilation policy

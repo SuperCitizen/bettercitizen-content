@@ -1,0 +1,10 @@
+slug: federal-communications-commission
+name: Federal Communications Commission
+kind: government
+subtype: executive-independent
+description: Independent regulatory agency overseeing radio, television, satellite, cable, and broadband communications.
+website: https://www.fcc.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

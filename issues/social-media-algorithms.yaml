@@ -1,0 +1,42 @@
+slug: social-media-algorithms
+name: Social-media algorithms
+category: media-and-information
+summary: Whether and how to regulate the algorithmic feeds and recommendation systems of major platforms — debated as drivers of polarization, mental-health harms, and election manipulation.
+body_md: |-
+  Modern social-media feeds are optimized for engagement using opaque algorithms. Researchers have linked engagement-driven recommendation to polarization, teen mental-health harms (especially Instagram and TikTok for girls), election misinformation amplification, and rage / extremism amplification.
+
+  Reform proposals span:
+  - **Algorithmic transparency**: Requirements to disclose how algorithms work, to allow researcher access (PATA Act / similar).
+  - **User control**: Requirements to offer chronological / non-algorithmic feeds.
+  - **Liability for amplification**: Conditioning Section 230 on algorithmic neutrality.
+  - **Youth-specific rules**: Default-off for minors, age-verification, time limits.
+  - **Election-specific rules**: Pre-election restrictions on certain content categories.
+spectrum:
+  left: "Progressive views vary: many favor strong regulation of algorithmic feeds, especially for minors."
+  center: Most centrists favor transparency, researcher access, and youth-protection requirements.
+  right: "Conservative views split: some favor regulation citing perceived bias; others oppose government interference in editorial decisions."
+contested:
+  perspectives:
+    - label: Strong-regulation advocates
+      summary: "Engagement-driven algorithms cause measurable harm: youth mental health, polarization, election disruption. Transparency, mandatory chronological-feed options, and youth-specific rules align platform incentives with user well-being."
+      key_concerns:
+        - Youth mental health
+        - Polarization and rage amplification
+        - Researcher access to data
+    - label: Light-touch / First Amendment advocates
+      summary: Government regulation of editorial choices — including algorithmic curation — raises First Amendment concerns. User-side tools (parental controls, app-time limits) address harms without government-mandated speech rules.
+      key_concerns:
+        - First Amendment / editorial freedom
+        - User control over consumption
+        - Avoiding government editorial mandates
+    - label: Targeted-protection advocates
+      summary: "Focus regulation on specific harms: youth defaults, deepfake / election rules, and Section 230 carve-outs for clearly harmful amplification — without imposing horizontal algorithmic regulation."
+      key_concerns:
+        - Youth-specific rules
+        - Election-specific rules
+        - Avoiding horizontal mandates
+related_lesson_slugs: []
+tags:
+  - media
+  - social-media
+  - algorithms

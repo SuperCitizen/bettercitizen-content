@@ -1,0 +1,41 @@
+slug: gig-worker-classification
+name: Gig-worker classification
+category: labor-and-welfare
+summary: Whether ride-share, delivery, and other platform workers should be classified as employees (with full labor protections) or independent contractors (with flexibility but fewer benefits).
+body_md: |-
+  Federal and state laws use different tests to classify workers as employees vs. independent contractors. The classification determines whether the worker gets minimum-wage, overtime, unemployment, workers' comp, employer payroll-tax contributions, and the right to organize.
+
+  Key recent battles:
+  - **California AB5 / Prop 22**: AB5 codified a strict "ABC" test, classifying most gig workers as employees; Prop 22 (2020 ballot, narrowly upheld in court) carved out app-based drivers as independent contractors with limited benefits.
+  - **PRO Act / federal action**: Would adopt the ABC test federally.
+  - **Department of Labor rule**: Has shifted between administrations.
+  - **"Third category" proposals**: A new classification with portable benefits, partial protections, and preserved flexibility.
+spectrum:
+  left: Progressives strongly favor reclassifying most gig workers as employees with full protections.
+  center: Some moderates favor a "third category" with portable benefits and partial protections.
+  right: Most conservatives favor preserving independent-contractor flexibility and oppose federal reclassification.
+contested:
+  perspectives:
+    - label: Employee-classification advocates
+      summary: Platform workers face employer-style control without employer-style protections. Reclassifying as employees ensures minimum wage, overtime, workers' comp, and the right to organize.
+      key_concerns:
+        - Worker protections
+        - Minimum-wage and overtime
+        - Right to organize
+    - label: Independent-contractor defenders
+      summary: Workers value the flexibility of platform work. Reclassification destroys flexible income for millions, especially supplemental earners. Prop 22-style hybrid models preserve flexibility with some benefits.
+      key_concerns:
+        - Schedule flexibility
+        - Supplemental earners
+        - Platform-business viability
+    - label: Portable-benefits / third-category advocates
+      summary: Create a new classification with portable benefits (health, retirement, paid leave) that follow the worker across platforms — combining flexibility with security.
+      key_concerns:
+        - Portable benefits across platforms
+        - Preserving flexibility
+        - Funding mechanisms
+related_lesson_slugs: []
+tags:
+  - labor
+  - gig-economy
+  - classification

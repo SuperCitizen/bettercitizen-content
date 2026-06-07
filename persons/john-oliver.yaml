@@ -1,0 +1,15 @@
+slug: john-oliver
+full_name: John Oliver
+tier: "4"
+bio_md: Host of Last Week Tonight on HBO. Former Daily Show correspondent turned investigative comedian. Known for deep-dive explainers on complex policy topics.
+role: TV host, comedian
+affiliation: HBO
+lean_left: 75
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: iamjohnoliver
+issue_stances: []

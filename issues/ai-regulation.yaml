@@ -1,0 +1,42 @@
+slug: ai-regulation
+name: Artificial intelligence regulation
+category: technology-and-data
+summary: How the U.S. should regulate the development and deployment of advanced AI systems — federal frameworks, frontier-model oversight, sectoral rules, and AI safety.
+body_md: |-
+  AI regulation in the U.S. has been mostly through executive orders, voluntary commitments, and existing sectoral rules (FDA for medical AI, EEOC for hiring AI, NHTSA for autonomous vehicles). Major developments:
+
+  - **EO 14110 (2023)**: Required reporting on frontier-model training, safety testing, and Department of Commerce involvement; partially rescinded in 2025.
+  - **AI Safety Institute** at NIST.
+  - **State laws**: California's SB 1047 (vetoed), Colorado AI Act, NYC algorithmic-hiring law.
+  - **Sectoral rules**: FDA AI/ML guidance, ECPA for biometrics.
+
+  Debates span: pre-deployment testing for frontier models, AI liability, copyright and training-data, government use, election AI (deepfakes), and AI talent / chip export rules.
+spectrum:
+  left: "Progressive views vary: AI-safety advocates favor strong frontier regulation; civil-liberties advocates focus on bias, surveillance, and worker impact."
+  center: Most centrists favor a federal framework with risk-tiered oversight and sectoral rules.
+  right: "Conservative views split: some favor light-touch innovation-friendly rules; others worry about national-security and content concerns."
+contested:
+  perspectives:
+    - label: Strong-regulation advocates
+      summary: Frontier AI models pose catastrophic and systemic risks. Mandatory pre-deployment testing, capability evaluations, transparency requirements, and liability for foreseeable harms are needed.
+      key_concerns:
+        - Frontier-model safety testing
+        - Catastrophic risk
+        - Algorithmic harm and bias
+    - label: Innovation-friendly framework
+      summary: AI is the next general-purpose technology. Heavy-handed regulation cedes leadership to China and entrenches large incumbents. Light-touch federal framework with sectoral application is the right balance.
+      key_concerns:
+        - U.S. AI leadership
+        - Avoiding incumbent entrenchment
+        - Innovation pace
+    - label: Sectoral / harm-specific advocates
+      summary: AI is a tool with sector-specific risks. Apply existing rules — FDA, EEOC, NHTSA — and create new ones where gaps exist (election deepfakes, child safety) without imposing horizontal AI law.
+      key_concerns:
+        - Sector-specific application
+        - Targeting specific harms
+        - Avoiding horizontal AI mandates
+related_lesson_slugs: []
+tags:
+  - technology
+  - ai
+  - regulation

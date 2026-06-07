@@ -1,0 +1,39 @@
+slug: reparations
+name: Reparations
+category: civil-rights-and-liberties
+summary: Whether the federal government or states should provide material redress to descendants of enslaved Americans and victims of subsequent racial discrimination.
+body_md: |-
+  Calls for reparations for slavery date to the post-Civil War era ("forty acres and a mule"). The modern federal proposal, H.R. 40, would establish a commission to study the impacts of slavery and discrimination and propose remedies; it has been introduced in every Congress since 1989 without passage.
+
+  The empirical case rests on a long historical record: slavery, post-Reconstruction violence and disenfranchisement, Jim Crow, the GI Bill's racial exclusions, redlining and housing-policy harms, and persistent racial wealth gaps that economic studies tie at least in part to these histories.
+
+  Several states (notably California) and cities (Evanston, IL; San Francisco) have studied or implemented localized reparations programs. Federal action has not advanced. The debate spans moral philosophy, history, economics, and political feasibility.
+spectrum:
+  left: Progressives generally support federal study and action on reparations as long-overdue redress for measurable harms documented by historical and economic evidence.
+  center: Centrists are often cautiously supportive of study commissions and targeted remedies (housing, education, business capital) while skeptical of large direct cash transfers.
+  right: Many conservatives oppose reparations as imposing collective guilt on people who never owned slaves, distorting individual responsibility, and worsening rather than healing racial divisions.
+contested:
+  perspectives:
+    - label: Reparations advocates
+      summary: Slavery, Jim Crow, redlining, and exclusion from GI Bill benefits compounded into measurable, present-day wealth and opportunity gaps. The federal government implemented these harms, and federal redress — through cash, housing equity, education, or business capital — is the appropriate moral and material response.
+      key_concerns:
+        - Historical responsibility for federal actions
+        - Persistent racial wealth gaps
+        - Closing opportunity gaps with targeted redress
+    - label: Universalist critics
+      summary: Race-based reparations divide rather than unite, raise impossible administrative and definitional questions, and impose costs on people uninvolved in historic wrongs. Universal anti-poverty programs, mobility-enhancing housing reform, and education access deliver more benefit with broader political legitimacy.
+      key_concerns:
+        - Identifying eligible recipients
+        - Costs on uninvolved taxpayers
+        - Race-targeted vs. universal remedies
+    - label: Localized and targeted advocates
+      summary: Federal reparations face daunting political and practical hurdles, but specific, well-documented harms — redlined neighborhoods, expropriated land, urban-renewal displacements — admit specific remedies. Cities and states can lead, and Congress can act on narrower targeted programs.
+      key_concerns:
+        - Specific documented harms
+        - Local and state-level pilots
+        - Political feasibility of targeted programs
+related_lesson_slugs: []
+tags:
+  - civil-rights
+  - race
+  - history

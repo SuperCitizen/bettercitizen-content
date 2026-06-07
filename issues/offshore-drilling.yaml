@@ -1,0 +1,33 @@
+slug: offshore-drilling
+name: Offshore drilling
+category: environment-and-energy
+summary: Federal leasing of offshore oil and gas tracts on the Outer Continental Shelf, weighing energy production against spill risk and climate impact.
+body_md: |-
+  The federal government leases tracts on the Outer Continental Shelf for oil and gas development under five-year leasing plans set by the Interior Department. The Gulf of Mexico accounts for the bulk of U.S. offshore production; Atlantic, Pacific, and Arctic waters have seen far less recent leasing.
+
+  The 2010 Deepwater Horizon disaster killed 11 workers and produced the largest marine oil spill in U.S. history, prompting regulatory reforms. Administrations have varied sharply: some have proposed major leasing expansions including in Atlantic and Pacific waters; others have narrowed lease sales to the smallest in decades. The Inflation Reduction Act tied new offshore wind leasing to continued offshore oil and gas leasing.
+
+  Coastal-state politics often diverge from national politics, with both Republican and Democratic governors at times opposing offshore leasing on tourism and fisheries grounds.
+spectrum:
+  left: Most progressives favor sharply restricting or ending new offshore oil and gas leasing, citing climate and spill risk, while expanding offshore wind.
+  center: Centrists generally support limited continued leasing in established producing areas with strong safety standards, paired with offshore wind expansion and coastal-state input.
+  right: Most conservatives favor expanded offshore leasing for energy security and revenue, with stronger preference for Gulf production and continued safety regulation.
+contested:
+  perspectives:
+    - label: Energy-security and revenue advocates
+      summary: Domestic offshore production strengthens energy security, generates billions in federal revenue and coastal-state royalties, and supports tens of thousands of jobs. Modern safety regulation has dramatically reduced spill risk. Curtailing leasing pushes production to higher-emitting overseas sources.
+      key_concerns:
+        - Energy security and price stability
+        - Federal and coastal-state revenue
+        - Jobs in coastal energy regions
+    - label: Spill-risk and climate advocates
+      summary: Offshore drilling carries catastrophic spill risks that no amount of regulation eliminates, as Deepwater Horizon showed. Expanding leasing locks in fossil-fuel infrastructure for decades when climate targets require winding down production. Coastal economies depend more on tourism and fisheries than on drilling.
+      key_concerns:
+        - Catastrophic spill risk
+        - Climate commitments and fossil-fuel lock-in
+        - Coastal tourism and fisheries economies
+related_lesson_slugs: []
+tags:
+  - environment
+  - energy
+  - oil-and-gas

@@ -1,0 +1,39 @@
+slug: union-rights
+name: Union rights and labor organizing
+category: labor-and-welfare
+summary: How federal labor law (NLRA, Taft-Hartley) governs union organizing, collective bargaining, and labor disputes — and proposals like the PRO Act to strengthen worker rights.
+body_md: |-
+  Union membership in the U.S. has fallen from ~30% of workers in the 1950s to ~10% today (~6% in the private sector). Reform proposals — most prominently the Protecting the Right to Organize (PRO) Act — would strengthen organizing rights, weaken right-to-work laws, and impose penalties for employer interference.
+
+  Specific provisions in the PRO Act include: card-check / "neutrality agreements" instead of secret-ballot elections, civil penalties on employers who violate labor law, banning permanent striker replacement, and reclassifying many "independent contractors" as employees.
+
+  Defenders argue the current law tilts heavily toward employers and explains union decline. Critics argue card-check violates worker secret-ballot rights and that union expansion harms competitiveness.
+spectrum:
+  left: Progressives strongly support the PRO Act and broader labor-law reform.
+  center: Many moderates support targeted strengthening of labor rights without full PRO Act adoption.
+  right: Most conservatives oppose the PRO Act, especially card-check and right-to-work preemption.
+contested:
+  perspectives:
+    - label: Pro-PRO Act / labor-law reformers
+      summary: "Current labor law makes organizing nearly impossible: employers face minimal penalties for illegal anti-union conduct. PRO Act provisions level the playing field."
+      key_concerns:
+        - Employer penalties for labor-law violations
+        - Card-check organizing
+        - Reversing union decline
+    - label: Worker-choice defenders
+      summary: Card-check coerces workers into unions without secret ballots. Right-to-work laws protect workers' freedom not to fund union activity. PRO Act undermines both.
+      key_concerns:
+        - Secret-ballot elections
+        - Right-to-work
+        - Worker choice on dues
+    - label: Sectoral-bargaining advocates
+      summary: Enterprise-by-enterprise organizing under the NLRA is too slow. Sectoral bargaining (industry-wide wage boards) raises standards across whole industries, as in many European countries.
+      key_concerns:
+        - Industry-wide wage standards
+        - Reducing organizing-by-employer friction
+        - Adapting to gig and platform work
+related_lesson_slugs: []
+tags:
+  - labor
+  - unions
+  - workers-rights

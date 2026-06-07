@@ -1,0 +1,14 @@
+slug: narendra-modi
+full_name: Narendra Modi
+tier: "4"
+bio_md: Prime Minister of India since 2014. Leader of the BJP. Overseeing India's rise as a global economic power while facing criticism over Hindu nationalism and democratic backsliding.
+role: politician
+affiliation: Bharatiya Janata Party
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+issue_stances: []

@@ -1,0 +1,21 @@
+slug: jd-vance
+full_name: JD Vance
+tier: "4"
+bio_md: Vice President of the United States. Author of Hillbilly Elegy, former venture capitalist, and US Senator from Ohio. Rose from poverty in Appalachia to the nation's second-highest office.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: tariffs
+    stance: Supports industrial policy and tariffs to protect American workers
+  - slug: border-security
+    stance: Favors restrictive immigration enforcement
+  - slug: ai-regulation
+    stance: Advocates for caution in AI deployment affecting jobs

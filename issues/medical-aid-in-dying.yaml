@@ -1,0 +1,39 @@
+slug: medical-aid-in-dying
+name: Medical aid in dying
+category: healthcare
+summary: State laws allowing terminally ill, mentally competent adults to request a physician-prescribed medication to end their own lives, sometimes called physician-assisted dying.
+body_md: |-
+  Oregon's Death with Dignity Act (1997) was the first US law to authorize medical aid in dying. A growing number of states (including Washington, Vermont, California, Colorado, New Jersey, Hawaii, Maine, New Mexico, and DC) have since enacted similar laws, typically requiring a terminal diagnosis with a six-month prognosis, multiple requests, waiting periods, and mental-competency evaluation.
+
+  The Supreme Court has held there is no federal constitutional right to assisted suicide (Washington v. Glucksberg, 1997), leaving the question to states. Internationally, the Netherlands, Belgium, Canada, and several other countries have broader regimes that include non-terminal conditions.
+
+  The debate spans medical ethics, disability rights, religious moral teaching, and questions about whether legal safeguards adequately protect vulnerable people from coercion or premature death.
+spectrum:
+  left: Progressives broadly support medical aid in dying as an extension of bodily autonomy and dignity at end of life, with appropriate safeguards.
+  center: Centrists often support carefully designed laws limited to terminal illness with multiple checkpoints, while opposing broader expansions to non-terminal conditions.
+  right: Many conservatives — especially religious conservatives — oppose medical aid in dying on moral grounds; some libertarians support it on autonomy grounds.
+contested:
+  perspectives:
+    - label: Death-with-dignity advocates
+      summary: Mentally competent terminal patients should have the right to choose a peaceful death rather than prolonged suffering. Existing state laws have strong safeguards and decades of evidence showing they work as intended without coercion.
+      key_concerns:
+        - Patient autonomy at end of life
+        - Relief from intractable suffering
+        - Dignified death as a final choice
+    - label: Disability-rights critics
+      summary: Laws framed as autonomy-protecting in fact endanger disabled and chronically ill people, who face subtle pressure from family, insurers, and a society that views their lives as less worth living. Better palliative care should be the answer to suffering.
+      key_concerns:
+        - Coercion of disabled and elderly people
+        - Insurance and family pressure
+        - Underinvestment in palliative alternatives
+    - label: Sanctity-of-life perspective
+      summary: Human life has inherent worth not contingent on suffering or prognosis. Physicians must not become agents of death; the proper response to terminal suffering is hospice, palliative care, and presence — not lethal prescriptions.
+      key_concerns:
+        - Inherent dignity of human life
+        - Medical ethics and the physician role
+        - Spiritual and moral dimensions of dying
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - medical-ethics
+  - end-of-life

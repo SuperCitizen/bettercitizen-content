@@ -1,0 +1,44 @@
+slug: climate-policy
+name: U.S. climate policy
+category: environment-and-energy
+summary: How the U.S. should reduce greenhouse-gas emissions — through subsidies, regulation, carbon pricing, or some mix — and what national-level commitments to make.
+body_md: |-
+  U.S. climate policy is a patchwork:
+  - **Inflation Reduction Act (2022)**: Major federal investment in clean energy via tax credits and subsidies; the largest climate legislation in U.S. history.
+  - **EPA regulations**: Power-plant CO2 standards, vehicle emissions standards.
+  - **State-level**: California's ZEV mandate, RGGI (10-state cap-and-trade for power), state RPSs.
+  - **International commitments**: Paris Agreement (re-joined in 2021).
+
+  The U.S. has reduced emissions ~17% from 2005 levels. Reaching the 2030 target (50-52% reduction) requires sustained policy and significantly more deployment.
+
+  Approaches debated: carbon pricing, technology-neutral subsidies, regulatory mandates, permitting reform to enable buildout, R&D investment.
+spectrum:
+  left: Progressives strongly favor aggressive climate action — subsidies, regulation, and where possible carbon pricing.
+  center: Most centrists favor a mix of market-based tools (carbon pricing or sectoral standards), R&D, and clean-energy infrastructure investment.
+  right: "Conservative views split: some favor carbon pricing or innovation; many oppose aggressive federal climate policy."
+contested:
+  perspectives:
+    - label: Aggressive-action advocates
+      summary: Climate change poses an urgent threat. The IRA is a start; we need stronger regulation, carbon pricing, permitting reform, and substantial international cooperation.
+      key_concerns:
+        - Emissions trajectory and 1.5/2°C targets
+        - Climate justice and adaptation
+        - Scientific consensus urgency
+    - label: Innovation / market-based focus
+      summary: Massive subsidies are inefficient. A carbon tax with rebates, R&D investment in advanced nuclear / carbon capture / direct air capture, and permitting reform deliver more decarbonization per dollar.
+      key_concerns:
+        - Cost-effectiveness
+        - Technology innovation
+        - Permitting reform for clean buildout
+    - label: Climate-skeptical / cost-focused critics
+      summary: Aggressive climate policy raises energy costs, harms manufacturing competitiveness, and shifts emissions to less efficient producers abroad. Adapt to change rather than impose unworkable mitigation.
+      key_concerns:
+        - Energy costs and reliability
+        - Manufacturing competitiveness
+        - Adaptation over mitigation
+related_lesson_slugs:
+  - climate
+tags:
+  - climate
+  - energy
+  - environment

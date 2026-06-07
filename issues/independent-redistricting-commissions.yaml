@@ -1,0 +1,42 @@
+slug: independent-redistricting-commissions
+name: Independent redistricting commissions
+category: elections-and-voting
+summary: Whether districts for Congress and state legislatures should be drawn by independent commissions rather than by the legislatures whose members are being elected from those districts.
+body_md: |-
+  Every ten years following the decennial census, states redraw congressional and state-legislative district boundaries. Most states give this power to the state legislature itself — meaning sitting legislators draw the maps that determine their own constituencies. A growing number of states have shifted some or all of that authority to independent or bipartisan commissions of citizens or retired judges.
+
+  Proponents of commissions argue that legislator-drawn maps create an inherent conflict of interest, producing partisan gerrymanders that entrench majorities, reduce competitive elections, and weaken accountability. They point to court findings of unconstitutional partisan and racial gerrymanders and to commission-drawn maps in states like California, Arizona, and Michigan as proof that independent processes work.
+
+  Skeptics argue that commissions are not truly independent — they still involve political appointments and partisan tilt — and that elected legislators are at least accountable to voters in a way that unelected commissioners are not. They also note that some commissions have produced contested or court-overturned maps of their own.
+spectrum:
+  left: Independent commissions are essential to end gerrymandering by both parties; legislators should never draw their own districts, and commissions should be insulated from partisan capture by clear rules and citizen membership.
+  center: Some form of commission — independent or bipartisan — beats pure legislative control, but the details (selection process, criteria, judicial review) determine whether reform actually delivers fairer maps.
+  right: Elected legislators are accountable to voters; unelected commissions can hide partisan tilt behind a veneer of neutrality. The Constitution assigns this power to state legislatures, and judicial enforcement of neutral criteria is the better path.
+contested:
+  perspectives:
+    - label: Pro-commission reformers
+      summary: Legislators drawing their own districts is a textbook conflict of interest. Independent commissions — with citizen members, transparent processes, and neutral criteria — produce more competitive elections, less partisan gerrymandering, and greater public confidence in maps.
+      key_concerns:
+        - Self-dealing when legislators draw their own districts
+        - Partisan gerrymanders entrench majorities
+        - Competitive districts strengthen accountability
+        - Citizen commissions build public trust in maps
+    - label: Skeptics of commissions
+      summary: Commissions are not magic. Their members are still appointed through political processes, partisan tilt can survive procedural reform, and unelected commissioners are less accountable than legislators voters can throw out. Judicial review against neutral criteria may work better.
+      key_concerns:
+        - Commissions are not truly nonpartisan
+        - Unelected commissioners lack direct accountability
+        - State constitutions vary on the legislature's role
+        - Court enforcement of criteria is an alternative
+    - label: Design-focused pragmatists
+      summary: Commission outcomes depend heavily on selection rules, mapping criteria, and tiebreaker mechanisms. California, Arizona, and Michigan models differ substantially. The relevant question is how a commission is structured, not whether to have one.
+      key_concerns:
+        - Selection method shapes outcomes
+        - Required criteria (compactness, communities of interest) matter
+        - Tiebreaker and deadlock rules are decisive
+        - Judicial review remains important as a backstop
+related_lesson_slugs: []
+tags:
+  - redistricting
+  - gerrymandering
+  - electoral-reform

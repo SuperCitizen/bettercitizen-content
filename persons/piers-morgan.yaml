@@ -1,0 +1,21 @@
+slug: piers-morgan
+full_name: Piers Morgan
+tier: "4"
+bio_md: British broadcaster, journalist, and television personality. Host of Piers Morgan Uncensored on YouTube and previously on TalkTV. Former editor of the Daily Mirror and News of the World, and former host of Good Morning Britain and Piers Morgan Live on CNN. Known for combative interview style and outspoken commentary.
+role: British broadcaster, journalist
+affiliation: Piers Morgan Uncensored
+lean_left: 40
+lean_right: 60
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: piersmorgan
+issue_stances:
+  - slug: second-amendment-regulation
+    stance: Has long advocated for stricter gun control laws in the United States
+  - slug: free-speech-on-campus
+    stance: Critical of what he calls cancel culture and supportive of broad free speech
+  - slug: israel-palestine-policy
+    stance: Has hosted prominent debates on the Israel-Palestine conflict from multiple perspectives

@@ -1,0 +1,57 @@
+schema: supercitizen.assessment/v1
+lesson: from-idea-to-law
+questions:
+  - id: q1-introduction
+    kind: multiple-choice
+    text: Who can formally introduce a bill in the U.S. House of Representatives?
+    choices:
+      - id: a
+        text: Any U.S. citizen
+      - id: b
+        text: Only the President
+      - id: c
+        text: Only a member of the House
+      - id: d
+        text: Lobbyists registered with Congress
+    correct_choice_id: c
+    explanation: Only a member of the House can formally introduce a bill there.
+      (Citizens, lobbyists, and the executive branch can draft text or pressure
+      a member, but the member has to introduce it.)
+    concepts:
+      - legislative-process
+  - id: q2-committee
+    kind: multiple-choice
+    text: Roughly what fraction of bills introduced in a given Congress are
+      eventually enacted into law?
+    choices:
+      - id: a
+        text: About half
+      - id: b
+        text: About a quarter
+      - id: c
+        text: Less than 5%
+      - id: d
+        text: Almost all of them
+    correct_choice_id: c
+    explanation: Most bills die in committee. Only a small fraction (typically 2–5%)
+      of bills introduced make it to enactment — Congress.gov publishes the
+      per-Congress numbers.
+    concepts:
+      - committee-system
+      - legislative-process
+  - id: q3-veto
+    kind: free-response
+    text: If the President vetoes a bill, what happens next? Walk through the steps
+      Congress can take to enact it anyway.
+    concepts:
+      - veto
+      - veto-override
+  - id: q4-conference
+    kind: free-response
+    text: When the House and Senate pass different versions of the same bill, a
+      conference committee is sometimes used to reconcile them. In your own
+      words, what does a conference committee do, and why does the eventual
+      reconciled version still have to be re-passed by both chambers?
+    concepts:
+      - conference-committee
+      - legislative-process

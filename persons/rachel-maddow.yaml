@@ -1,0 +1,21 @@
+slug: rachel-maddow
+full_name: Rachel Maddow
+tier: "4"
+bio_md: MSNBC host and political analyst with a doctorate from Oxford. Known for her detailed, historical storytelling approach to political news and investigative segments.
+role: journalist, TV host
+affiliation: MSNBC
+lean_left: 80
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: maddow
+issue_stances:
+  - slug: voter-id
+    stance: Extensively covered Russian interference and threats to democratic institutions
+  - slug: automatic-voter-registration
+    stance: Strong advocate for protecting voting access and opposing voter suppression
+  - slug: data-privacy-law
+    stance: Covered NSA surveillance programs and executive power overreach

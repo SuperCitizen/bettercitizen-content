@@ -1,0 +1,12 @@
+slug: us-department-of-energy
+name: US Department of Energy
+kind: government
+subtype: executive-cabinet
+description: Cabinet department covering energy policy, the national laboratories, nuclear-weapons stewardship (NNSA), and energy-research funding.
+website: https://www.energy.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - climate
+  - carbon-pricing
+is_active: true

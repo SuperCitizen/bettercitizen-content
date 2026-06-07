@@ -1,0 +1,40 @@
+slug: daca-and-dreamers
+name: DACA and Dreamers
+category: immigration
+summary: The legal status of people brought to the U.S. as children without authorization — protected from deportation by Deferred Action for Childhood Arrivals (DACA) but with no permanent legal status.
+body_md: |-
+  DACA was created by executive action in 2012, providing two-year, renewable protection from deportation and work authorization for people brought to the U.S. as children, who met education and clean-record requirements. About 580,000 active DACA recipients remain.
+
+  Legal status: A federal court ruled DACA unlawful in 2023; the program continues for current recipients while litigation proceeds, but no new applications are being processed.
+
+  Legislative proposals — the DREAM Act, various comprehensive bills — would provide permanent legal status and a path to citizenship for Dreamers. Most polls show majority public support, but a path-to-citizenship has not passed Congress.
+spectrum:
+  left: Progressives strongly favor legislative permanent status and citizenship path for Dreamers.
+  center: Most centrists favor legislative legalization for Dreamers, possibly tied to other immigration changes.
+  right: "Conservative views split: some support legalization for Dreamers as part of border-security packages; others oppose any legalization."
+contested:
+  perspectives:
+    - label: Permanent-status advocates
+      summary: Dreamers were brought to the U.S. as children, grew up here, and are American in every meaningful sense. They deserve legal status and citizenship as a matter of basic fairness.
+      key_concerns:
+        - Fairness to children brought without choice
+        - Economic and social contributions
+        - Permanent legal certainty
+    - label: Comprehensive-deal advocates
+      summary: Legalize Dreamers, but only as part of broader immigration reform that includes border security and enforcement modernization. Stand-alone Dreamer-only legislation rewards illegal entry.
+      key_concerns:
+        - Border security trade-off
+        - Enforcement of existing immigration law
+        - Avoiding incentives for future illegal entry
+    - label: Strict-enforcement advocates
+      summary: Granting legal status to those who entered illegally — even as children — rewards lawbreaking and creates expectations of future amnesty. Maintain enforcement and require return / re-entry through legal channels.
+      key_concerns:
+        - Rule of law in immigration
+        - Avoiding amnesty precedents
+        - Equal treatment with legal applicants
+related_lesson_slugs:
+  - immigration
+tags:
+  - immigration
+  - dreamers
+  - daca

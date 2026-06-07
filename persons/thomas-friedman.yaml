@@ -1,0 +1,23 @@
+slug: thomas-friedman
+full_name: Thomas L. Friedman
+tier: "4"
+bio_md: Foreign-affairs columnist for The New York Times and a three-time Pulitzer Prize winner. Author of widely read books on globalization and geopolitics, including 'The Lexus and the Olive Tree', 'The World Is Flat', and 'Thank You for Being Late'. He has covered the Middle East and U.S. foreign policy for decades.
+role: columnist, author
+affiliation: The New York Times
+lean_left: 55
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: tomfriedman
+issue_stances:
+  - slug: israel-palestine-policy
+    stance: Longtime advocate of a two-state solution and critic of Israeli settlement expansion
+  - slug: climate-policy
+    stance: Argues for a 'green revolution' driven by clean-tech innovation and strong climate policy
+  - slug: trade-with-china
+    stance: Has shifted from globalization optimism toward emphasizing the need to manage strategic competition with China
+  - slug: ukraine-support
+    stance: Supports sustained Western backing of Ukraine against Russian invasion

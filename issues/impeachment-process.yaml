@@ -1,0 +1,42 @@
+slug: impeachment-process
+name: Federal impeachment process
+category: governance-and-institutions
+summary: How the Constitution's "high crimes and misdemeanors" standard should be interpreted and whether the impeachment process, as practiced, can still function as a meaningful check on the executive and judiciary.
+body_md: |-
+  The Constitution authorizes the House to impeach — and the Senate to try and convict — federal officials including presidents, judges, and cabinet officers for "Treason, Bribery, or other high Crimes and Misdemeanors." A simple majority impeaches in the House; conviction in the Senate requires a two-thirds supermajority. Conviction removes the officer; the Senate may additionally bar them from future office.
+
+  Modern impeachments — of Andrew Johnson, Bill Clinton, and Donald Trump (twice) — have all ended in acquittal. Many federal judges have been impeached and removed. The two-thirds threshold means that absent extraordinary cross-party agreement, conviction is effectively impossible, raising the question of whether impeachment remains a viable check or only a symbolic one.
+
+  Debates today center on what conduct qualifies as "high crimes and misdemeanors" — whether non-criminal abuse of power qualifies; whether late impeachments survive a former officeholder; how partisan polarization affects the Senate's deliberative function; and whether procedural reforms could restore the process's seriousness.
+spectrum:
+  left: Impeachment is the Constitution's remedy for serious abuse of power; the two-thirds Senate threshold means it only works when both parties recognize a violation, and recent acquittals reflect partisan failure, not the absence of impeachable conduct.
+  center: Impeachment is a political process designed to require broad consensus; the high threshold is a feature, not a bug, and its rare use reflects intentional gravity, even as polarization makes the process feel performative.
+  right: Impeachment should be reserved for genuine high crimes — not policy disagreements or partisan disputes; recent impeachments have stretched the standard and reduced the seriousness of the process.
+contested:
+  perspectives:
+    - label: Robust-tool advocates
+      summary: Impeachment is the Constitution's primary mechanism to discipline the executive and judiciary between elections. It must apply to serious abuses of power even when those abuses do not technically violate criminal statutes, or it becomes a dead letter.
+      key_concerns:
+        - Non-criminal abuses of power should be impeachable
+        - Process must remain credible against worst behavior
+        - Senate has constitutional duty to deliberate
+        - Late impeachment of former officers preserves accountability
+    - label: Narrow-standard traditionalists
+      summary: '"High crimes and misdemeanors" should be reserved for serious, criminal-grade misconduct. Stretching the standard to cover policy disputes and political grievances trivializes the process and risks normalizing impeachment as a partisan weapon.'
+      key_concerns:
+        - Standard should track serious misconduct
+        - Policy disputes belong in elections
+        - Repeated impeachments risk normalizing the tool
+        - Senate trial should test evidence, not politics
+    - label: Process reformers
+      summary: The two-thirds threshold, partisan composition of the Senate, and absence of evidentiary rules combine to make modern impeachment trials performative. Procedural reforms — bipartisan special counsel, evidentiary standards, expedited trials — could restore credibility short of constitutional amendment.
+      key_concerns:
+        - Two-thirds threshold makes conviction near-impossible
+        - No formal evidentiary rules in Senate trials
+        - Senators serve as both jurors and politicians
+        - Procedural standards could improve seriousness
+related_lesson_slugs: []
+tags:
+  - impeachment
+  - constitution
+  - separation-of-powers

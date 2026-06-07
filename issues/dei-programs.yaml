@@ -1,0 +1,43 @@
+slug: dei-programs
+name: Diversity, equity, and inclusion (DEI) programs
+category: civil-rights-and-liberties
+summary: Whether and how universities, employers, and government agencies should implement DEI programs — debated as anti-discrimination tools vs. ideological / discriminatory practices.
+body_md: |-
+  DEI programs vary widely: hiring outreach, anti-harassment training, employee resource groups, supplier-diversity programs, mandatory DEI statements in hiring, "anti-racist" curricula, race-conscious mentoring.
+
+  Recent backlash has produced:
+  - **State legislation** restricting public-university DEI offices and required statements (Florida, Texas, others).
+  - **SFFA spillover** litigation challenging corporate DEI practices.
+  - **Federal-contractor diversity rules** rolled back via executive order.
+  - **Major-employer rollbacks** of explicit DEI commitments.
+
+  Defenders argue DEI addresses persistent disparities and improves organizational performance. Critics argue many DEI programs constitute discrimination, ideological enforcement, or ineffective political theater.
+spectrum:
+  left: Progressives generally support DEI programs as anti-discrimination tools and mechanisms to address disparities.
+  center: Many centrists favor evidence-based diversity efforts and skepticism of programs that lack measurable outcomes.
+  right: Most conservatives oppose DEI programs as discriminatory, ideological, or counterproductive.
+contested:
+  perspectives:
+    - label: DEI advocates
+      summary: Disparities in hiring, promotion, and outcomes reflect ongoing structural barriers. DEI programs — outreach, mentoring, training, accountability metrics — address these and improve organizational performance.
+      key_concerns:
+        - Addressing persistent disparities
+        - Inclusive workplace cultures
+        - Pipeline development
+    - label: DEI critics
+      summary: Many DEI programs use race in ways that constitute discrimination, enforce ideological orthodoxy via mandatory statements and trainings, and lack evidence of improving the outcomes they claim to address.
+      key_concerns:
+        - Anti-discrimination principles
+        - Ideological orthodoxy concerns
+        - Outcome evidence
+    - label: Reform-DEI middle ground
+      summary: Replace identity-based DEI with class-conscious and viewpoint-neutral diversity efforts — broader recruiting, mentoring of underrepresented students by socioeconomic status, and bias-free objective evaluation.
+      key_concerns:
+        - Class-based diversity efforts
+        - Viewpoint-neutral programs
+        - Outcome-focused evaluation
+related_lesson_slugs: []
+tags:
+  - civil-rights
+  - workplace
+  - higher-education

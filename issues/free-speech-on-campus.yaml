@@ -1,0 +1,41 @@
+slug: free-speech-on-campus
+name: Free speech on campus
+category: civil-rights-and-liberties
+summary: How public universities should balance First Amendment protections, anti-discrimination obligations, and academic freedom amid ideological-diversity and harassment debates.
+body_md: |-
+  Public universities are bound by the First Amendment; private universities are not, but most adopt strong free-speech commitments. Recent flashpoints include:
+  - **Speaker disinvitations and shout-downs**: Heckler's vetoes vs. open debate.
+  - **DEI / required statements**: Whether DEI statements in hiring constitute viewpoint discrimination.
+  - **Title VI harassment**: Whether speech (especially around Israel-Palestine, race) creates hostile environments.
+  - **Encampment / protest policies**: Time-place-manner restrictions vs. content-based restrictions.
+
+  The "Chicago Statement" and similar formulations articulate strong free-speech commitments. Contrary efforts focus on protecting marginalized students from speech they consider harmful.
+spectrum:
+  left: "Progressive views split: some support strong free-speech protections; others favor limits where speech harms marginalized students."
+  center: Most centrists favor robust free speech with content-neutral time-place-manner enforcement.
+  right: Most conservatives favor robust free-speech protections and oppose DEI mandates and viewpoint-discriminatory policies.
+contested:
+  perspectives:
+    - label: Strong free-speech advocates
+      summary: Universities exist to expose students to challenging ideas. Robust free speech, viewpoint-neutral enforcement, and resistance to heckler's vetoes are essential to academic mission.
+      key_concerns:
+        - Viewpoint-neutral enforcement
+        - Academic freedom
+        - Open debate including controversial ideas
+    - label: Harassment / inclusion advocates
+      summary: Speech that demeans marginalized groups can create hostile environments that block equal educational opportunity. Title VI and IX impose real limits on what universities must tolerate.
+      key_concerns:
+        - Hostile-environment harassment
+        - Equal educational opportunity
+        - Inclusive learning environments
+    - label: Process-and-procedure focus
+      summary: "The substantive disagreements often come down to procedure: clear, content-neutral rules; consistent enforcement; due process for accused students; protection from heckler's vetoes."
+      key_concerns:
+        - Content-neutral enforcement
+        - Due process in disciplinary actions
+        - Consistent application of policies
+related_lesson_slugs: []
+tags:
+  - free-speech
+  - higher-education
+  - first-amendment

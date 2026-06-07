@@ -1,0 +1,11 @@
+slug: protect-democracy
+name: Protect Democracy
+kind: civic-reform
+subtype: democracy-defense
+description: Nonpartisan legal-advocacy organization focused on resisting authoritarianism and defending the rule of law, free elections, and accountability.
+website: https://protectdemocracy.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - voting-rights-act
+is_active: true

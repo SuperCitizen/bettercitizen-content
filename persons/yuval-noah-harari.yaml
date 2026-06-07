@@ -1,0 +1,15 @@
+slug: yuval-noah-harari
+full_name: Yuval Noah Harari
+tier: "4"
+bio_md: Israeli historian and author of Sapiens, Homo Deus, and 21 Lessons for the 21st Century. One of the world's most widely read public intellectuals on the future of humanity.
+role: historian, author
+affiliation: Hebrew University of Jerusalem
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: haraborman
+issue_stances: []

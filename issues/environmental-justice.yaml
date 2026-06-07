@@ -1,0 +1,33 @@
+slug: environmental-justice
+name: Environmental justice
+category: environment-and-energy
+summary: How environmental burdens — pollution, toxic sites, climate impacts — are distributed across communities, and how to address disproportionate exposure.
+body_md: |-
+  Environmental justice refers to the observation that pollution sources, toxic-waste sites, and climate impacts are unevenly distributed across communities, with low-income communities and communities of color often bearing disproportionate burdens. The concept emerged in the 1980s and is now formally recognized in federal policy.
+
+  The Biden administration's Justice40 initiative aimed to direct 40% of the benefits of certain federal climate, clean-energy, and infrastructure investments to "disadvantaged communities." EPA has expanded environmental-justice screening tools, civil-rights enforcement under Title VI, and community-grant programs.
+
+  Debates center on how to define affected communities, whether explicit targeting is appropriate or whether neutral criteria should govern, how to weigh local environmental concerns against economic development, and how aggressively to use civil-rights tools against permitting decisions.
+spectrum:
+  left: Progressives strongly support environmental-justice policy, including community-benefit requirements, Justice40-style targeting, and active civil-rights enforcement against discriminatory siting.
+  center: Centrists generally support environmental-justice screening and community-engagement requirements, while debating how explicit the targeting should be and how to balance with economic-development concerns.
+  right: Conservative views vary. Some support neutral pollution reduction that benefits affected communities; many object to race- or income-based federal targeting and broad Title VI enforcement.
+contested:
+  perspectives:
+    - label: Environmental-justice advocates
+      summary: Decades of evidence show that polluting facilities, highways, and toxic sites are disproportionately sited in low-income communities and communities of color. Federal policy must explicitly target investments to these communities and use civil-rights tools to prevent discriminatory permitting.
+      key_concerns:
+        - Disproportionate pollution exposure
+        - Cumulative impacts in overburdened communities
+        - Meaningful community input in permitting
+    - label: Neutral-criteria and economic-development concerns
+      summary: Environmental policy should target pollution itself, not demographics. Race- and income-based federal targeting raises legal and fairness concerns, and aggressive Title VI enforcement can block industrial projects that bring jobs and tax base to the same communities they aim to help.
+      key_concerns:
+        - Use of demographic criteria in federal funding
+        - Industrial-project permitting delays
+        - Jobs and tax base in working-class areas
+related_lesson_slugs: []
+tags:
+  - environment
+  - civil-rights
+  - pollution

@@ -1,0 +1,23 @@
+slug: barack-obama
+full_name: Barack Obama
+tier: "4"
+bio_md: 44th President of the United States (2009-2017). First African American president. Oversaw the ACA, economic recovery from the Great Recession, and the operation that killed Osama bin Laden.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: medicare-for-all
+    stance: Signed the Affordable Care Act
+  - slug: climate-policy
+    stance: Signed the Paris Climate Agreement
+  - slug: nuclear-power
+    stance: Negotiated the Iran nuclear deal
+  - slug: cash-bail
+    stance: Commuted sentences for nonviolent drug offenses

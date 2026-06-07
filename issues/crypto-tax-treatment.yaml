@@ -1,0 +1,39 @@
+slug: crypto-tax-treatment
+name: Cryptocurrency Tax Treatment
+category: economy-and-taxation
+summary: How the IRS and Congress should treat cryptocurrencies for capital-gains reporting, exchange-information reporting, staking rewards, and routine small transactions.
+body_md: |-
+  For federal income-tax purposes, cryptocurrencies are generally treated as property. Every disposition — including a swap of one token for another or a purchase of goods with crypto — is potentially a taxable event triggering capital-gain or loss reporting. Brokers and exchanges have faced expanding information-reporting requirements; staking and mining rewards raise additional questions about timing and character.
+
+  Industry groups argue the current framework is administratively unworkable for everyday users, particularly for small transactions and DeFi activity, and that staking rewards should be taxed only on disposition rather than at receipt. Tax-enforcement advocates argue clear, broad reporting closes a major tax gap and discourages illicit finance.
+
+  Pending proposals include a de minimis exemption for small payments, clarified rules for staking and mining, standardized 1099 reporting, and tighter coordination with anti-money-laundering rules.
+spectrum:
+  left: Progressives and many enforcement-oriented voices favor robust reporting, prompt taxation of staking rewards, and limits on tax-avoidance structures, viewing crypto as a significant unreported tax base.
+  center: Moderates emphasize clearer, more workable rules — including a small-transaction exemption and clear staking guidance — paired with strong but administrable reporting.
+  right: Many on the right favor light-touch rules, robust privacy protections, and clear safe harbors, arguing aggressive enforcement chokes innovation and pushes activity offshore.
+contested:
+  perspectives:
+    - label: Close the crypto tax gap
+      summary: Significant crypto income goes unreported. Strong exchange-level reporting, clear staking rules at receipt, and coordination with anti-money-laundering frameworks bring the asset class into the same regime that already applies to stocks and bonds.
+      key_concerns:
+        - Tax-gap revenue
+        - Parity with traditional securities
+        - Limiting illicit-finance channels
+    - label: Workable rules for users
+      summary: Treating every small swap or coffee purchase as a taxable event is administratively impossible for ordinary users. A de minimis exemption, clear staking rules, and standardized reporting can fund enforcement without criminalizing routine activity.
+      key_concerns:
+        - De minimis transaction exemption
+        - Clarity on staking and DeFi
+        - Administrable compliance burden
+    - label: Innovation-protective approach
+      summary: Heavy-handed reporting and tax rules push U.S. developers and users offshore. Light-touch, principles-based regulation paired with safe harbors keeps innovation domestic and preserves financial privacy.
+      key_concerns:
+        - Avoiding offshore migration
+        - Financial privacy
+        - Regulatory certainty for builders
+related_lesson_slugs: []
+tags:
+  - crypto
+  - tax-policy
+  - reporting

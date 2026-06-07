@@ -1,0 +1,15 @@
+slug: matt-walsh
+full_name: Matt Walsh
+tier: "4"
+bio_md: Conservative commentator at The Daily Wire. Known for the documentary What Is a Woman? and his outspoken positions on gender, religion, and culture.
+role: commentator, filmmaker
+affiliation: The Daily Wire
+lean_left: 5
+lean_right: 95
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: MattWalshBlog
+issue_stances: []

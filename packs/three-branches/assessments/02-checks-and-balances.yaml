@@ -1,0 +1,40 @@
+schema: supercitizen.assessment/v1
+lesson: checks-and-balances
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "If the President vetoes a bill, what can Congress do?"
+    choices:
+      - id: a
+        text: "Nothing — a veto is final"
+      - id: b
+        text: "Override the veto with a two-thirds majority in both chambers"
+      - id: c
+        text: "Override the veto with a simple majority in either chamber"
+      - id: d
+        text: "Refer the bill to the Supreme Court for review"
+    correct_choice_id: b
+    explanation: "Art. I, §7 lets each chamber override a veto with two-thirds, after which the bill becomes law without the President's signature."
+    concepts: [veto-power, checks-and-balances]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which Supreme Court case established the principle of judicial review?"
+    choices:
+      - id: a
+        text: "Brown v. Board of Education"
+      - id: b
+        text: "Marbury v. Madison"
+      - id: c
+        text: "McCulloch v. Maryland"
+      - id: d
+        text: "Roe v. Wade"
+    correct_choice_id: b
+    explanation: "Marbury v. Madison (1803) is where Chief Justice Marshall asserted that federal courts can hold acts of Congress unconstitutional."
+    concepts: [judicial-review]
+
+  - id: q3
+    kind: free-response
+    text: "Madison wrote that 'ambition must be made to counteract ambition.' What does that mean as a design principle for government?"
+    concepts: [checks-and-balances]
+    socratic_seed: "Does the system rely on virtuous officials, or does it work even when officials are self-interested?"

@@ -1,0 +1,12 @@
+slug: us-house-of-representatives
+name: US House of Representatives
+kind: government
+subtype: legislative
+description: "Lower chamber of Congress: 435 voting members apportioned by state population, two-year terms, originates revenue bills."
+website: https://www.house.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - committee-system
+  - conference-committee
+is_active: true

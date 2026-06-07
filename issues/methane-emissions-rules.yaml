@@ -1,0 +1,33 @@
+slug: methane-emissions-rules
+name: Methane emissions rules
+category: environment-and-energy
+summary: EPA standards limiting methane leaks and venting from oil and gas operations, given methane's outsized short-term climate impact.
+body_md: |-
+  Methane is the primary component of natural gas and a potent greenhouse gas — roughly 80 times more warming than carbon dioxide over a 20-year horizon. The U.S. oil and gas sector is among the largest sources of methane emissions, primarily through leaks, venting, and flaring across wells, pipelines, and processing facilities.
+
+  EPA has issued rules requiring leak detection and repair (LDAR), limits on routine flaring and venting, and standards for both new and existing sources. The Inflation Reduction Act of 2022 created a Methane Emissions Reduction Program that includes a fee on excess methane emissions from large facilities, alongside grants to help operators reduce leaks.
+
+  Industry response is divided: larger operators have generally supported reasonable standards, citing the value of the gas captured and methane's reputational impact; smaller operators argue the rules impose disproportionate compliance costs and could shut in marginal wells.
+spectrum:
+  left: Most progressives strongly support aggressive methane rules — comprehensive LDAR, near-zero routine flaring, and the IRA methane fee — and would push standards further.
+  center: Centrists generally support cost-effective methane rules with risk-based monitoring and the methane fee, viewing leak reduction as low-hanging climate fruit with positive economics.
+  right: Conservative views split. Many oppose the methane fee and stricter LDAR rules as regulatory overreach; some support sensible leak detection given the captured gas's value.
+contested:
+  perspectives:
+    - label: Climate-and-air-quality advocates
+      summary: Methane is the single biggest near-term climate lever, and U.S. oil and gas operations are major emitters. Strict LDAR, near-zero venting and flaring, and the IRA methane fee are essential for hitting climate targets and protecting communities near facilities.
+      key_concerns:
+        - Methane's short-term climate impact
+        - Local air quality near facilities
+        - Wasted product and tax revenue
+    - label: Industry and small-operator concerns
+      summary: Methane rules can be cost-effective for large modern facilities but impose disproportionate compliance burdens on small and stripper-well operators. Aggressive rules and fees risk shutting in marginal U.S. production, shifting it to higher-emitting overseas sources.
+      key_concerns:
+        - Compliance cost on small operators
+        - Marginal-well shut-ins
+        - Carbon leakage to overseas producers
+related_lesson_slugs: []
+tags:
+  - environment
+  - climate
+  - oil-and-gas

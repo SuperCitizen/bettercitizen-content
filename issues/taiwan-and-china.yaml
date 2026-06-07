@@ -1,0 +1,43 @@
+slug: taiwan-and-china
+name: Taiwan and U.S.-China policy
+category: foreign-policy
+summary: How the U.S. should manage strategic competition with China, including its commitments to Taiwan under the Taiwan Relations Act and "strategic ambiguity."
+body_md: |-
+  U.S. policy toward China has shifted from "engagement" (1970s-2010s) to "strategic competition" under both Trump and Biden administrations. Taiwan is the central flashpoint: the Taiwan Relations Act (1979) commits the U.S. to provide Taiwan defensive arms and to view any non-peaceful effort to determine Taiwan's future "of grave concern."
+
+  Key debates:
+  - **Strategic ambiguity vs. clarity**: Whether to declare unambiguously that the U.S. would defend Taiwan against PRC attack.
+  - **Arms sales to Taiwan**: Pace, mix, and political signaling.
+  - **Defense posture**: U.S. force structure, basing, and exercises in the Indo-Pacific.
+  - **Economic decoupling**: Tech export controls (advanced chips, EDA tools), investment screening, sanctions.
+  - **Engagement**: Whether to maintain working diplomatic and military channels.
+spectrum:
+  left: Most progressives support strong but careful Taiwan policy combined with diplomatic engagement to reduce escalation risk.
+  center: Most centrists favor strong Taiwan support, robust deterrence, and selective economic decoupling.
+  right: Most conservatives favor robust Taiwan support and aggressive economic decoupling.
+contested:
+  perspectives:
+    - label: Robust-deterrence advocates
+      summary: A PRC attack on Taiwan would be catastrophic. Strategic clarity, robust arms sales, hardened force posture, and tech-export controls reduce the risk of war by making it unaffordable for Beijing.
+      key_concerns:
+        - Deterrence of PRC aggression
+        - Tech-decoupling on critical sectors
+        - Indo-Pacific force posture
+    - label: Engagement-and-restraint advocates
+      summary: Strategic ambiguity has kept the peace for decades. Drift toward strategic clarity and decoupling raises war risk; engagement, communication, and arms-control dialogue reduce it.
+      key_concerns:
+        - Avoiding catastrophic war
+        - Preserving engagement channels
+        - De-escalation tools
+    - label: Comprehensive-decoupling advocates
+      summary: China is a hostile authoritarian power. Beyond Taiwan, the U.S. should aggressively decouple economically, restrict Chinese investment in U.S. critical infrastructure, and contain PRC influence operations.
+      key_concerns:
+        - Critical-infrastructure protection
+        - Influence operations
+        - Supply-chain decoupling
+related_lesson_slugs:
+  - foreign-policy
+tags:
+  - foreign-policy
+  - china
+  - taiwan

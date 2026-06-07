@@ -1,0 +1,21 @@
+slug: jordan-peterson
+full_name: Jordan Peterson
+tier: "4"
+bio_md: Canadian psychologist and author of 12 Rules for Life. Rose to fame opposing Canadian pronoun legislation. Known for his Jungian psychology lectures and critiques of postmodern ideology.
+role: psychologist, author
+affiliation: Independent
+lean_left: 25
+lean_right: 75
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: true
+twitter: jordanbpeterson
+issue_stances:
+  - slug: section-230
+    stance: Opposes compelled speech and content moderation overreach
+  - slug: higher-education-funding
+    stance: Critical of ideological capture of universities
+  - slug: drug-decriminalization
+    stance: Has spoken about his own experiences with dependency

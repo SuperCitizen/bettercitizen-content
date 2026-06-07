@@ -1,0 +1,40 @@
+slug: electoral-college
+name: Electoral College
+category: elections-and-voting
+summary: The constitutional mechanism that elects the President via state-allocated electors rather than direct national popular vote.
+body_md: |-
+  The Electoral College awards each state a number of electors equal to its congressional delegation (House + Senate). Forty-eight states allocate all their electors to the statewide winner; Maine and Nebraska allocate by congressional district. A presidential candidate needs 270 of 538 electors to win.
+
+  Five times in U.S. history (most recently 2000 and 2016), the popular-vote winner lost the Electoral College. Reform proposals include the National Popular Vote Interstate Compact (NPVIC), which would commit member states to award their electors to the national popular-vote winner once enough states (270 EVs) have signed on.
+
+  Defenders argue the Electoral College preserves federal balance, prevents urban-area dominance, and forces candidates to build geographically broad coalitions. Critics argue it makes most votes irrelevant, distorts campaigns toward swing states, and can produce winners who lost the national vote.
+spectrum:
+  left: Most progressives favor abolishing or bypassing the Electoral College via the NPVIC, arguing every vote should count equally regardless of state.
+  center: Reformers debate whether to abolish, allocate proportionally by state, or keep but require NPVIC-style national popular-vote alignment.
+  right: Most conservatives favor preserving the Electoral College as a constitutional protection of federalism and small-state interests.
+contested:
+  perspectives:
+    - label: Abolitionists / NPVIC supporters
+      summary: A national popular vote is the only system that treats every voter equally. The current system disenfranchises voters in non-swing states and has produced minority-vote presidents.
+      key_concerns:
+        - Equal weight for every vote nationwide
+        - Reducing campaign focus on a handful of swing states
+        - Aligning the presidency with the majority will
+    - label: Federalist defenders
+      summary: The Electoral College is a constitutional feature, not a bug. It forces coalition-building across regions, protects small states, and prevents the tyranny of a few large urban areas.
+      key_concerns:
+        - Federal balance between states
+        - Avoiding rural-vs-urban polarization
+        - Constitutional stability and amendment difficulty
+    - label: Proportional reformers
+      summary: Keep the College but allocate electors proportionally within each state, eliminating winner-take-all without abolishing the institution.
+      key_concerns:
+        - Reducing the swing-state distortion
+        - Preserving state-level federal structure
+        - Avoiding a constitutional amendment
+related_lesson_slugs:
+  - electoral-college
+tags:
+  - presidential-elections
+  - federalism
+  - constitutional-reform

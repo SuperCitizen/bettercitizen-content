@@ -1,0 +1,43 @@
+slug: court-packing
+name: Supreme Court expansion
+category: governance-and-institutions
+summary: Whether Congress should expand the Supreme Court beyond its current nine seats to alter its ideological balance or to address structural problems with the confirmation process.
+body_md: |-
+  The size of the Supreme Court is set by statute, not the Constitution, and has changed several times — from six justices at founding to ten during the Civil War to its current nine since 1869. Franklin Roosevelt famously proposed expanding the Court to fifteen in 1937 after the Court struck down New Deal programs; the proposal failed amid bipartisan opposition. Recent proposals — most prominently from progressive scholars and lawmakers after the Court's rightward shift in 2017–2022 — would expand the Court to thirteen or more.
+
+  Proponents argue that the modern Court reflects strategic seat-blocking and rushed confirmations rather than ordinary constitutional process, that expansion is a constitutional and statutory remedy for procedural abuse, and that the Court has assumed an outsized policy role that requires re-balancing.
+
+  Opponents — including across partisan lines historically — argue that Court expansion would trigger retaliatory expansions, destroy the Court's legitimacy as an institution above ordinary politics, and turn every change in Senate control into a constitutional reset. They warn this is the path to a partisan supreme court rather than a Supreme Court.
+spectrum:
+  left: The current Court reflects procedural abuse (blocked nominations, rushed confirmations) more than democratic legitimacy; expansion is a constitutional remedy that Congress has used before and could use again to rebalance the institution.
+  center: Court expansion would likely trigger tit-for-tat expansions across future Senate majorities, destabilizing the institution; structural reforms like term limits or jurisdiction-stripping might address legitimacy concerns without the escalation dynamic.
+  right: Court packing was rejected even by FDR's own party in 1937 and would mark a constitutional crisis; the Constitution permits expansion but doing so for ideological reasons would politicize the judiciary irrevocably.
+contested:
+  perspectives:
+    - label: Pro-expansion progressives
+      summary: The modern Court was shaped by Senate procedural abuse — blocking Garland, rushing Barrett — and now wields outsized policy power on abortion, voting rights, and administrative law. Congress's statutory authority to set Court size is a constitutional remedy for procedural illegitimacy.
+      key_concerns:
+        - Confirmation process has been corrupted
+        - Court has assumed outsized policy role
+        - Statutory authority is clear
+        - Historic precedent for Court size changes
+    - label: Institutional-stability opponents
+      summary: Court expansion would trigger retaliatory expansion in the next Senate majority of the other party, eventually destroying the Court's legitimacy as a stable institution. Every change in Senate control would become a constitutional reset. The cost — loss of an independent judiciary — is permanent.
+      key_concerns:
+        - Retaliatory expansion is inevitable
+        - Court legitimacy depends on stability
+        - Independent judiciary requires institutional restraint
+        - Path leads to politicized supreme court
+    - label: Reform-the-process middle
+      summary: The deeper problem — confirmation politics, lifetime tenure, and outsized policy role — is real but not solved by expansion. Term limits, jurisdiction-stripping, supermajority requirements for striking statutes, or other procedural reforms could address legitimacy without the escalation dynamic.
+      key_concerns:
+        - Underlying problems are procedural and structural
+        - Term limits offer steadier reform
+        - Jurisdiction-stripping is targeted
+        - Avoids tit-for-tat dynamic
+related_lesson_slugs: []
+tags:
+  - supreme-court
+  - court-packing
+  - judiciary
+  - constitutional-reform

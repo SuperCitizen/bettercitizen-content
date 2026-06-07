@@ -1,0 +1,24 @@
+slug: dan-crenshaw
+full_name: Dan Crenshaw
+tier: "3"
+bio_md: U.S. Representative from Texas's 2nd district since 2019. Former Navy SEAL who lost his right eye in an IED blast in Afghanistan. Holds a master's degree from the Harvard Kennedy School. Known for his focus on national security, energy policy, and willingness to publicly disagree with members of his own party's populist wing.
+role: representative, veteran
+affiliation: U.S. House of Representatives
+party: Republican
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: DanCrenshawTX
+issue_stances:
+  - slug: ukraine-support
+    stance: Supports continued U.S. military aid to Ukraine against Russia
+  - slug: military-spending
+    stance: Advocates for robust defense spending and military readiness
+  - slug: nato-and-alliances
+    stance: Strong supporter of NATO and U.S. global alliance commitments
+  - slug: climate-policy
+    stance: Accepts climate science; favors nuclear and natural gas as climate solutions over heavy regulation

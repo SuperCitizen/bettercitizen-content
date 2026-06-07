@@ -1,0 +1,33 @@
+slug: cuba-relations
+name: Cuba relations
+category: foreign-policy
+summary: U.S. policy toward Cuba, including the trade embargo, travel restrictions, the State Sponsors of Terrorism list, and diplomatic normalization.
+body_md: |-
+  The U.S. economic embargo on Cuba dates to the early 1960s and remains the most comprehensive U.S. sanctions regime in the Western Hemisphere. The Obama administration restored diplomatic relations in 2015 and eased travel and remittances; the Trump administration reversed many of those steps, including re-designating Cuba a State Sponsor of Terrorism in 2021. The Biden administration loosened some restrictions on remittances and travel without lifting the broader embargo.
+
+  Cuban economic conditions have deteriorated sharply, prompting a historic wave of migration to the U.S. southern border. Internal protests in 2021 were met with arrests and prison sentences. The U.N. General Assembly has voted overwhelmingly each year for decades calling on the U.S. to lift the embargo.
+
+  Debates center on whether the embargo pressures the Cuban government or strengthens it as a foreign-blame narrative, the humanitarian impact on ordinary Cubans, the role of the Cuban-American electorate, and conditions that should accompany normalization.
+spectrum:
+  left: Most progressives favor lifting the embargo, restoring diplomatic engagement, removing Cuba from the State Sponsors of Terrorism list, and easing travel and remittances.
+  center: Centrists are split. Some support gradual normalization tied to human-rights benchmarks; others favor maintaining pressure pending political reform.
+  right: Most conservatives support maintaining the embargo and State Sponsor designation, citing the Cuban regime's human-rights record, support for Venezuela and Nicaragua, and Cuban-American political voice.
+contested:
+  perspectives:
+    - label: Engagement and normalization advocates
+      summary: Six decades of embargo have not produced political change in Cuba; they have hurt ordinary Cubans and given the regime a foreign scapegoat. Engagement, travel, and remittances build civil society and economic independence from the state. The U.N. and most U.S. allies oppose the embargo.
+      key_concerns:
+        - Humanitarian impact on ordinary Cubans
+        - Building Cuban civil society and private sector
+        - U.S. isolation on the policy
+    - label: Pressure-and-conditions advocates
+      summary: The Cuban regime imprisons political opponents, restricts speech, props up Venezuela and Nicaragua, and exports security services across the hemisphere. Lifting pressure rewards repression. Sanctions relief should be tied to concrete human-rights and political reforms, including release of political prisoners.
+      key_concerns:
+        - Political prisoners and free expression
+        - Cuban support for Venezuela and Nicaragua
+        - Concessions tied to verifiable reform
+related_lesson_slugs: []
+tags:
+  - foreign-policy
+  - cuba
+  - sanctions

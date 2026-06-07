@@ -1,0 +1,14 @@
+slug: keir-starmer
+full_name: Keir Starmer
+tier: "4"
+bio_md: Prime Minister of the United Kingdom and leader of the Labour Party. Former Director of Public Prosecutions. Led Labour back to power after years in opposition.
+role: politician
+affiliation: Labour Party
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances: []

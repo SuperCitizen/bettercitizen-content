@@ -1,0 +1,24 @@
+slug: larry-hogan
+full_name: Larry Hogan
+tier: "4"
+bio_md: Former Governor of Maryland from 2015 to 2023. One of only two Republican governors of Maryland in the past half-century. Known as a moderate Republican who frequently criticized President Donald Trump. Ran unsuccessfully for US Senate in Maryland in 2024, losing to Angela Alsobrooks.
+role: Former Governor of Maryland
+affiliation: Republican Party
+party: Republican
+lean_left: 38
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: LarryHogan
+issue_stances:
+  - slug: abortion-access
+    stance: Described himself as pro-choice and did not pursue abortion restrictions as Maryland governor
+  - slug: corporate-tax-rate
+    stance: Pushed tax cuts on retirement income and worked to reduce regulatory burdens as governor
+  - slug: filibuster
+    stance: Argued for bipartisan dealmaking and against eliminating the Senate filibuster during his 2024 Senate run
+  - slug: second-amendment-regulation
+    stance: Signed Maryland legislation banning untraceable 'ghost guns' as governor

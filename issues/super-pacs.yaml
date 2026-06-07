@@ -1,0 +1,34 @@
+slug: super-pacs
+name: Super PACs and independent expenditures
+category: money-in-politics
+summary: Independent-expenditure-only committees that may raise unlimited funds from individuals, corporations, and unions to advocate for or against candidates, but cannot coordinate with campaigns.
+body_md: |-
+  Super PACs were created by SpeechNow.org v. FEC (2010), which combined with Citizens United to allow unlimited contributions to committees that make only independent expenditures. Super PACs must disclose their donors to the FEC, but a substantial portion of Super PAC funding comes from 501(c)(4) "social welfare" organizations and LLCs that obscure ultimate sources.
+
+  In 2024 cycles, top Super PACs spent in the hundreds of millions on a single race. The "non-coordination" rule has been criticized as unenforceable in practice — campaigns and aligned Super PACs share consultants, public messaging signals, and even fundraising events.
+
+  Policy debates center on coordination rules, donor disclosure, and whether to encourage small-donor matching as a counterweight.
+spectrum:
+  left: Most progressives view Super PACs as a corrupting force and favor disclosure plus small-donor matching.
+  center: Reformers favor stricter coordination rules and faster, fuller donor disclosure.
+  right: Some conservatives defend Super PACs as protected speech; others oppose specific abuses like single-candidate Super PACs that mimic campaigns.
+contested:
+  perspectives:
+    - label: Reform advocates
+      summary: Super PACs let billionaires and corporations dwarf ordinary citizens' voices. Stricter coordination enforcement, disclosure, and small-donor matching are the path back to citizen-centered elections.
+      key_concerns:
+        - Concentration of political influence
+        - Ineffective non-coordination enforcement
+        - Donor anonymization through pass-through LLCs
+    - label: Speech-rights defenders
+      summary: Independent expenditures are protected speech. Super PACs let citizens pool resources to amplify viewpoints; restrictions favor incumbent politicians and well-funded press organizations.
+      key_concerns:
+        - First Amendment protection
+        - Counterweight to incumbent advantage
+        - Avoiding government censorship of advocacy
+related_lesson_slugs:
+  - pacs-and-super-pacs
+  - money-in-politics-101
+tags:
+  - campaign-finance
+  - pacs

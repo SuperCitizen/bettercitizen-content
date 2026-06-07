@@ -1,0 +1,23 @@
+slug: sean-hannity
+full_name: Sean Hannity
+tier: "4"
+bio_md: Fox News host and radio personality. One of the most watched cable news hosts and a close ally of Donald Trump. Known for opinion-driven commentary and defense of Republican positions.
+role: TV host, commentator
+affiliation: Fox News
+lean_left: 10
+lean_right: 90
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: seanhannity
+issue_stances:
+  - slug: border-security
+    stance: Advocates for strict border enforcement and deportations
+  - slug: second-amendment-regulation
+    stance: Strong defender of Second Amendment rights
+  - slug: voter-id
+    stance: Amplified claims of 2020 election irregularities
+  - slug: corporate-tax-rate
+    stance: Supports tax cuts as engine of economic growth

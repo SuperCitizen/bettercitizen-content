@@ -1,0 +1,38 @@
+slug: e-verify-mandate
+name: E-Verify mandate
+category: immigration
+summary: Whether to require all U.S. employers to use the federal E-Verify system to confirm new hires' work authorization, currently mandatory only for federal contractors and in some states.
+body_md: |-
+  E-Verify is a free federal system that lets employers check new hires' work authorization against Social Security and DHS records. It is currently mandatory for federal contractors and required by law in roughly 22 states for some or all employers; voluntary elsewhere.
+
+  Federal mandate proposals would phase in universal E-Verify for all U.S. employers. Defenders argue mandate would shut off the magnet of unauthorized employment, the largest driver of unauthorized migration. Critics argue mandate harms small businesses, generates false-non-confirmations especially against minority workers, and pushes employment further into cash economy.
+spectrum:
+  left: Many progressives oppose mandate, citing false-non-confirmation rates and effects on minority workers.
+  center: Many centrists favor universal mandate as a workplace-enforcement complement to legalization.
+  right: Most conservatives favor universal E-Verify mandate as core enforcement.
+contested:
+  perspectives:
+    - label: Universal-mandate advocates
+      summary: Unauthorized employment is the magnet driving illegal immigration. Universal E-Verify, with hard penalties for employers who circumvent it, dries up the magnet far more effectively than border enforcement alone.
+      key_concerns:
+        - Workplace enforcement as primary lever
+        - Reducing employer demand
+        - Equal treatment of all employers
+    - label: Mandate skeptics
+      summary: E-Verify's false-non-confirmation rate disproportionately affects minority and naturalized workers. Mandate without legalization pushes workers into cash economy, lowering wages and worker protections.
+      key_concerns:
+        - False-non-confirmation rates
+        - Disparate impact on minority workers
+        - Cash-economy displacement
+    - label: Legalize-then-mandate
+      summary: Couple universal E-Verify with legalization for long-term unauthorized residents. Both restore rule of law and avoid creating a permanent shadow workforce.
+      key_concerns:
+        - Combining enforcement and legalization
+        - Avoiding permanent shadow workforce
+        - Phased implementation
+related_lesson_slugs:
+  - immigration
+tags:
+  - immigration
+  - enforcement
+  - employment

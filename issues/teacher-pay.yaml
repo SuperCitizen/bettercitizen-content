@@ -1,0 +1,43 @@
+slug: teacher-pay
+name: Teacher pay and teacher workforce
+category: education
+summary: Whether teacher salaries, benefits, working conditions, and professional autonomy adequately recruit and retain a high-quality teaching workforce.
+body_md: |-
+  Teacher pay relative to other college-educated workers has declined for decades. Teacher shortages have intensified in math, science, special education, and rural districts, with pandemic-era attrition adding strain. Salaries vary enormously by state and district.
+
+  Reform proposals span:
+  - **Federal pay floors** (e.g. Sanders' $60K minimum proposal)
+  - **Differential pay** for high-need subjects and high-poverty schools
+  - **Loan forgiveness** for teachers in shortage fields
+  - **Working conditions**: classroom autonomy, administrative load, discipline
+  - **Tenure and evaluation**: linking pay to evaluations or student outcomes
+spectrum:
+  left: Progressives generally favor higher base pay, stronger union protections, and federal investment in teacher workforce.
+  center: Many moderates favor differentiated pay (high-need subjects, high-poverty schools) and modernized evaluation.
+  right: "Conservative views split: some favor merit pay tied to outcomes; others favor reduced regulation and more teacher autonomy."
+contested:
+  perspectives:
+    - label: Pay-and-conditions reformers
+      summary: Teacher pay has fallen behind comparable college-educated work for 30 years. Higher pay, stronger working conditions, and reduced administrative load are essential to recruit and retain.
+      key_concerns:
+        - Compensation parity with comparable professions
+        - Working conditions and administrative load
+        - Recruitment in shortage fields
+    - label: Outcome-tied pay advocates
+      summary: Reward effective teachers — those whose students gain skills — and remove ineffective ones. Existing union-backed seniority systems shield poor performance.
+      key_concerns:
+        - Pay differentiation by effectiveness
+        - Removing ineffective teachers
+        - Tying compensation to outcomes
+    - label: Local-autonomy advocates
+      summary: Federal mandates and standardized evaluation demoralize teachers and remove discretion. Restore local control, reduce testing burden, and let teachers and parents drive school choices.
+      key_concerns:
+        - Local decision-making
+        - Reducing standardized-testing burden
+        - Teacher discretion and autonomy
+related_lesson_slugs:
+  - school-boards
+tags:
+  - education
+  - teachers
+  - k-12

@@ -1,0 +1,40 @@
+slug: gerrymandering
+name: Gerrymandering and redistricting
+category: elections-and-voting
+summary: The practice of drawing electoral district boundaries to advantage one political party or group, and the reforms that aim to constrain it.
+body_md: |-
+  Every ten years, after the census, states redraw congressional and state legislative districts. Most states task their legislatures with this; a growing minority use independent or bipartisan commissions. Computer-aided drawing has made partisan gerrymandering far more precise — districts can be optimized to "pack" opposition voters into a few districts and "crack" them across many others.
+
+  The Supreme Court ruled in Rucho v. Common Cause (2019) that partisan gerrymandering is non-justiciable in federal courts, leaving the issue to states. Racial gerrymandering remains justiciable under the Voting Rights Act and the 14th Amendment.
+
+  Reform proposals include independent redistricting commissions, mathematical fairness criteria (compactness, partisan symmetry), and federal legislation to set national standards.
+spectrum:
+  left: Many progressives push for independent commissions and federal anti-gerrymandering legislation, viewing partisan map-drawing as voter suppression.
+  center: Good-government reformers across parties favor independent commissions and mathematical fairness standards.
+  right: Some conservatives accept partisan map-drawing as legitimate political activity protected by the Constitution; others support nonpartisan reform.
+contested:
+  perspectives:
+    - label: Independent-commission reformers
+      summary: Voters should choose their representatives, not the other way around. Independent commissions in states like California, Michigan, and Arizona have produced more competitive maps.
+      key_concerns:
+        - Removing self-interested legislators from line-drawing
+        - Producing competitive districts
+        - Reducing extreme partisan outcomes
+    - label: Status-quo / political defenders
+      summary: Districting is inherently political and was assigned to legislatures by the Constitution. Mathematical "fairness" is unattainable and commissions just shift partisanship to unaccountable appointees.
+      key_concerns:
+        - Constitutional assignment of districting to legislatures
+        - Accountability of map-drawers
+        - Uncertainty about commission neutrality
+    - label: Proportional / multi-member alternatives
+      summary: Single-member districts make gerrymandering possible at all. Multi-member districts with proportional voting (e.g. STV) eliminate the line-drawing problem.
+      key_concerns:
+        - Structural fix vs procedural fix
+        - Compatibility with federal law
+        - Political feasibility of multi-member reform
+related_lesson_slugs:
+  - gerrymandering
+tags:
+  - redistricting
+  - electoral-reform
+  - voting-rights

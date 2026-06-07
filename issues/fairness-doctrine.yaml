@@ -1,0 +1,36 @@
+slug: fairness-doctrine
+name: Fairness Doctrine and broadcast neutrality
+category: media-and-information
+summary: Whether to revive an FCC requirement that broadcasters present contrasting views on controversial public issues — repealed in 1987 and credited (or blamed) for the rise of partisan talk radio.
+body_md: |-
+  The FCC's Fairness Doctrine (1949-1987) required broadcasters using public airwaves to provide balanced coverage of controversial public issues. The Reagan-era FCC repealed it in 1987 on First Amendment and changing-media grounds.
+
+  Since repeal, partisan talk radio (Limbaugh, Hannity), partisan cable news, and online media have grown. Some commentators credit / blame the repeal for the resulting media landscape.
+
+  Revival proposals are politically dead at the federal level (the FCC repealed the underlying rule in 2011). Related debates persist:
+  - **Broadcast vs. cable**: Spectrum-based vs. cable rules.
+  - **Public-interest standards**: What broadcasters must do in exchange for spectrum.
+  - **Equal-time / sponsorship-disclosure** rules.
+spectrum:
+  left: Progressive views vary; few currently push for full Fairness Doctrine revival, but some support stronger public-interest broadcast standards.
+  center: Most centrists view the Fairness Doctrine as historical; some support related transparency rules.
+  right: Most conservatives strongly oppose Fairness Doctrine revival, viewing it as government censorship of conservative voices.
+contested:
+  perspectives:
+    - label: Public-interest revival advocates
+      summary: Broadcasters use public airwaves and should serve the public interest. Some form of fairness or public-interest obligation could counter the polarization-driven business model.
+      key_concerns:
+        - Public-airwave responsibility
+        - Counteracting polarization
+        - Restoring trusted news
+    - label: First Amendment opponents
+      summary: The Fairness Doctrine was government-enforced editorial control. Revival would chill speech, particularly disfavored speech, and is incompatible with the First Amendment in a multi-channel media era.
+      key_concerns:
+        - First Amendment
+        - Government-enforced editorial control
+        - Multi-channel media availability
+related_lesson_slugs: []
+tags:
+  - media
+  - broadcasting
+  - first-amendment

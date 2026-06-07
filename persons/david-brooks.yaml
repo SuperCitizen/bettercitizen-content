@@ -1,0 +1,23 @@
+slug: david-brooks
+full_name: David Brooks
+tier: "4"
+bio_md: Op-ed columnist for The New York Times since 2003 and a regular commentator on PBS NewsHour. Author of several bestselling books, including 'Bobos in Paradise', 'The Road to Character', and 'The Second Mountain'. A self-described moderate conservative who has often been critical of the contemporary Republican Party.
+role: columnist, author
+affiliation: The New York Times
+lean_left: 40
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: nytdavidbrooks
+issue_stances:
+  - slug: ukraine-support
+    stance: Strong supporter of sustained military and economic aid to Ukraine
+  - slug: nato-and-alliances
+    stance: Defends NATO and U.S. global leadership as essential to liberal-democratic order
+  - slug: religious-liberty
+    stance: Writes frequently about the importance of religion and tradition for moral formation and civic life
+  - slug: immigration-related-issues
+    stance: Generally supports legal immigration as economically and culturally beneficial

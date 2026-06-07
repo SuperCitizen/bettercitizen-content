@@ -1,0 +1,39 @@
+slug: fda-accelerated-approval
+name: FDA accelerated approval
+category: healthcare
+summary: The trade-off between getting promising new drugs to patients quickly and ensuring rigorous evidence of safety and efficacy before approval.
+body_md: |-
+  The FDA's accelerated-approval pathway, formalized in 1992 amid the AIDS crisis, lets drugs reach patients based on a "surrogate endpoint" (a lab measure thought to predict clinical benefit) before full Phase III evidence of patient outcomes is in. Drugmakers commit to confirmatory studies post-approval.
+
+  High-profile cases — including the Alzheimer's drug aducanumab and certain cancer therapies — have intensified debate. Some approved drugs have later failed to show clinical benefit; some confirmatory trials have taken many years or never been completed. Yet the pathway has also delivered transformative therapies, especially in oncology and rare diseases, that patients could not otherwise have accessed in time.
+
+  Reform proposals include tightening surrogate-endpoint standards, enforcing confirmatory-trial deadlines, automatic withdrawal when trials fail or stall, and broader transparency about evidence at approval.
+spectrum:
+  left: Progressives often call for stricter confirmatory-trial requirements, automatic withdrawal when evidence does not materialize, and reduced industry influence over FDA decisions.
+  center: Centrists generally support the pathway in principle while wanting tighter enforcement of post-approval commitments and better communication of evidence uncertainty.
+  right: Many conservatives and libertarians want the pathway expanded — faster approvals, more patient access — and view current delays as a failure of FDA culture rather than a sign of needed caution.
+contested:
+  perspectives:
+    - label: Patient-access advocates
+      summary: For people with terminal cancer, rare diseases, or fatal conditions, waiting another five years for Phase III data means waiting too long. Accelerated approval has saved lives that would have been lost to a slower process, and the pathway should be preserved and expanded.
+      key_concerns:
+        - Speed for terminal and rare-disease patients
+        - Hope and access for the underserved
+        - Avoiding "death by regulation"
+    - label: Evidence-standards reformers
+      summary: Many accelerated approvals have failed to deliver clinical benefit, exposing patients to side effects and high costs for ineffective drugs. The FDA needs to enforce its own deadlines, withdraw failed approvals promptly, and stop relying on weak surrogate endpoints.
+      key_concerns:
+        - Confirmatory trials that never complete
+        - Patients on ineffective expensive drugs
+        - Erosion of FDA evidence standards
+    - label: Cost and equity skeptics
+      summary: Accelerated-approval drugs often launch at extreme prices despite uncertain benefit, straining Medicare, Medicaid, and patient finances. When trials fail, taxpayers and patients have already paid; manufacturers keep the revenue.
+      key_concerns:
+        - High prices for unproven benefit
+        - Burden on Medicare and Medicaid
+        - Asymmetric risk between patients and manufacturers
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - fda
+  - drug-pricing

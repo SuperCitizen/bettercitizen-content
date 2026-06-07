@@ -1,0 +1,94 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "How many electoral votes does it take to win the presidency, and where does that number come from?"
+    choices:
+      - id: a
+        text: "270, because it is a majority of 538 (435 House + 100 Senate + 3 D.C. electors)."
+      - id: b
+        text: "270, because it is set by federal statute under 3 U.S.C."
+      - id: c
+        text: "538, because that is the total number of seats in Congress."
+      - id: d
+        text: "It varies by year based on the most recent census."
+    correct_choice_id: a
+    explanation: "538 = 435 House + 100 Senate + 3 D.C. (added by the 23rd Amendment in 1961). 270 is a majority of 538 (the smallest integer larger than half). The total has been fixed at 538 since 1961; what changes is how the 435 House seats are distributed among states, not the EC total."
+    concepts: [electoral-college]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Under the Constitution, who decides how a state's electors are chosen?"
+    choices:
+      - id: a
+        text: "The state's voters, by direct popular election."
+      - id: b
+        text: "Congress, under Article II §1."
+      - id: c
+        text: "The state legislature, with plenary authority."
+      - id: d
+        text: "The federal courts, by interpreting equal protection."
+    correct_choice_id: c
+    explanation: "Article II §1 cl. 2 says each state appoints electors 'in such Manner as the Legislature thereof may direct.' McPherson v. Blacker (1892) confirmed this is plenary state-legislature authority. All 50 states + D.C. currently use popular vote, but this is a state-law choice. South Carolina chose electors by legislature directly until the Civil War."
+    concepts: [electoral-college]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What happens if no candidate wins a majority of electoral votes?"
+    choices:
+      - id: a
+        text: "The election is held again with only the top two candidates."
+      - id: b
+        text: "The House chooses among the top three, voting one-state-one-vote; the Senate chooses the VP between the top two."
+      - id: c
+        text: "The Speaker of the House becomes acting President until a new election."
+      - id: d
+        text: "The Supreme Court appoints the President under its Article III authority."
+    correct_choice_id: b
+    explanation: "The 12th Amendment (1804) sets the contingent-election procedure. The House chooses among the top 3 EV-getters for President with each state delegation getting one vote (26 needed to win). The Senate chooses between the top 2 for VP, voting per-Senator. This was used in 1800 and 1824."
+    concepts: [electoral-college, contingent-election]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which of these did Chiafalo v. Washington (2020) decide?"
+    choices:
+      - id: a
+        text: "States cannot bind their electors to vote for any particular candidate."
+      - id: b
+        text: "States CAN bind their electors and may legally fine or replace faithless electors."
+      - id: c
+        text: "Faithless electors must be counted as cast, regardless of state law."
+      - id: d
+        text: "The 12th Amendment prevents Congress from legislating on faithless electors."
+    correct_choice_id: b
+    explanation: "Chiafalo (9–0, Kagan, J.) held that since states have plenary authority over how electors are chosen (McPherson), they have the lesser power to condition that choice on a binding pledge. Thirty-plus states have laws on the books binding their electors after Chiafalo."
+    concepts: [electoral-college, faithless-electors]
+
+  - id: q5
+    kind: multiple-choice
+    text: "How many U.S. presidential elections have produced a popular-vote-loser winner?"
+    choices:
+      - id: a
+        text: "Two: 2000 and 2016."
+      - id: b
+        text: "Three: 1888, 2000, 2016."
+      - id: c
+        text: "Five: 1824, 1876, 1888, 2000, 2016."
+      - id: d
+        text: "Seven, including a contested case in 1960."
+    correct_choice_id: c
+    explanation: "Five elections: 1824 (resolved by 12th Amendment contingent procedure to John Quincy Adams; Jackson had popular and electoral pluralities but no majority), 1876 (Hayes-Tilden, resolved by an extra-constitutional commission), 1888 (Harrison over Cleveland), 2000 (Bush over Gore), 2016 (Trump over Clinton). The 1960 election was tightly contested but Kennedy won both popular and electoral votes."
+    concepts: [electoral-college]
+
+  - id: q6
+    kind: free-response
+    text: "Maine and Nebraska use a 'congressional-district method' to allocate their electoral votes. Describe the mechanic, and identify the strongest critique of adopting it nationally."
+    socratic_seed: "Consider: 2 EVs go to the statewide popular-vote winner; the rest are awarded by who wins each individual congressional district. The strongest critique is not that the system is unfair on its face but that it makes the congressional district map (and therefore gerrymandering) load-bearing in a way it currently isn't for presidential outcomes."
+    concepts: [electoral-college, district-allocation]
+
+  - id: q7
+    kind: free-response
+    text: "The defenders of the Electoral College often invoke 'small-state protection' as the justification for retaining it. The reformers' counter is that this protection actually goes to swing-state voters, not small-state voters. State the strongest version of each side of this disagreement."
+    socratic_seed: "The small-state-protection argument: Wyoming voters get 3.6× the per-capita weight of California voters, and this preserves voice for less-populous states. The reformer counter: rural voters in non-swing states (rural California, rural Texas, rural New York) have effectively zero presidential influence under winner-take-all, while suburban voters in Pennsylvania or Wisconsin have outsized influence. The strongest version of each acknowledges the empirical record on swing-state campaign attention."
+    concepts: [electoral-college, small-state-equality]

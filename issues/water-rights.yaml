@@ -1,0 +1,42 @@
+slug: water-rights
+name: Water rights and Western water law
+category: environment-and-energy
+summary: How U.S. water — especially in the drought-stricken Colorado River Basin and Western states — is allocated under prior-appropriation doctrine and interstate compacts.
+body_md: |-
+  Western water law operates primarily under "prior appropriation" — first in time, first in right. The Colorado River Compact of 1922 over-allocated the river based on unusually wet 1920s flows; sustained drought has forced Lake Mead and Lake Powell to historic lows.
+
+  Major issues:
+  - **Colorado River reallocation**: The seven Compact states must agree on cuts that current users won't voluntarily make.
+  - **Tribal water rights**: Federal Winters doctrine reserves water for tribes; many rights remain unquantified or unfulfilled.
+  - **Groundwater regulation**: Most states underregulate groundwater; California's SGMA (2014) is a major exception.
+  - **Agricultural use**: ~75-80% of Western water goes to irrigation; efficiency and crop-shift options.
+  - **Urban use**: Phoenix, Las Vegas, Los Angeles facing supply constraints.
+spectrum:
+  left: Progressives generally favor stricter conservation, tribal-rights fulfillment, and environmental-flow protection.
+  center: Most centrists favor market-based reallocation, conservation incentives, and modernized infrastructure.
+  right: "Conservative views vary by region: Western conservatives often favor protecting existing rights and against federal intervention."
+contested:
+  perspectives:
+    - label: Conservation / reform advocates
+      summary: The Colorado is over-allocated and the climate is drying. Significant agricultural-use cuts, urban-conservation mandates, and tribal-rights fulfillment are all required for sustainable use.
+      key_concerns:
+        - Long-run sustainability
+        - Tribal water rights
+        - Environmental flows
+    - label: Existing-rights defenders
+      summary: Senior water rights are property; their reallocation by federal fiat upends Western economies and farms. Voluntary market-based reallocation is the legitimate path.
+      key_concerns:
+        - Property-rights protection
+        - Voluntary market transactions
+        - Federalism in water law
+    - label: Market-and-conservation advocates
+      summary: Water markets, voluntary efficiency programs, and federal infrastructure investment can shift water use toward higher-value applications without confiscatory federal action.
+      key_concerns:
+        - Water markets
+        - Conservation incentives
+        - Infrastructure modernization
+related_lesson_slugs: []
+tags:
+  - water
+  - environment
+  - agriculture

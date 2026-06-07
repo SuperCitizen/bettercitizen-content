@@ -1,0 +1,15 @@
+slug: michael-tracey
+full_name: Michael Tracey
+tier: "4"
+bio_md: Independent journalist known for his contrarian political commentary and on-the-ground reporting. Critical of both mainstream left and right narratives.
+role: journalist
+affiliation: Independent
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: mtracey
+issue_stances: []

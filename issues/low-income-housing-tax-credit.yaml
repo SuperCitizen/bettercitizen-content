@@ -1,0 +1,45 @@
+slug: low-income-housing-tax-credit
+name: Low-Income Housing Tax Credit (LIHTC)
+category: housing
+summary: Whether the Low-Income Housing Tax Credit — the largest federal subsidy for affordable-rental housing — is a cost-effective tool worth expanding, or a complex and inefficient mechanism that should be reformed or replaced with direct rental assistance.
+body_md: |-
+  The Low-Income Housing Tax Credit (LIHTC), created in 1986, is the federal government's largest mechanism for producing affordable rental housing. Each year the IRS allocates tax credits to state housing-finance agencies, which competitively award them to developers building or rehabilitating rent-restricted properties. Developers sell the credits to investors (typically banks and corporations) for cash that funds construction; investors claim the credits over ten years.
+
+  LIHTC has financed roughly three million affordable units since 1986 and has become the de facto federal affordable-housing program. Investor demand drives bank participation through the Community Reinvestment Act; rent restrictions typically last 30 years.
+
+  Supporters argue LIHTC has produced more affordable housing than any direct-subsidy alternative in U.S. history, that its private-investor structure brings underwriting discipline and bipartisan political durability, and that expanding the credit allocation would address pressing affordability needs.
+
+  Critics argue LIHTC is inefficient — substantial credit value is captured by syndicators, investors, and developers rather than reaching tenants — and that the program produces fewer units per federal dollar than vouchers or direct subsidies. Some argue it concentrates affordable housing in high-poverty areas; others argue it produces too little supply in expensive metros. Reform proposals include credit-allocation formula changes, basis-boost expansions, and addressing income-targeting.
+spectrum:
+  left: LIHTC is essential as the main federal tool for affordable rental housing, but should be expanded, paired with deeper income targeting, located more in opportunity-rich areas, and supplemented with stronger tenant protections and direct rental assistance.
+  center: LIHTC has been the workhorse of U.S. affordable-housing policy for nearly forty years with broad bipartisan support; reform should focus on efficiency, allocation, and integration with vouchers — not replacement.
+  right: LIHTC is one of the few federal housing programs that uses private capital and competitive allocation, but its complexity and high transaction costs deserve scrutiny; comparison to direct vouchers should be data-driven.
+contested:
+  perspectives:
+    - label: LIHTC expansion supporters
+      summary: LIHTC is the most successful federal affordable-housing program in history, producing roughly three million units with bipartisan support. Affordable-housing need vastly exceeds supply; expanding the credit allocation, restoring the deeper income-targeting boost, and modernizing rules is the most politically durable path.
+      key_concerns:
+        - Massive affordable-housing deficit
+        - LIHTC has bipartisan durability
+        - Private capital leverages public dollars
+        - Investor underwriting discipline
+    - label: Efficiency critics
+      summary: "LIHTC is structurally inefficient: a substantial share of credit value flows to syndicators, investors, and developers rather than to tenants in lower rents. Direct subsidies (Section 8 vouchers, public-housing reinvestment) would produce more affordable housing per federal dollar."
+      key_concerns:
+        - Credit value lost to syndicators and investors
+        - Per-unit cost is high vs. alternatives
+        - Complexity raises transaction costs
+        - Vouchers reach more households per dollar
+    - label: Allocation reformers
+      summary: "LIHTC could work better with allocation reform: more credits to high-opportunity neighborhoods rather than concentrated poverty, deeper income targeting for the most cost-burdened households, and stronger requirements for permanent affordability beyond the 30-year compliance window."
+      key_concerns:
+        - Concentration in high-poverty areas
+        - Need for deeper income targeting
+        - Permanent vs. 30-year affordability
+        - Allocation formula details matter
+related_lesson_slugs: []
+tags:
+  - housing
+  - affordable-housing
+  - lihtc
+  - tax-credit

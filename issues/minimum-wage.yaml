@@ -1,0 +1,39 @@
+slug: minimum-wage
+name: Federal minimum wage
+category: economy-and-taxation
+summary: The federal floor for hourly wages — $7.25 since 2009, the longest stretch without an increase since the law was enacted — and proposals to raise it to $15-17.
+body_md: |-
+  The federal minimum wage has been $7.25/hour since 2009. Thirty states and many cities have higher minimums, with several (CA, NY, MA, WA) at or near $15-17 and rising. The federal tipped-wage minimum is $2.13/hour for tipped workers in many states.
+
+  Proposals like the Raise the Wage Act would phase the federal minimum to $17/hour by 2028 and eliminate the tipped subminimum.
+
+  Empirical research on minimum-wage increases is contested. Card-Krueger (1994) and many subsequent studies find modest or no employment effects from moderate increases; Neumark-Wascher and others find more negative effects. There's broader agreement that very large increases relative to local median wages have stronger negative effects.
+spectrum:
+  left: Most progressives strongly support a $15-17 federal minimum and elimination of the tipped subminimum.
+  center: Many moderates favor a modest increase indexed to local cost of living, or regional minimums.
+  right: Most conservatives oppose federal minimum-wage increases, favoring state and local determination.
+contested:
+  perspectives:
+    - label: Raise-the-wage advocates
+      summary: No full-time worker should live in poverty. A $17 minimum lifts millions out of poverty with modest employment effects, especially in low-cost regions where adjustments can be phased.
+      key_concerns:
+        - Working-poverty alleviation
+        - Reducing dependence on public assistance
+        - Closing gender and racial wage gaps
+    - label: Employment-cost skeptics
+      summary: Large minimum-wage increases price low-skilled workers out of the market, especially in low-cost regions. The EITC and direct income support are better-targeted.
+      key_concerns:
+        - Disemployment of low-skilled workers
+        - Regional cost-of-living differences
+        - Small-business margins
+    - label: Indexing / regional reformers
+      summary: Tie the minimum wage to local median wages or cost-of-living. Avoids one-size-fits-all federal mandates while ensuring real-wage adequacy.
+      key_concerns:
+        - Regional economic differences
+        - Avoiding political stalemates over future increases
+        - Predictability for employers
+related_lesson_slugs: []
+tags:
+  - labor
+  - wages
+  - poverty

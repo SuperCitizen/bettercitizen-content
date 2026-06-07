@@ -1,0 +1,33 @@
+slug: lobbying-reform
+name: Lobbying reform
+category: money-in-politics
+summary: Proposals to tighten lobbying disclosure, lengthen revolving-door cooling-off periods, and reduce the influence of paid advocacy on legislation and rulemaking.
+body_md: |-
+  Lobbying is the constitutionally protected right to petition government, but it has become a $4-billion-per-year industry concentrated among well-funded interests. The Lobbying Disclosure Act of 1995 and the Honest Leadership and Open Government Act of 2007 created the current registration and disclosure regime, but critics argue the thresholds for registration are easy to evade (the "Daschle loophole" for "strategic advisers" who don't formally lobby).
+
+  Reform proposals include closing the 20%-of-time loophole that exempts most strategic advisers, lengthening cooling-off periods for former Members and senior staff, banning lobbyist contributions to clients' legislators, and requiring real-time disclosure of lobbying contacts.
+
+  The right to petition the government is constitutional; the question is what disclosure and structural rules best balance access with transparency.
+spectrum:
+  left: Progressives favor aggressive disclosure, longer cooling-off periods, and bans on lobbyist-bundled contributions.
+  center: Reformers across parties favor closing the registration loopholes and modernizing disclosure.
+  right: Many conservatives support the right-to-petition framing and oppose new restrictions; some support modest reforms targeting the revolving door.
+contested:
+  perspectives:
+    - label: Disclosure-and-restriction reformers
+      summary: The lobbying industry is dominated by well-funded interests with privileged access. Stronger disclosure, longer cooling-off periods, and bans on bundled contributions reduce structural inequities.
+      key_concerns:
+        - Closing registration loopholes
+        - Revolving-door reform
+        - Disclosure of lobbying meetings
+    - label: Petition-rights defenders
+      summary: The First Amendment guarantees the right to petition. Lobbying is how citizens, businesses, and nonprofits engage with their government; restrictions tend to entrench insiders and burden outsiders.
+      key_concerns:
+        - First Amendment petition right
+        - Avoiding incumbent protection
+        - Preserving access for nonprofits and small businesses
+related_lesson_slugs:
+  - lobbying
+tags:
+  - lobbying
+  - transparency

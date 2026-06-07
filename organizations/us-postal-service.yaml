@@ -1,0 +1,10 @@
+slug: us-postal-service
+name: US Postal Service
+kind: government
+subtype: quasi-government
+description: Independent executive-branch agency providing universal mail delivery; self-funding via postage revenue, governed by a presidentially-appointed Board of Governors.
+website: https://www.usps.com
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

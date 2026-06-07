@@ -1,0 +1,14 @@
+slug: strawman
+name: Strawman
+short_definition: A logical fallacy in which an opponent's argument is replaced with a weaker, distorted version that is easier to attack.
+body_md: ""
+category: rhetoric
+difficulty: foundational
+status: active
+etymology: "English idiom from the late 19th century: a 'man of straw' is a stand-in too flimsy to put up real resistance, originally a cheap dummy used in military training."
+why_it_matters: The strawman is the second most common fallacy in political discourse after ad hominem. Recognizing it lets you push debate back to what your interlocutor actually claimed, instead of the weaker version they're refuting.
+context_example: Senator Warren said she supports a wealth tax on fortunes over $50 million; the op-ed strawmanned her position as 'wanting to confiscate everyone's savings.'
+related_term_slugs:
+  - steel-man
+  - ad-hominem
+tags: []

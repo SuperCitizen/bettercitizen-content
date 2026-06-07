@@ -1,0 +1,23 @@
+slug: gavin-newsom
+full_name: Gavin Newsom
+tier: "4"
+bio_md: Governor of California and potential 2028 Democratic presidential candidate. Previously mayor of San Francisco and Lt. Governor of California.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 75
+lean_right: 25
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: climate-policy
+    stance: Set aggressive emissions reduction targets in California
+  - slug: second-amendment-regulation
+    stance: Supports strict gun control legislation
+  - slug: medicare-for-all
+    stance: Advocates for expanded public healthcare access
+  - slug: rent-control
+    stance: Pushed zoning reform to increase housing supply

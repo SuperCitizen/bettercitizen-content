@@ -1,0 +1,72 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which level of government primarily controls whether housing actually gets built (zoning, permits, design review)?"
+    choices:
+      - id: a
+        text: "Federal (HUD, EPA)"
+      - id: b
+        text: "State legislature"
+      - id: c
+        text: "Local (city council, planning commission)"
+      - id: d
+        text: "Regional metropolitan planning organizations"
+    correct_choice_id: c
+    explanation: "Zoning, permitting, environmental review, and design review are almost entirely local in the U.S. Some states (CA, OR, WA, NJ) have begun to preempt local restrictions, but the default remains local control. This is why housing policy is so politically tangled — affordability programs are mostly federal, but supply is determined locally."
+    concepts: [housing, zoning]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What is the largest federal supply-side affordable-housing program?"
+    choices:
+      - id: a
+        text: "Public housing"
+      - id: b
+        text: "Section 8 Housing Choice Vouchers"
+      - id: c
+        text: "Low-Income Housing Tax Credit (LIHTC)"
+      - id: d
+        text: "HOME Investment Partnerships Program"
+    correct_choice_id: c
+    explanation: "LIHTC has built ~2 million units since 1986 — the largest federal supply-side program. State agencies allocate credits to projects; developers sell credits to investors. Section 8 vouchers (~2.3M households) is largest by enrollment but is demand-side, not supply-side. Public housing is now ~1M units and not significantly expanded since the 1970s."
+    concepts: [housing, lihtc]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What does Hsieh & Moretti (2019) estimate about U.S. housing constraints in NYC, San Francisco, and LA?"
+    choices:
+      - id: a
+        text: "They have no measurable effect on national economic outcomes."
+      - id: b
+        text: "They reduced U.S. GDP by 2-3% over decades by preventing workers from moving to higher-productivity locations."
+      - id: c
+        text: "They reduced U.S. GDP by 0.1-0.2% — small but measurable."
+      - id: d
+        text: "They increased U.S. GDP by enabling concentrated knowledge spillovers."
+    correct_choice_id: b
+    explanation: "Hsieh & Moretti estimated U.S. GDP would be 2-3% higher (1964-2009) if NY/SF/LA housing constraints were relaxed to peer-metro levels. Workers couldn't move to where productivity was highest, so output fell well below potential. The deadweight loss is large in macroeconomic terms — comparable to a major recession in cumulative cost."
+    concepts: [housing, zoning]
+
+  - id: q4
+    kind: multiple-choice
+    text: "What does the Diamond, McQuade & Qian (2019) study of San Francisco rent control find?"
+    choices:
+      - id: a
+        text: "Rent control had no measurable effect on tenants or housing supply."
+      - id: b
+        text: "Rent control benefited protected tenants substantially while reducing total housing supply (effects on the broader market were ambiguous)."
+      - id: c
+        text: "Rent control increased overall housing supply by stabilizing tenant tenure."
+      - id: d
+        text: "Rent control had only positive effects with no measurable downsides."
+    correct_choice_id: b
+    explanation: "The DMQ paper found rent control's effects on tenants were genuinely mixed: protected tenants benefited (longer tenure, lower costs), but landlord responses (conversion to condos, deferred maintenance, demolition for new buildings outside rent control) reduced overall rental supply. The net welfare effect is contested. Modern rent stabilization (Oregon SB 608, California AB 1482) is designed around this finding — capping increases without applying to new construction."
+    concepts: [housing, rent-control]
+
+  - id: q5
+    kind: free-response
+    text: "The supply-side advocate argues that building 'luxury' housing eventually helps low-income households through 'filtering.' The demand-side advocate argues this takes too long and doesn't reach the lowest-income households. State the strongest version of each position."
+    socratic_seed: "Supply-side: when new high-end units enter the market, residents move out of older units to fill them, freeing up middle-tier inventory, which frees up older inventory at the bottom. Mast (2019) estimates 100 new market-rate units produce ~70 vacancies in lower-income segments via filtering chains within ~5 years. Demand-side: 5 years is too long for tenants facing rent increases now; the very-bottom of the market doesn't get reached because of voucher discrimination and supply gaps. Both sides agree filtering is real; they disagree about whether it's sufficient on the relevant time horizon."
+    concepts: [housing, zoning]

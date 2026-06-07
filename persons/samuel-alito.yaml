@@ -1,0 +1,14 @@
+slug: samuel-alito
+full_name: Samuel Alito
+tier: "3"
+bio_md: Associate Justice of the U.S. Supreme Court since 2006. Nominated by President George W. Bush. Previously served on the U.S. Court of Appeals for the Third Circuit and as U.S. Attorney for the District of New Jersey. Authored the majority opinion in Dobbs v. Jackson Women's Health Organization (2022), which overturned Roe v. Wade. Known for an originalist judicial philosophy.
+role: jurist
+affiliation: U.S. Supreme Court
+lean_left: 12
+lean_right: 88
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances: []

@@ -1,0 +1,32 @@
+slug: technocratic-liberalism
+name: Technocratic liberalism
+tradition: Expert-led, evidence-based governance within a liberal-democratic framework
+core_principles:
+  - Policy should be guided by empirical evidence and expert judgment
+  - Markets are useful tools, but require active regulatory correction for externalities and information failures
+  - Strong, competent administrative state with insulated technical agencies
+  - Internationalism, rules-based trade, and multilateral institutions
+  - Targeted, evidence-tested social programs over universal ones
+  - Procedural liberalism and pluralism as defaults
+key_thinkers:
+  - name: Cass Sunstein
+    lifespan: 1954–
+    influence: Nudge — behavioral approach to regulation; theory of the modern administrative state.
+  - name: Esther Duflo
+    lifespan: 1972–
+    influence: Nobel-winning randomized-controlled-trial approach to development and social policy.
+  - name: Larry Summers
+    lifespan: 1954–
+    influence: Architect of late-20th-century technocratic economic policy in the Clinton and Obama administrations.
+  - name: Matthew Yglesias
+    lifespan: 1981–
+    influence: Articulates "abundance liberalism" — supply-side answers to progressive ends.
+key_orgs:
+  - brookings-institution
+  - niskanen-center
+  - progressive-policy-institute
+related_ideologies:
+  - american-progressivism
+  - social-democracy
+historical_period: Progressive-Era roots; defining mode of Democratic-administration policy since the 1990s
+body_md: ""

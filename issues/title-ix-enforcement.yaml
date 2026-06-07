@@ -1,0 +1,39 @@
+slug: title-ix-enforcement
+name: Title IX enforcement
+category: education
+summary: How the federal sex-discrimination law applied to schools receiving federal funds is interpreted and enforced, especially around sexual misconduct, gender identity, and athletics.
+body_md: |-
+  Title IX of the Education Amendments of 1972 prohibits sex discrimination in any education program receiving federal funding. For decades it primarily reshaped girls' and women's athletics. Since the early 2010s, federal guidance has used it to govern how schools handle sexual-misconduct complaints, and more recently to address gender identity.
+
+  Each administration has rewritten the regulations. Obama-era guidance (2011) emphasized survivor protections and the preponderance-of-the-evidence standard. The 2020 Trump-era rule strengthened cross-examination and due-process protections for accused students. The 2024 Biden rule expanded the law's scope, including gender-identity protections; portions have been litigated and partially blocked.
+
+  Athletic eligibility for transgender students, religious-school exemptions, and Title IX's interaction with state laws remain heavily contested terrain.
+spectrum:
+  left: Progressives generally support broad Title IX scope, including gender-identity protections, survivor-centered investigation procedures, and limits on religious exemptions.
+  center: Centrists often support strong protections against sexual misconduct alongside meaningful due-process protections for the accused, and seek compromise on identity-related questions.
+  right: Many conservatives support narrower interpretation focused on biological sex, robust due process, religious exemptions, and skepticism of administrative reinterpretation without legislation.
+contested:
+  perspectives:
+    - label: Survivor-protection advocates
+      summary: Sexual violence on campus has long been minimized. Title IX must require schools to investigate seriously, offer survivor support, and not retraumatize complainants. Gender-identity discrimination is also sex discrimination, and Title IX should protect transgender students.
+      key_concerns:
+        - Adequate response to sexual misconduct
+        - Survivor support and trauma-informed process
+        - Protections for LGBTQ+ students
+    - label: Due-process advocates
+      summary: Title IX adjudications can carry severe consequences — expulsion, transcript notations, lifelong reputational harm. Accused students deserve notice, access to evidence, live cross-examination, and a neutral decision-maker. Procedural protections benefit everyone, including genuine survivors.
+      key_concerns:
+        - Notice and evidence access for accused
+        - Cross-examination and confrontation
+        - Independent decision-makers
+    - label: Statutory-text and federalism perspective
+      summary: Title IX is a 1972 statute about sex discrimination. Major reinterpretations — including extending the law to gender identity — should come from Congress, not from regulations rewritten every four years. Religious schools should retain their statutory exemption.
+      key_concerns:
+        - Congressional authority vs. regulatory rewrite
+        - Religious-institution exemptions
+        - Stability and predictability of rules
+related_lesson_slugs: []
+tags:
+  - education
+  - civil-rights
+  - higher-ed

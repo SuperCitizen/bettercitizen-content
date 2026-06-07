@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: what-it-believes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is the most important conceptual distinction for understanding contemporary 'socialism' in U.S. political discourse?"
+    choices:
+      - id: a
+        text: "There's no meaningful distinction; all socialism is the same."
+      - id: b
+        text: "The distinction between democratic socialism (markets + extensive social provision + worker rights) and 20th-century state socialism (state ownership + single-party rule)."
+      - id: c
+        text: "The distinction between pre-1917 and post-1917 socialism."
+      - id: d
+        text: "The distinction between European and American socialism."
+    correct_choice_id: b
+    explanation: "Democratic socialism (Sanders, DSA, European social democrats) and state socialism (Soviet, Chinese, Cuban) are substantively different traditions. Democratic socialists generally reject command economies, single-party rule, and abolition of all market exchange. They share some intellectual heritage with early state-socialist aspirations but explicitly view 20th-century state-socialist regimes as failed. The conflation of the two is the dominant misunderstanding in contemporary U.S. discourse."
+    concepts: [socialism, democratic-socialism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Eduard Bernstein's Evolutionary Socialism (1899) argued for what?"
+    choices:
+      - id: a
+        text: "Revolutionary overthrow of capitalist states."
+      - id: b
+        text: "Achieving socialism through democratic political action and gradual reform."
+      - id: c
+        text: "Abolishing all private property."
+      - id: d
+        text: "Replacing markets with central planning."
+    correct_choice_id: b
+    explanation: "Bernstein's revisionist socialism argued that the achievements of democratic politics (universal suffrage, labor rights, social insurance) could deliver socialism gradually without revolutionary upheaval. This was a major theoretical battle in pre-WWI European Marxism and underpins most contemporary democratic-socialist thought. The 1914 split + Russian Revolution divided socialist parties between revolutionary (Communist) and reformist (social-democratic) streams."
+    concepts: [socialism, social-democracy]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which best describes contemporary American 'democratic socialism' as embodied by Bernie Sanders' policy program?"
+    choices:
+      - id: a
+        text: "State ownership of all major industries with central planning."
+      - id: b
+        text: "Universal healthcare, free public college, expanded Social Security, robust labor rights, progressive taxation — essentially European social democracy in American context."
+      - id: c
+        text: "Soviet-style command economy."
+      - id: d
+        text: "Anarchist communalism."
+    correct_choice_id: b
+    explanation: "Sanders' policy program — Medicare for All, free public college, expanded Social Security, $15 minimum wage, robust labor rights, progressive taxation — is essentially European social democracy. It does not propose state ownership of major industries, command-economy planning, or abolition of markets. The 'democratic socialism' label has been adopted as generational reclamation; the substantive policy is social-democratic."
+    concepts: [socialism, democratic-socialism, social-democracy]
+
+  - id: q4
+    kind: free-response
+    text: "Both democratic socialists and national conservatives often support similar economic policies (industrial policy, working-class supports, antitrust against Big Tech) but disagree about the philosophical framework. State the strongest version of how the same policy can serve very different ideological projects."
+    socratic_seed: "Democratic socialists support these policies as part of restoring working-class political power and moving toward economic democratization. National conservatives support these policies as part of strengthening the national community and traditional American working-class culture. The substantive policies overlap because both traditions believe that pure-market liberalism has failed working people. They differ on what the right cultural and political framework is — democratic socialism is committed to inclusive multicultural civic identity; national conservatism is committed to traditional cultural inheritance. Same policies; different visions of who 'we' are."
+    concepts: [socialism, national-conservatism]

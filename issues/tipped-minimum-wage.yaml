@@ -1,0 +1,39 @@
+slug: tipped-minimum-wage
+name: Tipped Minimum Wage
+category: labor-and-welfare
+summary: Whether to eliminate the lower federal minimum wage for tipped workers and require employers to pay the full standard minimum before tips.
+body_md: |-
+  Federal law sets a lower minimum cash wage for tipped employees, with tips counted toward meeting the standard federal minimum. If a worker's tips plus cash wage fall short of the standard minimum, the employer is required to make up the difference. Many states set higher tipped minimums or have eliminated the tip credit altogether.
+
+  Reformers argue the tip-credit system depresses wages, produces high rates of wage theft, and leaves workers — disproportionately women and people of color — dependent on the discretion of customers. They favor "one fair wage" laws that require employers to pay the full standard minimum before tips.
+
+  Defenders argue the system has long enabled flexible scheduling and high earnings for tipped workers in busy establishments, and that eliminating the tip credit raises labor costs, reduces hours, and shifts to service-charge models without necessarily benefiting tipped workers.
+spectrum:
+  left: Progressives broadly favor eliminating the tipped subminimum and requiring full minimum wage before tips, citing wage theft and equity concerns.
+  center: Moderates often look at state-level evidence and may favor gradual phase-outs, indexing, or stronger enforcement of the existing "make-up" rule before full elimination.
+  right: Most conservatives defend the tip credit as preserving a system many tipped workers and restaurants prefer, warning that elimination raises menu prices and reduces tipped employment.
+contested:
+  perspectives:
+    - label: One Fair Wage advocates
+      summary: A subminimum wage leaves workers vulnerable to wage theft, harassment, and income volatility. Paying the full minimum before tips raises baseline incomes, reduces inequality, and preserves tipping as a true bonus.
+      key_concerns:
+        - Wage theft and enforcement
+        - Income stability
+        - Equity for women and workers of color
+    - label: Tipped-worker autonomy
+      summary: Many tipped workers earn well above the standard minimum and prefer the existing system. Eliminating the tip credit may reduce hours, shift to mandatory service charges that workers cannot control, and harm the workers it intends to help.
+      key_concerns:
+        - Tipped-worker earnings
+        - Avoiding shift to service charges
+        - Worker preference and flexibility
+    - label: Stronger enforcement of existing rules
+      summary: The current rule already requires employers to make up shortfalls. Stepped-up enforcement, payroll transparency, and tighter penalties for wage theft can address abuses without the costs of full elimination.
+      key_concerns:
+        - Stronger wage-theft enforcement
+        - Payroll transparency
+        - Targeted intervention vs. broad mandate
+related_lesson_slugs: []
+tags:
+  - minimum-wage
+  - tipping
+  - labor

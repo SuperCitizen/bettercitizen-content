@@ -1,0 +1,39 @@
+slug: anti-monopoly-merger-review
+name: Anti-Monopoly Merger Review
+category: economy-and-taxation
+summary: Whether the FTC and DOJ should pursue more aggressive merger reviews and revise the consumer-welfare standard that has guided antitrust enforcement for decades.
+body_md: |-
+  Federal merger review is conducted primarily by the Federal Trade Commission and the Department of Justice. For roughly four decades, enforcement has been guided by the consumer-welfare standard — focused on whether a deal is likely to raise prices, reduce output, or harm innovation for consumers.
+
+  A newer "neo-Brandeisian" movement argues the consumer-welfare standard is too narrow and has failed to address concentration in labor markets, supplier dynamics, political power, and platform competition. Recent enforcers updated merger guidelines and brought higher-profile challenges to vertical and platform deals.
+
+  Defenders of the prior framework argue that economic rigor, predictability, and a price-and-output focus have produced clear analytical tools and that broader frameworks risk politicizing enforcement. The debate cuts across party lines.
+spectrum:
+  left: Progressives largely favor stricter merger review, broader concerns beyond consumer prices, and tougher action against platform and labor-market concentration.
+  center: Moderates emphasize evidence-based enforcement, predictable analytical frameworks, and case-by-case scrutiny of vertical and platform deals without wholesale abandonment of established standards.
+  right: "The right is split: traditional conservatives defend the consumer-welfare standard as economically rigorous; populist conservatives favor aggressive scrutiny especially of large tech platforms."
+contested:
+  perspectives:
+    - label: Neo-Brandeisian reformers
+      summary: "Concentration harms workers, suppliers, small competitors, and democracy itself — not just consumer prices. Antitrust should return to its original purpose: dispersing economic power, not optimizing a single price-and-output metric."
+      key_concerns:
+        - Concentration in labor and supplier markets
+        - Platform and big-tech power
+        - Limiting political power of large firms
+    - label: Modernize within consumer welfare
+      summary: The consumer-welfare standard can incorporate innovation, quality, privacy, and labor-monopsony effects without being discarded. Sharpening the existing framework yields better outcomes than replacing it with vaguer, more political tests.
+      key_concerns:
+        - Analytical rigor and predictability
+        - Incorporating non-price harms
+        - Avoiding politicized enforcement
+    - label: Restraint-first traditionalists
+      summary: The consumer-welfare standard has produced clear case law and broadly successful outcomes. Aggressive new theories increase business uncertainty, deter beneficial mergers, and risk chilling investment without clear consumer benefit.
+      key_concerns:
+        - Business and investment certainty
+        - Preserving precedent
+        - Avoiding chilling pro-consumer deals
+related_lesson_slugs: []
+tags:
+  - antitrust
+  - mergers
+  - consumer-welfare

@@ -1,0 +1,12 @@
+slug: supply-chain
+name: Supply Chain
+short_definition: The network of organizations, people, activities, and resources involved in producing and delivering a product from raw materials to end consumer.
+body_md: ""
+category: economy
+difficulty: foundational
+status: active
+etymology: "English: 'supply' from Old French supleer (to fill up) + 'chain' from Latin catena (a series of links). The concept was formalized by management consultant Keith Oliver in 1982"
+why_it_matters: The COVID pandemic revealed how fragile global supply chains are — a single disruption can cascade into shortages of everything from semiconductors to baby formula.
+context_example: The semiconductor supply chain crisis forced automakers to shut down factories for months, demonstrating how a chip shortage in Taiwan could idle assembly lines in Detroit.
+related_term_slugs: []
+tags: []

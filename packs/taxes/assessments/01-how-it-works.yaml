@@ -1,0 +1,72 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which is the second-largest source of federal revenue (after individual income taxes)?"
+    choices:
+      - id: a
+        text: "Corporate income taxes"
+      - id: b
+        text: "Payroll taxes (Social Security + Medicare)"
+      - id: c
+        text: "Excise taxes"
+      - id: d
+        text: "Estate and gift taxes"
+    correct_choice_id: b
+    explanation: "Payroll taxes are ~36% of federal revenue, second only to individual income taxes (~50%). Corporate income taxes are ~9%. For most working Americans, payroll taxes exceed income taxes paid. The political rhetoric typically focuses on income taxes, which means much of the actual tax burden goes underdiscussed."
+    concepts: [taxes]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What does the term 'effective tax rate' mean?"
+    choices:
+      - id: a
+        text: "The rate on your next dollar of income."
+      - id: b
+        text: "The rate at which the IRS effectively collects taxes after audit."
+      - id: c
+        text: "Total taxes paid divided by total income."
+      - id: d
+        text: "The statutory rate Congress sets in law."
+    correct_choice_id: c
+    explanation: "Effective rate = total taxes / total income. The marginal rate (the rate on your next dollar) is generally higher than the effective rate because lower brackets and the standard deduction reduce the average. A single filer with $60K wages has a 22% marginal rate but only ~11% effective rate. The system is more progressive than marginal rates suggest because of refundable credits at the bottom."
+    concepts: [taxes]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What happens to most TCJA individual provisions at the end of 2025 if Congress takes no action?"
+    choices:
+      - id: a
+        text: "They become permanent automatically."
+      - id: b
+        text: "They expire, with rates reverting to pre-2017 levels and the standard deduction halving."
+      - id: c
+        text: "They are extended for another 8 years by statute."
+      - id: d
+        text: "Only the corporate rate cut expires."
+    correct_choice_id: b
+    explanation: "Most TCJA individual provisions expire after 2025: rates revert (top rate 37% → 39.6%), standard deduction halves, personal exemptions return, SALT cap goes away, estate exemption halves, §199A pass-through deduction expires. The corporate rate cut to 21% is permanent. The 2025 expiration is the largest single tax-policy event of the next several years."
+    concepts: [taxes, tcja]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Why is corporate-tax incidence empirically contested?"
+    choices:
+      - id: a
+        text: "It's not — corporations always bear the tax themselves."
+      - id: b
+        text: "Because the tax burden is split between shareholders, workers, and consumers, with the proportions depending on capital mobility, market structure, and time horizon."
+      - id: c
+        text: "Because the IRS doesn't collect it consistently."
+      - id: d
+        text: "Because Congress changes the rate too often to study."
+    correct_choice_id: b
+    explanation: "Who actually bears a corporate tax depends on economic responses. Some falls on shareholders (lower returns), some on workers (lower wages), some on consumers (higher prices). CBO assumes 75% to capital, 25% to labor in long-run analysis; some research suggests labor shares more. The split matters enormously for distributional analysis but is empirically uncertain — and the question of *who actually bears* the tax is separate from *who writes the check.*"
+    concepts: [taxes, tax-incidence]
+
+  - id: q5
+    kind: free-response
+    text: "The progressive-expansion advocate and the consumption-tax restructuring advocate both want a more progressive overall tax system, but propose very different mechanisms. State the strongest version of each side's argument about why their mechanism is better."
+    socratic_seed: "Progressive-expansion: target the top of the income/wealth distribution directly through higher top rates, capital-gains parity with ordinary income, wealth taxes. The advantage is direct addressal of concentration. Consumption-tax restructuring: tax wealth when it's spent rather than when it's accumulated; achieve progressivity through brackets in the consumption-tax base; avoid the saving-disincentive of income taxation. The advantage is less distortion of the underlying economic decisions. Both sides care about progressivity; they disagree about what the right tax base is."
+    concepts: [taxes, progressive-taxation, vat]

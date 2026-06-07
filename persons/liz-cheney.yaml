@@ -1,0 +1,17 @@
+slug: liz-cheney
+full_name: Liz Cheney
+tier: "4"
+bio_md: Former U.S. Representative for Wyoming (2017–2023) and vice chair of the House Select Committee on the January 6th Attack. Daughter of former Vice President Dick Cheney. A traditional-conservative Republican who broke with Donald Trump after the 2020 election, voted to impeach him, lost her House seat in a 2022 primary, and has since been one of the most prominent Republican critics of Trump and election denialism.
+role: former U.S. Representative
+affiliation: Republican (former)
+party: Republican
+lean_left: 30
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: Liz_Cheney
+wikipedia: https://en.wikipedia.org/wiki/Liz_Cheney
+issue_stances: []

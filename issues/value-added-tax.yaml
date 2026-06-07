@@ -1,0 +1,39 @@
+slug: value-added-tax
+name: Federal Value-Added Tax (VAT)
+category: economy-and-taxation
+summary: Whether the United States should adopt a federal value-added tax — a broad consumption tax levied at each stage of production — used by nearly every other developed country.
+body_md: |-
+  A value-added tax (VAT) is a consumption tax collected incrementally at each stage of production and distribution, with businesses crediting tax paid on inputs. Most OECD countries rely on a VAT for a large share of federal revenue; the U.S. is the major exception, relying instead on income and payroll taxes.
+
+  Proposals to add a VAT in the United States have come from economists across the political spectrum. Some pair it with cuts to income or payroll taxes; others use it to fund expanded benefits or to reduce deficits. Variants include broad-based VATs, narrower goods-and-services taxes, and "border-adjusted" designs.
+
+  Critics worry a VAT is regressive without offsets, hard to remove once enacted, and risks layering on top of existing taxes rather than replacing them. Supporters cite its efficiency, breadth, and ability to raise large revenues with relatively low economic distortion.
+spectrum:
+  left: Some progressives accept a VAT if paired with generous rebates or a universal payment that makes the overall package progressive and funds expanded benefits.
+  center: Moderates often see a VAT as the most efficient way to raise large revenue, ideally swapped in for less efficient taxes and combined with low-income offsets.
+  right: "Conservatives are divided: some favor a VAT only if it replaces income or payroll taxes; many oppose any new broad-based tax for fear it becomes additive over time."
+contested:
+  perspectives:
+    - label: Efficiency-first reformers
+      summary: A broad-based VAT is among the least economically distortive ways to raise revenue. Pairing it with rebates and cuts to less efficient taxes can broaden the base, improve growth, and stabilize federal finances.
+      key_concerns:
+        - Economic efficiency and growth
+        - Replacing more distortive taxes
+        - Long-run fiscal stability
+    - label: Progressives with offsets
+      summary: A VAT alone is regressive, but combined with a universal rebate or expanded refundable credits, it can fund universal programs while leaving low-income households better off. The package, not the tax alone, is what matters.
+      key_concerns:
+        - Net progressivity of the package
+        - Funding social programs
+        - Protecting low-income consumers
+    - label: Skeptics of a new revenue source
+      summary: Once enacted, a VAT is hard to repeal and tends to ratchet upward over time. Adding it on top of existing taxes — rather than swapping it in — would grow the federal government without disciplining spending.
+      key_concerns:
+        - Risk of additive tax burden
+        - Government-growth dynamics
+        - Hidden costs to consumers
+related_lesson_slugs: []
+tags:
+  - vat
+  - consumption-tax
+  - tax-reform

@@ -1,0 +1,12 @@
+slug: voter-registration
+name: Voter registration
+short_definition: The process of being added to a state's list of eligible voters. Requirements and deadlines vary by state; same-day registration is available in many but not all states.
+body_md: ""
+category: elections
+difficulty: foundational
+status: active
+etymology: "Latin: votum (a vow, wish) + registrare (to record). Voter registration in the US began in the early 19th century as a way to prevent fraud, though it has also been used to restrict access"
+why_it_matters: Unlike most democracies, the US places the burden of registration on individual citizens — an estimated 60 million eligible Americans are unregistered, disproportionately young and low-income.
+context_example: The state implemented automatic voter registration at the DMV, adding over one million new voters to the rolls in the first year alone.
+related_term_slugs: []
+tags: []

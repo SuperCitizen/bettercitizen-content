@@ -1,0 +1,39 @@
+slug: opportunity-zones
+name: Opportunity Zones
+category: economy-and-taxation
+summary: A federal tax incentive that allows investors to defer or reduce capital-gains tax on investments in designated low-income census tracts, created by the 2017 tax law.
+body_md: |-
+  The Opportunity Zone program was created by the 2017 tax legislation. It allows investors to defer — and partially reduce — capital-gains taxes by rolling gains into Qualified Opportunity Funds that invest in property and businesses located in designated low-income census tracts. Governors selected the eligible tracts within their states from a federally defined pool.
+
+  Supporters argue the program channels patient private capital into long-distressed neighborhoods without direct federal spending. Critics argue many designated tracts were already gentrifying or did not meet the spirit of the program, that benefits accrue mainly to wealthy investors, and that reporting requirements have been too weak to evaluate effectiveness.
+
+  Reform proposals include tightening tract eligibility, mandating detailed transparent reporting, requiring community-benefit standards, and extending or modifying the deferral period. Some lawmakers have proposed repeal.
+spectrum:
+  left: Progressives are largely skeptical, arguing the program functions mainly as a capital-gains break for wealthy investors with thin community impact and inadequate reporting.
+  center: Moderates often support reform — better targeting, stronger reporting, and community-benefit standards — rather than outright repeal.
+  right: Conservatives generally defend the program as a low-cost, market-based vehicle for directing private capital into distressed places without expanding federal spending.
+contested:
+  perspectives:
+    - label: Repeal or sharply curtail
+      summary: Designated tracts often included rapidly gentrifying areas and luxury developments. The program's benefits flow to high-net-worth investors with limited evidence of new jobs or services for current residents, while reporting is too weak to know for sure.
+      key_concerns:
+        - Weak impact evidence
+        - Inadequate transparency
+        - Risk of subsidizing displacement
+    - label: Reform with reporting and targeting
+      summary: The basic idea — using deferred capital to anchor long-horizon investment in distressed places — is sound. Tighter tract criteria, granular outcome reporting, and community-benefit requirements can preserve the incentive while ensuring residents benefit.
+      key_concerns:
+        - Better tract targeting
+        - Outcome reporting
+        - Community-benefit standards
+    - label: Preserve and extend
+      summary: Opportunity Zones mobilize private capital for places federal programs have long struggled to reach. Repealing or constraining the program would chill long-term investment in exactly the neighborhoods most in need of patient capital.
+      key_concerns:
+        - Private capital mobilization
+        - Avoiding policy uncertainty for investors
+        - Long-horizon community investment
+related_lesson_slugs: []
+tags:
+  - opportunity-zones
+  - tax-incentives
+  - community-investment

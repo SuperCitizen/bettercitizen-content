@@ -1,0 +1,42 @@
+slug: snap-benefits
+name: SNAP / food assistance
+category: labor-and-welfare
+summary: The Supplemental Nutrition Assistance Program (food stamps), serving roughly 42 million Americans, and debates over benefit levels, work requirements, and eligibility.
+body_md: |-
+  SNAP is the largest U.S. food-assistance program. Benefits average ~$190/person/month and are based on income, household size, and the Thrifty Food Plan (a government-calculated minimum-cost diet). The 2021 Thrifty Food Plan revaluation increased benefits by ~21%.
+
+  Recurring debates include:
+  - **Work requirements**: Currently apply to able-bodied adults without dependents (ABAWDs); proposals to expand to other groups.
+  - **Benefit levels**: Whether the Thrifty Food Plan adequately reflects modern food costs.
+  - **Eligibility**: Categorical eligibility through other programs, asset tests.
+  - **Restrictions**: Whether to limit purchases of soda, candy, or other items.
+  - **Trends**: Block grants vs. entitlement structure.
+spectrum:
+  left: Progressives favor benefit increases, expanded eligibility, and reduced work requirements.
+  center: Most centrists favor preserving SNAP as an entitlement with appropriate benefits and reasonable work expectations.
+  right: Many conservatives favor stricter work requirements, eligibility tightening, purchase restrictions, and block-grant proposals.
+contested:
+  perspectives:
+    - label: SNAP-expansion advocates
+      summary: SNAP reduces food insecurity, child poverty, and improves health. Benefits are still inadequate to cover a healthy diet; expanding access and benefits is a high-return investment.
+      key_concerns:
+        - Food insecurity and child outcomes
+        - Adequacy of benefit levels
+        - Health and economic returns
+    - label: Work-requirement advocates
+      summary: SNAP should support work and self-sufficiency. Work requirements for able-bodied adults without dependents have been shown to increase employment without harming truly vulnerable populations.
+      key_concerns:
+        - Work incentives
+        - Avoiding long-term dependence
+        - Targeting benefits to those who need them most
+    - label: Block-grant / state-flexibility advocates
+      summary: Block-granting SNAP gives states flexibility to tailor programs to local conditions and integrate with other safety-net services.
+      key_concerns:
+        - State flexibility
+        - Program integration
+        - Federal-budget predictability
+related_lesson_slugs: []
+tags:
+  - welfare
+  - food-assistance
+  - poverty

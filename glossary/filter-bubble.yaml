@@ -1,0 +1,12 @@
+slug: filter-bubble
+name: Filter Bubble
+short_definition: The intellectual isolation that occurs when algorithms selectively present information based on a user's past behavior, limiting exposure to opposing viewpoints.
+body_md: ""
+category: media-information
+difficulty: intermediate
+status: active
+etymology: "English: coined by internet activist Eli Pariser in his 2011 book The Filter Bubble: What the Internet Is Hiding from You"
+why_it_matters: Filter bubbles create personalized realities where people never encounter information that challenges their beliefs, contributing to polarization and making democratic compromise harder.
+context_example: The researcher created two identical search profiles — one liberal, one conservative — and found they received dramatically different news results for the same queries, demonstrating the filter bubble effect.
+related_term_slugs: []
+tags: []

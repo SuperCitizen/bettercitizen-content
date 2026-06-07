@@ -1,0 +1,12 @@
+slug: algorithmic-bias
+name: Algorithmic Bias
+short_definition: Systematic and repeatable errors in a computer system that create unfair outcomes, reflecting the biases present in training data or design choices.
+body_md: ""
+category: media-information
+difficulty: advanced
+status: active
+etymology: "Arabic: al-Khwarizmi (the mathematician whose name gave us 'algorithm') + English: 'bias' from French biais (a slant). The concept emerged as AI systems became widespread in the 2010s"
+why_it_matters: Algorithms now make decisions about hiring, lending, criminal sentencing, and what news people see — when they're biased, they can perpetuate discrimination at massive scale.
+context_example: An investigation revealed the hiring algorithm systematically downranked resumes from women, having learned from a decade of hiring data that reflected the company's existing gender imbalance.
+related_term_slugs: []
+tags: []

@@ -1,0 +1,26 @@
+slug: alexandria-ocasio-cortez
+full_name: Alexandria Ocasio-Cortez
+tier: "4"
+bio_md: US Representative from New York's 14th congressional district. Democratic Socialist and member of 'The Squad.' Known for the Green New Deal, Medicare for All advocacy, and her rapid rise from bartender to Congress.
+role: politician
+affiliation: Democratic Party
+party: Democrat
+lean_left: 90
+lean_right: 10
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: AOC
+issue_stances:
+  - slug: climate-policy
+    stance: Lead author of the Green New Deal resolution
+  - slug: medicare-for-all
+    stance: Strong advocate for Medicare for All single-payer system
+  - slug: rent-control
+    stance: Supports social housing and rent stabilization
+  - slug: corporate-tax-rate
+    stance: Advocates for a 70% marginal tax rate on incomes over $10 million
+  - slug: higher-education-funding
+    stance: Supports tuition-free public college and student debt cancellation

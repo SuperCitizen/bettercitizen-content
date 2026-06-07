@@ -1,0 +1,40 @@
+slug: medicaid-expansion
+name: Medicaid expansion
+category: healthcare
+summary: The ACA option allowing states to expand Medicaid to adults earning up to 138% of the federal poverty line, with the federal government paying 90% of the cost.
+body_md: |-
+  The ACA (2010) originally required all states to expand Medicaid; the Supreme Court in NFIB v. Sebelius (2012) made expansion optional. As of 2024, 41 states and DC have adopted expansion; 10 states have not.
+
+  States that expanded saw substantial reductions in uninsured rates, improvements in health outcomes for low-income adults, and reduced uncompensated-care costs at hospitals. Non-expansion states have a "Medicaid gap": adults too poor for ACA marketplace subsidies but ineligible for Medicaid under their state's pre-ACA rules.
+
+  Defenders argue expansion is one of the largest poverty-reducing health-policy interventions in decades. Critics argue Medicaid coverage doesn't deliver good health outcomes per dollar and creates state budget risks if federal match shrinks.
+spectrum:
+  left: Progressives strongly favor universal Medicaid expansion and federal mechanisms to close the gap in non-expansion states.
+  center: Most centrists view expansion as effective coverage expansion at favorable federal cost-share.
+  right: Many conservatives in non-expansion states oppose expansion citing long-run state budget risks; some support work-requirement variants.
+contested:
+  perspectives:
+    - label: Expansion advocates
+      summary: Medicaid expansion saves lives, reduces uncompensated-care costs, and stabilizes rural hospitals. Federal cost-share is favorable; non-expansion is leaving money and lives on the table.
+      key_concerns:
+        - Closing the coverage gap
+        - Rural hospital sustainability
+        - Reducing uncompensated-care costs
+    - label: State-budget skeptics
+      summary: The 90% federal match is generous now but could shrink, leaving states holding expanded enrollments. Expansion crowds out other state priorities and may not deliver health-outcome value.
+      key_concerns:
+        - Long-run state budget exposure
+        - Health-outcome value per Medicaid dollar
+        - Crowding out other priorities
+    - label: Work-requirement variants
+      summary: Expand coverage but with work, education, or volunteer requirements for able-bodied adults. Promotes employment and ties expanded benefits to civic participation.
+      key_concerns:
+        - Work-incentive design
+        - Administrative complexity
+        - Coverage continuity for transitioning workers
+related_lesson_slugs:
+  - healthcare
+tags:
+  - healthcare
+  - medicaid
+  - aca

@@ -1,0 +1,24 @@
+slug: ron-wyden
+full_name: Ron Wyden
+tier: "3"
+bio_md: US Senator from Oregon since 1996. Senior member and former chair of the Senate Finance Committee. Co-author of Section 230 of the Communications Decency Act. Long-time advocate for privacy, surveillance reform, and tax-policy transparency. Previously served in the US House of Representatives from 1981 to 1996.
+role: US Senator from Oregon
+affiliation: United States Senate
+party: Democrat
+lean_left: 75
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: RonWyden
+issue_stances:
+  - slug: section-230
+    stance: Co-author of Section 230; defends platform liability shields while supporting targeted carve-outs
+  - slug: wealth-tax
+    stance: Introduced the Billionaires Income Tax proposing annual taxation of unrealized gains on the very wealthy
+  - slug: capital-gains-tax
+    stance: Advocates taxing capital gains and labor income at similar rates for top earners
+  - slug: child-tax-credit
+    stance: Supports making the expanded child tax credit permanent

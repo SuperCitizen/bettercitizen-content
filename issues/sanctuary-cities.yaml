@@ -1,0 +1,41 @@
+slug: sanctuary-cities
+name: Sanctuary cities and 287(g)
+category: immigration
+summary: Whether state and local law enforcement should cooperate with federal immigration authorities — declining to honor ICE detainers, opting out of 287(g) agreements, or actively cooperating.
+body_md: |-
+  "Sanctuary" policies vary widely. They typically include some combination of: declining to hold immigrants for ICE pickup beyond their criminal release dates ("detainers"), refusing 287(g) agreements that deputize local officers as immigration agents, and limiting information-sharing between local agencies and ICE.
+
+  Federal courts have generally held that detainers cannot be made mandatory under the 10th Amendment's anti-commandeering doctrine. Federal grant conditions tied to immigration cooperation have been litigated extensively.
+
+  Defenders argue sanctuary policies improve community-police trust and public safety. Critics argue they shield criminals and frustrate federal enforcement.
+spectrum:
+  left: Most progressives strongly support sanctuary policies as protecting immigrant communities and policing efficacy.
+  center: Mixed views; many centrists distinguish between detainer compliance and broader cooperation.
+  right: Most conservatives oppose sanctuary policies and favor federal pressure to compel cooperation.
+contested:
+  perspectives:
+    - label: Sanctuary defenders
+      summary: When immigrants fear that contact with police means deportation, they don't report crimes. Sanctuary policies improve community-police trust and public safety.
+      key_concerns:
+        - Community-police trust
+        - Crime reporting by immigrant communities
+        - Local policing priorities
+    - label: Cooperation advocates
+      summary: Federal immigration law applies everywhere. Sanctuary policies shield serious criminals from removal and create a parallel system that undermines federal authority and public safety.
+      key_concerns:
+        - Removal of criminal aliens
+        - Federal-local law-enforcement coordination
+        - Public safety
+    - label: Detainer-compliance middle ground
+      summary: Cooperate with ICE on individuals convicted of serious crimes, but don't deputize local police as immigration agents or share data wholesale. Targets enforcement without sacrificing community trust.
+      key_concerns:
+        - Targeted enforcement on serious criminals
+        - Avoiding mass surveillance
+        - Federal-local clarity
+related_lesson_slugs:
+  - immigration
+  - federalism
+tags:
+  - immigration
+  - enforcement
+  - federalism

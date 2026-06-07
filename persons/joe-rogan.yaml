@@ -1,0 +1,19 @@
+slug: joe-rogan
+full_name: Joe Rogan
+tier: "4"
+bio_md: Host of The Joe Rogan Experience, the world's most popular podcast. Former comedian and UFC commentator who provides a platform for diverse viewpoints.
+role: podcast host, comedian
+affiliation: The Joe Rogan Experience
+lean_left: 40
+lean_right: 60
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: joerogan
+issue_stances:
+  - slug: drug-decriminalization
+    stance: Supports marijuana legalization and psychedelic research
+  - slug: section-230
+    stance: Opposes platform censorship and content moderation overreach

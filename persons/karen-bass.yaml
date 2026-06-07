@@ -1,0 +1,24 @@
+slug: karen-bass
+full_name: Karen Bass
+tier: "3"
+bio_md: Mayor of Los Angeles since December 2022, the first woman to hold the office. Previously served six terms in the U.S. House of Representatives (2011-2022) and was Speaker of the California State Assembly. A physician assistant by training, she founded the Community Coalition in South L.A. before entering electoral politics.
+role: Mayor of Los Angeles
+affiliation: City of Los Angeles
+party: Democratic
+lean_left: 70
+lean_right: 20
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: KarenBassLA
+issue_stances:
+  - slug: zoning-reform
+    stance: Declared homelessness emergency and accelerated permits for affordable and supportive housing in Los Angeles
+  - slug: abortion-access
+    stance: Longtime supporter of abortion rights and reproductive health access
+  - slug: lgbtq-protections
+    stance: Supports federal and local nondiscrimination protections for LGBTQ Americans
+  - slug: climate-policy
+    stance: Backs municipal climate action plans and clean-energy transition investments

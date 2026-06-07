@@ -1,0 +1,10 @@
+slug: library-of-congress
+name: Library of Congress
+kind: government
+subtype: legislative
+description: Research library serving Congress and the largest library in the world; administers Copyright Office and Congressional Research Service.
+website: https://www.loc.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags: []
+is_active: true

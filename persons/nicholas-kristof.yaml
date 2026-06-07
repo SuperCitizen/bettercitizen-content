@@ -1,0 +1,21 @@
+slug: nicholas-kristof
+full_name: Nicholas Kristof
+tier: "4"
+bio_md: American journalist and op-ed columnist for The New York Times. Two-time Pulitzer Prize winner, including for coverage of Tiananmen Square and the Darfur genocide. Known for reporting on human rights, global poverty, and human trafficking. Co-author of Half the Sky and A Path Appears with wife Sheryl WuDunn.
+role: NYT op-ed columnist
+affiliation: The New York Times
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: NickKristof
+issue_stances:
+  - slug: foreign-aid
+    stance: Strong advocate for increased foreign aid to combat global poverty and humanitarian crises
+  - slug: drug-decriminalization
+    stance: Has written supportively of harm reduction and treatment-focused drug policies
+  - slug: child-tax-credit
+    stance: Supports expanded child tax credit to reduce child poverty

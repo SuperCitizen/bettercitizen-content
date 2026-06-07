@@ -1,0 +1,42 @@
+slug: social-security-solvency
+name: Social Security solvency
+category: labor-and-welfare
+summary: How to address Social Security's projected long-term shortfall — the trust fund is projected to be depleted in the 2030s, after which scheduled benefits would be cut by ~20%.
+body_md: |-
+  Social Security operates as a pay-as-you-go system: current workers' payroll taxes fund current retirees' benefits. Demographic shifts — longer lifespans, lower birth rates, retiring boomers — mean the system is paying out more than it takes in. The Old-Age and Survivors Insurance trust fund is projected to be depleted in the mid-2030s; absent action, scheduled benefits would be reduced by roughly 20%.
+
+  Reform proposals fall into broad categories:
+  - **Revenue increases**: Raise or eliminate the payroll-tax cap (currently ~$168K), raise the rate, or apply payroll tax to investment income.
+  - **Benefit changes**: Raise the retirement age, change the cost-of-living adjustment formula, means-test high-income retiree benefits.
+  - **Investment**: Allow some trust-fund investment in equities, or partial private accounts.
+
+  Polling shows broad opposition to benefit cuts and broad support for raising the cap on high earners.
+spectrum:
+  left: Progressives strongly favor revenue increases, especially eliminating the payroll-tax cap, and oppose any benefit cuts.
+  center: Many moderates favor a mix of revenue increases and modest benefit-formula changes (e.g. chained CPI, gradual retirement-age increase).
+  right: Most conservatives favor benefit reforms (raising retirement age, slower COLA growth), some favoring partial privatization.
+contested:
+  perspectives:
+    - label: Revenue-increase advocates
+      summary: Social Security is the most successful anti-poverty program in U.S. history. The shortfall is small relative to the economy and easily fixed by raising or eliminating the payroll-tax cap on high earners.
+      key_concerns:
+        - Preserving full scheduled benefits
+        - Closing the cap on high earners
+        - Avoiding benefit cuts
+    - label: Mixed-reform advocates
+      summary: A balanced package — modest revenue increases plus gradual retirement-age and COLA adjustments — distributes the burden across generations and makes the system durable.
+      key_concerns:
+        - Intergenerational equity
+        - Long-term system sustainability
+        - Realistic political compromise
+    - label: Personal-account / structural reformers
+      summary: The current structure creates an unfunded liability and limits worker wealth-building. Allow partial private accounts, gradually raise retirement age, and means-test high-income retiree benefits.
+      key_concerns:
+        - Wealth-building for younger workers
+        - Long-term solvency
+        - Workforce participation
+related_lesson_slugs: []
+tags:
+  - retirement
+  - entitlements
+  - social-security

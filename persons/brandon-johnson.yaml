@@ -1,0 +1,24 @@
+slug: brandon-johnson
+full_name: Brandon Johnson
+tier: "3"
+bio_md: Mayor of Chicago since May 2023. A former Chicago Public Schools teacher and Cook County Commissioner, Johnson rose through the Chicago Teachers Union as an organizer and was elected mayor on a progressive platform emphasizing public services, labor rights, and equity-focused investment.
+role: Mayor of Chicago
+affiliation: City of Chicago
+party: Democratic
+lean_left: 80
+lean_right: 10
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: ChicagosMayor
+issue_stances:
+  - slug: union-rights
+    stance: Strong supporter of organized labor; rose to office through the Chicago Teachers Union
+  - slug: minimum-wage
+    stance: Backs phasing out the subminimum tipped wage and raising baseline pay
+  - slug: zoning-reform
+    stance: Supports investments in affordable housing and tenant protections
+  - slug: immigration-related-issues
+    stance: Defends Chicago's sanctuary-city policies and services for new arrivals

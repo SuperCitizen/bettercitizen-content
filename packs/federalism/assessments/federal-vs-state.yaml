@@ -1,0 +1,58 @@
+schema: supercitizen.assessment/v1
+lesson: federal-vs-state
+questions:
+  - id: q1-enumerated
+    kind: multiple-choice
+    text: "'Enumerated' powers are:"
+    choices:
+      - id: a
+        text: Powers explicitly listed in the Constitution as belonging to the federal
+          government
+      - id: b
+        text: Powers that belong to the states
+      - id: c
+        text: Powers shared between federal and state governments
+      - id: d
+        text: Powers reserved for the President
+    correct_choice_id: a
+    explanation: Enumerated (or 'expressed') powers are those explicitly listed in
+      the Constitution — most of them in Article I, Section 8 — as belonging to
+      the federal government.
+    concepts:
+      - enumerated-powers
+  - id: q2-tenth
+    kind: multiple-choice
+    text: "The Tenth Amendment says that powers not given to the federal government
+      and not denied to the states belong to:"
+    choices:
+      - id: a
+        text: Congress alone
+      - id: b
+        text: The President
+      - id: c
+        text: The states, or to the people
+      - id: d
+        text: The federal courts
+    correct_choice_id: c
+    explanation: "Tenth Amendment, verbatim: 'The powers not delegated to the United
+      States by the Constitution, nor prohibited by it to the States, are
+      reserved to the States respectively, or to the people.'"
+    concepts:
+      - tenth-amendment
+      - reserved-powers
+  - id: q3-concurrent
+    kind: free-response
+    text: Concurrent powers are powers exercised by both federal and state
+      governments. Name one and describe how each level uses it differently.
+    concepts:
+      - concurrent-powers
+      - federalism
+  - id: q4-policy
+    kind: free-response
+    text: Pick a current policy area (cannabis, immigration enforcement,
+      environmental regulation, education, etc.) where federal and state law
+      overlap or conflict. Briefly explain who's doing what, and what gets
+      resolved by federal supremacy versus by state discretion.
+    concepts:
+      - federalism
+      - commerce-clause

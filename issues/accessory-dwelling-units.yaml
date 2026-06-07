@@ -1,0 +1,45 @@
+slug: accessory-dwelling-units
+name: Accessory dwelling units (ADUs)
+category: housing
+summary: Whether cities and states should permit accessory dwelling units — backyard cottages, garage conversions, and basement apartments — by-right on existing single-family lots, as a modest path to add housing without changing neighborhood scale.
+body_md: |-
+  An accessory dwelling unit (ADU) is a smaller, self-contained dwelling on the same lot as a primary residence — typically a backyard cottage, converted garage, basement apartment, or "in-law suite." Historically common in older American neighborhoods, ADUs were widely banned by mid-20th-century zoning codes that emphasized single-family detached housing.
+
+  California began aggressively liberalizing ADU rules in 2016, with subsequent legislation removing barriers around parking minimums, owner-occupancy requirements, and approval discretion. Other states — Washington, Oregon, Vermont — have followed with statewide ADU-permitting laws. Permits and construction have surged in California in particular.
+
+  Proponents argue ADUs are the least disruptive form of new housing: they add supply, generate rental income for homeowners, provide housing options for aging parents and adult children, and require no demolition or rezoning. Permit data shows ADUs are produced by ordinary homeowners, not large developers.
+
+  Opponents argue ADUs strain parking, infrastructure, and neighborhood character, and that owner-occupancy requirements should remain to prevent investor concentration. Some emphasize design and lot-coverage standards rather than outright bans. Empirically, ADU production has been modest in most cities even after liberalization, raising questions about whether they meaningfully address affordability at scale.
+spectrum:
+  left: "ADUs are an unambiguous win: they let homeowners — including lower-income ones — add housing for family, friends, or rental, with minimal neighborhood disruption; by-right permits with no parking minimums or owner-occupancy requirements are the right policy."
+  center: ADUs are a low-cost, low-disruption tool to expand housing options; by-right permitting with reasonable design and infrastructure standards is broadly defensible and has produced the strongest empirical results.
+  right: Permitting ADUs by-right makes sense for many neighborhoods, but parking, design, and owner-occupancy rules protect existing residents from absentee-investor speculation; local discretion matters here.
+contested:
+  perspectives:
+    - label: By-right reformers
+      summary: "ADUs are the most modest possible form of new housing: small, on existing lots, financed by homeowners rather than developers. Eliminating parking minimums, owner-occupancy requirements, and discretionary review removes the barriers that prevented ADU construction in earlier eras."
+      key_concerns:
+        - Smallest-scale new housing type
+        - Empowers individual homeowners
+        - Supports aging-in-place and multigenerational households
+        - Minimal neighborhood disruption
+    - label: Design-and-standards moderates
+      summary: ADUs are valuable, but design, lot-coverage, height, and infrastructure standards matter to preserve livable neighborhoods. By-right permits with clear objective standards strike the right balance — they speed permits while preventing the worst outcomes.
+      key_concerns:
+        - Objective design standards prevent abuses
+        - Lot-coverage and height matter
+        - Infrastructure (sewer, parking) capacity
+        - Predictability for both owners and neighbors
+    - label: Owner-occupancy proponents
+      summary: ADUs should remain genuine accessory units — supplementing owner-occupied housing — not vehicles for investor speculation or short-term-rental conversion. Owner-occupancy requirements preserve the original purpose and prevent absentee-landlord clustering.
+      key_concerns:
+        - Risk of investor and short-term-rental conversion
+        - Owner-occupancy maintains accessory purpose
+        - Local concentration of absentee landlords
+        - Original ADU concept tied to primary residence
+related_lesson_slugs: []
+tags:
+  - housing
+  - zoning
+  - adu
+  - missing-middle

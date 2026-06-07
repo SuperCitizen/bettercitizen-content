@@ -1,0 +1,12 @@
+slug: plurality
+name: Plurality
+short_definition: The largest number of votes received by a candidate, even if not a majority (more than 50%).
+body_md: ""
+category: elections
+difficulty: intermediate
+status: active
+etymology: "Latin: pluralitas (the state of being plural, more than one). From pluralis (of or belonging to more than one)"
+why_it_matters: Many US elections are won by plurality, meaning a candidate can take office without majority support — fueling interest in alternative voting systems like ranked choice.
+context_example: The governor won with just 37% of the vote in a four-way race, a plurality that left nearly two-thirds of voters having supported someone else.
+related_term_slugs: []
+tags: []

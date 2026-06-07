@@ -1,0 +1,39 @@
+slug: lgbtq-protections
+name: LGBTQ civil-rights protections
+category: civil-rights-and-liberties
+summary: Federal and state laws prohibiting discrimination based on sexual orientation and gender identity in employment, housing, public accommodations, and other settings.
+body_md: |-
+  Bostock v. Clayton County (2020) held that Title VII's prohibition on sex discrimination includes sexual orientation and gender identity, providing federal employment protection. The Equality Act would extend similar protections to housing, public accommodations, and federally funded programs; it has passed the House but not the Senate.
+
+  State protections vary widely: many states have comprehensive non-discrimination laws covering LGBTQ status; others provide no such protection. Religious-liberty exemptions for LGBTQ-related services remain contested.
+
+  Recent debates have focused particularly on transgender issues: youth gender-affirming care, sports participation, military service, and bathroom/locker-room access.
+spectrum:
+  left: Progressives strongly favor comprehensive federal protections (Equality Act) and oppose religious-liberty exemptions that permit discrimination.
+  center: Many centrists favor non-discrimination protections with narrow religious-liberty accommodations.
+  right: "Conservative views split: some support workplace protections; many oppose Equality Act provisions on transgender access and religious-liberty grounds."
+contested:
+  perspectives:
+    - label: Comprehensive-protections advocates
+      summary: LGBTQ Americans deserve full civil-rights protection in employment, housing, and public accommodations — without religious-liberty escape valves that effectively eliminate access in many areas.
+      key_concerns:
+        - Comprehensive non-discrimination
+        - Equal access to public accommodations
+        - Federal protection across states
+    - label: Religious-liberty / parental-rights advocates
+      summary: Comprehensive protections must respect religious liberty, parental rights in youth medical decisions, and biological-sex distinctions in sports and intimate spaces.
+      key_concerns:
+        - Religious-liberty exemptions
+        - Parental rights in youth medical decisions
+        - Biological-sex distinctions in sports / intimate spaces
+    - label: Targeted-protections middle ground
+      summary: Strong protections in employment, housing, and most public accommodations, with carefully drawn religious exemptions for specific services and parental-rights protections in youth medical care.
+      key_concerns:
+        - Workplace and housing protections
+        - Narrow religious exemptions
+        - Parental decision-making in youth medical care
+related_lesson_slugs: []
+tags:
+  - lgbtq
+  - civil-rights
+  - discrimination

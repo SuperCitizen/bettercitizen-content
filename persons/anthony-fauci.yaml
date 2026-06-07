@@ -1,0 +1,18 @@
+slug: anthony-fauci
+full_name: Anthony Fauci
+tier: "4"
+bio_md: Physician-scientist and immunologist who served as director of the National Institute of Allergy and Infectious Diseases (NIAID) from 1984 to 2022. Served as chief medical adviser to the president during the COVID-19 pandemic. Advised seven U.S. presidents on HIV/AIDS and other infectious-disease threats. Recipient of the Presidential Medal of Freedom.
+role: physician, former NIAID director
+affiliation: NIH (former)
+lean_left: 65
+lean_right: 35
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: climate-policy
+    stance: Has spoken publicly about climate change as a driver of emerging infectious disease
+  - slug: medicaid-expansion
+    stance: Long-standing advocate for expanded access to HIV/AIDS treatment and public health funding

@@ -1,0 +1,23 @@
+slug: michelle-goldberg
+full_name: Michelle Goldberg
+tier: "4"
+bio_md: "Op-ed columnist for The New York Times since 2017 and a longtime journalist covering politics, religion, women's rights, and the American right. Author of books including 'Kingdom Coming: The Rise of Christian Nationalism' and 'The Means of Reproduction'. Previously wrote for Slate, The Nation, and other outlets."
+role: columnist
+affiliation: The New York Times
+lean_left: 80
+lean_right: 15
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: michelleinbklyn
+issue_stances:
+  - slug: abortion-access
+    stance: Outspoken defender of abortion rights and critic of post-Dobbs state-level restrictions
+  - slug: lgbtq-protections
+    stance: Supports broad federal protections and critiques restrictions on trans rights
+  - slug: religious-liberty
+    stance: Critic of expansive religious-exemption claims she argues undermine civil rights and pluralism
+  - slug: israel-palestine-policy
+    stance: A liberal Zionist who has become an increasingly sharp critic of the Israeli government's conduct of the Gaza war

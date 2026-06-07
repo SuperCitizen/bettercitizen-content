@@ -1,0 +1,11 @@
+slug: public-agenda
+name: Public Agenda
+kind: civic-reform
+subtype: deliberation
+description: Nonpartisan research and public-engagement organization that produces deliberation tools, opinion research, and community-engagement programs.
+website: https://publicagenda.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - civic-engagement
+is_active: true

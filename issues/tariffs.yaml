@@ -1,0 +1,33 @@
+slug: tariffs
+name: Tariffs and trade policy
+category: economy-and-taxation
+summary: Taxes on imports — a tool used for revenue, industrial protection, and geopolitical leverage, but with consumer-cost and retaliation trade-offs.
+body_md: |-
+  Tariffs are taxes paid by importers, typically passed through to consumer prices. After decades of declining U.S. tariffs under WTO/NAFTA frameworks, both the Trump and Biden administrations significantly raised tariffs on Chinese goods, steel, aluminum, EVs, semiconductors, and other categories.
+
+  Defenders argue tariffs protect strategic industries (semiconductors, steel), counter unfair trade practices (subsidies, IP theft), and rebuild manufacturing capacity. Critics argue they raise consumer prices, invite retaliation, and protect inefficient industries.
+
+  Empirical work on the 2018-2024 China tariffs finds most of the cost was borne by U.S. importers and consumers, not Chinese exporters; effects on U.S. manufacturing employment were modest and mixed.
+spectrum:
+  left: "Progressive views shifted: many now support tariffs to protect labor and rebuild industrial capacity; others worry about regressive consumer-price effects."
+  center: Trade economists generally favor low tariffs but accept targeted use against unfair practices.
+  right: "Conservative views split: traditional free-traders oppose broad tariffs; nationalist-conservative voices favor them as industrial-policy and geopolitical tools."
+contested:
+  perspectives:
+    - label: Strategic-tariff advocates
+      summary: Tariffs are essential to rebuild critical manufacturing (semiconductors, EVs, batteries), counter Chinese state subsidies and IP theft, and strengthen national resilience.
+      key_concerns:
+        - Strategic industries and supply-chain resilience
+        - Countering unfair trade practices
+        - U.S. manufacturing employment
+    - label: Free-trade defenders
+      summary: Tariffs are taxes on consumers. They raise prices, invite retaliation, protect inefficient firms, and rarely deliver promised manufacturing gains. Targeted security restrictions are a better tool.
+      key_concerns:
+        - Consumer prices
+        - Retaliation and trade-war dynamics
+        - Long-term productivity and innovation
+related_lesson_slugs: []
+tags:
+  - trade
+  - tariffs
+  - industrial-policy

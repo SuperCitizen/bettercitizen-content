@@ -1,0 +1,15 @@
+slug: kristi-noem
+full_name: Kristi Noem
+tier: "4"
+bio_md: US Secretary of Homeland Security and former Governor of South Dakota. Known for refusing COVID lockdowns and her hardline immigration stance.
+role: politician, government official
+affiliation: Republican Party
+party: Republican
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+issue_stances: []

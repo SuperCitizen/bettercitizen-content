@@ -1,0 +1,12 @@
+slug: arbitrage
+name: Arbitrage
+short_definition: The practice of exploiting price differences for the same asset across different markets to earn a risk-free profit. In politics and policy, it refers to exploiting gaps between jurisdictions — such as regulatory arbitrage (moving operations to places with weaker rules) or tax arbitrage (structuring finances to minimize tax burden across borders).
+body_md: ""
+category: economy
+difficulty: advanced
+status: active
+etymology: "French: arbitrage (decision by an arbiter), from Latin arbitrari (to judge)"
+why_it_matters: Arbitrage explains why corporations relocate to tax havens, why regulations often race to the bottom, and why global coordination on issues like corporate taxation is so difficult.
+context_example: Tech companies routing profits through Ireland and the Netherlands is a classic case of tax arbitrage — exploiting the gap between where value is created and where it's taxed.
+related_term_slugs: []
+tags: []

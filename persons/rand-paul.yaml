@@ -1,0 +1,16 @@
+slug: rand-paul
+full_name: Rand Paul
+tier: "4"
+bio_md: US Senator from Kentucky and ophthalmologist. Son of Ron Paul. A leading libertarian voice in Congress, known for opposing government surveillance, foreign intervention, and spending.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 30
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: RandPaul
+issue_stances: []

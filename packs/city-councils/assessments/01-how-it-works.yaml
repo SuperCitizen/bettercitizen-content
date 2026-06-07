@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What's the difference between strong-mayor and council-manager forms of city government?"
+    choices:
+      - id: a
+        text: "Strong-mayor cities have populations over 100,000; council-manager cities are smaller."
+      - id: b
+        text: "Strong-mayor: directly-elected mayor with executive powers (appoints department heads, vetoes legislation, drafts budget). Council-manager: council hires a professional city manager as chief executive, mayor often ceremonial."
+      - id: c
+        text: "Strong-mayor cities use district elections; council-manager use at-large."
+      - id: d
+        text: "There's no functional difference."
+    correct_choice_id: b
+    explanation: "These are the two dominant municipal-government forms in the U.S. Strong-mayor (NYC, LA, Houston, Chicago) puts a directly-elected executive in charge with significant powers. Council-manager (Phoenix, Dallas, San Jose, Charlotte) puts the council in charge, with a hired professional manager as chief executive. ~30% of U.S. cities use strong-mayor; ~60% use council-manager. The choice affects how visibly political the executive role is."
+    concepts: [city-council, strong-mayor, council-manager]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What is 'state preemption' in U.S. local government?"
+    choices:
+      - id: a
+        text: "When the federal government takes over local services."
+      - id: b
+        text: "When state legislatures pass laws overriding local regulations — common on minimum wage, plastic bag bans, anti-discrimination ordinances, gun regulation, and rent control."
+      - id: c
+        text: "A constitutional doctrine limiting federal authority."
+      - id: d
+        text: "When city councils preempt their own committees."
+    correct_choice_id: b
+    explanation: "State preemption is one of the most consequential dimensions of U.S. local politics. Cities are 'creatures of the state' — their authority is delegated by state legislatures, which can expand or restrict it at any time. Preemption is the practice of state law overriding local regulation. Recent examples include local minimum-wage ordinances, plastic-bag bans, anti-discrimination laws, gun regulation, and rent control. The result: city councils have less authority than the political conversation often assumes."
+    concepts: [city-council, state-preemption]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What does the empirical record say about voter turnout in city-council elections?"
+    choices:
+      - id: a
+        text: "Higher than turnout in federal elections."
+      - id: b
+        text: "Roughly equal to turnout in federal elections."
+      - id: c
+        text: "Substantially lower than federal elections — often 10-25% in non-presidential cycles, even though council decisions affect daily life directly."
+      - id: d
+        text: "Approximately 70% of eligible voters."
+    correct_choice_id: c
+    explanation: "City-council elections have dramatically lower turnout than federal elections — often 10-25% in non-presidential cycles. This is paradoxical given that council decisions directly affect daily life (zoning, parks, public safety, libraries). The structural opportunity: small voter bases mean individual votes and individual public-comment participation matter much more at the city level than at higher levels of government."
+    concepts: [city-council, civic-engagement]
+
+  - id: q4
+    kind: free-response
+    text: "What does effective public comment at a city council meeting look like, and why?"
+    socratic_seed: "Effective: specific (refer to a specific agenda item), brief (don't use full 3 minutes), personal (story about how the issue affects you), acknowledges trade-offs, shows consistency over multiple meetings, coordinates with others. Why: council members hear hundreds of comments; concise specific ones are remembered. Personal stories illuminate impact in ways abstract argument doesn't. Acknowledging trade-offs shows you've thought about the issue, increasing credibility. Consistency builds recognized presence. Coordination amplifies the voice. The opposite — long speeches, generic positions, personal attacks, threats — reduces effectiveness."
+    concepts: [city-council, civic-engagement]

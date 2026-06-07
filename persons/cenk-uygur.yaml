@@ -1,0 +1,15 @@
+slug: cenk-uygur
+full_name: Cenk Uygur
+tier: "4"
+bio_md: Founder and host of The Young Turks, one of the largest online progressive news shows. Former MSNBC contributor turned progressive media entrepreneur.
+role: media personality
+affiliation: The Young Turks
+lean_left: 80
+lean_right: 20
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: caborman
+issue_stances: []

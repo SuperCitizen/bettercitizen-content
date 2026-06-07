@@ -1,0 +1,37 @@
+slug: surveillance-and-privacy
+name: Government surveillance and privacy
+category: civil-rights-and-liberties
+summary: How federal authorities — NSA, FBI, DHS — surveil U.S. persons under FISA Section 702, geofence warrants, third-party doctrine, and other authorities.
+body_md: |-
+  Federal surveillance authority has grown substantially since 9/11. Key authorities and debates:
+  - **FISA Section 702**: Authorizes warrantless surveillance of non-U.S. persons abroad; "incidental" collection of Americans communicating with foreign targets has produced ongoing reform debates.
+  - **Geofence and reverse-warrant practices**: Compelling tech companies to identify all devices in a geographic area or all users searching for specific terms.
+  - **Third-party doctrine** (Smith v. Maryland, 1979): Records held by third parties (banks, phone companies) get less Fourth Amendment protection. Carpenter v. United States (2018) limited this for cell-site location data.
+  - **Stingray / IMSI-catcher** use by local police.
+  - **Section 215 / "business records"** authority and its successor regimes.
+
+  Reform proposals include warrant requirements for U.S.-person queries, sunset of broad authorities, and codification of Carpenter to broader records categories.
+spectrum:
+  left: Most progressives favor strong limits on government surveillance, especially of U.S. persons.
+  center: Many centrists favor warrant requirements for U.S.-person queries while preserving foreign-intelligence tools.
+  right: "Conservative views split: civil-libertarian conservatives favor strong limits; national-security conservatives favor preserving authorities."
+contested:
+  perspectives:
+    - label: Civil-libertarian reformers
+      summary: Mass surveillance and broad authorities like Section 702 routinely sweep up Americans without warrants. Carpenter's logic should extend, FISA needs warrant requirements for U.S.-person queries, and bulk authorities should sunset.
+      key_concerns:
+        - Warrant requirements for U.S.-person queries
+        - Limits on third-party doctrine
+        - Sunset of bulk authorities
+    - label: National-security defenders
+      summary: FISA and related authorities have prevented terrorist attacks and provide essential foreign-intelligence collection. Reform should target abuses without crippling legitimate intelligence work.
+      key_concerns:
+        - Counter-terrorism capabilities
+        - Foreign-intelligence collection
+        - Cybersecurity threats
+related_lesson_slugs:
+  - bill-of-rights
+tags:
+  - privacy
+  - surveillance
+  - fourth-amendment

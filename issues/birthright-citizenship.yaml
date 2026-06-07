@@ -1,0 +1,39 @@
+slug: birthright-citizenship
+name: Birthright Citizenship
+category: immigration
+summary: The 14th Amendment guarantee of citizenship to nearly all persons born on U.S. soil, and proposals — by statute or executive action — to limit it.
+body_md: |-
+  The Citizenship Clause of the 14th Amendment provides that "all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States." Long-standing interpretation, anchored in late-19th-century Supreme Court precedent, holds this clause to confer citizenship on nearly all persons born on U.S. soil regardless of parents' immigration status, with narrow historical exceptions.
+
+  In recent years some proposals — by statute, executive order, or constitutional amendment — would attempt to limit the clause's reach, typically by reinterpreting the "subject to the jurisdiction" phrase to exclude children of undocumented immigrants or short-term visitors. Such proposals face significant constitutional questions and have produced active litigation.
+
+  Defenders argue the long-settled rule provides clarity, prevents the creation of large stateless populations, and reflects the plain text and historical understanding of the Amendment. Critics argue the original purpose of the clause was narrower and that current interpretation is bad policy regardless of its legal pedigree.
+spectrum:
+  left: Progressives strongly defend birthright citizenship as a foundational constitutional guarantee and warn that limiting it would create a permanent underclass and undermine equal citizenship.
+  center: Moderates largely treat the current rule as settled constitutional law, though some are open to narrow statutory clarifications.
+  right: "The right is split: traditional conservatives often accept the existing interpretation; immigration-restrictionist conservatives favor revisiting or narrowing it."
+contested:
+  perspectives:
+    - label: Preserve the long-settled rule
+      summary: Birthright citizenship is grounded in the plain text of the 14th Amendment and over a century of precedent. It prevents statelessness, ensures equal citizenship, and avoids creating a hereditary underclass dependent on parents' status.
+      key_concerns:
+        - Constitutional text and precedent
+        - Preventing statelessness
+        - Equal citizenship at birth
+    - label: Narrow reinterpretation
+      summary: The Citizenship Clause was drafted in a different context. Reinterpreting "subject to the jurisdiction thereof" to exclude children of those with no lawful presence aligns the rule with the Amendment's original purposes and modern realities of unauthorized migration.
+      key_concerns:
+        - Original intent of the clause
+        - Discouraging unauthorized migration
+        - Sovereignty over membership rules
+    - label: Amend, do not reinterpret
+      summary: If policymakers want to change the rule, the constitutional path is a formal amendment, not executive reinterpretation. Stable constitutional meaning is more important than any single policy preference.
+      key_concerns:
+        - Rule-of-law stability
+        - Constitutional process
+        - Avoiding executive constitutional revision
+related_lesson_slugs: []
+tags:
+  - citizenship
+  - 14th-amendment
+  - immigration

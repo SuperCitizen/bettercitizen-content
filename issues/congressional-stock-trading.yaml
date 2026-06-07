@@ -1,0 +1,33 @@
+slug: congressional-stock-trading
+name: Congressional stock trading
+category: governance-and-institutions
+summary: Whether members of Congress and senior staff should be allowed to trade individual stocks while in office, given access to non-public market-moving information.
+body_md: |-
+  The STOCK Act (2012) banned insider trading by Members of Congress and required disclosure of trades. But the disclosure regime is widely flagged as weak: late filings rarely produce meaningful penalties, trade reporting lags by 30-45 days, and several Members have outperformed market benchmarks at suspicious rates.
+
+  Reform proposals include the Pelosi-Tuberville range of "ETRUST" / "PELOSI" / "Restore Trust" bills that would require Members to either divest individual holdings, place them in a qualified blind trust, or limit trades to broad index funds.
+
+  Defenders argue Members should not be uniquely barred from ordinary financial planning. Critics argue the appearance and reality of trading on inside information corrodes public trust.
+spectrum:
+  left: Most progressives favor strict bans on individual stock trading, with index-fund-only or blind-trust requirements.
+  center: Most reformers across parties favor banning individual stock trades; details vary.
+  right: Many conservatives also favor bans; some argue Members shouldn't be barred from ordinary investing.
+contested:
+  perspectives:
+    - label: Trading-ban advocates
+      summary: Members of Congress receive non-public information that moves markets. Public trust requires that they cannot personally profit. Index-fund-only or blind-trust rules are workable.
+      key_concerns:
+        - Insider trading on non-public information
+        - Public trust in Congress
+        - Conflicts of interest in committee work
+    - label: Status-quo defenders
+      summary: Members are still citizens who should be able to manage their finances. The STOCK Act's disclosure regime — strengthened with penalties — is a less invasive alternative to outright bans.
+      key_concerns:
+        - Property rights and ordinary investing
+        - Disclosure vs. prohibition trade-off
+        - Recruiting capable Members
+related_lesson_slugs: []
+tags:
+  - ethics
+  - congress
+  - transparency

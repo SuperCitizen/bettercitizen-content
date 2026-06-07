@@ -1,0 +1,33 @@
+slug: rent-control
+name: Rent control / rent stabilization
+category: housing
+summary: Government caps on annual rent increases, debated as a tool against displacement and for tenant stability vs. a supply-distorting price ceiling.
+body_md: |-
+  Rent regulation comes in several flavors: traditional rent control (hard caps on rents), rent stabilization (caps on annual increases), vacancy decontrol (caps released between tenants), and just-cause eviction. New York, San Francisco, Los Angeles, and a growing list of states have rent regulations; St. Paul, Berkeley, and Portland have enacted recent expansions.
+
+  Empirical research on second-generation rent stabilization (annual-increase caps) finds mixed effects: stabilizing tenancies and reducing displacement, but reducing rental supply and quality over time, and benefiting longer-tenured tenants more than newcomers.
+
+  Defenders argue rent regulation is a necessary tenant protection in tight markets. Critics argue it discourages new supply, the only durable solution to housing scarcity.
+spectrum:
+  left: Progressives generally favor rent stabilization combined with anti-displacement protections.
+  center: Most housing economists oppose hard rent control but accept second-generation stabilization in tight markets.
+  right: Most conservatives oppose rent control as economically distortionary; some property-rights libertarians strongly so.
+contested:
+  perspectives:
+    - label: Tenant-protection advocates
+      summary: In housing-scarce markets, tenants face one-sided power. Rent stabilization, just-cause eviction, and anti-displacement protections preserve community ties and reduce homelessness.
+      key_concerns:
+        - Tenant stability
+        - Anti-displacement
+        - Reducing homelessness
+    - label: Supply-side critics
+      summary: "Rent control is a textbook price-ceiling failure: it reduces new construction, deters maintenance, and rewards incumbent renters at newcomers' expense. Supply-side reform is the answer."
+      key_concerns:
+        - Discouraging new construction
+        - Long-run housing-stock quality
+        - Equity between incumbent and new renters
+related_lesson_slugs: []
+tags:
+  - housing
+  - rent
+  - tenant-protection

@@ -1,0 +1,39 @@
+slug: local-news-decline
+name: Local news decline
+category: media-and-information
+summary: The collapse of local newspapers, the spread of news deserts, and policy responses such as journalism tax credits, philanthropic support, and platform-publisher compensation rules.
+body_md: |-
+  The US has lost roughly a third of its local newspapers since 2005, with thousands of communities now classified as "news deserts" with little or no professional local-news coverage. Newsroom employment at newspapers has fallen by more than half over the same period. Causes include the collapse of classified-ad revenue (to Craigslist and others), display-ad revenue moving to Google and Meta, and ownership consolidation by hedge funds and chains.
+
+  Researchers have documented downstream effects: lower voter turnout in local elections, less informed civic engagement, higher municipal borrowing costs, and increased corruption when watchdog reporting disappears. The vacuum is partly filled by partisan "pink slime" outlets, social media, and rumor.
+
+  Policy responses include the proposed federal Local Journalism Sustainability Act (tax credits), state-level support, philanthropic and nonprofit-newsroom growth, public-media funding, and platform-publisher bargaining laws modeled on Australia and Canada.
+spectrum:
+  left: Progressives generally support significant public investment in local journalism — tax credits, public-media funding, platform-bargaining rules — viewing the news crisis as a democratic emergency.
+  center: Centrists tend to support targeted, ideologically neutral measures (tax credits, nonprofit-news support, narrow platform rules) while wary of direct government subsidy that could compromise editorial independence.
+  right: Conservatives are often skeptical of subsidies they expect to flow disproportionately to left-leaning outlets, but many support local-news vitality through market reforms and antitrust-style platform action.
+contested:
+  perspectives:
+    - label: Public-investment advocates
+      summary: Local journalism is civic infrastructure, like roads or libraries. The market has failed to sustain it, and the democratic costs of its collapse — corruption, polarization, low turnout — are huge. Tax credits, philanthropic incentives, public-media expansion, and platform-bargaining laws can rebuild the local-news ecosystem.
+      key_concerns:
+        - Civic effects of news deserts
+        - Watchdog reporting at local level
+        - Public-good framing of journalism
+    - label: Independence-and-neutrality skeptics
+      summary: Government subsidy of journalism — even through tax credits — risks editorial capture by whichever party controls the levers. Journalism must remain independent of government, and the right answer is innovation in business models, philanthropy, and competition rather than public funding.
+      key_concerns:
+        - Editorial independence from government
+        - Risk of partisan subsidy distribution
+        - Market-based and philanthropic solutions
+    - label: Platform-accountability perspective
+      summary: Google and Meta captured the advertising market that funded newsrooms while distributing news content. Platform-publisher bargaining requirements, antitrust action against ad-tech monopolies, and clearer rules on AI training on news content can return some of that value to journalism without direct government subsidy.
+      key_concerns:
+        - Ad-tech monopolies and revenue capture
+        - Platform-publisher bargaining
+        - AI training and content licensing
+related_lesson_slugs: []
+tags:
+  - media
+  - journalism
+  - democracy

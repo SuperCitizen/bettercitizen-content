@@ -1,0 +1,18 @@
+slug: amartya-sen
+full_name: Amartya Sen
+tier: "4"
+bio_md: Indian economist and philosopher, Thomas W. Lamont University Professor at Harvard University. Awarded the Nobel Memorial Prize in Economic Sciences in 1998 for his contributions to welfare economics and social choice theory. Developed the capabilities approach to human development with Martha Nussbaum. Author of Development as Freedom and The Idea of Justice.
+role: Harvard economist and philosopher, Nobel laureate
+affiliation: Harvard University
+lean_left: 70
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: higher-education-funding
+    stance: Argues that education and health are core capabilities that justify substantial public investment
+  - slug: foreign-aid
+    stance: Has argued that development requires expanding human freedoms, not just income

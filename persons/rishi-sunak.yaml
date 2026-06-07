@@ -1,0 +1,24 @@
+slug: rishi-sunak
+full_name: Rishi Sunak
+tier: "4"
+bio_md: Prime Minister of the United Kingdom from October 2022 to July 2024 and leader of the Conservative Party during that period. Previously served as Chancellor of the Exchequer during the COVID-19 pandemic, where he designed the furlough scheme. A former Goldman Sachs analyst and hedge fund partner before entering Parliament in 2015.
+role: former Prime Minister of the United Kingdom
+affiliation: Conservative Party
+party: Conservative
+lean_left: 25
+lean_right: 65
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: RishiSunak
+issue_stances:
+  - slug: ukraine-support
+    stance: Continued large UK military and financial aid packages to Ukraine and was an early supporter of supplying tanks
+  - slug: nato-and-alliances
+    stance: Strong NATO supporter; raised UK defense-spending ambitions toward 2.5% of GDP
+  - slug: immigration-related-issues
+    stance: Championed the Rwanda asylum-removal plan and pursued reductions in legal migration
+  - slug: climate-policy
+    stance: Pushed back some net-zero deadlines while keeping the 2050 target and expanding nuclear

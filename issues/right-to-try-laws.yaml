@@ -1,0 +1,39 @@
+slug: right-to-try-laws
+name: Right-to-try laws
+category: healthcare
+summary: Laws allowing terminally ill patients to access experimental treatments that have passed initial safety trials but have not received final FDA approval.
+body_md: |-
+  The federal Right to Try Act (2018) and parallel state laws allow terminally ill patients to request access to investigational drugs that have completed Phase I clinical trials but have not received full FDA approval. The law operates outside the FDA's pre-existing Expanded Access ("compassionate use") program.
+
+  Supporters frame these laws as restoring patient autonomy in life-or-death situations. Critics argue the laws bypass safety review, may give false hope, and do little that Expanded Access did not already do — while shielding drug companies from liability.
+
+  In practice, manufacturers retain discretion over whether to provide the drugs, so access remains limited. The debate continues over whether right-to-try expanded real access or primarily served symbolic and political ends.
+spectrum:
+  left: Progressives are often skeptical, worrying that right-to-try bypasses essential safety review, exploits vulnerable patients, and weakens FDA authority.
+  center: Centrists often see right-to-try as a modest expansion of existing compassionate-use pathways, with limited practical effect beyond signaling.
+  right: "Conservatives and libertarians frame right-to-try as a fundamental autonomy issue: dying patients should not need government permission to try treatments their doctors recommend."
+contested:
+  perspectives:
+    - label: Patient autonomy advocates
+      summary: A dying patient has nothing to lose from trying an experimental treatment. Government has no legitimate authority to stand between a terminal patient and a possible therapy their doctor believes could help.
+      key_concerns:
+        - Patient self-determination at end of life
+        - Bypassing bureaucratic delays
+        - Hope and dignity for terminal patients
+    - label: FDA-process defenders
+      summary: Phase I trials only establish basic safety, not efficacy. Right-to-try can expose patients to ineffective or harmful drugs, generate misleading anecdotes, and undermine the trials that establish whether treatments actually work.
+      key_concerns:
+        - Phase II/III efficacy data still missing
+        - Risk of exploitation and false hope
+        - Distortion of clinical trial enrollment
+    - label: Pragmatic skeptics
+      summary: Right-to-try largely duplicates the FDA Expanded Access program, which already approves the vast majority of compassionate-use requests. Practical access is limited by manufacturer willingness, not federal rules.
+      key_concerns:
+        - Redundancy with Expanded Access
+        - Manufacturer discretion as real bottleneck
+        - Symbolic vs. practical impact
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - fda
+  - patient-rights

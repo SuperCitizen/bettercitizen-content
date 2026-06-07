@@ -1,0 +1,19 @@
+slug: bari-weiss
+full_name: Bari Weiss
+tier: "4"
+bio_md: Journalist and founder of The Free Press. Former New York Times opinion editor who resigned citing editorial suppression. Known for her opposition to ideological conformity in media.
+role: journalist, media executive
+affiliation: The Free Press
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: bariweiss
+issue_stances:
+  - slug: section-230
+    stance: Founded The Free Press to create alternative to ideologically constrained mainstream media
+  - slug: higher-education-funding
+    stance: Documents ideological conformity on college campuses

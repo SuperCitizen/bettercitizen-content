@@ -1,0 +1,14 @@
+slug: ta-nehisi-coates
+full_name: Ta-Nehisi Coates
+tier: "4"
+bio_md: Author and journalist. National Book Award winner for Between the World and Me. One of the most influential writers on race in America, formerly of The Atlantic.
+role: author, journalist
+affiliation: Independent
+lean_left: 85
+lean_right: 15
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances: []

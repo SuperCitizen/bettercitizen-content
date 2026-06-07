@@ -1,0 +1,43 @@
+slug: curriculum-standards
+name: K-12 curriculum standards and content
+category: education
+summary: What students should be taught — including reading methods, math curricula, history framing, race and gender content, and parent-rights laws.
+body_md: |-
+  K-12 curriculum is primarily a state and local matter, but national debates have intensified over:
+  - **Reading**: The "science of reading" movement's push for phonics-based instruction over balanced literacy.
+  - **Math**: Common Core, conceptual vs. procedural emphasis, tracking debates.
+  - **History and civics**: How to teach American history including slavery, civil rights, founding documents, and current controversies.
+  - **Race and gender content**: Critical race theory bans, transgender-related curriculum, parent-notification rules.
+  - **Parent rights**: State laws expanding parental access to materials, opt-outs, and book-challenge processes.
+
+  Federal influence is limited (the Department of Education cannot dictate curriculum) but conditional grants, civil-rights enforcement, and Title IX shape state behavior.
+spectrum:
+  left: Progressives generally favor inclusive curricula on race, gender, and history; oppose state laws restricting these topics.
+  center: Most moderates favor evidence-based reading and math, age-appropriate inclusive curricula, and reasonable parental access.
+  right: Many conservatives favor restrictions on critical race theory, gender-identity content, and explicit material; broad parental rights.
+contested:
+  perspectives:
+    - label: Inclusive-curriculum advocates
+      summary: Honest history including slavery, Reconstruction, civil rights, and current racial dynamics is essential. LGBTQ inclusion in curricula is age-appropriate and supports student well-being.
+      key_concerns:
+        - Honest treatment of American history
+        - Inclusion of LGBTQ students
+        - Avoiding politically motivated bans
+    - label: Parent-rights advocates
+      summary: Parents are the primary stewards of their children's education. They have a right to review materials, opt out of objectionable content, and influence what schools teach about race, gender, and sexuality.
+      key_concerns:
+        - Parental access to materials
+        - Opt-out rights
+        - Age-appropriate content
+    - label: Evidence-based reformers
+      summary: "Set the politics aside: reading instruction should follow the science (phonics), math should be evidence-based, and curriculum debates should be resolved by educators and parents at the local level."
+      key_concerns:
+        - Reading-instruction methods (phonics)
+        - Local control
+        - De-escalation of culture-war fights
+related_lesson_slugs:
+  - school-boards
+tags:
+  - education
+  - k-12
+  - curriculum

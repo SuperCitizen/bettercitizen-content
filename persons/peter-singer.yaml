@@ -1,0 +1,16 @@
+slug: peter-singer
+full_name: Peter Singer
+tier: "4"
+bio_md: Australian moral philosopher and Ira W. DeCamp Professor of Bioethics at Princeton. Author of *Animal Liberation* (1975) — widely credited with founding the modern animal-rights movement — and *Practical Ethics*, *The Life You Can Save*, and *The Most Good You Can Do*. A leading proponent of preference utilitarianism and a founding intellectual of the effective altruism movement.
+role: philosopher, bioethicist
+affiliation: Princeton University
+lean_left: 70
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: PeterSinger
+wikipedia: https://en.wikipedia.org/wiki/Peter_Singer
+issue_stances: []

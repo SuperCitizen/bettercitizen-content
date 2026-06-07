@@ -1,0 +1,34 @@
+slug: revolving-door
+name: The revolving door (government-to-industry)
+category: money-in-politics
+summary: The pattern of officials moving between government roles and the industries they regulate, raising concerns about regulatory capture and post-employment conflicts of interest.
+body_md: |-
+  Federal law imposes a one-year ban on senior officials lobbying their former agency, and lifetime bans on lobbying on matters they "personally and substantially" worked on. State and local rules vary. In practice, many former officials work as "strategic advisers" or in-house roles that fall outside formal lobbying registration.
+
+  The revolving door operates in both directions: regulators recruited from industry, and former officials hired by regulated firms. The concern is regulatory capture — that the prospect of post-government industry employment biases officials' decisions.
+
+  Reform proposals include longer cooling-off periods (2-5 years), broader bans that include "strategic advice," and stricter recusal rules for officials with industry backgrounds.
+spectrum:
+  left: Progressives favor multi-year cooling-off periods and strong recusal rules to break regulatory capture.
+  center: Good-government reformers support closing strategic-adviser loopholes and modernizing the post-employment regime.
+  right: Some conservatives favor reform of the revolving door, especially for executive-branch appointees; others see it as a normal feature of expert governance.
+contested:
+  perspectives:
+    - label: Aggressive-reform advocates
+      summary: The revolving door is the central mechanism of regulatory capture. Multi-year bans, broader scope, and strict recusal would re-orient officials toward the public interest.
+      key_concerns:
+        - Regulatory capture
+        - Post-employment conflicts of interest
+        - Aligning officials with the public interest
+    - label: Expertise-pragmatist defenders
+      summary: Government needs people who understand the industries they regulate. Excessive restrictions on post-government employment deter qualified candidates from public service.
+      key_concerns:
+        - Recruiting and retaining expertise
+        - Avoiding incumbent-protection
+        - Distinguishing capture from competence
+related_lesson_slugs:
+  - lobbying
+tags:
+  - ethics
+  - lobbying
+  - regulatory-capture

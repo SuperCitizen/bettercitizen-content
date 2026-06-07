@@ -1,0 +1,45 @@
+slug: clean-energy-subsidies
+name: Clean energy subsidies
+category: environment-and-energy
+summary: Federal tax credits and grants for renewable energy, EVs, batteries, and clean manufacturing — primarily through the Inflation Reduction Act of 2022.
+body_md: |-
+  The IRA created roughly $370B in clean-energy tax credits over 10 years (some uncapped — Goldman Sachs estimates true cost $1T+). Major credits include:
+  - **45Y / 48E** (production / investment) for clean electricity
+  - **45X** for clean manufacturing (batteries, modules, components)
+  - **30D** for new clean vehicles (consumer)
+  - **45V** for clean hydrogen
+  - **45Q** for carbon capture and sequestration
+
+  The credits are technology-neutral or "neutral within technology classes" with bonus-credit structures for U.S.-content, prevailing wage, and energy-community siting.
+
+  Defenders argue subsidies catalyze private investment and rebuild U.S. manufacturing. Critics argue they pick winners, distort markets, and cost more than carbon-pricing alternatives.
+spectrum:
+  left: Progressives strongly favor preserving and expanding clean-energy subsidies.
+  center: Most centrists support the IRA framework while reforming specific provisions.
+  right: Most conservatives oppose IRA-scale subsidies; some support technology-neutral measures.
+contested:
+  perspectives:
+    - label: Subsidy advocates
+      summary: Clean-energy tax credits are catalyzing record private investment, rebuilding domestic manufacturing, and creating union jobs in red and blue states alike. They are working as designed.
+      key_concerns:
+        - Private-investment leverage
+        - Domestic manufacturing rebuild
+        - Energy-transition pace
+    - label: Subsidy critics
+      summary: Open-ended tax credits will balloon in cost, distort capital allocation toward favored technologies, and reward foreign supply chains despite content rules. Carbon pricing is more efficient.
+      key_concerns:
+        - Long-run fiscal cost
+        - Picking technology winners
+        - Subsidy capture by foreign producers
+    - label: Reform-not-repeal advocates
+      summary: Preserve credits for early-stage technologies (carbon capture, hydrogen, advanced nuclear) where commercial viability is unclear; phase out for mature technologies (utility-scale solar) that no longer need them.
+      key_concerns:
+        - Targeting credits to early-stage tech
+        - Phase-outs for mature tech
+        - Cost-effectiveness
+related_lesson_slugs:
+  - climate
+tags:
+  - climate
+  - energy
+  - subsidies

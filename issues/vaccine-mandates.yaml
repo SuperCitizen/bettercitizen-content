@@ -1,0 +1,39 @@
+slug: vaccine-mandates
+name: Vaccine mandates
+category: healthcare
+summary: Government and institutional requirements that individuals receive specified vaccines as a condition of school attendance, employment, or military service.
+body_md: |-
+  Vaccine requirements in the United States have a long history. States mandate childhood vaccinations as a condition of public-school attendance, with exemptions that vary by state (medical, religious, philosophical). The military has long required service members to receive specified vaccines.
+
+  The COVID-19 era expanded the debate. Federal employer mandates, healthcare-worker requirements, and military COVID vaccination orders generated litigation, Supreme Court rulings, and legislative pushback. Some states tightened school requirements; others broadened exemptions.
+
+  Open questions include the appropriate scope of employer mandates, whether religious and philosophical exemptions should be expanded or narrowed, federal vs. state authority, and how to balance public-health goals against individual choice and bodily autonomy.
+spectrum:
+  left: Progressives generally support strong vaccine requirements with narrow exemptions, viewing immunization as a collective good that protects vulnerable people.
+  center: Centrists often support longstanding school-entry requirements but are more cautious about new federal employer mandates or expanding requirements rapidly.
+  right: Many conservatives support medical freedom, broader religious and philosophical exemptions, and skepticism of federal mandates, while often accepting traditional school-entry rules.
+contested:
+  perspectives:
+    - label: Public-health advocates
+      summary: Vaccination is one of the highest-impact public-health interventions in history. Broad, enforceable requirements with narrow exemptions are essential to maintain herd immunity and protect immunocompromised people who cannot be vaccinated.
+      key_concerns:
+        - Herd immunity thresholds
+        - Protection of immunocompromised people
+        - Preventing return of eradicated diseases
+    - label: Medical-freedom advocates
+      summary: Informed consent and bodily autonomy are foundational medical-ethics principles. Government and employers should not coerce medical procedures, and religious and conscience exemptions must remain robust.
+      key_concerns:
+        - Informed consent and bodily autonomy
+        - Religious and conscience exemptions
+        - Trust in public-health institutions
+    - label: Federalism / pluralism
+      summary: Vaccine policy is properly a state and local matter, reflecting different community values and risk tolerances. Federal mandates impose uniform answers on a question where reasonable communities differ.
+      key_concerns:
+        - State authority over public health
+        - Avoiding federal overreach
+        - Local democratic accountability
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - public-health
+  - civil-liberties

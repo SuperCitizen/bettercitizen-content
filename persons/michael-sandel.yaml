@@ -1,0 +1,19 @@
+slug: michael-sandel
+full_name: Michael Sandel
+tier: "4"
+bio_md: "American political philosopher and Anne T. and Robert M. Bass Professor of Government at Harvard University. His Justice course is one of the most popular at Harvard and has been viewed by millions online. Author of Justice: What's the Right Thing to Do?, What Money Can't Buy, and The Tyranny of Merit, which critiques the moral and political consequences of meritocratic ideology."
+role: political philosopher
+affiliation: Harvard University
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: michaeljsandel
+issue_stances:
+  - slug: higher-education-funding
+    stance: Critiques admissions meritocracy and argues for rethinking the role of higher education
+  - slug: wealth-tax
+    stance: Has argued for stronger redistribution and questioned market-based solutions to inequality

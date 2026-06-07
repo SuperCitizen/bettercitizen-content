@@ -1,0 +1,15 @@
+slug: neil-degrasse-tyson
+full_name: Neil deGrasse Tyson
+tier: "4"
+bio_md: Astrophysicist, author, and science communicator. Director of the Hayden Planetarium. America's most prominent public advocate for science literacy and space exploration.
+role: scientist, communicator
+affiliation: American Museum of Natural History
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: neiltyson
+issue_stances: []

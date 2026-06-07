@@ -1,0 +1,43 @@
+slug: military-spending
+name: Military / defense spending
+category: foreign-policy
+summary: How much the U.S. should spend on defense ($800B+/year, ~3.4% of GDP) and on what — strategic competition, force structure, modernization, and procurement reform.
+body_md: |-
+  U.S. defense spending of $800B+ per year exceeds the next ten countries combined. Spending grew substantially through the post-9/11 era; subsequent debates have centered on right-sizing for great-power competition with China and Russia.
+
+  Key debates:
+  - **Top-line**: Increase, hold, or cut?
+  - **Force structure**: Two-war capability vs. focused on China; ground-force size; carrier numbers; air-superiority modernization.
+  - **Procurement reform**: F-35, Sentinel ICBM cost overruns; commercial-tech access (SpaceX, Anduril, Palantir).
+  - **Personnel**: Recruitment shortfalls, pay, benefits.
+  - **Strategic competition**: Indo-Pacific posture; deterrence of China.
+spectrum:
+  left: Many progressives favor reducing defense spending and reallocating to domestic priorities.
+  center: Most centrists favor preserving or modestly increasing defense spending, with procurement reform.
+  right: Most conservatives favor preserving or increasing defense spending; some "restrainers" favor restructuring.
+contested:
+  perspectives:
+    - label: Maintain-or-increase advocates
+      summary: Strategic competition with China requires sustained or increased investment in modernization, Indo-Pacific posture, naval shipbuilding, and emerging technologies. Underspending invites adversary aggression.
+      key_concerns:
+        - China deterrence
+        - Modernization across services
+        - Industrial-base capacity
+    - label: Reduce-and-reallocate advocates
+      summary: The U.S. spends more than the next ten countries combined. Substantial cuts are possible without compromising security; resources can address pressing domestic needs.
+      key_concerns:
+        - Domestic-investment trade-offs
+        - Eliminating underperforming programs
+        - Avoiding militarization of foreign policy
+    - label: Restructure-and-modernize advocates
+      summary: The defense budget is misallocated. Cut Cold War-era platforms, accelerate commercial tech adoption, fix procurement, and prioritize Indo-Pacific posture — without necessarily increasing the top-line.
+      key_concerns:
+        - Procurement reform
+        - Commercial-tech adoption
+        - Indo-Pacific prioritization
+related_lesson_slugs:
+  - foreign-policy
+tags:
+  - defense
+  - spending
+  - foreign-policy

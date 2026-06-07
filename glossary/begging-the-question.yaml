@@ -1,0 +1,12 @@
+slug: begging-the-question
+name: Begging the Question
+short_definition: A fallacy in which the conclusion is assumed in the premises — the argument quietly presupposes what it claims to prove.
+body_md: ""
+category: rhetoric
+difficulty: intermediate
+status: active
+etymology: A literal translation of the Latin petitio principii ("requesting the starting point"), itself a translation of Aristotle's Greek. In modern colloquial use the phrase is often misused to mean 'raises the question,' but the technical meaning is the circular one.
+why_it_matters: Question-begging is invisible by design — it works because the listener accepts the unstated premise without noticing. Asking 'what would have to be true for that argument to work?' surfaces the buried assumption.
+context_example: "The columnist begged the question: 'Because the policy is unjust, it must be repealed' — but whether the policy is unjust is exactly what the column was supposed to argue."
+related_term_slugs: []
+tags: []

@@ -1,0 +1,14 @@
+slug: brett-kavanaugh
+full_name: Brett Kavanaugh
+tier: "3"
+bio_md: Associate Justice of the U.S. Supreme Court since 2018. Nominated by President Donald Trump after his retirement from the U.S. Court of Appeals for the D.C. Circuit, where he served from 2006. Previously worked in the George W. Bush White House and as an associate counsel in the Office of Independent Counsel Ken Starr. His confirmation hearings included contested testimony regarding allegations of sexual assault dating to high school.
+role: jurist
+affiliation: U.S. Supreme Court
+lean_left: 18
+lean_right: 82
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances: []

@@ -1,0 +1,78 @@
+schema: supercitizen.assessment/v1
+lesson: what-it-held
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What did Citizens United v. FEC (2010) actually strike down?"
+    choices:
+      - id: a
+        text: "All campaign-finance regulation, including direct contributions to candidates."
+      - id: b
+        text: "BCRA §203's ban on corporate and union independent expenditures from general-treasury funds."
+      - id: c
+        text: "The Tillman Act of 1907's ban on corporate contributions to candidates."
+      - id: d
+        text: "Buckley v. Valeo's framework for distinguishing contributions from expenditures."
+    correct_choice_id: b
+    explanation: "The Court struck down BCRA §203 facially, allowing corporations and unions to make unlimited independent expenditures. It did NOT touch direct contributions (still banned under the Tillman Act and FECA), and it did NOT overrule Buckley — it built on Buckley's contribution/expenditure distinction."
+    concepts: [citizens-united, independent-expenditures]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which of the following did Citizens United NOT change?"
+    choices:
+      - id: a
+        text: "The legality of corporate general-treasury spending on independent expenditures."
+      - id: b
+        text: "The 'anti-distortion' rationale from Austin v. Michigan Chamber of Commerce."
+      - id: c
+        text: "Direct corporate contributions to federal candidates."
+      - id: d
+        text: "The constitutional treatment of speaker-based discrimination in election law."
+    correct_choice_id: c
+    explanation: "Direct corporate contributions to federal candidates have been illegal since the Tillman Act (1907) and remain illegal after Citizens United. The case explicitly preserved this rule. The other three options were all directly affected."
+    concepts: [citizens-united, campaign-finance]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What was the vote on the disclosure-and-disclaimer portion of Citizens United?"
+    choices:
+      - id: a
+        text: "5–4, with the same alignment as the main holding."
+      - id: b
+        text: "8–1, with only Justice Thomas dissenting."
+      - id: c
+        text: "9–0 unanimous."
+      - id: d
+        text: "There was no separate disclosure ruling; it was part of the main 5–4 holding."
+    correct_choice_id: b
+    explanation: "BCRA §§201 and 311 (disclosure and disclaimer requirements) were upheld 8–1, with only Justice Thomas dissenting. This part of the holding is often elided in popular accounts but is doing real work in current policy debates — it's why the DISCLOSE Act framework is constitutionally available."
+    concepts: [citizens-united, donor-disclosure]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which case actually created the legal vehicle now called a 'Super PAC'?"
+    choices:
+      - id: a
+        text: "Citizens United v. FEC (Supreme Court, January 2010)."
+      - id: b
+        text: "SpeechNow.org v. FEC (D.C. Circuit, March 2010)."
+      - id: c
+        text: "McCutcheon v. FEC (Supreme Court, 2014)."
+      - id: d
+        text: "Buckley v. Valeo (Supreme Court, 1976)."
+    correct_choice_id: b
+    explanation: "Citizens United opened the funding source — corporations and unions can spend unlimited independent expenditures. SpeechNow.org, decided two months later by the D.C. Circuit (sitting en banc), opened the aggregation vehicle — political committees can accept unlimited contributions to fund those expenditures. The combination is the Super PAC."
+    concepts: [super-pacs, citizens-united, independent-expenditures]
+
+  - id: q5
+    kind: free-response
+    text: "Citizens United is often summarized as 'the case that ruled corporations are people.' Why is this characterization misleading? Be specific about what the case actually held."
+    socratic_seed: "Consider two distinctions: (1) corporate personhood as a doctrine vs. corporate speech as a First Amendment matter, and (2) what the case said about who can SPEAK vs. who can spend without limit. The 'corporations are people' phrase predates CU by a century — it goes back to Santa Clara County v. Southern Pacific Railroad (1886) — and applies far beyond election law."
+    concepts: [citizens-united]
+
+  - id: q6
+    kind: free-response
+    text: "The majority's reasoning depended on the premise that 'independent expenditures … do not give rise to corruption or the appearance of corruption.' What empirical or structural arguments would the strongest critique of that premise make?"
+    socratic_seed: "Consider: (1) how 'independent' Super PACs actually operate in practice (staffing, vendors, coordination via public signaling), (2) Lessig's distinction between quid-pro-quo corruption and dependence corruption, (3) the 'appearance of corruption' standard from Buckley itself. The strongest critique doesn't reject the categorical distinction wholesale — it argues the empirical premise behind the distinction has eroded."
+    concepts: [citizens-united, quid-pro-quo, independent-expenditures]

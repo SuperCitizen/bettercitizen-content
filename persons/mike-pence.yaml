@@ -1,0 +1,24 @@
+slug: mike-pence
+full_name: Mike Pence
+tier: "4"
+bio_md: 48th Vice President of the United States, serving under President Donald Trump from 2017 to 2021. Former Governor of Indiana and US Representative. Refused to block certification of the 2020 Electoral College results on January 6, 2021, despite pressure from Trump. Sought the 2024 Republican presidential nomination before dropping out.
+role: Former Vice President of the United States
+affiliation: Republican Party
+party: Republican
+lean_left: 12
+lean_right: 82
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: Mike_Pence
+issue_stances:
+  - slug: abortion-access
+    stance: Longtime opponent of abortion who advocated for federal restrictions during his 2024 campaign
+  - slug: electoral-college
+    stance: Certified the 2020 Electoral College results despite pressure to reject electors
+  - slug: lgbtq-protections
+    stance: Signed Indiana's Religious Freedom Restoration Act in 2015, later amended after criticism
+  - slug: ukraine-support
+    stance: Strongly supported continued US aid to Ukraine in opposition to other Republicans

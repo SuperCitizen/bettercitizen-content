@@ -1,0 +1,20 @@
+slug: angus-deaton
+full_name: Angus Deaton
+tier: "4"
+bio_md: Scottish-American economist and Senior Scholar at Princeton University. Awarded the Nobel Memorial Prize in Economic Sciences in 2015 for his analysis of consumption, poverty, and welfare. With Anne Case, authored Deaths of Despair and the Future of Capitalism documenting rising mortality among working-class Americans without college degrees.
+role: Princeton economist, Nobel laureate
+affiliation: Princeton University
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: medicare-for-all
+    stance: Has criticized the American health care system's costs and outcomes, arguing for fundamental reform
+  - slug: minimum-wage
+    stance: Generally supportive of minimum wage increases as part of addressing wage stagnation
+  - slug: wealth-tax
+    stance: Has written on rising inequality and the case for stronger redistributive policy

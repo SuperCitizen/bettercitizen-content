@@ -1,0 +1,22 @@
+slug: marco-rubio
+full_name: Marco Rubio
+tier: "4"
+bio_md: US Secretary of State and former US Senator from Florida. Cuban-American politician known for immigration reform efforts and foreign policy hawkishness.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: marcorubio
+issue_stances:
+  - slug: border-security
+    stance: Co-authored 2013 bipartisan immigration reform bill that stalled
+  - slug: nuclear-power
+    stance: Hawkish on Iran nuclear deal and Cuba
+  - slug: tariffs
+    stance: Supports tariffs on China as national security measure

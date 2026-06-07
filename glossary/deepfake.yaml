@@ -1,0 +1,12 @@
+slug: deepfake
+name: Deepfake
+short_definition: Synthetic media created using artificial intelligence that convincingly depicts real people saying or doing things they never actually said or did.
+body_md: ""
+category: media-information
+difficulty: intermediate
+status: active
+etymology: "English portmanteau: 'deep' (from deep learning, a branch of AI) + 'fake.' Coined in 2017 by a Reddit user who used AI to swap celebrity faces into videos"
+why_it_matters: Deepfakes threaten democratic discourse by making it impossible to trust video evidence — a convincing fake could trigger a political crisis or swing an election.
+context_example: A deepfake video of the president appearing to declare a military strike circulated on social media for hours before being identified as AI-generated, causing a brief market panic.
+related_term_slugs: []
+tags: []

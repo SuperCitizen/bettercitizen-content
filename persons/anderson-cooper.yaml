@@ -1,0 +1,19 @@
+slug: anderson-cooper
+full_name: Anderson Cooper
+tier: "4"
+bio_md: American broadcast journalist and anchor of Anderson Cooper 360° on CNN. Known for on-the-ground reporting from disaster zones and conflict areas including Hurricane Katrina, Iraq, and Haiti. Also serves as a correspondent for 60 Minutes on CBS. Son of writer Wyatt Cooper and heiress Gloria Vanderbilt.
+role: CNN anchor, journalist
+affiliation: CNN
+lean_left: 55
+lean_right: 45
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: andersoncooper
+issue_stances:
+  - slug: lgbtq-protections
+    stance: Openly gay journalist who has reported on LGBTQ rights issues and discrimination
+  - slug: climate-policy
+    stance: Has reported extensively on climate change and its impacts on communities

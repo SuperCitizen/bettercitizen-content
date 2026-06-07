@@ -1,0 +1,33 @@
+slug: civil-asset-forfeiture
+name: Civil asset forfeiture
+category: criminal-justice
+summary: Police seizure of cash, vehicles, or property suspected of involvement in crime, often without a criminal conviction of the owner.
+body_md: |-
+  Civil asset forfeiture lets law-enforcement agencies seize property they allege is connected to a crime, then keep or sell it through a civil proceeding against the property itself. The owner is typically not charged criminally, and the burden often falls on the owner to prove the property's innocence.
+
+  Defenders argue forfeiture is a vital tool against drug trafficking and organized crime, depriving criminals of the proceeds and instruments of their offenses. Critics argue the incentive structure — agencies generally keep the proceeds — encourages seizures with little judicial oversight, and that the system imposes real costs on people never convicted of any crime.
+
+  Reform efforts have varied by state: some require a criminal conviction before forfeiture, some redirect proceeds to general funds rather than the seizing agency, and some have raised the burden of proof. Federal "equitable sharing" can let agencies bypass stricter state laws.
+spectrum:
+  left: Most progressives favor requiring a criminal conviction before forfeiture, redirecting proceeds away from seizing agencies, and closing the federal equitable-sharing loophole.
+  center: Centrists generally support procedural reforms — conviction requirements for smaller seizures, better notice, and oversight — while preserving forfeiture as a tool against major criminal enterprises.
+  right: Conservatives are split. Tough-on-crime and law-enforcement-aligned conservatives defend current practice; libertarian and property-rights conservatives have led major reform efforts.
+contested:
+  perspectives:
+    - label: Property-rights reformers
+      summary: Civil forfeiture lets the government take property without convicting anyone of a crime, often with the seizing agency keeping the proceeds. The incentives invite abuse. A criminal conviction should be required, and proceeds should not flow back to the seizing agency.
+      key_concerns:
+        - Seizure without criminal conviction
+        - Perverse incentives from agencies keeping proceeds
+        - Burden of proof falling on owners
+    - label: Law-enforcement-tool defenders
+      summary: Forfeiture lets agencies dismantle drug-trafficking and organized-crime operations by depriving them of the proceeds and instruments of crime. The civil process is needed because foreign or absent defendants cannot always be prosecuted criminally.
+      key_concerns:
+        - Disrupting drug and organized-crime financing
+        - Cases involving absent or foreign defendants
+        - Funding for law-enforcement operations
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - property-rights
+  - policing

@@ -1,0 +1,40 @@
+slug: drug-price-negotiation
+name: Prescription drug price negotiation
+category: healthcare
+summary: Whether and how the federal government — through Medicare and otherwise — should negotiate prescription drug prices with manufacturers.
+body_md: |-
+  The Inflation Reduction Act of 2022 authorized Medicare to negotiate prices for a small number of high-cost drugs starting in 2026, capped Part D out-of-pocket costs at $2,000/year, and capped insulin at $35/month for Medicare beneficiaries. The first 10 negotiated drug prices took effect in 2026; the program expands annually.
+
+  Pharmaceutical companies have challenged the program in court, arguing the "negotiation" is effectively price-setting. Lower courts have largely upheld the program.
+
+  Defenders argue Medicare's buying power should be deployed against manufacturer monopolies that result from patent and FDA exclusivity. Critics argue government price-setting reduces incentives for new-drug R&D.
+spectrum:
+  left: Progressives strongly favor expanding Medicare drug-price negotiation, including to commercial insurance.
+  center: Many moderates support the IRA negotiation framework and favor expanding coverage of the program.
+  right: Most conservatives oppose government price-setting on drugs; some favor more limited approaches like international reference pricing.
+contested:
+  perspectives:
+    - label: Expansion advocates
+      summary: Other peer nations pay 2-4x less for the same drugs. Medicare's buying power should be deployed at scale; the IRA's negotiation list should expand significantly.
+      key_concerns:
+        - Out-of-pocket cost for patients
+        - Federal Medicare spending
+        - Pricing power of single-source manufacturers
+    - label: Innovation-protection skeptics
+      summary: Drug R&D is funded by post-launch revenue. Government price-setting will reduce investment in new therapies — particularly for rare diseases and cutting-edge biologics.
+      key_concerns:
+        - R&D incentives
+        - Investment in rare-disease and cutting-edge therapies
+        - U.S. as global pharmaceutical innovator
+    - label: Reference-pricing alternatives
+      summary: Tie U.S. prices to a basket of peer-nation prices ("Most Favored Nation" pricing) without direct federal negotiation. Avoids government price-setting while addressing the gap with peer nations.
+      key_concerns:
+        - Maintaining global price differentials
+        - Avoiding federal price-fixing
+        - Cross-border pharmaceutical economics
+related_lesson_slugs:
+  - healthcare
+tags:
+  - healthcare
+  - pharmaceuticals
+  - medicare

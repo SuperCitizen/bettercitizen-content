@@ -1,0 +1,39 @@
+slug: carried-interest-loophole
+name: Carried Interest Tax Treatment
+category: economy-and-taxation
+summary: Whether the share of investment profits paid to private-equity, hedge-fund, and venture-capital managers should be taxed as ordinary income rather than at lower capital-gains rates.
+body_md: |-
+  Carried interest is the share of investment profits — typically around 20 percent — that fund managers receive as compensation for managing other people's capital. Under current law, when the underlying investments are held long enough, the manager's share is taxed at long-term capital-gains rates rather than ordinary-income rates that apply to wages and salaries.
+
+  Critics call this a loophole: the manager's carried interest is, functionally, payment for labor, yet it is taxed at rates well below those that apply to other high earners' wages. Defenders argue the treatment reflects the at-risk, equity-like nature of the position and is consistent with how partnership income has long been treated.
+
+  Reform proposals range from full reclassification as ordinary income, to extending required holding periods, to narrowly targeting specific fund structures. Estimates of revenue raised vary, but most analyses put the figure in the low tens of billions over a decade.
+spectrum:
+  left: Progressives view carried interest as an egregious loophole that lets the wealthiest managers pay lower rates than salaried workers and should be fully reclassified as ordinary income.
+  center: Many moderates favor at least tightening holding-period rules or narrowing the treatment, viewing it as an unfair anomaly even if the revenue impact is modest.
+  right: "Conservatives are split: some defend the current treatment as consistent with partnership taxation and risk-bearing; others would accept reform paired with broader pro-investment changes."
+contested:
+  perspectives:
+    - label: Treat it as wages
+      summary: Carried interest is compensation for managing other people's money, not a return on the manager's own capital. Taxing it as ordinary income closes a glaring inequity between fund managers and other high-earning professionals.
+      key_concerns:
+        - Equal tax treatment of labor income
+        - Closing visible high-income loopholes
+        - Public trust in tax fairness
+    - label: Narrow, targeted reform
+      summary: Wholesale reclassification could sweep in genuine entrepreneurial risk-taking. Lengthening holding periods or narrowing the rule to specific fund structures fixes the worst abuses without disturbing legitimate partnership taxation.
+      key_concerns:
+        - Distinguishing managers from founders
+        - Preserving long-term investment incentives
+        - Avoiding unintended consequences for VCs
+    - label: Preserve current treatment
+      summary: Carried interest reflects long-standing partnership-tax principles and rewards the at-risk, illiquid nature of the position. Reclassification would chill investment in long-horizon ventures and small businesses funded through partnership structures.
+      key_concerns:
+        - Investment in long-horizon ventures
+        - Consistency with partnership taxation
+        - Capital availability for small business
+related_lesson_slugs: []
+tags:
+  - carried-interest
+  - capital-gains
+  - private-equity

@@ -1,0 +1,15 @@
+slug: lex-fridman
+full_name: Lex Fridman
+tier: "4"
+bio_md: AI researcher and host of the Lex Fridman Podcast, known for marathon-length conversations with scientists, engineers, and political figures. Research affiliate at MIT.
+role: researcher, podcast host
+affiliation: MIT / Independent
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: lexfridman
+issue_stances: []

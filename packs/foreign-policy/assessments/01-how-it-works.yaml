@@ -1,0 +1,72 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "When was the last formal U.S. declaration of war?"
+    choices:
+      - id: a
+        text: "Korea (1950)"
+      - id: b
+        text: "Vietnam (1964)"
+      - id: c
+        text: "World War II (1941-1942)"
+      - id: d
+        text: "The Iraq War (2003)"
+    correct_choice_id: c
+    explanation: "The last formal U.S. declarations of war were in 1942 against Bulgaria, Hungary, and Romania. Korea, Vietnam, the Gulf, Afghanistan, and Iraq all proceeded under various authorizations short of formal declaration. The drift from declared wars to AUMF-based operations is a defining feature of post-WWII war-powers practice."
+    concepts: [foreign-policy, war-powers]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What does the 2001 AUMF (Authorization for Use of Military Force) authorize?"
+    choices:
+      - id: a
+        text: "Only force in Afghanistan."
+      - id: b
+        text: "Force against 'those nations, organizations, or persons' responsible for 9/11 and to prevent any future acts of international terrorism."
+      - id: c
+        text: "Force against any country designated a state sponsor of terrorism by the State Department."
+      - id: d
+        text: "Force against any country that has nuclear weapons capability."
+    correct_choice_id: b
+    explanation: "The 2001 AUMF is roughly 60 words long and has been used as legal basis for U.S. military operations in Afghanistan, Yemen, Somalia, Libya, Pakistan, Syria, Niger, Mali, Cameroon, Kenya, and other countries — including against ISIS, an organization that didn't exist in 2001. The expansive reading is itself contested but has been accepted by every administration since."
+    concepts: [foreign-policy, aumf]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What is the difference between a 'mutual defense treaty ally' and a 'Major Non-NATO Ally' (MNNA)?"
+    choices:
+      - id: a
+        text: "MNNAs are required to spend 2% of GDP on defense; treaty allies are not."
+      - id: b
+        text: "Treaty allies have a binding U.S. defense commitment ratified by the Senate; MNNAs have a designation conferring some defense-cooperation benefits without full treaty status."
+      - id: c
+        text: "MNNAs are NATO members; treaty allies are not."
+      - id: d
+        text: "There's no functional difference."
+    correct_choice_id: b
+    explanation: "Treaty allies (NATO members, Japan, South Korea, the Philippines, Australia, Thailand) have mutual-defense commitments ratified by the Senate. MNNAs (Israel, Egypt, Jordan, Argentina, Brazil, Bahrain, etc.) have designations conferring access to cooperative programs (foreign military financing, certain technology) without the binding mutual-defense commitment. The distinction matters enormously for crisis credibility."
+    concepts: [foreign-policy, alliance-system]
+
+  - id: q4
+    kind: multiple-choice
+    text: "What did the 2017 National Security Strategy and 2018 National Defense Strategy formally shift?"
+    choices:
+      - id: a
+        text: "From 'great-power competition' to 'global war on terror.'"
+      - id: b
+        text: "From 'global war on terror' to 'long-term strategic competition with China and Russia.'"
+      - id: c
+        text: "From 'forward defense' to 'restraint and offshore balancing.'"
+      - id: d
+        text: "From 'multilateralism' to 'unilateralism.'"
+    correct_choice_id: b
+    explanation: "The 2017 NSS and 2018 NDS formally shifted U.S. strategic framing from counter-terrorism (the post-9/11 frame) to great-power competition with China and Russia. This shift has been continued under both Republican and Democratic administrations and has practical consequences for defense procurement (longer-range strike, undersea, hypersonic, space and cyber), trade policy, and alliance posture."
+    concepts: [foreign-policy]
+
+  - id: q5
+    kind: free-response
+    text: "The restrainer and the conservative realist often agree about U.S. overextension but disagree about why. State the strongest version of each position."
+    socratic_seed: "Restrainer: U.S. is overextended because the framework treating global engagement as inherently valuable produces commitments without honest cost-benefit analysis; the right response is significant retrenchment from secondary commitments. Conservative realist: U.S. is overextended because resources are spread thinly across regions of unequal strategic stakes; the right response is selective retrenchment from secondary regions to concentrate on the China challenge. The disagreement is about whether engagement should be reduced overall (restrainer) or reallocated more sharply (realist)."
+    concepts: [foreign-policy, realism, restraint]

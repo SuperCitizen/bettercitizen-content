@@ -1,0 +1,22 @@
+slug: mohammed-bin-salman
+full_name: Mohammed bin Salman
+tier: "3"
+bio_md: Crown Prince and Prime Minister of Saudi Arabia, widely known as MBS. Son of King Salman, he has been the de facto ruler of the kingdom since the mid-2010s. He launched the Vision 2030 economic-diversification program and has overseen sweeping social, economic, and political changes, alongside controversies including the war in Yemen and the killing of journalist Jamal Khashoggi.
+role: Crown Prince and Prime Minister of Saudi Arabia
+affiliation: Kingdom of Saudi Arabia
+lean_left: 10
+lean_right: 75
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+issue_stances:
+  - slug: trade-with-china
+    stance: Deepened economic and energy ties with China while preserving the U.S. security relationship
+  - slug: israel-palestine-policy
+    stance: Pursued conditional normalization talks with Israel that paused after the October 7, 2023 attacks and Gaza war
+  - slug: climate-policy
+    stance: Promotes Saudi Arabia's economic-diversification and renewables investments while defending its role as a major oil exporter
+  - slug: religious-liberty
+    stance: Has loosened some social restrictions tied to religious authorities while maintaining tight political controls

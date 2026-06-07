@@ -1,0 +1,33 @@
+slug: sex-offender-registries
+name: Sex offender registries
+category: criminal-justice
+summary: Public registries of people convicted of sex offenses, including residency restrictions, registration duration, and which offenses qualify.
+body_md: |-
+  Every state maintains a public sex offender registry, and federal law sets minimum standards. Registries typically include name, photo, address, and offense, and may impose residency restrictions (e.g., not within a set distance of schools or parks), employment limits, and ongoing reporting requirements. Tier systems govern registration duration, often up to life.
+
+  Supporters argue registries help communities and law enforcement track people who pose ongoing risk, especially to children. Critics argue the registries are over-inclusive — sweeping in juvenile offenses, public urination, or consensual teenage relationships in some states — and that research on recidivism does not support broad assumptions of high re-offense rates.
+
+  Reform debates center on which offenses should require registration, how long registration should last, whether juveniles should appear on public registries, and how to evaluate individual risk rather than relying on offense category alone.
+spectrum:
+  left: Most progressives favor narrowing registries to higher-risk offenders, removing juveniles from public registries, and using individualized risk assessment rather than offense category alone.
+  center: Centrists generally support maintaining registries but pruning over-inclusion, tiering by risk, and reviewing residency restrictions that produce homelessness without measurable safety gains.
+  right: Conservatives broadly support robust registries to protect children, with internal debate over whether residency restrictions and lifetime registration are the right tools.
+contested:
+  perspectives:
+    - label: Child-safety advocates
+      summary: Registries give parents, schools, and law enforcement crucial information about people convicted of sex offenses, especially against children. They support investigation when new offenses occur and let communities take reasonable precautions. The registry is a foundational child-protection tool.
+      key_concerns:
+        - Protecting children from re-offense
+        - Supporting law enforcement investigations
+        - Community awareness and notification
+    - label: Narrow-the-registry reformers
+      summary: Registries sweep in juveniles, low-level offenders, and consensual teenage relationships, then impose lifetime restrictions that produce homelessness and joblessness without measurably improving public safety. Registration should be reserved for higher-risk individualized assessments.
+      key_concerns:
+        - Over-inclusion of low-risk and juvenile offenders
+        - Residency restrictions causing homelessness
+        - Lack of individualized risk assessment
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - sex-offenses
+  - child-safety

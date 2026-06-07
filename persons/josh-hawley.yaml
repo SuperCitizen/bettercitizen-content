@@ -1,0 +1,16 @@
+slug: josh-hawley
+full_name: Josh Hawley
+tier: "4"
+bio_md: US Senator from Missouri. Former state attorney general. A leading voice of populist conservatism, known for opposing Big Tech and his raised fist on January 6th.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: HawleyMO
+issue_stances: []

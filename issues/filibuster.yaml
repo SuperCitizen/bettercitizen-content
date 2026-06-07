@@ -1,0 +1,41 @@
+slug: filibuster
+name: The Senate filibuster
+category: governance-and-institutions
+summary: The Senate procedure that effectively requires 60 votes to end debate on most legislation, giving a minority of senators veto power over most bills.
+body_md: |-
+  The filibuster is not in the Constitution. It evolved from a procedural quirk in 1806 and became routine only in the 20th century. Cloture (ending debate) requires 60 votes under current Rule XXII. The "two-track" system since the 1970s lets the Senate set a bill aside without actually requiring talking filibusters.
+
+  Both parties have eliminated the filibuster for specific categories: nominations to executive-branch and lower-court positions (Reid, 2013), Supreme Court nominations (McConnell, 2017). Budget-reconciliation bills require only 50 votes by statute.
+
+  Reforms range from full elimination ("nuclear option" extended to legislation) to "talking-filibuster" requirements, exemptions for specific subjects (voting rights, civil rights), or sliding-scale cloture thresholds that drop over time.
+spectrum:
+  left: Many progressives favor eliminating the filibuster, especially for voting-rights and civil-rights legislation.
+  center: Some moderates favor reform (talking filibuster, lower thresholds over time) without full elimination.
+  right: Many conservatives currently favor preserving the filibuster as a check on majority overreach; positions shift with majority status.
+contested:
+  perspectives:
+    - label: Elimination advocates
+      summary: The filibuster has become a routine 60-vote requirement that prevents the majority from governing. Voting-rights, climate, and labor legislation cannot pass under current rules.
+      key_concerns:
+        - Majority rule and electoral accountability
+        - Voting-rights and civil-rights legislation
+        - Avoiding minority-rule deadlock
+    - label: Filibuster preservationists
+      summary: The filibuster forces consensus, protects minority interests, and slows down sweeping change. Eliminating it would make every election a winner-take-all rewrite of policy.
+      key_concerns:
+        - Minority protection in the Senate
+        - Encouraging cross-party consensus
+        - Stability of long-term policy
+    - label: Talking-filibuster reformers
+      summary: Restore the requirement that filibustering senators actually hold the floor and speak. This raises the cost of filibustering without eliminating minority rights.
+      key_concerns:
+        - Increasing political cost of filibuster
+        - Preserving minority voice
+        - Reducing routine 60-vote thresholds
+related_lesson_slugs:
+  - three-branches
+  - how-bills-become-law
+tags:
+  - senate
+  - institutions
+  - procedure

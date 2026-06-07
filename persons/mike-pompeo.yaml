@@ -1,0 +1,24 @@
+slug: mike-pompeo
+full_name: Mike Pompeo
+tier: "4"
+bio_md: 70th US Secretary of State from 2018 to 2021 and former Director of the Central Intelligence Agency from 2017 to 2018 under President Donald Trump. Previously served as US Representative from Kansas. West Point graduate and former Army officer. Founder of multiple small businesses before entering politics.
+role: Former US Secretary of State
+affiliation: Republican Party
+party: Republican
+lean_left: 12
+lean_right: 82
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: mikepompeo
+issue_stances:
+  - slug: taiwan-and-china
+    stance: Hawkish on China; pushed harder lines on Hong Kong, Xinjiang, and Taiwan as Secretary of State
+  - slug: israel-palestine-policy
+    stance: Oversaw US recognition of Israeli sovereignty over the Golan Heights and Jerusalem embassy move
+  - slug: ukraine-support
+    stance: Supports continued US military aid to Ukraine against Russian invasion
+  - slug: nato-and-alliances
+    stance: Supports NATO while pushing allies for higher defense spending

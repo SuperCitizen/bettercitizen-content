@@ -1,0 +1,43 @@
+slug: foreign-lobbying-disclosure
+name: Foreign lobbying disclosure (FARA)
+category: money-in-politics
+summary: How rigorously to enforce the Foreign Agents Registration Act, which requires those representing foreign principals in political or quasi-political activities to disclose their relationships to the U.S. government.
+body_md: |-
+  The Foreign Agents Registration Act (FARA) of 1938 requires individuals representing foreign governments, political parties, or certain foreign entities in U.S. political or public-influence activities to register with the Department of Justice and disclose their activities, finances, and communications. Enforcement was sparse for decades and surged after 2016 amid concern about foreign interference.
+
+  Proponents of stronger FARA enforcement argue that foreign-government influence operations — paid lobbying, public-affairs campaigns, and academic or media partnerships — distort American policymaking when they are hidden behind nominally independent voices. They support clearer rules, faster registration, and tougher penalties.
+
+  Critics argue that FARA is vague, that "foreign principal" can sweep in journalists, academics, and ordinary commercial speech, and that aggressive enforcement risks chilling speech and First Amendment-protected advocacy. The debate is now over whether to modernize the statute, scope it more narrowly, or apply it more broadly.
+spectrum:
+  left: FARA enforcement was historically lax, allowing foreign governments to shape American policy through hidden lobbying; modernized rules with real penalties are essential to defend democratic decision-making.
+  center: FARA is necessary but needs clearer definitions and faster registration; the goal is transparency about foreign influence without sweeping ordinary journalism, academic exchange, or business into a national-security framework.
+  right: Foreign influence is a real threat — particularly from Russia, China, and Iran — and FARA should be enforced rigorously; narrowing the statute risks letting hostile-state influence operations off the hook.
+contested:
+  perspectives:
+    - label: Aggressive-enforcement advocates
+      summary: Foreign governments shape U.S. policy through paid lobbying, op-ed placement, and academic partnerships that hide their origin. FARA is the central tool for transparency; lax enforcement for decades let influence operations flourish. Clearer rules, faster registration, and real penalties are overdue.
+      key_concerns:
+        - Hidden foreign influence distorts policy
+        - Historical underenforcement enabled abuse
+        - Hostile-state operations target U.S. policy
+        - Public has a right to know who is behind advocacy
+    - label: First Amendment skeptics
+      summary: FARA's broad definitions of "foreign principal" and "political activities" can sweep in journalists writing for international outlets, academics on visiting fellowships, and ordinary commercial speakers. Aggressive enforcement risks chilling protected speech and selective prosecution.
+      key_concerns:
+        - Vague statutory definitions
+        - Risk of chilling academic and media speech
+        - Selective enforcement concerns
+        - Distinguishing influence from ordinary advocacy
+    - label: Modernization reformers
+      summary: FARA was written in 1938 for a different threat environment. Modernization — clearer definitions, faster registration, public databases, and proportional penalties — would protect transparency without overbreadth, and would distinguish covert influence from open commercial or academic activity.
+      key_concerns:
+        - Statute predates modern influence operations
+        - Definitions need updating for digital era
+        - Public, searchable disclosures aid accountability
+        - Proportional penalties improve compliance
+related_lesson_slugs: []
+tags:
+  - lobbying
+  - foreign-influence
+  - fara
+  - transparency

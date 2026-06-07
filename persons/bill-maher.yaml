@@ -1,0 +1,21 @@
+slug: bill-maher
+full_name: Bill Maher
+tier: "4"
+bio_md: Host of Real Time with Bill Maher on HBO. Known for his liberal politics, outspoken anti-religious views, and increasing criticism of progressive excess and political correctness.
+role: TV host, comedian
+affiliation: HBO
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: billmaher
+issue_stances:
+  - slug: drug-decriminalization
+    stance: Long-time advocate for marijuana legalization
+  - slug: section-230
+    stance: Increasingly critical of progressive speech restrictions on campuses
+  - slug: medicare-for-all
+    stance: Supports single-payer healthcare system

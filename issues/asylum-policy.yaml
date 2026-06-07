@@ -1,0 +1,44 @@
+slug: asylum-policy
+name: Asylum policy
+category: immigration
+summary: How the U.S. processes asylum claims under the 1980 Refugee Act and Refugee Convention obligations — backlogs, standards, and proposed reforms.
+body_md: |-
+  U.S. asylum law (Refugee Act of 1980, implementing the 1951 Refugee Convention) protects people who can show a "well-founded fear of persecution" on account of race, religion, nationality, political opinion, or membership in a particular social group. Asylum claims can be made affirmatively or defensively (during removal proceedings).
+
+  Major operational issues:
+  - **Backlogs**: Over 1.6 million pending immigration-court cases; asylum claims often take 4-7 years.
+  - **Credible-fear standard**: How tightly to apply at the initial screening; tightening would reduce claims that proceed to full adjudication.
+  - **Safe-third-country agreements**: Whether to require asylum claims in the first safe country crossed.
+  - **Affirmative-asylum reforms**: Faster decisions by asylum officers without going through immigration court.
+
+  Recent administrations have repeatedly changed policies on credible-fear, safe-third-country, and use of expedited removal.
+spectrum:
+  left: Progressives favor preserving generous standards, expanding processing capacity, and humanitarian protection.
+  center: Many moderates favor faster processing combined with tighter screening at first encounter.
+  right: Most conservatives favor tighter credible-fear standards, expanded safe-third-country, and rapid removal of failed claims.
+contested:
+  perspectives:
+    - label: Humanitarian advocates
+      summary: Asylum is a U.S. legal and treaty obligation. Tightening standards turns away genuine refugees. Invest in processing capacity to handle valid claims quickly while maintaining the humanitarian commitment.
+      key_concerns:
+        - Refugee Convention obligations
+        - Genuine persecution claims
+        - Processing capacity
+    - label: Tighten-and-enforce advocates
+      summary: The asylum system is being used by economic migrants because of its slow processing. Tighten the credible-fear standard, expand safe-third-country agreements, and remove failed claimants quickly.
+      key_concerns:
+        - Reducing fraudulent or weak claims
+        - Operational control
+        - Equity with legal applicants
+    - label: Faster-processing reformers
+      summary: Both extremes underestimate processing capacity. Quadruple asylum officers and immigration judges, decide claims in months not years, and the incentives shift naturally.
+      key_concerns:
+        - Throughput of asylum system
+        - Decision quality and consistency
+        - Reducing perverse incentives from delay
+related_lesson_slugs:
+  - immigration
+tags:
+  - immigration
+  - asylum
+  - refugees

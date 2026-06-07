@@ -1,0 +1,39 @@
+slug: school-prayer-and-religion
+name: School prayer and religion in schools
+category: education
+summary: The role of prayer, religious expression, chaplains, and religious content in public schools, particularly after Kennedy v. Bremerton School District (2022).
+body_md: |-
+  The Supreme Court's 1962-1963 decisions in Engel v. Vitale and Abington v. Schempp banned state-sponsored prayer and Bible reading in public schools. For decades, the Lemon test (1971) governed Establishment Clause cases, often striking down religious activity in public schools.
+
+  Kennedy v. Bremerton School District (2022) sided with a public-school football coach who knelt to pray on the field after games, holding the conduct was private religious expression protected by the Free Exercise Clause. The Court signaled the Lemon test was no longer good law, suggesting a more "history and tradition" oriented analysis.
+
+  Since Kennedy, states and districts have explored chaplain programs, posting of the Ten Commandments, religious-release time, and student-led religious activities. Courts continue to draw lines between protected private religious expression by individuals and impermissible government endorsement.
+spectrum:
+  left: Progressives generally favor strict separation of church and state in public schools, viewing Kennedy as eroding protections for religious-minority and non-religious students.
+  center: Centrists tend to support clear protection of student-led private religious expression while opposing teacher-led prayer or sectarian state-sponsored religious content.
+  right: Many conservatives support broader religious expression in schools — chaplains, religious holiday acknowledgment, posted commandments — as restoring traditions wrongly excluded by past court decisions.
+contested:
+  perspectives:
+    - label: Religious-liberty advocates
+      summary: For decades, courts wrongly treated religious expression in public schools as a constitutional violation, marginalizing believers. Kennedy correctly restored that private religious expression — by teachers, coaches, and students — is protected speech, and broader religious presence in schools is consistent with American tradition.
+      key_concerns:
+        - Free exercise rights of staff and students
+        - Religious tradition in public life
+        - Correcting past hostility to religion
+    - label: Church-state separationists
+      summary: Public schools serve children of all faiths and none. State-sponsored or staff-led religious activity coerces participation, marginalizes religious-minority and non-religious children, and oversteps Establishment Clause limits. Kennedy threatens to reopen battles long thought settled.
+      key_concerns:
+        - Coercion of religious-minority children
+        - Establishment Clause integrity
+        - Equal status for non-religious families
+    - label: Religious-pluralism advocates
+      summary: Schools must accommodate genuine religious expression without privileging any tradition. That means real protection for student-led prayer, modest opt-in religious release time, and serious engagement with religion in academic context — but no state imposition of any sect's practices.
+      key_concerns:
+        - Student-led vs. state-led expression
+        - Equal access across faith traditions
+        - Academic study of religion
+related_lesson_slugs: []
+tags:
+  - education
+  - religion
+  - first-amendment

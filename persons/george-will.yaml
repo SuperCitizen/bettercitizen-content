@@ -1,0 +1,20 @@
+slug: george-will
+full_name: George Will
+tier: "4"
+bio_md: American political commentator and author. Pulitzer Prize-winning syndicated columnist for The Washington Post since 1974. Long-time ABC News commentator. Known for his traditional conservative views, classical liberalism, and writings on constitutionalism and baseball. Left the Republican Party in 2016 over Donald Trump's nomination.
+role: conservative columnist, ABC commentator
+affiliation: The Washington Post
+lean_left: 30
+lean_right: 70
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+issue_stances:
+  - slug: free-speech-on-campus
+    stance: Vocal defender of free speech and free inquiry on college campuses
+  - slug: filibuster
+    stance: Defends the filibuster as a check on legislative majorities
+  - slug: electoral-college
+    stance: Supports retaining the Electoral College as part of federalism

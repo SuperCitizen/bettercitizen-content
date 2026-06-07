@@ -1,0 +1,34 @@
+slug: public-option
+name: Public option
+category: healthcare
+summary: A government-run health insurance plan offered alongside private plans on the ACA marketplace — designed to compete with private insurers and expand coverage.
+body_md: |-
+  A public option would let consumers buy a government-run plan (often modeled on Medicare or Medicaid) on the ACA marketplace. Different design questions affect impact: who is eligible, what providers are required to participate, and at what reimbursement rates.
+
+  The original ACA dropped its public option in 2009-10 negotiations. State-level versions (Washington's Cascade Care, Colorado's Colorado Option) have piloted designs.
+
+  Defenders argue a public option provides cost-disciplined coverage in markets with weak competition. Critics argue it could crowd out private plans (especially if it can pay Medicare rates), reduce provider participation, and become a political backdoor to single-payer.
+spectrum:
+  left: Many progressives support a public option as a step toward Medicare for All.
+  center: Moderate Democrats and some Republicans support a public option as a market-augmentation reform.
+  right: Most conservatives oppose a public option as unfair government competition that crowds out private plans.
+contested:
+  perspectives:
+    - label: Public-option advocates
+      summary: A public option provides cost-disciplined coverage in markets where private competition is weak, reducing premiums and expanding access without disrupting existing coverage.
+      key_concerns:
+        - Coverage in low-competition markets
+        - Cost discipline through public-rate leverage
+        - Incremental path to universal coverage
+    - label: Crowd-out skeptics
+      summary: A public option leveraging Medicare rates would crowd out private plans, reduce provider participation, and effectively shift the system toward single-payer through the back door.
+      key_concerns:
+        - Crowd-out of private insurance
+        - Provider participation if rates fall
+        - Political slippery slope
+related_lesson_slugs:
+  - healthcare
+tags:
+  - healthcare
+  - insurance
+  - public-option

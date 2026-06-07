@@ -1,0 +1,40 @@
+slug: wealth-tax
+name: Wealth tax
+category: economy-and-taxation
+summary: An annual tax on net worth above a threshold (typically tens of millions), proposed as a way to address concentration of wealth and fund public investments.
+body_md: |-
+  Wealth-tax proposals (e.g. Warren's 2% on net worth over $50M, Sanders' 1% over $32M) target the top 0.1% of households. Some European countries have had wealth taxes; most have repealed them, citing administrative complexity, capital flight, and undervaluation of illiquid assets.
+
+  Constitutional questions: the 16th Amendment authorizes income taxes, and the Supreme Court has not ruled on whether a national wealth tax counts as a "direct tax" requiring apportionment. Most analysts believe a wealth tax is constitutional but litigation is likely.
+
+  Practical questions include: valuation of illiquid assets (private companies, art, real estate), enforcement against offshore wealth, liquidity for those whose wealth is in non-cash assets, and revenue estimates that vary widely with avoidance assumptions.
+spectrum:
+  left: Progressives strongly favor wealth taxes as a way to address inequality and fund public investments.
+  center: Many moderates prefer reforms to the income/capital-gains/estate tax over a new wealth tax.
+  right: Most conservatives oppose wealth taxes as confiscatory, complex, and likely to drive capital out of the country.
+contested:
+  perspectives:
+    - label: Wealth-tax advocates
+      summary: Concentration of wealth has reached historic levels and is largely untouched by income tax. A modest annual wealth tax on the ultra-rich raises significant revenue and reduces structural inequality.
+      key_concerns:
+        - Concentration of wealth and political power
+        - Funding social investments
+        - Capturing dynastic wealth that escapes income tax
+    - label: Income-tax-reform alternative
+      summary: The same goals — taxing the ultra-wealthy — can be achieved by closing income-tax loopholes, ending stepped-up basis, raising capital-gains rates, and strengthening the estate tax.
+      key_concerns:
+        - Avoiding constitutional challenges
+        - Lower administrative complexity
+        - Closing existing loopholes first
+    - label: Wealth-tax skeptics
+      summary: "European wealth taxes failed: capital fled, valuations were gamed, revenue underperformed. Wealth taxes punish savings, hurt entrepreneurship, and create chronic enforcement problems."
+      key_concerns:
+        - Capital flight and emigration
+        - Valuation of illiquid assets
+        - Disincentives for saving and investment
+related_lesson_slugs:
+  - taxes
+tags:
+  - taxation
+  - wealth
+  - inequality

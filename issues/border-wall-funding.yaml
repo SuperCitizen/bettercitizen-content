@@ -1,0 +1,39 @@
+slug: border-wall-funding
+name: Border Wall Funding
+category: immigration
+summary: Funding for physical and virtual barriers along the U.S. southern border, including pedestrian fencing, vehicle barriers, surveillance systems, and supporting infrastructure.
+body_md: |-
+  Congress and successive administrations have funded a range of physical and technological barriers along the U.S.-Mexico border, including pedestrian fencing, vehicle barriers, lighting, roads, cameras, sensors, and aerial surveillance. Construction is constrained by terrain, environmental considerations, private and tribal land rights, and litigation.
+
+  Debates concern the relative effectiveness of physical barriers versus technology and personnel, environmental and property-rights impacts, and whether funding should be appropriated through regular order or unlocked via emergency declarations and reprogramming.
+
+  Empirical evidence on barrier effectiveness varies by sector and is contested, with researchers emphasizing that any single tool interacts with personnel, technology, and conditions on the ground south of the border.
+spectrum:
+  left: Progressives generally oppose large-scale wall funding, citing limited effectiveness, environmental harm, and property-rights issues, while supporting investments in technology, personnel, and processing.
+  center: Moderates often support targeted barrier construction in select sectors paired with technology, more agents, faster processing, and reform of asylum and visa systems.
+  right: Most conservatives support substantial barrier construction along the southern border as a core element of effective border enforcement.
+contested:
+  perspectives:
+    - label: Border-enforcement advocates
+      summary: Physical barriers in high-traffic sectors give Border Patrol agents the time and visibility they need to apprehend crossers and deter smuggling. Combined with technology, they are a proven, cost-effective layer of enforcement.
+      key_concerns:
+        - Operational control of the border
+        - Deterrence and apprehension
+        - Combating smuggling networks
+    - label: Technology and process reform
+      summary: A patchwork of walls misses the bigger picture. Investments in sensors, drones, ports of entry, asylum processing, and immigration courts produce more durable control than steel and concrete alone.
+      key_concerns:
+        - Smarter technology investment
+        - Faster asylum and visa processing
+        - Better port-of-entry capacity
+    - label: Skeptics of wall spending
+      summary: Large barrier projects face environmental, tribal, and private-property obstacles, and historical evidence on effectiveness is mixed at best. The same dollars produce more security if spent on personnel, processing, and root-cause aid.
+      key_concerns:
+        - Environmental and property impacts
+        - Tribal-land and ecosystem effects
+        - Comparative cost-effectiveness
+related_lesson_slugs: []
+tags:
+  - border
+  - immigration-enforcement
+  - infrastructure

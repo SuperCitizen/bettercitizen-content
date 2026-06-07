@@ -1,0 +1,39 @@
+slug: prescription-drug-importation
+name: Prescription drug importation
+category: healthcare
+summary: Whether to allow legal importation of prescription drugs from Canada, Europe, and other regulated markets where prices are typically lower than in the United States.
+body_md: |-
+  Americans pay among the highest prescription drug prices in the developed world. Identical drugs from the same manufacturers often sell for a fraction of US prices in Canada and Europe, where governments negotiate prices or impose price ceilings.
+
+  Federal law allows the FDA to authorize state importation programs under specific conditions; Florida received the first such approval in 2024. Personal importation for individual use exists in a gray legal area that the FDA has historically tolerated but not formally permitted.
+
+  Debate centers on whether importation would meaningfully lower US prices, whether the FDA can guarantee the safety of imported drugs, whether it would harm domestic pharmaceutical innovation, and whether it merely outsources price controls the US could impose directly.
+spectrum:
+  left: Progressives largely support importation as one tool among many — including direct Medicare price negotiation — to bring US drug prices in line with peer countries.
+  center: Centrists are often cautiously supportive of pilot programs and personal importation, while flagging safety and supply-chain concerns.
+  right: "Conservatives are divided: free-market voices warn against importing foreign price controls and innovation harms, while populists support importation as direct relief for consumers."
+contested:
+  perspectives:
+    - label: Affordability advocates
+      summary: Americans should not pay multiples of what Canadians or Europeans pay for identical drugs. Importation breaks the pricing monopoly drug companies exploit in the US market and provides immediate relief while broader reforms are debated.
+      key_concerns:
+        - Out-of-pocket cost relief
+        - Breaking US-only price discrimination
+        - Patient access to needed medications
+    - label: Safety and supply-chain skeptics
+      summary: The FDA cannot guarantee the integrity of foreign supply chains at scale. Importation risks counterfeit drugs, storage-condition failures, and shortages in source countries, and bypasses regulatory frameworks built over decades.
+      key_concerns:
+        - Counterfeit and contaminated drug risk
+        - Cold-chain and storage integrity
+        - Strain on source-country supplies
+    - label: Innovation defenders
+      summary: High US prices fund global pharmaceutical R&D. Importing foreign price controls indirectly reduces revenue that funds new drug development, slowing innovation that ultimately benefits patients worldwide.
+      key_concerns:
+        - R&D funding for new therapies
+        - Innovation pipeline for rare diseases
+        - Free-riding on US-funded research
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - drug-pricing
+  - trade

@@ -1,0 +1,39 @@
+slug: payroll-tax-cap
+name: Social Security Payroll Tax Cap
+category: economy-and-taxation
+summary: Whether to raise or eliminate the wage cap above which earnings are exempt from Social Security payroll taxes, a frequent proposal for shoring up the program.
+body_md: |-
+  Social Security is funded primarily by a payroll tax (FICA) split between employee and employer. Earnings above an annually adjusted wage base are not taxed for Social Security, though Medicare taxes apply to all wages. As a result, a worker earning many times the cap pays the same Social Security tax as one earning at the cap.
+
+  The program's trustees project the combined trust funds will be unable to pay scheduled benefits in full within roughly the next decade absent congressional action. Raising or eliminating the cap is one of several levers — alongside benefit changes, retirement-age adjustments, and rate changes — that lawmakers have considered.
+
+  Proposals range from lifting the cap entirely on all earnings, to applying the tax above a high "donut hole" threshold, to indexing the cap more aggressively. Each option has different implications for the program's solvency, for benefit calculations, and for high earners' tax burden.
+spectrum:
+  left: Progressives generally favor eliminating or sharply raising the cap so high earners pay the same share as workers below it, closing most of the solvency gap without cutting benefits.
+  center: Many moderates favor a partial increase or "donut hole" approach paired with modest benefit adjustments to spread the burden of restoring solvency.
+  right: Conservatives often resist raising the cap, arguing it weakens the program's contributory link between taxes paid and benefits received and amounts to a large income-tax hike.
+contested:
+  perspectives:
+    - label: Lift or scrap the cap
+      summary: High earners now pay a smaller share of their income into Social Security than middle-class workers. Removing or sharply raising the cap restores fairness and covers most of the projected shortfall without benefit cuts.
+      key_concerns:
+        - Protecting scheduled benefits
+        - Progressive financing of the program
+        - Long-term trust-fund solvency
+    - label: Balanced reform package
+      summary: No single lever closes the gap without pain. A package combining a higher cap, modest rate or retirement-age changes, and targeted benefit adjustments distributes the cost more durably and is more politically achievable.
+      key_concerns:
+        - Sharing the burden across cohorts
+        - Bipartisan durability
+        - Predictability for near-retirees
+    - label: Preserve the contributory model
+      summary: Social Security was designed as earned insurance, not a transfer program. Severing the link between taxed wages and benefits turns it into welfare and undermines the broad political support it has long enjoyed.
+      key_concerns:
+        - Contributory benefit structure
+        - Avoiding large marginal tax-rate increases
+        - Effects on small-business owners and high-skill workers
+related_lesson_slugs: []
+tags:
+  - social-security
+  - payroll-tax
+  - entitlements

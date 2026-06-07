@@ -1,0 +1,33 @@
+slug: facial-recognition-regulation
+name: Facial recognition regulation
+category: technology-and-data
+summary: Government and law-enforcement use of facial recognition technology, including bans, warrant requirements, accuracy standards, and bias concerns.
+body_md: |-
+  Facial recognition technology compares facial images against databases to identify individuals. Federal agencies, state and local police, and private actors use it for purposes ranging from criminal investigations and border control to building access and consumer payments. Vendor systems vary widely in accuracy, with documented disparities in error rates across demographic groups, particularly for women and people of color.
+
+  Several cities — including San Francisco, Boston, and Portland — have banned government use of facial recognition outright. Other jurisdictions have imposed warrant requirements, audit and transparency mandates, or restrictions on real-time surveillance. The federal government uses facial recognition through CBP, the FBI, and other agencies. Wrongful arrests based on facial-recognition matches have been documented.
+
+  Debates center on accuracy and demographic bias, the threshold for law-enforcement use (warrant, lead-generation only, banned), real-time versus retrospective use, transparency requirements, and whether some uses are simply incompatible with civil liberties.
+spectrum:
+  left: Most progressives favor strong restrictions or bans on government use of facial recognition, citing bias, surveillance, and civil-liberties concerns.
+  center: Centrists generally support a regulatory framework with warrant requirements for identification, accuracy and audit standards, and limits on real-time surveillance.
+  right: Conservative views vary. Some support facial recognition for border security and serious crimes; libertarian-leaning conservatives raise surveillance and accuracy concerns.
+contested:
+  perspectives:
+    - label: Civil-liberties advocates
+      summary: Facial recognition enables mass surveillance at a scale impossible with prior technology, and current systems have documented demographic disparities that produce wrongful identifications. Without strict limits, this technology chills protest, dissent, and ordinary public movement. Some uses — real-time public surveillance — should be banned outright.
+      key_concerns:
+        - Mass surveillance and chilling effects
+        - Demographic bias and wrongful arrests
+        - Real-time identification in public spaces
+    - label: Law-enforcement-utility advocates
+      summary: Facial recognition has solved homicides, identified human trafficking victims, located missing children, and identified suspects from surveillance footage. With proper protocols — confirmation by human investigators, warrant requirements for certain uses, accuracy standards — it is a legitimate investigative tool, not a replacement for traditional evidence.
+      key_concerns:
+        - Investigative value in serious cases
+        - Use as a lead, not as sole evidence
+        - Border and identity-verification functions
+related_lesson_slugs: []
+tags:
+  - technology
+  - surveillance
+  - civil-liberties

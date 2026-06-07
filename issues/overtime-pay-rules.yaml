@@ -1,0 +1,39 @@
+slug: overtime-pay-rules
+name: Federal Overtime Pay Rules
+category: labor-and-welfare
+summary: How the Department of Labor should set the salary threshold below which white-collar workers are automatically entitled to overtime pay under the Fair Labor Standards Act.
+body_md: |-
+  The Fair Labor Standards Act requires overtime pay for hours worked above forty in a week, but exempts certain "white-collar" employees who meet duties tests and earn above a salary threshold set by the Department of Labor. The threshold has been updated only intermittently and has lagged inflation for long periods, leaving its real value to erode between updates.
+
+  Recent administrations have proposed substantial increases — some upheld by courts, others enjoined. Litigation typically turns on the level chosen, the speed of automatic indexing, and whether the rule effectively rewrites the duties test through salary alone.
+
+  Supporters of higher thresholds argue they restore overtime protection to millions of salaried workers earning modest pay and put a hard floor on what counts as an "exempt" salary. Critics warn rapid increases force restructuring of workforces, particularly at small employers, nonprofits, and in lower-cost regions.
+spectrum:
+  left: Progressives favor a substantially higher salary threshold with automatic indexing, restoring overtime protections to millions of salaried workers.
+  center: Moderates often support meaningful increases paired with phase-in periods, regional considerations, and exemptions for some nonprofits and small employers.
+  right: Most conservatives prefer modest updates over large jumps, citing burdens on small businesses, nonprofits, and rural employers, and argue indexing rules belong with Congress not regulators.
+contested:
+  perspectives:
+    - label: Restore the overtime floor
+      summary: The salary threshold has eroded for decades, classifying low-paid managers and assistants as exempt despite long hours. A higher threshold, automatically updated, restores the original intent of the FLSA's overtime protections.
+      key_concerns:
+        - Restoring real overtime coverage
+        - Automatic indexing
+        - Stopping abuse of exempt classification
+    - label: Phase-in with regional sensitivity
+      summary: A national threshold can hit small employers, rural areas, and nonprofits hard. Long phase-in periods, regional considerations, and clear duties guidance can capture the gains without forcing layoffs or hour cuts.
+      key_concerns:
+        - Effects on small employers
+        - Regional cost-of-living variation
+        - Nonprofit and rural impacts
+    - label: Congressional, not regulatory, reform
+      summary: Large changes to overtime coverage are policy choices that belong to Congress. Aggressive agency rulemaking creates legal uncertainty, invites litigation, and produces whipsaw changes as administrations alternate.
+      key_concerns:
+        - Separation of policymaking authority
+        - Regulatory whiplash
+        - Legal certainty for employers
+related_lesson_slugs: []
+tags:
+  - overtime
+  - flsa
+  - labor

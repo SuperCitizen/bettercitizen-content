@@ -1,0 +1,13 @@
+slug: league-of-women-voters
+name: League of Women Voters
+kind: civic-reform
+subtype: democracy-defense
+description: Nonpartisan civic organization focused on voter education and registration, candidate forums, and protecting voter access.
+website: https://www.lwv.org
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - civic-engagement
+  - voter-id
+  - voting-rights-act
+is_active: true

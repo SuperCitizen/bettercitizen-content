@@ -1,0 +1,24 @@
+slug: yair-lapid
+full_name: Yair Lapid
+tier: "3"
+bio_md: Israeli politician, founder and leader of the centrist Yesh Atid party. Served as Prime Minister of Israel in 2022 in a rotation government and previously as Alternate Prime Minister and Foreign Minister. Before politics he was a prominent television journalist, author, and columnist.
+role: Leader of Yesh Atid; former Prime Minister of Israel
+affiliation: Yesh Atid
+party: Yesh Atid
+lean_left: 55
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: yairlapid
+issue_stances:
+  - slug: israel-palestine-policy
+    stance: Supports a negotiated two-state outcome and opposes unilateral West Bank annexation
+  - slug: religious-liberty
+    stance: Champions a more secular public sphere and ending blanket military exemptions for ultra-Orthodox men
+  - slug: nato-and-alliances
+    stance: Emphasizes Israel's strategic alliance with the United States and broader Western democracies
+  - slug: lgbtq-protections
+    stance: Supports civil unions and legal protections for LGBTQ Israelis

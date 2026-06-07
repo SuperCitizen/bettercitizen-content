@@ -1,0 +1,33 @@
+slug: north-korea-policy
+name: North Korea policy
+category: foreign-policy
+summary: U.S. policy toward North Korea's nuclear and missile programs, including sanctions, diplomacy, alliance commitments, and denuclearization goals.
+body_md: |-
+  North Korea has tested nuclear weapons multiple times since 2006 and has built an arsenal of nuclear-capable ballistic missiles, including ICBMs capable of reaching the U.S. mainland. U.S. policy has cycled between strategic patience, "maximum pressure" sanctions, and direct diplomacy — including Trump-Kim summits in 2018-19 that produced no concrete denuclearization framework.
+
+  The current strategic picture is shaped by deepening North Korea-Russia ties (including reported munitions transfers for the war in Ukraine) and North Korea-China alignment. North Korea has formally repudiated unification with South Korea and labeled it a "hostile state," and continues missile testing and military exercises.
+
+  Debates center on whether complete denuclearization remains a realistic goal, whether interim arms-control measures (freezes on testing or production) could reduce risk, the role of sanctions and humanitarian carve-outs, and U.S. alliance commitments to South Korea and Japan including extended deterrence.
+spectrum:
+  left: Most progressives favor a diplomatic path that may include interim arms-control measures, eased humanitarian sanctions, and renewed dialogue, while preserving alliance commitments.
+  center: Centrists generally support sustained sanctions, alliance coordination with South Korea and Japan, and openness to phased diplomacy with verifiable steps.
+  right: Conservative views vary. Most favor sustained pressure and strong alliances; some support direct presidential diplomacy; others emphasize extended deterrence and missile defense.
+contested:
+  perspectives:
+    - label: Arms-control realists
+      summary: Full denuclearization is not achievable in the foreseeable future. Continuing to demand it as a precondition for talks has produced an ever-larger North Korean arsenal. Phased arms-control measures — caps on production, freezes on testing, hotlines — would reduce risk even if they fall short of disarmament.
+      key_concerns:
+        - Reducing risk of miscalculation and conflict
+        - Caps on warhead and missile production
+        - Engagement to prevent further proliferation
+    - label: Pressure-and-alliance advocates
+      summary: Accepting North Korea as a nuclear power rewards the regime, undermines the nonproliferation regime, and unsettles South Korea and Japan, who may pursue their own nuclear options. Sustained sanctions, strong alliances, missile defense, and credible extended deterrence are the right tools, not concessions for partial freezes.
+      key_concerns:
+        - Nonproliferation regime and global precedent
+        - Reassurance of South Korea and Japan
+        - Extended deterrence and missile defense
+related_lesson_slugs: []
+tags:
+  - foreign-policy
+  - north-korea
+  - nuclear

@@ -1,0 +1,39 @@
+slug: mail-in-voting
+name: Mail-in and absentee voting
+category: elections-and-voting
+summary: The rules governing voting by mail — universal mail ballots, no-excuse absentee, ballot return options, and signature verification — and how they affect turnout, security, and access.
+body_md: |-
+  Mail-in voting has expanded substantially since 2000, accelerated by the COVID-19 pandemic. Eight states (CO, HI, NV, OR, UT, VT, WA, CA) and DC mail ballots to all registered voters. Most other states allow no-excuse absentee voting; a minority require an approved excuse.
+
+  Audits and post-election reviews of recent expansions have found ballot fraud rates near zero, though signature-match and chain-of-custody procedures vary widely. Election officials emphasize that mail voting is a complex logistical operation requiring funding, training, and clear standards.
+
+  The policy questions: should mail ballots be sent automatically to every registered voter, requested per election, or restricted to voters with a documented excuse? How should signature verification, drop boxes, and ballot curing work?
+spectrum:
+  left: Progressives largely favor universal vote-by-mail with broad drop-box availability and ballot curing as a turnout and access measure.
+  center: Many centrists support no-excuse absentee voting with strong signature-match standards.
+  right: Many conservatives favor restricting mail voting to those with documented excuses and tighter chain-of-custody rules.
+contested:
+  perspectives:
+    - label: Universal-mail advocates
+      summary: States that mail ballots to every registered voter (CO, OR, WA) have higher turnout, lower costs per vote, and excellent security records. Mail voting is the future of accessible elections.
+      key_concerns:
+        - Increasing turnout, especially among working voters
+        - Reducing same-day logistical strain at polling places
+        - Allowing time for informed voting
+    - label: Restriction advocates
+      summary: In-person voting with verified ID is the most secure baseline. Mail ballots invite ballot harvesting, signature-match disputes, and chain-of-custody risks; restrict to documented excuses.
+      key_concerns:
+        - Chain of custody and ballot security
+        - Signature-match accuracy
+        - Ballot harvesting by third parties
+    - label: Modernization compromise
+      summary: Keep mail voting available no-excuse, but invest in signature verification, ballot tracking (BallotTrax), and standardized post-election audits.
+      key_concerns:
+        - Funding for election administration
+        - Voter-facing tracking and curing
+        - Risk-limiting audits
+related_lesson_slugs:
+  - voter-id-and-mail-ballots
+tags:
+  - voting-rights
+  - election-administration

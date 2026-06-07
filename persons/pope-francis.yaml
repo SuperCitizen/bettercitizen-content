@@ -1,0 +1,15 @@
+slug: pope-francis
+full_name: Pope Francis
+tier: "4"
+bio_md: Head of the Catholic Church since 2013. The first pope from the Americas (Argentina). Known for his focus on poverty, climate change, and modernizing certain Church positions.
+role: religious leader
+affiliation: Catholic Church
+lean_left: 60
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: Pontifex
+issue_stances: []

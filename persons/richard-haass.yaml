@@ -1,0 +1,19 @@
+slug: richard-haass
+full_name: Richard Haass
+tier: "4"
+bio_md: Former president of the Council on Foreign Relations and veteran diplomat. Author of multiple books on American foreign policy and international relations.
+role: foreign policy expert
+affiliation: Council on Foreign Relations
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: RichardHaass
+issue_stances:
+  - slug: nuclear-power
+    stance: Advocates for diplomatic non-proliferation frameworks
+  - slug: tariffs
+    stance: Supports rules-based international trade order

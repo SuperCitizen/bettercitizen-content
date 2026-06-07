@@ -1,0 +1,39 @@
+slug: mental-health-crisis-response
+name: Mental health crisis response
+category: healthcare
+summary: How to respond to behavioral-health emergencies — through 988, mobile crisis teams, co-responder models, or traditional police — and how to fund the underlying mental-health system.
+body_md: |-
+  The 988 Suicide and Crisis Lifeline launched in 2022, replacing the previous 1-800 number with an easy-to-remember three-digit code. Federal and state investments have grown the system, but funding, staffing, and follow-up capacity vary widely by state.
+
+  A parallel movement seeks to shift first-response for behavioral-health emergencies away from armed police toward mental-health professionals — through mobile crisis teams, co-responder models pairing officers with clinicians, or fully civilian alternatives like Eugene, Oregon's CAHOOTS program. Tragic encounters between police and people in psychiatric crisis have driven public pressure for change.
+
+  Underneath the crisis-response debate sits a deeper structural problem: a chronic shortage of psychiatric beds, outpatient providers, supportive housing, and substance-use treatment. Without those, crisis response is triage without a destination.
+spectrum:
+  left: Progressives generally favor robust civilian crisis-response, full funding of 988 and mobile crisis teams, major investment in community mental health, and reduced police role in psychiatric calls.
+  center: Centrists often support co-responder models, expanded 988 capacity, and increased mental-health investment, while keeping police involved when safety is uncertain.
+  right: Many conservatives support targeted mental-health investment and accountability for violent offenders with serious mental illness, and are skeptical of removing police from response roles.
+contested:
+  perspectives:
+    - label: Civilian-response advocates
+      summary: Sending armed police to psychiatric crises has produced tragedy after tragedy. Trained civilian responders — clinicians, peer specialists, EMTs — handle the vast majority of mental-health calls more safely and effectively than police can, at lower cost.
+      key_concerns:
+        - Police use of force in psychiatric crises
+        - Trauma-informed response quality
+        - Cost-effectiveness vs. patrol response
+    - label: Public-safety pragmatists
+      summary: Many behavioral-health calls involve weapons, violence, or serious safety risk. Civilian responders can lead routine calls, but officers must remain available — through co-responder models — for situations where safety is uncertain. The answer is collaboration, not replacement.
+      key_concerns:
+        - Responder safety in volatile situations
+        - Co-responder coordination
+        - Avoiding response delays
+    - label: Systemic-investment advocates
+      summary: "Crisis response is downstream of decades of underinvestment: closed state hospitals, scarce inpatient beds, sparse outpatient care, inadequate supportive housing. Without rebuilding the broader behavioral-health system, even the best 988 calls have nowhere to send people next."
+      key_concerns:
+        - Inpatient bed shortages
+        - Supportive housing and follow-up
+        - Provider workforce and reimbursement
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - mental-health
+  - public-safety

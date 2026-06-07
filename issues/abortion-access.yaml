@@ -1,0 +1,39 @@
+slug: abortion-access
+name: Abortion access
+category: healthcare
+summary: The legality and availability of abortion after Dobbs v. Jackson Women's Health (2022) overturned Roe v. Wade and returned the question to states.
+body_md: |-
+  Dobbs v. Jackson Women's Health Organization (2022) overturned Roe v. Wade and Planned Parenthood v. Casey, holding that the Constitution does not protect a right to abortion. As a result, states now set abortion law. As of 2024, roughly 14 states ban abortion at all stages of pregnancy with limited exceptions; another dozen restrict it after specific gestational ages; the rest broadly preserve access.
+
+  Federal questions remain: medication-abortion access (FDA approval of mifepristone, mailing under the Comstock Act), interstate travel for abortion, federal protections proposed via the Women's Health Protection Act, and federal abortion restrictions proposed by some legislators.
+
+  Polling shows complex public views: majorities favor legal access in most cases but support some gestational-age limits.
+spectrum:
+  left: Progressives favor codifying federal abortion rights, often with no gestational limit beyond viability or with broader access.
+  center: Many centrists favor legal access in the first trimester or up to viability, with later-term restrictions and exceptions.
+  right: Many conservatives favor strict limits or bans, with a smaller faction favoring federal-level restrictions.
+contested:
+  perspectives:
+    - label: Abortion-rights advocates
+      summary: Reproductive autonomy is a fundamental right that should not depend on geography. Federal protection — by statute or amendment — restores the right Dobbs took away.
+      key_concerns:
+        - Bodily autonomy
+        - Maternal health and life
+        - Consistent rights across states
+    - label: Pro-life advocates
+      summary: Unborn human life has moral and legal worth from conception (or, on some views, at heartbeat or viability). Abortion is a moral and legal harm that deserves protection.
+      key_concerns:
+        - Protection of fetal life
+        - Moral status of the unborn
+        - Limits on legal violence
+    - label: Federalism / middle-ground
+      summary: The Constitution does not resolve this question; states should set their own laws reflecting local values. Federal-level mandates in either direction violate the spirit of Dobbs.
+      key_concerns:
+        - State-level democratic resolution
+        - Avoiding federal one-size-fits-all
+        - Compromise on gestational limits
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - reproductive-rights
+  - constitutional-law

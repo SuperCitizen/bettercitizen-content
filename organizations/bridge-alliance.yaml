@@ -1,0 +1,12 @@
+slug: bridge-alliance
+name: Bridge Alliance
+kind: civic-reform
+subtype: depolarization
+description: Coalition of organizations working on civic engagement, governance reform, and bridge-building across political difference.
+website: https://www.bridgealliance.us
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - polarization
+  - civic-engagement
+is_active: true

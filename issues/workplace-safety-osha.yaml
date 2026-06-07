@@ -1,0 +1,39 @@
+slug: workplace-safety-osha
+name: OSHA Scope and Enforcement
+category: labor-and-welfare
+summary: The Occupational Safety and Health Administration's authority to set workplace safety standards, conduct inspections, and impose penalties — and whether its scope should expand or contract.
+body_md: |-
+  The Occupational Safety and Health Administration (OSHA) is the federal agency tasked with setting and enforcing workplace safety standards under the Occupational Safety and Health Act. OSHA writes standards, conducts inspections, and assesses penalties for violations; state-level "OSHA plans" administer the program in many states.
+
+  OSHA enforcement levels, the size of its inspectorate, and the penalty amounts available under federal law have been long-running points of contention. Debates also turn on the scope of OSHA's authority to address newer hazards — heat, infectious disease, ergonomics, workplace violence — and on the procedural pathways available for setting emergency standards.
+
+  Critics from labor and worker advocates argue OSHA is chronically under-resourced, with too few inspectors per worker and penalties too low to deter violations. Critics from the business community argue rule-making is unpredictable, that some standards impose costs disproportionate to risk reduction, and that small employers face heavy compliance burdens.
+spectrum:
+  left: Progressives and labor advocates favor expanded OSHA staffing, higher penalties, and broader standards covering heat, infectious disease, and workplace violence.
+  center: Moderates often favor targeted resource increases, evidence-based standard-setting, and improved coordination with state plans and small-business compliance support.
+  right: Most conservatives favor restraint on new OSHA rules, oppose broad emergency standards, and emphasize compliance assistance and clear cost-benefit analysis over expanded enforcement.
+contested:
+  perspectives:
+    - label: Expand and resource
+      summary: OSHA's inspector-to-worker ratio is low, penalties are too small to deter repeat offenders, and many modern hazards lack federal standards. Expanded staffing and modernized rules are essential to keeping workers safe.
+      key_concerns:
+        - Inspector capacity
+        - Penalty levels for repeat offenders
+        - "Modern hazards: heat, infectious disease, violence"
+    - label: Evidence-based modernization
+      summary: Some hazards are genuinely under-regulated, others not. Rigorous risk assessment, transparent cost-benefit analysis, and partnership with state plans can target enforcement where it produces the biggest safety gains.
+      key_concerns:
+        - Risk-based prioritization
+        - Cost-benefit transparency
+        - Coordination with state plans
+    - label: Compliance-assistance focus
+      summary: Sweeping new mandates strain small employers and rarely change behavior on their own. Education, voluntary protection programs, and clear guidance produce more durable safety improvements than expanded penalties.
+      key_concerns:
+        - Small-employer compliance burden
+        - Voluntary safety programs
+        - Predictability of rulemaking
+related_lesson_slugs: []
+tags:
+  - osha
+  - safety
+  - labor

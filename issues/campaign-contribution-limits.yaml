@@ -1,0 +1,42 @@
+slug: campaign-contribution-limits
+name: Campaign contribution limits
+category: money-in-politics
+summary: How strictly to cap the amounts individuals, PACs, and party committees may donate to federal candidates and party committees, balancing anti-corruption goals against free-speech and political-participation concerns.
+body_md: |-
+  Federal law caps individual contributions to candidates, PACs, and party committees, with limits adjusted for inflation each cycle. Following Supreme Court decisions including Buckley v. Valeo, Citizens United, and McCutcheon, limits apply to direct contributions but not to independent expenditures or to super PACs that operate independently of candidates.
+
+  Proponents of stricter limits — or of restoring caps struck down by McCutcheon — argue that large donors gain disproportionate access and influence, that the appearance of corruption corrodes public trust, and that small-dollar fundraising programs can fill the gap when limits are tight.
+
+  Opponents argue that contribution limits restrict political speech, that they have not reduced the role of money in politics (which has shifted toward independent expenditures), and that limits create incumbency advantages and force more money through less-transparent channels. Some argue limits should be raised, indexed to inflation, or eliminated outright in favor of disclosure-based regulation.
+spectrum:
+  left: Strict, low contribution limits — paired with public matching for small donors — are necessary to break the link between large donors and political access; current limits already favor the wealthy and well-connected.
+  center: Some limits are necessary to prevent corruption and its appearance, but the system also needs realistic limits indexed to inflation, robust disclosure, and consistent enforcement; tinkering around the edges has produced an incoherent regime.
+  right: Contribution limits restrict political speech without reducing the overall role of money; raising or eliminating limits with strong disclosure would shift money back toward accountable candidates and parties and away from outside groups.
+contested:
+  perspectives:
+    - label: Lower-limits reformers
+      summary: Large contributions create access, dependence, and the appearance of corruption — exactly what limits exist to prevent. Tight limits push fundraising toward small donors, broadening the political base, and reduce the leverage of mega-donors over policy outcomes.
+      key_concerns:
+        - Access and influence flowing to large donors
+        - Public trust erosion from appearance of corruption
+        - Small-donor fundraising widens participation
+        - Limits as a baseline anti-corruption tool
+    - label: Higher-limits-with-disclosure advocates
+      summary: Low contribution limits have not reduced money in politics — they have shifted it to less-accountable super PACs and dark-money groups. Higher limits to candidates and parties, paired with rigorous disclosure, would route money through more accountable channels.
+      key_concerns:
+        - Limits drove money to outside groups
+        - Candidates are more accountable than super PACs
+        - Disclosure as primary safeguard
+        - Limits below inflation-adjusted historical norms
+    - label: First Amendment maximalists
+      summary: Political contributions are protected speech and association. Government should regulate by disclosure, not by capping how much citizens can give to causes and candidates they support. Limits reflect incumbent advantage as much as anti-corruption goals.
+      key_concerns:
+        - Contributions are protected political speech
+        - Limits entrench incumbents with name recognition
+        - Disclosure is the constitutional path
+        - Government should not pick winners through caps
+related_lesson_slugs: []
+tags:
+  - campaign-finance
+  - contribution-limits
+  - first-amendment

@@ -1,0 +1,39 @@
+slug: legacy-admissions
+name: Legacy admissions
+category: education
+summary: The practice of giving preferences in selective college admissions to applicants who are children — and sometimes other relatives — of alumni.
+body_md: |-
+  Legacy preferences are common at selective US colleges, especially private ones, where children of alumni typically receive significant admissions advantages. Estimates vary, but legacy applicants are several times more likely to be admitted than non-legacy applicants with similar credentials at many highly selective schools.
+
+  The practice came under intensified scrutiny after the Supreme Court's 2023 decision in Students for Fair Admissions v. Harvard, which ended race-conscious affirmative action. Several states (including Colorado, Virginia for public colleges, and California for private nonprofits in admissions reporting) have taken legislative or regulatory action; some colleges have ended the practice voluntarily.
+
+  Defenders point to alumni loyalty, donations that fund financial aid, and community continuity. Critics call it affirmative action for the already-privileged and argue it perpetuates racial and class hierarchies under a facially neutral label.
+spectrum:
+  left: Progressives broadly oppose legacy admissions as a privilege-perpetuating practice and want them banned, particularly at any institution receiving federal funds.
+  center: Centrists often support eliminating legacy preferences as inconsistent with meritocratic principles, especially after the affirmative-action ruling.
+  right: "Conservatives are split: many oppose legacies on meritocratic grounds (especially after the affirmative-action ruling); others defend private-school autonomy to set admissions criteria."
+contested:
+  perspectives:
+    - label: End-legacy advocates
+      summary: Legacy preferences amount to inherited admissions — affirmative action for the already-wealthy, mostly-white alumni base of elite schools. They have no legitimate meritocratic justification, and ending them would modestly diversify selective colleges without harm to anyone except already-privileged families.
+      key_concerns:
+        - Inherited privilege in admissions
+        - Racial and class composition effects
+        - Inconsistency with meritocratic ideals
+    - label: Institutional-tradition defenders
+      summary: Selective private colleges are communities sustained by multi-generational loyalty. Modest legacy preferences honor that tradition, support alumni giving that funds financial aid for low-income students, and respect the autonomy of private institutions to define their own communities.
+      key_concerns:
+        - Alumni community and tradition
+        - Donations supporting financial aid
+        - Private-institution autonomy
+    - label: Reform pragmatists
+      summary: Legacy preferences are hard to defend after Students for Fair Admissions, but the right policy may be narrower than full prohibition — applying first to schools receiving federal aid, with grace periods and pairing with transparency rules so the actual scope of advantages becomes public.
+      key_concerns:
+        - Federal aid conditionality
+        - Transparency on admit advantages
+        - Sequencing with other reforms
+related_lesson_slugs: []
+tags:
+  - education
+  - higher-ed
+  - admissions

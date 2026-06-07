@@ -1,0 +1,24 @@
+slug: ted-budd
+full_name: Ted Budd
+tier: "3"
+bio_md: U.S. Senator from North Carolina since 2023. Previously served three terms in the U.S. House of Representatives (2017-2023). Owns a family gun store and ran on a conservative, pro-Second Amendment platform. Member of the House Freedom Caucus during his tenure in the lower chamber.
+role: senator
+affiliation: U.S. Senate
+party: Republican
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+twitter: SenTedBudd
+issue_stances:
+  - slug: second-amendment-regulation
+    stance: Strong defender of gun rights; opposes most new firearm regulations
+  - slug: abortion-access
+    stance: Opposes abortion access; supports federal limits on the procedure
+  - slug: border-security
+    stance: Supports expanded border enforcement and physical barriers
+  - slug: corporate-tax-rate
+    stance: Favors keeping corporate tax rates low and extending 2017 tax cuts

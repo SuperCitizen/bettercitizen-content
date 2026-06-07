@@ -1,0 +1,12 @@
+slug: voter-turnout
+name: Voter Turnout
+short_definition: The percentage of eligible voters who actually cast a ballot in an election.
+body_md: ""
+category: elections
+difficulty: foundational
+status: active
+etymology: "English: 'turnout' from the literal act of 'turning out' (coming out, showing up). Applied to elections since the 19th century"
+why_it_matters: American voter turnout consistently lags behind other democracies — when only half the electorate votes, elected officials represent a minority of eligible citizens.
+context_example: Presidential election turnout reached 66% in 2020, the highest in over a century, but midterm turnout remained below 50%, meaning most Americans sat out the elections that determine control of Congress.
+related_term_slugs: []
+tags: []

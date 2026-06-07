@@ -1,0 +1,42 @@
+slug: higher-education-funding
+name: Higher education funding
+category: education
+summary: How federal, state, and private sources fund colleges and universities — including Pell grants, research funding, endowment taxation, and free-college proposals.
+body_md: |-
+  Higher-education funding comes from multiple sources: federal Pell grants and student loans, state appropriations to public institutions, federal research grants (NIH, NSF, DoD), private philanthropy and endowments, and tuition.
+
+  Recent flashpoints include:
+  - **Free college** — proposals to make community college or all public college tuition-free.
+  - **Endowment tax** — TCJA imposed a 1.4% excise tax on the largest endowments; some proposals would raise this substantially.
+  - **Pell grants** — recurring debates over Pell Grant maximums, eligibility, and indexing.
+  - **Research funding** — NIH and NSF appropriations, indirect-cost-rate negotiations, foreign-influence rules.
+  - **Title IX, accreditation, viewpoint diversity** — rules governing institutional behavior.
+spectrum:
+  left: Progressives favor free public-college tuition, larger Pell grants, expanded federal research funding, and higher endowment taxes.
+  center: Many moderates favor expanded community-college access and Pell grants; mixed on free four-year college.
+  right: Conservatives often favor reduced federal involvement, accountability for outcomes, viewpoint-diversity rules, and higher endowment taxes.
+contested:
+  perspectives:
+    - label: Free-college advocates
+      summary: A high-school degree no longer suffices for the modern economy. Tuition-free community college and four-year public institutions broaden the pipeline and reduce the debt burden.
+      key_concerns:
+        - Access to post-secondary education
+        - Reducing student-debt burden
+        - Workforce readiness
+    - label: Targeted-aid reformers
+      summary: Free college is regressive (subsidizing wealthier families) and doesn't address quality. Targeted Pell grant expansion, income-driven repayment, and apprenticeship investment delivers more value.
+      key_concerns:
+        - Avoiding subsidy of wealthier families
+        - Workforce-aligned alternatives to four-year college
+        - Apprenticeships and career pathways
+    - label: Accountability / reform advocates
+      summary: Federal money props up tuition inflation and underperforming programs. Tie aid to outcomes (graduation, earnings), tax large endowments, and protect viewpoint diversity on campus.
+      key_concerns:
+        - Outcomes-based accountability
+        - Endowment taxation
+        - Viewpoint diversity on campus
+related_lesson_slugs: []
+tags:
+  - education
+  - higher-education
+  - funding

@@ -1,0 +1,38 @@
+slug: automatic-voter-registration
+name: Automatic voter registration
+category: elections-and-voting
+summary: Policies that register eligible citizens to vote whenever they interact with state agencies (DMV, Medicaid, etc.) unless they opt out, rather than requiring them to opt in.
+body_md: |-
+  Automatic voter registration (AVR) flips the default: instead of citizens proactively filling out registration forms, states use existing agency interactions (typically DMVs) to register eligible voters automatically, with an opt-out. Oregon was the first state to implement AVR in 2016; over 20 states and DC now have some form.
+
+  Studies of AVR rollouts find substantial increases in registration among young voters and movers, modest turnout gains, and high data-quality (because agency records are typically more accurate than self-reported registration forms).
+
+  Critics worry about non-citizens being inadvertently registered, especially in states that issue driver's licenses to non-citizens, and about the privacy implications of cross-agency data sharing.
+spectrum:
+  left: Progressives favor AVR as a turnout-and-equity measure that closes registration gaps for low-income and young voters.
+  center: Good-government advocates support AVR for cleaner voter rolls and reduced administrative cost.
+  right: Some conservatives support AVR with strict citizenship verification; others worry about non-citizen registration risk.
+contested:
+  perspectives:
+    - label: AVR supporters
+      summary: Defaults matter. AVR brings millions of eligible voters onto rolls, improves data quality, and removes a paperwork barrier that disproportionately burdens working-class citizens.
+      key_concerns:
+        - Closing registration gaps
+        - Cleaner, more accurate voter rolls
+        - Reducing election-day administrative load
+    - label: Citizenship-verification skeptics
+      summary: AVR is workable only if citizenship is rigorously verified at the agency level. In states that issue licenses to non-citizens, AVR risks accidental non-citizen registration.
+      key_concerns:
+        - Citizenship verification at the source agency
+        - Coordination between agencies and elections offices
+        - Penalties for accidental non-citizen registration
+    - label: Opt-in defenders
+      summary: Voter registration should be an affirmative civic act. AVR conflates agency interaction with civic intent and reduces voter engagement before they ever reach the ballot.
+      key_concerns:
+        - Civic engagement and intentional participation
+        - Privacy and cross-agency data sharing
+        - Accuracy of self-affirmed eligibility
+related_lesson_slugs: []
+tags:
+  - voting-rights
+  - election-administration

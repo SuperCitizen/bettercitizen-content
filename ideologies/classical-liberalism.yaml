@@ -1,0 +1,32 @@
+slug: classical-liberalism
+name: Classical liberalism
+tradition: Enlightenment-era liberty and limited-government tradition
+core_principles:
+  - Natural rights to life, liberty, and property prior to government
+  - Government legitimacy derives from consent of the governed
+  - Rule of law, equality before the law, and due process
+  - Free markets, free trade, and protection of private contract
+  - Constitutionally limited government and separation of powers
+  - Tolerance, free expression, and freedom of conscience
+key_thinkers:
+  - name: John Locke
+    lifespan: 1632–1704
+    influence: Two Treatises of Government — natural rights and the social contract; shaped the American founding.
+  - name: Adam Smith
+    lifespan: 1723–1790
+    influence: The Wealth of Nations — case for free markets, division of labor, and limited government in economic life.
+  - name: John Stuart Mill
+    lifespan: 1806–1873
+    influence: On Liberty — the harm principle and a robust defense of free expression.
+  - name: Frédéric Bastiat
+    lifespan: 1801–1850
+    influence: Popularized the seen and unseen costs of state intervention.
+key_orgs:
+  - mont-pelerin-society
+  - cato-institute
+  - institute-for-humane-studies
+related_ideologies:
+  - libertarianism
+  - american-conservatism
+historical_period: 17th–19th-century European Enlightenment; influences the American founding and modern liberty movements
+body_md: ""

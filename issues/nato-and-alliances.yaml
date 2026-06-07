@@ -1,0 +1,42 @@
+slug: nato-and-alliances
+name: NATO and U.S. alliances
+category: foreign-policy
+summary: Whether the U.S. should reaffirm, expand, restructure, or step back from NATO and other treaty alliances (Japan, South Korea, Philippines, AUKUS).
+body_md: |-
+  NATO has expanded substantially since the Cold War — Finland (2023) and Sweden (2024) are recent additions. Article V (mutual defense) has been invoked once, after 9/11. Recent debates:
+
+  - **Burden-sharing**: U.S. spends ~3.4% of GDP on defense; many European allies still below the 2% benchmark, though most have increased post-2022.
+  - **Article V scope and credibility**: How clearly does U.S. commitment extend to all members?
+  - **NATO expansion / Ukraine path**: Membership prospects for Ukraine, Georgia.
+  - **Indo-Pacific**: Bilateral alliances (Japan, Korea, Philippines), AUKUS submarine pact, the Quad.
+  - **Treaty-style commitments**: Whether modern alliances should require Senate ratification.
+spectrum:
+  left: Most progressives strongly support NATO and U.S. alliances, with debates over military activity within them.
+  center: Most centrists strongly support NATO and Indo-Pacific alliances.
+  right: 'Conservative views split: traditional internationalists strongly support alliances; realist and "America First" voices favor reduced commitments.'
+contested:
+  perspectives:
+    - label: Alliance-reaffirmation advocates
+      summary: NATO and U.S. alliances are foundational to international stability and U.S. interests. Strong alliances deter aggression, reduce free-riding, and amplify U.S. influence at lower cost than unilateral approaches.
+      key_concerns:
+        - Deterrence of Russia and China
+        - Burden-sharing increases since 2022
+        - Multiplying U.S. influence
+    - label: Alliance-restructuring advocates
+      summary: NATO has drifted from its core defensive purpose. The U.S. should require firm 2-3% defense spending from allies, pivot resources to the Indo-Pacific, and avoid open-ended commitments.
+      key_concerns:
+        - Burden-sharing enforcement
+        - Indo-Pacific prioritization
+        - Avoiding open-ended commitments
+    - label: Restraint advocates
+      summary: Cold War-era alliance structures encourage the U.S. to fight wars not central to its interests. A more restrained foreign policy with limited treaty commitments better serves the country.
+      key_concerns:
+        - Avoiding entangling alliances
+        - Resources for domestic priorities
+        - Reducing risk of major-power war
+related_lesson_slugs:
+  - foreign-policy
+tags:
+  - foreign-policy
+  - alliances
+  - defense

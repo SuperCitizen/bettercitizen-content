@@ -1,0 +1,11 @@
+slug: social-security-administration
+name: Social Security Administration
+kind: government
+subtype: executive-independent
+description: Independent agency administering Social Security retirement, survivors, and disability insurance, plus Supplemental Security Income.
+website: https://www.ssa.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - fiscal-gap
+is_active: true

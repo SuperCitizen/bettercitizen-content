@@ -1,0 +1,43 @@
+slug: trade-with-china
+name: Trade with China
+category: foreign-policy
+summary: How the U.S. should structure trade and investment with China — tariffs, export controls on advanced technology, investment screening, and the future of permanent normal trade relations.
+body_md: |-
+  U.S.-China trade has been reshaped over the past decade. Section 301 tariffs imposed in 2018-19 and largely retained under the Biden administration cover roughly $370B in Chinese imports. Recent additions include 100% tariffs on Chinese EVs, 50% on solar cells, 25% on semiconductors.
+
+  Beyond tariffs, key levers include:
+  - **Export controls**: Advanced semiconductors, semiconductor manufacturing equipment, AI chips.
+  - **Outbound investment screening**: New restrictions on U.S. investment in Chinese AI, quantum, and chip ventures.
+  - **Inbound CFIUS reviews**: Expanded scrutiny of Chinese investment.
+  - **PNTR**: Some legislators propose revoking China's permanent normal trade relations status.
+  - **Section 232 / 301**: Use for steel, aluminum, EVs, batteries.
+spectrum:
+  left: "Progressive views shifted: many now support tariffs and decoupling for labor and security reasons."
+  center: Most centrists support targeted decoupling on advanced tech while maintaining broader economic engagement.
+  right: Most conservatives favor aggressive tariffs and economic decoupling.
+contested:
+  perspectives:
+    - label: Decoupling advocates
+      summary: Trade with China subsidizes a strategic adversary, hollows out U.S. manufacturing, and creates vulnerable supply chains. Tariffs, export controls, and investment screening are all needed.
+      key_concerns:
+        - Supply-chain resilience
+        - Manufacturing-base preservation
+        - Tech-leakage to PRC
+    - label: Targeted-restriction advocates
+      summary: Restrict in critical-tech and security-relevant sectors only. Broad tariffs raise consumer costs, invite retaliation, and harm allies more than China itself.
+      key_concerns:
+        - Targeted critical-sector restrictions
+        - Avoiding consumer-price effects
+        - Coordinating with allies
+    - label: Engagement / open-trade advocates
+      summary: Broad tariffs are taxes on Americans that haven't reduced bilateral deficits. Open trade — combined with targeted restrictions on dual-use tech — is more effective and less costly.
+      key_concerns:
+        - Consumer prices
+        - Avoiding trade-war escalation
+        - Cost-effectiveness of tariffs
+related_lesson_slugs:
+  - foreign-policy
+tags:
+  - foreign-policy
+  - china
+  - trade

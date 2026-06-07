@@ -1,0 +1,39 @@
+slug: h1b-visa-policy
+name: H-1B Visa Policy
+category: immigration
+summary: How the United States should set caps for, allocate, and oversee the H-1B specialty-occupation visa used heavily by technology, healthcare, and research employers.
+body_md: |-
+  The H-1B is a temporary work visa for specialty occupations that generally require at least a bachelor's degree. Annual demand far exceeds the statutory cap, which is allocated through a registration system that has functioned as a lottery in recent years. Universities, nonprofit research institutions, and some government employers are exempt from the cap.
+
+  Debates concern the size of the cap, how it is allocated (lottery vs. wage- or skill-weighted), prevailing-wage rules, employer-sponsorship dynamics, and the relationship between H-1B and employment-based green-card backlogs. Critics worry about wage suppression and worker dependence on a single employer; supporters argue the program is essential to U.S. competitiveness in research and high-skill industries.
+
+  Reform proposals include raising or restructuring the cap, replacing the lottery with a wage- or skill-based allocation, tightening or loosening prevailing-wage rules, and shortening employer-sponsorship pathways to permanent residence.
+spectrum:
+  left: "Progressives are split: some support expanding skilled visas paired with strong wage and worker protections; others worry the program creates dependence and undercuts U.S. workers."
+  center: Moderates often favor restructuring rather than capping — wage- or skill-weighted allocation, stronger prevailing-wage rules, and faster green-card pathways for sponsored workers.
+  right: "The right is split: pro-growth conservatives favor a larger, merit-weighted program; restrictionist conservatives favor lower caps and stricter wage rules to protect U.S. workers."
+contested:
+  perspectives:
+    - label: Competitiveness-driven expansion
+      summary: High-skill talent is globally mobile. A larger, faster H-1B program — paired with a clear path to permanent residence — keeps research, engineering, and healthcare talent in the United States and supports innovation and growth.
+      key_concerns:
+        - Retaining global talent
+        - Faster green-card pathways
+        - Research and innovation capacity
+    - label: Worker-protective reform
+      summary: The current system can hold workers to a single employer and undercut wages when prevailing-wage rules are weak. Wage-weighted allocation, strong prevailing-wage enforcement, and portability protections fix abuses while preserving the program's value.
+      key_concerns:
+        - Prevailing-wage enforcement
+        - Worker portability and bargaining power
+        - Limiting bottom-tier wage abuses
+    - label: Restrictionist reform
+      summary: The H-1B program in practice often substitutes for, rather than supplements, U.S. workers. Lower caps, mandatory wage premiums, and stronger labor-market tests protect domestic workers and incentivize training.
+      key_concerns:
+        - Protecting U.S. workers in affected fields
+        - Domestic training and education
+        - Closing labor-substitution loopholes
+related_lesson_slugs: []
+tags:
+  - h-1b
+  - immigration
+  - high-skill-visas

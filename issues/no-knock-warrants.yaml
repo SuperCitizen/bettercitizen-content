@@ -1,0 +1,33 @@
+slug: no-knock-warrants
+name: No-knock warrants
+category: criminal-justice
+summary: Search warrants that authorize police to enter without first announcing themselves, used to prevent destruction of evidence or surprise armed suspects.
+body_md: |-
+  No-knock warrants authorize police to force entry into a home without first knocking and announcing their presence. Courts have generally required some heightened showing — usually that announcement would let suspects destroy evidence, endanger officers, or flee. The Supreme Court has held that the knock-and-announce rule is part of the Fourth Amendment, but suppression of evidence is generally not the remedy for violations.
+
+  Use of no-knock warrants expanded sharply during the war on drugs. Several high-profile deaths during no-knock or "quick-knock" raids — most notably Breonna Taylor in 2020 — prompted federal and state restrictions. The Justice Department now restricts no-knock entries by federal agents to limited circumstances, and several states and cities have banned or sharply limited them.
+
+  Debate centers on when, if ever, dynamic surprise entries are justified, what evidentiary threshold should apply, and how to weigh officer safety against the safety of occupants and bystanders.
+spectrum:
+  left: Most progressives favor banning or sharply restricting no-knock warrants, requiring high evidentiary thresholds, daylight-only execution, and supervisory pre-approval.
+  center: Centrists generally support narrowing no-knock use to imminent-violence scenarios with strict approval requirements, while preserving the option for genuinely dangerous suspects.
+  right: Conservatives are split. Libertarian and property-rights conservatives have led restriction efforts; law-enforcement-aligned conservatives defend no-knock authority for dangerous suspects.
+contested:
+  perspectives:
+    - label: Restrict-or-ban advocates
+      summary: No-knock raids produce predictable tragedies — wrong addresses, occupants reaching for legally owned firearms, and deaths on both sides. The marginal evidentiary benefit rarely outweighs the risk. Warrants should be served by knock-and-announce in daylight absent specific imminent-violence threats.
+      key_concerns:
+        - Wrong-address and mistaken-identity raids
+        - Risk of occupants reasonably reaching for firearms
+        - Use for low-level drug offenses with little safety justification
+    - label: Officer-safety and evidence-preservation defenders
+      summary: Some suspects — armed traffickers, violent fugitives, those with histories of attacking officers — pose serious risks during entry, and surprise entry can both preserve evidence and reduce overall violence. The tool should be tightly controlled and approved, not banned outright.
+      key_concerns:
+        - Surprise entry to armed or dangerous suspects
+        - Evidence destruction in drug cases
+        - Officer survival in high-risk entries
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - policing
+  - fourth-amendment

@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What does the empirical record on U.S. voter fraud show?"
+    choices:
+      - id: a
+        text: "Fraud rates of 1-2% are common in modern elections."
+      - id: b
+        text: "Documented voter fraud is extremely low — Brennan Center found ~31 cases of voter impersonation out of more than 1 billion ballots; mail-ballot fraud rates are around 0.0009%."
+      - id: c
+        text: "Fraud rates have been increasing rapidly since 2000."
+      - id: d
+        text: "Fraud is uniformly distributed across types — impersonation, mail-ballot, and registration fraud are all common."
+    correct_choice_id: b
+    explanation: "Multiple comprehensive studies — Brennan Center, Heritage Foundation (which favors restrictionist positions), GAO, and academic research — converge on the finding that documented voter fraud is extremely low. The most common election-administration problems are not fraud but errors (misallocated polling places, mail ballots not received in time, voter rolls not properly maintained). The fraud-rate finding is one of the most-settled empirical questions in election administration."
+    concepts: [voter-id]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did Crawford v. Marion County Election Board (2008) establish?"
+    choices:
+      - id: a
+        text: "Voter-ID laws are unconstitutional."
+      - id: b
+        text: "Indiana's photo-ID requirement was upheld; states have legitimate interests in election integrity even if the precise impact on fraud is uncertain."
+      - id: c
+        text: "Federal law preempts state voter-ID laws."
+      - id: d
+        text: "The Voting Rights Act bars all photo-ID requirements."
+    correct_choice_id: b
+    explanation: "Crawford v. Marion County (6-3) upheld Indiana's photo-ID law on the grounds that the state has legitimate interests in protecting election integrity, and that the burden on most voters was minimal. The decision opened the door for other states to adopt similar requirements. The dissent argued the burden on voters without photo IDs was substantially larger than the majority acknowledged."
+    concepts: [voter-id]
+
+  - id: q3
+    kind: multiple-choice
+    text: "How did Shelby County v. Holder (2013) change voting-rights enforcement?"
+    choices:
+      - id: a
+        text: "It strengthened the Voting Rights Act's protections."
+      - id: b
+        text: "It invalidated the VRA Section 5 preclearance formula, meaning historically-discriminatory jurisdictions no longer needed federal pre-clearance for voting changes."
+      - id: c
+        text: "It gave states unlimited authority over election administration."
+      - id: d
+        text: "It struck down all federal voting laws."
+    correct_choice_id: b
+    explanation: "Shelby County (5-4) struck down the VRA Section 5 preclearance formula. Previously, jurisdictions with documented histories of voting discrimination needed DOJ approval before changing voting laws. After Shelby, those jurisdictions can change voting laws and only face challenges through Section 2 litigation (which is post-implementation, not preemptive). The John R. Lewis Voting Rights Advancement Act would restore preclearance with an updated formula but has not passed."
+    concepts: [voting-rights-act, shelby]
+
+  - id: q4
+    kind: free-response
+    text: "The security-first and access-first positions both claim to be defending democracy but reach opposite policy conclusions about voter-ID. State the strongest version of each — and what would resolve the empirical disagreement."
+    socratic_seed: "Security-first: even small fraud rates matter for election legitimacy; ID requirements impose minimal costs on most voters; the Crawford precedent reflects the constitutional balance. Access-first: documented fraud is extraordinarily low; documented disenfranchisement effects (Hajnal, Hopkins, others) are substantially larger; the trade-off favors access. Resolution would require either: (1) better forensic analysis showing higher actual fraud rates than documented, (2) better turnout-effect studies showing larger or smaller disenfranchisement, or (3) policy designs that address both concerns simultaneously (free voter IDs, mobile-DMV expansion, risk-limiting audits, etc.)."
+    concepts: [voter-id, mail-ballots]

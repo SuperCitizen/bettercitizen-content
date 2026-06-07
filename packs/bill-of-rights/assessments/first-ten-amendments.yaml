@@ -1,0 +1,54 @@
+schema: supercitizen.assessment/v1
+lesson: first-ten-amendments
+questions:
+  - id: q1-first-amendment
+    kind: multiple-choice
+    text: Which of the following is NOT a right protected by the First Amendment?
+    choices:
+      - id: a
+        text: Freedom of religion
+      - id: b
+        text: Freedom of speech
+      - id: c
+        text: Right to bear arms
+      - id: d
+        text: Right to peaceably assemble
+    correct_choice_id: c
+    explanation: The First Amendment covers religion, speech, press, assembly, and
+      petition. The right to bear arms is the Second Amendment.
+    concepts:
+      - first-amendment
+      - second-amendment
+  - id: q2-fourth
+    kind: multiple-choice
+    text: "The Fourth Amendment protects against:"
+    choices:
+      - id: a
+        text: Cruel and unusual punishment
+      - id: b
+        text: Self-incrimination
+      - id: c
+        text: Unreasonable searches and seizures
+      - id: d
+        text: Double jeopardy
+    correct_choice_id: c
+    explanation: The Fourth Amendment is the warrant / probable-cause amendment — it
+      sets the rules for when the government can search you or your stuff. Cruel
+      and unusual punishment is the Eighth; self-incrimination and double
+      jeopardy are the Fifth.
+    concepts:
+      - fourth-amendment
+  - id: q3-anti-federalists
+    kind: free-response
+    text: Why did the Anti-Federalists insist on a Bill of Rights before they would
+      support ratification? What were they worried about?
+    concepts:
+      - bill-of-rights
+  - id: q4-incorporation
+    kind: free-response
+    text: Originally, the Bill of Rights only restricted the federal government.
+      Today many of its protections also apply against state governments. In
+      your own words, what changed and why?
+    concepts:
+      - incorporation-doctrine
+      - due-process

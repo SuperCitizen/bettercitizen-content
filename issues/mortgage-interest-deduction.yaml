@@ -1,0 +1,35 @@
+slug: mortgage-interest-deduction
+name: Mortgage interest deduction
+category: housing
+summary: The federal income-tax deduction for home-mortgage interest, costing roughly $25-50B/year and disproportionately benefiting higher-income homeowners.
+body_md: |-
+  The mortgage-interest deduction (MID) lets homeowners deduct interest on up to $750K of mortgage debt (post-TCJA) on a primary or secondary home. The 2017 Tax Cuts and Jobs Act roughly doubled the standard deduction, dramatically reducing the share of homeowners who itemize and benefit from the MID.
+
+  Empirical work generally finds the MID has minimal effect on home-ownership rates — most of the benefit goes to higher-income owners who would buy anyway. The deduction is one of the largest "tax expenditures" in the code.
+
+  Reform proposals include further capping the eligible mortgage size, converting to a refundable credit (broader access), or eliminating it and redirecting savings to renter-side programs.
+spectrum:
+  left: Progressives generally favor capping or eliminating the MID and redirecting funds to renter assistance.
+  center: Most tax economists favor MID reform; the TCJA partial-cap was a step in this direction.
+  right: "Conservative views split: some favor full retention as ownership-friendly; others favor reform as part of broader tax simplification."
+contested:
+  perspectives:
+    - label: Eliminate-or-cap reformers
+      summary: The MID is a regressive subsidy that doesn't increase home-ownership but inflates home prices. Redirect the revenue to renter assistance and first-time-buyer programs.
+      key_concerns:
+        - Regressivity of current MID
+        - Negligible effect on ownership rates
+        - Renter equity
+    - label: Defenders
+      summary: Home-ownership is the single most important wealth-building tool for middle-class families. The MID supports the housing market and a long-standing pro-ownership tax framework.
+      key_concerns:
+        - Middle-class wealth building
+        - Housing-market stability
+        - Continuity in tax expectations
+related_lesson_slugs:
+  - housing
+  - taxes
+tags:
+  - housing
+  - taxation
+  - home-ownership

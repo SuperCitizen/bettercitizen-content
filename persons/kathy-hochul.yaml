@@ -1,0 +1,24 @@
+slug: kathy-hochul
+full_name: Kathy Hochul
+tier: "3"
+bio_md: Governor of New York since 2021, the first woman to serve as Governor of New York. Previously served as Lieutenant Governor under Andrew Cuomo and as a US Representative for New York's 26th district. Assumed the governorship after Cuomo's resignation. Won a full term in 2022.
+role: Governor of New York
+affiliation: State of New York
+party: Democrat
+lean_left: 65
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: true
+twitter: GovKathyHochul
+issue_stances:
+  - slug: second-amendment-regulation
+    stance: Signed New York's Concealed Carry Improvement Act following the Bruen decision
+  - slug: abortion-access
+    stance: Signed legislation protecting abortion providers and patients in New York
+  - slug: zoning-reform
+    stance: Proposed statewide housing density targets to address New York's housing shortage
+  - slug: asylum-policy
+    stance: Sought federal funding and work authorization for migrants arriving in New York

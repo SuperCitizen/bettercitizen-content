@@ -1,0 +1,9 @@
+slug: score-voting
+name: Score voting
+short_definition: A voting method in which voters score each candidate on a scale (e.g., 0–10) and the highest total score wins. Also called range voting.
+body_md: ""
+category: government
+difficulty: intermediate
+status: active
+related_term_slugs: []
+tags: []

@@ -1,0 +1,33 @@
+slug: un-funding-and-reform
+name: UN funding and reform
+category: foreign-policy
+summary: U.S. financial contributions to the United Nations and specialized agencies, and the case for reforms in budgets, peacekeeping, and Security Council structure.
+body_md: |-
+  The United States is the largest single contributor to the United Nations, paying roughly 22% of the regular U.N. budget and about 27% of the peacekeeping budget, plus voluntary contributions to specialized agencies like UNICEF, WHO, UNHCR, and UNRWA. U.S. presidents have at times withheld funding from specific agencies or programs to press for reforms or in response to specific actions.
+
+  Recurring U.S. policy questions include peacekeeping costs and effectiveness, the structure of the Security Council and its permanent five (P5) veto, funding for agencies criticized for performance or perceived bias (UNESCO, UNRWA, Human Rights Council membership), and the relationship between U.N. agencies and rival powers, especially China.
+
+  Debates weigh the U.N.'s role as a forum for collective action, its limitations under great-power rivalry, the value of U.S. agenda-setting through funding leverage, and whether withholding contributions strengthens reform or merely cedes influence.
+spectrum:
+  left: Most progressives support sustained U.N. funding, increased contributions to humanitarian and refugee agencies, and engagement-based reform rather than withholding.
+  center: Centrists generally support U.N. funding as a force multiplier, with selective conditioning of specific agency contributions tied to reform priorities.
+  right: Conservative views split. Many favor reducing or conditioning contributions, withdrawing from agencies seen as biased, and pressing major structural reforms; others support engagement to counter Chinese influence.
+contested:
+  perspectives:
+    - label: Engagement-and-leadership advocates
+      summary: U.S. funding leverage shapes U.N. agendas in ways no other tool matches. Peacekeeping, refugee response, public-health coordination, and standards-setting work the U.S. otherwise would do alone, more expensively. Withholding funds cedes influence to China and Russia. Reform happens through engagement.
+      key_concerns:
+        - Force-multiplier value of U.N. contributions
+        - Countering Chinese and Russian influence
+        - Humanitarian and refugee response capacity
+    - label: Reform-through-pressure advocates
+      summary: The U.N. has well-documented bias, mismanagement, and ineffectiveness in key areas. The U.S. should use funding leverage to demand structural reforms — budget discipline, performance audits, ending bias on Israel — and decline to fund agencies and programs that fall short. Engagement without conditions has not produced change.
+      key_concerns:
+        - Performance and audit accountability
+        - Bias in specific bodies and agencies
+        - U.S. taxpayer cost without commensurate results
+related_lesson_slugs: []
+tags:
+  - foreign-policy
+  - united-nations
+  - multilateralism

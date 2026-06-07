@@ -1,0 +1,39 @@
+slug: campus-due-process
+name: Campus due process
+category: civil-rights-and-liberties
+summary: Procedural protections — notice, evidence access, cross-examination, neutral decision-makers — for students accused of misconduct in university Title IX and student-conduct proceedings.
+body_md: |-
+  University disciplinary proceedings for sexual misconduct and other serious allegations can result in expulsion, transcript notations, and lifelong reputational harm — but they are not criminal trials. The applicable procedural standards have shifted with each administration's Title IX regulations.
+
+  The 2011 "Dear Colleague" letter pushed schools toward survivor-protective procedures, including the preponderance-of-the-evidence standard. The 2020 Trump-era rule strengthened protections for accused students, including live cross-examination through advisors and stricter notice rules. The 2024 Biden rule rolled back some of these protections; portions have been challenged in court.
+
+  Public universities are subject to constitutional due-process requirements; private universities are not, though they may be bound by contractual promises in their codes of conduct. Many states have passed laws codifying procedural protections that apply regardless of federal rule changes.
+spectrum:
+  left: Progressives often prioritize survivor-protective procedures — preponderance standard, avoiding re-traumatization, no required cross-examination — and view stronger procedures as deterrents to reporting.
+  center: Centrists generally support meaningful procedural protections — notice, evidence access, neutral fact-finders, some form of cross-examination — for both parties as essential to legitimate outcomes.
+  right: Many conservatives support strong due-process protections for accused students, including live cross-examination, clear-and-convincing evidence in some cases, and judicial review.
+contested:
+  perspectives:
+    - label: Due-process advocates
+      summary: "Campus discipline can derail a young person's life as surely as a criminal conviction. Notice of charges, access to evidence, live cross-examination, and a neutral decision-maker are basic features of fair adjudication. Procedural protections benefit genuine survivors too: findings withstand challenge when the process was fair."
+      key_concerns:
+        - Notice and access to evidence
+        - Cross-examination and confrontation
+        - Neutral decision-makers
+    - label: Survivor-protection advocates
+      summary: Sexual misconduct survivors are notoriously deterred from reporting. Process requirements that resemble criminal trials — direct cross-examination, hostile evidentiary inquiry — re-traumatize and silence survivors. Schools need processes that take complaints seriously, support survivors, and reach reliable findings without becoming pseudo-courts.
+      key_concerns:
+        - Survivor reporting and participation
+        - Trauma-informed process design
+        - Schools' obligation to respond to misconduct
+    - label: Stable-rules pragmatists
+      summary: The whiplash of changing federal rules every administration leaves schools struggling to implement, students subject to wildly varying procedures depending on what year they were accused, and litigation that drags on for years. Codifying durable standards — through Congress or state law — would benefit complainants, respondents, and institutions alike.
+      key_concerns:
+        - Stability across administrations
+        - Congressional vs. regulatory standards
+        - Litigation and implementation burden
+related_lesson_slugs: []
+tags:
+  - civil-rights
+  - higher-ed
+  - due-process

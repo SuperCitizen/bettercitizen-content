@@ -1,0 +1,23 @@
+slug: ezra-klein
+full_name: Ezra Klein
+tier: "4"
+bio_md: Co-founder of Vox and New York Times opinion columnist. Host of The Ezra Klein Show. Known for long-form policy analysis and political systems thinking.
+role: journalist, author
+affiliation: New York Times
+lean_left: 70
+lean_right: 30
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: ezraklein
+issue_stances:
+  - slug: medicare-for-all
+    stance: Supports robust public option as path toward universal coverage
+  - slug: rent-control
+    stance: Author of YIMBY arguments for pro-housing density policies
+  - slug: ai-regulation
+    stance: Advocates for serious governance of AI development
+  - slug: national-debt
+    stance: Argues debt concerns often used to block beneficial spending

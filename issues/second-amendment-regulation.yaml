@@ -1,0 +1,43 @@
+slug: second-amendment-regulation
+name: Second Amendment and gun regulation
+category: civil-rights-and-liberties
+summary: How federal and state firearm regulation interacts with the Second Amendment after Heller (2008) and Bruen (2022) — debated through universal background checks, assault-weapons bans, red-flag laws, and concealed-carry rules.
+body_md: |-
+  District of Columbia v. Heller (2008) recognized an individual right to keep arms for self-defense; New York State Rifle & Pistol Ass'n v. Bruen (2022) replaced the "two-step interest balancing" framework with a "history and tradition" test that has invalidated many state regulations.
+
+  Major regulatory debates:
+  - **Universal background checks** for private sales and gun-show transactions.
+  - **Assault-weapons / large-magazine bans**: Federal ban (1994-2004) lapsed; states vary.
+  - **Red-flag laws / extreme-risk protection orders**: Allow temporary removal of firearms from those judged dangerous.
+  - **Concealed carry**: Bruen invalidated "may issue" regimes; "shall issue" with objective criteria is now standard.
+  - **Federal licensing / registration**: Proposed but not passed.
+spectrum:
+  left: Progressives generally favor universal background checks, assault-weapons bans, and red-flag laws.
+  center: Many centrists favor universal background checks and red-flag laws; mixed on assault-weapons bans.
+  right: Most conservatives oppose new federal gun regulations, citing Second Amendment, due-process, and self-defense rights.
+contested:
+  perspectives:
+    - label: Gun-regulation advocates
+      summary: The U.S. has dramatically higher firearm-violence rates than peer nations. Universal background checks, assault-weapons bans, and red-flag laws are constitutionally permissible and demonstrably effective.
+      key_concerns:
+        - Mass-shooting prevention
+        - Universal background checks
+        - Red-flag / extreme-risk laws
+    - label: Second Amendment / self-defense advocates
+      summary: The Second Amendment protects an individual right to bear arms. Most regulations target law-abiding owners, not criminals; defensive gun uses save lives; armed citizens deter crime.
+      key_concerns:
+        - Constitutional individual right
+        - Self-defense and deterrence
+        - Skepticism of regulation efficacy
+    - label: Targeted-intervention advocates
+      summary: Most gun violence is concentrated in specific networks and conditions. Focused interventions — group violence intervention, hospital-based programs, and violence interrupters — outperform broad regulation.
+      key_concerns:
+        - Concentration of violence
+        - Community-based interventions
+        - Targeted prosecution vs. broad regulation
+related_lesson_slugs:
+  - bill-of-rights
+tags:
+  - second-amendment
+  - guns
+  - civil-rights

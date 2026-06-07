@@ -1,0 +1,39 @@
+schema: supercitizen.content/v1
+slug: ranked-choice-voting-book
+title: Rank the Vote
+summary: How Ranked Choice Voting Is Fixing American Democracy — One Ballot at a
+  Time A book-length advocacy treatment by Chris Borgia (2026); ingested as a
+  contested pack. (License auto-set to CC-BY-SA-4.0 — original book metadata
+  says "© 2026 Chris Borgia. All rights reserved.". Author confirmation required
+  before merging.)
+author: Chris Borgia
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags:
+  - voting-systems
+  - electoral-reform
+  - book
+level: intermediate
+official: false
+contested: true
+languages:
+  - en
+lessons:
+  - introduction.md
+  - the-problem-with-one-vote.md
+  - what-is-ranked-choice-voting.md
+  - alaska-the-first-state.md
+  - maine-the-pioneer.md
+  - cities-leading-the-way.md
+  - the-opposition.md
+  - the-data.md
+  - around-the-world.md
+  - how-to-pass-rcv-in-your-state.md
+  - the-state-by-state-status.md
+  - primaries-and-the-extremism-machine.md
+  - the-media-problem.md
+  - money-and-elections.md
+  - constitutional-questions.md
+  - the-path-to-fifty-states.md
+  - why-this-matters-now.md
+  - your-move.md

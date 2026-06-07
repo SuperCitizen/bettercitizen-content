@@ -1,0 +1,12 @@
+slug: recession
+name: Recession
+short_definition: A significant decline in economic activity across the economy lasting more than a few months, typically defined as two consecutive quarters of GDP decline.
+body_md: ""
+category: economy
+difficulty: foundational
+status: active
+etymology: "Latin: recessio (a going back, withdrawal)"
+why_it_matters: Recessions cause job losses, business failures, and widespread economic hardship, and the policy response to them shapes the economy for years afterward.
+context_example: The NBER officially declared the pandemic-induced downturn a recession, though at just two months it was the shortest on record.
+related_term_slugs: []
+tags: []

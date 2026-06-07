@@ -1,0 +1,23 @@
+slug: paul-krugman
+full_name: Paul Krugman
+tier: "4"
+bio_md: Economist and 2008 Nobel laureate in Economic Sciences for his work on new trade theory and economic geography. Distinguished Professor at the City University of New York Graduate Center. He wrote a long-running opinion column at The New York Times from 2000 to 2024 and is known as a leading progressive economic commentator.
+role: economist, columnist
+affiliation: City University of New York
+lean_left: 80
+lean_right: 15
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: paulkrugman
+issue_stances:
+  - slug: medicare-for-all
+    stance: Favors universal coverage through expansion of public programs and a strong public option
+  - slug: wealth-tax
+    stance: Supports higher taxes on top incomes and concentrated wealth to fund public investment
+  - slug: climate-policy
+    stance: Backs aggressive decarbonization, including carbon pricing and large-scale clean-energy subsidies
+  - slug: trade-with-china
+    stance: Cautious supporter of targeted industrial policy and tariffs on strategic Chinese goods

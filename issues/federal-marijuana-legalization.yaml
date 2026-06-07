@@ -1,0 +1,39 @@
+slug: federal-marijuana-legalization
+name: Federal marijuana legalization
+category: criminal-justice
+summary: Whether to remove cannabis from federal Schedule I, reschedule it, or fully legalize it — given that most states have legalized medical or adult use.
+body_md: |-
+  Marijuana remains a Schedule I controlled substance under federal law, the most restrictive category, even as most states have legalized medical use and many have legalized adult recreational use. This federal-state conflict creates ongoing friction in banking, taxation, employment, immigration, and research.
+
+  The Justice Department has generally exercised prosecutorial discretion to deprioritize enforcement against state-legal operators. The Department of Health and Human Services recommended in 2023 that cannabis be moved to Schedule III, which would acknowledge accepted medical use; the rescheduling process is ongoing as of early 2024.
+
+  Options range from full federal legalization with regulation similar to alcohol, to rescheduling (which keeps federal prohibition but eases research and tax burdens), to leaving the current Schedule I status unchanged. Each has implications for criminal justice, public health, state revenue, and youth access.
+spectrum:
+  left: Most progressives favor full federal legalization with expungement of prior convictions, equity provisions for communities harmed by the drug war, and federal regulation.
+  center: Centrists generally support rescheduling at minimum, often paired with banking access, state deference, and limited federal regulation rather than full legalization.
+  right: Conservatives are split. Many defer to states and back banking access; some support full legalization on federalism grounds; others oppose any rollback citing youth and public-health concerns.
+contested:
+  perspectives:
+    - label: Legalize-and-regulate advocates
+      summary: "Federal prohibition has failed: cannabis is widely available, enforcement has produced enormous racial disparities, and the federal-state conflict harms patients, businesses, and research. Federal legalization with sensible regulation and equity provisions is overdue."
+      key_concerns:
+        - Racial disparities in past enforcement
+        - Patient and research access
+        - Banking and tax burdens on state-legal businesses
+    - label: Federalism and banking reformers
+      summary: Whether to legalize is a state decision. Federal law should accommodate states that have chosen to legalize — banking, taxes, research — and reschedule cannabis to reflect its accepted medical use, without imposing full federal legalization on states that have not.
+      key_concerns:
+        - State sovereignty over drug policy
+        - Banking access for state-legal businesses
+        - Research access through rescheduling
+    - label: Public-health and youth-protection concerns
+      summary: "Rapid commercialization of high-potency cannabis raises real risks: adolescent brain development, psychosis in vulnerable users, impaired driving, and addiction. The pace of legalization has outrun the evidence base and youth-protection guardrails."
+      key_concerns:
+        - Adolescent use and brain development
+        - High-potency products and psychosis risk
+        - Impaired driving enforcement
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - drug-policy
+  - cannabis

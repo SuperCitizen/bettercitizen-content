@@ -1,0 +1,43 @@
+slug: balanced-budget-amendment
+name: Balanced budget amendment
+category: governance-and-institutions
+summary: Whether the U.S. Constitution should be amended to require the federal government to balance its budget annually, typically with exceptions for war or supermajority overrides.
+body_md: |-
+  A balanced budget amendment (BBA) would require federal outlays in each fiscal year to not exceed revenues, typically with carve-outs for declared war, natural disaster, or supermajority votes in both chambers. Various BBA proposals have come close to congressional passage; an Article V state-led convention drive has also pursued one. Most U.S. states have a balanced-budget requirement in their own constitutions for ordinary spending.
+
+  Proponents argue the federal government's chronic deficits — and the resulting national debt — pose long-term fiscal risk that ordinary political processes cannot discipline. A constitutional rule would force trade-offs that Congress avoids and shift the political default from borrowing to choosing.
+
+  Opponents argue that a BBA would force pro-cyclical fiscal policy — cutting spending and raising taxes in recessions when the opposite is needed — and that essential automatic stabilizers (unemployment insurance, SNAP, Medicaid) would be among the first casualties. Many economists oppose the idea on macroeconomic grounds even if they favor lower long-run deficits.
+spectrum:
+  left: A balanced budget amendment would gut automatic stabilizers in recessions, force austerity in downturns, and lock in unsustainable politics; the long-run debt problem should be addressed through revenue and program reform, not a procedural straitjacket.
+  center: Some fiscal discipline mechanism may be useful, but a hard constitutional rule is too blunt; statutory targets, debt-to-GDP triggers, or supermajority override mechanisms could provide guardrails without recession-aggravating rigidity.
+  right: Federal deficits and rising debt threaten economic stability; ordinary politics has shown for decades that Congress will not balance budgets without a binding constitutional rule, with reasonable carve-outs for war and emergency.
+contested:
+  perspectives:
+    - label: Fiscal-discipline advocates
+      summary: Chronic deficits and accumulating debt threaten future generations, crowd out productive investment, and erode dollar credibility. Congress has demonstrated for decades that ordinary politics cannot discipline spending; a binding constitutional rule, with sensible emergency exceptions, is the only durable solution.
+      key_concerns:
+        - Long-run debt sustainability
+        - Crowding out of investment
+        - Interest costs consuming the budget
+        - Demonstrated political inability to balance
+    - label: Counter-cyclical economists
+      summary: A BBA would force the government to cut spending and raise taxes during recessions — exactly when automatic stabilizers and discretionary spending should expand to support demand. The rule would deepen downturns and abolish the macroeconomic toolkit consensus economics endorses.
+      key_concerns:
+        - Pro-cyclical fiscal policy worsens recessions
+        - Automatic stabilizers at risk
+        - Mainstream macro consensus opposes
+        - Emergency exceptions would be litigated and slow
+    - label: Soft-rules pragmatists
+      summary: Hard constitutional limits are too rigid for a dynamic economy, but statutory fiscal targets, debt-to-GDP ceilings with override procedures, or independent fiscal councils (as in many peer countries) could provide discipline without blocking counter-cyclical response.
+      key_concerns:
+        - Statutory rules can be revised when broken
+        - Debt-to-GDP targets allow growth
+        - Independent fiscal councils provide expertise
+        - Avoids litigation over constitutional triggers
+related_lesson_slugs: []
+tags:
+  - budget
+  - constitution
+  - fiscal-policy
+  - amendment

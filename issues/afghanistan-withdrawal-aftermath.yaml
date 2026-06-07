@@ -1,0 +1,33 @@
+slug: afghanistan-withdrawal-aftermath
+name: Afghanistan withdrawal aftermath
+category: foreign-policy
+summary: U.S. policy toward Afghanistan following the 2021 troop withdrawal and Taliban takeover, including counterterrorism, humanitarian aid, and Afghan partners.
+body_md: |-
+  The U.S. completed its military withdrawal from Afghanistan in August 2021, ending nearly twenty years of war. The Taliban took Kabul as Afghan security forces and the U.S.-backed government collapsed, prompting a chaotic evacuation that killed 13 U.S. service members and roughly 170 Afghans in an ISIS-K bombing at Kabul airport. Roughly 124,000 people were evacuated.
+
+  Since the takeover, the Taliban have reimposed severe restrictions on women and girls, including barring most secondary and university education. The Afghan economy collapsed; Treasury froze Afghan central-bank reserves, and humanitarian aid has been the primary channel for U.S. assistance. ISIS-K and al-Qaeda remain present; U.S. counterterrorism has shifted to "over-the-horizon" strikes from outside the country.
+
+  Debates continue over the withdrawal's execution, accountability for partner Afghans (including those promised Special Immigrant Visas), engagement with the Taliban, humanitarian aid, and counterterrorism posture.
+spectrum:
+  left: Progressives generally supported ending the war, but most criticized the chaotic withdrawal execution and now favor humanitarian aid, refugee resettlement, and engagement on women's rights.
+  center: Centrists are split. Many supported withdrawal in principle but criticize the execution; most favor sustained counterterrorism focus, SIV processing for Afghan partners, and humanitarian aid through non-Taliban channels.
+  right: Most conservatives sharply criticize the withdrawal's planning and execution, favor unfrozen counterterrorism options, and split on whether continued engagement should be cut off or maintained through limited channels.
+contested:
+  perspectives:
+    - label: End-the-war and humanitarian-engagement advocates
+      summary: Twenty years of war could not build a stable Afghan state. Withdrawal was necessary, even if poorly executed. The U.S. now owes Afghan partners safe resettlement, sustained humanitarian aid through non-Taliban channels, and continued pressure on women's rights, without re-entering a forever war.
+      key_concerns:
+        - Humanitarian crisis and women's and girls' rights
+        - Resettlement of Afghan partners and SIV recipients
+        - Avoiding renewed open-ended military commitment
+    - label: Withdrawal-execution critics
+      summary: The withdrawal's execution was catastrophic — abandoning Bagram early, mis-timing the evacuation, leaving partners behind, and ceding territory to a regime that now harbors terror groups. Accountability, sustained counterterrorism capability, and credibility with allies require honestly assessing what went wrong.
+      key_concerns:
+        - Counterterrorism posture against ISIS-K and al-Qaeda
+        - Treatment of Afghan partners and SIV applicants
+        - U.S. credibility with allies and partners
+related_lesson_slugs: []
+tags:
+  - foreign-policy
+  - afghanistan
+  - counterterrorism

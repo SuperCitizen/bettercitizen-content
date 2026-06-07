@@ -1,0 +1,14 @@
+slug: dario-amodei
+full_name: Dario Amodei
+tier: "4"
+bio_md: CEO of Anthropic, the AI safety company. Former VP of Research at OpenAI. A leading voice advocating for responsible AI development and safety-first approach to scaling.
+role: tech executive
+affiliation: Anthropic
+lean_left: 50
+lean_right: 50
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances: []

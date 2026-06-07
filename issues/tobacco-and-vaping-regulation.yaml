@@ -1,0 +1,39 @@
+slug: tobacco-and-vaping-regulation
+name: Tobacco and vaping regulation
+category: healthcare
+summary: How to regulate cigarettes, menthol products, flavored vapes, and other nicotine-delivery devices to reduce harm without driving adults to more dangerous alternatives or black markets.
+body_md: |-
+  Tobacco use remains a leading cause of preventable death. Decades of tax increases, indoor-smoking bans, advertising restrictions, and Master Settlement enforcement have dramatically reduced smoking rates, but progress has slowed and youth e-cigarette use spiked in the late 2010s.
+
+  Recent debates focus on FDA authority over e-cigarettes, proposed federal bans on menthol cigarettes and flavored cigars, restrictions on flavored vape products, and how to treat newer nicotine products. The FDA has authority under the 2009 Tobacco Control Act but has faced criticism from both sides — for moving too slowly on flavored products and for not adequately authorizing reduced-harm alternatives.
+
+  Public-health researchers disagree about whether vaping primarily serves as a quit aid for adult smokers or a gateway to nicotine addiction for youth, and whether flavor bans help or harm overall public health.
+spectrum:
+  left: Progressives generally support strong restrictions — flavor bans, menthol bans, plain packaging, higher taxes — viewing tobacco companies as bad actors and vaping as a gateway to youth nicotine addiction.
+  center: Centrists tend to support youth-protection measures while preserving adult access to reduced-harm alternatives that may help smokers quit.
+  right: Many conservatives oppose new prohibitions on adult products, citing personal-choice arguments and concerns that menthol bans target Black smokers with disproportionate enforcement.
+contested:
+  perspectives:
+    - label: Public-health prohibitionists
+      summary: Tobacco and nicotine kill hundreds of thousands of Americans each year. Aggressive restriction — flavor bans, plain packaging, high taxes, marketing crackdowns — has been the most effective public-health intervention of the past century and should be extended to vaping.
+      key_concerns:
+        - Youth nicotine addiction trajectories
+        - Tobacco-industry marketing tactics
+        - Long-term population mortality
+    - label: Harm-reduction advocates
+      summary: Vaping is dramatically less harmful than smoking and helps adult smokers quit. Banning flavors or restricting vape access pushes adult smokers back to combustible cigarettes — the deadliest product on the market — and worsens public health overall.
+      key_concerns:
+        - Vaping as quit aid for adult smokers
+        - Risk of pushing users back to cigarettes
+        - Black markets and unregulated products
+    - label: Civil-liberties and equity critics
+      summary: Menthol bans and flavor restrictions disproportionately criminalize Black Americans, who are heavier menthol users, and create new pretexts for police contact. Adults have the right to make their own consumption choices, and bans tend to create black markets rather than eliminate use.
+      key_concerns:
+        - Disproportionate enforcement against Black communities
+        - Black-market and pretext-stop risks
+        - Adult autonomy over legal consumer goods
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - public-health
+  - regulation

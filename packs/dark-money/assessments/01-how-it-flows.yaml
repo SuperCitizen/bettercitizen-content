@@ -1,0 +1,56 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-flows
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What does 'dark money' specifically refer to in U.S. campaign-finance literature?"
+    choices:
+      - id: a
+        text: "Any political donation."
+      - id: b
+        text: "Spending by 501(c)(4) social welfare organizations on electoral activity, where the donors funding the spending are not disclosed to the public."
+      - id: c
+        text: "Cash donations made to political campaigns."
+      - id: d
+        text: "Foreign donations to U.S. political campaigns."
+    correct_choice_id: b
+    explanation: "Dark money has a specific technical meaning: 501(c)(4) electoral spending where donors are not disclosed. The 501(c)(4) doesn't have to disclose donors to the IRS or FEC; can engage in electoral activity as long as it's not the 'primary' activity (interpreted as <50% of spending); and the resulting funds can be passed to Super PACs which only report the 501(c)(4) as donor, not the original individuals."
+    concepts: [dark-money, 501c4]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did Citizens United (2010) say about disclosure?"
+    choices:
+      - id: a
+        text: "Struck down all disclosure requirements."
+      - id: b
+        text: "Upheld BCRA's disclosure provisions 8-1, with only Justice Thomas dissenting on disclosure."
+      - id: c
+        text: "Required new disclosure for 501(c)(4) donors."
+      - id: d
+        text: "Reserved the disclosure question for later cases."
+    correct_choice_id: b
+    explanation: "Justice Kennedy's majority opinion explicitly upheld BCRA §§201 and 311 (disclosure and disclaimer) by 8-1. The disclosure constitutional question is, by current Court doctrine, settled. The dark-money question is therefore not constitutional but regulatory: the gap is in the IRS's treatment of 501(c)(4)s, not in what disclosure is constitutionally permissible."
+    concepts: [dark-money, donor-disclosure]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What's the 'primary purpose' rule for 501(c)(4)s?"
+    choices:
+      - id: a
+        text: "501(c)(4)s must spend at least 50% of their resources on electoral activity."
+      - id: b
+        text: "501(c)(4)s can engage in electoral activity as long as it's not the *primary* (typically interpreted as >50%) activity of the organization."
+      - id: c
+        text: "501(c)(4)s cannot engage in any electoral activity."
+      - id: d
+        text: "Primary purpose is enforced by the FEC, not the IRS."
+    correct_choice_id: b
+    explanation: "501(c)(4)s can engage in electoral activity as long as it's not the *primary* purpose. 'Primary' has been historically interpreted by the IRS as >50% of resources. This means a 501(c)(4) can spend up to 49.9% of its budget on electoral activity (defined narrowly under FEC rules) without losing its tax-exempt status. The 'primary' interpretation is itself politically contested — the IRS targeting controversy of 2013 illustrated the political sensitivity of any enforcement."
+    concepts: [501c4, dark-money]
+
+  - id: q4
+    kind: free-response
+    text: "The disclosure-first reformer and the donor-privacy advocate both invoke First Amendment principles to reach opposite policy conclusions on dark money. State the strongest version of each."
+    socratic_seed: "Disclosure-first reformer: Citizens United explicitly tied the post-2010 expansion of corporate political speech to robust disclosure as the safeguard. The 501(c)(4) loophole undermines that bargain. The constitutional question of disclosure is settled (8-1 in CU); the regulatory gap is the live issue. Donor-privacy advocate: NAACP v. Alabama (1958) established that compelled disclosure can chill protected association when it exposes donors to retaliation; Bonta v. AFP (2021) extended this. In modern polarized environments, donor-disclosure mandates produce real retaliation risks for donors to politically-controversial organizations. Both sides invoke the First Amendment; they disagree about whether the speech-protection or the association-protection dimension is decisive."
+    concepts: [dark-money, donor-disclosure, first-amendment]

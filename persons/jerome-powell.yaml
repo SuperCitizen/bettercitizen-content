@@ -1,0 +1,16 @@
+slug: jerome-powell
+full_name: Jerome Powell
+tier: "3"
+bio_md: Chair of the Federal Reserve since February 2018. Originally nominated by President Donald Trump and renominated by President Joe Biden in 2022. Previously served as a Fed governor since 2012, as an undersecretary at the Treasury Department under President George H. W. Bush, and as a partner at the Carlyle Group. Lawyer by training rather than an academic economist — atypical for a modern Fed chair.
+role: Federal Reserve Chair
+affiliation: Federal Reserve
+lean_left: 45
+lean_right: 55
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+issue_stances:
+  - slug: climate-policy
+    stance: Has said the Fed has a narrow role on climate; not a climate policymaker but considers climate-related financial risks

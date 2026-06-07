@@ -1,0 +1,42 @@
+slug: pandemic-preparedness
+name: Pandemic preparedness
+category: healthcare
+summary: How the federal government and CDC should be structured to prevent, detect, and respond to future pandemics, drawing lessons from COVID-19.
+body_md: |-
+  Post-COVID assessments have identified failures across detection (delayed initial response, testing-rollout failures), supply chain (PPE, ventilators), public communication (changing guidance, public-trust collapse), and federalism (state-federal-local coordination).
+
+  Reform proposals include:
+  - **Detection**: Strengthening CDC genomic surveillance, BARDA biothreat investments, international early-warning networks.
+  - **Supply**: Strategic National Stockpile expansion, domestic PPE and pharmaceutical manufacturing.
+  - **Authority**: Clarifying CDC and FDA emergency powers.
+  - **Communication**: Pre-positioned communication frameworks, conflict-of-interest rules, transparency commitments.
+  - **International**: WHO funding and reform, pandemic-treaty negotiations.
+spectrum:
+  left: Progressives generally favor strong federal CDC authority, robust international cooperation, and aggressive preparedness investments.
+  center: Most centrists favor strengthening preparedness while improving inter-agency coordination and communication.
+  right: Many conservatives are skeptical of expanded CDC/WHO authority after COVID-era controversies; favor decentralized state-level response.
+contested:
+  perspectives:
+    - label: Federal-capacity reformers
+      summary: COVID exposed gaps in federal capacity. Stronger CDC genomic surveillance, BARDA investments, domestic manufacturing, and clearer emergency authorities prepare the country for the next pandemic.
+      key_concerns:
+        - Detection and early-warning
+        - Domestic supply-chain resilience
+        - Federal-state coordination
+    - label: Decentralized-response advocates
+      summary: COVID-era federal interventions (lockdowns, mandates, school closures) caused durable harm and trust collapse. Future preparedness should empower state and local response, with federal agencies in advisory roles.
+      key_concerns:
+        - State and local autonomy
+        - Limits on emergency authority
+        - Restoring public trust in agencies
+    - label: International-cooperation focus
+      summary: Pandemics are inherently international. Robust WHO funding, pandemic-treaty negotiations, and global early-warning networks are the most cost-effective preparedness investments.
+      key_concerns:
+        - Global early-warning networks
+        - WHO reform and funding
+        - Pandemic-treaty negotiation
+related_lesson_slugs: []
+tags:
+  - healthcare
+  - public-health
+  - pandemic

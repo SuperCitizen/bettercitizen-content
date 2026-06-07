@@ -1,0 +1,24 @@
+slug: mark-kelly
+full_name: Mark Kelly
+tier: "3"
+bio_md: US Senator from Arizona since 2020. Former NASA astronaut who flew four Space Shuttle missions and commanded STS-134, the final flight of Endeavour. Retired US Navy captain and combat pilot. Husband of former US Representative Gabby Giffords, who survived a 2011 assassination attempt. Co-founded the gun-safety group now known as GIFFORDS.
+role: US Senator from Arizona
+affiliation: United States Senate
+party: Democrat
+lean_left: 58
+lean_right: 38
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: SenMarkKelly
+issue_stances:
+  - slug: second-amendment-regulation
+    stance: Long-time advocate of universal background checks and red flag laws through GIFFORDS
+  - slug: border-security
+    stance: Supports increased border infrastructure and personnel paired with asylum reform
+  - slug: climate-policy
+    stance: Helped negotiate provisions of the Inflation Reduction Act, including drought and water funding
+  - slug: taiwan-and-china
+    stance: Helped pass the CHIPS and Science Act to bolster US semiconductor manufacturing

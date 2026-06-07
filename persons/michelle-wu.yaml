@@ -1,0 +1,24 @@
+slug: michelle-wu
+full_name: Michelle Wu
+tier: "3"
+bio_md: Mayor of Boston since January 2022, the first woman and first person of color elected to the office. A Harvard Law graduate and former mentee of Elizabeth Warren, she previously served on the Boston City Council, including as its president.
+role: Mayor of Boston
+affiliation: City of Boston
+party: Democratic
+lean_left: 75
+lean_right: 15
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: wutrain
+issue_stances:
+  - slug: climate-policy
+    stance: Champions a municipal Green New Deal including building electrification and transit investment
+  - slug: zoning-reform
+    stance: Pushed rent stabilization proposals and reforms to Boston's planning and permitting process
+  - slug: union-rights
+    stance: Supports public-sector collective bargaining and project labor agreements
+  - slug: abortion-access
+    stance: Defends reproductive rights and access to abortion care in Massachusetts

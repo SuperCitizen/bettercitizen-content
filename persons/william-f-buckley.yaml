@@ -1,0 +1,14 @@
+slug: william-f-buckley
+full_name: William F. Buckley
+tier: "4"
+bio_md: Founder of National Review and a towering figure of modern American conservatism. Known for his erudition, wit, and role in defining intellectual conservatism.
+role: intellectual, editor
+affiliation: National Review
+lean_left: 15
+lean_right: 85
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances: []

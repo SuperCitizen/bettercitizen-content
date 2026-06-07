@@ -1,0 +1,24 @@
+slug: javier-milei
+full_name: Javier Milei
+tier: "3"
+bio_md: President of Argentina since December 2023, an economist and former television commentator who founded La Libertad Avanza. A self-described anarcho-capitalist and libertarian, he campaigned on dollarization, sharp cuts to public spending, and dismantling much of the Argentine state.
+role: President of Argentina
+affiliation: La Libertad Avanza
+party: La Libertad Avanza
+lean_left: 5
+lean_right: 90
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: false
+  is_science_based: false
+twitter: JMilei
+issue_stances:
+  - slug: climate-policy
+    stance: Has dismissed climate change as a socialist agenda and rolled back environmental programs
+  - slug: abortion-access
+    stance: Opposes Argentina's 2020 abortion-legalization law and has signaled support for repeal
+  - slug: trade-with-china
+    stance: Initially criticized ties with China but in office has maintained important trade and currency-swap arrangements
+  - slug: minimum-wage
+    stance: Favors deregulating labor markets and is skeptical of statutory minimum wages

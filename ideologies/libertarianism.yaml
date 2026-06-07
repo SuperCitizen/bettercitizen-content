@@ -1,0 +1,31 @@
+slug: libertarianism
+name: Libertarianism
+tradition: Classical liberal, individualist
+core_principles:
+  - Maximum individual liberty consistent with equal liberty for others
+  - Strong property rights and voluntary exchange
+  - Skepticism toward both government economic intervention and government moral regulation
+  - Free trade and open borders (most strands)
+  - Non-interventionist foreign policy
+  - Decriminalization of victimless conduct
+key_thinkers:
+  - name: Friedrich Hayek
+    lifespan: 1899–1992
+    influence: The Road to Serfdom — case against central economic planning.
+  - name: Robert Nozick
+    lifespan: 1938–2002
+    influence: Anarchy, State, and Utopia — entitlement theory of justice; the minimal state.
+  - name: Ayn Rand
+    lifespan: 1905–1982
+    influence: Popularized rational egoism and laissez-faire capitalism through fiction and essays.
+  - name: Ron Paul
+    lifespan: 1935–
+    influence: Translated libertarian thought into mainstream U.S. electoral politics.
+key_orgs:
+  - cato-institute
+  - libertarian-party
+  - reason-foundation
+related_ideologies:
+  - american-conservatism
+historical_period: 17th-century classical liberal roots; modern American libertarianism post-WWII
+body_md: ""

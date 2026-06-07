@@ -1,0 +1,39 @@
+slug: affirmative-action
+name: Affirmative action in admissions and employment
+category: civil-rights-and-liberties
+summary: Whether universities and employers should consider race in admissions and hiring decisions — sharply restricted by Students for Fair Admissions v. Harvard (2023).
+body_md: |-
+  Students for Fair Admissions v. Harvard (2023) held that race-conscious admissions at Harvard and UNC violated the Equal Protection Clause and Title VI, effectively ending traditional race-based admissions at most U.S. colleges. Universities have shifted to "race-neutral" admissions strategies — socioeconomic factors, geographic targeting, removing legacy preferences, expanding outreach.
+
+  The decision did not directly address private employment, but legal challenges to corporate DEI programs have intensified.
+
+  Defenders argue race-conscious policies are necessary to address persistent racial disparities. Critics argue they violate equal protection and civil-rights principles by treating individuals differently based on race.
+spectrum:
+  left: Progressives oppose the SFFA decision and seek alternative pathways (socioeconomic, geographic, holistic) to maintain racial diversity.
+  center: Many centrists accept race-neutral alternatives but are mixed on the SFFA reasoning.
+  right: Most conservatives support the SFFA decision and seek to extend its reasoning to employment and other domains.
+contested:
+  perspectives:
+    - label: Race-conscious-policy advocates
+      summary: Persistent racial disparities require race-conscious remedies. Race-neutral alternatives substantially reduce minority representation. Diversity itself has educational and democratic value.
+      key_concerns:
+        - Addressing persistent racial disparities
+        - Diversity's educational value
+        - Pipeline equity
+    - label: Color-blind constitutionalists
+      summary: The Equal Protection Clause prohibits race-based government action. Race-conscious policies harm individual applicants based on group identity and entrench racial classification.
+      key_concerns:
+        - Equal protection
+        - Treating individuals as individuals
+        - Avoiding racial classification
+    - label: Class-based / structural reformers
+      summary: "Replace race-conscious policies with class-based and place-based ones: wealth and zip code capture much of what race-conscious policies aim at, with broader cross-racial coalition support."
+      key_concerns:
+        - Class-based affirmative action
+        - Removing legacy and donor preferences
+        - Targeting under-resourced communities
+related_lesson_slugs: []
+tags:
+  - civil-rights
+  - higher-education
+  - race

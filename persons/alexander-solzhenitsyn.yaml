@@ -1,0 +1,14 @@
+slug: alexander-solzhenitsyn
+full_name: Alexander Solzhenitsyn
+tier: "4"
+bio_md: Russian novelist and historian. Nobel Prize in Literature (1970). Author of The Gulag Archipelago, which exposed the Soviet forced labor camp system and helped undermine the moral legitimacy of the USSR.
+role: author, dissident
+affiliation: Independent
+lean_left: 20
+lean_right: 80
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: true
+  is_science_based: false
+issue_stances: []

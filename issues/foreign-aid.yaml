@@ -1,0 +1,46 @@
+slug: foreign-aid
+name: Foreign aid
+category: foreign-policy
+summary: How the U.S. should structure foreign aid (~$60B/year, ~1% of federal budget) — bilateral, multilateral, humanitarian, development, security assistance.
+body_md: |-
+  U.S. foreign aid is roughly 1% of the federal budget — far less than most Americans estimate (typical surveys show 25%+ guesses). Categories include:
+  - **Humanitarian** (USAID, refugee/disaster response, PEPFAR HIV/AIDS program)
+  - **Development** (long-term economic / governance assistance)
+  - **Security assistance** (military training, equipment to partner nations)
+  - **Multilateral** (World Bank, regional development banks, UN agencies)
+
+  Recent debates:
+  - **PEPFAR reauthorization**: HIV/AIDS program credited with saving 25M+ lives, sometimes contested over abortion-related provider rules.
+  - **MCC, USAID modernization**: Outcome-tied development assistance.
+  - **Aid conditionality**: Tying assistance to reforms or alignment.
+  - **Politicization**: Whether aid is well-targeted to U.S. interests.
+spectrum:
+  left: Progressives generally favor humanitarian and development aid; mixed on security assistance.
+  center: Most centrists support foreign aid as cost-effective foreign policy.
+  right: "Conservative views split: some favor reducing aid; others favor it as soft-power and strategic-influence tool."
+contested:
+  perspectives:
+    - label: Aid-effectiveness advocates
+      summary: Foreign aid is one of the highest-leverage tools in U.S. foreign policy. PEPFAR alone has saved 25M+ lives at a fraction of defense spending. Strong aid serves U.S. security and humanitarian interests.
+      key_concerns:
+        - Cost-effectiveness vs. military tools
+        - PEPFAR and humanitarian impact
+        - Soft-power influence
+    - label: Reduce-aid advocates
+      summary: Foreign aid often funds corrupt governments, doesn't deliver intended outcomes, and crowds out U.S. domestic priorities. Reduce overall levels and tie to clear performance metrics.
+      key_concerns:
+        - Aid effectiveness and corruption
+        - Domestic priorities
+        - Conditioning aid on outcomes
+    - label: Targeted-modernization advocates
+      summary: "Reform and modernize: more outcome-tied programs (MCC model), clearer alignment with U.S. interests, and reduce dependence-creating long-term aid in favor of partnerships and trade."
+      key_concerns:
+        - Outcome-based assistance
+        - Aligning aid with strategic interests
+        - Trade-and-investment alternatives
+related_lesson_slugs:
+  - foreign-policy
+tags:
+  - foreign-policy
+  - aid
+  - development

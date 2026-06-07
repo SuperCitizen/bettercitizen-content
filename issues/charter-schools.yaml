@@ -1,0 +1,39 @@
+slug: charter-schools
+name: Charter schools
+category: education
+summary: Publicly funded, independently operated K-12 schools that operate under a charter agreement with greater autonomy than traditional district schools in exchange for accountability for results.
+body_md: |-
+  Charter schools are public schools that operate under a contract ("charter") with an authorizer — a school district, university, or state board — and receive public per-pupil funding while operating outside traditional district governance. The charter movement began in Minnesota in 1991 and has grown to enroll roughly 7% of US public-school students.
+
+  Quality varies widely. Some networks (e.g., KIPP, Success Academy, Uncommon Schools) have produced strong results, particularly for low-income students of color in urban districts. Others have underperformed traditional public schools or closed for academic or financial failures. Authorizer rigor matters significantly.
+
+  Debate centers on funding effects on traditional districts, accountability and oversight, teacher unionization, special-education enrollment patterns, profit-motive concerns about for-profit operators, and what counts as fair comparison of outcomes.
+spectrum:
+  left: "Progressives are split: civil-rights voices often support high-performing charters in underserved communities, while teacher unions and many progressives oppose charter expansion as draining public schools."
+  center: Centrists often support charter schools selectively — favoring strong authorizers, closing failing schools, and excluding for-profit operators — while protecting district funding.
+  right: Conservatives broadly support charter expansion as parental choice and competition, and view union opposition as protecting institutions rather than children.
+contested:
+  perspectives:
+    - label: Choice and equity advocates
+      summary: Low-income families and families of color deserve the same school choice that wealthier families exercise through housing. High-performing charters give kids a genuine alternative to failing assigned schools, and the evidence on urban charter outcomes is strong.
+      key_concerns:
+        - Parental choice especially in low-income areas
+        - Outcomes in urban charter networks
+        - Breaking the ZIP-code-to-school link
+    - label: Public-school defenders
+      summary: Charter expansion drains funding, enrollment, and political capital from neighborhood public schools that serve every student. Many charters cream-skim or push out harder-to-educate kids, and weak authorizer oversight has produced repeated scandals.
+      key_concerns:
+        - Funding impact on traditional districts
+        - Enrollment and pushout patterns
+        - Authorizer accountability and oversight
+    - label: Quality-and-oversight reformers
+      summary: Charter quality varies enormously. The right policy is rigorous authorizer standards, automatic closure of low-performing schools, prohibition on for-profit operators, and parity in serving special-education and English-learner students.
+      key_concerns:
+        - Authorizer rigor and accountability
+        - Closure of underperforming charters
+        - For-profit vs. nonprofit operation
+related_lesson_slugs: []
+tags:
+  - education
+  - k12
+  - school-choice

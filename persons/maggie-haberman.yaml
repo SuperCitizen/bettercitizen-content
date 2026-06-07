@@ -1,0 +1,19 @@
+slug: maggie-haberman
+full_name: Maggie Haberman
+tier: "4"
+bio_md: "Chief White House correspondent for The New York Times and a CNN political analyst. A Pulitzer Prize winner for her reporting on Donald Trump and Russia, she is the author of 'Confidence Man: The Making of Donald Trump and the Breaking of America'. Before the Times, she covered politics for the New York Post, New York Daily News, and Politico."
+role: chief White House correspondent
+affiliation: The New York Times
+lean_left: 50
+lean_right: 40
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: false
+twitter: maggieNYT
+issue_stances:
+  - slug: misinformation-policy
+    stance: As a reporter, has documented the spread of political misinformation rather than taking explicit policy positions
+  - slug: social-media-algorithms
+    stance: Reports extensively on how political figures, especially Donald Trump, have used social platforms to shape political discourse

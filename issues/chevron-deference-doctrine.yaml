@@ -1,0 +1,43 @@
+slug: chevron-deference-doctrine
+name: Chevron deference and agency authority
+category: governance-and-institutions
+summary: Whether courts should defer to federal agencies' reasonable interpretations of ambiguous statutes — the longstanding Chevron doctrine — or independently determine the best reading, as the Supreme Court ruled in Loper Bright Enterprises v. Raimondo.
+body_md: |-
+  From 1984 until 2024, the Chevron doctrine instructed federal courts to defer to a federal agency's reasonable interpretation of an ambiguous statute it administers. The Supreme Court's decision in Loper Bright Enterprises v. Raimondo overruled Chevron, holding that courts must use their independent judgment to determine the best reading of a statute, even when it is ambiguous.
+
+  Supporters of the change argue that Chevron concentrated lawmaking power in unaccountable agencies, allowed agencies to shift policy without congressional action, and abdicated the judicial role of "saying what the law is." Conservative legal scholars long criticized Chevron as inconsistent with the Administrative Procedure Act and separation of powers.
+
+  Defenders of Chevron — and now critics of Loper Bright — argue that agencies have technical expertise that courts lack, that statutory ambiguity is endemic in technical regulation (environmental, financial, health), and that courts independently parsing every ambiguity will produce inconsistent rulings, increase litigation, and freeze regulatory flexibility. The debate is now over how the post-Chevron regime will work in practice.
+spectrum:
+  left: Overruling Chevron transfers enormous policymaking power to a conservative judiciary willing to second-guess expert agencies on environmental, financial, and health regulation; technical decisions belong with the experts Congress empowered.
+  center: Chevron had drifted into near-blanket deference that arguably exceeded its original framing; the question now is whether Loper Bright produces case-by-case judicial review with appropriate respect for agency expertise, or a free-for-all of inconsistent rulings.
+  right: Chevron concentrated lawmaking power in unelected agencies and let executive branches rewrite the meaning of statutes through reinterpretation; restoring judicial duty to "say what the law is" is a constitutional correction.
+contested:
+  perspectives:
+    - label: Chevron defenders
+      summary: Agencies bring technical expertise — in environmental science, financial regulation, occupational safety — that generalist judges lack. Chevron channeled that expertise into reasonable interpretations of inherently ambiguous statutes. Without it, courts will impose their own policy preferences in technical fields.
+      key_concerns:
+        - Agency expertise in technical fields
+        - Endemic statutory ambiguity in regulation
+        - Risk of judicial policymaking
+        - Inconsistent rulings across circuits
+    - label: Chevron critics
+      summary: Chevron let agencies — politically directed by the executive — effectively rewrite statutes through reinterpretation. That violates separation of powers and the Administrative Procedure Act's requirement that courts decide questions of law. Loper Bright restores the judicial role.
+      key_concerns:
+        - Agencies should not rewrite statutes
+        - Separation-of-powers concerns
+        - Administrative Procedure Act requires judicial review
+        - Policy stability across administrations
+    - label: Post-Chevron pragmatists
+      summary: The real question is how courts will treat agency views in practice — whether Skidmore-style respect, expert-evidence weight, or full independent judgment. The right post-Chevron regime preserves some role for agency expertise while ending automatic deference to politically motivated reinterpretation.
+      key_concerns:
+        - Skidmore respect as a workable middle
+        - Expert-evidence record matters
+        - Major questions doctrine as a partial substitute
+        - Need for predictable regulatory environment
+related_lesson_slugs: []
+tags:
+  - administrative-law
+  - judiciary
+  - chevron
+  - regulation

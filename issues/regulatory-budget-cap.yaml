@@ -1,0 +1,45 @@
+slug: regulatory-budget-cap
+name: Regulatory budget cap
+category: governance-and-institutions
+summary: Whether the federal government should impose a binding annual cap on the total cost of new regulations issued by executive-branch agencies — sometimes called a "regulatory budget."
+body_md: |-
+  A regulatory budget would set a binding annual cost ceiling on new federal regulations across agencies, similar to how the discretionary spending budget operates for direct expenditures. Variants include strict caps requiring agencies to repeal one rule for every new rule (or for every dollar of new cost), cost-neutrality requirements within an agency, and looser "regulatory impact" budgets enforced through OMB review.
+
+  The first Trump administration's Executive Order 13771 imposed a "two-for-one" repeal requirement and a regulatory-cost ceiling, applied via OIRA review. Other administrations have used cost-benefit analysis and OIRA review but without a binding cap. Some proposals — backed by both Republican and a few Democratic lawmakers — would put a cap in statute.
+
+  Proponents argue that regulatory costs accumulate invisibly across decades, that agencies have no institutional incentive to remove obsolete rules, and that a binding cap would force prioritization, retrospective review, and political accountability for the regulatory state's total burden.
+
+  Opponents argue that regulations exist because Congress directed them or because they protect against real harms — pollution, financial collapse, workplace death — and that artificial caps would force agencies to repeal protective rules to enact new ones, ignoring whether the new rule is more valuable. They also argue that cost estimates are systematically uncertain.
+spectrum:
+  left: Regulations exist because Congress directed agencies to protect public health, safety, and the environment; an artificial cost cap would force trade-offs that prioritize industry savings over public protection, with no rational basis for which protections to drop.
+  center: Retrospective regulatory review is valuable; whether a binding cap improves outcomes depends on details — how costs are counted, whether benefits offset costs, and how Congress treats new statutory mandates that require new rules.
+  right: Decades of regulatory accumulation impose real costs on businesses and consumers without commensurate review; a binding cap would force agencies to prioritize, modernize, and remove obsolete rules — discipline that voluntary review has not produced.
+contested:
+  perspectives:
+    - label: Regulatory-budget advocates
+      summary: Regulatory costs accumulate invisibly and without prioritization. A binding cap — enforced through OIRA — would force agencies to remove obsolete rules to make space for new ones, prioritize among proposed regulations, and confront the political cost of the regulatory state's total burden.
+      key_concerns:
+        - Regulatory costs accumulate without review
+        - Agencies have no incentive to repeal obsolete rules
+        - Cap forces prioritization and modernization
+        - Political accountability for total burden
+    - label: Public-protection critics
+      summary: Regulations exist because Congress directed agencies to protect health, safety, environment, and financial stability. A cost cap forces removal of protective rules to enact new ones, with no rational basis for which protection should give way. Cost-benefit analysis already balances burdens.
+      key_concerns:
+        - Caps force trade-offs without principled basis
+        - Cost estimates ignore benefits
+        - Statutory mandates may conflict with cap
+        - Public health and safety at risk
+    - label: Process-reform middle
+      summary: Retrospective review of existing regulations — sunset clauses, periodic re-justification, OIRA-led review — could surface obsolete rules without imposing a rigid cap. Better cost-benefit methodology, transparent comparison, and statutory deadlines could improve regulatory quality without the brittle features of a cap.
+      key_concerns:
+        - Periodic review without rigid caps
+        - Sunset clauses for major rules
+        - Methodology improvements for cost-benefit
+        - Statutory deadlines for retrospective review
+related_lesson_slugs: []
+tags:
+  - regulation
+  - administrative-state
+  - cost-benefit
+  - oira

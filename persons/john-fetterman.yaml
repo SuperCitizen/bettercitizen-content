@@ -1,0 +1,24 @@
+slug: john-fetterman
+full_name: John Fetterman
+tier: "3"
+bio_md: US Senator from Pennsylvania since 2023. Former Lieutenant Governor of Pennsylvania and longtime mayor of Braddock, a small steel-mill town near Pittsburgh. Suffered a stroke during his 2022 Senate campaign and has spoken openly about his recovery and clinical depression. Has staked out heterodox positions, particularly strong support for Israel.
+role: US Senator from Pennsylvania
+affiliation: United States Senate
+party: Democrat
+lean_left: 55
+lean_right: 38
+traits:
+  is_hyperbolic: false
+  is_sensible: true
+  is_religious: false
+  is_science_based: true
+twitter: SenFettermanPA
+issue_stances:
+  - slug: israel-palestine-policy
+    stance: Strong supporter of Israel; broke with progressives over Gaza war policy
+  - slug: border-security
+    stance: Has called for stronger border enforcement and bipartisan immigration deals
+  - slug: union-rights
+    stance: Strong supporter of organized labor and has walked picket lines as senator
+  - slug: minimum-wage
+    stance: Supports raising the federal minimum wage to $15 per hour

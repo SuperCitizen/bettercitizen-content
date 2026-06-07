@@ -1,0 +1,15 @@
+slug: federal-election-commission
+name: Federal Election Commission
+kind: government
+subtype: executive-independent
+description: Independent regulatory agency enforcing federal campaign-finance law and administering disclosure of federal political contributions and spending.
+website: https://www.fec.gov
+jurisdiction: federal
+partisan_lean: null
+concept_tags:
+  - fec
+  - campaign-finance
+  - feca
+  - donor-disclosure
+  - dark-money
+is_active: true

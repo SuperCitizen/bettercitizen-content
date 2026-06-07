@@ -1,0 +1,32 @@
+slug: american-conservatism
+name: American conservatism
+tradition: Anglo-American conservative; classical liberal lineage
+core_principles:
+  - Limited government and enumerated federal powers
+  - Free markets and private property rights
+  - Constitutional originalism in interpreting law
+  - Strong civil society — family, church, voluntary associations — as buffers between citizen and state
+  - Stable institutions and skepticism toward rapid change
+  - National sovereignty and traditional moral order
+key_thinkers:
+  - name: Edmund Burke
+    lifespan: 1729–1797
+    influence: Founding voice of modern conservative thought; emphasized prudence and inherited institutions.
+  - name: Russell Kirk
+    lifespan: 1918–1994
+    influence: Articulated post-war American conservatism in The Conservative Mind.
+  - name: William F. Buckley Jr.
+    lifespan: 1925–2008
+    influence: Founder of National Review; mainstreamed conservative intellectual life.
+  - name: Milton Friedman
+    lifespan: 1912–2006
+    influence: Argued the case for free markets and limited government in economic policy.
+key_orgs:
+  - heritage-foundation
+  - american-enterprise-institute
+  - federalist-society
+related_ideologies:
+  - libertarianism
+  - communitarianism
+historical_period: 18th-century classical liberal roots; modern American form post-1950s
+body_md: ""

@@ -1,0 +1,39 @@
+slug: dc-statehood
+name: Washington, D.C. statehood
+category: governance-and-institutions
+summary: Whether the District of Columbia's ~700,000 residents — who pay federal taxes and serve in the military but lack voting representation in Congress — should be admitted as a state.
+body_md: |-
+  The District of Columbia was created in 1790 as a federal enclave and is governed under the District Clause of the Constitution. Residents got a presidential vote via the 23rd Amendment (1961) but still have only a non-voting House delegate and no senators.
+
+  The most-discussed proposal would admit "Washington, Douglass Commonwealth" as a state, retaining a small federal-district zone (Capitol, White House, federal buildings) under congressional control. The House passed a statehood bill in 2021; the Senate did not act.
+
+  Constitutional questions include whether statehood requires repeal of the 23rd Amendment and whether the District Clause precludes admission. Political objections include the partisan implications of two new likely-Democratic senators.
+spectrum:
+  left: Progressives strongly support DC statehood as a civil-rights and democratic-representation issue.
+  center: Some moderates support statehood; others favor retrocession to Maryland as a less politically charged alternative.
+  right: Most conservatives oppose statehood, citing the District Clause, partisan implications, and DC's small geographic size.
+contested:
+  perspectives:
+    - label: Statehood advocates
+      summary: 700,000+ Americans pay federal taxes, serve in the military, and have no voting representation. This is a civil-rights issue. Statehood is the only durable fix.
+      key_concerns:
+        - Equal political representation
+        - Taxation without representation
+        - Self-determination for District residents
+    - label: Constitutional objectors
+      summary: The Founders intentionally placed the federal capital outside any state. Admitting DC would require constitutional amendment and risks federal-state conflicts at the seat of government.
+      key_concerns:
+        - District Clause and original design
+        - Federal-state conflict at the capital
+        - 23rd Amendment compatibility
+    - label: Retrocession alternative
+      summary: Return most of DC to Maryland (as Arlington was retroceded to Virginia in 1846), retaining a small federal core. Resolves representation without admitting a new state.
+      key_concerns:
+        - Avoiding partisan-Senate composition shift
+        - Constitutional simplicity
+        - Maryland's willingness to accept retrocession
+related_lesson_slugs: []
+tags:
+  - representation
+  - federalism
+  - constitutional-reform

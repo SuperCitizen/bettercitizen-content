@@ -1,0 +1,24 @@
+slug: ted-cruz
+full_name: Ted Cruz
+tier: "4"
+bio_md: US Senator from Texas and former presidential candidate. Harvard Law graduate and former Texas Solicitor General. Known for conservative advocacy and filibuster theatrics.
+role: politician
+affiliation: Republican Party
+party: Republican
+lean_left: 10
+lean_right: 90
+traits:
+  is_hyperbolic: false
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: tedcruz
+issue_stances:
+  - slug: second-amendment-regulation
+    stance: Consistent opponent of gun control legislation
+  - slug: corporate-tax-rate
+    stance: Advocates for a flat tax to simplify the tax code
+  - slug: voter-id
+    stance: Objected to certification of 2020 electoral votes
+  - slug: section-230
+    stance: Favors legislation to curb what he views as anti-conservative bias

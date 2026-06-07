@@ -1,0 +1,40 @@
+schema: supercitizen.assessment/v1
+lesson: the-five-systems
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Under approval voting, what does the ballot let you do?"
+    choices:
+      - id: a
+        text: "Rank candidates from most to least preferred"
+      - id: b
+        text: "Vote yes/no on every candidate; check the names of any you find acceptable"
+      - id: c
+        text: "Score each candidate from 0 to 10"
+      - id: d
+        text: "Vote for one candidate, with an automatic runoff if no one has a majority"
+    correct_choice_id: b
+    explanation: "Approval is the simplest mechanically: a checkbox per candidate, no ranking, no scoring."
+    concepts: [approval-voting]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Score voting and ranked-choice voting differ most importantly in that..."
+    choices:
+      - id: a
+        text: "Score voting reveals how MUCH a voter prefers each candidate; RCV reveals only the order"
+      - id: b
+        text: "Score voting always elects the Condorcet winner; RCV does not"
+      - id: c
+        text: "RCV is used in U.S. elections; score voting is not"
+      - id: d
+        text: "Score voting is harder to count; RCV is simpler"
+    correct_choice_id: a
+    explanation: "RCV captures order (1st, 2nd, 3rd); score captures intensity (e.g., 9, 7, 1). The other claims are partly true but not the *most important* distinction. (RCV is in U.S. use; score isn't yet — but that's about adoption, not mechanics.)"
+    concepts: [ranked-choice-voting, score-voting]
+
+  - id: q3
+    kind: free-response
+    text: "Plurality voting is the system most U.S. elections use today. In one paragraph, describe a specific scenario where plurality fails to find the candidate that the largest number of voters would *most prefer* compared to the alternatives."
+    socratic_seed: "Imagine a 3-way race where the two candidates closest to each other politically split a majority of voters between them..."
+    concepts: [plurality-voting, spoiler-effect]

@@ -1,0 +1,33 @@
+slug: three-strikes-laws
+name: Three-strikes laws
+category: criminal-justice
+summary: Mandatory long or life sentences after a third felony conviction, designed to incapacitate repeat offenders but criticized for disproportionate sentences.
+body_md: |-
+  Three-strikes laws impose sharply enhanced sentences — often 25 years to life — on defendants convicted of a third qualifying felony. The federal government and roughly half of states have some version. California's was the most expansive and best-known; voters narrowed it in 2012 to require the third strike to be a serious or violent felony.
+
+  Supporters argue the laws incapacitate the small share of offenders responsible for a large share of serious crime, and deter repeat offending. Critics argue the laws have produced grossly disproportionate sentences (e.g., life sentences for low-level third offenses), driven prison populations and costs sharply upward, and produced little measurable deterrent effect.
+
+  Reform efforts have generally narrowed which prior convictions count, restricted the third strike to serious or violent offenses, or added judicial discretion to depart from mandatory sentences.
+spectrum:
+  left: Most progressives oppose three-strikes laws as drivers of mass incarceration and disproportionate sentencing, favoring repeal or narrow violent-felony limits.
+  center: Centrists generally support narrowing three-strikes to violent or serious felonies and restoring judicial discretion, while keeping enhanced penalties for repeat violent offenders.
+  right: Conservatives are split. Tough-on-crime conservatives support three-strikes for incapacitation; libertarian and small-government conservatives have joined reform coalitions citing cost and proportionality.
+contested:
+  perspectives:
+    - label: Incapacitation advocates
+      summary: A small minority of offenders commit a large share of serious crime. Mandatory enhanced sentences keep career criminals off the street and protect public safety. Predictable sentences also reduce judicial inconsistency.
+      key_concerns:
+        - Public safety from career offenders
+        - Sentencing consistency and predictability
+        - Deterrence of repeat offending
+    - label: Proportionality reformers
+      summary: Three-strikes laws have produced life sentences for minor third offenses, driving prison populations and budgets upward without commensurate public-safety gains. Sentences should fit the current offense, with judicial discretion restored.
+      key_concerns:
+        - Disproportionate sentences for minor third offenses
+        - Prison costs and overcrowding
+        - Loss of judicial discretion
+related_lesson_slugs: []
+tags:
+  - criminal-justice
+  - sentencing
+  - mass-incarceration

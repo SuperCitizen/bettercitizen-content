@@ -1,0 +1,12 @@
+slug: runoff-election
+name: Runoff Election
+short_definition: A second election held when no candidate achieves the required majority in the first round.
+body_md: ""
+category: elections
+difficulty: intermediate
+status: active
+etymology: "English: 'run off' (a deciding contest after a tie or inconclusive result) + 'election.' From the concept of a final round that 'runs off' remaining candidates"
+why_it_matters: Runoffs ensure winners have majority support but can suffer from low turnout and voter fatigue, potentially producing different outcomes than the first round.
+context_example: Neither candidate won 50% in November, triggering a January runoff election that attracted national attention and record spending.
+related_term_slugs: []
+tags: []

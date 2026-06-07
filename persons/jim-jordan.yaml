@@ -1,0 +1,24 @@
+slug: jim-jordan
+full_name: Jim Jordan
+tier: "3"
+bio_md: U.S. Representative from Ohio's 4th district since 2007. Chair of the House Judiciary Committee and chair of the Select Subcommittee on the Weaponization of the Federal Government. Co-founder of the House Freedom Caucus. Former NCAA wrestling champion at the University of Wisconsin. Known as a leading conservative voice and frequent investigator of executive branch agencies.
+role: representative, committee chair
+affiliation: U.S. House of Representatives
+party: Republican
+lean_left: 8
+lean_right: 92
+traits:
+  is_hyperbolic: true
+  is_sensible: false
+  is_religious: true
+  is_science_based: false
+twitter: Jim_Jordan
+issue_stances:
+  - slug: border-security
+    stance: Supports stricter border enforcement and the impeachment of DHS officials over border policy
+  - slug: abortion-access
+    stance: Opposes abortion access; supports federal limits on the procedure
+  - slug: ukraine-support
+    stance: Skeptical of additional Ukraine aid without strict conditions
+  - slug: second-amendment-regulation
+    stance: Strong opponent of new gun regulations

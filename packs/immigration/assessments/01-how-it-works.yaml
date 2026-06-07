@@ -1,0 +1,72 @@
+schema: supercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which is the largest category of permanent (green-card) immigration to the U.S. annually?"
+    choices:
+      - id: a
+        text: "Employment-based"
+      - id: b
+        text: "Family-based"
+      - id: c
+        text: "Refugee/asylum"
+      - id: d
+        text: "Diversity visa lottery"
+    correct_choice_id: b
+    explanation: "Family-based immigration is ~65% of permanent admissions annually. The 1965 INA reorganized U.S. immigration around family reunification, replacing the national-origin quotas of 1924. Employment-based is ~13%, refugee/asylum varies (~10-15% in recent years), diversity lottery is ~50,000 (about 5%)."
+    concepts: [immigration]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What share of the ~11M undocumented U.S. population are visa overstays (rather than unauthorized border crossings)?"
+    choices:
+      - id: a
+        text: "Less than 10%."
+      - id: b
+        text: "About 25%."
+      - id: c
+        text: "About 40-50%."
+      - id: d
+        text: "Nearly all of them."
+    correct_choice_id: c
+    explanation: "Roughly 40-50% of the undocumented population came on legitimate visas (student, tourist, work) and didn't leave when those visas expired. This is one of the most-misunderstood facts about the population: it is not predominantly recent border-crossers, and most have lived in the U.S. for more than 10 years."
+    concepts: [immigration, undocumented]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What was the empirical record of the Immigration Reform and Control Act of 1986 (IRCA)?"
+    choices:
+      - id: a
+        text: "Both the legalization (~3M) and the employer sanctions worked as designed."
+      - id: b
+        text: "The legalization worked technically; the employer sanctions were not effectively implemented."
+      - id: c
+        text: "Both the legalization and the enforcement provisions failed."
+      - id: d
+        text: "There was no significant change in the undocumented population for two decades."
+    correct_choice_id: b
+    explanation: "The legalization succeeded technically — most of the ~3M became permanent residents and citizens. But the employer-sanctions provisions, the first time U.S. law had penalized employers for hiring undocumented workers, were not effectively implemented (verification was minimal, fraud was rampant, enforcement was de-prioritized within years). The undocumented population grew from ~3M to ~11M in the next two decades."
+    concepts: [immigration]
+
+  - id: q4
+    kind: multiple-choice
+    text: "What did Plyler v. Doe (1982) establish?"
+    choices:
+      - id: a
+        text: "Undocumented residents have a constitutional right to remain in the U.S."
+      - id: b
+        text: "States may impose their own immigration enforcement schemes."
+      - id: c
+        text: "Undocumented children are entitled to public K-12 education on equal-protection grounds."
+      - id: d
+        text: "Federal immigration law preempts all state-level immigration policy."
+    correct_choice_id: c
+    explanation: "Plyler v. Doe (5–4) held that Texas could not exclude undocumented children from public schools. The Court applied an intermediate-scrutiny version of equal-protection analysis, finding that the state's interest in excluding the children was insufficient given the harm to children themselves. Plyler remains binding authority. State-level immigration enforcement preemption is a separate doctrine, established later (Arizona v. U.S., 2012)."
+    concepts: [immigration]
+
+  - id: q5
+    kind: free-response
+    text: "Restrictionist and expansionist economists disagree about whether the Mariel Boatlift (1980) had measurable wage effects on native low-skilled Miami workers. State the strongest version of each side's position on this empirical question."
+    socratic_seed: "Card (1990) found no significant effect on Miami's overall low-skilled labor market. Borjas (2017) reappraised the data with finer disaggregation and found significant negative wage effects specifically on Black men without a high-school diploma. The disagreement is partly about which level of disaggregation produces the policy-relevant answer, and partly about what counts as a meaningful effect on labor markets where most workers aren't substituting directly with newcomers."
+    concepts: [immigration, labor-market-effects]

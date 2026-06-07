@@ -1,0 +1,12 @@
+slug: popular-vote
+name: Popular Vote
+short_definition: The total number of votes cast by individual citizens in an election, as opposed to the Electoral College vote.
+body_md: ""
+category: elections
+difficulty: foundational
+status: active
+etymology: "Latin: popularis (of the people) + votum (a vow, wish)"
+why_it_matters: Twice in the 21st century, a president has won the Electoral College while losing the popular vote, fueling debate about democratic legitimacy.
+context_example: She won the popular vote by nearly three million ballots but lost the Electoral College 227 to 304.
+related_term_slugs: []
+tags: []
