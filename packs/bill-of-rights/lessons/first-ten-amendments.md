@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: first-ten-amendments
 kind: media
 title: What the Bill of Rights actually protects

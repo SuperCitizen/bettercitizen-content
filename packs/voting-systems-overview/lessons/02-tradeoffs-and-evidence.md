@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: tradeoffs-and-evidence
 kind: socratic
 title: Tradeoffs — what each voting system actually optimizes for

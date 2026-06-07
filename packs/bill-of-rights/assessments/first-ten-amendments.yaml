@@ -1,4 +1,4 @@
-schema: supercitizen.assessment/v1
+schema: bettercitizen.assessment/v1
 lesson: first-ten-amendments
 questions:
   - id: q1-first-amendment

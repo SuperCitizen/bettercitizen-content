@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: internal-disagreements
 kind: reading
 title: Internal disagreements within the tradition

@@ -1,4 +1,4 @@
-schema: supercitizen.content/v1
+schema: bettercitizen.content/v1
 slug: voter-id-and-mail-ballots
 title: Voter ID & Mail Ballots
 summary: How U.S. election administration actually works — voter registration, ID requirements, mail-in voting, in-person voting — plus the strongest cases for security-first, access-first, and standards-based approaches. The empirical record on fraud, turnout effects, and disparate impact is more contested than political rhetoric admits.

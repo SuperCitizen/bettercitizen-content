@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: cross-spectrum
 kind: reading
 title: How communitarianism relates to other traditions

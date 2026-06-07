@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: rcv-credit-where-due
 kind: reading
 title: "RCV: Credit Where It's Due"

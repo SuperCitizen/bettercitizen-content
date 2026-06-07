@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: from-idea-to-law
 kind: media
 title: From idea to enacted law

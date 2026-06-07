@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: cities-leading-the-way
 kind: reading
 title: Cities Leading the Way

@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-state-by-state-status
 kind: reading
 title: The State-by-State Status

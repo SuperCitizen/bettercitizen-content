@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: primaries-and-the-extremism-machine
 kind: reading
 title: Primaries and the Extremism Machine

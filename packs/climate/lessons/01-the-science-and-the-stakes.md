@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-science-and-the-stakes
 kind: reading
 title: The science and the stakes

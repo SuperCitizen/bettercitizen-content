@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: how-it-flows
 kind: reading
 title: How dark money actually flows

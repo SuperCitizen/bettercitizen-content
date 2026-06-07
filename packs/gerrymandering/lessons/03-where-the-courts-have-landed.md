@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: where-the-courts-have-landed
 kind: reading
 title: Where the courts have landed

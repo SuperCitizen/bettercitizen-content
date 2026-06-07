@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-five-systems
 kind: socratic
 title: The five voting systems most people argue about

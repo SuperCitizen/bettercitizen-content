@@ -1,4 +1,4 @@
-schema: supercitizen.content/v1
+schema: bettercitizen.content/v1
 slug: healthcare
 title: Healthcare in the United States
 summary: How the U.S. healthcare system actually works (employer insurance + Medicare + Medicaid + ACA marketplaces + uninsured), the strongest cases for single-payer, market reform, and ACA expansion, and the empirical record on cost, access, and outcomes. Genuinely contested — values disagreements ride alongside empirical disagreements about what the evidence shows.

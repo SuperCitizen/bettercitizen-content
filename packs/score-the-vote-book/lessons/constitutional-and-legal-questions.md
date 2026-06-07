@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: constitutional-and-legal-questions
 kind: reading
 title: Constitutional and Legal Questions

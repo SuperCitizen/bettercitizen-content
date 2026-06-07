@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-plurality-problem
 kind: reading
 title: The Plurality Problem

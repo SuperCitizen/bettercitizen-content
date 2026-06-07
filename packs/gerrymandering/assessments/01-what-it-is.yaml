@@ -1,4 +1,4 @@
-schema: supercitizen.assessment/v1
+schema: bettercitizen.assessment/v1
 lesson: what-it-is
 questions:
   - id: q1

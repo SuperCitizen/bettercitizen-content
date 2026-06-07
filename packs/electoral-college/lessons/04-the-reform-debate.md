@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-reform-debate
 kind: reading
 title: The reform debate (NPVIC, district allocation, abolition)

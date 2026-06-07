@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: star-voting-the-hybrid
 kind: reading
 title: "STAR Voting: The Hybrid"

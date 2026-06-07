@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: how-its-played-out
 kind: reading
 title: How it has actually played out

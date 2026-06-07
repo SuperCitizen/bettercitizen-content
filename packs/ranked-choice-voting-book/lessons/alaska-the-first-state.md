@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: alaska-the-first-state
 kind: reading
 title: "Alaska: The First State"

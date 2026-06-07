@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: introduction
 kind: reading
 title: "Introduction: Your Vote Is Broken"

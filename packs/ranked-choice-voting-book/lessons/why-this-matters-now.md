@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: why-this-matters-now
 kind: reading
 title: Why This Matters Now

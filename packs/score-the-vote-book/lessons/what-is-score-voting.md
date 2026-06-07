@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: what-is-score-voting
 kind: reading
 title: What Is Score Voting?

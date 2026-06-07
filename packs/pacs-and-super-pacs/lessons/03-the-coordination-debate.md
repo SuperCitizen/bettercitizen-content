@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-coordination-debate
 kind: reading
 title: The coordination debate (where reform is most active)

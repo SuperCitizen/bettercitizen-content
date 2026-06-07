@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: preamble-and-articles
 kind: media
 title: What's actually in the Constitution?

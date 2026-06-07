@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: what-is-ranked-choice-voting
 kind: reading
 title: What Is Ranked Choice Voting?

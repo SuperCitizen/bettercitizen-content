@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-problem-with-one-vote
 kind: reading
 title: The Problem With One Vote

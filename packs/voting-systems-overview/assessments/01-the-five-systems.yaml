@@ -1,4 +1,4 @@
-schema: supercitizen.assessment/v1
+schema: bettercitizen.assessment/v1
 lesson: the-five-systems
 questions:
   - id: q1

@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: how-to-pass-rcv-in-your-state
 kind: reading
 title: How to Pass RCV in Your State

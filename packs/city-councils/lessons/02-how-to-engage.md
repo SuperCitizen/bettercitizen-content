@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: how-to-engage
 kind: reading
 title: How to engage with your city council

@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: checks-and-balances
 kind: socratic
 title: Checks and balances — how each branch can constrain the others

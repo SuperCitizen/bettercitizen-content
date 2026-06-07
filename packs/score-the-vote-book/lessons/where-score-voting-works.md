@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: where-score-voting-works
 kind: reading
 title: Where Score Voting Works

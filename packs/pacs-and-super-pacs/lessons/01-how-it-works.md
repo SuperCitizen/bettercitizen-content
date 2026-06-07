@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: how-it-works
 kind: reading
 title: How PACs and Super PACs actually work

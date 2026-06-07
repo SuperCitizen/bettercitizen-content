@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: federal-vs-state
 kind: media
 title: "Federal vs. state: who can do what?"

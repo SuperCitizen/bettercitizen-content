@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-flow-of-political-money
 kind: socratic
 title: The flow of political money — who can give what to whom

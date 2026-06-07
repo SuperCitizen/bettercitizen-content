@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-path-to-fifty-states
 kind: reading
 title: The Path to Fifty States

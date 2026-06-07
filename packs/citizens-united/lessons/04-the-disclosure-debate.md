@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-disclosure-debate
 kind: reading
 title: The disclosure debate (the live policy fight)

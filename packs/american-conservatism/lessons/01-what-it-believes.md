@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: what-it-believes
 kind: reading
 title: What American conservatism actually believes

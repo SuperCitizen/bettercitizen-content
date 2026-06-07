@@ -1,5 +1,5 @@
 ---
-schema: supercitizen.lesson/v1
+schema: bettercitizen.lesson/v1
 slug: the-legal-framework
 kind: socratic
 title: The legal framework — Buckley, FECA, BCRA, Citizens United, SpeechNow
