@@ -1,0 +1,10 @@
+slug: texas-tribune
+label: The Texas Tribune
+homepage_url: https://www.texastribune.org
+rss_url: https://www.texastribune.org/feeds/main/
+kind: feed
+tier: nonprofit
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

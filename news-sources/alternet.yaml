@@ -1,0 +1,10 @@
+slug: alternet
+label: AlterNet
+homepage_url: https://www.alternet.org
+rss_url: https://www.alternet.org/feeds/feed.rss
+kind: feed
+tier: digital
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

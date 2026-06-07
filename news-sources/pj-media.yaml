@@ -1,0 +1,10 @@
+slug: pj-media
+label: PJ Media
+homepage_url: https://pjmedia.com
+rss_url: https://pjmedia.com/feed
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: breitbart
+label: Breitbart News
+homepage_url: https://www.breitbart.com
+rss_url: https://feeds.feedburner.com/breitbart
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

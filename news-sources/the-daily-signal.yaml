@@ -1,0 +1,10 @@
+slug: the-daily-signal
+label: The Daily Signal
+homepage_url: https://www.dailysignal.com
+rss_url: https://www.dailysignal.com/feed/
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

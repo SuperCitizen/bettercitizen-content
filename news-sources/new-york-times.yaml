@@ -1,0 +1,10 @@
+slug: new-york-times
+label: The New York Times
+homepage_url: https://www.nytimes.com
+rss_url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+kind: feed
+tier: newspaper
+editorial_lean: center-left
+paywall: true
+concept_tags:
+  - "*"

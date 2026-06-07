@@ -1,0 +1,10 @@
+slug: fox-news
+label: Fox News
+homepage_url: https://www.foxnews.com
+rss_url: https://moxie.foxnews.com/google-publisher/politics.xml
+kind: feed
+tier: broadcast
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

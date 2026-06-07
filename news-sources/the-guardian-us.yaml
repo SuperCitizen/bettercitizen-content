@@ -1,0 +1,10 @@
+slug: the-guardian-us
+label: The Guardian (US)
+homepage_url: https://www.theguardian.com/us-news
+rss_url: https://www.theguardian.com/us-news/rss
+kind: feed
+tier: newspaper
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: cnn
+label: CNN
+homepage_url: https://www.cnn.com
+rss_url: http://rss.cnn.com/rss/cnn_topstories.rss
+kind: feed
+tier: broadcast
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

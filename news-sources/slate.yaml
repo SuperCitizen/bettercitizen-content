@@ -1,0 +1,10 @@
+slug: slate
+label: Slate
+homepage_url: https://slate.com
+rss_url: https://slate.com/feeds/all.rss
+kind: feed
+tier: digital
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

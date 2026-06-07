@@ -1,0 +1,10 @@
+slug: the-marshall-project
+label: The Marshall Project
+homepage_url: https://www.themarshallproject.org
+rss_url: https://www.themarshallproject.org/rss/recent.rss
+kind: feed
+tier: nonprofit
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

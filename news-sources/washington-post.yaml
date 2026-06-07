@@ -1,0 +1,10 @@
+slug: washington-post
+label: The Washington Post
+homepage_url: https://www.washingtonpost.com
+rss_url: https://feeds.washingtonpost.com/rss/politics
+kind: feed
+tier: newspaper
+editorial_lean: center-left
+paywall: true
+concept_tags:
+  - "*"

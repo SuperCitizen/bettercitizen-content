@@ -1,0 +1,10 @@
+slug: the-economist
+label: The Economist
+homepage_url: https://www.economist.com
+rss_url: https://www.economist.com/latest/rss.xml
+kind: feed
+tier: magazine
+editorial_lean: center
+paywall: true
+concept_tags:
+  - "*"

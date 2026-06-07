@@ -1,0 +1,10 @@
+slug: common-dreams
+label: Common Dreams
+homepage_url: https://www.commondreams.org
+rss_url: https://www.commondreams.org/feeds/news.rss
+kind: feed
+tier: nonprofit
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: business-insider
+label: Business Insider
+homepage_url: https://www.businessinsider.com
+rss_url: https://www.businessinsider.com/rss
+kind: feed
+tier: digital
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: marketwatch
+label: MarketWatch
+homepage_url: https://www.marketwatch.com
+rss_url: http://feeds.marketwatch.com/marketwatch/topstories
+kind: feed
+tier: digital
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

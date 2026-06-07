@@ -1,0 +1,10 @@
+slug: deutsche-welle
+label: Deutsche Welle
+homepage_url: https://www.dw.com
+rss_url: https://rss.dw.com/rdf/rss-en-all
+kind: feed
+tier: public-media
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

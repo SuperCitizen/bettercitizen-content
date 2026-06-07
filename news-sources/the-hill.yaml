@@ -1,0 +1,10 @@
+slug: the-hill
+label: The Hill
+homepage_url: https://thehill.com
+rss_url: https://thehill.com/feed/
+kind: feed
+tier: digital
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: american-greatness
+label: American Greatness
+homepage_url: https://amgreatness.com
+rss_url: https://amgreatness.com/feed/
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

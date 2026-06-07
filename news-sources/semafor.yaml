@@ -1,0 +1,10 @@
+slug: semafor
+label: Semafor
+homepage_url: https://www.semafor.com
+rss_url: https://www.semafor.com/rss.xml
+kind: feed
+tier: digital
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

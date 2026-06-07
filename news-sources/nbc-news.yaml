@@ -1,0 +1,10 @@
+slug: nbc-news
+label: NBC News
+homepage_url: https://www.nbcnews.com
+rss_url: https://feeds.nbcnews.com/nbcnews/public/news
+kind: feed
+tier: broadcast
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

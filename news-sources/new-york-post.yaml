@@ -1,0 +1,10 @@
+slug: new-york-post
+label: New York Post
+homepage_url: https://nypost.com
+rss_url: https://nypost.com/feed/
+kind: feed
+tier: newspaper
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

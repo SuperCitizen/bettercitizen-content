@@ -1,0 +1,10 @@
+slug: reason
+label: Reason
+homepage_url: https://reason.com
+rss_url: https://reason.com/feed/
+kind: feed
+tier: magazine
+editorial_lean: center-right
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: the-19th
+label: The 19th
+homepage_url: https://19thnews.org
+rss_url: https://19thnews.org/feed/
+kind: feed
+tier: nonprofit
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

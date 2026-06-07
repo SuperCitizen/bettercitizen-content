@@ -1,0 +1,10 @@
+slug: the-conversation
+label: The Conversation (US)
+homepage_url: https://theconversation.com/us
+rss_url: https://theconversation.com/us/articles.atom
+kind: feed
+tier: academic
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: the-dispatch
+label: The Dispatch
+homepage_url: https://thedispatch.com
+rss_url: https://thedispatch.com/feed/
+kind: feed
+tier: digital
+editorial_lean: center-right
+paywall: false
+concept_tags:
+  - "*"

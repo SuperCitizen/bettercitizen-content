@@ -1,0 +1,10 @@
+slug: hot-air
+label: Hot Air
+homepage_url: https://hotair.com
+rss_url: https://hotair.com/feed
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

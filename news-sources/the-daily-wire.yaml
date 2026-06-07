@@ -1,0 +1,10 @@
+slug: the-daily-wire
+label: The Daily Wire
+homepage_url: https://www.dailywire.com
+rss_url: https://www.dailywire.com/feeds/rss.xml
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

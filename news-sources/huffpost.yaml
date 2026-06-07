@@ -1,0 +1,10 @@
+slug: huffpost
+label: HuffPost
+homepage_url: https://www.huffpost.com
+rss_url: https://www.huffpost.com/section/politics/feed
+kind: feed
+tier: digital
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

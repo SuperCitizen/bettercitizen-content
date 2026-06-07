@@ -1,0 +1,10 @@
+slug: the-critic
+label: The Critic
+homepage_url: https://thecritic.co.uk
+rss_url: https://thecritic.co.uk/feed/
+kind: feed
+tier: magazine
+editorial_lean: center-right
+paywall: false
+concept_tags:
+  - "*"

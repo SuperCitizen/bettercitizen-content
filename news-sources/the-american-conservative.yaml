@@ -1,0 +1,10 @@
+slug: the-american-conservative
+label: The American Conservative
+homepage_url: https://www.theamericanconservative.com
+rss_url: https://www.theamericanconservative.com/feed/
+kind: feed
+tier: magazine
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

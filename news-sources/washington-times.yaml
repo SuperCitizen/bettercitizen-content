@@ -1,0 +1,10 @@
+slug: washington-times
+label: The Washington Times
+homepage_url: https://www.washingtontimes.com
+rss_url: https://www.washingtontimes.com/rss/headlines/news/
+kind: feed
+tier: newspaper
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

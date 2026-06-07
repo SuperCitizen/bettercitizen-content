@@ -1,0 +1,10 @@
+slug: redstate
+label: RedState
+homepage_url: https://redstate.com
+rss_url: https://redstate.com/feed
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

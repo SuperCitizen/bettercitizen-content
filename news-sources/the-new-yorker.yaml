@@ -1,0 +1,10 @@
+slug: the-new-yorker
+label: The New Yorker
+homepage_url: https://www.newyorker.com
+rss_url: https://www.newyorker.com/feed/news
+kind: feed
+tier: magazine
+editorial_lean: center-left
+paywall: true
+concept_tags:
+  - "*"

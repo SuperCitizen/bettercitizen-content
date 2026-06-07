@@ -1,0 +1,10 @@
+slug: straight-arrow-news
+label: Straight Arrow News
+homepage_url: https://san.com
+rss_url: https://san.com/feed/
+kind: feed
+tier: digital
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

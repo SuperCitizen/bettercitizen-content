@@ -1,0 +1,10 @@
+slug: wall-street-journal
+label: The Wall Street Journal
+homepage_url: https://www.wsj.com
+rss_url: https://feeds.a.dj.com/rss/RSSWorldNews.xml
+kind: feed
+tier: newspaper
+editorial_lean: center-right
+paywall: true
+concept_tags:
+  - "*"

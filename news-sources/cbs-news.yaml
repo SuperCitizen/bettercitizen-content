@@ -1,0 +1,10 @@
+slug: cbs-news
+label: CBS News
+homepage_url: https://www.cbsnews.com
+rss_url: https://www.cbsnews.com/latest/rss/main
+kind: feed
+tier: broadcast
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

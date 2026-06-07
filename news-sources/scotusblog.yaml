@@ -1,0 +1,10 @@
+slug: scotusblog
+label: SCOTUSblog
+homepage_url: https://www.scotusblog.com
+rss_url: https://www.scotusblog.com/feed/
+kind: feed
+tier: reference
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

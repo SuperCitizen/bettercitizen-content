@@ -1,0 +1,10 @@
+slug: time-magazine
+label: TIME
+homepage_url: https://time.com
+rss_url: https://time.com/feed/
+kind: feed
+tier: magazine
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

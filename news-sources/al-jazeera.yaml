@@ -1,0 +1,10 @@
+slug: al-jazeera
+label: Al Jazeera English
+homepage_url: https://www.aljazeera.com
+rss_url: https://www.aljazeera.com/xml/rss/all.xml
+kind: feed
+tier: broadcast
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

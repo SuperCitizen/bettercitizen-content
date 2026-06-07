@@ -1,0 +1,10 @@
+slug: the-new-republic
+label: The New Republic
+homepage_url: https://newrepublic.com
+rss_url: https://newrepublic.com/rss.xml
+kind: feed
+tier: magazine
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

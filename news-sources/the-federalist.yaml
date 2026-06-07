@@ -1,0 +1,10 @@
+slug: the-federalist
+label: The Federalist
+homepage_url: https://thefederalist.com
+rss_url: https://thefederalist.com/feed/
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

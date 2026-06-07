@@ -1,0 +1,10 @@
+slug: democracy-now
+label: Democracy Now!
+homepage_url: https://www.democracynow.org
+rss_url: https://www.democracynow.org/democracynow.rss
+kind: feed
+tier: nonprofit
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

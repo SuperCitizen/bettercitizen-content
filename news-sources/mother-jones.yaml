@@ -1,0 +1,10 @@
+slug: mother-jones
+label: Mother Jones
+homepage_url: https://www.motherjones.com
+rss_url: https://www.motherjones.com/feed/
+kind: feed
+tier: magazine
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

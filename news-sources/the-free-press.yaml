@@ -1,0 +1,10 @@
+slug: the-free-press
+label: The Free Press
+homepage_url: https://www.thefp.com
+rss_url: https://www.thefp.com/feed
+kind: feed
+tier: digital
+editorial_lean: center-right
+paywall: false
+concept_tags:
+  - "*"

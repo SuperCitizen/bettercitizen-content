@@ -1,0 +1,10 @@
+slug: realclearworld
+label: RealClearWorld
+homepage_url: https://www.realclearworld.com
+rss_url: https://www.realclearworld.com/index.xml
+kind: feed
+tier: digital
+editorial_lean: center-right
+paywall: false
+concept_tags:
+  - "*"

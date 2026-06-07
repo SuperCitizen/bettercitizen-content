@@ -1,0 +1,10 @@
+slug: vanity-fair
+label: Vanity Fair
+homepage_url: https://www.vanityfair.com
+rss_url: https://www.vanityfair.com/feed/rss
+kind: feed
+tier: magazine
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: vox
+label: Vox
+homepage_url: https://www.vox.com
+rss_url: https://www.vox.com/rss/index.xml
+kind: feed
+tier: digital
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

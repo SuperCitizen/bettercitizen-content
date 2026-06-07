@@ -1,0 +1,10 @@
+slug: the-intercept
+label: The Intercept
+homepage_url: https://theintercept.com
+rss_url: https://theintercept.com/feed/?lang=en
+kind: feed
+tier: digital
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

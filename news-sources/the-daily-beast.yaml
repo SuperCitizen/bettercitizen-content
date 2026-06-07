@@ -1,0 +1,10 @@
+slug: the-daily-beast
+label: The Daily Beast
+homepage_url: https://www.thedailybeast.com
+rss_url: https://www.thedailybeast.com/arc/outboundfeeds/rss/
+kind: feed
+tier: digital
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

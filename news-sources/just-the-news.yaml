@@ -1,0 +1,10 @@
+slug: just-the-news
+label: Just the News
+homepage_url: https://justthenews.com
+rss_url: https://justthenews.com/rss.xml
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

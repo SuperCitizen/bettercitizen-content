@@ -1,0 +1,10 @@
+slug: the-american-spectator
+label: The American Spectator
+homepage_url: https://spectator.org
+rss_url: https://www.spectator.org/feed/
+kind: feed
+tier: magazine
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

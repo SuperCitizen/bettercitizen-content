@@ -1,0 +1,10 @@
+slug: spiked
+label: spiked
+homepage_url: https://www.spiked-online.com
+rss_url: https://www.spiked-online.com/feed/
+kind: feed
+tier: digital
+editorial_lean: center-right
+paywall: false
+concept_tags:
+  - "*"

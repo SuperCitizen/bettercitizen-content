@@ -1,0 +1,10 @@
+slug: npr-politics
+label: NPR — Politics
+homepage_url: https://www.npr.org/sections/politics/
+rss_url: https://feeds.npr.org/1014/rss.xml
+kind: feed
+tier: public-media
+editorial_lean: unknown
+paywall: false
+concept_tags:
+  - "*"

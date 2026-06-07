@@ -1,0 +1,10 @@
+slug: pbs-newshour-politics
+label: PBS NewsHour — Politics
+homepage_url: https://www.pbs.org/newshour/politics
+rss_url: https://www.pbs.org/newshour/feeds/rss/politics
+kind: feed
+tier: public-media
+editorial_lean: unknown
+paywall: false
+concept_tags:
+  - "*"

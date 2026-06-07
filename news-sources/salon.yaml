@@ -1,0 +1,10 @@
+slug: salon
+label: Salon
+homepage_url: https://www.salon.com
+rss_url: https://www.salon.com/feed/
+kind: feed
+tier: digital
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

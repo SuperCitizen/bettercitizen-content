@@ -1,0 +1,10 @@
+slug: public-integrity
+label: Center for Public Integrity
+homepage_url: https://publicintegrity.org
+rss_url: https://publicintegrity.org/feed/
+kind: feed
+tier: nonprofit
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

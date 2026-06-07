@@ -1,0 +1,10 @@
+slug: national-post
+label: National Post
+homepage_url: https://nationalpost.com
+rss_url: https://nationalpost.com/feed/
+kind: feed
+tier: newspaper
+editorial_lean: center-right
+paywall: false
+concept_tags:
+  - "*"

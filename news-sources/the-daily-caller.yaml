@@ -1,0 +1,10 @@
+slug: the-daily-caller
+label: The Daily Caller
+homepage_url: https://dailycaller.com
+rss_url: https://feeds.feedburner.com/dailycaller
+kind: feed
+tier: digital
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

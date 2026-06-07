@@ -1,0 +1,10 @@
+slug: jacobin
+label: Jacobin
+homepage_url: https://jacobin.com
+rss_url: https://jacobin.com/feed
+kind: feed
+tier: magazine
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

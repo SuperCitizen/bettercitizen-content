@@ -1,0 +1,10 @@
+slug: abc-news
+label: ABC News
+homepage_url: https://abcnews.go.com
+rss_url: https://abcnews.go.com/abcnews/topstories
+kind: feed
+tier: broadcast
+editorial_lean: center-left
+paywall: false
+concept_tags:
+  - "*"

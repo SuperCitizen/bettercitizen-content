@@ -1,0 +1,10 @@
+slug: stateline
+label: Stateline
+homepage_url: https://stateline.org
+rss_url: https://stateline.org/feed/
+kind: feed
+tier: nonprofit
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: propublica
+label: ProPublica
+homepage_url: https://www.propublica.org
+rss_url: https://www.propublica.org/feeds/propublica/main
+kind: feed
+tier: nonprofit
+editorial_lean: unknown
+paywall: false
+concept_tags:
+  - "*"

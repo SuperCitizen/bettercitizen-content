@@ -1,0 +1,12 @@
+slug: fairvote
+label: FairVote
+homepage_url: https://fairvote.org
+rss_url: https://fairvote.org/feed/
+kind: feed
+tier: nonprofit
+editorial_lean: unknown
+paywall: false
+concept_tags:
+  - ranked-choice-voting
+  - electoral-college
+  - voting-rights

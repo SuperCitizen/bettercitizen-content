@@ -1,0 +1,10 @@
+slug: bbc-us
+label: BBC News — US & Canada
+homepage_url: https://www.bbc.com/news/world/us_and_canada
+rss_url: https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml
+kind: feed
+tier: public-media
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

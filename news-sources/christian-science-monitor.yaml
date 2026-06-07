@@ -1,0 +1,10 @@
+slug: christian-science-monitor
+label: The Christian Science Monitor
+homepage_url: https://www.csmonitor.com
+rss_url: https://rss.csmonitor.com/feeds/all
+kind: feed
+tier: newspaper
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

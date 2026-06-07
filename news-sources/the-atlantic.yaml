@@ -1,0 +1,10 @@
+slug: the-atlantic
+label: The Atlantic
+homepage_url: https://www.theatlantic.com
+rss_url: https://www.theatlantic.com/feed/all/
+kind: feed
+tier: magazine
+editorial_lean: center-left
+paywall: true
+concept_tags:
+  - "*"

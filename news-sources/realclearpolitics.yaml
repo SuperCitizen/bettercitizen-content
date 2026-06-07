@@ -1,0 +1,10 @@
+slug: realclearpolitics
+label: RealClearPolitics
+homepage_url: https://www.realclearpolitics.com
+rss_url: https://www.realclearpolitics.com/index.xml
+kind: feed
+tier: digital
+editorial_lean: center-right
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: truthout
+label: Truthout
+homepage_url: https://truthout.org
+rss_url: https://truthout.org/feed/
+kind: feed
+tier: nonprofit
+editorial_lean: left
+paywall: false
+concept_tags:
+  - "*"

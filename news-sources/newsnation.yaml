@@ -1,0 +1,10 @@
+slug: newsnation
+label: NewsNation
+homepage_url: https://www.newsnationnow.com
+rss_url: https://www.newsnationnow.com/feed/
+kind: feed
+tier: broadcast
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

@@ -1,0 +1,10 @@
+slug: forbes
+label: Forbes
+homepage_url: https://www.forbes.com
+rss_url: https://www.forbes.com/business/feed/
+kind: feed
+tier: digital
+editorial_lean: center
+paywall: false
+concept_tags:
+  - "*"

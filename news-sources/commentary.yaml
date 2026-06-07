@@ -1,0 +1,10 @@
+slug: commentary
+label: Commentary
+homepage_url: https://www.commentary.org
+rss_url: https://www.commentary.org/feed/
+kind: feed
+tier: magazine
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"

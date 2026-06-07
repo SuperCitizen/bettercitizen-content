@@ -1,0 +1,10 @@
+slug: national-review
+label: National Review
+homepage_url: https://www.nationalreview.com
+rss_url: https://www.nationalreview.com/feed/
+kind: feed
+tier: magazine
+editorial_lean: right
+paywall: false
+concept_tags:
+  - "*"
