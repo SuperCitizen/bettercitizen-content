@@ -3,54 +3,70 @@ lesson: how-it-works
 questions:
   - id: q1
     kind: multiple-choice
-    text: "What's the difference between strong-mayor and council-manager forms of city government?"
+    text: "A city's voters are furious that a botched stadium deal wasted millions. The deal was negotiated by the chief executive who runs city departments day to day. In a council-manager city, what is the voters' most direct electoral remedy?"
     choices:
       - id: a
-        text: "Strong-mayor cities have populations over 100,000; council-manager cities are smaller."
+        text: "Vote the city manager out at the next municipal election."
       - id: b
-        text: "Strong-mayor: directly-elected mayor with executive powers (appoints department heads, vetoes legislation, drafts budget). Council-manager: council hires a professional city manager as chief executive, mayor often ceremonial."
+        text: "Replace council members until a council majority fires the manager — the manager holds office at the council's pleasure, not the voters'."
       - id: c
-        text: "Strong-mayor cities use district elections; council-manager use at-large."
+        text: "Petition the mayor to dismiss the manager, since the mayor is the manager's supervisor."
       - id: d
-        text: "There's no functional difference."
+        text: "Ask the state legislature to remove the manager under Dillon's Rule."
     correct_choice_id: b
-    explanation: "These are the two dominant municipal-government forms in the U.S. Strong-mayor (NYC, LA, Houston, Chicago) puts a directly-elected executive in charge with significant powers. Council-manager (Phoenix, Dallas, San Jose, Charlotte) puts the council in charge, with a hired professional manager as chief executive. ~30% of U.S. cities use strong-mayor; ~60% use council-manager. The choice affects how visibly political the executive role is."
-    concepts: [city-council, strong-mayor, council-manager]
+    explanation: "In council-manager government the chief executive is hired, evaluated, and fired by the council, like a CEO answering to a board; no voter ever casts a ballot for or against the manager, and the mayor is typically a council colleague with a gavel, not the manager's boss. The accountability runs voters → council → manager. That indirection is the form's deliberate trade-off: professional administration insulated from electoral heat — the cure for patronage politics, or an accountability gap, depending on your reading."
+    concepts: [city-council, council-manager, strong-mayor]
 
   - id: q2
     kind: multiple-choice
-    text: "What is 'state preemption' in U.S. local government?"
+    text: "Birmingham, Alabama passed a $10.10 local minimum wage in 2016; within days, the state legislature nullified it. Which doctrine made that nullification legally straightforward?"
     choices:
       - id: a
-        text: "When the federal government takes over local services."
+        text: "Dillon's Rule — municipalities are creatures of the state, holding only powers the legislature grants and retaining them only at the legislature's sufferance."
       - id: b
-        text: "When state legislatures pass laws overriding local regulations — common on minimum wage, plastic bag bans, anti-discrimination ordinances, gun regulation, and rent control."
+        text: "The Supremacy Clause of the U.S. Constitution, which puts states above cities."
       - id: c
-        text: "A constitutional doctrine limiting federal authority."
+        text: "Cooley's doctrine of inherent local self-government."
       - id: d
-        text: "When city councils preempt their own committees."
-    correct_choice_id: b
-    explanation: "State preemption is one of the most consequential dimensions of U.S. local politics. Cities are 'creatures of the state' — their authority is delegated by state legislatures, which can expand or restrict it at any time. Preemption is the practice of state law overriding local regulation. Recent examples include local minimum-wage ordinances, plastic-bag bans, anti-discrimination laws, gun regulation, and rent control. The result: city councils have less authority than the political conversation often assumes."
-    concepts: [city-council, state-preemption]
+        text: "Home rule, which transfers labor policy to the states."
+    correct_choice_id: a
+    explanation: "Cities appear nowhere in the federal Constitution; their status comes from state law. Judge John F. Dillon's rule (1868) — adopted by the U.S. Supreme Court in Hunter v. City of Pittsburgh (1907) — treats municipalities as creatures of the state, so a legislature may override or abolish local enactments at will. Cooley's rival theory of inherent local rights lost. The Supremacy Clause governs federal-state conflicts, not state-city ones, and home rule is a state-granted delegation that the state can preempt — exactly what Alabama did, and what 25 states have done on minimum wages."
+    concepts: [city-council, municipal-government]
 
   - id: q3
     kind: multiple-choice
-    text: "What does the empirical record say about voter turnout in city-council elections?"
+    text: "A California city of seven council seats, all elected at-large, is 35% Latino with that population concentrated on the east side. No Latino-preferred candidate has won in thirty years. After a demand letter under the California Voting Rights Act, the city switches to seven single-member districts. What is the mechanical reason the switch changes outcomes?"
     choices:
       - id: a
-        text: "Higher than turnout in federal elections."
+        text: "Districts lower the campaign-spending limits, so incumbents lose their fundraising edge."
       - id: b
-        text: "Roughly equal to turnout in federal elections."
+        text: "At-large, a cohesive 65% majority can win 100% of the seats; districting converts the east side's geographic concentration into two or three districts where Latino voters form the local majority."
       - id: c
-        text: "Substantially lower than federal elections — often 10-25% in non-presidential cycles, even though council decisions affect daily life directly."
+        text: "District elections are partisan, so party labels mobilize new voters."
       - id: d
-        text: "Approximately 70% of eligible voters."
-    correct_choice_id: c
-    explanation: "City-council elections have dramatically lower turnout than federal elections — often 10-25% in non-presidential cycles. This is paradoxical given that council decisions directly affect daily life (zoning, parks, public safety, libraries). The structural opportunity: small voter bases mean individual votes and individual public-comment participation matter much more at the city level than at higher levels of government."
-    concepts: [city-council, civic-engagement]
+        text: "The CVRA requires cities to appoint minority council members."
+    correct_choice_id: b
+    explanation: "Winner-take-all at-large voting lets a citywide majority sweep every seat — 35% of every contest is 0% of the seats. Single-member districts make representation track geography, so a concentrated community can elect its preferred candidates in the districts it anchors. The CVRA (2002) lowered the proof needed to challenge at-large systems and shifted fee risk to cities, which is why California went from 36 district-elected cities before the act to 229 — nearly half the state — by the Rose Institute's 2025 count, most switching under threat of suit rather than after losing one."
+    concepts: [city-council, municipal-government]
 
   - id: q4
+    kind: multiple-choice
+    text: "Which statement about the prevalence of municipal government forms is accurate as of the most recent national surveys?"
+    choices:
+      - id: a
+        text: "The commission form dominates mid-sized cities, as it has since Galveston invented it."
+      - id: b
+        text: "Council-manager is the most common form among sizable cities — ICMA's 2018 survey found it edging mayor-council 40% to 38% across responding municipalities — while strong-mayor government persists mainly in the largest, older cities."
+      - id: c
+        text: "Mayor-council government has been extinct outside the Northeast since the Progressive Era."
+      - id: d
+        text: "New England town meetings were abolished nationally in the twentieth century."
+    correct_choice_id: b
+    explanation: "Council-manager government, the Progressive Era's signature municipal invention (first manager: Staunton, Virginia, 1908), grew from 48% of surveyed municipalities in 1996 to 55% by 2006 per NLC/ICMA trend data, and ICMA's 2018 survey put council-manager at 40% and mayor-council at 38% of all respondents, with commission, town meeting, and representative town meeting splitting the rest. Commission government collapsed under its own coordination problems — under 1% of cities — and lost its last big-city exemplar when Portland's new charter took effect in January 2025. Strong-mayor systems remain the rule in big old cities like New York, Chicago, and Philadelphia."
+    concepts: [city-council, council-manager, strong-mayor, municipal-government]
+
+  - id: q5
     kind: free-response
-    text: "What does effective public comment at a city council meeting look like, and why?"
-    socratic_seed: "Effective: specific (refer to a specific agenda item), brief (don't use full 3 minutes), personal (story about how the issue affects you), acknowledges trade-offs, shows consistency over multiple meetings, coordinates with others. Why: council members hear hundreds of comments; concise specific ones are remembered. Personal stories illuminate impact in ways abstract argument doesn't. Acknowledging trade-offs shows you've thought about the issue, increasing credibility. Consistency builds recognized presence. Coordination amplifies the voice. The opposite — long speeches, generic positions, personal attacks, threats — reduces effectiveness."
+    text: "Your city holds council elections in odd-numbered years, in May. Using Anzia's research on election timing and Fischel's homevoter hypothesis, explain who is likely to decide these elections and why — then make the strongest argument you can that moving them to even-year Novembers would NOT obviously improve representation."
+    socratic_seed: "Anzia's Timing and Turnout: off-cycle dates collapse turnout, but organized groups with concentrated stakes — municipal employee unions, homeowner and neighborhood associations, developers — mobilize regardless, so their share of the shrunken electorate grows; Portland State's Who Votes for Mayor data show single-digit turnout in some big cities and an electorate skewed old. Fischel adds the motive: homeowners' un-diversifiable asset makes them reliable, property-value-defensive voters. So odd-May elections are decided by an older, organized, propertied sliver. The counterargument the lesson flags (via Anzia's documentation of opponents' claims): on-cycle local races sit at the bottom of a long federal ballot, so added voters may roll off or vote with near-zero local information, drowning municipal issues in national partisanship; off-cycle voters, however few, are at least attending to local matters; and consolidation may simply swap one bias (organized interests) for another (national party tides). A strong answer weighs representativeness against informedness rather than declaring either timing costless."
     concepts: [city-council, civic-engagement]

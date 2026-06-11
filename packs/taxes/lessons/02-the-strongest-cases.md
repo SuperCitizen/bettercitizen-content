@@ -4,15 +4,17 @@ slug: the-strongest-cases
 kind: reading
 title: The strongest case for and against
 objectives:
-  - State the progressive-expansion case at its strongest
-  - State the supply-side reform case at its strongest, with the empirical literature on tax-rate elasticities
-  - State the consumption-tax restructuring case
-  - Identify what's empirically settled and what's contested in the elasticity, growth, and distribution literatures
+  - State the progressive-expansion case at its strongest, including the measurement disputes its own numbers rest on
+  - State the supply-side reform case at its strongest, with the empirical literature on tax-rate elasticities and the post-TCJA evidence
+  - State the consumption-tax restructuring case, distinguishing the flat tax, the X-tax, and the VAT
+  - Explain the Laffer curve as economists use it — and where the empirical literature puts the revenue-maximizing top rate
+  - Identify what is empirically settled and what is genuinely contested in the elasticity, growth, and distribution literatures
 concepts:
   - taxes
   - tax-elasticity
   - wealth-tax
   - vat
+  - supply-side-economics
 sources:
   - type: book
     citation: 'Saez, E. & Zucman, G. (2019), The Triumph of Injustice: How the Rich Dodge Taxes and How to Make Them Pay, W. W. Norton.'
@@ -31,87 +33,141 @@ sources:
     citation: 'Mankiw, N. G., Weinzierl, M., & Yagan, D. (2009), "Optimal Taxation in Theory and Practice," Journal of Economic Perspectives 23:4.'
   - type: book
     citation: 'Auerbach, A. J. (2010), A Modern Corporate Tax, Center for American Progress / Hamilton Project.'
+  - type: paper
+    citation: 'Mirrlees, J. A. (1971), "An Exploration in the Theory of Optimum Income Taxation," Review of Economic Studies 38:2.'
+  - type: paper
+    citation: 'Piketty, T. & Saez, E. (2007), "How Progressive Is the U.S. Federal Tax System? A Historical and International Perspective," Journal of Economic Perspectives 21:1.'
+    url: https://www.aeaweb.org/articles?id=10.1257/jep.21.1.3
+  - type: paper
+    citation: 'Auten, G. & Splinter, D. (2024), "Income Inequality in the United States: Using Tax Data to Measure Long-Term Trends," Journal of Political Economy.'
+    url: https://davidsplinter.com/AutenSplinter-Tax_Data_and_Inequality.pdf
+  - type: paper
+    citation: 'Smith, M., Zidar, O., & Zwick, E. (2021/2023), "Top Wealth in America: New Estimates under Heterogeneous Returns," NBER Working Paper 29374 (published in the Quarterly Journal of Economics).'
+    url: https://www.nber.org/papers/w29374
+  - type: paper
+    citation: 'Chodorow-Reich, G., Smith, M., Zidar, O., & Zwick, E. (2024), "Lessons from the Biggest Business Tax Cut in US History," Journal of Economic Perspectives 38:3.'
+    url: https://www.aeaweb.org/articles?id=10.1257/jep.38.3.61
+  - type: paper
+    citation: 'Trabandt, M. & Uhlig, H. (2011), "The Laffer Curve Revisited," Journal of Monetary Economics 58:4.'
+  - type: book
+    citation: 'Buchanan, J. M. (1967), Public Finance in Democratic Process: Fiscal Institutions and Individual Choice, University of North Carolina Press.'
+  - type: book
+    citation: 'Carroll, R. & Viard, A. D. (2012), Progressive Consumption Taxation: The X Tax Revisited, AEI Press.'
+  - type: website
+    citation: 'Clark Center (IGM) Forum, "Laffer Curve" expert survey (2012) — economists on whether a U.S. rate cut would raise revenue.'
+    url: https://kentclarkcenter.org/surveys/laffer-curve/
+  - type: website
+    citation: 'OECD, Revenue Statistics 2025 — tax-to-GDP ratios across member countries, 1965–2024.'
+    url: https://www.oecd.org/en/publications/revenue-statistics-2025_3a264267-en/full-report/tax-revenue-trends-1965-2024_98c75833.html
+  - type: website
+    citation: 'Tax Foundation, "Taxes on the Rich Were Not Much Higher in the 1950s" — effective vs. statutory rates under the 91 percent regime.'
+    url: https://taxfoundation.org/data/all/federal/taxes-on-the-rich-1950s-not-high/
 perspectives:
   - name: Progressive-expansion advocate
   - name: Supply-side reform advocate
   - name: Consumption-tax restructuring advocate
-duration_min: 13
+duration_min: 17
 ---
 
 # The strongest case for and against
 
-Three positions on what federal tax policy should look like. Each presented at its strongest.
+As the story goes, one evening in 1974 the economist Arthur Laffer sat in the Two Continents restaurant in Washington with two young Ford administration officials — Dick Cheney and Donald Rumsfeld — and sketched a curve on a cocktail napkin: tax revenue on one axis, tax rates on the other, zero revenue at both a 0 percent rate and a 100 percent rate, a peak somewhere in between. The journalist Jude Wanniski, who told the tale and named the "Laffer curve" in 1978, made the napkin the founding relic of supply-side economics. (Laffer himself has said he doubts he used a cloth napkin; a napkin nonetheless hangs in the Smithsonian.) Fifty years on, American tax politics is still, in a sense, an argument about where the peak of that curve sits — and about whether revenue-maximization is even the right goal. This lesson presents the three serious positions at full strength. First, though, two pieces of intellectual equipment, because all three camps build with them.
+
+## The toolkit: Mirrlees's problem and Laffer's curve, done seriously
+
+> **The scholar's lens:** In 1971 James Mirrlees — later a Nobel laureate for this work — posed the modern optimal-tax problem. A government wants revenue and cares about the worse-off, but it cannot observe anyone's underlying *ability*, only their *income*. Tax income too steeply and able people work, invest, and report less; tax it too lightly and you forgo redistribution that costs little. The optimal schedule balances the two, and the answer turns on measurable things: how responsive taxable income is to rates (the elasticity), how thick the upper tail of the income distribution is, and how much society values a dollar at the bottom versus the top. Every position below is, in effect, a different empirical bet inside Mirrlees's framework.
+
+The Laffer curve is the revenue slice of that same logic, and it is trivially true at the endpoints: a 0 percent rate raises nothing, and a 100 percent rate on reported income raises (almost) nothing because nobody reports income to be fully confiscated. Everything interesting is the location of the peak. The benchmark calculation comes from Peter Diamond and Emmanuel Saez (2011): with the mid-range elasticity from the empirical literature (about 0.25) and the observed thickness of the U.S. top tail, the revenue-maximizing *all-in* top rate — federal, state, and payroll combined, applied to a base purged of loopholes — is about **73 percent**. Mathias Trabandt and Harald Uhlig's macroeconomic estimate (2011) puts the peak of the U.S. labor-tax Laffer curve in a similar neighborhood, around 70 percent, and finds the United States sitting well on the left, upward-sloping side. That is why, when the University of Chicago's IGM panel asked top economists across the political spectrum in 2012 whether a U.S. federal income-tax cut would raise revenue within five years, **not a single panelist said yes**. But the 73 percent figure is an estimate, not a law: economists who model long-run responses the static framework misses — careers chosen, skills built, ideas pursued — derive much lower revenue-maximizing rates, with published estimates running from the 20s to the 40s. The honest summary: *"tax cuts from current U.S. rates pay for themselves" has essentially no empirical support, and "rates near 70 percent are costless" doesn't follow from the evidence either.* The curve is a constraint everyone shares; the peak is a fight.
+
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 340" width="100%" role="img" aria-label="A Laffer curve: revenue rises with the top tax rate, peaks in a shaded band around 60 to 75 percent where most empirical estimates place the revenue-maximizing rate, then falls to zero at 100 percent; a marker shows the current U.S. all-in top marginal rate in the mid-40s, on the rising side" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="24" y="26" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">The Laffer curve, with the empirical fight marked</text>
+  <line x1="60" y1="280" x2="680" y2="280" stroke="var(--ink, #14130f)" stroke-width="1.5" />
+  <line x1="60" y1="280" x2="60" y2="60" stroke="var(--ink, #14130f)" stroke-width="1.5" />
+  <text x="370" y="312" font-family="Georgia, serif" font-size="13" fill="var(--muted, #6b6457)" text-anchor="middle">all-in top marginal tax rate</text>
+  <text x="60" y="328" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">0%</text>
+  <text x="680" y="328" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">100%</text>
+  <text x="44" y="170" font-family="Georgia, serif" font-size="13" fill="var(--muted, #6b6457)" text-anchor="middle" transform="rotate(-90 44 170)">revenue</text>
+  <rect x="432" y="60" width="93" height="220" fill="var(--gold, #b08a3e)" opacity="0.18" />
+  <path d="M 60 280 Q 300 60 478 88 Q 580 110 680 280" fill="none" stroke="var(--accent, #8a2a1e)" stroke-width="3" />
+  <line x1="478" y1="88" x2="478" y2="280" stroke="var(--gold, #b08a3e)" stroke-width="1.5" stroke-dasharray="5,4" />
+  <text x="478" y="50" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">est. peak band: ~60–75%</text>
+  <text x="478" y="296" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Diamond–Saez 73% · Trabandt–Uhlig ~70%</text>
+  <circle cx="340" cy="118" r="6" fill="var(--blue, #2f4d6e)" />
+  <line x1="340" y1="118" x2="340" y2="280" stroke="var(--blue, #2f4d6e)" stroke-width="1.5" stroke-dasharray="3,4" />
+  <text x="340" y="296" font-family="Georgia, serif" font-size="12" fill="var(--blue, #2f4d6e)" text-anchor="middle">U.S. today: mid-40s%</text>
+  <text x="200" y="240" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">critics with long-run dynamics</text>
+  <text x="200" y="256" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">put the peak down here (20s–40s%)</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: Everyone accepts the curve's endpoints; the dispute is the peak. The static empirical benchmark (Diamond–Saez 2011; Trabandt–Uhlig 2011) puts the revenue-maximizing all-in top rate near 70 percent; models with long-run human-capital and innovation responses put it far lower. The current U.S. all-in top marginal rate — 37 percent federal plus Medicare and typical state taxes — sits in the mid-40s, on the rising side of every mainstream estimate.</figcaption>
+</figure>
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A senator says: "It's basic Laffer-curve economics — cutting the top rate will increase federal revenue." What does the curve actually establish, and what would the senator need to show?</summary>
+<p>The curve establishes only that a revenue-maximizing rate exists <em>somewhere</em> between 0 and 100 percent. To predict that a cut raises revenue, the senator must show the current rate sits <em>above</em> the peak — and the empirical mainstream (Diamond–Saez's 73 percent benchmark, Trabandt–Uhlig's ~70 percent, the 2012 IGM panel's unanimous skepticism) places today's mid-40s all-in top rate well below it. The defensible supply-side claim is different: cuts lose <em>less</em> revenue than static scores imply and buy some growth — a claim about magnitudes, not free lunches.</p>
+</details>
 
 ## 1. The progressive-expansion case
 
-The starting move is to look at the trend in the income and wealth distribution and ask whether the tax system has kept pace with — or instead enabled — the concentration. The data is uncontested: the top 1%'s share of pre-tax income rose from ~10% in 1980 to ~20% by 2020; the top 0.1%'s share roughly tripled. The U.S. tax system, on this view, has both responded too little and contributed to the concentration.
+The starting move is to look at what happened at the very top of the distribution and ask whether the tax system kept pace. In the benchmark series of Thomas Piketty, Emmanuel Saez, and Gabriel Zucman, the top 1 percent's share of pre-tax national income rose from roughly 12 percent around 1980 to roughly 20 percent in recent years. Over the same decades the top statutory income-tax rate fell from 70 percent (1980) to 28 percent after the 1986 reform, back up to 39.6 percent in the 1990s, and to 37 percent today — now made permanent by OBBBA. The argument, at its strongest:
 
-The argument:
+- **Top rates are far below both history and the optimal-tax benchmark.** Diamond–Saez (2011) put the revenue-maximizing top rate near 73 percent all-in; the U.S. sits in the mid-40s. Even discounting the benchmark heavily, there is room above 37 percent before any mainstream estimate says revenue turns negative.
+- **Capital income is taxed below labor income, and the very top is mostly capital.** Long-term capital gains and qualified dividends top out at 23.8 percent (20 percent plus the 3.8 percent net investment income tax) against 37 percent for wages — and gains held until death escape income tax entirely through stepped-up basis. Saez and Zucman's *The Triumph of Injustice* (2019) pushed this to its sharpest conclusion: counting all taxes at all levels of government, they estimate the 400 richest American families paid a **23 percent** total rate in 2018 — below the bottom half's roughly 24 percent, and down from 47 percent in 1980 and 56 percent in 1960.
+- **Wealth itself goes nearly untaxed.** The estate tax — the one federal levy on accumulated fortunes — now starts at $15 million per person ($30 million per couple); in 2023 roughly 4,000 estates owed any tax, under 0.2 percent of deaths. Saez and Zucman scored Senator Warren's proposed 2-percent-above-$50-million wealth tax at roughly $2.75 trillion over a decade.
+- **Enforcement collapsed where the money is.** Audit rates on million-dollar-plus returns fell by roughly 70 percent during the 2010s; the IRS estimates the gross tax gap — tax legally owed but not paid — at **$696 billion for 2022 alone**. Rebuilding enforcement, on this view, raises revenue from the rates already on the books.
 
-- **Top tax rates are historically low.** The top federal income tax bracket was 91% in 1960, 70% in 1980, 28% after the 1986 reform, and 37% under the TCJA. Even after the TCJA's individual provisions expire, the top rate would be 39.6% — still well below historical norms. Diamond-Saez (2011) argue the optimal top marginal rate, given empirical elasticities and revenue needs, is in the range of 60-75%.
+Now the part a steel-man must include: **the numbers above are themselves contested, and the dispute is serious scholarship, not spin.** Gerald Auten (Treasury) and David Splinter (JCT), in a 2024 *Journal of Political Economy* paper, rebuilt the income series with different assumptions about the large share of income that never appears on tax returns — underreported business income, retirement accruals, government transfers — and found the top 1 percent's *after-tax-and-transfer* share rose only about 1.4 percentage points since 1979, with the pre-tax rise far smaller than PSZ's. On wealth, Matthew Smith, Owen Zidar, and Eric Zwick showed that Saez–Zucman's method (capitalizing reported capital income into wealth estimates) assumed the rich earn the same returns as everyone else; allowing higher returns at the top cuts the estimated top-0.1-percent wealth share from about 20 percent to about 15 percent in 2016. PSZ have answered in kind, and the camps have partially converged — but the lesson stands: *roughly half the income in these fights is unobserved in tax data, and where you allocate it determines whether inequality looks explosive or merely rising.* Similarly, Summers and Sarin, reasoning from how little the estate tax actually collects from the same fortunes, argued a wealth tax would raise a fraction of the Saez–Zucman score. The strongest progressive position absorbs all this: even on Auten–Splinter's numbers concentration rose; even at half the projected revenue a wealth tax or capital-gains reform raises real money; and the response to avoidance is design (taxing unrealized gains at death, mark-to-market for the very top, funding the IRS), not surrender.
 
-- **Capital income is undertaxed relative to labor.** Long-term capital gains and qualified dividends are taxed at a top rate of 20% (plus the 3.8% net investment income tax = 23.8%); ordinary income's top rate is 37%. This gap is the core mechanism by which high-net-worth households face lower effective rates than middle-class wage earners. Saez & Zucman (*The Triumph of Injustice*) argue that since most income concentration is at the top of the wealth distribution, where capital income dominates, the system effectively has a regressive top.
+What evidence would change the position? Demonstrations that top-end behavioral responses are large and unfixable by design — that the elasticities are structural, not artifacts of avoidable loopholes — or that the measured concentration mostly dissolves under better measurement.
 
-- **Wealth itself is undertaxed.** The estate tax exemption is now ~$11M per individual (TCJA). The combined effect of the high exemption + valuation discounts + dynasty-trust structures is that very few estates pay any tax. A wealth tax (Warren proposed 2%/year above $50M, Saez & Zucman analyzed multiple variants) could raise meaningful revenue from the top while addressing wealth-concentration directly. The argument is not that wealth should be confiscated but that intergenerational accumulation is not adequately addressed by an income-only tax system.
-
-- **Enforcement is degraded.** IRS audit rates on millionaires fell ~70% from 2010 to 2019 due to budget cuts. The wealthiest taxpayers have access to sophisticated tax planning that the IRS doesn't have the resources to challenge. The IRA of 2022 added $80B in IRS funding (much subsequently rescinded), but the underlying enforcement-capacity gap persists. Restoring IRS capacity is, in this view, a tax-rate-equivalent reform — extracting more from the existing legal rates rather than raising them.
-
-- **The deficit-and-distributional-stakes argument.** Federal debt is ~120% of GDP and rising. Closing the long-run fiscal gap requires either large spending cuts (politically difficult, with Medicare and Social Security as the largest items) or revenue increases. Progressive expansion concentrates the revenue increase on the top of the distribution where the recent income gains have accumulated.
-
-What evidence would change this position? A persuasive showing that progressive top-rate increases produce large enough behavioral responses (work effort, capital flight, tax sheltering) that the additional revenue is small or negative. The progressive-expansion position concedes elasticities are real and tries to address them through anti-avoidance design (mark-to-market, exit taxes, broader bases) rather than dismissing them.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Piketty–Saez–Zucman and Auten–Splinter both work from the same IRS tax records. How can their top-1-percent income shares differ by several percentage points?</summary>
+<p>Because a large fraction of national income — underreported business profits, untaxed retirement accruals, employer benefits, transfers — never shows up on any return, both teams must <em>allocate</em> it to households by assumption. PSZ allocate more of the missing income (especially underreported business income) to the top; Auten–Splinter allocate more of it to the middle. The tax data are common; the dark matter is not. A citizen quoting either series as settled fact is overclaiming.</p>
+</details>
 
 ## 2. The supply-side reform case
 
-The starting move is to take seriously the empirical literature on tax-rate elasticities, and to argue that the long-run cost of high marginal rates is larger than political rhetoric admits. The growth-vs.-distribution trade-off is real, and the long-run welfare effects of slower growth are large enough to outweigh redistributional gains beyond a point.
+The starting move is the [[term:supply-side-economics]] tradition's core claim: marginal rates change behavior — work, saving, investment, entrepreneurship, and reporting — and the costs of that distortion compound over time in ways static budget tables never show. At its strongest, the case is not the napkin caricature ("cuts pay for themselves") but a claim about magnitudes and growth:
 
-The argument:
+- **The elasticity of taxable income is real and rises at the top.** The canonical review (Saez, Slemrod & Giertz 2012) finds taxable income responds to the net-of-tax rate with an elasticity around 0.12 to 0.40 — modest on average, but largest among high earners, who have the most flexibility over timing, form, and reporting of income. Whatever optimal-tax formula you prefer, a higher elasticity mechanically lowers the optimal top rate.
+- **History's 91 percent brackets are a warning about symbolic rates, not a precedent for revenue.** The top statutory rate was 91 percent from 1954 to 1963, and politicians cite it constantly. But almost no income lived there: Piketty and Saez's own historical work (2007) shows the top 0.01 percent paid an average *total federal* rate of about 71 percent in 1960 — and most of that came from the *corporate and estate* taxes, not the individual income tax, whose deductions and capital-gains preference hollowed out the headline rate. The supply-side reading: confiscatory statutory rates mainly bought avoidance and a lobbying economy, which is why the bipartisan **Tax Reform Act of 1986** traded the 50 percent top rate down to 28 percent in exchange for closing shelters — Reagan's signature reform, and the model the TCJA invoked.
+- **Capital taxation is the most distortionary margin.** Taxing the return to saving taxes future consumption at compounding rates; the optimal-tax literature summarized by Mankiw, Weinzierl & Yagan (2009) repeatedly finds capital income should be taxed lightly — some benchmark models say at zero — relative to labor income. The 23.8 percent top rate on gains is, on this view, not a loophole but rough policy wisdom.
+- **The post-TCJA evidence shows real investment responses — honestly sized.** The best ex-post study of the 2017 corporate cut (Chodorow-Reich, Smith, Zidar & Zwick 2024) finds firms facing the average tax change raised domestic investment about 20 percent relative to baseline, with long-run domestic capital up about 7 percent — *and* finds the growth feedback recovers only about 2 percentage points of a revenue cost equal to 41 percent of pre-TCJA corporate receipts. The strong supply-side claim ("it paid for itself") failed; the directional claim (investment responds, and some of the corporate burden lands on workers) survived. A steel-manned supply-sider also owns Kansas: the state's aggressive 2012–13 income-tax cuts produced budget crises rather than a growth boom, and a Republican legislature reversed them over a veto in 2017. Rate cuts are not magic; they are a price worth paying only where elasticities are genuinely high.
+- **The deficit is a spending-growth problem.** Federal revenue in 2026 is about 17.5 percent of GDP — essentially its 50-year average of 17.3 percent — while outlays are 23.3 percent against a 50-year average of 21.2 percent (CBO). Revenue has returned to trend after every major rate change in both directions; spending has not. Closing the fiscal gap on the tax side alone means pushing American revenue toward European levels, with the growth costs that entails; the supply-side prescription is restraint on the spending path, especially the auto-pilot programs, before [[term:deficit-spending]] compounds further.
 
-- **The elasticity of taxable income (ETI) is non-trivial.** Saez, Slemrod & Giertz (2012) is the canonical literature review. The ETI varies by income level and policy detail but is consistently positive — higher rates produce smaller taxable income, both through real economic responses (work effort, investment) and through avoidance. The Diamond-Saez calculation depends on assumed ETI; with higher empirical estimates, the optimal rate is lower than the 60-75% range.
-
-- **Capital taxation has higher dead-weight loss than labor taxation.** Capital is more mobile and more elastic in supply (investment can be deferred or relocated) than labor. The Mankiw-Weinzierl-Yagan (2009) summary of optimal-taxation theory finds that with reasonable assumptions, capital income should be taxed at lower rates than labor income or even at zero. The current 20% rate on long-term gains is, on this view, already higher than optimal — not too low.
-
-- **Corporate-tax incidence falls partly on workers.** When the corporate rate rises, some of the burden is borne by workers through lower wages, not just by shareholders. The TCJA's corporate-rate cut from 35% to 21% was projected (CBO + JCT) to raise wages over time; subsequent empirical work has been mixed but the direction is consistent with the theory. Repealing the cut, in this view, costs some wage growth.
-
-- **Compliance and administration costs are large.** The U.S. tax code's complexity imposes ~$200B/year in compliance costs (IRS Taxpayer Advocate estimates). Simplification — through broader bases, fewer brackets, fewer special provisions — reduces this cost regardless of rate levels. Hall-Rabushka's *The Flat Tax* makes the strongest version of this case.
-
-- **The growth dividend over time.** Even small differences in long-run growth rates compound dramatically. A 0.2 percentage point higher growth rate sustained over 30 years produces ~6% higher GDP per capita — much more than the redistribution gains from raising top rates 5-10 points. Supply-side advocates argue this growth difference is realistic given empirical responses; progressive expansion advocates dispute the magnitude.
-
-- **The deficit problem is a spending problem.** Federal spending has risen from ~18% of GDP in the 1960s to ~24% in the 2020s. Revenue has been more stable. Closing the deficit through tax increases requires raising revenue to historical highs; closing it through spending discipline requires restoring spending to historical norms. Supply-side reform advocates argue the second path is more sustainable. Hassett-Hubbard makes the empirical case.
-
-What evidence would change this position? A persuasive showing that empirical elasticities are smaller than supply-side estimates assume (which would shift the optimal rate higher), or that growth effects of rate differentials are smaller than projected over the relevant time horizons. The supply-side position acknowledges these are empirically uncertain and tries to design rate changes that are testable.
+What evidence would change the position? Elasticities at the top shown to be mostly *avoidance* that base-broadening can eliminate (which converts the argument into one for reform-plus-higher-rates), or accumulating evidence that rate differentials within the observed U.S. range have no detectable long-run growth effect.
 
 ## 3. The consumption-tax restructuring case
 
-The starting move is to argue both income-tax-focused approaches miss a deeper structural problem: that the income tax base is the wrong thing to tax in the first place. From this perspective, taxing consumption — what people actually take out of the economy — is fairer, less distorting, and can be made highly progressive through design.
+The starting move is that the other two camps are fighting over the wrong base. An income tax penalizes saving by design: earn a dollar, pay tax; save what's left and earn a return, pay tax again. Two equally situated workers who earn the same lifetime wages pay different lifetime taxes if one saves and the other spends — a distortion against exactly the behavior (saving, investment) that drives long-run growth. Tax *consumption* — what people take out of the economy — and the double tax disappears. The strongest version:
 
-The argument:
+- **The rest of the rich world already runs on this base.** Every OECD country except the United States levies a value-added tax; VAT raises about a fifth of OECD members' revenue. Total U.S. taxation (all levels) is 25.6 percent of GDP against the OECD average of 34.1 percent and France's 43.5 percent (OECD Revenue Statistics 2025) — and the difference is mostly consumption-tax revenue, not income-tax rates. A U.S. VAT is the one known instrument that raises revenue at the scale of the actual fiscal gap.
+- **Consumption taxes need not be regressive — that's a design choice.** The flat tax of Robert Hall and Alvin Rabushka (first published 1985) showed any income tax can be rebuilt as a consumption tax (businesses deduct investment immediately; wages are taxed once, above an exemption). David Bradford's **X-tax**, elaborated by Carroll and Viard (2012), adds *graduated* rates on wages to that chassis — making the system as progressive on paint-by-numbers distribution tables as today's income tax, without taxing saving. Retail variants (the "FairTax") pair a sales tax with a universal "prebate" check covering tax on subsistence spending. A [[term:subsidy]]-riddled income code, by contrast, achieves its progressivity only after hundreds of offsetting carve-outs.
+- **It resolves the wealth-tax fight sideways.** A billionaire who reinvests everything pays little under *any* income-based system — that is the grievance driving wealth-tax proposals, with their valuation nightmares and constitutional cloud (Lesson 3). Under a consumption base the same billionaire pays precisely when the fortune is *spent* — on the yacht, the compound, the staff — at progressive rates, with no need to appraise private companies annually. Accumulation that is never consumed is, on this view, just deferred philanthropy or investment working for everyone.
+- **Transitions and borders are solved problems elsewhere.** VATs are self-enforcing along the production chain (each firm's deduction is the next firm's reported sale), border-adjustable by world-trade rules, and administrable at scale in every peer country.
 
-- **Income taxes punish saving twice.** When you save, you pay tax on the income that funded the saving (income tax) and tax on the return when you spend it (capital gains, dividends, etc.). This double-tax of saving discourages investment and the long-term capital accumulation that drives growth. A consumption-base tax (VAT, expenditure tax, X-tax) taxes income only once — when it's consumed.
+The strongest objection comes from inside public-choice economics, and a steel-man states it plainly:
 
-- **VATs raise large revenue with small distortions.** Most wealthy countries supplement income taxes with VATs (typically 15-25%) that apply to consumption. The VAT is administratively efficient (collected at each stage of production) and has small distortionary effects on most economic decisions. The U.S. is the only OECD country without a national VAT. Adding one would close most of the long-run fiscal gap without requiring high marginal income-tax rates.
+> **The scholar's lens:** James Buchanan (*Public Finance in Democratic Process*, 1967), building on the Italian fiscal theorist Amilcare Puviani, argued that governments systematically prefer taxes citizens cannot see — **fiscal illusion**. A VAT, collected invisibly inside every price rather than in a painful April reckoning, is the illusion machine par excellence: that may be exactly *why* high-VAT countries grew their states so large. American conservatives have long quipped that the U.S. lacks a VAT because liberals think it regressive and conservatives think it a money machine — and that it will arrive the day each side discovers the other was right. Consumption-tax advocates answer with design once more: print the tax on every receipt, cap the rate in statute, pair adoption with income-tax repeal rather than addition. Whether any of those locks would hold a determined future Congress is a political — not economic — question, and it is the honest weak point of the case.
 
-- **A "progressive consumption tax" addresses distributional concerns.** The strongest design (Hall-Rabushka X-tax, Auerbach-Hassett expenditure tax) uses a base of consumption (income minus saving) but with progressive brackets and a large exemption. The result is higher effective rates on high-consumption households without the saving-disincentive of income taxation. Slemrod & Bakija's textbook details several variants.
+What evidence would change the position? Evidence that real-world VATs are regressive even after rebates and credits *and* politically un-fixable; or that the saving response to consumption-base taxation is too small to justify the transition costs.
 
-- **It addresses wealth concentration without a wealth tax.** Wealth-tax proponents worry that wealth concentration produces political and economic distortions. A consumption-base system addresses this differently — not by taxing wealth itself, but by taxing it when it's spent. A billionaire who reinvests profits faces no tax; the same billionaire who buys yachts pays high rates. This sidesteps the constitutional and administrative concerns about wealth taxes (Apportionment Clause issues, valuation difficulties for non-traded assets).
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Under a progressive X-tax, billionaire A reinvests $900 million of her $1 billion annual return into her firms and spends $100 million on consumption; billionaire B liquidates and spends the full $1 billion. Who pays more tax, and why would a progressive-expansion advocate still object?</summary>
+<p>B pays roughly ten times A's tax — consumption is the base, and B consumed ten times more. The progressive-expansion objection: A's unspent $900 million still compounds into economic and <em>political</em> power (control of firms, media, philanthropy-as-influence), which is a reason to tax accumulation itself, not just its consumption. The two camps genuinely disagree about whether wealth-as-power, separate from wealth-as-future-spending, belongs in the tax base.</p>
+</details>
 
-- **It taxes capital "income" the right way.** Under a consumption tax, the question of whether capital income is undertaxed (the progressive critique) doesn't arise — capital income is taxed when it's consumed, regardless of whether it was earned as wages or returns. The income/wealth distinction that drives so much of the current debate becomes irrelevant.
+## Where the three cases actually stand
 
-- **Cross-country evidence.** Most peer countries have higher revenue/GDP ratios than the U.S. (the U.S. is at ~32%, OECD average ~35%, France/Germany ~46%). The difference is mostly VAT revenue, not income-tax revenue. The U.S. could collect substantially more revenue without higher income-tax rates if it added a VAT.
+| | Progressive expansion | Supply-side reform | Consumption restructuring |
+| --- | --- | --- | --- |
+| Preferred base | Income *and* wealth, top-weighted | Income, broader and flatter | Consumption |
+| Core empirical bet | Top-end elasticities are mostly fixable avoidance | Elasticities and growth effects are large and structural | Saving responds to its after-tax return |
+| Flagship instruments | Higher top rates, capital-gains parity, wealth tax, IRS funding | Lower marginal rates, full expensing, simplification | VAT, X-tax, prebates |
+| Honest weak point | Measurement disputes; avoidance record of wealth taxes abroad | Kansas; TCJA corporate cut recovered ~2 of 41 points of cost | Fiscal illusion; no U.S. transition has ever been attempted |
 
-What evidence would change this position? A persuasive showing that VATs in practice are more regressive than designed, that the political dynamics of consumption taxes are worse (because they're less visible), or that the saving-disincentive effects of income taxation are smaller than the consumption-tax case assumes. The consumption-restructuring position acknowledges the regressivity-in-practice concern is the strongest critique and tries to address it through prebates (universal payment offsetting consumption tax on basic spending) or income-tax surtaxes on top earners.
+**Near-settled:** taxable income responds to rates, modestly on average and most at the top (SSG 2012); current U.S. rates sit below every mainstream revenue-maximizing estimate; the U.S. collects substantially less of GDP than peers, mostly for lack of a consumption tax; the all-in federal system remains progressive (CBO 2022: average rates of 1.4 percent in the bottom quintile to 31.5 percent for the top 1 percent).
 
-## What's settled and what's contested
+**Genuinely contested:** how much top-end income and wealth concentration actually grew (PSZ vs. Auten–Splinter; Saez–Zucman vs. Smith–Zidar–Zwick); the long-run growth effect of rate changes within the U.S. range; whether wealth taxation is administrable and constitutional; whether a VAT's political economy is a feature or a fatal bug.
 
-**Settled (or near-settled):**
-- The U.S. tax system has become less progressive at the very top since 1980 (capital-income-share gap, estate exemption increases, payroll-tax cap mechanics).
-- Elasticity of taxable income is positive but moderate at most income levels (Saez et al. 2012 review).
-- Most peer countries collect more revenue/GDP than the U.S., primarily through VATs.
-- The TCJA's individual provisions expire end of 2025 absent congressional action.
-
-**Genuinely contested:**
-- Magnitude of top-rate elasticities (which determines optimal rates).
-- Long-run growth effects of corporate-rate changes.
-- Whether wealth taxation can be administratively viable at scale.
-- Whether VATs are politically sustainable under U.S. federal-state revenue-sharing dynamics.
-
-A defensible position picks one of the three frames, says why, and acknowledges what's contested. Lesson 3 turns to the actual policy fight.
+A defensible position picks one frame, states the empirical bets it is making, and names what would change its mind. Lesson 3 turns to the field where these positions are actually fighting in 2026 — after the One Big Beautiful Bill Act redrew it.

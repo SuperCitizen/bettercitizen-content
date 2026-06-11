@@ -29,4 +29,10 @@ related_ideologies:
   - democratic-socialism
   - communitarianism
 historical_period: Progressive Era (1890s–1920s); modern form post-New Deal
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: -0.55
+  social: -0.4
 body_md: ""

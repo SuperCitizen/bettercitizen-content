@@ -8,6 +8,7 @@ objectives:
   - Distinguish independent expenditures from direct contributions
   - Identify the BCRA provisions that survived and the ones that fell
   - Name the precedent it overruled (Austin v. Michigan Chamber, 1990) and the precedent it left intact (Buckley v. Valeo, 1976)
+  - Explain how the oral-argument concession about banning books reshaped the case
 concepts:
   - citizens-united
   - independent-expenditures
@@ -15,7 +16,7 @@ concepts:
 sources:
   - type: court-opinion
     citation: 'Citizens United v. FEC, 558 U.S. 310 (2010), majority opinion (Kennedy, J.).'
-    url: https://www.supremecourt.gov/opinions/09pdf/08-205.pdf
+    url: https://www.law.cornell.edu/supct/html/08-205.ZO.html
   - type: court-opinion
     citation: 'Buckley v. Valeo, 424 U.S. 1 (1976), per curiam.'
     url: https://supreme.justia.com/cases/federal/us/424/1/
@@ -31,59 +32,116 @@ sources:
   - type: website
     citation: 'Federal Election Commission, "Citizens United and Federal Campaign Finance Law" (regulatory summary).'
     url: https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/coordinated-communications-independent-expenditures/
+  - type: website
+    citation: 'Oyez, Citizens United v. Federal Election Commission, No. 08-205 — case page with both oral-argument recordings (Mar. 24 and Sept. 9, 2009).'
+    url: https://www.oyez.org/cases/2008/08-205
+  - type: court-opinion
+    citation: 'Citizens United v. FEC, 558 U.S. 310 (2010) — full text (Justia).'
+    url: https://supreme.justia.com/cases/federal/us/558/310/
 perspectives:
   - name: First Amendment maximalist
   - name: Anti-corruption advocate
   - name: Democratic-equality advocate
-duration_min: 10
+duration_min: 15
 ---
 
 # What Citizens United actually held
 
-The case shows up in cocktail-party arguments as shorthand for "the Supreme Court let corporations buy elections" or "the Supreme Court restored free speech in elections." Both sentences are too quick. Start with the mechanical holding, then we can argue about it.
+In January 2008, a conservative nonprofit corporation called Citizens United had a problem with a release date. It had produced *Hillary: The Movie* — a 90-minute documentary-style attack on Hillary Clinton, then the front-runner for the Democratic presidential nomination — and a cable company had offered, for a \$1.2 million payment, to carry the film on a video-on-demand channel called "Elections '08," free to any subscriber who clicked. The catch: §203 of the Bipartisan Campaign Reform Act (BCRA, or McCain–Feingold) made it a federal crime for a corporation to spend treasury money on an "electioneering communication" — a broadcast naming a federal candidate — within thirty days of a primary. Citizens United was a corporation. The primaries were thirty days away. A three-judge federal court agreed with the government that the film was, in effect, a feature-length "vote against her," and the video-on-demand plan died.
 
-## The case in one paragraph
+What turned a small case about one film into a constitutional earthquake happened at the Supreme Court lectern on March 24, 2009. Deputy Solicitor General Malcolm Stewart, defending the statute, followed its logic wherever the Justices pushed — and they pushed toward print. Justice Alito asked whether the government's theory would let Congress restrict the same advocacy in a book: "That's pretty incredible," he answered when Stewart allowed that it could. Justice Kennedy asked about a book beamed to a Kindle. Then Chief Justice Roberts built the hypothetical that stuck — a 500-page book, one mention of a candidate, ending "and so vote for X." Stewart offered that the corporation could be required to publish it through a PAC; Roberts pressed: "And if they didn't, you could ban it?" The answer detonated the case: "If they didn't, we could prohibit the publication of the book using the corporate treasury funds." Nearly every publisher in America is a corporation; the government had just claimed the power to ban their books. The Court took the unusual step of ordering the case **reargued** on a bigger question: whether to overrule its precedents permitting corporate-spending bans at all. At the September 9, 2009 special session — Elena Kagan's debut argument before the Court as Solicitor General — Justice Ginsburg asked whether the government stood by its answer about books. "The government's answer has changed," Kagan replied, to laughter in the courtroom. Books were now safe, she suggested; pamphlets were another matter — "a pamphlet would be different. A pamphlet is pretty classic electioneering." For five Justices, a statute whose constitutionality depended on which printed formats the government promised not to ban was already lost.
 
-Citizens United, a non-profit corporation, made a 90-minute documentary critical of Hillary Clinton during the 2008 Democratic primary and wanted to distribute it via video-on-demand within thirty days of a primary election. Section 203 of the Bipartisan Campaign Reform Act of 2002 (BCRA, often called McCain-Feingold) banned corporations and unions from using their general-treasury funds for "electioneering communications" — broadcast ads identifying a federal candidate within thirty days of a primary or sixty days of a general election. Citizens United argued §203 violated the First Amendment as applied to its film. The Court agreed, then went further: it struck down §203 facially — not just for this documentary, but for all corporate and union independent expenditures.
+On January 21, 2010, by a 5–4 vote, with Justice Kennedy writing for the majority and Justice Stevens answering in a 90-page dissent, the Court held that **the government may not ban political speech because the speaker is a corporation or a union**. That sentence — not "corporations are people," not "money is speech," not "unlimited donations" — is the holding. The rest of this lesson is the mechanics: exactly what fell, exactly what stood. The argument about whether it was *right* comes next lesson; you cannot have that argument honestly without this one.
 
-By a 5–4 vote, with Justice Kennedy writing for the majority and Justice Stevens writing a 90-page dissent, the Court held that **the government cannot ban political speech based on the speaker's corporate identity**. ([Slip op. at 50](https://www.supremecourt.gov/opinions/09pdf/08-205.pdf).)
+## The distinction Citizens United did NOT touch
 
-## The mechanical distinction Citizens United did NOT touch
+Campaign-finance law since *Buckley v. Valeo* (1976) rests on a two-track distinction:
 
-Campaign finance law since Buckley v. Valeo (1976) has rested on a distinction:
+- **Direct contributions** — money given *to* a candidate or committee. *Buckley* held these can be capped: the candidate knows who paid, so the quid-pro-quo corruption risk (and its appearance) justifies regulation.
+- **Independent expenditures** — money spent *on your own* advocating for or against a candidate, without coordination. *Buckley* held these cannot be capped for individuals: no coordination, no bargain; capping them is capping speech itself.
 
-- **Direct contributions** — money given *to* a candidate or campaign committee. Buckley held these can be capped, because they create a quid-pro-quo corruption risk: the candidate knows who paid.
-- **Independent expenditures** — money spent *for or against* a candidate, without coordination with the campaign. Buckley held these cannot be capped *for individuals*, because the absence of coordination defuses the quid-pro-quo logic.
+*Citizens United* did **not** move the first track. Corporate and union treasury contributions to federal candidates have been illegal since the Tillman Act (1907) and the Taft–Hartley Act (1947), and they are illegal today. Individual contribution limits survived too (\$3,500 per candidate per election in the 2025–26 cycle, indexed). What the case did was extend *Buckley*'s second track — the individual's independent-expenditure freedom — to corporations and unions. After January 2010, a corporation may spend any amount of treasury money on ads saying "defeat Senator X," so long as the spending is not coordinated with any campaign.
 
-Citizens United did **not** change the rules on direct contributions. Corporate and union direct contributions to federal candidates have been illegal since the Tillman Act (1907) and remain illegal after Citizens United. Individual direct-contribution limits to candidates remain in place too (currently $3,500 per election as of 2025 per the FEC's biennial adjustments).
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> After <em>Citizens United</em>, may Apple write a \$1 million check to a presidential campaign? May it spend \$1 million airing its own ads attacking that campaign's opponent? Explain the asymmetry.</summary>
+<p>No to the first — corporate <em>contributions</em> to candidates remain criminal under the Tillman Act (1907); <em>Citizens United</em> never touched them. Yes to the second — that is an <em>independent expenditure</em>, which the Court held the First Amendment protects regardless of the speaker's corporate form, provided there is no coordination with a campaign. The whole case lives inside <em>Buckley</em>'s contribution/expenditure distinction; it widened who enjoys the expenditure track, not what the contribution track allows.</p>
+</details>
 
-What Citizens United did was extend Buckley's individual-independent-expenditure rule to corporations and unions. After Citizens United, a corporation can spend $1B of its general-treasury money on a TV ad saying "vote against Senator X" — as long as that spending isn't coordinated with Senator X's opponent.
+## What fell
 
-## What was struck down
+Three things, in escalating order of doctrinal violence:
 
-- **BCRA §203** (the corporate/union electioneering-communication ban) — facially struck down.
-- **Austin v. Michigan Chamber of Commerce (1990)** — overruled. Austin had upheld a Michigan law banning corporate independent expenditures in state elections on an "anti-distortion" rationale (the idea that corporate wealth distorts the marketplace of ideas). Citizens United rejected that rationale entirely.
-- **The relevant portion of McConnell v. FEC (2003)**, which had upheld §203, was overruled to that extent.
+1. **BCRA §203** — the ban on corporate- and union-funded electioneering communications (broadcast ads naming a candidate within 30 days of a primary, 60 of a general) — struck down **facially**: not just as applied to this film, but for everyone. The Court explicitly declined the narrow exits its own precedents offered (video-on-demand isn't "broadcast"; nonprofits funded by individuals could be exempted), reasoning that years of as-applied litigation would themselves chill speech while the FEC ran what Kennedy derided as an effective licensing regime — "When Government seeks to use its full power, including the criminal law, to command where a person may get his or her information or what distrusted source he or she may not hear, it uses censorship to control thought."
+2. ***Austin v. Michigan Chamber of Commerce* (1990)** — overruled outright, a rare explicit abandonment of [[term:stare-decisis]]. *Austin* had upheld a Michigan ban on corporate independent expenditures on an "anti-distortion" rationale: the state may counter "the corrosive and distorting effects of immense aggregations of wealth that are accumulated with the help of the corporate form and that have little or no correlation to the public's support for the corporation's political ideas." *Citizens United* rejected that rationale root and branch — the First Amendment, Kennedy wrote, does not permit government to handicap speakers because they are wealthy or institutional.
+3. **The corresponding portion of *McConnell v. FEC* (2003)**, which had upheld §203 on *Austin*'s logic — overruled to that extent.
 
-## What was left intact
+## What stood
 
-- **Direct corporate/union contributions to candidates** — still banned (Tillman Act, FECA).
-- **Foreign-national contributions and expenditures** — still banned (52 U.S.C. §30121).
-- **Disclosure and disclaimer requirements** under BCRA §§201 and 311 — explicitly upheld 8–1 in the same opinion. Justice Kennedy wrote: "The First Amendment protects political speech; and disclosure permits citizens and shareholders to react to the speech of corporate entities in a proper way." ([Slip op. at 55](https://www.supremecourt.gov/opinions/09pdf/08-205.pdf).) This part of the holding is often forgotten in popular accounts but is doing real work today — it's why the disclosure fight in Lesson 4 exists.
-- **Buckley's individual-contribution caps** — untouched.
-- **Coordination rules** — untouched in principle, though the FEC's enforcement of "independence" has weakened in practice (Lesson 3).
+This list is the one popular accounts skip, and it is half the case:
 
-## Two things people often think CU did but didn't
+- **The corporate/union direct-contribution ban** (1907/1947) — intact.
+- **Individual contribution limits** to candidates, parties, and PACs (*Buckley*) — intact.
+- **The foreign-national ban** (52 U.S.C. §30121) — foreign money remains barred from U.S. elections, contributions and expenditures alike.
+- **Coordination doctrine** — an "independent" expenditure coordinated with a campaign is treated as a contribution and capped; intact in principle (Lesson 3 examines how it holds up in practice).
+- **Disclosure and disclaimer rules** (BCRA §§201, 311) — upheld **8–1**, with only Justice Thomas dissenting on this point. Kennedy for that near-unanimous majority: "The First Amendment protects political speech; and disclosure permits citizens and shareholders to react to the speech of corporate entities in a proper way." The same five Justices who freed corporate spending joined the four dissenters in blessing — even celebrating — mandatory transparency about it. That 8–1 holding is why the disclosure fight in Lesson 4 is a fight about statutes and agencies, not about the Constitution.
 
-1. **It did not "rule that corporations are people."** That phrase comes from a different doctrine — corporate personhood — that predates Citizens United by a century and applies far beyond election law. The Court's holding was narrower: corporations are *speakers* whose speech the First Amendment protects, the same way it protects a newspaper's speech (a corporate entity since the founding) or a labor union's speech.
-2. **It did not create Super PACs.** That was *SpeechNow.org v. FEC* (D.C. Cir. 2010), decided two months later by the D.C. Circuit (not the Supreme Court), which extended Citizens United's logic from corporations-funding-ads to political committees-aggregating-donations. We'll trace that in Lesson 3.
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 330" width="100%" role="img" aria-label="Two-panel diagram of corporate treasury money before and after Citizens United: before 2010, treasury money was blocked from both contributions and election-window ads, flowing only through employee-funded PACs; after 2010, unlimited independent expenditures are allowed but direct contributions remain banned" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">Corporate treasury money: before and after Jan. 21, 2010</text>
+  <!-- Before panel -->
+  <rect x="20" y="44" width="330" height="260" rx="8" fill="none" stroke="var(--line, #d9d5c9)" stroke-width="1.5"/>
+  <text x="185" y="68" font-family="Georgia, serif" font-size="13.5" fill="var(--muted, #6b6457)" text-anchor="middle" font-weight="bold">BEFORE (Austin / BCRA §203)</text>
+  <rect x="100" y="84" width="170" height="40" rx="5" fill="var(--blue, #2f4d6e)"/>
+  <text x="185" y="109" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">Corporate treasury</text>
+  <line x1="130" y1="124" x2="70" y2="200" stroke="var(--accent, #8a2a1e)" stroke-width="2"/>
+  <text x="84" y="166" font-family="Georgia, serif" font-size="16" fill="var(--accent, #8a2a1e)" font-weight="bold">✕</text>
+  <text x="70" y="218" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">contributions</text>
+  <text x="70" y="233" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">banned (1907)</text>
+  <line x1="185" y1="124" x2="185" y2="200" stroke="var(--accent, #8a2a1e)" stroke-width="2"/>
+  <text x="196" y="166" font-family="Georgia, serif" font-size="16" fill="var(--accent, #8a2a1e)" font-weight="bold">✕</text>
+  <text x="185" y="218" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">election-window ads</text>
+  <text x="185" y="233" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">banned (§203)</text>
+  <line x1="240" y1="124" x2="300" y2="200" stroke="var(--green, #4a6b3a)" stroke-width="2"/>
+  <text x="300" y="218" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">company PAC</text>
+  <text x="300" y="233" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">employee money,</text>
+  <text x="300" y="247" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">capped &amp; disclosed</text>
+  <!-- After panel -->
+  <rect x="370" y="44" width="330" height="260" rx="8" fill="none" stroke="var(--line, #d9d5c9)" stroke-width="1.5"/>
+  <text x="535" y="68" font-family="Georgia, serif" font-size="13.5" fill="var(--muted, #6b6457)" text-anchor="middle" font-weight="bold">AFTER (Citizens United)</text>
+  <rect x="450" y="84" width="170" height="40" rx="5" fill="var(--blue, #2f4d6e)"/>
+  <text x="535" y="109" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">Corporate treasury</text>
+  <line x1="480" y1="124" x2="420" y2="200" stroke="var(--accent, #8a2a1e)" stroke-width="2"/>
+  <text x="434" y="166" font-family="Georgia, serif" font-size="16" fill="var(--accent, #8a2a1e)" font-weight="bold">✕</text>
+  <text x="424" y="218" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">contributions</text>
+  <text x="424" y="233" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">STILL banned</text>
+  <line x1="535" y1="124" x2="535" y2="200" stroke="var(--green, #4a6b3a)" stroke-width="3"/>
+  <text x="535" y="218" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">independent expenditures</text>
+  <text x="535" y="233" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">UNLIMITED — no coordination,</text>
+  <text x="535" y="247" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">disclosure upheld 8–1</text>
+  <line x1="590" y1="124" x2="650" y2="200" stroke="var(--green, #4a6b3a)" stroke-width="2"/>
+  <text x="652" y="218" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">company PAC</text>
+  <text x="652" y="233" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">unchanged</text>
+  <text x="20" y="324" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">The case moved exactly one wall — and built the on-ramp SpeechNow.org paved two months later (Lesson 3).</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: What <em>Citizens United</em> changed for corporate (and union) treasury money. The contribution ban of 1907 and the employee-funded PAC system are untouched; the independent-expenditure channel opened — with disclosure attached by an 8–1 vote.</figcaption>
+</figure>
 
-## Why this lesson is contested
+## Two things people think it did, but it didn't
 
-Three perspectives the next lesson will steel-man:
+1. **It did not rule that "corporations are people."** Corporate personhood — corporations holding legal rights like contract and property — is a doctrine running back through *Santa Clara County v. Southern Pacific* (1886), a century before this case, and it does most of its work far from election law. The majority's claim was about *speech*, not personhood: the [[term:first-amendment]] protects "political speech," and, as the opinion put it, that speech "does not lose First Amendment protection simply because its source is a corporation." A newspaper corporation's editorial had always been protected; the Court extended the same logic to every other corporate form — which is precisely the move the dissent contested.
+2. **It did not create the Super PAC.** That was *SpeechNow.org v. FEC* (D.C. Circuit, en banc, March 2010) — a different court, two months later, extending the no-corruption premise from *spending* to *contributions to independent-spending groups*. *Citizens United* also did not legalize anonymous spending: the donor-anonymity of the [[term:dark-money]] system comes from IRS rules about 501(c)(4) nonprofits, not from this opinion (Lessons 3 and 4 trace that pipeline).
 
-- **First Amendment maximalists** argue the holding is the only one consistent with the text of the First Amendment ("Congress shall make no law … abridging the freedom of speech") and that a government veto over what political ads can air is the textbook prior restraint the Founders feared.
-- **Anti-corruption advocates** argue the holding misreads Buckley by pretending that "independent" expenditures don't create dependence; that the distinction collapses in practice when Super PACs are run by former campaign staff; and that the result is a campaign-finance system where the wealthiest individuals and corporations have outsized political voice.
-- **Democratic-equality advocates** argue the holding is correct as a matter of First Amendment doctrine narrowly construed, but that the doctrine itself is wrong — that political equality should be a constitutional value alongside free speech, and that the trade-off Citizens United settles in favor of speech is a values judgment masquerading as law.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> The government's March 2009 position implied it could bar a corporation from publishing a campaign-season book containing express advocacy. Why did that concession matter <em>doctrinally</em> — not just theatrically — to a Court already inclined toward as-applied caution?</summary>
+<p>Because it demonstrated the statute's logic had no limiting principle the government itself could state. If §203's constitutionality turned on prosecutorial promises about formats (books exempt, pamphlets "classic electioneering"), then protected speech survived only at regulators' grace — which the majority treated as the definition of a censorship regime, justifying a <em>facial</em> ruling rather than another decade of as-applied carve-outs like <em>WRTL</em> (2007). The concession converted a case about one film into a case about the government's theory of power.</p>
+</details>
 
-The first thinks Stevens's dissent was wrong; the second thinks the majority was wrong on the facts; the third thinks the entire framing is wrong. Lesson 2 makes each version one its adherents would themselves endorse.
+## Why this case stays contested
+
+Steel-manned versions of three live positions come next lesson; here is the map:
+
+- **First Amendment maximalists** read the holding as the only one consistent with a categorical text — government had claimed the power to criminalize a film about a presidential candidate, and book-banning was the logical endpoint of its own argument.
+- **Anti-corruption advocates** argue the majority's empirical premise — that independent spending cannot corrupt or even appear corrupt — was asserted, not demonstrated, and has been falsified by fifteen years of single-candidate Super PACs run by candidates' former aides.
+- **Democratic-equality advocates** argue the deepest error precedes this case: *Buckley*'s refusal to let political equality count as a constitutional interest. On this view *Citizens United* is a faithful application of a wrong premise.
+
+The first thinks Stevens's dissent was wrong; the second thinks Kennedy's facts were wrong; the third thinks the whole frame was wrong. What none of them disputes — and what you should now own cold — is the mechanics: contributions still capped and (for corporations) banned; independent corporate and union spending unlimited; *Austin* dead; *Buckley* alive; disclosure blessed 8–1. Lesson 2 has the arguments.

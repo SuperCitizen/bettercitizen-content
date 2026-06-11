@@ -7,6 +7,7 @@ objectives:
   - State the single-payer case at its strongest, with the empirical claims it relies on
   - State the market-reform case at its strongest, including what it concedes about pre-ACA failures
   - State the ACA-expansion incrementalist case at its strongest
+  - Describe what the RAND Health Insurance Experiment and the Oregon Medicaid experiment each actually found, and what each perspective takes from them
   - Identify which empirical claims about cost, access, and outcomes are settled and which remain genuinely disputed
 concepts:
   - healthcare
@@ -25,92 +26,133 @@ sources:
     citation: 'Blahous, C. (2018), "The Costs of a National Single-Payer Healthcare System," Mercatus Center at George Mason University.'
     url: https://www.mercatus.org/research/working-papers/costs-national-single-payer-healthcare-system
   - type: paper
-    citation: 'Sommers, B. D. et al. (2017), "Health Insurance Coverage and Health — What the Recent Evidence Tells Us," New England Journal of Medicine 377:6, 586.'
+    citation: 'Sommers, B. D., Gawande, A. A., & Baicker, K. (2017), "Health Insurance Coverage and Health — What the Recent Evidence Tells Us," New England Journal of Medicine 377:6, 586.'
     url: https://www.nejm.org/doi/full/10.1056/NEJMsb1706645
   - type: paper
     citation: 'Goodman, J. C. (2015), "A Better Choice: Healthcare Solutions for America," Independent Institute.'
-  - type: book
-    citation: 'Hacker, J. S. (2018), The Road to Medicare for All: A Strategy for Achieving Universal Coverage, Twentieth Century Fund.'
+  - type: paper
+    citation: 'Hacker, J. S. (2018), "The Road to Medicare for Everyone," The American Prospect (Winter 2018).'
+    url: https://prospect.org/health/road-medicare-everyone/
   - type: paper
     citation: 'Galvani, A. P. et al. (2020), "Improving the prognosis of health care in the USA," The Lancet 395, 524.'
     url: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)33019-3/fulltext
+  - type: paper
+    citation: 'Himmelstein, D. U. et al. (2014), "A Comparison of Hospital Administrative Costs in Eight Nations: US Costs Exceed All Others by Far," Health Affairs 33:9.'
+    url: https://www.healthaffairs.org/doi/10.1377/hlthaff.2013.1327
+  - type: website
+    citation: 'RAND Corporation, "The Health Insurance Experiment: A Classic RAND Study Speaks to the Current Health Care Reform Debate" (Research Brief RB-9174).'
+    url: https://www.rand.org/pubs/research_briefs/RB9174.html
+  - type: paper
+    citation: 'Baicker, K. et al. (2013), "The Oregon Experiment — Effects of Medicaid on Clinical Outcomes," New England Journal of Medicine 368, 1713–1722.'
+    url: https://www.nejm.org/doi/full/10.1056/NEJMsa1212321
+  - type: paper
+    citation: 'Finkelstein, A. et al. (2012), "The Oregon Health Insurance Experiment: Evidence from the First Year," Quarterly Journal of Economics 127:3.'
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3535298/
+  - type: website
+    citation: 'J-PAL, "The Oregon Health Insurance Experiment in the United States" — summary of the full experimental findings, including emergency-department use.'
+    url: https://www.povertyactionlab.org/evaluation/oregon-health-insurance-experiment-united-states
+  - type: paper
+    citation: 'Mulcahy, A. W. et al. (2024), "International Prescription Drug Price Comparisons: Estimates Using 2022 Data," RAND Corporation RRA788-3.'
+    url: https://www.rand.org/pubs/research_reports/RRA788-3.html
+  - type: book
+    citation: 'Case, A. & Deaton, A. (2020), Deaths of Despair and the Future of Capitalism, Princeton University Press. (Chapter 13 on healthcare costs.)'
+  - type: website
+    citation: 'VTDigger, "Shumlin says single payer not affordable now" (Dec. 17, 2014) — the financing figures and Shumlin''s statement abandoning Green Mountain Care.'
+    url: https://vtdigger.org/2014/12/17/shumlin-says-single-payer-not-affordable-now/
 perspectives:
   - name: Single-payer advocate
   - name: Market-reform advocate
   - name: ACA-expansion incrementalist
-duration_min: 14
+duration_min: 16
 ---
 
 # The strongest case for and against
 
-Three positions, each presented as one its adherents would themselves endorse.
+On December 17, 2014, Governor Peter Shumlin of Vermont — a Democrat who had won office promising the country's first state single-payer system, in arguably the most single-payer-friendly state in America — stood at a podium and abandoned it. His own financing plan put the price at an 11.5 percent payroll tax on Vermont employers plus a new income tax sliding up to 9.5 percent, and he concluded that "the potential economic disruption and risks would be too great to small businesses, working families and the state's economy." Single-payer advocates read that day as proof that the politics, not the economics, are the obstacle; market reformers read it as the economics finally being written down; incrementalists read it as the case for never betting everything on one leap. All three readings are defensible. That is what makes this issue contested — and why each position below is presented the way its smartest adherents argue it, not the way its opponents caricature it.
 
 ## 1. The single-payer case
 
-The starting move is to read the cost-and-outcomes data as evidence about *system structure*, not about *individual behavior*. Americans don't use more healthcare than peers — utilization rates are similar. Americans don't have unhealthier behaviors at scale large enough to explain a 2× cost gap. What's different is the multi-payer payment structure and what it does to prices, administration, and access.
+The starting move is to read Lesson 1's cost-and-outcomes record as evidence about *system structure*, not individual behavior. Americans don't use more care than peers — utilization is ordinary. What's different is the payment structure, and what fragmentation does to prices, administration, and access.
 
-The argument:
+The argument runs in four steps:
 
-- **Multi-payer fragmentation creates massive administrative overhead.** U.S. hospitals spend ~25% of revenue on billing and insurance-related activities; peer countries spend 10–12%. Reinhardt's *Priced Out* documents this in detail: hundreds of insurance plans, each with different formularies, prior-authorization rules, and reimbursement schedules, force every provider to maintain a billing apparatus that's pure deadweight loss. A single payer eliminates most of this overhead.
+- **Fragmentation is the overhead.** U.S. hospital administrative costs are 25.3 percent of hospital spending; in Canada and Scotland, where hospitals are paid global budgets by one payer, the figure is about 12 percent (Himmelstein et al. 2014, *Health Affairs* — the authors calculated that matching Canada would have saved over $150 billion in 2011 alone). Uwe Reinhardt's *Priced Out* (2019) describes the cause: thousands of plan variants, each with its own formularies, prior-authorization rules, and payment schedules, force every provider to maintain a billing bureaucracy that produces no health. One payer, one rulebook, most of that overhead disappears.
 
-- **Single payer = monopsony pricing.** When the payer is the federal government covering everyone, drug companies and device manufacturers have no alternative buyer to play off against the negotiator. This is why Canada's drug prices average 50% of U.S. prices and U.K.'s NHS prices average 30–40%. It's not that those countries innovate less; it's that the U.S. payment system explicitly preserves the monopolist's pricing power. A single-payer system internalizes the bargaining position the U.S. currently leaves to fragmented private insurers who individually have no leverage.
+- **One payer means monopsony pricing.** A single buyer covering every American could do what every peer government does: set or negotiate prices industry-wide. The U.S. pays 2.78 times the OECD-peer average for drugs — 4.22 times for brand-name drugs (RAND 2024) — not because peers innovate less but because their payers bargain as one and America's fragmented insurers cannot. Medicare's new drug-negotiation authority (Lesson 3) is, on this view, a proof of concept for the whole system.
 
-- **Coverage becomes universal by definition.** No one is uninsured because eligibility is automatic. Sommers et al. (2017) document that ACA Medicaid expansion produced significant mortality reductions in expansion states; the same logic, applied to the entire population, would close the U.S./peer mortality gap that the current uninsured rate sustains.
+- **Coverage becomes universal by definition — and coverage saves lives.** Sommers, Gawande and Baicker's 2017 review in the *NEJM* synthesizes the quasi-experimental evidence that Medicaid expansion reduced mortality; Galvani and colleagues in *The Lancet* (2020) projected that universal coverage would have prevented tens of thousands of deaths per year. Churn — losing coverage when you change jobs, age out, or miss a renewal form — simply stops existing as a category.
 
-- **The transition cost is a one-time disruption, not an ongoing cost.** Pollin et al. (2018) projected that Medicare-for-All would actually save the U.S. ~$2T over 10 years compared to projected current-system costs, even after accounting for the disruption. The Mercatus Center estimate (Blahous 2018) — often cited as evidence single-payer costs more — actually shows similar net savings if you compare apples to apples; the headline "$32T cost" is the gross spending, not the net change after replacing existing premiums and out-of-pocket costs.
+- **The political-economy argument.** Multi-payer systems make the insurance industry a permanent veto player: every reform that threatens insurer revenue is fought by a well-funded [[term:lobbyist]] apparatus, which is how the public option died in 2009. Jacob Hacker's "The Road to Medicare for Everyone" (*The American Prospect*, 2018) draws the lesson: designs that leave the industry intact leave the opposition intact.
 
-- **The political-economic argument.** Multi-payer systems are politically captured by the insurance industry and the rent-seeking it creates. Every reform that touches insurer profits gets watered down or killed. Single-payer eliminates the insurer-as-political-actor problem because there's no insurer to lobby against reforms. This is the structural argument Hacker's *Road to Medicare for All* makes.
+On cost, advocates cite the dueling national estimates honestly. The left-leaning PERI analysis (Pollin et al. 2018) projected Medicare-for-All would deliver care for everyone while cutting total national health spending by about 9.6 percent. More strikingly, the libertarian Mercatus Center's estimate (Blahous 2018) — headlined everywhere as "$32.6 trillion in new federal costs over ten years" — also projected, under the bill's stated assumptions, that *national* health spending would fall by about $2 trillion over the decade, because premiums and out-of-pocket spending disappear into taxes that total slightly less. The catch, which Blahous himself stressed: that result assumes paying all providers Medicare rates — roughly a 40 percent cut to private-payer prices — and assumes providers absorb it without reducing supply.
 
-What evidence would change this position? A persuasive showing that single-payer systems systematically produce worse outcomes (longer waits, less innovation, less access to specialty care) at scale large enough to outweigh the cost and coverage gains. Single-payer advocates concede the wait-time concern is real (NHS, Canada) but argue it's a budgeting choice, not an inherent feature of single-payer.
+What would change this position? Evidence that single-payer systems systematically produce worse outcomes — longer waits, slower innovation, degraded specialty access — at a scale outweighing the coverage and price gains. Advocates concede wait lists are real in Canada and Britain but argue they are budget choices, not structural necessities.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A skeptic says: "Even Mercatus admits Medicare-for-All saves money, so the debate is over." A different skeptic says: "Mercatus proved it costs $32.6 trillion, so the debate is over." What is each one missing?</summary>
+<p>They are quoting the same study. The $32.6 trillion is <em>new federal</em> spending — money that currently flows as premiums and out-of-pocket payments would route through the federal budget instead. The roughly $2 trillion reduction is <em>total national</em> spending under the bill's assumptions — and it depends on cutting provider payments to Medicare rates (about 40 percent below private prices) without losing supply. The honest version of the debate is about whether that assumption is achievable, not about either headline number alone.</p>
+</details>
 
 ## 2. The market-reform case
 
-The starting move is to deny the premise that U.S. healthcare is a "market" at all. Real markets have informed buyers, transparent prices, competitive sellers, and the ability of buyers to walk away. U.S. healthcare has none of these. The market-reform case is not "more of what we have"; it's "fix the structural distortions that prevent markets from working."
+The starting move is to deny that U.S. healthcare is a market at all. Real markets have posted prices, informed buyers, free entry, and customers who can walk away. American healthcare — recall the $1,529-to-$182,955 appendectomy — has none of these. So the cost record indicts not markets but their absence. This case is made most systematically by Michael Cannon and Michael Tanner of the Cato Institute — the libertarian [[term:think-tank]] — in *Healthy Competition*, and by economist John Goodman, the intellectual father of Health Savings Accounts.
 
-The argument:
+- **The third-party-payer problem.** When an insurer pays, the patient neither sees nor cares about the price, so providers don't compete on it. The fix is structural: pair high-deductible catastrophic insurance with tax-advantaged savings accounts ([[term:subsidy]] redirected from premiums to patients), so routine care is bought with money the patient treats as her own. Where Americans do pay directly — LASIK and cosmetic surgery are the stock examples — posted prices and falling real costs follow.
 
-- **The third-party-payer problem.** When someone else (your insurer) pays for your care, you don't shop on price — you don't even *see* the price most of the time. This kills the demand-side discipline that makes markets work. Cannon & Tanner's *Healthy Competition* is the canonical case here: introduce real consumer-side cost-sharing (Health Savings Accounts, high-deductible plans for routine care, catastrophic coverage for the actually-catastrophic), and prices respond. Singapore, Switzerland (in milder form), and pre-2010 U.S. consumer-driven health plans all show price-sensitivity rebounding when the third-party-payer wedge shrinks.
+- **Supply is throttled by regulation.** Certificate-of-need laws in roughly two-thirds of states let incumbent hospitals object to new competitors; scope-of-practice rules sideline nurse practitioners; licensure restricts telemedicine across state lines; FDA approval timelines slow entry. Every one of these is a government-granted moat, defended by incumbent providers through the same lobbying machinery single-payer advocates attribute to insurers. Deregulating supply, on this view, attacks the *prices* — the actual documented problem — where single-payer merely changes who pays them.
 
-- **Provider-side market failure isn't market failure — it's regulatory capture.** Physician licensure, hospital certificate-of-need laws, scope-of-practice restrictions, drug-approval timelines — every one of these reduces supply elasticity. The market-reform case argues that direct-pay primary care, telemedicine deregulation, nurse-practitioner authority expansion, and faster generic-drug approval would all reduce prices much more than single-payer would.
+- **The uninsured problem is narrower than it looks.** Of the 26.7 million uninsured, KFF's profile shows most are in working families and most are eligible for *something* — Medicaid, CHIP, or subsidized marketplace plans — but unenrolled; about 1.4 million are in the non-expansion coverage gap. Targeted enrollment fixes and portable individual subsidies could close most of the gap without nationalizing the financing of the other 300 million people's care.
 
-- **The coverage gap is mostly about Medicaid, not the under-65 working population.** Of the ~26M uninsured, roughly 6M are eligible for Medicaid and haven't enrolled, and another 4M are in expansion-resistant states' Medicaid gaps. Most of the rest are working-age adults whose employers don't offer plans; expanding direct-pay markets, individual-coverage HSAs, and association health plans (cross-state pooling) would reach this population without single-payer's tax burden.
+- **The innovation wager.** The U.S. market supplies a disproportionate share of global pharmaceutical and device revenue — and an even larger share of industry profit — which, this case argues, is what funds the world's R&D pipeline; peers free-ride on prices Americans pay. If the U.S. imposed peer-level prices by monopsony, global innovation would slow. (The revenue share is real; the causal effect on innovation is genuinely contested, and the strongest market reformers acknowledge that rather than assert it.)
 
-- **Innovation depends on the U.S. market.** A frequently-stated empirical claim from this perspective: roughly 60% of the world's pharmaceutical and device R&D is recouped through U.S. prices. Other countries free-ride on U.S. innovation pricing; if the U.S. became a single-payer monopsony, global drug innovation would slow. This is contested empirically (the share is real but the causal claim is harder), but the strongest version of the market-reform position takes the innovation argument seriously.
+- **Reversibility.** Goodman's institutional argument: market reforms that fail can be repealed; a consolidated national system that fails cannot be, because every inefficiency acquires a constituency. Britain cannot fix the NHS's waiting lists with money it doesn't tax; a future America locked into one payer inherits that arithmetic permanently.
 
-- **The political argument.** Single-payer is irreversible; once the federal government takes over the entire health-financing system, fixing its inefficiencies becomes politically impossible (because every fix is a political battle). Market reforms are reversible — bad ones can be repealed, good ones can be expanded. Goodman's *A Better Choice* makes the institutional-reversibility argument explicit.
+What would change this position? Evidence that consumer price-shopping cannot discipline healthcare even when genuinely enabled — that Arrow's information asymmetry is so severe that the demand side can never check the supply side. Which is why the experimental record matters so much.
 
-What evidence would change this position? A persuasive showing that consumer cost-sharing in healthcare has been tried at scale and failed to produce price competition, *or* that markets in healthcare are fundamentally different from markets in other goods (information asymmetry between patient and provider so severe that consumer choice can't discipline pricing). The market-reform case acknowledges these are the standard counter-arguments and tries to address them with structural reforms (mandatory price disclosure, second-opinion services, prediction markets for procedure outcomes) rather than by abandoning market discipline entirely.
+## What the two great experiments actually found
+
+> **The scholar's lens:** American health policy has exactly two large randomized experiments, and every perspective claims pieces of both. The **RAND Health Insurance Experiment** (1971–1986) randomly assigned thousands of families to insurance with different coinsurance rates, from free care to roughly catastrophic-only. Families with substantial cost-sharing spent about **30 percent less** than families with free care — with **no measurable harm to the average person's health**. That is the market-reform case's crown jewel: patients can bear prices without dying. But RAND found two complications. Cost-sharing cut *effective* and *ineffective* care indiscriminately — patients are not the discerning shoppers the model wants — and among the **poorest, sickest participants**, free care produced real gains (better blood-pressure control, projected mortality reductions for hypertensives). The **Oregon Health Insurance Experiment** ran the opposite intervention: in 2008 Oregon held a literal lottery for Medicaid slots, creating a randomized trial of coverage itself. Two years in (Finkelstein et al. 2012; Baicker et al. 2013, *NEJM*), Medicaid produced **no statistically significant improvement in measured physical outcomes** (blood pressure, cholesterol, diabetic blood sugar) — the market-reform camp's favorite finding — but it increased diagnosis and treatment of diabetes, **cut depression rates by about 30 percent**, virtually **eliminated catastrophic out-of-pocket costs**, and *raised* emergency-department use by about 40 percent (Taubman et al. 2014), falsifying the comfortable bipartisan story that coverage pays for itself by emptying ERs. The honest summary: cost-sharing economizes bluntly; coverage is excellent financial-and-mental-health insurance whose physical-health payoff is slower and harder to measure than partisans on either side promised.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A senator cites Oregon to argue Medicaid "doesn't improve health, so expansion is waste." A second senator cites Oregon to argue Medicaid "is a lifesaver." Which findings is each cherry-picking?</summary>
+<p>The first is citing the null result on three physical biomarkers at two years — real, but ignoring the 30 percent drop in depression, the increased diabetes detection and treatment, and the near-elimination of catastrophic medical costs (insurance's actual job). The second is ignoring that the physical-health nulls were genuine and that ER use <em>rose</em> 40 percent. Oregon disciplines both sides: it is the best evidence we have, and it hands no one a clean win — which is why later, larger quasi-experimental work on mortality (Sommers et al. 2017) carries so much weight in the coverage debate.</p>
+</details>
 
 ## 3. The ACA-expansion incrementalist case
 
-The starting move is to point at the data on what the ACA actually accomplished vs. what it's blamed for, and to argue both sides of the structural debate are misreading the empirical record.
+The starting move is to point at the scoreboard. The framework exists, it survived four Supreme Court tests, and where it has been fully used, it has worked — so finish the job before betting the system on either rival theory.
 
-The argument:
+- **Expansion worked where tried.** Forty states plus D.C. have expanded Medicaid; the quasi-experimental literature (Sommers et al. 2017) ties expansion to mortality reductions, and the uninsured rate's fall from 16.3 percent (2010) to 8.0 percent (2024) tracks ACA implementation almost mechanically. The first-order remaining problems are finite and addressable: 1.4 million in the coverage gap, millions more eligible-but-unenrolled.
 
-- **The ACA worked where states fully adopted it.** Medicaid expansion in 41 states + D.C. produced large coverage gains, mortality reductions (Sommers et al. 2017), and reduced medical-bankruptcy rates. In the 9 non-expansion states, the coverage gap is the dominant driver of remaining uninsurance. The *first* reform priority should be closing the Medicaid expansion gap, not restructuring the entire system.
+- **The marketplaces stabilized where states leaned in.** States that ran their own exchanges, funded outreach, and added state-level subsidies built stable risk pools; the 2021–2025 enhanced-subsidy era pushed marketplace enrollment to a record 24.3 million, demonstrating the architecture scales when financed. The instability story is largely a story about under-implementation — and about Congress letting financing cliffs arrive, as it did in 2026 (Lesson 3).
 
-- **The Marketplace works in heavily-regulated states.** California, Massachusetts, New York, Washington — states that built strong state-run exchanges with active regulation — have stable individual markets with reasonable premiums and broad insurer participation. The instability often blamed on "Obamacare" is concentrated in states that minimally implemented it. The framework is sound; the political will to operate it varies.
+- **A public option captures most single-payer gains at a fraction of the disruption.** Hacker's original idea — a Medicare-like plan competing inside the marketplaces, paying Medicare-anchored prices — would discipline private premiums and provide a guaranteed fallback without dissolving the employer coverage roughly 165 million people currently hold. CBO's design analysis (2021) confirms the mechanism: the question is payment rates and uptake, not feasibility. Washington, Colorado, and Nevada are running live state-level versions now.
 
-- **A public option (federally-run insurance plan competing in the Marketplace) would address most remaining concerns.** Hacker's earlier work on the public option, and several federal proposals since, would let Americans buy into a Medicare-like plan without abolishing employer coverage or private insurance. This captures most single-payer benefits (price negotiation power, administrative savings) while preserving the multi-payer architecture and the choice it provides.
+- **Transition risk is the under-priced variable.** Vermont's 2014 collapse and California's CalCare bill (AB 1400) — pulled in January 2022 without a floor vote in a legislature Democrats dominated — are what happens when the full financing switch from premiums to taxes is written down. Single-payer requires the largest peacetime fiscal swap in American history to go right the first time; incrementalism distributes the risk across many reversible steps. The same caution cuts against full marketization: no wealthy country runs healthcare on consumer shopping alone — even Singapore's celebrated savings-account system sits atop government-run catastrophic insurance, public hospitals, and administered prices.
 
-- **Single-payer's transition cost is being understated.** Even if the steady-state economics work, getting from here to there means dissolving the employer-based system that 156M people currently rely on, retraining the insurance workforce, and renegotiating provider compensation. The political backlash to these disruptions could undo the reform before it fully takes effect — see the difficulty of UK NHS waiting-list politics or the unpopularity of state-level single-payer attempts (Vermont 2014, California's repeated SB 562 failures).
+What would change this position? Evidence the framework has plateaued: if the coverage gap, underinsurance, and affordability worsen *despite* full funding of the ACA's tools, the incrementalist concedes the structural critics — one side or the other — have the better theory. The 2025–26 retrenchment (Lesson 3) is, uncomfortably for this camp, the live test: the framework is now being defunded faster than it is being completed.
 
-- **Market reforms have empirical limits in healthcare specifically.** The third-party-payer critique is real but partial: even in healthcare systems with high cost-sharing (Singapore), the government still operates the catastrophic-coverage backstop and sets reference prices. "Pure" market healthcare doesn't exist in any wealthy country — and the closest U.S. approximation, the pre-1965 era, had vastly worse coverage and outcomes than the post-Medicare U.S. has had since.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> All three perspectives claim Vermont 2014 as evidence. Reconstruct each side's reading in one sentence apiece.</summary>
+<p>Single-payer: Vermont proves only that a small state can't do this alone — no leverage over drug prices, easy cross-border exit for employers and providers — so the lesson is <em>federal or nothing</em>, not <em>never</em>. Market-reform: when advocates finally priced the tax swap honestly (11.5% payroll plus up to 9.5% income), voters' revealed preference killed it — the economics, not the politics, failed. Incrementalist: a governor with a mandate, a friendly legislature, and four years couldn't execute the transition — which is the transition-risk argument in miniature, and why reversible steps beat leaps.</p>
+</details>
 
-What evidence would change this position? A persuasive showing that incremental ACA expansion has plateaued — that the remaining uninsurance and underinsurance can't be addressed within the current framework, or that costs have grown unmanageable despite ACA cost-control mechanisms. Incrementalists concede this is possible and that the case for structural change strengthens if incremental progress stops.
+## Where the three cases actually disagree
+
+| | Single-payer | Market-reform | ACA incrementalist |
+| --- | --- | --- | --- |
+| Diagnosis of the cost gap | Fragmentation: no payer has leverage; admin overhead compounds | No prices, no shoppers: third-party payment plus supply-side moats | Mixed; solvable seam-by-seam within the framework |
+| Core prescription | One federal payer, monopsony prices | Catastrophic coverage + savings accounts; deregulate supply | Close the gap, restore subsidies, add a public option |
+| Favorite evidence | Himmelstein admin data; RAND drug-price ratios; Mercatus's own net-spending table | RAND HIE (30% less spending, average health unharmed); LASIK-style cash markets | Expansion mortality studies; record 24.3M marketplace enrollment; state public options |
+| Hardest evidence to explain | Vermont 2014 / CalCare 2022; wait-list politics abroad | RAND's bluntness (cut effective care too); Oregon's financial-protection gains; no pure-market peer exists | Oregon's physical-health nulls; 2026 defunding shows framework's political fragility |
+| What would falsify it | Single-payer peers underperform at scale | Enabled shoppers still can't discipline prices | Progress plateaus despite full funding |
+
+Use the last two rows as the discipline: a position you can't state the falsifier for is a mood, not a position.
 
 ## What's settled and what's contested
 
-**Settled (or near-settled):**
-- The U.S. spends roughly 2× peer per-capita and gets worse outcomes on most metrics (life expectancy, maternal mortality, infant mortality).
-- The cost gap is mostly a price gap, not a utilization gap (Anderson et al. 2019).
-- Medicaid expansion produces measurable mortality reductions (Sommers et al. 2017).
-- Insurance churn (people losing coverage when they switch jobs or income changes) is a unique-to-U.S. phenomenon among wealthy countries.
+**Settled (or near-settled):** The U.S. spends roughly double the peer average per person with worse average outcomes (Lesson 1's table). The cost gap is overwhelmingly a *price* gap, not a utilization gap (Anderson et al. 2019; RAND 2024). U.S. administrative costs are the rich world's highest (Himmelstein et al. 2014). Coverage reliably improves financial security and mental health and increases care use (Oregon); the best quasi-experimental evidence ties expansion to lower mortality (Sommers et al. 2017). Coverage churn at America's scale exists nowhere else among wealthy countries.
 
-**Genuinely contested:**
-- Whether multi-payer regulated systems (Germany, Netherlands) outperform single-payer systems (Canada, U.K.) at the policy-relevant margin.
-- Whether U.S. consumer cost-sharing experiments have been adequately tested (the RAND Health Insurance Experiment is old; recent HSA evidence is mixed).
-- The magnitude of the "U.S. funds global innovation" claim (the share is real, but the causal counterfactual is hard).
-- Whether single-payer transition costs would be politically absorbable.
+**Genuinely contested:** Whether regulated multi-payer systems (Germany, Netherlands, Switzerland) match single-payer performance at lower political cost — the international data don't cleanly separate them. Whether consumer cost-sharing has ever been tested *with* the price transparency and supply freedom reformers say it requires (RAND predates both). How much U.S. pricing actually drives global innovation — the revenue share is documented, the counterfactual is not. And whether a single-payer transition is politically absorbable anywhere in America after Vermont — advocates say the lesson is "go federal," skeptics say the lesson is "voters won't pay the sticker price."
 
-A defensible position picks one of the three frames, says why, and acknowledges what's contested. Lesson 3 turns to the policy landscape — what's on the table, where the political coalitions are, and where the next major change is most likely.
+A defensible position picks one of the three frames, says why, and names what's contested. Lesson 3 turns to the live landscape — what the 2025 reconciliation law and the 2026 subsidy expiration did, what's actually on the table in Congress and the states, and where the next fight is scheduled.

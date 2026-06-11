@@ -14,14 +14,15 @@ questions:
       - id: d
         text: Lobbyists registered with Congress
     correct_choice_id: c
-    explanation: Only a member of the House can formally introduce a bill there.
-      (Citizens, lobbyists, and the executive branch can draft text or pressure
-      a member, but the member has to introduce it.)
+    explanation: Only a member of the House can formally introduce a bill there, by
+      dropping it in the hopper. Citizens, lobbyists, and the executive branch can
+      draft text or press for it, but a member must put their name on it — and
+      revenue bills must start in the House under Article I §7.
     concepts:
       - legislative-process
   - id: q2-committee
     kind: multiple-choice
-    text: Roughly what fraction of bills introduced in a given Congress are
+    text: Roughly what share of the bills introduced in a given Congress are
       eventually enacted into law?
     choices:
       - id: a
@@ -33,25 +34,73 @@ questions:
       - id: d
         text: Almost all of them
     correct_choice_id: c
-    explanation: Most bills die in committee. Only a small fraction (typically 2–5%)
-      of bills introduced make it to enactment — Congress.gov publishes the
-      per-Congress numbers.
+    explanation: Across recent decades roughly 2–5% of introduced bills become law,
+      and the 118th Congress (2023–24) was starker still — more than 19,000
+      measures introduced, 274 public laws enacted, under 2%. Most die in
+      committee without a hearing or a vote, which is why committee is the
+      single deadliest kill point.
     concepts:
       - committee-system
       - legislative-process
-  - id: q3-veto
+  - id: q3-cloture
+    kind: multiple-choice
+    text: A bill has 55 committed supporters in the Senate; all 100 senators are
+      present, and the minority refuses to end debate. Under the rules as they
+      stand today, what happens?
+    choices:
+      - id: a
+        text: The bill passes — 55 votes is a majority
+      - id: b
+        text: The bill stalls — ending debate on legislation requires 60 votes,
+          unless the bill qualifies for budget reconciliation
+      - id: c
+        text: The Vice President breaks the deadlock with a tie-breaking vote
+      - id: d
+        text: Debate ends automatically after a fixed number of hours
+    correct_choice_id: b
+    explanation: Passage takes a simple majority, but reaching the passage vote
+      requires invoking cloture — 60 votes for legislation under Rule XXII since
+      1975. The simple-majority carve-outs created in 2013 and 2017 apply only to
+      nominations. Reconciliation bills are the main legislative exception, with
+      debate capped by statute. (The Vice President breaks ties, and 55–45 is not
+      a tie.)
+    concepts:
+      - filibuster
+      - cloture
+  - id: q4-discharge
+    kind: multiple-choice
+    text: A bill with broad public support sits in a House committee whose chair
+      refuses to act, and leadership won't schedule it. In November 2025, supporters
+      of the Epstein Files Transparency Act faced exactly this. What mechanism did
+      they use to force a floor vote?
+    choices:
+      - id: a
+        text: A discharge petition signed by 218 members — a majority of the House
+      - id: b
+        text: A two-thirds cloture vote in the House
+      - id: c
+        text: A presidential order moving the bill to the floor
+      - id: d
+        text: A Supreme Court order compelling the committee to report the bill
+    correct_choice_id: a
+    explanation: A discharge petition with 218 signatures — a House majority —
+      pries a bill out of committee regardless of the chair's or the Speaker's
+      wishes. It is rare because signing is public defiance of one's own
+      leadership, but in November 2025 the petition reached 218, the House passed
+      the bill 427–1, and it became law within days. Cloture is a Senate device,
+      and neither the President nor the courts can schedule House business.
+    concepts:
+      - committee-system
+      - legislative-process
+  - id: q5-veto
     kind: free-response
-    text: If the President vetoes a bill, what happens next? Walk through the steps
-      Congress can take to enact it anyway.
+    text: The President vetoes a major bill and returns it to Congress in the middle
+      of the session. Walk through what Congress can do to enact it anyway, the
+      vote thresholds involved, and why the same path would be unavailable if the
+      President had instead pocket-vetoed the bill after adjournment.
     concepts:
       - veto
       - veto-override
-  - id: q4-conference
-    kind: free-response
-    text: When the House and Senate pass different versions of the same bill, a
-      conference committee is sometimes used to reconcile them. In your own
-      words, what does a conference committee do, and why does the eventual
-      reconciled version still have to be re-passed by both chambers?
-    concepts:
-      - conference-committee
-      - legislative-process
+    socratic_seed: "Start with where the returned bill goes and what share of those
+      present and voting must support it in each chamber. Then ask: what exactly
+      would Congress be 'overriding' if no veto message ever came back?"

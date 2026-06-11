@@ -4,10 +4,12 @@ slug: the-strongest-cases
 kind: reading
 title: The strongest case for and against
 objectives:
-  - State the security-first case at its strongest
-  - State the access-first case at its strongest
-  - State the standards-based reformer case
-  - Identify what's empirically settled and what's contested in the fraud, turnout, and disparate-impact literatures
+  - State the security-first case at its strongest, including the real fraud cases it rests on
+  - State the access-first case at its strongest, including the denominators that anchor it
+  - State the standards-based reformer case, including the evidence that both sides overclaim
+  - Summarize the turnout-effects literature — Hajnal et al., its critics, and Cantoni & Pons — honestly
+  - Explain the Thompson et al. (2020) finding on mail voting's partisan neutrality and why it mattered
+  - Identify what is empirically settled and what remains genuinely contested
 concepts:
   - voter-id
   - mail-ballots
@@ -15,78 +17,111 @@ concepts:
   - disparate-impact
 sources:
   - type: paper
-    citation: 'Hopkins, D. J. (2020), "Voter Identification Laws and Their Effects: A Review," American Politics Research 48:5.'
+    citation: 'Highton, B. (2017), "Voter Identification Laws and Turnout in the United States," Annual Review of Political Science 20: 149–167 — the standard literature review.'
+    url: https://www.annualreviews.org/content/journals/10.1146/annurev-polisci-051215-022822
   - type: paper
     citation: 'Hajnal, Z., Lajevardi, N., & Nielson, L. (2017), "Voter Identification Laws and the Suppression of Minority Votes," Journal of Politics 79:2.'
+    url: https://www.journals.uchicago.edu/doi/10.1086/688343
   - type: paper
-    citation: 'Cantoni, E. & Pons, V. (2021), "Strict ID Laws Don''t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018," Quarterly Journal of Economics 136:4. (Finds smaller turnout effects than earlier work.)'
+    citation: 'Grimmer, J., Hersh, E., Meredith, M., Mummolo, J., & Nall, C. (2018), "Obstacles to Estimating Voter ID Laws'' Effect on Turnout," Journal of Politics 80:3 — the methodological critique of Hajnal et al.'
+    url: https://www.journals.uchicago.edu/doi/10.1086/696618
+  - type: paper
+    citation: 'Cantoni, E. & Pons, V. (2021), "Strict ID Laws Don''t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018," Quarterly Journal of Economics 136:4 — finds null average effects on turnout and on fraud.'
     url: https://academic.oup.com/qje/article/136/4/2615/6322014
+  - type: paper
+    citation: 'Thompson, D. M., Wu, J. A., Yoder, J., & Hall, A. B. (2020), "Universal Vote-by-Mail Has No Impact on Partisan Turnout or Vote Share," PNAS 117:25.'
+    url: https://www.pnas.org/doi/10.1073/pnas.2007249117
   - type: paper
     citation: 'Persily, N. (2007), "Election Administration in the United States," Election Law Journal 6:1. Standards-based framework.'
   - type: paper
     citation: 'GAO Report GAO-14-634 (2014).'
+    url: https://www.gao.gov/products/gao-14-634
   - type: book
     citation: 'Hasen, R. L. (2012), The Voting Wars, Yale University Press. Comprehensive overview.'
+  - type: pdf
+    citation: 'Commission on Federal Election Reform (Carter–Baker Commission), "Building Confidence in U.S. Elections" (Sept. 2005).'
+    url: https://www.eac.gov/sites/default/files/eac_assets/1/6/Exhibit%20M.PDF
+  - type: website
+    citation: 'Levitt, J., "A comprehensive investigation of voter impersonation finds 31 credible incidents out of one billion ballots cast," Washington Post Wonkblog (Aug. 6, 2014).'
+    url: https://www.washingtonpost.com/news/wonk/wp/2014/08/06/a-comprehensive-investigation-of-voter-impersonation-finds-31-credible-incidents-out-of-one-billion-ballots-cast/
+  - type: website
+    citation: 'The Heritage Foundation, Election Fraud Database — 1,567 proven instances as of the Dec. 2025 update; read with its denominator.'
+    url: https://electionfraud.heritage.org/
+  - type: website
+    citation: 'Gallup, "Americans Endorse Both Early Voting and Voter Verification" (Oct. 2024) — 84% favor photo-ID requirements.'
+    url: https://news.gallup.com/poll/652523/americans-endorse-early-voting-voter-verification.aspx
 perspectives:
   - name: Security-first advocate
   - name: Access-first advocate
   - name: Standards-based reformer
-duration_min: 9
+duration_min: 15
 ---
 
 # The strongest case for and against
 
-Three positions on what U.S. election administration should look like.
+In November 2018, North Carolina's 9th Congressional District appeared to elect Republican Mark Harris by 905 votes. Then the absentee numbers started looking wrong. In rural Bladen County, Harris had won 61 percent of mail ballots even though registered Republicans accounted for only 19 percent of the ballots returned — a statistical thumbprint that led investigators to a local operative named McCrae Dowless. His crew had collected blank and unsealed absentee ballots from voters by the hundred, filled in some, discarded others, and forged witness signatures, all for pay. The State Board of Elections, with bipartisan unanimity, refused to certify and ordered the only federal election re-do in modern American history; Dowless was indicted. Hold the episode up to the light and you can see every argument in this lesson at once: the fraud was real, organized, and outcome-scale — and it was *mail-ballot* fraud, the channel photo-ID laws do not touch; it was detected by the system's own statistics and stopped before a single illegitimate term was served; and the operative had worked, by his own account, in earlier cycles too, undetected. Security advocates, access advocates, and standards reformers all cite Bladen County. They are all entitled to. The work of this lesson is to state each position as its smartest adherent would — and to lay the empirical record under all three.
 
 ## 1. The security-first case
 
-Core argument: even small fraud rates matter for election legitimacy. ID requirements impose minimal costs on most voters and produce real (if marginal) reduction in fraud opportunities. Mail-ballot expansion has accelerated faster than security infrastructure has kept pace.
+**Core claim:** Elections must not only be honest but be *demonstrably* honest, because legitimacy — the loser's reasoned acceptance of defeat — is the whole point of voting. A system whose answer to fraud concerns is "trust us, it's rare" fails closest-election stress tests even if the trust is warranted. Verification rules like documentary ID are cheap insurance on the institution that underwrites everything else.
 
-- **Rule-of-law and election legitimacy.** Even 1,400 documented cases is 1,400 cases. The principle of secure elections matters independently of fraud rates. Elections that produce close results require systems people can trust without relying on "trust us, fraud is rare."
-- **The cost of voter-ID is low for most voters.** Most Americans have driver's licenses or other photo IDs. States that require ID generally provide free IDs to those who lack them. Cantoni & Pons (2021) found smaller turnout effects than earlier work suggested — at the population level, ID requirements may have minimal turnout impact.
-- **Mail ballots have specific risks.** Signature verification, ballot-harvesting (where third parties collect ballots from voters), and chain-of-custody concerns all matter. The fraud rate may be low overall but specific mail-ballot vulnerabilities exist that in-person voting doesn't have.
-- **Federalism and state authority.** Election administration is a state-and-local function. States that want to require ID or restrict mail ballots are exercising legitimate authority, and federal preemption is constitutionally limited.
-- **The Crawford precedent.** Indiana's photo-ID law was upheld by the Supreme Court (Crawford v. Marion County, 6-3) on the grounds that the state has legitimate interests in protecting election integrity, and that the burden on most voters is minimal.
+**Underlying value:** Institutional trustworthiness. The harm of fraud is not arithmetic but corrosive — one Bladen County licenses a million suspicions.
 
-What evidence would change this position? Persuasive evidence that the disenfranchising effects of ID and mail-ballot restrictions are large enough to clearly outweigh the (small) fraud-prevention benefits. Cantoni-Pons reduced this gap somewhat, but the Hajnal et al. work points the other direction.
+The case's foundation is older and more bipartisan than the current fight: the 2005 Carter–Baker Commission — co-chaired by a Democratic former president and a Republican former secretary of state — recommended a uniform photo-ID requirement (paired with free IDs and affirmative outreach), and warned in a much-quoted line that "absentee ballots remain the largest source of potential voter fraud." The proven cases cluster exactly where Carter–Baker predicted: Bladen County 2018; Paterson, New Jersey 2020, where a judge voided a city council race after roughly one in five mail ballots citywide were disqualified and a councilman was charged with fraud; Bridgeport, Connecticut 2023, where surveillance video of ballot-stuffing at drop boxes led a judge to order the mayoral primary re-run. In *Crawford v. Marion County* (2008), Justice Stevens — no conservative — wrote that "flagrant examples of such fraud" had been "documented throughout this Nation's history" and that a state's interest in deterrence and public confidence justified Indiana's photo rule even though, as he conceded, "the record contains no evidence of any such fraud actually occurring in Indiana at any time in its history." Deterrence, on this view, is not refuted by the rarity of the crime it deters; rarity is what successful deterrence looks like. And the public agrees across party lines in a way almost nothing else in American politics manages: 84 percent of Americans favored photo-ID requirements in Gallup's October 2024 survey. The strongest modern addendum: Cantoni and Pons's landmark 2021 study (below) found strict ID laws *don't reduce turnout* — which security advocates read as removing the disenfranchisement objection entirely.
+
+**The concession a serious security advocate makes:** The marquee policy and the documented threat are mismatched. Photo ID at the polls addresses in-person impersonation — the rarest documented fraud — while the genuinely documented vector is the mail channel, where ID laws do nothing and where the policy answers (envelope verification, chain-of-custody rules, harvesting limits, audits) are less politically galvanizing. And Cantoni–Pons cuts both ways: the same study found strict ID laws produced *no detectable reduction in fraud* and no improvement in voter confidence — insurance that, so far, has no measurable payout.
+
+**What would change this position:** Evidence that ID and mail-security rules impose concentrated, uncured disenfranchisement at magnitudes exceeding any plausible deterrence benefit — or sustained evidence that verification rules fail even to move public confidence, severing the legitimacy rationale from the policy.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A security-first advocate cites Bladen County to argue for a strict photo-ID law. What is the mismatch in that argument — and what policy would actually have addressed the Dowless operation?</summary>
+<p>Bladen County was <strong>absentee-ballot fraud</strong>: collection, completion, and forgery of mail ballots. A photo-ID requirement at polling places would not have touched it. The on-point responses are mail-channel controls — witness/signature verification, limits on third-party ballot collection, envelope tracking, and the statistical anomaly detection that actually caught Dowless. A careful security advocate cites Bladen for the general proposition that organized fraud happens, then matches remedies to vectors — and notes North Carolina <em>did</em> have ballot-collection limits on the books; Dowless broke them, and enforcement, not rules, was the gap.</p>
+</details>
 
 ## 2. The access-first case
 
-Core argument: documented voter fraud is extremely low, and the documented disenfranchisement from voter-ID and mail-ballot restrictions is substantially larger. The trade-off, on any reasonable accounting, favors access.
+**Core claim:** The measurable harm runs the other way. Documented fraud is vanishingly rare, while the burdens of documentary-ID and mail-restriction rules fall measurably and disproportionately on poor, Black, Latino, elderly, young, and disabled voters. Trading a real, distributionally skewed cost for a speculative benefit is bad policy arithmetic — and, given who bears the cost, [[term:voter-suppression]] in effect whatever its intent.
 
-- **The empirical fraud record is settled.** Brennan Center, Heritage Foundation, GAO — all find very low documented fraud rates. The 31 documented cases of voter impersonation in over 1 billion ballots is the relevant denominator. ID requirements address a problem that, in policy terms, is not the binding constraint on election integrity.
-- **Disparate impact is real.** Hajnal, Lajevardi & Nielson (2017) found ID requirements reduce minority turnout disproportionately. Cantoni-Pons disagrees on magnitudes; the literature is contested but not in zero. The combined effect — even at the smaller magnitudes — is enough to swing close elections.
-- **Cost of compliance falls disproportionately on disadvantaged populations.** Lower-income voters, elderly voters without recent driver's licenses, voters with disabilities, students with out-of-state IDs — all face higher barriers from strict ID requirements. The "free state ID" provisions often have practical barriers (DMV office hours, transportation, document requirements) that fall disproportionately on the same populations.
-- **Mail ballots increase turnout and don't increase fraud.** The 2020 election was the highest-turnout in American history (66.8% of voting-eligible population), driven heavily by mail ballots. Documented fraud was extraordinarily low. The system worked as designed.
-- **Restrictive measures have political timing.** Many state-level voter-ID and mail-ballot restrictions have been adopted shortly after losing elections, with disparate effects that favor the adopting party. The pattern suggests the goal is electoral advantage, not election integrity.
+**Underlying value:** The franchise is a right, not a privilege to be re-earned at a DMV counter. Rights analysis weighs burdens on the burdened, not averages across everyone.
 
-What evidence would change this position? Persuasive evidence that the fraud rates are higher than reported (uncovered by better forensic analysis), or that the disenfranchisement effects are smaller than claimed. The access-first position takes Cantoni-Pons seriously but argues that even smaller turnout effects are policy-significant given the small fraud rates.
+The denominators are the heart of the case. Justin Levitt's comprehensive trawl found **31 credible incidents of in-person impersonation — the crime photo ID prevents — out of more than 1 billion ballots cast from 2000 to 2014**. The Heritage Foundation's own fraud database, built to demonstrate the problem, recorded 1,567 proven instances as of its December 2025 update — *across all fraud types, all elections, and more than four decades*, a period spanning billions of ballots; as a rate it rounds to zero. An Associated Press canvass of every potential 2020 fraud case in the six states where the result was contested found fewer than 475, out of 25.5 million votes. Against that, the burden side has hard numbers: the GAO's 2014 review found ID-possession gaps concentrated among Black and young voters; the trial record in Texas's *Veasey* litigation found about 608,000 registered Texans lacked an ID acceptable under the 2011 law; and "free ID" provisions price in everything but the card — the birth certificate that costs money, the DMV two counties away with weekday hours, the name-mismatch problem that falls hardest on married women. Mail-ballot rejection supplies the quiet parallel: hundreds of thousands of ballots rejected each presidential cycle for technical envelope defects, at rates studies in Georgia and Florida found two to four times higher for young and nonwhite voters — [[term:disenfranchisement]] that requires no fraudster, only a signature an algorithm or clerk doesn't like.
+
+**The concession a serious access advocate makes:** The predicted turnout catastrophes keep failing to appear. The best-identified national study (Cantoni–Pons, below) finds average turnout effects statistically indistinguishable from zero, even for minority voters; 2020's record turnout arrived amid the very rules access advocates call suppressive; and Valentino and Neuner's *Political Psychology* work (2017) suggests one reason — anger at restrictive laws mobilizes affected communities, partially offsetting the burden. The honest reply is that averages are the wrong test: a null *mean* effect is compatible with real, concentrated harm to subgroups too small for national panels to resolve, offset by costly countermobilization that should not have to be paid; and close elections are decided at margins far smaller than the confidence intervals of any of these studies.
+
+**What would change this position:** Replicated evidence that ID possession is now near-universal across demographic groups and that cure processes catch rejected ballots equitably — or documented fraud at rates within an order of magnitude of the rejection rates the rules themselves produce.
+
+## The scholar's lens: what the evidence actually says
+
+The empirical literature is better than the public fight, and it embarrasses both sides a little. On **ID and turnout**, the famous alarm was Hajnal, Lajevardi, and Nielson (*Journal of Politics*, 2017), finding strict ID laws sharply depressed minority turnout. The next year, Grimmer, Hersh, Meredith, Mummolo, and Nall showed in the same journal that the result rested on survey data inaccuracies and fragile specifications — correct the errors, and one can recover positive, negative, or null effects at will. The heavyweight entry is Cantoni and Pons (*Quarterly Journal of Economics*, 2021): a panel of 1.6 billion voter-file observations, 2008–2018, exploiting staggered adoption, finding strict ID laws caused **no significant change in registration or turnout, overall or for any racial group — and no detectable reduction in fraud, and no improvement in confidence**. Benjamin Highton's survey of the field in the *Annual Review of Political Science* (2017) reads the methodologically strongest studies the same way: small-to-negligible average turnout effects — *and* no demonstrated security benefit. On **mail voting**, Thompson, Wu, Yoder, and Hall (*PNAS*, 2020) studied decades of staggered county rollouts in California, Utah, and Washington and found universal vote-by-mail raised overall turnout modestly — about two percentage points — and had **no effect on either party's vote share or turnout share**, a result the 2020 partisan war over mail ballots proceeded to ignore from both directions. The pattern across both literatures is the same and genuinely strange: the policies that occasion America's angriest election fights keep turning out, on the best evidence, to move very few votes in either direction.
+
+| Empirical question | What the best evidence says | Status |
+| --- | --- | --- |
+| How common is in-person impersonation? | About 31 credible cases per 1+ billion ballots (Levitt 2014) | Settled: vanishingly rare |
+| How common is mail-ballot fraud? | Rare but the dominant documented vector; real organized cases (NC-9 2018, Paterson 2020, Bridgeport 2023) | Settled in direction, contested in salience |
+| Do strict ID laws cut turnout? | Null average effects in the strongest design (Cantoni–Pons 2021); Hajnal et al.'s large effects undercut by Grimmer et al. | Contested at subgroup level; no large average effect |
+| Do ID laws cut fraud or raise confidence? | No detectable effect on either (Cantoni–Pons 2021) | Mostly null |
+| Does universal mail voting help one party? | No partisan effect; ~2-point overall turnout bump (Thompson et al. 2020) | Settled |
+| Are mail-ballot rejections distributed equally? | No — higher for first-time, young, and nonwhite voters (GA/FL studies) | Settled in direction |
+
+Read the table honestly and the deepest finding is reflexive: the *evidence* constrains the empirical claims, but the fight survives because it is not mostly empirical — it is about which error, wrongful exclusion or wrongful inclusion, a self-governing people should fear more.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Cantoni and Pons found strict ID laws have no significant effect on turnout — and no significant effect on fraud or confidence. Which side of the debate does this study help? Construct the strongest use of it for BOTH sides before answering.</summary>
+<p>Both, and therefore neither cleanly. Security-first: "the disenfranchisement objection is empirically bankrupt — the laws cost nothing, so the deterrence-and-legitimacy rationale stands unopposed." Access-first: "the laws also detect and deter nothing and don't even raise confidence — pure dead-weight burden imposed for theater, and null <em>averages</em> can hide concentrated harm." The study genuinely narrows the debate — catastrophic suppression and meaningful fraud reduction are both off the table — which relocates the argument from consequences to principles: who should bear administrative friction, and what legitimacy requires. That relocation is the standards-based reformer's opening.</p>
+</details>
 
 ## 3. The standards-based reformer case
 
-Core argument: both sides are partly right and partly overstate. The trade-off between security and access is real but addressable through better-designed standards. Uniform national standards — free voter IDs provided to all eligible voters, uniform mail-ballot rules, risk-limiting post-election audits — would combine security and access without favoring either side.
+**Core claim:** Both camps overclaim from thin evidence, and the binary is false. Security and access are engineering constraints to be jointly satisfied, not values to trade off: verify *identity* cheaply and universally (free, automatically issued ID; modern registration), verify *outcomes* statistically (risk-limiting audits of paper ballots, pioneered statewide by Colorado in 2017), and standardize the mail-ballot pipeline (uniform verification, notice, and cure) so that neither fraud nor wrongful rejection depends on county of residence.
 
-- **Both sides have empirical points.** Documented fraud is low; documented disenfranchisement is also real. The right policy minimizes both — it's not a zero-sum.
-- **Free, easy-to-obtain photo ID.** A federal-funded program providing free photo IDs to all eligible voters (with mobile DMV-equivalent units, easy document requirements, free transportation if needed) would address the access concerns of voter-ID. Several states do this; the implementation matters enormously.
-- **Risk-limiting audits.** Statistical post-election audits of paper ballots provide robust security without requiring ID at the voting stage. Colorado, Rhode Island, and others have implemented these. Universal adoption would address election-integrity concerns without disenfranchisement.
-- **Same-day or automatic registration + voter-ID requirement.** The standards-based reformer can support both. ID requirements solve real (if rare) impersonation concerns; same-day registration solves real registration-cutoff concerns. The two are not opposed.
-- **Mail-ballot standards.** Uniform national standards on mail-ballot security (signature verification, chain-of-custody, drop-box rules) would address security concerns while preserving access. The current state-by-state patchwork is the worst of both worlds.
-- **National standards require federal action.** This is the politically hard part. Both major parties have historically resisted federal intrusion into state election administration. The standards-based reformer position argues this resistance has produced suboptimal outcomes for everyone.
+**Underlying value:** Institutional design over moral combat. A rule that requires one tribe to lose the argument will never stabilize a system both tribes must trust.
 
-What evidence would change this position? Persuasive evidence that the standards-based middle ground is politically infeasible (one side or the other will reject it on principle), or that the implementation challenges of uniform federal standards outweigh the benefits.
+The reformer's exhibit A is Carter–Baker itself: the ID recommendation everyone quotes came *bundled* with universal free IDs, government-funded outreach to non-holders, and interoperable registration — the package, not the paywall. Their exhibit B is the trust data: confidence in elections now swings with which party lost more than with how elections are run — Republican confidence collapsed after 2020 while Democratic confidence rose, the mirror image of 2016 — which suggests rules alone cannot buy legitimacy, but visibly neutral, auditable *procedures* are the only available currency. Their exhibit C is the null-results literature above: if ID laws neither suppress nor secure at scale, both parties are spending enormous political capital relitigating a near-empty box, while the measures with demonstrable payoffs — paper trails, audits, cure processes, list-maintenance hygiene — go underfunded because neither base is angry about them.
 
-## What's settled and what's contested
+**The concession a serious reformer makes:** "Both sides should compromise" is itself a position with losers — national standards override [[term:federalism]] and fifty states' settled practice, and the assumption that distrust is *caused* by procedure (rather than by elite rhetoric about procedure) is, on the trust data, probably backwards. The grand bargain has been available since 2005, and nobody with power has ever bought it; a theory of politics that requires politicians to disarm their best mobilization issues should explain why they would.
 
-**Settled (or near-settled):**
-- Documented voter fraud is extremely low (well below 0.01% in any major elections).
-- Mail ballots increase turnout slightly.
-- Mail-ballot fraud rates are extremely low.
-- Most Americans have photo IDs (~85-90%), but coverage is significantly lower for some groups.
+**What would change this position:** Evidence that combined designs fail in practice — free-ID programs that still exclude at scale, audits that don't move measured trust — or continued proof that the bargain is politically unbuyable, at which point standards-talk is a description of a nicer world, not a program.
 
-**Genuinely contested:**
-- The magnitude of voter-ID's turnout effect (Hopkins, Hajnal et al. find larger effects; Cantoni-Pons finds smaller).
-- The political-economic motivation behind voter-ID legislation (election integrity vs. electoral advantage).
-- Whether mail-ballot security has scaled with adoption (security concerns are testable but contested).
-- The right balance between federal standards and state authority.
+## What this lesson is not
 
-A defensible position picks one of the three frames, says why, and acknowledges what's contested. Lesson 3 turns to current policy.
+It is not a verdict. The empirical record now in your hands — Levitt's denominator, Heritage's numerator honestly read, Bladen County's reality, Cantoni–Pons's double null, Thompson's partisan neutrality, the rejection-rate disparities — does real work: it rules out the cartoon versions of both major positions. What it cannot do is choose between wrongful-exclusion and wrongful-inclusion as the error to minimize, or say whether legitimacy is built by rules or merely narrated about them. Lesson 3 turns to what lawmakers and courts have actually done with that open question since 2020 — the statutes, the litigation, and the proof-of-citizenship fight that is live in Congress as of mid-2026.

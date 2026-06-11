@@ -7,88 +7,135 @@ objectives:
   - State the reform-advocate case at its strongest, including what evidence supports it
   - State the partisan-realist case at its strongest, including its core insight about institutional incentives
   - State the federalist case at its strongest, including the constitutional text it rests on
+  - Use the 2025–26 mid-decade redistricting war as evidence each perspective must explain
   - Identify which empirical claims are settled and which remain genuinely contested
 concepts:
   - gerrymandering
+  - redistricting
 sources:
   - type: paper
-    citation: 'Stephanopoulos, N. & McGhee, E. (2015), "Partisan Gerrymandering and the Efficiency Gap," U. Chi. L. Rev. 82.'
-    url: https://lawreview.uchicago.edu/sites/default/files/article_pdfs/Stephanopoulos_McGhee_2015.pdf
+    citation: 'Stephanopoulos, N. & McGhee, E. (2015), "Partisan Gerrymandering and the Efficiency Gap," U. Chi. L. Rev. 82: 831.'
+    url: https://chicagounbound.uchicago.edu/uclrev/vol82/iss2/4/
   - type: court-opinion
-    citation: 'Rucho v. Common Cause, 588 U.S. ___ (2019).'
+    citation: 'Rucho v. Common Cause, 588 U.S. 684 (2019).'
     url: https://www.supremecourt.gov/opinions/18pdf/18-422_9ol1.pdf
   - type: court-opinion
-    citation: 'Allen v. Milligan, 599 U.S. ___ (2023).'
+    citation: 'Allen v. Milligan, 599 U.S. 1 (2023).'
     url: https://www.supremecourt.gov/opinions/22pdf/21-1086_1co6.pdf
   - type: paper
     citation: 'Chen, J. & Rodden, J. (2013), "Unintentional Gerrymandering: Political Geography and Electoral Bias in Legislatures," Quarterly Journal of Political Science 8.'
     url: https://www.nowpublishers.com/article/Details/QJPS-12033
   - type: website
-    citation: 'Brennan Center for Justice, "The Impact of Independent Redistricting Commissions" (2018, updated 2023).'
-    url: https://www.brennancenter.org/our-work/research-reports/impact-redistricting-commissions
+    citation: 'Brennan Center for Justice, "Redistricting: A Mid-Cycle Assessment" (Jan. 19, 2022) — commission-drawn maps preserved competitiveness; one-party legislative maps sharply reduced it.'
+    url: https://www.brennancenter.org/our-work/research-reports/redistricting-mid-cycle-assessment
+  - type: court-opinion
+    citation: 'Arizona State Legislature v. Arizona Independent Redistricting Commission, 576 U.S. 787 (2015) — voters may move redistricting from the legislature to an independent commission by initiative.'
+    url: https://supreme.justia.com/cases/federal/us/576/787/
+  - type: paper
+    citation: 'Grofman, B. & King, G. (2007), "The Future of Partisan Symmetry as a Judicial Test for Partisan Gerrymandering after LULAC v. Perry," Election Law Journal 6:1.'
+  - type: website
+    citation: 'California Legislative Analyst''s Office, "Proposition 50" (2025 special election analysis).'
+    url: https://lao.ca.gov/BallotAnalysis/Proposition?number=50&year=2025
+  - type: website
+    citation: 'Texas Tribune, "Federal court blocks new Texas congressional map for 2026" (Nov. 18, 2025).'
+    url: https://www.texastribune.org/2025/11/18/texas-redistricting-ruling-lawsuit-el-paso-court-2026-midterms/
+  - type: website
+    citation: 'NPR, "Supreme Court lets Texas use gerrymandered map that could give GOP 5 more House seats" (Dec. 4, 2025).'
+    url: https://www.npr.org/2025/12/04/nx-s1-5619692/supreme-court-texas-redistricting-map
+  - type: website
+    citation: 'Ohio Capital Journal, "Ohio Redistricting Commission unanimously passes congressional map furthering GOP advantage" (Oct. 31, 2025).'
+    url: https://ohiocapitaljournal.com/2025/10/31/ohio-redistricting-commission-unanimously-passes-congressional-map-further-gop-advantage/
+  - type: website
+    citation: 'Utah News Dispatch, "Utah Supreme Court rejects Legislature''s redistricting appeal; court-ordered map still stands" (Feb. 20, 2026).'
+    url: https://utahnewsdispatch.com/2026/02/20/utah-supreme-court-rejects-legislature-redistricting-appeal-court-ordered-map-still-stands/
+  - type: website
+    citation: 'Indiana Capital Chronicle, "Senate Republicans reject Trump''s plea for gerrymandered maps" (Dec. 11, 2025).'
+    url: https://indianacapitalchronicle.com/2025/12/11/senate-republicans-reject-trumps-plea-for-gerrymandered-maps/
+  - type: website
+    citation: 'Virginia Mercury, "Supreme Court of Virginia strikes down redistricting amendment, keeps current maps in place" (May 8, 2026).'
+    url: https://virginiamercury.com/2026/05/08/supreme-court-of-virginia-strikes-down-redistricting-amendment-keeps-current-maps-in-place/
+  - type: website
+    citation: 'Missouri Independent, "Missouri Supreme Court upholds gerrymandered congressional map for August primary" (May 12, 2026).'
+    url: https://missouriindependent.com/2026/05/12/no-perfect-map-missouri-ags-office-defends-gerrymandered-congressional-districts/
 perspectives:
   - name: Reform advocate
   - name: Partisan-realist defender
   - name: Federalist (states-decide) view
-duration_min: 12
+duration_min: 14
 ---
 
 # The strongest case for and against
 
-This lesson presents three perspectives at their strongest. The goal is not to balance them as if all three are equally true; the goal is to make each version one its adherents would themselves endorse, so a learner can engage the position rather than a caricature.
+In August 2025, Texas's legislature redrew its congressional map four years early, in open pursuit of five additional Republican seats. Two months later, California's voters answered: Proposition 50 passed 63.9% to 36.1%, shelving the state's celebrated independent commission map and substituting a legislature-drawn counter-gerrymander worth roughly five Democratic seats. Missouri and North Carolina followed Texas; Ohio's bipartisan commission cut a 7–0 deal; Indiana's Republican senate refused the White House outright, 31–19. By the spring 2026 filing deadlines, the shape of the U.S. House battlefield had been redrawn between censuses, on purpose, by both parties. Every position in this lesson has to explain that season — and each one thinks it proves their point. The goal here is not to balance three views as if all were equally true; it is to state each as its smartest adherent would, so you can engage the position rather than a caricature.
 
 ## 1. The reform-advocate case
 
-**Core claim:** Partisan gerrymandering severs the connection between the popular vote and the seat distribution. When the party that wins fewer votes controls more seats — through line-drawing rather than persuasion — democratic legitimacy erodes.
+**Core claim:** Partisan [[term:gerrymandering]] severs the connection between votes and seats. When the party that wins fewer votes controls more seats — through line-drawing rather than persuasion — democratic accountability fails at the root, because the voters' one corrective instrument, the election, has been pre-rigged against correction.
 
-**Underlying value:** Procedural integrity. The point of elections is to translate preferences into representation. A process that produces systematically anti-majoritarian outcomes through the *rules* is not a process voters consented to; it's a structure imposed on them.
+**Underlying value:** Procedural integrity. Elections exist to translate preferences into representation; a process that systematically inverts that translation is not one voters consented to, whoever benefits this cycle.
 
-**Strongest evidence:**
-- Stephanopoulos & McGhee (2015) document efficiency-gap values exceeding 7% in several state legislatures — a threshold they argue produces durable partisan advantage outside the range that emerges from neutral line-drawing.
-- Brennan Center analysis (2023) finds that states using independent commissions show systematically lower partisan bias and higher competitiveness than states with legislator-drawn maps, controlling for political geography.
-- Specific cases: North Carolina 2016 maps produced a 10-3 Republican congressional delegation despite a roughly 50-50 popular vote; Maryland's 6th district was redrawn explicitly to flip a Republican seat to Democratic, by the admission of the state's then-governor.
+The evidence base is stronger than it was a decade ago. Stephanopoulos and McGhee's efficiency-gap work (Lesson 1) gave courts and journalists a common ruler; Wisconsin's 2011 assembly map — the *Whitford* trial record found an efficiency gap above 13% in 2012 and near 10% in 2014 — showed how durable a well-engineered advantage is, surviving wave elections in both directions. Intent, once deniable, is now routinely on the record: North Carolina's David Lewis announcing a "partisan advantage to 10 Republicans and three Democrats," Maryland's Martin O'Malley conceding under oath that flipping the 6th District "was certainly my hope, and it was part of my intent." And the institutional remedy has a track record: the Brennan Center's mid-cycle assessment of the 2021–22 maps found that commission-drawn plans largely preserved competitive districts and showed less partisan bias, while legislatures under one-party control sharply reduced competition. The Supreme Court held in *Arizona State Legislature v. AIRC* (2015), 5–4, that voters may take the pen away from legislators by [[term:ballot-initiative]] — Justice Ginsburg writing that the Elections Clause poses "no constitutional barrier to a State's empowerment of its people."
 
-**Concession:** The reform position has to grapple with the fact that "natural" gerrymandering — Democrats clustering in cities and inefficiently winning urban districts by 80% — does some of the work attributed to drawn maps (Chen & Rodden 2013). Reformers' best response is that this is precisely why proportional or multi-member methods matter: single-member districts are vulnerable to clustering whether or not lines are deliberately drawn.
+**The concession a serious reformer makes:** Chen and Rodden's "unintentional gerrymandering" finding — that Democrats' urban clustering produces pro-Republican maps even with no intent at all — means some of the asymmetry reformers decry is geography, not malice. The reformer's best response is that this strengthens, not weakens, the case for institutional design: if single-member districts mis-translate votes even when drawn honestly, the answer is honest drawing *plus* attention to seat-vote outcomes, not a shrug. And 2025 forced a harder concession: California reformers themselves suspended a model commission to fight a national map war, conceding that unilateral procedural virtue can amount to unilateral disarmament. Most reform advocates now argue the lesson is that only a *national* standard — congressional legislation under Article I, §4 — can stop the race to the bottom, because no state can safely stop alone.
 
-**Falsifying condition:** Evidence that independent-commission states produce outcomes statistically indistinguishable from legislator-drawn states once political geography is properly controlled — i.e., that the procedural fix doesn't actually change the substantive outcome.
+**What would falsify it:** Evidence that commission states' outcomes are statistically indistinguishable from legislature states' once geography is controlled — i.e., that the procedural fix changes who draws but not what gets drawn.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Proposition 50 suspended an independent commission's map by a 64% popular vote — to enact a deliberate partisan gerrymander. Which premise of the reform case does that complicate, and which does it actually illustrate?</summary>
+<p>It complicates the premise that commissions, once adopted, take redistricting out of partisan politics — California's voters re-politicized the map the moment the national stakes got high enough. But it illustrates the deeper reform premise: redistricting is a <em>collective-action problem</em>. Each state's reformers are safe only if rival states are also constrained, which is the argument for a uniform federal rule rather than state-by-state virtue. Note also what Prop 50 was not: it was a temporary, voter-approved override with a built-in return to the commission after the 2030 census — consent that the targeted-district voters in Texas or Missouri never gave.</p>
+</details>
 
 ## 2. The partisan-realist case
 
-**Core claim:** Redistricting has always been political and there is no neutral alternative. "Independent" commissions are political bodies whose composition reflects whichever set of incentives the legislators creating them found acceptable. The honest position is to acknowledge that the party in power draws the map, lose elections to lose that power, and stop pretending the rules can be removed from politics.
+**Core claim:** Redistricting has always been political, and there is no neutral alternative hiding behind better institutions. "Independent" commissions are political bodies one level removed — their membership rules, selection lotteries, and tie-breaking procedures were all negotiated by partisans who could count. The honest posture is to fight the map fight in the open, win elections, and stop pretending a distributive question has a technocratic answer.
 
-**Underlying value:** Realism about institutions. Pretending there's a "neutral" answer to an inherently distributive question hides the politics one level up — into the appointment of the supposedly neutral arbiters. Better to fight the fight in the open.
+**Underlying value:** Realism about institutions. Declaring an answer "neutral" doesn't remove the politics; it relocates the politics into the appointment of the neutrals, where voters can't see it.
 
-**Strongest evidence:**
-- The composition of "independent" commissions varies enormously: California's commission is selected through a multi-stage process designed to balance partisan registration; Arizona's was the subject of a 2015 SCOTUS case (*Arizona State Legislature v. Arizona Independent Redistricting Commission*) over whether the state legislature could be removed from the process at all. The "independence" is itself a political artifact.
-- *Rucho v. Common Cause* (2019), 5-4 majority opinion: Chief Justice Roberts argues that partisan gerrymandering claims present "political questions beyond the reach of the federal courts." The implicit position is that there is no judicially manageable standard for "fair," because fairness in this context is contested all the way down.
-- Historical practice: Madison and Hamilton both engaged in redistricting maneuvers in the 1790s. The framers did not assume — and did not design the Constitution to assume — that line-drawing would be apolitical.
+The realist's evidence starts at the Founding. The practice predates the republic's first decade: in 1788, Patrick Henry's allies in Virginia drew the congressional district of his rival James Madison to fold in Antifederalist counties and force him to face James Monroe — the gerrymander is literally older than the Bill of Rights, whose author had to out-campaign it. Chief Justice Roberts's *Rucho* majority (2019) supplies the doctrinal version: partisan-fairness claims "present political questions beyond the reach of the federal courts," because deciding how much partisan advantage is *too much* requires a baseline — proportionality? symmetry? competitiveness? — that the Constitution nowhere supplies. Grofman and King's partisan-symmetry standard, the efficiency gap, Wang's tests: to the realist these are rival definitions of fairness, and choosing among them is itself a political act. The 2025–26 wave is the realist's exhibit A. Texas redrew because it could; California's reform-celebrated electorate voted 64–36 to gerrymander right back; Ohio's "bipartisan" commission produced a 7–0 deal precisely because both parties preferred a negotiated 12–3-leaning map to a constitutional stalemate; and Indiana's senate killed a redraw not from principle but from a political judgment about backlash. Everyone behaved exactly as the realist predicts: maps follow power.
 
-**Concession:** The realist position has to grapple with the fact that *something* makes the public uneasy when efficiency-gap values get extreme — the sense that votes literally don't count. If the answer is just "lose more elections," it doesn't actually engage the procedural concern; it dismisses it.
+**The concession a serious realist makes:** "Lose elections to change the map" is circular when the map itself decides who wins elections — Wisconsin's assembly majority survived a statewide Democratic vote majority. A realist who says "mobilize harder" must concede that the mechanism of accountability they invoke is the very thing being rigged, and that public revulsion at extreme maps (the thing that passed Prop 4 in Utah and the commission initiatives in Michigan, Colorado, and Arizona) is itself a political force their theory has to respect rather than dismiss.
 
-**Falsifying condition:** A judicially manageable standard for "neutral" districting that survives empirical scrutiny across multiple election cycles and produces outcomes that voters across partisan lines accept as legitimate. The realist would have to admit: "OK, this works."
+**What would falsify it:** A fairness standard that proves judicially manageable across cycles *and* commands acceptance across party lines — outcomes voters of both parties treat as legitimate even when their side loses seats. If that existed and worked, "there is no neutral answer" would be false.
 
 ## 3. The federalist case
 
-**Core claim:** Article I, Section 4 of the Constitution explicitly assigns the regulation of "Times, Places and Manner" of holding congressional elections to "the Legislature of each State" — with a backstop role for Congress, never for the courts. Federal judicial intervention in redistricting is a separation-of-powers problem before it's a partisanship problem.
+**Core claim:** Article I, §4 assigns the "Times, Places and Manner" of congressional elections to "the Legislature of each State," with a revisory power in Congress — and no role for federal courts. Federal judicial map-policing is a separation-of-powers wrong even if gerrymandering is a civic wrong; the constitutional remedies are state politics and federal *legislation*, which the text actually authorizes.
 
-**Underlying value:** Textual fidelity to the constitutional design. The framers chose a federalism in which states would manage their own electoral arrangements. Substituting federal judicial judgment for state-legislative judgment is the kind of move the framers explicitly rejected.
+**Underlying value:** Fidelity to the constitutional allocation of power. The Framers placed election regulation with the most politically accountable bodies, subject to a national legislative check — not a judicial one.
 
-**Strongest evidence:**
-- The Elections Clause text: "The Times, Places and Manner of holding Elections for Senators and Representatives, shall be prescribed in each State by the Legislature thereof; but the Congress may at any time by Law make or alter such Regulations." Note the absence of any role for federal courts.
-- *Rucho* majority opinion is the cleanest articulation: even granting that gerrymandering is bad, federal courts lack a constitutional warrant to intervene in what is textually a legislative matter.
-- State-by-state experimentation: California, Michigan, and Colorado have all adopted commission-based redistricting via state-level processes. The federalist position welcomes this — the *correct* response to gerrymandering, on this view, is state political mobilization, not federal judicial fiat.
+The text is the evidence: "The Times, Places and Manner of holding Elections for Senators and Representatives, shall be prescribed in each State by the Legislature thereof; but the Congress may at any time by Law make or alter such Regulations." *Rucho* vindicated the judicial-restraint half of this reading. The state-laboratory half has 2025–26 evidence the federalist relishes: Ohio's voter-enacted constitutional process forced a bipartisan map without a single federal judge; Utah's *state* courts enforced the voters' Proposition 4 against their own legislature, producing a court-ordered map the Utah Supreme Court left standing in February 2026; California's voters exercised exactly the popular lawmaking power *AIRC* recognized — in both directions, creating the commission in 2008–10 and suspending it in 2025. The system the Framers built is visibly processing the conflict through state constitutions, initiatives, and Congress's untouched §4 power.
 
-**Concession:** The federalist position has to grapple with the *racial* vote-dilution cases (Section 2 VRA, *Allen v. Milligan* 2023). The 14th Amendment is federal; the courts can and have intervened on racial gerrymandering for sixty years. The federalist position usually responds by distinguishing partisan gerrymandering (no federal warrant) from racial gerrymandering (Reconstruction Amendments + VRA = explicit federal warrant). Whether that distinction holds under pressure is genuinely contested.
+**The concession a serious federalist makes:** The racial cases. The Reconstruction Amendments and the Voting Rights Act are *federal* law, and federal courts have policed racial districting for sixty years — so the clean "courts out of districting" position is unavailable; the defensible position is "courts out of *partisan* districting, in on racial districting," and the awkwardness is that the same map is usually both. *AIRC* itself is a second sore spot: four justices, including Roberts, read "the Legislature" to mean the legislature, not the initiative process — so the federalist's textualism cuts against the most successful state-level reform mechanism. And the 2025 Texas episode shows state-accountability logic failing inside a *national* prisoner's dilemma: Texans' map was answered not by Texans but by Californians.
 
-**Falsifying condition:** Evidence that state-level political processes are systematically incapable of correcting gerrymandering, *and* that no constitutional structure short of federal judicial intervention can address the problem. The federalist would have to admit: the framers' design produced an outcome they would themselves reject.
+**What would falsify it:** Sustained evidence that state-level processes cannot correct entrenchment — legislatures ignoring or repealing voter initiatives without consequence, state courts shut out — *and* that Congress is structurally incapable of using its §4 power. At that point "the constitutional design handles this" would be empirically false.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Utah's legislature repealed the voters' anti-gerrymandering initiative (Prop 4), drew its own map, and was overruled by Utah's courts enforcing the initiative — a saga ending in a court-ordered map in 2026. Which of the three perspectives can claim this episode as a win, and on what grounds?</summary>
+<p>All three try, which is what makes it a good test. The <strong>reformer</strong> claims it: neutral criteria, adopted by voters, ultimately bound the politicians. The <strong>federalist</strong> claims it: the correction ran entirely through <em>state</em> institutions — initiative, state constitution, state courts — with no federal judge involved, exactly the design working. The <strong>realist</strong> notes who litigated, who appealed, and that the "neutral" map's practical effect was a new Democratic-leaning Salt Lake County seat — politics relocated, not removed. Your judgment about which reading is most persuasive is close to your position on the whole issue.</p>
+</details>
+
+## The 2025–26 mid-decade war, in one table
+
+Mid-decade [[term:redistricting]] is not new (Texas did it in 2003, and the Supreme Court held in *LULAC v. Perry* (2006) that nothing in the Constitution forbids redrawing between censuses). What is new is the scale and explicitness of the 2025–26 round. The verified scoreboard, as of mid-2026:
+
+| State | What happened | Where it stands (mid-2026) |
+| --- | --- | --- |
+| Texas | Aug. 2025 legislature redrew mid-decade, targeting about 5 new GOP seats | In effect for 2026. A three-judge panel blocked it (Nov. 18, 2025, 2–1) as a likely racial gerrymander; the Supreme Court stayed that ruling (Dec. 4, 2025) and summarily reversed (Apr. 27, 2026) |
+| California | Prop 50 passed Nov. 4, 2025 (63.9%–36.1%): legislature's map replaces the commission's through 2030 | In effect for 2026; commission resumes after the 2030 census |
+| Missouri | Sept. 2025 special-session map targets the Kansas City-based 5th District | In effect for the Aug. 2026 primary (state supreme court, unanimous, May 12, 2026); a citizen veto referendum appears headed for the Nov. 2026 ballot, signature verification pending |
+| North Carolina | Oct. 2025 party-line redraw of the 1st District (from Trump+3 to roughly Trump+12 terrain), aiming at 11–3 | In effect for 2026 |
+| Ohio | Constitutionally required redraw; bipartisan commission adopted a map 7–0 (Oct. 31, 2025) tilting 12 of 15 seats Republican | In effect for 2026 |
+| Utah | State courts enforced voter-passed Prop 4; judge adopted plaintiffs' map with a Salt Lake County seat (Nov. 2025) | In effect; legislature's appeals rejected (Feb. 2026) |
+| Indiana | White House-backed redraw push | Dead: state senate voted it down 31–19 (Dec. 11, 2025), blocking action until at least 2027 |
+| Virginia | Democratic counter-redistricting amendment narrowly approved (52%–48%) in an Apr. 21, 2026 special referendum | Voided by the Virginia Supreme Court, 4–3 (May 8, 2026), for procedural defects in how it reached the ballot; U.S. Supreme Court declined to intervene (May 15); existing map stands |
+
+Read the table against the three perspectives and notice that it embarrasses each of them somewhere: reformers lost California's commission (temporarily) to their own side; realists must explain Indiana's refusal and Ohio's negotiated peace; federalists must explain why the "state laboratories" are conducting their experiments on other states' congressional delegations.
 
 ## What's actually settled
 
-For honesty about what's contested versus what's known:
+- **Settled:** Partisan gerrymandering exists, is often documented in the drawers' own words, and produces measurable, durable distortions in seat-vote relationships. Commission-drawn maps in the 2021 round showed less partisan bias than legislature-drawn ones. Mid-decade redrawing is legally available and now practiced by both parties.
+- **Contested empirically:** How much observed asymmetry is intent versus geography (the Chen–Rodden debate), and whether commissions' advantages survive the pressures Prop 50 revealed.
+- **Contested constitutionally:** Not whether federal courts will hear partisan claims (*Rucho* closed that), but how far state constitutions reach — and, after the 2026 *Callais* decision, how much of the racial-claim pathway survives. Lesson 3 takes that up.
+- **Contested normatively:** Whether procedural integrity or political realism better describes what elections are for — and whether "neutral rules" is a coherent category at all.
 
-- **Settled:** Partisan gerrymandering exists, is intentional, and produces measurable distortions in seat-vote relationships. Independent commissions, where adopted, reduce partisan bias.
-- **Contested empirically:** How much of observed partisan asymmetry is line-drawing versus political geography (Chen-Rodden debate, ongoing).
-- **Contested constitutionally:** Whether federal courts have any role under the existing text and amendments. *Rucho* settled federal partisan claims as non-justiciable in 2019; the legal landscape continues to evolve in state courts.
-- **Contested normatively:** Whether procedural integrity is more important than democratic responsiveness through elections, and whether "neutral" rules can ever be neutral.
-
-A learner who declares a position should pick a perspective, say what evidence supports it, and name what would change their mind. The next lesson — courts — gives concrete legal evidence to anchor that.
+A learner who declares a position should pick a perspective, say what evidence supports it, and name what would change their mind. The next lesson supplies the legal record to anchor it.

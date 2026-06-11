@@ -14,8 +14,12 @@ questions:
       - id: d
         text: Right to peaceably assemble
     correct_choice_id: c
-    explanation: The First Amendment covers religion, speech, press, assembly, and
-      petition. The right to bear arms is the Second Amendment.
+    explanation: The First Amendment packs five guarantees into one sentence —
+      religion (both non-establishment and free exercise), speech, press,
+      assembly, and petition. Arms-bearing is the Second Amendment. Worth
+      remembering that "first" reflects survival, not primacy — the amendment
+      was third on the list of twelve that Congress sent to the states in 1789;
+      the original first two failed (one of them later became the 27th).
     concepts:
       - first-amendment
       - second-amendment
@@ -32,23 +36,96 @@ questions:
       - id: d
         text: Double jeopardy
     correct_choice_id: c
-    explanation: The Fourth Amendment is the warrant / probable-cause amendment — it
-      sets the rules for when the government can search you or your stuff. Cruel
-      and unusual punishment is the Eighth; self-incrimination and double
-      jeopardy are the Fifth.
+    explanation: The Fourth is the search-and-seizure amendment — warrants,
+      probable cause, particularity. Cruel and unusual punishment is the
+      Eighth; self-incrimination and double jeopardy both live in the Fifth's
+      bundle of criminal-procedure protections. A useful sorting trick — the
+      Fourth governs how government investigates you, the Fifth and Sixth how
+      it prosecutes you, the Eighth how it punishes you.
     concepts:
       - fourth-amendment
-  - id: q3-anti-federalists
-    kind: free-response
-    text: Why did the Anti-Federalists insist on a Bill of Rights before they would
-      support ratification? What were they worried about?
+  - id: q3-incorporation-scenario
+    kind: multiple-choice
+    text: "In 2026, a state charges a defendant with a serious felony using a
+      prosecutor's 'information' instead of a grand-jury indictment. The
+      defendant objects that the Fifth Amendment guarantees a grand jury. A
+      court should rule that the state:"
+    choices:
+      - id: a
+        text: Violated the Fifth Amendment — all Bill of Rights protections have
+          applied to the states since the Fourteenth Amendment passed in 1868
+      - id: b
+        text: Violated the Fifth Amendment — grand juries were incorporated along
+          with the rest of the criminal-procedure rights in the 1960s
+      - id: c
+        text: Did nothing unconstitutional — the grand-jury clause is one of the few
+          Bill of Rights provisions never incorporated against the states
+      - id: d
+        text: Did nothing unconstitutional — the Fifth Amendment says nothing about
+          grand juries
+    correct_choice_id: c
+    explanation: Incorporation happened selectively, clause by clause, through the
+      Fourteenth Amendment's due-process clause — never wholesale in 1868
+      (choice a), and the 1960s wave took in counsel, juries, and the
+      exclusionary rule but pointedly not grand juries (choice b). Hurtado v.
+      California (1884) held the grand-jury requirement doesn't bind the
+      states, and it still doesn't — which is why many states charge felonies
+      by information. Choice (d) fails on the text — the grand-jury clause
+      opens the Fifth Amendment.
+    concepts:
+      - fifth-amendment
+      - incorporation-doctrine
+      - grand-jury
+  - id: q4-barron
+    kind: multiple-choice
+    text: "In 1850 — before the Fourteenth Amendment — a city government seizes a
+      merchant's land for a road and pays nothing. The merchant sues in federal
+      court under the Fifth Amendment's just-compensation clause. Under the law
+      of that era, he:"
+    choices:
+      - id: a
+        text: Wins — takings without compensation have violated the Fifth Amendment
+          since 1791
+      - id: b
+        text: Loses — under Barron v. Baltimore, the Bill of Rights restrained only
+          the federal government, so a city taking violated no federal
+          constitutional right
+      - id: c
+        text: Wins — but only because land is involved; other Bill of Rights claims
+          would fail
+      - id: d
+        text: Loses — because the Fifth Amendment applies only to criminal
+          prosecutions
+    correct_choice_id: b
+    explanation: This is John Barron's own fate generalized. Barron v. Baltimore
+      (1833) held that the first ten amendments limit only the federal
+      government — Marshall reasoned that where the framers meant to bind
+      states, they wrote 'No State shall.' Until the Fourteenth Amendment
+      (1868) and the incorporation cases that followed (beginning with takings
+      itself in 1897 and speech in Gitlow in 1925), a person wronged by state
+      or local government had no federal Bill of Rights claim at all. Choice
+      (d) confuses the Fifth's criminal clauses with its takings clause, which
+      is civil.
     concepts:
       - bill-of-rights
-  - id: q4-incorporation
-    kind: free-response
-    text: Originally, the Bill of Rights only restricted the federal government.
-      Today many of its protections also apply against state governments. In
-      your own words, what changed and why?
-    concepts:
       - incorporation-doctrine
       - due-process
+  - id: q5-anti-federalists
+    kind: free-response
+    text: The Constitution's defenders argued a bill of rights was unnecessary —
+      even dangerous. The Anti-Federalists refused to ratify without one. Who
+      had the better argument, judged from 2026? Use at least one piece of
+      later history as evidence for your side.
+    socratic_seed: Take Hamilton's Federalist 84 seriously before answering — if
+      the federal government has only enumerated powers, what work does a
+      rights list do, and what risk does writing one create? Then test his
+      prediction against the record — did enumerating rights imply broader
+      federal power, or did the Ninth and Tenth Amendments successfully defuse
+      that? Consider Barron — for its first 77 years the Bill of Rights didn't
+      bind the states at all; does that history strengthen the Anti-Federalist
+      case or weaken it? Would judges in 1925 or 1963 have had the tools to
+      protect speech or guarantee counsel without a written list to
+      incorporate?
+    concepts:
+      - bill-of-rights
+      - incorporation-doctrine

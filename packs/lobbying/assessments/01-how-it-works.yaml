@@ -3,54 +3,70 @@ lesson: how-it-works
 questions:
   - id: q1
     kind: multiple-choice
-    text: "Under the Lobbying Disclosure Act, who must register as a lobbyist?"
+    text: "A consultant is paid $50,000 per quarter by a defense contractor. She makes a dozen calls to Pentagon officials about a procurement rule, and the work takes about a third of her time. Her colleague at the same firm is paid the same amount, advises the same client on exactly whom to call and what to say — but makes no calls himself and spends 10% of his time on the account. Under the Lobbying Disclosure Act, who must register?"
     choices:
       - id: a
-        text: "Anyone who contacts a member of Congress."
+        text: "Both — they are paid to influence federal policy for a client."
       - id: b
-        text: "Anyone paid by a client to advocate for that client's position to government officials, who spends at least 20% of their time on such advocacy and has more than one lobbying contact per quarter."
+        text: "Only the consultant: she is paid, makes more than one lobbying contact, and exceeds the 20% time threshold. Her colleague makes no contacts and is under the threshold, so he is a legally invisible 'shadow lobbyist.'"
       - id: c
-        text: "Anyone employed by an interest group."
+        text: "Neither — defense procurement advice is exempt from the LDA."
       - id: d
-        text: "Only attorneys representing clients before the federal government."
+        text: "Only the colleague: strategic advice is the activity the LDA was written to capture."
     correct_choice_id: b
-    explanation: "The 20% time threshold + paid + multiple contacts is the LDA's registration trigger. This means many activities that look like lobbying — strategic advice without direct contact, coalition-building, issue advocacy through op-eds — don't fall under registration requirements. Total spending on policy influence is significantly larger than registered lobbying spending captures."
+    explanation: "LDA registration requires all three elements: compensation, more than one lobbying contact, and at least 20% of time for that client in the quarter. The consultant meets all three. The colleague fails two — no contacts, under 20% — so his lobbying-shaped work never appears in any disclosure. LaPira and Thomas estimate roughly half the policy-influence workforce sits on his side of the line, which is why disclosed totals (a record $5.08 billion in 2025) are a floor, not a measurement."
     concepts: [lobbying, lobbying-disclosure-act]
 
   - id: q2
     kind: multiple-choice
-    text: "What is the 'revolving door' in U.S. lobbying?"
+    text: "Where does the word 'lobbyist' actually come from?"
     choices:
       - id: a
-        text: "A new disclosure requirement under the LDA."
+        text: "President Grant coined it for the favor-seekers who ambushed him in the lobby of the Willard Hotel."
       - id: b
-        text: "The flow of personnel between government service and lobbying — ~50% of senators leaving office become lobbyists or lobbying-adjacent; salaries in private practice are typically 5-10× government salaries."
+        text: "It derives from the 'lobby' where petitioners waited outside legislative chambers — American papers used 'lobby member' as early as 1817 and 'lobbying' by the 1820s, decades before Grant's presidency."
       - id: c
-        text: "A judicial doctrine limiting executive ethics rules."
+        text: "It was introduced by the Lobbying Disclosure Act of 1995 as a legal term of art."
       - id: d
-        text: "A FARA term for foreign-influence activities."
+        text: "It originated as a slur for foreign agents during the First World War."
     correct_choice_id: b
-    explanation: "The revolving door describes the flow of personnel between government service and lobbying. Cooling-off periods (1-2 years for direct lobbying contacts) limit immediate post-government activity but don't bar advising clients, contact with the other chamber, or hiring by lobbying firms. The pattern is structural — government gives policy expertise that lobbying firms value, with salary differentials of 5-10×."
-    concepts: [lobbying, revolving-door]
+    explanation: "The Willard Hotel story is Washington's favorite false etymology. The term grew out of the literal lobby outside legislative chambers — usage traces to Westminster centuries earlier, and American newspapers were applying 'lobby member' to influence-peddlers in Albany by 1817. The takeaway is more than trivia: paid petitioning predates and outlasts any one era's scandals, which is why the constitutional anchor is the First Amendment's petition clause rather than any statute."
+    concepts: [lobbying]
 
   - id: q3
     kind: multiple-choice
-    text: "What does Hall & Wayman (1990) and similar lobbying-effectiveness research generally show?"
+    text: "HLOGA (2007) doubled the Senate's post-employment 'cooling-off' period. A former senator in month six of that period may legally do which of the following for a paying client?"
     choices:
       - id: a
-        text: "Lobbying has no measurable effect on policy outcomes."
+        text: "Call her former colleagues on the Senate floor, since the ban covers only committee staff."
       - id: b
-        text: "Lobbying primarily flips floor votes on major bills."
+        text: "Nothing related to policy — the cooling-off period is a total ban on influence work."
       - id: c
-        text: "Lobbying is more effective at shaping bill content (technical amendments, exemptions, regulatory details) than at flipping floor votes — the action is in markup, not the final vote."
+        text: "Plan strategy, supervise the firm's other lobbyists, and decide exactly whom they should call — so long as she makes no lobbying contacts herself."
       - id: d
-        text: "Lobbying is uniformly ineffective in modern politics."
+        text: "Lobby the House but not the Senate, since each chamber's ban covers only itself."
     correct_choice_id: c
-    explanation: "Hall & Wayman and successors document that lobbying does affect policy outcomes, but in a specific way: it's much more effective at shaping bill content during markup (technical amendments, special-interest provisions, regulatory details) than at flipping floor votes on major bills. This matters for understanding what lobbying actually does — it's less about big public confrontations and more about quiet, technical work in committee."
-    concepts: [lobbying]
+    explanation: "The 2-year Senate ban (1 year for House members) under 18 U.S.C. §207 prohibits the former senator's own lobbying contacts with anyone in Congress — both chambers, members and staff. But it does not prohibit advising, strategizing, or supervising others' contacts. That gap between 'contact' and 'influence' is why critics call cooling-off periods a speed bump, and why restriction-first reformers propose 5-year or lifetime bans."
+    concepts: [lobbying, revolving-door, hloga]
 
   - id: q4
+    kind: multiple-choice
+    text: "What did Hall & Wayman (1990) and the broader lobbying-effectiveness literature find about what moneyed interests actually get for their effort?"
+    choices:
+      - id: a
+        text: "Money reliably flips floor votes on major, high-visibility bills."
+      - id: b
+        text: "Money mobilizes friendly legislators' effort — showing up, offering amendments, working the markup — so influence concentrates in bill content and committee detail rather than roll-call outcomes."
+      - id: c
+        text: "Lobbying has no detectable effect on any stage of the process."
+      - id: d
+        text: "Lobbying works only when paired with explicit campaign-contribution promises."
+    correct_choice_id: b
+    explanation: "Hall & Wayman's 'Buying Time' found that money and lobbying buy legislative effort from allies, not votes from opponents — the action is in markup, technical amendments, and exemptions. This squares with Baumgartner et al.'s later finding that resources explain under 5% of outcome variance: the visible floor fight is the wrong place to look. If you want to find lobbying's fingerprints, read the bill text, not the vote tally."
+    concepts: [lobbying]
+
+  - id: q5
     kind: free-response
-    text: "The transparency-only advocate and the restriction-first reformer disagree about whether disclosure alone is sufficient. State the strongest version of each."
-    socratic_seed: "Transparency-only: lobbying is First Amendment-protected petition activity; restrictions face strict scrutiny; the right policy is robust disclosure plus enforcement so voters can evaluate legislators by the lobbying contacts they have. Restriction-first: structural dependence corruption (Lessig framework) operates even with disclosure; the 30:1 asymmetry between business and public-interest lobbying produces systematically tilted policy outcomes that disclosure doesn't address. Both sides agree disclosure is necessary; they disagree about whether it's sufficient or whether deeper restrictions are also required."
-    concepts: [lobbying, first-amendment]
+    text: "Disclosed federal lobbying hit $5.08 billion in 2025, yet business interests outspend labor and public-interest groups roughly 34 to 1, and Baumgartner's team found the better-resourced side barely wins more often. Using Olson and Schattschneider, explain how all three facts fit together."
+    socratic_seed: "Olson's Logic of Collective Action explains the 34:1 asymmetry: concentrated interests (firms, trade associations) organize cheaply because each member's stake is large; diffuse interests (consumers, taxpayers) free-ride, so they barely appear in the pressure system regardless of how big their aggregate stake is. Schattschneider's 'heavenly chorus with the upper-class accent' names the resulting bias in who is heard at all. Baumgartner's outcome finding is compatible because outcomes are measured among issues that surfaced — agenda-setting bias and a 60% status-quo rate mean the asymmetry can operate upstream (what gets proposed, what never does, what existing policy already encodes) even while money predicts little among live fights. Strong answers distinguish outcome influence from agenda influence and note that the status quo itself embeds past organized-interest wins."
+    concepts: [lobbying]

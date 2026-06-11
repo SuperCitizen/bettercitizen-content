@@ -13,6 +13,9 @@ concepts:
   - revolving-door
   - lobbying-disclosure-act
   - fara
+  - lobbyist
+  - think-tank
+  - astroturfing
 sources:
   - type: statute
     citation: 'Lobbying Disclosure Act of 1995, 2 U.S.C. §§1601-1614 (as amended).'
@@ -33,90 +36,150 @@ sources:
     citation: 'Drutman, L. (2015), The Business of America Is Lobbying, Oxford University Press.'
   - type: paper
     citation: 'Hall, R. L. & Wayman, F. W. (1990), "Buying Time: Moneyed Interests and the Mobilization of Bias in Congressional Committees," American Political Science Review 84:3.'
+  - type: website
+    citation: 'U.S. Senate, "Lobbying Disclosure Act Registration Thresholds" — the inflation-indexed thresholds effective January 1, 2025 ($3,500 firm income / $16,000 organization expenses per quarter).'
+    url: https://www.senate.gov/legislative/Public_Disclosure/new_thresholds.htm
+  - type: website
+    citation: 'Office of the Clerk, U.S. House of Representatives, "Lobbying Disclosure" — official registration and reporting guidance.'
+    url: https://lobbyingdisclosure.house.gov/
+  - type: website
+    citation: 'Merriam-Webster, "The Origins of ''Lobbyist''" — documents pre-Grant usage and debunks the Willard Hotel story.'
+    url: https://www.merriam-webster.com/wordplay/the-origins-of-lobbyist
+  - type: website
+    citation: 'U.S. House of Representatives, Office of the Historian, "Lobbying in the Lobby" (2015) — early-19th-century usage of "lobby-agent" and "lobby member."'
+    url: https://history.house.gov/Blog/2015/January/01-21-Lobby/
+  - type: website
+    citation: 'U.S. Department of Justice, press release, "Former Lobbyist Jack Abramoff Pleads Guilty to Charges Involving Corruption, Fraud Conspiracy, and Tax Evasion" (Jan. 3, 2006).'
+    url: https://www.justice.gov/archive/opa/pr/2006/January/06_crm_002.html
+  - type: statute
+    citation: '18 U.S.C. §207 — post-employment ("revolving door") restrictions, including the 2-year Senate and 1-year House cooling-off periods.'
+    url: https://www.law.cornell.edu/uscode/text/18/207
+  - type: website
+    citation: 'OpenSecrets News, "Federal lobbying set new record in 2024" (Feb. 2025) — the $4.4 billion total and top-spender figures.'
+    url: https://www.opensecrets.org/news/2025/02/federal-lobbying-set-new-record-in-2024/
+  - type: website
+    citation: 'OpenSecrets News, "Lobbying firms took in a record $5 billion in 2025" (Jan. 2026) — the $5.08 billion 2025 total and organization counts.'
+    url: https://www.opensecrets.org/news/2026/01/lobbying-firms-took-in-a-record-5-billion-in-2025/
+  - type: book
+    citation: 'LaPira, T. M. & Thomas, H. F. (2017), Revolving Door Lobbying: Public Service, Private Influence, and the Unequal Representation of Interests, University Press of Kansas.'
+  - type: book
+    citation: 'Olson, M. (1965), The Logic of Collective Action: Public Goods and the Theory of Groups, Harvard University Press.'
+  - type: book
+    citation: 'Schattschneider, E. E. (1960), The Semisovereign People: A Realist''s View of Democracy in America, Holt, Rinehart and Winston.'
+  - type: website
+    citation: 'Public Citizen, "Revolving Congress" (2019) — post-Congress employment of members of the 115th Congress.'
+    url: https://www.citizen.org/article/revolving-congress/
 perspectives:
   - name: Restriction-first reformer
   - name: Transparency-only advocate
   - name: Structural-reform centrist
-duration_min: 8
+duration_min: 12
 ---
 
 # How U.S. lobbying actually works
 
-Lobbying is constitutionally protected — the First Amendment's "petition" clause includes the right to petition the government for redress of grievances. But the modern lobbying apparatus is far larger and more concentrated than the Founders contemplated. Start with the structure.
+There is a story Washington loves to tell about itself. President Ulysses S. Grant, the tale goes, liked to escape the White House for a cigar and brandy in the lobby of the Willard Hotel, where favor-seekers would swarm him — and Grant, irritated, branded them "those damn lobbyists." It's a perfect origin myth: vivid, cynical, set two blocks from the White House. It is also false. Newspapers were calling William Irving a "lobby member" of the New York legislature in 1817, "lobbying" appears in American print by the 1820s — decades before Grant's presidency — and lexicographers trace the parliamentary "lobby" itself to seventeenth-century Westminster. The men working the lobby of the state capitol in Albany were a fixture of American politics before Grant was born. That's worth knowing for more than trivia: lobbying is not a modern corruption of the system. Petitioning the government — including paying someone skilled to petition for you — is as old as the Republic and is protected by the [[term:first-amendment]]'s petition clause. What *is* new is the scale, the professionalization, and the asymmetry of the modern apparatus. Start with the machinery.
 
-## What "lobbying" actually means under federal law
+## What "lobbying" means under federal law
 
-The Lobbying Disclosure Act of 1995 (LDA) defines a "lobbyist" as someone who:
-- Is paid by a client to advocate for that client's position to government officials.
-- Spends at least 20% of their time on such advocacy.
-- Has more than one lobbying contact during a quarter.
+The Lobbying Disclosure Act of 1995 (LDA) is the foundation of the federal regime, and its definitions are narrower than everyday usage. Under the LDA, a "[[term:lobbyist]]" is someone who (1) is paid by a client or employer, (2) makes more than one "lobbying contact" — a communication to a covered legislative or executive official about policy, legislation, or nominations — and (3) spends at least 20 percent of their time for that client on lobbying activity over a quarter. Registration also has dollar floors, indexed to inflation every four years: as of January 1, 2025, a lobbying firm must register for a client once income from that client exceeds $3,500 in a quarter, and an organization with in-house lobbyists must register once its quarterly lobbying expenses exceed $16,000. Registrants file quarterly reports disclosing clients, issues, the chambers and agencies contacted, and money spent.
 
-Anyone meeting these criteria must register and disclose their clients, spending, and the issues they're working on. Clients who pay $14,000+ in a quarter for lobbying must also be disclosed.
+Read those elements again, because each one is a door out of the disclosure system. Stay under 20 percent of your time per client and you are a "strategic adviser," not a lobbyist. Make one contact instead of two, or none at all — running coalition strategy, drafting testimony for others to deliver, placing op-eds, mobilizing grassroots (or manufactured-grassroots [[term:astroturfing]]) campaigns — and nothing triggers registration. Political scientists Timothy LaPira and Herschel Thomas sampled Washington's influence-industry directories against LDA filings and concluded that roughly *half* of the people working in federal policy advocacy in 2012 were unregistered — "shadow lobbyists" doing lobbying-shaped work outside the disclosure regime. High-profile figures have openly exploited the line: after leaving Congress, former Speaker Newt Gingrich earned handsome fees from health-care and housing clients as a "strategic consultant" without ever registering. So treat every disclosed number that follows as a *floor*. The visible industry is the part that chose to be visible.
 
-Crucially, this definition is narrower than common usage. Many activities that look like lobbying don't fall under LDA registration requirements:
-- **Strategic advice** to a client about how to influence policy without direct contact with officials.
-- **Coalition-building** that doesn't involve direct contact with covered officials.
-- **Issue advocacy** through press releases, op-eds, or social media.
-- **Below the 20% time threshold** — many corporate executives and consultants spend significant time on policy without crossing the threshold.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A former Senate staffer is paid $40,000 a quarter by a pharmaceutical company. She spends 15% of her time advising the company's executives on whom to call and what to say, and she personally makes no calls to officials. Must she register under the LDA?</summary>
+<p><strong>No.</strong> She fails two of the three elements: she makes no lobbying contacts (the statute requires more than one) and she is under the 20% time threshold. Her work is "lobbying activity" in the ordinary sense, but it is legally invisible — which is exactly the "shadow lobbying" gap LaPira and Thomas estimate covers about half the influence industry.</p>
+</details>
 
-The result: registered lobbying spending (~$4B/year federal) is the visible part. Total spending on policy influence is significantly larger.
+## The major laws, and the scandal that produced the newest one
 
-## The major laws
+Three statutes plus chamber ethics rules form the skeleton:
 
-**Lobbying Disclosure Act of 1995** (foundational). Required registration and quarterly reporting of clients, spending, issues, and meetings.
+**The Lobbying Disclosure Act (1995)** replaced the toothless Federal Regulation of Lobbying Act of 1946, which the Supreme Court had saved from a First Amendment challenge in *United States v. Harriss* (1954) only by construing it nearly into irrelevance. The LDA built the modern registration-and-reporting system described above.
 
-**Honest Leadership and Open Government Act of 2007** (HLOGA). Strengthened LDA: more frequent reporting, stricter post-employment restrictions for former officials (the "cooling-off period"), bans on gifts and meals from registered lobbyists, increased penalties.
+**The Honest Leadership and Open Government Act (2007)** is what a scandal looks like when it becomes statute. Jack Abramoff, the most lucrative lobbyist of his era, pleaded guilty on January 3, 2006, to conspiracy, honest-services fraud, and tax evasion; he and his partner Michael Scanlon had charged Native American tribal casino clients tens of millions of dollars — upwards of $66 million, by the Senate Indian Affairs Committee's accounting — while secretly splitting kickbacks and showering officials with trips, meals, and skybox tickets. A sitting House member, Bob Ney of Ohio, went to prison. Congress responded with HLOGA: quarterly instead of semiannual reports, a new ban on gifts and meals from registered lobbyists to members and staff, disclosure of lobbyist campaign-contribution bundling, and — most structurally — a longer "cooling-off" period, doubling the Senate's post-employment ban to two years.
 
-**Foreign Agents Registration Act of 1938** (FARA). Requires registration by anyone acting on behalf of a foreign government or political party. Stricter than LDA in some respects (broader definition of covered activities) but historically under-enforced.
+**The Foreign Agents Registration Act (1938)**, passed amid worry about Nazi propaganda, requires anyone doing political work for a foreign government or party to register with the Justice Department and disclose far more than the LDA demands — including copies of the "informational materials" they distribute. FARA sat nearly dormant for decades (criminal prosecutions were rare into the 2010s), then roared back when special-counsel investigations after 2016 produced FARA charges against figures like Paul Manafort. Enforcement, not statutory text, is FARA's perennial question.
 
-**Various ethics rules** (House and Senate ethics rules, executive-branch ethics rules, ABA model rules for attorney-lobbyists). Prohibit certain gifts, structure post-employment restrictions, govern conflicts of interest.
+Around the statutes sit House and Senate ethics rules and a stack of executive-branch regimes — each administration since Clinton's has imposed its own ethics pledge on appointees by executive order, a moving target Lesson 3 takes up.
 
-## The "revolving door"
+## The revolving door
 
-The flow of personnel between government service and lobbying — sometimes called the "revolving door" — has accelerated since the 1970s:
+The most studied structural feature of the industry is the flow of people between government and influence work. The legal restraints are real but narrow, set by 18 U.S.C. §207: former senators may not make lobbying contacts with *anyone* in Congress for two years; former House members face a one-year ban; senior executive-branch officials face one- or two-year bans on contacting their former agencies. Note what the bans do not touch — a former member can immediately *advise* clients, supervise other lobbyists, strategize, and fundraise. The cooling-off period chills the phone call, not the career.
 
-- ~50% of senators leaving office become lobbyists (or work in lobbying-adjacent roles).
-- ~40% of representatives leaving office become lobbyists.
-- ~600+ executive-branch officials per year transition to lobbying or related work.
+The careers happen anyway, at scale. Public Citizen tracked the members who left Congress after the 115th Congress (2017–2019) and found that of those who took jobs outside government and politics, 59 percent landed at lobbying firms, consulting shops, or trade associations — the influence business. OpenSecrets' revolving-door database lists more than 450 former members of Congress who have made the move, and LaPira and Thomas found that about 52 percent of registered lobbyists in their sample had prior federal experience, most of it congressional. The economics are straightforward: a member's salary is $174,000, and what a former member sells on K Street — procedural fluency, committee relationships, the ability to get a meeting — commands multiples of that. Political scientists' interpretation of *what exactly is being sold* matters enormously to the reform debate: studies of lobbyist earnings find that revolvers' fees drop sharply when their old boss leaves office, suggesting the asset is *access to specific people*, not just expertise.
 
-The "cooling-off period" rules limit direct lobbying contacts:
-- Former senators: 2-year ban on lobbying contacts with the entire Senate.
-- Former representatives: 1-year ban on lobbying contacts with the House.
-- Former senior executive-branch officials: 1-year bans on contacts with their agencies.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Senator X retires in January 2027 and joins a lobbying firm in February. Which of these may she legally do that spring: (a) call her former chief of staff, now a committee staff director, about a client's bill; (b) coach the firm's junior lobbyists on exactly whom to call and what to say?</summary>
+<p>Only (b). The two-year Senate cooling-off period (18 U.S.C. §207, extended by HLOGA in 2007) bars her own lobbying <em>contacts</em> with all of Congress until 2029 — but it does not bar strategic advice, supervision, or planning. This is why critics call the cooling-off period a speed bump rather than a wall, and why reformers focus on the gap between "contact" and "influence."</p>
+</details>
 
-But these restrictions are narrow:
-- They don't bar advising clients on lobbying.
-- They don't bar contact with the other chamber.
-- They don't apply to firms that hire former officials.
-- Enforcement is inconsistent.
+## Following the money
 
-The political economy: legislators and senior staff have policy expertise + relationships that lobbying clients value. Their salaries in private practice are typically 5-10× their government salaries. The pipeline from government to lobbying is structural, not occasional.
+The disclosed numbers, with the shadow-lobbying caveat attached: registered federal lobbying spending hit a record $4.4 billion in 2024, then jumped to $5.08 billion in 2025 — the first year over $5 billion, an 11 percent increase over 2024 even after inflation — with 15,768 organizations reporting lobbying activity. For perspective, disclosed spending was about $1.5 billion in 1998, the first full year of comparable data. Some 13,007 registered lobbyists were active in 2024 — the most in over a decade, roughly 24 for every member of Congress, before counting the shadows.
 
-## The spending data
+Who spends it? The pharmaceuticals and health-products industry has been the top-spending *sector* every year since 1999. At the organization level, the table below shows the two most recent complete years, per OpenSecrets:
 
-OpenSecrets data:
-- **Total registered federal lobbying**: ~$4.1B in 2023 (up from ~$1.5B in 1998).
-- **Top spending sectors**: pharmaceuticals/health products ($385M+), insurance ($150M+), tech/electronics ($150M+), real estate, oil & gas, defense.
-- **Top individual clients**: U.S. Chamber of Commerce ($70M+/year), National Association of Realtors ($55M+/year), drug-industry trade associations.
-- **State-level lobbying**: comparable in scale to federal but harder to track because state disclosure rules vary widely.
+| Organization | 2024 spending | 2025 spending |
+| --- | --- | --- |
+| U.S. Chamber of Commerce | $76.4 million | $72.1 million (top spender) |
+| National Association of Realtors | $86.4 million (top spender) | $54.4 million |
 
-Most lobbying spending is on day-to-day policy advocacy: tax credits, regulatory rules, agency procurement, statutory exemptions. Big-ticket legislation (healthcare reform, tax reform, infrastructure) attracts disproportionate attention but is a smaller share of total activity.
+Read the table for its lesson rather than its rankings: the two perennial leaders are *trade and professional associations* — aggregators of thousands of businesses — not individual corporations, and their spending swings tens of millions year to year as their legislative stakes change (the Realtors' 37 percent drop in 2025 followed the settlement that upended their commission rules). Below the headline numbers, most lobbying money buys unglamorous maintenance: tax provisions, procurement language, regulatory comment letters, statutory exemptions. The big televised fights are a small share of the work.
 
-## What the empirical record shows
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 360" width="100%" role="img" aria-label="Flow diagram showing who lobbies whom: clients (corporations, trade associations, unions, nonprofits, foreign governments) hire in-house or contract lobbyists, who direct registered contacts at Congress and agencies, and indirect influence through think tanks, grassroots campaigns, and media" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="360" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold" text-anchor="middle">Who lobbies whom</text>
+  <rect x="20" y="48" width="200" height="120" rx="6" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" stroke-width="1.5"/>
+  <text x="120" y="70" font-family="Georgia, serif" font-size="13.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Clients</text>
+  <text x="120" y="92" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">corporations · trade groups</text>
+  <text x="120" y="110" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">unions · nonprofits</text>
+  <text x="120" y="128" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">foreign principals</text>
+  <text x="120" y="152" font-family="Georgia, serif" font-size="11.5" fill="var(--accent, #8a2a1e)" text-anchor="middle">(foreign principals → FARA)</text>
+  <rect x="280" y="48" width="180" height="120" rx="6" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" stroke-width="1.5"/>
+  <text x="370" y="70" font-family="Georgia, serif" font-size="13.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Lobbyists</text>
+  <text x="370" y="92" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">in-house government-</text>
+  <text x="370" y="110" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">affairs staff, or hired</text>
+  <text x="370" y="128" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">K Street firms</text>
+  <text x="370" y="152" font-family="Georgia, serif" font-size="11.5" fill="var(--accent, #8a2a1e)" text-anchor="middle">registered if LDA tests met</text>
+  <rect x="520" y="48" width="180" height="120" rx="6" fill="var(--card, #ffffff)" stroke="var(--blue, #2f4d6e)" stroke-width="2"/>
+  <text x="610" y="70" font-family="Georgia, serif" font-size="13.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Targets</text>
+  <text x="610" y="92" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">members of Congress</text>
+  <text x="610" y="110" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">committee staff</text>
+  <text x="610" y="128" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">agencies &amp; White House</text>
+  <line x1="220" y1="108" x2="278" y2="108" stroke="var(--ink, #14130f)" stroke-width="2"/>
+  <polygon points="278,108 268,103 268,113" fill="var(--ink, #14130f)"/>
+  <text x="249" y="98" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">hire</text>
+  <line x1="460" y1="108" x2="518" y2="108" stroke="var(--ink, #14130f)" stroke-width="2"/>
+  <polygon points="518,108 508,103 508,113" fill="var(--ink, #14130f)"/>
+  <text x="489" y="98" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">contacts</text>
+  <rect x="280" y="220" width="180" height="100" rx="6" fill="var(--card, #ffffff)" stroke="var(--gold, #b08a3e)" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="370" y="244" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">The indirect route</text>
+  <text x="370" y="266" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">think tanks · coalitions</text>
+  <text x="370" y="284" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">grassroots &amp; astroturf</text>
+  <text x="370" y="302" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">ads, op-eds, research</text>
+  <line x1="160" y1="168" x2="300" y2="232" stroke="var(--gold, #b08a3e)" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <polygon points="300,232 289,229 295,221" fill="var(--gold, #b08a3e)"/>
+  <line x1="460" y1="252" x2="590" y2="172" stroke="var(--gold, #b08a3e)" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <polygon points="590,172 580,176 585,184" fill="var(--gold, #b08a3e)"/>
+  <text x="570" y="240" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">shapes the climate the</text>
+  <text x="570" y="256" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">targets legislate in</text>
+  <text x="150" y="345" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)">Solid arrows: disclosed under the LDA. Dashed: largely outside it.</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: The influence industry's two routes. Direct lobbying contacts (solid arrows) are what the Lobbying Disclosure Act captures; the dashed indirect route — research from an aligned think tank, a "grassroots" campaign, an advertising blitz — is mostly invisible in disclosed totals, which is why the $5.08 billion 2025 figure is a floor, not a measurement.</figcaption>
+</figure>
 
-Drutman's *The Business of America Is Lobbying* documents the dramatic post-1970s expansion of corporate lobbying. Key findings:
-- Corporate lobbying went from a defensive posture (responding to regulatory threats) to an active posture (shaping legislation in advance).
-- The asymmetry between business and labor lobbying has grown dramatically — business outspends labor and public-interest groups by 30:1 or more.
-- Lobbying is concentrated: the top 100 corporations account for the majority of registered lobbying spending.
+## What lobbying actually buys: the scholar's lens
 
-Hall & Wayman (1990) and successors document that lobbying does affect policy outcomes, but in a specific way: it's more effective at shaping bill *content* (technical amendments, exemptions, regulatory details) than at flipping floor votes on major bills. The action is in the markup process, not the final vote.
+Why does business dominate the disclosed numbers? Mancur Olson supplied the canonical answer in *The Logic of Collective Action* (1965), and it is the single most useful frame in this pack. Small groups with concentrated stakes organize easily: each member's payoff from lobbying is large, free-riding is visible, coordination is cheap. Large groups with diffuse stakes — consumers, taxpayers, "the public" — mostly don't organize, because each individual's stake is pennies and the temptation to let someone else do the work is overwhelming. A tariff that costs 330 million consumers two dollars each while delivering $660 million to a dozen firms will be lobbied for ferociously and opposed by almost no one. The asymmetry in Washington's interest-group chorus is not a conspiracy; it is arithmetic. E. E. Schattschneider had put the distributional consequence in one immortal line five years earlier: "The flaw in the pluralist heaven is that the heavenly chorus sings with a strong upper-class accent."
 
-## Why this lesson is contested
+And yet — here is the wrinkle that keeps this an honest field — money does not simply purchase outcomes. Richard Hall and Frank Wayman's "Buying Time" (1990) found that moneyed interests' real product is *legislative effort*: contributions and lobbying mobilize friendly legislators to show up, offer amendments, and work the markup, far more than they flip anyone's vote. The action is in bill text and committee detail, not the roll call. Frank Baumgartner and colleagues, in the largest study ever conducted of federal lobbying (98 randomly sampled issues, tracked for years), found that the side with more resources won only slightly more often than the side with less, that resources explained under five percent of the variance in outcomes, and that on about 60 percent of issues nothing changed at all. The status quo, not the highest bidder, is the system's great winner. Lesson 2 builds all three reform camps on top of this evidence, because each reads it differently.
 
-Three perspectives the next lesson will steel-man:
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Drug manufacturers lobby intensely and successfully on Medicare reimbursement formulas, while a proposal to lower drug prices for all consumers stalls for a decade. Which scholar's framework most directly predicts this pattern, and why?</summary>
+<p><strong>Olson's.</strong> Reimbursement formulas concentrate enormous benefits on a small, easily organized group (manufacturers), while price reform spreads small per-person benefits across millions of unorganized consumers — so the concentrated side shows up and the diffuse side free-rides. Schattschneider describes the resulting bias of the chorus; Baumgartner explains why even the organized side often fails to move policy (status-quo bias); but the <em>organizational</em> asymmetry itself is Olson's logic of collective action.</p>
+</details>
 
-- **Restriction-first reformers** argue current lobbying scale is incompatible with democratic legitimacy and that meaningful restrictions on access, employment of former officials, and corporate-funded advocacy are necessary.
-- **Transparency-only advocates** argue lobbying is constitutionally protected and that the right policy is robust disclosure (better than current LDA), with restrictions on access and employment being unconstitutional or counterproductive.
-- **Structural-reform centrists** argue both extremes miss the point — the problem is not lobbying as such but the structural conditions that make it disproportionately effective for concentrated economic interests, and the right reforms address public financing, congressional staffing, and counter-balancing institutions.
+## What this lesson is not
 
-A defensible position takes one of these views, says why, and identifies what evidence would change it.
+It is not yet a verdict. You now know the machinery: a disclosure regime with a shadow roughly its own size, a revolving door with a two-year speed bump, five billion disclosed dollars chasing mostly incremental policy, and an interest-group chorus whose accent Olson explains and Schattschneider indicts. What you do not yet have is an argument about whether any of this is *acceptable* — whether it is petition-clause liberty working as designed, structural corruption, or a fixable infrastructure problem. Three serious positions claim that ground — the restriction-first reformer, the transparency-only advocate, and the structural-reform centrist — and Lesson 2 steel-mans each in turn.

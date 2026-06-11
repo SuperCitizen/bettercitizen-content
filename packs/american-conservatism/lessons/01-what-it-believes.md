@@ -7,7 +7,8 @@ objectives:
   - State the core conservative commitments as adherents would themselves state them
   - Distinguish conservatism from "the Republican Party" or any specific policy program
   - Identify the foundational thinkers (Burke, Hayek, Kirk, Strauss, Buckley) and what each contributes
-  - Describe the post-WWII fusionist synthesis and what held it together
+  - Distinguish Kirk's six canons in The Conservative Mind (1953) from his "Ten Conservative Principles" essay (1993)
+  - Describe the post-WWII fusionist synthesis, what held it together, and where it fractured
 concepts:
   - conservatism
   - traditionalism
@@ -17,9 +18,9 @@ sources:
   - type: book
     citation: 'Burke, E. (1790), Reflections on the Revolution in France. Foundational text for the modern conservative tradition.'
   - type: book
-    citation: 'Kirk, R. (1953), The Conservative Mind: From Burke to Eliot, Regnery. Defines "the conservative mind" as a tradition.'
+    citation: 'Kirk, R. (1953), The Conservative Mind: From Burke to Santayana, Regnery. (Retitled From Burke to Eliot in later editions.) Defines "the conservative mind" as a tradition and states its six canons.'
   - type: book
-    citation: 'Buckley, W. F., Jr. (1955), "Mission Statement," National Review founding essay — the canonical post-WWII fusionist statement.'
+    citation: 'Buckley, W. F., Jr. (1955), "Our Mission Statement," National Review founding essay (Nov. 19, 1955) — the canonical post-WWII fusionist statement.'
     url: https://www.nationalreview.com/1955/11/our-mission-statement-william-f-buckley-jr/
   - type: book
     citation: 'Hayek, F. A. (1944), The Road to Serfdom, University of Chicago Press. Foundational classical-liberal text adopted by post-WWII conservatives.'
@@ -31,82 +32,174 @@ sources:
     citation: 'Nash, G. H. (1976), The Conservative Intellectual Movement in America Since 1945, Basic Books. (Revised 1996, 2006.) The standard intellectual history.'
   - type: book
     citation: 'Continetti, M. (2022), The Right: The Hundred-Year War for American Conservatism, Basic Books. Recent comprehensive history.'
+  - type: website
+    citation: 'Kirk, R. (1993), "Ten Conservative Principles," adapted from The Politics of Prudence (ISI Books, 1993), The Russell Kirk Center.'
+    url: https://kirkcenter.org/conservatism/ten-conservative-principles/
+  - type: book
+    citation: 'Meyer, F. S. (1962), In Defense of Freedom: A Conservative Credo, Regnery. The fullest statement of the fusionist synthesis.'
+  - type: book
+    citation: 'Hayek, F. A. (1960), "Why I Am Not a Conservative," postscript to The Constitution of Liberty, University of Chicago Press.'
+  - type: website
+    citation: '"Against the Dead Consensus," First Things (March 21, 2019) — the manifesto of the post-fusionist right.'
+    url: https://www.firstthings.com/web-exclusives/2019/03/against-the-dead-consensus
+  - type: website
+    citation: 'National Conservatism Conference (Edmund Burke Foundation), founding conference program, Washington, July 14–16, 2019.'
+    url: https://nationalconservatism.org/natcon-dc-2019/
 perspectives:
   - name: Traditionalist (Burkean)
   - name: Free-market classical liberal
   - name: Civic-republican / national-conservative
-duration_min: 11
+duration_min: 14
 ---
 
 # What American conservatism actually believes
 
-The hardest thing about understanding any ideology — including one's own — is hearing it as adherents hear it, not as opponents caricature it. Conservatism is a family of positions, not a creed. This lesson presents the core commitments most conservatives across the family share, in language they would themselves recognize.
+On November 19, 1955, a twenty-nine-year-old William F. Buckley Jr. published the first issue of a new magazine with a publisher's statement that read more like a dare: *National Review* "stands athwart history, yelling Stop, at a time when no one is inclined to do so, or to have much patience with those who so urge it." The line is usually quoted as a joke about reaction. In context it was something stranger — an announcement that a thing most American intellectuals believed did not exist was about to be built. Five years earlier, the critic Lionel Trilling had written in *The Liberal Imagination* (1950) that "in the United States at this time liberalism is not only the dominant but even the sole intellectual tradition," and that conservative impulses expressed themselves not in ideas but in "irritable mental gestures which seek to resemble ideas." Within a generation, the movement Buckley's magazine assembled had nominated a presidential candidate, built a network of institutions, and elected Ronald Reagan. Whatever else one says about American [[term:conservatism]], Trilling's dismissal did not survive contact with it.
+
+The hardest thing about understanding any ideology — including one's own — is hearing it as adherents hear it, not as opponents caricature it. Conservatism is a family of positions, not a creed, and its members disagree with each other constantly (the next lesson is entirely about those disagreements). This lesson presents the core commitments most conservatives across the family share, in language they would themselves recognize.
 
 ## A core that holds across the family
 
-Most American conservatives, regardless of more specific orientation, share commitments roughly as follows:
+Most American conservatives, regardless of more specific orientation, share commitments roughly as follows.
 
-**Order before freedom.** Liberty is real and valuable, but it is not the precondition for civilization — order is. Without functioning institutions (rule of law, family, neighborhoods, religious communities, federalism, constitutional structure), individual liberty is fragile or meaningless. Conservatives are not "anti-liberty"; they argue that the conditions of liberty must be cultivated, and that progressive movements that prioritize liberty over the institutions that make it possible undermine both.
+**Order before freedom.** Liberty is real and valuable, but it is not the precondition for civilization — order is. Without functioning institutions (rule of law, family, religious communities, [[term:federalism]], constitutional structure), individual liberty is fragile or meaningless. Conservatives are not "anti-liberty"; they argue the conditions of liberty must be cultivated, and that movements prioritizing liberation over those conditions undermine both.
 
-**Inheritance of accumulated wisdom.** Burke's famous phrase, "Society is indeed a contract" — but a contract among the dead, the living, and the unborn. Existing institutions have been refined over time by practical experience; they encode knowledge that abstract reasoning cannot fully reproduce. The presumption is for reform that respects the inherited structure, not revolution that rebuilds from first principles. This is not opposition to change but skepticism of *root-and-branch* change.
+**Inheritance of accumulated wisdom.** "Society is indeed a contract," Burke wrote in 1790 — but not a contract among the currently living: "a partnership not only between those who are living, but between those who are living, those who are dead, and those who are to be born." Institutions refined by generations of experience encode knowledge that abstract reasoning cannot reproduce. The presumption favors reform that respects the inherited structure over revolution from first principles — not opposition to change (Burke: "a state without the means of some change is without the means of its conservation") but skepticism of *root-and-branch* change.
 
-**Limits to state power.** Government is a necessary instrument but a dangerous one. Power concentrated at the federal level, especially in the executive, is more easily abused than power dispersed among levels (states, localities) and branches (legislative, judicial, executive). Constitutional structure — federalism, separation of powers, enumerated authorities — exists to constrain this. Conservatives read the Constitution as an instrument of restraint, not enablement.
+**Limits to state power.** Government is necessary but dangerous. Power concentrated federally, especially in the executive, is more easily abused than power dispersed among levels and branches. Constitutional structure exists to constrain it; conservatives read the Constitution as an instrument of restraint, which is why [[term:originalism]] became the tradition's dominant judicial philosophy. Reagan compressed the temperament into a quip at an August 12, 1986 press conference: "The nine most terrifying words in the English language are 'I'm from the government and I'm here to help.'"
 
-**The family and civil society as primary.** The family, religious community, voluntary associations, and local institutions do most of the actual work of social order. The state's role is to support these — and not to displace them. Programs that strengthen the family (welfare reform, child tax credits, school choice) are conservative even when they involve government action; programs that displace family functions (extensive professional childcare provision, expansive welfare without work requirements) are not.
+**The family and civil society as primary.** The family, congregation, voluntary association, and local institution do most of the actual work of social order; the state's role is to support them, not displace them. Programs that strengthen the family (welfare reform, child tax credits, school choice) are conservative even when they involve government action; programs that displace family functions are not, on this view, even when well-intentioned.
 
-**Skepticism of ideology and abstraction.** Conservatives are wary of grand theoretical frameworks that propose to solve human problems through reason. The track record of revolutions guided by Reason — French (Burke's case), Russian, Maoist — is a track record of disaster. Conservative thought tends to be empirical, particularist, attentive to circumstance. Russell Kirk insisted on this throughout his life.
+**Skepticism of ideology and abstraction.** Conservatives are wary of grand frameworks that propose to solve human problems through Reason with a capital R. The track record of revolutions guided by abstract designs — French (Burke's case study), Russian, Maoist — is a track record of disaster. Conservative thought tends to be empirical, particularist, attentive to circumstance.
 
-**Moral and cultural claims.** Conservatives generally hold that moral and cultural concerns are not separable from political concerns. Civic virtues (honesty, courage, prudence, restraint), religious traditions (or at least respect for them), shared cultural inheritance — these matter for political life. The progressive separation of "values" from "politics" is, on this view, an evasion.
+**Moral and cultural claims.** Moral and cultural concerns are not separable from political ones. Civic virtues, religious traditions — or at least respect for them — and a shared cultural inheritance matter for political life. The liberal separation of "values" from "politics" is, on this view, an evasion: every regime teaches *some* morality, and pretending otherwise just means teaching one unannounced.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A governor proposes a new, generous child benefit administered through the tax code, arguing it strengthens families. A critic objects that "real conservatives oppose government programs." Using the core commitments above, why might a conservative support the benefit — and what design feature would decide the question?</summary>
+<p>The family-and-civil-society commitment treats the state's job as <em>supporting</em> the family, not displacing it — so a transfer that flows to parents and leaves decisions with them can be conservative in design. The deciding feature is whether the program reinforces the institution (money to the family, choices kept local) or substitutes for it (state provision replacing family functions). "Opposes all programs" describes libertarianism's reflex, not conservatism's test.</p>
+</details>
 
 ## The foundational thinkers
 
-Edmund Burke (1729-1797) — the conservative tradition's intellectual father, even though he was a Whig in British parliamentary terms. *Reflections on the Revolution in France* (1790) is the classic statement of conservatism as a critique of revolutionary politics, defending instead the slow work of inherited institutions. Conservatives still cite it.
+**Edmund Burke (1729–1797)** is the tradition's intellectual father, even though he was a Whig in British parliamentary terms — a reformer on India, Ireland, and America. *Reflections on the Revolution in France* (1790), written while most English observers still admired the Revolution, predicted its descent into terror and military despotism, and made the classic case against politics-by-first-principles: defending instead the slow work of inherited institutions. Conservatives still cite it because the argument generalizes — it is *the* statement of why "tear it down and rebuild rationally" keeps producing rubble.
 
-Russell Kirk (1918-1994) — wrote *The Conservative Mind* (1953), establishing American conservatism as a distinct intellectual tradition rather than mere reaction. Kirk's "ten conservative principles" — order, prudence, custom, variety — remain a benchmark for traditionalist conservatives.
+**Russell Kirk (1918–1994)** made American conservatism self-aware. *The Conservative Mind* (1953) — subtitled *From Burke to Santayana* in its first edition, *From Burke to Eliot* later — argued that an Anglo-American conservative tradition ran in an unbroken line from Burke through John Adams, Tocqueville, Hawthorne, and Henry Adams to the twentieth century, and distilled from it **six canons** of conservative thought: belief in "a transcendent order, or body of natural law, which rules society as well as conscience"; affection for the variety and mystery of human existence against "narrowing uniformity"; the conviction that civilized society requires orders and classes; the persuasion that freedom and property are closely linked; faith in prescription and distrust of "sophisters, calculators, and economists" who would rebuild society on abstract designs; and the recognition that "change may not be salutary reform." Forty years later Kirk restated the tradition for a new audience as "Ten Conservative Principles," an essay adapted from *The Politics of Prudence* (1993).
 
-Friedrich Hayek (1899-1992) — Austrian-born economist whose *Road to Serfdom* (1944) became foundational for the American conservative movement's economic thought. Hayek himself rejected the conservative label (he wrote "Why I Am Not a Conservative"); he is a classical liberal. But his arguments about price signals, the limits of central planning, and the danger of state power were absorbed into postwar American conservatism as part of its economic backbone.
+> **Common misconception:** "Kirk's ten principles are in *The Conservative Mind*." No — the 1953 book states **six canons**; the **ten principles** are a separate 1993 essay written four decades later. Conflating them is the most common citation error in writing about Kirk, and the two lists differ instructively: the 1993 version drops the language of "orders and classes" and adds prudence, imperfectability, and voluntary community — Kirk softening the aristocratic edges for a democratic audience.
 
-Leo Strauss (1899-1973) — political philosopher whose work on natural right, classical political philosophy, and the limits of historicism shaped both traditionalist conservatives and the neo-conservative movement that emerged from his students. Strauss's main argument: that modern relativism is a corrosive force, and that classical political philosophy still has things to teach us about virtue and the good polity.
+**Friedrich Hayek (1899–1992)**, the Austrian-born economist, supplied the economic backbone. *The Road to Serfdom* (1944) argued that central economic planning concentrates power until it destroys political freedom — an argument that sold spectacularly in postwar America (Reader's Digest condensed it in 1945) and was absorbed into the conservative movement's bloodstream. The absorption was awkward, and Hayek knew it: he appended an essay titled "Why I Am Not a Conservative" to *The Constitution of Liberty* (1960), objecting that conservatism "by its very nature... cannot offer an alternative to the direction in which we are moving" — it can slow the train but not switch the tracks. American conservatism adopted Hayek anyway, which tells you something important: the movement was never purely Burkean. It was a coalition from birth.
 
-William F. Buckley, Jr. (1925-2008) — National Review's founder (1955) and the architect of post-WWII fusionism. Buckley's project was to weld the three streams together — traditionalists (Kirk), libertarians (Hayek), and anti-communists — into a single political coalition. The fusionist synthesis defined American conservatism for ~50 years.
+**Leo Strauss (1899–1973)**, the German-émigré political philosopher at Chicago, gave the movement philosophical depth on a different flank. *Natural Right and History* (1953) argued that modern relativism and historicism — the view that all standards are products of their time — corrode the very possibility of calling anything just, and that classical political philosophy still teaches truths about virtue and the good regime. Strauss's students and their students (the "Straussians") shaped both traditionalist constitutionalism and, later, parts of [[ideology:neoconservatism]].
 
-## The fusionist synthesis (1955-2008, roughly)
+**William F. Buckley Jr. (1925–2008)** built the room where these strands could argue. *National Review* (founded 1955) was the institutional engine: it gave the movement a voice, policed its boundaries — Buckley famously worked to expel the John Birch Society's conspiracism from respectable conservatism in the 1960s — and welded the factions into a political force.
+
+> **The scholar's lens:** George H. Nash's *The Conservative Intellectual Movement in America Since 1945* (1976) remains the standard map. Nash's thesis: no self-conscious conservative movement existed in 1945. Instead there were three separate revolts against the [[term:new-deal]] liberal consensus — traditionalists alarmed by cultural dissolution, classical liberals alarmed by collectivism, and ex-Communists (Whittaker Chambers, whose 1952 memoir *Witness* is the genre's masterpiece) alarmed by Soviet totalitarianism. "American conservatism" is the name for what happened when those three revolts noticed each other.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Hayek wrote an essay explaining why he was <em>not</em> a conservative, yet he is on every list of American conservatism's foundational thinkers. What does this apparent contradiction reveal about the structure of the tradition?</summary>
+<p>That American conservatism is a <em>coalition</em>, not a single philosophy. Hayek's classical liberalism (change-friendly, market-driven, suspicious of inherited hierarchy) sits in genuine tension with Burkean traditionalism — Hayek said so himself in 1960. The postwar movement absorbed him anyway because it needed an economic doctrine and a common enemy (planning, communism) more than it needed philosophical consistency. The tension never disappeared; it resurfaced after 2016.</p>
+</details>
+
+## The fusionist synthesis (1955–2008, roughly)
 
 The post-WWII conservative coalition combined three streams that, in the abstract, sat in tension:
 
-- **Traditionalists** (Kirk, Strauss, T. S. Eliot in some moods, Russell Kirk's circle) — concerned with cultural inheritance, religious roots, civilizational continuity. Skeptical of pure individualism.
-- **Free-market classical liberals** (Hayek, Friedman, Mises) — concerned with economic freedom, limited government, price signals, and the dangers of central planning. Skeptical of cultural traditionalism that could justify government action.
-- **Anti-communists** (Whittaker Chambers, James Burnham, Frank Meyer) — concerned with the geopolitical and ideological threat of Soviet Communism. The unifying enemy.
+- **Traditionalists** (Kirk and his circle) — concerned with cultural inheritance, religious roots, civilizational continuity. Skeptical of pure individualism.
+- **Free-market classical liberals** (Hayek, Milton Friedman, Ludwig von Mises) — concerned with economic freedom, limited government, and the dangers of central planning. Skeptical of traditionalism that could justify state coercion.
+- **Anti-communists** (Chambers, James Burnham, Frank Meyer — all ex-Communists themselves) — concerned with the geopolitical and ideological threat of the Soviet Union. The unifying enemy.
 
-Frank Meyer's "fusionist" formulation argued these were not in fundamental tension: economic freedom requires moral foundations (so the traditionalists matter), and moral order requires liberty (so the classical liberals matter), and both require defense against existential threat (so anti-communism mattered).
+Frank Meyer, a *National Review* senior editor, argued the streams were not merely allied but philosophically complementary: virtue is only virtuous if freely chosen, so the traditionalists need liberty; and freedom only survives among people with settled moral habits, so the libertarians need tradition. Both required defense against an existential threat, so anti-communism bound the package. Meyer's fullest statement is *In Defense of Freedom: A Conservative Credo* (1962). The label "fusionism" was actually pinned on him by a skeptical colleague — L. Brent Bozell Jr., who thought the synthesis incoherent and said so in a famous 1962 reply, "Freedom or Virtue?" Meyer disliked the term; it stuck anyway.
 
-This synthesis defined American conservatism roughly 1955-2008. It produced Goldwater's *Conscience of a Conservative* (1960), the Reagan coalition (1980), the National Review/Heritage Foundation/AEI infrastructure, and the policy program of post-Reagan Republican politics — tax cuts, free trade, strong defense, social conservatism, federalism.
+Whatever its philosophical soundness, fusionism worked politically. Barry Goldwater's *The Conscience of a Conservative* (1960) — ghostwritten by the same Bozell — carried it to a mass audience. Goldwater captured the 1964 Republican nomination, told the convention at San Francisco's Cow Palace on July 16, 1964 that "extremism in the defense of liberty is no vice," and was buried in November: Lyndon Johnson won 486 electoral votes to Goldwater's 52, and Goldwater carried only Arizona and five Deep South states. But the defeat built the infrastructure of victory — a donor list, a cadre of activists, and a television star: Ronald Reagan's "A Time for Choosing" broadcast (October 27, 1964) launched the political career that delivered the coalition's triumph. Reagan's 1980 win (489 electoral votes, 44 states) assembled fusionism's electoral form: traditional Republicans, white evangelicals newly organized into the religious right, blue-collar "Reagan Democrats" in the industrial North, and neoconservative intellectuals — ex-liberals who had broken with the left over crime, détente, and the Great Society. Tax cuts, deregulation, [[term:cold-war]] defense buildup, social conservatism, and judicial originalism: that was the package, and it defined Republican politics for a generation after Reagan left office.
+
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 520" width="100%" role="img" aria-label="Family tree of American conservatism from Burke through the three postwar streams, their fusion in 1955, the joining of neoconservatives and the religious right, and the post-2016 split into four contemporary branches" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="360" y="22" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold" text-anchor="middle">The conservative family tree, 1790–2026</text>
+  <rect x="255" y="36" width="210" height="36" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" stroke-width="1.5" rx="4"/>
+  <text x="360" y="51" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Burke's inheritance (1790)</text>
+  <text x="360" y="66" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Reflections on the Revolution in France</text>
+  <line x1="360" y1="72" x2="130" y2="110" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <line x1="360" y1="72" x2="360" y2="110" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <line x1="360" y1="72" x2="590" y2="110" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <rect x="25" y="110" width="210" height="50" fill="var(--card, #ffffff)" stroke="var(--green, #4a6b3a)" stroke-width="1.5" rx="4"/>
+  <text x="130" y="130" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Traditionalists</text>
+  <text x="130" y="146" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Kirk, The Conservative Mind (1953)</text>
+  <rect x="255" y="110" width="210" height="50" fill="var(--card, #ffffff)" stroke="var(--blue, #2f4d6e)" stroke-width="1.5" rx="4"/>
+  <text x="360" y="130" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Classical liberals</text>
+  <text x="360" y="146" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Hayek, Road to Serfdom (1944)</text>
+  <rect x="485" y="110" width="210" height="50" fill="var(--card, #ffffff)" stroke="var(--gold, #b08a3e)" stroke-width="1.5" rx="4"/>
+  <text x="590" y="130" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Anti-communists</text>
+  <text x="590" y="146" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Chambers, Witness (1952)</text>
+  <line x1="130" y1="160" x2="320" y2="210" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <line x1="360" y1="160" x2="360" y2="210" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <line x1="590" y1="160" x2="400" y2="210" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <rect x="195" y="210" width="330" height="58" fill="var(--accent, #8a2a1e)" rx="4"/>
+  <text x="360" y="233" font-family="Georgia, serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">Fusionism — National Review (1955)</text>
+  <text x="360" y="252" font-family="Georgia, serif" font-size="12" fill="#ffffff" text-anchor="middle">Meyer's synthesis · Goldwater '64 · Reagan '80</text>
+  <rect x="25" y="288" width="185" height="48" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" stroke-width="1.5" stroke-dasharray="5,3" rx="4"/>
+  <text x="117" y="307" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Neoconservatives join (1970s)</text>
+  <text x="117" y="323" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">ex-liberal intellectuals</text>
+  <rect x="510" y="288" width="185" height="48" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" stroke-width="1.5" stroke-dasharray="5,3" rx="4"/>
+  <text x="602" y="307" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Religious right joins (late 1970s)</text>
+  <text x="602" y="323" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">evangelical mobilization</text>
+  <line x1="210" y1="300" x2="280" y2="268" stroke="var(--muted, #6b6457)" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="510" y1="300" x2="440" y2="268" stroke="var(--muted, #6b6457)" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="360" y1="268" x2="360" y2="370" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <text x="372" y="356" font-family="Georgia, serif" font-size="12.5" fill="var(--accent, #8a2a1e)" font-weight="bold">the 2016 fracture</text>
+  <line x1="360" y1="370" x2="110" y2="408" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <line x1="360" y1="370" x2="278" y2="408" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <line x1="360" y1="370" x2="442" y2="408" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <line x1="360" y1="370" x2="610" y2="408" stroke="var(--muted, #6b6457)" stroke-width="1.5"/>
+  <rect x="22" y="408" width="166" height="64" fill="var(--card, #ffffff)" stroke="var(--green, #4a6b3a)" stroke-width="1.5" rx="4"/>
+  <text x="105" y="428" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Traditionalists /</text>
+  <text x="105" y="443" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">post-liberals</text>
+  <text x="105" y="460" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Deneen, Ahmari</text>
+  <rect x="196" y="408" width="166" height="64" fill="var(--card, #ffffff)" stroke="var(--blue, #2f4d6e)" stroke-width="1.5" rx="4"/>
+  <text x="279" y="428" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Classical-liberal</text>
+  <text x="279" y="443" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">remnant</text>
+  <text x="279" y="460" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Will, the older NR line</text>
+  <rect x="370" y="408" width="166" height="64" fill="var(--card, #ffffff)" stroke="var(--gold, #b08a3e)" stroke-width="1.5" rx="4"/>
+  <text x="453" y="428" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">National</text>
+  <text x="453" y="443" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">conservatives</text>
+  <text x="453" y="460" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Hazony, NatCon (2019– )</text>
+  <rect x="544" y="408" width="160" height="64" fill="var(--card, #ffffff)" stroke="var(--accent, #8a2a1e)" stroke-width="1.5" rx="4"/>
+  <text x="624" y="428" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Right-populist /</text>
+  <text x="624" y="443" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">MAGA coalition</text>
+  <text x="624" y="460" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">anti-elite, restrictionist</text>
+  <text x="360" y="505" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">Solid lines: descent. Dashed: factions that joined the coalition mid-stream.</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: The canonical map of the tradition. Three separate postwar revolts against New Deal liberalism fused at <em>National Review</em> in 1955; neoconservatives and the religious right joined in the 1970s; the coalition fractured after 2016 into four contemporary branches that Lesson 2 examines in detail.</figcaption>
+</figure>
 
 ## Where the synthesis frayed
 
-Several developments after ~2008 strained the fusionist coalition:
+Fusionism was built for a world with a Soviet Union in it. Several developments after 1991 strained the coalition, slowly and then suddenly:
 
-- **End of Cold War, then 9/11, then Iraq.** The unifying anti-communist enemy disappeared in 1991. The post-9/11 unity around counter-terrorism produced two long wars whose results were ambiguous, generating restraint-leaning critiques on the right.
-- **Globalization's distributional effects.** Free-trade policies produced macroeconomic gains but concentrated losses in specific U.S. regions. Working-class voters in those regions — long part of the GOP coalition — increasingly questioned the economic-liberty framing.
-- **Cultural change.** Same-sex marriage, demographic shifts, university culture wars — all produced conservative reactions that varied between traditionalist defense and populist insurgency.
-- **The 2016 realignment.** The Trump-led realignment moved the GOP toward economic nationalism and away from free-trade orthodoxy, while reaffirming social-conservative commitments. The fusionist coalition fractured along these lines.
+- **The unifying enemy disappeared.** The Soviet collapse in 1991 removed anti-communism, the glue stream. Pat Buchanan's insurgent 1992 primary challenge — declaring a "[[term:culture-war]] for the soul of America" at that year's Republican convention — was the first open revolt of what was then called [[ideology:paleoconservatism]]: nationalist, protectionist, restrictionist, and contemptuous of the free-trade consensus. He lost; his issues didn't.
+- **The wars.** Post-9/11 unity produced Afghanistan and Iraq, whose ambiguous-to-bad results discredited the neoconservative wing in much of the movement and bred a restraint-leaning foreign-policy critique on the right.
+- **Globalization's distributional effects.** Free trade produced macroeconomic gains but concentrated losses in specific manufacturing regions — and the voters in those regions were increasingly Republican voters. The 2008 financial crisis, the bipartisan bank rescue, and the Tea Party revolt of 2009–10 (ignited in part by Rick Santelli's on-air call for a "Chicago Tea Party" on February 19, 2009, and delivering Republicans a 63-seat House gain in 2010) revealed a populist energy that the movement's institutions channeled but did not control.
+- **The 2016 realignment.** Donald Trump won the nomination *against* the unified opposition of the fusionist establishment — *National Review* published an entire "Against Trump" issue in January 2016 — and then won the presidency. The [[ideology:right-populism]] he rode reaffirmed social conservatism while breaking with free-trade orthodoxy, immigration expansionism, and entitlement-reform politics.
 
-The post-2016 conservative landscape is not a single position but several:
-- "Conservatism Inc." — the institutional fusionist heritage (American Enterprise Institute, Heritage, the older National Review wing).
-- National conservatism — economic nationalism + cultural traditionalism, less laissez-faire on economics.
-- Populist Trump-aligned conservatism — anti-elite, restrictionist on immigration, skeptical of foreign engagement.
-- Liberal-democratic constitutionalism (the "Reaganite" remnant) — emphasizing classical-liberal economics + strong defense + constitutional structure, often critical of populist tendencies.
+The intellectual rupture became explicit in March 2019, when a group of writers including Sohrab Ahmari, Patrick Deneen, and Rod Dreher published "Against the Dead Consensus" in *First Things*, declaring: "There is no returning to the pre-Trump conservative consensus that collapsed in 2016." Four months later the first National Conservatism Conference convened in Washington (July 14–16, 2019), organized by the Edmund Burke Foundation under Yoram Hazony, with speakers ranging from Tucker Carlson to Senator Josh Hawley to a venture capitalist named J. D. Vance — by 2025, the vice president of the United States. The second Trump administration's governing record — the One Big Beautiful Bill Act of July 4, 2025 (permanent extension of the 2017 tax rates plus border, defense, and energy provisions, passed 51–50 in the Senate on Vance's tie-breaking vote), sweeping emergency tariffs later struck down 6–3 by the Supreme Court in *Learning Resources, Inc. v. Trump* (February 20, 2026), and a personnel apparatus partly drawn from the Heritage Foundation–coordinated Project 2025 blueprint — is, as of mid-2026, the live test of what post-fusionist conservatism is.
 
-These don't cleanly map to traditional left-right; they cross-cut on multiple dimensions. The next lesson examines them.
+The post-2016 conservative landscape is therefore not a single position but several:
+
+- **"Conservatism Inc."** — the institutional fusionist heritage (American Enterprise Institute, the older National Review wing), now a faction rather than the establishment.
+- **National conservatism** — economic nationalism plus cultural traditionalism, comfortable with state power in service of national ends.
+- **Populist, Trump-aligned conservatism** — anti-elite, restrictionist on immigration, skeptical of foreign commitments.
+- **The classical-liberal remnant** — [[ideology:classical-liberalism]] plus strong defense plus constitutional structure, often sharply critical of the populist turn.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Fusionism's three streams were held together, in Meyer's account, by philosophical complementarity — and, in practice, by anti-communism. Which of the post-1991 developments above did the most damage to which part of that glue?</summary>
+<p>The Soviet collapse removed the <em>practical</em> glue: with no existential enemy, the streams' philosophical tensions (state power for cultural ends vs. market freedom; nation vs. globe) had nothing forcing them to stay suppressed. Globalization's concentrated losses then attacked Meyer's <em>philosophical</em> claim directly — working-class conservative voters experienced "economic freedom" and "settled community" as opposed goods, not complementary ones. The 2016 realignment was the moment the suppressed argument became the main event.</p>
+</details>
 
 ## Why this lesson is contested
 
-This is an ideology pack, not an issue pack. The "contestation" is internal — within the tradition, how should the inheritance be understood, and how should it engage current questions?
+This is an ideology pack, not an issue pack. The contestation is internal — within the tradition, how should the inheritance be understood, and how should it engage current questions? Three perspectives the next lesson sharpens:
 
-Three perspectives the next lesson sharpens:
+- **Traditionalists** emphasize cultural and religious continuity, family and community, and skepticism of root-and-branch change — including revolutionary change proposed in conservatism's own name.
+- **Free-market classical liberals** emphasize economic freedom, limited government, and the rule of law, and worry that the populist and nationalist turns abandon what made the movement worth joining.
+- **Civic-republican / national conservatives** emphasize the political community as a unit, national solidarity, and the legitimacy of state action to support family, industry, and virtue — and regard the fusionist settlement as one historical phase, not conservatism itself.
 
-- **Traditionalists** emphasize cultural and religious continuity, family and community, and skepticism of root-and-branch change. They are wary of both revolutionary progressivism and revolutionary conservatism.
-- **Free-market classical liberals** emphasize economic freedom, limited government, and the rule of law. They are sometimes uncomfortable with cultural-traditionalist policies that involve government action.
-- **Civic-republican / national conservatives** emphasize the political community as a unit, the importance of national solidarity, and the legitimacy of state action to support family, industry, and virtue. They are sometimes critical of both pure traditionalism (insufficiently engaged with politics) and pure classical liberalism (insufficiently attentive to the political community).
-
-The next lesson examines the disagreements and what's at stake.
+What this lesson did *not* settle: which of these streams has the better claim to the inheritance, and what each would actually do with power. That is the next lesson's subject.

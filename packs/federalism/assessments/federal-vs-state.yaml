@@ -16,8 +16,12 @@ questions:
         text: Powers reserved for the President
     correct_choice_id: a
     explanation: Enumerated (or 'expressed') powers are those explicitly listed in
-      the Constitution — most of them in Article I, Section 8 — as belonging to
-      the federal government.
+      the Constitution — most in Article I, Section 8 — as federal. The deep
+      structural point is the asymmetry — the federal list is closed (it may do
+      only what's granted, plus what's 'necessary and proper' to carry the
+      grants out), while state power is open-ended (the reserved police power
+      over health, safety, and welfare). Shared powers like taxing are called
+      concurrent.
     concepts:
       - enumerated-powers
   - id: q2-tenth
@@ -36,23 +40,94 @@ questions:
     correct_choice_id: c
     explanation: "Tenth Amendment, verbatim: 'The powers not delegated to the United
       States by the Constitution, nor prohibited by it to the States, are
-      reserved to the States respectively, or to the people.'"
+      reserved to the States respectively, or to the people.' It's the default
+      rule for the whole system — and the textual home of the modern
+      anticommandeering doctrine, under which Congress may not issue direct
+      orders to state legislatures or state officers (New York v. United
+      States, 1992; Printz v. United States, 1997)."
     concepts:
       - tenth-amendment
       - reserved-powers
-  - id: q3-concurrent
-    kind: free-response
-    text: Concurrent powers are powers exercised by both federal and state
-      governments. Name one and describe how each level uses it differently.
+  - id: q3-anticommandeering
+    kind: multiple-choice
+    text: "Congress wants universal background checks for ammunition sales. It
+      passes a statute ordering every state police agency to run the checks.
+      A sheriff sues. Based on the anticommandeering cases, the statute is:"
+    choices:
+      - id: a
+        text: Valid — the Supremacy Clause means states must carry out federal law
+      - id: b
+        text: Valid — ammunition moves in interstate commerce, so Congress may
+          regulate it however it chooses
+      - id: c
+        text: Unconstitutional — Congress may not conscript state officers to
+          administer a federal program, though it could run the checks through
+          federal agencies or attach conditions to grants
+      - id: d
+        text: Unconstitutional — because regulating ammunition is reserved
+          exclusively to the states
+    correct_choice_id: c
+    explanation: This is Printz v. United States (1997) updated — the Brady Act's
+      command that local sheriffs run federal gun background checks was struck
+      down because the Tenth Amendment forbids commandeering state executive
+      officers. Choice (a) misreads supremacy, which resolves conflicts between
+      valid laws but doesn't make states into federal field offices; choice (b)
+      confuses the power to regulate commerce (real) with the power to choose
+      any means of enforcement (limited). Choice (d) overcorrects — Congress
+      can regulate ammunition sales directly; it just has to use federal
+      machinery or voluntary state cooperation, typically purchased with
+      conditional grants.
     concepts:
-      - concurrent-powers
+      - tenth-amendment
       - federalism
-  - id: q4-policy
+  - id: q4-commerce-arc
+    kind: multiple-choice
+    text: "Which of these hypothetical federal statutes is MOST vulnerable under
+      the Supreme Court's commerce-clause precedents (Wickard, Lopez, Morrison,
+      Raich)?"
+    choices:
+      - id: a
+        text: Production quotas that reach crops grown for the farmer's own
+          consumption
+      - id: b
+        text: A ban on home cultivation of a drug that is part of a comprehensive
+          federal scheme regulating the national drug market
+      - id: c
+        text: A criminal ban on simple assault committed within 1,000 feet of any
+          public park
+      - id: d
+        text: Price regulation for goods shipped across state lines
+    correct_choice_id: c
+    explanation: The line the Court has drawn since 1995 separates economic
+      activity, which can be aggregated (Wickard's home-grown wheat, Raich's
+      home-grown marijuana — choices a and b), from non-economic local conduct,
+      which cannot (Lopez's gun near a school, Morrison's gender-motivated
+      violence). A federal assault-near-a-park ban is Lopez with the nouns
+      changed — violent crime isn't economic activity, and proximity to a
+      location doesn't create a commerce hook. Choice (d) is the commerce
+      power's undisputed core.
+    concepts:
+      - commerce-clause
+      - federalism
+  - id: q5-policy
     kind: free-response
-    text: Pick a current policy area (cannabis, immigration enforcement,
-      environmental regulation, education, etc.) where federal and state law
-      overlap or conflict. Briefly explain who's doing what, and what gets
-      resolved by federal supremacy versus by state discretion.
+    text: Pick a current policy area where federal and state law overlap or
+      conflict — marijuana, immigration enforcement, abortion post-Dobbs,
+      environmental regulation, AI rules. Map the conflict onto this lesson's
+      tools — who is acting under which power, what does the Supremacy Clause
+      actually preempt, and where does anticommandeering or conditional
+      spending set the limits?
+    socratic_seed: Push past 'federal law wins' — start by asking whether the
+      federal government is acting within an enumerated power at all, since
+      supremacy only attaches to valid federal law. For marijuana, notice Raich
+      makes the federal ban valid, yet states still needn't help enforce it —
+      why does anticommandeering leave room for legalization anyway? For
+      sanctuary policies, ask what Printz protects and what funding conditions
+      can still buy, and where NFIB's coercion line might sit. For abortion
+      after Dobbs, ask what happens when the federal government goes silent —
+      which interstate conflicts (travel, telehealth, shield laws) does
+      silence create rather than resolve? Would your analysis change if your
+      preferred party controlled the other level of government?
     concepts:
       - federalism
       - commerce-clause

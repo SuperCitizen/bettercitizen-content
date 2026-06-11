@@ -3,54 +3,70 @@ lesson: how-it-works
 questions:
   - id: q1
     kind: multiple-choice
-    text: "What does the empirical record on U.S. voter fraud show?"
+    text: "A state requests a photo ID at the polls, but a voter without one may sign a sworn affidavit and cast a regular ballot that counts with no further action. In NCSL's classification, this state is:"
     choices:
       - id: a
-        text: "Fraud rates of 1-2% are common in modern elections."
+        text: "Strict photo ID"
       - id: b
-        text: "Documented voter fraud is extremely low — Brennan Center found ~31 cases of voter impersonation out of more than 1 billion ballots; mail-ballot fraud rates are around 0.0009%."
+        text: "Non-strict photo ID"
       - id: c
-        text: "Fraud rates have been increasing rapidly since 2000."
+        text: "Strict non-photo ID"
       - id: d
-        text: "Fraud is uniformly distributed across types — impersonation, mail-ballot, and registration fraud are all common."
+        text: "Not a voter-ID state at all"
     correct_choice_id: b
-    explanation: "Multiple comprehensive studies — Brennan Center, Heritage Foundation (which favors restrictionist positions), GAO, and academic research — converge on the finding that documented voter fraud is extremely low. The most common election-administration problems are not fraud but errors (misallocated polling places, mail ballots not received in time, voter rolls not properly maintained). The fraud-rate finding is one of the most-settled empirical questions in election administration."
+    explanation: "The strict/non-strict axis turns on what happens to a voter WITHOUT the document: in strict states (10 as of mid-2026) the voter casts a provisional ballot that counts only if ID is shown later; in non-strict states a fallback like an affidavit lets the ballot count without a return trip. Because this state asks for a photo ID specifically, it joins the 14 non-strict photo states (Texas, Florida, Michigan, and others). It absolutely counts as one of the 36 voter-ID states — option (d) confuses 'has a fallback' with 'has no rule.'"
     concepts: [voter-id]
 
   - id: q2
     kind: multiple-choice
-    text: "What did Crawford v. Marion County Election Board (2008) establish?"
+    text: "A Coloradan receives her ballot in the mail without asking; a Pennsylvanian must request a mail ballot but needs no reason; a Texan under 65 must give a qualifying excuse. Which describes the three regimes, in order?"
     choices:
       - id: a
-        text: "Voter-ID laws are unconstitutional."
+        text: "All-mail election state; no-excuse absentee state; excuse-required absentee state"
       - id: b
-        text: "Indiana's photo-ID requirement was upheld; states have legitimate interests in election integrity even if the precise impact on fraud is uncertain."
+        text: "No-excuse absentee state; all-mail state; excuse-required state"
       - id: c
-        text: "Federal law preempts state voter-ID laws."
+        text: "All three are versions of no-excuse absentee voting"
       - id: d
-        text: "The Voting Rights Act bars all photo-ID requirements."
-    correct_choice_id: b
-    explanation: "Crawford v. Marion County (6-3) upheld Indiana's photo-ID law on the grounds that the state has legitimate interests in protecting election integrity, and that the burden on most voters was minimal. The decision opened the door for other states to adopt similar requirements. The dissent argued the burden on voters without photo IDs was substantially larger than the majority acknowledged."
-    concepts: [voter-id]
+        text: "All-mail state; excuse-required state; no-excuse state"
+    correct_choice_id: a
+    explanation: "Colorado is one of the 8 states (plus D.C.) that automatically mail every active registered voter a ballot. Pennsylvania sits in the no-excuse middle of the spectrum — any voter may request, no justification needed — along with enough states that roughly two-thirds of the country has no-excuse or better. Texas anchors the excuse-required end (about 15 states), limiting mail voting to listed categories like age 65+, disability, or absence. Same ballot, three very different default settings."
+    concepts: [mail-ballots]
 
   - id: q3
     kind: multiple-choice
-    text: "How did Shelby County v. Holder (2013) change voting-rights enforcement?"
+    text: "Which of these is the ONLY voter-ID requirement imposed by federal law?"
     choices:
       - id: a
-        text: "It strengthened the Voting Rights Act's protections."
+        text: "All voters must show photo ID in federal elections."
       - id: b
-        text: "It invalidated the VRA Section 5 preclearance formula, meaning historically-discriminatory jurisdictions no longer needed federal pre-clearance for voting changes."
+        text: "First-time voters who registered by mail without verifiable identification must show some form of ID (photo or non-photo) the first time they vote."
       - id: c
-        text: "It gave states unlimited authority over election administration."
+        text: "Voters must present proof of citizenship when registering."
       - id: d
-        text: "It struck down all federal voting laws."
+        text: "Federal law bans states from requiring any ID at all."
     correct_choice_id: b
-    explanation: "Shelby County (5-4) struck down the VRA Section 5 preclearance formula. Previously, jurisdictions with documented histories of voting discrimination needed DOJ approval before changing voting laws. After Shelby, those jurisdictions can change voting laws and only face challenges through Section 2 litigation (which is post-implementation, not preemptive). The John R. Lewis Voting Rights Advancement Act would restore preclearance with an updated formula but has not passed."
-    concepts: [voting-rights-act, shelby]
+    explanation: "HAVA (2002) contains the entire federal ID rule: a narrow first-time-voter check for mail registrants who didn't verify identity at registration. Everything else — photo requirements, strictness, fallbacks — is state law, which is why the map varies so much. Proof of citizenship at registration (c) is what the SAVE Act would add; as of mid-2026 federal registration still runs on sworn attestation. Knowing how thin the federal floor is explains why this entire policy fight is fought state by state."
+    concepts: [voter-id, hava]
 
   - id: q4
+    kind: multiple-choice
+    text: "An election office flags a returned mail ballot because the envelope signature doesn't match the file. In roughly two-thirds of states, what happens next?"
+    choices:
+      - id: a
+        text: "The ballot is secretly counted anyway."
+      - id: b
+        text: "The ballot is automatically rejected with no recourse."
+      - id: c
+        text: "Officials must notify the voter and provide a window to cure the defect — confirm identity so the ballot counts."
+      - id: d
+        text: "The voter is referred for prosecution."
+    correct_choice_id: c
+    explanation: "Notice-and-cure is the system's answer to the fact that signature verification produces false positives — and rejection rates run higher for first-time, young, and nonwhite mail voters. In the remaining states a flagged ballot is simply rejected, which is why identical voters' ballots can meet different fates across a state line. Nationally about 0.8% of returned mail ballots were rejected in 2020. A mismatch triggers verification, not prosecution — fraud requires intent, and a shaky signature isn't evidence of it."
+    concepts: [mail-ballots]
+
+  - id: q5
     kind: free-response
-    text: "The security-first and access-first positions both claim to be defending democracy but reach opposite policy conclusions about voter-ID. State the strongest version of each — and what would resolve the empirical disagreement."
-    socratic_seed: "Security-first: even small fraud rates matter for election legitimacy; ID requirements impose minimal costs on most voters; the Crawford precedent reflects the constitutional balance. Access-first: documented fraud is extraordinarily low; documented disenfranchisement effects (Hajnal, Hopkins, others) are substantially larger; the trade-off favors access. Resolution would require either: (1) better forensic analysis showing higher actual fraud rates than documented, (2) better turnout-effect studies showing larger or smaller disenfranchisement, or (3) policy designs that address both concerns simultaneously (free voter IDs, mobile-DMV expansion, risk-limiting audits, etc.)."
-    concepts: [voter-id, mail-ballots]
+    text: "The U.S. runs fifty-one election systems on a thin federal floor. Make the best one-paragraph case that this decentralization is a security FEATURE, then the best one-paragraph case that it is an access BUG. Which do you find more convincing, and what fact from the lesson does your answer lean on?"
+    socratic_seed: "Feature: no single point of failure — an attacker must compromise thousands of independently run county systems with different equipment and rules; states adapt rules to local geography; HAVA's floor plus state experimentation produced innovations like all-mail voting and risk-limiting audits. Bug: your practical ability to vote by mail or without a driver's license depends on your address; identical voters' flagged ballots get cured in one state and discarded in the next; uniform rights arguably require uniform rules. Strong answers notice these aren't symmetrical claims — one is about attack surface, the other about equal treatment — so both can be true at once."
+    concepts: [voter-id, mail-ballots, hava]

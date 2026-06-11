@@ -12,106 +12,140 @@ concepts:
   - electoral-college
   - federalism
   - small-state-equality
+  - popular-vote
+  - swing-state
 sources:
   - type: paper
     citation: 'Federalist No. 68, "The Mode of Electing the President" (Hamilton, 1788).'
     url: https://avalon.law.yale.edu/18th_century/fed68.asp
   - type: book
-    citation: 'Ross, T. (2017), Why We Need the Electoral College, Regnery. (The strongest contemporary defense.)'
+    citation: 'Ross, T. (2019), Why We Need the Electoral College, Regnery Gateway. (The strongest contemporary defense.)'
   - type: book
     citation: 'Edwards, G. C. III (2019), Why the Electoral College Is Bad for America, 3rd ed., Yale University Press. (The strongest contemporary critique.)'
-  - type: book
-    citation: 'Amar, A. R. & Amar, V. D. (2007), "How to Achieve Direct National Election of the President without Amending the Constitution," 36 Hofstra Law Review 9.'
-    url: https://scholarlycommons.law.hofstra.edu/hlr/vol36/iss3/2/
-  - type: paper
-    citation: 'Levinson, S. (2006), Our Undemocratic Constitution: Where the Constitution Goes Wrong (and How We the People Can Correct It), Oxford University Press. Excerpt on the Electoral College.'
-  - type: paper
-    citation: 'Belenky, A. S. (2008), Understanding the Fundamentals of the U.S. Presidential Election System, Springer. (Quantitative analysis of voter-equity claims.)'
   - type: website
-    citation: 'FairVote, "How the Electoral College Distorts Presidential Campaigns" — campaign-attention data series.'
-    url: https://fairvote.org/our-reforms/presidential-elections-reform/national-popular-vote/
+    citation: 'Amar, A. R. & Amar, V. D. (2001), "How to Achieve Direct National Election of the President Without Amending the Constitution," FindLaw Writ commentary — the proposal that grew into the National Popular Vote compact.'
+    url: https://supreme.findlaw.com/legal-commentary/how-to-achieve-direct-national-election-of-the-president-without-amending-the-constitution.html
+  - type: book
+    citation: 'Levinson, S. (2006), Our Undemocratic Constitution: Where the Constitution Goes Wrong (and How We the People Can Correct It), Oxford University Press. Excerpt on the Electoral College.'
+  - type: book
+    citation: 'Belenky, A. S. (2012), Understanding the Fundamentals of the U.S. Presidential Election System, Springer. (Quantitative analysis of voter-equity claims.)'
+  - type: website
+    citation: 'National Popular Vote Inc., "In 2020, 96% of the Presidential Campaign Visits and Advertising Was in Just 12 States" — campaign-event tally compiled from FairVote tracking (204 of 212 events).'
+    url: https://www.nationalpopularvote.com/2020-96-presidential-campaign-visits-and-advertising-was-just-12-states
   - type: website
     citation: 'National Popular Vote Inc., "Agreement Among the States to Elect the President by National Popular Vote" — full text + state status.'
     url: https://www.nationalpopularvote.com/written-explanation
+  - type: book
+    citation: 'Best, J. A. (1996), The Choice of the People? Debating the Electoral College, Rowman & Littlefield. (The federalism-grounded defense.)'
+  - type: book
+    citation: 'Dahl, R. A. (2001), How Democratic Is the American Constitution?, Yale University Press.'
+  - type: website
+    citation: 'Madison''s Notes of Debates in the Federal Convention, July 19, 1787 (Avalon Project) — Madison on suffrage, slavery, and "the substitution of electors."'
+    url: https://avalon.law.yale.edu/18th_century/debates_719.asp
+  - type: paper
+    citation: 'Federalist No. 39 (Madison, 1788) — the Constitution as "neither a national nor a federal Constitution, but a composition of both."'
+    url: https://avalon.law.yale.edu/18th_century/fed39.asp
+  - type: website
+    citation: 'Pew Research Center (Sept. 25, 2024), "Majority of Americans continue to favor moving away from Electoral College" — 63% favor a national popular vote.'
+    url: https://www.pewresearch.org/short-reads/2024/09/25/majority-of-americans-continue-to-favor-moving-away-from-electoral-college/
+  - type: website
+    citation: 'National Popular Vote Inc., "Almost All (94%) of 2024 Presidential Campaign Was Concentrated on 7 States" — campaign-event tally for the 2024 general election.'
+    url: https://www.nationalpopularvote.com/almost-all-94-2024-presidential-campaign-was-concentrated-7-states
 perspectives:
   - name: Originalist defender
   - name: Democratic-majority reformer
   - name: Federalist preservationist
-duration_min: 14
+duration_min: 15
 ---
 
 # The strongest case for and against
 
-Three positions, each presented as one its adherents would themselves endorse. The point is not balance for balance's sake; it's to engage the actual argument rather than a caricature.
+In March 1956, the United States Senate spent days debating a constitutional amendment that would have dismantled winner-take-all and divided every state's electoral votes. The most effective voice against it was a 38-year-old Democrat from Massachusetts named John F. Kennedy, who warned his colleagues that they were not tinkering with an isolated mechanism: "It is not only the unit vote for the Presidency we are talking about, but a whole solar system of governmental power." The reform died. Four years later Kennedy won a presidency that a proportional system might well have denied him. The lesson of 1956 is the lesson of this whole debate: the [[term:electoral-college]] argument scrambles partisan instincts, and serious people have landed on every side of it. What follows are three positions, each presented as its smartest adherent would present it; engaging a caricature teaches you nothing.
+
+## The terrain: three camps, two kinds of disagreement
+
+Before the arguments, the map. The three positions divide over two kinds of question. One is a question of *values*: should the President answer to a single national electorate, or to the states as constitutional units? No data settles that. The other is a question of *empirics*: who actually gets protected, courted, and counted under the current rules? Data bears on that directly — and it is not kind to every claim on either side.
+
+| Position | Core claim | Strongest evidence | Its hardest problem |
+| --- | --- | --- | --- |
+| Originalist defender | The Founders deliberately rejected direct election; the design forces broad, federal coalitions | 55 of 60 elections aligned with the popular vote; constitutional text and Convention record | Campaign attention goes to close states, not small ones |
+| Democratic-majority reformer | Equal votes for a national office; the system misfires and distorts campaigns | Five popular-vote-loss winners; 94% of 2024 campaign events in 7 states | Direct election at national scale has its own failure modes (recounts, fraud incentives) |
+| Federalist preservationist | Whatever the Founders meant, the state-by-state structure does irreplaceable constitutional work | Election administration is state law; disputes stay contained (Florida 2000, not fifty Floridas) | Must explain why this structure, and not the Senate and 10th Amendment, carries federalism |
+
+The camps largely *agree* on the arithmetic; they disagree about what it means.
 
 ## 1. The originalist defender's case
 
-The starting move is to take the Founding-era design seriously on its own terms. The Electoral College was not a quirk or an accident — it was the product of the most heavily debated structural feature of the Constitution, and it embodies a coherent theory of representation.
+The starting move is to take the Founding-era design seriously on its own terms. The Electoral College was not a quirk or an accident. The mode of electing the executive was among the most heavily debated structural questions at the 1787 Convention — direct popular election was proposed and rejected repeatedly over the summer — and the elector device emerged as a deliberate solution to a cluster of problems: informed choice in a continent-sized republic without mass communication, presidential independence from Congress, and the weighting of states' divergent suffrage practices into one decision. Hamilton's defense in [[term:federalist-papers]] No. 68 promised that the mode would let "the sense of the people" operate through electors "most capable of analyzing the qualities adapted to the station" — judgment plus popular grounding, not judgment instead of it.
 
-The argument:
+Small-state protection, on this view, is structural rather than coincidental. Every state's electoral votes equal its House seats plus two, so the floor is three. Run the numbers honestly: on 2020 census figures, Wyoming's 576,851 people share 3 electors — one per roughly 192,000 residents — while California's 39.5 million share 54, one per roughly 732,000. A Wyoming vote carries nearly four times the per-capita electoral weight of a California vote. Reformers call that indefensible; the defender calls it the knowing price of union, identical in logic to the Senate's two-per-state rule. Madison's Federalist No. 39 described the constitutional design as "neither a national nor a federal Constitution, but a composition of both" — and the presidency's electoral arithmetic is exactly that composition in miniature.
 
-- **The Founders rejected direct popular election deliberately.** The Constitutional Convention voted on direct popular election multiple times; it lost every time. The reasons varied — concerns about an uninformed electorate (in an era before mass communication), about regional concentrations of voters, about slavery's distorting effect on the South's voting weight — but the common thread is that the Founders were skeptical of national popular sovereignty as the basis for executive power. They opted for a system where states acting as constitutional units, weighted by their congressional representation (House + Senate), would choose the President. Federalist 68 (Hamilton) presents the design as a deliberative buffer between popular passion and ultimate selection.
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 190" width="100%" role="img" aria-label="Bar chart comparing people per elector: Wyoming about 192,000 people per elector versus California about 732,000 people per elector, 2020 census figures" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="30" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">People per elector (2020 census)</text>
+  <text x="30" y="62" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)">Wyoming</text>
+  <rect x="120" y="48" width="150" height="22" fill="var(--gold, #b08a3e)" />
+  <text x="280" y="64" font-family="Georgia, serif" font-size="13" fill="var(--muted, #6b6457)">about 192,000 (576,851 people, 3 electors)</text>
+  <text x="30" y="102" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)">California</text>
+  <rect x="120" y="88" width="570" height="22" fill="var(--blue, #2f4d6e)" />
+  <text x="126" y="104" font-family="Georgia, serif" font-size="13" fill="#ffffff">about 732,000 (39.5M people, 54 electors)</text>
+  <text x="30" y="148" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">Per-capita weight gap: nearly 4 to 1. Both camps accept this arithmetic;</text>
+  <text x="30" y="166" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">they disagree about whether it is the price of union or a defect to repair.</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: The "+2" floor in per-capita terms. The defender reads the gap as federalism working as designed; the reformer reads it as malapportionment.</figcaption>
+</figure>
 
-- **Small-state protection is structural, not coincidental.** Each state gets at minimum 3 electors (1 House + 2 Senate). Wyoming with ~580,000 people has 3 electors; California with ~39M has 54. This means a Wyoming voter has roughly 3.6× the electoral weight of a California voter. Reformers call this anti-democratic; defenders call it the deliberate price of preserving small-state buy-in to the constitutional compact. The Senate has the same structure (every state gets 2 senators) for the same reason. Eliminating this would, in Madison's framing in Federalist 39, dissolve the federal compact and leave a unitary national state.
+The geographic-coalition argument completes the case. Winner-take-all by states means a candidate cannot simply pile up margins in the largest metropolitan concentrations; the path to 270 runs through farm states, industrial states, and desert states with different economies and different grievances. Defenders reach for a sports analogy: a World Series is won by games, not total runs, because the rules test distributed strength rather than raw accumulation. Tara Ross's *Why We Need the Electoral College* (2019) makes the book-length version: the system, she argues, is a guardrail that forces majorities to be *federal* majorities before they can govern.
 
-- **Geographic-coalition incentive is a feature.** A purely popular-vote regime would let candidates win by maximizing margins in the largest urban concentrations. The Electoral College forces candidates to assemble multi-state, geographically-distributed coalitions — winning Iowa farmers, Pennsylvania industrial workers, and Nevada service workers, not just Manhattan and Los Angeles. This protects against political coalitions that ignore vast swaths of the country. Tara Ross's *Why We Need the Electoral College* makes this argument at book length.
+And the inversion record, on this reading, is thin evidence against. Of the 60 presidential elections from 1788 through 2024, 55 produced a winner who also led the popular vote (with the caveat, taken up in the next lesson, that the earliest contests had no meaningful national popular vote to lead). The modern misfires — 2000 on a 0.5-point popular margin, 2016 on 2.1 — were photo finishes in which the system's tiebreaker favored breadth over depth. That is the design doing what it says, the defender argues, not the design failing.
 
-- **The "five popular-vote losers won" data is misleading.** The 1824 result was thrown to the House under the 12th Amendment, not produced by the Electoral College alone. The 1876 result was a contested mess resolved by an extra-constitutional commission. The 1888, 2000, and 2016 cases involved popular-vote margins that were tiny (<3% in 2016, <0.5% in 2000) and where the electoral margin was likewise narrow. Of 60 presidential elections, 55 produced an Electoral College winner who also won the popular vote. The system is more aligned with the popular vote than its critics suggest.
+What evidence would change this position? A showing that small-state protection does not operate in modern campaigning — because campaigns ignore most small states anyway — plus evidence that the coalition incentive produces swing-state pandering rather than breadth. The strongest defenders concede the campaign-attention data is uncomfortable, and retreat to the values claim: federal composition matters even if no campaign consultant prices it in.
 
-- **Federalism is irreplaceable.** The President is not merely a national chief executive; the office is the head of a federal system. Choosing the President through a state-by-state procedure — rather than a single national pool — is one of the few remaining structural reminders that the United States is a union of states with retained sovereignty, not a unitary nation-state. Erosion of this is, on this view, erosion of federalism itself.
-
-What evidence would change this position? A persuasive showing that the small-state-protection rationale doesn't actually obtain in modern campaigning (because campaigns ignore most small states anyway), combined with evidence that the geographic-coalition incentive doesn't actually produce the broader coalitions defenders claim. The strongest version of this position acknowledges the empirical record on swing-state attention is uncomfortable for the geographic-coalition argument.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Which of these is the originalist defender <em>not</em> committed to defending: (a) the +2 elector floor, (b) winner-take-all, (c) state-legislature control over the manner of appointment?</summary>
+<p><strong>(b) Winner-take-all.</strong> The +2 floor and legislative control are in the constitutional text; winner-take-all is a state-law artifact that spread in the early 1800s for partisan advantage — Madison himself wanted it amended away. A defender of the <em>Founders' design</em> can consistently favor district or proportional allocation. Keeping the constitutional skeleton and the state-law muscle separate is the first discipline of this debate.</p>
+</details>
 
 ## 2. The democratic-majority reformer's case
 
-The starting move is to deny the moral premise that voters in different states should have different weights. In a country where the Senate is malapportioned by design, where the House has been gerrymandered into low competitiveness in many states, and where the judiciary is appointed for life — the President is the one office plausibly accountable to a national majority. Distorting that, on this view, is the most consequential of all the constitutional anti-majoritarianisms.
+The starting move is moral, not historical: in choosing the one official who represents the whole country, every citizen's vote should weigh the same. The Senate is malapportioned by design, the judiciary appointed — the presidency is the single office plausibly accountable to a national majority, and the Electoral College distorts exactly that office. Robert Dahl put the comparative point bluntly in *How Democratic Is the American Constitution?* (2001): among established democracies, no other country elects its chief executive through anything like it, and almost none of the Framers' stated reasons for it survived even their own generation.
 
-The argument:
+The empirical core is the campaign-attention record. In the 2020 general election, 96 percent of the major-party candidates' campaign events — 204 of 212 — took place in just 12 states; 33 states and D.C. got none at all. By 2024 the funnel had narrowed further: 94 percent of general-election events (246 of 262) occurred in seven battlegrounds — Arizona, Georgia, Michigan, Nevada, North Carolina, Pennsylvania, Wisconsin — which together hold a bit under 20 percent of the U.S. population. Here is George C. Edwards III's scholar's-lens point, from *Why the Electoral College Is Bad for America*: attention follows *competitiveness*, not size. The system's defenders say it protects small states; the data show candidates ignore small safe states exactly as thoroughly as they ignore large safe ones. Whatever the Electoral College is protecting, it is not the small state as such — it is the closely divided state, a category with no constitutional significance whatsoever.
 
-- **Five popular-vote losers have won the presidency.** 1824, 1876, 1888, 2000, 2016. Two of those (2000, 2016) are within most living voters' memory; both were won by single-digit electoral margins on losses of 0.5% and 2.1% in the popular vote respectively. The frequency in the modern era — two of the last six elections — is climbing, not declining. Elections decided this way produce questions about democratic legitimacy that don't go away after one term.
+This reframes the voter-weight arithmetic too. The nearly 4-to-1 paper advantage of a Wyoming vote is, the reformer argues, the *smaller* distortion. The larger one is that under winner-take-all, a vote in any safe state — rural upstate New York, urban Houston — has effectively zero chance of changing the outcome, while a vote in Pennsylvania is courted for four years. The "rural protection" framing collapses on inspection: there are more rural voters in California and Texas than in the entire Mountain West, and they are invisible to presidential campaigns. The system protects swing-state voters, full stop — a much harder thing to write a defense of.
 
-- **Campaign attention is wildly skewed.** FairVote's data: in the 2020 general election, 96% of presidential campaign events occurred in just 12 "battleground" states; the other 38 states + D.C. received almost no attention. The "geographic coalition" rationale defends the system on the theory that candidates have to court a broad set of states — but in practice, candidates court a stable set of 6–12 swing states, and the rest are written off as either safe or hopeless. The defense's premise (broad coalitions) is contradicted by the data (narrow attention).
+> **In the primary sources:** The reformer's historical indictment runs through the Convention itself. When direct election came up on July 19, 1787, Madison called "the people at large" "the fittest in itself" to choose the executive — but saw a problem: "The right of suffrage was much more diffusive in the Northern than the Southern States; and the latter could have no influence in the election on the score of the Negroes. The substitution of electors obviated this difficulty." Enslaved people could not vote, but the three-fifths ratio counted them toward House seats — and therefore toward electors. Akhil Amar and others press the implication: the original allocation rewarded slaveholding states, and that rationale died with the [[term:suffrage]] amendments, leaving inertia where the reason used to be. Defenders respond that slavery was one thread among several. The quotation, at least, is not in dispute.
 
-- **Voter weight inequality is real and large.** A vote in Wyoming is ~3.6× more weighted in the EC than a vote in California in raw mathematical terms. But the practical disparity is much larger: a vote in a non-swing state of any size is essentially zero-weight (because the outcome is preordained), while a vote in a closely-divided swing state can be decisive. Pennsylvania voters have power; New York and Texas voters do not, regardless of state size. This is not what the small-state-protection defense claims to be defending.
+The misfire record completes the case: five elections — 1824, 1876, 1888, 2000, 2016 — put the popular-vote loser in the White House, two of them in the seven elections since 2000. Near-misses are routine: flipping about 43,000 votes across three states in 2020 would have produced an Electoral College tie despite a seven-million-vote popular margin. And the public has noticed. Pew found 63 percent of Americans in 2024 favoring a national [[term:popular-vote]] standard against 35 percent for keeping the current system — a majority that has held, in Pew and Gallup polling, across decades.
 
-- **The "rural protection" claim doesn't survive scrutiny.** Defenders frame the EC as protecting rural America from coastal-elite domination. But rural voters in California, Texas, and New York — millions of people — have zero presidential influence under winner-take-all. Rural voters in Pennsylvania, Wisconsin, and Michigan have outsized influence. The system protects *swing-state* voters, not *rural* voters as such. This is a different (and harder to defend) thing.
+What evidence would change this position? A showing that direct national election would generate worse pathologies at scale — nationwide recount chaos, sharpened fraud incentives in one-party strongholds, campaigns that abandon retail politics — large enough to outweigh the equality and legitimacy gains. (Lesson 4 supplies one such tension: civil-rights organizations helped sink the 1979 direct-election amendment, reasoning that pivotal blocs in big winner-take-all states would lose leverage in a national pool.)
 
-- **Other federal democracies elect executives directly.** Mexico, Brazil, France, South Korea, Indonesia — all federal or quasi-federal systems — elect their presidents by direct popular vote. Federalism in the U.S. context is sustained by the Senate's structure, the states' retained sovereignty, the 10th Amendment, and dual-track judicial systems. The Electoral College is one mechanism among many; abolishing it would not unmake U.S. federalism.
-
-- **The Compromise of 1787 was about slavery, not about small-state interests as such.** Akhil Amar and others have made the historical case that the three-fifths clause was load-bearing in the original Electoral College design — Southern states were over-weighted because their slave populations counted (at three-fifths) for representation but slaves obviously couldn't vote. After Reconstruction killed that compromise, the rationale that justified the original allocation went with it. What remains is structural inertia.
-
-What evidence would change this position? A persuasive showing that direct national election would produce significantly worse electoral outcomes — fraud incentives, regional polarization, urban-only campaigning — at scale large enough to outweigh the equality and popular-legitimacy gains. The strongest version acknowledges the rural-attention concern (under direct election, smaller-population states might receive even less attention than they do now) and tries to address it through campaign-finance reform and ballot-access rules rather than retain the EC.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A defender says: "Under direct election, candidates would just run up margins in New York and Los Angeles and ignore everyone else." What is the reformer's strongest empirical reply?</summary>
+<p>That the current system <em>already</em> writes off most of the country — in 2024, 94% of campaign events went to seven states holding under a fifth of the population — while under direct election every marginal vote counts the same wherever it lives. A campaign that "only" ran up cities would leave most votes (suburban, exurban, rural, small-town) to its opponent. The reply concedes nothing about values; it attacks the defense's factual premise that the EC produces geographic breadth.</p>
+</details>
 
 ## 3. The federalist preservationist's case
 
-This third position is sometimes confused with the originalist defense. It's distinct. The originalist defends the EC on the theory that the Founders' design was wise. The federalist preservationist argues something narrower: even if you grant that the Founders' rationale is dated, the *structural* role of the EC in the federal system is irreplaceable, and removing it would have downstream consequences reformers don't reckon with.
+This third position is regularly confused with the first, and the confusion matters. The originalist defends the Electoral College because the Founders' design was wise. The federalist preservationist argues something narrower and harder to dismiss: *even if* the original rationales are dead, the state-by-state structure now does load-bearing constitutional work that reformers have not priced in.
 
-The argument:
+The President, on this view, is the executive of a federal union, not of an undifferentiated national mass. States run elections — registration, ballot design, recount triggers all vary by state law, and *McPherson v. Blacker* (1892) leaves the manner of appointing electors to legislatures. A "national popular vote" is therefore not a thing that exists; it is a sum of 51 separately administered elections conducted under 51 different rule books. The Electoral College is honest about that heterogeneity — it aggregates state-level outcomes, which are real legal facts, rather than pretending raw vote totals cast under different rules are commensurable.
 
-- **The President is the executive of a federal union, not a unitary state.** This is a constitutional-theory claim, not a historical one. Under the U.S. Constitution, sovereignty is divided between the states and the federal government. The states retain primary authority over the conduct of elections — registration, ballot rules, district drawing, even (per McPherson) elector selection. Choosing the President through a state-by-state procedure makes the constitutional architecture coherent. Choosing the President through a national popular vote subordinates the states to a national electorate that the Constitution does not recognize as sovereign.
+Judith Best's *The Choice of the People?* (1996) gives this camp its sharpest formulation: the "federal principle" requires presidential majorities to be *distributed* majorities — concurrent majorities across many states — just as the Constitution requires supermajorities of states, not just people, to amend it. A numerical majority concentrated regionally, Best argues, is precisely the kind of majority the federal design is built to filter.
 
-- **There is no national popular vote for the EC to be replaced by, in any meaningful sense.** This is a procedural claim. Federal law sets the date of election but not the rules — eligibility to vote, registration deadlines, mail-in ballot rules, ID requirements, even the form of the ballot — all vary by state. A "national popular vote" is, in fact, a sum of fifty separately-conducted state elections. Aggregating them into a single national winner pretends a uniformity that doesn't exist. The EC is honest about this; a popular-vote regime is not.
+The containment argument is the most practical. In 2000, the national margin was half a million votes, but the legal fight was bounded: one state, one recount regime, one certified total of 537. Under direct election, an equivalently tiny *national* margin would make every precinct in every state worth litigating, simultaneously — fifty Floridas, run under fifty different recount statutes. The [[term:federalism]] structure quarantines electoral pathology; nationalizing the count nationalizes the crisis. Add the experimentation point — Maine and Nebraska's district method, ranked-choice presidential ballots, even the National Popular Vote compact itself are all exercises of the state-level authority reform would extinguish — and the preservationist's closing demand follows naturally: if the country wants direct election, the honest path is an Article V amendment, with the supermajorities that entails, not a workaround.
 
-- **Recount and audit problems would be vastly worse under direct election.** Under the current system, a contested result (Bush v. Gore 2000) is bounded by the states involved — there were three states in 2000 with potential effect on the outcome, and Florida specifically. Under direct election, every state with a tight margin would be subject to challenge, because every state's tally would feed the national total. The 2020 election would have produced not one Bush v. Gore but potentially seven or eight, simultaneously. The federalist preservationist views the EC's narrowing of where election disputes matter as a stability feature.
+What evidence would change this position? A showing that other federations — Brazil, Mexico, Argentina, Nigeria all elect presidents directly — combine national executive election with robust subnational authority and survivable recount procedures. The strongest preservationists concede this is a live empirical question rather than a settled one.
 
-- **State-level experimentation is preserved.** Under the EC, states can switch to district allocation (Maine, Nebraska), or join the National Popular Vote Compact (more on this in Lesson 4), or otherwise adapt their procedures. Under direct national election, this experimentation would be impossible — the procedure would be uniform, federally specified, and probably constitutionally required. The federalist preservationist sees the state-by-state structure as the source of healthy variation, not a defect.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A senator argues: "Even if Hamilton's reasons are obsolete, abolishing the Electoral College would turn every close national election into a fifty-state recount war." Which camp is she in — and what single word in her sentence tells you?</summary>
+<p>The <strong>federalist preservationist</strong>. The giveaway is "<em>even if</em>" — she has surrendered the Founders'-wisdom ground (the originalist's home turf) and is defending the institution on present structural consequences. The two defenses often travel together politically, but they rest on different premises and fail under different evidence.</p>
+</details>
 
-- **Constitutional amendment is the right path, if abolition is the goal.** This argument is partly procedural. The federalist preservationist might concede that a thoroughgoing case for direct national election is plausible — but argues that the proper way to make the change is via Article V amendment, with the supermajorities that requires (2/3 of each chamber + 3/4 of the states). Workarounds like the National Popular Vote Compact, on this view, are constitutionally suspicious because they attempt to achieve what amendment requires through a coordination mechanism the Constitution didn't anticipate.
+## Where the disagreement actually lives
 
-What evidence would change this position? A persuasive showing that the constitutional structure can absorb direct national election without unraveling state authority over election administration generally — perhaps by demonstrating that other federal systems (Brazil, Germany) successfully combine direct executive election with strong state-level authority over other matters. The strongest version acknowledges this is a contestable empirical question.
+**Settled, or close to it.** Five elections put the popular-vote loser in the White House (1824 with an asterisk you'll meet next lesson). Campaign attention is overwhelmingly concentrated — 96 percent of events in 12 states in 2020, 94 percent in 7 states in 2024. States hold plenary authority over elector appointment (*McPherson*, reaffirmed in *Chiafalo*). Slavery's arithmetic shaped the original design, alongside other rationales; Madison's July 19 remarks are on the record.
 
-## What's settled and what's contested
+**Genuinely contested.** Whether the President should answer to a national electorate or to the states as states — a values question no dataset resolves. Whether direct election would produce worse failure modes than the ones it cures. Whether the coalition incentive produces breadth or merely relocates narrowness from "big states" to "swing states." Whether federalism actually needs this institution, given the Senate, the 10th Amendment, and state control of election machinery.
 
-**Settled (or near-settled):**
-- The Electoral College has produced five elections where the popular-vote loser won (count is uncontested).
-- Campaign attention is overwhelmingly concentrated in 6–12 swing states, with the rest receiving very little.
-- States have plenary authority over how they choose electors (McPherson v. Blacker, reaffirmed Chiafalo).
-- The original 1787 design was significantly shaped by slavery and the three-fifths compromise.
-
-**Genuinely contested:**
-- Whether direct national election would produce systematically different *policy* outcomes (the empirical case is harder to make than rhetoric suggests).
-- Whether the geographic-coalition incentive actually produces broader coalitions or merely shifts the narrowness from "wealthy donors" to "swing-state median voters."
-- Whether state-by-state experimentation under the EC is a real benefit or a fig leaf for inertia.
-- Whether the National Popular Vote Compact is constitutionally permissible — covered in Lesson 4.
-
-A defensible position takes one of these three frames, says why, and acknowledges what's contested. The next lesson traces what's actually happened in U.S. presidential history under this system.
+A defensible position takes one of the three frames, says why, and names what would change its holder's mind — and you should be able to do that for the position you find least congenial. The next lesson leaves the seminar room for the historical record: what this machine has actually done across 60 elections, including the five times it overrode the popular vote and the two times it nearly broke.

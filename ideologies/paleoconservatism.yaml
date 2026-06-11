@@ -29,4 +29,10 @@ related_ideologies:
   - american-conservatism
   - right-populism
 historical_period: Roots in pre-WWII Old Right; named in the 1980s in opposition to neoconservatism
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: 0.35
+  social: 0.7
 body_md: ""

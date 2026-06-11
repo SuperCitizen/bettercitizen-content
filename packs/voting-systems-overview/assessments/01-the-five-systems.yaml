@@ -14,7 +14,7 @@ questions:
       - id: d
         text: "Vote for one candidate, with an automatic runoff if no one has a majority"
     correct_choice_id: b
-    explanation: "Approval is the simplest mechanically: a checkbox per candidate, no ranking, no scoring."
+    explanation: "Approval is the simplest mechanically: a checkbox per candidate, no ranking, no scoring. The cost of that simplicity is that your favorite and your barely-acceptable third choice get identical support from your ballot — the flattening that score and STAR were designed to fix."
     concepts: [approval-voting]
 
   - id: q2
@@ -30,11 +30,43 @@ questions:
       - id: d
         text: "Score voting is harder to count; RCV is simpler"
     correct_choice_id: a
-    explanation: "RCV captures order (1st, 2nd, 3rd); score captures intensity (e.g., 9, 7, 1). The other claims are partly true but not the *most important* distinction. (RCV is in U.S. use; score isn't yet — but that's about adoption, not mechanics.)"
+    explanation: "RCV captures order (1st, 2nd, 3rd); score captures intensity (e.g., 5, 4, 0). Choice (c) is true as of mid-2026 but is a fact about adoption, not about the systems' mechanics. Choice (b) is false — neither system satisfies the Condorcet criterion — and (d) is backwards: score sums by precinct like plurality, while RCV requires centralized rounds of elimination."
     concepts: [ranked-choice-voting, score-voting]
 
   - id: q3
+    kind: multiple-choice
+    text: "In a 100-voter instant-runoff election, first choices are: Avery 38, Brooks 32, Cruz 30. Cruz's voters all ranked Brooks second; Brooks's voters all ranked Cruz second. Who wins, and why?"
+    choices:
+      - id: a
+        text: "Avery — the candidate with the most first-choice votes wins under RCV"
+      - id: b
+        text: "Brooks — Cruz is eliminated and Cruz's 30 ballots transfer to Brooks, who beats Avery 62–38"
+      - id: c
+        text: "Cruz — the runoff is between the top two, and Brooks's voters transfer to Cruz"
+      - id: d
+        text: "Nobody — with no majority, the election is rerun"
+    correct_choice_id: b
+    explanation: "No one has 51 of 100 first choices, so the LAST-place candidate (Cruz, 30) is eliminated — not advanced. Cruz's ballots transfer to their next choice, Brooks, who wins 62–38. Choice (c) describes a top-two runoff, a different system: there Avery and Brooks would be the finalists by first-choice totals. Choice (a) describes plurality. The transfer step is exactly what distinguishes the three."
+    concepts: [instant-runoff, ranked-choice-voting]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which statement about where these systems are used in U.S. government elections, as of mid-2026, is accurate?"
+    choices:
+      - id: a
+        text: "Approval voting is spreading rapidly; a dozen cities adopted it after Fargo's 2018 vote"
+      - id: b
+        text: "STAR voting is used statewide in Oregon"
+      - id: c
+        text: "Maine and Alaska use RCV statewide, while 19 states have passed laws banning RCV"
+      - id: d
+        text: "Score voting is used for federal elections in a handful of small states"
+    correct_choice_id: c
+    explanation: "Maine (since 2018, with a state-constitutional carve-out for state general elections) and Alaska (top-four primary plus RCV general, since 2022) use RCV statewide, alongside dozens of localities — 49 jurisdictions in all, by FairVote's 2026 count — while 19 states have banned it, and North Dakota's 2025 ban erased Fargo's approval voting. Approval's governmental record is St. Louis plus Fargo's five years — not a dozen cities. STAR has no governmental adoption anywhere; Eugene rejected it about two-to-one in May 2024. Score has none at all."
+    concepts: [ranked-choice-voting, approval-voting]
+
+  - id: q5
     kind: free-response
-    text: "Plurality voting is the system most U.S. elections use today. In one paragraph, describe a specific scenario where plurality fails to find the candidate that the largest number of voters would *most prefer* compared to the alternatives."
-    socratic_seed: "Imagine a 3-way race where the two candidates closest to each other politically split a majority of voters between them..."
+    text: "Plurality voting is the system most U.S. elections use today. Describe a specific scenario where plurality fails to elect the candidate that voters, comparing all the alternatives, would most prefer — and name the mechanism."
+    socratic_seed: "Imagine a 3-way race where two candidates closest to each other politically split a majority of voters between them, letting the third win with 40%. That's the spoiler effect — Arrow's independence-of-irrelevant-alternatives failure in street clothes. For full credit, connect it to Duverger's psychological effect: knowing this, voters abandon their sincere favorite in advance, which is why the failure usually shows up as tactical voting rather than as a third-party win."
     concepts: [plurality-voting, spoiler-effect]

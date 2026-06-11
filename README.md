@@ -13,7 +13,8 @@ public — that is the whole point.
 
 | Directory | What it holds | Format |
 | --- | --- | --- |
-| `packs/` | Curriculum packs — the lessons in `/learn`. One directory per pack. | Markdown + YAML |
+| `packs/` | Curriculum packs — the lessons in `/learn`. One directory per pack. | MDX + YAML |
+| `components/` | The interactive lesson component library (the only JSX lessons may use — see [COMPONENTS.md](COMPONENTS.md)). | TypeScript/React |
 | `glossary/` | Glossary terms (definitions the coach and lessons reference). | YAML, one file per term |
 | `ideologies/` | Political traditions used by the steel-man flow. | YAML, one file per ideology |
 | `issues/` | Issue cards + per-issue charitable framings (left/center/right). | YAML, one file per issue |
@@ -30,11 +31,16 @@ public — that is the whole point.
 packs/<pack-slug>/
 ├── pack.yaml              # manifest: title, summary, level, contested, lessons[]
 ├── lessons/
-│   ├── 01-intro.md        # markdown body + YAML frontmatter (sources REQUIRED)
+│   ├── 01-intro.mdx       # MDX body + YAML frontmatter (sources REQUIRED)
 │   └── ...
 └── assessments/
     └── <lesson-slug>.yaml # questions keyed to a lesson slug
 ```
+
+Lessons are MDX: markdown plus a fixed catalog of interactive components
+(checkpoints, quick checks, timelines, simulators) documented in
+[COMPONENTS.md](COMPONENTS.md). Lesson files may not `import` anything — the
+app supplies the catalog — so content stays auditable as plain text.
 
 Every lesson's frontmatter **must** include `sources:` with primary sources.
 Contested packs (`contested: true`) require each lesson to carry

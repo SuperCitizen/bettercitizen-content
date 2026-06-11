@@ -28,4 +28,10 @@ related_ideologies:
   - communitarianism
   - social-democracy
 historical_period: 1890s Catholic social-teaching roots; dominant European post-war centrist tradition
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: -0.1
+  social: 0.45
 body_md: ""

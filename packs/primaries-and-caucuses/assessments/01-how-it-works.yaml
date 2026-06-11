@@ -3,54 +3,70 @@ lesson: how-it-works
 questions:
   - id: q1
     kind: multiple-choice
-    text: "What is the key difference between a primary and a caucus?"
+    text: "At an Iowa-style Democratic caucus in a precinct electing four delegates, the first alignment is: Adams 45%, Brown 30%, Castillo 12%, Drake 8%. What happens next?"
     choices:
       - id: a
-        text: "Primaries are run by the federal government; caucuses by the state government."
+        text: "Adams wins the precinct outright — the largest group takes all the delegates."
       - id: b
-        text: "Primaries are state-administered elections (cast a ballot at a polling place); caucuses are party-administered meetings (gather in person and physically separate by candidate)."
+        text: "Castillo's and Drake's groups are non-viable (under 15%); their members get one chance to realign — join a viable group, or combine with each other (12 + 8 = 20%) to form a new viable group."
       - id: c
-        text: "Primaries are for major parties; caucuses are for minor parties."
+        text: "Castillo's and Drake's ballots are automatically transferred to their voters' next-ranked choices, as in ranked-choice voting."
       - id: d
-        text: "There's no functional difference."
+        text: "The caucus repeats the count until one candidate clears 50 percent."
     correct_choice_id: b
-    explanation: "Primaries are state-administered elections — voters cast ballots at polling places. Caucuses are party-administered meetings where voters gather in person, physically separate into groups by candidate, and re-shuffle through multiple rounds. Caucus turnout is typically much lower than primary turnout because the time commitment is much higher. Most states have moved from caucuses to primaries; only a few still use caucuses."
-    concepts: [primaries, caucuses]
+    explanation: "In most precincts the Democratic viability threshold is 15 percent (25 percent where only two delegates are at stake, one-sixth where there are three). Non-viable groups don't lose automatically — their members realign in person, including by merging two non-viable groups into a viable one. Choice (c) is the classic confusion: a caucus realignment is public and physical, with no secret ballot and no automatic transfer; RCV does something analogous on paper. Final counts convert to delegates by formula — plurality (a) and majority-rerun (d) describe neither system."
+    concepts: [caucus, caucuses]
 
   - id: q2
     kind: multiple-choice
-    text: "Who actually controls the rules for presidential nomination — federal government, state government, or political parties?"
+    text: "In 2024 the DNC ordered New Hampshire to vote later in the calendar; New Hampshire state law requires its primary to be first in the nation, and the state voted January 23 anyway. What does the episode reveal about who controls the nominating process?"
     choices:
       - id: a
-        text: "Federal government, under the Constitution."
+        text: "Federal law ultimately determines primary dates, and New Hampshire invoked it."
       - id: b
-        text: "State governments, under their plenary election authority."
+        text: "National parties can cancel a state-run primary they have not sanctioned."
       - id: c
-        text: "Political parties, with state-level administrative cooperation."
+        text: "Parties enforce their calendar only through delegate seating, while states control the elections they administer — so a determined state can hold an unsanctioned primary and absorb the penalty."
       - id: d
-        text: "The Supreme Court, through interpretation of voting-rights statutes."
+        text: "The Supreme Court schedules the nominating calendar when party and state disagree."
     correct_choice_id: c
-    explanation: "Presidential nomination is governed by party rules. The Constitution doesn't specify how parties choose nominees; political parties are formally private associations. The DNC and RNC set broad rules; state parties operate within those rules and choose specifics. State election boards administer the voting (counting ballots, opening polling places), but the rules they administer come from the parties — not from federal or state law."
+    explanation: "The process is run by two sovereigns at once. No federal law dictates the nominating calendar; the party's only enforcement tool is refusing to seat delegates — which the DNC briefly did to New Hampshire before quietly seating them at the convention. The state, answering to its own first-in-the-nation statute, ran the primary regardless, and Biden won it with more than 63 percent as a write-in. Neither sovereign could simply command the other."
     concepts: [primaries, party-rules]
 
   - id: q3
     kind: multiple-choice
-    text: "How does the Democratic Party allocate delegates differently from the Republican Party in 2024?"
+    text: "A state's law lets each party decide, cycle by cycle, whether unaffiliated voters may vote in its primary. Under the NCSL classification used in this lesson, that state is best described as..."
     choices:
       - id: a
-        text: "Democrats use winner-take-all; Republicans use proportional."
+        text: "Open — any voter may privately pick either party's primary."
       - id: b
-        text: "Democrats use proportional allocation in all states (with 15% threshold); Republicans use mostly winner-take-all or modified winner-take-all."
+        text: "Partially open — voters may cross over, but doing so is recorded or rebinds their registration."
       - id: c
-        text: "There's no significant difference."
+        text: "Partially closed — the party, not the voter, holds the option to admit the unaffiliated."
       - id: d
-        text: "Democrats use a national primary; Republicans use sequential state primaries."
-    correct_choice_id: b
-    explanation: "Democrats use proportional allocation in all primaries — a candidate must hit 15% in a district or statewide to receive delegates from that area. Republicans use mostly winner-take-all or modified winner-take-all (some states require 50% threshold; some are proportional). The difference matters: Republican primaries can produce decisive winners faster (a 30% lead in a winner-take-all state gives 100% of delegates), while Democratic primaries produce more gradual delegate accumulation."
-    concepts: [primaries, delegate-allocation]
+        text: "Top-two — all candidates appear on one ballot and the top two advance."
+    correct_choice_id: c
+    explanation: "The discriminating question is who holds the choice. Partially closed states (nine as of NCSL's May 2026 update, including Connecticut, Maryland, Oregon, and Utah) let the party decide each cycle whether to admit unaffiliated voters. Open states (like Wisconsin and Michigan) give every voter a private choice; partially open states (like Iowa and Illinois) allow crossover but record or rebind it; top-two abolishes the party primary altogether."
+    concepts: [primaries, primary]
 
   - id: q4
+    kind: multiple-choice
+    text: "A statewide Democratic primary returns: Ramos 38%, Shah 27%, Tate 14.9%, Ulrich 13%, minor candidates 7.1%. How do the statewide delegates split — and what changes if the same result occurs in a Republican winner-take-all state after March 15?"
+    choices:
+      - id: a
+        text: "All four named candidates receive delegates in proportion to their votes; under Republican rules the same proportional split applies."
+      - id: b
+        text: "Only Ramos and Shah qualify (15% threshold), splitting delegates roughly 58–42 in proportion to their qualifying vote; under post-March-15 Republican winner-take-all rules, Ramos takes every delegate."
+      - id: c
+        text: "Ramos takes all the delegates in both parties' systems, having won a plurality."
+      - id: d
+        text: "Tate qualifies at 14.9% because Democratic thresholds round to the nearest whole number."
+    correct_choice_id: b
+    explanation: "The Democratic threshold is a cliff, not a slope: 14.9 percent earns exactly zero statewide delegates, while Ramos and Shah divide the pool in proportion to their shares of the qualifying vote (38 and 27 of 65 — about 58 and 42 percent). In a Republican winner-take-all state after March 15 (RNC Rule 16 requires proportionality only for March 1–14 contests), a 38-percent plurality converts to 100 percent of the delegates. That single contrast is why Democratic races grind on while Republican races snap shut."
+    concepts: [delegate-allocation, primaries]
+
+  - id: q5
     kind: free-response
-    text: "Defenders of the current primary system and reformers both claim the system produces representative nominees. State the strongest version of how each side reads the same evidence."
-    socratic_seed: "Status-quo defender: high turnout in competitive primaries, sequential structure surfaces lesser-known candidates, party endorsements still substantially shape outcomes (Cohen et al.'s 'Party Decides'), the federal structure is preserved. Reformer: turnout is much lower than general elections, low-turnout activists drive results in safe-seat districts, primary-driven polarization is empirically documented, the early-state structure is demographically unrepresentative. Both sides agree on most facts; they disagree about which facts are decisive — whether nominee quality is more about voter participation breadth or about the depth of party-elite engagement."
-    concepts: [primaries]
+    text: "Using the three landmark cases from this lesson — Smith v. Allwright (1944), California Democratic Party v. Jones (2000), and Washington State Grange (2008) — explain why a state may lawfully abolish party primaries altogether, yet may not force a party's own primary open to all voters."
+    socratic_seed: "The floor is Smith v. Allwright: when the primary is integral to the state's election system, it is state action, so constitutional guarantees like the Fifteenth Amendment reach inside it — the party cannot hide behind private-club status. The ceiling is Jones: the First Amendment's freedom of association means the state cannot hand a party's nomination — its standard-bearer — to nonmembers, which is what the blanket primary did. The synthesis is Grange: a top-two system survives because it nominates no one; candidates state only a 'preference' and advance as individuals, so the party is never forced to associate with anyone. Strong answers state the rule of thumb: states have wide latitude to design election systems around parties, and much less latitude to reach inside them."
+    concepts: [primaries, party-rules]

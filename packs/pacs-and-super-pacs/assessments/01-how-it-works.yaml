@@ -3,54 +3,70 @@ lesson: how-it-works
 questions:
   - id: q1
     kind: multiple-choice
-    text: "What is the defining feature of a Super PAC vs. a traditional PAC?"
+    text: "What is the defining trade-off that makes a super PAC 'super'?"
     choices:
       - id: a
-        text: "Super PACs can give directly to candidates; traditional PACs cannot."
+        text: "It may give unlimited amounts directly to candidates, but must disclose every donor."
       - id: b
-        text: "Super PACs accept uncapped contributions from any source but can only make independent expenditures (no direct contributions to candidates)."
+        text: "It may accept unlimited contributions from any source — individuals, corporations, unions — but may only make independent expenditures, never contributions to candidates or parties."
       - id: c
-        text: "Traditional PACs are required to disclose donors; Super PACs are not."
+        text: "It is exempt from FEC registration and reporting, but capped at $5,000 per donor."
       - id: d
-        text: "Super PACs operate under FECA; traditional PACs operate under the Lobbying Disclosure Act."
+        text: "It may coordinate freely with one candidate, but only one."
     correct_choice_id: b
-    explanation: "Super PACs were created by SpeechNow.org v. FEC (2010), which extended Citizens United's logic to political committees. They accept unlimited contributions from individuals, corporations, and unions — but can only make independent expenditures, not direct contributions to candidates. Traditional PACs have capped contributions ($5,000/donor/year) but can give directly to candidates. Both must disclose donors to the FEC."
-    concepts: [pacs, super-pacs]
+    explanation: "SpeechNow.org v. FEC (D.C. Cir. 2010, en banc) reasoned from Citizens United: if independent expenditures don't corrupt, contributions to a group that makes only independent expenditures can't corrupt either — so the $5,000 cap fell. The price is the word 'only': zero direct giving to candidates or parties, and no coordination. The same decision upheld registration and reporting, which is why (c) inverts reality — super PACs itemize their donors to the FEC."
+    concepts: [super-pac, pac]
 
   - id: q2
     kind: multiple-choice
-    text: "What is a Hybrid PAC ('Carey Committee')?"
+    text: "What is a hybrid PAC ('Carey committee')?"
     choices:
       - id: a
-        text: "A PAC operating in both federal and state elections."
+        text: "A PAC that operates in both federal and state elections."
       - id: b
-        text: "A PAC that operates two segregated funds — one with capped contributions for direct candidate giving, one with uncapped contributions for independent expenditures."
+        text: "A leadership PAC sponsored jointly by two officeholders."
       - id: c
-        text: "A leadership PAC operated by current officeholders."
+        text: "A single committee that maintains two segregated bank accounts — one taking capped contributions for direct candidate giving, one taking unlimited contributions for independent expenditures only."
       - id: d
-        text: "A non-partisan PAC."
-    correct_choice_id: b
-    explanation: "Created by Carey v. FEC (D.C. Cir. 2011), Hybrid PACs operate two legally separate funds: one with capped contributions for direct candidate/committee giving, one with uncapped contributions for independent expenditures. The two funds must be kept separate. Effectively a single organizational structure with both PAC and Super PAC capabilities. The NRA Political Victory Fund is a prominent example."
-    concepts: [pacs, hybrid-pacs]
+        text: "A 501(c)(4) that registers with the FEC."
+    correct_choice_id: c
+    explanation: "In Carey v. FEC (D.D.C. 2011) — a district-court case brought by retired Rear Admiral James Carey's National Defense PAC — Judge Rosemary Collyer enjoined the FEC's either/or rule, and the agency settled by stipulation: one committee may run both programs if the money never mixes, one bank account per rulebook. Future Forward USA PAC, the principal pro-Harris outside group of 2024 (about $517 million in spending), operated as a hybrid. Both accounts' donors are disclosed."
+    concepts: [pac, super-pac]
 
   - id: q3
     kind: multiple-choice
-    text: "What does 'coordination' mean for the legal classification of a Super PAC's expenditures?"
+    text: "A journalist writes: 'The super PAC is the main vehicle for anonymous money in American elections.' What is wrong with that sentence?"
     choices:
       - id: a
-        text: "Whether the Super PAC's spending was approved by a majority of its donors."
+        text: "Nothing — super PACs do not disclose their donors."
       - id: b
-        text: "Whether the Super PAC made strategic decisions in concert with the campaign it supports — sharing personnel, vendors, non-public information, or strategic communication. Coordinated expenditures count as direct contributions (capped); independent expenditures are uncapped."
+        text: "Super PACs itemize their donors in public FEC reports; anonymity enters only when a disclosed donor is itself a nondisclosing intermediary, like a 501(c)(4) or shell LLC — a pattern that ran over $1 billion in 2024 but is a property of the intermediaries, not of the super PAC form."
       - id: c
-        text: "Whether the Super PAC operates in multiple states."
+        text: "Anonymous election money is illegal in all forms, so no vehicle provides it."
       - id: d
-        text: "Whether the Super PAC files quarterly reports with the FEC."
+        text: "Super PACs disclose donors only to the IRS, never to the public."
     correct_choice_id: b
-    explanation: "Coordination is the legal threshold that determines whether spending counts as an 'independent expenditure' (uncapped, what makes a Super PAC a Super PAC) or a 'contribution' (capped). The FEC's coordination test has source, content, and conduct prongs. The conduct prong is the live battleground: shared vendors, former-campaign-employee mobility, public coordination via published strategic information are all in the gray zone. The FEC has been deadlocked on most coordination cases for over a decade."
-    concepts: [super-pacs, coordination]
+    explanation: "This is the most commonly mangled fact in campaign finance. Every FEC-registered committee — traditional PAC, super PAC, hybrid, leadership PAC — files itemized public donor reports. The anonymity story lives in the tax-code entities (501(c)(4)s and (c)(6)s) and shell companies that can appear as named-but-opaque donors on a super PAC's report. In 2024, super PACs and similar committees reported receiving over $1 billion from such sources. How that pipeline works hop by hop is the Dark Money pack's subject."
+    concepts: [super-pac, campaign-finance]
 
   - id: q4
+    kind: multiple-choice
+    text: "A senator's campaign committee cannot lawfully pay her country-club dues — that's the statutory ban on personal use of campaign funds. Her leadership PAC pays the same dues. Why does that (probably) not violate the ban, as the rules stood in mid-2026?"
+    choices:
+      - id: a
+        text: "Leadership PACs are secret, so the payment is never reported."
+      - id: b
+        text: "The personal-use statute has been applied to a candidate's own authorized campaign committee; the FEC has never extended it by rule to leadership PACs, despite a 2018 rulemaking petition from Campaign Legal Center and Issue One on which it took comment but never acted."
+      - id: c
+        text: "The Supreme Court held in Carey v. FEC that personal use of PAC funds is protected speech."
+      - id: d
+        text: "Leadership PACs may take unlimited contributions, so spending rules don't apply."
+    correct_choice_id: b
+    explanation: "The gap is jurisdictional, not constitutional. 52 U.S.C. §30114's personal-use ban reaches funds in the candidate's authorized committee; a leadership PAC is a legally separate committee the officeholder sponsors, and the FEC has declined to extend the rule — the 2018 CLC/Issue One petition produced a comment period and nothing more. Leadership-PAC contributions remain capped at $5,000/year and fully disclosed (so (a) and (d) are wrong), and Carey was a district-court case about hybrid accounts, not personal use."
+    concepts: [pac, campaign-finance]
+
+  - id: q5
     kind: free-response
-    text: "The PAC-defender and the PAC-restrictionist disagree fundamentally about whether independence (between Super PAC and campaign) is real or fictional. State the strongest version of each position."
-    socratic_seed: "PAC-defender: independence is legally meaningful — the FEC's coordination rules do constrain real activity, even if some shared-vendor and personnel arrangements look suspicious. The constitutional doctrine (Citizens United, SpeechNow) treats independence as real, and the empirical evidence that this distinction is doing real legal work supports the doctrine. PAC-restrictionist: independence has eroded substantially in practice. Joint vendors, joint personnel (with brief cooling-off), public coordination via published strategic information — these are not what Buckley contemplated by 'independent.' The post-2010 system functions more like coordinated spending with a legal fiction of independence than like genuinely independent expression. Both sides agree on most of the facts; they disagree about whether the legal-political distinction is meaningful given the empirical reality."
-    concepts: [pacs, super-pacs, coordination]
+    text: "A wealthy donor tells you she wants to support Candidate X by: (1) giving X's campaign $10,000; (2) giving $5,000 to a traditional PAC that supports X; (3) giving $3 million to a super PAC backing X; (4) giving $3 million to a 501(c)(4) running 'issue ads' friendly to X; and (5) giving $5,000 to X's leadership PAC. For each, say whether it is legal, what limit applies, and what the public will see."
+    socratic_seed: "(1) Illegal as stated: the individual-to-candidate limit is $3,500 per election in 2025–26 (indexed) — she could give $3,500 for the primary plus $3,500 for the general, but not $10,000 to one election. Disclosed. (2) Legal: $5,000/year is exactly the (unindexed) individual-to-PAC cap; the PAC may then give X up to $5,000 per election if multicandidate. Disclosed. (3) Legal and uncapped under SpeechNow — but itemized on the super PAC's FEC report with her name. (4) Legal and uncapped; the (c)(4) owes the public no donor list, so this is the only anonymous route — with the constraint that electioneering can't be the group's primary activity (Dark Money pack). (5) Legal at $5,000/year, disclosed — and X's leadership PAC can't spend it on X's own campaign, though spending rules are otherwise loose (the personal-use gap). Strong answers notice the punchline: disclosure and caps come apart — the capped routes are all disclosed, the uncapped routes split between disclosed (super PAC) and dark (c4)."
+    concepts: [pac, super-pac, campaign-finance]

@@ -8,6 +8,7 @@ objectives:
   - Distinguish the popular vote, the elector vote, and the contingent-election fallback
   - State the rule for what happens when no candidate gets 270 electoral votes
   - Identify what the Constitution actually says vs. what's been added by state law and Supreme Court ruling
+  - Explain what the Electoral Count Reform Act of 2022 changed about the counting procedure
 concepts:
   - electoral-college
   - electors
@@ -32,6 +33,9 @@ sources:
   - type: court-opinion
     citation: 'Chiafalo v. Washington, 591 U.S. ___ (2020) — states may legally bind electors to their pledged candidate.'
     url: https://www.supremecourt.gov/opinions/19pdf/19-465_i425.pdf
+  - type: paper
+    citation: 'Hamilton, Federalist No. 68 (1788) — the original theory of the elector as independent deliberator.'
+    url: https://avalon.law.yale.edu/18th_century/fed68.asp
   - type: book
     citation: 'Amar, A. R. (2005), America''s Constitution: A Biography, Random House. (Chapters 4 and 9 on the original design and the 12th Amendment.)'
   - type: website
@@ -41,72 +45,117 @@ perspectives:
   - name: Originalist defender
   - name: Democratic-majority reformer
   - name: Federalist (state-prerogative) preservationist
-duration_min: 10
+duration_min: 14
 ---
 
 # How the Electoral College actually works
 
-The Electoral College is not a building, not a college, and not a single body that ever meets. The phrase is a 19th-century shorthand for the procedure laid out in Article II §1 and the 12th Amendment. The mechanics are precise. Start with the precision before arguing about the politics.
+On December 17, 2024, five hundred thirty-eight people you have almost certainly never heard of gathered in fifty-one separate rooms — one in each state capitol, one in Washington, D.C. — and elected the President of the United States. The November election you watched on television, the one with the maps and the concession speech? Constitutionally speaking, that was an enormous, elaborate opinion poll about how these 538 people should vote. The Electoral College is not a building, not a college, and not a single body that ever meets in one place. The phrase is a 19th-century shorthand for a procedure laid out in Article II §1 and the 12th Amendment — and the procedure is precise. Master the precision first; the argument about whether any of this *should* exist comes in Lesson 2.
 
 ## What the Constitution actually says
 
-Article II §1 says each state appoints, "in such Manner as the Legislature thereof may direct," a number of electors equal to its total seats in Congress (House + Senate). The 23rd Amendment (1961) gave Washington D.C. three electors. The total is fixed at **538** = 435 House + 100 Senate + 3 D.C. The number needed to win is a majority: **270**.
+Article II §1 says each state appoints, "in such Manner as the Legislature thereof may direct," a number of electors equal to its total seats in Congress (House + Senate). The 23rd Amendment (1961) gave Washington, D.C. three electors — the number it would have "if it were a State," capped at the least-populous state's total. Add it up and the arithmetic is fixed: **538** electors = 435 House + 100 Senate + 3 for D.C. A majority — **270** — wins.
 
-Three things follow from this text that often surprise people:
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 170" width="100%" role="img" aria-label="Stacked bar showing the 538 electoral votes: 435 from House seats, 100 from Senate seats, 3 from D.C., with the 270-vote majority line marked" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="30" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">Where 538 comes from</text>
+  <rect x="30" y="44" width="533" height="44" fill="var(--blue, #2f4d6e)" />
+  <rect x="563" y="44" width="123" height="44" fill="var(--accent, #8a2a1e)" />
+  <rect x="686" y="44" width="4" height="44" fill="var(--gold, #b08a3e)" />
+  <text x="296" y="71" font-family="Georgia, serif" font-size="14" fill="#ffffff" text-anchor="middle">435 House seats</text>
+  <text x="624" y="71" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">100 Senate</text>
+  <line x1="688" y1="44" x2="688" y2="20" stroke="var(--gold, #b08a3e)" stroke-width="1.5" />
+  <text x="688" y="14" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">D.C. +3 (23rd Amdt.)</text>
+  <line x1="361" y1="36" x2="361" y2="100" stroke="var(--ink, #14130f)" stroke-width="2" stroke-dasharray="5,4" />
+  <text x="361" y="118" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">270 = majority</text>
+  <text x="30" y="146" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">Every state gets its House seats + 2. The "+2" is why small states punch above their population weight.</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: The fixed arithmetic of the Electoral College. Because every state gets two "Senate-equivalent" electors regardless of population, Wyoming's roughly 580,000 people share 3 electoral votes while California's 39 million share 54.</figcaption>
+</figure>
 
-1. **Each state legislature has plenary authority over how its electors are chosen.** The Constitution doesn't require a popular vote. Today, all fifty states and D.C. choose electors by some form of popular vote, but several states historically chose electors by legislature directly (South Carolina did so until the Civil War). McPherson v. Blacker (1892) confirmed this is constitutionally permissible: the manner of selection is the legislature's call.
+Three things follow from the constitutional text that routinely surprise people:
 
-2. **The "Electoral College" is 51 separate state-level events.** Each state's electors meet on a specific date (the first Tuesday after the second Wednesday in December, by federal statute) at their state capital. They cast their state's votes for President and Vice President separately. There is no national meeting; the slates are mailed to Washington and counted in a joint session of Congress on January 6.
+1. **Each state legislature has plenary authority over how its electors are chosen.** The Constitution does not require a popular vote — anywhere, for anyone. Today all fifty states and D.C. use some form of popular election, but South Carolina's legislature picked its electors directly until the Civil War, and Colorado's did the same in 1876 because the brand-new state had no time to organize a popular election. *McPherson v. Blacker* (1892) confirmed what the text implies: the manner of selection is the legislature's call.
 
-3. **The candidates do not appear on the ballot you mark on Election Day, technically speaking.** When a voter in California votes "for Joe Biden," they are voting for a slate of California electors who have pledged to vote for Biden. This is mediated by state law and party-internal nomination processes, but the constitutional act is the elector's vote, not the voter's.
+2. **The "Electoral College" is 51 separate state-level events.** Each state's electors meet on the first Tuesday after the second Wednesday in December (a date set by federal statute) in their own state capital, cast separate ballots for President and Vice President, sign certificates, and go home. There is no national meeting. The certificates travel to Washington, where Congress counts them in a joint session on January 6.
+
+3. **Technically, the candidates' names on your ballot are a convenience.** When a voter in California marks a presidential candidate, they are legally voting for a slate of that party's electors — party loyalists, activists, and dignitaries nominated through state party processes. The constitutional act is the elector's vote in December, not yours in November.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Your state has 8 House seats. How many electors does it get — and who decides how they're chosen?</summary>
+<p><strong>Ten</strong> — eight (House) plus two (Senate). And the <em>state legislature</em> decides the manner of choosing them (Art. II §1), which is why winner-take-all is a state-law choice, not a constitutional command. If your legislature wanted to allocate electors by congressional district — or appoint them itself — the Constitution would not stand in the way.</p>
+</details>
 
 ## How states allocate electors today
 
-Forty-eight states + D.C. use **winner-take-all**: whichever candidate wins the most popular votes statewide gets *all* of that state's electors. This is a state-law choice, not a constitutional requirement. The Constitution is silent on allocation method.
+Forty-eight states plus D.C. use **winner-take-all**: whoever wins the statewide popular vote, even by one ballot, gets *every* elector. Maine (first applied in 1972) and Nebraska (since 1992) use a **congressional-district method** instead: two electors go to the statewide winner — the "Senate-equivalent" pair — and one goes to the winner of each congressional district.
 
-**Maine** (since 1972) and **Nebraska** (since 1992) use a **congressional-district method**: 2 electors go to the statewide winner (the "Senate-equivalent" pair), and the remaining electors are allocated by who wins each individual congressional district. This means a single state can split its electoral votes between candidates. In 2008, Nebraska split (4 McCain, 1 Obama for the Omaha district); in 2020, Maine split (3 Biden, 1 Trump for the rural CD-2).
+| Method | Who uses it | How it works | Can the state split? |
+| --- | --- | --- | --- |
+| Winner-take-all | 48 states + D.C. | Statewide popular-vote winner takes every elector | No |
+| Congressional-district | Maine, Nebraska | 2 to the statewide winner, 1 per district winner | Yes — and it happens |
 
-A state legislature could, tomorrow, switch to any other allocation method — pure proportional, or even back to direct legislative selection — without amending the Constitution. The political costs would be enormous, but the constitutional authority is there.
+The split is not hypothetical. Nebraska gave Barack Obama one electoral vote from the Omaha-based district in 2008 while John McCain took the other four; Maine's rural second district has voted for Donald Trump three times (2016, 2020, 2024) while the state went the other way. By 2024, the two splittable states had become fixtures of campaign math — a single elector from Omaha ("the blue dot") was, under several scenarios, the difference between victory and a 269–269 tie.
 
-## What "faithless electors" are and what 2020 changed
+Here is the structural point: none of this is in the Constitution. Winner-take-all spread in the early 1800s for nakedly strategic reasons — a state that splits its electors dilutes its influence, so once a few big states consolidated, the rest followed in self-defense. James Madison, who disliked the development, wrote in 1823 that the district method "was mostly, if not exclusively in view when the Constitution was framed and adopted; & was exchanged for the general ticket" by states chasing partisan advantage. A legislature could switch methods tomorrow, no constitutional amendment required.
 
-A "faithless elector" is one who votes for a candidate other than the one they pledged to support. Through the 20th century, this happened occasionally without legal consequence — most famously in 1972, when a Virginia elector voted for Libertarian John Hospers instead of Nixon.
+> **Common misconception:** "The Electoral College weights small states, so it was designed to protect small states." The "+2" does tilt toward small states, but the *winner-take-all* rule — which produces swing-state campaigning and most popular-vote/electoral-vote splits — is a state-law artifact the Framers never voted on. Keep the two mechanisms separate in your head; they get blamed for each other constantly.
 
-**Chiafalo v. Washington** (591 U.S. ___, 2020) changed the legal landscape. By 9–0, the Supreme Court held that states can legally bind their electors to their pledged candidate — including by replacing or fining electors who go faithless. The opinion (Kagan, J.) reasoned that since states have plenary authority over how electors are chosen (McPherson), they have the lesser power to condition that choice on a binding pledge.
+## The original theory, and how fast it died
 
-After Chiafalo, **30 states + D.C.** have laws on the books that bind their electors. Faithless voting is now both rare and legally sanctioned in those jurisdictions. The institution is more "automatic" than it was for most of American history.
+Why electors at all? Hamilton's defense in [[term:federalist-papers]] No. 68 imagined them as independent deliberators: "A small number of persons, selected by their fellow-citizens from the general mass, will be most likely to possess the information and discernment requisite to such complicated investigations." The elector was supposed to exercise judgment — a one-time search committee of local notables, insulated from "tumult and disorder."
 
-## What happens if no candidate gets 270
+That theory was dead within a dozen years. The original design had each elector cast two undifferentiated votes for President, runner-up becoming Vice President — workable only in a world without parties. By 1796 the country had parties, and the procedure delivered a President (Adams) saddled with his chief rival (Jefferson) as Vice President. By 1800 it produced an exact tie between Jefferson and his own running mate, Aaron Burr, because every Republican elector dutifully cast both votes for the ticket. The House took 36 ballots to untangle it. The 12th Amendment (1804) — separate ballots for President and Vice President — is the Constitution formally absorbing the existence of parties, and quietly burying the deliberating elector. What remained was the elector as messenger.
 
-This is the part most often overlooked. If no candidate wins a majority of electoral votes (270), the procedure shifts to Congress under the **12th Amendment**:
+## "Faithless electors" and what 2020 settled
 
-- **The House** chooses among the top three electoral-vote-getters for President, but votes **one-state-one-vote** (the California delegation gets one vote, Wyoming gets one vote). A candidate needs 26 state-delegation votes to win.
-- **The Senate** chooses between the top two electoral-vote-getters for Vice President, voting per-Senator (not per-state).
-- If the House cannot resolve by Inauguration Day (January 20), the Senate-elected Vice President becomes acting President under the 20th Amendment.
+A **faithless elector** votes for someone other than the candidate they pledged to support. Through the 20th century this was rare, legally untested, and occasionally colorful: in 1972 a Republican elector from Virginia, Roger MacBride, ignored Nixon and voted for Libertarians John Hospers and Theodora "Tonie" Nathan — making Nathan the first woman in American history to receive an electoral vote. In 2016, seven faithless votes were actually counted, the most in a century, amid an organized (and failed) effort to deny Trump a majority by persuading electors to defect.
 
-This contingent-election procedure has been used twice for President: **1800** (Jefferson over Burr after a tie in the original electoral procedure, which led directly to the 12th Amendment) and **1824** (John Quincy Adams over Andrew Jackson, despite Jackson having both the popular-vote plurality and the electoral-vote plurality — the so-called "Corrupt Bargain" election).
+The 2016 episode produced the test case. Washington State fined three faithless electors $1,000 each; they sued. In **Chiafalo v. Washington** (2020), the Supreme Court ruled 9–0 that states may enforce an elector's pledge — by fine or by replacement. Justice Kagan's reasoning ran through *McPherson*: the power to appoint electors "in such Manner as the Legislature thereof may direct" includes the power to condition appointment on a binding promise. Her closing line is the epitaph for Federalist 68's deliberator: electors today are bound "to the understanding that they have no ground for reversing the vote of millions of their fellow citizens... Here, We the People rule."
 
-The procedure has nearly been used several times since. In 1968, George Wallace's third-party run came within ~~52,000 votes in three states~~ of throwing the election to the House. In 2000, a single Florida vote decision triggered the contingent procedure as a real possibility for weeks.
+Most states plus D.C. now require an elector's pledge, and a growing number void a faithless ballot automatically and swap in an alternate. After *Chiafalo*, the institution is more mechanical than it has been at any point in its history.
 
-This matters now because **the realistic path to a contingent election is a third-party candidate winning a few states' electoral votes**, denying both major-party candidates a majority. With increasing partisan polarization and intermittent third-party challenges (Perot 1992, Nader 2000, hypothetically future), the 12th Amendment fallback is not theoretical.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A 2028 elector pledged to Candidate X has a crisis of conscience in December and votes for Candidate Y. What actually happens?</summary>
+<p>It depends entirely on <em>state law</em>. In states with enforcement statutes, the vote is voided and the elector is replaced or fined — and <em>Chiafalo</em> (2020) says that's constitutional, 9–0. In a state with no binding law, the faithless vote counts when Congress opens the certificates. The Constitution itself is silent; the discipline comes from the states.</p>
+</details>
 
-## What the Electoral Count Reform Act of 2022 did
+## What happens if nobody gets 270
 
-After the contested January 6, 2021 certification, Congress passed the **Electoral Count Reform Act** (3 U.S.C. §§1–21, as amended). The key changes:
+This is the part of the machine most people have never looked at, and it is the part with the highest stakes. If no candidate wins an electoral-vote majority, the 12th Amendment moves the choice to Congress — under rules that have nothing to do with population:
 
-- **Higher threshold for objections** in the joint session: 1/5 of each chamber must support an objection (was 1 of each).
-- **Clearer definition of the Vice President's role** as ministerial during the count (responding to claims that the VP could refuse to count slates).
-- **Single deadline for state certifications** and a streamlined judicial-review path for disputes.
-- **Limits on use of "extraordinary circumstances"** as grounds for state legislatures to override popular vote results.
+- **The House picks the President** from the top three electoral-vote recipients — but voting **one state, one vote**. California's 52-member delegation casts a single collective vote; Wyoming's lone member casts one too. Twenty-six state delegations make a majority.
+- **The Senate picks the Vice President** from the top two, each senator voting individually; 51 votes win.
+- If the House is still deadlocked on Inauguration Day (January 20), the 20th Amendment makes the Senate's choice for Vice President the **acting President** until the House resolves.
 
-The ECRA didn't change the Electoral College's structure; it tightened the procedure for counting the votes once they arrive at Congress. Whether it's adequate for genuinely contested counts is itself contested.
+> **Why this matters:** In a contingent election, the question isn't which party won more votes, or even more House seats — it's which party controls more *state delegations*. After the 2024 elections, Republicans controlled a majority of delegations even in cycles when Democrats held comparable national vote totals. Strategists in both parties keep a quiet count of delegation control for exactly this reason.
+
+It has happened twice for President. In **1800**, the Jefferson–Burr tie put the choice to a lame-duck Federalist House, which flirted with electing Burr for 35 ballots before Hamilton's lobbying helped tip it to Jefferson — the crisis that produced the 12th Amendment. In **1824**, four candidates split the electors; Andrew Jackson led in both popular and electoral votes, but the House chose John Quincy Adams after Speaker Henry Clay threw him his support and became Secretary of State — Jackson's furious "Corrupt Bargain" charge powered his landslide rematch win in 1828. The Senate has used its half of the procedure once, electing Richard Mentor Johnson Vice President in 1836 after Virginia's electors refused to vote for him.
+
+And the near-misses are closer than most people realize. In **1968**, George Wallace won five Southern states and 46 electoral votes precisely hoping to deny both parties a majority and bargain from the deadlock. Nixon cleared 270 — but he carried Missouri by about 20,000 votes and Ohio by about 90,000. Had roughly 56,000 voters in those two states switched, the presidency would have been settled by state delegations in the House, with Wallace holding the electors he openly called his "bargaining chips." In **2000**, a 269–269 outcome was a live scenario tracked by both campaigns until Florida resolved. A serious third-party regional candidacy remains the realistic trigger: win a few states, deny everyone 270, and the 12th Amendment takes over.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> It's January 2029. The electoral count is 268–267–3, with a regional third-party candidate holding 3 votes. Party A holds 218 House seats but only 24 state delegations; Party B holds 217 seats and 26 delegations. Who picks the President, and who's favored?</summary>
+<p>The House picks, from the top three — but <strong>one state, one vote</strong>. Party B is favored despite having fewer members, because it controls 26 delegations, exactly the majority needed. Total seat count is irrelevant; delegation control is everything. (And if the House deadlocks past January 20, the Senate's choice for Vice President acts as President under the 20th Amendment.)</p>
+</details>
+
+## The Electoral Count Reform Act of 2022
+
+The January 6, 2021 certification crisis exposed how much of the count ran on a vague 1887 statute. Congress responded with the **Electoral Count Reform Act of 2022** (rewriting 3 U.S.C. §§1–21), which tightened the procedure at four points:
+
+- **Objections got harder.** Sustaining a floor objection in the joint session now requires one-fifth of each chamber to even be heard (previously: one representative plus one senator), and grounds are narrowed.
+- **The Vice President's role is explicitly ministerial.** The presiding officer opens envelopes and announces results — full stop. The statute now forecloses the theory that the VP may reject or delay state slates.
+- **One conclusive slate per state.** Each state's executive must certify electors by a hard deadline, disputes go to an expedited three-judge federal panel, and Congress must treat the court-validated certificate as conclusive — closing the "competing slates" ambiguity exploited in 2020 planning.
+- **No more "failed election" loophole.** The old statute let a legislature appoint electors after Election Day if the state "failed to make a choice." The ECRA deletes that language; election day can move only for genuinely "extraordinary and catastrophic" events as provided by pre-existing state law.
+
+Note what the ECRA did *not* do: it changed nothing about the Electoral College's structure — 538, winner-take-all, the contingent fallback all stand. It armored the counting, not the institution.
 
 ## What this lesson is not
 
-It's not yet an argument about whether the Electoral College should exist. The mechanics are politically charged, but they're not the *argument*. Lesson 2 takes up the argument by steel-manning three positions:
+It is not yet an argument about whether the Electoral College should exist. The mechanics are politically charged, but they are not the *argument*. Lesson 2 takes up the argument by steel-manning three positions:
 
-- **Originalist defenders** argue the institution was a deliberate Founding-era compromise that's served stability, federalism, and the protection of small-state interests, and that abolishing it would unsettle constitutional balances most reformers don't fully understand.
-- **Democratic-majority reformers** argue the institution has produced popular-vote-loss winners five times (1824, 1876, 1888, 2000, 2016), distorts campaigning to focus on a handful of swing states, and is anti-democratic in a country whose other federal offices are now elected directly.
-- **Federalist preservationists** (a position distinct from originalist defenders) argue the institution is best understood not as a quirk but as part of the federal compact: presidential authority derives from the states acting as states, not from a national electorate, and reformers underestimate how much constitutional structure rests on this.
+- **Originalist defenders** argue the institution was a deliberate Founding-era compromise that has served stability, federalism, and the protection of small-state interests, and that abolishing it would unsettle constitutional balances most reformers don't fully understand.
+- **Democratic-majority reformers** argue the institution has produced popular-vote-loss winners five times (1824, 1876, 1888, 2000, 2016), distorts campaigning into a handful of [[term:swing-state]] battlegrounds, and is anti-democratic in a country whose every other office is now elected directly.
+- **Federalist preservationists** (distinct from originalist defenders) argue the institution is best understood not as a quirk but as part of the federal compact: presidential authority derives from the states acting as states, not from a national electorate, and reformers underestimate how much constitutional structure rests on that premise.
 
 A defensible position takes one of these views, says why, and identifies what evidence would change it. Lesson 2 sharpens each.

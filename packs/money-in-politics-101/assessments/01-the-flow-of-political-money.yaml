@@ -3,7 +3,7 @@ lesson: the-flow-of-political-money
 questions:
   - id: q1
     kind: multiple-choice
-    text: "Which of the four political-money vehicles can accept *unlimited* contributions AND keep donor names *anonymous* under current law?"
+    text: "Which of these political-money vehicles can accept *unlimited* contributions AND keep donor names *anonymous* under current law?"
     choices:
       - id: a
         text: "Candidate campaign committee"
@@ -34,6 +34,22 @@ questions:
     concepts: [campaign-finance, independent-expenditure]
 
   - id: q3
+    kind: multiple-choice
+    text: "A news story says \"the Acme Corporation PAC gave \\$5,000 to Senator Lee's campaign.\" Where did that \\$5,000 originally come from?"
+    choices:
+      - id: a
+        text: "Acme's corporate treasury — profits from its business"
+      - id: b
+        text: "Voluntary contributions from Acme's employees (and shareholders/executives) to the PAC"
+      - id: c
+        text: "A grant from the Federal Election Commission's public-financing fund"
+      - id: d
+        text: "Anonymous donors, since PACs do not disclose their funders"
+    correct_choice_id: b
+    explanation: "A corporate PAC (a \"separate segregated fund\") may not take a dime of treasury money — the Tillman Act (1907) ban survives. The corporation pays the PAC's overhead, but the political money itself is voluntary employee and shareholder contributions, capped and itemized in public FEC filings. This is the most commonly misread word in campaign-finance journalism: a \"corporate PAC\" is not the corporation's money."
+    concepts: [pac, campaign-finance]
+
+  - id: q4
     kind: free-response
     text: "In your own words, why might someone argue that \\$50 million in 501(c)(4) spending is more concerning than \\$50 million in Super PAC spending — even though the same dollar amount is involved?"
     socratic_seed: "Both are legal. What's different about what the public can see?"

@@ -3,54 +3,70 @@ lesson: how-it-works
 questions:
   - id: q1
     kind: multiple-choice
-    text: "Which level of government has primary responsibility for setting K-12 curriculum standards?"
+    text: "A school-board candidate runs on three promises: (1) end the state's annual standardized testing, (2) shift budget dollars from central administration into classroom aides, and (3) opt the district out of federal special-education obligations to save money. How many of these could a board majority actually deliver?"
     choices:
       - id: a
-        text: "Federal — the U.S. Department of Education sets national standards."
+        text: "All three — local control means local boards decide education policy."
       - id: b
-        text: "State — state constitutions establish state responsibility for education; states set curriculum standards, graduation requirements, and teacher certification."
+        text: "One. Internal budget allocation is the board's core power; testing regimes are state law, and IDEA obligations are federal conditions no district may opt out of while educating students with disabilities."
       - id: c
-        text: "Local — school boards set curriculum standards."
+        text: "Two — the board can end testing and reallocate the budget, but not touch IDEA."
       - id: d
-        text: "Schools individually — each school sets its own curriculum."
+        text: "None — superintendents, not boards, control budgets."
     correct_choice_id: b
-    explanation: "States have primary authority over K-12 education. State constitutions establish state responsibility; states set curriculum standards, graduation requirements, and teacher certification. The federal role is funding (Title I, IDEA, school nutrition) and civil-rights enforcement (Title VI, IX, Section 504), not curriculum-setting. Local school boards implement state standards, choose textbooks and supplemental materials, and make many operational decisions — but the standards themselves are state-set."
+    explanation: "K-12 governance is a layer cake. State legislatures own standards, graduation requirements, certification, and testing; the federal layer attaches conditions (IDEA, Title I rules, civil-rights law) that bind any district taking the money and protecting students' statutory rights; what the board genuinely owns is district policy and the budget's internal allocation — which the board adopts, even though the superintendent drafts it. Sorting candidate promises into the right layer is the most practical skill this lesson teaches: much of what's shouted about at board meetings is decided in the state capitol or in federal law."
     concepts: [school-board, k12-governance]
 
   - id: q2
     kind: multiple-choice
-    text: "What is the school board's most-important governance relationship?"
+    text: "In the most recent national accounting (NCES, fiscal year 2023), public K-12 revenues split roughly 45% state, 42% local, and 12.9% federal. Why is that federal share misleading as a baseline?"
     choices:
       - id: a
-        text: "With the state legislature."
+        text: "It excludes Title I, the largest federal program."
       - id: b
-        text: "With the superintendent — the board hires and oversees the superintendent, who manages day-to-day operations and implements board policy."
+        text: "It was inflated by pandemic-relief (ESSER) funds; the federal share historically ran around 8% and has been receding since that roughly $190 billion expired."
       - id: c
-        text: "With the local mayor."
+        text: "Federal money actually flows only to private schools."
       - id: d
-        text: "With teachers' unions."
+        text: "The federal share is really a majority once mandates are counted."
     correct_choice_id: b
-    explanation: "The board's relationship with the superintendent is the most-important governance relationship. The board hires and oversees; the superintendent manages day-to-day operations. A common dysfunction: boards trying to manage operations themselves rather than setting policy and overseeing the superintendent. Effective boards focus on goals, policy, and oversight; they leave operations to professional staff. Superintendent tenure has been declining nationally (urban average ~3 years), correlating with district instability."
-    concepts: [school-board, superintendent]
+    explanation: "The federal government has always been the junior funding partner — historically around 8 cents of the K-12 dollar, spent mostly through categorical programs like Title I and IDEA. COVID-era ESSER aid (about $190 billion across three acts) temporarily swelled the share toward 13%, and FY2023 caught that peak already declining (federal revenues fell over 5% in real terms from FY2022). The durable picture: states and local property taxes carry American schools, roughly 87 cents of every dollar combined, which is why the consequential money fights are in state funding formulas and local levies, not Washington."
+    concepts: [school-board, k12-governance, title-i]
 
   - id: q3
     kind: multiple-choice
-    text: "Are most U.S. school boards elected or appointed?"
+    text: "A new board member starts calling principals directly to overrule classroom assignments and demands a say in hiring a middle-school librarian. What governance principle is being violated?"
     choices:
       - id: a
-        text: "Most are elected (~90%)."
+        text: "None — board members supervise all district employees."
       - id: b
-        text: "Most are appointed by mayors."
+        text: "The board-superintendent division: the board governs policy, adopts the budget, and employs exactly one person — the superintendent — through whom all administration runs. Individual members reaching into operations is the institution's textbook dysfunction."
       - id: c
-        text: "Most are appointed by state governors."
+        text: "Federal law assigns staffing decisions to the state board of education."
       - id: d
-        text: "It varies; about 50/50."
-    correct_choice_id: a
-    explanation: "About 90% of U.S. school boards are elected. A small number of large urban districts (NYC, Chicago, Boston until 2024) use mayor-appointed boards. The argument for elected boards is democratic representation; the argument for appointed boards is professional accountability and alignment with city priorities. Most school-board elections are formally nonpartisan and held off-cycle (often producing 5-10% turnout), though partisan dynamics often appear in campaigns."
-    concepts: [school-board]
+        text: "Open-meetings law, which requires personnel calls to be livestreamed."
+    correct_choice_id: b
+    explanation: "Boards set goals, policy, and budgets and hold the superintendent accountable for results; the superintendent hires, supervises, and manages. Governance research from Land's 2002 synthesis to Hess's board studies consistently finds that effective boards hold this line and troubled ones micromanage until accountability evaporates. The pattern matters doubly because superintendent tenure is short — averaging 5.4 years in the current post in AASA's 2025-26 study, historically nearer three in big urban systems — and board-superintendent friction is a leading reason."
+    concepts: [school-board, superintendent]
 
   - id: q4
+    kind: multiple-choice
+    text: "Which statement about how school boards are chosen is accurate as of mid-2026?"
+    choices:
+      - id: a
+        text: "Over 90% of boards are elected — mostly nonpartisan, often off-cycle with turnout around 5-10% — while New York remains under mayoral control, Boston remains appointed despite a 79% advisory vote for elections in 2021, and Chicago is mid-transition to a fully elected 21-member board seated in January 2027."
+      - id: b
+        text: "About half of American school boards are appointed by mayors."
+      - id: c
+        text: "School-board elections are partisan in nearly all states, with party primaries."
+      - id: d
+        text: "Chicago's board has been elected since the city's founding; New York switched to an elected board in 2002."
+    correct_choice_id: a
+    explanation: "Election is overwhelmingly the norm (NSBA: more than 90% of roughly 90,000 board members), with formally nonpartisan ballots and frequently off-cycle dates that produce the 5-10% turnout NSBA estimates. The appointed exceptions are the big-city laboratory: NYC under mayoral control since 2002, Boston appointed since 1992 (the 2021 advisory vote notwithstanding, since the change requires state legislation), and Chicago — appointed since 1837, mayor-controlled since 1995 — which elected its first ten members in November 2024 and votes for the full 21-member board in November 2026."
+    concepts: [school-board, k12-governance]
+
+  - id: q5
     kind: free-response
-    text: "What does effective school-board engagement look like, and why is engaging earlier in the process often more effective than at final-vote meetings?"
-    socratic_seed: "Effective: show up consistently across multiple meetings; be specific (refer to specific agenda items); connect to direct experience (your child's school, your role); acknowledge complexity (boards face real trade-offs); build relationships with individual board members through email/phone; engage with site councils and parent organizations (where many decisions originate); contact the superintendent's office for operational issues. Why earlier matters: most decisions are made before the public meeting, in staff discussions and committee work. By the time a final vote happens, positions are usually fixed. Engaging during proposal-drafting, committee review, and informal community discussion is more effective than dramatic final-meeting interventions."
+    text: "Using Anzia's Timing and Turnout and Moe's Special Interest, explain why the district's own employees can be the decisive constituency in school-board elections — and why the same logic complicates the simple story that 'parents control school boards.' What evidence did Anzia find that this affects actual district decisions?"
+    socratic_seed: "Anzia: off-cycle elections shrink the electorate to organized groups with concentrated stakes; district employees — above all teachers' unions — have the most concentrated stake in board decisions (pay, contracts, working conditions) and mobilize reliably, so their weight in a 5-10% electorate far exceeds their share of residents. Moe: this means the board that sits across the bargaining table is partly chosen by the bargaining unit, a structural conflict no individual's bad faith is needed to produce. Parents, by contrast, are numerous but diffuse (Olson's logic): each family's stake is real but unorganized, and parent attention spikes episodically (closures, crises) rather than electorally. Anzia's concrete finding: districts with off-cycle elections pay experienced teachers measurably more than comparable on-cycle districts — the electoral calendar shows up in contract terms. Strong answers note the post-2020 wave of organized parent mobilization as a partial, contested counterweight, and that moving elections on-cycle is the standard proposed remedy, with its own informedness trade-off."
     concepts: [school-board, civic-engagement]

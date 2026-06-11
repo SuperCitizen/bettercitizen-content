@@ -28,4 +28,10 @@ related_ideologies:
   - american-conservatism
   - american-progressivism
 historical_period: Civic-republican thread runs from Aristotle through Tocqueville; modern American form post-1980s
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: -0.3
+  social: 0.6
 body_md: ""

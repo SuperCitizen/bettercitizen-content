@@ -8,13 +8,13 @@ questions:
       - id: a
         text: "Nothing — a veto is final"
       - id: b
-        text: "Override the veto with a two-thirds majority in both chambers"
+        text: "Override the veto with two-thirds of those present and voting in both chambers"
       - id: c
         text: "Override the veto with a simple majority in either chamber"
       - id: d
         text: "Refer the bill to the Supreme Court for review"
     correct_choice_id: b
-    explanation: "Art. I, §7 lets each chamber override a veto with two-thirds, after which the bill becomes law without the President's signature."
+    explanation: "Art. I, §7 lets Congress enact a returned bill over the President's objections with two-thirds in each chamber — and Missouri Pacific Railway v. Kansas (1919) settled that this means two-thirds of members present and voting, not of total membership. It is steep either way: only 112 of 1,533 regular vetoes in U.S. history (about 7%) have been overridden."
     concepts: [veto-power, checks-and-balances]
 
   - id: q2
@@ -28,13 +28,45 @@ questions:
       - id: c
         text: "McCulloch v. Maryland"
       - id: d
-        text: "Roe v. Wade"
+        text: "Youngstown Sheet & Tube Co. v. Sawyer"
     correct_choice_id: b
-    explanation: "Marbury v. Madison (1803) is where Chief Justice Marshall asserted that federal courts can hold acts of Congress unconstitutional."
+    explanation: "Marbury v. Madison (1803) is where Chief Justice Marshall claimed for federal courts the power to hold acts of Congress unconstitutional — 'It is emphatically the province and duty of the judicial department to say what the law is.' Youngstown (1952) applied review to presidential action; McCulloch (1819) concerned federal supremacy and implied powers; Brown (1954) applied review to state segregation laws."
     concepts: [judicial-review]
 
   - id: q3
+    kind: multiple-choice
+    text: "A statute expressly prohibits a certain kind of domestic surveillance. Invoking national security, the President orders an agency to conduct it anyway. Under Justice Jackson's Youngstown framework, how should a court analyze the order?"
+    choices:
+      - id: a
+        text: "Category one — the President's authority is at its maximum because national security is involved"
+      - id: b
+        text: "The 'zone of twilight' — Congress and the President share concurrent authority over surveillance"
+      - id: c
+        text: "Category three — the President acts against the expressed will of Congress, so his power is 'at its lowest ebb' and the order almost certainly falls"
+      - id: d
+        text: "Courts may not review national-security orders at all"
+    correct_choice_id: c
+    explanation: "Jackson's third category covers measures 'incompatible with the expressed or implied will of Congress,' where the President can rely only on his own constitutional powers minus Congress's. An express statutory prohibition puts the order there — the same box that doomed Truman's steel seizure. The 'zone of twilight' (category two) requires congressional silence, and category one requires authorization; a national-security label moves the order to neither."
+    concepts: [checks-and-balances, judicial-review]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In the 1980s and 1990s the Supreme Court struck down both the one-house 'legislative veto' (INS v. Chadha) and the presidential line-item veto (Clinton v. City of New York). What principle explains both rulings?"
+    choices:
+      - id: a
+        text: "Neither branch may re-engineer the Article I §7 lawmaking procedure for its own convenience — making or unmaking law requires both chambers plus presentment, whole bills in and whole bills out"
+      - id: b
+        text: "Congress may never delegate any authority to the executive branch"
+      - id: c
+        text: "The Court favored the President in one case and Congress in the other, depending on which party held power"
+      - id: d
+        text: "Both devices were struck down because they had never actually been used"
+    correct_choice_id: a
+    explanation: "The symmetry is the lesson. Chadha (1983): one chamber can't cancel executive action by resolution, because altering legal rights is legislation and legislation needs bicameralism plus presentment — even though the device sat in nearly 200 statutes. Clinton v. City of New York (1998): the President can't cancel items inside a signed law, because that amends a statute unilaterally. The Court polices the procedure against shortcuts from either direction — even shortcuts both political branches agreed to."
+    concepts: [checks-and-balances, veto-power]
+
+  - id: q5
     kind: free-response
-    text: "Madison wrote that 'ambition must be made to counteract ambition.' What does that mean as a design principle for government?"
+    text: "Madison wrote that 'ambition must be made to counteract ambition.' Explain what that means as a design principle — and describe one modern situation (real or hypothetical) where the design might not work the way Madison expected."
     concepts: [checks-and-balances]
-    socratic_seed: "Does the system rely on virtuous officials, or does it work even when officials are self-interested?"
+    socratic_seed: "Does the system rely on virtuous officials, or does it work even when officials are self-interested? And what happens to a branch's 'ambition' when its members' loyalty runs to a political party rather than to the institution?"

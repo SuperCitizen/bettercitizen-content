@@ -29,4 +29,10 @@ related_ideologies:
   - libertarianism
   - american-conservatism
 historical_period: 17th–19th-century European Enlightenment; influences the American founding and modern liberty movements
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: 0.8
+  social: -0.55
 body_md: ""

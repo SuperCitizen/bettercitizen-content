@@ -4,21 +4,23 @@ slug: the-policy-landscape
 kind: reading
 title: The current policy landscape
 objectives:
-  - Describe the 2025 TCJA expiration as the dominant near-term tax-policy event
-  - Identify the major reform proposals on the table (extending TCJA, wealth taxes, billionaires' minimum tax, child tax credit expansion)
-  - Distinguish what executive action can do (limited) from what legislation requires
-  - State the long-run fiscal context that constrains all reform paths
+  - Describe what the One Big Beautiful Bill Act of 2025 settled, what it deliberately left expiring in 2028–2030, and why Congress designs sunsets
+  - State the fiscal trajectory as of mid-2026 — debt, deficits, interest — and how OBBBA's CBO score fits into it
+  - Identify the live reform proposals (CTC expansion, wealth and billionaire minimum taxes after Moore, the global minimum tax side-by-side, IRS funding) and the constraints on each
+  - Distinguish what the executive can do to tax policy (very little, as the 2026 tariff ruling confirmed) from what requires Congress
 concepts:
   - taxes
   - tcja
   - child-tax-credit
   - fiscal-gap
+  - national-debt
+  - entitlement-program
 sources:
   - type: website
     citation: 'CBO, "The Budget and Economic Outlook" — annual baseline projections.'
     url: https://www.cbo.gov/publication/budget-economic-outlook
   - type: website
-    citation: 'Tax Policy Center, "TCJA Sunset" — analysis of 2025 expiration scenarios.'
+    citation: 'Tax Policy Center, "TCJA Sunset" — analysis of the 2025 expiration scenarios that OBBBA resolved.'
     url: https://taxpolicycenter.org/tcja-sunset
   - type: paper
     citation: 'JCT (2017), "Macroeconomic Analysis of the Tax Cuts and Jobs Act."'
@@ -31,85 +33,145 @@ sources:
   - type: website
     citation: 'CBO, "Long-Term Budget Outlook" — projections of debt and deficit out to 2055+.'
     url: https://www.cbo.gov/topics/budget
+  - type: statute
+    citation: 'One Big Beautiful Bill Act, Pub. L. No. 119-21 (signed July 4, 2025).'
+    url: https://www.congress.gov/bill/119th-congress/house-bill/1
+  - type: website
+    citation: 'CBO, "Effects on Deficits and the Debt of Public Law 119-21 and of Making Certain Tax Policies in the Act Permanent" (2025) — the $3.4 trillion / $4.1 trillion-with-interest score.'
+    url: https://www.cbo.gov/publication/61466
+  - type: website
+    citation: 'CBO, "The Budget and Economic Outlook: 2026 to 2036" (early 2026) — deficits near 5.8 percent of GDP; debt held by the public passing its 1946 record share around 2030.'
+    url: https://www.cbo.gov/publication/61882
+  - type: court-opinion
+    citation: 'Moore v. United States, 602 U.S. 572 (2024) — upheld the mandatory repatriation tax narrowly; expressly reserved whether the 16th Amendment requires realization.'
+    url: https://www.oyez.org/cases/2023/22-800
+  - type: court-opinion
+    citation: 'Learning Resources, Inc. v. Trump, 607 U.S. ___ (Feb. 20, 2026) — IEEPA does not authorize presidential tariffs.'
+    url: https://www.supremecourt.gov/opinions/25pdf/24-1287_4gcj.pdf
+  - type: website
+    citation: 'IRS, "The Tax Gap" — $696 billion gross / $606 billion net projection for tax year 2022.'
+    url: https://www.irs.gov/statistics/irs-the-tax-gap
+  - type: website
+    citation: 'Tax Policy Center, "How did the Inflation Reduction Act of 2022 affect the IRS''s budget?" — the $79.4 billion and subsequent rescissions.'
+    url: https://taxpolicycenter.org/briefing-book/how-did-inflation-reduction-act-2022-affect-irss-budget
+  - type: website
+    citation: 'U.S. Treasury, "G7 Statement on Global Minimum Taxes" (June 2025) — the side-by-side understanding exempting U.S.-parented groups from the IIR and UTPR.'
+    url: https://home.treasury.gov/news/press-releases/sb0181
+  - type: pdf
+    citation: 'JCT, "Estimates of Federal Tax Expenditures for Fiscal Years 2025–2029" (JCX-45-25).'
+    url: https://www.jct.gov/getattachment/8c830c45-1680-4f7e-a649-2a0106f6b6e3/x-45-25.pdf
+  - type: website
+    citation: 'U.S. Census Bureau, "Supplemental Poverty Measure Rose in 2023 for Second Consecutive Year" — child SPM 5.2% (2021) → 12.4% (2022) → 13.7% (2023).'
+    url: https://www.census.gov/library/stories/2024/09/supplemental-poverty-measure.html
+  - type: statute
+    citation: 'H.R. 7024, Tax Relief for American Families and Workers Act of 2024 — passed the House 357–70; failed Senate cloture 48–44.'
+    url: https://www.congress.gov/bill/118th-congress/house-bill/7024
+  - type: website
+    citation: 'Social Security and Medicare Trustees, 2025 report summary — OASI depletion 2033; combined OASDI 2034; Medicare HI 2033.'
+    url: https://www.ssa.gov/oact/TRSUM/index.html
+  - type: website
+    citation: 'U.S. Treasury Fiscal Data, "Understanding the National Debt" — daily total; $39 trillion gross in mid-2026.'
+    url: https://fiscaldata.treasury.gov/americas-finance-guide/national-debt/
 perspectives:
   - name: Progressive-expansion advocate
   - name: Supply-side reform advocate
   - name: Consumption-tax restructuring advocate
-duration_min: 8
+duration_min: 15
 ---
 
 # The current policy landscape
 
-The dominant near-term tax-policy event is the 2025 expiration of the TCJA's individual provisions. Most of the reform debate is structured by it.
+For seven years, everyone who worked on tax policy knew exactly where the next war would be fought: December 31, 2025, the night the Tax Cuts and Jobs Act's individual provisions were scheduled to die. Think tanks modeled the cliff; campaigns fundraised off it; this course's earlier editions taught it as "the largest single tax-policy event of the next several years." It never happened. On July 1, 2025, after an all-night amendment marathon, the Senate passed the **One Big Beautiful Bill Act** 51–50 on Vice President Vance's tie-breaking vote; the House cleared it 218–214 two days later; President Trump signed it on July 4. The cliff is gone — and the entire policy landscape has been rebuilt around what OBBBA did, what it deliberately scheduled to expire later, and what it cost. This lesson maps the field as it stands in mid-2026.
 
-## What 2025 actually means
+## What OBBBA settled — and what it deliberately left ticking
 
-Without congressional action by end of 2025, in 2026:
+The durable core: the TCJA's seven-bracket rate structure (top rate 37 percent), the enlarged standard deduction, the $2,200 child tax credit, the 20 percent pass-through deduction, 100 percent bonus depreciation, and a $15 million estate exemption are now **permanent law** — no expiration, indexed for inflation. But Congress wrote a new set of clocks even as it smashed the old one:
 
-- **Individual income tax rates** revert to pre-2017 (top rate 37% → 39.6%; other brackets slightly higher).
-- **Standard deduction** halves — back to roughly $13,000 for joint filers.
-- **Personal exemptions return** — partially offsetting the smaller standard deduction.
-- **SALT cap goes away** — high-tax-state residents regain unlimited deduction.
-- **Estate exemption halves** — back to roughly $5.5M individual.
-- **Pass-through deduction (§199A)** expires.
-- **Corporate rate stays at 21%** — those provisions were made permanent in TCJA.
+| Provision | Status | Expires |
+| --- | --- | --- |
+| Individual rate structure, standard deduction, CTC, §199A, bonus depreciation | Permanent | — |
+| Estate/gift exemption at $15M (indexed) | Permanent | — |
+| Tips deduction (≤$25,000), overtime deduction (≤$12,500/$25,000), senior deduction ($6,000), car-loan interest (≤$10,000) | Temporary | After **2028** |
+| SALT cap at $40,000 (+1%/yr, income phase-down) | Temporary | Reverts to $10,000 in **2030** |
+| Clean-energy consumer credits (EV, residential) | Terminated | Already gone (Sept. 30 / Dec. 31, 2025) |
 
-The effect: a tax increase on roughly 60% of households (CBO + JCT estimates), concentrated more on high-income households (who got proportionally more from TCJA) but reaching middle-income households too.
+Why would a Congress with the votes to make things permanent choose to sunset its own most-advertised provisions — the very "no tax on tips" promise of the 2024 campaign? Two structural reasons, and they explain half of modern tax politics. First, **the budget window**: under [[term:reconciliation]] rules, a bill needs only 51 Senate votes but must fit an agreed deficit number over ten years (and, under the Byrd Rule, not raise deficits beyond the window without offsets). A deduction that lasts four years costs a quarter as much on paper as a permanent one — so Congress buys the headline now and books the cost as someone else's problem. Second, **sunsets manufacture leverage**: every expiration is a future must-pass vehicle that both parties can campaign on, exactly as the TCJA cliff organized 2017–2025. James Buchanan's fiscal-illusion point from Lesson 2 generalizes: the system is biased not just toward invisible taxes but toward *visibly temporary* giveaways whose true permanent cost is never scored on the day of the vote. CBO obliged with the arithmetic: making OBBBA's "temporary" provisions permanent would add roughly another trillion dollars to the official price.
 
-The political question: which provisions get extended, modified, or allowed to expire? Permanent extension would cost ~$4.6T over 10 years (CBO). Letting all provisions expire as scheduled raises revenue by ~$4T over 10 years.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A 2028 Senate candidate promises to "make the overtime deduction permanent — CBO says it only cost a few billion a year so far, so permanence is cheap." What two things does the ten-year scoring logic say she's eliding?</summary>
+<p>First, the provision was cheap <em>because</em> it was temporary — a permanent version is scored over the full window and beyond, at many times the four-year cost. Second, the Byrd Rule means a reconciliation bill can't carry deficits past the budget window without offsets, so "cheap permanence" still requires either offsetting revenue, offsetting cuts, or 60 votes. The sunset was the price of the original passage, not an oversight.</p>
+</details>
 
-## What's on the table
+## The price tag and the trajectory
 
-**Full TCJA extension.** The default Republican position — make all individual provisions permanent. Cost: ~$4.6T over 10 years, distributed regressively (TCJA's gains were skewed toward upper-income households).
+CBO's final score of OBBBA: about **$3.4 trillion added to deficits over 2025–2034** — roughly $4.5 trillion in revenue reductions, partly offset by about $1.1 trillion in net spending cuts (chiefly Medicaid, SNAP, and student loans, with CBO projecting about 10 million fewer people insured) — and about **$4.1 trillion including debt service**. That lands on a fiscal position that was already historically abnormal for peacetime. As of June 2026, gross federal debt passed **$39 trillion** (Treasury), of which about $31.6 trillion is debt held by the public — about **101 percent of GDP in 2026, on CBO's projection rising past the all-time record of 106 percent (set in 1946, after World War II) around 2030, and reaching 120 percent by 2036**. The deficit is running at 5.8 percent of GDP in both fiscal 2025 ($1.8 trillion) and projected 2026 ($1.9 trillion) — a share reached before only in world wars, the 2008–09 crisis, and the pandemic. Net interest now costs about $1.0 trillion a year — more than defense — and reaches a projected $2.1 trillion by 2036.
 
-**Selective extension.** Various proposals to extend some provisions and let others expire — e.g., extend the doubled standard deduction and the lower middle-bracket rates while letting the top-bracket cut and pass-through deduction expire. This is a possible bipartisan compromise zone but politically fragile.
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 330" width="100%" role="img" aria-label="Line chart of federal debt held by the public as a percent of GDP: 106 percent record in 1946, falling to about 23 percent in 1974, 35 percent in 2007, 79 percent in 2019, 101 percent in 2026, with CBO projecting 120 percent by 2036" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="24" y="26" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">Debt held by the public, share of GDP</text>
+  <line x1="60" y1="280" x2="690" y2="280" stroke="var(--ink, #14130f)" stroke-width="1.5" />
+  <line x1="60" y1="280" x2="60" y2="50" stroke="var(--ink, #14130f)" stroke-width="1.5" />
+  <line x1="60" y1="93" x2="690" y2="93" stroke="var(--gold, #b08a3e)" stroke-width="1.5" stroke-dasharray="6,4" />
+  <text x="66" y="86" font-family="Georgia, serif" font-size="12" fill="var(--gold, #b08a3e)">1946 record: 106%</text>
+  <polyline points="90,93 230,239 370,218 480,141 580,102" fill="none" stroke="var(--accent, #8a2a1e)" stroke-width="3" />
+  <polyline points="580,102 670,68" fill="none" stroke="var(--accent, #8a2a1e)" stroke-width="3" stroke-dasharray="6,5" />
+  <circle cx="90" cy="93" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="230" cy="239" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="370" cy="218" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="480" cy="141" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="580" cy="102" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="670" cy="68" r="4" fill="var(--accent, #8a2a1e)" />
+  <text x="90" y="300" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">1946</text>
+  <text x="230" y="300" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">1974</text>
+  <text x="370" y="300" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">2007</text>
+  <text x="480" y="300" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">2019</text>
+  <text x="580" y="300" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">2026</text>
+  <text x="670" y="300" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">2036</text>
+  <text x="230" y="258" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">~23%</text>
+  <text x="370" y="237" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">~35%</text>
+  <text x="480" y="133" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">79%</text>
+  <text x="568" y="124" font-family="Georgia, serif" font-size="11.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">101%</text>
+  <text x="664" y="56" font-family="Georgia, serif" font-size="11.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">120% (proj.)</text>
+  <text x="625" y="250" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">dashed = CBO</text>
+  <text x="625" y="265" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">projection</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: Debt held by the public as a share of GDP — the World War II record falls within this decade on current law. Historical points from CBO's historical budget data; 2026 and 2036 from CBO's Budget and Economic Outlook (2026), which incorporates OBBBA.</figcaption>
+</figure>
 
-**Child Tax Credit (CTC) expansion.** The American Rescue Plan Act of 2021 temporarily expanded the CTC to $3,000-$3,600 per child and made it fully refundable (paid even to families with no income tax liability). The expansion expired end of 2021 and child poverty roughly doubled in 2022. Re-establishing the expansion has been a top progressive priority; the 2024 bipartisan tax bill (which fell short in the Senate) included a partial expansion.
+Every reform conversation below happens in this shadow, and each Lesson 2 camp reads the same chart its own way: the progressive sees a revenue level (about 17.5 percent of GDP) that simply cannot fund an aging society and must rise at the top; the supply-sider sees outlays at 23.3 percent against a 21.2 percent historical norm and concludes the spending path, especially the big [[term:entitlement-program]]s, is the variable (the 2025 Trustees put the Social Security retirement fund's depletion at 2033, after which current law pays 77 percent of scheduled benefits); the consumption-taxer sees a gap too large for either and a VAT as the only instrument of sufficient size. The [[term:national-debt]] doesn't pick a side; it just compounds.
 
-**Wealth tax.** Warren-Sanders proposals tax net worth above thresholds (e.g., 2% above $50M, 3% above $1B). Constitutional questions (Apportionment Clause) and administrative challenges (valuation of privately-held businesses, real estate, art) are significant. Saez-Zucman analyses suggest revenue of ~$3T over 10 years; critics argue actual collection would be substantially less due to avoidance and capital flight.
+## What's actually on the table in 2026
 
-**Billionaires' minimum tax.** Biden-era proposal to require households with net worth above $100M to pay at least 25% of "income" (broadly defined to include unrealized capital gains) annually. Raises constitutional questions similar to the wealth tax but smaller in scope.
+**The child tax credit fight.** The American Rescue Plan's 2021 expansion — $3,000 to $3,600 per child, fully refundable, paid monthly — coincided with the lowest child poverty ever recorded (a 5.2 percent supplemental poverty rate in 2021); when it lapsed, child SPM poverty jumped to 12.4 percent in 2022 and 13.7 percent in 2023 (Census). A bipartisan partial restoration (Wyden–Smith, H.R. 7024) passed the House 357–70 in January 2024 and died in an August Senate cloture vote, 48–44. OBBBA's answer — $2,200 per child, but refundable only up to $1,700 and only for families with enough earnings — settled the rate and reopened the real dispute: **full refundability**, which is worth nothing to the highest earners and everything to the poorest, remains the live legislative fight, with proposals on both sides of the aisle.
 
-**Corporate minimum tax.** The IRA of 2022 included a 15% corporate "alternative minimum tax" on corporations with $1B+ income. Several proposals would extend or modify this.
+**Wealth taxes and the billionaire minimum, after *Moore*.** Proposals to tax net worth (Warren–Sanders style) or to require households worth over $100 million to pay a minimum rate on income *including unrealized gains* (the Biden-era "billionaire minimum") are dormant under unified Republican government but remain core Democratic platform planks. Their constitutional cloud got a test in **Moore v. United States (2024)**: the Court upheld the TCJA's one-time mandatory repatriation tax 7–2 — but on the narrow ground that the income there had been *realized by the corporation* and merely attributed to shareholders. The majority expressly declined to decide whether the 16th Amendment requires realization at all, while four justices signaled in separate writings that they think it does. Translation for citizens: the door to taxing unrealized gains is neither open nor closed; the next such statute walks into a genuinely undecided question.
 
-**VAT proposals.** No major federal VAT proposal is currently politically active, but several are floated periodically (e.g., Cardin's "Progressive Consumption Tax Act," various academic proposals). The U.S. remains the only major OECD country without a federal VAT.
+**The global minimum tax went side-by-side.** The 2021 OECD agreement (Pillar Two) aimed at a 15 percent minimum corporate rate worldwide. The U.S. never enacted the OECD version — it has its own 15 percent corporate alternative minimum tax on companies with over $1 billion in profits (from the 2022 Inflation Reduction Act) — and OBBBA's drafts threatened a retaliatory "revenge tax" (§899) on countries applying Pillar Two's enforcement rules to American firms. The standoff resolved in June 2025: a **G7 "side-by-side" understanding** exempts U.S.-parented multinationals from Pillar Two's income-inclusion and undertaxed-profits rules in recognition of the U.S. minimum tax, and §899 was dropped from OBBBA; the OECD turned the understanding into administrative guidance in January 2026. Whether side-by-side is a stable equilibrium or the beginning of the global deal's unraveling is an open question dividing trade and tax scholars.
 
-## What only legislation can do
+**Tariffs as a revenue source — and a constitutional lesson.** Customs duties roughly tripled to about $200 billion in fiscal 2025, and some administration figures floated tariffs as a structural revenue pillar — an [[term:tariff]]-funded state being how the federal government financed itself before 1913. Then **Learning Resources, Inc. v. Trump (Feb. 20, 2026)** held 6–3 that the International Emergency Economic Powers Act does not authorize the president to impose tariffs, vacating the broad "emergency" tariffs (tariffs under other, procedure-bound statutes survive). For tax policy the holding matters beyond trade: it reaffirmed that **the taxing power belongs to Congress**, and that revenue measures of vast "economic and political significance" cannot ride in on statutory silence. The executive's actual tax toolkit is what it always was — regulations interpreting the code, enforcement priorities, and Treasury guidance within statutory limits. Rates, bases, credits, and structure require legislation, which in practice means either 60 Senate votes or the [[term:filibuster]]-proof reconciliation process with all its Byrd Rule constraints.
 
-Tax law is set by Congress through the budget reconciliation process or regular legislation. The executive branch has minimal tax authority:
+**The IRS funding whipsaw.** The 2022 Inflation Reduction Act gave the IRS $79.4 billion over a decade, mostly for enforcement aimed at the **$696 billion gross annual tax gap** ($606 billion net after late payments and enforcement, per the IRS's tax-year-2022 projection — about 85 percent of true liability is paid voluntarily). Congress then clawed it back in stages — $1.4 billion in the 2023 debt-limit deal, $20.2 billion in the 2024 appropriations deal, another $20.2 billion in the March 2025 continuing resolution, and more since — leaving roughly $26 billion of the original $79.4 billion by early 2026, with the enforcement account nearly emptied (TPC; TIGTA). Whether each enforcement dollar returns several dollars of owed-but-unpaid tax (Treasury and CBO estimates) or chiefly burdens compliant taxpayers (the rescission coalition's claim) is now a live natural experiment.
 
-- **IRS regulations and rulings** clarify how statutes apply (e.g., the §199A pass-through definitions).
-- **Enforcement priorities and audit allocation** matter for actual collection.
-- **Treasury can adjust certain technical parameters** within statutory limits.
+**Tax expenditures — the spending inside the code.** Any future Congress hunting revenue will rediscover the JCT's tax-expenditure list: provisions that function as spending delivered through the tax code. The largest, per JCT's 2025–2029 estimates: the exclusion of employer-paid health insurance (about $1.27 trillion over five years), the preferential rates on capital gains and dividends (about $1.25 trillion), and the retirement-saving exclusions (over $250 billion in 2024 for defined-contribution plans alone). Together all tax expenditures approach $2.3 trillion *per year* — rivaling discretionary spending — which is why every serious base-broadening plan, left and right, begins here and why each item's beneficiaries ensure it never ends here.
 
-But rate changes, base changes, and structural reforms all require Congress. The Senate filibuster makes most tax legislation difficult, except for budget-reconciliation bills (which require simple majority but face their own procedural constraints — the Byrd Rule limits what can be included).
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> After <em>Moore</em>, a senator claims "the Supreme Court has now blessed taxing billionaires' unrealized gains," while a colleague claims "the Court signaled wealth taxes are unconstitutional." Who's right?</summary>
+<p>Neither. The Court upheld the repatriation tax <em>because</em> the underlying income had been realized (by the corporation) and merely attributed to its shareholders — and it explicitly reserved the question of whether the 16th Amendment requires realization. Separate opinions suggest at least four justices lean toward a realization requirement, but nothing was held. A billionaire-minimum or wealth tax would present the open question, not a settled one.</p>
+</details>
 
-## The long-run fiscal context
+## The forcing functions ahead
 
-CBO's most recent long-term outlook projects federal debt growing from ~120% of GDP in 2024 to ~180-200% by 2055 under current law. Driving this:
-
-- **Aging population** raises Medicare and Social Security spending faster than GDP.
-- **Interest costs** rise as debt accumulates and rates remain elevated.
-- **Discretionary spending** is projected roughly flat as a share of GDP.
-
-Closing this fiscal gap requires some combination of:
-- **Spending restraint** — particularly on the major entitlement programs.
-- **Revenue increases** — through either rate changes, base broadening, or new taxes (VAT).
-- **Faster growth** — to outgrow the debt rather than reduce it directly.
-
-No major political coalition currently supports any of these at scale sufficient to close the gap. The 2025 TCJA expiration is the next major forcing function, but even letting all provisions expire only narrows the gap, not closes it.
-
-This long-run context affects the framing of reform debates. The progressive-expansion advocate sees revenue increase as essential and concentrating it at the top as the only feasible path. The supply-side reform advocate sees spending discipline as more important and worries that progressive revenue increases ratchet up government size without solving the structural gap. The consumption-tax restructuring advocate sees a VAT as the only realistic path to closing the gap without prohibitive growth losses.
+The TCJA cliff is gone, but the calendar still legislates. The **2028 expirations** (tips, overtime, senior, car-loan deductions) land in a presidential election year — a designed re-run of the make-it-permanent fight. The **SALT snap-back in 2030** re-arms the most regionally divisive issue in the code. The **debt limit** returns on its own cycle (OBBBA raised it by $5 trillion). And the hardest clock: the Social Security and Medicare trust-fund depletion dates in the early 2030s, which under current law trigger automatic benefit cuts no Congress is expected to tolerate — making some major fiscal package before then close to inevitable, with every instrument from this pack (rates, bases, caps, VAT, wealth levies, spending restraint) on that future table. No current political coalition supports any combination at the necessary scale; the argument between Lesson 2's camps is, among other things, an argument about what that eventual package should look like.
 
 ## What a learner should take away
 
-A defensible position on federal taxes requires:
+A defensible position on federal taxes in 2026 requires four commitments, stated honestly:
 
-1. A view on **what the right total revenue level is** (the level question).
-2. A view on **how that revenue should be raised** — income, payroll, corporate, consumption, or some combination (the base question).
-3. A view on **how progressively** it should be raised (the distribution question).
-4. An honest accounting of what evidence would change the position.
+1. **The level**: what share of GDP should the federal government collect — today's roughly 17.5 percent, something nearer the OECD's norms, or less with a smaller state?
+2. **The base**: income, consumption, wealth, imports — or which mix?
+3. **The distribution**: how steeply should burdens rise with income or wealth, and measured against which evidence (CBO's 31.5 percent top-1-percent rate; Saez–Zucman's 23 percent top-400 estimate; Auten–Splinter's rebuttal)?
+4. **The falsifier**: what evidence would change your answer to the first three?
 
-The Coach in this app will engage you on each of these. The Mirror will save your declared position; the steel-man drill will push you to construct the strongest version of the views you don't hold.
+The Coach in this app will press you on each. The Mirror will save your declared position; the steel-man drill will make you argue the camp you find least persuasive — which, after this pack, you can do with its actual best evidence rather than its caricature.
 
-A useful next step: declare a position at `/me/positions/new` with `slug: federal-taxes`. Then run a steel-man drill against the perspective you find least persuasive.
+A useful next step: declare a position at `/me/positions/new` with `slug: federal-taxes`, then run a steel-man drill against the perspective you resisted most while reading Lesson 2.

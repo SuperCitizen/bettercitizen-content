@@ -3,70 +3,70 @@ lesson: how-it-works
 questions:
   - id: q1
     kind: multiple-choice
-    text: "Which level of government primarily controls whether housing actually gets built (zoning, permits, design review)?"
+    text: "Voters angry about housing costs mostly aim that anger at presidential candidates. Based on the lesson's three-layer model, what is the structural problem with expecting Washington to fix a housing-supply shortage?"
     choices:
       - id: a
-        text: "Federal (HUD, EPA)"
+        text: "The federal government has no housing role at all — it delegated everything to the states in 1937."
       - id: b
-        text: "State legislature"
+        text: "Supply is controlled locally through zoning and permitting; the federal government's main levers are mortgage finance and subsidies, so it can shape demand and assistance but cannot directly authorize homes."
       - id: c
-        text: "Local (city council, planning commission)"
+        text: "Federal housing programs are constitutionally barred from operating inside city limits."
       - id: d
-        text: "Regional metropolitan planning organizations"
-    correct_choice_id: c
-    explanation: "Zoning, permitting, environmental review, and design review are almost entirely local in the U.S. Some states (CA, OR, WA, NJ) have begun to preempt local restrictions, but the default remains local control. This is why housing policy is so politically tangled — affordability programs are mostly federal, but supply is determined locally."
+        text: "The federal government controls supply directly but declines to use that power for political reasons."
+    correct_choice_id: b
+    explanation: "This is the mismatch at the heart of housing politics: the level of government voters blame (federal) writes checks and sets mortgage rules, while the level that decides whether homes get built (tens of thousands of localities) answers to hearing-room constituencies dominated by existing homeowners. The federal government has large roles (Fannie/Freddie, FHA, Section 8, LIHTC, the tax code) — so (a) is wrong — but none of them is a zoning power."
     concepts: [housing, zoning]
 
   - id: q2
     kind: multiple-choice
-    text: "What is the largest federal supply-side affordable-housing program?"
+    text: "Why does Village of Euclid v. Ambler Realty Co. (1926) matter for everything else in this pack?"
     choices:
       - id: a
-        text: "Public housing"
+        text: "It held that zoning which destroys most of a parcel's value is an unconstitutional taking requiring compensation."
       - id: b
-        text: "Section 8 Housing Choice Vouchers"
+        text: "It upheld comprehensive zoning as a valid exercise of the police power, clearing the constitutional path for use-district codes — including single-family-only districts — nationwide."
       - id: c
-        text: "Low-Income Housing Tax Credit (LIHTC)"
+        text: "It required every municipality to allow a 'fair share' of affordable housing."
       - id: d
-        text: "HOME Investment Partnerships Program"
-    correct_choice_id: c
-    explanation: "LIHTC has built ~2 million units since 1986 — the largest federal supply-side program. State agencies allocate credits to projects; developers sell credits to investors. Section 8 vouchers (~2.3M households) is largest by enrollment but is demand-side, not supply-side. Public housing is now ~1M units and not significantly expanded since the 1970s."
-    concepts: [housing, lihtc]
+        text: "It struck down racially restrictive covenants in property deeds."
+    correct_choice_id: b
+    explanation: "Ambler's land was worth roughly $10,000 an acre for industry and about $2,500 zoned residential, and the Court upheld the ordinance anyway — Justice Sutherland's 'pig in the parlor' opinion. Choice (a) inverts the holding (and Penn Central later confirmed most regulation is not a compensable taking); (c) is New Jersey's Mount Laurel doctrine, a state-constitutional counter-current; (d) is Shelley v. Kraemer (1948), a different line of cases."
+    concepts: [housing, zoning]
 
   - id: q3
     kind: multiple-choice
-    text: "What does Hsieh & Moretti (2019) estimate about U.S. housing constraints in NYC, San Francisco, and LA?"
+    text: "A family locked in a 2.9 percent mortgage in 2021 wants a bigger house across town in 2026, when market rates are near 6.5 percent. Per the FHFA's lock-in research, what do they most likely do — and what happens to prices when millions of households face the same choice?"
     choices:
       - id: a
-        text: "They have no measurable effect on national economic outcomes."
+        text: "They sell anyway — rate gaps barely affect moving decisions, so the market effect is negligible."
       - id: b
-        text: "They reduced U.S. GDP by 2-3% over decades by preventing workers from moving to higher-productivity locations."
+        text: "They stay put — each percentage point of rate gap cuts the probability of sale by about 18 percent — and at scale the missing listings pushed prices higher even as borrowing costs rose."
       - id: c
-        text: "They reduced U.S. GDP by 0.1-0.2% — small but measurable."
+        text: "They stay put, which increases the number of homes for sale and pushes prices down."
       - id: d
-        text: "They increased U.S. GDP by enabling concentrated knowledge spillovers."
+        text: "They refinance into the higher market rate first, which frees them to move at no extra cost."
     correct_choice_id: b
-    explanation: "Hsieh & Moretti estimated U.S. GDP would be 2-3% higher (1964-2009) if NY/SF/LA housing constraints were relaxed to peer-metro levels. Workers couldn't move to where productivity was highest, so output fell well below potential. The deadweight loss is large in macroeconomic terms — comparable to a major recession in cumulative cost."
-    concepts: [housing, zoning]
+    explanation: "Selling means trading a cheap loan for an expensive one, so owners stay: the FHFA study estimates lock-in prevented about 1.7 million sales between mid-2022 and mid-2024 and raised prices about 7 percent by starving the market of listings. The counterintuitive part is (b)'s second half — higher rates coincided with higher prices partly because lock-in cut supply. Choice (c) gets the supply direction backward: a household that doesn't sell removes a listing."
+    concepts: [housing, housing-finance]
 
   - id: q4
     kind: multiple-choice
-    text: "What does the Diamond, McQuade & Qian (2019) study of San Francisco rent control find?"
+    text: "A senator says America is 'short 7.2 million homes,' citing NLIHC. An economist replies it's 'about 3.7 million,' citing Freddie Mac. Who is right?"
     choices:
       - id: a
-        text: "Rent control had no measurable effect on tenants or housing supply."
+        text: "The economist — NLIHC inflates its count for advocacy purposes."
       - id: b
-        text: "Rent control benefited protected tenants substantially while reducing total housing supply (effects on the broader market were ambiguous)."
+        text: "The senator — Freddie Mac's model excludes rural housing markets."
       - id: c
-        text: "Rent control increased overall housing supply by stabilizing tenant tenure."
+        text: "Both — they answer different questions: Freddie Mac estimates total stock missing from a balanced market, while NLIHC counts homes both affordable and available to extremely low-income renters specifically."
       - id: d
-        text: "Rent control had only positive effects with no measurable downsides."
-    correct_choice_id: b
-    explanation: "The DMQ paper found rent control's effects on tenants were genuinely mixed: protected tenants benefited (longer tenure, lower costs), but landlord responses (conversion to condos, deferred maintenance, demolition for new buildings outside rent control) reduced overall rental supply. The net welfare effect is contested. Modern rent stabilization (Oregon SB 608, California AB 1482) is designed around this finding — capping increases without applying to new construction."
-    concepts: [housing, rent-control]
+        text: "Neither — the Census Bureau publishes the single official shortage figure both should use."
+    correct_choice_id: c
+    explanation: "The estimates are not rival answers to one question. Freddie Mac (3.7 million), Up for Growth (3.78 million), and Zillow (4.7 million) all measure total stock against total demand and cluster near 4 million; NLIHC's 7.2 million measures whether the poorest 11 million renter households can afford the homes that exist (just 35 affordable-and-available homes per 100 such households). A construction boom could close the first gap while leaving most of the second — which is why catching a speaker swapping definitions is half the housing debate. There is no single official number."
+    concepts: [housing]
 
   - id: q5
     kind: free-response
-    text: "The supply-side advocate argues that building 'luxury' housing eventually helps low-income households through 'filtering.' The demand-side advocate argues this takes too long and doesn't reach the lowest-income households. State the strongest version of each position."
-    socratic_seed: "Supply-side: when new high-end units enter the market, residents move out of older units to fill them, freeing up middle-tier inventory, which frees up older inventory at the bottom. Mast (2019) estimates 100 new market-rate units produce ~70 vacancies in lower-income segments via filtering chains within ~5 years. Demand-side: 5 years is too long for tenants facing rent increases now; the very-bottom of the market doesn't get reached because of voucher discrimination and supply gaps. Both sides agree filtering is real; they disagree about whether it's sufficient on the relevant time horizon."
-    concepts: [housing, zoning]
+    text: "By dollars, is federal housing policy mainly a program for renters or for homeowners? Defend your answer with the lesson's numbers — then say what, if anything, you would change, and what trade-off your change accepts."
+    socratic_seed: "The lesson's figures: homeownership tax expenditures run about $730 billion over 2025-29 (roughly $145 billion a year — mortgage interest deduction about $261 billion of it, plus the capital-gains exclusion and related breaks, per JCT estimates), flowing mostly to higher-income itemizers; HUD's entire budget is roughly $70 billion a year and must cover vouchers (2.3 million households, with only about 1 in 4 eligible households receiving assistance), public housing (about 800,000 remaining units), and homelessness aid. LIHTC complicates the picture: it is also tax-code spending but builds income-restricted rental housing (about 3.9 million units since 1987). Strong answers weigh counterarguments — tax expenditures are forgone revenue rather than outlays; homeownership may carry social returns; abolishing the deduction could be capitalized into prices — and then commit: redirect, cap, expand vouchers to an entitlement, or defend the status quo, naming the trade-off (cost, price effects, political durability)."
+    concepts: [housing, housing-finance, section-8]

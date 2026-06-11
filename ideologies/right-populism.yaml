@@ -30,4 +30,10 @@ related_ideologies:
   - american-conservatism
   - nationalism
 historical_period: Long history globally; ascendant in U.S. politics since the 2016 Trump campaign
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: 0.15
+  social: 0.6
 body_md: ""

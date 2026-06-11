@@ -7,6 +7,7 @@ objectives:
   - State the restrictionist case at its strongest, including which empirical claims support it
   - State the expansionist case at its strongest
   - State the comprehensive-reform centrist case
+  - Explain the Card–Borjas Mariel Boatlift dispute and what it teaches about how labor economists disagree
   - Identify what's empirically settled and what's genuinely contested in the labor-market, fiscal, and crime literatures
 concepts:
   - immigration
@@ -24,91 +25,146 @@ sources:
     url: https://nap.nationalacademies.org/catalog/23550/the-economic-and-fiscal-consequences-of-immigration
   - type: paper
     citation: 'Card, D. (1990), "The Impact of the Mariel Boatlift on the Miami Labor Market," Industrial and Labor Relations Review 43:2.'
+    url: https://www.nber.org/papers/w3069
   - type: paper
     citation: 'Borjas, G. J. (2017), "The Wage Impact of the Marielitos: A Reappraisal," Industrial and Labor Relations Review 70:5.'
+    url: https://journals.sagepub.com/doi/abs/10.1177/0019793917692945
   - type: paper
     citation: 'Light, M. T. & Miller, T. (2018), "Does Undocumented Immigration Increase Violent Crime?" Criminology 56:2.'
-  - type: book
+    url: https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-9125.12175
+  - type: paper
     citation: 'Massey, D. S. & Pren, K. A. (2012), "Unintended Consequences of US Immigration Policy: Explaining the Post-1965 Surge from Latin America," Population and Development Review 38:1.'
+  - type: paper
+    citation: 'Clemens, M. A. & Hunt, J. (2019), "The Labor Market Effects of Refugee Waves: Reconciling Conflicting Results," ILR Review 72:4 — the sample-composition critique of the Borjas reappraisal.'
+  - type: paper
+    citation: 'Putnam, R. D. (2007), "E Pluribus Unum: Diversity and Community in the Twenty-first Century," Scandinavian Political Studies 30:2.'
+  - type: book
+    citation: 'Zolberg, A. R. (2006), A Nation by Design: Immigration Policy in the Fashioning of America, Harvard University Press.'
+  - type: book
+    citation: 'Tichenor, D. J. (2002), Dividing Lines: The Politics of Immigration Control in America, Princeton University Press.'
+  - type: website
+    citation: 'Pew Research Center (Aug. 21, 2025), "U.S. Unauthorized Immigrant Population Reached a Record 14 Million in 2023."'
+    url: https://www.pewresearch.org/race-and-ethnicity/2025/08/21/u-s-unauthorized-immigrant-population-reached-a-record-14-million-in-2023/
+  - type: website
+    citation: 'Brookings Institution & American Enterprise Institute (Jan. 2026), "Macroeconomic Implications of Immigration Flows in 2025 and 2026" — first net-negative-migration estimate in decades.'
+    url: https://www.brookings.edu/articles/macroeconomic-implications-of-immigration-flows-in-2025-and-2026-january-2026-update/
+  - type: website
+    citation: 'U.S. Census Bureau, "Historical Census Statistics on the Foreign-born Population of the United States: 1850–1990" (Working Paper 29) — the long-run series behind the U-shape.'
+    url: https://www.census.gov/library/working-papers/1999/demo/POP-twps0029.html
 perspectives:
   - name: Restrictionist
   - name: Expansionist
   - name: Comprehensive-reform centrist
-duration_min: 13
+duration_min: 15
 ---
 
 # The strongest case for and against
 
-Three positions, each presented as one its adherents would themselves endorse.
+Between April and October 1980, Fidel Castro briefly opened the port of Mariel, and about 125,000 Cubans sailed to Florida. Most settled in Miami, whose labor force grew roughly 7 percent in a few months — the kind of sudden, externally imposed shock economists call a natural experiment. If immigration depresses native wages, Miami in 1980 is where you should see it. David Card looked, in a famous 1990 paper, and found essentially nothing: wages and unemployment for Miami's less-skilled workers tracked comparison cities as if the boatlift had never happened. For twenty-five years that null result anchored the economics of immigration. Then, in 2017, George Borjas reanalyzed the same episode and found that wages for Miami's high-school dropouts — the workers most like the Marielitos themselves — had fallen 10 to 30 percent. Same city, same shock, same public data, opposite conclusions. Before you can evaluate anyone's immigration politics, you need to understand how that is possible — because the Mariel dispute is the whole empirical debate in miniature.
 
-## 1. The restrictionist case
+## How honest economists reach opposite conclusions
 
-The starting move is to take seriously the claim that immigration scale and composition matter to outcomes the country cares about. This is not an argument against immigration as such; it's an argument that current scale and current composition impose costs the political conversation has been ignoring.
+Card's design compared Miami's less-skilled workers, broadly defined, against four comparison cities. Borjas's reappraisal made two changes: he narrowed the treatment group to high-school dropouts (at least 60 percent of the Marielitos lacked a diploma, so that is where substitution pressure should concentrate), and he restricted the sample to prime-age men. In that thin slice, wages cratered after 1980. The restrictionist reading: Card's broad aggregates diluted a real injury to the most vulnerable native workers until it disappeared.
 
-The argument:
+Then came the counter-reanalysis. Michael Clemens and Jennifer Hunt showed that the survey sample behind Borjas's result changed *composition* at exactly the wrong moment: the Census Bureau improved its coverage of Black men around 1980, so the Black share of the tiny Miami subsample of male dropouts roughly doubled — from about a third to about two-thirds — within a few years. Because Black dropouts earned substantially less for reasons unrelated to Mariel, the measured "wage decline" could be an artifact of who was being surveyed — large enough, they argued, to account for the entire Borjas effect. Borjas's rejoinder argued the wage drop persists even after accounting for the changing racial mix. The exchange is sharp-elbowed but substantive, and it teaches the three lessons every consumer of empirical social science needs: *which subgroup you examine is a theoretical choice, not a neutral one; small subsamples magnify survey artifacts; and a natural experiment with one treated city has no replication to fall back on.*
 
-- **Wage and employment effects are real for low-skilled native workers.** Borjas's reappraisal of the Mariel Boatlift natural experiment finds that the rapid arrival of low-skilled Cuban workers in Miami did depress wages of native low-skilled workers, particularly Black men without a high-school diploma. The original Card (1990) finding of "no effect" rested on aggregations that masked the disaggregated impact. The NAS 2017 panel split on this question — with the high-school-dropout subgroup showing the largest negative effects.
+Where does the profession land? The National Academies of Sciences' consensus report, *The Economic and Fiscal Consequences of Immigration* (released 2016), surveyed the full literature and concluded that immigration's effect on native wages overall is small — and that to the extent negative effects exist, they concentrate on two groups: workers without a high-school education, and *prior immigrants*, who are the closest substitutes for new arrivals. On the fiscal side the report found an asymmetry that explains much of the politics: first-generation immigrants cost more than they contribute *at the state and local level* (schooling is the big line item), while the long-run picture is positive *at the federal level*, and the second generation — the immigrants' U.S.-raised children — are among the strongest net fiscal contributors in the population. Borjas himself, in a "user's guide" to the report, stressed how sensitive the famous 75-year fiscal projections are to assumptions; treat any single dollar figure from that literature as a scenario, not a measurement.
 
-- **Fiscal impact is mixed and depends heavily on education level and time horizon.** First-generation immigrants with less than a high-school education are net fiscal-cost over their lifetimes (taxes paid are less than benefits consumed); first-generation immigrants with a college degree are net fiscal-positive. Second-generation children are net fiscal-positive across all groups. The current immigration mix skews lower-skill than peer countries' selection-based systems (Canada, Australia, NZ) and the difference matters fiscally.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Card found no wage effect; Borjas found a 10–30 percent decline. Neither made an arithmetic error. Name the two analytical choices that drive the gap — and the third factor Clemens and Hunt added.</summary>
+<p>Borjas (1) narrowed the outcome group to high-school dropouts, the closest substitutes for the Marielitos, and (2) restricted the sample to prime-age men — both defensible, both consequential. Clemens and Hunt added (3) sample composition: the surveyed dropout population in Miami became dramatically more Black just as the boatlift hit, importing a pre-existing racial wage gap into the trend. The dispute is about research design, not arithmetic — which is why it has never fully resolved.</p>
+</details>
 
-- **Rule-of-law concerns are genuine.** Tolerating an ~11M-person undocumented population is, in this view, not a humanitarian choice — it's a choice to maintain a tier of residents without legal protection, vulnerable to exploitation by employers, with families that can be split by a single ICE encounter. Krikorian's *The New Case Against Immigration* makes the strongest version of the rule-of-law argument: enforcement matters not just for the inflows but for what happens to the people already inside.
+## The scale of the thing
 
-- **The political-economic argument.** Mass low-skilled immigration enables employers to suppress wages without political cost, because the workers most directly affected are politically weak (low-income, often non-citizens themselves). Restrictionists argue this captures the labor-supply side of policy in ways that disadvantage native workers and that legalization-without-enforcement makes the dynamic worse, not better.
+Every position in this debate is ultimately a position about scale and composition, so fix the long arc in your mind. The foreign-born share of the U.S. population is a U-shape: about 13 to 15 percent through the great industrial wave (peaking at 14.8 percent in 1890), driven down to 4.7 percent by 1970 under the 1924 quotas, then climbing for five straight decades after 1965 — back to 14.3 percent in 2023 (Census/ACS), with survey-based estimates briefly touching 15.8 percent in early 2025 before the first decline since the 1960s set in.
 
-- **Cultural-cohesion concerns.** Distinct from the economic argument: rapid immigration at scale changes the social fabric in ways that produce real political backlash. Pretending this concern is illegitimate (or reducible to racism) hasn't worked politically and isn't analytically accurate. Robert Putnam's research on diversity and social capital, while contested, finds that ethnic-diversity transitions produce short-run reductions in social trust that take time to recover from.
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 300" width="100%" role="img" aria-label="Line chart of the foreign-born share of the U.S. population from 1850 to 2025, showing a U-shape: about 14.8 percent in 1890, falling to 4.7 percent in 1970, rising to 14.3 percent in 2023 and an estimated 15.8 percent in early 2025 before declining" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="30" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">The U-shape: foreign-born share of the U.S. population, 1850–2025</text>
+  <line x1="60" y1="52.5" x2="690" y2="52.5" stroke="var(--line, #d9d5c9)" stroke-width="1" />
+  <line x1="60" y1="115" x2="690" y2="115" stroke="var(--line, #d9d5c9)" stroke-width="1" />
+  <line x1="60" y1="177.5" x2="690" y2="177.5" stroke="var(--line, #d9d5c9)" stroke-width="1" />
+  <line x1="60" y1="240" x2="690" y2="240" stroke="var(--muted, #6b6457)" stroke-width="1" />
+  <text x="54" y="57" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">15%</text>
+  <text x="54" y="119" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">10%</text>
+  <text x="54" y="182" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">5%</text>
+  <line x1="462" y1="56" x2="462" y2="240" stroke="var(--line, #d9d5c9)" stroke-width="1.5" stroke-dasharray="4,4" />
+  <text x="462" y="46" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">1965 Act</text>
+  <polyline points="60,118.8 95,75 130,60 165,73.8 200,55 235,70 270,56.3 305,75 340,95 375,130 410,153.8 445,172.5 480,181.3 515,162.5 550,141.3 585,101.3 620,78.8 665,61.3" fill="none" stroke="var(--accent, #8a2a1e)" stroke-width="2.5" />
+  <polyline points="665,61.3 672,42.5 676,47.5" fill="none" stroke="var(--blue, #2f4d6e)" stroke-width="2.5" stroke-dasharray="3,3" />
+  <circle cx="200" cy="55" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="480" cy="181.3" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="665" cy="61.3" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="672" cy="42.5" r="3.5" fill="var(--blue, #2f4d6e)" />
+  <text x="200" y="40" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">1890: 14.8%</text>
+  <text x="480" y="202" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">1970: 4.7%</text>
+  <text x="640" y="80" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">2023: 14.3%</text>
+  <text x="668" y="30" font-family="Georgia, serif" font-size="12" fill="var(--blue, #2f4d6e)" text-anchor="end">early 2025: 15.8% → mid-2025: 15.4%</text>
+  <text x="60" y="262" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">1850</text>
+  <text x="235" y="262" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">1900</text>
+  <text x="410" y="262" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">1950</text>
+  <text x="585" y="262" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">2000</text>
+  <text x="60" y="288" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">Decennial census and ACS (Census Bureau). The 2025 points (dashed) are CPS-based Pew estimates — a different survey, shown separately.</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: Foreign-born share of the U.S. population, 1850–2025. Restrictionists read the right side of the U as an unprecedented experiment; expansionists read the left side as proof the country has absorbed this share before — and prospered.</figcaption>
+</figure>
 
-What evidence would change this position? A persuasive showing that the wage effects on native low-skilled workers don't actually obtain (or are smaller than the gains), and that the fiscal impacts shift positive once the economy is dynamic. The strongest version of the restrictionist position concedes both these points are contested and tries to address the contested empirics rather than dismiss them.
+The historian Aristide Zolberg's *A Nation by Design* (2006) supplies the corrective to every "nation of immigrants" and every "invasion" cliché alike: immigration levels in America have *always* been engineered policy choices — colonial recruitment subsidies, the 1924 quotas, Hart-Celler's caps — made by political coalitions pursuing the national composition they wanted. The U-shape is not weather. Each turn of the curve was legislated. That is precisely why the present argument matters: it is the argument that produces the next segment of the line.
 
-## 2. The expansionist case
+## The restrictionist case
 
-The starting move is to look at the longest-run U.S. data and the cross-country comparative data and ask: does immigration produce the harms restrictionists claim, at the scales that have actually been tried?
+The strongest restrictionist position is not "immigration is bad"; it is that the *current scale and composition* impose concentrated costs that the political conversation undercounts, and that a sovereign people is entitled to choose a lower number. Its planks:
 
-The argument:
+- **The wage burden falls on those least able to bear it.** Take the NAS finding at face value: small aggregate effects, negative effects concentrated on dropouts and prior immigrants. "Small on average, concentrated at the bottom" is a distributional choice — the gains (cheaper services, higher returns to capital, larger [[term:gdp]]) flow broadly, while the costs land on the narrow slice of native and earlier-immigrant workers who compete directly with new arrivals. Borjas's *We Wanted Workers* argues the profession's "small effects" framing systematically launders this redistribution.
+- **The fiscal asymmetry is real where people live.** First-generation immigrants, especially those with less than a high-school education, are net costs at the state and local level (NAS) — and school boards and county hospitals cannot borrow against the second generation's future federal taxes. A federal-level surplus seventy-five years out does not fund a school district this year.
+- **Rule-of-law erosion compounds.** Tolerating a 14-million-person unauthorized population — whatever its individual members' virtues — teaches that immigration law is negotiable, invites the next wave, and sustains a sub-legal labor tier vulnerable to exploitation. Mark Krikorian's version of the argument is explicitly about the people already here: a polity should not maintain a permanent caste outside its law.
+- **Social cohesion is a legitimate variable.** Robert Putnam's "E Pluribus Unum" (2007) found that, in the short run, residents of more ethnically diverse U.S. communities reported lower trust — of neighbors *and* of their own group; people "hunker down." Putnam himself emphasized that societies rebuild broader identities over time and opposed restrictionist uses of his data — but the restrictionist point survives the caveat: transitions have real costs, the pace of change is a policy variable, and dismissing cohesion concerns as disguised racism has been politically catastrophic for immigration liberalism.
 
-- **Aggregate U.S. economic data shows strong positive effects.** The NAS 2017 panel concluded that immigration's net economic effect on natives is small but positive over time, and substantially positive in particular sectors (technology, healthcare, agriculture). Immigrants' contributions to entrepreneurship, patent activity, and STEM workforce participation are well-documented and replicate across study designs.
+What would change this position: evidence that wage and fiscal effects on the least-skilled are negligible even when measured the restrictionists' preferred way, and that cohesion costs dissipate quickly. Its strongest holders concede the empirics are contested and rest the case ultimately on the [[term:sovereignty]] claim — the people's right to choose a number — which no regression can refute.
 
-- **Demographic stabilization.** The U.S. fertility rate is below replacement (1.6 children per woman in 2024). Without immigration, the working-age population shrinks; with shrinking working-age population, Social Security and Medicare become unfundable and economic growth stalls. Immigration is, on this view, the demographic engine that keeps the U.S. fiscal architecture viable. Caplan's *Open Borders* makes the longer-run demographic-and-development case.
+## The expansionist case
 
-- **The crime claim doesn't survive the data.** Light & Miller (2018) and a substantial literature behind it find that areas with more undocumented immigrants do not have higher rates of violent or property crime, and may have slightly lower rates. The political rhetoric on this is sharply at odds with the empirical record. The strongest version of the expansionist case grants that high-profile individual crimes are real but argues that the aggregate pattern matters more for policy than the salient anecdote.
+The strongest expansionist position is not "borders shouldn't exist"; it is that immigration is the United States' principal renewable resource, that the measured harms are small, localized, and fixable, and that the moral claims of families and refugees deserve weight no spreadsheet captures. Its planks:
 
-- **Labor-market effects are smaller than restrictionist rhetoric implies.** Even Borjas's reappraisal of Mariel finds effects only on the smallest subgroup (high-school-dropout men); for the broader native labor market, immigrants and natives are mostly complements, not substitutes. The expansionist case argues this is what most empirical studies show across countries: the larger effect is on prices (cheaper services, lower-cost food) than on native wages.
+- **The aggregate gains are the best-established fact in the literature.** The NAS panel: immigration is "integral to the nation's economic growth," with small-to-zero long-run wage effects on natives overall. Immigrants' overrepresentation among founders, patent-holders, and STEM workers is one of the most replicated findings in the field. The gains are not hypothetical — they are the U.S. technology sector.
+- **Demography is destiny, and the arithmetic is brutal.** The U.S. fertility rate is about 1.6 — far below the 2.1 replacement level. Without migrants, the working-age population shrinks and the payroll-tax base under Social Security and Medicare shrinks with it. The 2025 experiment makes the point concretely: with net migration estimated negative (−295,000 to −10,000, Brookings/AEI), the foreign-born labor force fell by about three-quarters of a million in six months, and those economists project measurably weaker GDP and consumer-spending growth as a direct result. Bryan Caplan's *Open Borders* presses the logic to its limit, but the moderate version needs only this: the U.S. fiscal architecture assumes positive net migration.
+- **The crime claim fails empirically.** Light and Miller's 2018 study in *Criminology* — fifty states plus D.C., 1990–2014 — found undocumented immigration does not increase violent crime; most specifications point (insignificantly) *downward*. The undocumented population tripled over a period in which the national violent-crime rate roughly halved. Salient individual atrocities are real and politically potent, but policy built on the aggregate pattern points the other way.
+- **Enforcement-only policy has backfired before, measurably.** Douglas Massey and Karen Pren showed that the post-1986 border buildup *increased* the settled unauthorized population: crossing got dangerous and expensive, so seasonal Mexican migrants who had circulated home for decades stopped leaving and sent for their families instead. Enforcement converted a circular labor flow into a permanent resident population — the precise opposite of its goal.
+- **Family unity is a moral claim, not a loophole.** About 4.6 million U.S.-citizen children live with an unauthorized parent (Pew, 2023). Mass removal is therefore, unavoidably, a policy of separating citizens from their parents or exiling citizens in childhood. Expansionists insist that this cost be stated plainly in any honest accounting.
 
-- **Family unity is a moral claim.** Distinct from the economic argument. The U.S. has 6M+ U.S.-citizen children with at least one undocumented parent. Family separation through deportation imposes real moral costs that empirical economics doesn't capture. The expansionist position takes this seriously as a constraint on what enforcement can ethically do.
+What would change this position: evidence that sustained high inflows durably depress low-end wages or overwhelm absorption capacity (schools, housing, local budgets) faster than the gains compound — or a demonstration that the 2021–2023 surge produced exactly the localized fiscal strain the NAS framework predicts, which expansionists' critics argue several big-city budgets in fact showed.
 
-- **Massey's "unintended consequences" finding.** Massey & Pren (2012) document that the dramatic increase in border enforcement post-1986 actually *increased* the undocumented population, by trapping previously-circular migrants on the U.S. side of the border. People who used to come for harvest season and return home stopped going home, because re-entry became too dangerous. This is the strongest empirical version of "enforcement-only doesn't work."
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Massey and Pren found that tougher border enforcement after 1986 <em>grew</em> the settled unauthorized population. Reconstruct the mechanism in one sentence — and name the policy lesson each camp draws from it.</summary>
+<p>When crossing became dangerous and costly, circular migrants stopped going home and settled permanently, bringing families north. Expansionists read it as "enforcement-only backfires; legal circulation channels would shrink the resident population." Restrictionists read it as "1986-style enforcement was fake — porous, unserious — so the test of real enforcement (interior, employer-focused, sustained) hadn't been run." Note that both readings are about the <em>same</em> verified finding; the disagreement is about the counterfactual.</p>
+</details>
 
-What evidence would change this position? A persuasive showing that current immigration scale produces sustained negative effects on native low-skilled workers, or that the social-cohesion costs are larger than expansionists assume. The expansionist position acknowledges these concerns and tries to address them through targeted reforms (skills-based selection, enforcement of labor laws including for undocumented workers) rather than by dismissing them.
+## The comprehensive-reform centrist case
 
-## 3. The comprehensive-reform centrist case
+The centrist position holds that the system fails on restrictionist and expansionist terms *simultaneously*, and that the fix is a package: more legal pathways sized to labor demand, plus enforcement that actually verifies, plus legalization for the long-settled — traded together because none can pass alone. Its planks:
 
-The starting move is to argue both the restrictionist and the expansionist position are overstated in their pure forms, and that the actual policy challenge is designing a system that captures the gains both sides agree on while addressing the costs both sides agree are real.
+- **The status quo is the worst plausible system.** Restrictionists object to scale and illegality; the system delivers both. Expansionists object to family separation and a rightless labor tier; the system delivers both. A design this Pareto-dominated survives only because each coalition prefers the issue to the deal.
+- **IRCA is the diagnostic, read precisely.** Legalization worked; paper-based employer sanctions failed. The inference is not "never legalize" — it is "never again legalize without a verification system that works." Mandatory E-Verify with biometric anchoring is technically feasible; it has been blocked for decades by an alliance of employer lobbies (who want the labor) and civil-liberties and immigrant-rights groups (who fear the database) — a perfect Tichenor coalition, as the next section explains.
+- **Legal pathways are the pressure valve.** Most unauthorized labor migration responds to real U.S. demand. Where legal channels exist and scale (H-2A agricultural visas, which grew severalfold in the 2010s–2020s), employers use them; where channels are capped far below demand, the difference arrives anyway, unlawfully. Cap reform tied to labor-market indicators would shrink the unlawful flow restrictionists hate and the exploitable workforce expansionists hate.
+- **Asylum triage is the test case.** A multimillion-case backlog fails genuine refugees (years in limbo) and rule-of-law values (the wait itself is the magnet) at once. Adjudication capacity — more asylum officers and judges, decisions in months — is the rare reform both camps' logic endorses.
+- **Sequencing is the live experiment.** A long-standing centrist-right argument holds that voters will accept legalization only *after* the border is demonstrably controlled — that enforcement credibility is the precondition for generosity. The 2025–26 enforcement regime, whatever one thinks of it, has produced the lowest border numbers in half a century; the sequencing theory predicts legalization politics should now become *easier*. Whether that happens is among the most informative natural experiments American politics will run this decade. (Lesson 3 tracks it.)
 
-The argument:
+What would change this position: continued proof that the grand-bargain coalition cannot assemble — 2007, 2013, and 2024 all failed — at which point centrism collapses into a choice between the other two camps' sequenced agendas.
 
-- **The current system is bad on everyone's terms.** Restrictionists object to the scale and composition of unauthorized inflows; the system delivers exactly that. Expansionists object to the family separations and the rule-of-law erosion; the system delivers exactly that. The current arrangement is the worst of all worlds. Neither pure restrictionism nor pure expansionism is the alternative — comprehensive structural reform is.
+## Why the coalitions scramble the parties
 
-- **The 1986 IRCA experience is the right diagnostic.** Legalization worked; enforcement failed. The lesson is not "don't legalize" — it's "build enforcement that actually works." Mandatory employer verification (E-Verify), cross-agency data sharing, and consequences for employers (not just workers) are technically feasible and have been politically blocked by interests on both sides. The centrist argument is that this is the actual reform agenda, regardless of what the partisan rhetoric makes it sound like.
+> **The scholar's lens:** The political scientist Daniel Tichenor (*Dividing Lines*, 2002) maps immigration politics on two axes — should admissions grow or shrink, and should immigrants' *rights* be expansive or restricted? — yielding four durable camps: **cosmopolitans** (more admissions, full rights), **free-market expansionists** (more admissions, fewer rights — guest workers, not citizens), **nationalist egalitarians** (fewer admissions, full rights for those here — the old labor-union position), and **classic exclusionists** (fewer admissions, fewer rights). Major legislation passes only when camps that disagree about *rights* ally on *numbers*, or vice versa: the 1990 Act was cosmopolitans plus free-marketeers; IRCA's sanctions-for-amnesty trade was a nationalist-egalitarian/exclusionist handshake with cosmopolitan amendments. The grid explains why "left" and "right" predict immigration positions so poorly — each party contains two Tichenor camps that despise each other's premises.
 
-- **More legal pathways reduce illegal pathways.** Most labor migration is responding to U.S. employer demand. When legal pathways exist (H-2A for agriculture, H-2B for non-ag seasonal, expanded H-1B for skilled), unauthorized entry shrinks. When legal pathways are restricted (visa caps that haven't kept pace with economic growth), unauthorized entry grows. The centrist position argues for expanding legal pathways tied to actual labor demand, not for either pure restriction or pure openness.
-
-- **Asylum needs to be triaged faster.** The 3.5M-case backlog is failing both genuine refugees (whose claims sit in queues) and the rule-of-law argument (because the queue itself becomes an incentive for meritless applications). Hiring more asylum officers, expanding adjudication capacity, and processing recent arrivals quickly are technical fixes that both sides could support if the politics let them.
-
-- **The political coalition for reform exists in pieces.** Businesses (especially agriculture, hospitality, and tech) want legal labor pathways. Religious communities want family unity. Immigrant communities want legalization. Restriction-leaning voters want enforcement that actually works. Each piece of the coalition has been peeled off by partisan structuring of the debate; comprehensive reform is the assembly that would put them back together.
-
-What evidence would change this position? A persuasive showing that comprehensive reform is politically impossible at scale that matters — that the restrictionist and expansionist coalitions are now too far apart for the centrist deal. The centrist position acknowledges this is a real possibility and that the failure of the 2007, 2013, and 2024 comprehensive-reform attempts is evidence the centrist coalition is fragile.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Place these actors on Tichenor's grid: (a) a tech lobby wanting triple the H-1B cap but opposing a citizenship path for the workers; (b) a union federation backing legalization for current residents while opposing new guest-worker visas; (c) a faith coalition for refugee expansion and full integration rights.</summary>
+<p>(a) Free-market expansionist — more admissions, restricted rights. (b) Nationalist egalitarian — protect those here, restrict new labor competition. (c) Cosmopolitan — more admissions, expansive rights. The missing cell, classic exclusionism (fewer admissions, fewer rights), anchors the modern restrictionist movement's organized wing. Notice that (a) and (b) are usually coded as "right" and "left," yet each blocks the other's half of every grand bargain — which is why the bargains keep failing.</p>
+</details>
 
 ## What's settled and what's contested
 
-**Settled (or near-settled):**
-- The U.S. foreign-born population is ~46M (~14%); the undocumented population is ~11M and largely long-resident.
-- Aggregate immigration has small positive net effects on native economic outcomes (NAS 2017 consensus).
-- Areas with more undocumented immigrants do not have higher violent crime rates (multiple studies).
-- The 1986 IRCA's enforcement provisions were not effectively implemented; the population quadrupled in the next two decades.
+**Settled, or close to it:** the foreign-born share returned to within a point of its 1890 record (14.3 percent in 2023, ACS) before declining in 2025; the unauthorized population reached a record of about 14 million in 2023 (Pew) and is two distinct populations — millions settled for nearly two decades, millions arrived since 2021; aggregate long-run economic effects of immigration on natives are small and positive (NAS); undocumented immigration does not raise violent-crime rates at the population level (Light & Miller and the literature around it); IRCA's employer sanctions failed while its legalization held; post-1986 border enforcement helped convert circular migration into permanent settlement (Massey & Pren).
 
-**Genuinely contested:**
-- The size of wage effects on native high-school-dropout workers (Borjas vs. Card; the NAS panel split).
-- The fiscal impact magnitude (varies enormously by education level, time horizon, and which level of government you measure).
-- Whether stricter enforcement reduces or (per Massey) sometimes increases the resident undocumented population.
-- The political viability of comprehensive reform vs. iterative single-issue legislation.
+**Genuinely contested:** the size — and even the sign — of wage effects on the least-skilled (Card vs. Borjas vs. Clemens & Hunt is unresolved by design, not by sloppiness); the fiscal balance, which flips by level of government, education mix, and time horizon; whether the cohesion costs Putnam measured are transitional or durable; whether enforcement credibility unlocks legalization politics (the live 2025–26 test); and the values question beneath it all — what number and mix of newcomers the country *should* choose — which no dataset can settle because it is not an empirical question.
 
-A defensible position picks one of the three frames, says why, and acknowledges what's contested. Lesson 3 turns to the policy landscape — what's on the table and where the political energy is.
+A defensible position picks one of the three frames, states which contested empirics it is betting on, and names what evidence would change it — the [[term:steel-man]] discipline this pack exists to teach. Lesson 3 turns to the policy landscape those bets now inhabit.

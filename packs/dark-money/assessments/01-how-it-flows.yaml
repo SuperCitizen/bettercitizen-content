@@ -3,54 +3,70 @@ lesson: how-it-flows
 questions:
   - id: q1
     kind: multiple-choice
-    text: "What does 'dark money' specifically refer to in U.S. campaign-finance literature?"
+    text: "What does 'dark money' specifically refer to in U.S. campaign-finance scholarship?"
     choices:
       - id: a
-        text: "Any political donation."
+        text: "Any political spending by outside groups, including super PACs."
       - id: b
-        text: "Spending by 501(c)(4) social welfare organizations on electoral activity, where the donors funding the spending are not disclosed to the public."
+        text: "Election spending whose original source is concealed from the public — classically routed through 501(c)(4) social-welfare organizations or 501(c)(6) trade associations, which owe the public no donor list."
       - id: c
-        text: "Cash donations made to political campaigns."
+        text: "Cash contributions made directly to candidates to evade contribution limits."
       - id: d
-        text: "Foreign donations to U.S. political campaigns."
+        text: "Foreign-government money spent in U.S. elections."
     correct_choice_id: b
-    explanation: "Dark money has a specific technical meaning: 501(c)(4) electoral spending where donors are not disclosed. The 501(c)(4) doesn't have to disclose donors to the IRS or FEC; can engage in electoral activity as long as it's not the 'primary' activity (interpreted as <50% of spending); and the resulting funds can be passed to Super PACs which only report the 501(c)(4) as donor, not the original individuals."
+    explanation: "The term is about concealed sources, not size or outside status. Super PACs are outside money but not dark by default — they must itemize their contributors to the FEC (SpeechNow upheld those reporting rules). The classic dark vehicles are 501(c)(4)s and (c)(6)s, which may electioneer (within the 'primary activity' limit) without disclosing donors. Foreign spending is separately illegal; concealment is what makes money 'dark.'"
     concepts: [dark-money, 501c4]
 
   - id: q2
     kind: multiple-choice
-    text: "What did Citizens United (2010) say about disclosure?"
+    text: "What did Citizens United (2010) hold about disclosure?"
     choices:
       - id: a
-        text: "Struck down all disclosure requirements."
+        text: "It struck down all federal disclosure requirements as compelled speech."
       - id: b
-        text: "Upheld BCRA's disclosure provisions 8-1, with only Justice Thomas dissenting on disclosure."
+        text: "It upheld BCRA's disclosure and disclaimer provisions 8-1, with only Justice Thomas dissenting on that portion."
       - id: c
-        text: "Required new disclosure for 501(c)(4) donors."
+        text: "It required 501(c)(4)s to begin disclosing their donors."
       - id: d
-        text: "Reserved the disclosure question for later cases."
+        text: "It declined to reach the disclosure question, leaving it for later cases."
     correct_choice_id: b
-    explanation: "Justice Kennedy's majority opinion explicitly upheld BCRA §§201 and 311 (disclosure and disclaimer) by 8-1. The disclosure constitutional question is, by current Court doctrine, settled. The dark-money question is therefore not constitutional but regulatory: the gap is in the IRS's treatment of 501(c)(4)s, not in what disclosure is constitutionally permissible."
+    explanation: "Part IV of Citizens United upheld BCRA §§201 and 311 by 8-1 — 'this transparency enables the electorate to make informed decisions and give proper weight to different speakers and messages' (558 U.S. at 371). The dark-money gap therefore is not constitutional in origin: it lives in the tax code and FEC regulations. Choice (c) is the classic confusion — the Court upheld existing disclosure rules; it imposed no new ones on nonprofits."
     concepts: [dark-money, donor-disclosure]
 
   - id: q3
     kind: multiple-choice
-    text: "What's the 'primary purpose' rule for 501(c)(4)s?"
+    text: "Which statement best describes the 501(c)(4) 'primary activity' constraint as it actually operates?"
     choices:
       - id: a
-        text: "501(c)(4)s must spend at least 50% of their resources on electoral activity."
+        text: "By regulation, a 501(c)(4) may spend up to exactly 49% of its budget on electoral activity."
       - id: b
-        text: "501(c)(4)s can engage in electoral activity as long as it's not the *primary* (typically interpreted as >50%) activity of the organization."
+        text: "A 1959 Treasury regulation reads the statute's 'exclusively' as 'primarily engaged' in social welfare; 'primarily' has never been defined by rule, so practitioners operate on an informal under-half folk norm while the IRS's own interpretations have wavered."
       - id: c
-        text: "501(c)(4)s cannot engage in any electoral activity."
+        text: "501(c)(4)s are barred from all candidate electioneering, like 501(c)(3)s."
       - id: d
-        text: "Primary purpose is enforced by the FEC, not the IRS."
+        text: "The FEC audits 501(c)(4)s annually to verify that social welfare is their primary purpose."
     correct_choice_id: b
-    explanation: "501(c)(4)s can engage in electoral activity as long as it's not the *primary* purpose. 'Primary' has been historically interpreted by the IRS as >50% of resources. This means a 501(c)(4) can spend up to 49.9% of its budget on electoral activity (defined narrowly under FEC rules) without losing its tax-exempt status. The 'primary' interpretation is itself politically contested — the IRS targeting controversy of 2013 illustrated the political sensitivity of any enforcement."
+    explanation: "The statute says 'exclusively'; the 1959 regulation softened it to 'primarily engaged'; and no rule has ever quantified 'primarily.' The 51/49 figure is a practitioner folk rule, not law — in litigation the IRS has argued positions ranging from a percentage cap to 'more than insubstantial,' and in Freedom Path v. IRS (D.D.C. 2025) a court held the standard unconstitutionally vague. The 2013 attempt to define it (REG-134417-13) drew a record 150,000+ comments and was shelved; appropriations riders have barred a fix since FY2016. Primary-purpose enforcement belongs to the IRS, not the FEC."
     concepts: [501c4, dark-money]
 
   - id: q4
+    kind: multiple-choice
+    text: "Dark-money spending reported directly to the FEC peaked around $309 million in 2012 and fell to under $25 million by the 2022 midterms — yet the Brennan Center found a record $1.9 billion of dark money in 2024. What reconciles these numbers?"
+    choices:
+      - id: a
+        text: "The Brennan Center counts all super PAC spending as dark money."
+      - id: b
+        text: "Dark-money groups shifted strategy: instead of buying ads in their own names (which triggers FEC reports), they now mostly transfer money to super PACs (about $1.3 billion in 2024) and buy online and TV issue ads outside FEC reporting categories."
+      - id: c
+        text: "The FEC stopped collecting independent-expenditure reports after CREW v. FEC."
+      - id: d
+        text: "Inflation adjustment accounts for the difference."
+    correct_choice_id: b
+    explanation: "The two metrics measure different things. FEC-reported spending captures only what nondisclosing groups spend in their own names on express advocacy and electioneering communications. The fuller estimate adds transfers to super PACs (reported by the receiving super PAC, but only back to the nonprofit — 'gray money'), plus platform-tracked online ads and TV issue ads. The reported number fell because concealment improved, not because activity declined — and Brennan is explicit that even $1.9 billion 'necessarily — and perhaps substantially — underestimates the true scale.' Super PAC spending from disclosed donors is not dark money, so (a) is wrong; CREW expanded rather than ended IE reporting duties, so (c) is wrong."
+    concepts: [dark-money, donor-disclosure]
+
+  - id: q5
     kind: free-response
-    text: "The disclosure-first reformer and the donor-privacy advocate both invoke First Amendment principles to reach opposite policy conclusions on dark money. State the strongest version of each."
-    socratic_seed: "Disclosure-first reformer: Citizens United explicitly tied the post-2010 expansion of corporate political speech to robust disclosure as the safeguard. The 501(c)(4) loophole undermines that bargain. The constitutional question of disclosure is settled (8-1 in CU); the regulatory gap is the live issue. Donor-privacy advocate: NAACP v. Alabama (1958) established that compelled disclosure can chill protected association when it exposes donors to retaliation; Bonta v. AFP (2021) extended this. In modern polarized environments, donor-disclosure mandates produce real retaliation risks for donors to politically-controversial organizations. Both sides invoke the First Amendment; they disagree about whether the speech-protection or the association-protection dimension is decisive."
-    concepts: [dark-money, donor-disclosure, first-amendment]
+    text: "A reporter finds that 'Citizens for Affordable Energy,' a 501(c)(4), gave $8 million to a super PAC that ran attack ads in a Senate race. Walk the money backward: at each hop in the pipeline, state exactly what the public record shows and where the trail goes dark — and name one legal route (federal or state) by which the original donors could become visible."
+    socratic_seed: "Hop 1 (super PAC ads): FEC independent-expenditure reports show the spending and the super PAC's itemized contributors — including the $8M line from 'Citizens for Affordable Energy.' Hop 2 (the c4): its Form 990 eventually shows aggregate revenues and spending, but no donor names — since T.D. 9898 (2020) the IRS itself doesn't collect names in the ordinary course. Hop 3 (original donors): nothing public. Routes to visibility: donor self-disclosure (the W Spann LLC/Conard pattern); litigation or law enforcement prying records open (the Generation Now/Householder pattern); post-CREW independent-expenditure donor disclosure if donations were given to further IEs (in practice evaded by purpose disclaimers); or a state original-source law like Arizona's Prop 211 for covered state and local races. Strong answers distinguish what is legally required from what happens in practice, and note that each added hop (multiple c4s, shell LLCs) adds another dead end."
+    concepts: [dark-money, 501c4, donor-disclosure]

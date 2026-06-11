@@ -4,9 +4,10 @@ slug: the-science-and-the-stakes
 kind: reading
 title: The science and the stakes
 objectives:
-  - State, in mechanical terms, the core scientific claims that are settled
+  - State, in mechanical terms, the core scientific claims that are settled, and the evidence behind each
+  - Distinguish a record single year from the long-term warming level, and explain why the Paris targets refer to the latter
   - Distinguish projections (which depend on emissions trajectories) from established physics
-  - Identify the Paris Agreement temperature targets and what they imply for emissions
+  - Identify the Paris Agreement's targets and machinery, and where the pledge-versus-trajectory gap stands as of mid-2026
   - Distinguish mitigation, adaptation, and geoengineering as separate response categories
 concepts:
   - climate
@@ -14,103 +15,178 @@ concepts:
   - adaptation
   - paris-agreement
   - carbon-pricing
+  - treaty
+  - multilateral
 sources:
   - type: paper
     citation: 'IPCC AR6 Synthesis Report (2023). The most recent comprehensive scientific consensus document.'
     url: https://www.ipcc.ch/report/ar6/syr/
   - type: paper
-    citation: 'IPCC AR6 Working Group I (2021), "Climate Change 2021: The Physical Science Basis."'
+    citation: 'IPCC AR6 Working Group I (2021), "Climate Change 2021: The Physical Science Basis." (Scenario table SPM.1; equilibrium climate sensitivity; attribution.)'
     url: https://www.ipcc.ch/report/ar6/wg1/
   - type: statute
-    citation: 'Paris Agreement (UNFCCC, 2015). Treaty text and national-determined-contribution framework.'
+    citation: 'Paris Agreement (UNFCCC, 2015). Treaty text, temperature goals, and the nationally-determined-contribution framework.'
     url: https://unfccc.int/process-and-meetings/the-paris-agreement
   - type: website
-    citation: 'NOAA Global Monitoring Laboratory, "Trends in Atmospheric Carbon Dioxide" — Mauna Loa observatory series since 1958.'
+    citation: 'NOAA Global Monitoring Laboratory, "Trends in Atmospheric Carbon Dioxide" — Mauna Loa observatory series since 1958 (2025 annual mean 427.35 ppm).'
     url: https://gml.noaa.gov/ccgg/trends/
   - type: website
     citation: 'NASA GISS Surface Temperature Analysis (GISTEMP) — global temperature record.'
     url: https://data.giss.nasa.gov/gistemp/
-  - type: paper
+  - type: website
+    citation: 'WMO, State of the Global Climate 2024 (March 2025) — 2024 as warmest year on record at about 1.55°C; long-term warming estimated at 1.34–1.41°C.'
+    url: https://wmo.int/publication-series/state-of-global-climate-2024
+  - type: website
+    citation: 'Copernicus Climate Change Service (January 2026), "2025 was the third hottest year on record" — and the first three-year period (2023–2025) averaging above 1.5°C.'
+    url: https://climate.copernicus.eu/copernicus-2025-was-third-hottest-year-record
+  - type: website
+    citation: 'UNEP, Emissions Gap Report 2025 — warming projections of about 2.8°C under current policies and 2.3–2.5°C under full NDC implementation.'
+    url: https://www.unep.org/resources/emissions-gap-report-2025
+  - type: website
+    citation: 'EPA, Inventory of U.S. Greenhouse Gas Emissions and Sinks (1990–2023) — U.S. net emissions roughly 17% below 2005 levels as of 2023.'
+    url: https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks
+  - type: crs-report
+    citation: 'CRS Report R48504, "U.S. Withdrawal from the Paris Agreement: Process and Potential Effects" (2025) — the Article 28 timeline; withdrawal effective January 27, 2026.'
+    url: https://www.congress.gov/crs-product/R48504
+  - type: website
+    citation: 'UNFCCC (November 2024), COP29 outcome — the New Collective Quantified Goal of at least $300 billion per year by 2035.'
+    url: https://unfccc.int/news/cop29-un-climate-conference-agrees-to-triple-finance-to-developing-countries-protecting-lives-and
+  - type: book
     citation: 'Nordhaus, W. D. (2013), The Climate Casino: Risk, Uncertainty, and Economics for a Warming World, Yale University Press. (Nobel Prize 2018.)'
   - type: book
-    citation: 'Pielke, R. Jr. (2018), The Climate Fix: What Scientists and Politicians Won''t Tell You About Global Warming, Basic Books. (Influential adaptation-and-innovation perspective.)'
+    citation: 'Pielke, R. Jr. (2010), The Climate Fix: What Scientists and Politicians Won''t Tell You About Global Warming, Basic Books. (Influential adaptation-and-innovation perspective.)'
+  - type: book
+    citation: 'Barrett, S. (2003), Environment and Statecraft: The Strategy of Environmental Treaty-Making, Oxford University Press. (Why environmental treaties must be self-enforcing.)'
 perspectives:
   - name: Aggressive-mitigation advocate
   - name: Adaptation-first advocate
   - name: Innovation-led centrist
-duration_min: 11
+duration_min: 16
 ---
 
 # The science and the stakes
 
-Climate-policy debate frequently confuses two different questions: "is the warming real and human-caused?" (settled science) and "what should be done about it?" (genuinely contested policy). Start by separating them.
+In March 1958, on a bare lava field 11,000 feet up the slope of Mauna Loa volcano in Hawaii, a 29-year-old geochemist named Charles David Keeling switched on a new infrared gas analyzer. He had picked the site precisely because nothing was there: no cities, no forests, no smokestacks — just clean mid-Pacific air. The first reading came back at 313 parts per million of carbon dioxide. Within two years the instrument had revealed two things nobody had ever directly observed. First, the atmosphere *breathes*: CO2 falls every Northern Hemisphere summer as the world's forests leaf out and draw carbon in, then rises every winter as decay returns it — a sawtooth of about 6 ppm, repeating annually. Second, underneath that breathing, the baseline was climbing. It has climbed every single year since. The annual average at Mauna Loa was 427 ppm in 2025; the May 2026 seasonal peak touched 432 ppm. The Keeling Curve, as the graph came to be called, is arguably the most consequential data series in modern science — and the cleanest place to start, because climate-policy debate routinely confuses two different questions: *is the warming real and human-caused?* (settled science) and *what should be done about it?* (genuinely contested policy). This lesson separates them.
+
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 400" width="100%" role="img" aria-label="Stylized Keeling Curve showing atmospheric CO2 rising from 313 ppm in 1958 to a 427 ppm annual mean in 2025, with an inset showing the annual sawtooth seasonal cycle" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">The Keeling Curve, 1958–2025 (schematic)</text>
+  <line x1="60" y1="61" x2="680" y2="61" stroke="var(--line, #d9d5c9)" stroke-width="1" />
+  <line x1="60" y1="123" x2="680" y2="123" stroke="var(--line, #d9d5c9)" stroke-width="1" />
+  <line x1="60" y1="206" x2="680" y2="206" stroke="var(--line, #d9d5c9)" stroke-width="1" />
+  <line x1="60" y1="289" x2="680" y2="289" stroke="var(--line, #d9d5c9)" stroke-width="1" />
+  <line x1="60" y1="330" x2="680" y2="330" stroke="var(--muted, #6b6457)" stroke-width="1.5" />
+  <text x="54" y="65" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">430</text>
+  <text x="54" y="127" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">400</text>
+  <text x="54" y="210" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">360</text>
+  <text x="54" y="293" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">320</text>
+  <text x="30" y="46" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">ppm</text>
+  <path d="M60,303 Q115,290 169,278 Q215,265 261,251 Q306,235 352,218 Q397,203 443,187 Q488,166 534,144 Q579,120 625,94 Q648,80 671,67" fill="none" stroke="var(--accent, #8a2a1e)" stroke-width="3" />
+  <circle cx="60" cy="303" r="4" fill="var(--accent, #8a2a1e)" />
+  <circle cx="671" cy="67" r="4" fill="var(--accent, #8a2a1e)" />
+  <text x="72" y="320" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Mar 1958: 313 ppm</text>
+  <text x="660" y="50" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end">2025 annual mean: 427 ppm</text>
+  <rect x="390" y="230" width="200" height="92" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" stroke-width="1" />
+  <path d="M402,290 L420,278 L438,295 L456,283 L474,300 L492,288 L510,305 L528,293 L546,310" fill="none" stroke="var(--blue, #2f4d6e)" stroke-width="2" transform="translate(0,-22)" />
+  <text x="490" y="312" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">zoomed in: the seasonal "breath,"</text>
+  <text x="490" y="326" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">about 6 ppm down-and-up each year</text>
+  <text x="60" y="350" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">1958</text>
+  <text x="261" y="350" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">1980</text>
+  <text x="443" y="350" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">2000</text>
+  <text x="671" y="350" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">2025</text>
+  <text x="60" y="380" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">Schematic trend — for the measured monthly series, see NOAA Global Monitoring Laboratory.</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: A stylized rendering of the Mauna Loa CO2 record (annual means; sawtooth smoothed except in the inset). The 2025 annual mean of 427.35 ppm is more than 50 percent above the pre-industrial level of about 280 ppm, and recent years have added 2.5 to 3.5 ppm per year — the fastest sustained rate in the record.</figcaption>
+</figure>
 
 ## What the science actually establishes
 
 Three claims are now as solidly established as anything in observational science:
 
-1. **The planet has warmed significantly since pre-industrial times.** Global average surface temperature has risen ~1.1-1.2°C since 1850-1900 (NASA GISTEMP, NOAA, UK Hadley Centre records — all independent and concordant). The warming is more pronounced over land than ocean and stronger at high latitudes. The IPCC AR6 Synthesis Report (2023) summarizes the multi-line-of-evidence record.
+1. **The planet has warmed significantly since pre-industrial times.** The long-term warming level — the average over roughly the past decade, which is the number that matters for trend claims — now stands at about 1.3 to 1.4°C above the 1850–1900 baseline (the World Meteorological Organization's *State of the Global Climate 2024* puts it between 1.34 and 1.41°C, depending on method). The warming is stronger over land than ocean and strongest in the Arctic. Independent surface records — NASA GISTEMP, NOAA, the UK's HadCRUT, Berkeley Earth — are concordant, and they agree with satellite and ocean-heat measurements that involve entirely different instruments.
 
-2. **The cause is primarily human emission of greenhouse gases.** The basic physics of CO2 absorption of infrared radiation has been understood since Tyndall (1859) and Arrhenius (1896). Atmospheric CO2 has risen from ~280ppm pre-industrial to ~420ppm in 2024 (Mauna Loa series). The isotopic signature of the additional CO2 matches fossil-fuel combustion (depleted in C-14, enriched in C-12). Detection-and-attribution studies separate the human signal from natural variability with high confidence.
+2. **The cause is primarily human emission of greenhouse gases.** The underlying physics is Victorian-era science: John Tyndall measured CO2's absorption of infrared radiation in 1859, and Svante Arrhenius computed a first warming estimate from doubled CO2 in 1896. Atmospheric CO2 has risen from about 280 ppm pre-industrial to 427 ppm (2025 annual mean) — and the added carbon carries fossil fuel's isotopic fingerprint: it is ancient carbon, devoid of carbon-14 and depleted in carbon-13, exactly what burning long-buried plant matter predicts. Detection-and-attribution studies separate the human signal from solar, volcanic, and internal variability; the IPCC's Sixth Assessment (AR6) calls human influence on warming "unequivocal."
 
-3. **Continued emissions will produce continued warming.** Each doubling of CO2 produces roughly 3°C of warming at equilibrium (the "equilibrium climate sensitivity" parameter, with uncertainty range ~2.5-4°C). The relationship between cumulative emissions and warming is approximately linear out to several degrees.
+3. **Continued emissions will produce continued warming.** Each doubling of atmospheric CO2 yields about 3°C of warming at equilibrium — the "equilibrium climate sensitivity," which AR6 puts at a best estimate of 3°C with a likely range of 2.5 to 4°C. Just as important, warming scales nearly linearly with *cumulative* emissions, which is why "net zero" is the physically meaningful finish line: temperatures stop rising only when net emissions stop.
 
-These are not contested in the peer-reviewed literature. Disagreement about climate policy does not require disagreeing with these.
+None of these claims is contested in the peer-reviewed literature, and — this matters for everything that follows — disagreement about climate *policy* does not require disagreeing with any of them. All three perspectives this pack steel-mans accept the science above.
 
-## What's projected vs. what's established
+## A record year is not the same as a warmer world
 
-Distinguish two kinds of statements:
+Here the numbers get genuinely confusing, and the confusion is itself worth mastering. The WMO confirmed 2024 as the warmest year in the 175-year instrumental record, at about 1.55°C (±0.13°C) above the 1850–1900 average — likely the first calendar year more than 1.5°C above pre-industrial. Copernicus, the EU's climate service, then ranked 2025 the third-warmest year, a hair behind 2023, and reported that the 2023–2025 three-year average itself exceeded 1.5°C for the first time.
 
-- **Established physics**: more CO2 will produce more warming. Per-doubling sensitivity is in a known range.
-- **Projections**: how much CO2 will be emitted, on what timeline, under what policy choices.
+So has the Paris Agreement's 1.5°C target already been breached? No — and the reason is a distinction every careful reader of climate news needs. A single year rides on top of natural variability: the 2023–24 El Niño temporarily pushed global temperature well above the underlying trend, just as a strong La Niña can pull a year below it. The Paris targets refer to the *long-term* warming level — the human-caused trend, averaged over decades — which is what that 1.34–1.41°C estimate measures. One hot year does not breach the target; it previews where the trend is headed. On current trajectories the long-term level itself is likely to cross 1.5°C in the 2030s, which is a statement about the trend, not about any single year's headline.
 
-The IPCC's "Shared Socioeconomic Pathways" (SSPs) are emissions scenarios — not predictions but conditional projections. SSP1-1.9 represents a path consistent with limiting warming to 1.5°C; SSP5-8.5 is a high-emissions path now considered unlikely given current policy trajectories. Most reasonable analyses see the world tracking somewhere in the middle (roughly SSP2-4.5 to SSP3-7.0) — meaning warming this century in the range of 2-3°C above pre-industrial.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A headline reads "Earth breached the 1.5°C Paris limit in 2024." A scientist calls the headline wrong but the situation grave. What is each of them seeing?</summary>
+<p>The headline conflates a <em>single-year</em> anomaly (2024 at about 1.55°C, boosted by El Niño) with the <em>long-term warming level</em> the Paris targets actually reference — currently about 1.3–1.4°C. So the limit has not formally been breached. The scientist's gravity comes from the trend: with 2023–2025 averaging above 1.5°C and the long-term level rising roughly 0.2°C per decade, the target is on course to be crossed within about a decade absent steep emissions cuts.</p>
+</details>
 
-The 1.5°C and 2°C targets in the Paris Agreement are political choices about what counts as "tolerable" warming, informed by but not dictated by the science. The cost of avoiding 2°C is much lower than the cost of avoiding 1.5°C; the damage avoided by hitting 1.5°C vs. 2°C is real but smaller than activists sometimes imply.
+## Projections are conditional; the physics is not
+
+Distinguish two kinds of statements. *Established physics*: more CO2 produces more warming, within a known sensitivity range. *Projections*: how much CO2 humanity will emit, on what timeline, under what policy — which no climate model can tell you, because it depends on choices not yet made.
+
+The IPCC handles this honestly with "Shared Socioeconomic Pathways" (SSPs): standardized emissions scenarios that are *conditional projections*, not predictions. AR6's headline numbers:
+
+| Scenario | Shorthand | Best-estimate warming, 2081–2100 (vs. 1850–1900) | Very likely range |
+| --- | --- | --- | --- |
+| SSP1-1.9 | Steep cuts, net zero by mid-century | 1.4°C | 1.0–1.8°C |
+| SSP1-2.6 | Strong mitigation | 1.8°C | 1.3–2.4°C |
+| SSP2-4.5 | Middle of the road | 2.7°C | 2.1–3.5°C |
+| SSP3-7.0 | High emissions | 3.6°C | 2.8–4.6°C |
+| SSP5-8.5 | Very high emissions | 4.4°C | 3.3–5.7°C |
+
+Read the table as a menu, not a forecast: the rows differ by human decisions, not by physics. Where on the menu is the world actually eating? The UN Environment Programme's *Emissions Gap Report 2025* estimates warming of about **2.8°C** this century under current policies, and **2.3–2.5°C** if every national pledge is fully implemented — down from the 3–3.5°C the same exercise projected when Paris was signed in 2015, but far above either Paris target. The extreme SSP5-8.5 path now looks unlikely; so does SSP1-1.9. The live argument is over the middle rows. And the budget arithmetic is unforgiving: the Global Carbon Budget 2025 estimates the remaining carbon budget for 1.5°C is virtually exhausted — roughly four years of current emissions, which hit a record 38.1 billion tonnes of fossil CO2 in 2025.
+
+The Paris temperature targets, note, are political judgments about tolerable risk, informed but not dictated by science. Avoiding 2°C costs far less than avoiding 1.5°C; the damage difference between them is real but is a matter of degree, not a cliff edge at a magic number.
 
 ## What the warming does, in mechanical terms
 
-The IPCC AR6 documents a number of specific consequences with high confidence:
+AR6 documents specific consequences with stated confidence levels — and the confidence varies by category, which is the honest way to hold this:
 
-- **Sea-level rise** of ~20cm since 1900, accelerating; range of 30-100cm additional this century depending on emissions trajectory and ice-sheet dynamics.
-- **Extreme heat events** more frequent and more intense. Heat waves that used to occur once per decade now occur ~2.8× more often globally and are ~1.2°C hotter.
-- **Heavy precipitation events** more frequent in most regions; drought events more frequent in some (especially the U.S. Southwest, Mediterranean, Southern Africa).
-- **Tropical cyclones**: number not clearly trending, but proportion reaching major-cyclone intensity (Cat 3+) increasing.
-- **Ecosystem shifts**: species range shifts, ocean acidification, coral reef die-offs.
+- **Sea-level rise**: about 20 cm since 1901, accelerating; roughly 30 to 100 cm more by 2100 depending on emissions pathway and ice-sheet behavior.
+- **Extreme heat**: a heat wave that occurred once a decade in the pre-industrial climate now occurs about 2.8 times as often and runs about 1.2°C hotter.
+- **Heavy precipitation**: more frequent and intense in most regions; drought intensifying in some (the U.S. Southwest, the Mediterranean, southern Africa).
+- **Tropical cyclones**: no clear trend in *number*, but a rising proportion reaching major (Category 3+) intensity.
+- **Ecosystems**: poleward range shifts, ocean acidification (a direct chemical consequence of CO2, independent of warming), repeated mass coral bleaching.
 
-What's harder to attribute precisely: any single weather event. Heat waves and ocean heat are easier; individual storms and droughts are harder. The IPCC's confidence levels reflect this — there's high confidence that climate change is making certain categories of events more likely, but lower confidence about specific instances.
+What remains harder is attributing any *single* event. Heat extremes are the easy case; individual storms and droughts are harder, and the attribution literature assigns probabilities ("this heat wave was made roughly three times more likely") rather than verdicts. Treat anyone offering certainty about one storm — in either direction — as overclaiming.
 
-## The Paris Agreement framework
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Which claim should you trust more, and why: (a) "Climate change made this summer's heat dome more likely," or (b) "Climate change caused Hurricane X"?</summary>
+<p>Claim (a). Heat extremes are the strongest case in attribution science — warming shifts the entire temperature distribution, so the probability calculation is direct (AR6: once-a-decade heat events are now about 2.8 times more frequent). Hurricanes involve many competing factors; the literature supports trends in <em>intensity proportion</em> and rainfall, but "caused Hurricane X" outruns the science. The careful form is always probabilistic.</p>
+</details>
 
-The Paris Agreement (2015) is the current multilateral framework. Its core features:
+## The Paris machinery, and where it stands
 
-- **Goal**: hold warming "well below 2°C" with "efforts to limit it to 1.5°C."
-- **Mechanism**: each country submits a Nationally Determined Contribution (NDC) — a self-determined emissions-reduction pledge. NDCs ratchet upward in 5-year cycles.
-- **Transparency**: countries report progress in standardized formats.
-- **Climate finance**: developed countries committed $100B/year to developing countries for mitigation and adaptation.
+The Paris Agreement (2015) is the operating [[term:multilateral]] framework, and its design is worth understanding because it was built *around* the failure of its predecessor. Kyoto-style binding quotas had collapsed on a hard problem: no world government exists to enforce them. Paris substitutes a pledge-and-review architecture:
 
-The U.S. has been in and out of Paris (Obama joined, Trump withdrew, Biden rejoined, future participation depends on administration). U.S. emissions have fallen ~17% from 2005 to 2023, primarily due to coal-to-gas switching in electricity generation and renewables deployment.
+- **Goal**: hold warming "well below 2°C" and pursue "efforts to limit" it to 1.5°C.
+- **Mechanism**: each country writes its own Nationally Determined Contribution (NDC) — a self-set emissions pledge, legally *nonbinding* as to outcome — and must submit a stronger one every five years (the "ratchet").
+- **Transparency**: standardized reporting and review, so laggards are visible.
+- **Finance**: wealthy countries pledged $100 billion per year to developing countries — a goal first met in 2022, when the OECD counted $115.9 billion. At COP29 in Baku (November 2024), parties replaced it with a New Collective Quantified Goal of at least $300 billion per year by 2035, inside a broader call to mobilize $1.3 trillion from all sources.
 
-Current NDCs collectively, if fully implemented, project ~2.5-3°C warming. Closing the gap requires either more ambitious NDCs or technologies that reduce emissions faster than current trajectories.
+> **The scholar's lens:** Why is this design space so cramped? The economist Scott Barrett's *Environment and Statecraft* (2003), the standard treatment of environmental treaty-making, supplies the answer: with no enforcer above sovereign states, a treaty must be *self-enforcing* — every party has to prefer staying in to walking out — which forces a trade-off between depth (how much the treaty demands) and breadth (how many countries join and comply). Kyoto chose depth and lost breadth; Paris chose breadth and gave up enforceable depth. On Barrett's logic, an exit like America's is not an aberration but the design's predicted failure mode: the price of making membership cheap is that leaving is cheap too.
 
-## The three response categories
+A civics point American readers should not miss: the United States never ratified Paris as a Senate [[term:treaty]]. Both the Obama and Biden administrations joined it as an executive agreement — which is exactly why U.S. participation has swung with each presidency. The U.S. joined in 2016, withdrew under the first Trump administration (effective November 4, 2020), rejoined under Biden (February 19, 2021), and withdrew again under the second Trump administration: an executive order of January 20, 2025 triggered formal notification on January 27, 2025, and under Article 28's one-year clock the withdrawal took effect **January 27, 2026**. The United States is, as of this writing in mid-2026, outside the agreement — the only country to have left it, twice.
 
-Climate response strategies fall into three categories. Most policy proposals combine them; understanding each separately is the prerequisite to combining them well.
+Meanwhile the underlying U.S. emissions trend is its own story: net U.S. greenhouse-gas emissions were roughly 17 percent below 2005 levels as of 2023 (EPA's *Inventory of U.S. Greenhouse Gas Emissions and Sinks*), driven mostly by coal-to-gas switching in the power sector and renewables deployment — market and technology forces that operated under every administration, in and out of Paris alike.
 
-- **Mitigation**: reducing emissions. Carbon pricing, regulations on power plants and vehicles, clean-energy subsidies, energy-efficiency standards, deforestation reduction. The cost is borne now; the benefit is avoided future damage.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Paris NDCs are legally nonbinding, yet the agreement's designers considered that a feature, not a bug. What problem were they solving?</summary>
+<p>The enforcement problem. Binding international quotas (the Kyoto model) either deter participation or invite exit, because no authority can compel a sovereign state to comply — the U.S. never ratified Kyoto, and Canada simply quit it. Paris trades hard bindingness for universal participation plus transparency and a five-year ratchet, betting that visibility, peer pressure, and falling technology costs will do what enforcement cannot. The U.S. withdrawal — effective January 27, 2026, under Article 28 — illustrates both the design's tolerance for exit and its fragility to it.</p>
+</details>
 
-- **Adaptation**: building resilience to warming that's already coming. Sea walls, flood-zone restrictions, drought-resistant crops, heat-tolerance infrastructure, public-health systems for heat waves. The cost is borne now; the benefit is reduced damage from existing-and-coming warming.
+## Three ways to respond
 
-- **Geoengineering**: actively cooling the planet. Solar radiation management (sulfate aerosol injection into the stratosphere), carbon dioxide removal at scale (BECCS, direct air capture). Largely speculative at scale; raises governance and ethical issues separate from technical ones. Generally treated as a backup option, not a primary strategy.
+Every climate policy ever proposed combines three distinct response categories. Keeping them separate is the prerequisite to combining them well:
 
-The aggressive-mitigation advocate (Lesson 2, Position 1) prioritizes #1 and treats #2 as unavoidable but secondary. The adaptation-first advocate prioritizes #2 because mitigation is too slow and too costly. The innovation-led centrist prioritizes accelerated R&D (clean energy, carbon removal) over both regulation-driven mitigation and pure adaptation.
+- **Mitigation** — reducing emissions: carbon pricing, power-plant and vehicle standards, clean-energy [[term:subsidy]] programs, efficiency standards, halting deforestation. Costs land now; benefits are avoided warming, decades out, shared globally.
+- **Adaptation** — building resilience to warming already arriving: sea walls, flood-zone rules, drought-resistant crops, cooling centers and heat-health systems. Costs land now; benefits arrive sooner and accrue locally.
+- **Geoengineering** — actively intervening in the climate system: solar-radiation management (stratospheric aerosols that reflect sunlight) and large-scale carbon-dioxide removal (direct air capture, bioenergy with carbon capture). Mostly unproven at scale, with governance problems as hard as the engineering; treated by nearly everyone as a hedge, not a strategy.
 
-## Why this lesson is contested
+The three perspectives this pack steel-mans are, at bottom, three weightings of this menu. The aggressive-mitigation advocate puts mitigation first and treats adaptation as the unavoidable companion. The adaptation-first advocate inverts the priority: resilience now delivers more avoided suffering per dollar than emissions cuts whose benefits arrive in 2070. The innovation-led centrist says the dichotomy is false — what actually cuts emissions is technological substitution, so accelerate it.
 
-Three perspectives the next lesson will steel-man:
+## What this lesson is not
 
-- **Aggressive-mitigation advocates** argue that climate damages compound nonlinearly with warming, that the cost of inaction is now larger than the cost of decarbonization, and that the U.S. should lead by example with aggressive domestic policy and finance for global cooperation.
-- **Adaptation-first advocates** argue that aggressive mitigation imposes large near-term costs on communities (especially low-income and developing economies) for benefits that arrive decades later, and that resilience investment delivers more avoided suffering per dollar than emissions reductions.
-- **Innovation-led centrists** argue that the choice between mitigation and adaptation is a false dichotomy, that what actually drives emissions reductions is technological substitution, and that the right policy is massive R&D investment + tax incentives for adoption + carbon pricing as a complement, not regulation as the primary tool.
-
-A defensible position takes one of these views, says why, and identifies what evidence would change it. Lesson 2 sharpens each.
+It is not yet an argument about what to *do* — and it has deliberately not told you how much warming is "acceptable," because that is a values question the science cannot answer. What this lesson settles: the warming is real, human-caused, and ongoing; single-year records and long-term levels are different quantities; scenarios are menus, not forecasts; and the pledge-versus-trajectory gap is real and quantified. What it leaves open is everything Lesson 2 takes up: how to value future damages against present costs, who should bear them, and whether price signals, regulation, or technology push should carry the load. The disagreement there is genuine — which is why this pack carries three perspectives rather than one.

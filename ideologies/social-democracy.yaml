@@ -28,4 +28,10 @@ related_ideologies:
   - american-progressivism
   - democratic-socialism
 historical_period: Late-19th-century revisionist socialism; post-1945 European welfare states; ongoing globally
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: -0.65
+  social: -0.2
 body_md: ""

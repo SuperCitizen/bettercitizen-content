@@ -12,29 +12,61 @@ questions:
       - id: c
         text: "Article III"
       - id: d
-        text: "The First Amendment"
+        text: "Article IV"
     correct_choice_id: b
-    explanation: "Article I creates Congress, Article II creates the Presidency, Article III creates the federal courts."
+    explanation: "The first three articles run in the order the Framers expected the branches to matter: Article I creates Congress, Article II the Presidency, Article III the federal courts. (Article IV governs the states and their relations — a common mix-up because it also binds government structure.)"
     concepts: [executive-branch, separation-of-powers]
 
   - id: q2
     kind: multiple-choice
-    text: "What is the core power of the legislative branch?"
+    text: "The vesting clauses of Articles I and II are worded differently in a way that still fuels constitutional argument. What is the difference?"
     choices:
       - id: a
-        text: "To resolve disputes about what the law means"
+        text: "Article I vests Congress with legislative powers 'herein granted' (a list), while Article II vests 'the executive Power' with no equivalent limiting phrase"
       - id: b
-        text: "To carry out the laws and command the armed forces"
+        text: "Article I's powers can be amended; Article II's cannot"
       - id: c
-        text: "To write federal law and decide how money is spent"
+        text: "Article II vests power in the executive branch as a whole, while Article I vests power in individual members of Congress"
       - id: d
-        text: "To nominate federal judges"
-    correct_choice_id: c
-    explanation: "Article I gives Congress 'all legislative Powers' — including taxing, spending, and lawmaking."
-    concepts: [legislative-branch, separation-of-powers]
+        text: "Article I applies only in peacetime, while Article II applies in war and peace alike"
+    correct_choice_id: a
+    explanation: "Congress gets the legislative powers 'herein granted' — pointing to the enumerated list, mostly in Article I §8. The President gets 'the executive Power,' unqualified. Whether that unadorned phrase carries authority beyond Article II's specific grants is the core of two centuries of debate over inherent presidential power."
+    concepts: [legislative-branch, executive-branch, separation-of-powers]
 
   - id: q3
+    kind: multiple-choice
+    text: "A student objects: 'The Senate confirming judges proves the Founders failed at separation of powers — that's the legislature doing judicial-branch work.' Which response best reflects Madison's Federalist 47 and Neustadt's analysis?"
+    choices:
+      - id: a
+        text: "The student is right — confirmation is a flaw the Framers overlooked and courts have tried to correct"
+      - id: b
+        text: "Separation of powers only applies to Congress and the President, so the judiciary is exempt from the doctrine"
+      - id: c
+        text: "Separation forbids the accumulation of a whole power in one set of hands, not 'partial agency' of one branch in another's function — the overlap is the design, which is why Neustadt called it 'separated institutions sharing powers'"
+      - id: d
+        text: "Confirmation is purely ceremonial, so no real power is being shared"
+    correct_choice_id: c
+    explanation: "Madison answered this exact objection in Federalist 47: Montesquieu 'did not mean that these departments ought to have no partial agency in... the acts of each other.' The forbidden condition is the whole of one power fused with another. Neustadt's 'separated institutions sharing powers' is the modern restatement: every major function is deliberately a joint product."
+    concepts: [separation-of-powers, judicial-branch]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which branch did Madison expect to dominate the federal government, and what structural remedy did the Constitution apply to it?"
+    choices:
+      - id: a
+        text: "The executive — so the Constitution limits the President to two terms"
+      - id: b
+        text: "The judiciary — so the Constitution lets Congress set the courts' size"
+      - id: c
+        text: "The legislature — so the Constitution splits it into two chambers with different terms, sizes, and constituencies"
+      - id: d
+        text: "No branch — the Framers expected perfect balance from the start"
+    correct_choice_id: c
+    explanation: "Federalist 51: 'In republican government, the legislative authority necessarily predominates' — Congress sits closest to the people and holds the purse, and Federalist 48 warned of its 'impetuous vortex.' Bicameralism is the remedy aimed at it. (The two-term limit dates from 1951, not the Founding, and was a response to executive growth the Framers did not anticipate.)"
+    concepts: [legislative-branch, bicameral, separation-of-powers]
+
+  - id: q5
     kind: free-response
-    text: "In your own words, why did the Framers separate federal power across three branches rather than concentrate it in one?"
+    text: "In your own words, why did the Framers separate federal power across three branches rather than concentrate it in one — and why did Madison think the separation would fail without something more than words on paper?"
     concepts: [separation-of-powers]
-    socratic_seed: "What is the worst thing that could happen if the same body wrote the laws, enforced them, and decided what they meant?"
+    socratic_seed: "What is the worst thing that could happen if the same body wrote the laws, enforced them, and decided what they meant? And if you only wrote 'thou shalt not' on parchment, who would stop the encroachment?"

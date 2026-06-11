@@ -14,6 +14,7 @@ concepts:
   - electors
   - faithless-electors
   - contingent-election
+  - equal-protection
 sources:
   - type: book
     citation: 'Edwards, G. C. III (2019), Why the Electoral College Is Bad for America, 3rd ed., Yale University Press. (Chapters 1–2: historical record of contested outcomes.)'
@@ -33,106 +34,136 @@ sources:
   - type: website
     citation: 'National Archives, "Historical Election Results" — official tabulations of every presidential election.'
     url: https://www.archives.gov/electoral-college/results
+  - type: crs-report
+    citation: 'CRS Report RL32717, "Counting Electoral Votes: An Overview of Procedures at the Joint Session, Including Objections by Members of Congress" (updated 2020).'
+    url: https://crsreports.congress.gov/product/pdf/RL/RL32717
+  - type: book
+    citation: 'Keyssar, A. (2020), Why Do We Still Have the Electoral College?, Harvard University Press.'
   - type: website
-    citation: 'CRS Report R45984, "Counting Electoral Votes: An Overview of Procedures at the Joint Session, Including Objections by Members of Congress" (2020, updated 2023).'
-    url: https://crsreports.congress.gov/product/pdf/R/R45984
+    citation: 'National Archives, "2024 Electoral College Results" — official 2024 tabulation, including the Maine and Nebraska district splits.'
+    url: https://www.archives.gov/electoral-college/2024
+  - type: pdf
+    citation: 'Federal Election Commission, "Federal Elections 2016: Election Results for the U.S. President, the U.S. Senate and the U.S. House of Representatives" — official state-by-state counts.'
+    url: https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+  - type: pdf
+    citation: 'Federal Election Commission, "Federal Elections 2020" — official state-by-state counts.'
+    url: https://www.fec.gov/resources/cms-content/documents/federalelections2020.pdf
+  - type: pdf
+    citation: 'Federal Election Commission, "Official 2024 Presidential General Election Results."'
+    url: https://www.fec.gov/resources/cms-content/documents/2024presgeresults.pdf
+  - type: website
+    citation: 'The American Presidency Project (UC Santa Barbara), election statistics, 1888 — popular and electoral vote totals.'
+    url: https://www.presidency.ucsb.edu/statistics/elections/1888
 perspectives:
   - name: Originalist defender
   - name: Democratic-majority reformer
   - name: Federalist preservationist
-duration_min: 13
+duration_min: 15
 ---
 
 # How it has actually played out
 
-The Electoral College has been used 60 times since 1788. Most elections produce a clean winner. A few have not. The exceptions are the test cases for whatever theory of the EC you hold — they're where the institution either worked or didn't, depending on your priors.
+At a few minutes past four in the morning on March 2, 1877, the president of the Senate announced that Rutherford B. Hayes had been elected President of the United States, 185 electoral votes to 184. Inauguration was two days away. The man who had won the popular vote by three points was not Hayes. The body that settled the count was not the House of Representatives, not the Senate, and not anything described in the Constitution — it was a fifteen-member commission Congress had invented six weeks earlier, which had resolved every disputed question by the same vote, 8 to 7, along party lines. Sixty presidential elections have been run under the Electoral College from 1788 through 2024. Most produced a clean winner. This lesson is about the ones that didn't — because the exceptions are where any theory of the institution gets tested, and because each major failure left a scar of statute or amendment that still governs how the machine runs today.
 
-## 1796 and 1800: the original design fails
+## 1796 and 1800: the original design eats itself
 
-The original Article II §1 procedure had each elector cast two votes for President, both for someone other than the elector's own state's resident. The candidate with the most votes became President; the runner-up became Vice President. Hamilton's theory in Federalist 68 was that this would produce a President of national stature without partisan capture.
+The original Article II procedure gave each elector two undifferentiated votes for President — most votes won the presidency, second place became Vice President — and had no concept of a party ticket.
 
-Within eight years, this had failed twice:
+Parties arrived almost immediately, and the procedure failed in both available directions. In **1796** it produced a split executive: Federalist John Adams won with 71 electoral votes, and his bitter rival, Democratic-Republican Thomas Jefferson, finished second with 68 — Vice President of the administration he intended to oppose. In **1800** it produced something worse. Jefferson's party had learned discipline: every Democratic-Republican elector cast one vote for Jefferson and one for his running mate Aaron Burr. The result was a perfect 73–73 tie *between the ticket and itself*, which threw the choice into a [[term:lame-duck]] House controlled by the opposing Federalists. The House deadlocked through 35 ballots over six days; on the 36th, after Hamilton — who detested Burr more than he distrusted Jefferson — lobbied his party to relent, Jefferson was elected. The **12th Amendment** (1804) separated presidential and vice-presidential ballots, formally absorbing the party ticket into the Constitution. The original design had lasted four elections.
 
-- **1796**: Federalist John Adams won the presidency; Democratic-Republican Thomas Jefferson came in second and became Vice President. The country had a President and Vice President of opposing parties. They could barely speak to each other.
+## 1824: the fallback gets used
 
-- **1800**: Jefferson and his running mate Aaron Burr both received 73 electoral votes — the same number, because Democratic-Republican electors had voted in lockstep for both. The original procedure didn't distinguish presidential from vice-presidential votes, so the tie threw the election to the House of Representatives under the Article II contingent procedure. The House deadlocked for 36 ballots before Hamilton (a Federalist who hated Burr more than Jefferson) brokered Jefferson's victory.
+The 12th Amendment's contingent procedure sat unused until the one-party "Era of Good Feelings" splintered into a five-way scramble in **1824**: Andrew Jackson led with 99 electoral votes; John Quincy Adams took 84, William Crawford 41, Henry Clay 37. Nobody reached the majority threshold of 131, so the House chose among the top three, each state delegation casting a single vote. Clay — fourth, and thus excluded — was also Speaker of the House. He threw his support to Adams, and on February 9, 1825, Adams won 13 of 24 state delegations to Jackson's 7 and Crawford's 4, on the first ballot.
 
-The fix was the **12th Amendment** (1804), ratified in time for the 1804 election. It separated presidential and vice-presidential ballots, locking parties to running-mate slates. This is the procedure we still use. The original 1787 design lasted 12 years and three elections.
+Adams then appointed Clay Secretary of State — in that era, the recognized stepping-stone to the presidency. Jackson's supporters called it the **"Corrupt Bargain,"** and whether any explicit bargain occurred is still disputed (Donald Ratcliffe's history of 1824 argues not), but the accusation did its work: Jackson won the 1828 rematch decisively.
 
-## 1824: the "Corrupt Bargain"
+Be careful with what 1824 proves. It appears on every list of "popular-vote losers who won," and Jackson did lead the recorded popular vote with about 41 percent. But in six of the 24 states — including New York, the largest — legislatures appointed electors and *no popular vote was held at all*, so the national tally is incomplete by construction. And the final choice was made by the House under the contingent procedure, not by Electoral College arithmetic. 1824 is the founding entry of the inversion list, and the entry that needs an asterisk.
 
-Andrew Jackson won the popular vote (41%) and the most electoral votes (99), but did not have a majority of either. John Quincy Adams was second (84 EVs), William Crawford third (41 EVs), Henry Clay fourth (37 EVs).
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A classmate says "1824 proves the Electoral College can override the popular vote." Name the two reasons careful analysts asterisk that claim.</summary>
+<p>First, <strong>the popular vote was incomplete</strong>: six state legislatures, including New York's, appointed electors directly, so "Jackson won the popular vote" means only that he led in the 18 states that held one. Second, <strong>the House made the choice</strong>, one state one vote, under the 12th Amendment's contingent procedure — the outcome reflects that fallback, not winner-take-all arithmetic. 1824 indicts the system's <em>fallback</em>; 1888 and 2016 are the clean tests of its arithmetic.</p>
+</details>
 
-Under the 12th Amendment, the contingent procedure kicked in: the House of Representatives, voting one-vote-per-state-delegation, chose among the top three. Clay (the Speaker of the House and not eligible under the top-three rule) threw his support to Adams. Adams won 13 state delegations to Jackson's 7 and Crawford's 4, and became President.
+## 1876: the invented commission
 
-Adams promptly appointed Clay as Secretary of State. Jackson supporters called it the "Corrupt Bargain"; whether it was actually corrupt is disputed by historians (Ratcliffe 2015 argues no), but the political damage was permanent. Jackson ran again in 1828 and won decisively, breaking the era's political alignment.
+The centennial election is the institution's darkest stress test, and its mechanics are botched in retellings more than any other's — so walk through them precisely. Democrat Samuel Tilden won the popular vote by about three points (50.9 to 47.9 percent, a margin of roughly 250,000) and stood at 184 undisputed electoral votes — one short of the 185 majority. Republican Rutherford B. Hayes had 165. The remaining 20 votes, from Florida, Louisiana, South Carolina, and one elector in Oregon, were disputed: in the three Southern states, Republican-controlled "returning boards" had thrown out returns from counties where Black voters had been violently intimidated, and rival state authorities mailed Congress *competing certificates* — one set for Hayes, one for Tilden. (Oregon's dispute was a technicality: one Hayes elector was a postmaster, constitutionally ineligible as a federal officeholder, and the Democratic governor certified a Tilden substitute.)
 
-This was the first election where the popular-vote leader did not become President. It was also the first to use the 12th Amendment's contingent procedure for the presidency. The two facts are related: the contingent procedure exists precisely because the EC can fail to produce a majority.
+Here is the crucial point: this was *not* a 12th Amendment contingent election. The contingent procedure triggers when no candidate wins a majority of appointed electors. The 1876 problem was antecedent — *which certificates were the real ones?* — and on that question the Constitution was silent. Congress improvised. The Electoral Commission Act of January 1877 created a fifteen-member tribunal: five senators (three Republicans, two Democrats), five representatives (three Democrats, two Republicans), and five Supreme Court justices — two from each party named in the act, the fifth to be chosen by those four. Everyone expected the fifth justice to be David Davis, a genuine independent. Days before the commission convened, Illinois's legislature elected Davis to the U.S. Senate, and he withdrew. The four justices chose Joseph P. Bradley, a Republican. The commission awarded every disputed vote to Hayes, 8–7, on party lines, and the count concluded on March 2, 1877 — 185 to 184.
 
-## 1876: the deal that ended Reconstruction
+Democrats acquiesced rather than obstruct, in exchange for what history calls the **Compromise of 1877**: the new Hayes administration withdrew federal troops from the South, ending [[term:reconstruction]]. The disputed returns had been generated by terror against Black voters; the resolution traded the contested presidency for the abandonment of federal civil-rights enforcement, which would not seriously resume for eight decades. Michael Holt's *By One Vote* remains the standard account. The procedural legacy arrived ten years later: the **Electoral Count Act of 1887**, which set the joint-session counting rules — including the one-senator-plus-one-representative objection threshold — that lasted, with consequences, until 2022.
 
-Samuel Tilden (D) won the popular vote (51%) by ~3 points and led 184 to 165 in electoral votes — but 20 electoral votes from Florida, Louisiana, South Carolina, and Oregon were disputed. With those, Tilden was at 184 (one short of 185, then the magic number); Rutherford B. Hayes (R) needed all 20 to reach exactly 185.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Why didn't the House just choose the 1876 winner one-state-one-vote, the way it had in 1824?</summary>
+<p>Because the contingent procedure only triggers when <em>no candidate has a majority of the appointed electors</em> — and in 1876 the question was which competing slates of electors had been validly appointed in the first place. With the 20 disputed votes, Hayes had exactly a majority; without them, Tilden did. That antecedent counting question has no constitutional answer, which is why Congress invented a one-time commission — and, ten years later, a permanent statute.</p>
+</details>
 
-Each disputed state submitted competing slates of electors. The Constitution provided no procedure to resolve this. Congress created an extra-constitutional **Electoral Commission** of 15 members (5 House Democrats, 5 Senate Republicans, 5 Supreme Court justices). The Commission, with the deciding vote cast by a Republican justice, gave all 20 votes to Hayes by 8–7 along partisan lines.
+## 1888: the clean inversion
 
-In exchange for Democratic acquiescence to the result, Republicans agreed to the **Compromise of 1877**: federal troops withdrew from the South, ending Reconstruction. The disputed counts in the Southern states involved widespread voter intimidation and fraud against Black voters; the resolution effectively traded a contested election for the abandonment of civil rights enforcement that would not seriously resume for 88 years.
+If you want the Electoral College's structural tendency isolated from violence, fraud disputes, and contingent procedures, 1888 is the laboratory case. Incumbent Democrat Grover Cleveland won the popular vote 48.6 to 47.8 percent — 5,539,118 votes to 5,449,825, a margin of roughly 89,000 — and lost the presidency 233 to 168. Benjamin Harrison's votes were simply distributed better: Cleveland ran up enormous, useless margins across the South, while Harrison won New York, Cleveland's own state, by 1.09 percent, taking all 36 of its electors. Flip New York and Cleveland wins 204–197. No commission, no House vote, no disputed slates — just winner-take-all arithmetic rewarding efficient distribution over total support. Cleveland won the rematch in 1892 — the only President to win non-consecutive terms until 2024.
 
-The 1876 dispute prompted the **Electoral Count Act of 1887**, which set procedures for joint-session counting that lasted until the ECRA of 2022. Most reformers' history of the institution starts here, because 1876 demonstrated that the EC's failure modes are not bounded by the constitutional text — the country had to invent procedures to handle a contested count.
+## 2000: the Court steps in
 
-## 1888: cleanest case for the popular-vote-loser-wins
+George W. Bush defeated Al Gore 271 to 266 — one vote above the majority line, with one D.C. elector abstaining in protest of the District's lack of congressional representation. Gore won the national popular vote by 543,895 (0.52 percent). Everything turned on Florida's 25 electors, certified for Bush by **537 votes** out of roughly 5.96 million cast — a margin of 0.009 percent, well inside any voting technology's error band, in the year of punch-card "hanging chads" and the "butterfly" ballot.
 
-Grover Cleveland (D) defeated Benjamin Harrison (R) in the popular vote 48.6% to 47.8% — a 0.8% margin. Harrison won the Electoral College 233–168. The reason: Cleveland ran up huge margins in the South (which Harrison conceded entirely as a Republican), while Harrison won the swing states of New York, Pennsylvania, and Indiana by narrower margins.
+Florida's courts ordered manual recounts; the U.S. Supreme Court halted them. Get the holding's structure right, because it is misstated constantly. In **Bush v. Gore** (December 12, 2000, per curiam), *seven* justices concluded that the Florida Supreme Court's standardless statewide recount — different counties divining "voter intent" by different rules — violated the [[term:equal-protection]] guarantee. The decision was 5–4 only as to the *remedy*: the majority held that no constitutionally adequate recount could be completed by December 12, the "safe harbor" deadline under 3 U.S.C. §5 that Florida law was read to require, so the certified count stood. Justices Souter and Breyer, who saw the same equal-protection defect, would have remanded for a uniform-standard recount with a few days more runway. The per curiam cabined itself in a sentence argued about ever since: "Our consideration is limited to the present circumstances, for the problem of equal protection in election processes generally presents many complexities." (A later media-consortium review of the uncounted ballots found the outcome depended on the standard: Bush under the limited recounts actually requested, Gore under some full-statewide standards.)
 
-This is the cleanest 19th-century case for the reformer argument: no Reconstruction-era violence (as in 1876), no contingent election (as in 1824), just the EC's structural feature of weighting state-level wins over the national total. Harrison served one term; Cleveland defeated him in 1892.
+Gore conceded the next day. The reformer sees the system's failure mode dragging the judiciary into raw politics. The federalist preservationist sees containment working: a half-million-vote national margin produced a dispute bounded to one state and resolved before the electors met. The originalist defender mostly accepts the result while wincing at the equal-protection vehicle. What nobody disputes: it was the first time a Supreme Court ruling effectively settled a presidential election.
 
-## 2000: the Court decides
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A friend says, "The Supreme Court ruled 5–4 that Bush won Florida." What two corrections does that sentence need?</summary>
+<p>First, the equal-protection holding was <strong>7–2</strong> — only the <em>remedy</em> (stopping the recount for the December 12 safe-harbor deadline) was 5–4. Second, the Court never declared a winner: it halted the recount, leaving Florida's already-certified 537-vote margin in place; Bush "won Florida" by certification, and Gore then conceded. The distinction controls what the case stands for in later recount fights.</p>
+</details>
 
-George W. Bush (R) defeated Al Gore (D) 271–266 in the Electoral College after Florida's 25 electoral votes were awarded to Bush by a 537-vote margin in the certified state count. Gore won the national popular vote by ~540,000 votes (0.5%).
+## 2016 and 2020: inversion, then stress test
 
-Florida's count was contested at multiple levels. The Florida Supreme Court ordered a manual recount of disputed ballots. The U.S. Supreme Court, in **Bush v. Gore** (531 U.S. 98), halted the recount by 5–4. The majority held that the inconsistent recount standards across counties violated equal protection — but explicitly limited the holding to the case at hand: "Our consideration is limited to the present circumstances, for the problem of equal protection in election processes generally presents many complexities."
+**2016** is the modern clean inversion, 1888 at internet speed. Hillary Clinton won the popular vote by 2,868,686 (2.1 percent); Donald Trump won the Electoral College — 304 to 227 in votes as cast, after seven faithless electors defected from both tickets (the pledged count was 306–232). The decisive margins: Michigan by 10,704 votes, Pennsylvania by 44,292, Wisconsin by 22,748 — 77,744 votes across three states, out of more than 136 million ballots, outweighing a national margin 37 times larger. It was the second inversion in five elections after a 112-year gap, and both modern inversions favored the same party — converting an institutional argument into a partisan one.
 
-The decision is one of the most controversial in modern Supreme Court history. The reformer reads it as the EC's failure mode forcing the Court into a political dispute it should have left to the political branches. The federalist preservationist reads it as the Court correctly intervening to prevent Florida's confused recount from cascading into a contingent-election scenario. The originalist defender generally agrees with the federalist preservationist on the result while disagreeing about whether equal-protection doctrine was the right vehicle.
+**2020** stressed a different joint: not who won, but whether the count would be honored. Joe Biden won 306–232 with a popular margin of 7,052,770 (4.5 percent), but the Electoral College kept it close: Georgia by 11,779, Arizona by 10,457, Wisconsin by 20,682. Flip the three states Biden carried by a combined 42,918 votes and the count is 269–269 — a contingent election, despite the seven-million-vote national margin. After every state certified, objections were lodged at the January 6, 2021 joint session under the 1887 Act's one-plus-one threshold, the Capitol was attacked, and the count finished under guard near 4 a.m. Congress's structural answer was the **Electoral Count Reform Act of 2022** — objection threshold raised to one-fifth of each chamber, the Vice President's role made expressly ministerial, one conclusive court-reviewable certificate per state, the "failed election" loophole deleted. (Lesson 1 walks the four fixes in detail.)
 
-What's not contested: this was the first time the Supreme Court determined a presidential outcome.
+**2024** supplied the coda. Trump defeated Kamala Harris 312–226, winning all seven battlegrounds *and* the popular vote, 49.8 to 48.3 percent — the first Republican popular-vote win since 2004. Maine and Nebraska split again (Trump took ME-2; Harris took Omaha's NE-2). And the first count run under the ECRA, on January 6, 2025, took about half an hour, with Vice President Harris presiding over the certification of her own defeat and no objection raised. The defender reads 2024 as the system self-correcting; the reformer replies that one aligned election changes nothing structural.
 
-## 2016: the most recent popular-vote-loss winner
+## What the record shows
 
-Hillary Clinton (D) won the popular vote by ~2.86M votes (2.1%); Donald Trump (R) won the Electoral College 304–227 (with 7 faithless electors). The margins were narrow in the decisive states: Trump won Michigan by ~10,700 votes, Pennsylvania by ~44,000, Wisconsin by ~22,000. Combined that's ~77,000 votes spread across three states determining a 65M-vote national total.
+Lay the five inversions side by side and the pattern is visible: they are not five instances of one failure but three different mechanisms misfiring.
 
-This election sharpened the debate because:
-- It was the second time in five elections (after 2000) that the EC produced a popular-vote-loser-wins result.
-- Both popular-vote-loss elections in the modern era went to Republicans, which made the institution's continued defense partisan in a way it had not been before.
-- The narrow margins in the decisive states made the swing-state-attention pattern visible to a much wider audience.
+| Year | EC winner | Popular-vote leader | Popular margin | What actually decided it |
+| --- | --- | --- | --- | --- |
+| 1824 | J.Q. Adams | Jackson (incomplete tally) | ~10 pts of recorded vote | House contingent election, 13 of 24 delegations |
+| 1876 | Hayes (R), 185–184 | Tilden (D) | ~3.0 pts | Ad hoc Electoral Commission, 8–7 |
+| 1888 | Harrison (R), 233–168 | Cleveland (D) | 0.8 pts | Winner-take-all arithmetic (New York by 1.09%) |
+| 2000 | Bush (R), 271–266 | Gore (D) | 0.52 pts | Florida certification (537 votes) + Bush v. Gore |
+| 2016 | Trump (R), 304–227 | Clinton (D) | 2.1 pts | Winner-take-all arithmetic (77,744 votes in 3 states) |
 
-The originalist defender argues the result is exactly what the system was designed to produce — a coalition that won states across geographic regions defeated a coalition concentrated in coastal and urban areas. The reformer argues 77,000 votes overriding 2.86M isn't a feature; it's the failure mode.
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 200" width="100%" role="img" aria-label="Timeline from 1788 to 2024 marking the five popular-vote inversions in 1824, 1876, 1888, 2000, and 2016, the two contingent elections of 1800 and 1824, and the two counting statutes of 1887 and 2022" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="30" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">Sixty elections, five inversions, two invented fixes</text>
+  <line x1="40" y1="100" x2="690" y2="100" stroke="var(--line, #d9d5c9)" stroke-width="2" />
+  <text x="40" y="124" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">1788</text>
+  <text x="690" y="124" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">2024</text>
+  <rect x="68" y="94" width="12" height="12" fill="var(--blue, #2f4d6e)" />
+  <text x="74" y="84" font-family="Georgia, serif" font-size="11.5" fill="var(--blue, #2f4d6e)" text-anchor="middle">1800</text>
+  <circle cx="139" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
+  <text x="139" y="84" font-family="Georgia, serif" font-size="11.5" fill="var(--accent, #8a2a1e)" text-anchor="middle">1824</text>
+  <circle cx="282" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
+  <text x="282" y="84" font-family="Georgia, serif" font-size="11.5" fill="var(--accent, #8a2a1e)" text-anchor="middle">1876</text>
+  <circle cx="315" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
+  <text x="322" y="135" font-family="Georgia, serif" font-size="11.5" fill="var(--accent, #8a2a1e)" text-anchor="middle">1888</text>
+  <circle cx="623" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
+  <text x="616" y="84" font-family="Georgia, serif" font-size="11.5" fill="var(--accent, #8a2a1e)" text-anchor="middle">2000</text>
+  <circle cx="667" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
+  <text x="667" y="135" font-family="Georgia, serif" font-size="11.5" fill="var(--accent, #8a2a1e)" text-anchor="middle">2016</text>
+  <line x1="312" y1="100" x2="312" y2="158" stroke="var(--gold, #b08a3e)" stroke-width="1.5" stroke-dasharray="4,3" />
+  <text x="312" y="172" font-family="Georgia, serif" font-size="11.5" fill="var(--gold, #b08a3e)" text-anchor="middle">1887 Electoral Count Act</text>
+  <line x1="678" y1="100" x2="678" y2="52" stroke="var(--gold, #b08a3e)" stroke-width="1.5" stroke-dasharray="4,3" />
+  <text x="664" y="44" font-family="Georgia, serif" font-size="11.5" fill="var(--gold, #b08a3e)" text-anchor="end">2022 ECRA</text>
+  <circle cx="60" cy="186" r="6" fill="var(--accent, #8a2a1e)" />
+  <text x="72" y="190" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)">popular-vote inversion</text>
+  <rect x="232" y="180" width="11" height="11" fill="var(--blue, #2f4d6e)" />
+  <text x="250" y="190" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)">House contingent election (1800, 1824)</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: The failure events cluster — two in the founding generation, two in the Gilded Age, two since 2000 — and each cluster forced a procedural invention: the 12th Amendment, the 1887 Electoral Count Act, the 2022 reform of it.</figcaption>
+</figure>
 
-## 2020 and the certification dispute
+What the record *means* is the contested part, and each camp has an honest version. The defender: five anomalies in sixty elections, every one absorbed without the constitutional order collapsing, and the worst of them (1876) was a crisis of Reconstruction-era violence no allocation rule would have sanitized. The reformer: the failure rate is concentrating — two inversions and one near-tie in the seven elections since 2000 — and near-misses cut both ways: in 2004, a shift of about 118,000 votes in Ohio would have elected John Kerry while George W. Bush won the popular vote by three million. Alexander Keyssar's *Why Do We Still Have the Electoral College?* (2020) answers its own title uncomfortably: reform has failed not because the case was weak, but because some bloc — small states, the [[term:jim-crow]] South protecting its suppressed-turnout advantage, whichever party currently profits — always held a blocking position under Article V. The preservationist reads the same shelf differently: the 1887 and 2022 statutes show the system metabolizing its crises, hardening the count while leaving the federal structure intact.
 
-Joe Biden defeated Trump 306–232 (the inverse of 2016's electoral total). Biden won the popular vote by ~7M votes (4.5%). The margins in the decisive states were tighter — Georgia by ~12,000, Arizona by ~10,500, Wisconsin by ~21,000 — but the cumulative electoral margin was decisive.
-
-The dispute came at the certification stage. After all state results were certified by their respective election officials and (where contested) state courts, attorneys for the Trump campaign and allied state legislators challenged the count at the joint session of Congress on January 6, 2021. The challenge proceeded under the **Electoral Count Act of 1887**, which permitted any one Senator and any one Representative jointly to force a debate and vote on objections to a state's electoral votes.
-
-The events of January 6, 2021, are well-documented elsewhere. The relevant constitutional point: the joint session ultimately certified Biden's election after a delay. The procedure had been designed for ambiguous cases (1876-style disputed slates), but the political-and-legal controversy was over whether the procedure could be used to reject *certified* slates.
-
-The **Electoral Count Reform Act of 2022** addressed this:
-
-- **Higher objection thresholds**: 1/5 of each chamber must support an objection (was 1+1).
-- **Ministerial role of the Vice President**: codified that the VP's role in the count is purely ministerial, with no power to refuse to count slates.
-- **Single-state-certification path**: clarifies which state official's certification controls and provides expedited federal-court review.
-- **Limits on "extraordinary circumstances"** as legislative grounds to override popular-vote results.
-
-Whether the ECRA is sufficient for genuinely contested counts is itself contested. The reformer says no — only direct election with national standards is. The federalist preservationist says yes — the ECRA fixes the loopholes without altering the constitutional structure.
-
-## What the historical record shows
-
-A few claims that the data settles:
-
-- **Five elections** have produced a popular-vote-loser-wins result: 1824, 1876, 1888, 2000, 2016. Two of those (2000, 2016) are within 25 years of each other.
-- **The EC has gone to a contingent election twice**: 1800 (resolved by 12th Amendment passage afterward) and 1824.
-- **One election (1876) required extra-constitutional resolution** by an ad hoc commission.
-- **One election (2000) was decided by the Supreme Court** under equal-protection doctrine.
-- **The EC has produced unanimous or near-unanimous results** in landslide years (1936, 1964, 1972, 1984) where it tracked the popular vote with high fidelity.
-
-What this record means depends on your frame. The defender sees stability — 60 elections, 5 anomalies, none of which produced lasting constitutional crisis (Reconstruction's end is a different and worse problem the EC was used to settle, not one it caused). The reformer sees a high-stakes institution with a 1-in-12 failure rate that's accelerating (1888 to 2000 was 112 years; 2000 to 2016 was 16). The federalist preservationist sees a system that has, on net, absorbed shocks the alternative might not have — but acknowledges the trajectory is concerning.
-
-Lesson 4 turns to what reformers are actually proposing.
+This lesson settles the *what*: the five inversions, the two contingent elections, the one invented commission, the one judicial intervention, the statute-after-crisis pattern. It does not settle whether that record is an indictment or a track record. What to replace or repair — and whether to — is the next lesson: the live reform proposals, from the National Popular Vote compact to district allocation, and the fights over each.

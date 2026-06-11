@@ -15,9 +15,12 @@ questions:
       - id: d
         text: Protect private Property
     correct_choice_id: d
-    explanation: "The Preamble lists six purposes: Union, Justice, domestic
-      Tranquility, common Defence, general Welfare, and the Blessings of
-      Liberty. 'Property' isn't named in the Preamble itself."
+    explanation: "The Preamble — drafted by Gouverneur Morris's Committee of Style —
+      lists six purposes: a more perfect Union, Justice, domestic Tranquility,
+      common Defence, general Welfare, and the Blessings of Liberty. Property
+      protection shows up later, in the Fifth Amendment's takings and
+      due-process clauses, but it is not a Preamble purpose — and the Preamble
+      itself grants no power at all (Jacobson v. Massachusetts, 1905)."
     concepts:
       - preamble
   - id: q2-article-i
@@ -33,21 +36,87 @@ questions:
       - id: d
         text: The states' relationships to one another
     correct_choice_id: b
-    explanation: Article I — the longest article — creates Congress and lays out its
-      powers. Article II creates the Presidency; Article III creates the
-      judiciary.
+    explanation: The first three articles create the three branches in order —
+      I Congress, II the Presidency, III the judiciary — and Article IV governs
+      the states' relations. Article I is the longest by far, which is itself a
+      clue to the framers' expectations — they assumed the legislature would be
+      the dominant (and most dangerous) branch, so it got the most detailed
+      powers and the most detailed limits.
     concepts:
       - constitution
-  - id: q3-supremacy
-    kind: free-response
-    text: In your own words, what does the Supremacy Clause (Article VI, Clause 2)
-      do? Give one example of how it might come up in real life.
+  - id: q3-supremacy-scenario
+    kind: multiple-choice
+    text: "A state passes a law that directly contradicts a valid federal statute,
+      and the state's own constitution explicitly endorses the state law. The
+      dispute lands before a state judge. Under Article VI, what controls?"
+    choices:
+      - id: a
+        text: The state constitution — each state's constitution is supreme within
+          that state's borders
+      - id: b
+        text: The federal statute — and the state judge is personally bound to apply
+          it over both the state law and the state constitution
+      - id: c
+        text: Whichever law was enacted more recently
+      - id: d
+        text: The federal statute, but only a federal court may say so — state judges
+          apply state law
+    correct_choice_id: b
+    explanation: "The Supremacy Clause makes the Constitution and valid federal laws
+      'the supreme Law of the Land' and then adds the operational kicker: 'the
+      Judges in every State shall be bound thereby, any Thing in the
+      Constitution or Laws of any State to the Contrary notwithstanding.'
+      Choice (d) is the classic near-miss — the clause conscripts state judges
+      specifically, so they must apply federal law themselves. The real escape
+      hatch is different: arguing the federal statute exceeds Congress's
+      enumerated powers and so isn't valid in the first place."
     concepts:
       - supremacy-clause
-  - id: q4-amendment
+      - constitution
+  - id: q4-article-v-scenario
+    kind: multiple-choice
+    text: "An amendment proposal passes the House 320–110 and the Senate 70–30.
+      The President vetoes it. Thirty-eight state legislatures then vote to
+      ratify. What is the amendment's status?"
+    choices:
+      - id: a
+        text: Not ratified — the President's veto blocks it until Congress overrides
+      - id: b
+        text: Not ratified — amendments must be ratified by state conventions, not
+          legislatures
+      - id: c
+        text: Ratified — both chambers cleared two-thirds, 38 states is
+          three-fourths, and the President has no role in Article V
+      - id: d
+        text: Not ratified — it also needs approval by three-fourths of state
+          governors
+    correct_choice_id: c
+    explanation: Article V runs entirely on supermajorities of Congress and the
+      states — two-thirds of each chamber (320 of 430 and 70 of 100 both
+      qualify) and three-fourths of the states (38 of 50). The President is
+      nowhere in the procedure (Hollingsworth v. Virginia, 1798), and governors
+      aren't either. Legislatures are the default ratification mode; conventions
+      have been used exactly once, for the 21st Amendment in 1933, and only
+      because Congress chose that mode.
+    concepts:
+      - amendment-process
+      - ratification
+  - id: q5-amendment-difficulty
     kind: free-response
-    text: Article V describes how the Constitution can be amended. Why do you think
-      the framers made it deliberately hard to amend?
+    text: Article V makes amending the Constitution deliberately hard — more than
+      11,000 proposals have produced only 27 amendments, and one of those took
+      202 years to ratify. Was the difficulty set correctly? Defend your answer
+      with at least one consequence of the bar being this high and one
+      consequence of lowering it.
+    socratic_seed: Start from the 27th Amendment's story — a proposal outliving
+      everyone who wrote it, revived by one student's campaign. Does that episode
+      show the system working (durable text, patient consensus) or failing
+      (change so hard that only trivia survives the gauntlet)? Then push on the
+      counterfactual — if amendment took only simple majorities, which recent
+      policies would already be constitutional text, and would you trust both
+      parties with that power? Notice where the work migrates when amendment is
+      blocked — courts reinterpreting old clauses instead of voters writing new
+      ones. Is that better or worse than easier amendment?
     concepts:
       - amendment-process
       - ratification

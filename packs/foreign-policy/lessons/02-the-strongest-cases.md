@@ -4,15 +4,22 @@ slug: the-strongest-cases
 kind: reading
 title: The strongest case for and against
 objectives:
-  - State the liberal internationalist case at its strongest
-  - State the restrainer case at its strongest, distinct from isolationism
-  - State the conservative realist case
-  - Identify the cross-cutting empirical and values disagreements
+  - State the liberal internationalist case at its strongest, with its scholarly foundations (Ikenberry, Nye, the democratic-peace literature)
+  - State the restrainer case at its strongest, distinct from isolationism (Posen, Walt)
+  - State the conservative realist case and its offensive-realist core (Mearsheimer)
+  - Explain the Mearsheimer–Ikenberry debate and the Thucydides Trap argument, including its critics
+  - Identify the cross-cutting empirical and values disagreements, and what evidence would move each position
 concepts:
   - foreign-policy
   - liberal-internationalism
   - restraint
   - realism
+  - hegemony
+  - deterrence
+  - soft-power
+  - hard-power
+  - realpolitik
+  - isolationism
 sources:
   - type: book
     citation: 'Ikenberry, G. J. (2020), A World Safe for Democracy: Liberal Internationalism and the Crises of Global Order, Yale University Press.'
@@ -30,87 +37,117 @@ sources:
     citation: 'Lieber, K. A. & Press, D. G. (2017), "The New Era of Counterforce: Technological Change and the Future of Nuclear Deterrence," International Security 41:4.'
   - type: book
     citation: 'Mead, W. R. (2002), Special Providence — the four-traditions framework: Hamiltonian, Wilsonian, Jeffersonian, Jacksonian.'
+  - type: paper
+    citation: 'Kennan, G. F. (writing as "X") (1947), "The Sources of Soviet Conduct," Foreign Affairs 25:4 — the containment article.'
+  - type: book
+    citation: 'Ikenberry, G. J. (2011), Liberal Leviathan: The Origins, Crisis, and Transformation of the American World Order, Princeton University Press.'
+  - type: book
+    citation: 'Mearsheimer, J. J. (2001; updated ed. 2014), The Tragedy of Great Power Politics, W. W. Norton — the offensive-realism statement.'
+  - type: book
+    citation: 'Nye, J. S. (2004), Soft Power: The Means to Success in World Politics, PublicAffairs.'
+  - type: book
+    citation: 'Allison, G. (2017), Destined for War: Can America and China Escape Thucydides''s Trap?, Houghton Mifflin Harcourt.'
+  - type: book
+    citation: 'Brands, H. & Beckley, M. (2022), Danger Zone: The Coming Conflict with China, W. W. Norton — the "peaking power" rejoinder to Allison.'
+  - type: book
+    citation: 'Russett, B. & Oneal, J. (2001), Triangulating Peace: Democracy, Interdependence, and International Organizations, W. W. Norton.'
+  - type: website
+    citation: 'SIPRI, "Trends in World Military Expenditure, 2025" (April 2026) — comparative defense-spending data used in this lesson.'
+    url: https://www.sipri.org/publications/2026/sipri-fact-sheets/trends-world-military-expenditure-2025
+  - type: website
+    citation: 'Brown University Costs of War Project — post-9/11 war costs in lives and dollars.'
+    url: https://watson.brown.edu/costsofwar/
 perspectives:
   - name: Liberal internationalist
   - name: Restrainer
   - name: Conservative realist
-duration_min: 13
+duration_min: 15
 ---
 
 # The strongest case for and against
 
-Three positions on what U.S. foreign policy should look like.
+In July 1947, *Foreign Affairs* published "The Sources of Soviet Conduct" under the byline "X." Its author — soon unmasked as George Kennan, the State Department's top Soviet hand — argued for "a long-term, patient but firm and vigilant containment of Russian expansive tendencies." It became the most influential piece of strategy writing in American history, and Kennan spent the next fifty years protesting what Washington built from it: the militarization of containment, Vietnam, and finally NATO enlargement, which he called in 1997 "the most fateful error of American policy in the entire post-cold-war era." The man who wrote the strategy never stopped arguing with the people who ran it.
 
-## 1. The liberal internationalist case
+That is the permanent condition of American grand strategy: the argument is not over whether the United States should have a foreign policy, but what its enormous power is *for*. Three serious schools answer differently. None maps cleanly onto party — each has a wing in both — and each deserves to be heard as its smartest advocate would put it.
 
-The starting move is to take the post-1945 record seriously: the U.S.-led order has been associated with the longest peace among great powers in modern history, the largest reduction in extreme poverty, the spread of democratic governance, and the integration of formerly-isolated regions into a global economy. Whatever its costs, the alternative — multipolar competition without a hegemonic underwriter — has historically been worse.
+## What, exactly, is being argued about
 
-The argument:
+Strip away the slogans and the schools divide on three questions. An empirical one: *what caused the long peace?* There has been no war between great powers since 1945 — the stretch historian John Lewis Gaddis dubbed "the Long Peace" — and the schools disagree about whether American [[term:hegemony]] produced it, nuclear [[term:deterrence]] did, or luck did. An accounting one: *do specific commitments pass a cost-benefit test* — NATO enlargement, Middle East presence, Taiwan? And a values one: *should American power serve liberal ends, or only security and prosperity narrowly defined?* Walter Russell Mead's *Special Providence* (2002) maps the temperaments beneath the answers: Hamiltonians (commerce-first), Wilsonians (values-first), Jeffersonians (keep the republic uncorrupted by empire), Jacksonians (slow to anger; total when roused). The three modern schools are coalitions of those instincts.
 
-- **The 1945 order rests on three pillars.** Security: U.S. forward deployment + alliances reduces the incentive for regional powers to balance against each other. Economic: a rule-based trade system + a stable reserve currency + Bretton Woods institutions enables global commerce. Political: norms around sovereignty + human rights + democratic governance, however imperfectly observed, anchor international expectations. Each pillar reinforces the others. Withdrawing from any one threatens the system as a whole.
+## The liberal internationalist case
 
-- **Alliances reduce the probability of great-power war.** The deterrent value of NATO is hard to measure (counterfactuals are unobservable) but the alliance has not fought a great-power war in 75 years — vastly longer than any prior European peace. The U.S.-Japan and U.S.-South Korea alliances similarly stabilize Northeast Asia. The cost of these alliances is real (defense spending, occasional entanglements) but the benefits — including for Americans, who are the primary beneficiaries of a stable global system — are larger.
+The starting move is to take the post-1945 record seriously: the U.S.-led order coincided with the longest great-power peace in modern history, the largest poverty reduction ever recorded, and the spread of democratic governance to dozens of countries. Whatever its costs, the alternative on historical offer — [[term:multilateral]] anarchy without an underwriter — produced 1914 and 1939.
 
-- **Human rights and democracy promotion is in U.S. interest, not just U.S. ideology.** Democratic states reliably trade with each other, rarely fight each other, and produce more stable economic partners. The "democratic peace" hypothesis is empirically robust (Russett & Oneal 2001 and successors). U.S. support for democratic institutions, electoral monitoring, civil-society organizations, and rule-of-law programs serves long-term U.S. interests in addition to representing values.
+Princeton's G. John Ikenberry is the school's leading theorist. In *Liberal Leviathan* (2011) and *A World Safe for Democracy* (2020), he argues the United States did something genuinely new after 1945: instead of ruling as empires had, it built an order of binding institutions — NATO, Bretton Woods, the GATT/WTO — that restrained American power *on purpose*, making it safe for weaker states to join rather than balance against. The order's genius, in his signature formulation, is that it is easy to join and hard to overturn, and its pillars — forward-deployed security, the dollar-and-trade system, legible rules — hold each other up. Pull out one and the rest sag.
 
-- **Multilateral institutions amplify U.S. influence.** The UN, NATO, IMF, World Bank, WTO — these are not neutral fora; they're institutions where U.S.-aligned states have disproportionate influence. Disengaging from them cedes that influence to competitors (China's ascending role at the UN, the rise of BRI as alternative-development institution, etc.). Liberal internationalism is the strategy that uses these institutions to advance U.S. interests; restraint cedes them.
+The supporting evidence the school leans on hardest:
 
-- **The economic logic.** U.S. financial supremacy (dollar reserve status, deep capital markets, English-language commercial law) generates enormous "exorbitant privilege" — borrowing rates, sanctions reach, financial-system control. This privilege depends on the U.S.-led international system. Restrainer proposals that pull back from global engagement risk eroding the foundations of U.S. economic position.
+- **Alliances deter.** No NATO member has been attacked by a great power in the alliance's 75-plus years. The counterfactual is unobservable, but the two newest members — Finland and Sweden, joining in 2023 and 2024 after two centuries of armed neutrality between them — had the best view of Russia. Their applications are, on this reading, a market signal about what deters.
+- **Democracies rarely fight each other.** The "democratic peace" finding — systematized in Russett and Oneal's *Triangulating Peace* (2001) — is among the most robust in political science, which makes democracy promotion an *interest*, not a charity.
+- **[[term:soft-power]] is real power.** Joseph Nye's coinage (developed in *Soft Power*, 2004) names the ability to get what you want through attraction — universities, culture, the perceived legitimacy of the system you run — rather than coercion or payment. It is cheap, it compounds, and it is exactly what unilateralism burns.
+- **The economic dividend.** Dollar primacy and deep capital markets — America's "exorbitant privilege," in a French finance minister's famous complaint — rest on the credibility of the system the U.S. anchors. So does the unique reach of its [[term:sanctions]].
 
-What evidence would change this position? A persuasive showing that the post-1945 order is less stable than its supporters claim, that great-power conflict is becoming more likely despite the system, or that U.S. costs of system maintenance now exceed benefits. Liberal internationalists acknowledge the system is under strain (China's challenge, Russia's revisionism, internal Western polarization) but argue that doubling down on system maintenance is more sustainable than abandoning it.
+What would change this position? Evidence that the order no longer pays: allies that consume security without producing it, institutions captured by rivals, maintenance costs that swamp the dividend. Internationalists read the June 2025 Hague pledge — every NATO ally now at or above the old 2 percent line, with 5 percent of GDP committed by 2035 — as proof the model can be renegotiated rather than abandoned. Whether the pledges are kept is, they concede, the live test.
 
-## 2. The restrainer case
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A liberal internationalist and a conservative realist both supported arming Ukraine after 2022. What's the tell that distinguishes their reasons?</summary>
+<p>Listen for the <em>why</em>. The internationalist defends Ukraine as defense of the order itself — borders not changeable by force, so the norm holds everywhere. The realist defends it as cheap attrition of a rival: Russia's military degraded without American casualties. The difference surfaces when costs rise — the realist's support is contingent on price and on China remaining the priority; the internationalist's on the norm still being defensible.</p>
+</details>
 
-The starting move is to argue that liberal internationalism conflates two different claims: that *some* level of U.S. engagement is good (uncontested) and that the *current* level is necessary (very contested). Restrainers think U.S. global engagement is significantly overextended — that the cost-benefit analysis has shifted against current commitments, and that prudent foreign policy means rebalancing.
+## The restrainer case
 
-The argument:
+The restrainer's starting move is to split a claim internationalists run together: that *some* U.S. engagement is good (uncontested) and that the *current amount* is necessary (very contested). Barry Posen's *Restraint* (2014) — the school's canonical text — argues that "liberal hegemony" treats every region as vital, converts allies into dependents, and generates the wars it claims to prevent. A restrained strategy would defend genuinely vital interests — the homeland, command of the commons, the balance of power in Asia — and could do it, Posen argues, for something like 2.5 percent of GDP rather than the 3.4 percent the U.S. spent in 2024.
 
-- **Most U.S. commitments don't pass cost-benefit tests today.** The U.S. spends ~3% of GDP on defense; allies in NATO commit to 2% (often unmet). U.S. forward presence in the Middle East has produced a generation of wars whose strategic outcomes are at best ambiguous. The cost — financial, in lives, in opportunity cost — has been borne disproportionately by the U.S. while regional powers free-ride. Posen's *Restraint* argues that withdrawing from Middle East ground commitments alone would save ~$100B/year and produce no significant strategic loss.
+The argument at its strongest:
 
-- **Alliances create moral hazard.** When the U.S. underwrites a region's security, regional powers under-invest in their own defense and may engage in riskier behavior than they otherwise would. NATO members' chronic shortfalls on the 2%-of-GDP commitment are a symptom. The U.S.-Saudi relationship enables Saudi adventurism in Yemen. The U.S.-Israel relationship reduces Israel's incentive to make settlement-related concessions. Each of these alliances has policy benefits and policy costs; the policy debate has rarely added up the costs honestly.
+- **The ledger since 9/11 is brutal.** Brown University's Costs of War project tallies the post-9/11 wars at roughly $8 trillion and more than 900,000 direct deaths. Afghanistan ended in 2021 with the Taliban back in Kabul. What theory of the national interest survives that accounting?
+- **Alliances create moral hazard.** When Washington underwrites a region's security, locals under-invest and over-reach. NATO's pre-2022 record — most members below even the 2 percent guideline — is the textbook case. Restrainers read the Hague 5 percent pledge with an arched eyebrow: the deadline is 2035, the enforcement is a 2029 "review," and pledges made under pressure historically outrun delivery.
+- **Forward presence escalates.** Stationing forces against a rival's border can provoke the spiral it is meant to deter — the security dilemma. Restrainers note that Kennan himself predicted in 1997 that NATO expansion would inflame Russian nationalism and poison relations. The careful version of the claim is not that expansion *caused* the 2022 invasion — Putin's choices did — but that the risks were named in advance and the costs landed as predicted, while the question went largely undebated at home.
+- **The threat is measured wrong.** Michael Beckley's "The Power of Nations" (2018) shows that gross indicators like GDP overstate challengers: net out the costs of policing, feeding, and defending a huge population and the U.S. lead is far larger than headlines suggest. Inflated threat assessments produce inflated commitments.
+- **Restraint is not [[term:isolationism]].** The school's most-repeated clarification: restrainers want vigorous trade and [[term:diplomacy]]. Stephen Walt's *The Hell of Good Intentions* (2018) argues the foreign-policy establishment (the "Blob," in the nickname Walt gleefully adopted) defaults to military tools because careers and budgets reward activism, not because alternatives were tried and failed.
 
-- **Forward deployment escalates conflict probability.** Counterintuitively, a strong U.S. military presence in another power's near abroad (East Asia, Eastern Europe) raises the probability of crisis escalation — because U.S. forces are immediately involved and immediately at risk. The 1990s/2000s expansion of NATO eastward, while popular at the time, created the security competition with Russia that culminated in the 2022 Ukraine invasion. The restrainer case is not that NATO caused the invasion in any direct sense; it's that the expansion's strategic logic was contested at the time and the consequences vindicate the contest.
+What would change this position? Evidence that retrenchment invites catastrophe — that U.S. withdrawal would produce a Chinese move on Taiwan or Russian opportunism costing more than the commitments did. Restrainers accept the burden of showing their strategy can fail gracefully; serious ones build in hedges (offshore naval power, the alliance with Japan) for exactly that reason.
 
-- **The China challenge is misframed.** Beckley (2018) and others have shown that China's "threat" to U.S. power is overstated when measured by appropriate proxies (net economic resources, human capital, military reach). The U.S. economic and military lead is much larger than headline-GDP comparisons suggest. Treating China as a peer competitor justifying global hegemonic competition produces overcommitment in regions where China is not actually challenging.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> After The Hague, a European ally announces it will hit 3.5 percent core defense spending by 2031 — then quietly reclassifies pensions and border roads to get there. Which school's diagnosis does this vindicate, and what would each prescribe?</summary>
+<p>It's the restrainer's <em>moral hazard</em> point in miniature: under an American umbrella, the rational ally buys the appearance of burden-sharing, not the capability — so shrink the umbrella. The internationalist counters that the fix is alliance management (NATO's capability targets and 2029 review exist to audit exactly this), and that an imperfect 3.5 percent beats a renationalized post-NATO Europe. The realist asks only whether the ally's region is worth American resources at all.</p>
+</details>
 
-- **Diplomacy and economic statecraft are underused.** The U.S. has the deepest diplomatic corps and the most powerful economic instruments (sanctions, trade access, financial system) of any country. Restrainers argue these instruments — applied with discipline and patience — can achieve more than military deployment and at lower cost. Walt's *The Hell of Good Intentions* makes the case that the foreign-policy "blob" overweights military responses because of institutional incentives.
+## The conservative realist case
 
-- **Domestic costs.** Foreign-policy overextension reduces resources available for domestic priorities — infrastructure, health, education. The restrainer case includes a domestic-political-economy argument: continual deployment of U.S. forces overseas hollows out U.S. industrial and human capital that should be available to address domestic challenges.
+The third position is routinely confused with restraint, and the confusion is instructive. The realist agrees with the internationalist that American power organizes the world, and with the restrainer that much of the current portfolio fails a cost-benefit test. The disagreement is the *frame*: foreign policy is about power and interest — not order-maintenance, not parsimony, never values for their own sake. [[term:realpolitik]] with an American accent.
 
-What evidence would change this position? A persuasive showing that U.S. withdrawal from current commitments would produce systemic-conflict outcomes that exceeded the savings — that, e.g., China would invade Taiwan in the absence of U.S. presence, with cascading effects, or that NATO retrenchment would produce Russian opportunism on a scale that costs more than the alliance has cost. Restrainers acknowledge these are real risks and try to design selective-engagement strategies that address them.
+Its intellectual spine is John Mearsheimer's offensive realism. *The Tragedy of Great Power Politics* (2001; updated 2014) argues that under anarchy — no world government, no 911 to call — states can never be certain of each other's intentions, so great powers rationally seek to dominate their own regions and to prevent any peer from dominating another. That, realists say, *is* the American tradition: dominate the Western Hemisphere; fight or out-build every aspiring hegemon elsewhere — Wilhelmine Germany, Imperial Japan, Nazi Germany, the USSR. Mearsheimer's *The Great Delusion* (2018) adds the indictment: post-Cold War Washington squandered that position on liberal hegemony — democracy promotion, NATO expansion, nation-building — projects that ignored how power works and bought twenty years of failed wars.
 
-## 3. The conservative realist case
+The policy that follows is discrimination. China is the central case — the only plausible peer, the only candidate regional hegemon — so the Indo-Pacific gets the ships, the chips, and the alliances. Russia is a regional problem for Europeans rich enough to handle it; the Middle East merits offshore [[term:deterrence]], not occupation. [[term:hard-power]] is the currency that matters: industrial capacity, munitions stocks, shipbuilding. Realists note that Ukraine-war demand forced the U.S. to multiply 155mm artillery-shell production severalfold from a near-cold start — a warning about what a Pacific war would ask of an atrophied industrial base. And values are instruments, not ends: Saudi Arabia and Vietnam are courted because geography beats ideology.
 
-This third position is sometimes confused with restraint. It's distinct. The realist agrees with the liberal internationalist that U.S. global engagement matters; agrees with the restrainer that current commitments are overextended; and disagrees with both about the framework. The realist sees foreign policy as fundamentally about power, interest, and discrimination among rivalries — not values, not parsimony.
+What would change this position? Evidence that China is not a true peer (Beckley's measurements cut both ways), or that selective retrenchment unravels — that abandoning secondary theaters emboldens rivals in the primary one, since reputations for resolve do not stay regionally contained.
 
-The argument:
+## The scholar's lens: Thucydides in Washington
 
-- **National interest is the right frame, not values or restraint.** U.S. foreign policy should be guided by clear-eyed assessment of what serves U.S. power and security. This sometimes aligns with promoting democracy or human rights (when democratic states are reliable partners) and sometimes doesn't (when authoritarian states serve U.S. interests, as Saudi Arabia and Egypt have for decades). Mearsheimer's *Great Delusion* makes the strongest version of this case — liberal internationalism's confusion of values with interests has produced both overcommitment and strategic incoherence.
+The Mearsheimer–Ikenberry argument is the live wire of the field: does a rising China confront the *United States* (a power-transition problem, in Mearsheimer's telling) or *the order* (an institutions problem, in Ikenberry's — one a China grown rich inside that order has reasons not to wreck)? Graham Allison's *Destined for War* (2017) gave the pessimistic half a brand name: the "Thucydides Trap," from the historian's line that the growth of Athenian power, and the fear it inspired in Sparta, made war inevitable. Allison's Harvard project coded 16 cases of a rising power challenging a ruling one; 12 ended in war.
 
-- **Discrimination among rivalries is essential.** Not all great-power competition matters equally. China's challenge is geopolitically central — to the global economy, to Pacific order, to technological leadership. Russia's challenge is regional — important for European security, peripheral to global order. The realist argues for prioritizing the China challenge while maintaining minimum-necessary deterrence elsewhere. This contrasts with both liberal-internationalist claims (all commitments matter) and restrainer claims (most commitments don't matter).
+The critics are worth equal time. Historians have disputed both the case selection and the coding — squeeze 2,400 years into 16 data points and the trap starts to look assembled rather than discovered — and political scientists object that "inevitability" talk can become self-fulfilling in both capitals. The sharpest rejoinder inverts the thesis: Hal Brands and Michael Beckley's *Danger Zone* (2022) argues the danger is not a *rising* China but a *peaking* one — slowing growth, shrinking demographics, closing windows — because a power that believes its moment is passing has reasons to move early. If Allison is right, the task is managing a transition over decades; if Brands and Beckley are right, it is deterring a gamble this decade.
 
-- **Hard power matters more than soft power.** International order is not maintained primarily by institutions or norms — it's maintained by the willingness of dominant powers to use force when their interests are threatened. The U.S. military's actual operational capabilities matter more than its declared intentions. The realist argues that the U.S. has been disinvesting from operational capability (industrial base, logistics, large-scale combat readiness) for two decades, and that this is the binding constraint on credible deterrence.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> One analyst says "war with China is most dangerous in the 2030s, when its economy may pass America's." Another says "the danger is this decade, while Beijing still thinks it can win." Whose framework is each using, and what does each imply about defense budgets?</summary>
+<p>The first runs Allison's <em>Thucydides Trap</em> logic — danger peaks at the power transition, so build patiently for a long competition. The second runs Brands and Beckley's <em>peaking power</em> logic — danger peaks while a slowing China still believes its window is open, so surge deterrence <em>now</em>. Same data, opposite procurement schedules — which is why this seminar-room dispute shows up in appropriations markups.</p>
+</details>
 
-- **Industrial base is foreign policy.** The U.S. cannot sustain forward presence without the industrial capacity to produce munitions, ships, and aircraft at sufficient scale. The Ukraine war revealed serious gaps in 155mm artillery, anti-ship missiles, and air defense. The China challenge requires shipbuilding, semiconductor manufacturing, and rare-earth processing. Conservative realism emphasizes domestic industrial revitalization as a foreign-policy priority — closer to industrial policy than the liberal-internationalist or restrainer frame would suggest.
+## Where the three schools actually land
 
-- **The Hamiltonian-Jacksonian synthesis.** Mead's four-traditions framework (Hamiltonian = commercial-internationalist; Wilsonian = values-internationalist; Jeffersonian = limited-government-restrainer; Jacksonian = honor-and-vengeance) offers a useful taxonomy. The conservative realist position is largely Hamiltonian-with-Jacksonian-edges: support international engagement that serves commercial and security interests, willing to use force decisively when challenged, skeptical of nation-building and democracy-promotion projects.
+The table compresses; the prose above is the argument. Read each column as its advocate would defend it.
 
-- **China is the central case.** Conservative realists argue China's combination of economic scale, military buildup, technological capability, and revisionist intent makes it the foreign-policy challenge of the next generation. This justifies sustained competition (defense, semiconductors, rare earths, alliance-reinforcement in the Indo-Pacific) but at the cost of selective retrenchment elsewhere (Middle East drawdown, partial European responsibility-shifting).
-
-What evidence would change this position? A persuasive showing that the China challenge is overstated in geopolitical terms (Beckley-style measurement debates), or that the costs of selective engagement exceed the costs of either liberal internationalism or restraint. Realists acknowledge these are empirically open questions and try to ground their position in specific power assessments rather than ideological priors.
+| Question | Liberal internationalist | Restrainer | Conservative realist |
+| --- | --- | --- | --- |
+| What kept the great-power peace? | U.S.-led order: alliances + institutions + open economy | Nuclear deterrence and luck; the order gets too much credit | American power and the regional balances it enforced |
+| NATO after the Hague 5% pledge | Deepen; the pledge proves burden-sharing is fixable | Hand Europe the lead; pledges without exits sustain free-riding | Keep, but as a European-funded flank while Asia gets priority |
+| Ukraine | Sustain aid; the norm against conquest is the stake | Push for a negotiated settlement; escalation risk and cost outrun the interest | Aid was cheap attrition of a rival; Europe should now carry it |
+| China | Compete through allies, institutions, and technology controls | Avoid making rivalry a self-fulfilling prophecy; hedge offshore | The central front; concentrate everything that matters there |
+| When to use force | Rarely, lawfully, multilaterally | Almost never — defense of vital interests only | Decisively, when concrete interests are threatened |
 
 ## What's settled and what's contested
 
-**Settled (or near-settled):**
-- The post-1945 U.S.-led order has coincided with a period of great-power peace longer than any prior in modern history.
-- Defense spending has been ~3-5% of GDP (vs. ~10% during peak Cold War; ~1.5% pre-WWII).
-- The U.S. military has structural overmatch against any single peer in operational terms today, though gaps in industrial base and specific capabilities are real.
-- Alliances (formal and informal) are a defining feature of U.S. foreign policy unique to the post-WWII period.
+Some ground is firm. There has been no great-power war since 1945, the longest such stretch in modern history. U.S. defense spending — $954 billion in 2025 by SIPRI's count, about a third of the world total and more than the next six countries combined — buys structural overmatch against any single rival, though munitions depth and industrial capacity are acknowledged gaps. The alliance network is historically unprecedented, and as of mid-2026 it is being re-priced in real time.
 
-**Genuinely contested:**
-- Whether U.S. global engagement is "the cause" of the great-power peace or merely correlated with it.
-- The cost-benefit calculus of specific commitments (NATO eastward expansion, Middle East counter-terrorism, Indo-Pacific posture).
-- Whether democracy-promotion serves U.S. interests or generates resentment that undermines them.
-- The right magnitude and direction of the China challenge.
-
-A defensible position picks one of the three frames, says why, and acknowledges what's contested. Lesson 3 turns to the live policy fights.
+What remains contested is everything that matters: whether American engagement *caused* the peace or merely attended it; whether specific commitments pass the test; whether values belong in the objective function. A defensible position picks a frame, says why, and names the evidence that would change it — exactly what each school above did. Lesson 3 takes the frames to the live fights: China, Ukraine, Iran, and the tariff wars.

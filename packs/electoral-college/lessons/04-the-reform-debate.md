@@ -13,134 +13,145 @@ concepts:
   - npvic
   - district-allocation
   - constitutional-amendment
+  - gerrymandering
 sources:
   - type: paper
     citation: 'Amar, V. D. (2011), "The Case for Reforming Presidential Elections by Subconstitutional Means: The Electoral College, the National Popular Vote Compact, and Congressional Power," Georgetown Law Journal 100, 237.'
     url: https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-100-issue-1-october-2011/
   - type: paper
-    citation: 'Williams, N. (2012), "Reforming the Electoral College: Federalism, Majoritarianism, and the Perils of Subconstitutional Change," Georgetown Law Journal 100, 173.'
+    citation: 'Williams, N. R. (2011), "Reforming the Electoral College: Federalism, Majoritarianism, and the Perils of Subconstitutional Change," Georgetown Law Journal 100, 173.'
     url: https://www.law.georgetown.edu/georgetown-law-journal/in-print/volume-100-issue-1-october-2011/
   - type: book
     citation: 'Koza, J. R. et al. (2013), Every Vote Equal: A State-Based Plan for Electing the President by National Popular Vote, 4th ed., National Popular Vote Press.'
   - type: website
-    citation: 'National Popular Vote Inc., "Status of National Popular Vote Bill in Each State" — current adoption tally.'
+    citation: 'National Popular Vote Inc., "Status of National Popular Vote Bill in Each State" — current adoption tally (18 states + D.C., 222 electoral votes, as of mid-2026).'
     url: https://www.nationalpopularvote.com/state-status
   - type: court-opinion
     citation: 'McPherson v. Blacker, 146 U.S. 1 (1892) — states have plenary authority over the manner of choosing electors.'
     url: https://supreme.justia.com/cases/federal/us/146/1/
-  - type: paper
-    citation: 'Hasen, R. L. (2008), "The Limits of Direct Democracy: A Reply to Professor Garrett," Election Law Journal 7:1.'
-  - type: website
+  - type: crs-report
     citation: 'CRS Report R43824, "The Electoral College: How It Works in Contemporary Presidential Elections" (updated 2020).'
     url: https://crsreports.congress.gov/product/pdf/R/R43824
   - type: statute
     citation: 'U.S. Const. art. I §10, cl. 3 — the Compact Clause: states cannot enter compacts without congressional consent.'
     url: https://constitution.congress.gov/constitution/article-1/
+  - type: website
+    citation: 'Madison to George Hay, Aug. 23, 1823 (Founders Online, National Archives) — Madison''s case for the district method and against the general ticket.'
+    url: https://founders.archives.gov/documents/Madison/04-03-02-0109
+  - type: book
+    citation: 'Wilmerding, L. Jr. (1958), The Electoral College, Rutgers University Press.'
+  - type: book
+    citation: 'Keyssar, A. (2020), Why Do We Still Have the Electoral College?, Harvard University Press. (Chapters on the 1950–1979 reform window.)'
+  - type: court-opinion
+    citation: 'Virginia v. Tennessee, 148 U.S. 503 (1893) — the functional reading of the Compact Clause.'
+    url: https://supreme.justia.com/cases/federal/us/148/503/
+  - type: website
+    citation: 'National Archives, "Electoral College History" — over 700 congressional proposals to reform or eliminate the institution, more than on any other subject.'
+    url: https://www.archives.gov/electoral-college/history
+  - type: website
+    citation: 'Gallup Vault, "Rejecting the Electoral College" — Gallup''s 1968 measurement of 80% support for direct election.'
+    url: https://news.gallup.com/vault/192704/gallup-vault-rejecting-electoral-college.aspx
+  - type: website
+    citation: 'Nebraska Examiner (Apr. 8, 2025), "Winner-take-all bill stalls in Nebraska Legislature" — the LB 3 cloture vote, 31–18.'
+    url: https://nebraskaexaminer.com/2025/04/08/winner-take-all-bill-stalls-in-nebraska-legislature-a-blow-to-governor/
+  - type: website
+    citation: 'Nebraska Examiner (Feb. 19, 2026), "Nebraska likely to see another winner-take-all debate, this time for constitutional amendment" — the 2026 referral-and-petition push.'
+    url: https://nebraskaexaminer.com/2026/02/19/nebraska-likely-to-see-another-winner-take-all-debate-this-time-for-constitutional-amendment/
+  - type: pdf
+    citation: 'National Popular Vote Inc., "The Congressional-District Method of Awarding Electoral Votes" (2021 memo) — the 2012 nationwide-district counterfactual.'
+    url: https://www.nationalpopularvote.com/sites/default/files/memo-congressional-district-method-v15-2021-5-18.pdf
 perspectives:
   - name: NPVIC supporter
   - name: Federalist preservationist
   - name: Constitutional-amendment purist
-duration_min: 11
+duration_min: 16
 ---
 
 # The reform debate
 
-There are roughly five paths to changing how the U.S. elects the President. Three would require constitutional amendment; two would not. Each has a serious advocate and a serious objector.
+On September 18, 1969, the House of Representatives voted 339 to 70 to abolish the Electoral College and elect presidents by direct national vote, with a runoff if nobody cleared 40 percent. President Nixon endorsed it. Gallup had just measured public support for direct election at 80 percent. And then the proposal met the Senate, where a [[term:filibuster]] anchored by Southern segregationists and small-state senators held through two failed cloture votes — 54–36 in September 1970, then 53–34 — and the closest the United States has ever come to abolishing the institution died without ever receiving an up-or-down vote. That is the pattern of this entire subject. The National Archives counts more than 700 congressional proposals to reform or eliminate the Electoral College — more constitutional-amendment proposals than on any other topic in American history — and the number enacted that touched its allocation rules is zero. Which is why the live reform energy long ago shifted away from Article V toward paths that need no amendment at all. There are roughly five, and each has a serious advocate and a serious objector.
 
-## Path 1: The National Popular Vote Interstate Compact (NPVIC)
+## Path 1: The National Popular Vote Interstate Compact
 
-This is the most-discussed reform because it's the one that doesn't require a constitutional amendment. It's also the most legally contested.
+The NPVIC is the dominant reform vehicle precisely because it routes around the graveyard above. Its origin is itself a story: after Bush v. Gore, the brothers Akhil and Vikram Amar published a proposal arguing that states could achieve direct national election *without* amending anything, using the plenary power *McPherson v. Blacker* (1892) already gives them. John Koza and the National Popular Vote organization turned it into model legislation.
 
-**How it works.** Each state passes a law saying: "We commit to awarding our electoral votes to whichever candidate wins the most popular votes nationwide. This commitment takes effect only when states totaling 270+ electoral votes have all passed identical laws."
+The mechanism: a state enacts a law committing its entire slate of electors to the winner of the *national* popular vote — with the commitment suspended until states controlling at least 270 electoral votes have enacted the same law. Below the threshold, nothing changes anywhere. At the threshold, the member states alone can guarantee that the national popular-vote winner becomes President, regardless of how non-member states allocate their electors.
 
-The mechanism is a coordinated state-law commitment that becomes operative once it's mathematically guaranteed to determine the outcome. Until 270 EVs' worth of states sign on, nothing changes. Once 270 EVs are committed, the next presidential election is effectively decided by the national popular vote — without any constitutional amendment, because each state is exercising its plenary McPherson v. Blacker authority over the manner of choosing electors.
+As of mid-2026, the compact stands at **18 states plus the District of Columbia, controlling 222 electoral votes — 48 short of activation**. The two newest members trace the modern arc: Maine joined in April 2024, and in April 2026 Virginia's 13 electoral votes came in under Governor Abigail Spanberger's signature. Colorado is the only member to have faced a popular referendum on the question; its voters kept the compact, 52 to 48, in 2020. The unsolved problem is visible in the membership map: every member is a state that has voted Democratic in recent presidential cycles, and the remaining 48 votes must come from states that benefit from battleground status, lean Republican, or both. Nevada's legislature approved a constitutional-amendment version in 2023 but never gave it the second passage required to reach that state's 2026 ballot; bills in the compact's other target states — Michigan, Pennsylvania, Wisconsin, Arizona among them — have been introduced repeatedly without crossing.
 
-**Current status (as of 2025).** 17 states + D.C. have passed NPVIC laws, totaling 209 electoral votes. To take effect, an additional 61 EVs are needed. The pending states include Michigan, Wisconsin, Pennsylvania, Virginia, Arizona, Nevada, North Carolina — bills have been introduced and progressed in some of these but none has passed.
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 175" width="100%" role="img" aria-label="Progress bar showing the National Popular Vote compact at 222 of 538 electoral votes as of mid-2026, with the 270-vote activation threshold marked, 48 votes short" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="30" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">NPVIC progress toward activation (as of mid-2026)</text>
+  <rect x="30" y="48" width="660" height="40" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" stroke-width="1.5" />
+  <rect x="30" y="48" width="272" height="40" fill="var(--green, #4a6b3a)" />
+  <text x="166" y="73" font-family="Georgia, serif" font-size="13.5" fill="#ffffff" text-anchor="middle">222 enacted (18 states + D.C.)</text>
+  <line x1="361" y1="36" x2="361" y2="100" stroke="var(--accent, #8a2a1e)" stroke-width="2.5" stroke-dasharray="6,4" />
+  <text x="361" y="118" font-family="Georgia, serif" font-size="13" fill="var(--accent, #8a2a1e)" text-anchor="middle" font-weight="bold">270 = activation</text>
+  <text x="332" y="73" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle">48 to go</text>
+  <text x="690" y="118" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">538 total</text>
+  <text x="30" y="150" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">Until member states hold 270 electoral votes, every member's law sits dormant and elections run exactly as before.</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: The compact's all-or-nothing design. Membership grew from 209 electoral votes (after Maine, April 2024) to 222 (after Virginia, April 2026); the remaining 48 must come from states that have so far declined.</figcaption>
+</figure>
 
-**The constitutional question (active).** Article I §10 cl. 3 says: "No State shall, without the Consent of Congress, … enter into any Agreement or Compact with another State." The question is whether NPVIC is a "Compact" requiring congressional consent. Arguments on both sides:
+**The constitutional question.** Article I §10 forbids a state to "enter into any Agreement or Compact with another State" without the consent of Congress — and the NPVIC has no such consent. Whether it needs it is the central legal fight. In *Virginia v. Tennessee* (1893), the Supreme Court read the Compact Clause functionally: consent is required for combinations "tending to the increase of political power in the States, which may encroach upon or interfere with the just supremacy of the United States." Supporters (the Amars; Koza's *Every Vote Equal*) argue the compact flunks that trigger: each state is exercising an appointment power it independently and unquestionably possesses — any state could award its electors to the national winner unilaterally tomorrow — so coordinated timing adds no power the states lack. Critics, in Norman Williams's Georgetown Law Journal formulation, answer that the compact restructures the presidency itself — the most consequential electoral change since the 17th Amendment — and that achieving by 270 electoral votes' worth of legislatures what Article V reserves to supermajorities is exactly the kind of end-run a properly read Compact Clause (or the Constitution's deeper structure) forbids. If the compact ever reaches 270, this question goes to the Supreme Court immediately — and nobody wants it resolved for the first time in the middle of a live election.
 
-- **NPVIC supporters** (Akhil and Vikram Amar; Koza et al.): The Compact Clause has been interpreted (in Virginia v. Tennessee, 1893, and successors) to require consent only for compacts that affect federal supremacy or alter the political balance among states. NPVIC does neither — it's a coordinated exercise of states' independent McPherson authority. Each state could pass an "award electors based on national popular vote" law unilaterally; the only "compact" element is timing.
+**The operational questions.** There is no official national vote total; the compact requires each member's chief election official to aggregate every other state's certified results — including states that refuse to cooperate, certify late, or (like Maine) report ranked-choice tallies that raise the question of *which* number is the state's "popular vote." And membership is reversible: a state could repeal in the run-up to an election it expects to regret. The compact's text answers with a blackout clause — a withdrawal within six months of a presidential term's end doesn't take effect until after the next inauguration — but whether one legislature can bind its successor that way is itself contested. Supporters reply that every interstate compact carries defection risk and the answer everywhere else is ordinary legal enforcement.
 
-- **Federalist preservationists** (Williams, others): NPVIC fundamentally restructures how the President is elected — the most consequential change to the constitutional system since direct election of senators (17th Amendment). Achieving that through coordinated state law to evade Article V's amendment requirements (2/3 of each chamber + 3/4 of states) is constitutionally suspect. The Compact Clause, properly read, requires congressional consent for changes of this magnitude.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> It's 2027 and the compact stands at 222 electoral votes. A 10-vote state enacts it. What changes for the 2028 election?</summary>
+<p><strong>Nothing.</strong> At 232 of the required 270, every member's statute remains dormant and 2028 runs under existing rules everywhere. The design is deliberately all-or-nothing: partial adoption never changes any election, because a member awarding its electors to the national winner while non-members play winner-take-all could simply hand votes to the candidate its own voters opposed, with no compensating guarantee. Activation — and the Compact Clause lawsuit — arrives only at 270.</p>
+</details>
 
-If 270 EVs are reached and the compact takes effect, expect immediate Supreme Court litigation under the Compact Clause. Legal scholars are split on the likely outcome; the conservative-majority Court at the time of NPVIC effectiveness would matter enormously.
+## Path 2: District allocation (the Maine–Nebraska model)
 
-**The political question (active).** A losing party in a tight election could lawfully decide the question for themselves — by repealing their state's NPVIC law before the election. The compact's robustness depends on no member-state defecting. Critics see this as evidence the design is unstable; supporters say no compact survives unilateral repeal, so this is true of any reform.
+Any state can adopt this unilaterally, today, by ordinary statute: two electors to the statewide winner, one to the winner of each congressional district. Maine has used it since 1972, Nebraska since 1992, and both delivered split results in 2024 — Trump took Maine's rural second district while losing the state; Harris took Omaha's "blue dot" while losing Nebraska.
 
-## Path 2: Congressional-district allocation (Maine/Nebraska model)
+The scholar's lens belongs here, because the district method has the oldest intellectual pedigree of any reform. James Madison, writing to George Hay in August 1823, claimed that "the district mode was mostly, if not exclusively in view when the Constitution was framed & adopted; & was exchanged for the general ticket" as states chased partisan advantage — and he wanted a constitutional amendment to mandate districts and kill the general ticket. Lucius Wilmerding Jr.'s *The Electoral College* (1958), still the classic institutional history, extended the point: the winner-take-all "unit rule" was a corruption the Framers never chose, and the system's defenders are mostly defending the corruption, not the design. Modern reformers accept the diagnosis and reject the cure, for one decisive reason Madison could not have foreseen at scale: **the district method inherits the congressional map, and the congressional map is drawn by politicians.** Under nationwide district allocation, presidential elections would run through every [[term:gerrymandering]] fight in the country. The counterfactual is stark: re-run 2012 under a nationwide district method and Mitt Romney wins the presidency while losing the popular vote by nearly four points — about five million votes — because Republicans held a majority of congressional districts even as Obama won the national vote. District allocation can make inversions *more* likely, not less, whenever district maps are biased relative to the electorate.
 
-States can adopt the Maine/Nebraska method without coordination — each state legislature can change its allocation rule under McPherson v. Blacker authority.
+Nebraska's recent history shows the partisan stakes in miniature. Trump allies pushed the legislature to switch to winner-take-all in April 2024 and again in a September special-session gambit, blocked when state senator Mike McDonnell refused to provide the deciding vote; an April 2025 bill (LB 3) died when a cloture vote failed 31–18, two Republicans defecting. As of mid-2026 the fight had shifted to constitutional-amendment vehicles — a legislative referral and a parallel citizen petition drive — aimed at putting winner-take-all on the November 2026 ballot. Maine legislators, watching, openly discussed a retaliatory switch of their own. Allocation rules, the episode teaches, are not neutral plumbing — they are contested terrain that moves with whoever expects to profit.
 
-**How it works.** Two electors go to the statewide popular-vote winner; the remaining electors are allocated by who wins each individual congressional district.
-
-**Effects.**
-- **Splits become possible.** Maine and Nebraska have each split their EVs in recent elections. Other states would do the same.
-- **Gerrymandering becomes load-bearing.** In states with gerrymandered congressional districts, the allocation rule becomes politically charged — a state where one party controls the legislature could redistrict to maximize its presidential EVs. This is the strongest critique of the Maine/Nebraska model from reformers (Edwards 2019).
-- **Net effect on popular-vote alignment is mixed.** Studies suggest district allocation would not reliably produce closer alignment between popular and electoral vote — it depends entirely on how districts are drawn.
-
-**Current status.** Maine since 1972, Nebraska since 1992. No other state has adopted it. Several have considered it (Pennsylvania, Wisconsin, Virginia), generally during periods when one party controlled the state legislature and saw partisan advantage.
-
-The Maine/Nebraska model is less ambitious than NPVIC and arguably more defensible federally — it's a state's own choice, not a coordinated national reform. But its dependence on district drawing makes it vulnerable to the gerrymandering critique.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A state legislative majority — which lost the last three statewide votes but holds a comfortable majority of the state's congressional districts — proposes district allocation "so every part of the state counts." What's the disciplined first question, and why?</summary>
+<p><strong>"Who drew the districts?"</strong> Under the district method the presidential outcome inherits the congressional map. A party that loses statewide but controls districting can convert map control into electoral votes — which is why proposals historically surface in exactly this configuration (and why Madison's 1823 version paired districts with the assumption they'd be fairly drawn). The reform's merits are inseparable from the redistricting process beneath it.</p>
+</details>
 
 ## Path 3: Proportional allocation
 
-Each state allocates its electoral votes proportional to the popular vote within the state. A 60–40 popular-vote split would produce a 60%-40% split of the state's EVs.
+Split each state's electors in proportion to its popular vote: a 60–40 state with 10 electoral votes goes 6–4. This is the reform with the grandest near-miss: the **Lodge–Gossett amendment** — fractional proportional allocation, with a 40 percent threshold — passed the full Senate 64–27 in 1950 before dying in the House. It is also the reform Senator Kennedy's "solar system" speech (Lesson 2's cold open) was delivered against in 1956.
 
-**Effects.**
-- **Reduces the popular-vote/electoral-vote gap** without producing exact alignment.
-- **Eliminates the swing-state attention pattern** within each adopting state — every state becomes "competitive" because every percentage of the vote matters.
-- **Creates a coordination problem.** A state that adopts proportional allocation unilaterally hurts itself politically — its EVs split, while neighboring winner-take-all states deliver intact blocks. So proportional allocation works well only as a national reform.
+Its problems are arithmetic before they are political. With whole electors, small states cannot meaningfully split: a 4-elector state that votes 58–42 rounds to 2–2 — a sixteen-point landslide producing a tie — and a 3-elector state rounds almost everything to 2–1. Fractional electors fix the rounding but require abolishing the human elector (and with it, arguably, an amendment). And nationwide proportionality makes 270 *harder* to reach: third-party candidates siphon exact shares of electoral votes, so close three-way years tumble into the House contingent procedure that Lesson 1 explained and 1824 demonstrated — unless the threshold is lowered, which reopens the legitimacy question proportionality was meant to solve. Finally, unilateral adoption is self-defeating: Colorado's voters saw the trap clearly in 2004, rejecting the proportional-allocation Amendment 36 by 65 to 35, largely on the argument that splitting Colorado's electors while neighbors stayed winner-take-all would simply delete the state's influence. Proportional allocation works only as a coordinated national rule — and the only coordination vehicles available are an amendment or a compact, which returns you to Paths 1 and 4.
 
-**Current status.** No state has adopted pure proportional allocation. Colorado considered (and rejected) Amendment 36 in 2004, which would have done this.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A reform group argues: "Proportional allocation is fairer, so our state should adopt it now and lead by example." What is the flaw — and why doesn't the same flaw sink the NPVIC?</summary>
+<p>Unilateral proportionality <strong>deletes the adopting state's own influence</strong>: it splits its electors while every neighbor stays winner-take-all — the exact logic on which Colorado's voters rejected Amendment 36, 65 to 35, in 2004. The NPVIC is engineered around that trap: every member's commitment stays dormant until states holding 270 electoral votes have joined, so no state ever moves alone. One reform is self-defeating piecemeal; the other is all-or-nothing by design.</p>
+</details>
 
-## Path 4: Direct election by constitutional amendment
+## Path 4: Direct election by amendment
 
-The most thoroughgoing reform: a constitutional amendment under Article V replacing the EC with direct national popular election.
+The maximal reform, and the one with the clearest verdict from history. Beyond 1969–70, the Senate tried again after the near-inversion of 1976: Birch Bayh's direct-election amendment reached the floor in July 1979 and won 51 votes to 48 — a majority, but 15 short of two-thirds. The coalition that beat it is the most instructive fact in the whole reform literature, as Alexander Keyssar's history documents: alongside small-state and Southern senators stood several urban civil-rights and Jewish organizations, which had concluded that their communities' pivotal position in big winner-take-all states was worth more than arithmetically equal votes in a national pool. The Electoral College's "distortions" create stakeholders everywhere, and not always the ones you'd guess.
 
-**How it would work.** Two-thirds of each chamber of Congress, then ratification by three-quarters of the states (38 of 50). Or a constitutional convention called by 2/3 of state legislatures.
+The purist's position deserves its steel-man here. If the country wants direct election, Article V is not an obstacle but the point: a change this fundamental *should* require two-thirds of each chamber and three-quarters of the states, and the NPVIC's architecture — transformation by simple legislative majorities in a minority of states, reversible the same way — builds the new system on sand. Better, on this view, no reform than a reform whose own legitimacy is litigable. Reformers answer with Keyssar's record: Article V hands a veto to the exact actors the reform would dis-empower, 63 percent public support (Pew, 2024) notwithstanding — so insisting on amendment-or-nothing is choosing nothing while calling it principle.
 
-**Effects.**
-- Eliminates the EC entirely.
-- Establishes federal authority over the conduct of presidential elections (since the new mechanism would presumably need national standards for voter registration, ballot rules, recount procedures, etc.).
-- Cleanly resolves the popular-vote-loser-wins problem.
+## Path 5: Hybrids and tweaks
 
-**Current status.** A direct-election amendment passed the House in 1969 (338–70) but died in the Senate. The Bayh-Celler Amendment in 1970 came closer but was filibustered. No serious version has passed either chamber since. The political coalition needed (which would have to include states whose interest in retaining the EC is structural) has not materialized.
+Three smaller proposals fill out the menu. The **automatic plan** — abolish the human elector and award electoral votes automatically — is the oldest and least controversial idea on the table; Andrew Jackson urged removing electoral intermediaries in his first annual message in 1829, and after *Chiafalo v. Washington* (2020) upheld pledge-binding (32 states plus D.C. had pledge laws at the time), the office is already nearly ornamental. Notably, even the Electoral Count Reform Act of 2022 left the human elector in place. The **national bonus plan**, devised by a 1978 Twentieth Century Fund task force that included Arthur Schlesinger Jr., would add 102 electoral votes (two per state plus D.C.) awarded en bloc to the national popular-vote winner — making inversions nearly impossible while keeping state-by-state allocation; it has never advanced in any legislature. And **[[term:ranked-choice-voting]] within the Electoral College** addresses the spoiler problem rather than allocation: Maine (since 2020) and Alaska (since 2024) elect their presidential slates by ranked ballot, which matters most in close multi-candidate years — though it also feeds the NPVIC's which-number-counts question flagged above.
 
-The Constitutional-amendment purist view: this is the only legitimate path. Achieving the same effect through NPVIC or other workarounds is constitutionally improper. If the country wants direct election, it should muster the supermajorities Article V requires.
+## What requires whom
 
-## Path 5: Hybrid + tweaks
-
-Several smaller-scale reforms have been proposed that don't fit cleanly into the four paths above:
-
-- **Ranked-choice voting tied to the EC.** States adopt RCV for their statewide presidential vote, with the elector slate determined by the RCV winner. Maine has done this; the federal RCV-for-Congress proposals (covered in the RCV pack) would extend it. Effect: reduces spoiler-effect risk in states with strong third parties.
-
-- **Bonus electoral votes for the popular-vote winner.** Various proposals (Levinson; some commission reports) suggest awarding 100+ "bonus" EVs to the national popular-vote winner, ensuring the popular-vote winner takes the presidency without abolishing the state-by-state structure. Has not been seriously considered by any legislature.
-
-- **Faithless-elector elimination.** After Chiafalo, this is largely settled — states can bind their electors. The remaining question is whether the federal government should require all states to do so. CRS Report R43824 covers the legislative proposals.
-
-## What can happen at each level
-
-A useful frame: what authority does each reform require?
-
-| Reform | Authority needed | Status |
+| Reform | Authority needed | Status as of mid-2026 |
 |---|---|---|
-| NPVIC (effective) | 270+ EVs of state legislatures pass coordinating law | 209/270 as of 2025; constitutional question pending |
-| District allocation | Single state legislature | Maine + Nebraska only |
-| Proportional allocation | Single state legislature, but only useful as national reform | None |
-| Direct election | Article V amendment (2/3 + 3/4) | Not viable politically |
-| Bonus electoral votes | Article V amendment | Not on agenda |
-| Faithless-elector binding | Already settled (Chiafalo, 2020) | 30+ states have done it |
+| NPVIC | State legislatures totaling 270 EVs (+ surviving a Compact Clause challenge) | 18 states + D.C., 222 EVs; 48 short; dormant |
+| District allocation | Any single state legislature | Maine, Nebraska only; Nebraska under repeated winner-take-all pressure |
+| Proportional allocation | Single state (self-defeating) or national coordination | None; Colorado rejected it 65–35 (2004) |
+| Direct election | Article V: 2/3 of each chamber + 38 states | House passed it once (1969); Senate floor vote failed 51–48 (1979) |
+| National bonus plan | Article V amendment | Never legislatively serious |
+| Automatic / binding electors | State law; binding settled by Chiafalo (2020) | 30+ states bind; elector office survives |
 
-The federalist preservationist tends to favor faithless-elector binding (which strengthens state authority) and oppose NPVIC (which restructures the federal compact). The democratic-majority reformer tends to support NPVIC and direct-election amendment in roughly that order. The constitutional-amendment purist supports direct election if the supermajorities exist and opposes everything else as workaround.
+Read the table's two lessons. Everything achievable by one state acting alone is small; everything large requires coordination the system's beneficiaries can veto. And each perspective sorts the menu predictably: the NPVIC supporter works the compact map state by state; the federalist preservationist accepts binding statutes and district experiments while opposing the compact as federalism dissolved by workaround; the constitutional-[[term:amendment]] purist accepts only Article V, and bets the country can be persuaded.
 
-## What a learner should take away
+## What this pack leaves you holding
 
-A defensible position on the Electoral College now requires:
+Three things are now yours to decide, and this pack has deliberately not decided them for you: which frame from Lesson 2 you find most defensible; which reform path (including "none") follows from it; and — the discipline that separates a position from a reflex — what evidence would change your mind. The record (Lesson 3) constrains all three but dictates none. Still unsettled as of mid-2026, and worth tracking: whether the compact finds 48 electoral votes outside the blue column; whether the Supreme Court would bless it; whether Nebraska's district method survives its annual siege; and whether another inversion — or another clean, aligned election like 2024 — shifts the public-opinion ground everything above stands on.
 
-1. A view on **how the institution should work** (one of the three perspectives in Lesson 2).
-2. A view on **what reform path is appropriate**, given that view.
-3. An honest accounting of **what evidence would change** the position.
-
-The Coach in this app will engage you on each of these. The Mirror will save your declared position to memory; the steel-man drills will push you to engage the strongest version of the position you don't hold. That's the loop the rest of SuperCitizen is built around — and the Electoral College is exactly the kind of issue where that loop matters most, because the question is genuinely unsettled and the stakes are high.
-
-A useful next step: declare a position at `/me/positions/new` with `slug: electoral-college`. Then run a steel-man drill against the position you hold most strongly. The drill is where defended positions become refined ones.
+Declare a position at `/me/positions/new` with `slug: electoral-college`, then run a steel-man drill against the position you hold most strongly. The Coach will press you on exactly the three questions above — and the Mirror will remember what you claimed, which is the point. Defended positions are cheap; refined ones are earned.

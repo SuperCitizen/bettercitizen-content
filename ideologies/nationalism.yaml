@@ -29,4 +29,10 @@ related_ideologies:
   - paleoconservatism
   - right-populism
 historical_period: 18th-century romantic origins; resurgent globally in the early 21st century
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: 0.05
+  social: 0.8
 body_md: ""

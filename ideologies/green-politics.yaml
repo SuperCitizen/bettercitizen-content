@@ -30,4 +30,10 @@ related_ideologies:
   - american-progressivism
   - democratic-socialism
 historical_period: Modern movement from the late-1960s environmental awakening through global climate politics today
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: -0.6
+  social: -0.6
 body_md: ""

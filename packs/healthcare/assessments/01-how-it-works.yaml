@@ -3,19 +3,19 @@ lesson: how-it-works
 questions:
   - id: q1
     kind: multiple-choice
-    text: "What is the largest single source of health insurance coverage in the United States?"
+    text: "A 58-year-old line cook loses his restaurant job — and with it, his family's health plan. He asks why his insurance was ever tied to his employer in the first place. Which history actually explains it?"
     choices:
       - id: a
-        text: "Medicare"
+        text: "Congress designed employer-based insurance in the Social Security Act of 1935 as the first pillar of a planned national system."
       - id: b
-        text: "Medicaid"
+        text: "World War II wage controls made untaxed fringe benefits the only way to compete for workers, a 1943 IRS ruling blessed the arrangement, and the 1954 tax code made it permanent."
       - id: c
-        text: "Employer-sponsored insurance"
+        text: "ERISA (1974) legally requires employers to offer health coverage, so insurers built their products around the workplace."
       - id: d
-        text: "ACA Marketplace plans"
-    correct_choice_id: c
-    explanation: "Employer-sponsored insurance covers ~156M people, roughly 48% of the U.S. population. Medicare (~65M), Medicaid (~87M), and Marketplace plans (~21M) together cover most of the rest, with ~26M still uninsured."
-    concepts: [healthcare]
+        text: "Unions won employer coverage in the 1960s as a negotiated substitute for joining Medicare."
+    correct_choice_id: b
+    explanation: "No one designed the employer system — it is a wartime accident locked in by the tax code. The 1942 wage freeze pushed compensation into benefits, the 1943 rulings exempted employer premiums from tax, and §106 of the 1954 Internal Revenue Code made the exclusion permanent (about $312 billion a year in forgone revenue by 2022). ERISA regulates employer plans but has never required them, and Medicare (1965) was created precisely because the employer system structurally excluded retirees. Employer plans remain the largest coverage source — about 165 million people under 65."
+    concepts: [healthcare, subsidy]
 
   - id: q2
     kind: multiple-choice
@@ -30,7 +30,7 @@ questions:
       - id: d
         text: "It ruled the ACA Marketplace exchanges unconstitutional."
     correct_choice_id: b
-    explanation: "The 5–4 ruling upheld the individual mandate under Congress's taxing power (not its commerce power), but struck down the provision that would have penalized states refusing to expand Medicaid. This is why 9 states still haven't expanded Medicaid as of 2025."
+    explanation: "The 5–4 ruling upheld the individual mandate under Congress's taxing power (not its commerce power), but held that Congress could not strip all existing Medicaid funds from states refusing to expand — making expansion effectively optional. This is why 10 states still had not expanded as of mid-2026, leaving about 1.4 million people in the coverage gap."
     concepts: [healthcare, aca]
 
   - id: q3

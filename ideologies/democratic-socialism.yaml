@@ -28,4 +28,10 @@ key_orgs:
 related_ideologies:
   - american-progressivism
 historical_period: Late-19th-century labor movement; American DSA tradition post-1982
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: -0.85
+  social: -0.35
 body_md: ""

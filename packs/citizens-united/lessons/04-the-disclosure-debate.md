@@ -4,10 +4,11 @@ slug: the-disclosure-debate
 kind: reading
 title: The disclosure debate (the live policy fight)
 objectives:
-  - State the disclosure-first reform position at its strongest
-  - State the donor-anonymity-as-free-speech position at its strongest (NAACP v. Alabama, Americans for Prosperity v. Bonta)
-  - Distinguish the DISCLOSE Act, FEC rule-making, and state-level approaches
-  - Identify where the next legal challenge is likely and what it would test
+  - State the disclosure-first reform position at its strongest, including the 8–1 constitutional runway Citizens United itself provides
+  - State the donor-anonymity position at its strongest, running from NAACP v. Alabama (1958) to Americans for Prosperity Foundation v. Bonta (2021)
+  - Distinguish the DISCLOSE Act path, FEC rulemaking, and state-level approaches such as Arizona's Proposition 211
+  - Summarize what the empirical literature (Wood & Spencer) actually finds about disclosure's chilling effects
+  - Identify where the next legal challenge is likely and what doctrinal question it would test
 concepts:
   - dark-money
   - donor-disclosure
@@ -19,14 +20,18 @@ sources:
   - type: court-opinion
     citation: 'Americans for Prosperity Foundation v. Bonta, 594 U.S. ___ (2021).'
     url: https://www.supremecourt.gov/opinions/20pdf/19-251_p86b.pdf
+  - type: court-opinion
+    citation: 'Doe v. Reed, 561 U.S. 186 (2010) — disclosure of referendum-petition signers upheld 8–1.'
+    url: https://supreme.justia.com/cases/federal/us/561/186/
   - type: statute
-    citation: 'DISCLOSE Act of 2010 (H.R. 5175 / S. 3628), 111th Congress. (Passed House, fell one vote short of cloture in Senate.)'
+    citation: 'DISCLOSE Act of 2010 (H.R. 5175 / S. 3628), 111th Congress. (Passed House 219–206; Senate cloture failed 57–41 in July and 59–39 in September 2010.)'
     url: https://www.congress.gov/bill/111th-congress/house-bill/5175
   - type: statute
-    citation: 'Freedom to Vote Act, 117th Congress (2021–22). Disclosure provisions revive DISCLOSE Act framework.'
+    citation: 'Freedom to Vote Act, 117th Congress (2021–22). Disclosure provisions revive the DISCLOSE Act framework.'
     url: https://www.congress.gov/bill/117th-congress/senate-bill/2747
   - type: paper
-    citation: 'Briffault, R. (2010), "Campaign Finance Disclosure 2.0," Election Law Journal 9:4, 273.'
+    citation: 'Briffault, R. (2010), "Campaign Finance Disclosure 2.0," Election Law Journal 9(4), 273–303.'
+    url: https://www.liebertpub.com/doi/10.1089/elj.2010.9408
   - type: website
     citation: 'Brennan Center for Justice, "Citizens United Explained" — disclosure section.'
     url: https://www.brennancenter.org/our-work/research-reports/citizens-united-explained
@@ -34,83 +39,86 @@ sources:
     citation: 'Institute for Free Speech (formerly Center for Competitive Politics), commentary on disclosure and donor privacy.'
     url: https://www.ifs.org/
   - type: paper
-    citation: 'Wood, A. K. & Spencer, D. M. (2016), "In the Shadows of Sunlight: The Effects of Transparency on State Political Campaigns," Election Law Journal 15:4.'
+    citation: 'Wood, A. K. & Spencer, D. M. (2016), "In the Shadows of Sunlight: The Effects of Transparency on State Political Campaigns," Election Law Journal 15(4).'
+    url: https://scholar.law.colorado.edu/faculty-articles/1361/
+  - type: website
+    citation: 'Arizona Citizens Clean Elections Commission, "Voters'' Right to Know Act" (Proposition 211, 2022) — official implementation page.'
+    url: https://www.azcleanelections.gov/arizona-elections/voters-right-to-know-act
+  - type: website
+    citation: 'State Court Report (Brennan Center), "Arizona Supreme Court Grapples with Challenge to ''Dark Money'' Disclosure Law" (2025).'
+    url: https://statecourtreport.org/our-work/analysis-opinion/arizona-supreme-court-grapples-challenge-dark-money-disclosure-law
 perspectives:
   - name: Disclosure-first reformer
   - name: Donor-privacy advocate
   - name: First Amendment maximalist
-duration_min: 11
+duration_min: 15
 ---
 
 # The disclosure debate
 
-Citizens United's disclosure-and-disclaimer holding (BCRA §§201 and 311, upheld 8–1) is the part of the case that most reformers expected to do real work. Justice Kennedy:
+In January 2010, Justice Kennedy described the safety mechanism that made the rest of *Citizens United* tolerable to its own majority: "With the advent of the Internet, prompt disclosure of expenditures can provide shareholders and citizens with the information needed to hold corporations and elected officials accountable… citizens can see whether elected officials are 'in the pocket' of so-called moneyed interests." Eight Justices — the four dissenters plus four of the five in the majority — upheld BCRA's disclosure rules on that theory. Fifteen years later, the 2024 elections ran on a record \$1.9 billion whose original sources no citizen can see. Both things are true, and the distance between them is the most active front in [[term:campaign-finance]] politics today. It is also the strangest one: the Constitution, by an 8–1 vote, is not the obstacle. Congress is. This lesson maps the fight over closing — or defending — the gap Lesson 3 traced.
 
-> "With the advent of the Internet, prompt disclosure of expenditures can provide shareholders and citizens with the information needed to hold corporations and elected officials accountable for their positions and supporters. Shareholders can determine whether their corporation's political speech advances the corporation's interest in making profits, and citizens can see whether elected officials are 'in the pocket' of so-called moneyed interests." (Slip op. at 55.)
+## What the law actually requires now
 
-Fifteen years on, this paragraph is the focal point of the live policy fight. The reformers' question: does it actually work? The maximalists' counter-question: should it be expanded, even if it doesn't?
+Start with the mechanics, because each camp's argument lives in them. Candidate committees, parties, PACs, and Super PACs itemize every donor above \$200 in public FEC filings. Groups that run "electioneering communications" or independent expenditures report the *spending*. But the donors *behind* a 501(c)(4)'s spending surface only in a narrow case: under the FEC's regulation, an outside group discloses only those contributions "made for the purpose of furthering" the specific reported ad — language a donor avoids by simply not earmarking. Give \$10 million to a social-welfare nonprofit for its "general purposes," and no federal filing will ever connect your name to the ads it buys or the Super PACs it funds. That single regulatory phrase, more than any court holding, is the legal architecture of [[term:dark-money]].
 
-## The reformer case: close the 501(c)(4) gap
+So the dispute is precise: should the law trace election money back to its original human source, the way it already does for a \$201 gift to a candidate? Three positions, steel-manned.
 
-The disclosure-first position takes Citizens United at its word: corporations and unions can spend, *but* the public has a right to know who's spending. The case for a fix has three parts.
+## The reformer case: the Constitution already said yes
 
-**1. The current disclosure regime is leaky by design.** As Lesson 3 traced, a donor can give to a 501(c)(4) without being publicly identified, and the 501(c)(4) can then fund Super PACs or run electioneering ads directly. The 501(c)(4) appears in FEC reports as the donor; the original individual is invisible. Closing this requires either (a) the IRS treating 501(c)(4) electoral activity as triggering donor disclosure, or (b) the FEC requiring the original-source disclosure under a "follow the money" rule.
+The disclosure-first position takes *Citizens United* at its word — spend what you like, but the public sees who is speaking — and reads the 8–1 holding as a standing invitation Congress has declined for sixteen years.
 
-**2. The DISCLOSE Act would do this legislatively.** Introduced in 2010 in direct response to CU, it required organizations spending more than a threshold on electioneering communications to disclose their top donors. It passed the House and fell one cloture vote short in the Senate. The Freedom to Vote Act (117th Congress) revived the DISCLOSE framework. Both have been blocked by 60-vote Senate procedures. The reformer position is that the substantive constitutional question (does the First Amendment permit such disclosure?) is settled by *Citizens United* itself — the 8–1 majority on disclosure included the four CU dissenters and four of the five CU majority. Only Justice Thomas dissented from the disclosure portion of CU.
+1. **The constitutional runway is real.** *Buckley* (1976) upheld disclosure on three interests: informing voters, deterring corruption, and enforcing other rules. *Citizens United* reaffirmed it almost unanimously, in the very opinion that deregulated the spending. *Doe v. Reed* (2010), decided months later, upheld disclosure of referendum-petition signers, again 8–1. No current doctrine forbids original-source disclosure of electoral spending; the binding constraints are statutory and regulatory.
+2. **The legislative fix has been written for sixteen years.** The **DISCLOSE Act** — introduced in 2010 as a direct answer to *Citizens United* — would require any group spending meaningfully on elections to reveal its large donors and trace money through intermediary shells. It passed the House 219–206 in June 2010 and died by filibuster: cloture failed 57–41 that July and 59–39 — one vote short — that September. Its descendants (most recently folded into the Freedom to Vote Act of 2021–22) have failed the same way every time. The reformer's point: a policy with majority support in both chambers has been blocked for a decade and a half by a supermajority rule, not by the First Amendment.
+3. **The chilling-effect objection is empirically weak.** The best causal study, Wood and Spencer's "In the Shadows of Sunlight" (*Election Law Journal*, 2016), exploited variation in state disclosure regimes and found the speech-chilling effect of disclosure to be negligible — on average, *less than one donor per candidate* stops giving when contributions become publicly visible, with no outsized effect on small donors or ideological outliers. Disclosure, on this evidence, informs voters without silencing donors.
 
-**3. The empirical literature suggests disclosure changes behavior.** Wood & Spencer (2016) studied the effect of state-level disclosure regimes on campaign spending and found donors do shift their behavior when forced to disclose — both reducing some categories of giving and shifting to less-disclosed vehicles. The reformer reads this as evidence that disclosure works (donors don't want to be seen funding what they're funding); the maximalist reads it as evidence that disclosure chills speech (donors stop participating).
+What evidence would change this position? A showing that modern disclosure produces *NAACP*-grade retaliation at scale — not awkwardness, but boycotts, threats, and job loss systematic enough to deter ordinary participation. Honest reformers concede that line exists; the argument is about whether today's donors are anywhere near it.
 
-What evidence would change this position? A persuasive showing that disclosure produced retaliation, harassment, or chilling severe enough that it crosses the constitutional line drawn in NAACP v. Alabama. The reformer position acknowledges this is the binding constitutional concern and that the line *can* be crossed — see below.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A senator says: "We can't pass the DISCLOSE Act — the Supreme Court held in <em>Citizens United</em> that political spending is protected speech." What is wrong with that sentence as a matter of record?</summary>
+<p>It collapses two separate holdings. The 5–4 holding protected the <em>spending</em>; a separate 8–1 holding — joined by four of the five majority Justices — upheld <em>disclosure</em> of that spending as constitutional, with Kennedy writing that transparency "enables the electorate to make informed decisions and give proper weight to different speakers and messages." Whatever blocks original-source disclosure legislation, it is not <em>Citizens United</em>; since 2010 the obstacle has been the Senate's 60-vote threshold, never a court.</p>
+</details>
 
 ## The donor-privacy case: NAACP v. Alabama is still the law
 
-The strongest counter to disclosure-first reform is not "rich people deserve secrecy." It's an old First Amendment line that runs through the civil-rights era.
+The strongest counterargument is not "rich people deserve secrecy." It is a civil-rights-era precedent about what majorities do to identified dissenters.
 
-In *NAACP v. Alabama ex rel. Patterson* (357 U.S. 449, 1958), Alabama's attorney general subpoenaed the NAACP's membership list during the desegregation era. The Court held unanimously that compelled disclosure violated the First Amendment because, in the actual political environment, identified NAACP members faced economic retaliation, threats, and physical violence. The freedom to associate, the Court held, requires the freedom to associate *anonymously* when the alternative is suppression by hostile majorities.
+In ***NAACP v. Alabama ex rel. Patterson* (1958)**, Alabama's attorney general demanded the NAACP's membership lists. A unanimous Supreme Court refused: identified members faced economic reprisal, threats, and violence, and compelled disclosure of association would "abridge" rights the state could not touch directly. Anonymous association, the Court held, can be the *condition* of free association — a principle the American tradition has honored since the [[term:federalist-papers]] ran under "Publius."
 
-The donor-privacy position takes this seriously and notes that:
+The modern position builds on it:
 
-- **The same logic protects donors to unpopular causes today.** A donor to an LGBT-rights organization in a hostile state, or a donor to a controversial religious group, faces the same retaliation logic the NAACP faced in 1958. Forcing disclosure is not neutral.
+- **The logic is viewpoint-neutral.** A donor to an LGBT-rights group in a hostile county and a donor to a traditional-marriage group in a hostile industry face the same mechanism: disclosure converts giving into a target list. Privacy advocates note that doxxing and employment retaliation are cheaper and faster in the internet era Kennedy celebrated than they were in 1958.
+- ***Bonta* re-armed the doctrine.** In ***Americans for Prosperity Foundation v. Bonta* (2021)**, the Court, 6–3, struck down California's blanket demand that charities file their major-donor lists with the state attorney general — even though the filings were nominally confidential. Chief Justice Roberts's opinion requires "exacting scrutiny" with **narrow tailoring** for *any* compelled donor disclosure, and found a "dragnet" collection unconstitutional on its face. *Bonta* concerned charity regulation, not elections — but its tailoring requirement is the template every future challenge to a DISCLOSE-style law will invoke.
+- **The electoral/issue line will not hold.** DISCLOSE-style bills reach groups that mix election ads with issue advocacy; the Institute for Free Speech argues the practical effect is to force membership-list disclosure from advocacy nonprofits whose core work is constitutionally protected issue speech — exactly the *NAACP* scenario with modern paperwork.
 
-- **The Supreme Court reaffirmed and extended NAACP in 2021.** *Americans for Prosperity Foundation v. Bonta* (594 U.S. ___) struck down California's requirement that 501(c)(3) charities disclose their top donors to the state attorney general. The Court applied "exacting scrutiny" — a standard between strict and intermediate — and held that even a confidential disclosure regime had to be narrowly tailored to a substantial state interest. This decision did not directly affect FEC electoral disclosure but signaled that disclosure mandates are not categorically safe.
+What evidence would change this position? Data showing that disclosed electoral donors do not, in fact, suffer meaningful retaliation — which is why Wood and Spencer's negligible-chill finding is the study privacy advocates must answer, and why they answer it by pointing to the tails (the rare but severe cases) rather than the average.
 
-- **The "we're only asking electoral spenders to disclose" line is fragile.** The line between "electoral activity" (which CU clearly permits disclosure of) and "issue advocacy" (which is core protected speech) is the live battleground. The Institute for Free Speech and other donor-privacy groups argue that DISCLOSE Act-style rules don't actually stay on the electoral side of the line — they capture issue advocacy that a state legislature happens to dislike.
+## The maximalist outlier: Thomas's lonely square
 
-What evidence would change this position? A showing that the donor-privacy concerns NAACP raised do not in fact obtain in modern campaign-finance disclosure (because the disclosure is narrow, targeted at electoral activity, and the people being disclosed are not facing 1958-style retaliation). The strongest version of the donor-privacy position takes this empirical question seriously rather than treating it as foreclosed.
+Justice Thomas — alone in 2010, and consistent since — rejects the compromise both camps accept. His *Citizens United* partial dissent argued disclosure itself chills speech (citing harassment of California Proposition 8 donors), and his concurrence in *McIntyre v. Ohio Elections Commission* (1995), which protected anonymous political pamphleteering, supplies the tradition: the Framers' political culture prized anonymous speech. On this view the Court should have struck §201 along with §203. It remains a minority position — but *Bonta* moved the median Justice toward it, and the coalition that decided *Citizens United* 8–1 on disclosure no longer exists on today's Court. Whether *Doe v. Reed* or *Bonta* better describes the current majority is, candidly, unknown — which is precisely what the next case will find out.
 
-## The First Amendment maximalist position: disclosure was already too much
+## The states move first: Arizona's Proposition 211
 
-There's a third position that disagrees with both reformers and donor-privacy advocates: **CU's disclosure holding was wrong in the first place**, and the right outcome would have been to strike down BCRA §201 along with §203.
+With the FEC quorumless (Lesson 3) and the Senate stuck at 60, the live experiments are in the states. The most ambitious is Arizona's **Proposition 211, the "Voters' Right to Know Act,"** adopted by ballot initiative in 2022 with about 72 percent of the vote. Its mechanism is *original-source tracing*: any group spending more than \$50,000 on a statewide race (\$25,000 on others) must publicly identify the true original contributors of more than \$5,000 — no matter how many nonprofit intermediaries the money passed through. It is, in miniature, the DISCLOSE Act model: aimed at the pipeline, not the speech.
 
-This is Justice Thomas's position in his lone dissent on the disclosure portion of CU. The argument:
+The litigation is the doctrinal test in motion. Challengers — including the Center for Arizona Policy and the Goldwater Institute, representing donors who claim fear of harassment — argue Prop 211 violates *NAACP*/*Bonta* anonymity rights and Arizona's own constitution; the legislature separately challenges the measure's delegation of rulemaking power. As of mid-2026 the law had survived its early rounds and remained in effect, with state supreme court proceedings still unresolved. Watch it: a square ruling for Prop 211 gives every state a blueprint; a ruling against it on *Bonta* grounds would, for the first time, turn the donor-privacy doctrine loose on *electoral* disclosure — and put the question on a path back to a Supreme Court far friendlier to anonymity than the one that voted 8–1 in 2010.
 
-- Disclosure is a chilling burden on speech.
-- The state interest in identifying speakers is not "compelling" in the strict-scrutiny sense; it's at most informational.
-- The fact that disclosure is "less restrictive" than a ban doesn't make it constitutional — under strict scrutiny, the question is whether the burden is justified, not whether it's the smallest possible burden.
+| Approach | Vehicle | Status as of mid-2026 |
+| --- | --- | --- |
+| DISCLOSE Act framework | Federal statute | Passed House 2010; filibustered repeatedly since |
+| FEC rulemaking ("purpose of furthering" fix) | Federal regulation | Foreclosed in practice — no quorum since May 2025 |
+| Original-source tracing | State law (e.g., Ariz. Prop 211, 2022) | In effect; constitutional challenges pending |
+| Platform/ad-library transparency | Private + state mandates | Partial — voluntary archives, uneven coverage |
 
-This is a minority view even among First Amendment maximalists. But the maximalist *coalition* on CU is more fragile than it looks: Justice Kennedy's majority embraced disclosure precisely as the safety valve that justified the broader holding. If disclosure is itself unconstitutional, the broader holding loses its political legitimacy — and arguably, parts of its doctrinal grounding.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Arizona's Prop 211 and California's <em>Bonta</em> scheme both compelled donor information. One survives (so far); one was struck down. What is the doctrinally relevant difference a court would seize on?</summary>
+<p>Tailoring and interest. California collected <em>every</em> large charity's donor list, confidentially, for generalized fraud-prevention convenience — a dragnet with no election nexus, which failed <em>Bonta</em>'s narrow-tailoring requirement. Prop 211 discloses donors only above high thresholds, only for money actually spent on <em>campaign media</em>, where <em>Buckley</em>, <em>Citizens United</em> (8–1), and <em>Doe v. Reed</em> recognize a distinct informational interest of voters. The open question is whether today's Court reads <em>Bonta</em> as confined to that distinction — or as a general charter of donor anonymity that swallows it.</p>
+</details>
 
-## Where the next case is likely
+## The scholar's lens: what is disclosure for?
 
-Election-law scholars (Hasen, Briffault, Issacharoff) have identified a few likely battlegrounds:
+Richard Briffault's "Campaign Finance Disclosure 2.0" (*Election Law Journal*, 2010) remains the sharpest framework. Disclosure, he argues, serves different masters that pull in different directions: a *voter-information* rationale (which justifies publicizing big spenders behind ads, and implies high thresholds — voters gain nothing from a database of \$25 donors) and an *anti-corruption* rationale (which justifies tracing large money to officeholders' benefactors). Regimes get into trouble when they pursue one rationale with the other's tools — itemizing schoolteachers' addresses serves no voter, while letting eight-figure gifts hide behind nonprofit shells serves no theory at all. Briffault's design point quietly indicts both camps' maximal versions, and most serious proposals since — including Prop 211's high thresholds — bear his fingerprints. Wood and Spencer's finding supplies the empirical floor under the debate; the unresolved question is whether average effects or tail risks should drive constitutional doctrine.
 
-1. **Coordination.** What counts as "coordination" between a Super PAC and a campaign? If two former campaign aides, sharing the same office building, communicate via "the wall," is that independence in any meaningful sense? An FEC rule-making here would be politically explosive; litigation almost certainly follows.
+## What this lesson did not settle
 
-2. **501(c)(4) primary purpose.** The IRS says a 501(c)(4) can engage in electoral activity as long as it's not the "primary" purpose. What does "primary" mean — 50%? 49%? 60%? The IRS's failure to define this rigorously is the regulatory hole most reformers want to close.
-
-3. **Disclosure of original-source donors.** A direct legislative requirement (DISCLOSE Act-style), or a state-level requirement (several states have tried), or an FEC rule-making — any of these would test the line *Bonta* drew.
-
-4. **Foreign-influence cases.** §30121 still bans foreign-national contributions and expenditures, but the line between a foreign-owned U.S. subsidiary's general-treasury spending and forbidden foreign-national spending is contested. The 2018 OFAC findings on Russian online ad-buying surfaced but did not resolve this.
-
-5. **State-level public-financing programs.** New York City, Seattle, and several other jurisdictions have built voucher or matching-funds programs designed to dilute the influence of large donors without restricting their speech. These are the most plausible path to political-equality reform that CU permits, and they're a natural test bed for whether public financing can restore competitive elections in a CU world.
-
-## Closing the loop
-
-A learner who's worked through these four lessons should be able to:
-
-- State the holding mechanically without hyperbole or shorthand.
-- Steel-man the strongest case for and against without strawmanning either.
-- Distinguish what Citizens United did from what SpeechNow.org and McCutcheon did.
-- Engage the disclosure debate at the level it's actually being fought at — not as "transparency vs. secrecy" but as a contest among three positions, each with First Amendment grounding.
-
-A defensible position on Citizens United now is one that picks a side, says why, names the empirical claims it's relying on, and identifies what evidence would change it. The next step in the loop — declaring that position in `/me/positions/citizens-united.md`, and steel-manning the strongest opposing perspective in `/me/positions/.../steel-man` — is what the rest of the SuperCitizen Coach is for.
+It did not settle whether original-source disclosure would, in fact, change voter behavior or officeholder behavior — the informational benefit is better theorized than measured. It did not settle where *NAACP*'s protection ends and the electorate's right to know begins; *Bonta* guaranteed that line will be relitigated, and the Court that draws it is not the Court of 2010. And it did not settle the deepest irony of the whole pack: the regime *Citizens United* actually authorized — unlimited but transparent independent spending — is one no American election has yet conducted. A defensible position on Citizens United now states the holding mechanically (Lesson 1), picks a frame and names its empirical bets (Lesson 2), reckons with fifteen years of evidence (Lesson 3), and says what it would do about disclosure — and what evidence about chill, retaliation, or voter information would change its mind. That last step is yours.

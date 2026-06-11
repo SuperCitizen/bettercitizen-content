@@ -2,17 +2,19 @@
 schema: bettercitizen.lesson/v1
 slug: internal-disagreements
 kind: reading
-title: Internal disagreements within the tradition
+title: Internal disagreements — and the strongest critiques
 objectives:
-  - Distinguish democratic socialist, social-democratic, and Marxist-revolutionary streams
-  - State each stream's strongest critique of the others
-  - Identify where each lands on specific policy domains
-  - Identify the contemporary intellectual figures associated with each
+  - State the socialist calculation problem (Mises 1920) and the knowledge problem (Hayek 1945) with full force, and explain Lange's market-socialist response
+  - Summarize the verdict of the socialist calculation debate — what the 20th century settled and what it left open
+  - Characterize the human toll of Marxist–Leninist economies honestly, with credible scholarly ranges, and distinguish that record from democratic-socialist governance
+  - Distinguish the social-democratic, democratic-socialist, and Marxist-revolutionary streams and state each stream's strongest critique of the others
+  - Explain Przeworski's electoral dilemma of socialism and what worker cooperatives like Mondragon prove — and don't prove — about economic democracy
 concepts:
   - socialism
   - market-socialism
   - participatory-economics
   - revolutionary-socialism
+  - capitalism
 sources:
   - type: book
     citation: 'Roemer, J. (1994), A Future for Socialism. Foundational market-socialist text.'
@@ -30,98 +32,115 @@ sources:
     citation: 'Harvey, D. (2014), Seventeen Contradictions and the End of Capitalism, Oxford. Contemporary Marxist analysis.'
   - type: book
     citation: 'Davis, A. Y. (2003), Are Prisons Obsolete? Seven Stories Press. Connects socialist analysis with mass-incarceration critique.'
+  - type: paper
+    citation: 'Mises, L. von (1920), "Economic Calculation in the Socialist Commonwealth" (Die Wirtschaftsrechnung im sozialistischen Gemeinwesen). The opening statement of the calculation problem.'
+    url: https://mises.org/library/book/economic-calculation-socialist-commonwealth
+  - type: paper
+    citation: 'Hayek, F. A. (1945), "The Use of Knowledge in Society," American Economic Review 35(4). The knowledge-problem refinement of the critique, written against Lange.'
+    url: https://oll.libertyfund.org/titles/hayek-the-use-of-knowledge-in-society-1945
+  - type: paper
+    citation: 'Lange, O. (1936), "On the Economic Theory of Socialism: Part One," Review of Economic Studies 4(1): 53–71. The market-socialist trial-and-error response to Mises.'
+    url: https://academic.oup.com/restud/article-abstract/4/1/53/1547969
+  - type: book
+    citation: 'Kornai, J. (1992), The Socialist System: The Political Economy of Communism, Oxford University Press. The soft-budget-constraint analysis of why planned economies under-perform.'
+  - type: book
+    citation: 'Przeworski, A. & Sprague, J. (1986), Paper Stones: A History of Electoral Socialism, University of Chicago Press. The electoral dilemma of socialism.'
+  - type: book
+    citation: 'Ó Gráda, C. (2009), Famine: A Short History, Princeton University Press. Comparative famine scholarship, including the Soviet and Chinese cases.'
+  - type: book
+    citation: 'Dikötter, F. (2010), Mao''s Great Famine, Bloomsbury. Archival estimate of roughly 45 million premature deaths, the high end of the scholarly range.'
+  - type: book
+    citation: 'Yang Jisheng (2012), Tombstone: The Great Chinese Famine, 1958–1962, Farrar, Straus and Giroux. The landmark inside-China archival account; estimates about 36 million deaths.'
+  - type: website
+    citation: 'UNHCR, "Venezuela situation" — displacement figures for the Venezuelan emigration.'
+    url: https://www.unhcr.org/emergencies/venezuela-situation
+  - type: website
+    citation: 'Co-operative News (2025), "Mondragon worker co-op federation reports sales of €11.213bn" — 2024 workforce and revenue figures.'
+    url: https://www.thenews.coop/mondragon-worker-co-op-federation-reports-sales-of-e11-213bn/
+  - type: website
+    citation: 'U.S. Federation of Worker Cooperatives, "About" — sector-size estimates for U.S. worker cooperatives.'
+    url: https://www.usworker.coop/about/
 perspectives:
   - name: Democratic socialist
   - name: Social democrat
   - name: Marxist-revolutionary
-duration_min: 11
+duration_min: 17
 ---
 
-# Internal disagreements within the tradition
+# Internal disagreements — and the strongest critiques
 
-Like every ideological tradition, socialism has internal debates that matter. The most important: whether socialism is best understood as transcending capitalism or as humanizing it.
+In 1936, the Polish economist Oskar Lange — a socialist — proposed a monument to socialism's most relentless enemy. "A statue of Professor Mises ought to occupy an honorable place in the great hall of the Ministry of Socialization or of the Central Planning Board of the socialist state," he wrote, because Mises had forced socialists to confront the one problem their movement had spent fifty years not thinking about. The joke had teeth on both ends: Lange was conceding that Ludwig von Mises had identified a real and possibly fatal flaw, and boasting that he, Lange, had just solved it. Whether he actually solved it is the most consequential argument in the history of economics — and you cannot understand what divides socialists from one another today without understanding the argument they have all, in different ways, been answering ever since.
 
-## 1. The democratic-socialist stream
+## The calculation problem, stated with full force
 
-Core commitment: substantial economic democratization, with markets as one tool among several. The long-run goal is to transcend the wage-labor relation through worker ownership, public production of basic goods, and democratic planning of major economic decisions.
+Mises's 1920 essay, "Economic Calculation in the Socialist Commonwealth," is not about greed, corruption, or laziness. Grant the planners every virtue — incorruptible, tireless, devoted to the common good — and the problem remains, because it is a problem of arithmetic, not motivation.
 
-Contemporary intellectual figures: Bhaskar Sunkara, Vivek Chibber, the *Jacobin* magazine circle, Erik Olin Wright (deceased but central), DSA's intellectual leadership, Naomi Klein, Astra Taylor, Cornel West.
+An economy must constantly choose among technically feasible plans. Should the new rail line use steel or aluminum? Should this steel go to rails, bridges, or tractors? Should electricity come from the coal seam near the city or the hydro site two hundred miles away? Each option consumes bundles of resources that have thousands of alternative uses. In a market economy, prices compress all of that into a common denominator: the steel's price reflects, however imperfectly, everyone else's competing bids for it, so a planner of one project can calculate whether using it here creates or destroys value. But prices for capital goods emerge from actual exchange, and exchange requires owners. Abolish private ownership of the means of production, Mises argued, and you abolish the markets for capital goods — and with them the prices, and with the prices any way to compare one production plan against another. The planning board does not lack good intentions; it lacks a unit of account. Socialism, in his phrase, is the abolition of rational economy: choices among plans become, in effect, educated guesses in the dark.
 
-Key claims:
-- Capitalism's crisis tendencies (financialization, inequality, climate collapse) cannot be resolved within the existing system. Reformist policy can mitigate but not eliminate these dynamics.
-- Worker ownership — through cooperatives, employee stock-ownership plans, and citizen-shareholder funds — is the institutional alternative to private capital ownership. Roemer's market-socialist proposal involves widely distributed citizen ownership of major firms with markets for goods but not for capital.
-- Public ownership of certain sectors (healthcare, education, energy, finance) is appropriate. Markets work for many things but should not be the structure for healthcare, schooling, or basic infrastructure.
-- The political coalition for socialism is the working class (broadly defined), built through labor organization, tenant unions, mutual-aid networks, and electoral campaigns. Sanders, Cori Bush, Alexandria Ocasio-Cortez, and similar figures are exemplary; the long-run goal is to build a political force that can win and govern.
-- Socialism is not authoritarian; democratic-socialists explicitly reject Soviet-style state socialism. The "actually existing socialism" of the 20th century is a cautionary tale, not a model.
+Friedrich Hayek's 1945 essay "The Use of Knowledge in Society" deepened the critique. Even if a planning board somehow had the prices, the *knowledge* an economy runs on — the foreman's sense that this machine is wearing out, the shipper's awareness of a half-empty freighter, the buyer's hunch about next season — is dispersed across millions of minds, much of it tacit, local, and perishable. No central body can collect it in time, because much of it cannot be articulated at all. The price system, Hayek argued, functions as "a system of telecommunications": a movement in the price of tin tells every user of tin, instantly and without anyone writing a memo, to economize on it — whatever the cause of the scarcity, known to anyone or not.
 
-Disagreements with social democrats: social democracy is too modest. Capitalism's structural problems — climate, inequality, financialization — require structural change, not just better regulation. Social democrats are correct about specific policies but lack the vision needed for the longer-term transition.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Why does the calculation problem bite hardest for capital goods — steel, machine tools, factory time — rather than consumer goods like bread and shoes?</summary>
+<p>Consumer wants can be surveyed, voted on, or rationed — a planner can find out how much bread people want. The killer is the <em>intermediate</em> economy: every capital good has thousands of alternative uses, each chain of production stretching back through other capital goods with their own alternatives. Without prices generated by actual exchange, there is no common denominator for comparing the value of steel-as-rails against steel-as-tractors. Polling preferences cannot substitute, because the question is not what people want but which of millions of feasible production paths wastes the least of everything else.</p>
+</details>
 
-Disagreements with Marxist-revolutionaries: revolutionary politics in democratic societies is both unnecessary (electoral and movement politics can produce real change) and counterproductive (it alienates the broad working-class coalition socialism needs). The democratic-socialist tradition is committed to democratic means, not just democratic outcomes.
+## Lange's answer, and the verdict of the debate
 
-## 2. The social-democratic stream
+Lange's "On the Economic Theory of Socialism" (1936–37) accepted the challenge on its own terms. Keep public ownership of industry, he proposed, but let a Central Planning Board *simulate* the market: post prices, instruct managers to treat them as given and follow simple rules (produce where marginal cost equals price), then watch inventories. Shortages mean the price was too low — raise it; gluts mean too high — lower it. Trial and error would grope toward the same equilibrium a market finds, minus the capitalists. Through mid-century, much of the economics profession scored the round for Lange; the question seemed settled in socialism's favor as a matter of pure theory.
 
-Core commitment: a regulated capitalist economy with extensive welfare provision, strong labor rights, and progressive taxation. Socialism is framed as humanizing capitalism through democratic institutions, not transcending it.
+The second half of the century reversed the verdict — not on the blackboard, but in the world. Three things did the damage. First, the *dynamic* problem: Lange's scheme mimics a market at rest, but capitalism's real work is discovery — new products, new methods, entrepreneurial bets that create the very information prices carry; a board adjusting yesterday's prices cannot conjure tomorrow's innovations. Second, the incentive problem the Hungarian economist János Kornai named the **soft budget constraint**: state firms that cannot go bankrupt get bailed out, and managers learn to bargain with the ministry rather than economize — chronic shortage becomes a system property, not a policy error. Third, the empirical record: by the 1980s the planned economies were falling visibly behind market economies at similar starting points — East against West Germany, North against South Korea — and in 1989–91 the Soviet bloc dissolved.
 
-Contemporary intellectual figures: Joseph Stiglitz, Robert Reich (overlap with civic-republican progressives), Paul Krugman (in some moods), the SPD's traditional thinkers, the British Labour mainstream (vs. Corbynite left).
+But state the verdict honestly, because it cuts in both directions. The debate discredited *comprehensive central planning*, and nearly every contemporary socialist concedes that. It did not discredit — indeed it barely addressed — the combination most democratic socialists and social democrats actually advocate: market economies with decommodified sectors, strong unions, public enterprises competing alongside private ones, and worker-owned firms operating in real markets. Roemer's *A Future for Socialism* (1994) and the cooperative economy are attempts to keep markets (and their prices) while changing who owns the firms — proposals the calculation critique does not touch, whatever their other difficulties. Mises won the argument he started. Whether he won every argument filed under "socialism" is exactly what the streams below disagree about.
 
-Key claims:
-- Markets, properly regulated, are extraordinary engines of prosperity and innovation. The goal is not to abolish markets but to embed them in democratic institutions that constrain their excesses.
-- Strong welfare states (universal healthcare, unemployment insurance, family supports, free education) provide the security that allows people to take risks, change jobs, raise families. Welfare provision is not in tension with market dynamism; it complements it.
-- Strong labor rights — sectoral bargaining, works councils, codetermination — give workers real voice without requiring full ownership. Germany's codetermination model and Scandinavian sectoral bargaining are examples of well-designed institutions.
-- Progressive taxation funds welfare provision and prevents the concentration of wealth that undermines democracy. The Scandinavian tax-and-transfer model achieves both equality and dynamism.
-- Most political progress is incremental. The social-democratic project is a long, slow building of institutions — not a single revolutionary moment.
+## The historical record, honestly
 
-Disagreements with democratic socialists: full economic democratization is not a stable end-state. Worker cooperatives are valuable in some sectors but face well-known governance and capital-intensive problems. Public ownership of major sectors has historically produced inefficiencies that hurt the working class the policy was meant to serve. The realistic socialist project is regulated capitalism + welfare state + labor rights, not transcending market capitalism.
+The calculation debate's stakes were never academic, and an honest pack states the human ledger plainly. The Marxist–Leninist branch of the family produced the two deadliest famines of the twentieth century. Stalin's forced collectivization of agriculture — peasants stripped of land and grain by a state pursuing crash industrialization — culminated in the famine of 1930–33; modern archival scholarship puts excess deaths between roughly 5.5 and 8.7 million, including about 3.5 to 3.9 million in Ukraine (the Holodomor). A generation later, Mao's Great Leap Forward collectivized China's countryside into communes with production targets detached from reality; the famine of 1958–62 killed, by credible scholarly estimates, somewhere between 15 and 45 million or more — Yang Jisheng's archival *Tombstone* counts about 36 million, Frank Dikötter roughly 45 million, and the famine historian Cormac Ó Gráda urges caution across the whole range while accepting that this was, by death toll, history's worst famine. Add the gulag, the purges, the sealed borders, and the one-party police states that every comprehensive-planning regime built, and the pattern is the strongest single argument the tradition's critics possess: **every attempt to abolish private ownership of the means of production wholesale has been accompanied by dictatorship.** The critic's question — is that coincidence, or does total economic power *require* total political power, as Hayek claimed? — deserves a straight answer, not a subject change.
 
-Disagreements with Marxist-revolutionaries: revolutionary politics is wrong both empirically (democratic societies can change through electoral and institutional means) and normatively (the costs of revolutionary upheaval typically fall on the working class itself).
+The democratic socialist's straight answer has two parts. First, the record's boundary is real: democratic-socialist and social-democratic parties have governed for decades — postwar Britain building the National Health Service, Sweden across most of a century — without famines, camps, or stolen elections, and the socialists who insisted on democratic means were among the Leninist states' first victims (Mensheviks exiled and shot, social democrats filling the early camps). The famine record belongs to the command-economy, one-party branch, and democratic socialists repudiated that branch in real time, not in retrospect. Second, the lesson was learned *as a constraint*: the contemporary democratic-socialist program is built around the claim that socialization must never outrun democratic consent — which is why its proposals run through elections, co-ops, and municipal pilots rather than decrees. The critic may reply that this just proves the program will stall at social democracy; that is Przeworski's argument, coming below.
 
-## 3. The Marxist-revolutionary stream
+Venezuela is the case both sides now reach for, and it deserves precision rather than slogans. Hugo Chávez's "21st-century socialism" — expropriations, price and currency controls, PDVSA's oil revenues spent as a political instrument — was followed under Nicolás Maduro by an economic collapse of historic scale: GDP contracted by about three-quarters between 2013 and 2021, and the UN refugee agency counts roughly 7.9 million Venezuelans — more than a fifth of the population — as having left the country, the largest displacement crisis in the Americas' history. Attribution is genuinely contested: the collapse compounded gross mismanagement and the destruction of price signals *with* an oil-price crash and, after 2017, U.S. financial and oil sanctions. "Socialism did it" skips the oil and the sanctions; "sanctions did it" skips the fact that the contraction and hyperinflation began years before them. What the case cleanly shows is narrower and damning enough: a petrostate that dismantles market signals and concentrates discretionary economic power without institutional checks has no brakes when the money runs out.
 
-Core commitment: capitalism is a system of class exploitation that cannot be reformed into something fundamentally different. Genuine human emancipation requires the abolition of the wage-labor relation, the abolition of private ownership of the means of production, and a fundamental restructuring of political life.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A debater says: "Venezuela proves Medicare for All would wreck the United States." Using the taxonomy from Lesson 1 and this section, name the two distinct errors in that sentence.</summary>
+<p>First, a <em>family</em> error: Venezuela's program was expropriation, price controls, and discretionary state control of production — the state-socialist end of the map. Medicare for All is decommodified provision of one service inside a market economy — the social-democratic end. Second, an <em>attribution</em> error: even for Venezuela itself, serious analysis apportions the collapse among mismanagement, oil dependence, and sanctions rather than reading it off the label "socialism." (Note the symmetry: "Denmark proves socialism works" commits the same family error in the other direction.)</p>
+</details>
 
-Contemporary intellectual figures: David Harvey, Slavoj Žižek (in his more sober moments), the *Monthly Review* tradition, the Marxist humanist tradition, Black radical Marxists like Cedric Robinson and Robin D. G. Kelley, some streams of liberation theology.
+## Three streams, one electoral dilemma
 
-Key claims:
-- The wage relation is inherently exploitative. Workers produce surplus value that is appropriated by capital owners. No reform of this basic relation makes it just; only its abolition does.
-- Capitalism produces structural crises — financial, ecological, geopolitical — that the system cannot solve from within. The historical record of socialist reforms within capitalism (Scandinavian welfare states, post-WWII U.S. Keynesianism) shows real gains followed by neoliberal rollback. The reforms don't stick; the deeper transformation is necessary.
-- The state in capitalist society serves capital. Reformist political strategies that try to capture the state and use it for working-class interests run into the structural reality that the state is constructed to manage capitalism, not transcend it.
-- Revolutionary politics doesn't necessarily mean violent revolution. Mass democratic upheaval — strikes, occupations, the building of dual-power institutions outside the existing state — can produce systemic change without violence. The model is more like the global wave of revolutions in 1848 or the Iranian Revolution's mass mobilization than like the Bolshevik Revolution's vanguardism.
-- The 20th-century state-socialist regimes failed for specific reasons (bureaucratic centralism, lack of democratic accountability, isolation from world markets) that don't generalize to "socialism failed." Future socialist projects can learn from those failures without abandoning the basic project.
+Inside the democratic family, the live disagreement is about end-states and strategy, and it is sharper than outsiders assume. The table compresses it; the prose that follows is each stream at its strongest.
 
-Disagreements with democratic socialists: democratic-socialist gradualism is captured by the system it's trying to change. Electoral politics within capitalist institutions can deliver some gains but cannot achieve the structural transformation socialism requires. The real political work is building movements, mass struggles, and dual-power institutions outside the existing state.
+| | Social democrat | Democratic socialist | Marxist-revolutionary |
+| --- | --- | --- | --- |
+| End-state | Regulated capitalism with a universal welfare state | Economy with substantial worker and public ownership, won democratically | Abolition of the wage relation and private capital |
+| Markets | Keep, embed, and tax | Keep for most goods; remove from health, housing, education; socialize finance over time | Ultimately replace; tactically debated |
+| Chief instrument | Unions, parliaments, tax-and-transfer | Those, plus co-ops, public options, municipal ownership | Mass movements and dual power outside the state |
+| Reads the USSR as | A tyranny that discredited the word | A betrayal and a warning | A bureaucratic deformation with specific causes |
+| Exemplars | Postwar Scandinavia; Bevan's NHS | Debs, Harrington, Sanders, DSA, Mamdani | Luxemburg's heirs; *Monthly Review*; Harvey |
 
-Disagreements with social democrats: social democracy is essentially a stable variant of capitalism with redistribution. It's better than unregulated capitalism but accepts the basic class structure that should be the target of socialist politics.
+The **social democrat** says to the democratic socialist: your end-state is a mirage that wastes political capital. Public ownership of major industry was tried by democrats — Britain nationalized coal, rail, and steel — and produced enough inefficiency that Labour itself retreated; the durable winnings are the NHS, pensions, and bargaining rights, all compatible with private ownership. The **democratic socialist** answers: your equilibrium does not hold. Welfare states built mid-century have been eroding since the 1980s because concentrated private capital eventually buys the politics that unwinds them — climate change being the limit case of a problem capital will not solve against its own balance sheet. The **Marxist-revolutionary** says both of you mistake the state for a neutral tool: capital can veto elected governments through investment strikes and capital flight without breaking a law. And both reply to the revolutionary: your strategy has no democratic exit — every seizure of power "on behalf of" workers has ended with power belonging to the seizers, which is the record this lesson just refused to look away from.
 
-## Where each stream lands on specific issues
+The political scientist Adam Przeworski formalized why this argument never resolves. In *Paper Stones: A History of Electoral Socialism* (1986, with John Sprague), he traced a century of European socialist parties and found a structural trap: industrial workers never became an outright electoral majority anywhere, so socialist parties faced a forced choice — stay a pure class party and lose, or broaden the appeal to clerks, farmers, and shopkeepers and win at the cost of diluting the socialist program. No socialist party has ever won a majority on a platform of actually transforming property relations. On Przeworski's reading, social democracy is not a betrayal of socialism; it is the equilibrium that electoral competition imposes on it.
 
-| Issue | Democratic socialist | Social democrat | Marxist-revolutionary |
-|---|---|---|---|
-| Universal healthcare | Strong support | Strong support | Strong support |
-| Workplace cooperatives | Strong support | Modest support | Strong support |
-| Wealth tax | Strong support | Strong support | Strong support |
-| Worker ownership of major firms | Long-run goal | Modest support | Strong commitment |
-| Free public college | Strong support | Strong support | Strong support |
-| Strong labor rights | Strong support | Strong support | Strong support |
-| Reparations for slavery | Generally support | Mixed | Strong support |
-| UBI | Mixed (vs. jobs program) | Often support | Mixed |
-| Carbon-pricing climate policy | Mixed (vs. nationalization) | Strong support | Mixed (need decommodified energy) |
-| NATO/foreign policy | Skeptical | Mostly accept | Strongly skeptical |
-| Police reform / abolition | Significant abolitionist sympathy | Reform-oriented | Strongly abolitionist |
-| Immigration | Generally welcoming | Generally welcoming | Generally welcoming + class analysis |
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Apply Przeworski: a DSA chapter debates whether to run candidates on "decommodify housing, socialize utilities" or on "lower rents, cheaper power." What is the trade-off his model predicts, and why is there no clean escape?</summary>
+<p>The explicit program mobilizes the committed but caps the coalition below a majority; the broad affordability frame can win — but the voters it wins are voting for cheaper power, not socialism, so the mandate that results is social-democratic whatever the candidate's card says. Przeworski's point is that this is structural: the electorate needed to win contains a majority of people who are not socialists, so winning <em>requires</em> a program they will accept. Every elected socialist from the sewer socialists to Mamdani has lived inside this trade-off.</p>
+</details>
 
-The streams agree on most economic-democratization policies. They diverge on framing and on questions of revolutionary vs. reformist political strategy.
+## What worker ownership proves — and doesn't
 
-## What this means for political coalitions
+If there is a place where democratic socialists believe they hold empirical ground rather than theory, it is the worker cooperative — and the evidence deserves the same cold eye as everything above. The reference case is Mondragon, founded in 1956 in the Basque town of Mondragón by the priest José María Arizmendiarrieta and five of his technical-school students, who began by making paraffin heaters. It is now the world's largest federation of worker cooperatives.
 
-In the U.S., democratic socialism and social democracy are both small but growing political tendencies. DSA has ~90,000 members; the Sanders campaign drew millions of voters; "Squad" representatives sit in Congress. The Marxist-revolutionary stream is much smaller but intellectually active.
+| Fact | Verified figure |
+| --- | --- |
+| Mondragon founded | 1956, Basque Country, Spain |
+| Workforce (2024 annual report) | 70,085 people |
+| Revenue (2024) | €11.2 billion |
+| Scope | Industry, finance (Laboral Kutxa), retail (Eroski), a university |
+| U.S. worker cooperatives | About 1,300 firms employing roughly 15,000 workers (USFWC estimate) |
+| U.S. union membership, for scale | 10.0 percent of wage and salary workers (BLS, 2025) |
 
-The Democratic Party's left wing is closer to social-democratic and democratic-socialist positions than to centrist Democratic positions. Whether this represents an electoral majority remains contested — Sanders won primaries in 2016 but lost; the Squad represents safe districts; mass support for individual policies (Medicare for All) is high in polls but soft when challenged.
+Read the table both ways. Mondragon proves that worker-owned firms can run capital-intensive industry, banking, and retail for seven decades, survive recessions, and compete in export markets — the claim that economic democracy is impossible at firm scale is dead. But the same table shows scale honestly: 70,085 workers is about one-tenth of one percent of the European Union's workforce, and the entire U.S. worker-co-op sector employs fewer people than a single large hospital system. Cooperatives face a structural financing bind — they cannot sell voting equity without ceasing to be cooperatives, so they grow on retained earnings and debt — and Mondragon itself employs many non-member workers in its foreign plants, a standing internal controversy. Co-ops are the strongest *existence proof* in the socialist portfolio and, so far, the weakest *scaling* story. That is precisely why market socialists like Roemer design hybrid instruments, and why social democrats conclude the co-op sector will remain a valuable niche inside a conventional economy.
 
-A defensible position within the socialist tradition now requires:
+## What this lesson settled, and what stays live
 
-1. A view on **which stream best fits current conditions** — democratic socialist, social-democratic, or Marxist-revolutionary.
-2. A view on **what political strategy** advances the project (electoral, movement, dual-power, or some combination).
-3. A view on **specific policy questions** where the streams diverge (UBI, climate, foreign policy).
-4. An honest accounting of what evidence would change the position.
-
-The next lesson examines socialism's relationship to other traditions.
+Settled, as much as anything in political economy is: comprehensive central planning fails at the level of information, incentives, and the historical record, and the democratic and Leninist branches of socialism are different lineages with different ledgers. Live: whether economic democracy can scale beyond the firm; whether social democracy is a stable resting place or, as Przeworski's trap and the democratic socialists' erosion argument suggest from opposite directions, an unstable one; and whether climate policy — which even market economies now route through planning-like instruments — reopens calculation questions everyone thought closed. Lesson 3 leaves the seminar room: it puts the tradition next to its American neighbors and watches the one place where these abstractions currently have a payroll, a police department, and a rent board — New York City.

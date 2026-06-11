@@ -4,10 +4,11 @@ slug: the-disclosure-debate
 kind: reading
 title: The strongest case for and against
 objectives:
-  - State the disclosure-first reformer case at its strongest
-  - State the donor-privacy advocate case at its strongest
-  - State the structural-reform centrist case
-  - Identify what's settled and what's contested constitutionally and empirically
+  - Trace the case-law spine of the disclosure debate from NAACP v. Alabama (1958) through AFPF v. Bonta (2021)
+  - State the disclosure-first reformer case at its strongest, including the empirical evidence on chilling effects
+  - State the donor-privacy advocate case at its strongest, including the exacting-scrutiny framework after Bonta
+  - State the structural-reform centrist case and its use of the Buckley/Brown harassment exemption
+  - Identify what is settled and what is genuinely contested, constitutionally and empirically
 concepts:
   - dark-money
   - donor-disclosure
@@ -21,71 +22,100 @@ sources:
     citation: 'NAACP v. Alabama ex rel. Patterson, 357 U.S. 449 (1958).'
     url: https://supreme.justia.com/cases/federal/us/357/449/
   - type: court-opinion
-    citation: 'Americans for Prosperity Foundation v. Bonta, 594 U.S. ___ (2021).'
+    citation: 'Americans for Prosperity Foundation v. Bonta, 594 U.S. 595 (2021).'
     url: https://www.supremecourt.gov/opinions/20pdf/19-251_p86b.pdf
   - type: paper
     citation: 'Briffault, R. (2010), "Campaign Finance Disclosure 2.0," Election Law Journal 9:4.'
   - type: paper
-    citation: 'Wood, A. K. & Spencer, D. M. (2016), "In the Shadows of Sunlight: The Effects of Transparency on State Political Campaigns," Election Law Journal 15:4.'
+    citation: 'Wood, A. K. & Spencer, D. M. (2016), "In the Shadows of Sunlight: The Effects of Transparency on State Political Campaigns," Election Law Journal 15:4, 302–329.'
+    url: https://www.liebertpub.com/doi/10.1089/elj.2016.0365
   - type: book
     citation: 'Mayer, J. (2016), Dark Money: The Hidden History of the Billionaires Behind the Rise of the Radical Right, Doubleday.'
+  - type: court-opinion
+    citation: 'Buckley v. Valeo, 424 U.S. 1 (1976) — upheld FECA disclosure; created the "threats, harassment, or reprisals" exemption (at 74).'
+    url: https://www.law.cornell.edu/supremecourt/text/424/1
+  - type: court-opinion
+    citation: 'Brown v. Socialist Workers ''74 Campaign Committee, 459 U.S. 87 (1982) — applied the harassment exemption.'
+    url: https://supreme.justia.com/cases/federal/us/459/87/
+  - type: court-opinion
+    citation: 'Doe v. Reed, 561 U.S. 186 (2010) — Scalia, J., concurring in the judgment, on disclosure and "civic courage."'
+    url: https://www.law.cornell.edu/supct/html/09-559.ZC4.html
 perspectives:
   - name: Disclosure-first reformer
   - name: Donor-privacy advocate
   - name: Structural-reform centrist
-duration_min: 9
+duration_min: 14
 ---
 
 # The strongest case for and against
 
-## 1. The disclosure-first reformer case
+In the spring of 1956, Alabama's attorney general, John Patterson, went to court to expel the NAACP from his state — and as part of the suit, demanded the organization's complete membership list. Everyone understood what the list was for. An NAACP member named in 1950s Alabama faced firing, foreclosure, and worse; the organization had watched it happen. The NAACP produced every record demanded except the names, took a $100,000 contempt fine, and fought to the Supreme Court. In *NAACP v. Alabama ex rel. Patterson* (1958), a unanimous Court, through Justice Harlan, held that the Constitution protected the secrecy of the list: privacy in group association, he wrote, "may in many circumstances be indispensable to preservation of freedom of association, particularly where a group espouses dissident beliefs." Sixty-eight years later, every argument about [[term:dark-money]] is, underneath, an argument about that case — about whether a donor to a politically active nonprofit in a polarized America is the heir of an NAACP member in Patterson's Alabama, or something else entirely.
 
-Core argument: Citizens United's bargain (allowing corporate political speech in exchange for robust disclosure) requires disclosure to actually work. The 501(c)(4) loophole undermines that bargain, and closing it is the single highest-leverage campaign-finance reform available.
+## The spine: one Court, two lines of cases
 
-- **CU's disclosure majority was 8-1.** Only Justice Thomas dissented. The constitutional question of disclosure is, by current Court doctrine, settled. This isn't a fringe position.
-- **Empirical evidence of effects.** Wood & Spencer (2016) studied state-level disclosure regimes. They found that compelled disclosure changed donor behavior — both reducing some categories of giving and shifting it to less-disclosed channels. Disclosure works in the sense of constraining behavior; whether you read this as good or bad depends on your view of the underlying activity.
-- **Closing the 501(c)(4) loophole.** The DISCLOSE Act (introduced repeatedly since 2010) would require organizations spending more than a threshold on electoral activity to disclose their top donors. Most current 501(c)(4) electoral activity would fall under this requirement.
-- **Mayer's *Dark Money*.** Documents the structural relationships in dark-money networks — how a small number of wealthy donors fund coordinated networks of 501(c)(4)s that influence policy. The network is real; it is not paranoid to consider its disclosure a public interest.
-- **Bonta is narrower than it looks.** AFP v. Bonta struck down California's required disclosure of 501(c)(3) major donors to the state attorney general. It did not directly reach FEC electoral-disclosure rules. Disclosure-first reformers can support narrowly-targeted electoral disclosure that distinguishes from the broader pre-emptive donor-list disclosure Bonta struck down.
+What makes this debate unusually honest is that both sides argue from the same precedents. Lay the spine out and a pattern appears:
 
-What evidence would change this position? Persuasive evidence that compelled disclosure produces sufficient retaliation to chill legitimate political activity at large scale (the NAACP v. Alabama concern), or that the costs of disclosure-mandated behavioral change exceed the benefits.
+| Case | Year | What was compelled | Outcome |
+| --- | --- | --- | --- |
+| *NAACP v. Alabama* | 1958 | Membership list, to a state government | Unconstitutional (9–0) |
+| *Buckley v. Valeo* | 1976 | FECA's campaign contribution/spending disclosure | Upheld — with an exemption for groups showing a "reasonable probability" of "threats, harassment, or reprisals" |
+| *Brown v. Socialist Workers* | 1982 | Ohio disclosure, applied to a harassed minor party | Exemption granted (the *Buckley* safety valve, used) |
+| *Citizens United* (Part IV) | 2010 | BCRA's disclaimer/disclosure for electoral ads | Upheld 8–1 (Thomas dissenting) |
+| *Doe v. Reed* | 2010 | Public release of referendum petition signatures | Upheld 8–1 against facial challenge |
+| *AFPF v. Bonta* | 2021 | Charities' major-donor lists (IRS Schedule B), to California's attorney general | Facially unconstitutional (6–3) |
 
-## 2. The donor-privacy advocate case
+Read the pattern: the Court has upheld every *electoral* disclosure regime it has squarely reviewed, while striking compelled exposure of *associational membership and donors* outside the electoral context — and it has kept a case-by-case harassment exemption alive as the bridge between the lines. The whole modern fight is over which line the 501(c)(4) electoral donor belongs to. Reformers say: this is *Buckley* and *Citizens United* territory — money spent to elect candidates. Privacy advocates say: a donor to a multi-purpose advocacy nonprofit is an *associate*, not a campaign contributor — *NAACP* and *Bonta* territory. Neither side is making the frame up.
 
-Core argument: NAACP v. Alabama (1958) and Bonta (2021) establish that compelled disclosure of donors faces constitutional scrutiny when it would expose donors to retaliation, threats, or harassment. The 501(c)(4) anonymity is not a "loophole" — it is a feature protecting Americans from political retaliation in a polarized environment.
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A state demands that every nonprofit soliciting donations in-state file its full donor list with the consumer-protection bureau, "to deter charity fraud." Separately, a federal bill requires groups spending over $10,000 on election ads to name donors above $10,000 who funded the ads. Which precedents govern which demand?</summary>
+<p>The first is <em>Bonta</em> on its facts: a blanket, non-electoral dragnet to a regulator, now subject to exacting scrutiny with narrow tailoring — and California's version failed facially. The second is the <em>Buckley</em>/<em>Citizens United</em> line: targeted electoral-spending disclosure, repeatedly upheld 8–1, with the <em>Buckley</em>/<em>Brown</em> harassment exemption available as-applied to groups that can show a reasonable probability of reprisals. The constitutional fate of a disclosure rule turns on which line it falls into — which is why each side fights so hard over the framing.</p>
+</details>
 
-- **NAACP v. Alabama.** Foundational. The state of Alabama subpoenaed the NAACP's membership list during the desegregation era. The Supreme Court held unanimously that compelled disclosure violated the First Amendment because it exposed members to economic and physical retaliation. The principle: the freedom to associate requires the freedom to associate anonymously when the alternative is suppression.
-- **Modern parallels.** Donors to LGBT-rights organizations in hostile states. Donors to controversial religious groups. Donors to conservative organizations in progressive workplaces (and vice versa). Compelled disclosure in current political conditions exposes these donors to retaliation.
-- **Bonta extended the protection.** AFP v. Bonta applied "exacting scrutiny" — between strict and intermediate — to compelled donor disclosure even when the disclosure would only have been to the state government (not the public). The Court held even confidential disclosure regimes face constitutional limits.
-- **The cost of disclosure is privacy chilling.** Wood & Spencer's finding that disclosure changes donor behavior cuts both ways. From the privacy advocate's perspective, this is exactly the chilling effect the First Amendment prohibits — Americans avoiding political engagement to avoid retaliation.
-- **The "loophole" framing is misleading.** 501(c)(4)s are operating under exactly the rules Congress and the IRS established. The current donor-disclosure regime has been the rule for decades. Treating it as a "loophole" frames a settled policy choice as accidental.
+## 1. The disclosure-first reformer, steel-manned
 
-What evidence would change this position? Persuasive evidence that the donor-retaliation concerns NAACP raised do not in fact obtain in modern campaign-finance disclosure, or that targeted electoral disclosure can be designed without exposing donors to retaliation.
+The reformer's core claim: *Citizens United* was a bargain, and only one side of it was delivered. The majority deregulated independent spending on the explicit premise that "prompt disclosure" would let citizens "see whether elected officials are 'in the pocket' of so-called moneyed interests" and give "proper weight to different speakers and messages." Eight justices signed that. The 501(c)(4) pipeline — Lesson 1's machine — voids the premise while keeping the deregulation. Closing it is not a constitutional revolution; it is collecting on the Court's own promissory note.
 
-## 3. The structural-reform centrist case
+The position runs on three further supports:
 
-Core argument: pure disclosure-vs.-privacy is the wrong frame. The right reform combines targeted disclosure (electoral activity, large donors), donor protections (privacy for non-electoral activity, retaliation protections, NAACP-style exemptions where genuine retaliation risks exist), and structural enforcement (closing the "primary purpose" loophole).
+- **The informational interest is doing real work.** *Buckley* identified three interests behind disclosure — informing voters, deterring corruption, enabling enforcement — and the first is the one political science can measure. Voters use source cues the way they use party labels: an ad from "Citizens for a Stronger Tomorrow" is processed differently once you know the funder is a pharmaceutical trade association. Concealment is not a side effect; it is the *point* of the structure — the industry buys the credibility of a name it could never run under. (This is the same logic the [[term:astroturfing]] literature documents for fake grassroots.)
+- **The chilling effect, measured, is small.** The standard privacy objection is that disclosure deters giving. The best empirical test is Wood and Spencer's "In the Shadows of Sunlight" (2016), which exploited variation in state disclosure rules and visibility (2000–2008) and found the deterrence negligible — on the order of *less than one lost donor per candidate* when contributions become more publicly visible. Donors, it turns out, mostly do not behave like dissidents in Patterson's Alabama, because mostly they are not.
+- **The networks are real, and invisible influence compounds.** Jane Mayer's *Dark Money* (2016) documented how a small circle of donors built an integrated, deliberately opaque apparatus of (c)(4)s, [[term:think-tank]]s, and advocacy shells around a long-term policy program. One need not share Mayer's politics to accept her structural finding, which Oklobdzija's 2024 *APSR* data confirmed across the spectrum: these are shadow parties. Democracies regulate parties' money in the open; shadow parties currently answer to no one.
 
-- **Targeted disclosure.** Disclosure should be triggered by a clear electoral-activity threshold, not the entire donor base of an organization. The DISCLOSE Act framework — requiring disclosure of donors funding electoral activity above a threshold ($10K+) — is narrowly targeted.
-- **Privacy protections for non-electoral activity.** A 501(c)(4) doing genuine social-welfare work (advocacy on policy issues, civic education, mutual aid) should not face mandatory donor disclosure for non-electoral activity. The NAACP v. Alabama protections apply most strongly to membership-list-style disclosure unrelated to electoral activity.
-- **NAACP-style exemptions where retaliation risks are genuine.** Specific organizations facing documented retaliation risks (LGBT-rights groups in hostile environments, persecuted religious minorities) could apply for exemptions from electoral-disclosure requirements. The procedural-exemption mechanism exists; what's needed is actually applying it.
-- **Closing the "primary purpose" loophole.** The IRS should issue clear guidance defining "primary purpose" — perhaps requiring that 501(c)(4)s spending more than 25% of resources on electoral activity be reclassified as 527 organizations (which require donor disclosure). This is closer to original Congressional intent for the 501(c)(4) category.
-- **Stronger FEC enforcement.** Coordination rules between 501(c)(4)s and Super PACs are largely unenforced. Tightening enforcement would address the routing concerns even before getting to disclosure.
+And the reformer's answer to *Bonta*: it is a case about a charity regulator's filing-cabinet dragnet, not about elections. Chief Justice Roberts's opinion left the electoral-disclosure cases untouched, and the *Buckley* exemption already protects genuinely endangered groups case-by-case. **What would change the reformer's mind:** rigorous evidence that disclosure-driven retaliation operates at scale on ordinary donors — not anecdotes, but *Brown*-style records multiplying across the ideological spectrum.
 
-What evidence would change this position? Persuasive evidence that the centrist middle is not politically achievable (one side or the other will reject any compromise), or that the targeted-disclosure approach doesn't address the dependence-corruption concerns at the magnitudes that matter.
+## 2. The donor-privacy advocate, steel-manned
 
-## What's settled and what's contested
+The privacy advocate begins where this lesson began: with the membership list as a weapon. The First Amendment tradition here is older than campaign-finance law — it includes the *Federalist Papers* published under the pseudonym "Publius," and the Court's recognition in *McIntyre v. Ohio Elections Commission* (1995) that "anonymity is a shield from the tyranny of the majority." On this view, compelled donor disclosure is not transparency; it is the state building a retaliation database and calling it sunlight.
 
-**Settled:**
-- 501(c)(4)s do not currently have to disclose donors.
-- The donor-pipeline (individual → 501(c)(4) → Super PAC → ad) is real and used.
-- CU's disclosure portion was upheld 8-1 (the constitutional question of electoral disclosure is mostly settled).
-- Bonta narrowed but did not reverse the disclosure-permissive trend.
+The strongest modern version runs:
 
-**Genuinely contested:**
-- The actual scale of unreported dark-money activity (estimates vary widely).
-- Whether modern donor-retaliation concerns are sufficient to justify NAACP-style protection.
-- Whether targeted-disclosure design can address dependence-corruption concerns at the relevant scale.
-- The political feasibility of comprehensive reform.
+- ***Bonta* moved the doctrine, on purpose.** The Court did not merely excuse two conservative foundations from a form; it held 6–3 that *all* compelled donor disclosure gets exacting scrutiny with a narrow-tailoring requirement, and it struck California's regime *facially* — meaning the chilling of association was treated as a system-level harm, not a boutique injury. And the disclosure in *Bonta* ran only to a government office, not the public; the Court found chill anyway. If confidential disclosure to a regulator chills association, publication on a searchable federal website chills it more.
+- **The threat model has modernized.** The 1958 weapon was the White Citizens' Council; the 2026 weapon is the screenshot. Doxxing, employer pressure campaigns, and boycott-by-database operate at internet speed against donors on *both* sides — to an LGBT-rights group in one county, a traditionalist religious charity in the next. Wood and Spencer measured donors who *stopped giving*; the privacy advocate's deeper worry is the donors who never start, which no regression on contribution records can observe.
+- **"Loophole" is a framing, not a fact.** Congress wrote donor disclosure into law for 527s in 2000 and has declined, in every Congress since 2010, to do so for (c)(4)s; Treasury in 2020 (T.D. 9898) deliberately stopped collecting (c)(4) donor names it had no tax-administration use for. A policy reaffirmed that many times is a choice. The DISCLOSE Act's opponents — including, for years, the ACLU with respect to overbroad versions — have argued that its thresholds would expose donors to single-issue advocacy groups whose causes, not candidacies, are the donors' actual commitment.
 
-A defensible position picks one of the three frames, says why, and acknowledges what's contested.
+The privacy advocate must also answer Justice Scalia, who put the opposing tradition at its sharpest in *Doe v. Reed* (2010): "harsh criticism, short of unlawful action, is a price our people have traditionally been willing to pay for self-governance. Requiring people to stand up in public for their political acts fosters civic courage, without which democracy is doomed." The answer: Scalia was writing about citizens *exercising legislative power* by signing referendum petitions — state action by the signer — not about giving to an association that, among many activities, runs some ads. Civic courage is for civic *acts*; association is allowed to be quiet. **What would change the privacy advocate's mind:** evidence that retaliation against ordinary donors is rare and remediable (the Wood–Spencer line, extended and replicated), plus a disclosure design tightly limited to unambiguous electioneering by major funders.
+
+> **Think it through:** Both camps claim NAACP v. Alabama. The reformer says it protects the *harassed*, via an exemption; the privacy advocate says it protects *everyone*, via a default. Which reading better fits a world where you cannot know in advance which causes will become dangerous to support?
+
+## 3. The structural-reform centrist, steel-manned
+
+The centrist position holds that the first two camps are arguing about the wrong unit. The question is not "disclosure: yes or no?" but "*which donors, to which activity, disclosed to whom?*" — and the case law, read carefully, already sketches the settlement:
+
+- **Disclose the electioneering, not the association.** Tie disclosure to *spending* (electoral communications above a threshold) and to *large* donors who fund it — the DISCLOSE Act framework's $10,000 lines — rather than to membership in an organization. Richard Briffault's "Campaign Finance Disclosure 2.0" (2010) supplies the design principle: the informational interest is overwhelmingly about big money, so small-donor disclosure delivers privacy costs with little informational payoff. Raise the floors, publish the whales.
+- **Use the safety valve that already exists.** *Buckley* created, and *Brown v. Socialist Workers* (1982) honored, an as-applied exemption for any group showing a "reasonable probability" of threats, harassment, or reprisals. The centrist would make that exemption administrable — a standing FEC process with a flexible evidentiary standard — so that the genuinely endangered get *NAACP* protection without anonymity becoming the default for a utility buying a bailout.
+- **Police the tax classification.** Much of the problem is not disclosure law but the undefined "primarily engaged" standard from Lesson 1. A bright-line rule (electoral activity above a fixed share of spending forces reclassification as a disclosing 527) attacks the laundering at the vehicle level — though the centrist must concede this requires the IRS rulemaking Congress has barred by rider since 2016, which is a political fact, not a design flaw.
+
+**What would change the centrist's mind:** evidence that the middle is unbuildable — that exemption processes get weaponized or rubber-stamped, that thresholds just relocate the money (as the 527-to-c4 migration did after 2000), or that neither coalition will trade.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A bill requires public disclosure of every donor over $10,000 to any group spending $50,000+ on electoral ads, with an FEC exemption process modeled on Brown v. Socialist Workers. Which camp objects to what — and on which precedent?</summary>
+<p>The privacy advocate objects that post-<em>Bonta</em>, even this targeted regime must survive exacting scrutiny with narrow tailoring, and that exemption-by-application makes endangered donors out themselves to a government office first (<em>NAACP</em>'s core harm). The reformer mostly cheers, but worries the exemption becomes a loophole and that money migrates to uncovered "issue ad" formats (the post-2000 pattern). The centrist claims both objections prove the design right: it splits electoral transparency (<em>Buckley</em>/<em>Citizens United</em> line) from associational privacy (<em>NAACP</em>/<em>Bonta</em> line) at the seam the Court itself drew.</p>
+</details>
+
+## What's settled, what's contested
+
+**Settled.** 501(c)(4)s owe the public no donor list, and since 2020 the IRS does not collect names either. The pipeline is real and heavily used (about $1.9 billion in 2024, on the fuller methodology). Electoral disclosure is constitutional under *Citizens United* (8–1) and its line; blanket non-electoral donor dragnets are not, under *Bonta* (6–3). A harassment exemption exists and has been honored.
+
+**Genuinely contested.** Whether *Bonta*'s exacting-scrutiny-plus-narrow-tailoring framework will migrate into election-law review (lower courts have divided over how far it reaches). Whether chilling effects on ordinary donors are negligible (Wood–Spencer) or systematically underestimated (the never-started-giving problem). Whether an exemption regime can be both protective and un-gameable. And the empirics of influence itself — whether concealed money *changes* policy outcomes or merely funds fights that would happen anyway.
+
+This lesson did not settle which First Amendment tradition should govern the (c)(4) donor — that is precisely the live question, and the Court has not answered it. A defensible position picks a frame, defends it against the strongest opposing case (not the weakest), and names the evidence that would change it. Lesson 3 turns to the policy landscape: what reformers, regulators, and the states are actually doing about it, as of mid-2026.

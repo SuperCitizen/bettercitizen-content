@@ -28,4 +28,10 @@ key_orgs:
 related_ideologies:
   - american-conservatism
 historical_period: 17th-century classical liberal roots; modern American libertarianism post-WWII
+# Two-axis spectrum placement (editorial approximation; each value in [-1, 1]).
+# economic: -1 state-directed <-> +1 market-directed
+# social:   -1 individual liberty <-> +1 social order / tradition
+spectrum:
+  economic: 0.9
+  social: -0.85
 body_md: ""

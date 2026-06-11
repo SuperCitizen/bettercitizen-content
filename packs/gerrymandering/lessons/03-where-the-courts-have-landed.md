@@ -4,89 +4,141 @@ slug: where-the-courts-have-landed
 kind: reading
 title: Where the courts have landed
 objectives:
-  - Distinguish partisan gerrymandering doctrine (Rucho 2019) from racial gerrymandering doctrine (Allen v. Milligan 2023)
-  - Understand the Independent State Legislature theory and what the Supreme Court did with it
-  - Identify the state-court venue as the post-Rucho pathway for partisan claims
+  - Trace the arc from Baker v. Carr (1962) through Rucho (2019) on partisan claims
+  - Distinguish partisan gerrymandering doctrine from racial gerrymandering doctrine, and explain why the same map is litigated under two different bodies of law
+  - State what Louisiana v. Callais (2026) held and what it changed about Voting Rights Act Section 2
+  - Explain the Independent State Legislature theory and what Moore v. Harper (2023) did with it
+  - Identify the state-court venue as the principal post-Rucho pathway for partisan claims, and its limits
 concepts:
   - gerrymandering
+  - redistricting
+  - equal-protection
 sources:
   - type: court-opinion
-    citation: 'Rucho v. Common Cause, 588 U.S. ___ (2019).'
+    citation: 'Rucho v. Common Cause, 588 U.S. 684 (2019).'
     url: https://www.supremecourt.gov/opinions/18pdf/18-422_9ol1.pdf
   - type: court-opinion
-    citation: 'Allen v. Milligan, 599 U.S. ___ (2023).'
+    citation: 'Allen v. Milligan, 599 U.S. 1 (2023).'
     url: https://www.supremecourt.gov/opinions/22pdf/21-1086_1co6.pdf
   - type: court-opinion
-    citation: 'Moore v. Harper, 600 U.S. ___ (2023).'
+    citation: 'Moore v. Harper, 600 U.S. 1 (2023).'
     url: https://www.supremecourt.gov/opinions/22pdf/21-1271_3f14.pdf
   - type: court-opinion
     citation: 'Shaw v. Reno, 509 U.S. 630 (1993).'
     url: https://supreme.justia.com/cases/federal/us/509/630/
+  - type: court-opinion
+    citation: 'Louisiana v. Callais, 608 U.S. ____ (2026) (No. 24-109, decided Apr. 29, 2026) — racial-gerrymandering holding and reworked Section 2 framework.'
+    url: https://www.supremecourt.gov/opinions/25pdf/24-109_21o3.pdf
+  - type: court-opinion
+    citation: 'Abbott v. League of United Latin American Citizens, 607 U.S. ____ (2025) (stay order of Dec. 4, 2025) — Texas 2025 map explicable as "partisan advantage pure and simple"; followed by summary reversal, Apr. 27, 2026.'
+    url: https://www.supremecourt.gov/opinions/25pdf/25a608_7khn.pdf
+  - type: court-opinion
+    citation: 'Baker v. Carr, 369 U.S. 186 (1962).'
+    url: https://supreme.justia.com/cases/federal/us/369/186/
+  - type: court-opinion
+    citation: 'Reynolds v. Sims, 377 U.S. 533 (1964).'
+    url: https://supreme.justia.com/cases/federal/us/377/533/
+  - type: court-opinion
+    citation: 'Gaffney v. Cummings, 412 U.S. 735 (1973).'
+    url: https://supreme.justia.com/cases/federal/us/412/735/
+  - type: court-opinion
+    citation: 'Vieth v. Jubelirer, 541 U.S. 267 (2004).'
+    url: https://supreme.justia.com/cases/federal/us/541/267/
+  - type: court-opinion
+    citation: 'League of United Latin American Citizens v. Perry, 548 U.S. 399 (2006).'
+    url: https://supreme.justia.com/cases/federal/us/548/399/
+  - type: court-opinion
+    citation: 'Gill v. Whitford (2018) — standing in partisan-gerrymandering suits is district-by-district.'
+    url: https://www.oyez.org/cases/2017/16-1161
+  - type: court-opinion
+    citation: 'Alexander v. South Carolina State Conference of the NAACP (2024) — presumption of legislative good faith in race-vs-party disentanglement.'
+    url: https://www.oyez.org/cases/2023/22-807
+  - type: website
+    citation: 'SCOTUSblog, "How Callais broke the Voting Rights Act and weaponized the equal protection clause, part 1" (May 2026).'
+    url: https://www.scotusblog.com/2026/05/how-callais-broke-the-voting-rights-act-and-weaponized-the-equal-protection-clause-part-1/
+  - type: website
+    citation: 'NBC News, "Louisiana will delay House primaries after Supreme Court redistricting ruling" (May 2026).'
+    url: https://www.nbcnews.com/politics/2026-election/louisiana-delay-house-primaries-supreme-court-redistricting-ruling-rcna342858
 perspectives:
   - name: Reform advocate
   - name: Federalist (states-decide) view
   - name: Originalist
-duration_min: 10
+duration_min: 17
 ---
 
 # Where the courts have landed
 
-The legal landscape on gerrymandering is bifurcated. Partisan claims are essentially closed in federal court; racial claims remain alive; state-court doctrine is a frontier. Knowing which is which matters because it changes what reform is even possible.
+On the morning of April 29, 2026, the Supreme Court handed down *Louisiana v. Callais* — a case argued once, set for reargument, argued again, and then held for six more months while two congressional election cycles' worth of maps hung on the answer. Within a day, Louisiana had suspended its U.S. House primaries; within a month, its legislature had erased a majority-Black district that federal courts had spent two years ordering it to draw. To understand how American law arrived at a place where *that* sequence is legally coherent — where courts order a district into existence in 2024 and ratify its destruction in 2026 — you need the whole arc. The doctrine is bifurcated: claims that a map is too *partisan* and claims that a map is racially discriminatory travel on entirely separate legal tracks, with separate histories, separate tests, and now separate fates.
 
-## 1. Partisan gerrymandering: Rucho closed the federal door
+## Out of the thicket: one person, one vote
 
-*Rucho v. Common Cause* (2019), Roberts, C.J., for a 5-4 majority:
+For the republic's first 170 years, federal courts refused to touch districting at all. Justice Felix Frankfurter gave the refusal its slogan in *Colegrove v. Green* (1946): "Courts ought not to enter this political thicket." The cost of abstention compounded quietly. Tennessee's legislature, like many, simply stopped redistricting after 1901; by 1960, urban districts held many times the population of rural ones, and the legislators benefiting from the malapportionment were the only people with authority to fix it.
 
-> "Partisan gerrymandering claims present political questions beyond the reach of the federal courts. Federal judges have no license to reallocate political power between the two major political parties, with no plausible grant of authority in the Constitution, and no legal standards to limit and direct their decisions."
+*Baker v. Carr* (1962) broke the deadlock, holding that an [[term:equal-protection]] challenge to apportionment is justiciable — a "political question" no more. The substantive rule followed fast. *Wesberry v. Sanders* (1964) required congressional districts within a state to be equal in population "as nearly as is practicable"; *Reynolds v. Sims* (1964) extended population equality to both chambers of every state legislature, in Chief Justice Warren's most quoted line: "Legislators represent people, not trees or acres." Within a decade, the *malapportionment* problem — unequal district sizes — was essentially solved. But notice what one person, one vote does not reach: every district in the 50-voter figure from Lesson 1 contains exactly ten voters. Equal-population [[term:gerrymandering]] sailed through the new rule untouched; indeed, the decennial [[term:redistricting]] that *Reynolds* compels is the very occasion gerrymanderers use.
 
-What this does:
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A state's districts each contain exactly 760,000 people, yet the minority party's 47% of votes yields 70% of seats. Which constitutional doctrine from this section has been violated — and which problem is this instead?</summary>
+<p><strong>None of them.</strong> One person, one vote (<em>Baker</em>, <em>Wesberry</em>, <em>Reynolds</em>) polices population <em>equality across districts</em>, and these districts are perfectly equal. A seats-votes inversion with equal populations is the gerrymandering problem — vote <em>dilution by arrangement</em> rather than by head-count — and it required entirely different doctrine, which is the story of the next two sections.</p>
+</details>
 
-- Forecloses *federal* constitutional claims that a map is too partisan.
-- Does not foreclose state-constitutional claims under state-law standards (Pennsylvania, North Carolina state courts, and others have continued to rule against partisan gerrymanders post-Rucho on state-constitutional grounds).
-- Does not foreclose statutory remedies: Congress retains Article I §4 authority to "make or alter" federal election regulations. The Freedom to Vote Act and similar federal redistricting bills would be exercises of this authority.
+## The partisan track: justiciable, standardless, then closed
 
-The dissent (Kagan, joined by Ginsburg, Breyer, Sotomayor) is worth reading at full length. Its core: the majority's framing of "no judicially manageable standard" is a choice; the lower courts had developed workable tests; the question is whether the Court is willing to apply them, not whether they exist.
+The Court's first instinct on partisan line-drawing was tolerance. *Gaffney v. Cummings* (1973) upheld a Connecticut plan openly drawn to lock in proportional "political fairness" between the parties — districting with political data and political goals, the Court said, is ordinary. *Davis v. Bandemer* (1986) then held partisan-gerrymandering claims justiciable in principle, but no majority could say what the test was, and for eighteen years no plaintiff could win under it. *Vieth v. Jubelirer* (2004) nearly ended the experiment: four justices (Scalia writing) would have declared such claims nonjusticiable outright; Justice Kennedy, concurring alone, kept the door ajar — no manageable standard *yet*, he wrote, but perhaps one would emerge. The political scientists took the invitation seriously: the efficiency gap, partisan symmetry, and ensemble simulations from Lesson 1 were built in large part to answer Kennedy. *LULAC v. Perry* (2006) added a fact that matters enormously in 2026: when Texas redrew its map mid-decade in 2003 for nakedly partisan reasons, the Court found *mid-decade redistricting itself* constitutionally unobjectionable (while striking one district under the Voting Rights Act). And *Gill v. Whitford* (2018) — the Wisconsin efficiency-gap case — was decided unanimously on standing: a voter's gerrymandering injury is district-specific, so statewide statistical harm alone doesn't open the courthouse door.
 
-## 2. Racial gerrymandering: still justiciable
+*Rucho v. Common Cause* (2019) closed it. Reviewing North Carolina's 10–3 map and Maryland's 6th District together — one gerrymander per party, deliberately paired — Chief Justice Roberts wrote for a 5–4 Court that partisan-gerrymandering claims "present political questions beyond the reach of the federal courts. Federal judges have no license to reallocate political power between the two major political parties, with no plausible grant of authority in the Constitution, and no legal standards to limit and direct their decisions." The majority did not deny the practice was unjust — "excessive partisanship in districting leads to results that reasonably seem unjust" — it denied that Article III courts could police it without choosing among contestable theories of fairness. Justice Kagan's dissent, for four, answered that lower courts had already applied workable, math-assisted standards and that "of all times to abandon the Court's duty to declare the law, this was not the one... With respect but deep sadness, I dissent."
 
-*Shaw v. Reno* (1993) established that racial gerrymandering is subject to **strict scrutiny** under the 14th Amendment. A map drawn predominantly to dilute a racial minority's voting power must serve a compelling state interest and be narrowly tailored. The Voting Rights Act's Section 2 provides a separate statutory cause of action.
+Three doors *Rucho* left open define present-day strategy. State courts may police partisan maps under *state* constitutions. Congress may legislate under Article I, §4. And racial-discrimination claims remained federal business — a sentence that read very differently before April 2026.
 
-*Allen v. Milligan* (2023), Roberts, C.J., for a 5-4 majority that surprised many observers, **reaffirmed Section 2** and ordered Alabama to redraw its congressional map to add a second majority-Black district. The decision is notable because:
+## The racial track: Shaw, Gingles, Milligan — then Callais
 
-- It pushed back against arguments that Section 2 is unconstitutional or has been over-extended.
-- It reaffirmed the *Gingles* test for racial vote dilution: a politically cohesive minority group, geographically compact enough to form a majority in a district, whose preferred candidates are usually defeated by white-bloc voting.
-- It came from the same Chief Justice who wrote *Rucho*. The combination clarifies the doctrine: federal courts are out of partisan gerrymandering, *but* are firmly in racial gerrymandering. The challenge for litigants is that the same map is often partisan AND racial, and the legal framework only addresses the latter.
+Racial districting law runs on two distinct theories. The *statutory* theory is vote dilution under §2 of the Voting Rights Act: since *Thornburg v. Gingles* (1986), a minority group that is geographically compact, politically cohesive, and persistently outvoted by bloc voting could compel the drawing of a district where it can elect candidates of its choice. The *constitutional* theory cuts the other way: *Shaw v. Reno* (1993) held that sorting voters by race — even for benign reasons — triggers strict scrutiny when race predominates over traditional districting principles, Justice O'Connor warning that a bizarre majority-minority district "bears an uncomfortable resemblance to political apartheid." Map-drawers in covered states have spent thirty years navigating the strait between the two: draw too few minority districts and face §2 liability; draw them too race-consciously and face *Shaw*.
 
-## 3. The Independent State Legislature theory: Moore v. Harper
+The strait seemed to stabilize. *Allen v. Milligan* (2023) surprised nearly everyone: a 5–4 Court, Roberts writing, reaffirmed *Gingles* and ordered Alabama to draw a second district where Black voters could elect their candidate. The remedial map worked precisely as intended — in 2024, Alabama's redrawn 2nd District elected Democrat Shomari Figures, giving Alabama two Black members of Congress at the same time for the first time in its history. *Alexander v. South Carolina State Conference of the NAACP* (2024), 6–3, then tilted the constitutional theory toward the states: plaintiffs alleging racial gerrymandering must overcome a presumption of legislative good faith, and where map-drawers claim their motive was *partisan* (legal under *Rucho*) rather than racial, the burden of disentangling the two falls on the challengers.
 
-A theory had been gaining ground that Article I §4's grant of redistricting authority to "the Legislature" of each state means *only* the legislature — that state courts and state constitutions cannot review the legislature's redistricting work. If accepted, this would have foreclosed state-court avenues opened post-Rucho.
+Then came **Louisiana v. Callais**. The case began as *Milligan*'s sequel: federal courts had held Louisiana's 2022 map (one majority-Black district of six, in a state one-third Black) likely violated §2, and the legislature responded in 2024 with a map adding a second such district. A group of self-described "non-African American voters" sued, arguing the *new* map was itself an unconstitutional racial gerrymander. The Court heard argument in March 2025, ordered reargument on broader questions — including whether race-conscious remedial districting under §2 can be squared with the 14th and 15th Amendments at all — heard the case again on October 15, 2025, and decided it on April 29, 2026. By 6–3 (Alito writing, joined by Roberts, Thomas, Gorsuch, Kavanaugh, and Barrett; Sotomayor, Kagan, and Jackson dissenting), the Court affirmed that Louisiana's remedial map was an unconstitutional racial gerrymander — and held that compliance with §2, as the lower courts had read it, could not justify it. The majority stopped short of striking down §2, but reworked the *Gingles* framework in ways that make new vote-dilution wins far harder: plaintiffs' illustrative maps must now satisfy *all* of a state's legitimate districting goals (incumbency protection included), the Court warned that §2 claims in a polarized two-party system can be partisan claims "repackaged" around *Rucho*, and — most consequentially — challengers must now produce evidence supporting "a strong inference that the State intentionally drew its districts to afford minority voters less opportunity because of their race." Effects-based liability, the centerpiece of the 1982 amendments to §2, was read down toward an intent test.
 
-*Moore v. Harper* (2023), Roberts, C.J., for a 6-3 majority, **rejected** the strongest form of the theory. State courts can review state legislative redistricting under state constitutional standards, with an exception for cases where state courts "transgress the ordinary bounds of judicial review" — a vague carve-out that future cases will define. The state-court pathway remains open.
+The aftermath was immediate. Louisiana suspended its May 16 U.S. House primaries the next day, moved House races to a November 3 open primary by statute, and by mid-May 2026 enacted a map eliminating the second majority-Black district whose creation the courts had ordered two years earlier. In Alabama, the Supreme Court vacated the *Milligan*-line remedial rulings on May 11 for reconsideration in light of *Callais*; the three-judge court again blocked the legislature's 2023 map as intentionally discriminatory on May 26 — and on June 2 the Supreme Court stayed that ruling too, restoring the 2023 map for the midterms. Two days before *Callais*, the Court had already summarily reversed the panel that blocked Texas's 2025 mid-decade map as a racial gerrymander, citing its own December 2025 stay ruling that the map was explicable as "partisan advantage pure and simple." And several Southern states signaled plans to revisit maps drawn under §2 mandates. As of mid-2026, the doctrine's practical shape is: partisan claims are nonjusticiable federally (*Rucho*), racial-sorting claims face a good-faith presumption (*Alexander*), and §2 dilution claims face a new intent hurdle (*Callais*).
 
-## 4. Where partisan reformers go now
+> **Why this matters:** Read *Rucho*, *Alexander*, and *Callais* together and a strategic loop emerges, which commentators promptly named: accused of racial gerrymandering, a state can answer "it was partisan, not racial" — and partisan gerrymandering is something no federal court may review. Accused under §2 of diluting minority votes, the state can demand proof of racial *intent*, with politics as the innocent explanation. Race and party are nearly collinear in the states where these cases arise, and the doctrine now resolves nearly every ambiguity in the map-drawer's favor. Defenders answer that this is exactly what colorblind constitutionalism requires — that *Callais* finally ended decades of court-compelled racial sorting. That argument, not the mechanics, is where the genuine disagreement lives.
 
-Post-Rucho and post-Moore, the legal architecture for partisan gerrymandering reform is:
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> It's 2027. A state with a 30% Black population draws a map with one majority-Black district out of ten; voting is racially polarized, and plaintiffs' demographers produce a compact second district. Under Gingles as applied before 2026, how would this claim have fared — and what additional showing does Callais demand?</summary>
+<p>Pre-2026, that fact pattern is close to <em>Allen v. Milligan</em> (2023), and Alabama lost: compactness, cohesion, and bloc voting were the heart of the case, and discriminatory <em>effect</em> sufficed under §2. After <em>Callais</em>, plaintiffs must additionally support "a strong inference" of <em>intentional</em> race-based deprivation — and their illustrative maps must achieve all the state's legitimate goals, incumbent protection included, while the state may recharacterize the lines as partisan choices beyond federal review. Same facts, opposite trajectory: that delta is the single most important doctrinal change of the decade in this field.</p>
+</details>
 
-- **State constitutional litigation** in states whose constitutions have free-and-fair-elections clauses or equivalents (e.g., Pennsylvania's *League of Women Voters v. Commonwealth* 2018; New York's *Harkenrider v. Hochul* 2022).
-- **State ballot initiatives** to establish independent commissions (California, Michigan, Colorado, Arizona, others).
-- **Federal legislation** (Freedom to Vote Act and successors) using Congress's Article I §4 power. As of this writing, no such bill has passed.
-- **Voting Rights Act litigation** for the racial-component overlap (the Alabama, Louisiana, and Georgia maps post-*Allen*).
+## The state-court frontier — and its Moore v. Harper limit
 
-The reform path that *isn't* available, post-Rucho, is direct federal constitutional litigation against partisan gerrymanders.
+With the federal partisan door shut, litigation moved to state constitutions, and it has real victories: Pennsylvania's Supreme Court struck the state's congressional map under its Free and Equal Elections Clause (*League of Women Voters v. Commonwealth*, 2018); New York's highest court voided a Democratic gerrymander under the state's anti-gerrymandering amendment (*Harkenrider v. Hochul*, 2022); and Utah's courts enforced the voter-initiated Proposition 4 against the legislature's repeal, culminating in a court-adopted map for 2026 that the Utah Supreme Court declined to disturb in February 2026.
+
+The counter-theory was the **Independent State Legislature doctrine**: Article I, §4 gives election authority to "the Legislature" of each state, so — the strong version ran — state courts and state constitutions cannot constrain the legislature's federal-election rules at all. Had it prevailed, every state-constitutional gerrymandering ruling above would have been void as to congressional maps. *Moore v. Harper* (2023), 6–3, rejected the strong version: state legislatures act within the ordinary bounds of state constitutional law, reviewable by state courts. But Roberts's opinion kept a federal backstop — state courts may not "transgress the ordinary bounds of judicial review" so as to usurp the legislature's role — a deliberately undefined line that invites federal second looks at aggressive state rulings. The state-court pathway is open, with a yellow light.
+
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 250" width="100%" role="img" aria-label="Timeline from 1962 to 2026 showing two tracks of gerrymandering doctrine. Partisan track: Baker 1962, Gaffney 1973, Bandemer 1986, Vieth 2004, Rucho 2019 where the federal door closes. Racial track: Voting Rights Act 1965, Gingles 1986, Shaw 1993, Milligan 2023, Callais 2026 which narrows Section 2." style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="22" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="var(--ink, #14130f)">Two tracks of doctrine, 1962–2026</text>
+  <text x="20" y="80" font-family="Georgia, serif" font-size="12.5" fill="var(--blue, #2f4d6e)" font-weight="bold">Partisan claims</text>
+  <line x1="60" y1="110" x2="700" y2="110" stroke="var(--blue, #2f4d6e)" stroke-width="2" />
+  <circle cx="69" cy="110" r="5" fill="var(--blue, #2f4d6e)" /><text x="69" y="98" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">Baker '62</text>
+  <circle cx="176" cy="110" r="5" fill="var(--blue, #2f4d6e)" /><text x="176" y="130" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">Gaffney '73</text>
+  <circle cx="302" cy="110" r="5" fill="var(--blue, #2f4d6e)" /><text x="302" y="98" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">Bandemer '86</text>
+  <circle cx="477" cy="110" r="5" fill="var(--blue, #2f4d6e)" /><text x="477" y="130" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">Vieth '04</text>
+  <circle cx="622" cy="110" r="6" fill="var(--accent, #8a2a1e)" /><text x="622" y="98" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="var(--accent, #8a2a1e)" text-anchor="middle">Rucho '19 — closed</text>
+  <text x="20" y="160" font-family="Georgia, serif" font-size="12.5" fill="var(--green, #4a6b3a)" font-weight="bold">Racial claims</text>
+  <line x1="60" y1="190" x2="700" y2="190" stroke="var(--green, #4a6b3a)" stroke-width="2" />
+  <circle cx="99" cy="190" r="5" fill="var(--green, #4a6b3a)" /><text x="99" y="212" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">VRA '65</text>
+  <circle cx="302" cy="190" r="5" fill="var(--green, #4a6b3a)" /><text x="302" y="178" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">Gingles '86</text>
+  <circle cx="370" cy="190" r="5" fill="var(--green, #4a6b3a)" /><text x="370" y="212" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">Shaw '93</text>
+  <circle cx="661" cy="190" r="5" fill="var(--green, #4a6b3a)" /><text x="640" y="178" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" text-anchor="middle">Milligan '23</text>
+  <circle cx="690" cy="190" r="6" fill="var(--accent, #8a2a1e)" /><text x="700" y="216" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="var(--accent, #8a2a1e)" text-anchor="end">Callais '26 — narrowed</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: Sixty-four years of doctrine on two tracks. The partisan track opened with <em>Baker</em> (1962), never produced a winning standard, and closed federally with <em>Rucho</em> (2019). The racial track, built on the Voting Rights Act and the Equal Protection Clause, stayed open through <em>Milligan</em> (2023) — then <em>Callais</em> (2026) narrowed Section 2 toward an intent test. State constitutional claims (not shown) are the remaining open lane, subject to <em>Moore v. Harper</em>'s outer bound.</figcaption>
+</figure>
 
 ## What this means for the position you might declare
 
-If you favor reform:
-- The realistic theory of change is state-level (constitutional litigation + initiatives) plus federal legislation, not federal courts.
-- The reform-advocate position has more empirical support than ever (independent commissions reduce bias) but less judicial leverage than reformers had pre-Rucho.
+**If you favor reform:** Your realistic instruments are state constitutions, state initiatives ([[term:ballot-initiative]] states only — roughly half), and Congress's Article I, §4 power, which no court has narrowed. Your judicial leverage is the weakest it has been since 1986: *Rucho* closed partisan claims, *Callais* narrowed racial ones, and *Moore* put an undefined ceiling over state courts. The honest reform position now treats litigation as a holding action and legislation as the theory of change.
 
-If you favor the partisan-realist or federalist views:
-- *Rucho* and the Article I §4 textualism vindicate parts of the position. The federal courts agree partisan redistricting is for political branches.
-- The strongest version of this position has to grapple with *Allen v. Milligan*: the same Court that closed federal partisan doors kept federal racial doors firmly open, suggesting the textual argument is not as clean as the strongest versions claim.
+**If you favor the partisan-realist or federalist views:** The Court has largely adopted your jurisdictional map — politics for political questions, with *Rucho* expressly inviting Congress and the states to act. But *Callais* complicates the federalist's tidy division ("courts out of partisan claims, in on racial ones"): the racial lane courts were supposed to patrol has itself been narrowed, and the *Rucho* two-step means the partisan label now does double duty as a racial-claim defense. You should be able to say whether that outcome vindicates neutral text or launders discrimination — and what evidence distinguishes the two.
 
-If you're undecided:
-- The empirical question (can we measure "fair" districting?) is more settled than reformers expected ten years ago.
-- The constitutional question (where's the federal warrant?) is more settled than reformers wanted.
-- The political question (will state-level reform actually happen?) is the live one.
+**If you're undecided:** The measurement question is settled enough (gerrymanders are detectable); the federal constitutional question is settled for now (*Rucho*, and after *Callais*, much of §2); the live questions are state-level — and they are very live, as the 2025–26 mid-decade war in Lesson 2 shows.
 
-A position is most defensible when it names which of these three questions you find most decisive — and what evidence on that question would change your mind.
+What this lesson did *not* settle: whether *Callais* is rightly decided — its colorblind-Constitution reading of the Reconstruction Amendments against Justice Kagan's charge in dissent that the majority's "updates" in fact "eviscerate the law" — and whether Congress will ever use the §4 power everyone agrees it has. Those are the arguments your declared position has to survive.

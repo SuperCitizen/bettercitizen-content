@@ -4,14 +4,17 @@ slug: the-policy-landscape
 kind: reading
 title: The current policy landscape
 objectives:
-  - Identify the main legislative proposals on the table (Medicare for All, public option, Medicaid expansion, market-deregulation bills)
-  - Describe the political coalitions and what each is willing/not willing to compromise on
-  - State what each level of government can do without further legislation
-  - Identify the next likely policy fight and what would make it possible
+  - Describe what the One Big Beautiful Bill Act of 2025 changed in Medicaid and the ACA marketplaces, and on what implementation schedule
+  - Explain how the enhanced premium tax credits expired and what measurably happened to 2026 premiums and enrollment
+  - Trace Medicare drug-price negotiation through its first three rounds and state what each perspective takes from it
+  - Identify what Congress, the executive branch, the states, and the courts can each do without new federal legislation
+  - State where the next coverage and cost fights are scheduled, and what evidence would count as each side winning
 concepts:
   - healthcare
   - policy-coalitions
   - federalism
+  - entitlement-program
+  - subsidy
 sources:
   - type: paper
     citation: 'CBO (2022), "Federal Subsidies for Health Insurance Coverage for People Under 65: 2022 to 2032."'
@@ -30,58 +33,177 @@ sources:
   - type: statute
     citation: 'Inflation Reduction Act of 2022, Pub. L. No. 117-169 — first federal Medicare drug-price negotiation authority.'
     url: https://www.congress.gov/bill/117th-congress/house-bill/5376
+  - type: statute
+    citation: 'One Big Beautiful Bill Act, Pub. L. No. 119-21 (July 4, 2025) — Medicaid work requirements, six-month redeterminations, provider-tax limits, Rural Health Transformation Program.'
+    url: https://www.congress.gov/bill/119th-congress/house-bill/1
+  - type: paper
+    citation: 'CBO (July 21, 2025), "Estimated Budgetary Effects of Public Law 119-21, the One Big Beautiful Bill Act."'
+    url: https://www.cbo.gov/publication/61461
+  - type: paper
+    citation: 'CBO (2025), "Estimated Effects on the Number of Uninsured People in 2034 Resulting From Policies Incorporated Within CBO''s Baseline Projections and H.R. 1."'
+    url: https://www.cbo.gov/publication/61463
+  - type: website
+    citation: 'KFF, "A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."'
+    url: https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/
+  - type: website
+    citation: 'KFF, "A Closer Look at the $50 Billion Rural Health Fund in the New Reconciliation Law."'
+    url: https://www.kff.org/medicaid/a-closer-look-at-the-50-billion-rural-health-fund-in-the-new-reconciliation-law/
+  - type: paper
+    citation: 'Buettgens, M. & Wang, R. (Urban Institute, 2025), "OBBBA''s Six-Month Redetermination Could Reduce Medicaid Expansion Enrollment by 2.0 to 3.1 Million in 2028."'
+    url: https://www.urban.org/research/publication/obbbas-six-month-redetermination-could-reduce-medicaid-expansion-enrollment-20
+  - type: paper
+    citation: 'Sommers, B. D., Goldman, A. L., Blendon, R. J., Orav, E. J., & Epstein, A. M. (2019), "Medicaid Work Requirements — Results from the First Year in Arkansas," New England Journal of Medicine 381, 1073–1082.'
+    url: https://www.nejm.org/doi/full/10.1056/NEJMsr1901772
+  - type: crs-report
+    citation: 'Congressional Research Service (2025–26), "Enhanced Premium Tax Credit and 2026 Exchange Premiums: Frequently Asked Questions" (R48290).'
+    url: https://www.congress.gov/crs-product/R48290
+  - type: website
+    citation: 'KFF, "What We Know So Far About 2026 ACA Marketplace Enrollment, Premiums, and Deductibles" (2026).'
+    url: https://www.kff.org/affordable-care-act/what-we-know-so-far-about-2026-aca-marketplace-enrollment-premiums-and-deductibles/
+  - type: website
+    citation: 'CMS, "Marketplace 2026 Open Enrollment Period Report: National Snapshot" — final 2026 plan selections.'
+    url: https://www.cms.gov/newsroom/fact-sheets/marketplace-2026-open-enrollment-period-report-national-snapshot-2
+  - type: website
+    citation: 'CMS, "Selected Drugs and Negotiated Prices" — Medicare Drug Price Negotiation Program, rounds one and two.'
+    url: https://www.cms.gov/initiatives/medicare-prescription-drug-affordability/overview/medicare-drug-price-negotiation-program/selected-drugs-negotiated-prices
+  - type: website
+    citation: 'CMS (2026), "CMS Announces Selection of Drugs for Third Cycle of Medicare Drug Price Negotiation Program, Including First-Ever Part B Drugs."'
+    url: https://www.cms.gov/newsroom/press-releases/cms-announces-selection-drugs-third-cycle-medicare-drug-price-negotiation-program-including-first
+  - type: court-opinion
+    citation: 'Kennedy v. Braidwood Management, Inc., 606 U.S. ___ (2025) — upheld the ACA preventive-services mandate; Task Force members are inferior officers supervised by the HHS Secretary.'
+    url: https://www.supremecourt.gov/opinions/24pdf/24-316_869d.pdf
+  - type: book
+    citation: 'Pierson, P. (1994), Dismantling the Welfare State? Reagan, Thatcher, and the Politics of Retrenchment, Cambridge University Press.'
 perspectives:
   - name: Single-payer advocate
   - name: Market-reform advocate
   - name: ACA-expansion incrementalist
-duration_min: 9
+duration_min: 16
 ---
 
 # The current policy landscape
 
-Three categories of policy change are live: federal legislation (largely stalled), federal executive action (incremental), and state-level reform (where most experimentation actually happens). Each category constrains what's possible.
+On the night of December 31, 2025, the enhanced premium tax credits that had financed a record 24.3 million marketplace enrollments expired on schedule — three weeks after the Senate rejected both parties' rescue bills, and seven weeks after the end of a 43-day government shutdown, the longest in American history, fought substantially over them. The House passed a three-year extension on January 8, 2026, 230 to 196, with seventeen Republicans voting yes; the Senate has let it sit while a bipartisan group hunts for a narrower deal. Meanwhile the bills arrived: the average premium payment for subsidized enrollees jumped 58 percent, and 1.2 million fewer people signed up for 2026 coverage. That is the policy landscape of mid-2026 in miniature — not a stalemate but a collision, between fifteen years of coverage expansion and the largest legislated retrenchment in the programs' history. Lesson 1 gave you the machine and Lesson 2 the arguments; this lesson maps where the fight actually stands, and on whose calendar.
 
-## What's on the table federally
+## The 2025 law: retrenchment on a schedule
 
-**Medicare for All.** Sanders-introduced bills in the Senate, Jayapal-introduced in the House. Comprehensive single-payer covering all medically necessary care, no premiums or copays, financed through progressive taxation. Has roughly 100+ House cosponsors and 15+ Senate cosponsors at peak. Has not received a floor vote in either chamber. Estimated cost varies 20-30T over 10 years gross; net change vs. status quo varies depending on assumptions about administrative savings and provider price reductions.
+Start with the biggest move. The One Big Beautiful Bill Act (OBBBA), signed July 4, 2025, passed the Senate through budget [[term:reconciliation]] — the procedure that needs only a simple majority, which is how a chamber that cannot find 60 votes to extend marketplace subsidies could nonetheless restructure Medicaid, the [[term:entitlement-program]] covering more than 75 million people. CBO's final score, issued July 21, 2025: the law reduces federal Medicaid and marketplace spending by about $1.06 trillion over 2025–2034 and increases the number of people without health insurance by about 10 million in 2034.
 
-**Public option.** Several variants: Medicare-X (Bennet-Kaine), the public option in the original ACA House bill (dropped before passage), Biden's 2020 campaign proposal. Adds a federally-run insurance plan to the ACA Marketplace and (in some versions) allows employer-plan opt-ins. Estimated coverage gain: 10-15M; estimated cost: $50-100B/year; estimated effect on private-market premiums: modestly downward.
+Three provisions do most of that work. First, **work requirements** — the statute says "community engagement": beginning no later than December 31, 2026, adults aged 19–64 in the ACA expansion group must document 80 hours a month of work, community service, or schooling, verified at application and at every renewal, unless exempt (parents of children 13 and under, pregnant women, and the medically frail, among others). CBO scores this one provision at $326 billion in reduced federal spending — the largest single line in the law. States may start earlier, and some are racing to: Montana has targeted July 2026, Iowa December 2026, while states that show "good faith" effort can get federal extensions to the end of 2028. Second, **six-month eligibility redeterminations** for the same expansion adults, also due by December 31, 2026 — doubling the frequency of the paperwork gauntlet that the unwinding (Lesson 1) showed can strip coverage from eligible people; the Urban Institute projects this provision alone will cut expansion enrollment by 2.0 to 3.1 million in 2028. Third, the **provider-tax squeeze**. States finance much of their Medicaid share by taxing hospitals and returning the money as Medicaid payments, harvesting federal matching funds on the round trip — a maneuver federal watchdogs have criticized for decades. OBBBA freezes these taxes everywhere and, in expansion states, ratchets the allowable rate from 6 percent of provider revenue down to 3.5 percent between 2028 and 2032 ($191 billion), alongside new caps on the related "state-directed payments" to hospitals ($149 billion). The law's sweetener is a $50 billion **Rural Health Transformation Program** — $10 billion a year through 2030, half divided equally among approved states — aimed at the rural hospitals most exposed to the squeeze.
 
-**Medicaid expansion enforcement.** Some proposals would have the federal government create a "fallback" coverage program for residents of non-expansion states, effectively bypassing state legislatures. Constitutionally novel; would face certain litigation under the Tenth Amendment.
+The work-requirement provision has a track record to consult. Arkansas ran the experiment in 2018: about 18,000 adults lost coverage in the first seven months, before a federal court halted the policy. The research that followed (Sommers et al., *NEJM* 2019, and a two-year follow-up in *Health Affairs* 2020) found that more than 95 percent of the people targeted already met the requirement or qualified for an exemption, that employment did not measurably increase, and that the coverage losses flowed overwhelmingly from reporting failures — confusion, broken websites, unread mail — rather than from refusal to work.
 
-**Market-deregulation packages.** Cassidy/Graham proposals to convert ACA spending to state block grants. Removing essential-health-benefit mandates. Permitting cross-state insurance sales. Expanding HSAs and association health plans. Trump-era HHS made significant deregulatory moves in this category; some were reversed by the Biden administration.
+Now read the law through the three lenses, each at its strongest. The **market reformer** sees overdue discipline: provider taxes really are an accounting gimmick that inflates federal spending; a work expectation for able-bodied adults polls well and aligns an expanded program with reciprocity norms; and trimming an expansion population that grew far beyond the ACA drafters' projections refocuses Medicaid on the disabled, children, and the elderly poor. The **single-payer advocate** sees the Arkansas mechanism nationalized: coverage removed not by an honest vote to cut benefits but by administrative friction — which is precisely the churn-and-fragmentation pathology Lesson 2 diagnosed, now engineered deliberately. The **ACA incrementalist** sees the framework being defunded rather than completed: every dollar of the $1.06 trillion comes out of the coverage architecture the incrementalist strategy was counting on finishing.
 
-**Drug-price negotiation expansion.** The IRA of 2022 gave Medicare authority to negotiate prices on a small set of high-cost drugs (10 drugs in 2026, expanding to 20+ over time). Single-payer advocates want this expanded; market reformers oppose it as price-fixing.
+> **The scholar's lens:** The political science of what you are watching was written three decades ago. Paul Pierson's *Dismantling the Welfare State?* (1994), comparing Reagan's and Thatcher's retrenchment campaigns, argued that cutting popular programs is a fundamentally different game from opposing their creation, because programs create constituencies. Retrenchment politicians therefore practice *blame avoidance*: obfuscation (cut through eligibility mechanics rather than visible benefit levels), long phase-ins (push costs past the next election), and compensation (a visible fund for the most sympathetic losers). The OBBBA is nearly a textbook implementation — eligibility mechanics rather than benefit cuts, effective dates after the 2026 midterms, a provider-tax ratchet that does not finish until 2032, and a rural fund that pays out first. Pierson's other prediction, that retrenchment breeds backlash as cuts become visible, is the live hypothesis of the 2026 election cycle.
 
-The political map: Senate filibuster requires 60 votes for most healthcare legislation. The major-party split on healthcare is wider than on almost any other policy area. Major changes are unlikely without either filibuster reform or a 60-seat majority, neither of which is currently visible.
+<figure class="lesson-figure" style="margin:2rem 0;">
+<svg viewBox="0 0 720 348" width="100%" role="img" aria-label="Timeline of federal health policy effective dates from July 2025 through 2032: OBBBA signing, the 43-day shutdown, subsidy expiration, three rounds of Medicare drug prices, Medicaid work requirements, and the provider-tax phase-down, with the 2026 and 2028 elections marked" style="max-width:680px;height:auto;display:block;margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+  <text x="30" y="24" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">The implementation calendar Congress wrote</text>
+  <line x1="180" y1="44" x2="180" y2="334" stroke="var(--line, #d9d5c9)" stroke-width="2" />
+  <circle cx="180" cy="58" r="5" fill="var(--accent, #8a2a1e)" />
+  <text x="168" y="62" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Jul 4, 2025</text>
+  <text x="196" y="62" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">OBBBA signed — $1.06 trillion in health cuts over ten years (CBO)</text>
+  <circle cx="180" cy="88" r="5" fill="var(--gold, #b08a3e)" />
+  <text x="168" y="92" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Oct 1–Nov 12</text>
+  <text x="196" y="92" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">43-day shutdown, the longest ever — fought over the expiring credits</text>
+  <circle cx="180" cy="118" r="5" fill="var(--accent, #8a2a1e)" />
+  <text x="168" y="122" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Dec 31, 2025</text>
+  <text x="196" y="122" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Enhanced premium credits expire; both Senate rescue bills fail</text>
+  <circle cx="180" cy="148" r="5" fill="var(--blue, #2f4d6e)" />
+  <text x="168" y="152" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Jan 1, 2026</text>
+  <text x="196" y="152" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">First 10 negotiated Medicare drug prices take effect</text>
+  <circle cx="180" cy="178" r="5" fill="var(--gold, #b08a3e)" />
+  <text x="168" y="182" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Nov 2026</text>
+  <text x="196" y="182" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Midterm elections</text>
+  <circle cx="180" cy="208" r="5" fill="var(--accent, #8a2a1e)" />
+  <text x="168" y="212" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Dec 31, 2026</text>
+  <text x="196" y="212" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Work requirements and 6-month renewals due in expansion states</text>
+  <circle cx="180" cy="238" r="5" fill="var(--blue, #2f4d6e)" />
+  <text x="168" y="242" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Jan 1, 2027</text>
+  <text x="196" y="242" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Round-2 negotiated prices: 15 drugs, including semaglutide</text>
+  <circle cx="180" cy="268" r="5" fill="var(--blue, #2f4d6e)" />
+  <text x="168" y="272" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Jan 1, 2028</text>
+  <text x="196" y="272" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Round-3 prices take effect — the first Part B drugs</text>
+  <circle cx="180" cy="298" r="5" fill="var(--gold, #b08a3e)" />
+  <text x="168" y="302" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Nov 2028</text>
+  <text x="196" y="302" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Presidential election</text>
+  <circle cx="180" cy="328" r="5" fill="var(--accent, #8a2a1e)" />
+  <text x="168" y="332" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">2028–2032</text>
+  <text x="196" y="332" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Provider-tax phase-down: 6% to 3.5% in expansion states</text>
+</svg>
+<figcaption style="font-size:0.9em;color:var(--muted,#6b6457);margin-top:0.5rem;">Figure: Major federal effective dates, 2025–2032. The benefit-delivering dates (blue) arrive early; the provisions that take coverage or money away (burgundy) bind after the elections (gold) — Pierson's blame-avoidance pattern drawn literally. Even the subsidy cliff was a past Congress's deferral: the IRA of 2022 scheduled it just beyond the 2024 election.</figcaption>
+</figure>
 
-## What can happen without legislation
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> OBBBA was signed in July 2025, yet a Medicaid expansion enrollee in most states felt nothing through most of 2026, and the deepest provider-tax cuts arrive in 2031–32. Using Pierson, explain the calendar — and name the one major OBBBA provision that pays out <em>before</em> the costs land.</summary>
+<p>This is blame avoidance by phase-in: the work requirements and six-month renewals bind only after the November 2026 midterms, and the provider-tax ratchet spreads its pain across two more election cycles, so no single campaign season meets the full cost. The early arrival is the $50 billion Rural Health Transformation Program — $10 billion a year starting in fiscal 2026 — Pierson's "compensation" strategy, delivering visible money to the most sympathetic potential losers (rural hospitals) before the squeeze that endangers them begins.</p>
+</details>
 
-**State-level (Medicaid).** Any state can expand Medicaid, adopt waivers (1115 demonstration waivers) for innovative coverage models, run state public-option programs (Washington, Colorado, Nevada have versions). The federal CMS office can approve or deny waivers; political alignment between the state and federal administration matters.
+## The subsidy cliff, measured
 
-**State-level (insurance market).** States can require state-specific essential health benefits, run state-based exchanges, mandate or subsidize coverage beyond ACA minimums (California, New York, Massachusetts have versions), regulate prescription drug prices (Maryland tried; preempted by federal courts on commerce grounds).
+The enhanced credits began as pandemic policy (the American Rescue Plan, 2021) and were extended through 2025 by the Inflation Reduction Act — the largest [[term:subsidy]] expansion since the ACA itself. They did two things: made benchmark coverage premium-free below 150 percent of poverty, and abolished the old "subsidy cliff" at 400 percent of poverty by capping everyone's benchmark premium at 8.5 percent of income. Marketplace enrollment more than doubled under them, from 11.4 million plan selections for 2020 to 24.3 million for 2025.
 
-**Federal executive.** Administrative actions are bounded but real: how the ACA Marketplace is run (open-enrollment lengths, navigator funding, advertising), how Medicaid waivers are evaluated, how Medicare reimbursement rates are set within statutory limits, what enforcement actions HHS takes against insurers and providers.
+Then came the sequence from the cold open: the shutdown; the promised mid-December vote, in which the Democrats' three-year extension drew 51 votes — four Republicans joining — against the 60 the [[term:filibuster]] demands, with the Republican alternative failing too; the expiration; the discharge-petition vote in the House. As of mid-2026 the credits remain expired while a bipartisan Senate group negotiates a scaled-back two-year version with income caps and minimum premiums, deadlocked for months largely over abortion-coverage restrictions.
 
-## The Inflation Reduction Act of 2022 — the first major change since the ACA
+Because the cliff arrived on schedule, 2026 is producing something rare in policy debates: a measured answer. Insurers, anticipating a sicker risk pool, raised gross premiums about 26 percent on average — benchmark silver premiums rose about 30 percent in HealthCare.gov states and 17 percent in state-run exchanges. The average monthly payment enrollees actually make, net of credits, rose 58 percent, from $113 to $178. Final 2026 plan selections came in at 23.1 million, down 4.9 percent from the 2025 record, with silver plans' share collapsing from 56 to 43 percent as price-squeezed enrollees fled to bronze. A KFF survey in early 2026 found 9 percent of 2025 marketplace enrollees had become uninsured. CBO projects the expiration adds 2.2 million uninsured in 2026 and an average of 3.8 million per year through 2034 if nothing passes.
 
-The IRA was the first federal healthcare structural change since the ACA. It:
+Put the decade's three coverage shocks side by side, because partisans routinely blur them:
 
-1. **Authorized Medicare drug-price negotiation** on a phased schedule (10 drugs by 2026, growing).
-2. **Capped insulin out-of-pocket costs** at $35/month for Medicare beneficiaries.
-3. **Capped total annual out-of-pocket Medicare Part D spending** at $2,000.
-4. **Extended ACA Marketplace subsidies** through 2025 (the enhanced subsidies that originated in the 2021 ARPA pandemic response).
+| Coverage shock | Mechanism | Verified scale | Status, mid-2026 |
+| --- | --- | --- | --- |
+| Medicaid unwinding (2023–24) | Pandemic continuous-enrollment rule ended; states resumed removals | Roughly 25 million disenrolled; under-65 uninsured rose 1.3 million in 2024 (KFF) | Complete |
+| Subsidy expiration (Jan. 2026) | Enhanced credits lapsed; net premiums spiked | Payments up 58% on average; selections down to 23.1 million; CBO: +2.2 million uninsured in 2026 | Live; extension stalled in the Senate |
+| OBBBA (2026–2034) | Work requirements, 6-month renewals, provider-tax and payment squeezes | CBO: −$1.06 trillion federal; +10 million uninsured by 2034 | Phasing in from Dec. 31, 2026 |
 
-The IRA is small compared to single-payer or public-option proposals but is the most consequential federal healthcare legislation since the ACA. Its drug-pricing provision is the first time the U.S. federal government has directly set drug prices for a major program. The single-payer advocate sees it as proof of concept for monopsony pricing; the market reformer sees it as the start of the slippery slope toward price-fixing; the ACA incrementalist sees it as exactly the kind of incremental progress the framework permits.
+Read the table the way a CBO analyst would: these are *additive* streams with different clocks. The unwinding is history; the subsidy cliff is hitting now and is reversible by one statute; the OBBBA wave has barely begun. Combined, they are why every serious projection shows the uninsured rate climbing back toward pre-ACA territory among the non-elderly poor by the early 2030s — and why the incrementalist camp, which spent a decade pointing at the falling uninsured rate as its scoreboard, now faces the test it named in Lesson 2.
 
-## What a learner should take away
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Two true headlines from January 2026: "Marketplace premiums rise 26%" and "Marketplace enrollees' premium payments jump 58%." A reader insists one must be wrong. Explain how both are right — and which number the uninsured rate actually responds to.</summary>
+<p>The 26 percent is the <em>gross</em> premium insurers charge; the 58 percent is what subsidized enrollees <em>pay</em> after credits. When the enhancement lapsed, the share of income enrollees must contribute toward the benchmark rose at every income level, so the credit absorbs less and the net payment grows much faster than the sticker price. Coverage decisions ride on the net number — which is why CBO attributes 2.2 million newly uninsured in 2026 to the expiration itself, on top of anything insurers did to gross premiums.</p>
+</details>
 
-A defensible position on U.S. healthcare requires:
+## Drug pricing: the negotiation machine kept running
 
-1. A view on **which structural model best fits American conditions** (one of the three perspectives in Lesson 2).
-2. A view on **how to get there from here** — federal legislation, state experimentation, executive action, or some combination.
-3. An honest accounting of **what evidence would change** the position.
+While coverage policy retrenched, the IRA's drug-pricing architecture rolled forward — through a change of administration that had campaigned against the law it implements. The first ten negotiated "maximum fair prices" (Eliquis, Jardiance, and eight other high-spend Part D drugs) took effect January 1, 2026, at discounts of 38 to 79 percent off list prices; when CMS announced them in August 2024, it estimated they would have saved Medicare about $6 billion at 2023 utilization. Round two arrived on schedule: on November 25, 2025, CMS published negotiated prices for 15 more drugs, effective January 1, 2027 — headlined by semaglutide (Ozempic, Wegovy, Rybelsus) at $274 a month against a $959 list price, with discounts across the list of 38 to 84 percent and projected annual savings around $12 billion. In early 2026 CMS selected the third round: 15 more drugs, for the first time including physician-administered Part B drugs (Botox, Cimzia, Orencia, Entyvio), with prices effective January 1, 2028. Manufacturers' constitutional challenges to the program have so far failed in the lower federal courts. The rest of the IRA package is now fully live too: the $35 monthly insulin cap (2023) and the $2,000 annual Part D out-of-pocket cap (2025, indexed thereafter).
 
-The Coach in this app will engage you on each of these. The Mirror will save your declared position to memory; the steel-man drill will push you to engage the strongest version of the position you don't hold.
+The persistence is itself data. Pierson would call it program feedback: a benefit flowing to nearly 69 million Medicare enrollees acquires defenders faster than repealers. The three camps read the experiment exactly as Lesson 2 predicts. For the single-payer advocate, it is monopsony's proof of concept — the only question is why a price the government can negotiate for a 65-year-old should be unavailable to a 55-year-old. For the market reformer, it is administered price-fixing whose costs — delayed launches, deterred research — arrive on a ten-year lag, invisible at the victory lap; the honest version concedes (per Lesson 2) that the innovation counterfactual is genuinely contested. For the incrementalist, it is exhibit A: a discrete, popular, durable mechanism that expands round by round without betting the system.
 
-A useful next step: declare a position at `/me/positions/new` with `slug: healthcare-system`. Then run a steel-man drill against whichever of the three perspectives you're most confident is wrong. The discipline of having to construct the strongest version of a view you reject is where defended positions become refined ones.
+## Courts, agencies, and the states
+
+Three other fronts moved in 2025–26, and each shows a different lever of the system doing the work.
+
+**The Supreme Court re-ratified — and recentralized.** *Kennedy v. Braidwood Management* (June 27, 2025) upheld the ACA's no-cost preventive-services mandate, 6–3, reasoning that the task force defining covered services is constitutional precisely *because* the HHS Secretary can remove its members at will and block its recommendations. The save and the catch are the same fact: the ruling confirms that one political appointee supervises what every private plan must cover without cost-sharing. That power is not hypothetical — weeks before the decision, the Secretary had dismissed all seventeen members of the CDC's vaccine advisory committee, a separate body governed by similar supervision. Both halves of the holding will matter.
+
+**A court erased a consumer rule.** In January 2025 the CFPB finalized a rule removing medical debt from credit reports — about $49 billion of it, from the files of roughly 15 million people. On July 11, 2025, a federal judge in the Eastern District of Texas vacated the rule as exceeding the agency's statutory authority, with the agency's new leadership declining to defend it. Lesson 1's $220 billion medical-debt overhang thus remains visible to lenders — a reminder that executive-branch policy is only as durable as the next administration and the nearest district court.
+
+**The states diverged, as they always do.** The expansion map is frozen at 40 states plus D.C. — North Carolina (December 2023) remains the most recent adopter, and OBBBA repealed the extra federal bonus that had been offered to new adopters. About 1.4 million people sit in the coverage gap in the ten holdout states. The live exception is Mississippi, where a 2026 bill pairing expansion with work requirements — drafted to fit the new federal climate — was still pending in the spring. Meanwhile the most ambitious state experiments run in the other direction: Washington (since 2021), Colorado (2023), and Nevada (plan-year 2026) operate public-option plans inside their marketplaces, and several states are racing to *implement* OBBBA work requirements early. This is the oldest pattern in American [[term:federalism]]: when Washington gridlocks, the states become the laboratories — in both directions at once.
+
+Which lever moved which event is worth fixing in memory, because it predicts what can move next:
+
+| Lever | Who pulls it | Votes needed | 2025–26 example |
+| --- | --- | --- | --- |
+| Reconciliation statute | Congress | Simple Senate majority (budget items only) | OBBBA's $1.06T restructuring |
+| Regular statute | Congress | 60 Senate votes in practice | Subsidy extension — passed House, stalled in Senate |
+| Rules, waivers, enforcement | HHS / CMS | None (courts review) | Drug-price rounds; marketplace verification rules; work-requirement waivers |
+| State law | Legislatures, governors, ballot measures | State majorities | Public options in WA, CO, NV; Mississippi expansion bill |
+| Litigation | Anyone with standing | Five justices, eventually | *Braidwood*; the CFPB vacatur |
+
+The asymmetry in the first two rows explains the year: money can be moved by 51 votes, but program rules — and rescues — need 60. That is why a Congress that could cut $1.06 trillion could not extend a subsidy most of its members claim to support in some form.
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A governor of a non-expansion state wants the coverage gap closed without waiting for Congress. Name two levers actually available to her — and the post-2025 catch attached to each.</summary>
+<p>(1) Adopt expansion through the legislature or, where allowed, a ballot initiative (how Missouri, Oklahoma, and South Dakota did it) — but OBBBA repealed the extra federal signing bonus, and any expansion population now arrives with mandatory work-requirement verification and six-month renewals to administer. (2) Seek a Section 1115 waiver for a custom program — Mississippi's 2026 bill takes this route, pairing expansion with work requirements to match the administration's priorities — but waivers require CMS approval, so the design must fit whoever holds the White House, and can be unwound by the next one.</p>
+</details>
+
+## What this lesson did not settle
+
+A defensible position on U.S. healthcare in 2026 requires three commitments, and this pack has now given you the materials for each:
+
+1. A view on **which structural model best fits American conditions** — single-payer, regulated competition, or market discipline (Lesson 2's three frames).
+2. A view on **the path** — reconciliation-scale federal action, 60-vote bipartisan repair, executive rulemaking, or state experimentation — that takes the table above seriously about what each lever can and cannot move.
+3. An honest account of **what evidence would change your mind** — and the 2026–2028 calendar will supply evidence: the realized coverage losses from the subsidy cliff, the first national data on work-requirement implementation, the market response to negotiated drug prices.
+
+What remains genuinely unsettled: whether the Senate extends the credits in any form, and whether the midterms re-price that question; whether national work requirements replicate Arkansas's paperwork losses at fifty-state scale or implementation actually learns; whether drug negotiation survives its remaining litigation and how far Congress extends it; and whether Pierson's backlash hypothesis — that retrenchment becomes politically expensive as it becomes visible — holds in the 2026 and 2028 cycles. Nobody knows these answers yet, which is exactly why the Coach will press you on them.
+
+A useful next step: declare a position at `/me/positions/new` with `slug: healthcare-system`. Then run a steel-man drill against whichever of the three perspectives you are most confident is wrong. The discipline of constructing the strongest version of a view you reject — with the 2026 evidence in hand — is where defended positions become refined ones.

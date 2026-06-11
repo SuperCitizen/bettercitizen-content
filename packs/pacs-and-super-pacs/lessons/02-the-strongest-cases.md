@@ -4,85 +4,109 @@ slug: the-strongest-cases
 kind: reading
 title: The strongest case for and against
 objectives:
-  - State the PAC-defender (free-speech maximalist) case at its strongest
-  - State the PAC-restrictionist case at its strongest
-  - State the coordination-rules reformer case
-  - Identify what's settled empirically and what's contested
+  - State the PAC-defender (free-speech maximalist) case at its strongest, including the Buckley expenditure/contribution distinction and the hydraulics argument
+  - State the PAC-restrictionist case at its strongest, including dependence corruption and the verified donor-concentration record
+  - State the coordination-rules reformer case and why it treats the independence premise as testable
+  - Identify what is settled empirically and what remains genuinely contested
 concepts:
-  - pacs
-  - super-pacs
-  - coordination
-  - independent-expenditures
+  - super-pac
+  - pac
+  - campaign-finance
 sources:
   - type: book
-    citation: 'Smith, B. A. (2001), Unfree Speech: The Folly of Campaign Finance Reform.'
+    citation: 'Smith, B. A. (2001), Unfree Speech: The Folly of Campaign Finance Reform, Princeton University Press.'
   - type: book
-    citation: 'Lessig, L. (2011), Republic, Lost.'
+    citation: 'Lessig, L. (2011), Republic, Lost: How Money Corrupts Congress — and a Plan to Stop It, Twelve.'
   - type: paper
-    citation: 'Briffault, R. (2011), "Super PACs," Minnesota Law Review.'
-  - type: paper
-    citation: 'Hasen, R. L. (2014), "Plutocrats United," New Republic / Yale University Press.'
+    citation: 'Briffault, R. (2012), "Super PACs," Minnesota Law Review 96: 1644.'
   - type: book
-    citation: 'Stephanopoulos, N. (2018), "Aligning Campaign Finance Law," Virginia Law Review 101.'
+    citation: 'Hasen, R. L. (2016), Plutocrats United: Campaign Money, the Supreme Court, and the Distortion of American Elections, Yale University Press.'
+  - type: paper
+    citation: 'Stephanopoulos, N. (2015), "Aligning Campaign Finance Law," Virginia Law Review 101: 1425.'
+    url: https://virginialawreview.org/articles/aligning-campaign-finance-law/
   - type: paper
     citation: 'Federal Election Commission, "Coordinated Communications" guidance and rule history.'
     url: https://www.fec.gov/help-candidates-and-committees/coordinated-communications-and-independent-expenditures/
+  - type: court-opinion
+    citation: 'Buckley v. Valeo, 424 U.S. 1 (1976) — the contribution/expenditure distinction (esp. at 47–48).'
+    url: https://www.law.cornell.edu/supremecourt/text/424/1
+  - type: paper
+    citation: 'Gilens, M. & Page, B. I. (2014), "Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens," Perspectives on Politics 12(3): 564–581.'
+  - type: book
+    citation: 'La Raja, R. J. & Schaffner, B. F. (2015), Campaign Finance and Political Polarization: When Purists Prevail, University of Michigan Press.'
+  - type: website
+    citation: 'Washington Post, "Billionaire Adelson gives millions to Gingrich Super PAC" (Jan. 7, 2012).'
+    url: https://www.washingtonpost.com/politics/billionaire-adelson-gives-millions-to-gingrich-super-pac/2012/01/07/gIQAXI6rhP_story.html
 perspectives:
   - name: PAC-defender
   - name: PAC-restrictionist
   - name: Coordination-rules reformer
-duration_min: 9
+duration_min: 13
 ---
 
 # The strongest case for and against
 
-## 1. The PAC-defender case
+In the first weeks of January 2012, Newt Gingrich's presidential campaign was broke and presumed dead. Then casino magnate Sheldon Adelson wrote a $5 million check to Winning Our Future, the [[term:super-pac]] supporting Gingrich; days later his wife Miriam wrote another for the same amount; and a candidacy that could not afford ads suddenly carpet-bombed South Carolina, which Gingrich won. The family's support eventually reached about $21 million — at the time, more than any super PAC donor had ever given. Two people had, entirely lawfully, kept a major presidential candidacy alive. Read one way, that is the [[term:first-amendment]] working: citizens with intense preferences funding speech voters were free to reject (and, by Florida, did). Read another way, it is an audition system in which candidates survive by acquiring a billionaire. Both readings are made in good faith by serious people, and your job in this lesson is to be able to make each of them at full strength.
 
-Core argument: PACs are constitutionally protected speech aggregation, and Super PACs in particular embody the principle that independent political expression cannot be capped. Restrictions face strict-scrutiny review and would tilt political activity toward less-accountable channels.
+## The shape of the disagreement
 
-- **First Amendment foundations.** Independent expenditures are constitutionally protected (Buckley v. Valeo for individuals; Citizens United for corporations and unions). A Super PAC is just an aggregator of independent expenditures. Capping contributions to it caps the speech of all the donors collectively.
-- **The political-economy argument.** If Super PACs are restricted, money flows elsewhere — to issue-advocacy organizations, dark-money 501(c)(4)s, foreign-controlled entities. The current system, with its disclosure requirements (Super PACs must report donors), is more transparent than the alternatives. Smith's *Unfree Speech* makes the strongest version.
-- **PACs aggregate small donors effectively.** Traditional PACs let many people pool resources to amplify their political voice. EMILY's List has aggregated small donations into significant political force; the NRA has done the same. Restricting PACs would weaken collective political action.
-- **Coordination rules already exist.** The current rules are not perfect but address the main concerns. Tighter rules would chill legitimate activity (consultants moving between campaigns and Super PACs is normal political ecosystem; barring it would produce worse-quality campaigns, not better-resourced reformers).
+Three camps recur in every PAC fight, and it pays to see their architecture side by side before entering any of them. They disagree less about facts than about *which fact is the problem*.
 
-What evidence would change this position? Persuasive evidence that the post-2010 Super PAC system is producing dependence-corruption at a scale that disclosure cannot address — that, e.g., specific policy outcomes are systematically different than they would be under a non-Super-PAC regime.
+| | PAC-defender | PAC-restrictionist | Coordination reformer |
+| --- | --- | --- | --- |
+| Core claim | Independent spending is protected speech; caps on it (or on giving to it) are censorship | Mega-donor dependence corrupts representation even without bribery | The doctrine is fine *if* independence is real; enforcement has made it fictional |
+| Key authority | *Buckley*, *Citizens United*, *SpeechNow*; Smith, *Unfree Speech* | Lessig, *Republic, Lost*; Hasen, *Plutocrats United*; Gilens & Page (2014) | *Buckley* at 47; Briffault, "Coordination Reconsidered" (2013) |
+| Remedy | Leave it alone; deregulate parties and candidates too | Amendment, a changed Court, or public financing | Rewrite 11 CFR 109.21's conduct standards; fix the FEC |
+| What would refute it | Evidence disclosure can't cure — policy systematically tracking funders | Evidence outcomes don't differ under the regime | Evidence coordination rules can't be drafted tighter without chilling real speech |
 
-## 2. The PAC-restrictionist case
+The table is a map, not a verdict; here is each position argued as its smartest advocate would.
 
-Core argument: the post-Citizens-United Super PAC system has produced a politics where mega-donor influence systematically distorts policy outcomes. The First Amendment defense relies on Buckley v. Valeo's questionable empirical assumption that independent expenditures don't create dependence — an assumption that empirical experience has discredited.
+## 1. The PAC-defender, steel-manned
 
-- **Lessig's dependence-corruption framework.** Even without quid-pro-quo bribery, the structural dependence of political coalitions on Super PAC funding produces dependence-corruption. Senators and representatives know who's funding the ads attacking their opponents; the gratitude (or fear) is real even when no specific exchange happens. Lessig's *Republic, Lost* makes this systematic.
-- **The independence doctrine has collapsed.** Hasen's *Plutocrats United* and Briffault's *Super PACs* document that "independence" between campaigns and allied Super PACs has eroded substantially. Joint vendors, joint personnel, public coordination, identical strategic positioning — these are not what Buckley contemplated. The legal independence is technical; the political independence is fictional.
-- **Donor concentration is corrosive.** Top 25 donors per cycle account for hundreds of millions of dollars. This is not a Super PAC representing many small contributors; it is a small number of wealthy individuals projecting their preferences into political campaigns. Constitutional law that treats these as equivalent is wrong.
-- **Constitutional amendment may be needed.** Stephanopoulos and others argue that addressing the structural problems requires either reversing Buckley v. Valeo's contribution/expenditure distinction (unlikely from current Court) or a constitutional amendment. Both are difficult; the difficulty doesn't make the underlying analysis wrong.
-- **Public-financing alternatives.** If some restrictions are constitutionally available (cooling-off periods on Super PAC employment, tighter coordination rules) and others aren't (caps on Super PAC contributions), the right policy is to combine restrictions where possible with public-financing alternatives that dilute the influence of Super PAC funding.
+Start where the doctrine starts. *Buckley v. Valeo* (1976) upheld contribution limits but struck spending limits, and its sharpest line remains the position's creed: "the concept that government may restrict the speech of some elements of our society in order to enhance the relative voice of others is wholly foreign to the First Amendment." Effective political speech costs money — airtime, staff, postage, server time — so a cap on political spending *is* a cap on political speech, however it is dressed. A super PAC, on this view, is nothing exotic: it is citizens pooling resources to say something together, the same associative act as a union local or the NAACP buying an ad. Capping contributions to it caps the pooled speech of every donor in it.
 
-What evidence would change this position? Persuasive evidence that policy outcomes are not systematically different under the post-2010 Super PAC regime than they would be without it (Stratmann's work on whether money buys policy is contested), or that the restrictive measures available are themselves worse than the disease.
+Three further moves give the position its strength:
 
-## 3. The coordination-rules reformer case
+- **The hydraulics argument.** Money in politics behaves like water: blocked channels reroute, they do not dry up. The defender's exhibit is the verified history — the 1974 limits produced PACs; the 2002 soft-money ban produced 527s; squeezing 527s produced the 501(c)(4) migration the Dark Money pack documents. Super PACs are the *most transparent* uncapped vehicle the system has ever produced: itemized donors, registered committees, reported spending. Restrict them and the same money flows somewhere darker. La Raja and Schaffner's data (*When Purists Prevail*, 2015) adds a twist reformers rarely confront: starving regulated, pragmatic actors (especially parties) has empirically empowered ideologically purist outside money — regulation helped polarize the system it meant to clean.
+- **Aggregation is democratization.** Bradley Smith (*Unfree Speech*, 2001; later an FEC commissioner) presses the point that PACs are how ordinary citizens matter: a million small EMILY's List donors collectively rival one Adelson precisely because the law lets them aggregate. Rules written in fear of billionaires also bind the bundled $50 donors.
+- **Incumbents write the rules.** Campaign-finance regulation is drafted by sitting officeholders, and challengers — who must buy name recognition incumbents get free — are the ones outside money most often funds. It was no accident, the defender notes, that *SpeechNow*'s plaintiff was a group of citizens wanting to campaign *against* incumbents.
 
-Core argument: both extremes overstate. Super PACs are constitutionally protected, but the underlying premise — that independence prevents corruption — is empirically meaningful and addressable through stronger coordination rules. Better FEC enforcement of existing law, plus tighter rules on personnel mobility and vendor sharing, would address most of the dependence-corruption concerns.
+**What would change the defender's mind:** rigorous evidence that disclosed, independent spending produces the policy distortions restrictionists allege — distortions that transparency and electoral competition demonstrably fail to discipline.
 
-- **The coordination doctrine matters.** Citizens United's holding rested on the premise that independent expenditures don't corrupt. If "independent" actually means independent — no joint personnel, no vendor sharing, no strategic communication — then the legal doctrine is internally consistent. The problem is enforcement, not the doctrine.
-- **Specific reforms.** Multi-year cooling-off periods between campaign and Super PAC employment. Bans on shared vendors during election cycles. Stricter "coordinated communication" definitions in FEC rules. Stronger DOJ enforcement of existing coordination prohibitions.
-- **The reforms are administratively achievable.** None requires constitutional amendment. None faces strict-scrutiny problems comparable to direct caps on Super PAC contributions. The hard part is political will, especially at the FEC (which has been deadlocked for over a decade).
-- **Public-disclosure improvements.** Mandatory same-day disclosure of large Super PAC contributions, mandatory disclosure of Super-PAC strategic relationships with campaigns, expanded data accessibility for researchers and reporters.
-- **The result is a workable middle.** Super PACs continue to exist and exercise constitutionally-protected speech. The coordination doctrine, properly enforced, addresses the dependence-corruption concerns. The donor-concentration concerns remain — but they exist independent of Super PAC structure (similar concentrations occur in 501(c)(4)s and direct candidate fundraising) and require separate reforms (public financing, antitrust against media consolidation, etc.).
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> A reform bill caps contributions to super PACs at $25,000. The defender says it is unconstitutional; a restrictionist says Buckley itself upheld contribution caps. Who has the better of current doctrine, and on what reasoning?</summary>
+<p>The defender, under current law. <em>Buckley</em> upheld caps on contributions <em>to candidates</em> because of quid-pro-quo corruption risk. <em>SpeechNow</em> (2010, en banc) held that once <em>Citizens United</em> declared independent expenditures non-corrupting, contributions to groups that make <em>only</em> independent expenditures present no cognizable corruption interest — so the cap fails. The restrictionist's real target is that premise (independence prevents corruption), which is why serious restrictionists argue for overruling or amendment rather than pretending current doctrine permits the cap.</p>
+</details>
 
-What evidence would change this position? Persuasive evidence that the coordination doctrine is empirically dead and cannot be revived, requiring more drastic reforms; or that the reforms proposed are politically infeasible at scale.
+## 2. The PAC-restrictionist, steel-manned
 
-## What's settled and what's contested
+The restrictionist's opening move is to relocate the corruption question. Bribery — money for a specific official act — was never the main worry; *dependence* is. Lawrence Lessig (*Republic, Lost*, 2011) frames it institutionally: the Framers designed a Congress "dependent on the people alone," and a system in which viable candidacies require the patronage of the largest funders substitutes a second, unrepresentative dependence. No envelope changes hands. The candidate simply knows — as everyone in the building knows — who funded the $50 million in ads that saved them, and who could fund the ads that end them. Gratitude and fear do the work bribery used to do, at scale and legally.
 
-**Settled (or near-settled):**
-- Super PAC spending dominates the post-2010 outside-spending landscape (~$2B/cycle).
-- Donor concentration is high — top 25 donors account for hundreds of millions per cycle.
-- The independence doctrine has eroded in practice (Briffault, Hasen).
-- The FEC has been deadlocked on coordination enforcement for over a decade.
+The position's strongest supports:
 
-**Genuinely contested:**
-- Whether Super PAC spending substantially affects policy outcomes (or merely tracks them).
-- Whether the dependence-corruption framework is constitutionally cognizable (or merely a moral argument).
-- Whether the available reforms (coordination rules, disclosure expansion) are sufficient.
-- Whether constitutional amendment is feasible.
+- **The concentration is not hypothetical.** Lesson 1's verified numbers are the restrictionist's core exhibit: one person above $291 million in 2024, a handful of others above $100 million each, two people sustaining a presidential candidacy in 2012. Whatever this is, the restrictionist argues, calling it "citizens pooling resources" misdescribes it — the modal super PAC dollar is not aggregated small money but a transfer from a single enormous fortune.
+- **Representation skews measurably.** The empirical backbone is Gilens and Page (2014), who tested nearly 1,800 policy questions and concluded that "economic elites and organized groups representing business interests have substantial independent impacts on U.S. government policy, while average citizens and mass-based interest groups have little or no independent influence." The study predates and exceeds the super PAC question, and its methods have been seriously contested — the honest restrictionist says so — but it anchors the claim that donor-class preferences and policy travel together.
+- **The doctrine, not the Constitution, is the obstacle.** Richard Hasen (*Plutocrats United*, 2016) argues the Court took a wrong turn in treating quid-pro-quo corruption as the *only* interest that can justify limits, and proposes political equality as the constitutional value doing the real work. Nicholas Stephanopoulos ("Aligning Campaign Finance Law," 2015) supplies a third frame: the state's interest in *alignment* between what voters want and what government does — an interest concentrated money demonstrably degrades. Remedies follow honestly: a different Court, a constitutional amendment, or public financing that changes candidates' dependence rather than capping anyone's speech.
 
-A defensible position picks one of the three frames, says why, and acknowledges what's contested.
+**What would change the restrictionist's mind:** replicated evidence that policy outcomes under the super PAC regime do not differ from plausible counterfactuals — that the money buys noise, not government.
+
+## 3. The coordination-rules reformer, steel-manned
+
+The reformer begins by accepting what neither pole will: the doctrine's internal logic is sound. *Buckley* explained exactly why independent spending got more protection than contributions: "The absence of prearrangement and coordination of an expenditure with the candidate or his agent not only undermines the value of the expenditure to the candidate, but also alleviates the danger that expenditures will be given as a quid pro quo for improper commitments from the candidate." That sentence contains a *testable premise* — independence makes spending less valuable to candidates and less dangerous — and the reformer's claim is that the premise has been falsified not by the Constitution but by regulation. The FEC's conduct standards (Lesson 3 walks through them) were drafted so narrowly that a candidate's former campaign manager can run the supporting super PAC, the campaign can post strategy and footage publicly for the super PAC to use, and the candidate can headline the super PAC's fundraisers — all without legal "coordination" occurring.
+
+So the reformer's program is unglamorous and concrete: lengthen the 120-day cooling-off windows, treat single-candidate super PACs staffed by campaign alumni as presumptively coordinated, close the public-posting workarounds, and restructure the [[term:campaign-finance]] enforcer so 3–3 deadlocks stop functioning as acquittals. None of it requires amending the Constitution; all of it operates on the seam *Buckley* itself drew. Briffault's "Coordination Reconsidered" (2013) is the blueprint text: the contribution/expenditure line can hold only if the coordination definition polices it honestly.
+
+**What would change the reformer's mind:** evidence that tighter conduct rules are undraftable in practice — that every workable definition either chills genuinely independent groups (the defender's fear) or leaves workarounds so large the exercise is pointless (the restrictionist's prediction).
+
+<details class="checkpoint">
+<summary><strong>Checkpoint:</strong> Classify each claim by camp: (a) "The problem isn't the $100 million; it's that the candidate's college roommate is spending it." (b) "The problem is the $100 million." (c) "The problem is thinking $100 million of disclosed ads is a bigger threat than the same money moving somewhere you can't see it."</summary>
+<p>(a) is the coordination reformer — the objection targets the fictional independence, not the amount. (b) is the restrictionist — concentration itself corrupts through dependence, however independent the spender. (c) is the defender's hydraulics argument — restriction reroutes money to less transparent channels, so the disclosed version is the least-bad equilibrium. Being able to perform this classification quickly is most of what "knowing the debate" means.</p>
+</details>
+
+## What's settled, what's contested
+
+**Settled.** The scale and concentration of post-2010 outside money (Lesson 1's verified record). The doctrinal chain — *Buckley*'s distinction, *Citizens United*'s premise, *SpeechNow*'s syllogism. That super PACs disclose donors while the nonprofit channel does not. That enforcement of the coordination rules has been minimal (Lesson 3 documents it).
+
+**Genuinely contested.** Whether independent spending *changes policy outcomes* or chases them — the Gilens–Page finding and its critics mark the live empirical front. Whether "dependence corruption" is a constitutionally cognizable interest or a moral framework the First Amendment does not recognize. Whether the hydraulics are destiny — whether any restriction merely reroutes — or whether well-designed rules can actually shrink the total. And the counterfactual question that haunts every camp: what would American politics look like if the Adelson checks of January 2012 had been illegal — better, worse, or merely different?
+
+This lesson did not settle which camp is right; it armed you to argue any of them honestly. Lesson 3 goes where the reform energy actually is: the coordination rules, the FEC's three-pronged test, and the 2024 advisory opinion that quietly rewrote the ground game.
