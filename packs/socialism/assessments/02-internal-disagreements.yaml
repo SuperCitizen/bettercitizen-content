@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: internal-disagreements
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Mises's 1920 calculation argument claims a fully socialized economy fails even if its planners are honest, tireless, and public-spirited. What, on his account, is the missing ingredient?"
+    choices:
+      - id: a
+        text: "Prices for capital goods, which can only emerge from actual exchange between owners — and without which there is no common denominator for comparing production plans."
+      - id: b
+        text: "Sufficient computing power to process the millions of equations a planned economy requires."
+      - id: c
+        text: "Material incentives — without profit, managers and workers will not exert real effort."
+      - id: d
+        text: "Democratic accountability — planning boards answer to the party rather than to consumers."
+    correct_choice_id: a
+    explanation: "Mises's point is about arithmetic, not motivation or hardware: abolish private ownership of the means of production and you abolish capital-goods markets, hence the prices, hence any unit of account for choosing among technically feasible plans. (b) is the later 'computation' framing — Hayek's refinement says the deeper problem is knowledge that is tacit and local, which survives better computers. (c) is the incentive problem (Kornai's soft budget constraint), a distinct critique that arrived later. (d) matters politically but is not the calculation argument at all."
+    concepts: [socialism, capitalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "State the verdict of the socialist calculation debate the way the lesson does — 'honestly, because it cuts in both directions.' Which statement captures it?"
+    choices:
+      - id: a
+        text: "Comprehensive central planning was discredited in theory and practice, but the debate barely addressed market economies with decommodified sectors, public enterprises, and worker-owned firms operating in real markets."
+      - id: b
+        text: "Lange's trial-and-error model won on the blackboard and in practice, so the calculation problem is solved."
+      - id: c
+        text: "Every form of socialism, including worker cooperatives competing in markets, was shown to be economically impossible."
+      - id: d
+        text: "The debate was inconclusive: economists still consider comprehensive central planning a live option."
+    correct_choice_id: a
+    explanation: "Mises won the argument he started: the dynamic-discovery problem, Kornai's soft budget constraint, and the empirical record (East vs. West Germany, North vs. South Korea, 1989–91) buried comprehensive planning, and nearly every contemporary socialist concedes it. But the critique runs through the absence of real market prices — so proposals that keep markets and change who owns the firms (Roemer's market socialism, cooperatives) are not touched by it, whatever their other difficulties. (c) overextends the verdict exactly the way the lesson warns against; (b) and (d) get the history backwards."
+    concepts: [socialism, market-socialism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A 2040s government proposes 'Planning 2.0': keep every firm state-owned, but feed real-time sales, inventory, and logistics data into a national AI that sets all prices and production targets. Which critique from the lesson survives this proposal most directly?"
+    choices:
+      - id: a
+        text: "Hayek's knowledge problem and the dynamic problem: much economic knowledge is tacit and local, and the information prices carry is created by entrepreneurial bets and market participation — which the scheme abolishes."
+      - id: b
+        text: "Mises's original objection, because the AI would still have no prices to work with."
+      - id: c
+        text: "The famine record: any economy with state-owned firms must end in mass starvation."
+      - id: d
+        text: "Przeworski's dilemma: no electorate would ever vote for the scheme."
+    correct_choice_id: a
+    explanation: "Planning 2.0 is Lange's trial-and-error board with better telemetry — it posts prices, so the bare 'no prices' objection (b) is answered on paper, just as Lange answered it. What reversed the mid-century verdict was what survives here: a system adjusting yesterday's prices cannot conjure tomorrow's discoveries, much of the knowledge an economy runs on cannot be articulated into data at all, and state firms that cannot fail still learn to bargain with the ministry (the soft budget constraint). (c) overreads the historical record — the lesson ties the famines to forced collectivization under one-party rule, not state ownership as such; (d) is about electoral strategy, not economic feasibility."
+    concepts: [socialism, capitalism, market-socialism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In Paper Stones (1986), Przeworski and Sprague explain why electoral socialist parties drift toward social democracy. What is the mechanism?"
+    choices:
+      - id: a
+        text: "Industrial workers never became an electoral majority anywhere, so winning requires broadening the coalition with a program non-socialist voters will accept — which dilutes the socialist program."
+      - id: b
+        text: "Capital's campaign donations gradually moderate socialist parties from the inside."
+      - id: c
+        text: "Proportional-representation systems structurally penalize class-based parties."
+      - id: d
+        text: "Voters favor socialist ends, but hostile media keep them misinformed about party platforms."
+    correct_choice_id: a
+    explanation: "Przeworski's trap is coalition arithmetic, not money or media: a pure class party caps out below a majority and loses; a broadened party can win, but only on a program its non-socialist voters accept — so the mandate that results is social-democratic. On this reading social democracy is not a betrayal of socialism but the equilibrium electoral competition imposes on it. (b) and (d) are common explanations the model deliberately does without, and (c) is wrong because the pattern held across electoral systems — no socialist party anywhere won a majority on transforming property relations."
+    concepts: [socialism, social-democracy]
+
+  - id: q5
+    kind: free-response
+    text: "The lesson calls worker cooperatives the socialist portfolio's strongest existence proof and weakest scaling story. Suppose you had to design a five-year test of whether cooperatives can move from niche to anchor in one U.S. metro area. What would you measure, and what result would convince you the financing bind is — or is not — the decisive constraint?"
+    socratic_seed: "Push the learner to operationalize. The financing bind: co-ops cannot sell voting equity without ceasing to be co-ops, so they grow on retained earnings and debt — what observable would isolate that constraint (capital intensity of the sectors co-ops enter, growth rates with vs. without loan funds or Roemer-style hybrid instruments)? What counts as 'anchor' rather than 'niche' — employment share, survival through a recession, presence in capital-intensive industry? Bring in Mondragon's own compromises (non-member workers in foreign plants) — if scaling requires diluting membership, does the test still measure economic democracy? Close by separating the settled claim (worker ownership works at firm scale — Mondragon's seven decades) from the open one (whether it can scale), and ask which result would move a social democrat versus a democratic socialist."
+    concepts: [socialism, market-socialism]

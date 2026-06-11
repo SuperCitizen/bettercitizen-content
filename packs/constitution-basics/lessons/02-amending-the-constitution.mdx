@@ -1,0 +1,137 @@
+---
+schema: bettercitizen.lesson/v1
+slug: amending-the-constitution
+kind: reading
+title: "Amending the Constitution: how Article V works, and why it almost never does"
+objectives:
+  - Walk both Article V proposal tracks and both ratification tracks, with the
+    real vote thresholds attached
+  - Explain where ratification deadlines come from and why a deadline's
+    placement — in the amendment's text versus the proposing resolution —
+    changes everything
+  - Identify the six amendments Congress proposed that were never ratified, and
+    say which of them are still legally pending
+  - Trace the Equal Rights Amendment from its 1972 proposal to its contested
+    present status, naming the legal questions it left open
+  - State the one thing Article V puts beyond amendment
+concepts:
+  - amendment-process
+  - amendment
+  - ratification
+  - supermajority
+sources:
+  - type: statute
+    citation: 'U.S. Const. art. V — the full amendment procedure, including the equal-suffrage proviso.'
+    url: https://constitution.congress.gov/constitution/article-5/
+  - type: website
+    citation: 'Constitution Annotated (Library of Congress), "Overview of Article V, Amending the Constitution" — 33 amendments proposed by Congress, 27 ratified; the convention route never used.'
+    url: https://constitution.congress.gov/browse/essay/artV-1/ALDE_00000507/
+  - type: website
+    citation: 'U.S. Senate, "Measures Proposed to Amend the Constitution" — more than 11,000 amendment proposals introduced in Congress since 1789.'
+    url: https://www.senate.gov/legislative/MeasuresProposedToAmendTheConstitution.htm
+  - type: website
+    citation: 'National Archives, "Constitutional Amendment Process" — the Archivist''s ministerial certification role under 1 U.S.C. 106b.'
+    url: https://www.archives.gov/federal-register/constitution
+  - type: court-opinion
+    citation: 'Dillon v. Gloss, 256 U.S. 368 (1921) — Congress may set ratification deadlines; ratification should be "sufficiently contemporaneous" to reflect one generation''s will.'
+    url: https://supreme.justia.com/cases/federal/us/256/368/
+  - type: court-opinion
+    citation: 'Coleman v. Miller, 307 U.S. 433 (1939) — the timeliness of ratification is a political question for Congress, not the courts.'
+    url: https://supreme.justia.com/cases/federal/us/307/433/
+  - type: crs-report
+    citation: 'Neale, T. H., The Proposed Equal Rights Amendment: Contemporary Ratification Issues, Congressional Research Service Report R42979.'
+    url: https://www.congress.gov/crs-product/R42979
+  - type: website
+    citation: 'National Archives press statement, December 2024 — the Archivist and Deputy Archivist on why "the Archivist of the United States cannot legally publish the Equal Rights Amendment."'
+    url: https://www.archives.gov/press/press-releases/2025/nr25-004
+  - type: paper
+    citation: 'Lutz, D. S. (1994), "Toward a Theory of Constitutional Amendment," American Political Science Review 88(2): 355–370 — comparative amendment rates; the U.S. Constitution among the world''s hardest to amend.'
+    url: https://www.cambridge.org/core/journals/american-political-science-review/article/abs/toward-a-theory-of-constitutional-amendment/9932D2055798BE28EF9CF40BAD4E2F7D
+duration_min: 17
+---
+
+# Amending the Constitution: how Article V works, and why it almost never does
+
+Thirty-eight states — exactly the number Article V requires — have voted at some point to ratify the Equal Rights Amendment. It is not in the Constitution. Meanwhile, an amendment that sat ignored for two centuries, ratified by a trickle of legislatures spread across ten presidencies, *is* — certified in 1992 without anyone seriously disputing it. Same article, same machinery, opposite outcomes. The difference comes down to a few sentences Congress did or didn't attach in the proposing resolution, and to questions the Supreme Court has deliberately refused to answer. This lesson takes the amendment machine apart piece by piece: the two ways to propose, the two ways to ratify, the deadline doctrine that decides which proposals die, and the one clause the machine itself cannot touch.
+
+## The machine, piece by piece
+
+Article V is a single dense paragraph, but it specifies a complete pipeline. **Proposal** comes first, by either of two tracks: two-thirds of both chambers of Congress (290 of 435 representatives and 67 of 100 senators, if everyone votes), or a national convention that Congress "shall call" when two-thirds of the state legislatures — 34 of 50 — apply for one. **Ratification** follows, again by either of two tracks: approval by three-fourths of the states, 38 of 50, acting through their legislatures or through one-time ratifying conventions. Congress, not the states, picks the [[term:ratification]] mode when it sends a proposal out. And when the 38th state's paperwork arrives, the Archivist of the United States certifies the [[term:amendment]] and publishes it — a purely ministerial act under federal statute (1 U.S.C. 106b): the Archivist verifies that the documents are facially sufficient and "does not make any substantive determinations as to the validity of State ratification actions."
+
+<ProcessFlow title="The Article V pipeline" steps={[
+  {title: 'Proposal', detail: "Two-thirds of both the House and the Senate vote to propose. This track has carried all 33 amendments ever sent to the states.", branch: 'The bypass: 34 state legislatures apply, and Congress must call a proposing convention. Never used.'},
+  {title: 'Congress sets the terms', detail: 'Congress chooses the ratification mode — state legislatures (chosen for every proposal but one) or state conventions (once, for the 21st Amendment) — and may attach a deadline.', branch: "Where the deadline lives matters: written into the amendment's text, it binds absolutely; written only into the proposing resolution, its force is contested."},
+  {title: 'The states ratify', detail: 'Three-fourths of the states — 38 of 50 — approve. No governor signs anything; ratification is a legislative (or convention) act.', branch: 'Some states have voted to rescind earlier ratifications. Whether a rescission counts has never been definitively settled.'},
+  {title: 'Certification', detail: "The Archivist of the United States certifies and publishes the amendment under 1 U.S.C. 106b — a ministerial act, not a judgment call. The President has no role at any stage (Hollingsworth v. Virginia, 1798)."},
+]} />
+
+Two features of the design deserve a second look. First, the supermajorities compound: a proposal needs the agreement of two-thirds of two congressional chambers *and* of legislative majorities (or conventions) in 38 separate states. A [[term:supermajority]] stacked on a supermajority is why blocking an amendment requires only 13 states — in principle, the 13 least populous, containing under 5 percent of the U.S. population. Second, Article V ends with an entrenchment clause, the Constitution's only permanent one: "no State, without its Consent, shall be deprived of its equal Suffrage in the Senate." An amendment giving California more senators than Wyoming would need not 38 states but the consent of every state losing ground — which is to say, it is effectively unamendable. (Two other entrenchments, shielding the slave trade and direct-tax rules, expired by their own terms in 1808.)
+
+<Checkpoint question="A reform group drafts an amendment to replace the Senate's two-senators-per-state rule with seats allocated by population, and it somehow wins two-thirds of Congress and 38 ratifications — every state except the 12 smallest. Is it valid?">
+  **No.** Article V's final clause says no state may be "deprived of its equal Suffrage in the Senate" *without its consent*. The 12 smallest states didn't consent, so the amendment fails as to them no matter how many other states ratify — which makes the change practically impossible rather than merely hard. It is the one substantive rule the amendment machine cannot reach by ordinary supermajorities.
+</Checkpoint>
+
+## The convention nobody has called
+
+The second proposal track was the Founders' insurance policy: if Congress itself ever became the obstacle — refusing, say, to propose term limits on its own members — the states could route around it. George Mason insisted on it at Philadelphia precisely because, he argued, Congress would never propose amendments curbing its own power. The trigger has never been pulled, but it has been *approached*. The campaign for a federal [[issue:balanced-budget-amendment]] brought state applications within a handful of the 34 needed in the early 1980s, and organized drives on both the right and the left have kept counting applications since.
+
+What keeps even sympathetic legislators wary is that Article V says almost nothing about how a convention would work. Who picks the delegates, and how are votes allocated — one state one vote, or by population? Must Congress call a convention when 34 applications address different subjects, or only when they match? And the hardest one: could a convention called for a single topic propose anything it liked? The only precedent is not reassuring to either side — the Philadelphia convention of 1787 was itself convened merely to revise the Articles of Confederation and instead wrote a new government. Whatever a runaway convention proposed would still need 38 states to ratify, which is the real safety net; but "the safety net has never been load-tested" is exactly the argument opponents make.
+
+## Deadlines, and where they live
+
+Nothing in Article V mentions time limits. For the Constitution's first 128 years, proposals simply went out and stayed out — which is how Madison's pay amendment could lie dormant from 1789 to 1992. Congress first attached a deadline in 1917, writing a seven-year limit directly into the text of the 18th Amendment ([[term:prohibition]]). A man arrested under the new prohibition law challenged the practice, and in *Dillon v. Gloss* (1921) the Supreme Court upheld it, reasoning that ratification ought to be "sufficiently contemporaneous" to reflect the will of one generation rather than an accident of accumulation. Eighteen years later the Court stepped back from policing time at all: *Coleman v. Miller* (1939), a dispute over Kansas's ratification of the child labor amendment 13 years after its proposal, held that the timeliness of a ratification is a political question for Congress, not the courts.
+
+That pair of holdings left a live wire in the system, because *where* Congress puts the deadline turns out to matter enormously. Six of the 33 proposals Congress has sent out were never ratified, and their fates diverge on exactly this point:
+
+| Proposal | Sent to the states | Deadline | Status |
+| --- | --- | --- | --- |
+| Congressional apportionment | 1789 | None | Still pending |
+| Titles of nobility | 1810 | None | Still pending |
+| Corwin Amendment (shielding slavery from federal interference) | 1861 | None | Still pending — a dead letter morally and politically, but never withdrawn |
+| Child labor | 1924 | None | Still pending; stalled at 28 states |
+| Equal Rights Amendment | 1972 | Seven years, in the **proposing resolution** | Contested — see below |
+| D.C. voting rights | 1978 | Seven years, in the **amendment's own text** | Expired 1985; indisputably dead |
+
+Read the last two rows against each other. The D.C. voting rights amendment placed its time limit inside the amendment text itself — ratification within seven years was made a condition of the amendment's own validity, so when the clock ran out in 1985 with only 16 states, there was nothing left to argue about. The ERA's seven-year limit sat in the proposing resolution's introductory clause, *outside* the text the states actually ratified. Whether that kind of deadline binds — and whether Congress can extend or repeal it after the fact — is the unresolved question on which the ERA's entire modern story turns.
+
+<QuickCheck
+  question="Congress proposed the Corwin Amendment in 1861 and the D.C. voting rights amendment in 1978. Which could a state legislature still validly ratify today?"
+  choices={[
+    {id: 'a', text: 'Both — unratified proposals stay open forever'},
+    {id: 'b', text: 'The Corwin Amendment only — it carries no deadline, while the D.C. amendment expired by its own text in 1985'},
+    {id: 'c', text: 'The D.C. amendment only — newer proposals supersede older ones'},
+    {id: 'd', text: 'Neither — both lapsed when the Congress that proposed them adjourned'},
+  ]}
+  answer="b"
+  explanation="A proposal without a deadline stays legally pending indefinitely — that is the rule the 27th Amendment's 1992 certification confirmed in practice, and it keeps the 1861 Corwin Amendment technically alive (states have occasionally, and controversially, noticed). The D.C. amendment is the opposite case: its seven-year limit was written into the amendment's own text, making timely ratification a condition of validity. Proposals do not lapse when a Congress adjourns, and newer proposals do not displace older ones."
+/>
+
+## Case study: the fifty-year amendment
+
+The Equal Rights Amendment is one sentence — "Equality of rights under the law shall not be denied or abridged by the United States or by any State on account of sex" — and it has been in motion for over a century. Alice Paul's National Woman's Party first had it introduced in 1923, three years after the 19th Amendment secured [[term:suffrage]]. It was reintroduced in every Congress for half a century before passing the House 354–24 in October 1971 and the Senate 84–8 in March 1972 — margins that made ratification look like a formality. It was anything but.
+
+<Timeline title="The ERA's long road" events={[
+  {date: '1923', title: 'First introduced', detail: "Drafted by Alice Paul and introduced in Congress three years after the 19th Amendment. Reintroduced, and buried, in every Congress for the next 49 years."},
+  {date: '1972', title: 'Congress proposes', detail: 'House 354–24, Senate 84–8 — far past two-thirds. The proposing resolution sets a seven-year ratification deadline. Hawaii ratifies within hours; about thirty states ratify within two years.'},
+  {date: '1977', title: 'The count stalls at 35', detail: "Indiana becomes the 35th state in January 1977 — three short. Phyllis Schlafly's STOP ERA campaign has turned ratification into a contested fight in the remaining legislatures, and the count freezes."},
+  {date: '1978', title: 'Congress extends the deadline', detail: 'With the original March 1979 deadline approaching, Congress extends it to June 30, 1982 — by simple majorities, not the two-thirds used to propose. By now four state legislatures have voted to rescind their ratifications, and South Dakota declares its ratification will lapse on the original deadline.'},
+  {date: '1982', title: 'The deadline passes', detail: 'No state ratifies during the extension. A federal district court holds the rescissions valid and the extension unconstitutional; the Supreme Court takes the appeal, then vacates everything as moot once the deadline expires. The ERA is widely declared dead.'},
+  {date: '2017–2020', title: 'Three late ratifications', detail: 'Nevada (2017), Illinois (2018), and Virginia (January 2020) ratify decades after the deadline, with Virginia claiming the 38th slot — forcing every dormant legal question at once.'},
+  {date: '2020–present', title: 'The certification fight', detail: "The Justice Department's Office of Legal Counsel (2020, 2022) and federal courts at the district and circuit levels treat the deadline as valid; in December 2024 the Archivist states she 'cannot legally publish' the ERA. In January 2025 President Biden voices his view that the ERA has cleared every hurdle — but orders nothing, and nothing is certified. Litigation continues."},
+]} />
+
+Walk through what the timeline forces you to confront. If Congress's deadline was valid, were the 2017–2020 ratifications legal nullities — and was the 1978 extension, passed by simple majorities, valid in the first place? If late ratifications count because *Coleman* makes timing a political question for Congress, then do the four rescissions count too, by the same logic of deference to states' latest word? The 27th Amendment is precedent for counting very old ratifications — but Madison's proposal had no deadline at all, which is precisely the distinction the Archivist's office has drawn. As of mid-2026 the ERA sits in a constitutional superposition: ratified by 38 states on one accounting, expired since 1982 on another, uncertified on any, with the dispute still moving through Congress and the federal courts.
+
+<Checkpoint question="Suppose a future Congress passes a joint resolution, by simple majority, declaring the ERA's deadline repealed and directing the Archivist to certify it. Does that settle the matter?">
+  **It would force the question, not settle it.** *Coleman v. Miller* says ratification timeliness is a political question committed to Congress — which supporters read as authorizing exactly this move. But opponents would answer that a deadline attached by a two-thirds proposing majority can't be stripped by a simple majority fifty years later, and that four states validly rescinded — leaving the count short of 38 regardless. Courts would then have to decide whether *Coleman* requires them to stay out entirely. The honest answer is that Article V's text resolves none of this, which is the deepest lesson of the ERA case.
+</Checkpoint>
+
+## The scholar's lens: the hardest constitution to amend
+
+Political scientist Donald Lutz put the difficulty in comparative perspective in "Toward a Theory of Constitutional Amendment" (*American Political Science Review*, 1994), measuring amendment procedures across the 50 American states and dozens of national constitutions. The U.S. Constitution came out among the very hardest to amend in the world, with one of the lowest amendment rates — and Lutz found that a *moderate* amendment rate, not a minimal one, is what correlates with a constitution's survival. The state constitutions make the contrast vivid: they are amended constantly, often by simple ballot measure, and Alabama's 1901 charter alone accumulated close to a thousand amendments before the state adopted a recompiled version in 2022.
+
+Lutz's framework also names the consequence of setting the dial this stiff: constitutional change does not stop, it *relocates*. When formal amendment is blocked, the updating work migrates to judicial interpretation — the meaning of "equal protection" or "commerce" stretches and shifts through litigation instead of through Article V. Whether that migration is a pathology (judges doing what supermajorities of voters should) or a feature (insulating fundamentals from transient passions while letting application evolve) is one of the standing arguments of American constitutional theory, and it shadows every fight in this lesson — including the ERA's, where advocates argue the courts have already delivered much of what the amendment promised, and supporters answer that rights resting on precedent can be unsettled in a way that text cannot.
+
+## What this lesson is not
+
+This lesson explains the machine; it does not referee the machine's hardest open cases. Whether the ERA is validly ratified is, as of mid-2026, genuinely undecided — actively litigated and politically contested — and you should treat anyone who tells you the answer is obvious, in either direction, as advocating rather than reporting. Nor does this lesson settle whether Article V's difficulty is set correctly: Lutz gives you the comparative data, but the judgment — durable text versus democratic responsiveness — is yours to argue. And one whole category of constitutional change has gone unmentioned here: the kind that happens with no amendment at all, through practice, precedent, and unwritten convention. That is the next lesson.

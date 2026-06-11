@@ -1,0 +1,146 @@
+schema: bettercitizen.assessment/v1
+lesson: amending-the-constitution
+questions:
+  - id: q1-convention-route
+    kind: multiple-choice
+    text: "Thirty-four state legislatures submit applications to Congress for a
+      convention to propose a balanced-budget amendment. Under Article V's
+      text, what happens next?"
+    choices:
+      - id: a
+        text: The states convene the convention themselves, and whatever it
+          proposes goes straight into the Constitution
+      - id: b
+        text: Congress may call a convention if it agrees the topic merits one
+      - id: c
+        text: Congress "shall call" a convention — the text makes it mandatory —
+          but nearly every procedural question about how it would work is
+          unsettled
+      - id: d
+        text: The applications are forwarded to the Supreme Court, which rules on
+          whether a convention is warranted
+    correct_choice_id: c
+    explanation: "Article V's verb is 'shall' — on a valid 34-state application,
+      Congress has no discretion to refuse. But that is nearly all the text
+      says: who picks delegates, how votes are allocated, whether mismatched
+      applications aggregate, and whether a convention can be limited to one
+      topic are all open questions, which is precisely why the route has never
+      been used. Choice (a) misses that a convention only *proposes* — 38
+      states must still ratify; the courts (d) have no assigned role."
+    concepts:
+      - amendment-process
+  - id: q2-deadline-placement
+    kind: multiple-choice
+    text: "In 2030, Congress proposes two amendments on the same day. Amendment X
+      carries a seven-year deadline written into the amendment's own text;
+      Amendment Y's seven-year deadline appears only in the proposing
+      resolution. By 2040, neither has reached 38 states. What is their legal
+      status?"
+    choices:
+      - id: a
+        text: Both are dead — a deadline is a deadline wherever it appears
+      - id: b
+        text: Both remain pending — deadlines are unenforceable under Coleman v.
+          Miller
+      - id: c
+        text: X is definitively dead, because timely ratification was a condition
+          inside the text the states voted on; Y's status is contested, the ERA
+          problem all over again
+      - id: d
+        text: Y is dead but X remains pending, because resolutions outrank
+          amendment text
+    correct_choice_id: c
+    explanation: "This is the D.C. voting rights amendment versus the ERA,
+      transplanted. A deadline inside the amendment's text makes timely
+      ratification part of what the states ratify — when the clock runs out,
+      there is nothing left to argue about (the D.C. amendment died this way
+      in 1985). A deadline only in the proposing resolution sits outside the
+      ratified text, and whether it binds — or can later be extended or
+      repealed, and by what majority — is exactly the unresolved fight the
+      ERA has been generating since 1979."
+    concepts:
+      - amendment-process
+      - ratification
+  - id: q3-rescission
+    kind: multiple-choice
+    text: "A state ratifies a pending amendment in 2031. After an election, its
+      new legislature votes in 2033 to rescind. In 2035 the amendment reaches
+      38 ratifications only if that state still counts. Who, under existing
+      doctrine, would resolve whether it counts?"
+    choices:
+      - id: a
+        text: The Supreme Court — validity of ratifications is a core judicial
+          question
+      - id: b
+        text: Most likely Congress — Coleman v. Miller treated such ratification
+          disputes as political questions, though the rescission issue has
+          never been definitively settled
+      - id: c
+        text: The state's governor, whose certification controls the state's
+          official position
+      - id: d
+        text: The Archivist of the United States, who rules on contested
+          ratifications before certifying
+    correct_choice_id: b
+    explanation: "Coleman v. Miller (1939) held that questions about the
+      timeliness and circumstances of ratification are political questions
+      committed to Congress — which points away from the courts, not toward
+      them. Governors have no Article V role at all (ratification is a
+      legislative act), and the Archivist's certification under 1 U.S.C. 106b
+      is expressly ministerial — the office 'does not make any substantive
+      determinations.' The honest footnote: rescission's effect has never been
+      squarely resolved, which is why the ERA's four rescissions remain live
+      ammunition on both sides."
+    concepts:
+      - ratification
+      - amendment-process
+  - id: q4-entrenchment
+    kind: multiple-choice
+    text: Which change is effectively beyond the reach of the ordinary Article V
+      process, no matter how large the supermajorities supporting it?
+    choices:
+      - id: a
+        text: Abolishing the Electoral College
+      - id: b
+        text: Repealing the Second Amendment
+      - id: c
+        text: Giving more populous states more senators than less populous ones
+      - id: d
+        text: Lowering the ratification threshold from 38 states to 30
+    correct_choice_id: c
+    explanation: "Article V contains one permanent entrenchment: 'no State,
+      without its Consent, shall be deprived of its equal Suffrage in the
+      Senate.' Unequal Senate representation therefore requires the consent of
+      every state losing ground — not three-fourths, all of the disadvantaged
+      ones — making it practically unamendable. Everything else listed,
+      however unlikely politically, is formally available through the normal
+      two-thirds-plus-three-fourths machinery; even the amendment process
+      itself (d) could be amended by that machinery."
+    concepts:
+      - amendment-process
+      - supermajority
+  - id: q5-era-judgment
+    kind: free-response
+    text: Virginia's 2020 vote gave the Equal Rights Amendment its 38th
+      ratification — decades after the deadline Congress wrote into the 1972
+      proposing resolution, and after four states had voted to rescind. Should
+      it count? Take a position and defend it using at least two of the legal
+      materials from this lesson (Dillon, Coleman, the 27th Amendment
+      precedent, or the deadline-placement distinction).
+    socratic_seed: Start by separating the questions the ERA bundles together —
+      the deadline's validity, Congress's power to waive it after the fact, and
+      the rescissions — because an answer to one doesn't settle the others. If
+      you lean toward counting Virginia, test yourself against symmetry — if
+      late ratifications count because Congress can bless them under Coleman,
+      why wouldn't a state's latest word (rescission) deserve the same
+      deference? If you lean against, test yourself against the 27th
+      Amendment — ratifications spread over 202 years were certified without
+      serious objection, so what exactly distinguishes the ERA besides the
+      resolution's deadline clause? Then ask the institutional question - is a
+      one-sentence guarantee of sex equality better secured by forcing a
+      re-proposal through today's Congress, or by stretching fifty-year-old
+      paperwork? Which path leaves the amendment more legitimate in the eyes
+      of people who opposed it?
+    concepts:
+      - ratification
+      - amendment-process

@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Why do ethics executive orders (Clinton 1993, Obama 2009, Trump 2017, Biden 2021) keep failing to produce durable lobbying reform?"
+    choices:
+      - id: a
+        text: "Courts strike them down as exceeding executive authority."
+      - id: b
+        text: "They bind only the signing administration's executive appointees, can be waived by that administration, and can be revoked at any time — Clinton and Trump both revoked their own pledges on the way out the door."
+      - id: c
+        text: "They apply to Congress, which simply ignores them."
+      - id: d
+        text: "They are symbolic documents with no legal force even while in effect."
+    correct_choice_id: b
+    explanation: "The orders have real force while in effect (appointees sign enforceable pledges, choice d is wrong) and they never reach Congress at all (choice c misstates their scope). Their weakness is structural: one administration's appointees, that administration's enforcement, and a lifespan ending at revocation — which both Clinton (December 2000) and Trump (January 19, 2021) supplied themselves. Durable rules require statute, and the statutory floor hasn't moved since HLOGA in 2007."
+    concepts: [lobbying, hloga]
+
+  - id: q2
+    kind: multiple-choice
+    text: "As of 2025, the LDA registration thresholds are $3,500 in quarterly income per client (firms) and $16,000 in quarterly expenses (in-house operations). What is the significance of these numbers being indexed to inflation every four years?"
+    choices:
+      - id: a
+        text: "Indexing was a 2025 policy choice to deregulate small lobbying shops."
+      - id: b
+        text: "The thresholds are routine machinery: they rise automatically (next adjustment 2029), so the registration perimeter drifts with prices rather than with any congressional decision about who should disclose."
+      - id: c
+        text: "Indexing means the 20% time test no longer applies."
+      - id: d
+        text: "The thresholds determine criminal liability for bribery."
+    correct_choice_id: b
+    explanation: "The dollar floors are administered, inflation-indexed details of the 1995 act — they tell you how static the underlying framework is. The consequential boundaries (the 20% time test, the more-than-one-contact rule) haven't changed since HLOGA, and those, not the dollar amounts, create the shadow-lobbying gap. Distinguishing the machinery that moves automatically from the policy that requires a vote is exactly how to read this landscape."
+    concepts: [lobbying]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Several states ban or freeze campaign contributions from registered lobbyists, and these rules have largely survived challenge — while a broad federal ban is considered constitutionally risky. The best explanation is:"
+    choices:
+      - id: a
+        text: "State constitutions contain no free-speech clauses."
+      - id: b
+        text: "Surviving state bans are narrowly tailored to the pay-to-play risk Buckley's anti-corruption rationale covers (the lobbyist-official pair, often session-limited); a broad federal ban on all giving by all registrants would burden far more protected activity than that rationale supports."
+      - id: c
+        text: "The First Amendment does not apply to state governments."
+      - id: d
+        text: "Federal lobbyists, unlike state lobbyists, are constitutionally exempt from regulation."
+    correct_choice_id: b
+    explanation: "Constitutional survival tracks tailoring. Buckley treats contributions as protected speech that may be regulated to prevent corruption or its appearance; a rule targeting money flowing between an active lobbyist and the specific officials they lobby fits that interest tightly. The broader the class of banned givers and recipients, the weaker the fit. (Choices a and c are simply false — the First Amendment is incorporated against the states.)"
+    concepts: [lobbying, first-amendment]
+
+  - id: q4
+    kind: multiple-choice
+    text: "The lesson argues lobbying law in America is 'scandal-driven and episodic.' Which sequence best supports that claim?"
+    choices:
+      - id: a
+        text: "1817 first 'lobby member' in print → 1946 first federal lobbying statute → 1995 LDA → Abramoff's January 2006 guilty plea → HLOGA in 2007 — long equilibria, with each major tightening following exposure of abuse."
+      - id: b
+        text: "Congress has amended the lobbying statutes in every session since 1946."
+      - id: c
+        text: "Each new president's ethics order has permanently raised the statutory floor."
+      - id: d
+        text: "Lobbying regulation has steadily loosened since the LDA passed."
+    correct_choice_id: a
+    explanation: "A century and a quarter separates the term's first American print appearance from the first statute; 49 more passed before the modern LDA; and HLOGA arrived within twenty months of Abramoff's plea (conspiracy, honest-services fraud, tax evasion — January 3, 2006). The forecast embedded in that pattern: enforcement fights and FARA modernization can move incrementally, but the next structural statute likely waits for the next structural scandal."
+    concepts: [lobbying, hloga]
+
+  - id: q5
+    kind: free-response
+    text: "You are advising a reform coalition with the political capital to pass exactly one lobbying measure this Congress. Which do you choose — closing the 20% 'shadow lobbying' loophole, extending cooling-off periods to five years, or restoring the Office of Technology Assessment — and how does your choice reveal which of Lesson 2's camps you lean toward?"
+    socratic_seed: "Each choice maps to a camp. Closing the 20% loophole is the transparency-only priority: it extends the disclosure perimeter to the roughly half of the influence workforce LaPira and Thomas estimate is invisible, faces no serious constitutional objection, and improves every future debate's data. Five-year cooling-off is the restriction-first priority: it attacks dependence corruption at the career-incentive mechanism, accepting constitutional and talent-drain risks. Restoring OTA is the structural-reform priority: it reduces legislators' dependence on the lobbyist subsidy by rebuilding in-house expertise, on the theory that capacity, not contact, is the binding constraint. A strong answer also weighs sequencing — e.g., better disclosure first makes the case for (or against) later restrictions testable."
+    concepts: [lobbying, revolving-door]

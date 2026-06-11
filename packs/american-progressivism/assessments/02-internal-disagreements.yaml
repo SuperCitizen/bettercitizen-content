@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: internal-disagreements
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A senator argues the party should drop the 'racial equity' framing from its housing bill and rebrand it as help for 'working families,' predicting that largely the same households will benefit either way and the bill will be harder to attack. Which stream's signature argument is this?"
+    choices:
+      - id: a
+        text: "Identity-justice progressive."
+      - id: b
+        text: "Civic-republican progressive."
+      - id: c
+        text: "New Deal liberal."
+      - id: d
+        text: "Abundance / supply-side progressive."
+    correct_choice_id: c
+    explanation: "This is the New Deal liberal universality argument in full: universal (or class-framed) programs are politically more durable than targeted ones, and because historically excluded groups are over-represented in working-class positions, universal design still delivers substantive equity. An identity-justice progressive would object that injuries like redlining are race-specific and require race-conscious remedy; a civic-republican would focus on common-good framing rather than coalition durability; abundance progressives focus on government's capacity to build, not on framing."
+    concepts: [progressivism, new-deal]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Identity-justice progressives cite federal mortgage policy underwriting redlining and the racially disparate administration of the GI Bill. What conclusion do they draw from this record?"
+    choices:
+      - id: a
+        text: "That the New Deal and postwar programs were failures and should not have been enacted."
+      - id: b
+        text: "That universal-sounding programs can encode exclusion in their design and administration, so the 'downstream benefits' of universalism cannot simply be assumed."
+      - id: c
+        text: "That economic programs never meaningfully help marginalized groups."
+      - id: d
+        text: "That the exclusions were administrative accidents that later economic growth corrected on its own."
+    correct_choice_id: b
+    explanation: "The identity-justice claim is structural, not nihilistic: programs that were formally universal (or universal-sounding) were administered and designed in ways that excluded Black Americans, so universal framing alone does not guarantee equitable delivery. They do not claim the programs were worthless (a) or that economics never helps (c). The New Deal liberal counter-reading — tragic compromises later corrected by legislation, not by growth — is closest to (d) but still attributes the correction to deliberate policy."
+    concepts: [progressivism, identity-justice, new-deal]
+
+  - id: q3
+    kind: multiple-choice
+    text: "According to the civic-republican stream (Sandel's The Tyranny of Merit), what exactly is wrong with meritocratic individualism?"
+    choices:
+      - id: a
+        text: "Merit-based competition is unfair only because the tests and credentials are rigged; fixing access would fix the problem."
+      - id: b
+        text: "The ideal itself corrodes solidarity — it tells winners they earned everything and losers they deserve their lot, degrading the dignity of non-credentialed work."
+      - id: c
+        text: "Meritocracy slows economic growth by misallocating talent."
+      - id: d
+        text: "Meritocracy concentrates wealth, which is acceptable so long as it is taxed and redistributed."
+    correct_choice_id: b
+    explanation: "Sandel's critique targets the ideal, not just its imperfect execution. A perfectly fair meritocracy would still teach the successful that they deserve their winnings and the rest that they deserve their lot — corroding solidarity and the dignity of work. Choice (a) is the 'rigged meritocracy' reading Sandel explicitly rejects as too shallow; (c) is an efficiency argument no stream makes; (d) is closer to a New Deal liberal redistribution frame, which Sandel argues is insufficient on its own."
+    concepts: [progressivism, civic-republicanism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "At a coalition meeting, one organizer warns that the campaign's list of constituency-specific demands reads as a coalition of grievances rather than a vision of shared life, and urges recasting it around common civic purpose. A second responds that 'shared identity' talk has historically meant ignoring who was excluded from the 'shared' part. Which streams are speaking, in order?"
+    choices:
+      - id: a
+        text: "Civic-republican, then identity-justice."
+      - id: b
+        text: "New Deal liberal, then civic-republican."
+      - id: c
+        text: "Identity-justice, then New Deal liberal."
+      - id: d
+        text: "Civic-republican, then New Deal liberal."
+    correct_choice_id: a
+    explanation: "The 'coalition of grievances vs. shared life' critique is the civic-republican signature (Sandel, Reich, Lilla). The rejoinder — that appeals to shared civic identity can elide the specific exclusions that shaped American civic life — is the identity-justice stream's standing critique of civic-republicanism. A New Deal liberal would instead have objected on coalition-durability and class-framing grounds."
+    concepts: [progressivism, identity-justice, civic-republicanism]
+
+  - id: q5
+    kind: free-response
+    text: "All three streams support a universal child allowance, yet they split three ways on reparations. Using each stream's own logic, explain why one issue unifies and the other divides — and state what each stream would have to concede for a synthesis position on reparations to be possible."
+    socratic_seed: "The child allowance satisfies every stream's frame at once: it is universal and class-based (New Deal liberal durability), reaches marginalized families disproportionately because of who is over-represented among low-income parents (identity-justice equity), and strengthens families as civic institutions (civic-republican). Reparations is irreducibly race-conscious and targeted, so it sits exactly on the universal-vs-targeted fault line: New Deal liberals fear coalition and durability costs; identity-justice progressives insist a race-specific injury requires a race-specific remedy; civic-republicans split between repair-as-civic-reckoning and worry about fracturing shared identity. A synthesis would require New Deal liberals to concede that some injuries cannot be reached by universal programs, identity-justice progressives to concede that political durability constraints are real design considerations rather than bad faith, and civic-republicans to articulate repair as constitutive of — not opposed to — common civic identity."
+    concepts: [progressivism, identity-justice, civic-republicanism]

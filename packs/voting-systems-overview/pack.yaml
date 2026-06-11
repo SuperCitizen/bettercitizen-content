@@ -4,12 +4,12 @@ title: Voting systems — a neutral overview
 summary: How plurality, ranked-choice, score, STAR, and approval voting actually work — what each system does well, what each does poorly, and where the academic + empirical evidence lands. Neutral counterpart to the advocacy books.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.1.0
+version: 1.2.0
 tags: [voting-systems, electoral-reform, civics-201]
 level: intermediate
 official: true
 contested: false
 languages: [en]
 lessons:
-  - 01-the-five-systems.md
-  - 02-tradeoffs-and-evidence.md
+  - 01-the-five-systems.mdx
+  - 02-tradeoffs-and-evidence.mdx

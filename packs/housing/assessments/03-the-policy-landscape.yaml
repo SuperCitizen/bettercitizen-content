@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "California's ADU laws produced about 27,000 permits in 2023 — over a fifth of all homes the state permitted — while SB 9, covering similar lots, produced a trickle. A neighboring state wants its new fourplex law to perform like the ADU laws. Which design choice matters most?"
+    choices:
+      - id: a
+        text: "A larger per-unit state subsidy to offset construction costs."
+      - id: b
+        text: "Ministerial, by-right approval with capped fees — removing the discretionary hearings and pricing levers that let hostile cities smother projects."
+      - id: c
+        text: "A statewide ballot measure first, to demonstrate durable public support."
+      - id: d
+        text: "An owner-occupancy requirement, to reassure neighbors that investors won't dominate."
+    correct_choice_id: b
+    explanation: "The SB 9 versus ADU contrast is the cleanest design experiment in U.S. housing policy, and the difference is process: ADU approval is ministerial with constrained fees, while SB 9 left cities room to impose size caps, design standards, five-figure fees, and owner-occupancy rules. Choice (d) is one of the levers that helped smother SB 9, not a fix. The operative question for any zoning reform is never 'what does it allow?' but 'who can still say no, and what can they charge?'"
+    concepts: [housing, zoning-preemption]
+
+  - id: q2
+    kind: multiple-choice
+    text: "After City of Grants Pass v. Johnson (2024), which statement is accurate?"
+    choices:
+      - id: a
+        text: "Cities must clear homeless encampments or forfeit federal homelessness funding."
+      - id: b
+        text: "Cities may enforce generally applicable public-camping bans, even against people with nowhere else to sleep, without violating the Eighth Amendment — but the ruling mandates nothing and says nothing about whether enforcement works."
+      - id: c
+        text: "Camping bans violate the Eighth Amendment whenever shelter beds are unavailable."
+      - id: d
+        text: "The decision ended Housing First as the federal funding model."
+    correct_choice_id: b
+    explanation: "The 6-3 opinion by Justice Gorsuch held such enforcement is not 'cruel and unusual punishment,' discarding the Ninth Circuit's Martin v. Boise rule — which is what choice (c) describes, the now-overruled standard. The ruling removed a federal constitutional barrier; it required nothing of cities. Choice (d) confuses the Court with the President: the Housing First pivot came via the July 2025 executive order conditioning grants on enforcement and treatment — politics answering the question the opinion left open."
+    concepts: [housing, housing-first]
+
+  - id: q3
+    kind: multiple-choice
+    text: "The 2025 tax law cut the LIHTC 'bond test' from 50 percent to 25 percent. Why do analysts project this single change could finance on the order of a million additional affordable homes over a decade?"
+    choices:
+      - id: a
+        text: "It doubles the credit rate on bond-financed projects from 4 percent to 8 percent."
+      - id: b
+        text: "States' private-activity bond caps are scarce; halving the share of costs each project must finance with bonds stretches the same bond volume across roughly twice as many credit-eligible projects."
+      - id: c
+        text: "It opens the credit to market-rate developments without income restrictions."
+      - id: d
+        text: "It moves LIHTC administration from state agencies to HUD, eliminating duplicative review."
+    correct_choice_id: b
+    explanation: "Under the old rule a project needed at least half its costs financed by private-activity bonds to unlock 4 percent credits, so scarce state bond caps were the binding constraint; at 25 percent, the same cap goes about twice as far. Paired with the permanent 12 percent increase in 9 percent credit ceilings, industry projections run to roughly 1.2 million additional homes over 2026-2035. The political lesson the chapter draws: the unglamorous developer-investor-state-agency coalition delivered the largest affordable-housing-finance expansion in decades while flashier proposals died."
+    concepts: [housing, lihtc]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Read as its steel-man, what does the research record actually show about Housing First?"
+    choices:
+      - id: a
+        text: "It outperforms treatment-first models at getting and keeping people housed — the outcome it targets — while evidence that it resolves addiction or psychiatric illness, or reliably saves public money, is much weaker."
+      - id: b
+        text: "It fails at housing retention but excels at treating addiction."
+      - id: c
+        text: "It has been proven to end chronic homelessness wherever it is fully funded."
+      - id: d
+        text: "There is no credible research on it in either direction."
+    correct_choice_id: a
+    explanation: "The randomized and longitudinal literature descending from Tsemberis's Pathways research consistently shows superior housing retention without sobriety preconditions; the over-claims (cost savings, clinical recovery) are where critics aim, and the 2025 federal pivot argues from exactly that gap. Keep Colburn and Aldern's market-level finding upstream of the program fight: rents and vacancy rates predict how many people fall into homelessness; individual vulnerability predicts who. Program design allocates a shortage either way."
+    concepts: [housing, housing-first]
+
+  - id: q5
+    kind: free-response
+    text: "The July 2025 executive order conditions federal homelessness grants on encampment enforcement and treatment participation, ending the federal Housing First default. Steel-man the order, steel-man the strongest objection, and name the evidence that would most change your own view."
+    socratic_seed: "For the order: Grants Pass restored cities' enforcement tools; Housing First's weaker clinical and cost-savings evidence justifies trying accountability-based models; visible street disorder erodes public consent for any homelessness spending; civil commitment may be the only path for the sickest. Against: enforcement without housing alternatives may shuffle people rather than shelter them (the empirical question the lesson flags as open); treatment capacity, like permanent supportive housing, mostly does not exist at scale — the fiscal irony of conditioning aid on it; Colburn-Aldern's comparisons show housing-market tightness, not local pathology rates, sets the level of homelessness; California's audit shows spending without outcome tracking fails under any philosophy. Evidence that should move anyone: 2026-27 point-in-time trends in enforcement-first versus housing-first jurisdictions (the 2025 count's 3.4 percent decline predates the order), plus unit and treatment-bed counts. Strong answers separate the constitutional question (settled by Grants Pass) from the empirical one (open), and avoid treating either camp's motives as the argument."
+    concepts: [housing, housing-first]

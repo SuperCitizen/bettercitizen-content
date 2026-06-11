@@ -4,13 +4,13 @@ title: Communitarianism
 summary: What the communitarian tradition actually believes (steel-manned by adherents), how it crosses the conventional left-right axis, the internal differences among civic-republican, religious-traditionalist, and progressive-communitarian streams, and how it relates to the other major American ideological traditions. Communitarianism is the most cross-cutting of the traditions in this pack — it has serious adherents among progressives, conservatives, and religious thinkers.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.0.0
+version: 1.1.0
 tags: [ideologies, communitarianism, civics-201, political-philosophy]
 level: intermediate
 official: true
 contested: true
 languages: [en]
 lessons:
-  - 01-what-it-believes.md
-  - 02-internal-disagreements.md
-  - 03-cross-spectrum.md
+  - 01-what-it-believes.mdx
+  - 02-internal-disagreements.mdx
+  - 03-cross-spectrum.mdx

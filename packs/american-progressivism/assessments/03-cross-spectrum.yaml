@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: cross-spectrum
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "European social-democratic parties have historically found it easier to enact their programs than American progressives. Which explanation matches the lesson's account?"
+    choices:
+      - id: a
+        text: "European electorates are uniformly further left than American ones."
+      - id: b
+        text: "Parliamentary systems let a legislative majority enact its program, while U.S. federalism, bicameralism, presidentialism, and the filibuster multiply the veto points a program must survive."
+      - id: c
+        text: "European social democrats avoided formal ties to labor unions, giving them more political flexibility."
+      - id: d
+        text: "The U.S. Constitution prohibits federal social-insurance programs."
+    correct_choice_id: b
+    explanation: "The lesson's explanation is structural, not attitudinal: parliamentary majorities translate directly into enactment, while the American separation-of-powers design gives multiple minorities a veto. Choice (c) inverts the actual history — European labor parties are formally tied to unions, which strengthened rather than weakened their programs. Choice (d) is a real folk confusion but false: Social Security and Medicare are federal social insurance and have repeatedly survived constitutional challenge."
+    concepts: [progressivism, socialism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "In the same week, a progressive caucus finds libertarian allies on a bill limiting warrantless surveillance, then loses every libertarian vote on a minimum-wage increase. What explains the pattern?"
+    choices:
+      - id: a
+        text: "Libertarian support depends mainly on which party sponsors a bill."
+      - id: b
+        text: "The two traditions agree on civil liberties but disagree on whether market outcomes are politically constructed and correctable."
+      - id: c
+        text: "The two traditions share economic-policy commitments but diverge on civil liberties."
+      - id: d
+        text: "Libertarians oppose all federal legislation regardless of content."
+    correct_choice_id: b
+    explanation: "The overlap and the split trace the same border: progressives and libertarians substantially agree on civil liberties (surveillance, criminal procedure, drug policy), but libertarians treat market exchange as the legitimate ordering principle while progressives treat market outcomes as politically constructed and correctable — so a wage floor is exactly where the alliance ends. Choice (c) states the overlap backwards, the classic confusion this question tests."
+    concepts: [progressivism, libertarianism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which proposal would mark a move across the line the lesson draws between progressivism and democratic socialism?"
+    choices:
+      - id: a
+        text: "Raising the top marginal income-tax rate."
+      - id: b
+        text: "Adding a public option to the health-insurance exchanges."
+      - id: c
+        text: "Requiring that large firms convert to majority worker ownership."
+      - id: d
+        text: "Expanding Social Security benefits."
+    correct_choice_id: c
+    explanation: "Progressives regulate, tax, and insure within market capitalism — higher marginal rates, a public option competing on the exchanges, and expanded social insurance all stay on that side of the line. Transferring ownership of production to workers seeks to transcend market capitalism rather than correct it, which is the lesson's dividing line between the two traditions."
+    concepts: [progressivism, socialism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Sandel's progressive critique of meritocracy and Hazony's national-conservative critique converge on the same target. Per the lesson, what still divides the two traditions?"
+    choices:
+      - id: a
+        text: "Whether civic institutions matter to political life."
+      - id: b
+        text: "Whether the working class deserves a central place in politics."
+      - id: c
+        text: "Whether concentrated private power is a real problem."
+      - id: d
+        text: "Whether inherited institutions should be changed toward more inclusive and equal forms or conserved against destabilizing change."
+    correct_choice_id: d
+    explanation: "Civic institutions, working-class centrality, and suspicion of concentrated private power are precisely the shared ground the lesson documents between progressives and national conservatives. The remaining divide is the orientation toward inherited institutions: change toward inclusion versus conservation against destabilization — and the downstream fight over which institutions, and what counts as conservation versus abandonment."
+    concepts: [progressivism, conservatism]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one current convergence area — antitrust, industrial policy, or family policy. Explain why the convergence exists in substance, then predict the most likely point where the cross-ideological coalition fractures once it moves from shared diagnosis to actual legislation."
+    socratic_seed: "Example with antitrust: both progressives and national conservatives diagnose concentrated private power as a threat — progressives from the anti-corporate tradition running back to the Progressive Era, national conservatives from concern about Big Tech's cultural and speech power. The fracture comes at remedies and targets: progressives want structural breakups, labor-market enforcement, and scrutiny across all sectors; conservatives focus on platform viewpoint-discrimination and resist enforcement aimed at industries they favor. There is also an administrative-power paradox: aggressive antitrust requires exactly the empowered expert agencies conservatives otherwise want to constrain. Parallel answers work for industrial policy (climate rationale vs. defense rationale; labor standards and permitting fights) and family policy (unconditional cash vs. work requirements and marriage-promotion design)."
+    concepts: [progressivism, conservatism]

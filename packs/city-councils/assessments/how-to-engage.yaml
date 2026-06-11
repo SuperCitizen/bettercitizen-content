@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: how-to-engage
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A resident wants two things: (1) the dead tree on her parkway removed, and (2) the city to start a sidewalk-repair cost-sharing program that doesn't currently exist. What's the right pair of channels?"
+    choices:
+      - id: a
+        text: "Both to public comment at the next council meeting — that's what it's for."
+      - id: b
+        text: "Tree removal through 311/the parks department (a service request); the cost-sharing program through her council member and the committee that owns streets (a policy request needing a budget line and ordinance)."
+      - id: c
+        text: "Both through 311, which routes everything to the right place."
+      - id: d
+        text: "Tree removal through the council member; the program through 311."
+    correct_choice_id: b
+    explanation: "The first competence of local engagement is sorting service requests from policy requests. Operational problems (trees, potholes, missed pickups) are dispatched by departments, fastest via 311 — and in council-manager cities, members are often charter-barred from directing staff anyway. Policy that doesn't exist yet must be legislated: it needs a champion on the council, committee time, a staff report, and money, which is why it runs through the member and committee. Sending each request down the other channel wastes months."
+    concepts: [city-council, civic-engagement]
+
+  - id: q2
+    kind: multiple-choice
+    text: "The council votes on a contested rezoning in six weeks; the land-use committee hears it in two. Your group of eight wants maximum influence on the outcome. Which deployment best fits the lesson's evidence about where decisions are made?"
+    choices:
+      - id: a
+        text: "All eight speak at the final council meeting — the biggest audience, the binding vote."
+      - id: b
+        text: "Testify and submit written comments at the committee hearing in week two, send individual original emails to committee members before the staff report is final, and keep two speakers in reserve for the final vote."
+      - id: c
+        text: "Skip the meetings and launch a recall petition against the committee chair."
+      - id: d
+        text: "Wait for the vote, then demand the council reconsider."
+    correct_choice_id: b
+    explanation: "Council meetings mostly ratify work done upstream: by final-vote night, positions are usually set. The committee hearing is where text is drafted and minds are open, so concentrated effort belongs there — testimony plus original written comments that staff can lift into memos. Holding a couple of speakers for the final meeting keeps the public record alive. A recall is heavy machinery aimed at removing officials, not amending one ordinance, and post-vote reconsideration is the weakest position of all. Organized, early, persistent beats loud and late."
+    concepts: [city-council, public-comment, civic-engagement]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Last night the council passed an ordinance your coalition opposes. State law and the city charter allow direct democracy. Which tool is purpose-built for this situation?"
+    choices:
+      - id: a
+        text: "The initiative — draft a replacement ordinance and gather signatures to put it on the ballot."
+      - id: b
+        text: "The referendum — gather signatures within the statutory window to suspend the just-passed ordinance and put its survival to the voters."
+      - id: c
+        text: "The recall — remove the members who voted yes."
+      - id: d
+        text: "A writ of mandamus compelling the mayor to veto."
+    correct_choice_id: b
+    explanation: "The three direct-democracy tools have distinct jobs. The referendum is the brake: it targets an ordinance the council just passed, typically suspending it once enough signatures arrive within a short deadline measured in weeks. The initiative is the engine — it creates new law and runs on a longer clock. The recall removes people, not policies, and burns far more political capital. (And none of the three exists everywhere: availability depends on your state and charter — check before you organize.) Knowing which tool fits which goal is the difference between a credible threat and wasted signatures."
+    concepts: [city-council, civic-engagement]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Arnstein's 'ladder of citizen participation' (1969) classified consultation mechanisms like public comment as 'tokenism.' Which engagement move climbs to a genuinely higher rung of the ladder?"
+    choices:
+      - id: a
+        text: "Speaking at every council meeting for a year."
+      - id: b
+        text: "Submitting the same comment in writing as well as orally."
+      - id: c
+        text: "Winning appointment to the planning commission, where your vote formally shapes or precedes council decisions."
+      - id: d
+        text: "Watching the meeting livestream instead of attending."
+    correct_choice_id: c
+    explanation: "Arnstein's ladder runs from being informed, through consultation (comment lives here — input with no guarantee anyone acts on it), up to delegated power. Appointed bodies — planning commissions, zoning boards, budget committees, oversight boards — are real rungs above the lectern: members cast votes that bind or formally frame what the council sees, and the seats are frequently under-applied-for. Repeating consultation more often or in more formats (a, b, d) intensifies activity on the same rung; it doesn't move you up one."
+    concepts: [city-council, civic-engagement, public-comment]
+
+  - id: q5
+    kind: free-response
+    text: "Drawing on Oliver's 'managerial democracy' and the lesson's account of public comment, explain why an individual resident's three-minute comment rarely changes a vote — and then describe the engagement plan that the same evidence suggests CAN change outcomes, for a resident with five hours a month."
+    socratic_seed: "Why comment rarely flips votes: Oliver shows local politics is low-information and dominated by organized stakeholders; members know the comment-room is unrepresentative; by the final meeting positions are set; comment is consultation (Arnstein's tokenism rung) that builds a record and signals salience rather than persuading. What works on five hours a month: pick one issue and the committee that owns it; subscribe to the agenda; engage at the committee/staff-report stage, not final votes; send original, specific constituent letters (read and answered, unlike form campaigns); join or build an organized group (Anzia/Oliver: organization is the currency); consider a commission application for delegated power; reserve public comment for creating a record and handing allies arguments. Strong answers connect each tactic to the evidence — timing (upstream), organization (stakeholder politics), and altitude (climbing Arnstein's ladder) — rather than listing generic civic virtues."
+    concepts: [city-council, civic-engagement, public-comment]

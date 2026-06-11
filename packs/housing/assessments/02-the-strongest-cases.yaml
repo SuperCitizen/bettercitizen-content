@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A 100-unit market-rate building opens downtown at rents only high earners can pay. According to Evan Mast's migration-chain research, what happens across the metro over roughly the next five years?"
+    choices:
+      - id: a
+        text: "Nothing measurable for lower-income renters — luxury units are a separate market from affordable housing."
+      - id: b
+        text: "Chains of moves open the equivalent of about 45 to 70 units in below-median-income neighborhoods, because each household that moves frees an older, cheaper unit behind it."
+      - id: c
+        text: "Nearby rents rise on net, as the new building attracts richer residents who bid up the surrounding area."
+      - id: d
+        text: "Exactly 100 below-market units open immediately, one for each new unit built."
+    correct_choice_id: b
+    explanation: "Mast traced the actual residents of 686 new buildings in 12 cities — 52,000 people — back through about six rounds of moves: per 100 new market-rate units, the equivalent of 45-70 units open in below-median-income neighborhoods, 17-39 in the poorest fifth. Choice (c) is the 'induced demand' worry that the Been-Ellen-O'Regan 'Supply Skepticism' review weighs and rejects for net effects. The honest limit on (b): chains rarely reach extremely low-income households without subsidy — the demand side's surviving point."
+    concepts: [housing, zoning]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Brian Greaney's published 2026 comment documented coding errors in Hsieh and Moretti's famous spatial-misallocation paper. After the correction, what is the intellectually honest status of the supply-side case?"
+    choices:
+      - id: a
+        text: "It collapsed: without the headline GDP number, there is no good evidence that regulation raises housing prices."
+      - id: b
+        text: "The macro headline — large GDP gains from liberalizing three superstar metros — shrank by roughly two orders of magnitude, but the micro evidence (zoning taxes, price-cost gaps, filtering chains) survives intact."
+      - id: c
+        text: "Greaney showed the original estimate was too small, so the correction strengthened the supply-side case."
+      - id: d
+        text: "The journal retracted the original paper, so neither the old nor the corrected number may be cited."
+    correct_choice_id: b
+    explanation: "Hsieh-Moretti's published counterfactual said relaxing rules in New York, San Francisco, and San Jose to the median city's level would lift GDP 3.7 percent; Greaney showed the code as written actually lowered output, and his repaired version puts the gain around two orders of magnitude smaller. The authors acknowledged the error; nothing was retracted — comment-and-reply is the literature policing itself. The lesson's discipline: stop citing the headline number, rest the case on the measurements that replicate (Gyourko-Krimmel's roughly $400,000 zoning tax on a San Francisco quarter-acre among them)."
+    concepts: [housing, zoning]
+
+  - id: q3
+    kind: multiple-choice
+    text: "In HUD's paired-testing study, landlords refused voucher holders 78 percent of the time in Fort Worth but only 15 percent in Washington, D.C. What best explains the gap?"
+    choices:
+      - id: a
+        text: "D.C. landlords operate with thinner profit margins and cannot afford vacancies."
+      - id: b
+        text: "D.C. has an enforced source-of-income nondiscrimination law, while most Texas jurisdictions do not — enforcement, not exhortation, moves the refusal rate."
+      - id: c
+        text: "Fort Worth's voucher payment standards are set far below market rents, making vouchers uneconomic there."
+      - id: d
+        text: "The study sampled mostly luxury buildings in Texas and mostly subsidized buildings in D.C."
+    correct_choice_id: b
+    explanation: "The Urban Institute's denial rates lined up with legal regimes: 78 percent (Fort Worth), 76 percent (Los Angeles), 67 percent (Philadelphia) where refusal was legal, versus 31 percent (Newark) and 15 percent (D.C.) under source-of-income laws with teeth. About two dozen states now ban the practice, covering roughly 60 percent of voucher holders. Choice (c) is a real design issue in some markets (the Collinson-Ganong payment-standard work), but it is not what the paired-testing contrast tracked — and refusals ran highest in low-poverty neighborhoods, exactly where the program's mobility promise points."
+    concepts: [housing, section-8]
+
+  - id: q4
+    kind: multiple-choice
+    text: "The Diamond-McQuade-Qian study of San Francisco rent control is cited by tenant advocates and their critics alike. Which pair of findings explains why both sides claim it?"
+    choices:
+      - id: a
+        text: "Covered tenants were about 20 percent likelier to remain in their homes, and affected landlords cut rental supply about 15 percent — contributing to a 5.1 percent citywide rent increase."
+      - id: b
+        text: "Rent control had no measurable effect on tenants but sharply raised landlord profits."
+      - id: c
+        text: "Covered tenants moved out faster, while landlords expanded supply by subdividing units."
+      - id: d
+        text: "The study found effects only in buildings constructed after the 1994 expansion."
+    correct_choice_id: a
+    explanation: "Both findings are true at once: protection genuinely worked for incumbent tenants, and landlords' escape routes (condo conversion, redevelopment) shrank the rental stock and raised rents citywide over time. That is why modern statutes — Oregon's SB 608 and California's AB 1482 — are built around the study: cap increases rather than freeze rents, exempt buildings under 15 years old so construction still pencils, and close conversion loopholes. Reading the study as design guidance rather than refutation is the mark of the serious tenant advocate."
+    concepts: [housing, rent-control]
+
+  - id: q5
+    kind: free-response
+    text: "Pick the perspective you find least persuasive — supply-side, demand-side, or tenant-protection-led — and write its strongest case in three or four sentences, citing at least one named study from this lesson. Then state what evidence would change that camp's mind."
+    socratic_seed: "Steel-manning means the camp's smartest advocate would sign the summary. Supply-side: spatial equilibrium (Rosen-Roback), the zoning tax measured in vacant-land sales (Gyourko-Krimmel: about $400,000 per San Francisco quarter-acre), filtering chains (Mast: 45-70 below-median units per 100 built), Fischel's homevoter political economy; changes its mind if filtering breaks down at scale or constraints mostly price real public goods. Demand-side: vouchers reach this year's family (1 in 4 eligible served), Desmond's eviction-as-cause-of-poverty evidence (1 in 8 Milwaukee renters forcibly moved 2009-11; Eviction Lab's roughly 3.6 million annual filings), Collinson-Ganong on design; changes its mind if subsidies mostly leak into rents. Tenant-protection: the meantime problem, DMQ-aware cap-and-exempt design, NYC right-to-counsel outcomes (representation slid 71 to 42 percent when funding lagged), bargaining asymmetry; changes its mind if protections raise rents or screening barriers for future tenants more than they protect current ones. Push past slogans: does the learner cite evidence the camp itself uses, and a falsifier the camp would accept?"
+    concepts: [housing]

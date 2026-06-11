@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-reform-debate
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Your group wants your state's 2032 presidential nominating contest to use ranked ballots, but the legislature refuses to touch election law. Which actor could still make it happen, and how?"
+    choices:
+      - id: a
+        text: "Congress, by mandating ranked ballots in presidential primaries under the Elections Clause."
+      - id: b
+        text: "The national party committee, by ordering the state's election officials to count ranked ballots."
+      - id: c
+        text: "The state party, by running a party-administered contest under its own rules — as several state Democratic parties did with ranked ballots in 2020 — trading the state's machinery for full control."
+      - id: d
+        text: "No one; ranked ballots require a state constitutional amendment."
+    correct_choice_id: c
+    explanation: "Every reform moves through one of three doors — state law, party rules, or federal law — and mistaking the door is the most common analytical error in coverage of this debate. The Elections Clause reaches congressional elections, not party nominating contests (a), and national committees set allocation and calendar rules but cannot command state election administrators (b). A party, though, can always replace the state-run primary with its own contest under its own rules: the most underused lever on the board."
+    concepts: [primaries, ranked-choice-voting]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which statement accurately summarizes the 2020–2026 reform scoreboard?"
+    choices:
+      - id: a
+        text: "Ranked-choice voting has spread without resistance; no state has banned it."
+      - id: b
+        text: "Alaska's top-four-plus-RCV system survived a 2024 repeal attempt by 743 votes, while nineteen states have enacted RCV bans and Nevada's top-five initiative died at its required second vote."
+      - id: c
+        text: "Nevada's top-five initiative passed both required votes and took effect in 2026."
+      - id: d
+        text: "North Dakota's 2025 law expanded Fargo's approval voting statewide."
+    correct_choice_id: b
+    explanation: "The record cuts against every tidy narrative: Alaska's system survived 2024 by 743 votes out of more than 320,000 (and faces a third vote in November 2026); Nevada's flagship expansion passed in 2022 but failed its constitutionally required second vote in 2024; nineteen states — Ohio the nineteenth, in March 2026 — have banned RCV; and North Dakota's HB 1297 (2025) erased Fargo's approval voting rather than expanding it. The fight is intensifying in both directions at once."
+    concepts: [ranked-choice-voting, primaries]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which 2024–26 change moved in the CLOSING direction — restricting who participates in the decisive round?"
+    choices:
+      - id: a
+        text: "Washington, D.C.'s Initiative 83."
+      - id: b
+        text: "Maine's new semi-open presidential primary rules."
+      - id: c
+        text: "Alaska's top-four all-candidate primary."
+      - id: d
+        text: "Louisiana's move from its all-comers 'jungle' ballot to closed party primaries for Congress and certain state offices."
+    correct_choice_id: d
+    explanation: "Louisiana is the rare recent reform in the closing direction: offices that all voters once decided together on a single ballot moved to party primaries from 2026 (open to party members and unaffiliated voters, but not to members of other parties). D.C. (a) and Maine (b) opened participation — D.C. adopting RCV plus semi-open primaries (though its Council funded only the RCV half), Maine admitting unenrolled voters from 2024. Alaska (c) is the fully open all-candidate model. Reform is not moving uniformly in either direction, even within one party's territory."
+    concepts: [primaries]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A single national primary day polls well and has been proposed in Congress for over a century. Why has it never advanced?"
+    choices:
+      - id: a
+        text: "It would require federal legislation testing the limits of congressional power over party processes, or coordinated rule changes by two national parties — each of which would be surrendering its early-state vetting machinery."
+      - id: b
+        text: "The Supreme Court has ruled national primaries unconstitutional."
+      - id: c
+        text: "It would require ratifying a constitutional amendment, which no proposal has attempted."
+      - id: d
+        text: "Voters consistently reject national-primary referendums at the state level."
+    correct_choice_id: a
+    explanation: "The obstacles are structural, not rhetorical. Presidential nominations are formally party processes administered by states, so a statutory national primary would collide with party-autonomy precedents like California Democratic Party v. Jones — and the parties themselves have no incentive to disarm unilaterally. No court has ruled on the question (b), no amendment is strictly required (c), and the proposal has never reached voters as a referendum (d). That is why actual calendar change looks like 2024: incremental, one-party reordering of the early window, re-fought every cycle."
+    concepts: [primaries]
+
+  - id: q5
+    kind: free-response
+    text: "This lesson describes the reform debate as three fights running on different clocks. Name the three, and for each, identify where its next decisive event is likely to come as of mid-2026 — and which lever (state law, party rules, or federal law) controls it."
+    socratic_seed: "The counting-rule fight (RCV, approval, top-N) is fast-moving and now partisan-coded; lever: state law and initiatives; next decisive events: Alaska's third repeal vote in November 2026, D.C.'s first ranked primary in June 2026, and a continuing wave of legislative bans (nineteen states through Ohio, March 2026). The calendar fight is slow and intra-party; lever: national party rules enforced through delegate seating; next event: the DNC's 2028 calendar decision, with South Carolina's first slot genuinely unsettled. The structural fight over who votes in the decisive round is slowest, running through constitutional doctrine (Jones to Grange) and each party's self-interest; lever: state law within the Grange lane; it just moved in both directions at once — D.C. opening (semi-open half still unfunded), Louisiana closing. Strong answers note the federal lever exists on paper (Voter Choice Act, Fair Representation Act) but has no path to passage."
+    concepts: [primaries, ranked-choice-voting]

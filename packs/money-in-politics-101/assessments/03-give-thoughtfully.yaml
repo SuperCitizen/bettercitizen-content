@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: give-thoughtfully
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A nurse sets up a \\$20-a-month recurring gift to a House campaign in March of an election year and forgets about it. By November, what is true?"
+    choices:
+      - id: a
+        text: "Nothing about her appears anywhere — small gifts are always anonymous."
+      - id: b
+        text: "Her total (\\$180+) has crossed the \\$200 itemization threshold, so her name, address, employer, and occupation are in the campaign's public FEC filings."
+      - id: c
+        text: "Only her name appears, and only if she opted in to disclosure."
+      - id: d
+        text: "Her gifts are disclosed to the IRS but not to the public."
+    correct_choice_id: b
+    explanation: "Disclosure is triggered by *aggregate* giving to one committee passing \\$200 in a cycle — nine months of \\$20 is \\$180, and month ten crosses the line. From then on she is itemized: name, address, employer, occupation, permanently searchable on fec.gov. Recurring gifts are precisely how donors cross the threshold without noticing — which is why the lesson says the disclosure trade should be chosen, not discovered."
+    concepts: [campaign-finance]
+
+  - id: q2
+    kind: multiple-choice
+    text: "An email from \"Patriots for Senator Garcia Victory Fund\" asks you for \\$25 to \"re-elect Garcia.\" Before giving, the single most informative thing to check is:"
+    choices:
+      - id: a
+        text: "Whether the email's photos of Senator Garcia look official"
+      - id: b
+        text: "The \"Paid for by…\" disclaimer naming the actual committee — then that committee's record on FEC.gov or OpenSecrets"
+      - id: c
+        text: "Whether the link uses a secure (https) connection"
+      - id: d
+        text: "How urgent the deadline in the subject line is"
+    correct_choice_id: b
+    explanation: "Fundraising appeals routinely come from committees that merely sound affiliated with a candidate; a PAC with a candidate's name in its title may share nothing with the campaign but a vendor. The legally required \"Paid for by\" line identifies the real recipient, and its FEC filings show where money actually goes. Urgency, design, and security tell you nothing about who gets the money."
+    concepts: [campaign-finance, pac]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which statement about the tax treatment of your \\$100 gift to a candidate, party, PAC, or Super PAC is correct?"
+    choices:
+      - id: a
+        text: "It is tax-deductible as a charitable contribution."
+      - id: b
+        text: "It is deductible only if given to a 501(c)(4) nonprofit."
+      - id: c
+        text: "It is never tax-deductible — political contributions are not charity under the federal tax code."
+      - id: d
+        text: "It is deductible up to the first \\$50."
+    correct_choice_id: c
+    explanation: "No political contribution — to a candidate, party, PAC, Super PAC, or a 501(c)(4)'s political work — is deductible on a federal return (IRS Publication 529). A 501(c)(4) is tax-exempt itself, but gifts to it are not deductible like gifts to a 501(c)(3) charity. Whatever the fundraising email implies, a \"donation\" to politics is participation, not philanthropy."
+    concepts: [campaign-finance, dark-money]
+
+  - id: q4
+    kind: free-response
+    text: "La Raja and Schaffner argue that donor-driven campaign finance systematically advantages ideological \"purists,\" while Ansolabehere and colleagues find that most giving behaves like consumption — participation, not investment. Suppose both are right. What follows, practically, for how an ordinary person should decide whether and where to give \\$25?"
+    socratic_seed: "If your gift will not buy policy (consumption finding), what is its honest function? And if millions of impulsive gifts tilt the system toward polarizers (purist finding), what distinguishes a gift that resists that tilt from one that feeds it? Consider the lesson's order of operations: channel, disclosure, record."
+    concepts: [campaign-finance]

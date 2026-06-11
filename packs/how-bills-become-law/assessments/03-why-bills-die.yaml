@@ -1,0 +1,119 @@
+schema: bettercitizen.assessment/v1
+lesson: why-bills-die
+questions:
+  - id: q1-vetogates
+    kind: multiple-choice
+    text: Why is lobbying to kill a bill generally cheaper and more reliable than
+      lobbying to pass one?
+    choices:
+      - id: a
+        text: Opponents need to win at only one vetogate, while supporters must win
+          at every gate in sequence
+      - id: b
+        text: Killing a bill requires a recorded floor vote, which is easy to arrange
+      - id: c
+        text: The Constitution requires a supermajority to introduce legislation
+      - id: d
+        text: Committee chairs are required to report every bill within 90 days
+    correct_choice_id: a
+    explanation: The process is a series of gates — committee, the floor calendar,
+      cloture, the second chamber, the President — and a bill must clear all of
+      them while its opponents need to capture just one gatekeeper. That asymmetry
+      means the status quo wins ties. Killing usually requires no vote at all
+      (inaction suffices), there is no supermajority to introduce a bill, and no
+      rule forces chairs to report anything.
+    concepts:
+      - legislative-process
+      - committee-system
+  - id: q2-headline
+    kind: multiple-choice
+    text: A headline reads "Senate rejects climate bill, 56–44." The bill was
+      ordinary (non-budget) legislation. What most likely happened?
+    choices:
+      - id: a
+        text: The bill lost — 56 votes is short of the 60 needed to pass legislation
+      - id: b
+        text: A majority supported the bill, but 56 was short of the 60 needed to
+          end debate and reach a passage vote
+      - id: c
+        text: The Vice President broke the tie against the bill
+      - id: d
+        text: The Byrd rule struck the bill for having no budgetary effect
+    correct_choice_id: b
+    explanation: Passage takes a simple majority — 51. What takes 60 is cloture,
+      the vote to end debate, and a 56-vote majority sits in the blocked zone
+      between 51 and 59. The headline's "rejects" hides that a majority said yes.
+      There is no tie for the Vice President to break at 56–44, and the Byrd rule
+      polices what rides inside reconciliation bills — it does not apply to
+      ordinary legislation on the floor.
+    concepts:
+      - cloture
+      - filibuster
+  - id: q3-agenda-control
+    kind: multiple-choice
+    text: Under Cox and McCubbins's "negative agenda control" account, why is the
+      House majority party almost never defeated on a floor vote?
+    choices:
+      - id: a
+        text: Its members are bound by rule to vote with their party
+      - id: b
+        text: Bills the majority party would lose on are simply never scheduled
+          for a vote
+      - id: c
+        text: The minority party is barred from offering legislation
+      - id: d
+        text: The Speaker can veto any bill the floor passes
+    correct_choice_id: b
+    explanation: The cartel's power is negative — control of chairs and the
+      calendar means fights the majority would lose never happen, so the majority
+      is rarely "rolled." No rule binds members' votes, the minority can introduce
+      bills (they just don't get scheduled), and no Speaker veto exists. The
+      observable result is a floor record of near-perfect majority wins that
+      reflects scheduling, not unanimity.
+    concepts:
+      - committee-system
+      - legislative-process
+  - id: q4-pivotal
+    kind: multiple-choice
+    text: An election gives one party unified control — House, 54 Senate seats, and
+      the presidency — yet two years later, most of its (non-budget) agenda
+      remains unenacted. Which explanation follows from Krehbiel's
+      pivotal-politics model?
+    choices:
+      - id: a
+        text: The party's leaders were unusually incompetent negotiators
+      - id: b
+        text: The status quo policies it wanted to change sat inside the gridlock
+          interval — 54 votes never reached the 60th senator, the filibuster pivot
+      - id: c
+        text: Divided government is required for major lawmaking
+      - id: d
+        text: The President's veto blocked the party's own bills
+    correct_choice_id: b
+    explanation: In the model, policy moves only when a coalition can clear the
+      pivots — the 60th senator for cloture, the 67th for an override. Winning
+      the median (the 51st senator) while the 60th barely moves leaves the
+      gridlock interval nearly intact, which is why unified government
+      disappoints without anyone being incompetent. A same-party President has no
+      reason to veto, and the model's point is that unified versus divided
+      control matters less than where the pivots sit.
+    concepts:
+      - filibuster
+      - supermajority
+      - legislative-process
+  - id: q5-redesign
+    kind: free-response
+    text: Suppose you could remove exactly one vetogate from the federal process —
+      the committee gate, the House Rules Committee's scheduling power, the
+      60-vote cloture threshold, or the presidential veto. Which would you remove
+      to maximize Congress's capacity to legislate, and what new pathology would
+      you expect your choice to create?
+    concepts:
+      - legislative-process
+      - filibuster
+      - veto
+    socratic_seed: "For whichever gate you remove, ask who was using it and for
+      what: gates don't just kill good bills, they also screen, force broader
+      coalitions, and protect members from votes they fear. If the 51st vote (or
+      the scheduler) becomes all-powerful, what happens to the durability of laws
+      when the majority flips?"

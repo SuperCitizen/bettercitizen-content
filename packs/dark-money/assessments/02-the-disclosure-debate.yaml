@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-disclosure-debate
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A state legislature passes two laws the same week. Law A requires any group spending $100,000+ on ads naming a candidate before an election to publicly disclose donors above $10,000. Law B requires every nonprofit operating in the state to file its complete donor list with the secretary of state annually, 'to support general oversight.' Under the Supreme Court's two lines of disclosure cases, which is more vulnerable — and why?"
+    choices:
+      - id: a
+        text: "Law A — election-related disclosure has been repeatedly struck down since Buckley v. Valeo."
+      - id: b
+        text: "Law B — it is a blanket, non-electoral donor dragnet of the kind struck down facially in AFPF v. Bonta (2021), while Law A sits in the Buckley/Citizens United electoral-disclosure line the Court has consistently upheld."
+      - id: c
+        text: "Both are equally vulnerable, because all compelled donor disclosure is unconstitutional after NAACP v. Alabama."
+      - id: d
+        text: "Neither is vulnerable, because disclosure laws are reviewed only under rational-basis scrutiny."
+    correct_choice_id: b
+    explanation: "The Court has upheld every electoral disclosure regime it has squarely reviewed (Buckley 1976; Citizens United Part IV, 8–1; Doe v. Reed), while striking compelled exposure of associational donor lists outside the electoral context (NAACP v. Alabama 1958; Bonta 2021, facially, 6–3). Law B mirrors Bonta's facts — an indiscriminate filing-cabinet demand by a state regulator — and Bonta subjects all compelled donor disclosure to exacting scrutiny with narrow tailoring. NAACP did not make all disclosure unconstitutional; it anchored one of two lines, and the live fight is over which line a given rule falls into."
+    concepts: [dark-money, donor-disclosure, first-amendment]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did Americans for Prosperity Foundation v. Bonta (2021) actually hold?"
+    choices:
+      - id: a
+        text: "It struck down federal campaign-finance disclosure for super PACs."
+      - id: b
+        text: "It upheld California's donor-collection regime because the lists went only to a government office, not the public."
+      - id: c
+        text: "It held 6–3 that compelled donor disclosure is reviewed under exacting scrutiny with a narrow-tailoring requirement, and facially invalidated California's blanket demand that charities file their major-donor lists (IRS Schedule B) with the state attorney general."
+      - id: d
+        text: "It overruled Citizens United's disclosure holding."
+    correct_choice_id: c
+    explanation: "Bonta concerned charity regulation, not election law — the Court took pains to leave the electoral-disclosure precedents untouched, so (a) and (d) are wrong. And (b) inverts the case's most striking feature: the disclosure ran only to a regulator, and the Court found unconstitutional chill anyway, striking the regime facially. That is why Bonta is the privacy side's strongest doctrinal resource since NAACP v. Alabama — and why the open question is whether its exacting-scrutiny-plus-tailoring framework migrates into election-law review."
+    concepts: [donor-disclosure, first-amendment]
+
+  - id: q3
+    kind: multiple-choice
+    text: "The reformer cites Wood and Spencer's 'In the Shadows of Sunlight' (2016); the privacy advocate says the study cannot settle the chilling question. Who is right about what the study shows?"
+    choices:
+      - id: a
+        text: "The reformer is right that it measured massive donor flight; the privacy advocate simply rejects empirical work."
+      - id: b
+        text: "Both have a point: using state contribution data from 2000–2008, the study found that increased public visibility deters, on average, less than one donor per candidate — but by design it can only observe donors who stopped giving, not people deterred from ever giving at all."
+      - id: c
+        text: "The study found disclosure increases donations, mooting the debate."
+      - id: d
+        text: "The study examined only federal super PAC donors, so it says nothing about state campaigns."
+    correct_choice_id: b
+    explanation: "Wood and Spencer exploited variation in state disclosure rules and visibility and found the measurable deterrent effect negligible — on the order of less than one lost donor per candidate — with no outsized effect on small donors or ideological outliers. That is real evidence against a large chilling effect among actual donors. But the privacy advocate's strongest reply is a measurement-design point, not a denial: a regression on contribution records cannot observe the donor who never started giving. Knowing exactly what a study can and cannot show is the difference between using evidence and waving it."
+    concepts: [donor-disclosure, dark-money]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A small, controversial minor party can document death threats against known members and firings of identified supporters. A disclosure statute applies to its campaign spending. What is the party's strongest legal route, on existing precedent?"
+    choices:
+      - id: a
+        text: "An as-applied exemption under Buckley v. Valeo, which excuses groups showing a 'reasonable probability' that disclosure will subject contributors to threats, harassment, or reprisals — granted on just such facts in Brown v. Socialist Workers (1982)."
+      - id: b
+        text: "A facial challenge to all campaign-finance disclosure under Citizens United."
+      - id: c
+        text: "There is no route; disclosure obligations admit no exceptions."
+      - id: d
+        text: "A claim that minor parties are categorically exempt from election law."
+    correct_choice_id: a
+    explanation: "Buckley upheld FECA's disclosure regime but built in a safety valve: groups showing a reasonable probability of threats, harassment, or reprisals get an as-applied exemption. The Court honored it in Brown v. Socialist Workers '74 Campaign Committee on a record very like this scenario. Citizens United points the other way — it upheld disclosure 8–1 — so (b) fails. This exemption is also load-bearing in the policy debate: reformers argue it already protects the genuinely endangered, while privacy advocates answer that applying for it forces vulnerable groups to identify themselves to the government first."
+    concepts: [donor-disclosure, first-amendment, dark-money]
+
+  - id: q5
+    kind: free-response
+    text: "Both the disclosure-first reformer and the donor-privacy advocate claim NAACP v. Alabama (1958) as their own. Explain how each side reads the case, then say which reading you find more persuasive for the specific question of 501(c)(4) electoral-donor disclosure — and name the evidence that would move you to the other side."
+    socratic_seed: "The reformer reads NAACP as protecting the demonstrably endangered through a targeted shield — now formalized as the Buckley/Brown as-applied exemption — leaving ordinary electoral disclosure intact; on this view the (c)(4) donor funding candidate ads is a campaign financier in the Buckley/Citizens United line, not an heir of the NAACP member. The privacy advocate reads NAACP as establishing associational privacy as the default, because nobody can know in advance which causes will become dangerous to support — and Bonta's facial holding (chill as a system-level harm, even for disclosure to a regulator alone) vindicates that reading. Strong answers engage the strongest opposing point: for reformers, the donors-who-never-start measurement gap and the weaponized-screenshot threat model; for privacy advocates, Wood–Spencer's negligible measured chill and the Citizens United premise that voters need source cues for self-government. Movable evidence: replicated findings of retaliation at scale against ordinary donors (moves toward privacy), or a well-functioning, non-gameable exemption process plus continued null chilling results (moves toward disclosure)."
+    concepts: [dark-money, donor-disclosure, first-amendment]

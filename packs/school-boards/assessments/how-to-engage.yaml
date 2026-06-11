@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: how-to-engage
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A board's posted agenda lists closed session for 'Conference with Legal Counsel — Existing Litigation' and 'Public Employee Discipline/Dismissal/Release.' A community group demands the board also move its controversial library-materials policy into closed session 'so members can speak candidly.' Under open-meetings law, what must happen?"
+    choices:
+      - id: a
+        text: "The board may close any discussion by majority vote."
+      - id: b
+        text: "The litigation and personnel items may lawfully be closed (with topics cited and actions reported out), but a generally applicable policy must be debated in public — moving it behind doors is the classic open-meetings violation."
+      - id: c
+        text: "All three items must be public; closed sessions are never lawful for school boards."
+      - id: d
+        text: "The policy may be closed if the vote is later announced."
+    correct_choice_id: b
+    explanation: "Open-meetings laws (California's Brown Act is the model) enumerate the closable topics — personnel cases, litigation, labor strategy, certain student matters, real estate — precisely because those involve named individuals or adversarial positions. Policy applicable to everyone is the core of what the law forces into public view, agendas posted in advance (72 hours for regular meetings under the Brown Act). Boards get in legal trouble for smuggling policy into closed session or deciding by quorum email thread; candor is not an enumerated exception."
+    concepts: [school-board, public-comment, civic-engagement]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Map the concern to the right starting door: a parent believes her daughter's IEP services aren't being delivered, and separately wants the district to adopt a later high-school start time. Which pairing follows the lesson's channel-sorting?"
+    choices:
+      - id: a
+        text: "Both straight to public comment at the next board meeting — maximum visibility."
+      - id: b
+        text: "IEP services: case manager, then the district special-education office (rights run through federal IDEA procedures). Start time: districtwide policy — the board, via its policy committee, comment, and member emails."
+      - id: c
+        text: "IEP services: the board, which supervises classrooms. Start time: the state legislature."
+      - id: d
+        text: "Both to the superintendent's social media."
+    correct_choice_id: b
+    explanation: "The board sits at the top of an operational ladder and employs only the superintendent; individual-student matters start with the staff closest to them, and special education carries its own federal IDEA procedural track (case manager, IEP team, district office, due-process rights). A districtwide schedule change, by contrast, is genuinely board-level policy — calendars and start times are within local authority in most states. Sorting individual-operational from districtwide-policy concerns is the lesson's core skill: it gets faster results for the child and a more credible campaign for the policy."
+    concepts: [school-board, civic-engagement]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Why does the lesson argue that reading the agenda packet is the single highest-leverage engagement habit?"
+    choices:
+      - id: a
+        text: "Because the packet is secret and reading it gives insiders' knowledge."
+      - id: b
+        text: "Because open-meetings law forces every decision to be previewed in writing days in advance — staff reports, budget items, policies at first reading — so the packet tells you what will be decided while there is still time to act, instead of reacting after the vote."
+      - id: c
+        text: "Because boards legally may not vote on anything unless a citizen has read the packet."
+      - id: d
+        text: "Because public commenters are required to cite page numbers."
+    correct_choice_id: b
+    explanation: "Agenda-posting rules give the public a standing head start: business is limited to noticed items, and most policies take two readings, so the packet flags decisions one to several meetings before they're final. The parents who pack the room after a closure vote are reacting to a decision that was legible in a PDF weeks earlier. Pair the packet with the board's calendar — budget workshops in winter and spring, adoption windows, contract sunshining — and you engage at the moments when input can still shape text."
+    concepts: [school-board, public-comment]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A group wants lasting influence over how a district spends its new facilities bond. Ranked by the lesson's logic, which is the strongest move?"
+    choices:
+      - id: a
+        text: "A seat on the citizens' bond-oversight committee, where spending is reviewed on the record before and after board votes."
+      - id: b
+        text: "One impassioned three-minute comment at the bond's final approval meeting."
+      - id: c
+        text: "A petition demanding the superintendent resign."
+      - id: d
+        text: "Waiting to sue after projects are built."
+    correct_choice_id: a
+    explanation: "Advisory and oversight committees — bond oversight, budget advisory, curriculum adoption, special-education parent advisory — are where draft decisions are shaped and monitored months before and after board votes, and they are chronically short of volunteers. Public comment at a final vote creates a record but rarely changes set positions; personnel ultimatums and after-the-fact litigation are weaker still for shaping spending. Organized and early beats eloquent and late — the same evidence-based rule as in city government, with more open seats."
+    concepts: [school-board, civic-engagement]
+
+  - id: q5
+    kind: free-response
+    text: "School-board elections often turn out 5-10% of voters, bond and override measures need direct voter approval, and board seats sometimes go uncontested. Design a 12-month engagement plan for a resident who cares about one districtwide issue and has ten hours a month — and justify each element with the turnout math or the open-meetings rules from this lesson."
+    socratic_seed: "Strong plans sequence: (1) orientation — district locator, agenda subscription, read packets monthly (open-meetings law guarantees advance notice; two readings give lead time); (2) timing — identify the board calendar's rapids (winter/spring budget workshops, adoption windows) and engage there rather than at final votes; (3) altitude — apply for a site council or relevant advisory committee, where policy is drafted (organized-and-early logic); (4) coalition — PTA/PTO or issue group, because organized groups dominate low-turnout politics (Anzia); (5) electoral — in a 5-10% turnout election, a few hundred mobilized voters can decide a seat, so voter contact, candidate forums, or even recruiting/being a candidate is rational on this scale; bond/override campaigns are volunteer-run and need the same energy; (6) discipline — channel-sorting (individual matters to staff; policy to board) and original written comments that staff can use. The justification thread: leverage is highest where attention is lowest and where law forces decisions into the open in advance."
+    concepts: [school-board, civic-engagement, public-comment]

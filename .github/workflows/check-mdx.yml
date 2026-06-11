@@ -1,0 +1,35 @@
+# Standalone structural checks for this repo (no app checkout needed):
+#  - every lesson .mdx compiles and uses only cataloged components
+#  - pack.yaml lesson lists match the files on disk
+#  - the component library typechecks (tsc strict)
+#
+# The app's schema validator (validate.yml) remains the source of truth for
+# content semantics; this job is the fast gate that runs without the app.
+
+name: Check MDX + components
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: check-mdx-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: MDX compile + component typecheck
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm install
+
+      - run: npm run check

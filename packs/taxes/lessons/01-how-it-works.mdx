@@ -1,0 +1,251 @@
+---
+schema: bettercitizen.lesson/v1
+slug: how-it-works
+kind: reading
+title: How U.S. federal taxes actually work
+objectives:
+  - Identify the major federal revenue sources (individual income, payroll, corporate, tariffs, excise) and their relative shares as of fiscal 2025
+  - Distinguish marginal from effective tax rates and compute both for a worked example
+  - Describe what the 2017 Tax Cuts and Jobs Act did and how the One Big Beautiful Bill Act of 2025 resolved its scheduled expiration
+  - Read a distribution table honestly — who pays the income tax, who pays payroll taxes, and why the two stories differ
+  - State the basic incidence question — who actually bears a tax, regardless of who writes the check
+concepts:
+  - taxes
+  - tcja
+  - tax-incidence
+  - progressive-taxation
+  - fiscal-policy
+sources:
+  - type: statute
+    citation: 'Internal Revenue Code, 26 U.S.C. Title 26.'
+    url: https://www.law.cornell.edu/uscode/text/26
+  - type: statute
+    citation: 'Tax Cuts and Jobs Act of 2017, Pub. L. No. 115-97.'
+    url: https://www.congress.gov/bill/115th-congress/house-bill/1
+  - type: statute
+    citation: 'One Big Beautiful Bill Act, Pub. L. No. 119-21 (2025) — made the TCJA individual rate structure permanent and added new temporary deductions.'
+    url: https://www.congress.gov/bill/119th-congress/house-bill/1
+  - type: website
+    citation: 'CBO, "The Distribution of Household Income" — annual analysis.'
+    url: https://www.cbo.gov/topics/taxes
+  - type: website
+    citation: 'CBO, "The Distribution of Household Income, 2022" (January 2026) — average federal tax rates by income group.'
+    url: https://www.cbo.gov/publication/62300
+  - type: website
+    citation: 'CBO, "Monthly Budget Review: Summary for Fiscal Year 2025" (November 2025) — receipts by source.'
+    url: https://www.cbo.gov/publication/61307
+  - type: website
+    citation: 'U.S. Treasury Fiscal Data, "Monthly Treasury Statement: Receipts of the U.S. Government" — FY2025 receipts by source.'
+    url: https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/receipts-of-the-u-s-government
+  - type: website
+    citation: 'IRS, "Tax inflation adjustments for tax year 2026" (Rev. Proc. 2025-32, October 2025) — 2026 brackets, standard deduction, estate exclusion, EITC.'
+    url: https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
+  - type: website
+    citation: 'IRS, "One, Big, Beautiful Bill provisions — Individuals and workers" — tips, overtime, senior, and car-loan deductions.'
+    url: https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions-individuals-and-workers
+  - type: website
+    citation: 'Social Security Administration, "2026 Cost-of-Living Adjustment Fact Sheet" — 2026 taxable wage base.'
+    url: https://www.ssa.gov/news/en/cola/factsheets/2026.html
+  - type: website
+    citation: 'Tax Foundation, "Summary of the Latest Federal Income Tax Data, Tax Year 2023" — IRS SOI shares of income tax paid by percentile.'
+    url: https://taxfoundation.org/data/all/federal/who-pays-federal-income-taxes-tax-year-2023/
+  - type: website
+    citation: 'Tax Foundation, "2026 Tax Brackets and Federal Income Tax Rates."'
+    url: https://taxfoundation.org/data/all/federal/2026-tax-brackets/
+  - type: website
+    citation: 'Tax Policy Center (Brookings/Urban), "Federal Tax Briefing Book."'
+    url: https://taxpolicycenter.org/briefing-book
+  - type: website
+    citation: 'Tax Policy Center, "Who Will Pay No Federal Individual Income Tax in 2025?"'
+    url: https://taxpolicycenter.org/fiscal-facts/who-will-pay-no-federal-individual-income-tax-2025
+  - type: website
+    citation: 'JCT (Joint Committee on Taxation), "Estimated Budget Effects" — official scoring of tax legislation.'
+    url: https://www.jct.gov/
+  - type: website
+    citation: 'Center on Budget and Policy Priorities, "Policy Basics: The Earned Income Tax Credit."'
+    url: https://www.cbpp.org/research/policy-basics-the-earned-income-tax-credit
+  - type: paper
+    citation: 'Piketty, T. & Saez, E. (2007), "How Progressive Is the U.S. Federal Tax System? A Historical and International Perspective," Journal of Economic Perspectives 21:1.'
+    url: https://www.aeaweb.org/articles?id=10.1257/jep.21.1.3
+  - type: book
+    citation: 'Slemrod, J. & Bakija, J. (2017), Taxing Ourselves: A Citizen''s Guide to the Debate over Taxes, 5th ed., MIT Press.'
+  - type: paper
+    citation: 'Saez, E. & Zucman, G. (2019), "Progressive Wealth Taxation," Brookings Papers on Economic Activity (Fall 2019).'
+    url: https://www.brookings.edu/articles/progressive-wealth-taxation/
+perspectives:
+  - name: Progressive-expansion advocate
+  - name: Supply-side reform advocate
+  - name: Consumption-tax restructuring advocate
+duration_min: 16
+---
+
+# How U.S. federal taxes actually work
+
+Ask around any office in December and you will eventually meet someone who turned down a raise — or refused overtime, or asked payroll to defer a bonus — "because it would have pushed me into the next bracket, and I'd actually take home less." This person has just declined free money to dodge a rule that does not exist. No raise, at any income, can lower your after-tax pay through the bracket system, because the United States does not tax your income at one rate. It taxes slices of your income at escalating rates, like a staircase: climbing to a higher step changes the tax on the dollars *on that step*, never the dollars below. The misconception survives because almost nobody is ever shown the staircase. This lesson shows it to you — along with where the federal government's $5.2 trillion actually comes from, what the 2025 tax law settled, and the question economists insist on asking that politicians almost never do: who actually *bears* each tax, regardless of who writes the check.
+
+Hold three questions apart as you read, because political shouting blurs them: *how much* revenue (the level), *who pays* (the distribution), and *what's taxed* (the base). Every reform position in Lesson 2 is a different setting of those three dials.
+
+## Where $5.2 trillion actually comes from
+
+In fiscal year 2025 the federal government collected about $5.23 trillion, according to the Treasury and the Congressional Budget Office. The composition surprises almost everyone the first time they see it — so before you look at the answer, commit to a guess:
+
+<GuessTheShare
+  title="Where did the federal government's $5.23 trillion come from in FY2025?"
+  unit="% of FY2025 receipts"
+  items={[
+    {label: "Individual income tax", actual: 51},
+    {label: "Payroll (Social Security + Medicare) taxes", actual: 33},
+    {label: "Corporate income tax", actual: 9},
+    {label: "Customs duties (tariffs)", actual: 4},
+    {label: "Everything else (excise, estate, fees)", actual: 3},
+  ]}
+  source="U.S. Treasury, Monthly Treasury Statement (FY2025); CBO, Monthly Budget Review: Summary for Fiscal Year 2025"
+/>
+
+Here is the same composition in dollars, with what each tax actually is:
+
+| Source | FY 2025 collections | What it is |
+| --- | --- | --- |
+| Individual income tax | about $2.7 trillion | Tax on wages, salaries, interest, dividends, business and capital income, at rates from 10% to 37% |
+| Payroll (social insurance) taxes | about $1.7 trillion | 12.4% Social Security tax up to a wage cap, plus 2.9% Medicare tax on all wages, split on paper between worker and employer |
+| Corporate income tax | $452 billion | Flat 21% on corporate profits, plus a 15% minimum tax on the largest firms |
+| Customs duties (tariffs) | about $195 billion | Taxes on imports — up 153% in one year on new executive-imposed tariffs |
+| Everything else | about $180 billion | Excise taxes (fuel, tobacco, alcohol, air travel), the estate and gift tax, Federal Reserve remittances, fees |
+
+Whatever your guesses got wrong, three things in this composition do real work. First, **payroll taxes are enormous and invisible in most tax debates**. For a large share of working households, the payroll lines on the pay stub — and the matching employer payments that economists agree come out of wages — exceed the income tax entirely. The "tax burden" most Americans feel is substantially payroll, and payroll taxes fund the two giant [[term:entitlement-program]]s, Social Security and Medicare. Second, **the corporate income tax is small** — under nine cents of every federal revenue dollar — which means fights over it, however fierce, move less money than the rhetoric implies. Third, the strangest row: **tariffs**. A [[term:tariff]] is a tax on imports, and after decades at 1 to 2 percent of revenue, customs duties jumped 153 percent in fiscal 2025 — from $77 billion to about $195 billion (Treasury) — as the second Trump administration imposed sweeping import taxes by executive order. Then, in February 2026, the Supreme Court held in *Learning Resources, Inc. v. Trump* that the emergency statute invoked for most of them (IEEPA) does not authorize the president to impose tariffs at all — a reminder, taken up in Lesson 3, that the Constitution gives the taxing power to Congress.
+
+Why does the income tax exist at all? Because the Constitution originally made "direct" taxes nearly impossible to administer nationally — the Supreme Court struck down an 1894 income tax on that ground in *Pollock v. Farmers' Loan & Trust Co.* (1895) — so the country amended the document. The **16th Amendment (1913)** authorizes Congress to tax incomes "from whatever source derived" without apportionment among the states; the first modern income tax that year had a top rate of 7 percent and touched only a sliver of high earners. One live argument in Lesson 3 — whether a federal *wealth* tax is constitutional — still turns on exactly what that amendment did and did not authorize. Taxing is also half of [[term:fiscal-policy]]; this pack stays on the tax side.
+
+<Checkpoint question="A single worker earning $60,000 looks at her pay stub: about $4,590 withheld for Social Security and Medicare, about $5,000 for federal income tax. She concludes the income tax is her biggest federal tax. What is she missing?">
+  Her employer remitted *another* $4,590 in payroll tax on her behalf — and the broad consensus among economists (and the CBO's standard assumption) is that the "employer half" is really paid by workers through lower wages. Counting both halves, her payroll burden is roughly $9,200, nearly double her income tax. And unlike the income tax, payroll taxes start on the first dollar of wages and are never erased by the standard deduction or refundable credits.
+</Checkpoint>
+
+## The staircase: marginal vs. effective rates
+
+Here is the machine that kills the raise-refusing myth. For 2026, the IRS inflation-adjusted brackets (Rev. Proc. 2025-32) for a single filer are:
+
+| Rate | Applies to taxable income… |
+| --- | --- |
+| 10% | up to $12,400 |
+| 12% | $12,400 to $50,400 |
+| 22% | $50,400 to $105,700 |
+| 24% | $105,700 to $201,775 |
+| 32% | $201,775 to $256,225 |
+| 35% | $256,225 to $640,600 |
+| 37% | above $640,600 |
+
+(Married-filing-jointly thresholds are roughly double; the top rate starts at $768,700.) Two definitions, and then a worked example. Your **marginal rate** is the rate on your *next* dollar of taxable income — the step you're currently standing on. Your **effective rate** is total tax divided by total income — the average over all the steps you've climbed. The two are wildly different numbers, and confusing them is the single most common arithmetic error in American political life.
+
+Take a single filer earning a $100,000 salary in 2026. First subtract the **standard deduction** of $16,100 (it's $32,200 for joint filers), leaving $83,900 of taxable income. Now walk up the stairs:
+
+<Figure caption="A $100,000 earner's income climbs the 2026 brackets one step at a time. Only the dollars on each step pay that step's rate, so the total bill is $13,170 — an effective rate of 13.2 percent of salary, even though the marginal rate is 22 percent." source="Bracket figures: IRS Rev. Proc. 2025-32.">
+<svg viewBox="0 0 720 400" width="100%" role="img" aria-label="Staircase diagram of 2026 single-filer tax brackets showing a $100,000 earner: 10 percent on the first $12,400 of taxable income equals $1,240; 12 percent on the next $38,000 equals $4,560; 22 percent on the last $33,500 equals $7,370; total tax $13,170, an effective rate of 13.2 percent against a 22 percent marginal rate" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+  <text x="24" y="26" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">Walking $100,000 up the 2026 brackets (single filer)</text>
+  <text x="24" y="46" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">$100,000 salary − $16,100 standard deduction = $83,900 taxable income</text>
+  <rect x="24" y="296" width="120" height="64" fill="var(--green, #4a6b3a)" />
+  <text x="84" y="322" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">10% step</text>
+  <text x="84" y="340" font-family="Georgia, serif" font-size="12" fill="#ffffff" text-anchor="middle">first $12,400</text>
+  <text x="84" y="378" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">= $1,240</text>
+  <rect x="144" y="232" width="200" height="128" fill="var(--blue, #2f4d6e)" />
+  <text x="244" y="290" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">12% step</text>
+  <text x="244" y="308" font-family="Georgia, serif" font-size="12" fill="#ffffff" text-anchor="middle">next $38,000 (to $50,400)</text>
+  <text x="244" y="378" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">= $4,560</text>
+  <rect x="344" y="168" width="180" height="192" fill="var(--accent, #8a2a1e)" />
+  <text x="434" y="256" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">22% step</text>
+  <text x="434" y="274" font-family="Georgia, serif" font-size="12" fill="#ffffff" text-anchor="middle">last $33,500 (to $83,900)</text>
+  <text x="434" y="378" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">= $7,370</text>
+  <rect x="524" y="104" width="100" height="256" fill="none" stroke="var(--line, #d9d5c9)" stroke-width="2" stroke-dasharray="6,4" />
+  <text x="574" y="230" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">24% step</text>
+  <text x="574" y="248" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">never reached</text>
+  <line x1="524" y1="168" x2="344" y2="168" stroke="var(--gold, #b08a3e)" stroke-width="2" stroke-dasharray="4,3" />
+  <text x="640" y="96" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Total: $13,170</text>
+  <text x="640" y="114" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end">Effective: 13.2%</text>
+  <text x="640" y="132" font-family="Georgia, serif" font-size="12.5" fill="var(--accent, #8a2a1e)" text-anchor="end">Marginal: 22%</text>
+</svg>
+</Figure>
+
+The tax is 10 percent of the first $12,400 ($1,240), plus 12 percent of the next $38,000 ($4,560), plus 22 percent of the remaining $33,500 ($7,370): **$13,170 total**. That is an effective rate of 13.2 percent on the $100,000 salary — even though this taxpayer "is in the 22 percent bracket." Add the employee share of payroll taxes (7.65 percent, $7,650) and the combined federal bite is around 21 percent. Nowhere near 22-plus-percent-of-everything, and structurally *incapable* of jumping when a raise crosses a threshold.
+
+Now run the machine yourself:
+
+<TaxBracketExplorer
+  title="Slide a taxable income up the 2026 staircase"
+  brackets={[
+    {upTo: 12400, rate: 10},
+    {upTo: 50400, rate: 12},
+    {upTo: 105700, rate: 22},
+    {upTo: 201775, rate: 24},
+    {upTo: 256225, rate: 32},
+    {upTo: 640600, rate: 35},
+    {upTo: null, rate: 37},
+  ]}
+  source="IRS Rev. Proc. 2025-32 (2026 single-filer brackets, taxable income)"
+/>
+
+Set the slider to $83,900 and it reproduces the figure above. Then drag it anywhere, and two things should jump out. First, **the effective rate always trails the marginal rate** — at every income, without exception — because the lower steps keep taxing the first dollars at 10 and 12 percent no matter how high the last dollar climbs; even at $1 million of taxable income the effective rate is still well below 37 percent. Second, drag *slowly* across a bracket line — $50,400, or $105,700 — and watch the tax total: it never jumps. The marginal-rate readout ticks up; the dollars owed glide. That smoothness *is* the answer to the colleague who refused the raise.
+
+> **Common misconception:** "A raise can push you into a higher bracket and cost you money." Impossible through the brackets: crossing into the 22 percent bracket means only the dollars *above* $50,400 of taxable income are taxed at 22 percent. What *can* happen is different and real: some benefits and tax credits phase out as income rises (the EITC, premium subsidies, the new tip and overtime deductions), so a raise can occasionally cost a low- or middle-income household more in lost benefits than it adds in pay. That is a phase-out cliff, not a bracket — and reformers across the spectrum agree the distinction matters.
+
+<Checkpoint question="Your taxable income is exactly $50,400 (single, 2026). You earn one more dollar. By how much does your federal income tax rise — and what happens to the tax on your first $50,400?">
+  Your tax rises by **22 cents** — the new dollar lands on the 22 percent step. The tax on everything below is untouched: the first $12,400 still pays 10 percent and the next $38,000 still pays 12 percent. Brackets are never retroactive. That is the entire logic of marginal taxation in one dollar.
+</Checkpoint>
+
+## The payroll machine
+
+Payroll taxes obey different rules. The Social Security (OASDI) tax is 12.4 percent of wages — half withheld from you, half paid by your employer — but only up to an annually adjusted **wage base: $176,100 in 2025, $184,500 in 2026** (SSA). Above the cap the tax simply stops; at the cap, worker and employer each pay a maximum of $11,439 in 2026. Medicare's 2.9 percent (again split) has no cap, plus an **additional 0.9 percent** on wages above $200,000 single / $250,000 joint. The structure is the income tax's mirror image: flat-then-regressive rather than progressive. A $50,000 worker pays the full 12.4-plus-2.9 percent on every dollar; a $2 million executive pays the OASDI tax on less than a tenth of her wages. Any honest account of "who pays federal taxes" has to merge these two opposite-shaped systems — which is what the CBO tables below do.
+
+## The law as of 2026: what the One Big Beautiful Bill Act did
+
+For seven years, every tax-policy conversation in Washington ended with the same clock: the 2017 **Tax Cuts and Jobs Act (TCJA)** had cut individual rates, roughly doubled the standard deduction, capped the state-and-local-tax (SALT) deduction at $10,000, doubled the estate-tax exemption, created the 20 percent pass-through deduction (§199A), and cut the corporate rate from 35 to 21 percent — but, to fit Senate budget rules, had scheduled almost all of its *individual* provisions to die at the end of 2025. The great expiration never came. On July 4, 2025, after a 51–50 Senate vote broken by Vice President Vance and a 218–214 House vote, the **One Big Beautiful Bill Act (OBBBA, Pub. L. 119-21)** became controlling law. Any explainer still warning "rates revert in 2026" is now wrong. What OBBBA did:
+
+- **Made the TCJA individual structure permanent**: the 10/12/22/24/32/35/37 percent rates, the enlarged standard deduction ($15,750 single / $31,500 joint for 2025, rising with inflation to $16,100 / $32,200 for 2026), and the elimination of personal exemptions. The bottom two brackets even got an extra inflation bump for 2026.
+- **Kept and enlarged the family and estate parameters**: a $2,200-per-child child tax credit (refundable up to $1,700, SSN required, indexed going forward) and a $15 million estate-and-gift exemption per person from 2026, indexed thereafter.
+- **Made the business provisions permanent**: the §199A 20 percent pass-through deduction and 100 percent bonus depreciation (immediate expensing of equipment), for property acquired after January 19, 2025.
+- **Added brand-new deductions that are deliberately temporary (2025 through 2028)**: up to $25,000 of qualified tips, up to $12,500 ($25,000 joint) of the overtime premium, a $6,000 bonus deduction per person aged 65+, and up to $10,000 of interest on loans for new U.S.-assembled cars — each with income phase-outs ($150,000/$300,000 for tips and overtime; $75,000/$150,000 for the senior deduction; $100,000/$200,000 for car loans).
+- **Raised the SALT cap to $40,000** for 2025, growing 1 percent a year through 2029, phased down 30 cents per dollar of income above $500,000 (never below $10,000) — and snapping back to $10,000 for everyone in 2030.
+- **Paid for part of it** with about $1.1 trillion in net spending reductions (largely Medicaid, SNAP, and student loans) and by terminating most clean-energy credits — the consumer EV credit died after September 30, 2025, and the residential clean-energy credit after December 31, 2025.
+
+The Congressional Budget Office's final score: OBBBA adds about **$3.4 trillion to deficits over 2025–2034** — roughly $4.5 trillion in reduced revenue minus about $1.1 trillion in net spending cuts — and about **$4.1 trillion counting the extra interest** on the resulting [[term:national-debt]]. Whether that price bought growth, fairness, neither, or both is precisely what Lesson 2's three camps dispute.
+
+<Checkpoint question="It is April 2030 and a restaurant server is doing her taxes. Which of the OBBBA benefits she enjoyed in 2026 are still there: the tip deduction, the $2,200 child tax credit, the enlarged standard deduction, the $40,000 SALT cap?">
+  Only the **child tax credit and the enlarged standard deduction** — those are permanent (and inflation-indexed). The tip deduction (with overtime, the senior bonus, and car-loan interest) expired after 2028, and the SALT cap snapped back to $10,000 in 2030. OBBBA deliberately mixed permanent structure with short-fuse benefits — Lesson 3 explains the budget-rule strategy behind that design.
+</Checkpoint>
+
+## Who pays — two honest tables
+
+Start with the income tax alone, using the IRS Statistics of Income for tax year 2023 (the most recent complete year, as summarized by the Tax Foundation):
+
+| Group (by AGI) | Share of all federal income tax paid | Average income-tax rate |
+| --- | --- | --- |
+| Top 1% (above $675,602) | 38.4% | 26.3% |
+| Top 5% | 59.3% | 23.0% |
+| Top 10% | 70.5% | 20.9% |
+| Top 25% | 86.3% | 17.8% |
+| Top 50% | 96.7% | 15.6% |
+| Bottom 50% | 3.3% | 3.7% |
+
+The income tax, standing alone, is steeply progressive: the top 1 percent earned 20.6 percent of reported income and paid 38.4 percent of the income tax. But the income tax is only half the system. The CBO's fuller accounting (January 2026, covering 2022) adds payroll, corporate, and excise taxes and finds **average total federal rates of 1.4 percent for the lowest-earning fifth of households, 23.2 percent for the highest fifth, and 31.5 percent for the top 1 percent**. Notice both halves of that sentence: the all-in system is still clearly progressive, *and* the bottom quintile's bill is not zero once payroll taxes enter — its *income-tax* rate alone is actually negative (about minus 10 percent in 2022) because refundable credits like the **Earned Income Tax Credit** (which delivered roughly $64 billion to 31 million working households in 2022, per CBPP) pay out cash, while payroll taxes claw some of it back.
+
+This is also the honest way to read a famous talking point. "47 percent of Americans pay no federal income tax" — a Tax Policy Center estimate from the deep recession year 2009 that entered politics through a leaked 2012 fundraising video — was true as far as it went and misleading in every direction it was used. The share paying no federal *income* tax was about **39.6 percent in 2025** (TPC), most of them elderly households or low-wage workers with children; about two-thirds of them still paid payroll taxes, and essentially all of them paid excise taxes and bore some of the corporate tax. "Pays no income tax" was never "pays no tax."
+
+## Who bears a tax is not who writes the check
+
+One more tool and you are equipped for the arguments ahead. Economists call it **incidence**: the burden of a tax lands wherever behavior can't dodge it, regardless of the name on the remittance. Three canonical examples. *Payroll:* legally split 50/50 between worker and employer, but because employers respond by paying lower wages, the consensus view — and the CBO's working assumption — is that workers bear essentially all of it. *Corporate:* legally paid by the corporation, but corporations are not people who can "bear" anything; the burden is divided among shareholders (lower returns), workers (lower wages), and customers (higher prices), in proportions that remain genuinely contested — the CBO's long-run convention is 75 percent to owners of capital, 25 percent to labor. *Tariffs:* legally paid by the importing company at the port, which is why a tariff can be marketed as a tax on foreigners; the evidence from the 2018–19 rounds is that U.S. firms and consumers paid nearly all of it through higher prices. Every camp in Lesson 2 wields incidence — the supply-siders against the corporate tax, the progressives against the payroll cap, the consumption-taxers against the whole income base.
+
+<QuickCheck
+  question="A new 10 percent tariff on imported appliances is remitted to U.S. Customs by the American importing company. Based on the evidence from the 2018–19 tariff rounds, who mostly bore that kind of tax?"
+  choices={[
+    {id: 'a', text: "Foreign manufacturers, by cutting their prices to absorb the tariff"},
+    {id: 'b', text: "U.S. firms and consumers, through higher prices"},
+    {id: 'c', text: "The federal government, through lost corporate-tax revenue"},
+    {id: 'd', text: "The importing company alone, since its name is on the remittance"},
+  ]}
+  answer="b"
+  explanation="Legal incidence (who writes the check) is not economic incidence (whose behavior can't dodge the burden). Studies of the 2018–19 rounds found foreign exporters barely cut their prices — U.S. import prices rose nearly one-for-one with the tariffs, so American firms and consumers bore nearly all of it. 'A tax on foreigners' is marketing; incidence is economics."
+/>
+
+A last word on scope: states layer their own systems on top of all this — most have income taxes, nine have no broad-based one, and nearly all lean harder on sales and property taxes, which tend to be flat-to-regressive. The progressivity of American taxation overall lives mostly at the federal level. This pack stays federal.
+
+## What this lesson did not settle
+
+Everything above is machinery, not argument. It does not tell you whether 31.5 percent at the top is too high or scandalously low, whether the corporate tax should exist, or whether taxing income at all is the right idea. Lesson 2 steel-mans the three serious answers: the **progressive-expansion** case (the top of the distribution has pulled away and the tax system should pull back harder), the **supply-side reform** case (rates distort work and investment more than the rhetoric admits, and growth compounds), and the **consumption-tax restructuring** case (both camps are fighting over the wrong base — tax spending, not income). Each gets the strongest version of its evidence, including the parts its own advocates would rather skip.

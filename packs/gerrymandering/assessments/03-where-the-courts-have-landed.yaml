@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: where-the-courts-have-landed
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What exactly did Rucho v. Common Cause (2019) hold?"
+    choices:
+      - id: a
+        text: "Partisan gerrymandering is constitutional, so no court — state or federal — may strike a map down for partisanship."
+      - id: b
+        text: "Partisan-gerrymandering claims present political questions beyond the reach of federal courts, leaving state constitutions and Congress as the remaining checks."
+      - id: c
+        text: "North Carolina's map violated the Equal Protection Clause and had to be redrawn."
+      - id: d
+        text: "Congressional maps must roughly match each party's statewide vote share."
+    correct_choice_id: b
+    explanation: "Rucho (5–4, Roberts) is a justiciability holding, not a merits blessing: the majority conceded extreme partisan maps 'reasonably seem unjust' but found no judicially manageable standard for how much is too much. It expressly left state courts (under state constitutions) and Congress (under Article I, §4) free to act — which is why post-2019 litigation moved to state court. Option (a) is the most common misreading."
+    concepts: [gerrymandering]
+
+  - id: q2
+    kind: multiple-choice
+    text: "How did Louisiana v. Callais (2026) change Voting Rights Act Section 2 vote-dilution law?"
+    choices:
+      - id: a
+        text: "It struck down Section 2 as unconstitutional."
+      - id: b
+        text: "It reaffirmed Allen v. Milligan and required Louisiana to keep its second majority-Black district."
+      - id: c
+        text: "It kept Section 2 on the books but held it imposes liability only on evidence supporting a strong inference that the state intentionally drew districts to give minority voters less opportunity because of race — and tightened the rules for plaintiffs' illustrative maps."
+      - id: d
+        text: "It transferred all Section 2 enforcement to state courts."
+    correct_choice_id: c
+    explanation: "The 6–3 majority (Alito) did not invalidate §2; it 'updated' the Gingles framework so that effects-style claims now require evidence supporting 'a strong inference that the State intentionally drew its districts to afford minority voters less opportunity because of their race,' required illustrative maps to meet all the state's legitimate districting goals (politics and incumbency included), and warned against partisan claims 'repackaged' as racial ones. Kagan's dissent called the updates an evisceration. The practical result in Louisiana: the court-ordered second majority-Black district was eliminated within a month."
+    concepts: [gerrymandering, equal-protection]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A state's districts each contain exactly equal populations, but the map gives the party with 46% of votes a 64% supermajority of seats, election after election. A plaintiff sues in federal court citing Reynolds v. Sims. What result?"
+    choices:
+      - id: a
+        text: "Plaintiff wins — Reynolds requires seat shares to track vote shares."
+      - id: b
+        text: "Plaintiff loses — one person, one vote polices population equality across districts, which this map satisfies; a partisan-skew claim is nonjusticiable in federal court after Rucho."
+      - id: c
+        text: "Plaintiff wins, but only if the districts are also non-compact."
+      - id: d
+        text: "The case is transferred to the state supreme court automatically."
+    correct_choice_id: b
+    explanation: "This is the central doctrinal distinction of the lesson: malapportionment (unequal district populations) was solved by Baker, Wesberry, and Reynolds, but equal-population gerrymandering sails through untouched — vote dilution by arrangement, not head-count. After Rucho, the federal courthouse is closed to the partisan claim; the plaintiff's real options are the state constitution (if its courts will hear it) or Congress. Compactness (c) is doctrinally irrelevant; (d) is not how jurisdiction works."
+    concepts: [gerrymandering, equal-protection, redistricting]
+
+  - id: q4
+    kind: multiple-choice
+    text: "What did Moore v. Harper (2023) decide about the Independent State Legislature theory?"
+    choices:
+      - id: a
+        text: "It adopted the strong version: state courts may never review a legislature's federal-election rules."
+      - id: b
+        text: "It rejected the strong version — legislatures act within ordinary state constitutional limits, reviewable by state courts — while keeping a federal backstop against state rulings that transgress the ordinary bounds of judicial review."
+      - id: c
+        text: "It abolished judicial review of redistricting entirely."
+      - id: d
+        text: "It held that only Congress may draw congressional districts."
+    correct_choice_id: b
+    explanation: "Moore (6–3) preserved the state-court pathway that Rucho left open: Pennsylvania-style and New York-style state constitutional rulings on congressional maps remain valid. But Roberts's deliberately undefined limit — state courts may not usurp the legislature's role — gives federal courts a hook for second looks at aggressive state rulings. Open lane, yellow light."
+    concepts: [gerrymandering, redistricting]
+
+  - id: q5
+    kind: free-response
+    text: "Critics describe a 'two-step' that emerges from reading Rucho, Alexander, and Callais together: accused of racial gerrymandering, a state answers 'it was partisan'; accused of partisan gerrymandering, no federal court may hear the claim. Explain how each case contributes to that loop — then make the strongest argument that the loop is the constitutionally CORRECT outcome, not a loophole."
+    socratic_seed: "Rucho closes the federal door on partisan claims; Alexander presumes legislative good faith and makes challengers disentangle race from party; Callais adds an intent showing for §2 and lets states recharacterize lines as political. The steel-man for the result: federal courts policing motives in inherently political line-drawing is the real usurpation; the Constitution is colorblind, and decades of court-compelled race-conscious districting were the anomaly Callais corrected; remedies belong to state politics and Congress's Article I, §4 power. Whether you find that vindication or evasion is the live normative question — note what evidence would move you."
+    concepts: [gerrymandering, equal-protection]

@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-coordination-debate
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "An FEC finding that a super PAC's $40 million ad campaign was 'coordinated' with the candidate it supported would change what, legally?"
+    choices:
+      - id: a
+        text: "Nothing — coordination is lawful as long as the spending is fully disclosed."
+      - id: b
+        text: "The spending is treated as an in-kind contribution to the candidate — thousands of times over the contribution limit, and flatly illegal to the extent corporate or union money funded it."
+      - id: c
+        text: "The super PAC loses its FEC registration but the spending itself stays lawful."
+      - id: d
+        text: "The candidate must personally repay the $40 million to the super PAC's donors."
+    correct_choice_id: b
+    explanation: "Coordination is a transformation rule, not a free-standing offense: federal law treats an expenditure made 'in cooperation, consultation, or concert, with, or at the request or suggestion of' a candidate as a contribution to that candidate. A $40 million in-kind contribution is roughly 11,000 times the legal limit, and unlawful at any size if corporate or union treasury money funded it. That transformation is why the entire post-2010 architecture — unlimited money on the independent side of the wall — depends on the wall being real."
+    concepts: [super-pac, campaign-finance]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Forty days before a general election, a super PAC runs TV ads naming a House candidate. The ads were placed by a consultant who left that candidate's campaign 60 days earlier and built the buy around the campaign's private polling, which she took with her. There is no firewall. Under 11 CFR 109.21, the ads are…"
+    choices:
+      - id: a
+        text: "Independent — the consultant no longer works for the campaign, so no conduct standard can apply."
+      - id: b
+        text: "Independent — polling data is not a 'communication,' so the content prong fails."
+      - id: c
+        text: "Coordinated — payment (the super PAC paid), content (a public communication naming a candidate within 90 days), and conduct (a former campaign employee, within the 120-day window, used material campaign information) are all met."
+      - id: d
+        text: "Coordinated, but only if prosecutors prove the candidate personally approved each ad."
+    correct_choice_id: c
+    explanation: "All three prongs close. The former-employee conduct standard reaches anyone who worked for the campaign within the previous 120 days and uses or conveys material nonpublic campaign information — 60 days is inside the window, and private polling is the textbook example. The content prong needs no express advocacy: merely naming a House candidate within 90 days suffices. (a) misreads the rule — it exists precisely for ex-staffers; (d) confuses the civil regulation with the separate knowing-and-willful standard for criminal prosecution."
+    concepts: [super-pac, pac, campaign-finance]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What did FEC Advisory Opinion 2024-01 (Texas Majority PAC) conclude, and why did it matter so much by the fall of 2024?"
+    choices:
+      - id: a
+        text: "It held that super PACs may coordinate television advertising with campaigns during the final 60 days of an election."
+      - id: b
+        text: "It held that door-to-door canvassing is not a 'public communication,' so the coordinated-communications rule never attaches — letting candidates and parties plan ground-game strategy directly with super PACs, a model America PAC ran at presidential scale that November."
+      - id: c
+        text: "It banned super PACs from conducting canvassing operations within 120 days of a federal election."
+      - id: d
+        text: "It allowed super PACs to give their canvassing data to campaigns free of charge."
+    correct_choice_id: b
+    explanation: "The Commission's logic was definitional: the coordination rule restricts coordinated 'public communications,' which require paid mass-media placement — and a knock on a door involves none. So scripts, literature, turf, and targets can be planned in consultation with candidates, funded by unlimited money. The one remaining wall is (d) flipped: canvassing data flowing back to a campaign below its usual and normal charge is an in-kind contribution. Campaign Legal Center has sued over the opinion, but 2024 demonstrated the model first."
+    concepts: [super-pac, campaign-finance]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Visible campaign–super PAC cooperation almost never produces an enforcement action. Which pair of structural facts best explains why?"
+    choices:
+      - id: a
+        text: "The FEC has only civil jurisdiction, and civil penalties were abolished in 2010."
+      - id: b
+        text: "Coordination complaints are heard by federal juries, which rarely convict; and the FEC cannot investigate sitting members of Congress."
+      - id: c
+        text: "Most of the visible cooperation — redboxing, ex-staffer hires after 120 days, pre-candidacy buildouts — is lawful under the rules as written; and when conduct arguably does cross the line, the six-member FEC's 3–3 deadlocks function as dismissals while criminal cases require proving knowing-and-willful violations."
+      - id: d
+        text: "The Supreme Court held in Citizens United that coordination between campaigns and super PACs cannot be regulated."
+    correct_choice_id: c
+    explanation: "Two different failure modes stack. First, the rules themselves: the three-prong test's narrow standards and safe harbors mean most visible cooperation never violates anything — the reform argument is about rewriting rules, not mainly catching cheaters. Second, enforcement: four of six commissioner votes are needed to act, deadlocks on sensitive matters rose to near 30 percent of substantive votes by 2016, and the criminal route has produced exactly one early landmark — Tyler Harber's 2015 guilty plea. (d) is backwards: Citizens United assumed coordination rules would police the line."
+    concepts: [super-pac, pac, campaign-finance]
+
+  - id: q5
+    kind: free-response
+    text: "You are drafting a bill to make the independence premise real. Pick two of the catalogued workarounds — redboxing, the 120-day personnel window, the pre-candidacy buildout, or the canvassing carve-out — and for each: name the prong or boundary of the coordination rules it exploits, propose a specific fix, and state the strongest First Amendment objection your fix would face."
+    socratic_seed: "Strong answers connect each workaround to its exact mechanism. Redboxing exploits the publicly-available-information exclusion in the conduct prong; fixes target the campaign's act of signaling (as the Stop Illegal Campaign Coordination Act does) rather than the group's act of reading, because penalizing use of truthful public information sits near the First Amendment's core. The personnel window is a conduct-prong connection standard; extending 120 days to a year-plus regulates an employment relationship, where revolving-door precedent gives more room — the objection is that experienced operatives are exiled from politics. The pre-candidacy buildout exploits the rule's trigger — coordination requires a 'candidate' to exist; fixes deem early fundraising vehicles coordinated once candidacy is declared or apply 'testing the waters' rules more aggressively; the objection is chilling genuine exploratory speech before anyone is a candidate. The canvassing carve-out exploits the 'public communication' definition (paid mass-media placement); the fix is redefining covered activity to include paid voter contact; the objection is sweeping in volunteer-style grassroots association, the most protected campaign activity of all. Reward answers that notice the general pattern: every fix widens a definition, and every widened definition captures some genuinely independent speech — the trade the defender says is unconstitutional and the reformer says is overdue."
+    concepts: [super-pac, pac, campaign-finance]

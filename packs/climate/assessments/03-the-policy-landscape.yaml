@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "As of mid-2026, which statement accurately describes the post-OBBBA status of the IRA's clean-energy provisions?"
+    choices:
+      - id: a
+        text: "All IRA credits were repealed immediately upon the OBBBA's enactment on July 4, 2025."
+      - id: b
+        text: "EV credits ended after September 30, 2025; wind and solar projects keep the electricity credits only if construction began by July 4, 2026 or they operate by the end of 2027; the methane fee was deferred to 2034."
+      - id: c
+        text: "The OBBBA replaced the IRA's tax credits with an economy-wide carbon tax."
+      - id: d
+        text: "The OBBBA left the IRA untouched but the credits were struck down in court."
+    correct_choice_id: b
+    explanation: "The OBBBA worked by schedule, not instant repeal: EV credits (new, used, commercial) terminated after September 30, 2025, with the charging-infrastructure credit following on June 30, 2026; residential credits ended with 2025; wind and solar face the construction-by-July-2026 / in-service-by-2027 cliff; hydrogen ends for post-2027 construction starts; and the methane fee — the IRA's one stick — was deferred a decade. Nothing was replaced with a carbon price, and the courts had no role. Rhodium's post-OBBBA outlook moved from 38–56% to 26–35% below 2005 emissions by 2035 — the measurable size of the swing."
+    concepts: [climate, inflation-reduction-act, subsidy]
+
+  - id: q2
+    kind: multiple-choice
+    text: "EPA finalized the rescission of the 2009 endangerment finding in February 2026. What did that action actually do?"
+    choices:
+      - id: a
+        text: "It overruled Massachusetts v. EPA, removing greenhouse gases from the Clean Air Act's definition of air pollutant."
+      - id: b
+        text: "It withdrew the agency finding that underpins federal greenhouse-gas rules, repealing the vehicle GHG standards built on it — an action now being tested in court."
+      - id: c
+        text: "It abolished California's authority to run its own cap-and-trade program."
+      - id: d
+        text: "It ended state renewable-portfolio standards nationwide."
+    correct_choice_id: b
+    explanation: "An agency cannot overrule the Supreme Court: Massachusetts v. EPA (2007) — greenhouse gases are 'air pollutants' — still stands. What changed is the agency's answer to the question that case ordered it to ask: the 2026 rule rescinds the 2009 endangerment finding and with it the federal vehicle GHG standards resting on that predicate (effective April 20, 2026, challenged within days). It has no effect on California's market, which runs on state law, or on state RPS programs — which is exactly why the states' layer matters when the federal layer reverses."
+    concepts: [climate, epa-regulation, administrative-state]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Suppose a future Congress enacts a national carbon tax 51–50 through budget reconciliation. Based on the 2022–2026 record, what is the predictable structural vulnerability?"
+    choices:
+      - id: a
+        text: "The Supreme Court would strike it down under the major-questions doctrine."
+      - id: b
+        text: "Reconciliation statutes expire automatically after ten years."
+      - id: c
+        text: "Enacted by a bare partisan majority, it can be repealed by the next bare partisan majority — the IRA-to-OBBBA arc."
+      - id: d
+        text: "States would be constitutionally required to opt in before it took effect."
+    correct_choice_id: c
+    explanation: "Major questions constrains *agencies* acting without clear authorization, not Congress legislating explicitly — a statute is the clear authorization (a). Reconciliation imposes budget-window rules but no blanket ten-year self-destruct (b), and a federal tax needs no state ratification (d). The real vulnerability is political: what one bare majority builds through reconciliation, the next can unbuild the same way, as the OBBBA proved three years after the IRA. Durability has historically come from broad enacting coalitions (the Clean Air Act cleared the Senate 73–0) or from designs that build defending constituencies."
+    concepts: [climate, reconciliation, carbon-pricing]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which U.S. climate instrument has proven most durable through hostile political swings, and what design feature explains it?"
+    choices:
+      - id: a
+        text: "Federal tax credits — once industries form, repeal is impossible."
+      - id: b
+        text: "EPA power-plant rules — agencies are insulated from elections."
+      - id: c
+        text: "State cap-and-trade programs like California's and RGGI, where auction revenue funds visible local benefits that create defenders."
+      - id: d
+        text: "Voluntary corporate net-zero pledges, which avoid politics entirely."
+    correct_choice_id: c
+    explanation: "The record is the answer: California extended its market to 2045 by legislative supermajority in September 2025 — the same season federal credits were dying — and RGGI has run since 2008, with Virginia exiting and now rejoining (July 1, 2026). The durability mechanism is recycled revenue: bill credits and local programs give the policy a constituency. Federal credits were repealed three years in (a), EPA rules have whipsawed with every administration and lost their predicate finding in 2026 (b), and voluntary pledges carry no enforcement (d). Ostrom's polycentric-governance argument generalizes the point: overlapping state and regional systems provide redundancy when the national center fails."
+    concepts: [climate, carbon-pricing, federalism]
+
+  - id: q5
+    kind: free-response
+    text: "A colleague argues: 'With the U.S. out of Paris and the IRA gutted, climate policy is effectively over until Washington changes hands.' Using Ostrom's polycentric-governance framework and at least two concrete 2025–26 developments from this lesson, evaluate the claim."
+    socratic_seed: "Ostrom's argument: climate governance never depended on a single center; many semi-autonomous decision centers — states, regional compacts, cities, firms, foreign blocs — experiment, copy successes, and capture local co-benefits, providing redundancy when one center defects. Concrete supports from 2025–26: California's Cap-and-Invest extension to 2045 (September 2025); RGGI's continuation and Virginia's re-entry (July 2026); the EU's CBAM definitive regime (January 2026) exporting a carbon price through trade; China's deployment-driven trajectory and first absolute target; about two dozen U.S. Climate Alliance states. Honest limits a strong answer concedes: the federal reversal measurably matters (Rhodium's 2035 outlook fell from 38–56% to 26–35% below 2005), polycentric action covers a minority of U.S. emissions, and leakage and free-riding persist. The strongest answers land between the extremes: not 'over,' but slower and rerouted — redundancy is real, and so is the cost of losing the largest center."
+    concepts: [climate, federalism, multilateral]

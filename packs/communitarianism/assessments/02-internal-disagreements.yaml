@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: internal-disagreements
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The civic-republican stream's standing critique of the progressive-communitarian stream is that it is…"
+    choices:
+      - id: a
+        text: "Too policy-instrumental — it treats civic participation as a means to better policy outcomes rather than as intrinsically valuable."
+      - id: b
+        text: "Too parochial — it builds civic life on particular religious traditions that exclude nonbelievers."
+      - id: c
+        text: "Too radical — its economic program goes far beyond what communitarian commitments require."
+      - id: d
+        text: "Communitarian in name only — it accepts the substantive policy positions of progressive liberalism."
+    correct_choice_id: a
+    explanation: "Each stream has a signature critique, and keeping them straight is keeping the streams straight. The civic-republican charge against progressive communitarians is instrumentalism: universal programs are fine, but civic participation is the activity of democratic citizenship, valuable in itself, not just a delivery mechanism for policy. (b) is the civic-republican critique of religious-traditionalists, not of progressives. (d) is the religious-traditionalist critique of progressive communitarians — a near-miss because it targets the same stream from a different direction. (c) is no stream's critique; the progressive-communitarian program is social-democratic, not revolutionary."
+    concepts: [civic-republicanism, progressive-communitarianism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "An op-ed argues: 'American civic identity ran for two centuries on Protestant moral culture. Strip that substance away and the purely secular civic faith that remains is too thin to motivate anyone to sacrifice for fellow citizens.' Which stream is writing, and at which stream is the argument aimed?"
+    choices:
+      - id: a
+        text: "A civic-republican, aimed at the religious-traditionalist stream."
+      - id: b
+        text: "A religious-traditionalist, aimed at the progressive-communitarian stream."
+      - id: c
+        text: "A religious-traditionalist, aimed at the civic-republican stream."
+      - id: d
+        text: "A progressive communitarian, aimed at the religious-traditionalist stream."
+    correct_choice_id: c
+    explanation: "The claim that civic identity becomes too thin when stripped of religious-traditional substance is the religious-traditionalist's specific objection to civic-republicanism — the stream that tries to sustain robust civic life in inclusive, secular form. (b) is the near-miss: religious-traditionalists do critique progressive communitarians, but that critique is different ('communitarianism in name only' — accepting progressive policy wholesale). (a) reverses the direction; the civic-republican critique of religious-traditionalists is parochialism and exclusion, not thinness."
+    concepts: [religious-traditionalism, civic-republicanism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which claim would all three streams accept, rather than just one of them?"
+    choices:
+      - id: a
+        text: "Religious communities are the deepest carriers of tradition, virtue, and shared moral life."
+      - id: b
+        text: "Universal social programs are the institutional expression of communitarian values in modern societies."
+      - id: c
+        text: "Pure individualism — whether rights-based liberal or free-market — produces an atomization that politics must address."
+      - id: d
+        text: "Civic identity must be built on inclusive secular frameworks rather than particular traditions."
+    correct_choice_id: c
+    explanation: "The anti-atomization diagnosis is the shared core all three streams inherit from the foundational thinkers; they diverge on the remedy. (a) is the religious-traditionalist's distinctive premise — civic-republicans treat it as too parochial. (b) is the progressive-communitarian's distinctive claim — religious-traditionalists call it communitarianism in name only. (d) is the civic-republican position that religious-traditionalists reject as too thin. The test of whether you understand the streams is being able to sort the shared core from the stream-specific commitments."
+    concepts: [communitarianism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A 2027 bill creating a universal child allowance attracts strong support from intellectuals in all three communitarian streams. Based on the lesson's issue-by-issue comparison, why is this issue the exception rather than the rule?"
+    choices:
+      - id: a
+        text: "Because all three streams support every form of universal social provision, including healthcare and free college."
+      - id: b
+        text: "Because it strengthens families as institutions while also being universal social provision — satisfying each stream's distinct priority at once."
+      - id: c
+        text: "Because family policy is the one domain where communitarians defer to libertarian arguments."
+      - id: d
+        text: "Because the streams agree on cultural questions and diverge only on economics."
+    correct_choice_id: b
+    explanation: "The child allowance is unusual because it sits at the intersection of the streams' different priorities: family-strengthening (religious-traditionalist), universal shared provision (progressive-communitarian), and a civic commitment made to all members (civic-republican). (a) is false — religious-traditionalists are 'mixed' on universal healthcare, free college, and labor rights because their communitarianism runs through congregation and family more than state programs. (d) inverts the lesson's pattern: the streams converge on much of economics and diverge sharply on cultural questions (sexuality, religion, immigration)."
+    concepts: [communitarianism, progressive-communitarianism]
+
+  - id: q5
+    kind: free-response
+    text: "The religious-traditionalist stream charges that progressive communitarianism is 'communitarianism in name only.' Steel-man that charge as its smartest advocate would make it — then construct the progressive communitarian's strongest reply."
+    socratic_seed: "Push the learner to make the charge specific: if progressive communitarians accept nearly all of progressive liberalism's substantive positions on family, gender, sexuality, and religious liberty, what work is the communitarian label doing — is it a philosophy or a rhetorical repackaging? The strongest reply runs through institutions, not rhetoric: universal programs, public schools, and unions ARE constitutively shared institutions, and inclusion across difference is itself a civic good rather than a concession to liberalism. Then press on what evidence could move either side: do universal programs actually generate shared civic identity (Putnam-style measures of trust and participation), or do they function as anonymous transfers? If the empirical record came back showing universal programs build no more solidarity than targeted ones, which stream's position would be more damaged?"
+    concepts: [communitarianism, religious-traditionalism, progressive-communitarianism]

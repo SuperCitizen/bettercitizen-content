@@ -1,0 +1,123 @@
+---
+schema: bettercitizen.lesson/v1
+slug: how-the-court-works
+kind: reading
+title: How the Supreme Court actually works
+objectives:
+  - Trace a case from certiorari petition to published opinion, naming each stage and who controls it
+  - State the rule of four and distinguish it from the five votes required for a stay
+  - Explain how opinion assignment works and why concurrences and dissents exist
+  - Describe what the emergency ("shadow") docket is and why its growth is contested
+concepts:
+  - judicial-branch
+  - amicus-brief
+  - precedent
+  - stare-decisis
+sources:
+  - type: website
+    citation: 'Supreme Court of the United States, "The Court at Work" — official description of the Term, the petition volume, and opinion production.'
+    url: https://www.supremecourt.gov/about/courtatwork.aspx
+  - type: website
+    citation: 'Administrative Office of the U.S. Courts, "Supreme Court Procedures" — certiorari, the rule of four, briefing, oral argument, and the Justices'' Conference.'
+    url: https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/supreme-court-procedures
+  - type: paper
+    citation: 'Hamilton, Federalist No. 78 (1788) — the original case for an independent judiciary with "neither FORCE nor WILL, but merely judgment."'
+    url: https://avalon.law.yale.edu/18th_century/fed78.asp
+  - type: paper
+    citation: 'Vladeck, S. I. (2019), "The Solicitor General and the Shadow Docket," 133 Harvard Law Review 123 — documenting the surge in government emergency applications.'
+    url: https://harvardlawreview.org/wp-content/uploads/2019/11/123-163_Online.pdf
+  - type: paper
+    citation: 'Baude, W. (2015), "Foreword: The Supreme Court''s Shadow Docket," 9 NYU Journal of Law & Liberty 1 — the article that coined the term.'
+  - type: court-opinion
+    citation: 'Whole Woman''s Health v. Jackson, 594 U.S. ___ (2021) (Kagan, J., dissenting from denial of injunctive relief) — the most-quoted internal critique of shadow-docket practice.'
+    url: https://www.supremecourt.gov/opinions/20pdf/21a24_8759.pdf
+  - type: book
+    citation: 'Vladeck, S. I. (2023), The Shadow Docket: How the Supreme Court Uses Stealth Rulings to Amass Power and Undermine the Republic, Basic Books.'
+perspectives:
+  - name: Institutionalist preservationist
+  - name: Structural reformer
+  - name: Accountability reformer
+duration_min: 14
+---
+
+# How the Supreme Court actually works
+
+On Friday afternoons when the Court is in session, nine people walk into a conference room on the first floor of the building across from the Capitol, shake hands, and close the door. No clerks. No secretaries. No recording. By tradition, the most junior justice takes notes and answers any knock. Inside that room, the [[org:supreme-court-of-the-united-states]] decides which of the thousands of disputes Americans have begged it to hear will get a hearing at all — and how the ones already argued will come out. Nearly everything the public sees, the marble plaza, the televised confirmation wars, the opinion-day scrums, happens outside that door. To understand the Court, start with the machinery the door conceals.
+
+## The funnel: thousands ask, dozens are answered
+
+Almost no one has a right to be heard by the Supreme Court. A party who loses in a federal court of appeals or a state's highest court must *petition* for review — formally, ask the Court to issue a writ of certiorari ordering the lower court to send up the record. By the Court's own description, roughly 5,000 to 7,000 new cases arrive every Term (the Term runs, by statute, from the first Monday in October to the first Monday in October). Plenary review — full briefing and oral argument — is granted in about 80 of them, and in recent Terms the argued docket has often run closer to sixty. Another hundred or so are disposed of summarily, without argument. Everyone else gets a one-line denial.
+
+<Figure caption="The certiorari funnel, using the Court's own published figures. The overwhelming majority of petitions are denied without comment — and a denial sets no precedent and implies no agreement with the decision below.">
+  <DataBars
+    title="One Term at the Supreme Court"
+    unit="cases"
+    bars={[
+      {label: 'Petitions filed', value: 6000, color: 'blue', note: '5,000–7,000 per Term'},
+      {label: 'Disposed without argument', value: 100, color: 'gold'},
+      {label: 'Argued and decided', value: 80, color: 'accent', note: 'recent Terms: often nearer 60'},
+    ]}
+  />
+</Figure>
+
+What gets through? The Court's Rule 10 says certiorari is granted "only for compelling reasons" — and the reasons are about the *legal system*, not the parties. The classic trigger is a circuit split: federal appeals courts in different regions reading the same federal law in conflicting ways, so that the law means one thing in Texas and another in Vermont. National importance helps; a sympathetic party with a badly decided case generally does not, because the Court does not sit to correct every error below.
+
+The sorting itself is industrial. Most justices pool their law clerks into a shared "cert pool": each incoming petition is assigned to one clerk, who writes a memo summarizing the case and recommending a grant or denial for all the participating chambers. Petitions a justice flags go on the "discuss list" for conference; the rest are denied without ever being talked about. At conference, the vote to grant follows the **rule of four** — four of the nine justices suffice to take a case, a deliberate minority-protecting rule that keeps five justices from controlling the agenda completely.
+
+<QuickCheck
+  question="Which petition is most likely to be granted certiorari?"
+  choices={[
+    {id: 'a', text: 'A sympathetic small business that clearly lost on bad reasoning below'},
+    {id: 'b', text: 'A technical tax question on which the Fifth and Ninth Circuits have issued squarely conflicting rules'},
+    {id: 'c', text: 'A constitutional claim the petitioner feels passionately about'},
+    {id: 'd', text: 'Any case where the federal government is the losing party'},
+  ]}
+  answer="b"
+  explanation="Rule 10 points at systemic reasons — above all, conflicting interpretations of federal law among the circuits. The Court is not an error-correction service: a wrongly decided but isolated case usually stays wrongly decided, which is why the denial rate exceeds 98 percent."
+/>
+
+## From briefs to the bench
+
+Once certiorari is granted, the case enters its public phase. The petitioner files a merits brief (capped at 50 pages under the Court's rules), the respondent answers, and replies follow. Around them accumulates a second literature: [[term:amicus-brief]] filings from governments, industries, scholars, and advocacy groups who are not parties but want the justices to see the stakes their way. When the federal government is not already a party, the Solicitor General often weighs in — and is sometimes invited to.
+
+Oral argument is the only part of the process most people ever see, and it is shorter than its reputation: each side gets roughly thirty minutes, most of it consumed by the justices' questions. Arguments run October through April, typically two cases a morning on Mondays, Tuesdays, and Wednesdays of two-week sitting periods. Advocates do not get to deliver speeches; the justices use the hour to probe weak joints in the briefs, float hypotheticals, and — often visibly — negotiate with each other through their questions.
+
+## The conference, the assignment, and the opinion
+
+The decision happens back behind the closed door. When the Court is sitting, the justices confer on Wednesday and Friday afternoons, discussing that week's argued cases. The protocol is strict seniority: the Chief Justice states his view first, then each associate justice in descending order of service, each speaking without interruption. Then the tentative vote is taken.
+
+Now comes the lever that gives the Chief Justiceship its quiet power: **opinion assignment**. If the Chief Justice is in the majority, he decides who writes the opinion of the Court — himself or any colleague in the majority. If he is in dissent, the most senior associate justice in the majority assigns. Assignment shapes doctrine: a 5–4 majority opinion assigned to its most cautious member will be written narrowly, because the author must hold five votes through every draft. A justice who agrees with the outcome but not the reasoning writes a *concurrence*; those who disagree write *dissents*. Drafts circulate for months, and votes occasionally flip — on rare occasions a circulating dissent has picked up a fifth vote and become the opinion of the Court. Nothing is law until the decision is announced; from that moment, the majority opinion binds every other court in the country as [[term:precedent]], under the doctrine of [[term:stare-decisis]].
+
+<Checkpoint question="The Court votes 6–3, with the Chief Justice among the three dissenters. Who assigns the majority opinion — and why might the assignment matter as much as the vote?">
+  The **most senior associate justice in the majority** assigns. It matters because the author controls the opinion's breadth: the same six votes can produce a one-case ticket or a doctrine that governs hundreds of future disputes, and the author must keep five colleagues signed on through every draft. Assignment is agenda-setting by other means.
+</Checkpoint>
+
+A justice's chambers runs on a staff of three to four law clerks — recent law graduates who screen petitions, prepare argument questions, and draft. The publication of a single Term's opinions, concurrences, dissents, and orders runs to thousands of pages, and some opinions are revised a dozen times before announcement.
+
+<ProcessFlow title="The life of a Supreme Court case" steps={[
+  {title: 'Petition for certiorari', detail: 'The losing party below files a petition; a cert-pool clerk summarizes it in a memo circulated to participating chambers.', branch: 'More than 98% of petitions end here, denied without explanation.'},
+  {title: 'Conference and the rule of four', detail: 'Petitions flagged for the discuss list get a vote; four justices suffice to grant review.'},
+  {title: 'Briefing', detail: 'Merits briefs (50-page cap), reply briefs, and amicus briefs from non-parties; the Solicitor General often files for the United States.'},
+  {title: 'Oral argument', detail: 'Roughly 30 minutes per side, October through April, dominated by the justices’ questions.'},
+  {title: 'Conference vote', detail: 'Justices state views in seniority order, Chief Justice first, then cast tentative votes behind closed doors.'},
+  {title: 'Assignment and drafting', detail: 'The senior-most justice in the majority assigns the opinion; drafts, concurrences, and dissents circulate for months.', branch: 'Votes can flip during drafting — a dissent occasionally becomes the majority.'},
+  {title: 'Announcement', detail: 'The decision becomes final and binding precedent only when delivered publicly, mostly in May and June.'},
+]} />
+
+Walk through the flow above and notice where the real choke points sit: almost all of the Court's power over its own agenda is exercised at stages one and two, in writing, in private, before any argument is heard — which is exactly why the next section's development worried people on both sides of the bench.
+
+## The docket in the shadows
+
+Everything described so far is the *merits docket* — the slow, public, fully briefed path. But the Court has always had a second track for emergencies: applications to stay a lower-court ruling or an execution, or to grant an [[term:injunction]], decided in days rather than months, often by unsigned order with little or no stated reasoning. In 2015, law professor William Baude gave this track a name that stuck: the **shadow docket**. (Granting a stay takes five votes, not the rule of four — a mismatch that means four justices can force a case to be heard but cannot pause the ruling below while it is.)
+
+For most of the twentieth century the track stayed quiet. Then it grew — fast. Stephen Vladeck's count, presented in a 2019 Harvard Law Review essay and a 2023 book, became the debate's central statistic: across the sixteen years of the George W. Bush and Obama administrations, the federal government asked the Court for emergency relief **eight times**; across the four years of the first Trump administration it asked **forty-one times**, and the Court granted relief in whole or part in most of them. Major policies — on immigration, the census, COVID-era restrictions, and abortion — were effectively set or unset by orders issued at speed, sometimes near midnight, with no argument and no majority opinion to scrutinize.
+
+The sharpest criticism has come from inside the building. Dissenting when the Court declined to block Texas's S.B. 8 abortion law in September 2021, Justice [[person:elena-kagan]] wrote that "the majority's decision is emblematic of too much of this Court's shadow-docket decisionmaking — which every day becomes more unreasoned, inconsistent, and impossible to defend." Defenders answer that emergencies are real, that lower courts issuing nationwide injunctions forced the Court's hand, and that demanding full opinions on a days-long clock would produce worse reasoning, not better. The Court has since taken some emergency applications more formally — occasionally setting them for argument — but the volume has not returned to its old baseline.
+
+<Checkpoint question="An order arrives at 11:40 p.m.: one paragraph, unsigned, staying a lower court's injunction against a federal policy. Which docket produced it, and what vote did it take?">
+  The **emergency (shadow) docket**. A stay requires **five votes** — unlike the rule of four for certiorari — and the order binds the parties immediately even though there was no oral argument, no full briefing, and no signed majority opinion explaining the reasoning. That combination of speed, force, and silence is precisely what the shadow-docket argument is about.
+</Checkpoint>
+
+## What this lesson is not
+
+This lesson explained the machine: the funnel, the conference, the assignment power, the two docket tracks. It deliberately did not ask the harder question the machine exists to serve — *why should nine unelected lawyers get to void what elected majorities enact at all?* Alexander Hamilton answered in Federalist No. 78 that a judiciary with "neither FORCE nor WILL, but merely judgment" would be the "least dangerous" branch. Whether he was right — and what originalists, living constitutionalists, and apostles of judicial restraint have made of the question since — is Lesson 2. The fight over restructuring the machine itself — term limits, expansion, jurisdiction, ethics — is Lesson 3.

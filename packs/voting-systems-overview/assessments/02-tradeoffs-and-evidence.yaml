@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: tradeoffs-and-evidence
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which of these is an accurate statement of Arrow's impossibility theorem?"
+    choices:
+      - id: a
+        text: "No voting system of any kind can ever produce a fair outcome"
+      - id: b
+        text: "No RANKED voting system with 3+ candidates can simultaneously satisfy unrestricted domain, unanimity, independence of irrelevant alternatives, and non-dictatorship"
+      - id: c
+        text: "All voting systems are equally vulnerable to manipulation by strategic voters"
+      - id: d
+        text: "Majority rule is impossible whenever there are more than two candidates"
+    correct_choice_id: b
+    explanation: "Arrow's result is precise: it covers ordinal (ranked) aggregation of 3+ alternatives and a specific list of conditions, of which IIA is the one real systems usually sacrifice. It does not say outcomes are 'unfair' in general (a), does not address strategic manipulation — that's Gibbard–Satterthwaite, and the systems are NOT equally vulnerable (c) — and majority rule works fine when a majority preference exists; the problem is cycles, not candidate count per se (d)."
+    concepts: [arrows-impossibility-theorem]
+
+  - id: q2
+    kind: multiple-choice
+    text: "The Gibbard–Satterthwaite theorem proves that every reasonable single-winner voting system can be manipulated. What is the right practical conclusion to draw?"
+    choices:
+      - id: a
+        text: "Since all systems are manipulable, there is no meaningful difference between them"
+      - id: b
+        text: "Compare systems on how often profitable manipulations arise, how much information they require, and how natural the strategic move is"
+      - id: c
+        text: "Only plurality voting is actually manipulated in practice"
+      - id: d
+        text: "Cardinal systems like score voting are exempt because the theorem covers only rankings"
+    correct_choice_id: b
+    explanation: "The theorem eliminates 'is it manipulable?' as a discriminating question — they all are — so the discriminating questions become frequency, information requirements, and psychological plausibility. (d) is a common dodge that fails: Gibbard's 1973 version covers game forms generally, including cardinal ballots — score voting's min-max incentive is the textbook case. (c) is false (every system has real strategic behavior), though plurality's tactical abandonment of favorites is the most widespread manipulation in actual elections."
+    concepts: [gibbard-satterthwaite, strategic-voting]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Under score voting, a strategically informed voter's optimal ballot typically gives maximum points to one front-runner's side and zero to everything else. What does this imply?"
+    choices:
+      - id: a
+        text: "Score voting becomes equivalent to approval voting when voters behave strategically"
+      - id: b
+        text: "Score voting is immune to strategy because voters can express intensity"
+      - id: c
+        text: "Strategic voters under score voting elect the Condorcet winner"
+      - id: d
+        text: "Score ballots cannot be counted at the precinct level"
+    correct_choice_id: a
+    explanation: "Min-maxing — all 5s and 0s — turns a score ballot into an approval ballot, which is why analysts treat strategic score voting as collapsing into approval. Expressiveness is not immunity (b); if anything, the unused middle of the scale is what strategy discards. This is also exactly the weakness STAR's automatic runoff targets: flattening your ballot to 5s and 0s throws away your voice between two finalists you scored equally."
+    concepts: [score-voting, strategic-voting]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Burlington, Vermont (2009): Montroll would have beaten Kiss 54–46 and Wright 56–44 head-to-head, but finished third and was eliminated; Kiss won the IRV count. Which property failed, and which configuration produced the failure?"
+    choices:
+      - id: a
+        text: "Later-no-harm failed, because voters' second choices hurt their first choices"
+      - id: b
+        text: "The Condorcet criterion failed, via a center squeeze: the consensus candidate had the fewest first choices and was eliminated before the final round"
+      - id: c
+        text: "Monotonicity failed, because Kiss won by receiving fewer votes"
+      - id: d
+        text: "Precinct summability failed, because the count had to be centralized"
+    correct_choice_id: b
+    explanation: "Montroll was the Condorcet winner — preferred head-to-head over every rival — but center squeeze killed him: positioned between two larger blocs, he was nearly everyone's second choice and too few voters' first. IRV (like plurality and runoffs) filters on first-choice strength, so he never reached the final round. Later-no-harm is a property IRV satisfies (a is backwards); no monotonicity violation determined this outcome (c); and summability (d) is an administrative property, not what made the result controversial."
+    concepts: [condorcet-criterion, instant-runoff]
+
+  - id: q5
+    kind: free-response
+    text: "Your city is choosing between keeping plurality, adopting RCV, and adopting approval voting. Pick the TWO properties from this lesson you would weight most heavily, justify the weighting, and state which system your weighting selects — then name the strongest objection someone with different weights would raise."
+    socratic_seed: "There is no correct system, only correct reasoning from named properties. A voter prizing auditability and simplicity weights precinct summability and ballot error rates — that points to approval (or even plurality). A voter prizing sincere expression without spoilers weights later-no-harm and favorite safety — that points to RCV. A voter prizing consensus winners weights the Condorcet criterion — that cuts against both plurality and IRV (Burlington) and points toward approval, STAR, or Condorcet methods. The strongest answers also cite the empirical record honestly: modest ballot-error differences, no detectable turnout effects, and the political reality that 19 states have banned RCV while Alaska has defended its system twice."
+    concepts: [condorcet-criterion, strategic-voting]

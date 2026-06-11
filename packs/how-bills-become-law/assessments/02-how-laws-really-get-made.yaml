@@ -1,0 +1,121 @@
+schema: bettercitizen.assessment/v1
+lesson: how-laws-really-get-made
+questions:
+  - id: q1-riders
+    kind: multiple-choice
+    text: The Electoral Count Reform Act, the SECURE 2.0 retirement overhaul, and a
+      ban on TikTok on federal devices all became law in December 2022 without any
+      of them passing the House as a standalone bill. How?
+    choices:
+      - id: a
+        text: They were enacted by executive order after Congress deadlocked
+      - id: b
+        text: They rode as divisions of a 4,155-page year-end omnibus appropriations
+          package that had to pass
+      - id: c
+        text: They passed the Senate by reconciliation, which bypasses the House
+      - id: d
+        text: They were attached to the budget resolution, which has the force of law
+    correct_choice_id: b
+    explanation: All three were riders — divisions of the Consolidated Appropriations
+      Act, 2023, a must-pass omnibus. Executive orders cannot enact statutes,
+      reconciliation bypasses the Senate filibuster but never the House, and a
+      budget resolution is not law at all — it is the internal blueprint that can
+      unlock reconciliation. Packaging onto must-pass vehicles is how serious
+      legislation without standalone floor time gets enacted.
+    concepts:
+      - omnibus-bill
+      - legislative-process
+  - id: q2-cr
+    kind: multiple-choice
+    text: It is late September. None of the twelve appropriations bills has passed,
+      and the fiscal year ends October 1. Congress enacts a continuing resolution.
+      What does that law actually do?
+    choices:
+      - id: a
+        text: Enacts the twelve bills at the new levels the committees drafted
+      - id: b
+        text: Funds agencies at roughly last year's levels for a set period, with
+          limited adjustments
+      - id: c
+        text: Suspends the debt limit so the Treasury can keep borrowing
+      - id: d
+        text: Funds only the military until regular bills pass
+    correct_choice_id: b
+    explanation: A CR is a stopgap that continues existing funding at (roughly) the
+      prior year's rates for a defined window, with limited "anomalies" patched in
+      — it is precisely not the new appropriations the committees drafted. The
+      debt limit is a separate fight about borrowing, not spending authority, and
+      a standard CR covers the whole government, not just defense.
+    concepts:
+      - continuing-resolution
+      - appropriations
+  - id: q3-vehicle-choice
+    kind: multiple-choice
+    text: A party holds the House, 52 Senate seats, and the presidency. Its two
+      priorities are (A) a major expansion of clean-energy tax credits and (B) a
+      national right-to-repair mandate with negligible budgetary effect. Which can
+      it realistically enact without minority-party votes, and why?
+    choices:
+      - id: a
+        text: Both — unified government can schedule and pass anything
+      - id: b
+        text: Priority A only, via reconciliation — it is tax-and-spending law,
+          while B's merely incidental budget effects would be struck under the
+          Byrd rule
+      - id: c
+        text: Priority B only — regulatory mandates are exempt from the filibuster
+      - id: d
+        text: Neither — every bill needs 60 Senate votes without exception
+    correct_choice_id: b
+    explanation: Reconciliation passes the Senate with a simple majority but is
+      confined to budgetary matters; the Byrd rule lets any senator strike
+      provisions whose budget effects are merely incidental to a policy goal.
+      Tax credits are budget math and fit; a right-to-repair mandate is
+      regulatory policy and faces the ordinary 60-vote cloture threshold, which
+      52 votes cannot meet. Unified government changes who holds the gates, not
+      whether they exist.
+    concepts:
+      - reconciliation
+      - filibuster
+  - id: q4-sinclair
+    kind: multiple-choice
+    text: Barbara Sinclair's phrase "unorthodox lawmaking" refers to which
+      development?
+    choices:
+      - id: a
+        text: Congress increasingly enacting major legislation through
+          leadership-negotiated packages, omnibus vehicles, and post-committee
+          rewrites rather than the textbook committee-to-conference path
+      - id: b
+        text: Presidents legislating by executive order when Congress refuses to act
+      - id: c
+        text: The Supreme Court striking down laws passed with procedural shortcuts
+      - id: d
+        text: Members introducing bills they know will die, purely for publicity
+    correct_choice_id: a
+    explanation: Sinclair documented, Congress by Congress from the 1960s on, that
+      the textbook process — one committee writes, the floor amends, a conference
+      reconciles — became the exception for major bills, displaced by leadership
+      drafting, multiple referral, closed rules, omnibus packaging, and summit
+      negotiation. Her subject was Congress's own internal evolution, not
+      executive orders, judicial review, or messaging bills.
+    concepts:
+      - legislative-process
+      - committee-system
+  - id: q5-leverage
+    kind: free-response
+    text: It is September 25. The fiscal year ends October 1, none of the twelve
+      appropriations bills has passed, and you are the House Speaker negotiating
+      the must-pass package. Explain how the deadline changes who holds power over
+      what becomes law — and why a rank-and-file member, a committee chair, and a
+      faction willing to risk a shutdown each experience that deadline
+      differently.
+    concepts:
+      - omnibus-bill
+      - continuing-resolution
+      - appropriations
+    socratic_seed: "Start with what 'must-pass' does to the choice each actor faces:
+      who gets to write the text of the only train leaving the station, and who is
+      reduced to voting take-it-or-leave-it? Then ask which actor a shutdown
+      actually threatens — and which actor it arms."

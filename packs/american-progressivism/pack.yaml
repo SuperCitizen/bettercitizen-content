@@ -4,13 +4,13 @@ title: American Progressivism
 summary: What the American progressive tradition actually believes (steel-manned by adherents), the internal disagreements that have shaped it from the early-1900s reformers through the New Deal coalition through the post-2008 left-progressive surge, and how it relates to other American ideological traditions. Like conservatism, progressivism is a family of positions with overlapping commitments and genuine disagreements.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.0.0
+version: 1.1.0
 tags: [ideologies, progressivism, civics-201, political-philosophy]
 level: intermediate
 official: true
 contested: true
 languages: [en]
 lessons:
-  - 01-what-it-believes.md
-  - 02-internal-disagreements.md
-  - 03-cross-spectrum.md
+  - 01-what-it-believes.mdx
+  - 02-internal-disagreements.mdx
+  - 03-cross-spectrum.mdx

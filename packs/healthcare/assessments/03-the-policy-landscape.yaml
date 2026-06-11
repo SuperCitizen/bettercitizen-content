@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "CBO scored the One Big Beautiful Bill Act of 2025 as reducing federal Medicaid and marketplace spending by about $1.06 trillion over a decade. Which single provision carries the largest share of that score?"
+    choices:
+      - id: a
+        text: "The provider-tax phase-down from 6 percent to 3.5 percent in expansion states."
+      - id: b
+        text: "The Medicaid work-requirement ('community engagement') rules for expansion adults."
+      - id: c
+        text: "The repeal of the enhanced premium tax credits."
+      - id: d
+        text: "The $50 billion Rural Health Transformation Program."
+    correct_choice_id: b
+    explanation: "CBO scores the work requirements at $326 billion — the largest single line — ahead of the provider-tax ratchet ($191 billion) and the state-directed-payment caps ($149 billion). Choice (c) is the classic confusion: the enhanced credits were never repealed by OBBBA — they expired on December 31, 2025, on the schedule a previous Congress wrote into the Inflation Reduction Act. And (d) runs the other way entirely: the rural fund is the law's $50 billion sweetener, spending money rather than saving it."
+    concepts: [healthcare, entitlement-program]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Imagine a future Congress whose Senate majority holds 52 seats. It wants to (1) restructure Medicaid financing again and (2) create a permanent federal public option with new insurance rules. Based on how the 2025–26 fights actually played out, which statement is most accurate?"
+    choices:
+      - id: a
+        text: "Both require 60 Senate votes, so neither can pass."
+      - id: b
+        text: "The financing restructure can move through budget reconciliation with a simple majority, but the public option's program rules would, in practice, need 60 votes to survive the filibuster."
+      - id: c
+        text: "Both can pass by simple majority, because anything touching health spending counts as budgetary."
+      - id: d
+        text: "Neither can happen without the states' consent, since Medicaid is state-administered."
+    correct_choice_id: b
+    explanation: "This is the asymmetry that explains 2025–26: reconciliation moves money with 51 votes but is limited to budget items, which is how OBBBA cut $1.06 trillion while a subsidy extension — an ordinary statute — passed the House and stalled against the Senate's 60-vote threshold. A public option is mostly program rules (eligibility, provider participation, market regulation), the kind of provisions reconciliation cannot easily carry. States administer Medicaid but cannot veto federal statutes, so (d) confuses administration with consent."
+    concepts: [healthcare, federalism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Before OBBBA took work requirements national, Arkansas ran them in 2018. What did the New England Journal of Medicine research on that episode find?"
+    choices:
+      - id: a
+        text: "Employment rose substantially as enrollees took jobs to keep their coverage."
+      - id: b
+        text: "Coverage losses were concentrated among people who simply refused to work."
+      - id: c
+        text: "More than 95 percent of targeted enrollees already met the requirement or qualified for an exemption; employment did not measurably rise; coverage losses flowed mainly from reporting failures."
+      - id: d
+        text: "Almost no one lost coverage, because exemptions were applied automatically."
+    correct_choice_id: c
+    explanation: "About 18,000 adults lost coverage in seven months before a federal court halted the policy — yet Sommers and colleagues found the overwhelming majority of those targeted were already working or exempt, and the losses came from confusion, broken websites, and unread mail rather than refusal to work. Employment did not measurably increase. That is why the live national question is whether fifty-state implementation replicates Arkansas's paperwork losses or actually learns from them — not whether work itself is the binding constraint."
+    concepts: [healthcare, entitlement-program]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Medicare drug-price negotiation kept expanding on schedule — round-two prices published in late 2025, round three selected in 2026 — under an administration that had campaigned against the law creating it. Which dynamic from the lesson best explains that persistence?"
+    choices:
+      - id: a
+        text: "Blame avoidance — politicians hide unpopular cuts behind eligibility mechanics."
+      - id: b
+        text: "Program feedback — a benefit flowing to nearly 69 million Medicare enrollees creates defenders faster than repealers."
+      - id: c
+        text: "Monopsony — a single buyer always prevails in price negotiations."
+      - id: d
+        text: "The filibuster — repealing the program would require 60 Senate votes, which no majority can assemble."
+    correct_choice_id: b
+    explanation: "Pierson's point is that programs create constituencies: once negotiated prices, the $35 insulin cap, and the $2,000 out-of-pocket cap started flowing to Medicare's enormous enrollee population, unwinding them became politically expensive regardless of who won the election. Blame avoidance (a) is the same author's account of how cuts are made, not why this benefit endured. Monopsony (c) describes the pricing mechanism, not the politics of its survival. And (d) fails because a hostile majority could have used reconciliation — the budgetary route OBBBA itself took — had it judged repeal politically survivable."
+    concepts: [healthcare, policy-coalitions]
+
+  - id: q5
+    kind: free-response
+    text: "Name one piece of evidence the 2026–2028 calendar will actually deliver, state which of the three perspectives it could vindicate or embarrass, and explain what result you would count as decisive."
+    socratic_seed: "Candidates from the lesson: realized coverage losses from the subsidy cliff (CBO projected 2.2 million newly uninsured in 2026 — a test of the incrementalist claim that the framework works when funded, and of whether retrenchment's costs become politically visible, per Pierson's backlash hypothesis); the first national work-requirement data after December 2026 (does the Arkansas pattern — losses from paperwork, not work — replicate at fifty-state scale?); and the market response to negotiated drug prices through round three (launch delays or pipeline cuts would feed the market-reform innovation argument; smooth expansion feeds the single-payer monopsony proof-of-concept). Push the learner to commit to a falsifiable prediction with a number or a date attached, then ask what they would conclude if the opposite happened."
+    concepts: [healthcare, policy-coalitions, federalism]

@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A pundit argues: 'The top tax rate was 91 percent in the 1950s and the economy boomed — so we know top earners will actually pay rates that high.' What does the historical evidence in this lesson say?"
+    choices:
+      - id: a
+        text: "Correct — the top 0.01 percent paid effective rates above 90 percent under the 1954–63 regime."
+      - id: b
+        text: "The top 0.01 percent did pay high total rates (about 71 percent in 1960), but mostly through corporate and estate taxes — almost no income actually faced the 91 percent statutory rate."
+      - id: c
+        text: "The 91 percent rate is a myth; the statutory top rate never exceeded 50 percent."
+      - id: d
+        text: "Top effective rates in the 1950s were lower than today's, because the era had no payroll tax."
+    correct_choice_id: b
+    explanation: "Statutory and effective rates are different animals. The 91 percent bracket was real law from 1954 to 1963 — but deductions and the capital-gains preference hollowed it out, and Piketty and Saez's own historical work (2007) finds the top 0.01 percent paid about 71 percent of income in total federal taxes in 1960, driven mostly by the corporate and estate taxes. The pundit's inference fails in both directions: the rich never paid 91 percent, and the 71 percent they did pay flowed through different instruments than the headline rate. That distinction is why the 1986 reform traded a 50 percent statutory rate for 28 percent plus closed shelters."
+    concepts: [taxes, supply-side-economics]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Country X's all-in top marginal rate is 85 percent. Applying the Diamond–Saez and Trabandt–Uhlig framework from this lesson, which prediction is best supported?"
+    choices:
+      - id: a
+        text: "Cutting the top rate would necessarily reduce revenue — cuts always do."
+      - id: b
+        text: "Country X likely sits above most empirical estimates of the revenue-maximizing rate (roughly 60–75 percent), so a cut toward that band could plausibly raise revenue."
+      - id: c
+        text: "The Laffer curve makes no prediction until a rate reaches exactly 100 percent."
+      - id: d
+        text: "Because the 2012 IGM panel unanimously rejected revenue-raising cuts for the U.S., the same must hold at 85 percent."
+    correct_choice_id: b
+    explanation: "The Laffer curve is a constraint with a peak; the empirical fight is the peak's location, which the static benchmark places near 70–73 percent all-in. The IGM panel's unanimity was a verdict about U.S. rates in the mid-40s — on the rising side of every mainstream estimate — not a law that cuts never raise revenue. At 85 percent, the same framework that condemns 'cuts pay for themselves' rhetoric in the U.S. predicts the opposite slope. The discipline is always: locate yourself on the curve before predicting which way revenue moves."
+    concepts: [taxes, tax-elasticity]
+
+  - id: q3
+    kind: multiple-choice
+    text: "The lesson summarizes the Chodorow-Reich–Smith–Zidar–Zwick (2024) study of the TCJA corporate cut as 'the strong supply-side claim failed; the directional claim survived.' Which pair of findings matches that summary?"
+    choices:
+      - id: a
+        text: "Investment did not respond at all, and revenue collapsed — both claims failed."
+      - id: b
+        text: "Domestic investment rose about 20 percent relative to baseline, while growth feedback recovered only about 2 percentage points of a revenue cost equal to 41 percent of pre-TCJA corporate receipts."
+      - id: c
+        text: "Investment rose so much that the cut fully paid for itself within five years."
+      - id: d
+        text: "Investment rose 7 percent and corporate receipts ended up higher than before the cut."
+    correct_choice_id: b
+    explanation: "The study found real behavior: firms facing the average tax change raised domestic investment about 20 percent, with long-run domestic capital up about 7 percent. It also found the growth feedback recovered roughly 2 of 41 points of revenue cost — burying 'it paid for itself' while vindicating 'investment responds to the cost of capital.' Choice (d) is the near-miss: 7 percent is the long-run capital-stock estimate, not the investment response, and revenue did not recover. A steel-manned supply-sider cites this study's both halves; so does a steel-manned progressive."
+    concepts: [taxes, supply-side-economics]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In 2031 Congress debates a 12 percent VAT, advertised as the fix for the fiscal gap. A public-choice economist in the tradition of James Buchanan objects — even while conceding the VAT is efficient and can be made distributionally fair. What is the objection?"
+    choices:
+      - id: a
+        text: "VATs are inherently regressive, and no rebate design can fix that."
+      - id: b
+        text: "VATs cannot be administered at scale or adjusted at borders."
+      - id: c
+        text: "A tax collected invisibly inside every price weakens the citizen-felt cost of government — fiscal illusion — making it easier for the state to grow."
+      - id: d
+        text: "A VAT would violate the 16th Amendment's realization requirement."
+    correct_choice_id: c
+    explanation: "Buchanan (1967), building on Puviani, argued governments systematically prefer taxes citizens cannot see, and a VAT folded into every price is the illusion machine par excellence — possibly why high-VAT countries grew larger states. Choices (a) and (b) are the economic objections the lesson shows are answerable by design (prebates, X-tax brackets, every OECD peer's administration). Choice (d) borrows the wealth-tax fight's constitutional cloud; a consumption levy raises no 16th Amendment realization question. The public-choice objection is political, not economic — which is exactly why consumption-tax advocates answer it with visibility rules and statutory caps rather than equations."
+    concepts: [taxes, vat]
+
+  - id: q5
+    kind: free-response
+    text: "Choose the camp you find least persuasive. State its core empirical bet in one sentence, name the strongest piece of evidence in its favor from this lesson, and state what its own advocates say would change their minds."
+    socratic_seed: "Check that the learner states a bet, not a caricature. Progressive expansion: the bet is that top-end elasticities are mostly fixable avoidance — strongest evidence includes the Diamond–Saez headroom between mid-40s actual and ~73 percent benchmark rates, the $696 billion tax gap, and the audit-rate collapse; falsifier: responses shown to be structural, not loophole artifacts. Supply-side reform: the bet is that distortions are large, structural, and compounding — strongest evidence includes SSG elasticities rising at the top, the CSZZ 20 percent investment response, and the 1986 reform's trade; falsifier: top elasticities shown to be mostly closable avoidance, or no detectable long-run growth effect within the U.S. rate range. Consumption restructuring: the bet is that saving responds to its after-tax return and regressivity is fixable by design — strongest evidence includes OECD revenue patterns and the X-tax architecture; falsifier: real-world VATs regressive and politically unfixable, or a saving response too small to justify transition. Then press: did the learner pick evidence the camp's own advocates cite, or a strawman? Close by asking what evidence would change the learner's own ranking of the camps."
+    concepts: [taxes, tax-elasticity, vat]

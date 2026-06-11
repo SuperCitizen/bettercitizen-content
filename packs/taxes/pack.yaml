@@ -4,13 +4,13 @@ title: Federal Taxes
 summary: How the U.S. federal tax system actually works (income, payroll, corporate, capital gains, estate), the strongest cases for progressive expansion, supply-side reform, and consumption-tax restructuring, and the live debates over the TCJA expiration, child tax credit, and wealth taxation. The empirical record on tax-rate elasticities is more contested than political rhetoric admits.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.0.0
+version: 1.1.0
 tags: [issues, taxes, civics-201, public-policy, fiscal]
 level: intermediate
 official: true
 contested: true
 languages: [en]
 lessons:
-  - 01-how-it-works.md
-  - 02-the-strongest-cases.md
-  - 03-the-policy-landscape.md
+  - 01-how-it-works.mdx
+  - 02-the-strongest-cases.mdx
+  - 03-the-policy-landscape.mdx

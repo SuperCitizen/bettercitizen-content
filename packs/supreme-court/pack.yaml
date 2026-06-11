@@ -1,0 +1,16 @@
+schema: bettercitizen.content/v1
+slug: supreme-court
+title: The Supreme Court
+summary: How the least understood branch actually operates — the certiorari funnel that turns thousands of petitions into a few dozen argued cases, the private conference where nine people decide, and the fast-growing emergency docket that now resolves major disputes without briefing or signed opinions. Then the deeper questions, the way their smartest advocates put them. Marbury v. Madison gave the Court the power to void what elected majorities enact, and scholars from Hamilton to Bickel to Scalia, Breyer, and Thayer have fought over whether and how unelected judges should wield it. And today the structure itself is contested — term limits, expansion, jurisdiction stripping, and a binding ethics code are live proposals, examined unanimously by a presidential commission in 2021 and endorsed in part by a sitting president in 2024.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [judiciary, constitution, civics-201]
+level: intermediate
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-how-the-court-works.mdx
+  - 02-judicial-review-and-its-critics.mdx
+  - 03-the-reform-debate.mdx

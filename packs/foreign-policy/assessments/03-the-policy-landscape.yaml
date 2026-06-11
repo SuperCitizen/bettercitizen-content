@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What did the Supreme Court hold in Learning Resources, Inc. v. Trump (February 2026), and what was the immediate consequence for U.S. tariffs?"
+    choices:
+      - id: a
+        text: "All tariffs imposed without a fresh congressional vote are unconstitutional, so every existing tariff fell."
+      - id: b
+        text: "IEEPA's power to 'regulate importation' does not include the power to impose tariffs — so the IEEPA-based tariffs fell, while duties resting on express delegations like Sections 301 and 232 survived."
+      - id: c
+        text: "The President holds inherent Article II authority over foreign commerce, so the tariffs were upheld."
+      - id: d
+        text: "The Court dismissed the case, holding that importers lack standing to challenge tariffs."
+    correct_choice_id: b
+    explanation: "The holding was statutory, not constitutional: the Court read IEEPA — an emergency sanctions statute — not to delegate the taxing power, which Article I assigns to Congress. That is why (a) overreads it: Congress can and does delegate tariff authority expressly, as in Section 301 of the Trade Act of 1974 and Section 232 of the Trade Expansion Act of 1962, and those tariffs stood. The practical stake of the distinction was enormous — paid IEEPA duties became refundable overpayments estimated as high as $175 billion."
+    concepts: [foreign-policy, trade-policy, tariff]
+
+  - id: q2
+    kind: multiple-choice
+    text: "On June 3, 2026, the House voted 215–208 to direct an end to U.S. hostilities with Iran. Why didn't that vote, by itself, stop the operation?"
+    choices:
+      - id: a
+        text: "A single chamber's vote does not make law — the measure still needed the Senate and faced a veto — and presidents dispute that the War Powers Resolution binds them at all."
+      - id: b
+        text: "The Supreme Court has ruled the War Powers Resolution unconstitutional, so such votes are symbolic."
+      - id: c
+        text: "The 60-day clock had already expired, which automatically authorized the operation."
+      - id: d
+        text: "War-powers resolutions apply only to formally declared wars, and this war was undeclared."
+    correct_choice_id: a
+    explanation: "The constraint on presidential war-making is political arithmetic, not self-executing statutory machinery: binding the executive requires both chambers plus a veto-proof margin, which no war-powers measure has ever assembled. (b) is false — the Court has never ruled on the Resolution; it is the executive branch that disputes its bindingness while filing reports 'consistent with' it. (c) inverts the clock: expiration is supposed to require termination, not confer authorization. (d) is backwards — the Resolution exists precisely because modern wars are undeclared."
+    concepts: [foreign-policy, aumf]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which best describes the U.S. defense relationship with Taiwan as of mid-2026?"
+    choices:
+      - id: a
+        text: "A Senate-ratified mutual-defense treaty obligates the United States to defend Taiwan."
+      - id: b
+        text: "Arms sales under the Taiwan Relations Act, plus deliberate official silence about whether the U.S. would fight — 'strategic ambiguity.'"
+      - id: c
+        text: "A written U.S. security guarantee given in exchange for Taiwan forgoing nuclear weapons."
+      - id: d
+        text: "None — since recognizing Beijing, the United States sells Taiwan no weapons and makes no commitments."
+    correct_choice_id: b
+    explanation: "The old U.S.–Republic of China mutual-defense treaty ended after Washington recognized Beijing in 1979; Congress answered with the Taiwan Relations Act, which requires making defensive arms available without promising defense. The ambiguity is the policy: deter Beijing without emboldening Taipei. (a) describes the pre-1979 world, (c) borrows Ukraine's 1994 Budapest Memorandum story, and (d) misses the TRA — the near-miss pattern here is confusing arms-sales relationships with treaty commitments, the same MNNA-versus-ally distinction from Lesson 1."
+    concepts: [foreign-policy, china-policy]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Suppose the June 2026 deadline diplomacy produces a Ukraine settlement freezing the current lines. Which school could most plausibly claim vindication on its own stated terms — and what is the strongest objection from a rival school?"
+    choices:
+      - id: a
+        text: "The restrainer — it prescribed a negotiated settlement because cost and escalation risk outran the interest; the internationalist objects that ratifying conquest re-prices every border the order protects."
+      - id: b
+        text: "The liberal internationalist — any negotiated peace vindicates the rules-based order."
+      - id: c
+        text: "The conservative realist — realists opposed aiding Ukraine from the beginning, and a settlement proves the aid was wasted."
+      - id: d
+        text: "No school can claim anything, because none of the three took a position on Ukraine."
+    correct_choice_id: a
+    explanation: "Pushing for a negotiated settlement is the restrainer's stated Ukraine position, so a settlement is its prescription fulfilled — though restrainers would still check whether the U.S. actually retrenches afterward. The internationalist's stake was the norm against conquest, not peace at any terms, so (b) fails on the school's own logic. (c) misstates the realist record: realists generally supported aid as cheap attrition of a rival and mainly wanted Europe to carry it next — a realist reads a settlement as the moment to pivot resources to Asia."
+    concepts: [foreign-policy, russia-policy]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one of the four fronts — China, Russia/Ukraine, the Middle East, or trade. Name the single most important policy instrument in play there, identify which branch actually controls it, and describe one event in the next two years that would force the United States to re-decide its position."
+    socratic_seed: "Press for lever-level specificity: an appropriation, a statutory delegation, an Article II claim, a treaty obligation — not vibes. If they pick trade: after Learning Resources, who could re-create broad tariff power, and would Congress delegate away a power the Court just handed back? If China: is strategic ambiguity a decision or the deferral of one — and given the war-powers record from Lesson 1, which branch would actually decide in a Strait crisis? If Ukraine: what does control of the appropriations lever imply about who owns the settlement's aftermath? If the Middle East: run the War Powers Resolution's 60-day clock against the February-to-April 2026 timeline and ask what enforcement would even look like. Close with the lesson's pattern: instruments requiring Congress move slowly and bind durably; executive-held instruments move fast and reverse fast — does the learner's chosen front confirm or complicate that?"
+    concepts: [foreign-policy, china-policy, russia-policy, trade-policy, aumf]

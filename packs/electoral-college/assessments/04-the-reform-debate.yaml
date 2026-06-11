@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-reform-debate
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Under Virginia v. Tennessee's functional reading of the Compact Clause, what must NPVIC critics establish to show that the compact requires congressional consent?"
+    choices:
+      - id: a
+        text: "That the coordinated arrangement enhances state political power in a way that encroaches on federal supremacy or restructures the federal system."
+      - id: b
+        text: "That more than two states are parties to the agreement."
+      - id: c
+        text: "That presidential elections are an exclusively federal function states may not regulate."
+      - id: d
+        text: "That the compact's member states acted with partisan motives."
+    correct_choice_id: a
+    explanation: "Virginia v. Tennessee (1893) requires consent only for combinations 'tending to the increase of political power in the States, which may encroach upon or interfere with the just supremacy of the United States.' Supporters answer that each state merely exercises appointment power it already holds under McPherson v. Blacker — any state could award electors to the national winner unilaterally. Critics like Norman Williams argue that restructuring how the presidency is won, by simple majorities in states holding 270 electoral votes, is precisely such an encroachment on constitutional structure. (b) is not the test; (c) is refuted by McPherson itself; motives (d) are legally irrelevant."
+    concepts: [electoral-college, npvic, federalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Why can nationwide district allocation make popular-vote inversions more likely rather than less?"
+    choices:
+      - id: a
+        text: "Presidential outcomes would inherit congressional maps, so map bias converts into electoral votes — as in the 2012 counterfactual where Romney wins while losing the popular vote by about five million."
+      - id: b
+        text: "Small states cannot split their electors meaningfully, so most states round to a tie."
+      - id: c
+        text: "It violates the 12th Amendment's requirement of statewide slates."
+      - id: d
+        text: "District allocation requires congressional consent that has never been granted."
+    correct_choice_id: a
+    explanation: "The district method makes gerrymandering load-bearing for the presidency: whoever draws the congressional map shapes the electoral vote. Re-run 2012 under nationwide district rules and Romney wins despite losing by nearly four points, because Republicans held a majority of districts. (b) is the near-miss — that rounding pathology belongs to proportional allocation, not the district method. (c) and (d) are false: Maine and Nebraska have used districts since 1972 and 1992 by ordinary state statute."
+    concepts: [electoral-college, district-allocation, gerrymandering]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A state with 4 electoral votes adopts whole-elector proportional allocation, and its voters split 58–42. How do its electors divide?"
+    choices:
+      - id: a
+        text: "2–2 — a sixteen-point landslide produces a tie."
+      - id: b
+        text: "3–1, reflecting the winner's clear majority."
+      - id: c
+        text: "4–0, because 58 percent rounds to all."
+      - id: d
+        text: "It depends on which candidate carried more congressional districts."
+    correct_choice_id: a
+    explanation: "58% of 4 electors is 2.32 and 42% is 1.68 — both round to 2. With whole electors, small states can barely register even lopsided outcomes, which is why serious proportional plans like Lodge–Gossett (passed the Senate 64–27 in 1950) used fractional electoral votes — at the price of abolishing the human elector. (d) confuses proportional allocation with the district method. This rounding problem, plus the self-defeat of adopting alone (Colorado's 65–35 rejection of Amendment 36 in 2004), is why proportionality only works as a coordinated national rule."
+    concepts: [electoral-college]
+
+  - id: q4
+    kind: multiple-choice
+    text: "The House passed a direct-election amendment 339–70 in September 1969, with President Nixon's endorsement and 80% public support in Gallup polling. What stopped it?"
+    choices:
+      - id: a
+        text: "A Senate filibuster — cloture failed twice in 1970 — so it never received an up-or-down floor vote."
+      - id: b
+        text: "State legislatures refused to ratify it."
+      - id: c
+        text: "President Nixon ultimately vetoed the joint resolution."
+      - id: d
+        text: "The Supreme Court ruled the proposal violated Article II."
+    correct_choice_id: a
+    explanation: "Cloture votes of 54–36 and 53–34 fell short, and the amendment died in the Senate — it never reached the states (b). (c) is doubly wrong: Nixon endorsed it, and presidents have no veto over constitutional amendments. The episode anchors Keyssar's larger finding: every serious reform push has been stopped by some bloc holding an Article V veto point — the same dynamic that beat Bayh's 1979 amendment, 51–48, fifteen votes short of two-thirds."
+    concepts: [electoral-college, constitutional-amendment, filibuster]
+
+  - id: q5
+    kind: free-response
+    text: "You advise the governor of a 10-electoral-vote battleground state who personally favors electing presidents by national popular vote. Joining the NPVIC would, if it activates, extinguish the state's battleground leverage — the attention, promises, and visits that come with being one of the seven states that received 94% of 2024 campaign events. Lay out the strongest case for signing and the strongest case for refusing, then say which consideration should win and why."
+    socratic_seed: "Make the learner hold both ledgers honestly. For signing: equal votes as a matter of principle; battleground status is contingent (demographics shift) while compact membership shapes the long-run rule; 63% national support. For refusing: the state would surrender concrete leverage for residents while non-members keep theirs; the compact may not survive its Compact Clause test, so the sacrifice could buy litigation chaos rather than reform; a successor legislature could repeal anyway. Then press the structural insight: the remaining 48 electoral votes must come from exactly such states — if every battleground governor reasons self-interestedly, the compact stalls precisely where the lesson says it has. Is that an argument about the compact's design, or about why Article V reform fails too?"
+    concepts: [electoral-college, npvic, swing-state]
