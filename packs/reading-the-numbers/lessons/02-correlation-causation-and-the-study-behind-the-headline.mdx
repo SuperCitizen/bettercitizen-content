@@ -1,0 +1,169 @@
+---
+schema: bettercitizen.lesson/v1
+slug: correlation-causation-and-the-study-behind-the-headline
+kind: reading
+title: Correlation, causation, and the study behind the headline
+objectives:
+  - Rank the standard research designs — anecdote, cross-section, panel, natural experiment, RCT — by the confidence they license about cause
+  - Identify confounding and reverse causation in civic claims, and explain why "controlling for" has limits
+  - Recognize regression to the mean and explain why programs aimed at extremes look like they work
+  - Summarize the replication crisis with verified figures (Ioannidis 2005; the 2015 Reproducibility Project) and state what a p-value does and does not mean
+  - Trace how a crime statistic is manufactured — victimization, reporting, recording, forwarding — and explain the NCVS–UCR divergence
+concepts:
+  - correlation-vs-causation
+  - natural-experiment
+  - regression-to-the-mean
+  - replication-crisis
+sources:
+  - type: paper
+    citation: 'Ioannidis, J. P. A. (2005), "Why Most Published Research Findings Are False," PLoS Medicine 2(8): e124 — the prior-probability argument that made the replication crisis legible.'
+    url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124
+  - type: paper
+    citation: 'Open Science Collaboration (2015), "Estimating the reproducibility of psychological science," Science 349(6251) — 100 replications; 97% of originals significant, 36% of replications; effect sizes roughly halved.'
+    url: https://www.science.org/doi/10.1126/science.aac4716
+  - type: paper
+    citation: 'Wasserstein, R. L., & Lazar, N. A. (2016), "The ASA''s Statement on p-Values: Context, Process, and Purpose," The American Statistician 70(2), 129–133.'
+  - type: paper
+    citation: 'Angrist, J. D., & Pischke, J.-S. (2010), "The Credibility Revolution in Empirical Economics: How Better Research Design Is Taking the Con out of Econometrics," Journal of Economic Perspectives 24(2), 3–30.'
+    url: https://www.aeaweb.org/articles?id=10.1257/jep.24.2.3
+  - type: paper
+    citation: 'Gerber, A. S., Green, D. P., & Larimer, C. W. (2008), "Social Pressure and Voter Turnout: Evidence from a Large-Scale Field Experiment," American Political Science Review 102(1), 33–48 — the 180,000-household Michigan mailer experiment.'
+    url: https://isps.yale.edu/research/publications/isps08-001
+  - type: paper
+    citation: 'Levitt, S. D. (2004), "Understanding Why Crime Fell in the 1990s: Four Factors that Explain the Decline and Six that Do Not," Journal of Economic Perspectives 18(1), 163–190.'
+  - type: website
+    citation: 'Bureau of Justice Statistics (2023), "Criminal Victimization, 2022" — NCVS violent victimization rose from 16.5 to 23.5 per 1,000 in a year when FBI-reported violent crime declined about 2 percent.'
+    url: https://bjs.ojp.gov/library/publications/criminal-victimization-2022
+  - type: website
+    citation: 'The Marshall Project (June 14, 2022), "What Can FBI Data Say About Crime in 2021? It''s Too Unreliable to Tell" — roughly 7,000 of 18,000 agencies, including NYPD and LAPD, missing from the first NIBRS-only year.'
+    url: https://www.themarshallproject.org/2022/06/14/what-did-fbi-data-say-about-crime-in-2021-it-s-too-unreliable-to-tell
+  - type: website
+    citation: 'Council on Criminal Justice (2024), "When Crime Statistics Diverge" — reconciling the NCVS and UCR pictures of 2022.'
+    url: https://counciloncj.org/when-crime-statistics-diverge/
+  - type: book
+    citation: 'Kahneman, D. (2011), Thinking, Fast and Slow, Farrar, Straus and Giroux — the flight-instructor episode and regression to the mean.'
+  - type: book
+    citation: 'Angrist, J. D., & Pischke, J.-S. (2009), Mostly Harmless Econometrics, Princeton University Press.'
+perspectives:
+  - name: Credibility-revolution advocate
+  - name: Structural-model defender
+  - name: Evidence-consumer pragmatist
+duration_min: 18
+---
+
+# Correlation, causation, and the study behind the headline
+
+Did violent crime in America rise or fall in 2022? The FBI's national statistics, assembled from police agencies, showed violent crime *falling* about 2 percent. The Bureau of Justice Statistics' victimization survey, which asks a quarter-million Americans directly whether they were attacked, robbed, or assaulted, showed violent victimization *rising* — from 16.5 to 23.5 incidents per 1,000 people, the sharpest jump in decades. Both are federal. Both are "official." Both spent 2023 and 2024 being brandished, by opposite sides of the same argument, as *the* crime rate. Neither is lying, and by the end of this lesson you will know how that is possible — because the resolution isn't a technicality, it is the entire discipline of reading civic numbers: **every statistic is manufactured by a procedure, and the procedure decides what the number can mean.** This lesson is the user's manual. It covers the ladder of evidence from anecdote to experiment, the three great illusions that counterfeit causation — confounding, regression to the mean, and selection — and the published study itself, which after 2005 can no longer be taken at its abstract's word.
+
+## The ladder of evidence
+
+When a claim arrives wearing numbers — *this policy cut crime, that law suppressed turnout* — the first question is not whether the numbers are accurate but what *design* produced them, because design determines how much the word "because" can carry. Researchers climb a recognizable ladder.
+
+At the bottom, the **anecdote**: a constituent at a town hall whose business closed after the minimum-wage increase. It is evidence that something is *possible*, never that it is *typical* — and it is the form of evidence human brains are built to overweight. Next, the **cross-section**: compare many places at one moment. States with stricter gun laws have lower (or higher — choose your study) gun deaths; counties with more immigrants have lower crime. Cross-sections generate hypotheses and headlines, but the places differ in a thousand ways besides the policy, and the comparison has no time order — you cannot even say which came first. The **panel** adds time: follow the *same* units across years, so each state serves as its own control and anything fixed about a place (culture, geography, wealth) cancels out. This is real progress — the voter-ID literature's strongest entry, Cantoni and Pons's panel of 1.6 billion voter-file observations (covered in the voter-ID pack), lives here — but a panel still can't rule out that *something else changed at the same time* as the policy.
+
+The fourth rung is where modern empirical social science earns its keep: the **natural experiment**, where history or administrative accident assigns the "treatment" in a way plausibly unrelated to the outcome. A draft lottery assigns military service by birthday; a port suddenly opens. The canonical civic example is the 1980 Mariel boatlift — 125,000 Cubans arriving in Miami in months, a labor-supply shock no one chose for economic reasons — which David Card used to test what immigration does to native wages, and which George Borjas reanalyzed 27 years later with the opposite conclusion. (The immigration pack's Lesson 2 dissects that fight; the meta-lesson here is that even a clean natural experiment leaves a human choice — *compared to whom?* — and the comparison group is where the disagreement lives.) At the top sits the **randomized controlled trial (RCT)**: assignment by literal coin flip, which balances *everything* about the groups, measured and unmeasured, known and unknowable. Politics has real ones. In August 2006, Alan Gerber, Donald Green, and Christopher Larimer randomly assigned about 180,000 Michigan households to receive different get-out-the-vote mailers. A civic-duty appeal raised [[term:voter-turnout]] by 1.8 percentage points over the control group. A mailer showing the household its *own* voting record: 4.9. A mailer showing the household its neighbors' records, with a promise to send an update after the election: **8.1 points** — about as effective as quality in-person canvassing, for the price of a stamp. No cross-section could ever have isolated that; randomization could, because the only systematic difference between the groups was the envelope.
+
+<OrderIt
+  prompt="Order these five studies of the same question — does a city youth-jobs program reduce arrests? — from weakest to strongest warrant for a causal claim."
+  items={[
+    'A council member relates the story of one participant who turned his life around',
+    'A comparison of arrest rates across 40 cities, some with programs and some without, in 2024',
+    'Arrest rates tracked within the same 40 cities for ten years, before and after some adopt programs',
+    'A comparison exploiting the fact that an oversubscribed program admitted applicants by lottery-like timing quirks',
+    'A randomized trial: 4,000 applicants, half admitted by actual lottery, arrest records compared after two years',
+  ]}
+  explanation="Anecdote → cross-section → panel → natural experiment → RCT. Each rung removes a family of rival explanations: the panel removes fixed differences between cities; the quasi-random and random assignments remove the killer — that cities (or kids) who choose programs differ from those who don't in exactly the ways that drive arrests."
+/>
+
+The scholar's lens belongs here, because this ladder *is* a scholarly revolution with a name. In 1983 the econometrician Edward Leamer published "Let's Take the Con Out of Econometrics," charging that empirical economics ran on fragile statistical modeling — change the assumptions, change the answer — and that "hardly anyone takes data analysis seriously." A generation later, Joshua Angrist and Jörn-Steffen Pischke answered with "The Credibility Revolution in Empirical Economics" (*Journal of Economic Perspectives*, 2010): the field's salvation had come not from fancier math but from *better research design* — natural experiments, randomization, transparent comparisons. The 2021 Nobel in economics, to Card for natural-experiment empirics and to Angrist and Guido Imbens for the methodology of causal inference, was the revolution's coronation. Its skeptics — structural econometricians like James Heckman — counter that clean designs answer only the narrow questions nature happens to randomize, a fight this lesson's closing returns to.
+
+## Confounding: the third thing in the room
+
+New York City's violent crime collapsed in the 1990s while the city deployed aggressive "broken windows" policing, and for twenty years that pairing was cited as proof the strategy worked. The inconvenient backdrop: crime collapsed nearly *everywhere* in 1990s America — in cities that adopted New York's tactics and cities that did exactly the opposite. Steven Levitt's much-cited audit ("Understanding Why Crime Fell in the 1990s," *Journal of Economic Perspectives*, 2004) sorted proposed causes into four with real evidence (more police, a larger prison population, the receding crack epidemic, and — his own fiercely contested entry — legalized abortion two decades earlier) and six that couldn't explain the timing or geography, *including* the policing innovations that had claimed the credit. The point is not that policing never matters; it is that a city, a decade, and a policy arrived bundled with an economy, a demographic wave, and a drug market, and the bundle — not the policy — is what the raw correlation measures.
+
+<Figure caption="Confounding, drawn. Cities don't adopt policies at random: the same underlying conditions that drive a city's policing decisions also drive its crime. The dashed arrow is the correlation an op-ed quotes; whether any of it is causal is exactly what a cross-section cannot say. Designs higher on the ladder exist to cut the two solid arrows.">
+  <svg viewBox="0 0 720 260" width="100%" role="img" aria-label="A directed graph with three boxes. A top box labeled underlying conditions has solid arrows down to two bottom boxes, more police hiring on the left and crime rate on the right. A dashed horizontal arrow runs between the two bottom boxes, labeled the correlation you observe." style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+    <rect x="250" y="20" width="220" height="52" rx="6" fill="var(--card, #ffffff)" stroke="var(--accent, #8a2a1e)" strokeWidth="2"/>
+    <text x="360" y="44" fontFamily="Georgia, serif" fontSize="13.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">Underlying conditions</text>
+    <text x="360" y="62" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">(economy, drugs, demographics)</text>
+    <line x1="322" y1="72" x2="192" y2="160" stroke="var(--accent, #8a2a1e)" strokeWidth="2"/>
+    <polygon points="188,162 198,158 194,151" fill="var(--accent, #8a2a1e)"/>
+    <line x1="398" y1="72" x2="528" y2="160" stroke="var(--accent, #8a2a1e)" strokeWidth="2"/>
+    <polygon points="532,162 522,158 526,151" fill="var(--accent, #8a2a1e)"/>
+    <text x="235" y="100" fontFamily="Georgia, serif" fontSize="12" fill="var(--accent, #8a2a1e)" textAnchor="end">drives the policy</text>
+    <text x="480" y="100" fontFamily="Georgia, serif" fontSize="12" fill="var(--accent, #8a2a1e)">drives the outcome</text>
+    <rect x="80" y="160" width="190" height="52" rx="6" fill="var(--blue, #2f4d6e)"/>
+    <text x="175" y="186" fontFamily="Georgia, serif" fontSize="13.5" fill="#ffffff" textAnchor="middle" fontWeight="bold">More police hiring</text>
+    <text x="175" y="202" fontFamily="Georgia, serif" fontSize="11.5" fill="#ffffff" textAnchor="middle">(the supposed cause)</text>
+    <rect x="450" y="160" width="190" height="52" rx="6" fill="var(--blue, #2f4d6e)"/>
+    <text x="545" y="186" fontFamily="Georgia, serif" fontSize="13.5" fill="#ffffff" textAnchor="middle" fontWeight="bold">Crime rate</text>
+    <text x="545" y="202" fontFamily="Georgia, serif" fontSize="11.5" fill="#ffffff" textAnchor="middle">(the observed outcome)</text>
+    <text x="360" y="170" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle" fontStyle="italic">the correlation you observe</text>
+    <line x1="270" y1="186" x2="446" y2="186" stroke="var(--ink, #14130f)" strokeWidth="2" strokeDasharray="7,5"/>
+    <polygon points="450,186 441,181 441,191" fill="var(--ink, #14130f)"/>
+  </svg>
+</Figure>
+
+Researchers answer confounding with **controls** — "the relationship holds even controlling for income, education, and region" — and controls genuinely help. But hold two limits in mind whenever you hear the phrase. You can only control for what you measured, and measured *well*: a crude proxy (years of schooling for "class") leaves most of the confounder standing, which is why "controlling for X" so often means "gesturing at X." And some variables make matters worse when controlled — adjusting for something the cause itself produced can manufacture correlations out of nothing. That is why the credibility revolution's first commandment is to fix the *assignment* problem by design rather than patch it afterward with arithmetic.
+
+<QuickCheck
+  question="Across U.S. cities, police officers per capita correlates positively with violent crime. The strongest reading?"
+  choices={[
+    {id: 'a', text: 'Police presence causes crime — likely through over-enforcement'},
+    {id: 'b', text: 'The correlation is meaningless noise and says nothing at all'},
+    {id: 'c', text: 'High-crime cities hire more police: causation likely runs backward, and shared conditions drive both'},
+    {id: 'd', text: 'It proves police levels have no effect on crime either way'},
+  ]}
+  answer="c"
+  explanation="Reverse causation plus confounding: crime drives hiring (city councils respond to bad years), and the conditions that produce crime also produce police budgets. Note that (b) and (d) overcorrect — the correlation is informative once modeled, and well-identified studies (including ones Levitt catalogued) find more police reduce crime. The naive sign of a cross-section can be the exact opposite of the causal effect."
+/>
+
+## Regression to the mean: the illusion that never misses
+
+Daniel Kahneman's favorite discovery, by his own telling in *Thinking, Fast and Slow*, arrived while teaching flight instructors. The instructors had learned from experience that praising a cadet's exceptional landing led to a worse one next time, while screaming after a terrible landing led to improvement — so criticism works and praise corrupts. The statistics say otherwise: an *exceptional* performance is partly luck, and luck doesn't repeat, so extremes are followed by more ordinary outcomes regardless of what anyone yells. The instructors had spent careers being rewarded by arithmetic for cruelty.
+
+This is **regression to the mean**, and once you can name it you will see it running half of civic life, because *policy targets extremes*. The crackdown is announced after the worst crime spike; the turnaround program goes to the lowest-scoring schools; the safety review hits the intersection with this year's most crashes. Next year, the spike subsides, the scores tick up, the crashes fall — as they mostly would have anyway, because selection on an extreme guarantees reversion. Every program aimed at an extreme is born with a fake testimonial. The illusion has fooled professionals at scale: in 1933 a Northwestern statistician, Horace Secrist, published *The Triumph of Mediocrity in Business* — 468 pages showing that America's most exceptional firms drifted toward averageness, which he read as a deep economic force. Harold Hotelling's review punctured it in a sentence that statisticians still quote: the data proved nothing not already guaranteed by arithmetic, like "proving the multiplication table by arranging elephants in rows and columns." The antidote is always the same — a comparison group selected the *same extreme way* and left untreated. That is what the ladder's upper rungs automate.
+
+<Checkpoint question="Your city installs gunshot-detection cameras on its 10 worst blocks, chosen for last year's record shooting counts. A year later, shootings on those blocks are down 25 percent and the mayor declares victory. Before crediting the cameras, what's the rival explanation — and what comparison would test it?">
+  Regression to the mean: blocks selected *because* they just had their worst year would fall back toward their norm with no intervention at all — last year's extreme was partly bad luck, and bad luck doesn't repeat. (Citywide trend and displacement to neighboring blocks are additional rivals, but reversion is the one *guaranteed* by the selection method.) The test: compare against the 11th-through-20th worst blocks, selected the same way and left untreated — or better, randomize camera placement among the worst 20. If treated and untreated extremes fall alike, the cameras did nothing the arithmetic wasn't already doing.
+</Checkpoint>
+
+## The fragile p and the replication reckoning
+
+Quantitative studies stamp their findings with a p-value, so you need to know exactly what one says. **A p-value is the probability of seeing data at least this extreme *if* there were truly no effect.** It is *not* the probability the finding is true, not the probability the result was chance, and not a measure of importance — confusions common enough that in 2016 the American Statistical Association took the unusual step of issuing a formal consensus statement (Wasserstein and Lazar, *The American Statistician*) warning against precisely those readings. By convention, p below 0.05 earns the label "statistically significant," and that bright line built a perverse machine: journals preferred significant results, careers required journals, and a researcher with flexible choices — which observations to exclude, which outcome to feature, which of twenty specifications to report — could usually fish something under the line without ever consciously cheating. Andrew Gelman calls the innocent version the "garden of forking paths": enough defensible analytic choices, and *some* path reaches significance by chance alone.
+
+John Ioannidis saw where that machine led and said so in the most downloaded paper in *PLoS Medicine*'s history, with the unimprovable title "Why Most Published Research Findings Are False" (2005). His argument was structural arithmetic, not an accusation: combine low prior odds of tested hypotheses, small samples, flexible analysis, and publication's preference for positive results, and the *expected* share of false published positives passes half. A decade later the field checked. The Open Science Collaboration (2015, *Science*) re-ran 100 published psychology studies from three top journals with the original materials and high statistical power: 97 percent of the originals had reported statistically significant results; **36 percent of the replications did**, and the replicated effect sizes averaged about *half* the originals. Political science contributed its own cautionary spectacle the same year: a celebrated *Science* study finding that brief conversations with gay canvassers durably shifted attitudes on same-sex marriage was retracted when graduate students David Broockman and Joshua Kalla uncovered fabricated data — and then Broockman and Kalla ran the experiment for real in 2016 and found that honest deep canvassing *does* durably reduce prejudice. The system failed and self-corrected in the same news cycle.
+
+For a citizen the operational rules are short. Treat any single study, however credentialed, as one draw from a noisy machine. Weight findings that **replicate across teams**, that were **pre-registered** (the analysis plan filed before the data arrived, fencing off the forking paths), and that report **effect sizes with uncertainty** rather than asterisks. And distrust the seductive inversion — "significant" meaning *important*. With two million observations, a 0.1-point effect is statistically significant; significance measures detectability, not size.
+
+<QuickCheck
+  question="A study reports that a civics curriculum improved test scores, p = 0.04. Which statement is actually licensed?"
+  choices={[
+    {id: 'a', text: 'There is a 96 percent probability the curriculum works'},
+    {id: 'b', text: 'If the curriculum truly did nothing, data this extreme would arise about 4 percent of the time'},
+    {id: 'c', text: 'There is only a 4 percent chance the result was due to chance'},
+    {id: 'd', text: 'The effect is large enough to matter for policy'},
+  ]}
+  answer="b"
+  explanation="The p-value conditions on the null being true — it cannot tell you the probability the hypothesis is true (a) or that chance produced this particular result (c); those require prior odds, which is Ioannidis's whole point. And (d) confuses significance with size: p = 0.04 is compatible with an effect too small to justify any spending. (b) is the entire, modest content of the number."
+/>
+
+## Reading the study behind the headline
+
+Now assemble the toolkit into the sixty seconds you'll actually spend with a study — usually via its abstract or a journalist's gloss of it. (The media-literacy pack's verification toolkit tells you whether the study exists, who funded it, and whether the outlet characterized it honestly — including when it arrives laundered through an advocacy [[term:think-tank]]; this lesson is about what the numbers themselves can license. The two skills compound.) Three checks, in order:
+
+**The verb.** Methods sections are honest where headlines aren't, and the tell is the verb. "Associated with" and "linked to" mean correlation — a cross-section, usually. "Predicts" adds only time order. "Causes," "increases," "reduces" are earned by the ladder's top rungs and forfeited below them; a careful paper says "associated with" and a careless headline upgrades it to "causes" by lunchtime. That single-verb upgrade is the quiet engine of statistical [[term:misinformation]] — no number need be altered.
+
+**The size.** Find the effect's magnitude and its base rate, because relative risk without absolute risk is a rhetorical device: "doubles the risk" of something afflicting 1 in 10,000 means 2 in 10,000, and a "40 percent increase in complaints" can be three complaints. Ask: how big, compared to what, for whom?
+
+**The denominator's ghosts** — who *isn't* in the data? This is **selection bias**, and its most famous portrait is Abraham Wald's: asked in World War II where to armor bombers, given charts of bullet holes on returning planes, Wald reasoned that the holes mapped where a plane could be shot *and survive* — armor belongs where the returning planes were clean, because planes hit there never came home. Every civic dataset has its missing planes, and crime statistics are the canonical case. For an assault to appear in FBI figures, a chain must hold: someone perceives a crime, *reports* it (the victimization survey consistently finds well under half of violent crime is reported to police), the department records it as what it was, and the agency forwards it to the FBI. Every link selects. The last one snapped spectacularly in 2021, when the FBI retired its old reporting format: roughly 7,000 of 18,000 agencies — including the NYPD and LAPD — submitted nothing, leaving "national" crime figures partly imputed from a sample covering about two-thirds of the population.
+
+Which resolves this lesson's opening puzzle. The FBI's numbers count crimes that survived the full reporting chain; the BJS survey asks households directly and so includes the unreported majority, but brings its own filters (it can't count homicide, misses the institutionalized and the homeless, and leans on memory). In 2022 they diverged — police-recorded violence down about 2 percent, surveyed victimization up sharply — and the honest synthesis from criminologists (the Council on Criminal Justice's review is the careful version) is that the instruments measure *different events through different filters*, and the divergence itself was the finding: something was changing in what victims experienced versus what police came to know about. The citizen's all-purpose question, for any number whatsoever: ***what had to happen for this event to become a data point?***
+
+<Checkpoint question="A city launches an online portal for reporting sexual assault; the next year, reported sexual assaults rise 20 percent and a challenger runs ads on the 'crime wave.' Using the reporting-chain lens, what's the alternative reading — and what evidence would distinguish the two?">
+  The portal lowered the cost of *reporting*, so some assaults that were always occurring entered the data for the first time — a measurement change masquerading as a crime change. (Recall the chain: occurrence → report → record → forward. The portal modified link two.) To distinguish: check victimization-survey trends for the same period and place if available, compare categories the portal doesn't cover (burglary, robbery) for any parallel jump, and examine the *composition* of new reports — a surge in older incidents and previously unreported cases fingerprints the portal. Cities that improve reporting routinely "get worse" on paper; the worst lesson a council could learn is to fix the portal back.
+</Checkpoint>
+
+## What this lesson doesn't settle
+
+The ladder ranks *confidence about causation*; it does not rank *importance*, and the questions citizens most need answered are often the ones least available to clean designs — no one will randomize democracy, war, or a border. That gap sustains a genuine methodological politics. The **credibility-revolution advocate** says: where design is dirty, say "we don't know" out loud; a generation of confident regressions did real policy damage, and the Mariel and mail-voting literatures (see the immigration and voter-ID packs) show how much even apparently clean evidence turns on comparison-group choices — so humility is the scientific position. The **structural-model defender** — the Heckman line — replies that natural experiments answer the questions nature happened to randomize, on the populations the accident touched, and that extrapolating a Michigan mailer or a Miami boatlift to *your* policy requires exactly the theory-laden modeling the revolution disdains; design purity, pushed to a creed, becomes an excuse to study only small, answerable things. The **evidence-consumer pragmatist** — the position this lesson has been quietly training — holds that public decisions can't wait for ideal evidence, so the skill is calibrated synthesis: grade each study by its rung, expect regression to the mean wherever extremes were selected, treat unreplicated significance as rumor, and ask what had to happen for the data to exist. What none of these positions licenses is the nihilist's shrug — "you can prove anything with statistics" — which is just the [[term:bias]] of convenience wearing a lab coat, and the propagandist's favorite conclusion. Some numbers survive every check in this lesson. The next lesson asks the harder question about the numbers that claim to see the future: when does a *forecast* deserve your trust?

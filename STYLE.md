@@ -50,6 +50,29 @@ Target length: **1,400–2,400 words** for regular lessons; **900–1,800** for
 book chapters. Expand with substance (mechanisms, history, evidence, named
 scholarship), never padding.
 
+## Levels
+
+`pack.yaml` `level:` is one of four rungs. The level sets what the lesson may
+*assume*, not how smart it sounds — every rung keeps the same voice and the
+same sourcing bar.
+
+- **intro** — assumes nothing: no prior pack, no civics coursework. Every
+  term defined at first use. 1,400–2,000 words.
+- **intermediate** — assumes the intro civics packs (three branches,
+  constitution basics, how laws are made). May open with doctrine or data
+  rather than definitions. 1,400–2,400 words. Most packs live here.
+- **advanced** — assumes several intermediate packs and comfort reading
+  about cases and institutions. Engages the scholarly literature and primary
+  doctrine directly; sources lean toward opinions, statutes, and named
+  studies over explainers. 1,800–2,600 words.
+- **scholar** — seminar-grade capstone. Primary sources are quoted and
+  *argued with*, scholarly disagreement is part of the content (not a
+  footnote), and the reader is expected to hold competing frameworks at
+  once before the lesson adjudicates what it can. 2,200–3,000 words; the
+  closing "what this doesn't settle" section carries real weight.
+
+A pack takes one level; pick the rung of its *first* lesson's assumptions.
+
 ## Interactive components (MDX)
 
 Lessons are **MDX**: markdown plus a fixed catalog of interactive components

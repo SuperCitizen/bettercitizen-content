@@ -1,0 +1,196 @@
+schema: bettercitizen.assessment/v1
+lesson: the-accountability-debate
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      McCubbins and Schwartz's "police patrols versus fire alarms" (1984)
+      argued that the rarity of routine congressional oversight hearings
+      shows…
+    choices:
+      - id: a
+        text: >-
+          Congress has effectively abdicated its supervisory role over the
+          agencies it creates
+      - id: b
+        text: >-
+          A rational design choice: Congress relies on decentralized
+          alarms — interest groups, constituents, procedural rights — and
+          intervenes when they ring
+      - id: c
+        text: >-
+          Agencies have captured their oversight committees, silencing
+          scrutiny
+      - id: d
+        text: >-
+          Oversight migrated entirely to the appropriations process after
+          1974
+    correct_choice_id: b
+    explanation: >-
+      Their point was that observers were measuring the wrong thing:
+      patrol-style oversight is costly and usually finds nothing, so
+      Congress builds tripwires instead — comment rights, notification
+      requirements, standing for affected groups — and acts on the alarms.
+      Choice a is precisely the inference the article attacks (and the one
+      the lesson's reform camp wants to rehabilitate on other evidence).
+      Choices c and d are real phenomena in the literature — capture
+      theory, appropriations riders — but they are not the
+      McCubbins-Schwartz thesis. Knowing which scholar carries which claim
+      is half of arguing competently about accountability.
+    concepts: [bureaucracy, checks-and-balances]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      David Lewis's politicization research (2007–08) compared federal
+      programs run by political appointees with those run by career senior
+      executives, using Bush-era PART ratings. The defensible summary of
+      what it established:
+    choices:
+      - id: a
+        text: >-
+          Careerist-run programs scored systematically higher — evidence of
+          a competence cost to politicization — though the data measure
+          management quality, not democratic responsiveness
+      - id: b
+        text: >-
+          Political appointees outperformed careerists, vindicating
+          at-will staffing
+      - id: c
+        text: >-
+          It proved that any political control of agencies degrades
+          government and should be eliminated
+      - id: d
+        text: >-
+          No measurable difference emerged between appointee-run and
+          careerist-run programs
+    correct_choice_id: a
+    explanation: >-
+      The findings: programs under careerist bureau chiefs got
+      systematically higher PART scores, the gap tracked appointees'
+      shorter tenures and thinner bureau experience, and appointees drawn
+      from campaigns and party work scored lower still (Gallo & Lewis,
+      2012). But choice c overclaims in a way Lewis himself rejects — his
+      framing is that presidents politicize knowingly, paying a competence
+      price to buy responsiveness, a trade the data can price but not
+      adjudicate. The discrimination between a and c — what evidence
+      shows versus what it settles — is the question's real target, and
+      it is exactly the move the Schedule Policy/Career debate requires
+      of citizens in 2026.
+    concepts: [bureaucracy, patronage-system]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      Suppose Trump v. Slaughter overrules Humphrey's Executor outright,
+      making every commissioner of every agency removable at will. Which
+      camp's program is FULLY achieved by that outcome?
+    choices:
+      - id: a
+        text: >-
+          The constitutionalist critique in its entirety — the
+          administrative state would now be constitutional
+      - id: b
+        text: >-
+          No camp's: the unitary-executive strand wins its point, but the
+          nondelegation strand's objection — that Congress gave away too
+          much power in the first place — is untouched, and arguably
+          aggravated
+      - id: c
+        text: >-
+          The democratic-accountability reformers, since Congress regains
+          control of rulemaking
+      - id: d
+        text: >-
+          The expertise institutionalists, since agencies survive intact
+    correct_choice_id: b
+    explanation: >-
+      The two strands of the constitutionalist critique pull in different
+      directions: unitary-executive theory wants delegated power answerable
+      to the President; nondelegation theory wants less power delegated at
+      all. Ending insulation satisfies the first while concentrating
+      under presidential command exactly the vast delegated authority the
+      second condemns — more prerogative, in Hamburger's terms, not less.
+      Choice c confuses the camps: at-will removal shifts power to the
+      President, not Congress — the reformers' levers (REINS, CRA,
+      legislating specifics) are all congressional. And the
+      institutionalists lose the very feature (insulation) Landis said
+      made expertise usable. The question rewards seeing that "against the
+      administrative state" names a coalition, not a single theory.
+    concepts: [separation-of-powers, deep-state]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Under the REINS Act as proposed (not enacted as of mid-2026), an
+      agency finalizes a major rule — $400 million in annual effect — and
+      Congress, consumed by a budget fight, takes no vote on it within the
+      statutory window. What happens, and how does that differ from
+      current law?
+    choices:
+      - id: a
+        text: >-
+          The rule takes effect, as under current law — REINS only adds a
+          comment period for legislators
+      - id: b
+        text: >-
+          The rule does not take effect: REINS flips the default from
+          congressional silence-means-consent (the CRA's regime) to
+          silence-means-death for major rules
+      - id: c
+        text: >-
+          The rule takes effect but is automatically sunset after five
+          years
+      - id: d
+        text: >-
+          The rule is referred to OIRA for a binding cost-benefit
+          determination in Congress's place
+    correct_choice_id: b
+    explanation: >-
+      The default is the entire design. Under the CRA, a rule takes effect
+      unless Congress affirmatively disapproves (and the President signs);
+      under REINS, a major rule would take effect only if Congress
+      affirmatively approves within roughly 70 session days — inaction
+      kills. That is why supporters call it restored accountability
+      (Schoenbrod's blame-shifting thesis made structural) and critics
+      call it a regulatory freeze wearing procedure's clothes: a Congress
+      that enacts a few dozen laws a year cannot vote on every major
+      rule, and both sides know which way most defaults would run.
+      Choices c and d graft on mechanisms (sunsets, OIRA) that belong to
+      other reform proposals — near-misses for readers who skimmed the
+      mechanics.
+    concepts: [administrative-state, checks-and-balances]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      You are drafting the statute creating a new federal agency to
+      regulate frontier AI systems in 2027. Decide its structure: single
+      director or multimember commission; removal protections or at-will
+      service; career-expert staffing or layered political appointees;
+      CRA-style veto or REINS-style approval for its major rules. Defend
+      your design against the strongest objection from each camp you
+      overruled — and note which choices the Supreme Court may have
+      already made for you.
+    socratic_seed: >-
+      There is no right architecture; grade the trade-offs and the legal
+      realism. Insulation: after Seila Law, Collins, Wilcox, and
+      (depending on the outcome) Slaughter, for-cause protection — above
+      all for a single director — may simply be unavailable, so a student
+      choosing independence should hedge with structures courts have
+      tolerated (multimember, staggered terms, budget autonomy) and
+      acknowledge the Federal Reserve carve-out cuts against everyone
+      else. Expertise: the Lewis data argue for career depth in a domain
+      this technical; the responsiveness counter is that frontier-AI
+      judgment calls are precisely the "major questions" voters should
+      reach through elections — and the major questions doctrine itself
+      counsels writing SPECIFIC statutory authority, since vague grants
+      invite judicial nullification post-West Virginia and Loper Bright.
+      Accountability circuit: REINS-style approval guarantees
+      congressional ownership but may be lethal at AI timescales;
+      CRA-style review preserves speed but reduces Congress to
+      transition-season vetoes. Probe whether the student steel-mans the
+      rejected camps rather than caricaturing them, and whether their
+      design answers Schoenbrod's challenge: when this agency's flagship
+      rule hurts someone, who, by name, will the voter be able to blame?
+    concepts: [administrative-state, bureaucracy, separation-of-powers]

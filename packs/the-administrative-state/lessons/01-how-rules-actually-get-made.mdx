@@ -1,0 +1,194 @@
+---
+schema: bettercitizen.lesson/v1
+slug: how-rules-actually-get-made
+kind: reading
+title: How rules actually get made
+objectives:
+  - Trace a federal rule from organic statute through notice-and-comment to the Code of Federal Regulations
+  - Distinguish legislative rules, formal adjudication-style rulemaking, and guidance documents by the process each requires and the legal force each carries
+  - Describe OIRA review and the executive-order regime governing it as of mid-2026
+  - Explain the Congressional Review Act's mechanics and why its use concentrates at presidential transitions
+  - State the State Farm arbitrary-and-capricious standard and apply it to a rescission
+concepts:
+  - administrative-state
+  - bureaucracy
+  - executive-order
+  - separation-of-powers
+sources:
+  - type: statute
+    citation: '5 U.S.C. §553 — the Administrative Procedure Act''s informal rulemaking section: notice, comment, and the "concise general statement of basis and purpose."'
+    url: https://www.law.cornell.edu/uscode/text/5/553
+  - type: statute
+    citation: '5 U.S.C. §§801–808 — the Congressional Review Act (1996): submission of rules to Congress, expedited disapproval procedure, and the "substantially the same" bar.'
+    url: https://www.law.cornell.edu/uscode/text/5/801
+  - type: statute
+    citation: 'Exec. Order 12866, "Regulatory Planning and Review" (Sept. 30, 1993) — the charter of OIRA review and the $100 million "significant regulatory action" threshold.'
+    url: https://www.archives.gov/files/federal-register/executive-orders/pdf/12866.pdf
+  - type: website
+    citation: 'Exec. Order 14192, "Unleashing Prosperity Through Deregulation" (Jan. 31, 2025) — the ten-for-one offset requirement and regulatory cost budget; implemented by OMB Memorandum M-25-20.'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-14192-unleashing-prosperity-through-deregulation
+  - type: website
+    citation: 'Exec. Order 14215, "Ensuring Accountability for All Agencies" (Feb. 18, 2025) — extends OIRA review of significant regulatory actions to independent regulatory agencies.'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-14215-ensuring-accountability-for-all-agencies
+  - type: court-opinion
+    citation: 'Motor Vehicle Manufacturers Association v. State Farm Mutual Automobile Insurance Co., 463 U.S. 29 (1983) — arbitrary-and-capricious review requires a "rational connection between the facts found and the choice made," for rescissions as for rules.'
+    url: https://supreme.justia.com/cases/federal/us/463/29/
+  - type: court-opinion
+    citation: 'Vermont Yankee Nuclear Power Corp. v. NRDC, 435 U.S. 519 (1978) — courts may not impose rulemaking procedures beyond those the APA requires.'
+    url: https://supreme.justia.com/cases/federal/us/435/519/
+  - type: court-opinion
+    citation: 'United States v. Florida East Coast Railway Co., 410 U.S. 224 (1973) — formal rulemaking is triggered only when a statute requires rules "on the record after opportunity for an agency hearing."'
+    url: https://supreme.justia.com/cases/federal/us/410/224/
+  - type: website
+    citation: 'Federal Register document statistics (2025): 2,441 final rules and 1,498 proposed rules published in calendar 2025 — queried from the Federal Register API, June 2026.'
+    url: https://www.federalregister.gov/reader-aids/understanding-the-federal-register/federal-register-statistics
+  - type: website
+    citation: 'National Archives, Public Laws of the 119th Congress, First Session — 72 public laws, 2,008 Statutes at Large pages (2025).'
+    url: https://www.archives.gov/federal-register/laws/119-first-session
+  - type: website
+    citation: 'Crews, C. W., "Ten Thousand Commandments" (Competitive Enterprise Institute, 2026 ed.), ch. 3 — 2025 Federal Register closed at 60,917 pages, the lowest since 1992; the 2024 edition records the all-time high of 106,109 pages.'
+    url: https://cei.org/publication/chapter-3-10kc-2026/
+  - type: crs-report
+    citation: 'Congressional Research Service, R43992, "The Congressional Review Act (CRA): Frequently Asked Questions."'
+    url: https://www.congress.gov/crs-product/R43992
+  - type: website
+    citation: 'GAO, B-337179 (2025) — EPA notices of decision on Clean Air Act preemption waivers are not "rules" under the CRA; Congress disapproved them anyway in May–June 2025.'
+    url: https://www.gao.gov/products/b-337179
+  - type: website
+    citation: 'Ballotpedia News (Dec. 18, 2025), "President Trump signed a record number of Congressional Review Act resolutions in 2025" — 22 resolutions, more than all prior years combined.'
+    url: https://news.ballotpedia.org/2025/12/18/president-trump-signed-a-record-number-of-congressional-review-act-resolutions-in-2025/
+  - type: website
+    citation: 'Administrative Conference of the United States, Sourcebook of United States Executive Agencies (2d ed.) — "there is no authoritative list of government agencies."'
+    url: https://www.acus.gov/projects/sourcebook-united-states-executive-agencies-second-edition
+perspectives:
+  - name: Expertise institutionalist
+  - name: Constitutionalist critic
+  - name: Democratic-accountability reformer
+duration_min: 16
+---
+
+# How rules actually get made
+
+In calendar 2025, the Congress of the United States — two chambers, 535 members, the whole apparatus of committees, hearings, and floor votes — enacted 72 public laws, filling 2,008 pages of the Statutes at Large. The same year, federal agencies published 2,441 final rules in the Federal Register, whose annual volume ran to 60,917 pages. And here is the detail that should recalibrate your sense of scale: 2025 was the *quietest* year of federal rulemaking since record-keeping began — the lightest Federal Register since 1992, produced by an administration openly hostile to regulation. The year before, the Register hit 106,109 pages, the highest count ever. A federal rule, once final, binds you exactly as a statute does: it carries the force of law, courts enforce it, and violating it can cost you money or liberty. So if you ask who writes the law Americans actually live under — the emission limits on your car, the disclosures in your mortgage, the safety standard on the ladder in your garage — the honest arithmetic says: mostly not Congress. This lesson is about the machinery that produces those 2,441 rules. The fight over whether that machinery is constitutional comes in Lesson 2; whether it is *legitimate* comes in Lesson 3. Machinery first, because every position in the fight claims to be describing it.
+
+## Two assembly lines, one body of law
+
+The [[term:administrative-state]] runs on a delegation. Congress passes what administrative lawyers call an **organic statute** — the law that creates an agency and hands it power. The Clean Air Act tells the EPA to set air-quality standards "requisite to protect the public health." The Federal Trade Commission Act of 1914 tells the FTC to prevent "unfair methods of competition." The statute states the goal and the boundaries; the agency writes the binding specifics — which pollutant, how many parts per billion, measured how. The result is two parallel assembly lines. Congress's products are compiled chronologically in the Statutes at Large and codified by subject into the United States Code. Agencies' products appear daily in the Federal Register and are codified into the Code of Federal Regulations. Both shelves are law.
+
+<Figure caption="The two assembly lines of federal law. Congress enacts statutes, which are codified into the U.S. Code; statutes delegate rulemaking power to agencies, whose rules run through the Federal Register into the Code of Federal Regulations. Both end products legally bind — but one line out-produced the other 34-to-1 in 2025." source="Federal Register API; National Archives, Public Laws of the 119th Congress, 1st session; CEI Ten Thousand Commandments (2026)">
+  <svg viewBox="0 0 720 270" width="100%" role="img" aria-label="Diagram of two parallel tracks: Congress producing public laws through the Statutes at Large into the U.S. Code, and agencies producing final rules through the Federal Register into the Code of Federal Regulations, with a vertical arrow showing organic statutes delegating rulemaking power from Congress to agencies" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrInk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--ink, #14130f)"/></marker>
+    </defs>
+    <text x="30" y="24" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">Two assembly lines for federal law</text>
+    <rect x="30" y="50" width="150" height="44" fill="var(--blue, #2f4d6e)" rx="8" />
+    <text x="105" y="77" fontFamily="Georgia, serif" fontSize="14" fill="#ffffff" textAnchor="middle" fontWeight="bold">CONGRESS</text>
+    <text x="105" y="112" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">72 public laws in 2025</text>
+    <line x1="180" y1="72" x2="276" y2="72" stroke="var(--ink, #14130f)" strokeWidth="2" markerEnd="url(#arrInk)" />
+    <rect x="280" y="50" width="170" height="44" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" rx="8" />
+    <text x="365" y="77" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Statutes at Large</text>
+    <text x="365" y="112" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2,008 pages (2025)</text>
+    <line x1="450" y1="72" x2="536" y2="72" stroke="var(--ink, #14130f)" strokeWidth="2" markerEnd="url(#arrInk)" />
+    <rect x="540" y="50" width="150" height="44" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" rx="8" />
+    <text x="615" y="77" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">U.S. Code</text>
+    <text x="615" y="112" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">codified by subject</text>
+    <line x1="105" y1="130" x2="105" y2="182" stroke="var(--accent, #8a2a1e)" strokeWidth="2" markerEnd="url(#arrInk)" />
+    <text x="120" y="152" fontFamily="Georgia, serif" fontSize="12" fill="var(--accent, #8a2a1e)">organic statutes delegate</text>
+    <text x="120" y="168" fontFamily="Georgia, serif" fontSize="12" fill="var(--accent, #8a2a1e)">rulemaking power</text>
+    <rect x="30" y="186" width="150" height="44" fill="var(--accent, #8a2a1e)" rx="8" />
+    <text x="105" y="213" fontFamily="Georgia, serif" fontSize="14" fill="#ffffff" textAnchor="middle" fontWeight="bold">AGENCIES</text>
+    <text x="105" y="248" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2,441 final rules in 2025</text>
+    <line x1="180" y1="208" x2="276" y2="208" stroke="var(--ink, #14130f)" strokeWidth="2" markerEnd="url(#arrInk)" />
+    <rect x="280" y="186" width="170" height="44" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" rx="8" />
+    <text x="365" y="213" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Federal Register</text>
+    <text x="365" y="248" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">60,917 pages (2025)</text>
+    <line x1="450" y1="208" x2="536" y2="208" stroke="var(--ink, #14130f)" strokeWidth="2" markerEnd="url(#arrInk)" />
+    <rect x="540" y="186" width="150" height="44" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" rx="8" />
+    <text x="615" y="207" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Code of Federal</text>
+    <text x="615" y="223" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Regulations</text>
+    <text x="615" y="248" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">codified by agency</text>
+  </svg>
+</Figure>
+
+How many agencies run the second line? Nobody can tell you exactly — and that is itself a finding. The Administrative Conference of the United States, the federal government's own in-house authority on administrative procedure, opens its *Sourcebook of United States Executive Agencies* by conceding that "there is no authoritative list of government agencies"; counts range from a few dozen rulemaking departments to several hundred entities depending on the definition. What can be said precisely is what the lines produce, and the asymmetry is the single most important fact about modern American governance:
+
+<Figure caption="Federal lawmaking output in calendar 2025 — the lightest rulemaking year since 1992, and still a 34-to-1 ratio of final rules to public laws. In 2024 the ratio of rules to laws ran even higher." source="Federal Register API (final rules, proposed rules, calendar 2025); National Archives (public laws, 119th Congress, 1st session)">
+  <DataBars
+    title="Who made federal law in 2025?"
+    unit="documents"
+    bars={[
+      {label: 'Final rules published by agencies', value: 2441, color: 'accent'},
+      {label: 'Proposed rules (NPRMs)', value: 1498, color: 'gold'},
+      {label: 'Public laws enacted by Congress', value: 72, color: 'blue'},
+    ]}
+  />
+</Figure>
+
+Read the bars the way a political scientist would, not as an indictment. Congress *designed* this asymmetry: a body of 535 generalists meeting in two-year increments cannot set ladder standards or recompute particulate thresholds, so it builds institutions that can, then superintends them. Whether the superintendence is real is Lesson 3's question. The machinery's answer to "who guards the guardians" comes in three layers — procedure (the APA), presidential review (OIRA), and two external checks (Congress's CRA and the courts). Take them in order.
+
+## The §553 machine: notice and comment
+
+The Administrative Procedure Act of 1946 is the constitution of the administrative state — the armistice, as administrative lawyers say, between the [[term:new-deal]]'s enthusiasts and its enemies. Its working heart is **Section 553**, the procedure for what the trade calls *informal* or *notice-and-comment* rulemaking. The sequence: the agency publishes a **notice of proposed rulemaking** (NPRM) in the Federal Register; "interested persons" — meaning anyone, including you — submit comments; the agency issues the final rule together with a "concise general statement" of its "basis and purpose," and the rule generally cannot take effect for at least thirty days.
+
+> **In the primary sources:** Section 553(c) in full force: "After notice required by this section, the agency shall give interested persons an opportunity to participate in the rule making through submission of written data, views, or arguments with or without opportunity for oral presentation. After consideration of the relevant matter presented, the agency shall incorporate in the rules adopted a concise general statement of their basis and purpose." Two sentences carry the entire participatory machinery of American regulation.
+
+Three refinements turn that simple sequence into doctrine. First, the "concise general statement" has become anything but concise: because courts demand that agencies respond to significant comments, final rules now ship with preambles running hundreds of pages, and a rule whose final text strays too far from the proposal — failing the courts' "logical outgrowth" test — must be re-proposed. Comment volume can be staggering: the FCC's 2017 net-neutrality repeal drew roughly 22 million comments, and the New York Attorney General's office later concluded that nearly 18 million of them were fabricated. Agencies are not vote-counters, though — comments matter for the arguments and data they contain, not their number.
+
+Second, the APA also sketches **formal rulemaking** — trial-like hearings with witnesses and cross-examination under §§556–557 — but the Supreme Court held in *United States v. Florida East Coast Railway* (1973) that it applies only when a statute demands rules "on the record after opportunity for an agency hearing," magic words Congress almost never uses. Formal rulemaking is functionally extinct; §553 is the game. And the courts cannot re-expand it: in *Vermont Yankee Nuclear Power Corp. v. NRDC* (1978), a unanimous Court rebuked lower judges for inventing extra procedural requirements, holding that the APA sets the ceiling as well as the floor.
+
+Third, and most contested in practice: **guidance documents** — interpretive rules, policy statements, FAQ pages, "Dear Colleague" letters — are exempt from §553 entirely. Guidance is supposed to lack the force of law, and formally it does. But when an agency that licenses, funds, or prosecutes you announces how it reads its own rules, "nonbinding" is a lawyer's word; regulated parties comply as if it were law, which is why critics call it regulation without process and agencies call it transparency about enforcement.
+
+<Checkpoint question="An agency posts a webpage 'clarifying' that its existing workplace-safety rule covers warehouse mezzanines, and inspectors begin citing firms accordingly. A trade association sues, arguing the page is really a new legislative rule. What turns on the label — and what should the court ask?">
+  Everything turns on it. A *legislative* rule needed notice-and-comment under §553 and carries the force of law; *guidance* needed no process but cannot itself create new binding obligations. The court should ask whether the page genuinely interprets duties the old rule already imposed or instead adds new ones — if mezzanines weren't fairly within the original rule, the agency has legislated without process and the "clarification" is procedurally invalid. The label the agency chose is evidence, not the answer.
+</Checkpoint>
+
+## The President's checkpoint: OIRA and the cost-benefit gate
+
+Nothing in the APA mentions the White House. Yet since 1981 every significant rule from an executive agency has passed through a presidential checkpoint: the **Office of Information and Regulatory Affairs** (OIRA), a small office of career analysts inside OMB. Ronald Reagan's Executive Order 12291 created centralized review; Bill Clinton's **Executive Order 12866** (1993) rewrote it in the form that, remarkably, has anchored the system across every administration since. Under EO 12866, agencies must submit "significant regulatory actions" — above all, rules with an annual economic effect of $100 million or more — to OIRA before proposal and again before finalization, with a quantified showing that benefits justify costs. OIRA can clear a rule, negotiate changes, or return it.
+
+The dial on top of that machine, though, moves with each president — and the 2025–26 settings matter. President Biden's EO 14094 had raised the significance threshold to $200 million; President Trump rescinded it on January 20, 2025, restoring the $100 million line and pulling more rules back into review. Eleven days later, **EO 14192** ("Unleashing Prosperity Through Deregulation") imposed a ten-for-one requirement — for each new rule, agencies must identify at least ten to repeal — alongside a regulatory cost budget, the successor to the first term's two-for-one order. Most consequentially for structure, **EO 14215** ("Ensuring Accountability for All Agencies," February 18, 2025) extended OIRA review to the *independent* regulatory commissions — the SEC, FCC, FTC and their siblings — which every prior version of centralized review since 1981 had exempted. An [[term:executive-order]] cannot amend the APA, but within the executive branch it decides whose rules need the White House's signature, and as of mid-2026 the answer is: essentially everyone's. Whether independent agencies can constitutionally be commanded this way is part of Lesson 2's removal fight.
+
+<QuickCheck
+  question="As of mid-2026, OIRA cost-benefit review of significant rules applies because…"
+  choices={[
+    {id: 'a', text: 'The APA requires it for all rules with major economic effects'},
+    {id: 'b', text: 'Executive orders require it — EO 12866 for executive agencies, extended to independent agencies by EO 14215 in 2025'},
+    {id: 'c', text: "The Congressional Review Act conditions a rule's effectiveness on OIRA clearance"},
+    {id: 'd', text: 'Loper Bright (2024) ordered agencies to justify rules with cost-benefit analysis'},
+  ]}
+  answer="b"
+  explanation="Centralized review is a creature of presidential order, not statute — the APA never mentions OIRA or cost-benefit analysis, the CRA governs congressional disapproval, and Loper Bright concerned judicial deference, not executive review. That is why the regime can change with each inauguration: the $100M threshold, the ten-for-one offset (EO 14192), and the 2025 extension to independent agencies (EO 14215) all arrived without a single vote in Congress."
+/>
+
+## Congress's recall button: the Congressional Review Act
+
+Congress kept a lever for itself. The **Congressional Review Act of 1996** requires every rule to be submitted to both chambers and GAO before it takes effect, and creates a fast track for repeal: a joint resolution of disapproval that, within statutory windows of roughly 60 days, is privileged in the Senate — ten hours of debate, simple majority, no [[term:filibuster]]. If the resolution is enacted, the rule "shall not take effect (or continue)," and the agency may never reissue it in "substantially the same form" without new statutory authority. The catch sits in plain sight: a joint resolution requires the President's signature, and presidents do not sign death warrants for their own agencies' rules. So the CRA lies dormant mid-administration and detonates at transitions, thanks to a *lookback* provision that re-opens the clock, for the next Congress, on every rule submitted within the final 60 legislative days of the old one.
+
+The usage history makes the point arithmetically. One rule overturned in the law's first twenty years (the Clinton-era ergonomics standard, March 2001); sixteen in 2017; three under Biden in 2021; then 2025 broke the scale — **22 resolutions signed in a single year, more than every previous year combined**. The 2025 class also crossed a legal frontier: among them were three resolutions nullifying EPA waivers that let California enforce its vehicle-emission standards, even though GAO (in opinion B-337179) and the Senate parliamentarian had both concluded the waivers were adjudicatory orders, not "rules" the CRA can reach. The Senate proceeded anyway by a 51–46 point-of-order vote — critics called it a procedural nuclear option, supporters called it Congress interpreting its own statute — and the dispute moved, fittingly, into the courts. Note the symmetry the lever now carries: under the lookback rules, rules the *Trump* administration submitted after August 19, 2025 became fair game for the Congress seated in 2026, and the same window will face whoever wins in 2028.
+
+<Checkpoint question="A major rule is finalized in October of a presidential election year. The incumbent's party loses the White House, and in January the new President's party holds 51 Senate seats. What can opponents of the rule do that they could not do to a rule finalized two years earlier — and what is the long tail if they succeed?">
+  The October rule falls inside the CRA lookback window, so the new Congress gets a fresh 60-day clock: a disapproval resolution needs only simple majorities — no Senate filibuster — plus the new President's signature, which is now gettable. A rule finalized mid-term enjoyed no such window, and disapproval would have met a veto. The long tail: a disapproved rule is dead *and* the agency is barred from issuing anything "substantially the same" without new legislation — a phrase no court has authoritatively construed, which is why agencies treat CRA kills as salted earth.
+</Checkpoint>
+
+## When courts check the work: arbitrary and capricious
+
+The last station is [[term:judicial-review]]. Under APA §706, courts set aside agency action that is "arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law." The canonical statement of what that means is *Motor Vehicle Manufacturers Association v. State Farm* (1983). In 1981, the new Reagan administration's highway-safety agency rescinded a rule requiring cars to have passive restraints — airbags or automatic seatbelts — reasoning that detachable automatic belts would mostly be detached. The Supreme Court struck the rescission down, unanimously on the key point: the agency had not even *considered* requiring airbags alone, an alternative sitting inside its own record. The standard the Court articulated governs to this day: an agency must "examine the relevant data and articulate a satisfactory explanation for its action including a 'rational connection between the facts found and the choice made,'" and it fails if it ignores an important aspect of the problem or offers an explanation that runs counter to the evidence. Two features deserve a star. *State Farm* polices **reasoning, not outcomes** — deregulation and regulation get the same "hard look," which is why rescissions in 2017–20 and 2025–26 alike died in court when agencies rushed the paperwork. And it is the review that survives every doctrinal storm: whatever happens to deference on questions of *law* — the *Chevron*-to-*Loper Bright* story that Lesson 2 tells in full — the requirement of reasoned explanation on questions of *fact and policy* stands untouched.
+
+Put the whole machine together as a sequence — most rules now run this gauntlet over two to four years:
+
+<ProcessFlow title="The life of a major federal rule" steps={[
+  {title: 'Congress delegates', detail: 'An organic statute creates the program and hands the agency rulemaking power — sometimes with deadlines and standards, sometimes with little more than a goal.'},
+  {title: 'Agenda and drafting', detail: 'The agency announces the project in the semiannual Unified Agenda and drafts a proposal — economics, science, and legal vetting included.'},
+  {title: 'OIRA review (significant rules)', detail: 'Executive-branch and, since EO 14215 (2025), independent-agency significant rules clear White House cost-benefit review before the public ever sees them.', branch: 'OIRA can return a rule to the agency — many die quietly here.'},
+  {title: 'Notice: the NPRM', detail: 'The proposed rule is published in the Federal Register with its legal basis and supporting data (APA §553(b)).'},
+  {title: 'Public comment', detail: 'Typically 30–90 days; anyone may file. Agencies must engage significant objections — arguments and data count, not raw comment totals.', branch: 'A final rule that is not a "logical outgrowth" of the proposal must be re-proposed.'},
+  {title: 'Final rule + basis and purpose', detail: 'The agency answers significant comments in the preamble, passes OIRA again if significant, and publishes at least 30 days before the effective date.'},
+  {title: 'CRA submission', detail: 'The rule goes to both chambers and GAO; major rules wait 60 days. Congress can kill it by joint resolution — fatal mainly at presidential transitions.', branch: 'A CRA disapproval also bars any future rule in "substantially the same form."'},
+  {title: 'Judicial review', detail: 'Challengers sue under APA §706. Courts give the record a hard look (State Farm) and, after Loper Bright, decide questions of law independently.', branch: 'Vacatur or remand sends the agency back — sometimes years of work to the drafting stage.'},
+]} />
+
+> **Why this matters:** Every station in that pipeline is also a veto point, and veto points are where politics happens. An administration that cannot move Congress can still move the regulatory state — by rule, by guidance, by return letter, by declining to defend a rule in court. That is precisely why the constitutional stakes of Lesson 2 are so high: the pipeline concentrates lawmaking, law-execution, and (in agency adjudication) law-judging inside bodies the Constitution never mentions.
+
+## What this lesson does not settle
+
+You now know how the machine runs: delegation in, §553 process through, OIRA review above, CRA and *State Farm* behind. What this lesson has deliberately not asked is whether the machine fits the Constitution's design — whether Congress may hand its legislative power away in the first place, whether the President must be able to fire the people who run it, and who gets the last word on what ambiguous statutes mean. Those questions split the Supreme Court's last decade wide open, from *Gundy* through *Loper Bright* to the *Humphrey's Executor* showdown still pending as this is written. The companion lesson in the *Three Branches* pack glances at this terrain in a paragraph; Lesson 2 walks it case by case.

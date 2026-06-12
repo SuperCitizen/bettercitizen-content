@@ -1,0 +1,129 @@
+schema: bettercitizen.assessment/v1
+lesson: models-forecasts-and-what-to-trust
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      Four forecasters publish records of their probability calls. Which record shows the
+      best-calibrated forecaster?
+    choices:
+      - id: a
+        text: Said 80% on 200 events; 160 of them (80%) happened.
+      - id: b
+        text: Said 80% on 200 events; 190 of them (95%) happened.
+      - id: c
+        text: Said 99% on 200 events; 178 of them (89%) happened.
+      - id: d
+        text: Never gave probabilities, but her plain-language predictions came true 85% of the time.
+    correct_choice_id: a
+    explanation: >-
+      Calibration means stated probabilities match observed frequencies: 80% calls should happen
+      about 80% of the time, which only (a) delivers. The seductive near-miss is (b) — a higher
+      hit rate! — but it reveals underconfidence: those events deserved "95%," and decisions
+      priced at 80 mislead just as surely as overconfidence does. (c) is the dangerous kind,
+      selling 99 and delivering 89; the Brier score charges that gap quadratically. And (d) is
+      ungradeable — without stated probabilities and a denominator, "85% right" mixes easy calls
+      with hard ones, which is how pundits launder their records.
+    concepts: [forecast-calibration, brier-score]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Which statement accurately captures Nassim Taleb's published critique of election
+      forecasts (Quantitative Finance, 2018) — as opposed to a strawman of it?
+    choices:
+      - id: a
+        text: Polls are fake news and statistical election analysis is inherently worthless.
+      - id: b
+        text: Treated as the price of a binary option, a forecast probability under high real uncertainty should stay near 50% and move little on news — so a probability that swings widely across a campaign reveals mispriced uncertainty.
+      - id: c
+        text: Forecasters should publish predictions, not probabilities, so they can be held accountable.
+      - id: d
+        text: Election models fail because they ignore fundamentals like the economy.
+    correct_choice_id: b
+    explanation: >-
+      Taleb's argument is technical, not nihilist: election probabilities should behave like
+      arbitrage-free option prices (martingales), and deep uncertainty about the final vote
+      share should compress the stated probability toward 50% — making 2016's wide swings, in
+      his terms, "stark errors" a trader could exploit. The published reply (Clayton 2019)
+      argues honest Bayesian updating is exactly martingale behavior and the volatility
+      heuristic is false. Knowing the dispute's real terms matters: (a) is the version that
+      circulates, and it teaches nothing — the serious question is whether mid-campaign
+      probability swings are information or noise.
+    concepts: [forecast-calibration]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A CBO ten-year score of a tax bill is best understood as…"
+    choices:
+      - id: a
+        text: A prediction of actual future deficits, accurate to roughly the dollar amounts quoted in headlines.
+      - id: b
+        text: A politically negotiated figure that splits the difference between the parties' claims.
+      - id: c
+        text: A comparison of the bill against a current-law baseline under shared rules — directionally serious, decimally false, with self-documented errors near 5% for the budget year and roughly 10% by year six on revenues.
+      - id: d
+        text: A number with no informational value beyond two years, given documented forecast error.
+    correct_choice_id: c
+    explanation: >-
+      A score is a ruler, not a prophecy: CBO projects revenues and outlays assuming current law
+      continues, then measures the bill's change to that path — so it cannot "predict" deficits
+      Congress will later legislate away (a). The error figures in (c) are CBO's own published
+      self-evaluations, and that transparency is the credential that (b)'s cynicism and (d)'s
+      nihilism both miss: a $3 trillion score versus a $0.3 trillion score is a real distinction;
+      $1.4 trillion versus $1.2 trillion is not. Anyone quoting a ten-year score to the dollar —
+      or dismissing scoring wholesale — is misusing the instrument.
+    concepts: [cbo-baseline]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      In August 2025 the BLS commissioner was fired hours after a weak jobs report with large
+      downward revisions. According to this lesson, what was the primary statistical danger of
+      that episode — even granting that no evidence showed any number had been falsified?
+    choices:
+      - id: a
+        text: It proved the jobs numbers had been manipulated all along, vindicating the firing.
+      - id: b
+        text: There was no real danger, since commissioners don't produce the estimates and the staff stayed in place.
+      - id: c
+        text: Anticipatory self-censorship inside the agency and credibility decay outside it — once revisions read as treachery, every inconvenient number becomes deniable by either party.
+      - id: d
+        text: Private-sector data can fully substitute for official statistics, so the stakes were low.
+    correct_choice_id: c
+    explanation: >-
+      The threat model is statistical, not melodramatic. (a) inverts the record — revisions are
+      routine incorporation of late survey responses, and the commissioner sees estimates only
+      shortly before release. (b) is the subtle near-miss: it's true commissioners don't compute
+      the numbers, but survey methodology runs on judgment calls, and staff who watched a firing
+      over an unwelcome report face a thumb on every future call — that's anticipatory bias, no
+      falsification required. The subsequent stress test (a never-published October 2025 CPI, a
+      delayed jobs report in 2026) showed how fast "data gap" thinking spreads. And (d) fails
+      because private data is benchmarked against the official series it would replace.
+    concepts: [statistical-agency-independence]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Your governor unveils a consultant-built model claiming an "82.4% probability" that the
+      state's reservoirs fall below federal standards within a decade, and proposes a major bond
+      issue on its strength. Drawing on the full lesson — calibration, track records, the
+      weather analogy, Taleb's caution, and CBO-style scoring discipline — write the five
+      questions you would ask before treating that number as decision-grade, and say what answer
+      to each would raise or lower your trust.
+    socratic_seed: >-
+      Strong answers interrogate: (1) Track record and calibration — has this model (or shop)
+      made scored probabilistic forecasts before, and did its 80% calls happen about 80% of the
+      time? Hydrology has weather-like feedback loops, so a record is possible, unlike one-shot
+      elections. (2) Out-of-sample honesty — was it validated on years it wasn't trained on, or
+      tuned until it fit history? (3) Error bars and conditions — what's the range around 82.4%,
+      and conditional on what (rainfall scenarios, usage growth, current law)? A two-decimal
+      probability on a ten-year horizon is precision theater (Taleb's point) unless the
+      uncertainty is priced and shown. (4) Falsifiability — what near-term observable would the
+      modelers accept as evidence the model is failing? (5) Incentives and the scoring-rule
+      question — does the consultant profit from the bond passing, and would they stake anything
+      on the number? Then the synthesis: the honest use is CBO-style — compare the bond against
+      alternatives under the same model and assumptions, where shared error cancels — rather
+      than betting on the headline decimal. Push the student: would their five questions have
+      distinguished the 1-percent-Trump models from the 29-percent one in 2016?
+    concepts: [forecast-calibration, cbo-baseline]

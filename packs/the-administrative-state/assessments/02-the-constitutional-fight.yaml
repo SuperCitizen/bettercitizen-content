@@ -1,0 +1,191 @@
+schema: bettercitizen.assessment/v1
+lesson: the-constitutional-fight
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      After Loper Bright Enterprises v. Raimondo (2024), which statement
+      most precisely describes how courts treat an agency's reading of an
+      ambiguous statute?
+    choices:
+      - id: a
+        text: >-
+          Courts decide the question of law independently; the agency's
+          view can earn persuasive (Skidmore) respect, and pre-2024
+          holdings that relied on Chevron keep their stare decisis effect
+      - id: b
+        text: >-
+          Courts must still accept the agency's reading if it is
+          reasonable, unless the question is "major"
+      - id: c
+        text: >-
+          Every regulation previously upheld under Chevron is now void and
+          must be re-litigated
+      - id: d
+        text: >-
+          Agencies may no longer interpret statutes at all; only courts may
+          read them
+    correct_choice_id: a
+    explanation: >-
+      The holding was exact: "Chevron is overruled. Courts must exercise
+      their independent judgment in deciding whether an agency has acted
+      within its statutory authority, as the APA requires." But the Court
+      preserved Skidmore-style respect for persuasive agency reasoning,
+      left express delegations of discretion intact, and expressly declined
+      to "call into question prior cases that relied on the Chevron
+      framework." Choice b restates the pre-2024 regime; choice c is the
+      retroactivity panic the opinion specifically forecloses; choice d
+      confuses interpretation (which agencies must do daily to operate)
+      with the entitlement to judicial deference, which is what died.
+    concepts: [judicial-review, precedent, stare-decisis]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      As of mid-June 2026, what is the precise status of Humphrey's
+      Executor v. United States (1935)?
+    choices:
+      - id: a
+        text: >-
+          Overruled by Trump v. Wilcox in May 2025
+      - id: b
+        text: >-
+          Not overruled — but narrowed by Seila Law to multimember expert
+          bodies, with Trump v. Slaughter (argued December 2025) pending on
+          whether to overrule it, while interim orders let contested
+          removals stand
+      - id: c
+        text: >-
+          Reaffirmed in full by FCC v. Consumers' Research (2025)
+      - id: d
+        text: >-
+          Overruled as to every agency except the Federal Trade Commission
+    correct_choice_id: b
+    explanation: >-
+      Precision is the entire point of this question. Wilcox was a stay —
+      an interim order, not a merits ruling — though it signaled the
+      likely direction and pointedly carved out the Federal Reserve as "a
+      uniquely structured, quasi-private entity." Consumers' Research was a
+      nondelegation case about the universal-service fund; it said nothing
+      about removal (choice c crosses doctrinal fronts). The merits
+      question — whether the FTC's for-cause protections violate the
+      separation of powers "and, if so, whether Humphrey's Executor should
+      be overruled" — is exactly what Trump v. Slaughter presents, argued
+      December 8, 2025 and undecided as of mid-June 2026. Choice d inverts
+      the case: the FTC is the agency whose protections are ON the block,
+      since Humphrey's itself was an FTC case.
+    concepts: [precedent, separation-of-powers]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      In FCC v. Consumers' Research (June 2025), the Supreme Court
+      confronted its first major nondelegation challenge since Gundy. The
+      result?
+    choices:
+      - id: a
+        text: >-
+          The universal-service scheme was struck down — the first
+          successful nondelegation challenge since 1935
+      - id: b
+        text: >-
+          The scheme was upheld 6–3, with the Court holding Congress had
+          sufficiently guided the FCC and rejecting any stricter rule for
+          revenue-raising delegations
+      - id: c
+        text: >-
+          The Court overruled the intelligible-principle test and replaced
+          it with a clear-statement requirement
+      - id: d
+        text: >-
+          The Court dismissed the case as moot after Congress restructured
+          the fund
+    correct_choice_id: b
+    explanation: >-
+      Justice Kagan's majority upheld the contribution scheme, found the
+      private administrator's role merely advisory, and refused to create
+      a special nondelegation rule for "taxes" — with Gorsuch, Thomas, and
+      Alito in dissent. So the scoreboard still reads: two delegations
+      struck in the Court's entire history, both in 1935. Choice a is what
+      many commentators predicted and did not happen; choice c describes
+      roughly what the dissenters wanted; the case's real significance is
+      that the revival has three declared votes and the doctrine's
+      practical work has migrated to the major questions doctrine and
+      post-Chevron interpretation instead.
+    concepts: [separation-of-powers, judicial-review]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      In 2027, the Federal Communications Commission asserts for the first
+      time that the Communications Act's 1934 grant to regulate "in the
+      public interest" empowers it to set content-moderation standards for
+      every large social-media platform — a claim with economy-wide reach.
+      Under the doctrine as it stands, a reviewing court's FIRST and most
+      likely fatal question is:
+    choices:
+      - id: a
+        text: >-
+          Whether the FCC's reading of "public interest" is a permissible
+          construction of an ambiguous phrase
+      - id: b
+        text: >-
+          Whether Congress clearly authorized an assertion of this novelty,
+          breadth, and economic and political significance — the West
+          Virginia v. EPA inquiry
+      - id: c
+        text: >-
+          Whether the 1934 Act flunks the intelligible-principle test and
+          is void as an unconstitutional delegation
+      - id: d
+        text: >-
+          Whether the FCC examined the relevant data and gave a rational
+          connection between facts found and choice made
+    correct_choice_id: b
+    explanation: >-
+      A novel, transformative claim of authority resting on old, general
+      statutory language is the major questions doctrine's exact trigger:
+      the agency must point to clear congressional authorization, and a
+      1934 "public interest" clause will almost certainly fail to supply
+      it. Choice a is Chevron's vocabulary — overruled in 2024, and even
+      under Loper Bright the court would interpret independently rather
+      than ask "permissibility." Choice c overreads nondelegation: courts
+      avoid striking the statute when a narrowing interpretation disposes
+      of the case, and the intelligible-principle bar remains nearly
+      unclearable (Consumers' Research, 2025). Choice d is State Farm
+      review — it polices the quality of agency reasoning on facts and
+      policy, and arrives only after the threshold authority question this
+      scenario fails.
+    concepts: [separation-of-powers, judicial-review, precedent]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      A constitutional historian calls Schechter Poultry and Humphrey's
+      Executor — decided the same morning in 1935 — a single "settlement":
+      Congress may delegate broadly, and may insulate some of the
+      delegates. Explain what each 2019–2026 development — Gundy's
+      dissent, Loper Bright, the major questions cases, Wilcox, and
+      Slaughter — does to each half of that settlement, and describe what
+      coherent arrangements could replace it.
+    socratic_seed: >-
+      Look for the two halves kept analytically separate. Delegation half:
+      Gundy's dissent (three votes, later four with Kavanaugh's signal)
+      attacks broad delegation directly but has never won — Consumers'
+      Research (2025) confirmed the intelligible-principle status quo —
+      while Loper Bright and the major questions doctrine discipline
+      delegation indirectly, by shrinking what ambiguity yields and
+      requiring clear text for big claims. Insulation half: Seila Law,
+      Collins, the Wilcox stay, and Slaughter dismantle removal
+      protections — and if Humphrey's falls, insulation goes while broad
+      delegation remains, yielding presidential government: vast delegated
+      power, unitary control (with the Federal Reserve carve-out as the
+      doctrinally awkward exception worth probing — is it principle or
+      prudence?). The alternative coherent regime — narrow delegation
+      forcing Congress to legislate specifics — is what Gorsuch's
+      nondelegation revival and the REINS-style reforms of Lesson 3 point
+      toward. The sharpest students will notice the two halves are
+      falling at different speeds, so the emerging order is not the
+      mirror of 1935 but something new: more presidential power over MORE
+      delegated authority than the New Deal Court ever blessed.
+    concepts: [separation-of-powers, precedent, checks-and-balances]
