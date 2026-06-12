@@ -1,0 +1,17 @@
+slug: princeton-school-of-public-and-international-affairs
+name: Princeton School of Public and International Affairs
+kind: university
+subtype: policy-school
+description: "Princeton University's school of public policy and international affairs, founded in 1930 and known as the Woodrow Wilson School until 2020. A major pipeline into the State Department, intelligence community, and economic policy institutions."
+website: https://spia.princeton.edu
+jurisdiction: national
+partisan_lean: center-left
+parent_org: princeton-university
+org_relationship: school-within
+influence_channels:
+  - policy-research
+  - training-staffers
+concept_tags:
+  - think-tank
+  - diplomacy
+is_active: true

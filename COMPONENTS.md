@@ -1,4 +1,4 @@
-# SuperCitizen interactive component contract (MDX)
+# BetterCitizen interactive component contract (MDX)
 
 Lessons are **MDX** files (`.mdx`). They may use the interactive components
 documented here — and **only** these. The components live in
@@ -29,9 +29,12 @@ MDX parses raw HTML as **JSX**, which changes some old habits:
 3. Literal `{` `}` `<` in prose must be escaped (`\{`, `\<`) or avoided.
 4. `<details class="checkpoint">` blocks → `<Checkpoint>`. Blockquote callouts
    may stay as markdown, or upgrade to `<Callout>` when they carry structure.
-5. Inline SVG is still welcome (hyphenated SVG attributes like `stroke-width`
-   are fine in JSX) — but wrap it in `<Figure caption="…">` instead of a raw
-   `<figure>`, and convert any `style`/`class` attributes per rule 1.
+5. Inline SVG is still welcome — but wrap it in `<Figure caption="…">` instead
+   of a raw `<figure>`, convert any `style`/`class` attributes per rule 1, and
+   use **camelCase** SVG attributes (`fontFamily`, `fontSize`, `textAnchor`,
+   `strokeWidth`, `strokeDasharray`, `fillOpacity`, …) — hyphenated forms
+   render but trip React dev warnings, and the render smoke test fails on
+   warnings.
 6. Still **never**: `<script>`, `<style>`, `<iframe>`, event-handler
    attributes, external image/network URLs. Interactivity comes only from
    this catalog. Content must stay auditable.

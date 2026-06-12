@@ -1,0 +1,135 @@
+---
+schema: bettercitizen.lesson/v1
+slug: rcv-credit-where-due
+kind: reading
+title: "RCV: Credit Where It's Due"
+objectives:
+  - Recount what ranked-choice voting has actually accomplished in the U.S. through mid-2026, with verified margins and dates
+  - Explain the center squeeze, non-monotonicity, and ballot exhaustion using the documented cases (Alaska 2022, Burlington 2009, Burnett & Kogan 2015)
+  - Distinguish "RCV failed here" from "the old system would have done better" — they are different claims
+concepts:
+  - ranked-choice-voting
+  - instant-runoff
+  - plurality
+sources:
+  - type: book
+    citation: "Chris Borgia, *Score the Vote* (2026), \"RCV: Credit Where It's Due\""
+  - type: website
+    citation: 'Ballotpedia, "Maine Question 5, Ranked-Choice Voting Initiative (2016)" — approved 52.12% to 47.88%.'
+    url: https://ballotpedia.org/Maine_Question_5,_Ranked-Choice_Voting_Initiative_(2016)
+  - type: website
+    citation: 'Maine State Legislature Law Library, "Ranked Choice Voting in Maine" — adoption, the legislature''s delayed-enactment law, and the June 2018 people''s veto (53.88%).'
+    url: https://legislature.maine.gov/lawlibrary/ranked-choice-voting-in-maine/9509
+  - type: website
+    citation: 'Ballotpedia, "New York City Ballot Question 1 (November 2019)" — ranked-choice voting adopted with 73.5% of the vote.'
+    url: https://ballotpedia.org/New_York_City_Ballot_Question_1,_Elections_Charter:_Ranked-Choice_Voting,_Vacancies,_and_City_Council_Redistricting_Timeline_Amendment_(November_2019)
+  - type: website
+    citation: 'FairVote, "Where is ranked choice voting used?" — 49 American jurisdictions by FairVote''s February 2026 count.'
+    url: https://fairvote.org/where-is-ranked-choice-voting-used/
+  - type: pdf
+    citation: 'Alaska Division of Elections, 2022 Special General Election RCV Tabulation, official results (certified Sept. 2, 2022).'
+    url: https://www.elections.alaska.gov/results/22SSPG/RcvDetailedReport.pdf
+  - type: paper
+    citation: 'Graham-Squire, A. & McCune, D. (2022), "A Mathematical Analysis of the 2022 Alaska Special Election for US House," arXiv:2209.04764 — Begich was the Condorcet winner eliminated in the first round.'
+    url: https://arxiv.org/abs/2209.04764
+  - type: paper
+    citation: 'Graham-Squire, A. & McCune, D. (2023), "An Examination of Ranked-Choice Voting in the United States, 2004–2022," Representation 61(1); preprint arXiv:2301.12075 — two Condorcet failures in 182 IRV elections; the Alaska special also exhibited a monotonicity paradox.'
+    url: https://arxiv.org/abs/2301.12075
+  - type: website
+    citation: 'ranked.vote, "Burlington 2009 Mayoral Election" — full IRV tabulation and pairwise matrix showing Montroll beating both finalists head-to-head.'
+    url: https://ranked.vote/report/us/vt/btv/2009/03/mayor
+  - type: paper
+    citation: 'Ornstein, J. T. & Norman, R. Z. (2014), "Frequency of monotonicity failure under Instant Runoff Voting: estimates based on a spatial model of elections," Public Choice 161 — uses Burlington 2009 as a documented real-world monotonicity failure.'
+    url: https://link.springer.com/article/10.1007/s11127-013-0118-2
+  - type: paper
+    citation: 'Burnett, C. M. & Kogan, V. (2015), "Ballot (and voter) ''exhaustion'' under Instant Runoff Voting: An examination of four ranked-choice elections," Electoral Studies 37: 41–49 — exhaustion ran 9.6% to 27.1%; no winner captured a majority of all votes cast.'
+    url: https://doi.org/10.1016/j.electstud.2014.11.006
+  - type: paper
+    citation: 'Donovan, T., Tolbert, C. & Gracey, K. (2016), "Campaign civility under preferential and plurality voting," Electoral Studies 42: 157–163.'
+  - type: website
+    citation: 'Office of the Lieutenant Governor of Alaska, completed Ballot Measure 2 recount (Dec. 2024) — repeal failed 160,973 to 160,230, a 743-vote margin.'
+    url: https://ltgov.alaska.gov/newsroom/2024/12/lieutenant-governor-nancy-dahlstrom-announces-completion-of-ballot-measure-2-recount/
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 12
+---
+
+# RCV: Credit Where It's Due
+
+In October 2017, Maine's legislature did something cynical even by legislature standards: less than a year after voters passed ranked-choice voting at the ballot box, it passed a law shelving the reform until 2021 and repealing it automatically if a constitutional amendment didn't materialize — an amendment the legislature itself had no intention of passing. Reform groups responded with a people's veto campaign in the dead of a Maine winter. In June 2018, voters overrode their own legislature, 53.88 percent, and then walked into the booth *that same day* and used ranked ballots to pick their party nominees — the first statewide ranked-choice election in American history, held simultaneously with the vote to save it.
+
+I'm writing a book about why score voting is better than ranked-choice voting. I will get there, and I won't pull punches. But a movement that can't acknowledge what its rivals built doesn't deserve your trust, so let's start with the truth: [[term:ranked-choice-voting]] put electoral reform on the American map, and it fought for every inch.
+
+## What RCV has actually won
+
+The record through mid-2026, with no spin. Maine adopted RCV by [[term:ballot-initiative]] in November 2016, 52.12 to 47.88 percent, and defended it twice — the 2018 people's veto, then a court fight. Alaska adopted its top-four-plus-RCV system in 2020 by 3,781 votes, ran it through the most scrutinized special election in memory, and kept it in 2024 when a repeal initiative failed by 743 votes out of more than 321,000 after a recount. New York City — the largest electorate ever to use ranked ballots in this country — adopted RCV in 2019 with 73.5 percent of the vote and has now run its citywide primaries on it twice, in 2021 and 2025. By [[org:fairvote]]'s February 2026 count, 49 American jurisdictions use RCV, the two states included.
+
+And the substantive wins are real, not just the political ones. Single-ballot instant runoffs replace separate runoff elections, which are expensive and notoriously low-turnout — that argument alone has carried RCV in city after city. There's evidence on campaign tone, too: Donovan, Tolbert, and Gracey, surveying voters in RCV and matched plurality cities, found people in RCV cities significantly more satisfied with the conduct of local campaigns and less likely to call them negative (*Electoral Studies*, 2016). I'll be honest that the civility literature since has been mixed — effects this subtle are hard to replicate — but the structural incentive is not in dispute: when you need your rival's supporters to rank you second, there is a price for scorching the earth.
+
+Above all, RCV proved the thing every reform needs proved first: that American voters will change the ballot itself, on purpose, and defend the change when the political class tries to claw it back. Nineteen state legislatures have now banned RCV — a fact I'll map in the reform-landscape chapter — and that, too, is a kind of tribute. Nobody bans an idea that isn't winning.
+
+<Checkpoint question="A consultant tells a reform group: 'Skip the city campaigns — just win one statewide initiative and you're done.' Based on Maine's experience, what's wrong with that plan?">
+  Winning the initiative was the *beginning* of Maine's fight, not the end. The legislature shelved the reform within a year, and it survived only because voters mobilized a people's veto — then it still needed a court fight and faced repeal pressure for years. Alaska's margins tell the same story: adopted by 3,781 votes, retained by 743. Reform isn't a transaction; it's a siege. Any reform you campaign for — ranked, approval, or score — needs a coalition built to defend it *after* election night.
+</Checkpoint>
+
+## Alaska, August 2022: the one I can't wave away
+
+Now the other half of the ledger, and I'm going to hold myself to the same standard I just used: verified cases, not vibes.
+
+Alaska's August 2022 special election for U.S. House — three candidates, Democrat Mary Peltola against Republicans Sarah Palin and Nick Begich III — was RCV's trial by fire, and the count worked exactly as designed: Begich was eliminated first with 28.53 percent of first choices, his ballots transferred, and Peltola beat Palin 51.48 to 48.52 in the final round. Here's the problem. Two mathematicians, Adam Graham-Squire and David McCune, analyzed the full ballot data and showed that Begich would have beaten Peltola head-to-head *and* Palin head-to-head. He was the Condorcet winner — the candidate a majority preferred to every rival — and the instant runoff eliminated him *first*, because consensus candidates run short on first-choice votes. That's the **center squeeze**, and it isn't a hypothetical anymore. It happened, in a statewide federal election, on the reform movement's biggest stage.
+
+Their follow-up study matters just as much for honesty's sake: examining 182 American IRV elections from 2004 to 2022, they found exactly two that failed to elect the Condorcet winner — that Alaska race and Burlington 2009. Rare, then. But notice *when* it strikes: precisely in the polarized, three-way races — strong left, strong right, broadly acceptable middle — that reform exists to fix. RCV's failure mode is concentrated on its own sales pitch.
+
+## Burlington, 2009: more votes, worse outcome
+
+The other documented case is older and stranger. Burlington, Vermont's 2009 mayoral race elected Progressive Bob Kiss under IRV even though ballot data showed Democrat Andy Montroll beating Kiss 54–46 and Republican Kurt Wright 56–44 head-to-head — another center squeeze. But the ballots hid a second pathology, documented in a peer-reviewed case study by Ornstein and Norman in *Public Choice*: if roughly 750 of *Wright's* supporters had instead ranked Kiss first — that is, if Kiss had **gained** support — Kiss would have *lost*, because the change would have eliminated Wright earlier and sent Montroll, who beat Kiss head-to-head, into the final round instead. Voting *for* a candidate would have defeated him. That's **non-monotonicity**, and IRV is the only reform system on the table that has it. Burlington voters repealed IRV in 2010, 52 to 48.
+
+<QuickCheck
+  question="Burlington 2009 showed that some Wright voters could have defeated Kiss by ranking Kiss first. What exactly does this establish?"
+  choices={[
+    {id: 'a', text: 'IRV elections are usually decided backwards, so most IRV winners are illegitimate'},
+    {id: 'b', text: 'Plurality would have handled Burlington better, since it has no transfer rounds to go wrong'},
+    {id: 'c', text: 'IRV violates monotonicity: in rare configurations, giving a candidate more support can cause them to lose — a defect documented in a real election, not just in theory'},
+    {id: 'd', text: 'The voters made an error by ranking insincerely'},
+  ]}
+  answer="c"
+  explanation="Non-monotonicity is a structural property of elimination-and-transfer counting, and Burlington is the canonical documented case (Ornstein & Norman 2014). It is rare — which rules out (a) — and no voter did anything wrong, ruling out (d). And (b) misses that plurality fails the same election differently: a pick-one count would never even have revealed that Montroll was the consensus candidate. The honest claim is narrow but real: IRV's count can punish support itself, and no cardinal method — approval, score, STAR — can."
+/>
+
+## The quiet leak: exhausted ballots
+
+The third weakness doesn't make headlines because it doesn't produce a scandal — it produces a slow leak. If you rank only candidates who get eliminated, your ballot is "exhausted": it simply drops out of the count, and the final-round "majority" is a majority of the ballots still standing, not of the voters who showed up.
+
+Craig Burnett and Vladimir Kogan put real numbers on this in *Electoral Studies* (2015), examining more than 600,000 actual ballot images from four IRV elections. Exhaustion ran from 9.6 percent of valid ballots (San Leandro 2010) to 27.1 percent (San Francisco 2011). The consequence:
+
+<Figure caption="The final-round winner's share of ALL votes cast, in all four elections Burnett and Kogan examined. Every winner held a majority of continuing ballots — and none held a majority of the electorate that actually voted." source="Burnett & Kogan, Electoral Studies 37 (2015)">
+  <DataBars
+    unit="% of all votes cast"
+    max={60}
+    marker={{value: 50, label: 'majority of all ballots'}}
+    bars={[
+      {label: 'San Leandro 2010 (mayor)', value: 45.7, color: 'blue'},
+      {label: 'Pierce County 2008 (executive)', value: 45.6, color: 'accent'},
+      {label: 'Oakland 2010 (mayor)', value: 45.1, color: 'gold'},
+      {label: 'San Francisco 2011 (mayor)', value: 43.4, color: 'green'},
+    ]}
+  />
+</Figure>
+
+Read that figure the way a skeptic would. RCV's core promise — the reason "majority winner" appears in every campaign flyer — quietly shrinks to "majority of unexhausted ballots." In Alaska's special election, 11,243 of Begich's ballots ranked no second choice and vanished from the final round. Graham-Squire and McCune's 182-election study flags this as IRV's *most common* real-world failure: not the exotic paradoxes, but routine "majorities" that aren't.
+
+Why does all this happen? Because instant-runoff counting reads ranked ballots one line at a time. The information that Begich beat everyone head-to-head was *sitting on the ballots* — the count threw it away by filtering candidates on first-choice strength before ever consulting the rest. Any system that eliminates sequentially inherits this; it is not a tabulation bug, and no voter-education campaign fixes it.
+
+<Checkpoint question="A city's IRV race ends with the winner taking 52% in the final round, but 18% of ballots exhausted before that round. An RCV advocate says 'the winner had majority support.' A plurality defender says 'see, RCV is a fraud.' What's the precise truth?">
+  Both are overclaiming. The winner had a majority of *continuing* ballots — 52% of the 82% still alive is about 43% of all votes cast, so "majority support" is unproven. But the plurality defender's gotcha proves too little: under pick-one rules the winner might have taken 35% with *no* information about anyone's second preferences at all. The honest comparison isn't RCV versus an imaginary majority machine; it's RCV versus systems that count every ballot in every round — which ranked ballots collect the data for, and cardinal ballots actually do.
+</Checkpoint>
+
+## Ally, not answer
+
+So here is where I land, and it's not where the louder critics land. The people who call Alaska 2022 a "rigged" election are wrong on the arithmetic — Peltola won the final head-to-head count, and the old closed-primary system would almost certainly have nominated Palin and never told us a consensus candidate existed. RCV is better than what it replaced. The jurisdictions that adopted it are better off than they were.
+
+But "better than plurality" is a low bar, and the documented record — one Condorcet failure in Alaska, one Condorcet-plus-monotonicity failure in Burlington, exhaustion rates up to 27 percent — points at a common root: ranked ballots collect rich information, and elimination-style counting wastes it. The fix isn't to retreat to pick-one voting. It's to stop filtering on first-choice strength and count *everything voters say about every candidate, all at once*. That is exactly what [[term:score-voting]] does, and the comparison chapters make that case in detail.
+
+What this chapter settles: RCV's achievements are real, its three structural weaknesses are documented in real elections, and both things are true at once. What it doesn't settle: whether any alternative actually avoids these failure modes without buying worse ones — every voting system makes trade-offs, and the next chapter takes up the reform that tried to engineer the trade-offs away: STAR.

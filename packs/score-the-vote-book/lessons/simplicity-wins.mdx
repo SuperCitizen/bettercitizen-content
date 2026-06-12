@@ -1,0 +1,110 @@
+---
+schema: bettercitizen.lesson/v1
+slug: simplicity-wins
+kind: reading
+title: Simplicity Wins
+objectives:
+  - Explain precinct-summability and why instant-runoff counts cannot be finalized precinct by precinct
+  - Weigh the ballot-error evidence (Pettigrew and Radley) against its critics and state precisely what survives the critique
+  - Explain why the overvote is structurally impossible under approval voting, and what exhausted ballots cost under IRV
+concepts:
+  - score-voting
+  - ranked-choice-voting
+duration_min: 9
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "Simplicity Wins"'
+  - type: website
+    citation: 'NPR, "The ''Human Error'' That''s Snarling The New York City Mayor''s Race" (June 30, 2021) — about 135,000 test ballots were left in the system and included in the first preliminary ranked-choice tabulation, which was retracted.'
+    url: https://www.npr.org/2021/06/30/1011747612/the-human-error-thats-snarling-the-new-york-city-mayors-race
+  - type: paper
+    citation: 'Stephen Pettigrew & Dylan Radley, "Overvotes, Overranks, and Skips: Mismarked and Rejected Votes in Ranked Choice Voting," *Political Behavior* (2025) — about 1 in 20 voters mismark a typical RCV race; overvote rates of 0.60% in RCV races versus 0.04% in non-RCV races on the same ballots.'
+    url: https://link.springer.com/article/10.1007/s11109-025-10028-4
+  - type: website
+    citation: 'Mathematics and Democracy Institute, "Deficiencies in Recent Research on Ranked Choice Voting Ballot Error Rates" — the critical response: most mismarks do not invalidate ballots, and absolute rates remain small.'
+    url: https://mathematics-democracy-institute.org/deficiencies-in-recent-research-on-ranked-choice-voting-ballot-error-rates/
+  - type: pdf
+    citation: 'Alaska Division of Elections, 2022 Special General Election RCV Tabulation, official results — 11,243 of Begich''s 53,810 transferred ballots ranked neither remaining candidate and exhausted.'
+    url: https://www.elections.alaska.gov/results/22SSPG/RcvDetailedReport.pdf
+  - type: website
+    citation: 'The Center for Election Science, "Fargo''s First Approval Voting Election: Results and Voter Experience" (2020) — voters averaged 2.3 approvals per ballot in the first modern U.S. approval election.'
+    url: https://electionscience.org/newsroom/fargo-s-first-approval-voting-election-results-and-voter-experience
+  - type: website
+    citation: 'The Center for Election Science, "St. Louis Voters Use New Approval Voting System in March Primary Election" (March 2021) — 69,661 approvals on 44,571 ballots (about 1.6 per ballot) in the first approval primary.'
+    url: https://electionscience.org/newsroom/st-louis-voters-use-new-approval-voting-system-in-march-primary-election
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+---
+
+# Simplicity Wins
+
+On June 29, 2021, New York City's Board of Elections published the first preliminary ranked-choice tabulation of its mayoral primary — the most-watched RCV count in American history — and then un-published it. Roughly 135,000 *test ballots*, fed into the system during pre-election checks and never cleared, had been tabulated along with the real ones.
+
+Let me be scrupulously fair, because this story gets weaponized dishonestly: the blunder was the Board's, not the ballot's. Test data in a live count would corrupt a plurality election too. But notice what the counting method did to the blunder. In a plurality race, contaminated totals are one subtraction away from clean ones. In an instant-runoff count, every round's eliminations depend on the round before — the contamination propagated through the entire elimination sequence, the corrected count had to be rerun from scratch, and the Board's public explanation had to begin by explaining how the count works at all. For days, the country's largest city debated its next mayor through the fog of a tabulation error inside a tabulation most voters couldn't check.
+
+Every voting system pays what I call the complexity tax — the cost, in explanation and administration and trust, of being harder than "most votes wins." This chapter is about who pays the least.
+
+## The napkin test
+
+Here is score voting's complete instruction set: *Score every candidate from 0 to 5. Highest total wins.* Approval voting's is shorter: *Vote for every candidate you approve of. Most votes wins.* Eleven words. Both fit on a napkin, a yard sign, or the thirty seconds a poll worker actually gets with a confused voter.
+
+Now write RCV's: rank the candidates in order of preference; don't give two candidates the same ranking; don't skip rankings; if no candidate has a majority of first choices, the last-place candidate is eliminated and those ballots transfer to each voter's next choice; repeat until someone has a majority of the ballots still active. Every clause is a place for a voter to stumble or a skeptic to allege mischief. Most voters can *fill out* a ranked ballot — the data shows that. Far fewer can explain how the winner is determined, and a system whose count is a black box to its own voters is spending trust it may someday need.
+
+There's a structural difference hiding under the word count, and it matters more than the word count. Score and approval are **precinct-summable**: every precinct can post its totals on election night, anyone can add the postings, and the addition *is* the election. IRV is not summable that way — no precinct can run an elimination until every ballot everywhere is in, because eliminations depend on global totals. Centralized tabulation, delayed results, and reruns-from-scratch aren't RCV bugs; they're load-bearing features of elimination counting.
+
+<QuickCheck
+  question="Why can approval-voting results be finalized precinct by precinct, while instant-runoff results cannot?"
+  choices={[
+    {id: 'a', text: 'Approval voting uses electronic machines while RCV requires hand counts'},
+    {id: 'b', text: 'IRV eliminations depend on global totals — no precinct can know who is eliminated until every ballot everywhere is counted — while approval totals are pure addition'},
+    {id: 'c', text: 'They can: RCV precincts simply report their own local winners'},
+    {id: 'd', text: 'Approval ballots contain less information, so there is less to count'},
+  ]}
+  answer="b"
+  explanation="Summability is about the math, not the machinery (a). An IRV round can't begin until the statewide last-place candidate is known, which requires all ballots first — local 'winners' (c) are meaningless mid-elimination. And (d) inverts the lesson: an approval ballot carries *more* usable information than a plurality ballot, yet still counts by simple addition. That combination — more expression, same arithmetic — is the whole pitch."
+/>
+
+## The error evidence — both directions, full strength
+
+In the largest published study of RCV ballot marking, Stephen Pettigrew and Dylan Radley examined cast-vote records across hundreds of ranked races and found that in a typical RCV contest, about 1 voter in 20 mismarks the ballot in at least one way; comparing the same voters on the same physical ballots, overvote rates ran 0.60 percent in RCV races against 0.04 percent in adjacent non-RCV races — fifteen times higher.
+
+<Figure caption="Same voters, same physical ballots: the share containing an overvote (marking more rankings or candidates than allowed), in RCV contests versus non-RCV contests. Read it both ways: both numbers are small — and the gap is real, and in Florida-2000 terms, 0.6 percent is more than sixty times the margin that decided a presidency." source="Pettigrew & Radley, Political Behavior (2025), cast-vote-record analysis">
+  <DataBars
+    unit="% of ballots with an overvote"
+    max={1}
+    bars={[
+      {label: 'RCV races', value: 0.6, color: 'accent'},
+      {label: 'Non-RCV races, same ballots', value: 0.04, color: 'blue'},
+    ]}
+  />
+</Figure>
+
+Now the other side, at full strength, because it's good. Critics of that study — including a detailed review by the Mathematics and Democracy Institute — answer that most mismarks never void a ballot (an overrank or skipped rank usually still counts at the voter's highest valid choice), that fifteen times a small number is still a small number, and that error rates fall as electorates gain experience with the format. All fair. Here's what survives the critique: the *asymmetry*. However small the absolute rates, ranked ballots generate an order of magnitude more marking errors than the simpler format sitting next to them on the same piece of paper — and razor-thin American elections are decided inside margins smaller than that gap.
+
+And here is approval voting's quietly unanswerable card: the overvote — the dominant machine-rejectable error on that chart — is *definitionally impossible* in an approval race. Marking many candidates isn't a spoiled ballot; it's the instruction. A whole category of disenfranchisement doesn't shrink under approval voting. It ceases to exist.
+
+What did real voters do with that freedom? Fargo's first approval election (June 2020) averaged 2.3 approvals per ballot; St. Louis's first (March 2021) logged 69,661 approvals across 44,571 ballots — about 1.6 each. Voters used the wider ballot immediately, on existing optical-scan machines, with results posted election night. I'll concede what an honest reader has already noticed: two cities and a few cycles can't support an error-rate *literature* like the one RCV's critics and defenders are fighting over. The approval claim is structural — a deleted error category and same-night addition — not yet statistical. I'm comfortable resting on structure.
+
+<Checkpoint question="A county clerk asks you to draft the complete voter instruction for an approval race, then list every way a voter could still spoil that race on the ballot. Try it — how short is each list?">
+  Instruction: "Vote for every candidate you approve of. The candidate with the most votes wins." That's the whole thing. Remaining failure modes: essentially stray marks the scanner can't read, or skipping the race entirely — the residual errors every voting system shares. The big one — marking "too many" — is gone, because there is no such thing. Now draft RCV's instructions and error list for comparison, and you've discovered this chapter's argument from the administrator's side of the table.
+</Checkpoint>
+
+## The exhausted-ballot problem
+
+One more complexity cost, often miscounted as voter error when it's really voter abandonment. Under IRV, a ballot that ranks only candidates who get eliminated simply *runs out* — it counts in early rounds, then sits out the finish. In Alaska's 2022 special election, 11,243 of the 53,810 ballots transferring from Nick Begich ranked neither remaining candidate: about 21 percent of his voters were absent from the final round that decided their seat, and the winner's "majority" was a majority of a shrunken denominator. RCV's defenders fairly reply that those voters *chose* brevity, and that a plurality election consults nobody's backup preferences at all. True. But notice that score and approval make the entire dilemma unbuildable: there are no rounds to be exhausted *from*. Every ballot speaks, at full strength, in the only round there is.
+
+## STAR, briefly
+
+Between score's one step and RCV's many sits STAR voting — score candidates 0 to 5, then an automatic runoff between the two highest scorers, using each ballot's scores as the head-to-head vote. It keeps the cardinal ballot and buys some strategic protection at the cost of one extra counting step. I think it's a serious, well-engineered compromise, designed by people on my side of the cardinal family, and it gets a fair full chapter of its own later. For now, the placement: on the simplicity axis that this chapter is about, the family still sorts approval, then score, then STAR, then IRV — and nothing in the STAR chapter will change that ordering.
+
+## Simplicity is a strategy, not just a virtue
+
+Reform has to be *adopted* before it can perform, usually by ballot measure, usually against an opposition whose entire campaign is "this is confusing." Compare the opening bids. Approval voting debuted at 63.5 percent in Fargo and 68 percent in St. Louis. Ranked-choice voting passed Maine with 52.12 percent and Alaska with 50.55 — campaigns won on heroic margins of one or two points. I'll flag the confound myself: two city electorates versus two statewide ones, different years, different opposition spending; this is suggestive, not causal. But every organizer who has knocked doors for both reforms will tell you which pitch survives a doorstep conversation intact — and in the chapter on building the movement, that doorstep is where strategy starts.
+
+## What this chapter settles — and what it doesn't
+
+Settled: simplicity is measurable, not vibes — instruction length, precinct-summability, error surface, exhaustion — and on every one of those measures the cardinal family sits at the simple end while elimination counting sits at the complex end, paying for its expressiveness in administration and explanation. Also settled: the honest size of the error evidence — real asymmetry, small absolutes, contested interpretation.
+
+Not settled: whether simplicity should *win* — whether rankings buy enough expressive value to justify their complexity tax — and what happens to simple cardinal ballots when voters turn tactical. That second question has a chapter-length answer, and it's next: the strategy question.

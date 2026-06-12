@@ -118,7 +118,7 @@ export function MatchUp({
       </p>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem' }}>
         {pairs.map((pair, row) => {
-          const rightIndex = rightOrder[row];
+          const rightIndex = rightOrder[row]!;
           const leftMatched = matched.has(row);
           const rightMatched = matched.has(rightIndex);
           return [
@@ -145,7 +145,7 @@ export function MatchUp({
                 errorPair?.right === rightIndex,
               )}
             >
-              {pairs[rightIndex].right}
+              {pairs[rightIndex]!.right}
               {rightMatched && <strong> ✓</strong>}
             </button>,
           ];

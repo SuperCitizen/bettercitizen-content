@@ -62,7 +62,7 @@ questions:
       - id: d
         text: "The voter is referred for prosecution."
     correct_choice_id: c
-    explanation: "Notice-and-cure is the system's answer to the fact that signature verification produces false positives — and rejection rates run higher for first-time, young, and nonwhite mail voters. In the remaining states a flagged ballot is simply rejected, which is why identical voters' ballots can meet different fates across a state line. Nationally about 0.8% of returned mail ballots were rejected in 2020. A mismatch triggers verification, not prosecution — fraud requires intent, and a shaky signature isn't evidence of it."
+    explanation: "Notice-and-cure is the system's answer to the fact that signature verification produces false positives — and rejection rates run higher for first-time, young, and nonwhite mail voters. In the remaining states a flagged ballot is simply rejected, which is why identical voters' ballots can meet different fates across a state line. Nationally about 1.2% of returned mail ballots were rejected in 2024. A mismatch triggers verification, not prosecution — fraud requires intent, and a shaky signature isn't evidence of it."
     concepts: [mail-ballots]
 
   - id: q5

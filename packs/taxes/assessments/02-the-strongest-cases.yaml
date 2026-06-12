@@ -30,7 +30,7 @@ questions:
       - id: d
         text: "Because the 2012 IGM panel unanimously rejected revenue-raising cuts for the U.S., the same must hold at 85 percent."
     correct_choice_id: b
-    explanation: "The Laffer curve is a constraint with a peak; the empirical fight is the peak's location, which the static benchmark places near 70–73 percent all-in. The IGM panel's unanimity was a verdict about U.S. rates in the mid-40s — on the rising side of every mainstream estimate — not a law that cuts never raise revenue. At 85 percent, the same framework that condemns 'cuts pay for themselves' rhetoric in the U.S. predicts the opposite slope. The discipline is always: locate yourself on the curve before predicting which way revenue moves."
+    explanation: "The Laffer curve is a constraint with a peak; the empirical fight is the peak's location, which the static benchmarks place roughly between 60 and 75 percent (Trabandt–Uhlig's 63 percent, Diamond–Saez's 73 percent). The IGM panel's unanimity was a verdict about U.S. rates in the mid-40s — on the rising side of every mainstream estimate — not a law that cuts never raise revenue. At 85 percent, the same framework that condemns 'cuts pay for themselves' rhetoric in the U.S. predicts the opposite slope. The discipline is always: locate yourself on the curve before predicting which way revenue moves."
     concepts: [taxes, tax-elasticity]
 
   - id: q3

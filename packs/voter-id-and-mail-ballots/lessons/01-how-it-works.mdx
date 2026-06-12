@@ -75,7 +75,7 @@ Everything else — whether you need an excuse to vote by mail, what ID counts, 
 
 Above the NVRA floor, registration policy has been moving — mostly toward automation — for a decade. **Automatic voter registration**, which registers eligible citizens from DMV records unless they decline, began with Oregon in 2015 and has spread to about half the states plus D.C. (NCSL's count as of 2025). **Same-day registration**, which lets a citizen register and vote in one trip, exists in about two dozen states plus D.C.; the political-science literature consistently credits it with the largest [[term:voter-turnout]] effect of any registration reform, on the order of three to five percentage points. Forty-two states plus D.C. take registrations online. About twenty allow 16- and 17-year-olds to pre-register.
 
-The unglamorous counterpart is keeping the rolls accurate as tens of millions of Americans move every year. States check death records and change-of-address data; about two dozen share data through ERIC, the Electronic Registration Information Center, an interstate compact that flags duplicate registrations and voters who have moved — and which lost a third of its members in a politicized 2022–23 exodus, leaving the cross-state matching problem it was built to solve partially unsolved. Registration errors — the deceased voter still listed, the student registered in two states — are common, and they are the kernel of truth inside most viral "dirty rolls" claims. What they are not, by themselves, is fraud: an obsolete entry only matters if someone votes on it, and the documented instances of that are the subject of Lesson 2.
+The unglamorous counterpart is keeping the rolls accurate as tens of millions of Americans move every year. States check death records and change-of-address data; about two dozen share data through ERIC, the Electronic Registration Information Center, an interstate compact that flags duplicate registrations and voters who have moved — and which lost nine member states in a politicized 2022–23 exodus, leaving the cross-state matching problem it was built to solve partially unsolved. Registration errors — the deceased voter still listed, the student registered in two states — are common, and they are the kernel of truth inside most viral "dirty rolls" claims. What they are not, by themselves, is fraud: an obsolete entry only matters if someone votes on it, and the documented instances of that are the subject of Lesson 2.
 
 <QuickCheck
   question="An audit finds 1,500 deceased people still listed on a county's voter rolls. By itself, that finding is evidence of…"
@@ -121,38 +121,39 @@ Oregon went first, by 1998 ballot initiative, and has run every election by mail
 
 What happens to a mail ballot after the voter signs the envelope is where security design actually lives, and it is the part of the system almost nobody can describe. The figure traces it.
 
-<Figure caption="Every mail ballot travels this path. States differ at step 1 (who gets a ballot), step 3 (drop boxes allowed? postmark or receipt deadline?), step 4 (signature match vs. ID number vs. witness requirement), and step 5 (whether and how voters can cure defects). The verification-and-cure stage, not the mailbox, is where mail-ballot security actually operates.">
-  <svg viewBox="0 0 720 250" width="100%" role="img" aria-label="Flow diagram of a mail ballot's life in six steps: ballot goes out, voter marks and signs, ballot returns by mail or drop box, election office verifies the envelope, problems go to a cure process, verified ballots are counted and audited" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-    <text x="20" y="24" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="var(--ink, #14130f)">The life of a mail ballot</text>
-    <rect x="20" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" stroke-width="2" />
-    <text x="120" y="68" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">1. Ballot goes out</text>
-    <text x="120" y="88" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">automatically (all-mail) or on request</text>
-    <rect x="260" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" stroke-width="2" />
-    <text x="360" y="68" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">2. Voter marks ballot,</text>
-    <text x="360" y="88" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">signs the return envelope</text>
-    <rect x="500" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" stroke-width="2" />
-    <text x="600" y="68" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">3. Returned by mail,</text>
-    <text x="600" y="88" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">drop box, or in person</text>
-    <line x1="220" y1="73" x2="260" y2="73" stroke="var(--ink, #14130f)" stroke-width="2" />
-    <line x1="460" y1="73" x2="500" y2="73" stroke="var(--ink, #14130f)" stroke-width="2" />
-    <line x1="600" y1="102" x2="600" y2="130" stroke="var(--ink, #14130f)" stroke-width="2" />
-    <rect x="500" y="130" width="200" height="58" rx="6" fill="none" stroke="var(--gold, #b08a3e)" stroke-width="2.5" />
-    <text x="600" y="154" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">4. Envelope verified:</text>
-    <text x="600" y="174" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">signature match / ID number / witness</text>
-    <line x1="500" y1="159" x2="460" y2="159" stroke="var(--ink, #14130f)" stroke-width="2" />
-    <rect x="260" y="130" width="200" height="58" rx="6" fill="none" stroke="var(--accent, #8a2a1e)" stroke-width="2" stroke-dasharray="6,4" />
-    <text x="360" y="154" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">5. Problem? Notice + cure</text>
-    <text x="360" y="174" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">voter fixes signature/ID by deadline</text>
-    <line x1="260" y1="159" x2="220" y2="159" stroke="var(--ink, #14130f)" stroke-width="2" />
-    <rect x="20" y="130" width="200" height="58" rx="6" fill="var(--green, #4a6b3a)" fill-opacity="0.12" stroke="var(--green, #4a6b3a)" stroke-width="2.5" />
-    <text x="120" y="154" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">6. Counted — and checked</text>
-    <text x="120" y="174" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">in post-election audits</text>
-    <text x="20" y="222" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">Rejected if unverified and uncured: about 0.8% of returned mail ballots nationally in 2020 (EAVS),</text>
-    <text x="20" y="240" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">higher for first-time mail voters — which is why steps 4 and 5 carry most of the policy argument.</text>
+<Figure caption="Every mail ballot travels this path. States differ at step 1 (who gets a ballot), step 3 (drop boxes allowed? postmark or receipt deadline?), step 4 (signature match vs. ID number vs. witness requirement), and step 5 (whether and how voters can cure defects). The verification-and-cure stage, not the mailbox, is where mail-ballot security actually operates. Rejected if unverified and uncured: about 1.2% of returned mail ballots nationally in 2024 (EAVS), higher for first-time mail voters — which is why steps 4 and 5 carry most of the policy argument.">
+  <svg viewBox="0 0 720 208" width="100%" role="img" aria-label="Flow diagram of a mail ballot's life in six steps: ballot goes out, voter marks and signs, ballot returns by mail or drop box, election office verifies the envelope, problems go to a cure process, verified ballots are counted and audited" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+    <text x="20" y="24" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">The life of a mail ballot</text>
+    <rect x="20" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
+    <text x="120" y="68" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">1. Ballot goes out</text>
+    <text x="120" y="84" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">automatically (all-mail)</text>
+    <text x="120" y="98" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">or on request</text>
+    <rect x="260" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
+    <text x="360" y="68" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">2. Voter marks ballot,</text>
+    <text x="360" y="88" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">signs the return envelope</text>
+    <rect x="500" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
+    <text x="600" y="68" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">3. Returned by mail,</text>
+    <text x="600" y="88" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">drop box, or in person</text>
+    <line x1="220" y1="73" x2="260" y2="73" stroke="var(--ink, #14130f)" strokeWidth="2" />
+    <line x1="460" y1="73" x2="500" y2="73" stroke="var(--ink, #14130f)" strokeWidth="2" />
+    <line x1="600" y1="102" x2="600" y2="130" stroke="var(--ink, #14130f)" strokeWidth="2" />
+    <rect x="500" y="130" width="200" height="58" rx="6" fill="none" stroke="var(--gold, #b08a3e)" strokeWidth="2.5" />
+    <text x="600" y="154" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">4. Envelope verified:</text>
+    <text x="600" y="170" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">signature match,</text>
+    <text x="600" y="184" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">ID number, or witness</text>
+    <line x1="500" y1="159" x2="460" y2="159" stroke="var(--ink, #14130f)" strokeWidth="2" />
+    <rect x="260" y="130" width="200" height="58" rx="6" fill="none" stroke="var(--accent, #8a2a1e)" strokeWidth="2" strokeDasharray="6,4" />
+    <text x="360" y="154" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">5. Problem? Notice + cure</text>
+    <text x="360" y="170" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">voter fixes signature/ID</text>
+    <text x="360" y="184" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">by deadline</text>
+    <line x1="260" y1="159" x2="220" y2="159" stroke="var(--ink, #14130f)" strokeWidth="2" />
+    <rect x="20" y="130" width="200" height="58" rx="6" fill="var(--green, #4a6b3a)" fillOpacity="0.12" stroke="var(--green, #4a6b3a)" strokeWidth="2.5" />
+    <text x="120" y="154" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">6. Counted — and checked</text>
+    <text x="120" y="174" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">in post-election audits</text>
   </svg>
 </Figure>
 
-Three details from that pipeline carry most of the policy weight. *Verification:* most states compare the envelope signature against registration records; some instead or additionally require an ID number (Georgia since 2021, Texas since 2021) or a witness signature. *Deadlines:* more than half of states require ballots to be *received* by Election Day; the rest count ballots *postmarked* by Election Day and arriving within a grace window — the difference decides tens of thousands of ballots in every close state. *Cure:* in roughly two-thirds of states, officials must notify a voter whose envelope fails verification and give them a window to fix it; in the rest, a flagged ballot is simply rejected. Nationally about 0.8 percent of returned mail ballots were rejected in 2020, with first-time mail voters rejected at multiples of that rate — and studies in Georgia and Florida have found rejection falling disproportionately on younger and nonwhite voters, a fact every perspective in Lesson 2 has to account for.
+Three details from that pipeline carry most of the policy weight. *Verification:* most states compare the envelope signature against registration records; some instead or additionally require an ID number (Georgia since 2021, Texas since 2021) or a witness signature. *Deadlines:* more than half of states require ballots to be *received* by Election Day; the rest count ballots *postmarked* by Election Day and arriving within a grace window — the difference decides tens of thousands of ballots in every close state. *Cure:* in roughly two-thirds of states, officials must notify a voter whose envelope fails verification and give them a window to fix it; in the rest, a flagged ballot is simply rejected. Nationally about 1.2 percent of returned mail ballots — roughly 584,000 — were rejected in 2024, with first-time mail voters rejected at multiples of that rate — and studies in Georgia and Florida have found rejection falling disproportionately on younger and nonwhite voters, a fact every perspective in Lesson 2 has to account for.
 
 <Checkpoint question="Two states both require mail ballots 'by Election Day.' In State A, a ballot postmarked Monday and delivered Thursday counts; in State B it doesn't. A campaign lawyer says one of these states is 'counting late votes.' Is that right?">
   No — both ballots were *cast* on time; the states differ on **receipt vs. postmark deadlines**. State A counts ballots postmarked by Election Day arriving within its grace period; State B requires physical receipt by poll close. Neither involves voting after Election Day. The rhetorical frame "counting late votes" trades on conflating when a ballot is cast with when the Postal Service delivers it — and the choice between the two rules is pure state law, which is why post-election counting takes longer in some states than others.

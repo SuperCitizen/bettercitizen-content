@@ -1,0 +1,19 @@
+slug: law-and-economics-center
+name: Law & Economics Center
+kind: think-tank
+subtype: university-affiliated
+description: "Academic center at George Mason University's Antonin Scalia Law School that applies economic analysis to legal questions. Best known for its long-running economics seminars for sitting federal and state judges — a direct, if quiet, channel of influence on the bench."
+website: https://masonlec.org
+jurisdiction: national
+partisan_lean: center-right
+parent_org: george-mason-university
+org_relationship: unit-of
+ideology_tags:
+  - classical-liberalism
+influence_channels:
+  - judicial-education
+  - policy-research
+concept_tags:
+  - think-tank
+  - judicial-review
+is_active: true

@@ -1,0 +1,120 @@
+schema: bettercitizen.assessment/v1
+lesson: how-the-court-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A wire-service headline reads: 'Supreme Court upholds Ninth Circuit climate-disclosure ruling, turning away ChemCorp's appeal.' In fact, the Court simply denied certiorari. What did that denial establish about the merits?"
+    choices:
+      - id: a
+        text: "That at least five justices agree with the Ninth Circuit's reasoning"
+      - id: b
+        text: "Nothing — a denial of certiorari sets no precedent and implies no agreement with the decision below"
+      - id: c
+        text: "That the Ninth Circuit's rule now binds every federal court as national precedent"
+      - id: d
+        text: "That the justices reviewed the full record and found no reversible error below"
+    correct_choice_id: b
+    explanation: >-
+      Roughly 98 percent of petitions end in denial, and Rule 10's 'compelling
+      reasons' are about the legal system — above all circuit splits and national
+      importance — not about whether the decision below was correct. The Court does
+      not sit to correct every error, so a denial leaves the lower court's ruling in
+      place for those parties while creating no precedent and signaling nothing
+      about the justices' views. The headline's mistake is confusing a decision not
+      to hear a case with a decision.
+    concepts: [judicial-branch, precedent]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Four justices are convinced a death-row petitioner's case deserves full review — and they also want to halt the scheduled execution while the Court considers it. Acting without a fifth vote, what can they accomplish?"
+    choices:
+      - id: a
+        text: "Grant certiorari and stay the execution — the rule of four covers both"
+      - id: b
+        text: "Stay the execution but not grant review — emergency relief is deliberately easier to obtain than full argument"
+      - id: c
+        text: "Grant certiorari only — a stay requires five votes, so they cannot pause what happens below while the case is heard"
+      - id: d
+        text: "Nothing — both review and emergency relief require a majority of five"
+    correct_choice_id: c
+    explanation: >-
+      The rule of four is a deliberate minority-protecting device for the Court's
+      agenda: four justices suffice to grant review, which keeps five justices from
+      controlling the docket completely. But granting a stay takes five votes — the
+      mismatch the lesson flags, under which four justices can force a case to be
+      heard yet cannot pause the ruling below while it is. Stay applications run on
+      the Court's second track, the emergency (shadow) docket, where relief is
+      granted or denied in days, often by unsigned order.
+    concepts: [judicial-branch]
+
+  - id: q3
+    kind: multiple-choice
+    text: "At conference, a justice concludes the petitioner should win — but for entirely different reasons than the five-justice majority gives. What does she write, and whose reasoning binds the lower courts?"
+    choices:
+      - id: a
+        text: "A dissent — rejecting the majority's reasoning is precisely what dissents are for"
+      - id: b
+        text: "A concurrence, which binds lower courts with the same force as the opinion of the Court"
+      - id: c
+        text: "A second opinion of the Court, since the outcome now commands six votes"
+      - id: d
+        text: "A concurrence — and it is the majority opinion, not her alternative reasoning, that binds every other court as precedent"
+    correct_choice_id: d
+    explanation: >-
+      A justice who agrees with the outcome but not the reasoning writes a
+      concurrence; dissents are for those who disagree with the outcome itself.
+      Under stare decisis, the majority opinion is what binds every other court in
+      the country once the decision is announced — which is why opinion assignment
+      is real power, and why the author of a bare 5–4 majority writes narrowly
+      enough to hold five votes through every draft.
+    concepts: [precedent, stare-decisis]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Stephen Vladeck's count became the shadow-docket debate's central statistic. What did it document?"
+    choices:
+      - id: a
+        text: "That the emergency docket was created in 2015, the year William Baude began studying it"
+      - id: b
+        text: "That the federal government sought emergency relief 8 times across the sixteen Bush and Obama years, then 41 times in the first Trump administration's four years — with the Court granting relief in most of those cases"
+      - id: c
+        text: "That the number of argued merits cases surged alongside the emergency docket"
+      - id: d
+        text: "That most emergency applications are denied, making the docket's growth largely symbolic"
+    correct_choice_id: b
+    explanation: >-
+      The emergency track itself is old; what changed was who used it, how often,
+      and for what stakes. Vladeck's numbers — eight government applications in
+      sixteen years, then forty-one in four — captured a surge in which major
+      policies on immigration, the census, COVID-era restrictions, and abortion were
+      effectively set or unset by orders issued at speed, sometimes near midnight,
+      without argument or a signed majority opinion. Baude's 2015 contribution was
+      the name, not the practice; and the merits docket did not grow — recent argued
+      Terms have often run nearer sixty cases.
+    concepts: [judicial-branch]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Justice Kagan called the Court's shadow-docket decisionmaking 'unreasoned,
+      inconsistent, and impossible to defend'; its defenders answer that emergencies
+      are real and that demanding full opinions on a days-long clock would produce
+      worse reasoning, not better. Steel-man both positions, then take your own:
+      what would a legitimate emergency docket look like, and what would you require
+      it to give up?
+    concepts: [judicial-branch, precedent]
+    socratic_seed: >-
+      Hold both steel-men to the lesson's strongest material. The critique: orders
+      that set or unset major national policies arrive in days, sometimes near
+      midnight, unsigned and with little or no stated reasoning — and the practice
+      grew fast, from eight government applications in sixteen years to forty-one in
+      four. The defense: emergencies do not wait, lower courts issuing nationwide
+      injunctions forced the Court's hand, and rushed full opinions would be worse
+      than none. Press on Hamilton's premise that the judiciary holds neither force
+      nor will but merely judgment — what is judgment worth when its reasons go
+      unstated? Note the details that sharpen the puzzle: a stay takes five votes
+      while certiorari takes four, and the Court has begun setting some emergency
+      applications for argument — does that adjustment answer Kagan's charge or
+      concede it? Close by asking which element of the combination — speed, force,
+      or silence — the learner would surrender first, and what their answer would
+      cost in a genuine emergency.

@@ -1,0 +1,132 @@
+schema: bettercitizen.assessment/v1
+lesson: how-the-information-ecosystem-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      An outlet is free to readers and earns nearly all of its revenue from
+      advertising sold against engagement. Based on the economics of news,
+      which systematic error should you most expect from it?
+    choices:
+      - id: a
+        text: Routinely publishing outright fabricated stories, since accuracy has no commercial value.
+      - id: b
+        text: Selecting and framing stories for emotional engagement, so coverage skews toward the arresting and away from the merely important.
+      - id: c
+        text: Suppressing all political coverage, since politics alienates advertisers.
+      - id: d
+        text: No systematic error — advertising funding has no documented effect on content.
+    correct_choice_id: b
+    explanation: >-
+      The ad-funded model sells audience attention, so its predictable bias is
+      in selection and emphasis, not wholesale fabrication — fabrication
+      destroys the audience trust the model needs (and invites libel exposure),
+      while engagement-chasing quietly reshapes what gets covered. This is
+      Hamilton's core finding in All the News That's Fit to Sell: market
+      incentives drive content choices, like the documented drift from hard to
+      soft news under cable competition. Knowing an outlet's funding tells you
+      which errors to expect, not that every story is false.
+    concepts: [clickbait, bias]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Northwestern's State of Local News 2025 report documents the collapse of
+      American local newspapers. Which pairing of figure and civic consequence
+      is supported by the lesson?
+    choices:
+      - id: a
+        text: About 500 papers lost since 2005; the main consequence is reduced sports coverage.
+      - id: b
+        text: About 3,500 papers lost since 2005, with 213 news-desert counties — and studies tie closures to measurably higher municipal borrowing costs.
+      - id: c
+        text: About 10,000 papers lost since 2005; the main consequence is that national outlets stopped covering politics.
+      - id: d
+        text: Local papers have declined only slightly, but trust in them has collapsed below trust in national outlets.
+    correct_choice_id: b
+    explanation: >-
+      Medill counts roughly 3,500 newspapers gone since 2005, 213 counties with
+      no local news source at all, and closures continuing at more than two per
+      week. The civic stakes are measurable — Gao, Lee & Murphy (2020) found
+      municipal borrowing costs rise 5 to 11 basis points after a closure,
+      because no one is left watching the budget. Note that trust runs the
+      other way from option (d): Americans still trust local news (70%) more
+      than national news (56%) in Pew's 2025 data.
+    concepts: [fourth-estate]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      A podcaster spends an hour discussing a story they read on an aggregator
+      site, which had rewritten an Associated Press dispatch filed by one
+      reporter at a county courthouse. How many independent acts of original
+      reporting stand behind the podcast episode?
+    choices:
+      - id: a
+        text: Three — the podcaster, the aggregator, and the AP each count as sources.
+      - id: b
+        text: Two — the aggregator and the AP both published articles.
+      - id: c
+        text: One — the AP reporter's; everything downstream is derivative repackaging.
+      - id: d
+        text: Zero — podcasts and aggregators are not journalism, so no reporting exists.
+    correct_choice_id: c
+    explanation: >-
+      Only the wire reporter gathered facts at the source; the aggregator
+      repackaged that reporting and the podcaster added commentary. The
+      pipeline can multiply one act of reporting into hundreds of artifacts
+      that all inherit its strengths and its errors — which is why
+      verification counts independent origins, not republications. Option (d)
+      overcorrects: the AP dispatch is genuine original reporting, and
+      commentary layered on it can still add real expertise.
+    concepts: [citizen-journalism, source-criticism]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      In 2027, a county commissioner is caught on a city-hall microphone
+      promising a contractor favorable treatment. The audio is authentic and
+      multiple people in the room confirm it. His response: "In the age of AI,
+      you can't believe any recording." Which concept from the lesson does
+      this illustrate?
+    choices:
+      - id: a
+        text: The liar's dividend — the known existence of deepfakes becomes an alibi against real evidence.
+      - id: b
+        text: A data void — search engines return only low-quality sources for the claim.
+      - id: c
+        text: The filter bubble — the commissioner's supporters never see the story.
+      - id: d
+        text: Syndication — one recording republished by many outlets counts as one source.
+    correct_choice_id: a
+    explanation: >-
+      The liar's dividend is synthetic media's second-order harm: once
+      convincing fakes are known to exist, anyone caught on a real recording
+      can shout "deepfake," taxing all recorded evidence. Here the recording
+      is corroborated by witnesses, so the commissioner is exploiting the
+      possibility of fakery rather than offering evidence of it. The other
+      options name real ecosystem phenomena, but none describes using AI's
+      existence to discredit authentic material.
+    concepts: [deepfake, disinformation]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Your county's 140-year-old newspaper closed last year. This month a
+      polished free site, the "Hartwell County Gazette," launched with daily
+      county coverage. What would you check to decide whether it is a genuine
+      replacement for the lost watchdog — and what is the realistic worst case
+      if nobody checks?
+    socratic_seed: >-
+      Strong answers separate identity checks from quality checks: who owns and
+      funds it (masthead, about page, state business filings, the app's source
+      profiles), whether staff are named and reachable, whether it discloses a
+      corrections policy, and whether its story selection serves readers or a
+      funder. The worst case is the pink-slime pattern NewsGuard documented —
+      1,265 partisan-funded sites posing as local news, outnumbering the
+      surviving daily papers by 2024 — which exploits exactly the trust the
+      dead paper left behind: the form of local journalism with an agenda where
+      the accountability used to be. Push students past "check if it's
+      accurate": a pink-slime site can be factually accurate story-by-story
+      while remaining deceptive in selection, framing, and omission.
+    concepts: [astroturfing, source-criticism, fourth-estate]

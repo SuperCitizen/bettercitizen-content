@@ -2,12 +2,14 @@ schema: bettercitizen.content/v1
 slug: how-bills-become-law
 title: How a bill becomes law
 summary: The actual path from a senator or representative's idea to an enacted
-  federal law — committee, floor, conference, and the President's desk — plus how
-  modern lawmaking really works (leadership packages, omnibus bills, continuing
-  resolutions, reconciliation) and the vetogate arithmetic of why most bills die.
+  federal law — committee, floor, conference, and the President's desk. Then the
+  way modern lawmaking really works, where leadership-negotiated packages, omnibus
+  bills, continuing resolutions, and reconciliation have displaced the textbook
+  diagram. The pack closes with the vetogate arithmetic — 218, 51, 60, 67 — that
+  explains in advance where most bills die.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.2.0
+version: 1.3.0
 tags:
   - civics-101
 level: intro

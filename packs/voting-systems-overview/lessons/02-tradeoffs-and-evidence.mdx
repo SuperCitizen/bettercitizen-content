@@ -21,15 +21,15 @@ sources:
     citation: 'Gibbard, A., "Manipulation of Voting Schemes: A General Result," Econometrica 41 (1973): 587–601'
   - type: paper
     citation: 'Satterthwaite, M., "Strategy-proofness and Arrow''s conditions," Journal of Economic Theory 10 (1975): 187–217'
-  - type: paper
-    url: https://www.equal.vote/vse_paper
-    citation: 'Quinn, J., "Voter Satisfaction Efficiency," Equal Vote Coalition (simulation methodology paper)'
-  - type: paper
-    url: https://electionlab.mit.edu/research/elections-performance-index
+  - type: website
+    url: https://electionscience.github.io/vse-sim/
+    citation: 'Quinn, J., "Voter Satisfaction Efficiency: FAQ and simulation results" (Center for Election Science vse-sim) — the simulation methodology behind VSE claims'
+  - type: website
+    url: https://electionlab.mit.edu/research/projects/election-performance-index
     citation: "MIT Election Data + Science Lab, Elections Performance Index — turnout & administration data"
-  - type: paper
-    url: https://protectdemocracy.org/work/electoral-reform-research/
-    citation: 'Protect Democracy, "Electoral Reform Research" — meta-survey of empirical RCV studies'
+  - type: website
+    url: https://www.americanbar.org/groups/public_interest/election_law/american-democracy/our-work/what-we-know-about-ranked-choice-voting-2025/
+    citation: 'American Bar Association, "What We Know About Ranked Choice Voting" (updated 2025) — survey of the empirical RCV literature'
   - type: book
     citation: 'Riker, W. H. (1982), Liberalism Against Populism: A Confrontation Between the Theory of Democracy and the Theory of Social Choice, W. H. Freeman — the classic argument for what Arrow''s result means for democratic theory.'
   - type: website
@@ -71,7 +71,7 @@ Graded on those questions, the five systems separate:
 - **Approval**'s strategy is threshold-setting — how good is good enough to check? — but approving your sincere favorite can never backfire on them.
 - **RCV** rewards sincere first choices in the overwhelming majority of real contests; its known failure modes (a favorite ranked first can, in rare "non-monotonic" configurations, be hurt by gaining support) require information no real campaign has. The practical cost is subtler: voters who rank only one candidate ("truncation") risk exhausted ballots, not backfires.
 - **Score** is the most strategic on paper: with any information about the front-runners, your optimal ballot is min-max — top score for your side of the race, zero for the other, nothing in between — which collapses [[term:score-voting]] into approval voting among strategic voters.
-- **STAR** was engineered against exactly that: because the runoff counts only *which finalist you scored higher*, flattening your ballot to 5s and 0s throws away your runoff voice among your 5s. Honest middle scores stay rational — in simulations. No public election has tested it.
+- **STAR** was engineered against exactly that: because the runoff counts only *which finalist you scored higher*, flattening your ballot to 5s and 0s throws away your runoff voice among your 5s. Honest middle scores stay rational — in simulations, notably Jameson Quinn's "voter satisfaction efficiency" models, the literature STAR advocates lean on hardest. No public election has tested it.
 
 ## Counting, auditing, and the Condorcet question
 
@@ -81,20 +81,20 @@ The second is the **Condorcet criterion**: does the system always elect the cand
 
 <Figure caption="The center-squeeze configuration behind Burlington 2009. Any system that filters on first-choice strength — plurality, runoffs, IRV — can eliminate the candidate a majority prefers to every alternative.">
 <svg viewBox="0 0 720 240" width="100%" role="img" aria-label="A left-right spectrum with three candidates: Left with 35 percent first choices, Center with 28 percent, Right with 37 percent. The center candidate would win either head-to-head matchup but is eliminated first under instant runoff." style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="26" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="var(--ink, #14130f)">Center squeeze: why elimination order matters</text>
-  <line x1="40" y1="120" x2="680" y2="120" stroke="var(--line, #d9d5c9)" stroke-width="2" />
-  <text x="40" y="142" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">left</text>
-  <text x="680" y="142" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="end">right</text>
+  <text x="20" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Center squeeze: why elimination order matters</text>
+  <line x1="40" y1="120" x2="680" y2="120" stroke="var(--line, #d9d5c9)" strokeWidth="2" />
+  <text x="40" y="142" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">left</text>
+  <text x="680" y="142" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">right</text>
   <circle cx="150" cy="120" r="26" fill="var(--blue, #2f4d6e)" />
-  <text x="150" y="125" font-family="Georgia, serif" font-size="12.5" fill="#ffffff" text-anchor="middle">L: 35%</text>
+  <text x="150" y="125" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">L: 35%</text>
   <circle cx="360" cy="120" r="22" fill="var(--gold, #b08a3e)" />
-  <text x="360" y="125" font-family="Georgia, serif" font-size="12.5" fill="#ffffff" text-anchor="middle">C: 28%</text>
+  <text x="360" y="125" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">C: 28%</text>
   <circle cx="570" cy="120" r="27" fill="var(--accent, #8a2a1e)" />
-  <text x="570" y="125" font-family="Georgia, serif" font-size="12.5" fill="#ffffff" text-anchor="middle">R: 37%</text>
-  <text x="360" y="78" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle">C is the second choice of nearly all L and R voters —</text>
-  <text x="360" y="94" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle">C beats L head-to-head and beats R head-to-head</text>
-  <text x="360" y="178" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle">But C has the fewest first choices, so instant runoff eliminates C first.</text>
-  <text x="360" y="198" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)" text-anchor="middle">Final round: L vs. R. The consensus candidate never gets there. (Plurality fails the same way.)</text>
+  <text x="570" y="125" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">R: 37%</text>
+  <text x="360" y="78" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">C is the second choice of nearly all L and R voters —</text>
+  <text x="360" y="94" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">C beats L head-to-head and beats R head-to-head</text>
+  <text x="360" y="178" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">But C has the fewest first choices, so instant runoff eliminates C first.</text>
+  <text x="360" y="198" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle">Final round: L vs. R. The consensus candidate never gets there. (Plurality fails the same way.)</text>
 </svg>
 </Figure>
 

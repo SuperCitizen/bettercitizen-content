@@ -65,22 +65,22 @@ function computeRounds(candidates: string[], ballots: RankedChoiceBallot[]): Rou
     for (const b of ballots) {
       const top = b.ranking.find((n) => inRace.has(n) && !eliminated.has(n));
       if (top === undefined) exhausted += b.count;
-      else tallies[top] += b.count;
+      else tallies[top] = (tallies[top] ?? 0) + b.count;
     }
     const active = total - exhausted;
     const threshold = Math.floor(active / 2) + 1;
     const remaining = candidates.filter((c) => !eliminated.has(c));
     if (remaining.length === 0) break;
 
-    let leader = remaining[0];
-    for (const c of remaining) if (tallies[c] > tallies[leader]) leader = c;
+    let leader = remaining[0]!;
+    for (const c of remaining) if (tallies[c]! > tallies[leader]!) leader = c;
     if (rounds.length === 0) {
       narration =
         exhausted > 0
           ? `First preferences counted; ${formatNumber(exhausted)} ballots ranked no candidate and are exhausted.`
           : 'First preferences counted.';
     }
-    const wonByMajority = tallies[leader] >= threshold;
+    const wonByMajority = tallies[leader]! >= threshold;
     const winner = wonByMajority || remaining.length === 1 ? leader : null;
     rounds.push({
       tallies,
@@ -98,8 +98,8 @@ function computeRounds(candidates: string[], ballots: RankedChoiceBallot[]): Rou
     // Tie-break: when candidates tie for the lowest tally, eliminate the one
     // latest in the candidates array. `remaining` preserves candidates-array
     // order, so `<=` lets a later equal entry win the elimination.
-    let lowest = remaining[0];
-    for (const c of remaining) if (tallies[c] <= tallies[lowest]) lowest = c;
+    let lowest = remaining[0]!;
+    for (const c of remaining) if (tallies[c]! <= tallies[lowest]!) lowest = c;
 
     const before = new Set(eliminated);
     eliminated.add(lowest);
@@ -153,11 +153,11 @@ export function RankedChoiceSim({
   }
 
   const index = Math.min(roundIndex, rounds.length - 1);
-  const round = rounds[index];
+  const round = rounds[index]!;
   const isFirst = index === 0;
   const isLast = index === rounds.length - 1;
   const totalBallots = round.active + round.exhausted;
-  const round1Leader = rounds[0].leader;
+  const round1Leader = rounds[0]!.leader;
 
   const mutedSmall = { fontSize: '0.78rem', color: tokens.muted } as const;
 

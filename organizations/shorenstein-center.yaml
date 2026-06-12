@@ -1,0 +1,18 @@
+slug: shorenstein-center
+name: Shorenstein Center on Media, Politics and Public Policy
+kind: think-tank
+subtype: university-affiliated
+description: "Research center at Harvard Kennedy School studying the intersection of press, politics, and public policy, founded in 1986. Its research on misinformation, local news decline, and campaign coverage shapes how journalists and platforms think about political information."
+website: https://shorensteincenter.org
+jurisdiction: national
+partisan_lean: center-left
+parent_org: harvard-kennedy-school
+org_relationship: unit-of
+influence_channels:
+  - policy-research
+  - public-education
+concept_tags:
+  - misinformation
+  - fourth-estate
+  - citizen-journalism
+is_active: true

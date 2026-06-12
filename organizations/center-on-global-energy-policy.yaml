@@ -1,0 +1,16 @@
+slug: center-on-global-energy-policy
+name: Center on Global Energy Policy
+kind: think-tank
+subtype: university-affiliated
+description: "Energy policy research center at Columbia University's School of International and Public Affairs. Produces data-driven analysis on energy markets, climate policy, and energy security that is consumed across the partisan spectrum, and its scholars rotate through senior energy roles in government."
+website: https://www.energypolicy.columbia.edu
+jurisdiction: national
+partisan_lean: none
+parent_org: columbia-university
+org_relationship: unit-of
+influence_channels:
+  - policy-research
+  - legislative-testimony
+concept_tags:
+  - think-tank
+is_active: true

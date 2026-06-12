@@ -1,4 +1,4 @@
-# SuperCitizen lesson authoring standard
+# BetterCitizen lesson authoring standard
 
 This guide governs every lesson in `packs/`. The bar: a chapter a college senior
 in a political science seminar would *want* to read — rigorous enough to cite,
@@ -118,6 +118,32 @@ not `class=`, style **objects** not style strings, `{/* … */}` not
   only. (Content must stay auditable and safe.)
 - `~~text~~` is GFM strikethrough. Never use `~~` around numbers to mean
   "approximately" — write "about 56,000" or use a single `~`.
+
+### Hand-drawn SVG layout (the part generators get wrong)
+
+The two failure modes that make a figure look broken are text running past
+the viewBox edge and labels sitting on top of connector lines. The rules
+that prevent them:
+
+- **Compose in row lanes.** Source box(es) in one column, destination boxes
+  in another, one row per relationship. Connectors are **orthogonal**
+  (horizontal/vertical elbows, not bezier fans), and each connector's label
+  sits in its own clear band *above its own horizontal run* — never on,
+  under, or across a line. Exemplar: the money-flow figure in
+  [`money-in-politics-101/01`](packs/money-in-politics-101/lessons/01-the-flow-of-political-money.mdx).
+- **Do the width arithmetic.** Estimated text width ≈ chars × fontSize ×
+  0.56. Every label must fit its run with ≥ 20px to spare inside the
+  viewBox; `textAnchor="middle"` text must fit its box. If it doesn't fit:
+  shorten it, wrap it to a second `<text>` line, or re-anchor it — widen the
+  viewBox only as a last resort.
+- **Captions don't live in the canvas.** Multi-sentence explanations and
+  source notes go in `<Figure caption="…" source="…">`, not in 11px `<text>`
+  crammed along the bottom of the SVG. In-SVG text is for labels.
+- **Keep ≥ 24px vertical clearance** between any label band and any line
+  that crosses the same x-range.
+- **Lint it:** `npm run check:figures` flags likely overflow and
+  label-path collisions (estimates, not proof — but a flag usually means a
+  real problem).
 
 ## Callouts
 

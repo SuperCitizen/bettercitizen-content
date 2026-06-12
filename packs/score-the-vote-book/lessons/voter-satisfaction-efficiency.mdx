@@ -1,0 +1,125 @@
+---
+schema: bettercitizen.lesson/v1
+slug: voter-satisfaction-efficiency
+kind: reading
+title: Voter Satisfaction Efficiency
+objectives:
+  - Explain what VSE measures — its 0 and 100 anchors and its utilitarian assumption about the right winner
+  - Read Quinn's published numbers without retouching (score 96% honest, 84% strategic) and identify the findings that replicate across independent models
+  - Explain why strategic score voting compresses toward approval voting and why that floor is the system's strongest defense
+concepts:
+  - score-voting
+  - instant-runoff
+duration_min: 9
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "Voter Satisfaction Efficiency"'
+  - type: website
+    citation: 'Jameson Quinn, "Voter Satisfaction Efficiency (VSE) summary," electionscience.github.io/vse-sim — published VSE figures: score 0–10 about 96% (honest) to 84% (fully strategic); STAR 91–98%; 3-2-1 voting 92–95%; approval roughly 89–95%; IRV 92% down to 79%; plurality around 75%.'
+    url: https://electionscience.github.io/vse-sim/VSEbasic
+  - type: website
+    citation: 'Jameson Quinn, "Make. All. Votes. Count. (Part II: single-winner)," Medium — methodology of the VSE simulations (hierarchical cluster model of voters; thousands of simulated elections; strategy mixes); plurality typically 70–85%.'
+    url: https://medium.com/@jameson.quinn/make-all-votes-count-part-2-single-winner-5a2fb47123d5
+  - type: website
+    citation: 'RangeVoting.org, "Bayesian Regrets shown graphically" — Warren D. Smith''s 2000 Monte Carlo simulations measuring Bayesian regret across single-winner methods; range voting minimized regret among the methods tested, honest or strategic.'
+    url: https://rangevoting.org/BayRegsFig.html
+  - type: website
+    citation: 'Wikipedia, "2009 Burlington mayoral election" — Andy Montroll was the Condorcet winner (a 54% majority preferred him over Bob Kiss head-to-head) but was eliminated; voters repealed IRV in 2010, 52% to 48%.'
+    url: https://en.wikipedia.org/wiki/2009_Burlington_mayoral_election
+  - type: paper
+    citation: 'Adam Graham-Squire & David McCune, "A Mathematical Analysis of the 2022 Alaska Special Election for US House," arXiv:2209.04764 — the Condorcet winner differed from the instant-runoff winner; the election exhibited a monotonicity paradox and a no-show paradox.'
+    url: https://arxiv.org/abs/2209.04764
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+---
+
+# Voter Satisfaction Efficiency
+
+Here's a question that sounds unanswerable: across every election that could ever happen, which voting method picks the best available candidate most often?
+
+You can't run that experiment on real electorates — you'd need to rerun the same voters through five different systems, and you'd need to read their minds to know how satisfied each outcome left them. So researchers do the next best thing: build the voters. Simulate an electorate whose preferences you know *exactly*, because you wrote them. Run the same simulated voters through plurality, instant runoff, approval, score, STAR. Repeat across thousands of randomized elections — polarized ones, fragmented ones, sleepy two-candidate ones. Then measure how much satisfaction each method delivered compared to the best any method could have done.
+
+That measure is **Voter Satisfaction Efficiency**, and this chapter is my best evidence and my biggest test as an honest advocate — because the numbers help me enormously, and they do not say quite what some of my allies claim.
+
+## The metric, precisely
+
+The standard VSE study was published in 2017 by Jameson Quinn, then a Harvard statistics PhD candidate and an officer of the Center for Election Science, building voters in realistic ideological clusters rather than as random noise. The yardstick works like this: in each simulated election there is one candidate whose victory would maximize the voters' total satisfaction. A method that *always* elects that candidate scores 100 percent. A method that picks winners at random scores 0. Real methods land in between, and the gap they close is their VSE.
+
+The idea has an older sibling. In 2000, the mathematician Warren D. Smith ran massive Monte Carlo simulations measuring "Bayesian regret" — total satisfaction *lost* relative to the ideal pick, the same quantity with the sign flipped. Smith's regret tables and Quinn's VSE tables were built seventeen years apart, with different code and different voter models. Keep that independence in mind when you see how similar their conclusions are.
+
+> **Why this matters:** VSE bakes in a moral assumption — that the right winner is the one maximizing *average* satisfaction across all voters, weighing a minority's intense preferences against a majority's mild ones. That's utilitarianism, named and on the table. If you believe a bare majority's mild preference should always win, you're not disputing the simulations; you're disputing the target. The math chapter takes that argument head-on.
+
+## The numbers, with nothing airbrushed
+
+<Figure caption="VSE with honest voters, per Quinn's published simulations. The reform methods cluster near the ceiling; plurality sits in the basement, about 20 points below the cluster. These are simulation results — estimates from a model, not measurements of real elections." source="J. Quinn, VSE simulations, electionscience.github.io/vse-sim — simulation-based; values are model-dependent">
+  <DataBars
+    unit="% VSE (honest voters)"
+    max={100}
+    bars={[
+      {label: 'STAR (0–5 + runoff)', value: 98, color: 'gold'},
+      {label: 'Score (0–10)', value: 96, color: 'accent'},
+      {label: 'Instant runoff (RCV)', value: 92, color: 'blue'},
+      {label: 'Plurality', value: 75, color: 'ink'},
+    ]}
+  />
+</Figure>
+
+Honest voters are only half the story — the interesting half is what happens when simulated voters scheme. Here is the fuller picture, straight from the published figures:
+
+| Method | VSE, honest voters | VSE, heavily strategic voters |
+| --- | --- | --- |
+| STAR (0–5 plus automatic runoff) | about 98% | about 91% |
+| Score (0–10) | about 96% | about 84% |
+| 3-2-1 voting | 92–95% across strategy mixes | 92–95% across strategy mixes |
+| Approval | 89–95% across strategy mixes | 89–95% across strategy mixes |
+| Condorcet (ranked pairs) | up to 98% | as low as 86% |
+| Instant runoff (RCV) | about 92% | about 79% |
+| Plurality | roughly 70–85% depending on strategy | roughly 70–85% depending on strategy |
+
+Now let me model the honesty I promised, because there's a correction here aimed at my own side. You will find advocates claiming score voting holds 95-plus percent "even with strategic voters." Quinn's published numbers do not say that. They say 96 with honest voters and *84* when everyone strategizes — a twelve-point slide, nearly as steep as IRV's. I'm showing you the real chart because the real chart is still my best argument, and an advocate who needs to retouch his own evidence has already lost.
+
+So what does the real chart say? Three findings survive every scenario Quinn published, and Smith's independent regret tables before him:
+
+First, **plurality is the basement** — roughly twenty points of forfeited satisfaction below the reform cluster, in every run, under every strategy assumption. Second, **the cardinal family owns the ceiling**: score tops the honest-voter chart, STAR barely degrades, and approval is remarkable precisely for its *floor* — even fully strategic approval voting stays around 89 percent, the best worst-case on the board. Third, **IRV is real progress with a real ceiling**: a genuine ten-plus-point gain over plurality, but the lowest strategic floor of any reform shown (79), and even its honest performance trails the cardinal cluster.
+
+<QuickCheck
+  question="A method's VSE is 92%. What does that actually mean?"
+  choices={[
+    {id: 'a', text: '92% of voters are satisfied with the winner'},
+    {id: 'b', text: 'The winner received 92% of the vote in the simulations'},
+    {id: 'c', text: 'Averaged across simulated elections, the method captures 92% of the satisfaction gap between a random winner and the ideal winner'},
+    {id: 'd', text: 'There is a 92% chance the majority’s favorite candidate wins'},
+  ]}
+  answer="c"
+  explanation="VSE is a normalized average: 0% is what random selection delivers, 100% is always electing the satisfaction-maximizing candidate, and a method earns the share of that gap it closes. It says nothing about any single election, any vote share (b), or any individual voter's happiness (a) — and the ideal winner is the utilitarian pick, which is not always the majority favorite (d)."
+/>
+
+## What strategy does to a score ballot — the concession, again
+
+Why does score slide from 96 to 84 while approval barely moves? Because the optimal tactical play on a score ballot is *exaggeration*: identify the two likely front-runners, give your preferred one the maximum, the other the minimum, and push everyone else to an endpoint too. A fully strategic score ballot has no 3s on it — it is an approval ballot wearing extra bubbles. And when exaggeration is aimed using wrong guesses about who's really in contention, it backfires; that mis-aimed aggression is what drags strategic score below approval's band in Quinn's runs.
+
+Critics present this collapse as the gotcha that unravels score voting. Walk through what it actually implies. If voters are honest, score delivers the best satisfaction numbers ever simulated. If voters are ruthless, score becomes approval voting — which *still* outperforms strategic IRV by ten points and plurality by more. The system's failure mode is a system most reformers would crawl over glass to get. That is what graceful degradation means, and it is why this book treats score and approval as one family with one argument: the ceiling belongs to honest scorers, the floor is approval, and the floor is high.
+
+<Checkpoint question="Your honest scores in a three-way race: favorite 5, acceptable compromise 3, feared front-runner 0. Polls say the compromise and the front-runner are neck and neck, with your favorite trailing far behind. What does a coldly tactical voter do with this ballot — and what ballot type has she just reinvented?">
+  She raises the compromise to 5 (maximizing her ballot's force in the only contest likely to matter) and keeps the favorite at 5 and the front-runner at 0 — every score now sits at an endpoint, which is an approval ballot. Notice what she did *not* have to do: lower her true favorite. Strategy under score voting exaggerates; it never forces favorite betrayal. Under plurality, the same tactical logic would have made her abandon her favorite entirely.
+</Checkpoint>
+
+## The center squeeze, run a million times
+
+Simulations earn their keep by quantifying what single elections can only illustrate — but the illustrations are worth having, because IRV's signature failure has now happened twice in marquee American races, and VSE is, in a sense, those stories run at scale.
+
+Burlington, Vermont, 2009: Republican Kurt Wright led the first count, Progressive Bob Kiss won after transfers — and Democrat Andy Montroll, whom a 54 percent majority preferred over Kiss head-to-head (and a larger one over Wright), was eliminated mid-count for the crime of being everyone's strong second choice. Burlington's voters repealed IRV the next year, 52 to 48. Alaska's August 2022 special election repeated the shape at congressional scale: Nick Begich was preferred head-to-head over both Sarah Palin and Mary Peltola, and exited first; the published ballot-data analysis by Adam Graham-Squire and David McCune documents that election's Condorcet failure along with a monotonicity paradox and a no-show paradox — the full bestiary, in one race, in front of the whole country.
+
+This is the "center squeeze": elimination-based counting kills broad-but-not-passionate candidates early, *before* their breadth can ever be counted. Cardinal methods are immune for a boring structural reason — there are no eliminations. Every candidate's full support, mild and intense, sits in the totals from the first moment to the last. (Immune to the squeeze, mind you — not to every failure; score has its own worst case, and I'll build it for you with my own hands in the math chapter.)
+
+## The limits, stated plainly
+
+VSE numbers are model outputs, and models have authors. Change the voter distribution, the number of candidates, the information voters strategize with, and the ceiling reshuffles — in some of Quinn's own scenarios, ranked pairs or STAR edges out score; in Smith's tables, range voting leads more uniformly. Treat any single decimal as decoration. What you should *not* treat as decoration is the structure that never reshuffles, across two researchers, seventeen years apart, with independent code and different assumptions: plurality at the bottom by a chasm, elimination-based ranking in the middle, cardinal methods at the top with the gentlest worst cases. A one-point gap between STAR and score is noise. The twenty-point gap between the cardinal family and the status quo is the signal — and it dwarfs the gaps the reform movement spends most of its energy fighting over.
+
+## What this chapter settles — and what it doesn't
+
+Settled: the simulation literature's verdict on the *shape* of the problem — how far from the ceiling each family sits, and how each degrades under strategy. Score wins the honest world; approval anchors the strategic one; both beat IRV in both worlds, in these models.
+
+Not settled: everything simulations cannot reach. Whether real voters behave like modeled ones. Whether maximizing average satisfaction is even the right goal — the strongest philosophical objection to everything in this chapter, and one I take up in the math chapter with a worked example built against my own side. And whether any of this survives contact with actual city halls, actual lawyers, and actual legislatures — which is exactly where the next chapter goes.

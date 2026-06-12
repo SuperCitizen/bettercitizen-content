@@ -34,7 +34,7 @@ export function Flashcards({ cards, title }: FlashcardsProps) {
 
   const n = deck.length;
   if (n === 0) return null;
-  const card = deck[Math.min(index, n - 1)];
+  const card = deck[Math.min(index, n - 1)]!;
 
   const goTo = (i: number) => {
     setIndex(i);

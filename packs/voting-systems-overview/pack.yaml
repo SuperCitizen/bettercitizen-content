@@ -1,10 +1,10 @@
 schema: bettercitizen.content/v1
 slug: voting-systems-overview
 title: Voting systems — a neutral overview
-summary: How plurality, ranked-choice, score, STAR, and approval voting actually work — what each system does well, what each does poorly, and where the academic + empirical evidence lands. Neutral counterpart to the advocacy books.
+summary: How plurality, ranked-choice (IRV), approval, score, and STAR voting actually work, system by system — what the ballot asks, how the count proceeds, and where each is used as of mid-2026. A second lesson weighs the tradeoffs, from Arrow's theorem and Gibbard–Satterthwaite to the empirical record on turnout, ballot errors, and the Burlington 2009 center squeeze. The neutral counterpart to the two advocacy book packs in this library.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.2.0
+version: 1.3.0
 tags: [voting-systems, electoral-reform, civics-201]
 level: intermediate
 official: true

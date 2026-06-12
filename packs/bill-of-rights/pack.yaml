@@ -1,11 +1,15 @@
 schema: bettercitizen.content/v1
 slug: bill-of-rights
 title: The Bill of Rights
-summary: What the first ten amendments protect, why they were added in 1791, and
-  how the Supreme Court has interpreted them since.
+summary: What the first ten amendments protect, why the Anti-Federalists forced
+  them into the Constitution in 1791, and how their reach has changed since. The
+  pack follows the full arc — Barron v. Baltimore confining the Bill of Rights to
+  the federal government, the Fourteenth Amendment and selective incorporation
+  extending it to the states, and the quiet amendments (Third, Seventh, Ninth,
+  Tenth) that rarely reach a courtroom yet still shape constitutional argument.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.2.0
+version: 1.3.0
 tags:
   - civics-101
 level: intro

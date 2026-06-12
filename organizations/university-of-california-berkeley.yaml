@@ -1,0 +1,11 @@
+slug: university-of-california-berkeley
+name: University of California, Berkeley
+kind: university
+subtype: public-university
+description: "Flagship campus of the University of California system, founded in 1868. Hosts several policy-engaged institutions — the Goldman School of Public Policy, the UC Berkeley Labor Center, and the Othering & Belonging Institute — most of which work from progressive priors."
+website: https://www.berkeley.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

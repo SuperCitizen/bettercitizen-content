@@ -1,0 +1,117 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-path-to-fifty-states
+kind: reading
+title: The Path to Fifty States
+objectives:
+  - Map where every reform actually stands as of mid-2026 — one approval-voting city, two RCV states, nineteen ban states — with verified margins
+  - Explain why most ban statutes prohibit only ranking, leaving cardinal methods legal in seventeen of the nineteen ban states
+  - Sequence the realistic path — home-rule cities first, election-code checks always, legislatures last — and deploy the three existence proofs with their honest caveats
+concepts:
+  - federalism
+  - ballot-initiative
+  - score-voting
+  - ranked-choice-voting
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "The Path to Fifty States"'
+  - type: website
+    citation: 'MPR News, "Lawmakers scrapped Fargo''s novel voting system. Tuesday''s mayoral election goes back to basics" (June 9, 2026).'
+    url: https://www.mprnews.org/story/2026/06/09/fargo-mayoral-election-return-to-traditional-voting
+  - type: website
+    citation: 'North Dakota Legislative Assembly, HB 1297 (2025) bill overview — prohibiting approval and ranked-choice voting and amending city and county home-rule authority.'
+    url: https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo1297.html
+  - type: website
+    citation: 'Ballotpedia News, "Ohio becomes second state this year to ban ranked-choice voting" (Mar. 19, 2026) — 19 states with bans; municipalities in 14 states use RCV.'
+    url: https://news.ballotpedia.org/2026/03/19/ohio-becomes-second-state-this-year-to-ban-ranked-choice-voting/
+  - type: website
+    citation: 'Bridge Michigan, "Ranked-choice voting passed in three cities, but Michigan law prohibits it" — Ferndale (2004), Ann Arbor (2021), East Lansing, Kalamazoo, and Royal Oak (2023) adopted RCV charter provisions that state law blocks from taking effect.'
+    url: https://bridgemi.com/michigan-government/ranked-choice-voting-passed-three-cities-michigan-law-prohibits-it/
+  - type: website
+    citation: 'Utah News Dispatch, "Utah lawmakers may end ranked choice voting pilot program early" (Feb. 2024) — the 2018 Municipal Alternative Voting Methods Pilot Project peaked at 23 cities in 2021, fell to about a dozen in 2023, and sunset on Jan. 1, 2026.'
+    url: https://utahnewsdispatch.com/2024/02/14/utah-ranked-choice-voting-legislature/
+  - type: website
+    citation: 'Central Election Commission of Latvia, "Saeima Elections" — voters mark a "+" for individual candidates on their chosen list and may strike through others; candidates'' final order is set by net plus/minus marks.'
+    url: https://www.cvk.lv/en/saeima-elections
+  - type: website
+    citation: 'Wikipedia, "United Nations secretary-general selection" — Security Council straw polls use encourage/discourage/no-opinion ballots, a practice in use since 1981.'
+    url: https://en.wikipedia.org/wiki/United_Nations_secretary-general_selection
+  - type: website
+    citation: 'KUER, "The Forward Party of Utah has a new senator. Can they hold on in 2026?" (Dec. 16, 2025) — the party filled a state senate vacancy via an approval-voting election open to all registered voters of the district.'
+    url: https://www.kuer.org/politics-government/2025-12-16/the-forward-party-of-utah-has-a-new-senator-can-they-hold-on-in-2026
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 11
+---
+
+# The Path to Fifty States
+
+Two days ago, as I write this, Fargo held a city election the old way — pick one name, [[term:plurality]] wins — for the first time since 2018. Not because Fargoans changed their minds; they never got the chance. The legislature in Bismarck took the method away in April 2025, overriding a system that city voters had adopted by [[term:ballot-initiative]] with 63.5 percent of the vote and used, without incident, in three election cycles. The first chapter of cardinal voting's American story ended not with a verdict from voters but with a preemption statute.
+
+A book with a chapter called "The Path to Fifty States" owes you honesty about that. The earlier drafts of this movement's story — mine included — read like ascent narratives: prove it in cities, ride to the states, tip the nation. The 2024–26 map says otherwise: nineteen states have banned ranked-choice voting, the state that hosted approval voting's debut banned that too, Missouri wrote plurality into its constitution, and Utah let its ranked-choice pilot program quietly expire on January 1, 2026. So this chapter is not a victory-lap itinerary. It is a map of the terrain as it actually lies in mid-2026 — including the openings that the ban wave, read carefully, leaves wide open.
+
+## The map as it is, not as we wish it
+
+Take stock without flinching. One American city — St. Louis — currently elects its government by approval voting, protected by the grandfather clause its opponents had to write into Missouri's Amendment 7. Fargo is back on plurality. No state uses any cardinal method. Meanwhile [[term:ranked-choice-voting]], the incumbent reform, runs statewide in Maine and Alaska, in municipalities across fourteen states, and arrives citywide in Washington, D.C. after 73 percent of its voters said yes in 2024 — yet it lost every 2024 statewide initiative it ran and is banned in nineteen states.
+
+<DataBars
+  title="Where the methods actually stand, mid-2026"
+  unit="states"
+  max={50}
+  bars={[
+    {label: 'States banning ranked-choice voting', value: 19, color: 'accent'},
+    {label: 'States with municipalities using RCV', value: 14, color: 'blue'},
+    {label: 'States using RCV in at least some statewide elections', value: 3, color: 'gold', note: 'Maine, Alaska, Hawaii'},
+    {label: 'States with a city using approval voting', value: 1, color: 'green', note: 'Missouri (St. Louis, grandfathered)'},
+  ]}
+/>
+
+That bar chart is the strategic situation in four lines: reform of every kind is a minority position territorially, the backlash is organized and winning legislatures, and cardinal voting's foothold is one city wide. Now — why I'm still writing this book. Because the same legal review that produced the ban map also produced its most important detail: nearly every ban statute prohibits *ranking*. Tennessee's and Florida's laws define the forbidden method as voters ranking candidates "in order of preference" with elimination rounds; Ohio's 2026 law names "ranked choice voting or instant runoff voting." Approval and score ballots do none of that. In seventeen of the nineteen ban states, the statutes that ended ranked-choice voting's prospects left cardinal voting untouched — not as a loophole but as a category they never legislated about. The two exceptions, Missouri and North Dakota, prove how deliberate the others' silence is: catching approval voting requires naming it.
+
+<Checkpoint question="A reform donor says: 'Nineteen ban states means nineteen states are simply closed to election reform.' What's wrong with that reading of the map?">
+  The bans are drafted against *ranking*, almost universally. In all but Missouri and North Dakota, an approval or score ballot violates nothing in the ban — those seventeen states are closed to RCV but legally open to cardinal methods, which are now the only reform that can run there. Closed to one reform is not closed to reform; the statute's own definitions draw the lane.
+</Checkpoint>
+
+## The playbook: doors, in order of openness
+
+So where does a movement with one city, honest enemies, and a favorable legal asymmetry actually go? Through the doors in order of how far they open.
+
+<ProcessFlow title="The realistic sequence" steps={[
+  {title: 'Home-rule cities', detail: 'Charter cities with authority over their own election method, in states whose election codes leave room. This is how Fargo (2018) and St. Louis (2020) happened: charter plus citizen initiative. Target list: home-rule cities in non-ban states with initiative processes and city clerks willing to confirm equipment compatibility.', branch: 'Preemption risk is real — North Dakota erased Fargo in 2025. Pick states where the legislature is unlikely to retaliate, or where (as in Ohio) constitutional home rule forces opponents to use funding pressure instead of outright bans.'},
+  {title: 'The state election code check', detail: 'Before any campaign: does state law prescribe municipal ballot form? Michigan is the warning — Ferndale (2004), Ann Arbor (2021), East Lansing, Kalamazoo, and Royal Oak (2023) all voted for ranked-choice charters that state law renders inoperative. Five adoptions, zero implementations. Adoption is not implementation.'},
+  {title: 'Counties and special districts', detail: 'School boards, utility boards, and counties with charter authority — low-salience offices where plurality pathologies (huge fields, tiny winning shares) are most visible and stakes feel local.'},
+  {title: 'An initiative state', detail: 'Roughly half the states allow citizen-initiated statutes. The 2024 lesson: run simple and unbundled. A one-sentence reform — remove the vote-for-one limit in municipal and primary elections — is a different campaign than Colorado’s bundled top-four overhaul, which lost 53.5 to 46.5.', branch: 'Statewide is where the opposition spends. Nevada showed even a winning measure can die on a required second passage.'},
+  {title: 'Legislatures, last', detail: 'No legislature has ever adopted a cardinal method, and post-2022 statehouses are where reform goes to be banned. Legislative play comes after local proof exists in that state — to defend wins (or pre-empt preemption), not to lead.'},
+]} />
+
+Follow the flow and the first phase writes itself: hold St. Louis, and win two or three home-rule cities in states that can't or won't preempt — while keeping every campaign small enough that a single donor network's bad November can't wipe the movement out. What the flow can't show is tempo. Fargo took two years from task force to adoption; St. Louis took roughly two from petition to first election; the bans took four years to cover nineteen states. Movements at this scale move in cycles, not quarters — which is why I'll give you a decade frame at the end of this chapter instead of a tipping-point fantasy.
+
+## Legitimacy anchors: proofs of concept that already exist
+
+While American cities supply the adoptions, three running systems already answer "has anything like this ever worked?" — provided we're honest about what each is and isn't.
+
+**Latvia elects its parliament with plus and minus marks.** In Saeima elections, a voter chooses a party list, then may mark a "+" beside any candidate on it and strike through any candidate they oppose; each candidate's final position is determined by net marks — pluses minus strikes. That is a three-level score ballot — plus, blank, or minus for every candidate on the list — counted nationally, for a sitting European parliament. The honest caveat: it operates *within* a chosen party list, not across the whole field, so it's evidence that ordinary voters handle per-candidate scoring at national scale — not evidence of full score voting electing a government.
+
+**The United Nations chooses its chief executive by score ballot.** Since 1981, the Security Council has winnowed Secretary-General candidates through straw polls in which each member marks every candidate *encourage*, *discourage*, or *no opinion* — plus one, zero, minus one: a score ballot, used precisely because picking one name at a time among fifteen veto-wielding members would deadlock. The 2026 selection process now underway runs on the same mechanics. Caveat, again: fifteen sophisticated voters choosing a diplomat is not a mass election; what it anchors is the method's seriousness, not its mass-market record.
+
+**A real American legislative seat has been filled by approval voting.** In December 2025, when Utah state senator Daniel Thatcher's seat came open, his Forward Party — entitled under Utah's vacancy law to choose the replacement — opened the choice to every registered voter in the district and ran it by approval voting, with the Center for Election Science advising. Emily Buss won and took the seat. One vacancy, a party-run process, modest turnout — and also the first state-level use of approval voting in U.S. history, run without a hiccup. Anchors, all three: not adoptions to inflate, but existence proofs to deploy when someone says *this has never worked anywhere*.
+
+<QuickCheck
+  question="An organizer cites Latvia as proof that 'score voting already elects national governments.' What's the accurate version of the claim?"
+  choices={[
+    {id: 'a', text: "It's fully accurate — Latvia uses 0–10 score ballots across all candidates"},
+    {id: 'b', text: "Latvian voters cast net plus/minus marks per candidate, but only within one chosen party list — national-scale evidence that voters handle per-candidate scoring, not full score voting"},
+    {id: 'c', text: "It's false — Latvia uses ranked-choice voting"},
+    {id: 'd', text: "Latvia abandoned preference marks years ago"},
+  ]}
+  answer="b"
+  explanation="Precision is the advocate's armor. Latvia's open-list system is genuinely cardinal — plus, blank, or minus for every candidate on the chosen list, with net marks deciding who's elected from it — but the scoring happens within a single party's list. Overclaim it and you hand the opposition a correction; state it exactly and it's unanswerable."
+/>
+
+## A sober decade
+
+Here is the timeline I'll actually defend. **Through 2028:** hold St. Louis through every charter-review and repeal attempt; win two or three home-rule cities in non-preempting states; build the clerk-and-equipment playbook so each new campaign starts at mile ten. **2028–2032:** first county or special-district adoptions; first serious statewide initiative in a state chosen for legal opening and cheap media markets — and chosen *because* its ban statute forecloses ranked-choice, making cardinal reform the only live option rather than a rival brand. **2032 and beyond:** if — only if — those proofs exist, the conversation about scale-ups and upgrade paths (approval to score, two levels to six) stops being theoretical. Fifty states is the title's ambition, not a forecast; the forecast is a foothold becoming a beachhead inside ten years, or the honest conclusion that voters looked and declined.
+
+What this chapter settles: the path exists, it is narrower than the movement's own literature claimed five years ago, and its first miles run through city charters in states whose ban statutes — by their own words — left the cardinal lane open. What it doesn't settle: whether enough people will walk it. The organizations and campaigns were the last chapter's subject; what *you* do about it is the next chapter's — and the book's — final question.

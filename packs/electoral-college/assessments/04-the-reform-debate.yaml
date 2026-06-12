@@ -22,7 +22,7 @@ questions:
     text: "Why can nationwide district allocation make popular-vote inversions more likely rather than less?"
     choices:
       - id: a
-        text: "Presidential outcomes would inherit congressional maps, so map bias converts into electoral votes — as in the 2012 counterfactual where Romney wins while losing the popular vote by about five million."
+        text: "Presidential outcomes would inherit congressional maps, so map bias converts into electoral votes — as in 2012, when Obama won by about five million votes yet carried only 209 of the 435 districts."
       - id: b
         text: "Small states cannot split their electors meaningfully, so most states round to a tie."
       - id: c
@@ -30,7 +30,7 @@ questions:
       - id: d
         text: "District allocation requires congressional consent that has never been granted."
     correct_choice_id: a
-    explanation: "The district method makes gerrymandering load-bearing for the presidency: whoever draws the congressional map shapes the electoral vote. Re-run 2012 under nationwide district rules and Romney wins despite losing by nearly four points, because Republicans held a majority of districts. (b) is the near-miss — that rounding pathology belongs to proportional allocation, not the district method. (c) and (d) are false: Maine and Nebraska have used districts since 1972 and 1992 by ordinary state statute."
+    explanation: "The district method makes gerrymandering load-bearing for the presidency: whoever draws the congressional map shapes the electoral vote. In 2012 Obama won nationally by nearly four points yet Romney carried 226 of 435 districts; under nationwide district rules Obama's 332–206 landslide shrinks to a 270–268 squeaker, and he loses the combined electors of the six states Republicans had just redistricted despite carrying all six. (b) is the near-miss — that rounding pathology belongs to proportional allocation, not the district method. (c) and (d) are false: Maine and Nebraska have used districts since 1972 and 1992 by ordinary state statute."
     concepts: [electoral-college, district-allocation, gerrymandering]
 
   - id: q3

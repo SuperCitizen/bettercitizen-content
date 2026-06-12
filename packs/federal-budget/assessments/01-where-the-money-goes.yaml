@@ -1,0 +1,136 @@
+schema: bettercitizen.assessment/v1
+lesson: where-the-money-goes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which of these was the single largest federal spending function in fiscal year 2025?"
+    choices:
+      - id: a
+        text: "National defense"
+      - id: b
+        text: "Social Security"
+      - id: c
+        text: "Foreign aid and diplomacy"
+      - id: d
+        text: "Net interest on the debt"
+    correct_choice_id: b
+    explanation: >-
+      Social Security ($1,581 billion, about 23% of outlays) was the largest
+      function in FY2025 — larger than defense, veterans programs, and all of
+      international affairs combined. Net interest ($970 billion) and defense
+      ($917 billion) are the near-miss answers, and their order matters too;
+      interest has exceeded defense since FY2024. Foreign aid, which the
+      average American believes is about a quarter of the budget, was 0.6% of
+      outlays. The federal government is, in dollar terms, an insurance
+      company with an army — and now a substantial creditor-payment service.
+    concepts: [appropriations, entitlement-program]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What makes a spending program 'mandatory' rather than 'discretionary' in the federal budget?"
+    choices:
+      - id: a
+        text: "The Constitution requires the spending, so Congress cannot change it"
+      - id: b
+        text: "Its spending flows from a permanent authorizing law's eligibility and benefit formulas, with no annual appropriations vote required"
+      - id: c
+        text: "The President has designated it essential, exempting it from annual review"
+      - id: d
+        text: "It has been reauthorized for more than ten consecutive years"
+    correct_choice_id: b
+    explanation: >-
+      Mandatory spending runs on formulas written into permanent law — anyone
+      who qualifies gets the benefit, and the money flows unless Congress
+      affirmatively changes the underlying statute. It is not constitutionally
+      protected (choice a is the classic confusion); Congress can amend
+      Social Security or Medicare any time it can pass a law. Nor does the
+      President's view matter (choice c). The practical consequence is the
+      lesson's central arithmetic — about $4.2 trillion of FY2025 spending
+      never received an annual vote, so the twelve appropriations bills
+      Congress fights over each fall govern only about a quarter of the budget.
+    concepts: [entitlement-program, appropriations]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      A candidate promises to balance the budget while leaving Social
+      Security, Medicare, Medicaid and other health programs, defense, and
+      veterans benefits untouched, without raising any tax — purely by cutting
+      the rest of the government. Using the actual FY2025 numbers, what is the
+      best assessment?
+    choices:
+      - id: a
+        text: "Plausible — the rest of the government is most of the budget"
+      - id: b
+        text: "Plausible, but only if foreign aid is eliminated first"
+      - id: c
+        text: "Arithmetically impossible — even eliminating every remaining federal activity would not have closed the FY2025 deficit"
+      - id: d
+        text: "Impossible only because interest payments legally cannot be cut"
+    correct_choice_id: c
+    explanation: >-
+      Run the subtraction. The protected categories (Social Security $1,581B,
+      Medicare $997B, other health $979B, defense $917B, veterans $377B) plus
+      interest ($970B, which no Congress can cut by fiat without defaulting)
+      total about $5.8 trillion of $7.0 trillion in FY2025 outlays. Everything
+      else — the FBI, courts, parks, education, border security, income
+      security, foreign aid, all of it — came to roughly $1.2 trillion, while
+      the deficit was about $1.8 trillion. Zeroing out every last remaining
+      function would still have left a deficit of over half a trillion
+      dollars. Choice d identifies a real fact but the wrong reason; the plan
+      fails even granting the interest constraint. This is the lesson's core
+      skill — check the denominators before believing the promise.
+    concepts: [deficit-spending, appropriations]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      GAO estimates the federal government loses $233–521 billion per year to
+      fraud, and agencies reported about $186 billion in improper payments for
+      FY2025. What do these figures imply for the claim that eliminating
+      'waste, fraud, and abuse' can balance the budget?
+    choices:
+      - id: a
+        text: "The claim is correct — the upper estimate exceeds the deficit"
+      - id: b
+        text: "Fraud is real and worth fighting, but even perfect, total recovery of the upper-bound estimate would have left FY2025 more than a trillion dollars in deficit"
+      - id: c
+        text: "The figures are irrelevant because fraud is not actually a fiscal problem"
+      - id: d
+        text: "The claim is correct for improper payments but not for fraud"
+    correct_choice_id: b
+    explanation: >-
+      Both halves matter. The fraud problem is genuinely large — GAO's
+      estimate is the first government-wide one ever produced, and anti-fraud
+      investment pays for itself — so choice c fails. But the deficit was
+      about $1.8 trillion in FY2025, so even a fantasy government that
+      recovered every dollar of the $521 billion upper bound (no auditor
+      believes most of it is recoverable, since the estimate is statistical,
+      not a list of traceable accounts) would still have run a deficit above
+      $1.25 trillion. 'Waste, fraud, and abuse' is a program-integrity
+      agenda, not a balancing plan — its political appeal is precisely that
+      it names no program, tax, or voter who would feel the adjustment.
+    concepts: [deficit-spending, fiscal-policy]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      A friend says the budget could be balanced easily if politicians weren't
+      corrupt — just cut foreign aid and waste. Using the actual composition
+      of federal spending, write what you would say to honestly correct the
+      picture, and name the real menu of options any balancing plan must
+      choose from.
+    socratic_seed: >-
+      Strong answers deploy the arithmetic: foreign aid is about 0.6% of
+      spending ($45B of $7,010B in FY2025) and would cover roughly 2.5% of
+      the deficit; GAO's fraud estimate, even at its $521B upper bound and
+      even if fully recoverable, leaves a deficit above $1.25 trillion. The
+      mass of the budget is Social Security (23%), Medicare plus Medicaid
+      (about 24%), defense (13%), and interest (14%) — so the honest menu is
+      some combination of changing social-insurance formulas, cutting
+      defense, raising revenue, or accepting continued borrowing (which
+      compounds the interest line that already exceeds defense). Probe
+      whether the student can explain WHY the misconception persists —
+      KFF finds the average American believes foreign aid is about 26% of
+      the budget — and what changes when people learn the real share.
+    concepts: [deficit-spending, fiscal-policy, entitlement-program]

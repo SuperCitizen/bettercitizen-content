@@ -1,0 +1,18 @@
+slug: penn-wharton-budget-model
+name: Penn Wharton Budget Model
+kind: think-tank
+subtype: university-affiliated
+description: "Nonpartisan research initiative at the University of Pennsylvania's Wharton School that builds economic models to score the budgetary effects of proposed legislation. Its estimates are routinely cited by members of both parties during congressional debate — influence through arithmetic rather than advocacy."
+website: https://budgetmodel.wharton.upenn.edu
+jurisdiction: national
+partisan_lean: none
+parent_org: university-of-pennsylvania
+org_relationship: unit-of
+influence_channels:
+  - scoring-legislation
+  - policy-research
+concept_tags:
+  - think-tank
+  - national-debt
+  - fiscal-policy
+is_active: true

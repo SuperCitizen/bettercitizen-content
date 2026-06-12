@@ -1,14 +1,19 @@
 schema: bettercitizen.content/v1
 slug: score-the-vote-book
 title: Score the Vote
-summary: Why Score Voting Is the Best Way to Fix American Democracy A
-  book-length advocacy treatment by Chris Borgia (2026); ingested as a contested
-  pack. (License auto-set to CC-BY-SA-4.0 — original book metadata says "© 2026
-  Chris Borgia. All rights reserved.". Author confirmation required before
-  merging.)
+summary: >-
+  A book-length advocacy case by Chris Borgia (2026) for score voting —
+  rate every candidate on a scale, highest total wins — as the best practical
+  repair for American elections. The chapters argue that the pick-one ballot
+  manufactures spoilers, duopoly, and primary extremism; weigh the rival
+  reforms (ranked-choice, STAR, approval) on simulations, real election
+  returns, and court records; and close with a campaign playbook built on the
+  Fargo and St. Louis approval-voting experiments. Ingested as a contested
+  pack: the first-person advocacy voice is preserved, and each lesson carries
+  named perspectives.
 author: Chris Borgia
 license: CC-BY-SA-4.0
-version: 1.0.0
+version: 1.1.0
 tags:
   - voting-systems
   - electoral-reform
@@ -19,22 +24,22 @@ contested: true
 languages:
   - en
 lessons:
-  - introduction.md
-  - the-plurality-problem.md
-  - what-is-score-voting.md
-  - the-reform-landscape.md
-  - simplicity-wins.md
-  - the-strategy-question.md
-  - voter-satisfaction-efficiency.md
-  - where-score-voting-works.md
-  - rcv-credit-where-due.md
-  - star-voting-the-hybrid.md
-  - the-math-chapter.md
-  - primaries-and-the-extremism-machine.md
-  - the-media-and-education-challenge.md
-  - money-and-elections.md
-  - constitutional-and-legal-questions.md
-  - the-objections.md
-  - building-the-movement.md
-  - the-path-to-fifty-states.md
-  - your-move.md
+  - introduction.mdx
+  - the-plurality-problem.mdx
+  - what-is-score-voting.mdx
+  - the-reform-landscape.mdx
+  - simplicity-wins.mdx
+  - the-strategy-question.mdx
+  - voter-satisfaction-efficiency.mdx
+  - where-score-voting-works.mdx
+  - rcv-credit-where-due.mdx
+  - star-voting-the-hybrid.mdx
+  - the-math-chapter.mdx
+  - primaries-and-the-extremism-machine.mdx
+  - the-media-and-education-challenge.mdx
+  - money-and-elections.mdx
+  - constitutional-and-legal-questions.mdx
+  - the-objections.mdx
+  - building-the-movement.mdx
+  - the-path-to-fifty-states.mdx
+  - your-move.mdx

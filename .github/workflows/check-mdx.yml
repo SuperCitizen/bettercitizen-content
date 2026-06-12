@@ -1,7 +1,9 @@
-# Standalone structural checks for this repo (no app checkout needed):
+# Standalone structural checks for this repo (no app checkout needed),
+# via `npm run check` (check:mdx + check:components + check:render):
 #  - every lesson .mdx compiles and uses only cataloged components
 #  - pack.yaml lesson lists match the files on disk
 #  - the component library typechecks (tsc strict)
+#  - every lesson server-renders with the real components (smoke test)
 #
 # The app's schema validator (validate.yml) remains the source of truth for
 # content semantics; this job is the fast gate that runs without the app.

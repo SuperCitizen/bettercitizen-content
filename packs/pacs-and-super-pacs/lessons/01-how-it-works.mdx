@@ -19,13 +19,13 @@ sources:
     url: https://www.supremecourt.gov/opinions/09pdf/08-205.pdf
   - type: court-opinion
     citation: 'SpeechNow.org v. FEC, 599 F.3d 686 (D.C. Cir. 2010) (en banc) — struck contribution limits to independent-expenditure-only committees; upheld their reporting obligations.'
-    url: https://www.cadc.uscourts.gov/internet/opinions.nsf/0/B504F88FF73DB18585257702004D2BAA/$file/08-5223-1238909.pdf
+    url: https://www.fec.gov/legal-resources/court-cases/speechnoworg-v-fec/
   - type: statute
     citation: 'Federal Election Campaign Act of 1971 (FECA), as amended, 52 U.S.C. ch. 301.'
     url: https://www.fec.gov/help-candidates-and-committees/
   - type: website
-    citation: 'FEC, "Types of Committees" — official typology.'
-    url: https://www.fec.gov/help-candidates-and-committees/registering-candidate/types-political-committees/
+    citation: 'FEC, "Types of nonconnected PACs" — official typology covering super PACs, hybrid PACs, and leadership PACs.'
+    url: https://www.fec.gov/help-candidates-and-committees/registering-pac/types-nonconnected-pacs/
   - type: website
     citation: 'OpenSecrets, "Outside Spending by Cycle" — comprehensive PAC + Super PAC data.'
     url: https://www.opensecrets.org/outside-spending/
@@ -49,7 +49,7 @@ sources:
   - type: book
     citation: 'La Raja, R. J. & Schaffner, B. F. (2015), Campaign Finance and Political Polarization: When Purists Prevail, University of Michigan Press.'
 perspectives:
-  - name: PAC-defender (free-speech maximalist)
+  - name: PAC-defender
   - name: PAC-restrictionist
   - name: Coordination-rules reformer
 duration_min: 14
@@ -57,7 +57,7 @@ duration_min: 14
 
 # How PACs and Super PACs actually work
 
-In the 2024 election cycle, Elon Musk put more than $291 million into electing his preferred candidates — most visibly through America PAC, the group he founded to back Donald Trump. Federal law states, in language that has not changed since 1974, that no person may give a political action committee more than $5,000 a year. Both of those sentences are true at the same time, and neither involves anyone breaking the law. The distance between them is the subject of this lesson: a taxonomy of committee types that took a century of statutes, two landmark court decisions in eighteen months, and one retired admiral's lawsuit to build. The [[term:citizens-united]] pack covers the constitutional argument; the Dark Money pack covers the groups that hide their donors. This pack is about the machines themselves — what each kind of [[term:pac]] may take in, what it may do with the money, and where the legal walls between them actually stand.
+In the 2024 election cycle, Elon Musk put more than $291 million into electing his preferred candidates — most visibly through America PAC, the group he founded to back Donald Trump. Federal law states, in language that has not changed since 1976, that no person may give a political action committee more than $5,000 a year. Both of those sentences are true at the same time, and neither involves anyone breaking the law. The distance between them is the subject of this lesson: a taxonomy of committee types that took a century of statutes, two landmark court decisions in eighteen months, and one retired admiral's lawsuit to build. The [[term:citizens-united]] pack covers the constitutional argument; the Dark Money pack covers the groups that hide their donors. This pack is about the machines themselves — what each kind of [[term:pac]] may take in, what it may do with the money, and where the legal walls between them actually stand.
 
 ## A century of plugging holes
 
@@ -95,7 +95,7 @@ Modern [[term:campaign-finance]] argument is mostly people talking past each oth
 
 Read the table by columns, not rows. The "money in" column is constitutional law: caps survive where courts see a corruption risk, and fall where they don't. The "donors public?" column is the one most people get wrong — notice that **every FEC-registered committee in the table discloses its donors, including super PACs**. The anonymous-money story lives entirely in the bottom two rows, and it is the [[term:dark-money]] pack's subject, not this one's. The last column — coordination — is the load-bearing wall of the whole structure, and Lesson 3 is devoted to it.
 
-One mechanical footnote that explains numbers you will see in FEC data: a PAC reaches **multicandidate status** (and the $5,000-per-candidate limit) once it has been registered six months, taken money from more than fifty donors, and given to at least five federal candidates. Until then it gives at the individual limit — $3,500 per candidate per election in the 2025–26 cycle. And note the asymmetry buried in the limits themselves: the individual-to-candidate cap is indexed for inflation; the $5,000 PAC caps, fixed in 1974, are not. Inflation has quietly cut the traditional PAC's giving power by more than four-fifths in real terms — one reason the action moved elsewhere.
+One mechanical footnote that explains numbers you will see in FEC data: a PAC reaches **multicandidate status** (and the $5,000-per-candidate limit) once it has been registered six months, taken money from more than fifty donors, and given to at least five federal candidates. Until then it gives at the individual limit — $3,500 per candidate per election in the 2025–26 cycle. And note the asymmetry buried in the limits themselves: the individual-to-candidate cap is indexed for inflation; the $5,000 PAC caps, fixed in the mid-1970s, are not. Inflation has quietly cut the traditional PAC's giving power by more than four-fifths in real terms — one reason the action moved elsewhere.
 
 <Checkpoint question="A tech billionaire wants to (a) give $2 million to a group running ads for Candidate X, and (b) give $5,000 directly to Candidate X's campaign committee. Which vehicles from the table can take the $2 million — and can the same organization handle both checks?">
   Only a super PAC, a hybrid PAC's independent-expenditure account, or a nondisclosing nonprofit can accept the $2 million — a traditional PAC is capped at $5,000/year per donor. The direct $5,000 cannot legally pass through any of those: contributions to candidates must come from capped, disclosed sources, and the donor's own direct-giving limit is $3,500 per election. A *hybrid* PAC could take both checks — $2 million into its IE-only account, and a capped contribution into its contribution account — because Carey v. FEC lets one committee run both modes from segregated bank accounts.
@@ -105,42 +105,41 @@ One mechanical footnote that explains numbers you will see in FEC data: a PAC re
 
 The [[term:super-pac]] was born in two steps, and the order matters. First, *Citizens United v. FEC* (January 2010) held that independent expenditures — spending "not coordinated with a candidate" — do not corrupt in the constitutional sense, so corporations and unions may make them from treasury funds. Two months later the D.C. Circuit, sitting en banc in *SpeechNow.org v. FEC*, drew the syllogism: if independent spending cannot corrupt, then *contributions to a group that only makes independent spending* cannot corrupt either, and the $5,000 cap on giving to such a group is unconstitutional. Crucially, the same court **upheld** the registration and reporting requirements — the plaintiffs had challenged those too, and lost. The independent-expenditure-only committee, promptly nicknamed the super PAC, is therefore a creature of one premise: that "independent" spending is genuinely independent. Every fight in Lesson 3 is a fight about that premise.
 
-<Figure caption="The post-2010 architecture. Caps survive on the left because contributions are seen as a corruption risk; the right is uncapped because SpeechNow treated truly independent spending as non-corrupting. The dashed wall is what keeps the two doors legally distinct.">
-<svg viewBox="0 0 720 420" width="100%" role="img" aria-label="Diagram of the two legal routes money takes into a federal race: the contribution route, with caps at every step, ending at the candidate's campaign; and the independent route, with no caps, ending at voters directly — separated by the coordination wall" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="26" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="var(--ink, #14130f)">Two doors into a federal race</text>
-  <text x="170" y="56" font-family="Georgia, serif" font-size="13.5" font-weight="bold" fill="var(--blue, #2f4d6e)" text-anchor="middle">Contribution route (capped, disclosed)</text>
-  <rect x="80" y="72" width="180" height="50" rx="6" fill="var(--card, #ffffff)" stroke="var(--ink, #14130f)" stroke-width="1.5"/>
-  <text x="170" y="102" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">Donor</text>
-  <line x1="170" y1="122" x2="170" y2="160" stroke="var(--blue, #2f4d6e)" stroke-width="2"/>
+<Figure caption="The post-2010 architecture. Caps survive on the left because contributions are seen as a corruption risk; the right is uncapped because SpeechNow treated truly independent spending as non-corrupting. The dashed wall is what keeps the two doors legally distinct. Both routes file itemized donor reports with the FEC; anonymity lives outside this diagram — see the Dark Money pack.">
+<svg viewBox="0 0 720 400" width="100%" role="img" aria-label="Diagram of the two legal routes money takes into a federal race: the contribution route, with caps at every step, ending at the candidate's campaign; and the independent route, with no caps, ending at voters directly — separated by the coordination wall" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Two doors into a federal race</text>
+  <text x="170" y="56" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--blue, #2f4d6e)" textAnchor="middle">Contribution route (capped, disclosed)</text>
+  <rect x="80" y="72" width="180" height="50" rx="6" fill="var(--card, #ffffff)" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
+  <text x="170" y="102" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Donor</text>
+  <line x1="170" y1="122" x2="170" y2="160" stroke="var(--blue, #2f4d6e)" strokeWidth="2"/>
   <path d="M165 154 L170 164 L175 154 Z" fill="var(--blue, #2f4d6e)"/>
-  <text x="182" y="146" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">$5,000/yr</text>
+  <text x="182" y="146" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">$5,000/yr</text>
   <rect x="80" y="164" width="180" height="50" rx="6" fill="var(--blue, #2f4d6e)"/>
-  <text x="170" y="194" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">Traditional PAC</text>
-  <line x1="170" y1="214" x2="170" y2="252" stroke="var(--blue, #2f4d6e)" stroke-width="2"/>
+  <text x="170" y="194" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">Traditional PAC</text>
+  <line x1="170" y1="214" x2="170" y2="252" stroke="var(--blue, #2f4d6e)" strokeWidth="2"/>
   <path d="M165 246 L170 256 L175 246 Z" fill="var(--blue, #2f4d6e)"/>
-  <text x="182" y="238" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">$5,000/election</text>
-  <rect x="80" y="256" width="180" height="50" rx="6" fill="var(--card, #ffffff)" stroke="var(--blue, #2f4d6e)" stroke-width="2"/>
-  <text x="170" y="280" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="var(--ink, #14130f)" text-anchor="middle">Candidate's campaign</text>
-  <text x="170" y="297" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">(direct from donor: $3,500/election)</text>
-  <text x="550" y="56" font-family="Georgia, serif" font-size="13.5" font-weight="bold" fill="var(--accent, #8a2a1e)" text-anchor="middle">Independent route (uncapped, disclosed)</text>
-  <rect x="460" y="72" width="180" height="50" rx="6" fill="var(--card, #ffffff)" stroke="var(--ink, #14130f)" stroke-width="1.5"/>
-  <text x="550" y="96" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">Donor, corporation,</text>
-  <text x="550" y="112" font-family="Georgia, serif" font-size="13" fill="var(--ink, #14130f)" text-anchor="middle">or union</text>
-  <line x1="550" y1="122" x2="550" y2="160" stroke="var(--accent, #8a2a1e)" stroke-width="2"/>
+  <text x="182" y="238" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">$5,000/election</text>
+  <rect x="80" y="256" width="180" height="50" rx="6" fill="var(--card, #ffffff)" stroke="var(--blue, #2f4d6e)" strokeWidth="2"/>
+  <text x="170" y="280" fontFamily="Georgia, serif" fontSize="13" fontWeight="bold" fill="var(--ink, #14130f)" textAnchor="middle">Candidate's campaign</text>
+  <text x="170" y="297" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">direct: $3,500/election</text>
+  <text x="550" y="56" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--accent, #8a2a1e)" textAnchor="middle">Independent route (uncapped, disclosed)</text>
+  <rect x="460" y="72" width="180" height="50" rx="6" fill="var(--card, #ffffff)" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
+  <text x="550" y="96" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Donor, corporation,</text>
+  <text x="550" y="112" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">or union</text>
+  <line x1="550" y1="122" x2="550" y2="160" stroke="var(--accent, #8a2a1e)" strokeWidth="2"/>
   <path d="M545 154 L550 164 L555 154 Z" fill="var(--accent, #8a2a1e)"/>
-  <text x="562" y="146" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">no limit</text>
+  <text x="562" y="146" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">no limit</text>
   <rect x="460" y="164" width="180" height="50" rx="6" fill="var(--accent, #8a2a1e)"/>
-  <text x="550" y="194" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">Super PAC</text>
-  <line x1="550" y1="214" x2="550" y2="252" stroke="var(--accent, #8a2a1e)" stroke-width="2"/>
+  <text x="550" y="194" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">Super PAC</text>
+  <line x1="550" y1="214" x2="550" y2="252" stroke="var(--accent, #8a2a1e)" strokeWidth="2"/>
   <path d="M545 246 L550 256 L555 246 Z" fill="var(--accent, #8a2a1e)"/>
-  <text x="562" y="238" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">unlimited ads</text>
-  <rect x="460" y="256" width="180" height="50" rx="6" fill="var(--card, #ffffff)" stroke="var(--accent, #8a2a1e)" stroke-width="2"/>
-  <text x="550" y="286" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="var(--ink, #14130f)" text-anchor="middle">Voters, directly</text>
-  <line x1="360" y1="160" x2="360" y2="320" stroke="var(--gold, #b08a3e)" stroke-width="3" stroke-dasharray="8,5"/>
-  <text x="360" y="345" font-family="Georgia, serif" font-size="12.5" font-weight="bold" fill="var(--gold, #b08a3e)" text-anchor="middle">the coordination wall</text>
-  <text x="360" y="362" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">cross it, and the "independent" money becomes an illegal</text>
-  <text x="360" y="378" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">(over-the-cap) contribution — Lesson 3's entire subject</text>
-  <text x="20" y="408" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">Both routes file itemized donor reports with the FEC. Anonymity lives outside this diagram — see the Dark Money pack.</text>
+  <text x="562" y="238" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">unlimited ads</text>
+  <rect x="460" y="256" width="180" height="50" rx="6" fill="var(--card, #ffffff)" stroke="var(--accent, #8a2a1e)" strokeWidth="2"/>
+  <text x="550" y="286" fontFamily="Georgia, serif" fontSize="13" fontWeight="bold" fill="var(--ink, #14130f)" textAnchor="middle">Voters, directly</text>
+  <line x1="360" y1="160" x2="360" y2="320" stroke="var(--gold, #b08a3e)" strokeWidth="3" strokeDasharray="8,5"/>
+  <text x="360" y="345" fontFamily="Georgia, serif" fontSize="12.5" fontWeight="bold" fill="var(--gold, #b08a3e)" textAnchor="middle">the coordination wall</text>
+  <text x="360" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">cross it, and the "independent" money becomes an illegal</text>
+  <text x="360" y="378" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">(over-the-cap) contribution — Lesson 3's entire subject</text>
 </svg>
 </Figure>
 

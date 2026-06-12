@@ -46,7 +46,7 @@ questions:
       - id: d
         text: "It was enacted through the budget reconciliation process."
     correct_choice_id: b
-    explanation: "Status questions reward precision: House passage three times is real momentum and real signal, but the 60-vote Senate threshold has held — Republicans' 53 seats left them short on the March 27, 2026 vote, with Murkowski opposed to proceeding. A parallel executive order attempting similar requirements was preliminarily enjoined in 2025, with appeals pending. Meanwhile the policy advances at the state level (Arizona since 2004, New Hampshire, Wyoming, and others). Overstating a bill into a law — in either direction — is the most common factual error in this debate."
+    explanation: "Status questions reward precision: House passage three times is real momentum and real signal, but the 60-vote Senate threshold has held — the March 17, 2026 motion to take up the bill drew just 51 votes, with Murkowski the lone Republican opposed, and an April bid to attach it to a reconciliation package failed too. A parallel executive order attempting similar requirements was preliminarily enjoined in 2025, with appeals pending. Meanwhile the policy advances at the state level (Arizona since 2004, New Hampshire, Wyoming, and others). Overstating a bill into a law — in either direction — is the most common factual error in this debate."
     concepts: [voter-id]
 
   - id: q4

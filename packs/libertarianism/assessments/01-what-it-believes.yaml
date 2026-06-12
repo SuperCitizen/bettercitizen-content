@@ -50,6 +50,22 @@ questions:
     concepts: [libertarianism, minarchism]
 
   - id: q4
+    kind: multiple-choice
+    text: "An economist argues that rent control fails because no agency can track the dispersed, constantly changing local conditions that market prices already register. A philosopher argues that rent control wrongs landlords by overriding voluntary contracts — regardless of whether it 'works.' Which pair correctly labels the two argument types?"
+    choices:
+      - id: a
+        text: "Both are versions of Nozick's entitlement theory, stated at different levels of abstraction."
+      - id: b
+        text: "The economist is making Hayek's epistemic (knowledge-problem) argument; the philosopher is making Nozick's rights-based argument — and the two are independent of each other."
+      - id: c
+        text: "The economist is making Buchanan's public-choice argument; the philosopher is making Mill's harm-principle argument."
+      - id: d
+        text: "Both are consequentialist arguments: each claims rent control produces bad outcomes."
+    correct_choice_id: b
+    explanation: "The economist's claim is about what planners cannot know — Hayek's knowledge problem, an epistemic argument that holds even if the intervener's intentions and rights record are spotless. The philosopher's claim is about what intervention does to people's holdings regardless of results — Nozick's rights-based line. Option (d) misses that the rights argument explicitly does not depend on outcomes; option (c) mislabels both (Buchanan analyzes the self-interest of political actors, and Mill's harm principle is a test for when coercion is permissible, not a claim about information); option (a) collapses the tradition's two independent pillars into one — you can accept either without the other."
+    concepts: [libertarianism]
+
+  - id: q5
     kind: free-response
     text: "Libertarians and progressives substantially agree on civil liberties, drug policy, immigration, and criminal-justice reform but diverge sharply on economic policy. State the strongest version of how the same political philosophy can produce these patterns."
     socratic_seed: "The libertarian commitment is to individual liberty against coercion. Coercion is broader than state action — but the state, as monopolizer of legitimate violence, is its most concentrated source. Coercion in the form of drug prohibition, sexual-conduct laws, immigration restriction, and surveillance is presumptively wrong. Coercion in the form of redistributive taxation is also presumptively wrong but is sometimes defensible if it addresses background-condition unfairness (the bleeding-heart libertarian view) or rejected even then (the minarchist view). The pattern of libertarian-progressive alignment is consistent if you treat libertarianism as 'minimize coercion' rather than 'minimize state.' On civil-liberties questions, both libertarians and progressives oppose state coercion of personal life. On economic-policy questions, libertarians treat redistributive taxation as state coercion while progressives treat market outcomes as themselves coercive (employer power, market concentration). The disagreement is about what counts as coercion."

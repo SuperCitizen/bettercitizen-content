@@ -1,0 +1,16 @@
+slug: reason-foundation
+name: Reason Foundation
+kind: think-tank
+description: "Libertarian think tank founded in 1978, publisher of Reason magazine. Its policy arm specializes in privatization, transportation policy, pension reform, and drug policy, producing technical work for state and local governments alongside the magazine's journalism."
+website: https://reason.org
+jurisdiction: national
+partisan_lean: center-right
+ideology_tags:
+  - libertarianism
+influence_channels:
+  - policy-research
+  - regulatory-comments
+  - legislative-testimony
+concept_tags:
+  - think-tank
+is_active: true

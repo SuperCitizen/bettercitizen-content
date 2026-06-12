@@ -8,13 +8,13 @@ questions:
       - id: a
         text: "Nothing measurable for lower-income renters — luxury units are a separate market from affordable housing."
       - id: b
-        text: "Chains of moves open the equivalent of about 45 to 70 units in below-median-income neighborhoods, because each household that moves frees an older, cheaper unit behind it."
+        text: "Chains of moves draw about 45 to 70 people out of below-median-income neighborhoods, because each household that moves frees an older, cheaper unit behind it."
       - id: c
         text: "Nearby rents rise on net, as the new building attracts richer residents who bid up the surrounding area."
       - id: d
         text: "Exactly 100 below-market units open immediately, one for each new unit built."
     correct_choice_id: b
-    explanation: "Mast traced the actual residents of 686 new buildings in 12 cities — 52,000 people — back through about six rounds of moves: per 100 new market-rate units, the equivalent of 45-70 units open in below-median-income neighborhoods, 17-39 in the poorest fifth. Choice (c) is the 'induced demand' worry that the Been-Ellen-O'Regan 'Supply Skepticism' review weighs and rejects for net effects. The honest limit on (b): chains rarely reach extremely low-income households without subsidy — the demand side's surviving point."
+    explanation: "Mast traced the actual residents of 686 new buildings in 12 cities — 52,000 people — back through about six rounds of moves: per 100 new market-rate units, 45-70 people move out of below-median-income neighborhoods, 17-39 out of the poorest fifth, opening homes behind them. Choice (c) is the 'induced demand' worry that the Been-Ellen-O'Regan 'Supply Skepticism' review weighs and rejects for net effects. The honest limit on (b): chains rarely reach extremely low-income households without subsidy — the demand side's surviving point."
     concepts: [housing, zoning]
 
   - id: q2
@@ -46,7 +46,7 @@ questions:
       - id: d
         text: "The study sampled mostly luxury buildings in Texas and mostly subsidized buildings in D.C."
     correct_choice_id: b
-    explanation: "The Urban Institute's denial rates lined up with legal regimes: 78 percent (Fort Worth), 76 percent (Los Angeles), 67 percent (Philadelphia) where refusal was legal, versus 31 percent (Newark) and 15 percent (D.C.) under source-of-income laws with teeth. About two dozen states now ban the practice, covering roughly 60 percent of voucher holders. Choice (c) is a real design issue in some markets (the Collinson-Ganong payment-standard work), but it is not what the paired-testing contrast tracked — and refusals ran highest in low-poverty neighborhoods, exactly where the program's mobility promise points."
+    explanation: "The Urban Institute's denial rates lined up with legal regimes: 78 percent (Fort Worth), 76 percent (Los Angeles), 67 percent (Philadelphia) where refusal was legal, versus 31 percent (Newark) and 15 percent (D.C.) under source-of-income laws with teeth. Two dozen states now ban the practice, covering over 57 percent of voucher holders. Choice (c) is a real design issue in some markets (the Collinson-Ganong payment-standard work), but it is not what the paired-testing contrast tracked — and refusals ran highest in low-poverty neighborhoods, exactly where the program's mobility promise points."
     concepts: [housing, section-8]
 
   - id: q4
@@ -68,5 +68,5 @@ questions:
   - id: q5
     kind: free-response
     text: "Pick the perspective you find least persuasive — supply-side, demand-side, or tenant-protection-led — and write its strongest case in three or four sentences, citing at least one named study from this lesson. Then state what evidence would change that camp's mind."
-    socratic_seed: "Steel-manning means the camp's smartest advocate would sign the summary. Supply-side: spatial equilibrium (Rosen-Roback), the zoning tax measured in vacant-land sales (Gyourko-Krimmel: about $400,000 per San Francisco quarter-acre), filtering chains (Mast: 45-70 below-median units per 100 built), Fischel's homevoter political economy; changes its mind if filtering breaks down at scale or constraints mostly price real public goods. Demand-side: vouchers reach this year's family (1 in 4 eligible served), Desmond's eviction-as-cause-of-poverty evidence (1 in 8 Milwaukee renters forcibly moved 2009-11; Eviction Lab's roughly 3.6 million annual filings), Collinson-Ganong on design; changes its mind if subsidies mostly leak into rents. Tenant-protection: the meantime problem, DMQ-aware cap-and-exempt design, NYC right-to-counsel outcomes (representation slid 71 to 42 percent when funding lagged), bargaining asymmetry; changes its mind if protections raise rents or screening barriers for future tenants more than they protect current ones. Push past slogans: does the learner cite evidence the camp itself uses, and a falsifier the camp would accept?"
+    socratic_seed: "Steel-manning means the camp's smartest advocate would sign the summary. Supply-side: spatial equilibrium (Rosen-Roback), the zoning tax measured in vacant-land sales (Gyourko-Krimmel: about $400,000 per San Francisco quarter-acre), filtering chains (Mast: 45-70 movers out of below-median-income neighborhoods per 100 units built), Fischel's homevoter political economy; changes its mind if filtering breaks down at scale or constraints mostly price real public goods. Demand-side: vouchers reach this year's family (1 in 4 eligible served), Desmond's eviction-as-cause-of-poverty evidence (1 in 8 Milwaukee renters forcibly moved 2009-11; Eviction Lab's roughly 3.6 million annual filings), Collinson-Ganong on design; changes its mind if subsidies mostly leak into rents. Tenant-protection: the meantime problem, DMQ-aware cap-and-exempt design, NYC right-to-counsel outcomes (representation slid 71 to 42 percent when funding lagged), bargaining asymmetry; changes its mind if protections raise rents or screening barriers for future tenants more than they protect current ones. Push past slogans: does the learner cite evidence the camp itself uses, and a falsifier the camp would accept?"
     concepts: [housing]

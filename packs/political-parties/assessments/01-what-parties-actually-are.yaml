@@ -1,0 +1,153 @@
+schema: bettercitizen.assessment/v1
+lesson: what-parties-actually-are
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      Which statement accurately describes the U.S. Constitution's treatment of
+      political parties?
+    choices:
+      - id: a
+        text: >-
+          Article II creates the two-party system by requiring partisan
+          nomination of presidential candidates.
+      - id: b
+        text: >-
+          It never mentions political parties — and the 12th Amendment was
+          adopted in part because parties broke the original presidential
+          election design.
+      - id: c
+        text: >-
+          It mentions parties only to prohibit them, a ban that lapsed after
+          the election of 1796.
+      - id: d
+        text: >-
+          The First Amendment's assembly clause explicitly establishes the
+          right of parties to control nominations.
+    correct_choice_id: b
+    explanation: >-
+      Political parties appear nowhere in the constitutional text (the only
+      "Party" is a litigant in Article III). There was never a ban — Madison's
+      Federalist 10 argued suppressing faction would require suppressing
+      liberty itself. But after party-line elector voting produced the
+      Jefferson–Burr tie of 1800, the 12th Amendment (1804) rewrote
+      presidential balloting to accommodate parties' existence. The
+      Constitution never names them, yet has been amended because of them.
+    concepts: [partisan]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Which of the following is an action of the party-in-government, in
+      V. O. Key's framework?
+    choices:
+      - id: a
+        text: A voter casts a straight-ticket ballot for every Republican on the ballot.
+      - id: b
+        text: The DNC transfers field-organizing funds to a state party.
+      - id: c
+        text: The House majority caucus meets to choose its nominee for Speaker.
+      - id: d
+        text: A citizen checks the Democratic box on a voter-registration form.
+    correct_choice_id: c
+    explanation: >-
+      The party-in-government is the officeholders elected under the label —
+      caucuses organizing a chamber, choosing leaders, and setting agendas.
+      Straight-ticket voting and registration are the party-in-the-electorate;
+      committee fund transfers are the party-as-organization. The faces rise
+      and fall independently, which is why precise classification matters when
+      someone claims "the party" is strong or weak.
+    concepts: [partisan]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      A newly democratic country adopts U.S.-style rules — single-member
+      districts, plurality winners — and its first election features five
+      competitive parties. What does Duverger's law predict over the next
+      several cycles?
+    choices:
+      - id: a
+        text: >-
+          The five parties persist indefinitely, since party loyalty
+          reproduces itself once established.
+      - id: b
+        text: >-
+          Consolidation toward two major parties, as smaller parties' votes
+          convert to no seats and voters, donors, and politicians abandon
+          them in advance.
+      - id: c
+        text: >-
+          Proportional seat shares for all five parties, since seats track
+          national vote totals.
+      - id: d
+        text: >-
+          A ban on minor parties, since plurality rules legally restrict
+          ballot access to two parties.
+    correct_choice_id: b
+    explanation: >-
+      The mechanical effect converts dispersed minor-party support into zero
+      seats; the psychological effect then leads voters to desert hopeless
+      candidates for the lesser of two electable evils — and elites make the
+      same calculation. Nothing in plurality rules legally restricts the
+      number of parties (d), and seats do not track national vote shares (c);
+      consolidation pressure is structural, not statutory.
+    concepts: [plurality]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      In the 2023–24 federal election cycle, what was the relationship between
+      the formal party committees and outside groups such as super PACs?
+    choices:
+      - id: a
+        text: >-
+          Party committees out-raised outside groups roughly ten to one, as
+          they have for decades.
+      - id: b
+        text: >-
+          Outside spending (a record $4.5 billion) exceeded the combined
+          federal receipts of every party committee in the country (about
+          $2.7 billion).
+      - id: c
+        text: >-
+          Outside spending was banned in federal elections after 2010.
+      - id: d
+        text: >-
+          The two were roughly equal, by law, under FEC matching rules.
+    correct_choice_id: b
+    explanation: >-
+      FEC data for 2023–24 show all party committees — national, state, and
+      local combined — reported about $2.7 billion in federal receipts, while
+      outside groups spent a record $4.5 billion; single super PACs (Future
+      Forward at roughly $517 million, MAGA Inc. at roughly $377 million)
+      operated at the scale of national committees. Citizens United (2010)
+      unleashed rather than banned outside spending, and no law equalizes the
+      two channels. The formal party system is now smaller than its
+      unaccountable penumbra.
+    concepts: [super-pac, campaign-finance]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      A friend argues: "The Founders designed a party-free republic, and
+      parties hijacked it. If we honored the founding design, we would ban
+      parties." Drawing on Washington's Farewell Address, Madison's Federalist
+      10, and Aldrich's Why Parties?, evaluate both the historical premise and
+      the proposed remedy.
+    socratic_seed: >-
+      Strong answers should grant the premise's half-truth: the Constitution
+      contains no parties and Washington explicitly warned against the spirit
+      of party. Then complicate it: Madison argued faction's causes are sown
+      in human nature and could only be suppressed by destroying liberty —
+      so a ban contradicts the founding theory rather than honoring it; the
+      Framers chose to control effects, not causes. Add the practitioners'
+      irony: Hamilton helped draft the Farewell Address while leading a
+      proto-party, and Madison and Jefferson built the first opposition party.
+      Aldrich supplies the mechanism — the Constitution's own offices and
+      repeated majority-building problems made durable coalitions rational —
+      implying parties are endogenous to the design, so banning them would
+      require redesigning the system that generates them. The strongest
+      version of the friend's position survives as a worry about party spirit
+      (closer to negative partisanship) rather than party organization.
+    concepts: [partisan, electoral-realignment]

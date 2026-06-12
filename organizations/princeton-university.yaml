@@ -1,0 +1,11 @@
+slug: princeton-university
+name: Princeton University
+kind: university
+subtype: private-university
+description: "Private Ivy League research university in Princeton, New Jersey, founded in 1746 as the College of New Jersey. Its School of Public and International Affairs is one of the oldest and most influential policy schools in the country."
+website: https://www.princeton.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

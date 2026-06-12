@@ -14,7 +14,7 @@ questions:
       - id: d
         text: "It varies by year based on the most recent census."
     correct_choice_id: a
-    explanation: "538 = 435 House + 100 Senate + 3 D.C. (added by the 23rd Amendment in 1961). 270 is a majority of 538 (the smallest integer larger than half). The total has been fixed at 538 since 1961; what changes is how the 435 House seats are distributed among states, not the EC total."
+    explanation: "538 = 435 House + 100 Senate + 3 D.C. (added by the 23rd Amendment, ratified 1961). 270 is a majority of 538 (the smallest integer larger than half). The total has stood at 538 since the 1964 election; what changes each census is how the 435 House seats are distributed among states, not the EC total."
     concepts: [electoral-college]
 
   - id: q2
@@ -66,29 +66,7 @@ questions:
     concepts: [electoral-college, faithless-electors]
 
   - id: q5
-    kind: multiple-choice
-    text: "How many U.S. presidential elections have produced a popular-vote-loser winner?"
-    choices:
-      - id: a
-        text: "Two: 2000 and 2016."
-      - id: b
-        text: "Three: 1888, 2000, 2016."
-      - id: c
-        text: "Five: 1824, 1876, 1888, 2000, 2016."
-      - id: d
-        text: "Seven, including a contested case in 1960."
-    correct_choice_id: c
-    explanation: "Five elections: 1824 (resolved by 12th Amendment contingent procedure to John Quincy Adams; Jackson had popular and electoral pluralities but no majority), 1876 (Hayes-Tilden, resolved by an extra-constitutional commission), 1888 (Harrison over Cleveland), 2000 (Bush over Gore), 2016 (Trump over Clinton). The 1960 election was tightly contested but Kennedy won both popular and electoral votes."
-    concepts: [electoral-college]
-
-  - id: q6
     kind: free-response
-    text: "Maine and Nebraska use a 'congressional-district method' to allocate their electoral votes. Describe the mechanic, and identify the strongest critique of adopting it nationally."
-    socratic_seed: "Consider: 2 EVs go to the statewide popular-vote winner; the rest are awarded by who wins each individual congressional district. The strongest critique is not that the system is unfair on its face but that it makes the congressional district map (and therefore gerrymandering) load-bearing in a way it currently isn't for presidential outcomes."
-    concepts: [electoral-college, district-allocation]
-
-  - id: q7
-    kind: free-response
-    text: "The defenders of the Electoral College often invoke 'small-state protection' as the justification for retaining it. The reformers' counter is that this protection actually goes to swing-state voters, not small-state voters. State the strongest version of each side of this disagreement."
-    socratic_seed: "The small-state-protection argument: Wyoming voters get 3.6× the per-capita weight of California voters, and this preserves voice for less-populous states. The reformer counter: rural voters in non-swing states (rural California, rural Texas, rural New York) have effectively zero presidential influence under winner-take-all, while suburban voters in Pennsylvania or Wisconsin have outsized influence. The strongest version of each acknowledges the empirical record on swing-state campaign attention."
-    concepts: [electoral-college, small-state-equality]
+    text: "After a close statewide loss, your state's legislative majority proposes awarding electoral votes by congressional district starting next cycle. Opponents claim the change is unconstitutional without a federal amendment. Drawing on this lesson, evaluate that constitutional claim and describe exactly what would change mechanically."
+    socratic_seed: "The constitutional objection fails: Article II §1 gives the legislature plenary authority over the manner of appointment (McPherson v. Blacker, 1892), and winner-take-all is ordinary state law — Maine (first applied 1972) and Nebraska (since 1992) switched by statute. Mechanically: two electors to the statewide winner, one per district winner, so the state can split (Nebraska's Omaha elector in 2008; Maine's second district in 2016, 2020, 2024). Then press the deeper point: who gains under this proposal, and does its timing — right after a loss — change how to read a 'neutral' process argument? Connect to the lesson's structural claim that allocation rules have always moved with partisan advantage, from winner-take-all's spread in the early 1800s on."
+    concepts: [electoral-college, electors]

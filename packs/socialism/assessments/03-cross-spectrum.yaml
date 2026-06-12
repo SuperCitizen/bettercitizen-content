@@ -62,7 +62,7 @@ questions:
       - id: d
         text: "Policies designed to raise union density and enable sectoral bargaining."
     correct_choice_id: c
-    explanation: "No Nordic country has any statutory minimum wage — wage floors are set sector by sector through collective bargaining backed by union density of roughly 50 to 67 percent (versus 10 percent in the U.S.). The other three items are genuinely Nordic: universal services, taxes worth 42–44 percent of GDP that necessarily reach the middle class, and the bargaining institutions that do the work a statute does in America. The deeper lesson: importing the benefits without the taxes and the institutions — or calling the package 'socialism' when it sits atop emphatically private ownership — misreads what the Nordics built."
+    explanation: "No Nordic country has any statutory minimum wage — wage floors are set sector by sector through collective bargaining backed by union density of roughly 50 to 67 percent (versus 10 percent in the U.S.). The other three items are genuinely Nordic: universal services, taxes worth 40–45 percent of GDP that necessarily reach the middle class, and the bargaining institutions that do the work a statute does in America. The deeper lesson: importing the benefits without the taxes and the institutions — or calling the package 'socialism' when it sits atop emphatically private ownership — misreads what the Nordics built."
     concepts: [social-democracy, socialism]
 
   - id: q5

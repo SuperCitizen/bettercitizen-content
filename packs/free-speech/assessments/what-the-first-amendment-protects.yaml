@@ -1,0 +1,131 @@
+schema: bettercitizen.assessment/v1
+lesson: what-the-first-amendment-protects
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      A town's public library quietly removes every book criticizing the
+      mayor from its shelves. The same week, a national bookstore chain
+      decides not to stock those books. Who has a potential First Amendment
+      problem?
+    choices:
+      - id: a
+        text: "Both — readers' access to political criticism was restricted either way."
+      - id: b
+        text: "Only the bookstore chain, because it dominates the local book market."
+      - id: c
+        text: "Only the public library, because it is a government actor suppressing a viewpoint."
+      - id: d
+        text: "Neither, because no one was punished for speaking."
+    correct_choice_id: c
+    explanation: >-
+      The state-action doctrine does the sorting: the library is an arm of
+      local government, and pulling books specifically because they criticize
+      the mayor is viewpoint-based government action. The chain is a private
+      company making an editorial choice — no constitutional claim lies
+      against it, however large its market share. And (d) misses that the
+      First Amendment restrains more than punishment-after-speech; viewpoint-based
+      government suppression of access can violate it too.
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      An influencer with two million followers posts a video declaring that
+      the government is illegitimate and urging followers to "rise up and
+      overthrow it when the moment is right." Prosecutors charge incitement.
+      Under Brandenburg v. Ohio, the strongest analysis is:
+    choices:
+      - id: a
+        text: "The speech is unprotected because advocating the violent overthrow of government is never protected."
+      - id: b
+        text: "The speech is protected — abstract advocacy aimed at an indefinite future fails the imminence and likelihood requirements."
+      - id: c
+        text: "The speech is unprotected because an audience of two million makes lawless action likely."
+      - id: d
+        text: "The speech is protected only if the influencer can prove no follower acted on it."
+    correct_choice_id: b
+    explanation: >-
+      Brandenburg protects even advocacy of force unless it is directed to
+      producing imminent lawless action and likely to produce it. "When the
+      moment is right" is the digital cousin of the protected "take the
+      street later" in Hess v. Indiana — no imminence. Audience size (c)
+      cannot substitute for imminence and intent, and (d) inverts the burden:
+      the state must prove the elements; the speaker proves nothing.
+    concepts: [first-amendment]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      A city council member sues a local blogger over a post falsely
+      claiming he embezzled public funds. Discovery shows the blogger had
+      been sent records disproving the claim before publishing — and posted
+      anyway. Under New York Times v. Sullivan, the council member:
+    choices:
+      - id: a
+        text: "Loses, because public officials cannot recover for criticism of their official conduct."
+      - id: b
+        text: "Wins only if he shows the blogger is not a professional journalist."
+      - id: c
+        text: "Can win — publishing in the face of known contrary evidence supports a finding of actual malice."
+      - id: d
+        text: "Wins automatically, because the statement was false and harmed his reputation."
+    correct_choice_id: c
+    explanation: >-
+      Actual malice means knowledge of falsity or reckless disregard for the
+      truth — and pressing publish after receiving disproving records is
+      classic evidence of it. Sullivan raises the bar for officials; it does
+      not abolish their claims (a), and falsity alone (d) is never enough.
+      Choice (b) reflects a common myth: the actual-malice rule turns on the
+      plaintiff's public status, not on whether the defendant is "press."
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Alarmed by viral health hoaxes, a state asks the courts to recognize a
+      new unprotected category — "demonstrably false health claims" — arguing
+      the social costs of such speech vastly outweigh its value. Based on
+      United States v. Stevens (2010), a court should:
+    choices:
+      - id: a
+        text: "Refuse — the unprotected categories are historically defined, and courts may not mint new ones by weighing costs against benefits."
+      - id: b
+        text: "Agree, if the state produces compelling empirical evidence of harm."
+      - id: c
+        text: "Agree, because false statements of fact have never been protected speech."
+      - id: d
+        text: "Refuse, because health regulation is reserved to the federal government."
+    correct_choice_id: a
+    explanation: >-
+      Stevens is squarely on point: the government proposed exactly this
+      kind of cost-benefit test for new categories, and eight justices
+      rejected it as "startling and dangerous." Strong evidence (b) does not
+      change the method — the list is closed. Choice (c) is the subtle trap:
+      falsity alone has never defined an unprotected category; defamation and
+      fraud require more (fault, harm, reliance). Choice (d) is a federalism
+      red herring.
+    concepts: [first-amendment, precedent]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      A state legislator proposes making it a crime to "harass, demean, or
+      intimidate any person online." Using the state-action doctrine and the
+      category tests from this lesson, identify which applications of this
+      law could be constitutional, which could not, and what makes the
+      difference.
+    socratic_seed: >-
+      Strong answers sort the verbs through the tests. "Intimidate" can reach
+      true threats — but only with Counterman's mental state (the speaker
+      consciously disregarded a substantial risk the words would read as
+      threats), so a purely objective application fails. "Harass" can be
+      constitutional as applied to targeted, repeated conduct directed at an
+      individual, but not as applied to commentary about a person on matters
+      of public concern. "Demean" is the fatal word: demeaning speech is
+      protected opinion under Snyder and Matal, so that application is
+      unconstitutional and likely renders the statute overbroad. Note the
+      threshold point: the law binds because the state enforces it — no
+      state-action problem — and platforms could still remove all of this
+      speech privately.
+    concepts: [first-amendment, civil-liberties]

@@ -14,7 +14,7 @@ questions:
       - id: d
         text: "The Court dismissed the case, holding that importers lack standing to challenge tariffs."
     correct_choice_id: b
-    explanation: "The holding was statutory, not constitutional: the Court read IEEPA — an emergency sanctions statute — not to delegate the taxing power, which Article I assigns to Congress. That is why (a) overreads it: Congress can and does delegate tariff authority expressly, as in Section 301 of the Trade Act of 1974 and Section 232 of the Trade Expansion Act of 1962, and those tariffs stood. The practical stake of the distinction was enormous — paid IEEPA duties became refundable overpayments estimated as high as $175 billion."
+    explanation: "The holding was statutory, not constitutional: the Court read IEEPA — an emergency sanctions statute — not to delegate the taxing power, which Article I assigns to Congress. That is why (a) overreads it: Congress can and does delegate tariff authority expressly, as in Section 301 of the Trade Act of 1974 and Section 232 of the Trade Expansion Act of 1962, and those tariffs stood. The practical stake of the distinction was enormous — paid IEEPA duties became refundable overpayments, with roughly $165 billion subsequently ordered returned to importers."
     concepts: [foreign-policy, trade-policy, tariff]
 
   - id: q2

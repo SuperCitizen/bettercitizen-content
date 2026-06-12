@@ -1,5 +1,5 @@
 /**
- * SuperCitizen lesson component library.
+ * BetterCitizen lesson component library.
  *
  * The app imports `mdxComponents` and passes it to its MDX renderer.
  * Lesson files never import anything — every JSX tag they use must be a key

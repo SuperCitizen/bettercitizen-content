@@ -1,0 +1,94 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-media-problem
+kind: reading
+title: The Media Problem
+objectives:
+  - Distinguish delays caused by ballot-receipt deadlines from delays caused by RCV tabulation
+  - Dissect New York's 2021 test-ballot fiasco — what failed, what didn't, and how coverage fused them
+  - Explain why polling and election-night "calls" genuinely get harder under ranked counting
+  - Name the working better practices — San Francisco's round-by-round reporting and published ballot files
+concepts:
+  - ranked-choice-voting
+  - framing
+  - exit-poll
+  - misinformation
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Rank the Vote* (2026), "The Media Problem"'
+  - type: website
+    citation: 'NBC4 Washington, "Ranked choice voting will delay DC primary results" (June 2026) — final tabulation on or after June 26 because mail ballots postmarked by election day arrive through June 26.'
+    url: https://www.nbcwashington.com/decision-2026/ranked-choice-voting-will-delay-dc-primary-results/4114468/
+  - type: website
+    citation: 'NBC News, "Don''t blame ranked-choice voting for Alaska''s slow results, advocates say" (2022) — Alaska''s 15-day window for overseas absentee ballots set the Aug. 31 tabulation date; the RCV count itself runs in minutes.'
+    url: https://www.nbcnews.com/news/amp/shows/meetthepress/blog/rcna43583
+  - type: website
+    citation: 'NPR, "The Human Error That''s Snarling The New York City Mayor''s Race" (June 30, 2021) — the BOE included 135,000 test ballots in a preliminary RCV tally, then retracted it.'
+    url: https://www.npr.org/2021/06/30/1011747612/the-human-error-thats-snarling-the-new-york-city-mayors-race
+  - type: website
+    citation: 'Gothamist, "First Citywide Ranked-Choice Primary In NYC Saw A Higher Rate of ''Exhausted'' Primary Ballots" — final round: Adams 403,333, Garcia 394,907; about 140,000 ballots (15%) ranked neither finalist.'
+    url: https://gothamist.com/news/first-citywide-ranked-choice-primary-in-nyc-saw-a-higher-rate-of-exhausted-primary-ballots
+  - type: website
+    citation: 'Common Cause New York, Edison Research exit poll (2021) — 95% of NYC primary voters found the ranked ballot simple; 75% wanted to use RCV again.'
+    url: https://www.commoncause.org/new-york/articles/ranked-choice-voting-brought-new-yorkers-together-in-this-years-democratic-primary/
+  - type: website
+    citation: 'FairVote, "San Francisco elections set gold standard for reporting ranked choice voting results" — preliminary round-by-round results on election night; full ballot data published before certification.'
+    url: https://fairvote.org/san-francisco-elections-set-gold-standard-for-reporting-ranked-choice-voting-results/
+  - type: website
+    citation: 'The Journalist''s Resource (Harvard Shorenstein Center), "Ranked choice voting: An explainer and 3 tips for reporters."'
+    url: https://journalistsresource.org/politics-and-government/ranked-choice-voting/
+  - type: website
+    citation: 'FiveThirtyEight, "How Do You Poll A ''Ranked Choice Voting'' Election?" — on the difficulty of polling multi-round preference elections.'
+    url: https://fivethirtyeight.com/videos/how-do-you-poll-a-ranked-choice-voting-election-and-other-questions/
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 9
+---
+
+# The Media Problem
+
+A week before Washington, D.C.'s first ranked-choice primary this June, the local NBC affiliate ran a story under the headline "Ranked choice voting will delay DC primary results." Read the article and you learn the actual schedule: the Board of Elections will keep receiving mail ballots postmarked by election day through June 26, so the final tabulation runs on or after the 26th. That ten-day wait is the *mail-ballot receipt deadline* — a law that has nothing to do with ranking and would hold the certified result open in a close pick-one race too. The ranked-choice count itself, once ballots are in hand, takes a computer minutes. But the headline has already taught a million readers what to blame, and it taught them wrong. That, in one screenshot, is the media problem — and since this is a chapter about [[term:framing]], I'll concede mine up front: I'm an advocate, and the [[term:fourth-estate]]'s job is not to make my reform look good. My complaint is narrower. It's that election coverage keeps reporting the calendar as if it were the algorithm.
+
+## The scoreboard breaks, and the count gets blamed
+
+Election-night journalism is built around a scoreboard: precincts report, the bar chart fills, somebody "calls" the race by 11 p.m. Ranked-choice elections break the scoreboard in two ways — one real but trivial, one fake but vivid.
+
+The real one: under RCV you cannot run the elimination rounds until you have essentially all the ballots, because round one's last-place finisher determines everything downstream. So jurisdictions wait for their absentee deadlines, then tabulate. Alaska's famous "fifteen days of silence" in August 2022 was exactly this: state law gives overseas absentee ballots fifteen days to arrive, the Division of Elections had announced all along that it would run the count August 31, and it did — on a public livestream, in minutes — with certification September 2. As advocates pointed out at the time, a *close plurality race wouldn't have been callable before those ballots arrived either*; Alaska's 2020 presidential result wasn't called for days for the same reason. The difference is purely theatrical: a pick-one race trickles in and pundits narrate the trickle, while an RCV race holds its suspense for one scheduled reveal — same calendar, radically different coverage. "No winner for two weeks" stories ran nationwide anyway, most of them mentioning the absentee deadline somewhere around paragraph nine. That is how the most durable [[term:misinformation]] about ranked ballots gets born — not from lies, but from true facts filed under the wrong cause.
+
+The fake one is the headline reflex that treats the reveal itself as suspicious. When Sarah Palin led first-choice votes in early returns and Mary Peltola won the final count, the gap between "election night impressions" and "the actual result" became, in hostile coverage, evidence of trickery — when it was simply the difference between an incomplete count and a complete one, a difference every American election has always had.
+
+<QuickCheck
+  question="A wire story reports: 'Because of ranked choice voting, Alaskans waited 15 days to learn their new representative.' What is the most precise correction?"
+  choices={[
+    {id: 'a', text: 'Nothing — RCV tabulation takes about two weeks of computer time'},
+    {id: 'b', text: 'The 15 days came from the statutory window for overseas absentee ballots to arrive; the RCV tabulation ran in minutes once ballots were in, on a date announced in advance'},
+    {id: 'c', text: 'Alaska officials chose to delay the count to build television suspense'},
+    {id: 'd', text: 'The wait was caused by the recount that Palin requested'},
+  ]}
+  answer="b"
+  explanation="The schedule was the absentee calendar, not the algorithm: Alaska law gives overseas ballots 15 days to arrive, the Division of Elections announced the Aug. 31 tabulation date in advance, and certification followed Sept. 2. A close pick-one race would have waited on the same mail. The error matters because it assigns a cost of mail-ballot deadlines — which voters broadly support — to the voting method instead."
+/>
+
+## New York, 2021: the disaster that wasn't the algorithm
+
+Then there's the catastrophe every opponent cites. On June 29, 2021, New York City's Board of Elections published a preliminary ranked-choice tally for the Democratic mayoral primary showing Eric Adams's lead over Kathryn Garcia collapsing — then retracted it hours later, admitting it had left about 135,000 *test ballots* from a pre-election systems check inside the count. For a news cycle, "ranked-choice voting" and "botched count" fused into a single story, and Adams himself suggested the system couldn't be trusted.
+
+Here is the honest anatomy. The error was human and institutional: the BOE — a patronage agency with a decades-long bipartisan record of dysfunction that predates ranking by generations — ran test data through its tabulator and forgot to clear it. The corrected count, and the full hand-auditable paper trail, produced an orderly result: Adams 403,333, Garcia 394,907 in the final round. Nothing about ranking caused the blunder; just the year before, in an ordinary pick-one election, nearly a hundred thousand Brooklyn voters had received defective absentee-ballot envelopes from the board's print vendor. But I won't hide behind that, because the rollout context was a choice: a brand-new tabulation pipeline, run by the city's least-trusted agency, with preliminary results released before absentee ballots were integrated — every step legal, every step explained in advance, and every step a gift to whoever wanted the headline "RCV chaos." Voters, for what it's worth, distinguished the count from the ballot: 95 percent told Edison Research's [[term:exit-poll]] the ranked ballot was simple, 75 percent wanted to keep it, and the city has ranked calmly ever since. Reforms don't get to choose the institutions that implement them — which is why the implementation chapter told you to treat administration as the reform's reputational ceiling.
+
+<Checkpoint question="You're an editor on June 29, 2021. The BOE has just retracted its tally. One reporter pitches 'Ranked-choice voting throws NYC mayor's race into chaos'; another pitches 'BOE includes 135,000 test ballots in count, retracts results.' What does each headline teach readers, and which is accurate?">
+  The first headline assigns the failure to the voting method — readers learn "RCV breaks elections," a claim the facts don't support. The second assigns it to the agency and the specific act — readers learn an auditable error occurred and was caught, which is what happened. Both are clickable; only one survives contact with the correction. The test for election-night framing is simple: would this sentence still be true if the same error had happened in a pick-one race? "BOE includes test ballots" passes. "RCV causes chaos" fails.
+</Checkpoint>
+
+## The deeper problem: polls, calls, and a missing scoreboard
+
+Some of the friction is structural, and I'd rather explain it than deny it. Horse-race journalism runs on two instruments — the pre-election poll and the election-night call — and ranking complicates both. A pollster can't just ask "whom do you support?"; she needs respondents' full ranking distributions, then has to *simulate the elimination rounds* on a sample a fraction the size of the electorate, compounding error at every round — FiveThirtyEight devoted a segment to exactly this puzzle. First-round leads become traps for the unwary analyst (ask anyone who "called" Begich's elimination round wrong). None of this makes RCV unknowable; it makes the cheap instruments cheaper than the truth, which is a problem journalism has faced before and solved with better instruments.
+
+And better exists, in production, today. San Francisco — which has run ranked elections for two decades — posts preliminary round-by-round results on election night, right next to the pick-one races, then publishes the complete anonymized ballot file before certification so any journalist, professor, or critic can re-run the entire count themselves. FairVote has called it the gold standard for a reason: it converts the count from a black box into a dataset. Free tools like RCVis turn the rounds into graphics a viewer absorbs in seconds; the Journalist's Resource at Harvard's Shorenstein Center publishes a working explainer with concrete tips for reporters (lead with when and why results arrive; report "first choices" as first choices, never as "the result"; explain transfers with the actual numbers). D.C.'s debut coverage this month shows the learning curve in action: alongside the "delay" headline I opened with, the city's local outlets have run patient explainers walking voters through ranking five candidates, and the Board of Elections published its tabulation calendar weeks out. The problem is not that journalists can't cover this. It's that the scoreboard habit dies slowly, and the bans-and-backlash machine you met three chapters ago quotes every lazy headline as evidence.
+
+So the fix list is short and unglamorous. Election officials: announce the tabulation calendar early, run preliminary rounds on election night where law allows, publish the ballot file. Journalists: report the calendar as the calendar, the rounds as arithmetic, and retire "no winner yet" in favor of "here's when we'll know — and why." Advocates: stop promising instant results; "instant" describes the runoff, not the mail.
+
+## What this chapter settles — and doesn't
+
+It settles the diagnosis of the two real failure modes — calendar delays misattributed to the algorithm, and administrative blunders fused with the method — and it shows that working models of better practice already run in San Francisco and, increasingly, in D.C. It does not settle the harder cultural question: whether political journalism, whose economics still reward the scoreboard and the call, will adopt those models before the next viral "chaos" cycle, or whether every new jurisdiction's debut must survive its own round of miscoverage first. I've now shown you the machine, the map, the evidence, and the megaphone. What I haven't yet shown you is the money — who funds these campaigns, on both sides, and what that buys. That ledger is next.

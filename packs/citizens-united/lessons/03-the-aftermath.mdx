@@ -111,43 +111,46 @@ On paper, the wall between a Super PAC and a campaign is what makes the entire s
 
 *Citizens United* upheld disclosure 8–1, and Super PACs do itemize their donors. The post-2010 system nonetheless built a detour. A **501(c)(4)** "social welfare" nonprofit — an IRS category, not an FEC one — may take unlimited money, never publicly discloses its donors, and may spend on politics so long as politics is not its *primary purpose* (a term the IRS has never rigorously defined). It may also pass unlimited sums to a Super PAC. The Super PAC then discloses exactly what the law requires: the nonprofit's name.
 
-<Figure caption="The dark-money pipeline. Disclosure follows the dollar — until the dollar passes through a 501(c)(4), where the trail legally ends. Citizens United's 8–1 disclosure holding blessed transparency; it did not mandate that Congress or the IRS close this route.">
-<svg viewBox="0 0 720 360" width="100%" role="img" aria-label="Diagram of the dark-money pipeline: a donor giving directly to a Super PAC is publicly itemized, but a donor giving through a 501(c)(4) nonprofit is never publicly named — the Super PAC discloses only the nonprofit, and the ads reach voters either way" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="26" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">Two routes to the same ad — one lit, one dark</text>
-  {/* Donor */}
-  <rect x="20" y="150" width="120" height="56" rx="6" fill="var(--card, #ffffff)" stroke="var(--ink, #14130f)" stroke-width="2"/>
-  <text x="80" y="174" font-family="Georgia, serif" font-size="13.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">Donor</text>
-  <text x="80" y="192" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">unlimited either way</text>
-  {/* 501c4 */}
-  <rect x="280" y="60" width="180" height="56" rx="6" fill="var(--ink, #14130f)"/>
-  <text x="370" y="84" font-family="Georgia, serif" font-size="13.5" fill="#ffffff" text-anchor="middle" font-weight="bold">501(c)(4) nonprofit</text>
-  <text x="370" y="102" font-family="Georgia, serif" font-size="11.5" fill="#ffffff" text-anchor="middle">donors never public (IRS)</text>
-  {/* Super PAC */}
-  <rect x="280" y="240" width="180" height="56" rx="6" fill="var(--accent, #8a2a1e)"/>
-  <text x="370" y="264" font-family="Georgia, serif" font-size="13.5" fill="#ffffff" text-anchor="middle" font-weight="bold">Super PAC</text>
-  <text x="370" y="282" font-family="Georgia, serif" font-size="11.5" fill="#ffffff" text-anchor="middle">itemizes its donors to FEC</text>
-  {/* Ads */}
-  <rect x="560" y="150" width="140" height="56" rx="6" fill="var(--blue, #2f4d6e)"/>
-  <text x="630" y="174" font-family="Georgia, serif" font-size="13.5" fill="#ffffff" text-anchor="middle" font-weight="bold">Election ads</text>
-  <text x="630" y="192" font-family="Georgia, serif" font-size="11.5" fill="#ffffff" text-anchor="middle">"Paid for by…"</text>
-  {/* Route A: donor -> super PAC (lit) */}
-  <path d="M 140 192 C 200 230, 220 262, 276 268" fill="none" stroke="var(--green, #4a6b3a)" stroke-width="2.5"/>
-  <text x="130" y="260" font-family="Georgia, serif" font-size="12" fill="var(--green, #4a6b3a)" font-weight="bold">Route A: direct</text>
-  <text x="130" y="276" font-family="Georgia, serif" font-size="11.5" fill="var(--green, #4a6b3a)">name + amount public</text>
-  {/* Route B: donor -> c4 (dark) */}
-  <path d="M 140 164 C 200 130, 220 94, 276 90" fill="none" stroke="var(--ink, #14130f)" stroke-width="2.5" stroke-dasharray="7,4"/>
-  <text x="142" y="106" font-family="Georgia, serif" font-size="12" fill="var(--ink, #14130f)" font-weight="bold">Route B: via nonprofit</text>
-  <text x="142" y="122" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)">name never public</text>
-  {/* c4 -> super PAC */}
-  <path d="M 370 116 L 370 236" fill="none" stroke="var(--ink, #14130f)" stroke-width="2.5" stroke-dasharray="7,4"/>
-  <text x="380" y="170" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)">FEC filing shows only:</text>
-  <text x="380" y="186" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)">"the nonprofit — $X million"</text>
-  {/* super PAC -> ads */}
-  <path d="M 460 268 C 520 262, 540 200, 556 188" fill="none" stroke="var(--accent, #8a2a1e)" stroke-width="2.5"/>
-  {/* c4 -> ads direct */}
-  <path d="M 460 88 C 520 94, 540 152, 556 168" fill="none" stroke="var(--ink, #14130f)" stroke-width="2" stroke-dasharray="7,4"/>
-  <text x="494" y="86" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)">or runs its own ads</text>
-  <text x="20" y="340" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">In 2024, about $1.3B of the $1.9B in dark money traveled Route B into Super PACs (Brennan Center).</text>
+<Figure caption="The dark-money pipeline. Disclosure follows the dollar — until the dollar passes through a 501(c)(4), where the trail legally ends. Citizens United's 8–1 disclosure holding blessed transparency; it did not mandate that Congress or the IRS close this route. In 2024, about $1.3B of the $1.9B in dark money traveled Route B into Super PACs." source="Brennan Center">
+<svg viewBox="0 0 720 480" width="100%" role="img" aria-label="Row-lane diagram of the dark-money pipeline: a donor giving directly to a Super PAC is publicly itemized, but a donor giving through a 501(c)(4) nonprofit is never publicly named — the Super PAC's FEC filing shows only the nonprofit, and the ads reach voters either way" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="26" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">Two routes to the same ad — one lit, one dark</text>
+  {/* Donor, feeding both route lanes through a trunk */}
+  <rect x="20" y="162" width="130" height="56" rx="6" fill="var(--card, #ffffff)" stroke="var(--ink, #14130f)" strokeWidth="2"/>
+  <text x="85" y="194" fontFamily="Georgia, serif" fontSize="13.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">Donor</text>
+  <text x="85" y="240" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">unlimited either way</text>
+  <line x1="150" y1="190" x2="190" y2="190" stroke="var(--line, #d9d5c9)" strokeWidth="2"/>
+  <line x1="190" y1="120" x2="190" y2="260" stroke="var(--line, #d9d5c9)" strokeWidth="2"/>
+  {/* Row 1 — Route B: donor -> 501(c)(4) (dark) */}
+  <line x1="190" y1="120" x2="420" y2="120" stroke="var(--ink, #14130f)" strokeWidth="2.5" strokeDasharray="7,4"/>
+  <polygon points="420,115 420,125 429,120" fill="var(--ink, #14130f)"/>
+  <text x="196" y="95" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" fontWeight="bold">Route B: via nonprofit</text>
+  <text x="196" y="111" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">name never public</text>
+  <rect x="430" y="92" width="250" height="56" rx="6" fill="var(--ink, #14130f)"/>
+  <text x="555" y="116" fontFamily="Georgia, serif" fontSize="13.5" fill="#ffffff" textAnchor="middle" fontWeight="bold">501(c)(4) nonprofit</text>
+  <text x="555" y="134" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">donors never public (IRS)</text>
+  {/* Row 2 — Route A: donor -> Super PAC (lit) */}
+  <line x1="190" y1="260" x2="420" y2="260" stroke="var(--green, #4a6b3a)" strokeWidth="2.5"/>
+  <polygon points="420,255 420,265 429,260" fill="var(--green, #4a6b3a)"/>
+  <text x="196" y="235" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--green, #4a6b3a)" fontWeight="bold">Route A: direct</text>
+  <text x="196" y="251" fontFamily="Georgia, serif" fontSize="12" fill="var(--green, #4a6b3a)">name + amount public</text>
+  <rect x="430" y="232" width="250" height="56" rx="6" fill="var(--accent, #8a2a1e)"/>
+  <text x="555" y="256" fontFamily="Georgia, serif" fontSize="13.5" fill="#ffffff" textAnchor="middle" fontWeight="bold">Super PAC</text>
+  <text x="555" y="274" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">itemizes its donors to FEC</text>
+  {/* Hop: 501(c)(4) -> Super PAC — where the donor's name drops out */}
+  <line x1="555" y1="148" x2="555" y2="223" stroke="var(--ink, #14130f)" strokeWidth="2.5" strokeDasharray="7,4"/>
+  <polygon points="550,223 560,223 555,231" fill="var(--ink, #14130f)"/>
+  <text x="535" y="180" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">FEC filing shows only:</text>
+  <text x="535" y="198" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">"the nonprofit — $X million"</text>
+  {/* Row 3 — the ads both routes pay for */}
+  <line x1="555" y1="288" x2="555" y2="363" stroke="var(--accent, #8a2a1e)" strokeWidth="2.5"/>
+  <polygon points="550,363 560,363 555,371" fill="var(--accent, #8a2a1e)"/>
+  <rect x="430" y="372" width="250" height="56" rx="6" fill="var(--blue, #2f4d6e)"/>
+  <text x="555" y="396" fontFamily="Georgia, serif" fontSize="13.5" fill="#ffffff" textAnchor="middle" fontWeight="bold">Election ads</text>
+  <text x="555" y="414" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">"Paid for by…"</text>
+  {/* Dashed hop on the right edge: c4 -> ads directly */}
+  <path d="M 680 120 L 706 120 L 706 400 L 688 400" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" strokeDasharray="4,3"/>
+  <polygon points="688,396 688,404 681,400" fill="var(--muted, #6b6457)"/>
+  <text x="20" y="460" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">Dashed hop, right edge: the 501(c)(4) can also skip the Super PAC and run its own ads directly.</text>
 </svg>
 </Figure>
 

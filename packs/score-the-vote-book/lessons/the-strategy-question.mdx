@@ -1,0 +1,107 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-strategy-question
+kind: reading
+title: The Strategy Question
+objectives:
+  - State the Gibbard–Satterthwaite result and explain why the honest comparison across systems is what gaming does to each, not whether gaming exists
+  - Steel-man the approval-first, STAR-first, and score-now positions inside the cardinal-voting camp
+  - Apply the lanes logic to the post-2024 map — where cardinal reform can legally run, and where competing with RCV is self-defeating
+concepts:
+  - score-voting
+  - ranked-choice-voting
+  - ballot-initiative
+  - plurality
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "The Strategy Question"'
+  - type: website
+    citation: 'Ballotpedia, "Results for ranked-choice voting (RCV) and electoral system ballot measures, 2024" — Colorado Prop 131 failed 46.5%–53.5%; Idaho Prop 1 failed with 30.4% yes; Oregon Measure 117 failed with about 40% yes; Nevada Question 3 failed on second passage; D.C. Initiative 83 passed with 73%.'
+    url: https://ballotpedia.org/Results_for_ranked-choice_voting_(RCV)_and_electoral_system_ballot_measures,_2024
+  - type: website
+    citation: 'Office of the Lieutenant Governor of Alaska, Ballot Measure 2 recount announcement (Dec. 2024) — RCV repeal failed 160,973 to 160,230, a margin of 743 votes.'
+    url: https://ltgov.alaska.gov/newsroom/2024/12/lieutenant-governor-nancy-dahlstrom-announces-completion-of-ballot-measure-2-recount/
+  - type: website
+    citation: 'Ballotpedia, "Seattle, Washington, Proposition 1A and 1B (November 2022)" — voters chose ranked-choice voting over approval voting 75.4% to 24.6% on the method question.'
+    url: https://ballotpedia.org/Seattle,_Washington,_Proposition_1A_and_1B,_Approval_Voting_Initiative_and_Ranked-Choice_Voting_Measure_(November_2022)
+  - type: website
+    citation: 'Ballotpedia, "Eugene, Oregon, Measure 20-349, STAR Voting for Mayor and City Council Elections Initiative (May 2024)" — defeated, with roughly one-third voting yes.'
+    url: https://ballotpedia.org/Eugene,_Oregon,_Measure_20-349,_STAR_Voting_for_Mayor_and_City_Council_Elections_Initiative_(May_2024)
+  - type: website
+    citation: 'Wikipedia, "2009 Burlington mayoral election" — Bob Kiss won the instant-runoff count although Andy Montroll was the Condorcet winner; Burlington voters repealed IRV in March 2010, 52%–48%.'
+    url: https://en.wikipedia.org/wiki/2009_Burlington_mayoral_election
+  - type: website
+    citation: 'Wikipedia, "Center for Election Science" — founded 2011; Open Philanthropy grants of $598,600 (2017) and $1.8 million (2019); backed the Fargo (2018) and St. Louis (2020) approval-voting campaigns; supported the Utah Forward Party''s December 2025 approval-voting vacancy election.'
+    url: https://en.wikipedia.org/wiki/Center_for_Election_Science
+  - type: website
+    citation: 'FairVote, "Ranked Choice Voting vs. Approval Voting" — the later-no-harm and bullet-voting critique of approval voting, stated by its leading proponent organization.'
+    url: https://fairvote.org/resources/electoral-systems/ranked_choice_voting_vs_approval_voting/
+  - type: paper
+    citation: 'Allan Gibbard, "Manipulation of Voting Schemes: A General Result," Econometrica 41(4) (1973); Mark Satterthwaite, "Strategy-Proofness and Arrow''s Conditions," Journal of Economic Theory 10 (1975) — no reasonable voting rule is fully strategy-proof.'
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+  - name: Approval-first (Center for Election Science)
+  - name: STAR-first (Equal Vote Coalition)
+  - name: Score now (this book)
+duration_min: 10
+---
+
+# The Strategy Question
+
+On the night of November 5, 2024, the election-reform movement lost everywhere at once. Colorado rejected a top-four ranked-choice initiative, 53.5 to 46.5. Idaho crushed one, with barely 30 percent voting yes. Oregon said no by twenty points. Nevada, which had approved ranked-choice voting in 2022, refused the required second passage and killed it. Missouri went further and wrote a ban into its constitution. The only bright spots were small and local: Washington, D.C. adopted ranked-choice voting with 73 percent, and Alaska kept its system by 743 votes out of 321,000 — a recount-confirmed near-death experience. Within eighteen months, the count of states banning ranked-choice voting reached nineteen.
+
+I'm not opening with the movement's worst night to depress you. I'm opening with it because strategy is the discipline of taking the map as it is, and any reform book written after 2024 that doesn't reckon with that map is selling you something. This chapter takes up two strategy questions that get tangled together. The first — can voters game score voting? — I'll handle briefly here and fully in the math chapter. The second is the one this chapter is really about: what should the people who want cardinal voting actually *do*, given the wreckage?
+
+## First, the gaming question — briefly
+
+Every voting-method conversation eventually arrives at: "Won't people just max their favorite and zero everyone else?" Some will. Here is the honest frame for thinking about it. A theorem proved by Allan Gibbard in 1973 and Mark Satterthwaite in 1975 establishes that *no* reasonable voting rule with three or more candidates is immune to strategic voting — not [[term:plurality]], not [[term:ranked-choice-voting]], not [[term:score-voting]], nothing. The question is never "can it be gamed?" but "what happens when it is?" And this is where score voting's design earns its keep: a voter who plays maximum hardball — top score for favorites, zero for everyone else — has turned their score ballot into an *approval* ballot. The system's worst-case strategic behavior is its own simpler sibling, which is still a dramatic improvement on plurality. Compare the failure modes elsewhere: plurality under strategy collapses into lesser-evil voting and spoiler panics, and instant-runoff is not the strategy-proof haven it's marketed as — Burlington, Vermont's 2009 mayoral race eliminated the candidate who would have beaten either rival head-to-head, and the city repealed the method the next year, 52–48. Degrading into approval voting is the softest landing in the business. The math chapter quantifies all of this; for now, pocket the asymmetry and let's get to the strategy question that actually keeps organizers up at night.
+
+## The family argument: approval first, STAR first, or score now?
+
+The cardinal-voting camp — everyone who believes ballots should *rate* candidates rather than rank them or pick one — has its own internal strategy fight, and you should hear each side at full strength.
+
+<PerspectiveTabs>
+  <Perspective name="Approval-first (Center for Election Science)">
+    Win with the simplest possible reform. Approval voting is the only cardinal method ever used in American public elections, and its record is real: Fargo adopted it in 2018 with 63.5 percent and used it in three city election cycles; St. Louis adopted it in 2020 with 68 percent and uses it still. It needs no new equipment — it is the existing ballot with the "vote for one" limit deleted — and it survives the "too confusing" attack that helped kill the 2024 statewide measures, because there is nothing to explain. The Center for Election Science, founded in 2011 and funded in its growth years by Open Philanthropy grants ($598,600 in 2017, $1.8 million in 2019), made exactly this bet, and its wins are the cardinal movement's only wins. In December 2025 it notched another first: Utah's Forward Party filled a state senate vacancy by an approval vote open to every registered voter in the district — the first state-level use of approval voting in American history.
+  </Perspective>
+  <Perspective name="STAR-first (Equal Vote Coalition)">
+    Approval voting asks voters to draw one crude line — approve or not — and that's both an expressive loss and a strategic burden: your "approve my second choice" decision can hurt your favorite. STAR voting (Score Then Automatic Runoff), developed in Oregon in 2014 out of Mark Frohnmayer's Equal Vote Coalition, fixes both: score everyone 0–5, then the two highest-scoring candidates go to an automatic runoff decided by which of the two each ballot scored higher. Your honest scores can't betray you in the runoff. STAR is the engineered endpoint — score voting with its main objection answered. The honest concession: no public jurisdiction has adopted it yet, and in May 2024 Eugene — STAR's hometown — rejected it with only about a third voting yes. STAR's advocates read that as a sequencing problem, not a verdict.
+  </Perspective>
+  <Perspective name="Score now (this book)">
+    The destination is the full instrument: a 0-to-10 scale that lets you say *how much* you support every candidate, not merely whether you'd tolerate them. But notice what approval voting is: score voting on a two-point scale. Every approval adoption is an adoption of the cardinal principle — rate everyone, sum the ratings, highest total wins — with the resolution turned down. That makes the upgrade path short and honest: a city that has run approval voting has already accepted the logic, the equipment, and the habit; widening the scale is an ordinance, not a revolution. My position, then: approval is how score voting wins its first hundred cities. I'd rather have the principle in law at low resolution than have the perfect scale in a white paper.
+  </Perspective>
+</PerspectiveTabs>
+
+You can see my resolution inside the third tab: this is a sequencing argument, not a schism. Approval, score, and STAR are one family — cardinal ballots — and the family's scarce resources should flow to whichever member can actually win the jurisdiction in front of it. As of mid-2026, that has meant approval voting every time. It will not always.
+
+<QuickCheck
+  question="Which statement about the cardinal-voting family's track record is accurate as of mid-2026?"
+  choices={[
+    {id: 'a', text: "STAR voting has been adopted by several small cities, starting with Eugene in 2024"},
+    {id: 'b', text: "Approval voting is the only cardinal method that has been used in U.S. public elections — Fargo (2020–2024) and St. Louis (2021–present)"},
+    {id: 'c', text: "Full 0–10 score voting was used statewide in Alaska's 2022 elections"},
+    {id: 'd', text: "The Center for Election Science leads the campaign for STAR voting"},
+  ]}
+  answer="b"
+  explanation="Eugene rejected STAR in May 2024, so no public jurisdiction uses it; Alaska uses ranked-choice voting, not score; CES is the approval-voting organization (Equal Vote champions STAR). The cardinal camp's entire public-election record runs through approval voting in two cities — which is exactly why the approval-first strategy has carried the day so far."
+/>
+
+## The other coalition question: compete with RCV, or coexist?
+
+Now the relationship that actually determines whether any of this works. Ranked-choice voting is the incumbent reform: statewide in Maine and Alaska, citywide in New York and dozens of others, with [[org:fairvote]] behind it for three decades and allied funders like [[org:unite-america]] and [[org:representus]] moving real money. And FairVote does not return the cardinal camp's ecumenical affection — its standing critique is that approval voting flunks "later-no-harm" (approving your second choice can defeat your first), so voters learn to bullet-vote and the method slides back toward plurality. Take that argument seriously; it's the best one they have, and the math chapter answers it with data rather than indignation.
+
+Here's what happens when the two reforms fight instead of coexisting. Seattle, November 2022: an approval-voting initiative qualified for the ballot, the city council countered with a ranked-choice alternative, and voters chose between them head-to-head. Ranked-choice won the method question 75.4 to 24.6 — a twenty-five-point verdict on whose brand is stronger on reform-friendly turf. I won't spin that. On ground where RCV is organized and legal, approval voting running *against* it is a donor-funded gift to the status quo.
+
+But look again at the post-2024 map, because it assigns the lanes for us. Where ranked-choice voting is alive — Maine, Alaska, D.C., the RCV cities, Michigan's pending 2026 statewide push — cardinal advocates should be allies, full stop; every one of those fights is anything-but-plurality versus the duopoly, and *anything is better than plurality* remains the movement's one non-negotiable slogan. And where the nineteen ban states have outlawed *ranking* — which, as the legal chapter will show, is how nearly all of the bans are drafted — RCV cannot run at all, while approval voting remains perfectly legal. Seventeen of those nineteen states are an empty lane, cardinal-shaped. Nobody has to lose a Seattle for the reform movement to contest them.
+
+<Checkpoint question="You're organizing in a state whose statute bans methods in which 'voters rank candidates in order of preference.' A FairVote affiliate asks you to help repeal the ban; a CES organizer asks you to launch an approval-voting charter campaign in your home-rule city. What does the lanes logic say?">
+  Do both, and notice they don't conflict. The approval campaign is the only reform that can *win now* — the ban doesn't touch it, because approval involves no ranking. Supporting repeal costs the approval campaign nothing and keeps the coalition whole. The methods only become rivals when they're forced onto the same ballot against each other, Seattle-style — which is the one configuration the lanes doctrine exists to prevent.
+</Checkpoint>
+
+## What 2024 settles, and what it can't
+
+The losses of 2024–25 settle the tactical question this chapter opened with. Statewide, bundled, big-money initiative campaigns for unfamiliar systems are not working — Colorado's was bankrolled by some of reform's wealthiest backers and lost by seven. City-scale campaigns for simple reforms keep working — Fargo by 27 points, St. Louis by 36, D.C. by 46. The strategy question answers itself if you let the scoreboard talk: go local, go simple, go where the law is open, and treat every other anti-plurality reformer as a colleague who's wrong about something secondary.
+
+What this chapter hasn't settled is whether the thing we'd be sequencing *toward* is worth the climb — whether score voting's promised gains in voter satisfaction and honest expression are real and measurable. That's an empirical question, and the next chapters take it up with simulations, election returns, and the strongest counter-evidence I can find. Strategy tells you how to win. It's the evidence that has to tell you the win is worth having.

@@ -87,20 +87,21 @@ Hold three questions apart as you read, because political shouting blurs them: *
 
 ## Where $5.2 trillion actually comes from
 
-In fiscal year 2025 the federal government collected about $5.23 trillion, according to the Treasury and the Congressional Budget Office. The composition surprises almost everyone the first time they see it — so before you look at the answer, commit to a guess:
+In fiscal year 2025 the federal government collected about $5.23 trillion, according to the Treasury and the Congressional Budget Office. The composition surprises almost everyone the first time they see it — so before you look at the bars, commit to a guess: how many cents of each federal dollar come from the income tax? From payroll taxes? From the corporate tax? From tariffs?
 
-<GuessTheShare
-  title="Where did the federal government's $5.23 trillion come from in FY2025?"
-  unit="% of FY2025 receipts"
-  items={[
-    {label: "Individual income tax", actual: 51},
-    {label: "Payroll (Social Security + Medicare) taxes", actual: 33},
-    {label: "Corporate income tax", actual: 9},
-    {label: "Customs duties (tariffs)", actual: 4},
-    {label: "Everything else (excise, estate, fees)", actual: 3},
-  ]}
-  source="U.S. Treasury, Monthly Treasury Statement (FY2025); CBO, Monthly Budget Review: Summary for Fiscal Year 2025"
-/>
+<Figure caption="Where the federal government's $5.23 trillion came from in FY2025. Most first guesses overestimate the corporate share and underestimate payroll." source="U.S. Treasury, Monthly Treasury Statement (FY2025); CBO, Monthly Budget Review: Summary for Fiscal Year 2025">
+  <DataBars
+    unit="% of FY2025 receipts"
+    max={100}
+    bars={[
+      {label: 'Individual income tax', value: 51, color: 'blue'},
+      {label: 'Payroll (Social Security + Medicare) taxes', value: 33, color: 'accent'},
+      {label: 'Corporate income tax', value: 9, color: 'gold'},
+      {label: 'Customs duties (tariffs)', value: 4, color: 'green'},
+      {label: 'Everything else (excise, estate, fees)', value: 3, color: 'ink'},
+    ]}
+  />
+</Figure>
 
 Here is the same composition in dollars, with what each tax actually is:
 
@@ -108,7 +109,7 @@ Here is the same composition in dollars, with what each tax actually is:
 | --- | --- | --- |
 | Individual income tax | about $2.7 trillion | Tax on wages, salaries, interest, dividends, business and capital income, at rates from 10% to 37% |
 | Payroll (social insurance) taxes | about $1.7 trillion | 12.4% Social Security tax up to a wage cap, plus 2.9% Medicare tax on all wages, split on paper between worker and employer |
-| Corporate income tax | $452 billion | Flat 21% on corporate profits, plus a 15% minimum tax on the largest firms |
+| Corporate income tax | about $453 billion | Flat 21% on corporate profits, plus a 15% minimum tax on the largest firms |
 | Customs duties (tariffs) | about $195 billion | Taxes on imports — up 153% in one year on new executive-imposed tariffs |
 | Everything else | about $180 billion | Excise taxes (fuel, tobacco, alcohol, air travel), the estate and gift tax, Federal Reserve remittances, fees |
 
@@ -140,27 +141,27 @@ Take a single filer earning a $100,000 salary in 2026. First subtract the **stan
 
 <Figure caption="A $100,000 earner's income climbs the 2026 brackets one step at a time. Only the dollars on each step pay that step's rate, so the total bill is $13,170 — an effective rate of 13.2 percent of salary, even though the marginal rate is 22 percent." source="Bracket figures: IRS Rev. Proc. 2025-32.">
 <svg viewBox="0 0 720 400" width="100%" role="img" aria-label="Staircase diagram of 2026 single-filer tax brackets showing a $100,000 earner: 10 percent on the first $12,400 of taxable income equals $1,240; 12 percent on the next $38,000 equals $4,560; 22 percent on the last $33,500 equals $7,370; total tax $13,170, an effective rate of 13.2 percent against a 22 percent marginal rate" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="24" y="26" font-family="Georgia, serif" font-size="15" fill="var(--ink, #14130f)" font-weight="bold">Walking $100,000 up the 2026 brackets (single filer)</text>
-  <text x="24" y="46" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">$100,000 salary − $16,100 standard deduction = $83,900 taxable income</text>
+  <text x="24" y="26" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">Walking $100,000 up the 2026 brackets (single filer)</text>
+  <text x="24" y="46" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">$100,000 salary − $16,100 standard deduction = $83,900 taxable income</text>
   <rect x="24" y="296" width="120" height="64" fill="var(--green, #4a6b3a)" />
-  <text x="84" y="322" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">10% step</text>
-  <text x="84" y="340" font-family="Georgia, serif" font-size="12" fill="#ffffff" text-anchor="middle">first $12,400</text>
-  <text x="84" y="378" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">= $1,240</text>
+  <text x="84" y="322" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">10% step</text>
+  <text x="84" y="340" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">first $12,400</text>
+  <text x="84" y="378" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">= $1,240</text>
   <rect x="144" y="232" width="200" height="128" fill="var(--blue, #2f4d6e)" />
-  <text x="244" y="290" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">12% step</text>
-  <text x="244" y="308" font-family="Georgia, serif" font-size="12" fill="#ffffff" text-anchor="middle">next $38,000 (to $50,400)</text>
-  <text x="244" y="378" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">= $4,560</text>
+  <text x="244" y="290" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">12% step</text>
+  <text x="244" y="308" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">next $38,000 (to $50,400)</text>
+  <text x="244" y="378" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">= $4,560</text>
   <rect x="344" y="168" width="180" height="192" fill="var(--accent, #8a2a1e)" />
-  <text x="434" y="256" font-family="Georgia, serif" font-size="13" fill="#ffffff" text-anchor="middle">22% step</text>
-  <text x="434" y="274" font-family="Georgia, serif" font-size="12" fill="#ffffff" text-anchor="middle">last $33,500 (to $83,900)</text>
-  <text x="434" y="378" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="middle" font-weight="bold">= $7,370</text>
-  <rect x="524" y="104" width="100" height="256" fill="none" stroke="var(--line, #d9d5c9)" stroke-width="2" stroke-dasharray="6,4" />
-  <text x="574" y="230" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)" text-anchor="middle">24% step</text>
-  <text x="574" y="248" font-family="Georgia, serif" font-size="11.5" fill="var(--muted, #6b6457)" text-anchor="middle">never reached</text>
-  <line x1="524" y1="168" x2="344" y2="168" stroke="var(--gold, #b08a3e)" stroke-width="2" stroke-dasharray="4,3" />
-  <text x="640" y="96" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end" font-weight="bold">Total: $13,170</text>
-  <text x="640" y="114" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)" text-anchor="end">Effective: 13.2%</text>
-  <text x="640" y="132" font-family="Georgia, serif" font-size="12.5" fill="var(--accent, #8a2a1e)" text-anchor="end">Marginal: 22%</text>
+  <text x="434" y="256" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">22% step</text>
+  <text x="434" y="274" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">last $33,500 (to $83,900)</text>
+  <text x="434" y="378" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">= $7,370</text>
+  <rect x="524" y="104" width="100" height="256" fill="none" stroke="var(--line, #d9d5c9)" strokeWidth="2" strokeDasharray="6,4" />
+  <text x="574" y="230" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">24% step</text>
+  <text x="574" y="248" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">never reached</text>
+  <line x1="524" y1="168" x2="344" y2="168" stroke="var(--gold, #b08a3e)" strokeWidth="2" strokeDasharray="4,3" />
+  <text x="640" y="96" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="end" fontWeight="bold">Total: $13,170</text>
+  <text x="640" y="114" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="end">Effective: 13.2%</text>
+  <text x="640" y="132" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--accent, #8a2a1e)" textAnchor="end">Marginal: 22%</text>
 </svg>
 </Figure>
 
@@ -224,9 +225,9 @@ Start with the income tax alone, using the IRS Statistics of Income for tax year
 | Top 50% | 96.7% | 15.6% |
 | Bottom 50% | 3.3% | 3.7% |
 
-The income tax, standing alone, is steeply progressive: the top 1 percent earned 20.6 percent of reported income and paid 38.4 percent of the income tax. But the income tax is only half the system. The CBO's fuller accounting (January 2026, covering 2022) adds payroll, corporate, and excise taxes and finds **average total federal rates of 1.4 percent for the lowest-earning fifth of households, 23.2 percent for the highest fifth, and 31.5 percent for the top 1 percent**. Notice both halves of that sentence: the all-in system is still clearly progressive, *and* the bottom quintile's bill is not zero once payroll taxes enter — its *income-tax* rate alone is actually negative (about minus 10 percent in 2022) because refundable credits like the **Earned Income Tax Credit** (which delivered roughly $64 billion to 31 million working households in 2022, per CBPP) pay out cash, while payroll taxes claw some of it back.
+The income tax, standing alone, is steeply progressive: the top 1 percent earned 20.6 percent of reported income and paid 38.4 percent of the income tax. But the income tax is only half the system. The CBO's fuller accounting (January 2026, covering 2022) adds payroll, corporate, and excise taxes and finds **average total federal rates of 1.4 percent for the lowest-earning fifth of households, 23.2 percent for the highest fifth, and 31.5 percent for the top 1 percent**. Notice both halves of that sentence: the all-in system is still clearly progressive, *and* the bottom quintile's bill is not zero once payroll taxes enter — its *income-tax* rate alone is actually negative (about minus 10 percent in 2022) because refundable credits like the **Earned Income Tax Credit** (which delivered roughly $64 billion to 31 million working households on returns filed in 2022, per the IRS) pay out cash, while payroll taxes claw some of it back.
 
-This is also the honest way to read a famous talking point. "47 percent of Americans pay no federal income tax" — a Tax Policy Center estimate from the deep recession year 2009 that entered politics through a leaked 2012 fundraising video — was true as far as it went and misleading in every direction it was used. The share paying no federal *income* tax was about **39.6 percent in 2025** (TPC), most of them elderly households or low-wage workers with children; about two-thirds of them still paid payroll taxes, and essentially all of them paid excise taxes and bore some of the corporate tax. "Pays no income tax" was never "pays no tax."
+This is also the honest way to read a famous talking point. "47 percent of Americans pay no federal income tax" — a Tax Policy Center estimate from the deep recession year 2009 that entered politics through a leaked 2012 fundraising video — was true as far as it went and misleading in every direction it was used. The share paying no federal *income* tax was about **40 percent in 2025** (TPC), most of them elderly households or low-wage workers with children; about two-thirds of them still paid payroll taxes, and essentially all of them paid excise taxes and bore some of the corporate tax. "Pays no income tax" was never "pays no tax."
 
 ## Who bears a tax is not who writes the check
 

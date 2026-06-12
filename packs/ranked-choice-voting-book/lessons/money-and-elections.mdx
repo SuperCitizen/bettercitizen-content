@@ -1,0 +1,118 @@
+---
+schema: bettercitizen.lesson/v1
+slug: money-and-elections
+kind: reading
+title: Money and Elections
+objectives:
+  - Explain how runoff elections tax both taxpayers and turnout, and why an instant runoff removes that cost
+  - Trace the structural argument connecting spoiler fear to the two-party donor duopoly
+  - Distinguish what research actually shows about campaigning under RCV from what remains unproven
+concepts:
+  - campaign-finance
+  - super-pac
+  - dark-money
+  - runoff-election
+sources:
+  - type: book
+    citation: Chris Borgia, *Rank the Vote* (2026), "Money and Elections"
+  - type: website
+    citation: 'CityLand (New York Law School), "Instant Run-off Voting: End High Cost, Low Turnout Run-Off Elections" — the 2013 NYC public advocate runoff cost an estimated $13 million and drew about 202,000 voters, roughly 6.5% of those eligible.'
+    url: https://www.citylandnyc.org/instant-run-off-voting-end-high-cost-low-turnout-run-off-elections/
+  - type: website
+    citation: 'FairVote, "Georgia primary elections head to costly, unnecessary runoffs" — citing a Kennesaw State University study: Georgia''s 2020–21 U.S. Senate runoffs cost taxpayers $75 million, with 467,273 fewer voters than the general election.'
+    url: https://fairvote.org/georgia-primary-elections-head-to-costly-unnecessary-runoffs/
+  - type: paper
+    citation: 'Donovan, T., Tolbert, C. & Gracey, K. (2016), "Campaign civility under preferential and plurality voting," Electoral Studies 42: 157–163 — voters in RCV cities reported more satisfaction with campaign conduct and perceived less negativity than voters in matched plurality cities.'
+    url: https://www.researchgate.net/publication/297283158_Campaign_civility_under_preferential_and_plurality_voting
+  - type: paper
+    citation: 'Donovan, T. & Tolbert, C. (2023), "Civility in Ranked-Choice Voting Elections: Does Evidence Fit the Normative Narrative?," *Representation* — civility gains are real but bounded; the most viable candidates did not report less negative campaigns.'
+    url: https://www.tandfonline.com/doi/full/10.1080/00344893.2023.2219267
+  - type: website
+    citation: 'New America, "What We Know About Ranked Choice Voting: Candidates and Campaigns" — research synthesis including Jesse Clark''s contrasting finding that Maine''s 2018 congressional campaign was more negative than comparable districts, with increased anti-candidate independent expenditures.'
+    url: https://www.newamerica.org/insights/what-we-know-about-ranked-choice-voting/candidates-and-campaigns/
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 8
+---
+
+# Money and Elections
+
+On October 1, 2013, New York City held an election almost nobody attended. The Democratic primary for public advocate had ended with no candidate above the 40 percent threshold state law required, so the city ran the top two again three weeks later. Administering that second election cost an estimated $13 million. Just over 200,000 New Yorkers showed up — about 6.5 percent of those eligible. Thirteen million dollars, a fraction of the original electorate, to answer a question the first ballot could have asked and answered for free: *if it comes down to these two, which do you prefer?*
+
+That is the cheapest, least contested thing this chapter has to say about money. The harder argument — the one I actually care about — is about what the fear of wasted votes does to who can afford to run at all.
+
+## The runoff tax
+
+Wherever the law demands a majority winner, somebody has to pay for the second round. When both of Georgia's U.S. Senate seats went to runoffs in January 2021, administering the rematch cost taxpayers roughly $75 million, according to a Kennesaw State University study — and 467,273 fewer Georgians voted in it than had voted in November. That's the pattern everywhere [[term:runoff-election|runoffs]] exist: the government pays twice, the campaigns fundraise twice, and the electorate that shows up the second time is smaller and less representative than the one that showed up the first.
+
+The [[term:instant-runoff]] is exactly what its name says: the same majority logic, executed in one trip to the polls, using the backup preferences voters already wrote down. Where runoffs exist, the savings case for ranked ballots isn't advocacy — it's bookkeeping. New York adopted ranked choice voting in 2019 partly on the strength of that runoff math, and its 2021 citywide primaries needed no second election.
+
+I'll keep myself honest about the other side of the ledger. A jurisdiction that never held runoffs doesn't pocket those savings, and switching has real one-time costs: ballot redesign, tabulation software, voter education. If a county clerk tells you the transition isn't free, she's right. The savings argument is for the dozens of jurisdictions already paying for second elections — for everyone else, the case rests on what the ballot *does*, not what it costs.
+
+<Checkpoint question="A city holds a primary and a general election, and has never used runoffs. An advocate pitches the council: 'Ranked choice voting will save us millions.' What's wrong with the pitch — and what's the honest version?">
+  The savings claim belongs to runoff jurisdictions, where RCV genuinely deletes a whole election from the budget. A no-runoff city saves nothing on administration and pays one-time transition costs. The honest pitch there is about outcomes, not budgets: majority winners, no spoiler punishments, and a runoff's benefits without a runoff's costs — turnout collapse included.
+</Checkpoint>
+
+## The spoiler-fear subsidy
+
+Now follow the money upstream, to before a single ad is bought.
+
+Under pick-one rules, a donation to a third candidate isn't just a long shot — it's a weapon that can fire backward. Fund the independent you actually agree with, and you may split your own side's vote and elect the candidate you fear most. Donors learned this lesson generations before the rest of us had a name for it, which is why serious money in American politics flows almost exclusively into two channels, no matter how many candidates file.
+
+> **The scholar's lens:** Political scientists call the underlying regularity Duverger's Law, after Maurice Duverger, whose *Political Parties* (1954) argued that single-round plurality elections tend to compress competition into two parties. Duverger was describing voters and politicians, but the logic binds donors hardest of all — they are professionals at not wasting money on arithmetic that can't win.
+
+The result is what I'd call a donor duopoly. Since *Citizens United v. FEC* (2010) and the rise of the [[term:super-pac]], the ceilings have come off independent spending — but the *structure* of [[term:campaign-finance]] hasn't widened; it has deepened. Unlimited money chases the same two franchises, and access-minded givers hedge by writing checks to both. The parties don't have to earn that monopoly. The ballot enforces it for them, by making every alternative a spoiler. That is a subsidy — invisible, enormous, and paid to incumbentry itself.
+
+<ProcessFlow
+  title="The spoiler-fear money loop"
+  steps={[
+    {title: 'Pick-one ballots punish third candidacies', detail: 'A vote for an independent or insurgent can help elect the voter\'s least-favorite candidate. Everyone — voters, donors, endorsers — knows it.'},
+    {title: 'Donors consolidate into two camps', detail: 'Funding an outsider risks spoiling; funding a major party never does. Rational money stops considering alternatives before any campaign begins.', branch: 'This is where the duopoly is actually enforced — at the checkbook, not the ballot box.'},
+    {title: 'The entry price rises', detail: 'A challenger without a party machine can\'t credibly raise money, because no one funds a "spoiler." Viability becomes something parties grant, not something candidates earn.'},
+    {title: 'Ranked ballots cut the loop at step one', detail: 'When a ballot can transfer, supporting an outsider can\'t elect your enemy. The spoiler threat — the duopoly\'s cheapest weapon — stops working.', branch: 'What this does not do: lower spending, ban dark money, or overturn Citizens United.'},
+  ]}
+/>
+
+Notice what I am claiming and what I am not. This is a *structural* argument: ranked ballots remove the specific mechanism that lets two parties tax every dollar of political ambition. It is not a claim that elections get cheaper, that [[term:dark-money]] dries up, or that billionaires lose interest in politics. Those would be empirical claims, and the empirical record is — I'll say it plainly — thin.
+
+## What the evidence shows, and what it doesn't
+
+Here's the research that exists, as honestly as I can summarize it.
+
+On campaign *tone*, there's a real but modest literature. Todd Donovan, Caroline Tolbert, and Kellen Gracey surveyed likely voters across ranked-choice cities and demographically matched plurality cities and found, in a 2016 *Electoral Studies* paper, that people in RCV cities were significantly more satisfied with how campaigns were conducted and less likely to call them negative. Candidates in those cities more often reported groups urging voters to support multiple candidates — the "please rank me second" politics Alaska later made famous. When Donovan and Tolbert revisited the question in 2023, they found the effect real but bounded: voters still perceived more civility, and ordinary candidates reported gentler campaigns, but the *most viable* candidates — the ones with the most at stake — did not. Front-runners still fight.
+
+And there is genuine counter-evidence. In work synthesized by New America's research review, political scientist Jesse Clark found that Maine's 2018 congressional campaign — the first federal RCV race in modern American history — was *more* negative than comparable districts, with independent expenditures shifting sharply toward attacks. One plausible reading: in a high-stakes partisan race, the super PACs doing the scorching don't need second choices, so the civility incentive binds candidates more than it binds the outside money around them.
+
+On money itself — totals raised, where it comes from, whether small donors gain share — there is no body of evidence that ranked choice voting changes much of anything yet. The claim you'll sometimes hear, that RCV elections produce more grassroots fundraising, outruns the data, and I won't make it. What the record does show is an *entry* effect: New America's review counts Minneapolis council candidacies nearly doubling between 2005 and 2013 under the new rules, and a 2018 study finding about a nine-point increase in candidates of color in RCV cities relative to comparable plurality cities. More people run. Whether more people can *fund* a run is a question a few cities and two small states cannot yet answer.
+
+<QuickCheck
+  question="Which of these claims about RCV is actually supported by the current research record?"
+  choices={[
+    {id: 'a', text: 'It reduces total campaign spending in the races that use it'},
+    {id: 'b', text: 'Voters in RCV cities perceive campaigns as less negative — though the effect is weakest among front-runner candidates'},
+    {id: 'c', text: 'It shifts fundraising decisively toward small-dollar donors'},
+    {id: 'd', text: 'It neutralizes super PAC spending, since attack ads stop working'},
+  ]}
+  answer="b"
+  explanation="The Donovan–Tolbert–Gracey surveys (2016) and the 2023 follow-up support (b), with the honest caveat built in: the most viable candidates didn't report gentler campaigns, and Clark's Maine 2018 study found outside spending got *more* negative. (a) and (c) have no solid evidentiary base — advocates who claim them are ahead of the data. (d) is contradicted by Maine 2018: independent spenders don't need anyone's second choices."
+/>
+
+## Lowering the toll, not the temperature
+
+So why does a chapter on money belong in this book at all? Because the strongest money argument for ranked ballots was never about ad tone or fundraising totals. It's about the *gate*.
+
+Under plurality rules, the two parties hold a veto that operates before money even moves: any candidacy outside the duopoly can be framed — accurately! — as a spoiler, which makes it unfundable, which makes it nonviable, which proves the framing. Ranked ballots dissolve that veto. The donor who agrees with an independent can fund her without risking the election of his least-favorite candidate; the voter can rank her first without throwing a vote away. Even if not one dollar fewer is spent, *who is allowed to compete for the dollars* changes. That's the entry effect showing up in the candidate counts, and it's why I call this a structural reform rather than a campaign-finance reform.
+
+It's also why reformers who care about money keep bundling disclosure rules alongside ranked ballots — Alaska's Measure 2 paired its new election system with [[term:dark-money]] disclosure requirements precisely because the ballot can't do that job itself. Ranked choice voting leaves contribution limits, disclosure law, and *[[term:citizens-united|Citizens United]]* exactly where it found them. Anyone who tells you otherwise is selling something I'm not.
+
+<Checkpoint question="A donor says: 'I actually prefer the independent, but I give to the major-party candidate — I'm not going to bankroll a spoiler.' Walk through precisely what changes in her calculus under ranked ballots, and what doesn't.">
+  What changes: the punishment disappears. Under pick-one rules her gift to the independent could help elect the candidate she most opposes; under ranked ballots, her candidate's supporters transfer rather than splitting the vote, so funding her sincere preference can no longer backfire. What doesn't change: access-driven giving, spending ceilings (there are none), and outside money's freedom to attack. RCV removes the duopoly's veto at the gate — it does not reform what happens once money is inside.
+</Checkpoint>
+
+## What this chapter settles — and what it doesn't
+
+Settled, in my view: the runoff arithmetic (that one is just math), the existence of a real but bounded civility effect in the survey research, and the entry effect — more candidates, including more candidates of color, compete when spoiler fear dies. Honestly open: whether money's volume, sources, or targets change under ranked ballots at any scale that matters. Two small states and a few dozen cities are not enough data, and I'd rather concede that than torture the evidence into advocacy.
+
+But notice the argument the opposition almost never makes anymore: *it's unconstitutional*. They tried that — in Minnesota, in California, in Maine, twice in federal court. How those cases went, and the one place ranked choice voting really did lose on the law, is the next chapter.

@@ -1,0 +1,17 @@
+slug: american-compass
+name: American Compass
+kind: think-tank
+description: "Conservative economics think tank founded in 2020 by Oren Cass to move the right beyond market fundamentalism. Argues for industrial policy, worker power, and family-centered economics — a program of 'conservative economics' influential among national-conservative and populist Republicans."
+website: https://americancompass.org
+jurisdiction: national
+partisan_lean: right
+ideology_tags:
+  - american-conservatism
+  - communitarianism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - public-education
+concept_tags:
+  - think-tank
+is_active: true

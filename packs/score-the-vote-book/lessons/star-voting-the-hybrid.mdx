@@ -1,0 +1,126 @@
+---
+schema: bettercitizen.lesson/v1
+slug: star-voting-the-hybrid
+kind: reading
+title: "STAR Voting: The Hybrid"
+objectives:
+  - Walk the two stages of a STAR count (score 0–5, then an automatic runoff between the top two) and explain what the runoff is engineered to fix
+  - Recount STAR's actual electoral record through mid-2026 — Lane County 2018, Eugene and Oakridge 2024 — with verified margins
+  - State the later-no-harm / favorite-betrayal trade-off precisely and identify which side score and STAR each choose
+concepts:
+  - score-voting
+  - runoff-election
+  - ballot-initiative
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "STAR Voting: The Hybrid"'
+  - type: website
+    citation: 'Equal Vote Coalition, "The Equal Vote: STAR Voting" — official mechanics explainer (score 0–5, automatic runoff between the two highest-scoring candidates).'
+    url: https://www.starvoting.org/star_voting_explainer
+  - type: website
+    citation: 'Equal Vote Coalition, "Origin Story" — STAR voting devised at the October 2014 Equal Vote Conference at the University of Oregon, initially as Score Runoff Voting.'
+    url: https://www.equal.vote/origins
+  - type: website
+    citation: 'Ballotpedia, "Lane County, Oregon, Measure 20-290, Score Then Automatic Runoff Voting Method (November 2018)" — defeated 47.6% to 52.4% (74,408 to 82,157).'
+    url: https://ballotpedia.org/Lane_County,_Oregon,_Measure_20-290,_Score_Then_Automatic_Runoff_Voting_Method_(November_2018)
+  - type: website
+    citation: 'Ballotpedia, "Eugene, Oregon, Measure 20-349, STAR Voting for Mayor and City Council Elections Initiative (May 2024)" — defeated, 11,158 yes to 22,580 no (certified).'
+    url: https://ballotpedia.org/Eugene,_Oregon,_Measure_20-349,_STAR_Voting_for_Mayor_and_City_Council_Elections_Initiative_(May_2024)
+  - type: website
+    citation: 'OPB, "Voters give a thumbs down to proposal for rating-based election system in Eugene" (May 22, 2024) — roughly two-to-one rejection.'
+    url: https://www.opb.org/article/2024/05/22/eugene-rejects-star-voting-rating-based-system/
+  - type: website
+    citation: 'Ballotpedia, "Oakridge, Oregon, Measure 20-364, STAR Voting for Three Election Cycles Amendment (November 2024)" — three-cycle pilot defeated 575 to 551.'
+    url: https://ballotpedia.org/Oakridge,_Oregon,_Measure_20-364,_STAR_Voting_for_Three_Election_Cycles_Amendment_(November_2024)
+  - type: website
+    citation: 'STAR Voting Action, "Independent Party of Oregon adopts STAR Voting for 2020 Primary" — the first statewide political election conducted with STAR.'
+    url: https://www.starvoting.org/ipo_primary
+  - type: website
+    citation: 'Quinn, J., "Voter Satisfaction Efficiency (VSE) summary" — simulation results comparing honest and strategic voting across methods, including score and STAR.'
+    url: https://electionscience.github.io/vse-sim/VSEbasic
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 11
+---
+
+# STAR Voting: The Hybrid
+
+In October 2014, a conference room at the University of Oregon hosted something rare in the reform world: rival camps actually arguing with each other instead of past each other. The Equal Vote Conference put score voting's advocates in the same room as ranked-choice people — FairVote's Rob Richie among them — and out of that collision came a new method, proposed by Oregon entrepreneur Mark Frohnmayer and initially called Score Runoff Voting. Today it's STAR: **S**core, **T**hen **A**utomatic **R**unoff. It is the youngest serious voting method in America, the only one engineered in direct response to a criticism of score voting — and the system I get asked about more than any other, usually in the form: "If you like score voting, why not STAR?"
+
+Fair question. This chapter answers it honestly, which means starting with what STAR gets right.
+
+## The mechanics — and the one number to correct
+
+A STAR ballot asks you to score every candidate from 0 to 5 — five stars, exactly like every rating interface you've used this week. (Not 0 to 10: pure score voting can use any range, and I've argued elsewhere for finer scales, but STAR as actually proposed and balloted is 0–5. Get this right; opponents pounce on advocates who can't describe their own reform.) Then the count runs in two stages, and the second stage is the entire point:
+
+<ProcessFlow steps={[
+  {title: 'Score', detail: 'Every voter scores every candidate 0–5. Equal scores are allowed; a blank counts as 0. All scores are added up — every ballot counts toward every candidate, no rounds, no eliminations.'},
+  {title: 'Top two advance', detail: 'The two candidates with the highest score totals become the finalists — automatically, with no second trip to the polls.', branch: 'This is where score voting would simply declare the highest total the winner. STAR keeps going.'},
+  {title: 'Automatic runoff', detail: 'Your ballot is consulted one more time: your full vote goes to whichever finalist you scored higher. Scored them 4 and 2? Your vote goes to the 4. Scored them equally? You abstain from the runoff — counted as an explicit preference of "no preference."'},
+  {title: 'Majority of preferences wins', detail: 'The finalist preferred on more ballots wins, even if the other finalist had the higher score total. Intensity picks the finalists; head-to-head preference picks the winner.'},
+]} />
+
+Why bolt a runoff onto a score election? Because of the most serious objection to pure score voting — one I'll concede formally in the objections chapter: a strategic voter's optimal score ballot tends toward the extremes, max for your side, zero for the rest. STAR changes that calculus. If you flatten your ballot to all 5s and 0s, and both finalists turn out to be candidates you scored 5, you have *silenced yourself in the runoff* — your ballot expresses no preference between them. Honest intermediate scores are what preserve your voice in the final round. The strategy-resistance isn't a slogan; in Jameson Quinn's Voter Satisfaction Efficiency simulations, STAR holds up near the top of the field even with substantial shares of strategic voters. The runoff makes honesty rational. That is genuinely clever, and score voting's advocates should say so without mumbling.
+
+<Checkpoint question="Under STAR, a voter who loves A, likes B, and despises C marks A=5, B=5, C=0 'to give B maximum help against C.' The finalists turn out to be A and B. What did this voter's strategy actually cost them?">
+  Their entire say in choosing the winner. The runoff assigns each ballot to the finalist it scored *higher* — and this ballot scored A and B identically, so it abstains. An honest A=5, B=3 ballot would have given B the same help reaching the runoff relative to C and still cast a full-strength runoff vote for A over B. That's the mechanism doing its job: under STAR, exaggeration isn't free, so honest gradations are the smart play.
+</Checkpoint>
+
+## The record, with no varnish
+
+Now the part advocates of *every* system are tempted to mumble: STAR's electoral track record. As of mid-2026, no government in the United States — or anywhere — elects its officials with STAR voting. That is not for lack of trying, and the trying has all happened in Oregon:
+
+<Timeline events={[
+  {date: 'Oct 2014', title: 'Invented in Eugene', detail: 'The Equal Vote Conference at the University of Oregon produces Score Runoff Voting, later renamed STAR — score 0–5 plus an automatic top-two runoff.'},
+  {date: 'Nov 2018', title: 'Lane County says no — barely', detail: 'Measure 20-290 would have adopted STAR for county elections. It fails 47.6% to 52.4% (74,408 to 82,157) — the closest STAR has come to public adoption.'},
+  {date: '2020', title: 'First statewide political use', detail: 'The Independent Party of Oregon, the state’s third-largest party, runs its statewide primary with STAR — the method’s first real statewide political election, conducted without reported ballot problems.'},
+  {date: 'Feb 2024', title: 'Statewide initiative suspended', detail: 'The STAR Voting for Oregon campaign (IP-11) halts after gathering 33,683 signatures, citing funding constraints — the statewide route closes for the cycle.'},
+  {date: 'May 2024', title: 'Eugene says no — emphatically', detail: 'Measure 20-349, STAR for the method’s own hometown, fails 11,158 to 22,580 — roughly two to one against.'},
+  {date: 'Nov 2024', title: 'Oakridge says no — by 24 votes', detail: 'Measure 20-364, a three-election-cycle STAR pilot, fails 575 to 551 in the small Lane County city.'},
+]} />
+
+Read that timeline the way I had to. STAR's most sophisticated audience — Eugene, the city where it was invented, after a decade of local evangelism — rejected it two to one. The near-misses (Lane County by under five points, Oakridge by 24 votes) show real persuadability; the Eugene blowout shows what happens when a two-stage explanation meets a skeptical electorate and an opposition campaign. Meanwhile the method's actual operating experience consists of party-run elections — the Independent Party of Oregon's 2020 primary chief among them — plus internal votes in organizations and Oregon party bodies. Those ran fine. They are also not public elections, and I won't pretend otherwise.
+
+<QuickCheck
+  question="As of mid-2026, where does STAR voting actually run?"
+  choices={[
+    {id: 'a', text: 'Eugene and Lane County, Oregon, since 2024'},
+    {id: 'b', text: 'No U.S. government elections — its real-world record is party-run and organizational elections, like the Independent Party of Oregon’s 2020 statewide primary'},
+    {id: 'c', text: 'Statewide in Oregon, under 2024’s IP-11'},
+    {id: 'd', text: 'Several Oregon cities, after Oakridge’s pilot passed in 2024'},
+  ]}
+  answer="b"
+  explanation="Every public STAR ballot measure to date has failed: Lane County 2018 (47.6%), Eugene May 2024 (about 33%), Oakridge November 2024 (551–575). IP-11 never reached the ballot — the campaign suspended in February 2024. STAR’s operating record is real but private: party primaries and organizational elections. That asymmetry — strong simulations, no public adoptions — is the central fact about STAR in 2026."
+/>
+
+## The trade STAR makes — stated precisely
+
+Here is the part most explainers fudge, so let's be exact. Voting theory has a known tension between two properties, and *no method gets both*:
+
+- **Later-no-harm:** supporting a less-preferred candidate can never hurt a more-preferred one. Instant-runoff voting satisfies this — your second choice is never even read until your first is eliminated. Approval, score, and STAR all *fail* it: the 3 you give your second choice is counted immediately, alongside the 5 you gave your favorite, and can be the margin by which the second choice overtakes the favorite.
+- **No favorite betrayal:** you never do better by ranking or scoring someone *above* your sincere favorite. Score and approval satisfy this outright — giving your favorite the maximum can never backfire on them. IRV fails it: in a center squeeze, voters like Alaska's Palin-first Republicans in August 2022 would have gotten a better outcome (Begich) by ranking their favorite lower.
+
+| Property | IRV | Score | STAR |
+| --- | --- | --- | --- |
+| Later-no-harm (your 2nd choice can't hurt your 1st) | Holds | Fails | Fails |
+| No favorite betrayal (top-scoring your favorite is always safe) | Fails | Holds | Holds, with rare edge cases |
+| Strategic exaggeration is self-punishing | — | No — collapses toward approval | Yes — flattened ballots forfeit the runoff |
+| Count is a single pass, summable by precinct | No | Yes | Mostly — score totals sum; the runoff needs pairwise tallies |
+
+The table is the argument. IRV chose later-no-harm, and the price was Burlington and the center squeeze — protecting your first choice from your second is *exactly why* consensus candidates die early. Score and STAR chose the other side: every preference counts immediately, favorites are always safe to support fully, and the cost is that supporting a compromise candidate genuinely can help them edge out your favorite. STAR then spends a little complexity buying back strategy-resistance. These are choices, not flaws — and you should distrust any advocate, of any system, who presents their column as all "Holds."
+
+<Checkpoint question="An IRV advocate says: 'STAR fails later-no-harm, so voters will be afraid to score anyone but their favorite — it'll collapse into plurality.' What's the strongest evidence-based reply from this chapter?">
+  The runoff is engineered against exactly that retreat. Bullet-voting your favorite 5 and everyone else 0 maximizes later-no-harm-style safety, but it throws away your runoff vote whenever your favorite isn't a finalist — and abstains if both finalists got your 5. Quinn's VSE simulations bear out that honest gradations remain individually rational under STAR with strategic electorates. The honest counter-concession: that's simulation evidence plus party-election experience, not public-election data, because no government has run STAR yet.
+</Checkpoint>
+
+## My verdict: the pragmatic sibling
+
+So why does this book advocate score rather than STAR? Three reasons, none of them contempt.
+
+First, transparency compounds. "Highest total wins" is one sentence; a STAR result requires explaining why the higher-scoring candidate can lose the runoff — a feature, by design, the majoritarian override working as intended — but a feature you must re-explain in every contested election, forever. Second, the runoff's "majority winner" is a majority *between two finalists the scores pre-selected*. That's a real guarantee and a modest one; don't let anyone inflate it into "majority mandate." Third, Eugene. The empirical lesson of 2024 is that each increment of mechanism is a surface the opposition attacks, and reform campaigns die of complexity before they die of anything else. Score's whole case is that expressiveness shouldn't cost simplicity — and the simplest expressive ballot is the one to organize around. Approval voting, score's 0–1 special case, has already won cities on exactly that logic, as the landscape chapter showed.
+
+But keep the family resemblance in view: a STAR ballot *is* a score ballot, counted with one extra safeguard. If STAR is what's on your ballot — if Oregon's movement finally lands one — vote yes without hesitation, and I'll cheer from the next chapter over. Among the reforms on offer in 2026, STAR is score voting's closest kin and plurality's furthest improvement; my quarrel with it is strategic, not mathematical.
+
+What this chapter settles: STAR's mechanics, its engineered answer to strategic exaggeration, its precise trade-offs, and its unvarnished 0-for-3 record at the ballot box. What it doesn't settle: whether the runoff's strategy-resistance is worth the explanatory overhead in a real public campaign — Oregon's next attempt will tell us more than any simulation can. Later in this book, score voting itself takes the stand and answers the cross-examination: the objections chapter.

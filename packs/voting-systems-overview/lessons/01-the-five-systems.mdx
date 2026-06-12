@@ -18,20 +18,23 @@ concepts:
   - plurality
   - runoff-election
 sources:
-  - type: paper
-    url: https://www.fairvote.org/research_rcvelections
-    citation: 'FairVote, "Research on Ranked Choice Voting Elections" (advocate-leaning, well-sourced)'
-  - type: paper
+  - type: website
+    url: https://fairvote.org/our-reforms/ranked-choice-voting-information/data-on-rcv/
+    citation: 'FairVote, "Research and data on RCV in practice" (advocate-leaning, well-sourced)'
+  - type: website
     url: https://www.electionscience.org/library/approval-voting/
     citation: 'Center for Election Science, "Approval Voting" (advocate-leaning, primary-source citations)'
-  - type: paper
-    url: https://www.starvoting.org/star_voting_explainer
-    citation: 'Equal Vote Coalition, "The Equal Vote: STAR Voting"'
+  - type: website
+    url: https://www.starvoting.org/star
+    citation: 'Equal Vote Coalition / STAR Voting, "About STAR Voting" — official explainer of the score-then-automatic-runoff mechanics'
   - type: court-opinion
     url: https://supreme.justia.com/cases/federal/us/504/428/
     citation: "Burdick v. Takushi, 504 U.S. 428 (1992) — upheld Hawaii's write-in ban under a balancing test; election mechanics are largely a state legislative prerogative"
-  - type: paper
-    citation: 'Brams & Fishburn, "Approval Voting" (Birkhäuser, 2nd ed., 2007) — the foundational academic treatment'
+  - type: book
+    citation: 'Brams & Fishburn, "Approval Voting" (Springer, 2nd ed., 2007; 1st ed. Birkhäuser, 1983) — the foundational academic treatment'
+  - type: website
+    citation: 'ranked.vote, "Burlington 2009 Mayoral Election" — ballot-level IRV tabulation and pairwise matrix behind the cold-open numbers.'
+    url: https://ranked.vote/report/us/vt/btv/2009/03/mayor
   - type: book
     citation: 'Duverger, M. (1954), Political Parties: Their Organization and Activity in the Modern State (trans. B. & R. North), Methuen/Wiley — source of "Duverger''s law" and the mechanical/psychological effects.'
   - type: website
@@ -111,31 +114,31 @@ Count these one stack of ballots three ways and you elect three different people
 
 <Figure caption="The same 100 ballots produce Avery under plurality, Brooks under a top-two runoff, and Cruz under instant runoff. No one miscounted; the rules simply weigh different parts of the ballot.">
 <svg viewBox="0 0 720 440" width="100%" role="img" aria-label="The same 100 ballots counted three ways: plurality elects Avery with 35 votes; a top-two runoff elects Brooks 65 to 35; an instant runoff elects Cruz 65 to 35" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="26" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="var(--ink, #14130f)">One election, three counting rules, three winners</text>
+  <text x="20" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">One election, three counting rules, three winners</text>
 
-  <text x="20" y="58" font-family="Georgia, serif" font-size="13.5" font-weight="bold" fill="var(--ink, #14130f)">Plurality — count first choices only</text>
+  <text x="20" y="58" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Plurality — count first choices only</text>
   <rect x="20" y="68" width="210" height="20" fill="var(--accent, #8a2a1e)" />
-  <text x="238" y="83" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Avery 35 — wins</text>
+  <text x="238" y="83" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Avery 35 — wins</text>
   <rect x="20" y="92" width="150" height="20" fill="var(--line, #d9d5c9)" />
-  <text x="178" y="107" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">Brooks 25</text>
+  <text x="178" y="107" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Brooks 25</text>
   <rect x="20" y="116" width="96" height="20" fill="var(--line, #d9d5c9)" />
-  <text x="124" y="131" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">Cruz 16 · Diaz 13 · Ellis 11</text>
+  <text x="124" y="131" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Cruz 16 · Diaz 13 · Ellis 11</text>
 
-  <text x="20" y="178" font-family="Georgia, serif" font-size="13.5" font-weight="bold" fill="var(--ink, #14130f)">Top-two runoff — Avery vs. Brooks in a second election</text>
+  <text x="20" y="178" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Top-two runoff — Avery vs. Brooks in a second election</text>
   <rect x="20" y="188" width="390" height="20" fill="var(--blue, #2f4d6e)" />
-  <text x="418" y="203" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Brooks 65 — wins</text>
+  <text x="418" y="203" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Brooks 65 — wins</text>
   <rect x="20" y="212" width="210" height="20" fill="var(--line, #d9d5c9)" />
-  <text x="238" y="227" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">Avery 35</text>
-  <text x="20" y="252" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">Cruz, Diaz, and Ellis voters all prefer Brooks to Avery, so they break 65–35 for Brooks.</text>
+  <text x="238" y="227" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Avery 35</text>
+  <text x="20" y="252" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">Cruz, Diaz, and Ellis voters all prefer Brooks to Avery, so they break 65–35 for Brooks.</text>
 
-  <text x="20" y="298" font-family="Georgia, serif" font-size="13.5" font-weight="bold" fill="var(--ink, #14130f)">Instant runoff — eliminate last place, transfer, repeat</text>
+  <text x="20" y="298" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Instant runoff — eliminate last place, transfer, repeat</text>
   <rect x="20" y="308" width="390" height="20" fill="var(--green, #4a6b3a)" />
-  <text x="418" y="323" font-family="Georgia, serif" font-size="12.5" fill="var(--ink, #14130f)">Cruz 65 — wins</text>
+  <text x="418" y="323" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Cruz 65 — wins</text>
   <rect x="20" y="332" width="210" height="20" fill="var(--line, #d9d5c9)" />
-  <text x="238" y="347" font-family="Georgia, serif" font-size="12.5" fill="var(--muted, #6b6457)">Avery 35</text>
-  <text x="20" y="372" font-family="Georgia, serif" font-size="12" fill="var(--muted, #6b6457)">Ellis out first (Cruz 27), then Diaz (Cruz 40), then Brooks — whose voters transfer to Cruz.</text>
-  <text x="20" y="404" font-family="Georgia, serif" font-size="12" font-style="italic" fill="var(--muted, #6b6457)">And a fourth rule would crown a fourth result: Brooks beats every rival head-to-head (a "Condorcet</text>
-  <text x="20" y="420" font-family="Georgia, serif" font-size="12" font-style="italic" fill="var(--muted, #6b6457)">winner") yet loses under instant runoff — exactly what happened to Montroll in Burlington in 2009.</text>
+  <text x="238" y="347" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Avery 35</text>
+  <text x="20" y="372" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">Ellis out first (Cruz 27), then Diaz (Cruz 40), then Brooks — whose voters transfer to Cruz.</text>
+  <text x="20" y="404" fontFamily="Georgia, serif" fontSize="12" fontStyle="italic" fill="var(--muted, #6b6457)">And a fourth rule would crown a fourth result: Brooks beats every rival head-to-head (a "Condorcet</text>
+  <text x="20" y="420" fontFamily="Georgia, serif" fontSize="12" fontStyle="italic" fill="var(--muted, #6b6457)">winner") yet loses under instant runoff — exactly what happened to Montroll in Burlington in 2009.</text>
 </svg>
 </Figure>
 
@@ -149,7 +152,7 @@ Walk the instant runoff yourself to see the gears turn. First count: Avery 35, B
 
 The ballot lists every candidate with a checkbox: mark every one you find acceptable. No ranking, no scores, no limit. The winner is whoever collects the most checks. Mechanically this is the smallest possible change to a plurality ballot — same grid, same counting machines, just delete the "vote for only one" rule — which is why its advocates pitch it as reform without new infrastructure.
 
-Its U.S. governmental track record is short and turbulent. Fargo, North Dakota adopted approval voting by initiative in 2018 with about 64 percent of the vote — the first American city to do so — and used it for city elections from 2020 through 2024. Then in April 2025 North Dakota's legislature banned both approval voting and RCV statewide (HB 1297), voiding Fargo's ordinance. St. Louis, Missouri adopted a variant in November 2020 (Proposition D, 68 percent): an open, nonpartisan approval-voting first round, with the top two advancing to a runoff. First used in the March 2021 mayoral race, it survives — Missouri voters banned RCV and approval voting statewide in 2024 (Amendment 7), but the amendment grandfathered St. Louis. Outside government, approval voting has a long, quieter career: several major professional societies, including the Mathematical Association of America and the Econometric Society, have elected their officers this way since the late 1980s, a record documented by Steven Brams and Peter Fishburn, the method's leading academic theorists.
+Its U.S. governmental track record is short and turbulent. Fargo, North Dakota adopted approval voting by initiative in 2018 with about 64 percent of the vote — the first American city to do so — and used it for city elections from 2020 through 2024. Then in April 2025 North Dakota's legislature banned both approval voting and RCV statewide (HB 1297), voiding Fargo's ordinance. St. Louis, Missouri adopted a variant in November 2020 (Proposition D, 68 percent): an open, nonpartisan approval-voting first round, with the top two advancing to a runoff. First used in the March 2021 mayoral race, it survives — Missouri voters banned RCV and approval voting statewide in 2024 (Amendment 7), but the amendment grandfathered St. Louis. Outside government, approval voting has a long, quieter career: several major professional societies, including the Mathematical Association of America and the Econometric Society, have elected their officers this way since the 1980s, a record documented by Steven Brams and Peter Fishburn, the method's leading academic theorists.
 
 ## 4. Score voting (range voting)
 
@@ -161,7 +164,7 @@ No U.S. government currently elects officials by score voting; its constituency 
 
 STAR begins as score voting: rate every candidate 0 to 5. Then comes the twist that gives it its name. The two highest-scoring candidates advance to an "automatic runoff," decided not by scores but by *preferences*: your full ballot is consulted, and your vote in the runoff goes to whichever finalist you scored higher (score them equally and you abstain from that round). Scoring captures intensity; the runoff restores the one-person-one-vote head-to-head choice.
 
-STAR is the youngest system here and the only one with no governmental adoption anywhere. Its proving ground is Oregon: party organizations there have used it for internal elections, and a citizen initiative to adopt it for city elections in Eugene (Measure 20-349) reached the ballot in May 2024 — and lost by roughly two to one. As of mid-2026 STAR remains a proposal with an unusually rigorous simulation literature and no public-election track record, a combination worth keeping in mind when you weigh claims about it.
+STAR is the youngest system here and the only one with no governmental adoption anywhere. Its proving ground is Oregon: party organizations there have used it for internal elections, and a citizen initiative to adopt it for city elections in Eugene (Measure 20-349) reached the ballot in May 2024 — and lost by roughly two to one. Six months later the small Oregon city of Oakridge voted on a three-election STAR trial and rejected it by just 24 votes, 575 to 551. As of mid-2026 STAR remains a proposal with an unusually rigorous simulation literature and no public-election track record, a combination worth keeping in mind when you weigh claims about it.
 
 <Checkpoint question="On an approval ballot you check three of five candidates, including your absolute favorite. How much more does your ballot help your favorite than your third choice — and which two systems were designed to fix exactly that?">
   Not at all — approval is binary, so all three checked candidates get identical support from you. That flattening is the price of approval's simplicity. **Score** voting restores intensity (you can give your favorite a 5 and your third choice a 2), and **STAR** adds a runoff on top so that expressing middle scores still leaves you a full-strength vote between the two finalists.

@@ -1,9 +1,12 @@
 # Validates all content in this repo on every PR + push.
 #
-# This repo is pure content with no toolchain of its own. Validation
-# lives in the SuperCitizen app (it owns the schemas), so CI checks out
-# the app, points CONTENT_LOCAL_PATH at this repo, and runs the app's
-# DB-free validator (`pnpm validate-content`).
+# Schema validation lives in the BetterCitizen app (it owns the schemas),
+# so CI checks out the app, points CONTENT_LOCAL_PATH at this repo, and
+# runs the app's DB-free validator (`pnpm validate-content`). The
+# standalone structural checks (no app needed) live in check-mdx.yml.
+#
+# NOTE: this job will fail until the app's MDX migration lands — the app's
+# loader/validator still expects .md lessons; see MIGRATION.md.
 #
 # The app is checked out at `main` by default. Pin SC_APP_REF to a tag
 # if you need validation against a specific app release.
@@ -30,14 +33,14 @@ jobs:
       - name: Checkout content
         uses: actions/checkout@v4
         with:
-          path: supercitizen-content
+          path: bettercitizen-content
 
       - name: Checkout app (schemas + validator)
         uses: actions/checkout@v4
         with:
-          repository: SuperCitizen/supercitizen
+          repository: SuperCitizen/bettercitizen.ai
           ref: ${{ env.SC_APP_REF }}
-          path: supercitizen
+          path: bettercitizen.ai
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -45,17 +48,17 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version-file: supercitizen/.nvmrc
+          node-version-file: bettercitizen.ai/.nvmrc
           cache: pnpm
-          cache-dependency-path: supercitizen/pnpm-lock.yaml
+          cache-dependency-path: bettercitizen.ai/pnpm-lock.yaml
 
       - name: Install app dependencies
-        working-directory: supercitizen
+        working-directory: bettercitizen.ai
         run: pnpm install --frozen-lockfile
 
       - name: Validate this PR's content
-        working-directory: supercitizen
+        working-directory: bettercitizen.ai
         env:
           # Point the validator at the content checkout (sibling dir).
-          CONTENT_LOCAL_PATH: ../supercitizen-content
+          CONTENT_LOCAL_PATH: ../bettercitizen-content
         run: pnpm validate-content

@@ -1,0 +1,15 @@
+slug: mont-pelerin-society
+name: Mont Pelerin Society
+kind: think-tank
+description: "International society of economists, philosophers, and public intellectuals founded by Friedrich Hayek in 1947 at Mont Pèlerin, Switzerland, to preserve and develop classical liberal thought after World War II. The intellectual seedbed from which much of the modern free-market think-tank world grew."
+website: https://www.montpelerin.org
+jurisdiction: international
+partisan_lean: center-right
+ideology_tags:
+  - classical-liberalism
+influence_channels:
+  - public-education
+concept_tags:
+  - think-tank
+  - capitalism
+is_active: true

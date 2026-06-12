@@ -58,7 +58,8 @@ const PLANS: readonly Plan[] = [
 function districtWinners(districts: string): Array<'A' | 'B'> {
   const aCount = [0, 0, 0, 0, 0];
   for (let i = 0; i < districts.length; i++) {
-    if (GRID[i] === 'A') aCount[Number(districts[i])]++;
+    const d = Number(districts[i]);
+    if (GRID[i] === 'A') aCount[d] = (aCount[d] ?? 0) + 1;
   }
   return aCount.map((a) => (a > 5 ? 'A' : 'B'));
 }
@@ -94,8 +95,8 @@ const PATHS = PLANS.map((p) => boundaryPath(p.districts));
  */
 export function GerrymanderLab({ title }: GerrymanderLabProps) {
   const [planIndex, setPlanIndex] = useState(0);
-  const plan = PLANS[planIndex];
-  const winners = WINNERS[planIndex];
+  const plan = PLANS[planIndex]!;
+  const winners = WINNERS[planIndex]!;
   const seatsA = winners.filter((w) => w === 'A').length;
   const seatsB = 5 - seatsA;
 

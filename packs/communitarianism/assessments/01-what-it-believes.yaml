@@ -50,6 +50,22 @@ questions:
     concepts: [communitarianism]
 
   - id: q4
+    kind: multiple-choice
+    text: "A city council proposes closing its public library and giving every resident an equal-value voucher for online book purchases, arguing residents end up with 'the same goods, more efficiently.' Which objection is the distinctively communitarian one?"
+    choices:
+      - id: a
+        text: "The voucher amount is too small to replace what residents currently borrow for free."
+      - id: b
+        text: "A library is a constitutively shared good — a civic institution whose value lies partly in the shared practice itself — so distributing equivalent private goods does not preserve what it provided."
+      - id: c
+        text: "Markets should never be involved in providing books or other cultural goods."
+      - id: d
+        text: "Reading is a private activity, so the substitution is acceptable if the voucher is large enough."
+    correct_choice_id: b
+    explanation: "The communitarian claim is not about the size of the transfer (a) — that's an ordinary distributive objection anyone could make. Nor is it blanket anti-market dogma (c): communitarians like Walzer accept markets in their proper sphere. (b) applies the lesson's core idea: some goods exist only as shared practices, so converting a shared institution into equivalent private holdings changes what the good is, not just who provides it. (d) is the atomized framing the tradition rejects — it treats the library as nothing but a delivery mechanism for private consumption."
+    concepts: [communitarianism, shared-goods]
+
+  - id: q5
     kind: free-response
     text: "Civic-republican (left) communitarianism and religious-traditionalist (right) communitarianism share the philosophical commitment that community matters for human flourishing. State the strongest version of where they nonetheless disagree, and what would resolve the disagreement."
     socratic_seed: "Both traditions agree that pure individualism is corrosive and that civic and religious institutions matter. They disagree about which inheritances should be preserved and how change should occur. Civic-republicans support inclusive multicultural civic frameworks that build shared identity across religious and ethnic differences; religious-traditionalists support particular religious-cultural inheritances and worry that pure inclusion drains civic life of substantive content. The disagreement is partly empirical (does inclusive civic identity actually build solidarity?) and partly normative (which inheritances have priority?). Resolution would require either showing that inclusive civic identity can substitute for particular religious-traditional substance, or finding a synthesis that honors both."

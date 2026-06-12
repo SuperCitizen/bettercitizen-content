@@ -3,18 +3,18 @@ lesson: give-thoughtfully
 questions:
   - id: q1
     kind: multiple-choice
-    text: "A nurse sets up a \\$20-a-month recurring gift to a House campaign in March of an election year and forgets about it. By November, what is true?"
+    text: "A nurse sets up a \\$25-a-month recurring gift to a House campaign in March of an election year and forgets about it. By November, what is true?"
     choices:
       - id: a
         text: "Nothing about her appears anywhere — small gifts are always anonymous."
       - id: b
-        text: "Her total (\\$180+) has crossed the \\$200 itemization threshold, so her name, address, employer, and occupation are in the campaign's public FEC filings."
+        text: "Her total (\\$225) has crossed the \\$200 itemization threshold, so her name, address, employer, and occupation are in the campaign's public FEC filings."
       - id: c
         text: "Only her name appears, and only if she opted in to disclosure."
       - id: d
         text: "Her gifts are disclosed to the IRS but not to the public."
     correct_choice_id: b
-    explanation: "Disclosure is triggered by *aggregate* giving to one committee passing \\$200 in a cycle — nine months of \\$20 is \\$180, and month ten crosses the line. From then on she is itemized: name, address, employer, occupation, permanently searchable on fec.gov. Recurring gifts are precisely how donors cross the threshold without noticing — which is why the lesson says the disclosure trade should be chosen, not discovered."
+    explanation: "Disclosure is triggered by *aggregate* giving to one committee exceeding \\$200 in a cycle — eight months of \\$25 reach exactly \\$200, and the ninth gift, in November, puts her over the line. From then on she is itemized: name, address, employer, occupation, permanently searchable on fec.gov. Recurring gifts are precisely how donors cross the threshold without noticing — which is why the lesson says the disclosure trade should be chosen, not discovered."
     concepts: [campaign-finance]
 
   - id: q2

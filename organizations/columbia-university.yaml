@@ -1,0 +1,12 @@
+slug: columbia-university
+name: Columbia University
+kind: university
+subtype: private-university
+description: "Private Ivy League research university in New York City, founded in 1754 as King's College. Co-created the independent Knight First Amendment Institute and houses the Center on Global Energy Policy at its School of International and Public Affairs."
+website: https://www.columbia.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+  - first-amendment
+is_active: true

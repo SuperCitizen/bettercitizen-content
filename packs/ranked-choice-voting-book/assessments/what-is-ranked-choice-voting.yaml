@@ -1,0 +1,156 @@
+schema: bettercitizen.assessment/v1
+lesson: what-is-ranked-choice-voting
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      You rank Avila first and Brooks second. At what point, if ever, does the
+      count look at your Brooks ranking?
+    choices:
+      - id: a
+        text: >-
+          Immediately — Brooks receives half a vote alongside Avila's full
+          vote.
+      - id: b
+        text: >-
+          Only if and when Avila has been eliminated; until then your ballot
+          counts solely for Avila.
+      - id: c
+        text: >-
+          Whenever Avila falls behind in the running tally, your vote shifts
+          to Brooks.
+      - id: d
+        text: >-
+          Never in the same election — second choices matter only if a
+          separate runoff election is held later.
+    correct_choice_id: b
+    explanation: >-
+      A ranked ballot is not a points system: at every moment it counts as one
+      vote for exactly one candidate — the highest-ranked one still in the
+      race. (a) describes Borda-style scoring, which RCV is not. (c) is wrong
+      because transfers happen only on elimination, not on falling behind —
+      which is also why ranking Brooks can never hurt Avila. (d) describes a
+      traditional delayed runoff; the whole point of the instant runoff is
+      collecting that backup information on the original ballot.
+    concepts: [ranked-choice-voting, instant-runoff]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      A 100-ballot race counts first choices as Ash 45, Bell 38, Cole 17. Cole
+      is eliminated. Of Cole's ballots, 9 rank Bell next, 4 rank Ash next, and
+      4 rank no one else. What is the result?
+    choices:
+      - id: a
+        text: >-
+          Ash wins, 49 to 47 — a majority of the 96 ballots still active.
+      - id: b
+        text: >-
+          Bell wins — eliminated candidates' transfers always decide the race
+          for the trailing finalist.
+      - id: c
+        text: >-
+          No one wins — 49 votes is short of the 51 needed, so a new election
+          must be held.
+      - id: d
+        text: >-
+          Ash wins 53 to 47, because Cole's 4 unranked ballots go to the
+          leader by default.
+    correct_choice_id: a
+    explanation: >-
+      Ash takes 45 + 4 = 49 and Bell takes 38 + 9 = 47; the 4 ballots that
+      ranked no remaining candidate are exhausted. The majority threshold is
+      computed over continuing ballots — 96 of them, so 49 clears it. (c) is
+      the classic misreading: the threshold is half of active ballots, not of
+      the original 100. (d) invents a default transfer that doesn't exist —
+      a ballot speaks only where its voter wrote instructions. (b) gets the
+      direction of this race's transfers right but the rule wrong: transfers
+      follow each voter's ranking, not the trailing candidate's need.
+    concepts: [ranked-choice-voting, majority-threshold]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      A city replaces plurality at-large elections for its five-seat council
+      with the single transferable vote (STV). Which change should residents
+      actually expect?
+    choices:
+      - id: a
+        text: >-
+          None — STV is just instant-runoff voting and produces the same
+          winners as before.
+      - id: b
+        text: >-
+          A cohesive 40-percent minority can now reliably elect about two of
+          the five seats, instead of potentially zero.
+      - id: c
+        text: >-
+          The majority loses the ability to elect a majority of the council.
+      - id: d
+        text: >-
+          Voters face a more complicated ballot than they would under
+          single-winner ranked choice voting.
+    correct_choice_id: b
+    explanation: >-
+      With five seats, the STV winning threshold is roughly one-sixth of the
+      vote, so a 40-percent bloc lands about two seats — rough
+      proportionality, the way Cambridge has elected its council since 1941.
+      (a) confuses the two flavors: IRV is the single-winner form; STV's
+      multi-winner counting is what creates proportionality. (c) is backwards
+      — a 60-percent majority still elects about three of five. (d) is false:
+      the voter marks the same ranked ballot in both systems; only the
+      counting rule changes.
+    concepts: [ranked-choice-voting]
+
+  - id: q4
+    kind: multiple-choice
+    text: Which statement about the history of ranked ballots is accurate?
+    choices:
+      - id: a
+        text: >-
+          Ranked ballots were first used anywhere in the world in San
+          Francisco in 2004.
+      - id: b
+        text: >-
+          Australia has elected its national House of Representatives by
+          ranked ballot since 1918.
+      - id: c
+        text: >-
+          No American jurisdiction used ranked ballots before Maine adopted
+          them in 2016.
+      - id: d
+        text: >-
+          Ireland used the single transferable vote until the 1960s, when
+          voters chose to abandon it.
+    correct_choice_id: b
+    explanation: >-
+      Preferential voting has run in every Australian House election since
+      1918 — adopted by a conservative government to stop vote-splitting. (c)
+      is the near-miss worth unlearning: Cambridge, Massachusetts has elected
+      its council by ranked ballot continuously since 1941; Maine was the
+      first *state*. (d) inverts the Irish story — voters were twice asked to
+      abandon STV, in 1959 and 1968, and refused both times. (a) is off by
+      almost a century.
+    concepts: [ranked-choice-voting, instant-runoff]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Your city charter commission is choosing between instant-runoff voting
+      and a traditional December runoff election between the top two
+      finishers. A commissioner says the two methods are interchangeable.
+      Compare them: who ends up participating in each decisive round, what
+      does each cost, and construct a scenario where the two methods elect
+      different winners.
+    socratic_seed: >-
+      Push on three pressure points. Participation: December runoff turnout
+      routinely collapses below the general election's — who drops out of the
+      electorate, and how does that compare to ballots that exhaust under
+      IRV? Cost and time: a second citywide election versus additional
+      counting rounds on one ballot. Different winners: a top-two runoff
+      freezes the finalists after round one — have the student build a field
+      where a broad-appeal candidate finishes third on first preferences
+      (eliminated before any December runoff) but would have beaten either
+      finalist with transfers, then ask which method's failure mode worries
+      them more and why.
+    concepts: [ranked-choice-voting, runoff-election]

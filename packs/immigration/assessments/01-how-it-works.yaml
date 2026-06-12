@@ -14,12 +14,12 @@ questions:
       - id: d
         text: "Diversity visa lottery"
     correct_choice_id: b
-    explanation: "Family-based immigration is ~65% of permanent admissions annually. The 1965 INA reorganized U.S. immigration around family reunification, replacing the national-origin quotas of 1924. Employment-based is ~13%, refugee/asylum varies (~10-15% in recent years), diversity lottery is ~50,000 (about 5%)."
+    explanation: "Family-based immigration is about 65% of permanent admissions — immediate relatives of citizens (~46%, uncapped) plus the capped family-preference categories (~19%). The 1965 INA reorganized U.S. immigration around family reunification, replacing the national-origin quotas of 1924. Employment-based runs about 16%, refugees and asylees about 11%, and the diversity lottery about 4% (DHS, FY2014–2023 average)."
     concepts: [immigration]
 
   - id: q2
     kind: multiple-choice
-    text: "What share of the ~11M undocumented U.S. population are visa overstays (rather than unauthorized border crossings)?"
+    text: "What share of the pre-surge (roughly 11 million) unauthorized population are visa overstays (rather than unauthorized border crossings)?"
     choices:
       - id: a
         text: "Less than 10%."
@@ -30,7 +30,7 @@ questions:
       - id: d
         text: "Nearly all of them."
     correct_choice_id: c
-    explanation: "Roughly 40-50% of the undocumented population came on legitimate visas (student, tourist, work) and didn't leave when those visas expired. This is one of the most-misunderstood facts about the population: it is not predominantly recent border-crossers, and most have lived in the U.S. for more than 10 years."
+    explanation: "About 42% of the pre-2021 unauthorized population came on legitimate visas (student, tourist, work) and didn't leave when those visas expired (CRS). This is one of the most-misunderstood facts about the population — and it matters mechanically: border walls and Border Patrol staffing do not touch the overstay pathway at all, while interior verification systems like E-Verify do. The 2021–2023 surge added a large recent-arrival group, which is why the question specifies the pre-surge population."
     concepts: [immigration, undocumented]
 
   - id: q3
@@ -38,7 +38,7 @@ questions:
     text: "What was the empirical record of the Immigration Reform and Control Act of 1986 (IRCA)?"
     choices:
       - id: a
-        text: "Both the legalization (~3M) and the employer sanctions worked as designed."
+        text: "Both the legalization (~2.7M) and the employer sanctions worked as designed."
       - id: b
         text: "The legalization worked technically; the employer sanctions were not effectively implemented."
       - id: c
@@ -46,7 +46,7 @@ questions:
       - id: d
         text: "There was no significant change in the undocumented population for two decades."
     correct_choice_id: b
-    explanation: "The legalization succeeded technically — most of the ~3M became permanent residents and citizens. But the employer-sanctions provisions, the first time U.S. law had penalized employers for hiring undocumented workers, were not effectively implemented (verification was minimal, fraud was rampant, enforcement was de-prioritized within years). The undocumented population grew from ~3M to ~11M in the next two decades."
+    explanation: "The legalization succeeded technically — most of the roughly 2.7 million beneficiaries became permanent residents, and many became citizens. But the employer-sanctions provisions, the first time U.S. law had penalized employers for hiring undocumented workers, were not effectively implemented: employers had to check documents but not verify them against any database, so forged papers satisfied the law's letter, and enforcement was de-prioritized within years. The unauthorized population grew from about 3.5 million in 1990 to more than 12 million by 2007 (Pew)."
     concepts: [immigration]
 
   - id: q4
@@ -67,6 +67,6 @@ questions:
 
   - id: q5
     kind: free-response
-    text: "Restrictionist and expansionist economists disagree about whether the Mariel Boatlift (1980) had measurable wage effects on native low-skilled Miami workers. State the strongest version of each side's position on this empirical question."
-    socratic_seed: "Card (1990) found no significant effect on Miami's overall low-skilled labor market. Borjas (2017) reappraised the data with finer disaggregation and found significant negative wage effects specifically on Black men without a high-school diploma. The disagreement is partly about which level of disaggregation produces the policy-relevant answer, and partly about what counts as a meaningful effect on labor markets where most workers aren't substituting directly with newcomers."
-    concepts: [immigration, labor-market-effects]
+    text: "A 2027 bill proposes one change to the green-card system: abolish the 7 percent per-country ceiling while leaving every overall cap untouched. Using the machinery from this lesson, predict who gains, who loses, and what the queues look like ten years later — and explain why the ceiling's original anti-discrimination rationale cuts both ways."
+    socratic_seed: "Push the learner to trace the mechanics, not just name winners. Gains: nationals of massively oversubscribed countries (India and China in employment categories, Mexico and the Philippines in family categories) — the backlog converts to first-come, first-served. Losses: applicants from low-demand countries who currently jump the queue past higher-demand compatriots; in a capped system, one country's gain is arithmetically another's wait. Ten years out: a single worldwide queue ordered by filing date, with early years dominated by the existing Indian EB backlog — ask whether that is fairer or just differently unfair, since the overall cap (140,000, spouses and children included) hasn't moved. Then the rationale: the 7 percent rule was written in 1965 so no country could dominate as under the old quotas — an anti-discrimination guarantee that now produces decade-long waits sorted by birthplace. Does removing it restore neutrality (same wait regardless of where you were born) or abandon it (a handful of high-demand countries absorb nearly all visas for years)? Close by asking what the learner would pair with repeal — a cap increase, a recapture of unused numbers — and why Congress has repeatedly passed versions of this in one chamber but never both."
+    concepts: [immigration, visa-system]

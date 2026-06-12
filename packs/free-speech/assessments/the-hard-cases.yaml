@@ -1,0 +1,136 @@
+schema: bettercitizen.assessment/v1
+lesson: the-hard-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      A city, citing rising bias incidents, makes it a misdemeanor to "direct
+      any insult at a person based on race, religion, or sexual orientation."
+      The city argues the law reaches only fighting words, which are already
+      unprotected. Under R.A.V. v. City of St. Paul, the law is:
+    choices:
+      - id: a
+        text: "Constitutional — fighting words are unprotected, so the city may regulate any subset of them."
+      - id: b
+        text: "Unconstitutional — even within an unprotected category, government may not single out particular topics or viewpoints for punishment."
+      - id: c
+        text: "Constitutional — hate speech is a recognized unprotected category."
+      - id: d
+        text: "Unconstitutional — insults of every kind are fully protected speech."
+    correct_choice_id: b
+    explanation: >-
+      This is R.A.V.'s exact trap. St. Paul made the same "only fighting
+      words" argument, and the Court still struck the ordinance: a government
+      that punishes only race- and religion-based insults while leaving all
+      others legal is taking sides on subject matter and viewpoint, which the
+      First Amendment forbids even inside an unprotected category. Choice (c)
+      names a category that does not exist in U.S. law, and (d) overshoots —
+      a general fighting-words law applied face-to-face remains theoretically
+      available.
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Which of these requirements does the compelled-speech doctrine most
+      clearly forbid?
+    choices:
+      - id: a
+        text: "Requiring chain restaurants to post calorie counts on their menus."
+      - id: b
+        text: "Requiring a freelance video editor to produce a promotional film celebrating a cause she rejects."
+      - id: c
+        text: "Requiring drivers to display state-issued license plates bearing the state's name."
+      - id: d
+        text: "Requiring food sellers to label products containing allergens."
+    correct_choice_id: b
+    explanation: >-
+      The line runs between factual commercial disclosure and conscripted
+      message-making. Calorie counts and allergen labels (a, d) are purely
+      factual, uncontroversial disclosures about a seller's own products —
+      permitted even after NIFLA. A state name on a plate (c) is
+      identification, not an ideological motto; Wooley turned on forcing
+      drivers to display "Live Free or Die." Compelling the creation of
+      expressive work carrying a message the creator rejects (b) is what
+      Barnette's principle, applied in 303 Creative, forbids.
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      On a Saturday, from home, a sophomore posts a profanity-filled video
+      mocking her principal. It circulates widely at school on Monday but
+      causes no disruption of classes. The school removes her from the
+      debate team for the semester. Under Mahanoy Area School District v.
+      B.L. (2021), the punishment is:
+    choices:
+      - id: a
+        text: "Likely unconstitutional — the speech was off campus, school authority there is diminished, and there was no substantial disruption."
+      - id: b
+        text: "Constitutional — Morse v. Frederick lets schools punish speech that disrespects school officials."
+      - id: c
+        text: "Constitutional — once speech reaches campus, Tinker gives schools full authority over it."
+      - id: d
+        text: "Constitutional — debate team membership is a privilege, so no First Amendment scrutiny applies."
+    correct_choice_id: a
+    explanation: >-
+      The facts track Mahanoy almost exactly — B.L. was suspended from the
+      cheerleading squad over an off-campus, profane, non-disruptive post,
+      and she won 8 to 1. Morse (b) is a narrow carve-out for promoting
+      illegal drug use, not disrespect. Mere circulation on campus (c) does
+      not transform off-campus speech or satisfy Tinker's
+      substantial-disruption requirement. And (d) fails because Mahanoy
+      itself involved an extracurricular penalty — punishment through a
+      privilege is still punishment.
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      A state auditor uncovers contracting fraud and reports it in the audit
+      memorandum her job requires her to write. She is demoted within a
+      month. Her strongest avenue of legal protection is:
+    choices:
+      - id: a
+        text: "The First Amendment, because government fraud is a quintessential matter of public concern."
+      - id: b
+        text: "The First Amendment, because Pickering balancing favors employees who expose wrongdoing."
+      - id: c
+        text: "A whistleblower statute — under Garcetti, speech made pursuant to official duties is not protected citizen speech."
+      - id: d
+        text: "None — public employees accept unreviewable discipline as a condition of employment."
+    correct_choice_id: c
+    explanation: >-
+      Capacity, not topic, controls. Garcetti held that statements made
+      pursuant to official duties — and a required audit memo is the textbook
+      case — are not citizen speech, so Pickering balancing (a, b) never
+      begins, however public-spirited the content. That is exactly why
+      statutory whistleblower protections matter: they cover the duty-bound
+      internal report the Constitution leaves exposed. Choice (d) overshoots —
+      had she taken the story to a newspaper as a citizen, Pickering would
+      protect her, subject to balancing.
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Make the strongest case for Jeremy Waldron's position that the United
+      States should punish the worst hate propaganda, and the strongest
+      civil-libertarian case against him. Then identify the single most
+      serious objection to whichever side you find more convincing.
+    socratic_seed: >-
+      The Waldron steel-man rests on assurance: a society's guarantee of
+      equal membership is a public good that visible hate propaganda
+      corrodes, the cost falls on the most vulnerable, and Canada and Germany
+      show such laws coexisting with healthy democracies. The
+      civil-libertarian steel-man rests on power: definitions of hatred are
+      written by majorities, enforcement historically lands on dissenters
+      (sedition prosecutions, Sullivan-era libel suits against the
+      civil-rights press), and counter-speech plus conduct-based law protects
+      minorities without handing government a viewpoint weapon. Strong
+      answers then turn the knife on their own side: a Waldron sympathizer
+      must explain who defines hatred once the precedent exists; a
+      civil-libertarian must explain why the targets of hate propaganda
+      should bear its costs when comparable democracies do not ask that of
+      them.
+    concepts: [first-amendment, civil-liberties, cancel-culture]

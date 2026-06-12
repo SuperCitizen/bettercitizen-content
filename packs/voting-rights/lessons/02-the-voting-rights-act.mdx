@@ -1,0 +1,135 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-voting-rights-act
+kind: reading
+title: "The Voting Rights Act: the machine, and its dismantling"
+objectives:
+  - Describe the 1965 Act's design — Section 2's nationwide ban, Section 5 preclearance, and the Section 4(b) coverage formula — and how the pieces interlocked
+  - State the measured effects of the Act on Black voter registration in covered states
+  - Explain precisely what Shelby County v. Holder (2013) struck down, and what it left standing
+  - Distinguish a Section 2 claim from Section 5 preclearance, including who bears the burden and when review happens
+  - Summarize what Brnovich (2021) and Allen v. Milligan (2023) did to Section 2, and the design problem facing restoration proposals
+concepts:
+  - civil-rights
+  - voting-rights-act
+  - disenfranchisement
+sources:
+  - type: statute
+    citation: 'Voting Rights Act of 1965, Pub. L. No. 89-110, 79 Stat. 437 (codified as amended at 52 U.S.C. §10301 et seq.) — Section 2 nationwide ban; Sections 4 and 5 coverage and preclearance.'
+  - type: website
+    citation: 'National Archives, Milestone Documents: "Voting Rights Act (1965)" — signing (Aug. 6, 1965), suspension of literacy tests, federal examiners, and first-year registration effects (~250,000 new Black voters by end of 1965).'
+    url: https://www.archives.gov/milestone-documents/voting-rights-act
+  - type: court-opinion
+    citation: 'Shelby County v. Holder, 570 U.S. 529 (2013) — held the §4(b) coverage formula unconstitutional; registration data (Mississippi 6.7% → 76.1%, Alabama 19.3% → 72.9%, Louisiana 31.6% → 71.1%, 1965 vs. 2004) from the opinion and dissent.'
+    url: https://supreme.justia.com/cases/federal/us/570/529/
+  - type: court-opinion
+    citation: 'Brnovich v. DNC, 594 U.S. 647 (2021) — guideposts narrowing §2 vote-denial claims; upheld Arizona''s out-of-precinct policy and ballot-collection law, 6–3.'
+    url: https://www.supremecourt.gov/opinions/20pdf/19-1257_g3bi.pdf
+  - type: court-opinion
+    citation: 'Allen v. Milligan, 599 U.S. 1 (2023) — reaffirmed the Gingles framework for §2 districting claims; rejected Alabama''s race-neutral-benchmark theory.'
+    url: https://www.law.cornell.edu/supremecourt/text/21-1086
+  - type: statute
+    citation: 'John R. Lewis Voting Rights Advancement Act, H.R. 4, 117th Congress — would restore preclearance with a violations-based coverage formula; passed House, blocked in the Senate; reintroduced since.'
+    url: https://www.congress.gov/bill/117th-congress/house-bill/4
+perspectives:
+  - name: Ballot-access expander
+  - name: Election-integrity conservative
+  - name: State-administration pragmatist
+duration_min: 15
+---
+
+# The Voting Rights Act: the machine, and its dismantling
+
+On March 7, 1965, Alabama state troopers met some six hundred peaceful marchers at the foot of the Edmund Pettus Bridge in Selma and beat them in front of television cameras. Five months later — August 6, 1965 — President Lyndon Johnson signed the Voting Rights Act. By the end of that year, roughly 250,000 new Black voters were on Southern rolls, a third of them registered by federal examiners. Ninety-five years of constitutional guarantee had moved registration in Mississippi to 6.7 percent; one statute moved it more in five months than the 15th Amendment had in a generation. To understand why — and to understand the fight over the Act's remains today — you have to look at it the way an engineer would. The VRA was not a declaration of rights. It was a machine, and every part existed because some earlier remedy had failed.
+
+## A statute built like a machine
+
+The Act's designers had studied the previous decade's failures. Case-by-case litigation under the [[term:civil-rights]] acts of 1957 and 1960 was a losing race: the Department of Justice would spend years proving one county's registrar discriminated, win, and watch the county adopt a new device — what the courts came to see as a cat-and-mouse game the cat always lost. The 1965 Act attacked the *tempo* of the problem with three interlocking parts:
+
+**Section 2** is the nationwide, permanent piece: a ban on any voting qualification or practice that denies or abridges the right to vote on account of race. It applies everywhere, forever (it has no expiration), and it is enforced the old way — someone sues, and a court decides. Think of it as the 15th Amendment with a statutory cause of action attached.
+
+**Section 4** did two jobs. It suspended literacy tests and similar "tests or devices" in the places where they were doing the damage. And in subsection 4(b) it defined *which* places — the famous **coverage formula**. A state or political subdivision was covered if it (1) maintained a test or device as of November 1, 1964, *and* (2) had voter registration or turnout below 50 percent in the 1964 presidential election. Reauthorizations extended the formula's trigger dates to 1968 and 1972. The formula was deliberately mechanical — no finding of bad intent required; the numbers themselves identified the suspects.
+
+**Section 5** is the part with no precedent in American law: **preclearance**. A covered jurisdiction could not enforce *any* change to its voting rules — not a redistricting plan, not a polling-place move, not an annexation — until it proved to federal authorities that the change had neither the *purpose* nor the *effect* of denying or abridging the vote on account of race. Two routes existed: submit to the Attorney General, who had 60 days to object, or seek a declaratory judgment from a three-judge court in the District of Columbia. Note the reversal that makes Section 5 remarkable: the *jurisdiction* bore the burden of proof, and review happened *before* the change took effect. The cat finally moved first. A bailout provision let jurisdictions exit coverage by proving a clean record over a set period — coverage was meant to be escapable, by behaving.
+
+<ProcessFlow title="How preclearance worked, 1965–2013" steps={[
+  {title: 'Covered jurisdiction changes a voting rule', detail: 'Anything from a statewide ID law to moving a single polling place. Coverage came from the §4(b) formula: a test or device as of Nov. 1, 1964 (later 1968, 1972), plus registration or turnout under 50% in the corresponding presidential election.'},
+  {title: 'The change is frozen', detail: 'It cannot be enforced — at all — until precleared. This is the answer to the cat-and-mouse decade: no new device gets even one election as a head start.'},
+  {title: 'Jurisdiction chooses a route', detail: 'Submit to the U.S. Attorney General, who has 60 days to interpose an objection — or sue for a declaratory judgment before a three-judge panel of the D.C. district court.', branch: 'Most jurisdictions chose the DOJ route; it was faster and cheaper than litigation.'},
+  {title: 'Jurisdiction carries the burden', detail: 'It must show the change has neither the purpose nor the effect of denying or abridging the right to vote on account of race or color.'},
+  {title: 'Precleared — or blocked', detail: 'No objection within 60 days (or a favorable D.C. judgment) and the change takes effect. An objection blocks it, full stop.', branch: 'DOJ objected to 14.2% of proposed changes in the first decade of the Act; between 1982 and 2006, objections blocked more than 700 voting changes.'},
+]} />
+
+## Did it work? The numbers
+
+The Voting Rights Act is the rare statute whose effects you can read off a table — and the table comes from the Supreme Court's own opinions in *Shelby County*, where both the majority and the dissent treated the numbers as common ground.
+
+<Figure caption="Black voter registration rates in three originally covered states, 1965 versus 2004, as recited in Shelby County v. Holder. The majority read this as mission accomplished; the dissent read it as the machine working exactly as designed — and a reason not to switch it off." source="Shelby County v. Holder, 570 U.S. 529 (2013)">
+  <DataBars
+    title="Black registration, 1965 → 2004"
+    unit="% registered"
+    max={100}
+    bars={[
+      {label: 'Mississippi, 1965', value: 6.7, color: 'accent'},
+      {label: 'Mississippi, 2004', value: 76.1, color: 'blue'},
+      {label: 'Alabama, 1965', value: 19.3, color: 'accent'},
+      {label: 'Alabama, 2004', value: 72.9, color: 'blue'},
+      {label: 'Louisiana, 1965', value: 31.6, color: 'accent'},
+      {label: 'Louisiana, 2004', value: 71.1, color: 'blue'},
+    ]}
+  />
+</Figure>
+
+Two further numbers complete the picture, and they point in opposite directions depending on your theory of the case. First: the Attorney General's objection rate fell from 14.2 percent of submitted changes in the first decade to 0.16 percent in the decade before 2006. Second: even at that low rate, preclearance blocked over 700 voting changes between 1982 and 2006, and Congress — reauthorizing the Act in 1970, 1975, 1982, and finally 2006, the last time for 25 years by lopsided bipartisan margins — compiled a record of what it called second-generation barriers: redistricting plans and election-structure changes, more than registrar's tests. Is a 0.16 percent objection rate a cured disease or a working vaccine? Every argument in the rest of this lesson is a position on that question.
+
+<Checkpoint question="A skeptic says: 'By 2006 the DOJ objected to almost nothing — clearly preclearance was no longer doing any work.' What's the strongest rejoinder, using only numbers from this section?">
+  Deterrence doesn't show up in objection rates. Even at 0.16 percent, more than 700 discriminatory changes were blocked between 1982 and 2006 — changes that would otherwise have governed real elections — and no one can count the changes never proposed *because* preclearance existed. The registration table is consistent with both readings; that ambiguity is precisely what the Justices divided over in 2013.
+</Checkpoint>
+
+## Shelby County: the formula falls
+
+Shelby County, Alabama, sued to have preclearance declared unconstitutional, and in **Shelby County v. Holder (2013)** it mostly succeeded — but the engineering detail matters more than the headline. The Court, 5–4, did not strike down Section 5. It struck down **Section 4(b)**, the coverage formula, as unconstitutional. Chief Justice Roberts's logic: the Act "imposes current burdens and must be justified by current needs," and a formula keyed to election data from 1964, 1968, and 1972 — left untouched through the 2006 reauthorization — failed that test, singling out nine fully covered states (plus parts of others) based on a forty-year-old snapshot, in tension with the states' "equal sovereignty." Justice Ginsburg's dissent answered with the deterrence theory and the most quoted line in modern voting-rights law: "Throwing out preclearance when it has worked and is continuing to work to stop discriminatory changes is like throwing away your umbrella in a rainstorm because you are not getting wet."
+
+The result is a machine with its ignition removed. Section 5 remains on the books, fully constitutional and fully inert: with no formula, no jurisdiction is covered, so nothing must be precleared. Congress was explicitly invited to write a new formula "based on current conditions." It has not. Since 2013, every voting change everywhere in the country takes effect immediately, and challengers carry the burden of suing afterward — the pre-1965 posture, with better statutes.
+
+<QuickCheck
+  question="After Shelby County, a city with a long record of voting discrimination redraws its council districts in a way plaintiffs believe dilutes minority votes. What is their legal position?"
+  choices={[
+    {id: 'a', text: 'The plan cannot take effect until the city proves it nondiscriminatory to the DOJ — Section 5 still applies to bad-record jurisdictions'},
+    {id: 'b', text: 'The plan takes effect; plaintiffs must sue under Section 2 and bear the burden of proving it unlawful'},
+    {id: 'c', text: 'They have no federal remedy: Shelby County struck down the Voting Rights Act'},
+    {id: 'd', text: 'The plan is frozen automatically because redistricting, unlike polling-place changes, always required federal approval'},
+  ]}
+  answer="b"
+  explanation="Shelby County struck only the §4(b) coverage formula — but with no formula, no one is covered, so §5 preclearance (choice a) binds no one, no matter the record. Section 2 survives fully (so c is wrong), but it works the old way: the change governs elections while plaintiffs litigate, and the burden of proof sits with them. That burden-and-timing flip — not the existence of a remedy — is what 2013 changed."
+/>
+
+## What Section 2 can still do — Brnovich and Milligan
+
+With preclearance dormant, Section 2 carries the whole load, and the Supreme Court has since marked out its edges in two directions.
+
+**Brnovich v. Democratic National Committee (2021)** narrowed the *vote-denial* side — challenges to the rules of casting and counting ballots. Arizona discarded ballots cast in the wrong precinct, and criminalized most third-party collection of mail ballots; the Court, 6–3 per Justice Alito, upheld both. Rather than announce a comprehensive test, the majority listed "guideposts" for time, place, or manner rules: the size of the burden (the "usual burdens of voting" don't count), how far a rule departs from practice as it stood in 1982, the size of the racial disparity, the openness of the state's *entire* system of voting opportunities, and the strength of state interests like fraud prevention. The practical message: bare statistical disparity plus inconvenience will rarely be enough.
+
+**Allen v. Milligan (2023)** went the other way on the *vote-dilution* side — and surprised nearly everyone. Alabama, defending a congressional map with one majority-Black district out of seven in a state roughly a quarter Black, asked the Court to remake Section 2 districting law around a "race-neutral benchmark" derived from computer-simulated maps. The Court refused, 5–4, in an opinion by Chief Justice Roberts — the author of *Shelby County* — reaffirming the *Thornburg v. Gingles* (1986) framework that had governed for 37 years and affirming the order that Alabama draw a second district where Black voters could elect a candidate of their choice. [[term:redistricting]] claims under Section 2, the Court said, remain exactly as strong as they were — no stronger, but no weaker.
+
+Hold the two cases side by side and the post-2013 map of the law comes into focus: Section 2 remains a serious weapon against discriminatory *district lines*, a much weaker one against discriminatory *voting procedures*, and in all cases a remedy that arrives only after the contested rule has already governed elections — litigation takes years, and elections happen on schedule.
+
+<Checkpoint question="Why might a Section 2 victory in 2026 matter less to the plaintiffs than a Section 5 objection would have mattered in 1980, even if the legal outcome — the practice is blocked — is identical?">
+  Timing and burden. A §5 objection stopped the practice *before any election was held under it*, with the jurisdiction bearing the burden of proof. A §2 suit runs while the practice is in force; by final judgment, officials may have been elected — and districts governed — under rules later held unlawful, and no court can rerun those elections. Same substantive outcome, radically different remedial value. This asymmetry is the core of the restoration argument.
+</Checkpoint>
+
+## The restoration debate
+
+Proposals to rebuild the machine — chiefly the **John R. Lewis Voting Rights Advancement Act** — answer *Shelby County* on its own terms: if the vice was a stale formula, write a fresh one. H.R. 4 (117th Congress) would key coverage to *recent, adjudicated voting-rights violations* on a rolling basis — jurisdictions earn coverage by current conduct and age out of it with a clean record. It passed the House in 2021 and was blocked in the Senate by the [[term:filibuster]]; it has been reintroduced since. The broader [[issue:voting-rights-act-restoration]] debate divides on three honest questions.
+
+*Is the rainstorm over?* Restorationists point to the post-2013 wave of state voting legislation and the remedial-timing asymmetry above; skeptics answer that registration and turnout gaps in formerly covered states have largely closed — the *Shelby County* majority's own table — and that Section 2, as *Milligan* proved, still has teeth where it matters most.
+
+*Is prior restraint of state lawmaking ever the constitutional norm?* Even a current-conditions formula makes states ask federal permission to enforce their own laws — extraordinary medicine the *Shelby County* majority called appropriate only for extraordinary conditions. Restorationists reply that the 15th Amendment's enforcement clause exists precisely because ordinary remedies failed for a century — Lesson 1 in one sentence.
+
+*Can a violations-based formula be both effective and stable?* A formula triggered by litigated violations is only as fast as litigation itself — the very weakness preclearance existed to fix — and a stricter trigger invites the same staleness objection on a delay.
+
+## What's settled here — and what isn't
+
+Settled: the mechanics and the record. The 1965 Act's design — nationwide Section 2, the 4(b) formula, Section 5's burden-flipping preclearance — and its measured effect on registration are documented in the statute, the National Archives' account, and the Supreme Court's own tables. *Shelby County* struck the formula and only the formula; preclearance survives as law and is inoperative in fact; *Brnovich* narrowed vote-denial claims; *Milligan* preserved districting claims under *Gingles* intact.
+
+Not settled: everything that depends on reading a 0.16 percent objection rate. Whether deterrence was doing invisible work in 2013, whether Section 2 litigation is an adequate substitute for before-the-fact review, and whether any new coverage formula can satisfy both "current needs" and the demand for speed — those are live questions on which the umbrella metaphor and the equal-sovereignty principle simply collide. This lesson also has not touched the rules now being fought over jurisdiction by jurisdiction — registration systems, roll maintenance, ID, proof of citizenship. That ground-level fight, where every position claims this lesson's history as its own, is Lesson 3.

@@ -1,0 +1,146 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-math-chapter
+kind: reading
+title: The Math Chapter
+objectives:
+  - State precisely what Arrow's 1951 theorem covers (ordinal aggregation) and what Gibbard's 1973 theorem adds (universal manipulability, cardinal ballots included)
+  - Read the criteria scorecard as a forced trade — later-no-harm versus favorite betrayal — rather than a checklist either side can sweep
+  - Work the center-squeeze and majority-criterion examples by hand and explain why the author accepts score voting's majority-criterion failure
+concepts:
+  - score-voting
+  - instant-runoff
+  - plurality
+duration_min: 11
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "The Math Chapter"'
+  - type: book
+    citation: 'Kenneth J. Arrow, *Social Choice and Individual Values* (1951) — the impossibility theorem for aggregating individual rankings into a social ranking.'
+  - type: paper
+    citation: 'Allan Gibbard, "Manipulation of Voting Schemes: A General Result," *Econometrica* 41(4): 587–601 (1973) — every non-dictatorial voting scheme with three or more possible outcomes is manipulable; the result covers cardinal ballots.'
+    url: https://www.jstor.org/stable/1914083
+  - type: website
+    citation: 'Transcript of Aaron Hamlin''s 2012 podcast interview with Kenneth Arrow (The Center for Election Science) — Arrow: "I''m a little inclined to think that score systems where you categorize in maybe three or four classes... is probably the best."'
+    url: https://rangevoting.org/ArrowTranscript.html
+  - type: paper
+    citation: 'Adam Graham-Squire & David McCune, "A Mathematical Analysis of the 2022 Alaska Special Election for US House," arXiv:2209.04764 — Condorcet failure, a monotonicity paradox, and a no-show paradox in a single IRV election.'
+    url: https://arxiv.org/abs/2209.04764
+  - type: website
+    citation: 'Wikipedia, "2009 Burlington mayoral election" — IRV eliminated Condorcet winner Andy Montroll; a 54% majority preferred Montroll over the IRV winner head-to-head.'
+    url: https://en.wikipedia.org/wiki/2009_Burlington_mayoral_election
+  - type: website
+    citation: 'RangeVoting.org, "Bayesian Regrets shown graphically" — Warren D. Smith''s 2000 Bayesian-regret simulations across single-winner methods.'
+    url: https://rangevoting.org/BayRegsFig.html
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+---
+
+# The Math Chapter
+
+In 2012, the man whose theorem launched a thousand "no voting system is fair" headlines gave a podcast interview. Kenneth Arrow — Nobel laureate, author of the most famous impossibility result in social science — was asked what system he'd actually recommend. His answer, hedged the way real mathematicians hedge: "I'm a little inclined to think that score systems where you categorize in maybe three or four classes... is probably the best."
+
+You don't need a PhD to follow why he said that. You need four results, two worked elections, and a tolerance for hearing the strongest case against my side — which I'll be making personally, with arithmetic you can check.
+
+## Arrow: impossibility — for rankings
+
+In *Social Choice and Individual Values* (1951), Arrow proved that no method for converting individual *rankings* into a group ranking can satisfy a short list of innocent-sounding fairness conditions all at once, with three or more candidates in the race. Something always gives. This is the theorem people compress into "all voting systems are flawed."
+
+But the fine print changes everything: the theorem's *inputs are orderings*. Arrow's framework speaks ordinal — first, second, third — and is silent about systems whose inputs carry more. [[term:score-voting]] is cardinal: a 5-4-0 ballot and a 5-1-0 ballot are different inputs, where every ranking flattens both into the same A-then-B-then-C. Cardinal methods don't *solve* Arrow's puzzle; they decline to enter it, by changing what voters are asked.
+
+Advocates — my people — routinely oversell this as "score voting escapes the impossibility theorem," as though escaping Arrow meant escaping criticism. It doesn't, because of what came next.
+
+## Gibbard: nobody escapes strategy
+
+In 1973, the philosopher Allan Gibbard published a result with none of Arrow's escape hatches: *every* voting scheme in which chance plays no role, no individual is a dictator, and more than two outcomes are possible can be manipulated — situations exist where some voter gets a better result by misrepresenting her preferences. The proof doesn't care whether ballots are rankings, scores, or approvals. Strategy is universal. Forever. By theorem.
+
+So the honest comparison between systems was never "which one is strategy-proof?" — that set is empty. It's "what does each system's strategy *look like*, and how badly does it degrade?" Hold that question; the worked examples answer it.
+
+<QuickCheck
+  question="An advocate says 'score voting escapes Arrow's impossibility theorem.' What is the precise truth of that claim?"
+  choices={[
+    {id: 'a', text: 'Score voting satisfies every fairness criterion, which is why Arrow endorsed it'},
+    {id: 'b', text: 'Arrow’s theorem applies to methods aggregating rankings; score ballots are cardinal inputs outside its premises — but Gibbard (1973) still guarantees score voting can be manipulated'},
+    {id: 'c', text: 'The claim is false: Arrow’s theorem applies to all voting systems, including score voting'},
+    {id: 'd', text: 'Score voting escapes Arrow and Gibbard, making it the unique strategy-proof system'},
+  ]}
+  answer="b"
+  explanation="Both halves matter. Arrow's 1951 result is about ordinal aggregation, so cardinal methods genuinely sit outside its premises — that's the legitimate kernel of the advocate's claim. But Gibbard's 1973 theorem covers every non-trivial voting scheme regardless of ballot type, so 'escapes Arrow' must never be inflated into 'immune to strategy' (d). Choice (a) overreads Arrow's hedged 2012 comment; choice (c) erases a real and load-bearing distinction."
+/>
+
+## The criteria scorecard
+
+Voting theorists evaluate methods against named criteria — bright-line tests a method passes or fails by mathematical proof, not opinion. Here are the four that decide the score-versus-RCV argument, and notice the table's most important feature: *neither column sweeps*.
+
+| Criterion | What it demands | IRV (ranked choice) | Score / approval |
+| --- | --- | --- | --- |
+| Later-no-harm | Expressing a backup choice can never hurt your favorite | **Passes** | **Fails** |
+| Favorite betrayal | You never do better by demoting your true favorite | **Fails** | **Passes** |
+| Monotonicity | Gaining support can never hurt a candidate | **Fails** | **Passes** |
+| Condorcet | Always elect the candidate who beats all others head-to-head | **Fails** (Burlington 2009) | **Fails** (under some honest profiles) |
+
+Read it row by row, concessions first. **Later-no-harm** is RCV's best card, and it's genuine: under [[term:instant-runoff]] counting, your second choice is consulted only after your first is eliminated, so it can never help defeat your first. Under score voting, the 3 you give a compromise candidate genuinely can help him edge out your 5. I concede the failure — and ask you to look at what the criterion forbids. A method can guarantee later-no-harm only by *refusing to count compromise information while your favorite lives* — which is precisely how IRV ends up blind to consensus candidates. Later-no-harm and finding-the-candidate-everyone-can-accept are not independently purchasable. You pick one.
+
+**Favorite betrayal** is the mirror image. Score and approval pass: giving your true favorite the maximum can never backfire — the property [[term:plurality]] most catastrophically lacks. IRV fails it, and not just on paper. In Alaska's August 2022 special election, Graham-Squire and McCune's ballot-data analysis shows the count was non-monotonic: Sarah Palin's voters helped elect Mary Peltola — their *least* preferred candidate — by ranking Palin first. Had enough of them insincerely top-ranked Nick Begich, the Republican the ballots show beating everyone head-to-head, they'd have gotten an outcome they preferred. Top-ranking their favorite was, mathematically, the blunder. A system that punishes honesty about your favorite has reproduced plurality's original sin — quietly, probabilistically, but provably.
+
+**Monotonicity** and **Condorcet** fill out the picture: more points can never hurt a candidate under score (addition is monotone), while IRV's elimination order can turn extra support into defeat, as Alaska showed in the wild. And the Condorcet row shows *both* methods failing — IRV's failure you've seen (Burlington elected Bob Kiss while the ballots showed 54 percent preferred Andy Montroll head-to-head); score's failure I will now construct myself.
+
+## Worked example 1: the center squeeze, in arithmetic
+
+One hundred voters, three candidates — Left, Center, Right. Honest opinions:
+
+| Bloc | Voters | Honest score ballot (0–5) |
+| --- | --- | --- |
+| Left partisans | 35 | Left 5, Center 3, Right 0 |
+| Right partisans | 33 | Right 5, Center 3, Left 0 |
+| Centrists leaning left | 16 | Center 5, Left 3, Right 0 |
+| Centrists leaning right | 16 | Center 5, Right 3, Left 0 |
+
+Now run the same hundred ballots through three counting rules:
+
+| Rule | The count | Winner |
+| --- | --- | --- |
+| Plurality | Left 35, Right 33, Center 32 | **Left** |
+| Instant runoff | Center eliminated first (32); transfers split 16–16; final round Left 51, Right 49 | **Left** |
+| Head-to-head | Center beats Left 65–35; Center beats Right 67–33 | Center is the Condorcet winner |
+| Score | Center 364, Left 223, Right 213 | **Center** |
+
+Check the score line yourself: Center collects 5×32 from centrists plus 3×68 from both partisan blocs — 364. Left gets 5×35 plus 3×16 — 223. The candidate that two-thirds of the city prefers to *either* alternative finishes dead last on first choices, so plurality never sees him and IRV executes him in round one. Score voting finds him with addition, because breadth-plus-depth is exactly what a sum measures. This is the center squeeze from the last chapter, reduced to a table you can audit in sixty seconds.
+
+<Checkpoint question="Stress-test it: move 4 of the 16 right-leaning centrists into the Right-partisan bloc (their ballots become Right 5, Center 3, Left 0). Recompute the score totals. Does Center survive? What would IRV do with the same shift?">
+  Center loses those voters' 5s but keeps their 3s: 364 − 8 = **356**. Right gains 4 points per switched voter: 213 + 8 = **221**. Left stays at 223. Center still wins comfortably, 356 to 223 to 221 — the score count bends smoothly as opinion shifts. Under IRV nothing changes either (Center is still eliminated first, at 28) — but notice it was *already* electing Left; IRV's failure here isn't fragility, it's never seeing Center at all.
+</Checkpoint>
+
+## Worked example 2: the case against score voting, by its advocate
+
+Fairness demands I build the reverse case with the same care. One hundred voters, two candidates:
+
+| Bloc | Voters | A | B |
+| --- | --- | --- | --- |
+| Mild majority | 55 | 5 | 4 |
+| Intense minority | 45 | 0 | 5 |
+
+Totals: A gets 275. B gets 220 + 225 = **445**. B wins in a landslide — *while 55 percent of voters prefer A*. A two-candidate race, a clear majority favorite, and score voting elects the other one. This is a real, provable property: score voting fails what theorists call the majority criterion, and any honest advocate must say so in plain English. I just did.
+
+Here is why I accept it. Look at what the ballots say: fifty-five voters *almost equally happy either way* — a one-point preference — versus forty-five for whom the difference is everything they can express. Electing A buys the majority one point of happiness each and costs the minority five each. If an election should maximize how satisfied the city actually is, B is the *right* answer and the "failure" is the system working. If you instead hold majority rule as axiomatic — the majority must prevail however mild its preference — you are making a value choice, not finding a math error, and score voting is honestly not your system. That is the philosophical core of this whole debate, and I'd rather hand it to you than have a critic pretend I hid it.
+
+The example has a second act, and it's the one Gibbard predicted. Suppose the majority wises up and exaggerates — all 55 mark A 5, B 0. Now A totals 275, B 225: **A wins**. The majority can always protect itself by exaggerating, so score's majority-criterion failures require a majority too honest to flex. Play the logic forward and you get the collapse from the VSE chapter: tactical scoring pushes every ballot to its endpoints, and a ballot of only 5s and 0s *is* an approval ballot. The concession and the comfort are the same fact: strategic score voting degrades into approval voting — the highest strategic floor ever simulated — and the feared "tyranny of the indifferent majority" evaporates under exactly the strategic behavior critics insist voters will exhibit. Warren Smith's Bayesian-regret simulations, which assume whole electorates of schemers, still place range voting at the low-regret end of the table. A machine whose failure modes police each other is not a fragile machine.
+
+<MatchUp
+  title="Match the result to what it actually establishes"
+  instructions="Tap a theorem or criterion, then the statement it proves."
+  pairs={[
+    {left: 'Arrow 1951', right: 'No method turning rankings into a group ranking can meet all his fairness conditions at once'},
+    {left: 'Gibbard 1973', right: 'Every non-dictatorial method with 3+ possible outcomes is manipulable — cardinal ballots included'},
+    {left: 'Later-no-harm', right: 'Backup choices can never hurt your favorite — IRV passes; score and approval fail'},
+    {left: 'Favorite betrayal', right: 'Honesty about your favorite never backfires — score and approval pass; IRV fails (Alaska 2022)'},
+  ]}
+/>
+
+## What the math settles — and what it can't
+
+The math settles the boundaries. Arrow: perfect ordinal aggregation is impossible, and the escape is cardinal information, not cleverer counting. Gibbard: strategy-proofness is impossible everywhere, so "can it be gamed?" is the wrong question and "what does gaming do to it?" is the right one. The criteria table: every method buys its virtues with named, provable failures — IRV purchases later-no-harm at the price of favorite betrayal, non-monotonicity, and center blindness; score purchases spoiler-immunity and safe honesty at the price of majority-criterion failures that its own strategic dynamics largely cancel.
+
+What the math cannot settle is which trade you value, because that's philosophy wearing a calculator. My cards, face up: a democracy should never punish a voter for telling the truth about her favorite; it should use the intensity information voters are begging to give; and it should fail, when it fails, toward approval voting rather than toward 1992. The theorems don't compel those values. They just guarantee that whatever you value, you're choosing trade-offs — so choose them with the tables open.

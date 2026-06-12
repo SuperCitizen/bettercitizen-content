@@ -3,9 +3,14 @@ slug: federalism
 title: Federalism
 summary: How power is divided between the federal government and the fifty
   states — what each can and can't do, and why it matters in everyday policy.
+  Three lessons build the architecture (enumerated, reserved, and concurrent
+  powers, and the commerce-clause arc from Gibbons to NFIB), follow the money
+  (grants, strings, unfunded mandates, and the coercion line), and walk the
+  live conflicts — preemption, marijuana, sanctuary jurisdictions, and the
+  state attorneys general suing whichever party holds the White House.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.2.0
+version: 1.3.0
 tags:
   - civics-101
 level: intro

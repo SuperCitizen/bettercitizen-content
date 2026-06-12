@@ -1,0 +1,19 @@
+slug: belfer-center
+name: Belfer Center for Science and International Affairs
+kind: think-tank
+subtype: university-affiliated
+description: "Research center at Harvard Kennedy School focused on national security, nuclear policy, and the intersection of science and international affairs. Long a revolving door for senior national-security officials of both parties between government service and academia."
+website: https://www.belfercenter.org
+jurisdiction: national
+partisan_lean: none
+parent_org: harvard-kennedy-school
+org_relationship: unit-of
+influence_channels:
+  - policy-research
+  - training-staffers
+  - public-education
+concept_tags:
+  - think-tank
+  - nuclear-proliferation
+  - deterrence
+is_active: true

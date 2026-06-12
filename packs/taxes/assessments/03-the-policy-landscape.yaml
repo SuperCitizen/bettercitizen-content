@@ -1,0 +1,144 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which of these OBBBA provisions is now permanent law, with no scheduled expiration?"
+    choices:
+      - id: a
+        text: "The deduction for tip income"
+      - id: b
+        text: "The $40,000 SALT cap"
+      - id: c
+        text: "The clean-energy consumer credits for electric vehicles and home upgrades"
+      - id: d
+        text: "The $2,200 child tax credit and the seven-bracket rate structure"
+    correct_choice_id: d
+    explanation: >-
+      OBBBA's durable core — the TCJA's seven brackets topping out at 37 percent,
+      the enlarged standard deduction, the $2,200 child tax credit, the pass-through
+      deduction, bonus depreciation, and the $15 million estate exemption — is
+      permanent and indexed for inflation. The most-advertised campaign promises
+      were deliberately sunset: tips, overtime, the senior deduction, and car-loan
+      interest all lapse after 2028; the $40,000 SALT cap snaps back to $10,000 in
+      2030; and the clean-energy consumer credits were terminated in 2025. Sorting
+      permanent from temporary is the key to reading every tax fight scheduled for
+      the rest of the decade.
+    concepts: [taxes, tcja]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      In 2027 a senator introduces a new 'no tax on freelance income' deduction
+      drafted to expire after four years, and touts its modest CBO score. According
+      to this lesson, why does Congress design tax provisions this way?
+    choices:
+      - id: a
+        text: "The Byrd Rule flatly forbids making any tax provision permanent in a reconciliation bill"
+      - id: b
+        text: "A four-year provision fits reconciliation's ten-year deficit target at a fraction of the permanent cost — and its expiration manufactures a future must-pass vehicle to campaign on"
+      - id: c
+        text: "CBO is barred from scoring any provision that lasts longer than five years"
+      - id: d
+        text: "Temporary provisions are exempt from deficit scoring entirely, so they appear costless"
+    correct_choice_id: b
+    explanation: >-
+      The lesson gives two structural reasons. First, the budget window: a
+      reconciliation bill needs only 51 Senate votes but must fit an agreed deficit
+      number over ten years, so a deduction that lasts four years costs a quarter as
+      much on paper as a permanent one — Congress buys the headline now and books
+      the cost as someone else's problem. Second, sunsets manufacture leverage:
+      every expiration is a future must-pass vehicle, which is why OBBBA's own
+      deductions lapse in a presidential election year by design. Choice (a)
+      misstates the Byrd Rule — it bars raising deficits beyond the window without
+      offsets, and OBBBA made its core permanent through reconciliation anyway. And
+      temporary provisions are scored, just briefly: CBO separately estimated that
+      making OBBBA's temporary items permanent would add nearly another trillion
+      dollars.
+    concepts: [taxes, tcja]
+
+  - id: q3
+    kind: multiple-choice
+    text: "As of mid-2026, which statement accurately describes the federal fiscal position?"
+    choices:
+      - id: a
+        text: "Gross federal debt has passed $39 trillion, and debt held by the public — about $31.6 trillion — is roughly 101 percent of GDP, projected to pass the 1946 record share around 2030"
+      - id: b
+        text: "Debt held by the public has already broken its 1946 record share of GDP"
+      - id: c
+        text: "Deficits near 5.8 percent of GDP are routine peacetime levels, so the current figure is unremarkable"
+      - id: d
+        text: "Net interest remains a minor budget item, still well below annual defense spending"
+    correct_choice_id: a
+    explanation: >-
+      Gross debt ($39 trillion) and debt held by the public (about $31.6 trillion,
+      roughly 101 percent of GDP) are different measures — and the record share, 106
+      percent set in 1946 after World War II, falls around 2030 on CBO's
+      projection, with 120 percent reached by 2036 on current law. A deficit share
+      of 5.8–5.9 percent of GDP has previously appeared only in world wars, the
+      2008–09 crisis, and the pandemic. And net interest, at about $1 trillion a year, already
+      exceeds defense spending, heading toward a projected $2.1 trillion by 2036.
+      Each camp reads the same chart its own way — revenue too low, the spending
+      path too high, or a gap only a VAT could close — but the arithmetic itself is
+      shared ground.
+    concepts: [national-debt, fiscal-gap]
+
+  - id: q4
+    kind: multiple-choice
+    text: "OBBBA set the child tax credit at $2,200 per child. According to the lesson, what remains the live legislative fight?"
+    choices:
+      - id: a
+        text: "Raising the credit's dollar amount, which the lesson identifies as the unresolved core"
+      - id: b
+        text: "Whether the credit should be indexed for inflation"
+      - id: c
+        text: "Restoring monthly advance delivery of the credit"
+      - id: d
+        text: "Full refundability — OBBBA makes the credit refundable only up to $1,700 and only with enough earnings, and refundability is the feature worth nothing to the highest earners and everything to the poorest"
+    correct_choice_id: d
+    explanation: >-
+      OBBBA settled the rate and reopened the real dispute. The 2021 expansion —
+      $3,000 to $3,600 per child, fully refundable, paid monthly — coincided with
+      the lowest child poverty ever recorded (a 5.2 percent supplemental poverty
+      rate), and after it lapsed child poverty jumped to 12.4 and then 13.7
+      percent. The bipartisan Wyden–Smith bill then passed the House 357–70 and
+      died at Senate cloture 48–44 — evidence the dollar figure was never the
+      sticking point. The fight is over whether families with the least earnings
+      receive the full credit; monthly delivery was a feature of the 2021 design,
+      but the lesson names full refundability as the dispute still live on both
+      sides of the aisle.
+    concepts: [child-tax-credit, taxes]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      The lesson argues a major fiscal package before the early 2030s is close to
+      inevitable: the 2028 and 2030 expirations, trust-fund depletion beginning in
+      2033, and interest costs past $1 trillion all converge. Sketch the package
+      you would support — your answers to the lesson's first three commitments (the
+      level, the base, the distribution) — and then name your falsifier: what
+      evidence would change your design?
+    concepts: [taxes, fiscal-gap, national-debt, entitlement-program]
+    socratic_seed: >-
+      Hold the learner to all four commitments. The level: revenue runs about 17.5
+      percent of GDP against outlays of 23.3 — which number moves? The progressive
+      raises revenue at the top; the supply-sider works the spending path,
+      especially the entitlements (the 2025 Trustees put OASI and Medicare HI
+      depletion at 2033, after which current law pays 77 percent of scheduled
+      retirement benefits); the consumption-taxer says the gap is too large for
+      either and only a VAT has the scale. The base: if they reach for
+      base-broadening, press the tax-expenditure list — the employer health
+      exclusion and the capital-gains preference are each worth on the order of
+      $1.25 trillion over five years, the whole list approaches $2.3 trillion per
+      year, and every item's beneficiaries ensure it survives. If they reach for
+      enforcement, press the IRS whipsaw: roughly $26 billion left of the original
+      $79.4 billion against a $696 billion gross tax gap, with the return on each
+      enforcement dollar now a live natural experiment. If they reach for wealth or
+      billionaire-minimum taxes, press Moore — the realization question was
+      expressly reserved, with four justices signaling they think realization is
+      required. The distribution: which evidence do they credit — CBO's 31.5
+      percent top-1-percent rate, Saez–Zucman's 23 percent top-400 estimate, or
+      Auten–Splinter's rebuttal — and why? The falsifier: refuse to accept that
+      nothing would change their mind; the fourth commitment is the falsifier
+      itself. Close by asking which clock their package actually answers — the
+      sunsets Congress set deliberately, or the trust-fund clock it inherited.

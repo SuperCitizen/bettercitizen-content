@@ -1,0 +1,18 @@
+slug: federalist-society
+name: The Federalist Society
+kind: think-tank
+description: "Network of conservative and libertarian lawyers, law students, and judges founded in 1982, organized around originalism and textualism. Takes no formal policy positions, but its debates, chapters, and membership network function as the dominant credentialing pipeline for Republican judicial nominations."
+website: https://fedsoc.org
+jurisdiction: national
+partisan_lean: center-right
+ideology_tags:
+  - american-conservatism
+  - libertarianism
+influence_channels:
+  - public-education
+  - judicial-education
+concept_tags:
+  - originalism
+  - strict-constructionism
+  - judicial-review
+is_active: true

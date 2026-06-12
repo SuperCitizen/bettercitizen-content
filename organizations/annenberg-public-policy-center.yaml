@@ -1,0 +1,18 @@
+slug: annenberg-public-policy-center
+name: Annenberg Public Policy Center
+kind: think-tank
+subtype: university-affiliated
+description: "Communication and policy research center at the University of Pennsylvania, founded in 1993. Operates FactCheck.org, one of the original nonpartisan political fact-checking organizations, and studies political communication, science communication, and civics knowledge."
+website: https://www.annenbergpublicpolicycenter.org
+jurisdiction: national
+partisan_lean: none
+parent_org: university-of-pennsylvania
+org_relationship: unit-of
+influence_channels:
+  - public-education
+  - policy-research
+concept_tags:
+  - fact-checking
+  - misinformation
+  - source-criticism
+is_active: true

@@ -42,7 +42,7 @@ export function OrderIt({ items, prompt, explanation, title }: OrderItProps) {
   const move = (from: number, to: number) => {
     setOrder((prev) => {
       const next = prev.slice();
-      [next[from], next[to]] = [next[to], next[from]];
+      [next[from], next[to]] = [next[to]!, next[from]!];
       return next;
     });
     setChecked(false); // any move clears the per-row marks

@@ -2,10 +2,18 @@ slug: brennan-center
 name: Brennan Center for Justice
 kind: civic-reform
 subtype: democracy-defense
-description: "Nonpartisan law and policy institute at NYU Law focused on democracy and justice: voting rights, money in politics, redistricting, and the rule of law."
+description: "Law and policy institute at NYU School of Law focused on democracy and justice: voting rights, money in politics, redistricting, and the rule of law. Legally an independent 501(c)(3) affiliated with the law school. Self-describes as nonpartisan; media-bias raters generally place its output left of center."
 website: https://www.brennancenter.org
 jurisdiction: national
-partisan_lean: none
+partisan_lean: center-left
+parent_org: new-york-university
+org_relationship: independent-affiliated
+influence_channels:
+  - policy-research
+  - litigation
+  - amicus-briefs
+  - legislative-testimony
+  - public-education
 concept_tags:
   - voting-rights-act
   - ranked-choice-voting

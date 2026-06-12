@@ -38,7 +38,7 @@ export function GuessTheShare({ items, title, unit = '%', source }: GuessTheShar
 
   const errors = items.map((it, i) => Math.abs((guesses[i] ?? 0) - it.actual));
   const avgMiss = errors.length > 0 ? errors.reduce((a, b) => a + b, 0) / errors.length : 0;
-  const biggestIdx = errors.reduce((best, err, i) => (err > errors[best] ? i : best), 0);
+  const biggestIdx = errors.reduce((best, err, i) => (err > errors[best]! ? i : best), 0);
 
   const setGuess = (index: number, value: number) => {
     setGuesses((prev) => prev.map((g, i) => (i === index ? value : g)));

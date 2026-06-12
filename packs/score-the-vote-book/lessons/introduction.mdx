@@ -1,0 +1,126 @@
+---
+schema: bettercitizen.lesson/v1
+slug: introduction
+kind: reading
+title: "Introduction: The Ballot Is Broken"
+objectives:
+  - Distinguish ordinal (ranked) from cardinal (scored) ballot information and explain why rankings preserve order but destroy distance
+  - State the book's central claim — rating beats ranking on voter satisfaction, strategic robustness, and counting simplicity — and what evidence it promises
+  - Identify the three concessions the author makes up front, including Gibbard's 1973 theorem that no non-trivial voting method is strategy-proof
+concepts:
+  - score-voting
+  - plurality
+  - ranked-choice-voting
+duration_min: 7
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "Introduction: The Ballot Is Broken"'
+  - type: paper
+    citation: 'Allan Gibbard, "Manipulation of Voting Schemes: A General Result," *Econometrica* 41(4): 587–601 (1973) — every non-dictatorial voting scheme with three or more possible outcomes can be manipulated.'
+    url: https://www.jstor.org/stable/1914083
+  - type: website
+    citation: 'Security Council Report, "In Hindsight: The Search for the Next Secretary-General," May 2026 Monthly Forecast — the Security Council selects Secretaries-General using straw polls with "encourage," "discourage," and "no opinion" ballots.'
+    url: https://www.securitycouncilreport.org/monthly-forecast/2026-05/in-hindsight-the-search-for-the-next-secretary-general.php
+  - type: website
+    citation: 'InForum, "North Dakota governor signs bill banning approval, ranked choice voting in elections statewide" (April 2025) — HB 1297, signed by Gov. Kelly Armstrong, ended Fargo''s approval-voting system.'
+    url: https://www.inforum.com/news/north-dakota/north-dakota-governor-signs-bill-banning-approval-ranked-choice-voting-in-elections-statewide
+  - type: website
+    citation: 'Ballotpedia, "Fargo, North Dakota, Measure 1, Approval Voting Initiative (November 2018)" — approved 30,092 to 17,282 (63.5%).'
+    url: https://ballotpedia.org/Fargo,_North_Dakota,_Measure_1,_Approval_Voting_Initiative_(November_2018)
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+---
+
+# Introduction: The Ballot Is Broken
+
+Democracy has a math problem.
+
+You walk into a booth. You pick one name. You leave. That single mark is supposed to carry your entire political judgment — every priority, every reservation, every "I'd settle for her." It can't. It never could. A ballot that lets you say exactly one thing about a field of five candidates throws away nearly everything you know, and then we act surprised when the result doesn't look like what anybody wanted.
+
+Two scenes from the year I finished this book. In mid-2026, the United Nations Security Council began choosing the tenth Secretary-General — four candidates, with straw polls in which each member marks every candidate "encourage," "discourage," or "no opinion." When the stakes are real and the diplomats are voting on each other, they do not pick one. They rate everyone. They've done it that way for decades. Meanwhile, in June 2026, Fargo, North Dakota held its first city election since the state legislature banned the approval-voting system its own citizens had adopted by 64 percent in 2018 — a system Fargoans used happily three times and never voted to repeal. Back to pick-one. By law.
+
+This book lives between those two scenes: a method so natural that the world's most careful institutions quietly rely on it, and a political machinery that keeps removing it from public ballots. Both halves of that sentence are true, and I intend to prove both.
+
+## Three ways to ask the same question
+
+Every voting method is a question posed to you, the voter. The differences hide in how much of your answer the ballot can hear.
+
+<Figure caption="Three ballots, one voter, escalating information. The pick-one ballot records a single fact. The ranked ballot adds order but not distance — it cannot say how far apart your second and third choices are. The score ballot records a judgment about every candidate, including how strongly you hold it.">
+  <svg viewBox="0 0 720 230" width="100%" role="img" aria-label="Three sample ballots side by side: a plurality ballot with one bubble filled, a ranked ballot with candidates numbered 1 through 3, and a score ballot with numeric scores 5, 4, and 0">
+    <rect x="8" y="8" width="220" height="190" rx="8" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" />
+    <rect x="250" y="8" width="220" height="190" rx="8" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" />
+    <rect x="492" y="8" width="220" height="190" rx="8" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" />
+    <text x="118" y="36" textAnchor="middle" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Pick one</text>
+    <text x="360" y="36" textAnchor="middle" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Rank them</text>
+    <text x="602" y="36" textAnchor="middle" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Score them</text>
+    <circle cx="40" cy="72" r="8" fill="var(--accent, #8a2a1e)" />
+    <circle cx="40" cy="108" r="8" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="40" cy="144" r="8" fill="none" stroke="var(--muted, #6b6457)" />
+    <text x="60" y="77" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Avila</text>
+    <text x="60" y="113" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Brooks</text>
+    <text x="60" y="149" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Chen</text>
+    <text x="282" y="77" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--blue, #2f4d6e)">1</text>
+    <text x="282" y="113" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--blue, #2f4d6e)">2</text>
+    <text x="282" y="149" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--blue, #2f4d6e)">3</text>
+    <text x="302" y="77" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Avila</text>
+    <text x="302" y="113" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Brooks</text>
+    <text x="302" y="149" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Chen</text>
+    <text x="524" y="77" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--green, #4a6b3a)">5</text>
+    <text x="524" y="113" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--green, #4a6b3a)">4</text>
+    <text x="524" y="149" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--accent, #8a2a1e)">0</text>
+    <text x="544" y="77" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Avila</text>
+    <text x="544" y="113" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Brooks</text>
+    <text x="544" y="149" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Chen</text>
+    <text x="118" y="182" textAnchor="middle" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">your favorite, nothing else</text>
+    <text x="360" y="182" textAnchor="middle" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">order, but not distance</text>
+    <text x="602" y="182" textAnchor="middle" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">how much, for everyone</text>
+  </svg>
+</Figure>
+
+The first ballot is the one most Americans use: [[term:plurality]], pick one, most votes wins. The second is the ranked ballot behind [[term:ranked-choice-voting]], the reform with the headlines and the momentum. The third is [[term:score-voting]] — also called range voting — and it is the subject of this book: give every candidate a score, highest total wins. One count. No rounds, no eliminations, no transfers.
+
+Notice what the middle ballot loses. Ranking Avila first and Brooks second says nothing about whether Brooks is a near-twin you'd cheerfully accept or a barely-tolerable hedge against Chen. The order survives; the *distances* die. Social choice theorists call ranked information *ordinal* and scored information *cardinal*, and that one distinction will do more work in this book than any other idea in it.
+
+<Checkpoint question="You love Avila, you'd happily settle for Brooks, and you'd consider moving if Chen won. Which of the three ballots can record the difference between your feeling for Brooks and your feeling for Chen — and what exactly do the other two lose?">
+  Only the score ballot. The pick-one ballot loses everything but your favorite — Brooks and Chen look identical to the count. The ranked ballot preserves the *order* (Brooks above Chen) but not the *distance*: "happily settle" versus "consider moving" is precisely the information a ranking cannot carry. Score voting was built to keep it.
+</Checkpoint>
+
+## The argument of this book
+
+The reform movement knows the pick-one ballot is broken. Ranked choice voting has won states. STAR voting has its evangelists. They are allies in the fight that matters most — the fight against plurality — and I will give them their due, by name, with their best evidence on the table.
+
+But this book makes a sharper claim: when you compare the systems head-to-head on the measures that actually matter — how satisfied voters are with outcomes across millions of simulated elections, how gracefully each system degrades when voters get tactical, how simply each one counts, and how often each finds the candidate the whole electorate can live with — cardinal ballots win. Rating beats ranking. Score voting, and its two-level little sibling approval voting, are the best practical repair for American elections. That's the case. The next eighteen chapters are the evidence.
+
+## What I owe you
+
+Advocacy books have a credibility problem, so let me state my rules. Every number, date, and case in this book is checked against primary sources — official tabulations, court opinions, the published studies themselves. And when the strongest argument is against me, you will hear it from me first. Three concessions, up front:
+
+First, no voting system is immune to strategy. In 1973 the philosopher Allan Gibbard proved that *every* non-trivial voting method can be manipulated by someone, somewhere — score voting included. Anyone who promises you a strategy-proof ballot is selling something. The honest question is never "can it be gamed?" but "what happens when it is?" — and that question, it turns out, is where score voting shines.
+
+Second, the real-world track record is short and bruised. Fargo's approval voting is dead — banned by its state legislature in 2025 over the city's objections. Missouri voters constitutionally barred any new city from following St. Louis. I will tell those stories straight, defeats included, because the pattern they reveal — adopted from below, removed from above — is itself part of the argument.
+
+Third, tactical voters compress score ballots toward approval ballots. Critics present this as a gotcha. I'll show you the math and explain why I consider approval voting a floor worth standing on, not a trapdoor.
+
+<QuickCheck
+  question="Based on this introduction, what does this book actually claim about strategic voting under score voting?"
+  choices={[
+    {id: 'a', text: 'Score voting is strategy-proof, which is why it beats ranked choice voting'},
+    {id: 'b', text: 'No system is strategy-proof (Gibbard, 1973); the claim is that score voting degrades gracefully when voters get tactical'},
+    {id: 'c', text: 'Only plurality voting can be manipulated; all reform systems eliminate strategy'},
+    {id: 'd', text: 'Strategy only matters in close elections, so the question is irrelevant'},
+  ]}
+  answer="b"
+  explanation="Gibbard's 1973 theorem covers every non-dictatorial voting scheme with three or more possible outcomes — cardinal ballots included. The book's claim is comparative, not absolute: judged by how systems behave when voters scheme, score and approval hold up better than the alternatives. Promising immunity (a, c) is exactly the overclaim this book refuses to make."
+/>
+
+## What you'll walk away with
+
+This isn't just a book of arguments. It's a toolkit. By the end you'll be able to explain score voting to your skeptical uncle at Thanksgiving, your coworker who thinks voting reform sounds complicated, and your friend who's given up on politics entirely — clearly, concisely, with the receipts. And if you want to do more than nod along, the closing chapters get concrete: model ballot language, the organizations doing the work, the campaigns worth your weekends, and what the losses in Bismarck and Jefferson City teach about how to win the next one.
+
+This book doesn't end when you close it. It ends when your ballot changes.
+
+## What this introduction did not settle
+
+Everything, so far. I've asserted that the pick-one ballot destroys information, that the destruction has consequences, and that a better ballot exists. Assertions are cheap. The next chapter starts the proof with the system we already have: a governor elected with 37.6 percent of the vote, a presidency that turned on 537 votes while 97,488 went to a third candidate, and a French political scientist who saw the whole pattern coming in 1951.

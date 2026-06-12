@@ -1,0 +1,20 @@
+slug: othering-and-belonging-institute
+name: Othering & Belonging Institute
+kind: think-tank
+subtype: university-affiliated
+description: "Research institute at UC Berkeley studying structural marginalization — housing segregation, racial inequality, religious and ethnic exclusion — and advocating policies framed around 'belonging.' Works openly from progressive premises while publishing widely used empirical work such as its residential segregation indices."
+website: https://belonging.berkeley.edu
+jurisdiction: national
+partisan_lean: left
+parent_org: university-of-california-berkeley
+org_relationship: unit-of
+ideology_tags:
+  - american-progressivism
+influence_channels:
+  - policy-research
+  - public-education
+concept_tags:
+  - think-tank
+  - civil-rights
+  - identity-politics
+is_active: true

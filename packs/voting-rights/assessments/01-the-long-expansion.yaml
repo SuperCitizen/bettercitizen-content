@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-long-expansion
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In Guinn v. United States (1915), the Supreme Court struck down Oklahoma's grandfather clause. What was the practical effect on Black voter registration in the South?"
+    choices:
+      - id: a
+        text: "Registration surged, because the literacy test fell along with the clause that exempted whites from it."
+      - id: b
+        text: "Little changed — the Court left the literacy test itself standing, and discretionary administration of it continued for another fifty years."
+      - id: c
+        text: "Registration rose in Oklahoma but nowhere else, because the ruling applied only to the named state."
+      - id: d
+        text: "Nothing changed legally, because the decision was effectively overruled by Grovey v. Townsend in 1935."
+    correct_choice_id: b
+    explanation: "Guinn voided only the grandfather clause — the exemption that spared whites from the test — while holding the literacy test 'independently legal.' Registrar discretion in administering the surviving test kept doing the discriminatory work until the Voting Rights Act suspended such tests in 1965. Constitutional rulings against one device left the system intact; that tempo problem is the throughline of the era. (Grovey concerned the white primary, a different device, and was itself overruled by Smith v. Allwright in 1944.)"
+    concepts: [disenfranchisement, jim-crow]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Imagine a state's dominant political party today reorganizes as a formally private association and limits participation in its primary to one racial group, arguing that a private club may choose its members. Under Smith v. Allwright (1944), why does this fail?"
+    choices:
+      - id: a
+        text: "Because political parties are federal agencies and therefore bound by the Bill of Rights."
+      - id: b
+        text: "Because the state builds its election machinery around the party primary, the party's exclusion is state action, and racial exclusion from it violates the 15th Amendment."
+      - id: c
+        text: "Because the 24th Amendment prohibits parties from restricting their primaries."
+      - id: d
+        text: "It would not fail — Smith v. Allwright allows private associations to set membership rules so long as the general election remains open."
+    correct_choice_id: b
+    explanation: "Smith v. Allwright pierced the 'private club' theory: when a state regulates and relies on a party primary as an integral stage of its election system, the party's racially exclusionary rules become state action subject to the 15th Amendment. The Court there overruled Grovey v. Townsend (1935), which had accepted the private-action framing. Choice (d) describes Grovey's logic — the position the Court abandoned; (a) is wrong because parties are not government agencies, which is exactly why the state-action analysis was needed; (c) confuses the poll-tax amendment with primary access."
+    concepts: [disenfranchisement, suffrage]
+
+  - id: q3
+    kind: multiple-choice
+    text: "The Snyder Act of 1924 made every Native American born in the United States a citizen. Why could some states nonetheless keep Native citizens from voting until as late as 1957?"
+    choices:
+      - id: a
+        text: "Because the Act contained an express exception allowing states to delay enfranchisement for thirty years."
+      - id: b
+        text: "Because citizenship is conferred federally, but voter qualifications are set by the states — and devices like reservation-residency and 'Indians not taxed' rules were facially race-neutral."
+      - id: c
+        text: "Because the Act granted citizenship only to Native veterans of World War I."
+      - id: d
+        text: "Because the Supreme Court struck the Act down as exceeding Congress's enumerated powers."
+    correct_choice_id: b
+    explanation: "The Snyder Act granted citizenship — full stop, no delay clause and not limited to veterans, though the WWI service of roughly 12,000 Native Americans helped drive its passage. But the American design splits citizenship (federal) from the franchise (mostly state), and states excluded Native citizens through nominally neutral qualifications until 1957. The same gap caught freedmen after 1870 and Black women after 1920: a status conferred in Washington does not administer itself at a county registrar's counter."
+    concepts: [suffrage, disenfranchisement]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which statement best captures how the Constitution's voting amendments (15th, 19th, 24th, 26th) actually operate?"
+    choices:
+      - id: a
+        text: "Each grants the named group an affirmative federal right to vote, enforceable without further legislation."
+      - id: b
+        text: "Each forbids a specific ground for denying the vote, while leaving voter qualifications and election machinery otherwise in state hands."
+      - id: c
+        text: "Each applies only to federal elections, leaving states free to set any rules for their own offices."
+      - id: d
+        text: "Together they establish universal adult suffrage, which is why no enforcement statutes were needed."
+    correct_choice_id: b
+    explanation: "Every voting amendment uses the same negative grammar — the vote 'shall not be denied or abridged... on account of' race, sex, tax payment, or age — prohibiting particular grounds of denial without granting an affirmative right or transferring control of election machinery. That is why facially neutral devices evaded the 15th Amendment for decades and why enforcement ultimately required the Voting Rights Act. Choice (c) describes only the 24th Amendment's limit; the 15th, 19th, and 26th bind state elections too. Choice (d) is refuted by ninety-five years of history between 1870 and 1965."
+    concepts: [suffrage, civil-war-amendments]
+
+  - id: q5
+    kind: free-response
+    text: "Suppose a future 28th Amendment provided: 'The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of failure to possess a government-issued photo identification.' Drawing on the pattern of the 15th, 19th, 24th, and 26th Amendments, predict how much this text alone would change on the ground, and what history suggests would be needed to make it effective."
+    socratic_seed: "The text copies the voting amendments' negative grammar, so the historical pattern applies: it removes one named ground of denial while leaving registration, list maintenance, deadlines, and administrative discretion with the states — the territory where the literacy test thrived after 1870 and where facially neutral substitutes flourish. Expect litigation over what counts as denial 'on account of' the named ground (compare Guinn leaving the literacy test standing, and Harper needing to finish what the 24th started). Press the student toward the lesson's enforcement insight: paper guarantees moved Mississippi registration to 6.7% in ninety-four years; the Voting Rights Act moved it more in months because it changed who bore the burden and when review happened. Then ask: what would the analogous enforcement statute for this amendment look like, and who would resist it on what federalism grounds?"
+    concepts: [suffrage, disenfranchisement]

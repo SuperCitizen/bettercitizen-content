@@ -1,10 +1,10 @@
 schema: bettercitizen.content/v1
 slug: taxes
 title: Federal Taxes
-summary: How the U.S. federal tax system actually works (income, payroll, corporate, capital gains, estate), the strongest cases for progressive expansion, supply-side reform, and consumption-tax restructuring, and the live debates over the TCJA expiration, child tax credit, and wealth taxation. The empirical record on tax-rate elasticities is more contested than political rhetoric admits.
+summary: How the U.S. federal tax system actually works (income, payroll, corporate, capital gains, estate), the strongest cases for progressive expansion, supply-side reform, and consumption-tax restructuring, and the post-OBBBA policy landscape — child-tax-credit refundability, wealth taxation after Moore, tariffs after Learning Resources, and the fiscal trajectory. The empirical record on tax-rate elasticities is more contested than political rhetoric admits.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.1.0
+version: 1.2.0
 tags: [issues, taxes, civics-201, public-policy, fiscal]
 level: intermediate
 official: true

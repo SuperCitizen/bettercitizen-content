@@ -1,0 +1,155 @@
+---
+schema: bettercitizen.lesson/v1
+slug: where-the-money-goes
+kind: reading
+title: Where the money actually goes
+objectives:
+  - Distinguish mandatory spending, discretionary spending, and net interest, and explain why most of the budget runs on autopilot
+  - State the actual composition of federal spending in fiscal 2025 within a few percentage points, citing Treasury and CBO figures
+  - Explain why interest costs now exceed the defense budget and why that crossover matters
+  - Use the real composition to evaluate claims that foreign aid cuts or eliminating "waste, fraud, and abuse" can balance the budget
+  - Connect the spending side to the revenue side and compute the deficit as the gap between them
+concepts:
+  - appropriations
+  - entitlement-program
+  - deficit-spending
+  - national-debt
+  - fiscal-policy
+sources:
+  - type: website
+    citation: 'U.S. Treasury, Monthly Treasury Statement, September 2025 (final FY2025 receipts and outlays by function, Table 9).'
+    url: https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/receipts-of-the-u-s-government
+  - type: website
+    citation: 'CBO, "Monthly Budget Review: Summary for Fiscal Year 2025" (November 2025) — outlays, receipts, deficit, and category detail.'
+    url: https://www.cbo.gov/publication/61307
+  - type: website
+    citation: 'U.S. Treasury Fiscal Data, "Debt to the Penny" — total public debt outstanding, updated daily.'
+    url: https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/
+  - type: website
+    citation: 'CBO, "The Budget and Economic Outlook: 2026 to 2036" (February 2026) — baseline projections for deficits, debt, and interest.'
+    url: https://www.cbo.gov/publication/61882
+  - type: website
+    citation: 'KFF Health Tracking Poll (2025) — public estimates of foreign aid''s share of the federal budget.'
+    url: https://www.kff.org/global-health-policy/kff-health-tracking-poll-february-2025-the-publics-views-on-global-health-and-usaid/
+  - type: website
+    citation: 'GAO, "Fraud Risk Management: 2018–2022 Data Show Federal Government Loses an Estimated $233 Billion to $521 Billion Annually to Fraud" (GAO-24-105833, April 2024).'
+    url: https://www.gao.gov/products/gao-24-105833
+  - type: website
+    citation: 'GAO, "Fraud & Improper Payments" — government-wide improper-payment estimates (about $186 billion reported for FY2025).'
+    url: https://www.gao.gov/fraud-improper-payments
+  - type: website
+    citation: 'Social Security Administration, "Status of the Social Security and Medicare Programs: A Summary of the 2025 Annual Reports."'
+    url: https://www.ssa.gov/oact/TRSUM/index.html
+perspectives:
+  - name: Fiscal consolidation hawk
+  - name: Full-employment (functional finance) dove
+  - name: Public-investment (capital budgeting) advocate
+duration_min: 16
+---
+
+# Where the money actually goes
+
+When KFF pollsters asked Americans in early 2025 what share of the federal budget goes to foreign aid, the average answer was about a quarter — 26 percent. More than half the public said over 10 percent. About one in ten got it right: roughly one percent, and in fiscal 2025 the entire international affairs budget — every embassy, every development program, every dollar of humanitarian relief — came to $45 billion out of $7,010 billion in spending, or about six-tenths of a cent on the dollar. This is not a trivia miss. People who believe a quarter of the budget is foreign aid will support a budget strategy — cut the aid, balance the books — that is arithmetically impossible. The same poll found that when respondents were told the real figure, the share saying America spends "too much" on aid dropped by more than 20 points. The single most useful thing a citizen can carry into any budget argument is the actual map of where $7 trillion goes. This lesson is that map.
+
+Hold one distinction in mind throughout: this pack covers the *spending* side and the machinery around it. The revenue side — who pays which federal taxes, and the fights over rates and bases — has its own pack, *Federal Taxes*. Spending and taxing together make up [[term:fiscal-policy]]; we take revenue mostly as given here and concentrate on where it goes.
+
+## Autopilot, the annual fight, and the interest bill
+
+Start not with programs but with plumbing, because the budget's deepest structural fact is that most of it is never voted on. Federal spending flows through three legally distinct channels:
+
+**Mandatory spending** — about $4.2 trillion in fiscal 2025, per CBO — is spending written into permanent law. Social Security, Medicare, Medicaid, veterans' benefits, federal retirement: each is an [[term:entitlement-program]] or similar formula-driven commitment, meaning the authorizing statute itself defines who qualifies and what they get, and the checks go out to everyone who qualifies. No annual vote occurs. Congress can change the formula — by passing a new law through the full gauntlet of House, Senate, and President — but if Congress does nothing, the money flows. That is what "autopilot" means.
+
+**Discretionary spending** — roughly $1.8 trillion — is the part Congress must affirmatively appropriate every single year through twelve [[term:appropriations]] bills: defense (about half of it), plus everything people picture when they imagine "the government" — the FBI, national parks, air traffic control, NIH research, border security, the State Department. If the appropriations lapse, these activities shut down. Lesson 3 is about how that yearly process works and how often it breaks.
+
+**Net interest** — $970 billion in fiscal 2025 on the Treasury's budget-function accounting — is the least optional of all. It is the price of past borrowing, set by the bond market and the stock of debt, not by any committee.
+
+Now put the three together, because the arithmetic is the insight. Mandatory spending plus interest came to about $5.2 trillion in fiscal 2025 — almost exactly what the government collected in total revenue ($5.23 trillion). Everything Congress actually debated, amended, and voted on that year — the entire discretionary budget, defense included — was, in an accounting sense, financed by borrowing. A budget fight that never touches autopilot spending or revenue is a fight over the minority of the budget, conducted entirely on credit.
+
+<Figure caption="The three channels of federal spending, fiscal year 2025. Mandatory programs and interest — the parts with no annual vote — consumed roughly as much as all federal revenue combined, leaving the entire annual appropriations fight to be financed by borrowing." source="U.S. Treasury, Monthly Treasury Statement (FY2025); CBO, Monthly Budget Review: Summary for Fiscal Year 2025.">
+  <DataBars
+    title="FY2025 outlays by channel, vs. total revenue"
+    unit="$ billions"
+    max={7010}
+    marker={{value: 5235, label: 'Total FY2025 revenue: $5,235B'}}
+    bars={[
+      {label: 'Mandatory (autopilot)', value: 4200, color: 'accent'},
+      {label: 'Discretionary (the 12 annual bills)', value: 1840, color: 'blue'},
+      {label: 'Net interest (no vote at all)', value: 970, color: 'gold'},
+    ]}
+  />
+</Figure>
+
+<Checkpoint question="A newly elected Congress promises to shrink the budget dramatically — but only by writing leaner versions of the twelve annual appropriations bills, touching nothing else. What share of federal spending is their effort even able to reach?">
+  Roughly a quarter. The twelve appropriations bills govern only discretionary spending — about $1.8 trillion of $7.0 trillion in fiscal 2025. Mandatory programs (about $4.2 trillion) flow from permanent law no appropriations bill touches, and interest ($970 billion) is owed regardless. Cutting *all* discretionary spending to zero — no military, no FBI, no courts staff, no parks — would still have left fiscal 2025 in deficit. Serious deficit reduction has to change mandatory law, raise revenue, or both; the annual bills cannot do it alone.
+</Checkpoint>
+
+## The shape of $7 trillion
+
+Within those channels, where does the money actually land? Most people have never seen the proportions — so commit to guesses before you look. The shares below are from the Treasury's final accounting for fiscal year 2025, by budget function:
+
+<GuessTheShare
+  title="Where did $7.0 trillion go in FY2025?"
+  unit="% of FY2025 outlays"
+  items={[
+    {label: 'Social Security', actual: 23},
+    {label: 'Medicare', actual: 14},
+    {label: 'Other health programs (mostly Medicaid)', actual: 14},
+    {label: 'National defense', actual: 13},
+    {label: 'Net interest on the debt', actual: 14},
+    {label: 'Foreign aid and diplomacy (international affairs)', actual: 1},
+  ]}
+  source="U.S. Treasury, Monthly Treasury Statement, FY2025 final (outlays by function); CBO, Monthly Budget Review: Summary for Fiscal Year 2025"
+/>
+
+Whatever surprised you is the thing to remember. Here is the fuller table in dollars:
+
+| Function (FY2025) | Outlays | What it is |
+| --- | --- | --- |
+| Social Security | $1,581 billion | Retirement, survivors, and disability checks — the single largest federal activity |
+| Medicare | $997 billion | Health insurance for about 68 million seniors and disabled Americans |
+| Health (non-Medicare) | $979 billion | Mostly Medicaid ($669 billion, per CBO), plus ACA subsidies, NIH, public health |
+| Net interest | $970 billion | The carrying cost of past borrowing |
+| National defense | $917 billion | The military — about half of all discretionary spending |
+| Income security | $702 billion | SNAP, unemployment insurance, federal retirement, tax-credit outlays |
+| Veterans benefits | $377 billion | VA health care, disability compensation, GI Bill |
+| International affairs | $45 billion | All foreign aid, embassies, and diplomacy — 0.6% of outlays |
+
+Read the table the way an auditor would. The federal government is, in dollar terms, an insurance company with an army: Social Security, Medicare, and Medicaid alone were about $3.2 trillion — 46 percent of everything — and Medicare plus Medicaid together (about 24 percent) now outweigh Social Security itself. Social Security alone cost more than defense, veterans' programs, and all of international affairs *combined*. These proportions are why the 2025 Social Security and Medicare trustees' reports matter to every budget debate: the trustees project the Social Security retirement trust fund's reserves run out in 2033 and Medicare's hospital fund the same year — dates that sit inside the career of every politician currently promising never to touch either program.
+
+Then there is the row that would have been unthinkable a decade ago. In fiscal 2024, for the first time, the federal government spent more on interest than on national defense — $881 billion against $874 billion on the Treasury's function accounting — and in 2025 the gap widened to $970 billion against $917 billion. CBO's tally of interest on the public debt crossed $1 trillion for the first time in 2025. No Congress ever voted for interest to become the budget's fourth-largest claim; it is the compound consequence of two decades of deficits meeting the post-2022 [[term:inflation]]-era rise in interest rates. Every dollar of it buys no aircraft carrier, no clinic, no road — it buys the continued willingness of bondholders to hold $31.6 trillion of publicly held federal debt.
+
+<QuickCheck
+  question="In fiscal 2025, which did the federal government spend more on?"
+  choices={[
+    {id: 'a', text: 'National defense — the military is the largest single federal expense'},
+    {id: 'b', text: 'Net interest on the debt — more than the entire defense budget'},
+    {id: 'c', text: 'Foreign aid and diplomacy — roughly tied with defense'},
+    {id: 'd', text: 'Education — the largest discretionary category'},
+  ]}
+  answer="b"
+  explanation="Net interest ($970 billion) exceeded national defense ($917 billion) in FY2025, as it first did in FY2024 — a historic crossover. Defense is the largest *discretionary* expense but only the fifth-largest function overall, behind Social Security, Medicare, other health programs, and interest. Foreign aid is 0.6% of outlays, and federal education spending is smaller than most people guess. The 'insurance company with an army' now pays its creditors more than its soldiers."
+/>
+
+## The revenue side, briefly — and the gap
+
+Against $7,010 billion out, fiscal 2025 brought $5,235 billion in: $2,656 billion from individual income taxes (51 percent), about $1,748 billion from payroll taxes (33 percent), $452 billion from the corporate income tax (9 percent), $195 billion from tariffs (4 percent, after an extraordinary one-year jump), and roughly $183 billion from everything else. The *Federal Taxes* pack dissects who actually bears each of those; for budget purposes the headline is the subtraction. Revenue minus outlays left a deficit of about $1.8 trillion — 5.9 percent of [[term:gdp]], per CBO — in the third consecutive year above 6 percent or just under it, at full employment, with no war and no recession. [[term:deficit-spending]] at that scale outside emergencies is historically new: deficits near 6 percent of GDP used to appear only in deep recessions or world wars.
+
+Each year's deficit rolls into the [[term:national-debt]]. As of June 2026 the total stood at $39.2 trillion — $31.6 trillion of it held by the public (about 101 percent of GDP, per CBO's February 2026 outlook), the rest IOUs between government accounts. CBO projects the publicly held share reaches 120 percent of GDP by 2036, above the all-time record of 106 percent set at the end of World War II. Whether that trajectory is an emergency, a manageable cost, or even — under some conditions — a non-problem is precisely the argument Lesson 2 stages. What it is not is small.
+
+<Checkpoint question="Suppose Congress had eliminated the entire Department of Defense in fiscal 2025 — every soldier, ship, and base, $917 billion to zero. Would the budget have balanced?">
+  Not close. The deficit was about $1,775 billion; removing all $917 billion of defense leaves roughly an $860 billion hole — still a larger deficit than the United States ran in any pre-2009 year in nominal terms. That is the discipline the composition forces on every balancing plan: defense, the largest item most cut-the-spending rhetoric targets, is 13 percent of the budget, and the deficit is bigger than all of it. Any honest path to balance runs through the big four — Social Security, health programs, interest (via the debt itself), and revenue.
+</Checkpoint>
+
+## Two comforting stories, and the arithmetic that kills them
+
+**Story one: "Cut foreign aid and balance the budget."** The KFF numbers explain the story's appeal — a budget line the average voter believes is 26 percent of spending feels decisive. The actual line, $45 billion, would cover about 2.5 percent of the fiscal 2025 deficit if zeroed out entirely. The country effectively ran the experiment: between fiscal 2024 and 2025, international affairs spending *fell* from $72 billion to $45 billion — a cut of more than a third, amid the dismantling of USAID — and the total deficit declined by just $41 billion year over year, remaining within sight of $1.8 trillion. You can think foreign aid is wasteful or think it is the best money America spends; either way, it cannot move the fiscal needle, because there is almost no needle for it to move.
+
+> **Common misconception:** "Foreign aid is one of the biggest items in the budget." It is one of the *smallest* functions — 0.6 percent of fiscal 2025 outlays, smaller than the budget's rounding error in a bad forecasting year. The misperception is among the best-documented in American public opinion (KFF finds only about 11 percent of adults answer correctly), and it does real damage: it lets the public believe painless balance is available and that politicians who decline to deliver it are merely corrupt rather than arithmetically constrained.
+
+**Story two: "Just eliminate waste, fraud, and abuse."** This one deserves more respect, because the underlying problem is real and big. GAO's first government-wide estimate (April 2024) put direct annual losses to *fraud* — deliberate deception, much of it concentrated in the pandemic-spending years of 2018–2022 data — at between $233 billion and $521 billion, and agencies reported about $186 billion in improper payments for fiscal 2025 alone. Anti-fraud investment genuinely pays for itself many times over, and both parties are right to pursue it. But watch the arithmetic. Take GAO's *upper-bound* estimate, assume a perfect government that recovers every fraudulent dollar — a feat no auditor believes possible, since most fraud is identified statistically, not traced to recoverable accounts — and fiscal 2025 still runs a deficit above $1.25 trillion. Use the midpoint, about $377 billion, and you have covered a fifth of the gap. "Waste, fraud, and abuse" is a worthy target and a genuine program-integrity agenda. As a *balancing plan*, it is a way of promising deficit reduction while naming no program, no tax, and no voter who will feel it — which is exactly why the phrase polls so well and delivers so little.
+
+The pattern in both stories is the same, and it is the lesson's takeaway skill: when anyone proposes a path to fiscal balance, find their numbers' denominators. The budget's mass sits in Social Security, health programs, defense, and interest, and its revenue sits in income and payroll taxes. A plan that touches none of those is not a plan; it is an applause line.
+
+## What this map doesn't settle
+
+This lesson gave you composition, not judgment. It established that the budget is dominated by social insurance and interest, that the deficit is structural rather than cyclical, and that the popular painless fixes fail arithmetic. It did *not* establish that the deficit is a crisis — or that it isn't. That requires arguments, and there are at least three serious ones. The **fiscal consolidation hawk** reads $39 trillion and an interest bill above the defense budget as a slow-motion emergency. The **full-employment dove**, in the functional-finance tradition, says a currency-issuing government's budget should be judged by inflation and employment, not by the gap itself. The **public-investment advocate** says both camps are scoring the wrong thing — what matters is what the borrowing *buys*. Lesson 2 gives each its strongest case. Lesson 3 then turns to the machinery — appropriations, shutdowns, reconciliation, the debt ceiling — where every one of these arguments either becomes law or dies.

@@ -1,0 +1,98 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-problem-with-one-vote
+kind: reading
+title: The Problem With One Vote
+objectives:
+  - Explain what plurality voting measures — and why it can crown a candidate most voters oppose
+  - Distinguish the spoiler effect's arithmetic from the unknowability the pick-one ballot creates
+  - Describe Duverger's mechanical and psychological effects on third parties
+  - Recognize strategic voting as a system property, not a voter failure
+concepts:
+  - plurality
+  - majority-threshold
+  - ranked-choice-voting
+sources:
+  - type: book
+    citation: Chris Borgia, *Rank the Vote* (2026), "The Problem With One Vote"
+  - type: website
+    citation: 'Federal Election Commission, "Federal Elections 2000" — certified Florida result: Bush 2,912,790, Gore 2,912,253 (margin 537); Nader 97,488.'
+    url: https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/federal-elections-2000/
+  - type: website
+    citation: 'National Archives, 1992 Electoral College results — Clinton 370, Bush 168, Perot 0, despite Perot''s 18.9% of the popular vote.'
+    url: https://www.archives.gov/electoral-college/1992
+  - type: pdf
+    citation: 'League of Women Voters of Maine, "Maine Gubernatorial Races 1974–2014" — nine of eleven races won without a majority; LePage 37.6% (2010), 48.2% (2014).'
+    url: https://www.lwvme.org/sites/default/files/pdfs/RCV_Maine_Gubernatorial.pdf
+  - type: book
+    citation: 'Maurice Duverger, *Political Parties: Their Organization and Activity in the Modern State* (English ed., 1954) — the plurality rule''s mechanical and psychological pressure toward two-party systems.'
+  - type: paper
+    citation: 'William H. Riker, "The Two-Party System and Duverger''s Law: An Essay on the History of Political Science," American Political Science Review 76(4) (1982) — naming and qualifying the law.'
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 9
+---
+
+# The Problem With One Vote
+
+On November 26, 2000, the State of Florida certified the most consequential number in modern American politics: 537. That was George W. Bush's final margin over Al Gore — 2,912,790 votes to 2,912,253 — out of nearly six million cast, and with it the presidency. On those same ballots sat a third number that nobody certified and everybody noticed: 97,488 Floridians had voted for Ralph Nader. The margin of the American presidency was one half of one percent of one candidate's protest vote. And the ballots themselves, the official record of the electorate's will, could say nothing — *nothing* — about what those 97,488 voters would have wanted instead.
+
+That silence is this chapter's subject. Not Bush, not Gore, not Nader: the ballot.
+
+## Winner-take-all is a losers' game
+
+Our standard voting system goes by several names — [[term:plurality]] voting, first-past-the-post, pick-one. Here is its dirty secret: it doesn't find the candidate most voters want. It finds the candidate who survives the most fractured opposition. There is no [[term:majority-threshold]] to clear, no post — despite the horse-racing name — to get past. Whoever holds the largest single fragment wins, even if that fragment is a sliver and everyone outside it is appalled.
+
+This is not a hypothetical. In 2010, Paul LePage won the governorship of Maine with 37.6 percent of the vote — 218,065 votes to independent Eliot Cutler's 208,270, with Democrat Libby Mitchell at 18.8 percent and two more candidates splitting the rest. More than three of every five Mainers marked someone other than the winner. Four years later LePage was reelected with 48.2 percent in another three-way race — closer, but still short of a majority. Maine will get its own chapter, because what its voters did about this is the founding story of the modern reform movement. For now, hold onto the mechanism: a divided majority loses to a unified minority, every time, by design.
+
+## The spoiler effect
+
+Every election cycle, the same sermon: "Don't waste your vote on a third party." Notice that this isn't cynicism — it's *correct advice* under pick-one rules. When supporting your favorite candidate can elect your least favorite, abandoning your favorite is the rational move. Something is wrong with a system in which honesty is a strategic blunder, and the wrongness belongs to the system, not the voters.
+
+But I want to make the case carefully, because the standard version of it overreaches. Start with the numbers the reader should feel:
+
+<Figure caption="The certified 2000 presidential margin in Florida, next to Nader's Florida vote. The point is not that Nader 'took' votes from Gore — read on — it's that a margin this small sat next to a third-party vote 181 times its size, and the ballots could not say what those voters preferred." source="Federal Election Commission, Federal Elections 2000">
+  <DataBars
+    unit="votes"
+    bars={[
+      {label: "Bush's margin over Gore", value: 537, color: 'accent'},
+      {label: "Nader's Florida total", value: 97488, color: 'gold'},
+    ]}
+  />
+</Figure>
+
+Did Nader cost Gore the presidency? Here is the honest answer: it cannot be proven, and that is the deepest indictment available. Exit polls and later studies suggested Nader's voters leaned toward Gore, but lean is not a count, and some would have stayed home. The pick-one ballot collected no second choices, so the one election that most needed the information never gathered it. A well-designed instrument tells you what its users meant. Ours shrugged.
+
+The same goes for the biggest third-party run of the modern era. In 1992, Ross Perot won 18.9 percent of the national [[term:popular-vote]] — 19,743,821 votes — and exactly zero electoral votes; Bill Clinton won the presidency with 43 percent. Republicans spent years insisting Perot had spoiled it for George H. W. Bush; the polling evidence says Perot's voters split roughly evenly. But notice what happened next, because this is the spoiler effect's real damage. Both parties absorbed the lesson — *third candidates are mortal threats* — and built the modern machinery of exclusion: ballot-access lawsuits, debate-stage thresholds, the ritual "wasted vote" drumbeat. The spoiler effect doesn't need to actually flip elections to do its work. The *fear* of it polices the field, cycle after cycle.
+
+<Checkpoint question="A city's mayoral race polls at 40–35–25: a conservative, a progressive, and a second progressive trailing. Pundits call the 25-percent candidate a spoiler and demand she drop out. Under pick-one rules, what exactly makes her a 'spoiler' — and what would we need to know to be sure she is one?">
+  She's a "spoiler" only if her voters' *second* choices lean toward the other progressive — splitting a coalition that would otherwise beat the 40-percent conservative. And that's the trap: pick-one ballots never record second choices, so nobody can know whether she's spoiling anything; she'll be blamed either way, and pressured out either way. The system can't distinguish a spoiler from a contender, so it treats every third candidate as one. The defect is informational before it is mathematical.
+</Checkpoint>
+
+## Duverger's cage
+
+Why does America have exactly two viable parties when Americans, by every poll, are not two kinds of people? A French political scientist gave the canonical answer in the 1950s. Maurice Duverger observed in *Political Parties* (1954) that plurality voting in single-winner districts presses relentlessly toward two-party politics, through two distinct effects. The **mechanical** effect: a party with, say, 19 percent of the vote spread across the country wins almost nothing — Perot's 1992 run converted nearly twenty million votes into zero electoral votes, a conversion rate the Whigs would have recognized. The **psychological** effect: voters who see that coming defect in advance, abandoning their true preference for a viable lesser evil — and donors, journalists, and talented candidates defect with them. The mechanical effect kills third parties; the psychological effect ensures they're never born.
+
+Political scientists, who promote almost nothing to the status of a law, made an exception here — William Riker formally christened it "Duverger's law" in 1982, while cataloguing its caveats (Canada and the United Kingdom, plurality countries with stubborn regional third parties, keep the law honest). It is a strong tendency, not physics. But America is its purest case: every district, every statehouse, every governorship, one vote, one round, largest fragment wins. We did not choose two-party politics in any deliberative sense. We built a cage and then mistook the cage for the climate.
+
+<QuickCheck
+  question="A talented independent considers running for Senate. Polls show 22 percent would 'consider' her, but she can't raise money because donors say she can't win, and she can't poll higher because voters say the same. Which of Duverger's effects is at work?"
+  choices={[
+    {id: 'a', text: 'The mechanical effect — votes for her get discarded by the seat-allocation arithmetic'},
+    {id: 'b', text: 'The psychological effect — anticipated futility makes supporters defect before a single vote is cast'},
+    {id: 'c', text: 'Neither; this is ordinary campaign weakness unrelated to the voting system'},
+    {id: 'd', text: 'The spoiler effect — she will throw the race to the major-party candidate her voters like least'},
+  ]}
+  answer="b"
+  explanation="The mechanical effect (a) operates at the counting stage — it's what converted Perot's 19 percent into zero electoral votes. What's described here happens *before* the count: voters and donors who privately prefer her defect in anticipation, because under pick-one rules a vote for a likely loser is a vote withheld from the lesser evil. (d) may also become true later, but the question describes pre-election defection — Duverger's psychological effect, the one that prevents third candidacies from ever maturing."
+/>
+
+## Strategic voting vs. honest voting
+
+Add it up and you reach this chapter's bluntest claim: plurality voting forces millions of Americans to falsify their preferences at the ballot box every election. They don't vote *for* someone — they vote *against* someone, through the nearest viable instrument. The ballot then launders the strategy into data: the official returns show support the voters don't feel and erase support they do. Mandates get claimed on the strength of votes that were really vetoes. Parties learn they own their voters' support no matter what, because where else can it go?
+
+A status-quo defender will answer — fairly — that pick-one voting is simple, fast to count, familiar, and decisive, and that coordination on two broad coalitions has its own virtues. The strongest version of that case gets a full chapter later in this book. An alternative-reform advocate will answer that ranked ballots are the wrong fix — that approval or [[issue:score-voting]] systems cure the same disease more cleanly. They get their chapter too. What neither can defend is the thing this chapter showed: a ballot that collects one mark, in a field of three or more, *cannot answer the question elections exist to ask* — whom do these voters actually prefer? Florida 2000 couldn't answer it. Maine 2010 couldn't answer it. The instrument is blind exactly where the stakes are highest.
+
+What this chapter did not settle: whether ranking fixes it, at what cost, with what new failure modes — those are real questions with real answers, some of them uncomfortable for my side. That's next. What's settled is the diagnosis. Your vote isn't broken because you use it badly. It's broken because it was never built to carry what you mean.

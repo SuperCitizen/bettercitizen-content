@@ -1,0 +1,23 @@
+slug: mercatus-center
+name: Mercatus Center
+kind: think-tank
+subtype: university-affiliated
+description: "Market-oriented research center at George Mason University focused on regulation, monetary policy, and government spending. Legally a separate 501(c)(3) housed on GMU's Arlington campus — branded with the university but governed and funded independently, historically with major support from the Koch network."
+website: https://www.mercatus.org
+jurisdiction: national
+partisan_lean: center-right
+parent_org: george-mason-university
+org_relationship: independent-affiliated
+ideology_tags:
+  - classical-liberalism
+  - libertarianism
+influence_channels:
+  - policy-research
+  - regulatory-comments
+  - legislative-testimony
+  - public-education
+concept_tags:
+  - think-tank
+  - bureaucracy
+  - monetary-policy
+is_active: true

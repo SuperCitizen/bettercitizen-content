@@ -19,7 +19,7 @@ questions:
 
   - id: q2
     kind: multiple-choice
-    text: "The Heritage Foundation's database recorded 1,567 proven election-fraud instances as of late 2025. Justin Levitt found 31 credible impersonation cases from 2000–2014. What makes both numbers consistent with the claim that fraud is vanishingly rare?"
+    text: "The Heritage Foundation's database recorded more than 1,600 proven election-fraud instances as of late 2025. Justin Levitt found 31 credible impersonation cases from 2000–2014. What makes both numbers consistent with the claim that fraud is vanishingly rare?"
     choices:
       - id: a
         text: "Both databases are run by partisan organizations, so the numbers are fabricated."

@@ -1,0 +1,11 @@
+slug: harvard-university
+name: Harvard University
+kind: university
+subtype: private-university
+description: "The oldest institution of higher education in the United States, founded in 1636 in Cambridge, Massachusetts. Its Kennedy School of Government and affiliated centers (Belfer, Shorenstein, Safra) form one of the largest university-based policy research complexes in the country."
+website: https://www.harvard.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

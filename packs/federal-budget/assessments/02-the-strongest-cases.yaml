@@ -1,0 +1,149 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      Under which condition does stabilizing the debt-to-GDP ratio require the
+      government to run primary surpluses (taxes exceeding non-interest
+      spending)?
+    choices:
+      - id: a
+        text: "Whenever the debt exceeds 100% of GDP"
+      - id: b
+        text: "When the average interest rate on the debt exceeds the economy's growth rate (r above g)"
+      - id: c
+        text: "Whenever the government runs any deficit at all"
+      - id: d
+        text: "When the Federal Reserve raises short-term rates, regardless of growth"
+    correct_choice_id: b
+    explanation: >-
+      The ratio's trajectory is a race between interest compounding (r) and
+      economic growth (g). With r above g, interest accumulates faster than
+      the economy expands, so without primary surpluses the ratio snowballs;
+      with g above r, the ratio can melt even alongside modest deficits —
+      Blanchard's 2019 condition, which held through most of the 2010s. No
+      particular debt level (choice a) flips the dynamic by itself, and
+      choice d names only one influence on r. The unsettling part for every
+      camp is that neither r nor g is set by Congress — which is why the same
+      arithmetic that justified calm in 2015 justifies alarm in 2026, after
+      the r-versus-g gap narrowed or closed.
+    concepts: [national-debt, deficit-spending]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Which statement best captures the central claim of Buchanan and Wagner's
+      Democracy in Deficit (1977)?
+    choices:
+      - id: a
+        text: "Deficits always cause high inflation within a decade"
+      - id: b
+        text: "Once the balanced-budget norm died, democratic politics became structurally biased toward deficits, because benefits are visible now and costs are deferred and diffuse"
+      - id: c
+        text: "Federal debt is harmless so long as it is denominated in the nation's own currency"
+      - id: d
+        text: "Deficits are acceptable in recessions but must be offset by surpluses in expansions"
+    correct_choice_id: b
+    explanation: >-
+      Buchanan's argument is about incentives, not arithmetic — that
+      Keynesianism's real legacy was destroying the informal rule that had
+      restrained democratic budgeting, leaving politicians rewarded for
+      delivering visible benefits financed by invisible future costs, and
+      voters under a 'fiscal illusion' about the true price of government.
+      Choice d describes the textbook Keynesian symmetry Buchanan said
+      democracies would never actually honor (surpluses in good times keep
+      not happening), and choice c is closer to the functional-finance camp
+      he opposed. On the Buchanan view, six-percent-of-GDP deficits at full
+      employment are not a policy mistake but an equilibrium — fixable only
+      by changing the rules, not the arguments.
+    concepts: [deficit-spending, keynesian-economics, fiscal-policy]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      Which piece of evidence from the last two decades most directly supports
+      the full-employment dove position?
+    choices:
+      - id: a
+        text: "The 2021–23 inflation that followed the pandemic fiscal expansion"
+      - id: b
+        text: "The 2010s — when austerity underperformed IMF forecasts, the predicted U.S. debt crisis never arrived, and trillion-dollar deficits coincided with historically low borrowing costs"
+      - id: c
+        text: "The 2022 U.K. gilt crisis, when bond markets revolted against unfunded tax cuts"
+      - id: d
+        text: "The S&P downgrade of U.S. credit in 2011"
+    correct_choice_id: b
+    explanation: >-
+      The dove camp's best evidence is the lost decade after 2010: Blanchard
+      and Leigh's IMF work showed austerity's damage had been systematically
+      underestimated, the eurozone double-dipped, and the bond-market
+      punishment hawks predicted for U.S. deficits never came — rates stayed
+      at historic lows. Choices a and c are the strongest evidence AGAINST
+      the dove position (the inflation constraint binding, and a bond market
+      disciplining even a currency-issuing government), and the 2011
+      downgrade was about debt-ceiling brinkmanship, a governance failure,
+      rather than vindication for either side's macroeconomics. Knowing which
+      decade supports which camp is most of what it means to follow this
+      debate honestly.
+    concepts: [austerity, national-debt, keynesian-economics]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Congress is debating $400 billion in new borrowing. Proposal A funds a
+      decade of grid modernization and basic research; Proposal B funds an
+      across-the-board tax rebate. The public-investment (capital budgeting)
+      camp insists these two proposals should be scored differently. On what
+      ground?
+    choices:
+      - id: a
+        text: "Proposal A is morally superior, and budget rules should reward good intentions"
+      - id: b
+        text: "Proposal A creates assets whose returns can exceed the government's real borrowing cost, so its debt differs economically from debt financing current consumption"
+      - id: c
+        text: "Proposal B would necessarily cause inflation while Proposal A would not"
+      - id: d
+        text: "Proposal A is discretionary spending while Proposal B is mandatory"
+    correct_choice_id: b
+    explanation: >-
+      The capital-budgeting argument is economic, not moral: borrowing that
+      builds productive assets (infrastructure, R&D, human capital) can pay
+      for itself if the social return exceeds the real borrowing cost — the
+      standard Furman and Summers formalized — while borrowing for current
+      consumption simply accumulates obligations. Federal accounting records
+      both identically, which the camp considers the budget's deepest defect.
+      Choice c overclaims (either proposal could be inflationary at full
+      employment), and choice d is a procedural category that does not track
+      the investment/consumption distinction. The camp's own hardest test,
+      remember, is gatekeeping — every constituency calls its program an
+      investment, so the standard is only as good as the scoring discipline
+      behind it.
+    concepts: [national-debt, fiscal-policy]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Choose the camp — consolidation hawk, functional-finance dove, or
+      public-investment advocate — whose case you currently find LEAST
+      convincing. State that camp's strongest argument as fairly as you can,
+      then name the specific evidence that, if it appeared over the next
+      decade, would force you to admit that camp had been right.
+    socratic_seed: >-
+      The exercise tests steel-manning plus falsifiability. Fair statements of
+      each case: hawks — compounding interest already exceeds defense, Penn
+      Wharton estimates roughly 20 years of market tolerance remain, and
+      adjustment delayed is adjustment made brutally on the market's
+      schedule; doves — the budget should be judged by inflation and
+      employment, and the 2010s showed premature consolidation does real
+      human damage while predicted crises never arrived; investors — what
+      borrowing buys determines whether it is a burden, and the budget cannot
+      currently tell a bridge from a rebate. Vindicating evidence: for hawks,
+      a failed Treasury auction, a sustained r-above-g spiral, or interest
+      crowding out core functions; for doves, another decade of deficits with
+      low inflation and full employment; for investors, measured returns on a
+      capital surge exceeding borrowing costs (or, conversely, a capital
+      budget degenerating into a loophole would count against them). Push
+      back on answers that straw-man — the prompt asks for the LEAST
+      convincing camp's BEST case.
+    concepts: [national-debt, deficit-spending, austerity, fiscal-policy]

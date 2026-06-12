@@ -1,0 +1,17 @@
+slug: open-markets-institute
+name: Open Markets Institute
+kind: think-tank
+description: "Anti-monopoly research and advocacy organization founded in 2017, central to the 'neo-Brandeisian' revival of aggressive antitrust enforcement. Its alumni and ideas shaped the FTC and DOJ antitrust agendas of the early 2020s; its critique of concentrated corporate power draws allies on both left and right."
+website: https://www.openmarketsinstitute.org
+jurisdiction: national
+partisan_lean: center-left
+ideology_tags:
+  - left-populism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - public-education
+concept_tags:
+  - think-tank
+  - antitrust
+is_active: true

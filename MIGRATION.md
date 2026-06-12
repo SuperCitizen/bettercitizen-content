@@ -60,7 +60,7 @@ need it — it only gates PRs):
 
 ```sh
 npm install
-npm run check          # check:mdx (compile + catalog + structure) and check:components (tsc)
+npm run check          # check:mdx (compile + catalog + structure), check:components (tsc), check:render (SSR smoke test)
 ```
 
 `scripts/check-mdx.mjs` compiles every lesson, enforces the

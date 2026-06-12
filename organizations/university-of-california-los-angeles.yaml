@@ -1,0 +1,11 @@
+slug: university-of-california-los-angeles
+name: University of California, Los Angeles
+kind: university
+subtype: public-university
+description: "Public research university in Los Angeles, part of the University of California system. Its law school houses the Williams Institute, the most-cited research center on sexual orientation and gender identity law and public policy."
+website: https://www.ucla.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

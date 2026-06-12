@@ -62,7 +62,7 @@ questions:
       - id: d
         text: "Chicago's board has been elected since the city's founding; New York switched to an elected board in 2002."
     correct_choice_id: a
-    explanation: "Election is overwhelmingly the norm (NSBA: more than 90% of roughly 90,000 board members), with formally nonpartisan ballots and frequently off-cycle dates that produce the 5-10% turnout NSBA estimates. The appointed exceptions are the big-city laboratory: NYC under mayoral control since 2002, Boston appointed since 1992 (the 2021 advisory vote notwithstanding, since the change requires state legislation), and Chicago — appointed since 1837, mayor-controlled since 1995 — which elected its first ten members in November 2024 and votes for the full 21-member board in November 2026."
+    explanation: "Election is overwhelmingly the norm — more than 90% of the country's roughly 90,000 board members are elected — with formally nonpartisan ballots and frequently off-cycle dates that produce the 5-10% turnout NSBA estimates. The appointed exceptions are the big-city laboratory: NYC under mayoral control since 2002, Boston appointed since 1992 (the 2021 advisory vote notwithstanding, since the change requires state legislation), and Chicago — appointed since 1837, mayor-controlled since 1995 — which elected its first ten members in November 2024 and votes for the full 21-member board in November 2026."
     concepts: [school-board, k12-governance]
 
   - id: q5

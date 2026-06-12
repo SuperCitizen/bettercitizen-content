@@ -1,0 +1,14 @@
+slug: brookings-institution
+name: Brookings Institution
+kind: think-tank
+description: "The oldest think tank in the United States, founded in 1916 in Washington, D.C. Produces broad research across economics, governance, and foreign policy; institutionally centrist-to-center-left, with scholars who staff Democratic administrations and work cited across the spectrum."
+website: https://www.brookings.edu
+jurisdiction: national
+partisan_lean: center-left
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - public-education
+concept_tags:
+  - think-tank
+is_active: true

@@ -1,17 +1,21 @@
 {
   "name": "bettercitizen-content",
   "private": true,
-  "description": "Curriculum and reference content for SuperCitizen. Content authors never need npm — these dev tools only verify MDX lessons and the component library.",
+  "description": "Curriculum and reference content for BetterCitizen. Content authors never need npm — these dev tools only verify MDX lessons and the component library.",
   "type": "module",
   "scripts": {
-    "check": "npm run check:mdx && npm run check:components",
+    "check": "npm run check:mdx && npm run check:components && npm run check:render",
     "check:mdx": "node scripts/check-mdx.mjs",
-    "check:components": "tsc --noEmit"
+    "check:components": "tsc --noEmit",
+    "check:render": "node scripts/render-smoke.mjs",
+    "check:figures": "node scripts/check-figures.mjs"
   },
   "devDependencies": {
     "@mdx-js/mdx": "^3.1.0",
     "@types/react": "^19.0.0",
+    "esbuild": "^0.24.0",
     "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "typescript": "^5.5.0"
   }
 }

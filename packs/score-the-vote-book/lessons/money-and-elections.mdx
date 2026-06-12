@@ -1,0 +1,105 @@
+---
+schema: bettercitizen.lesson/v1
+slug: money-and-elections
+kind: reading
+title: Money and Elections
+objectives:
+  - Explain how plurality's spoiler logic gives donors a "viability veto" over who gets to run seriously — and why that is a structural claim, not a conspiracy claim
+  - State honestly what the evidence does and does not show about voting reform changing money in politics
+  - Identify where single-ballot systems verifiably save money (runoff elimination) and where claimed savings depend on design choices
+concepts:
+  - campaign-finance
+  - super-pac
+  - dark-money
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "Money and Elections"'
+  - type: pdf
+    citation: 'Office of the New York City Comptroller, "Reform the Vote" — the 2013 citywide public advocate runoff cost roughly $13 million, more than five times the office''s $2.3 million annual budget, with about 7% turnout.'
+    url: https://comptroller.nyc.gov/wp-content/uploads/documents/reform_the_vote_report.pdf
+  - type: paper
+    citation: 'Burnett, C. M. & Kogan, V. (2015), "Ballot (and voter) ''exhaustion'' under Instant Runoff Voting," Electoral Studies 37: 41–49 — documents the cost-savings and fundraising claims made for single-ballot reforms and the limits of the evidence.'
+    url: https://doi.org/10.1016/j.electstud.2014.11.006
+  - type: court-opinion
+    citation: 'Citizens United v. FEC, 558 U.S. 310 (2010) — independent-expenditure framework under which super PACs operate.'
+    url: https://supreme.justia.com/cases/federal/us/558/310/
+  - type: website
+    citation: 'Ballotpedia, "Alaska Ballot Measure 2 (2020)" — the reform package bundled top-four/RCV with dark-money disclosure requirements.'
+    url: https://ballotpedia.org/Alaska_Ballot_Measure_2,_Top-Four_Ranked-Choice_Voting_and_Campaign_Finance_Laws_Initiative_(2020)
+  - type: website
+    citation: 'Ballotpedia, "Alaska Repeal Top-Four Ranked-Choice Voting Initiative (2026)" — the pending repeal would also strike Measure 2''s campaign-finance disclosure provisions.'
+    url: https://ballotpedia.org/Alaska_Repeal_Top-Four_Ranked-Choice_Voting_Initiative_(2026)
+  - type: website
+    citation: 'approval.vote, "St Louis, MO / Mayor / 2021" — St. Louis''s approval round retains a deliberate two-round design; official results.'
+    url: https://approval.vote/report/us/mo/stl/2021/03/mayor
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 10
+---
+
+# Money and Elections
+
+In October 2013, New York City held an entire citywide election that almost nobody attended and everybody paid for. No candidate had cleared 40 percent in the Democratic primary for public advocate — an office whose yearly budget was $2.3 million — so the city ran the legally required runoff: poll sites opened, machines deployed, workers paid, for a second round that drew about seven percent turnout and cost roughly $13 million. Five-plus years of the office's entire budget, spent to administer one extra round of pick-one voting. The city's own comptroller held the episode up as Exhibit A for ballot reform, and in 2019 New Yorkers voted to never do it again.
+
+That story is this chapter's appetizer because it's the *one* money claim voting reformers can make with receipts. The rest of the money-and-ballots story is murkier, and I'm going to tell it the murky way, because this book's credibility is worth more than a tidy chapter.
+
+<Figure caption="New York's 2013 public advocate runoff: the cost of one extra round of plurality voting, against the annual budget of the office being filled." source="Office of the NYC Comptroller, Reform the Vote">
+  <DataBars
+    unit="$ millions"
+    max={15}
+    bars={[
+      {label: 'Cost of the 2013 runoff election', value: 13, color: 'accent'},
+      {label: "Public advocate's annual budget", value: 2.3, color: 'blue'},
+    ]}
+  />
+</Figure>
+
+## The donor's veto
+
+Start with the structural diagnosis, which doesn't require believing anyone is corrupt — only that everyone involved can count.
+
+Under [[term:plurality]] rules, a candidate's first task isn't persuading voters; it's persuading the people who fund campaigns that she can *win* — because in a pick-one election, support for a candidate who can't win actively helps the candidate her supporters like least. Donors know this. Endorsers know this. So before a single vote is cast, there's a quiet pre-election conducted in fundraising calls, where "viability" is the only ballot question and a small number of large checkbooks are the electorate. This is what political scientists politely call the psychological effect of plurality — voters and elites deserting candidates who *might split the vote* — operating one level upstream, on money. The spoiler effect isn't just a counting problem; it is a fundraising weapon. Every outsider candidacy in living memory has met the same sentence, delivered to donors before voters ever got a say: *don't waste your money on a spoiler — you'll just elect the other side.*
+
+Notice what that does to the [[term:campaign-finance]] arms race. The two major parties don't merely compete against each other; they jointly hold a veto over which alternatives get to be "real," enforced at zero cost by the wasted-vote logic itself. A [[term:super-pac]] deciding where to aim independent expenditures after *Citizens United*, a [[term:dark-money]] group picking which primary to flood — all of them route money through the same two-lane system, because under pick-one rules a third lane is mathematically a donation to your enemy. The duopoly isn't protected by law. It's protected by arithmetic.
+
+<Checkpoint question="A respected independent with broad appeal considers a Senate run. Trace her first ninety days under plurality rules — before any voter sees a ballot. Where exactly does the money mechanism stop her?">
+  Day one: consultants tell her the polls show 18% support — impressive, but third. Day thirty: major donors, who privately like her, decline because a third-place candidate "just elects the worse major-party option" — and their names on her FEC reports would burn bridges with the side they usually fund. Day sixty: coverage describes her as a spoiler, citing her fundraising gap as proof she isn't serious. Day ninety: she's out, and no voter ever weighed in. Every actor behaved rationally given pick-one counting; that's why this is a structural diagnosis, not a corruption story.
+</Checkpoint>
+
+## What the evidence actually shows — and doesn't
+
+Now the part an advocacy book is supposed to skip. Does changing the ballot change the money? Here is the honest state of knowledge as of mid-2026:
+
+**Verified: single-ballot systems eliminate runoff costs.** When a ranked, approval, or score count replaces a separate second election, the second election's price tag — New York's $13 million, and the recurring runoffs many cities and southern states still hold — disappears, along with the round-two turnout collapse. Even skeptical researchers like Burnett and Kogan, no friends of inflated reform claims, treat the administrative-savings argument as the genuine one. But be precise, because precision is credibility: this saving comes from *consolidating rounds*, not from cardinal ballots as such — and St. Louis deliberately kept a two-round design, approval-then-runoff, judging the April head-to-head worth its cost. Score voting can finish in one round; whether a city should is a design choice, not a law of nature.
+
+**Not established: that any alternative ballot reduces total campaign spending, super-PAC activity, or donor influence.** Reform advocates have claimed fundraising effects since the movement's earliest days — Burnett and Kogan catalogue the claims — but there is no peer-reviewed consensus that elections under RCV or approval voting are cheaper, cleaner, or less dependent on large donors. Maine and Alaska did not become low-money states; Alaska's 2022 races drew heavy national and independent spending under the brand-new rules. Anyone who tells you a ballot reform will get money out of politics is selling past the evidence, and when our side does it, you should wince. The defensible claim is narrower and structural: cardinal ballots remove the *wasted-vote extortion* specifically — the mechanism by which money is steered away from outsiders — and what candidates and donors do in the new equilibrium is a question only adoptions at scale will answer.
+
+**Adjacent and real: ballot reform and money reform travel together politically.** Alaska's Measure 2 bundled its top-four/RCV system with dark-money disclosure requirements in one initiative — and tellingly, the repeal headed to Alaska's November 2026 ballot would strike the disclosure rules along with the voting system. The coalitions, and the opponents, overlap for a reason: both reforms attack gatekeeping power, just at different choke points.
+
+<QuickCheck
+  question="Which money-related claim about voting reform is actually backed by the record described in this chapter?"
+  choices={[
+    {id: 'a', text: 'Jurisdictions that adopt alternative ballots see campaign spending fall significantly'},
+    {id: 'b', text: 'Replacing a separate runoff election with a single expressive ballot eliminates the cost and turnout collapse of the second round'},
+    {id: 'c', text: 'Score voting would neutralize super PACs by making independent expenditures ineffective'},
+    {id: 'd', text: 'Donors are indifferent to a candidate’s viability under plurality rules'},
+  ]}
+  answer="b"
+  explanation="Runoff elimination is the receipts-in-hand claim — New York's $13 million 2013 runoff is the canonical case. (a) and (c) are versions of the overclaim this chapter warns against: there is no peer-reviewed consensus that any ballot reform reduces total spending or outside money, and Alaska's first cycles drew heavy spending. (d) is backwards — donor obsession with viability under pick-one rules is precisely the structural mechanism the chapter describes."
+/>
+
+## What a score ballot actually changes about money
+
+So if score voting won't drain the swamp, why does a money chapter belong in this book at all? Because of what it does to the *entry price* of politics.
+
+Under score rules, supporting an outsider is free. You can give the independent a 10 and the major-party candidate you can live with an 8, and you have surrendered nothing — no spoiler risk, no wasted vote, no lesser-evil lecture. Follow that one change up the money chain. The donor's veto depended entirely on the wasted-vote argument; without it, funding a long shot is a normal speculative investment instead of a gift to the opposition. The viability pre-election loses its enforcement mechanism. A candidate's task reverts to the one we pretend it already is: become broadly worth an 8, a 9, a 10 to actual voters — which is earned with town halls and credibility as plausibly as with saturation advertising. None of this guarantees outsiders *win*; majorities still rule the totals, and money will still buy attention under any system humans run. The claim is narrower, and it's the one I'll defend anywhere: plurality makes the donor duopoly *rational*, and a cheap, expressive ballot makes it merely *traditional*. Traditions exposed to competition have a shorter life expectancy than rules.
+
+<Checkpoint question="Apply the chapter's own standard to its author: which claims in the section you just read are evidence-backed, and which are structural predictions awaiting data?">
+  Evidence-backed: the spoiler-driven viability veto (a direct consequence of pick-one counting, observable in every cycle's donor behavior) and the elimination of runoff costs where rounds are consolidated. Structural predictions: that score ballots will redirect money toward outsiders, lower entry costs in practice, and erode the duopoly's funding gate — plausible mechanisms with no adoptions at scale to test them yet. If you catch the difference without being told, this book has taught you its most transferable skill: grade your own side's claims as strictly as the other side's.
+</Checkpoint>
+
+## What this chapter settles — and what it leaves open
+
+Settled: runoff consolidation saves real, documented money; plurality's arithmetic — not a cabal — hands donors a viability veto over outsiders; and the broader promise that ballot reform shrinks money in politics is *not supported by current evidence* and shouldn't be made from our podiums. Open: nearly everything about how candidates, donors, and [[term:super-pac]]s would adapt to cardinal ballots at state scale, because no state has run one yet. The honest pitch is not "score voting fixes money in politics." It is: score voting fires the one bouncer money never had to pay — the wasted-vote rule — and lets voters, not viability gatekeepers, decide who was worth taking seriously. What happens after that is up to the voters this book is trying to put back in charge — and the closing chapters are about exactly that handoff.

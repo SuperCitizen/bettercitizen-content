@@ -46,7 +46,7 @@ questions:
       - id: d
         text: "Voters punished the program: Milei's party lost seats in the October 2025 midterms."
     correct_choice_id: b
-    explanation: "The verified record holds three things at once: steep disinflation (monthly inflation from a 25.5% peak in December 2023 to roughly 2% by late 2025), a primary fiscal surplus, and a brutal poverty spike to 52.9% in early 2024 that receded to 31.6% by mid-2025. Option (a) overclaims the regime — Milei has governed as a fiscal stabilizer, and no core state function has been privatized, so anarcho-capitalism's distinctive claims remain untested. Options (c) and (d) reverse the trends: poverty fell and Milei's party won over 40% and tripled its lower-house seats."
+    explanation: "The verified record holds three things at once: steep disinflation (monthly inflation from a 25.5% peak in December 2023 to the 2–2.5% range by late 2025), a primary fiscal surplus, and a brutal poverty spike to 52.9% in early 2024 that receded to 31.6% by mid-2025. Option (a) overclaims the regime — Milei has governed as a fiscal stabilizer, and no core state function has been privatized, so anarcho-capitalism's distinctive claims remain untested. Options (c) and (d) reverse the trends: poverty fell and Milei's party won about 41% and more than doubled its lower-house seats."
     concepts: [libertarianism]
 
   - id: q4

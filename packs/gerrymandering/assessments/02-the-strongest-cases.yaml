@@ -30,7 +30,7 @@ questions:
       - id: d
         text: "It only affected state legislative districts, not congressional ones."
     correct_choice_id: c
-    explanation: "Prop 50 was a 63.9%–36.1% statewide vote for a legislature-drawn map that expires with the next census, while Texas's 2025 map was enacted by the legislature alone, indefinitely. Reformers lean on consent and sunset; realists answer that a gerrymander ratified by referendum is still a gerrymander — voters in the targeted districts elsewhere never consented. Knowing both moves is the point of the steel-man exercise."
+    explanation: "Prop 50 was a 64.4%–35.6% statewide vote for a legislature-drawn map that expires with the next census, while Texas's 2025 map was enacted by the legislature alone, indefinitely. Reformers lean on consent and sunset; realists answer that a gerrymander ratified by referendum is still a gerrymander — voters in the targeted districts elsewhere never consented. Knowing both moves is the point of the steel-man exercise."
     concepts: [gerrymandering, redistricting]
 
   - id: q3
