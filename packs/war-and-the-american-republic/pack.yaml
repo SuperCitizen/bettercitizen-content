@@ -1,0 +1,15 @@
+schema: bettercitizen.content/v1
+slug: war-and-the-american-republic
+title: War and the American Republic
+summary: War has been present at every turning point in United States history, from the Revolution that created the nation to the Cold War that defined its global role. This pack surveys how the country's major wars forged a shared national identity and examines, thematically, how war repeatedly expanded federal power, drove industry and technology, and reshaped American society.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [history, war, military, civics-201]
+level: intermediate
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-wars-that-forged-a-nation.md
+  - 02-how-war-remade-america.md

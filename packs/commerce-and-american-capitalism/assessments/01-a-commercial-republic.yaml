@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: a-commercial-republic
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In the founding-era debate over the American economy, what did Alexander Hamilton advocate in reports such as his Report on the Subject of Manufactures (1791)?"
+    choices:
+      - id: a
+        text: "A republic of independent farmers, with little federal involvement in finance."
+      - id: b
+        text: "An active federal role in funding the debt, chartering a national bank, and encouraging commerce and manufacturing."
+      - id: c
+        text: "Immediate abolition of all tariffs and a purely free-trade economy with no public credit."
+      - id: d
+        text: "State-owned factories operated directly by the federal government."
+    correct_choice_id: b
+    explanation: "Hamilton, as Treasury Secretary, urged the federal government to fund the national debt, charter a national bank, and encourage manufacturing and commerce — binding merchants and creditors to the new government. The agrarian republic of independent farmers was Jefferson's competing vision, not Hamilton's."
+    concepts: [commercial-republic]
+
+  - id: q2
+    kind: multiple-choice
+    text: "How did the Constitution's Commerce Clause (Article I, Section 8) help shape the early American economy?"
+    choices:
+      - id: a
+        text: "It required every state to adopt an identical currency printed by the states."
+      - id: b
+        text: "It abolished private corporations in favor of public enterprises."
+      - id: c
+        text: "It gave Congress power to regulate commerce among the states, helping create a single national market free of interstate trade barriers."
+      - id: d
+        text: "It guaranteed every citizen a federal job in manufacturing."
+    correct_choice_id: c
+    explanation: "The Commerce Clause gave Congress power to regulate commerce 'among the several States,' and related provisions barred state trade barriers and state-issued money. Together they aimed to replace the fragmented system of the Articles of Confederation with a single national market — a design the Supreme Court reinforced in Gibbons v. Ogden (1824)."
+    concepts: [commerce-clause]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What was the Sherman Antitrust Act of 1890 a response to?"
+    choices:
+      - id: a
+        text: "The collapse of the Second Bank of the United States."
+      - id: b
+        text: "The rise of giant corporations and trusts, such as Rockefeller's Standard Oil, that concentrated economic power and limited competition."
+      - id: c
+        text: "A shortage of farm labor in the West."
+      - id: d
+        text: "The introduction of the moving assembly line."
+    correct_choice_id: b
+    explanation: "After the Civil War, enormous corporations and trusts arose in railroads, steel, and oil. The 'trust' device placed competing firms under unified control to limit competition. The Sherman Act declared combinations 'in restraint of trade' illegal and barred monopolization, establishing that the federal government could police the structure of markets in the name of competition."
+    concepts: [trusts-and-antitrust]
+
+  - id: q4
+    kind: free-response
+    text: "The First Bank of the United States was chartered in 1791 over the objections of Jefferson and Madison. Explain the constitutional argument Hamilton used to justify it, the objection his opponents raised, and why a national bank was controversial enough to remain a political flashpoint into the Jackson era."
+    concepts: [national-bank, commercial-republic]
+    socratic_seed: "Consider: Hamilton argued from 'implied powers' — that chartering a bank was a proper means of carrying out enumerated powers such as taxing and borrowing — while Jefferson and Madison argued the Constitution nowhere granted such a power. The Supreme Court upheld implied powers and the Second Bank in McCulloch v. Maryland (1819). Why might concentrated financial power worry those who feared a 'moneyed aristocracy,' and how did that distrust drive Andrew Jackson's 1832 veto of the Second Bank's recharter?"

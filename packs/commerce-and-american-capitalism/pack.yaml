@@ -1,0 +1,15 @@
+schema: bettercitizen.content/v1
+slug: commerce-and-american-capitalism
+title: Commerce and American Capitalism
+summary: Trade, money, and markets have shaped the United States from its founding, when Americans debated whether the new nation should be a commercial republic or an agrarian one. This pack traces that arc — the constitutional national market, the Banks of the United States, and the market revolution; the post-Civil-War rise of big business and the first antitrust laws; and the era of panics, the Federal Reserve, the New Deal regulatory state, and the modern mixed economy.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [history, economy, capitalism, commerce, civics-201]
+level: intermediate
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-a-commercial-republic.md
+  - 02-booms-busts-and-the-modern-economy.md

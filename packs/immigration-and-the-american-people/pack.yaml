@@ -1,0 +1,15 @@
+schema: bettercitizen.content/v1
+slug: immigration-and-the-american-people
+title: Immigration and the American People
+summary: From the colonial era forward, successive waves of newcomers built the American population, each wave reshaping the country's economy, cities, and sense of itself. This pack traces that demographic history and the recurring cycle of welcome and restriction, and examines how the contested idea of "becoming American" evolved alongside changing laws of citizenship and naturalization.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [history, immigration, demographics, civics-201]
+level: intermediate
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-waves-of-immigration.md
+  - 02-becoming-american.md

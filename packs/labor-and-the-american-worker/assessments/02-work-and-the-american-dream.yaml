@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: work-and-the-american-dream
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "According to Max Weber's argument about the 'Protestant ethic,' how did early religious belief shape American attitudes toward work?"
+    choices:
+      - id: a
+        text: "It treated diligent labor in one's calling as a sign of virtue, helping make hard work a moral good rather than mere necessity."
+      - id: b
+        text: "It discouraged commerce and praised idleness as a spiritual virtue."
+      - id: c
+        text: "It required workers to join unions as a condition of church membership."
+      - id: d
+        text: "It held that only inherited wealth, not labor, conferred social standing."
+    correct_choice_id: a
+    explanation: "Weber argued in The Protestant Ethic and the Spirit of Capitalism (1905) that the Protestant outlook treated diligent work in one's calling as a sign of virtue, helping turn hard work into a moral good. Franklin's maxims on industry and thrift became a secular echo of the same creed. The other options invert or misstate this idea."
+    concepts: [work-ethic]
+
+  - id: q2
+    kind: multiple-choice
+    text: "How did the Fair Labor Standards Act of 1938 help establish the 40-hour week and the two-day weekend as the American norm?"
+    choices:
+      - id: a
+        text: "It made it a crime for any employee to work more than 40 hours in a week."
+      - id: b
+        text: "It required premium overtime pay for hours worked beyond 40 per week, creating a strong financial incentive to limit the workweek."
+      - id: c
+        text: "It nationalized the factories and set work schedules directly."
+      - id: d
+        text: "It abolished the minimum wage to encourage shorter hours."
+    correct_choice_id: b
+    explanation: "The FLSA did not ban longer hours outright; it required premium (time-and-a-half) overtime pay above 40 hours per week, a powerful incentive that, alongside earlier private steps like Ford's 1926 five-day week, made the 40-hour week and two-day weekend standard. The FLSA also set, not abolished, a federal minimum wage."
+    concepts: [forty-hour-week]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which statement best describes the major shift in the American economy since roughly the 1970s?"
+    choices:
+      - id: a
+        text: "Employment shifted from services back toward manufacturing."
+      - id: b
+        text: "Women left the paid workforce in large numbers."
+      - id: c
+        text: "Manufacturing's share of employment fell as the economy shifted toward services and knowledge work."
+      - id: d
+        text: "Unions grew to represent a majority of all workers."
+    correct_choice_id: c
+    explanation: "After the 1970s, manufacturing's share of employment fell sharply as the United States shifted toward a service and knowledge economy (health care, finance, retail, education, information). Over the same long span women's labor-force participation rose, not fell, and union membership declined rather than reaching a majority."
+    concepts: [blue-collar-middle-class]
+
+  - id: q4
+    kind: free-response
+    text: "Modern debates over automation, artificial intelligence, and 'gig' work raise questions about the future of work. Lay out the competing considerations neutrally, without arguing for one side."
+    concepts: [future-of-work]
+    socratic_seed: "Consider automation and AI: they may eliminate some jobs while creating others, and economists do not agree on the net effect or its timing. Consider gig and platform work (driving, delivery, task work as independent contractors): supporters emphasize flexibility and independence, while critics note that contractor status can exclude workers from minimum-wage, overtime, and benefit protections. What evidence and values would each side point to, and why are these questions still being argued in legislatures, courts, and workplaces?"

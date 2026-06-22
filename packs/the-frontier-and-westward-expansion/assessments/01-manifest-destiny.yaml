@@ -1,0 +1,53 @@
+schema: bettercitizen.assessment/v1
+lesson: manifest-destiny
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Who popularized the phrase 'manifest destiny' in 1845?"
+    choices:
+      - id: a
+        text: President James K. Polk, in his inaugural address
+      - id: b
+        text: Frederick Jackson Turner, in a paper to the American Historical Association
+      - id: c
+        text: Chief Justice John Marshall, in a Supreme Court opinion
+      - id: d
+        text: The journalist John L. O'Sullivan, writing in support of annexing Texas
+    correct_choice_id: d
+    explanation: "John L. O'Sullivan used the phrase in 1845, arguing for 'the fulfillment of our manifest destiny to overspread the continent.' It was a journalistic slogan, never an official policy, but it captured a widely shared assumption that American expansion was natural and justified."
+    concepts: [manifest-destiny]
+  - id: q2
+    kind: multiple-choice
+    text: "The 1848 Treaty of Guadalupe Hidalgo did which of the following?"
+    choices:
+      - id: a
+        text: Doubled the size of the United States by purchasing land from France
+      - id: b
+        text: Ended the Mexican–American War, with Mexico ceding California and much of the present-day Southwest
+      - id: c
+        text: Set the Oregon boundary with Britain at the 49th parallel
+      - id: d
+        text: Granted 160 acres of public land to settlers who improved a claim
+    correct_choice_id: b
+    explanation: "The Treaty of Guadalupe Hidalgo ended the Mexican–American War in 1848. Mexico ceded a vast territory — including present-day California, Nevada, Utah, and parts of several other states — for $15 million. Choice (a) describes the Louisiana Purchase, (c) the Oregon settlement, and (d) the Homestead Act."
+    concepts: [mexican-american-war]
+  - id: q3
+    kind: multiple-choice
+    text: "Which pair of measures most directly accelerated settlement of the West in the 1860s?"
+    choices:
+      - id: a
+        text: The Indian Removal Act and the Dawes Act
+      - id: b
+        text: The Gadsden Purchase and the annexation of Texas
+      - id: c
+        text: The Homestead Act and the Pacific Railway Act
+      - id: d
+        text: The Louisiana Purchase and the Treaty of Guadalupe Hidalgo
+    correct_choice_id: c
+    explanation: "The Homestead Act of 1862 offered public land to settlers, and the Pacific Railway Act of 1862 subsidized the transcontinental railroad (completed 1869). Together, cheap land and fast rail transport drew settlers and made distant lands commercially viable."
+    concepts: [homestead-act, transcontinental-railroad]
+  - id: q4
+    kind: free-response
+    text: "Manifest destiny is often described as both a powerful national ideology and a justification for actions with serious human costs. Using at least one specific example, explain both sides of that statement."
+    concepts: [manifest-destiny, native-dispossession]
+    socratic_seed: "The lands opened to settlers were already home to Native nations. How did measures like the Indian Removal Act of 1830, or the Mexican–American War, look from the perspective of those displaced or conquered — and can a national achievement and a conquest be true at the same time?"

@@ -1,0 +1,53 @@
+schema: bettercitizen.assessment/v1
+lesson: from-railroads-to-silicon-valley
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "How did the railroads and the telegraph together transform the nineteenth-century American economy?"
+    choices:
+      - id: a
+        text: They replaced corporate research labs with individual inventors
+      - id: b
+        text: They created a continental market by collapsing the cost and time of moving goods and information across the country
+      - id: c
+        text: They ended federal involvement in technology by privatizing all infrastructure
+      - id: d
+        text: They shifted invention from the United States to Europe
+    correct_choice_id: b
+    explanation: "Railroads collapsed travel and freight costs while the telegraph moved information even faster, knitting the country into a single continental market. National-scale companies, standardized time zones, and modern management grew out of this networked economy."
+    concepts: [continental-market]
+  - id: q2
+    kind: multiple-choice
+    text: "What did Vannevar Bush's 1945 report 'Science, the Endless Frontier' argue, and what was its most lasting institutional result?"
+    choices:
+      - id: a
+        text: That basic research should be left entirely to private firms; it led to the breakup of Bell Labs
+      - id: b
+        text: That the federal government should fund basic research in universities; it led to the founding of the National Science Foundation
+      - id: c
+        text: That the military should run all scientific research; it led to the creation of NASA
+      - id: d
+        text: That patents should be abolished; it led to a new Patent Act
+    correct_choice_id: b
+    explanation: "Bush argued that basic research is 'the pacemaker of technological progress' and that, because private firms underinvest in it, the government should fund basic science in universities. The report's most lasting result was the creation of the National Science Foundation in 1950."
+    concepts: [science-the-endless-frontier]
+  - id: q3
+    kind: multiple-choice
+    text: "Which statement best describes the origins of the internet?"
+    choices:
+      - id: a
+        text: It was invented entirely by Silicon Valley startups in the 1990s with no government involvement
+      - id: b
+        text: It grew out of the DARPA-funded ARPANET, a research network first connected in 1969 that pioneered packet switching
+      - id: c
+        text: It was a commercial product of Bell Labs sold directly to consumers in the 1950s
+      - id: d
+        text: It was created by NASA to communicate with the Apollo spacecraft
+    correct_choice_id: b
+    explanation: "The internet grew out of the ARPANET, a network funded by the Defense Department's DARPA and first connected in 1969. It pioneered packet switching and the protocols later used by the internet, built by university and corporate researchers on federal contracts before private firms scaled it."
+    concepts: [darpa-arpanet]
+  - id: q4
+    kind: free-response
+    text: "The lesson describes a recurring 'public-private partnership' in American innovation, in which government funds risky early research and infrastructure while private enterprise commercializes the results. Choose two examples from the lesson and explain how the handoff between public and private actors worked in each."
+    concepts: [public-private-partnership, corporate-rd]
+    socratic_seed: "Think about the semiconductor industry or the internet. Where did the early demand or funding come from, and what role did private companies like Intel or Apple play once the underlying technology existed? Could either sector have produced the result alone?"

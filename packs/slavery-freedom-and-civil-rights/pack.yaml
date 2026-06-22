@@ -1,0 +1,15 @@
+schema: bettercitizen.content/v1
+slug: slavery-freedom-and-civil-rights
+title: Slavery, Freedom, and Civil Rights
+summary: From the colonies through the early republic, slavery was woven into American law and the Constitution itself, until civil war and the Reconstruction Amendments abolished it and promised equal citizenship. This pack traces that long struggle — through the betrayal of Reconstruction, the rise of Jim Crow, and the twentieth-century civil rights movement that sought to make the promise of equal citizenship real — grounded in the primary documents that mark each turning point.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [history, civil-rights, slavery, constitution, civics-201]
+level: intermediate
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-slavery-and-emancipation.md
+  - 02-the-long-civil-rights-movement.md

@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: arsenal-of-democracy
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In which speech did President Franklin D. Roosevelt declare that 'We must be the great arsenal of democracy'?"
+    choices:
+      - id: a
+        text: "His December 8, 1941 'Day of Infamy' address to Congress after Pearl Harbor."
+      - id: b
+        text: "His first inaugural address in 1933."
+      - id: c
+        text: "A Fireside Chat on December 29, 1940, urging support for nations fighting the Axis."
+      - id: d
+        text: "His 1944 'Economic Bill of Rights' State of the Union."
+    correct_choice_id: c
+    explanation: "Roosevelt used the phrase in a radio Fireside Chat on December 29, 1940 — a full year before Pearl Harbor — to make the case that American factories should supply Britain and the other Allies. The 'Day of Infamy' speech, the first inaugural, and the 'Economic Bill of Rights' are different addresses."
+    concepts: [arsenal-of-democracy]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which statement best describes the long-run trend in American manufacturing after roughly 1970?"
+    choices:
+      - id: a
+        text: "Both manufacturing employment and output collapsed together."
+      - id: b
+        text: "Manufacturing employment declined from its peak even as overall output continued to grow."
+      - id: c
+        text: "Manufacturing employment kept rising while output fell."
+      - id: d
+        text: "Manufacturing employment and output both rose steadily through 2020."
+    correct_choice_id: b
+    explanation: "U.S. manufacturing employment peaked at roughly 19-20 million jobs in the late 1970s-1980s and then declined, while total manufacturing output generally continued to grow. The gap reflects rising productivity and automation (fewer workers per unit of output) alongside import competition and offshoring — which is why job losses and output growth can occur at the same time."
+    concepts: [deindustrialization]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What does 'Rosie the Riveter' symbolize in the history of WWII manufacturing?"
+    choices:
+      - id: a
+        text: "The conversion of automobile plants to bomber production."
+      - id: b
+        text: "Women entering industrial jobs in large numbers while men served in the military."
+      - id: c
+        text: "The federal agency that coordinated war production."
+      - id: d
+        text: "The prefabricated welding methods used to build Liberty ships."
+    correct_choice_id: b
+    explanation: "'Rosie the Riveter' is the cultural emblem of the millions of women who took industrial jobs — as riveters, welders, machinists, and assemblers — while men were in uniform. Plant conversion (e.g., Willow Run building B-24s), the War Production Board, and Kaiser's welded Liberty ships are separate elements of the mobilization story."
+    concepts: [industrial-mobilization]
+
+  - id: q4
+    kind: free-response
+    text: "Reshoring manufacturing and pursuing active industrial policy is a live and contested debate. Lay out the strongest case for government action to rebuild domestic manufacturing, and the strongest case against it, without endorsing either side."
+    concepts: [industrial-policy, deindustrialization]
+    socratic_seed: "For action: supply-chain vulnerabilities exposed by the COVID-19 pandemic, national-security reliance on foreign suppliers (semiconductors, defense goods), and the economic distress of former manufacturing regions; tools include tariffs, subsidies, tax incentives, and targeted investment such as recent semiconductor and clean-energy laws. Against: such measures can raise costs for consumers and taxpayers, risk inefficiency and foreign retaliation, and may not restore many jobs because automation (not just trade) drove much of the decline — so output could return without the employment. A strong answer notes that both sides marshal evidence and that the underlying question remains genuinely open."

@@ -1,0 +1,53 @@
+schema: bettercitizen.assessment/v1
+lesson: slavery-and-emancipation
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The original Constitution of 1787 protected slavery without using the word 'slave.' Which clause inflated the political representation of slaveholding states by counting part of the enslaved population?"
+    choices:
+      - id: a
+        text: The three-fifths clause of Article I, Section 2
+      - id: b
+        text: The fugitive slave clause of Article IV, Section 2
+      - id: c
+        text: The slave-trade clause of Article I, Section 9
+      - id: d
+        text: The privileges and immunities clause of Article IV
+    correct_choice_id: a
+    explanation: "The three-fifths clause counted 'three fifths of all other Persons' toward a state's population for representation and taxation, increasing the congressional and electoral power of slaveholding states. The fugitive slave clause required escapees to be 'delivered up,' and the Article I, Section 9 clause protected the Atlantic slave trade until 1808."
+    concepts: [three-fifths-clause]
+  - id: q2
+    kind: multiple-choice
+    text: "What did the Supreme Court hold in Dred Scott v. Sandford (1857)?"
+    choices:
+      - id: a
+        text: That slavery was unconstitutional in all federal territories
+      - id: b
+        text: That people of African descent could not be U.S. citizens and that Congress could not bar slavery in the territories
+      - id: c
+        text: That the Emancipation Proclamation freed all enslaved people immediately
+      - id: d
+        text: That states could secede from the Union if slavery were threatened
+    correct_choice_id: b
+    explanation: "Chief Justice Taney's opinion held that Black people could not be citizens and that Congress lacked power to prohibit slavery in the federal territories, striking down the Missouri Compromise. The decision inflamed the sectional crisis rather than settling it."
+    concepts: [dred-scott]
+  - id: q3
+    kind: multiple-choice
+    text: "Which Reconstruction Amendment abolished slavery throughout the United States?"
+    choices:
+      - id: a
+        text: The Thirteenth Amendment (1865)
+      - id: b
+        text: The Fourteenth Amendment (1868)
+      - id: c
+        text: The Fifteenth Amendment (1870)
+      - id: d
+        text: The Emancipation Proclamation (1863)
+    correct_choice_id: a
+    explanation: "The Thirteenth Amendment abolished slavery and involuntary servitude (except as punishment for crime). The Fourteenth established birthright citizenship and equal protection; the Fifteenth barred denial of the vote on account of race. The Emancipation Proclamation was a wartime executive measure, not a constitutional amendment, and freed enslaved people only in Confederate-held territory."
+    concepts: [reconstruction-amendments, emancipation-proclamation]
+  - id: q4
+    kind: free-response
+    text: "The Emancipation Proclamation and the Thirteenth Amendment both relate to ending slavery, but they did so in very different ways. Explain the difference between them and why permanent abolition required a constitutional amendment."
+    concepts: [emancipation-proclamation, reconstruction-amendments]
+    socratic_seed: "The Proclamation rested on Lincoln's wartime powers and applied only to states in rebellion. What would have happened to its legal force once the war ended, and what could an amendment do that an executive war measure could not?"
