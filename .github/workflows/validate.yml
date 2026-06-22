@@ -8,7 +8,7 @@
 # The app is checked out at `main` by default. Pin SC_APP_REF to a tag
 # if you need validation against a specific app release.
 #
-# The app repo (SuperCitizen/supercitizen) is private, so the default
+# The app repo (SuperCitizen/bettercitizen.ai) is private, so the default
 # GITHUB_TOKEN cannot read it. Provide a SC_APP_PAT repository secret
 # (a fine-grained PAT or classic token with read access to that repo)
 # and the app-checkout step below authenticates with it.
@@ -40,11 +40,11 @@ jobs:
       - name: Checkout app (schemas + validator)
         uses: actions/checkout@v4
         with:
-          repository: SuperCitizen/supercitizen
+          repository: SuperCitizen/bettercitizen.ai
           ref: ${{ env.SC_APP_REF }}
           path: supercitizen
           # Private repo: the default GITHUB_TOKEN can't read it. Requires a
-          # SC_APP_PAT secret with read access to SuperCitizen/supercitizen.
+          # SC_APP_PAT secret with read access to SuperCitizen/bettercitizen.ai.
           token: ${{ secrets.SC_APP_PAT }}
 
       - name: Setup pnpm
