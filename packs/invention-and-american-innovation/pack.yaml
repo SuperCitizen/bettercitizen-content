@@ -1,0 +1,15 @@
+schema: bettercitizen.content/v1
+slug: invention-and-american-innovation
+title: Invention and American Innovation
+summary: From a patent clause written into the Constitution to the laboratories of Silicon Valley, invention and technological innovation have shaped American power, economy, and daily life. This pack traces how the United States built systematic institutions for invention — patents, land-grant universities, corporate research labs, and federal science agencies — and how a recurring partnership between public investment and private enterprise turned discovery into national strength.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [history, innovation, technology, science, civics-201]
+level: intermediate
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-a-nation-of-inventors.md
+  - 02-from-railroads-to-silicon-valley.md

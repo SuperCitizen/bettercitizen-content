@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: the-rise-of-organized-labor
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "How did the American Federation of Labor (AFL) under Samuel Gompers differ from the Knights of Labor?"
+    choices:
+      - id: a
+        text: "The AFL organized skilled workers along craft lines and pursued concrete gains in wages and hours, while the Knights sought to unite all 'producers' to reform the wage system itself."
+      - id: b
+        text: "The AFL admitted only unskilled factory workers, while the Knights organized only skilled craftsmen."
+      - id: c
+        text: "The AFL was created by the federal government, while the Knights were a private association."
+      - id: d
+        text: "The AFL rejected collective bargaining, while the Knights embraced it."
+    correct_choice_id: a
+    explanation: "The Knights of Labor (founded 1869, led by Terence Powderly) sought to unite skilled and unskilled 'producers' across trades and to reform the wage system broadly. The AFL (founded 1886 under Gompers) organized skilled workers along craft lines and practiced 'pure and simple' unionism focused on wages, hours, and conditions through collective bargaining. Neither was a government body, and both used bargaining."
+    concepts: [craft-vs-industrial-unionism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which pair of New Deal-era laws established the right to organize and bargain collectively and set a federal minimum wage and 40-hour overtime standard?"
+    choices:
+      - id: a
+        text: "The Taft-Hartley Act (1947) and the Sherman Antitrust Act (1890)."
+      - id: b
+        text: "The National Labor Relations (Wagner) Act of 1935 and the Fair Labor Standards Act of 1938."
+      - id: c
+        text: "The Pullman Act and the Homestead Act."
+      - id: d
+        text: "The Social Security Act of 1935 and the Clayton Act of 1914."
+    correct_choice_id: b
+    explanation: "The Wagner Act of 1935 guaranteed most private-sector workers the right to organize, bargain collectively, and strike, and created the National Labor Relations Board. The Fair Labor Standards Act of 1938 set a federal minimum wage (initially 25 cents/hour), required overtime above 40 hours, and restricted child labor. Taft-Hartley (1947) later rebalanced the Wagner framework toward employers."
+    concepts: [new-deal-labor-settlement]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What was the significance of the Triangle Shirtwaist Factory fire of 1911?"
+    choices:
+      - id: a
+        text: "It was a successful strike that won union recognition at General Motors."
+      - id: b
+        text: "It merged the AFL and the CIO into a single federation."
+      - id: c
+        text: "The deaths of 146 workers, many trapped behind locked doors, spurred a wave of fire-safety and labor laws and advanced workplace-safety regulation."
+      - id: d
+        text: "It established the federal minimum wage."
+    correct_choice_id: c
+    explanation: "The 1911 fire killed 146 garment workers, mostly young immigrant women, many unable to escape locked exits. The disaster galvanized reformers and unions; New York's Factory Investigating Commission produced numerous fire-safety, building, and labor laws, a key step toward government regulation of workplace safety. The GM sit-down (1936-37), the AFL-CIO merger (1955), and the minimum wage (FLSA, 1938) are separate events."
+    concepts: [labor-strikes]
+
+  - id: q4
+    kind: free-response
+    text: "American union membership rose to roughly a third of nonfarm workers by the mid-1950s and then declined to around 10 percent by the 2020s. Identify factors behind both the rise and the decline, and explain the role of the Taft-Hartley Act."
+    concepts: [union-decline, new-deal-labor-settlement]
+    socratic_seed: "Consider the rise: the Wagner Act (1935) protected organizing, the CIO organized entire industries (steel, autos) through tactics like the Flint sit-down (1936-37), and a booming postwar economy supported strong unions, peaking near the 1955 AFL-CIO merger. Then the decline: the Taft-Hartley Act (1947, passed over Truman's veto) banned certain tactics and let states pass 'right-to-work' laws barring union-security agreements; later, deindustrialization, the shift to services, employer resistance, and globalization shrank the unionized share — to about 10 percent overall and roughly 6 percent in the private sector by the 2020s, per BLS data. How did each force push membership up or down?"

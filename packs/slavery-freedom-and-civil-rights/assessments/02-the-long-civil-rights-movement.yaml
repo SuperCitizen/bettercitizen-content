@@ -1,0 +1,53 @@
+schema: bettercitizen.assessment/v1
+lesson: the-long-civil-rights-movement
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What constitutional doctrine did the Supreme Court establish in Plessy v. Ferguson (1896)?"
+    choices:
+      - id: a
+        text: That segregation violated the Fourteenth Amendment's Equal Protection Clause
+      - id: b
+        text: That 'separate but equal' facilities were constitutionally permissible
+      - id: c
+        text: That literacy tests for voting were unconstitutional
+      - id: d
+        text: That public schools must be desegregated 'with all deliberate speed'
+    correct_choice_id: b
+    explanation: "Plessy upheld a Louisiana railway-segregation law and established the 'separate but equal' doctrine, which governed for nearly six decades. Justice Harlan dissented alone, arguing that 'our Constitution is color-blind.' The doctrine was overturned for public schools in Brown v. Board of Education (1954)."
+    concepts: [plessy-v-ferguson, separate-but-equal]
+  - id: q2
+    kind: multiple-choice
+    text: "What did the unanimous Supreme Court hold in Brown v. Board of Education (1954)?"
+    choices:
+      - id: a
+        text: That poll taxes were unconstitutional in federal elections
+      - id: b
+        text: That segregation on city buses was unconstitutional
+      - id: c
+        text: That segregated public schools are inherently unequal and violate the Equal Protection Clause
+      - id: d
+        text: That private businesses could not be required to desegregate
+    correct_choice_id: c
+    explanation: "In an opinion by Chief Justice Earl Warren, the Court held that 'separate educational facilities are inherently unequal,' overruling Plessy in the context of public education and grounding the decision in the Fourteenth Amendment's Equal Protection Clause."
+    concepts: [brown-v-board]
+  - id: q3
+    kind: multiple-choice
+    text: "Which pair of federal laws from the mid-1960s most directly outlawed discrimination in public accommodations and employment, and barred discriminatory voting tests?"
+    choices:
+      - id: a
+        text: The Civil Rights Act of 1964 and the Voting Rights Act of 1965
+      - id: b
+        text: The Thirteenth Amendment and the Fifteenth Amendment
+      - id: c
+        text: The Homestead Act and the Pacific Railway Act
+      - id: d
+        text: The Missouri Compromise and the Compromise of 1850
+    correct_choice_id: a
+    explanation: "The Civil Rights Act of 1964 barred discrimination in public accommodations and employment, while the Voting Rights Act of 1965 banned literacy tests and authorized federal oversight of registration in jurisdictions with histories of discrimination. The Reconstruction Amendments came nearly a century earlier; the other choices concern westward expansion and the sectional crisis."
+    concepts: [civil-rights-act-1964, voting-rights-act-1965]
+  - id: q4
+    kind: free-response
+    text: "The civil rights movement worked through both the courts and mass mobilization. Using at least one example of each, explain how legal action and direct action reinforced one another in the struggle to end segregation."
+    concepts: [brown-v-board, montgomery-bus-boycott]
+    socratic_seed: "Consider how Brown v. Board (1954) and the Montgomery bus boycott (1955–1956) related in time and effect. Could a court decision alone have changed practice on the ground, and could protest alone have changed the law? What did each provide that the other could not?"

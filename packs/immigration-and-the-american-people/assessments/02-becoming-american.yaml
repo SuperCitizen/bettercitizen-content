@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: becoming-american
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Whom did the Naturalization Act of 1790 make eligible to become a naturalized U.S. citizen?"
+    choices:
+      - id: a
+        text: "Any free white person of good character who met a residency requirement."
+      - id: b
+        text: "Any person born or residing in the United States, regardless of race."
+      - id: c
+        text: "Only persons born in the original thirteen states."
+      - id: d
+        text: "Any immigrant who could read and write English."
+    correct_choice_id: a
+    explanation: "The Naturalization Act of 1790 limited naturalization to 'any alien, being a free white person' of good character who met a residency requirement. The racial limitation endured in some form until the McCarran-Walter Act of 1952; eligibility was extended to persons of African descent in 1870, but Asian immigrants remained barred from naturalization into the 1940s and 1950s."
+    concepts: [naturalization]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did the Fourteenth Amendment's Citizenship Clause (1868) establish, as later confirmed in United States v. Wong Kim Ark (1898)?"
+    choices:
+      - id: a
+        text: "That citizenship could be granted only by act of Congress."
+      - id: b
+        text: "That a person born on U.S. soil and subject to its jurisdiction is a citizen, even if the parents were ineligible to naturalize."
+      - id: c
+        text: "That only the children of citizens are citizens."
+      - id: d
+        text: "That naturalized citizens have fewer rights than the native-born."
+    correct_choice_id: b
+    explanation: "The Citizenship Clause declares that all persons born or naturalized in the United States, and subject to its jurisdiction, are citizens. In Wong Kim Ark the Supreme Court confirmed that this birthright citizenship applied even to a child born in the U.S. to Chinese immigrants who were themselves barred from naturalizing. Thus the children of every immigrant wave were citizens by birth, whatever the law said about their parents."
+    concepts: [birthright-citizenship]
+
+  - id: q3
+    kind: multiple-choice
+    text: "How did Israel Zangwill's 'melting pot' ideal differ from Horace Kallen's 'cultural pluralism'?"
+    choices:
+      - id: a
+        text: "They were identical; both terms describe the same idea."
+      - id: b
+        text: "The melting pot envisioned newcomers fusing into a single new people, while cultural pluralism held that immigrants could become loyal Americans while retaining their distinct traditions."
+      - id: c
+        text: "The melting pot opposed immigration, while cultural pluralism supported it."
+      - id: d
+        text: "Cultural pluralism called for total assimilation, while the melting pot called for separation."
+    correct_choice_id: b
+    explanation: "Zangwill's 1908 play imagined America as a crucible in which the peoples of Europe would melt and re-form into one new people. Kallen's cultural pluralism (articulated from 1915) argued instead that immigrants could be fully loyal Americans while keeping their languages, faiths, and traditions, comparing the nation to an orchestra enriched by many instruments. These remain the two poles of the assimilation debate."
+    concepts: [melting-pot, cultural-pluralism]
+
+  - id: q4
+    kind: free-response
+    text: "Nativist movements such as the 1850s Know-Nothings and the 1920s restrictionists recurred during periods of heavy immigration. Drawing on the lesson, explain why the phrase 'becoming American' has been historically contested rather than settled."
+    concepts: [nativism, americanization]
+    socratic_seed: "Consider the tension the lesson identifies in the Americanization movement: was becoming American a free choice made by the newcomer, or a demand imposed by the host society? How does that tension, together with the recurring nativist reaction to each new wave, show that there was never a single agreed definition of who counted as American?"

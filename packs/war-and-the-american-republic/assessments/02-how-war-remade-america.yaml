@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: how-war-remade-america
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which wartime measure during World War II dramatically expanded the reach of the federal income tax?"
+    choices:
+      - id: a
+        text: "The repeal of the Sixteenth Amendment"
+      - id: b
+        text: "The introduction of payroll withholding in 1943"
+      - id: c
+        text: "The elimination of all federal taxes"
+      - id: d
+        text: "The Treaty of Paris"
+    correct_choice_id: b
+    explanation: "Payroll withholding, introduced in 1943, helped expand the number of Americans paying income tax from a few million to more than 40 million."
+    concepts: [wartime-taxation, federal-power]
+
+  - id: q2
+    kind: multiple-choice
+    text: "In his 1961 farewell address, what did President Eisenhower warn the nation to guard against?"
+    choices:
+      - id: a
+        text: "The abolition of the standing army"
+      - id: b
+        text: "The unwarranted influence of the military-industrial complex"
+      - id: c
+        text: "The desegregation of the armed forces"
+      - id: d
+        text: "The passage of the G.I. Bill"
+    correct_choice_id: b
+    explanation: "Eisenhower, a former five-star general, warned against 'the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex.'"
+    concepts: [military-industrial-complex, national-security-state]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which statement best captures how war affected civil rights in the United States?"
+    choices:
+      - id: a
+        text: "War uniformly and immediately delivered equal rights to all Americans"
+      - id: b
+        text: "War had no measurable effect on civil rights"
+      - id: c
+        text: "War expanded opportunities — through service, labor, and benefits — but often unevenly and with significant limits"
+      - id: d
+        text: "War only restricted rights and never advanced them"
+    correct_choice_id: c
+    explanation: "Black soldiers, women's wartime labor, the G.I. Bill, and military desegregation all advanced civil rights, but the gains were uneven — for example, Black veterans often received far fewer G.I. Bill benefits."
+    concepts: [civil-rights, federal-power]
+
+  - id: q4
+    kind: free-response
+    text: "Explain how war contributed to the growth of the federal government, using at least two specific examples from the lesson."
+    concepts: [federal-power, wartime-taxation, national-security-state]
+    socratic_seed: "After a war ends and the fighting stops, why might the expanded government it created not shrink back to its prewar size?"

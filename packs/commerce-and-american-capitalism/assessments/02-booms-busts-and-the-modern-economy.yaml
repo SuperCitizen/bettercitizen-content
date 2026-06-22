@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: booms-busts-and-the-modern-economy
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Why did Congress create the Federal Reserve System in 1913?"
+    choices:
+      - id: a
+        text: "To replace private enterprise with government-owned banks."
+      - id: b
+        text: "To provide an elastic currency and a public lender of last resort after recurring panics, including the Panic of 1907."
+      - id: c
+        text: "To set the price of every good sold across state lines."
+      - id: d
+        text: "To enforce the Sherman Antitrust Act against the railroads."
+    correct_choice_id: b
+    explanation: "After 1836 the United States had no central bank, leaving it vulnerable to recurring panics; the Panic of 1907 was halted only by J. P. Morgan's private intervention. The Federal Reserve Act of 1913 created twelve regional Reserve Banks under a Washington board to supply an elastic currency, act as lender of last resort, and supervise banks."
+    concepts: [federal-reserve]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which set of measures were part of the New Deal's reshaping of the relationship between government and the economy?"
+    choices:
+      - id: a
+        text: "The Erie Canal, Gibbons v. Ogden, and the cotton gin."
+      - id: b
+        text: "The Bretton Woods agreement, the IMF, and floating exchange rates."
+      - id: c
+        text: "The Glass-Steagall Act and FDIC deposit insurance, the SEC, and the Social Security Act."
+      - id: d
+        text: "The First and Second Banks of the United States and the Sherman Act."
+    correct_choice_id: c
+    explanation: "In response to the Great Depression, the New Deal created lasting institutions: Glass-Steagall (1933) separated commercial from investment banking and created the FDIC; the 1933-34 securities laws created the SEC; and the Social Security Act (1935) established old-age pensions and unemployment insurance. The other options belong to earlier or later periods."
+    concepts: [new-deal-regulation]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What did the 1944 Bretton Woods agreement establish?"
+    choices:
+      - id: a
+        text: "A postwar monetary system of currencies pegged to a gold-convertible U.S. dollar, plus the IMF and World Bank."
+      - id: b
+        text: "Federal deposit insurance for American banks."
+      - id: c
+        text: "The repeal of Glass-Steagall and the deregulation of finance."
+      - id: d
+        text: "A permanent system of floating exchange rates among all currencies."
+    correct_choice_id: a
+    explanation: "At Bretton Woods, the Allied nations designed a postwar system of currencies pegged to the U.S. dollar, which was convertible to gold, and created the IMF and World Bank. That fixed-rate system lasted until 1971, when the United States ended the dollar's gold convertibility and the major currencies eventually moved to floating rates."
+    concepts: [bretton-woods]
+
+  - id: q4
+    kind: free-response
+    text: "Explain what the 'business cycle' is and how the United States built new institutions in response to its worst downturns. Use at least two specific examples from the lesson, and explain why economists and policymakers continue to debate how far government should manage the economy."
+    concepts: [business-cycle, mixed-economy]
+    socratic_seed: "Consider: the business cycle is the recurring alternation of expansion and contraction. Recurring panics led to the Federal Reserve (1913); the Great Depression led to the New Deal regulatory state (Glass-Steagall, the SEC, Social Security). Later, 1970s stagflation and the Volcker Fed's response, plus the deregulation of the late 1970s-90s, show the pendulum swinging the other way. In a mixed economy, where should the line fall between private markets and public regulation, central banking, taxation, and social insurance — and what serious arguments exist on different sides?"

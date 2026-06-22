@@ -1,0 +1,15 @@
+schema: bettercitizen.content/v1
+slug: industry-and-manufacturing
+title: Industry and American Manufacturing
+summary: Manufacturing transformed the United States from an agrarian republic into the world's leading industrial power, raising living standards and reshaping where and how Americans lived and worked. This pack traces that arc — from the early factory system and the second industrial revolution through mass production, the World War II "arsenal of democracy," and the postwar boom — and then examines deindustrialization and the live debate over reshoring and industrial policy.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [history, manufacturing, industry, economy, civics-201]
+level: intermediate
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-the-industrial-transformation.md
+  - 02-arsenal-of-democracy.md

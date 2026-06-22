@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: wars-that-forged-a-nation
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Why is the War of 1812 sometimes called a 'second war of independence'?"
+    choices:
+      - id: a
+        text: "It won the colonies their original independence from Britain"
+      - id: b
+        text: "Surviving a second confrontation with Britain strengthened Americans' sense of national survival and distinct identity"
+      - id: c
+        text: "It was the first war the United States fought against France"
+      - id: d
+        text: "It permanently ended all conflict between the United States and Britain"
+    correct_choice_id: b
+    explanation: "The war was militarily inconclusive, but having survived another confrontation with the world's leading power fueled a sense of national survival and identity; the Revolution, not 1812, won the original independence."
+    concepts: [war-of-1812, national-identity]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which change in how Americans described their country is often used to illustrate the Civil War's effect on national identity?"
+    choices:
+      - id: a
+        text: "A shift from 'the United States are' to 'the United States is'"
+      - id: b
+        text: "Adopting the phrase 'the thirteen colonies'"
+      - id: c
+        text: "Replacing 'republic' with 'empire'"
+      - id: d
+        text: "Dropping the word 'federal' from official documents"
+    correct_choice_id: a
+    explanation: "The grammatical shift from a plural to a singular reflected a real change in self-understanding — from a confederation of states toward a single, consolidated nation."
+    concepts: [civil-war, national-identity]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What did the National Security Act of 1947 establish during the early Cold War?"
+    choices:
+      - id: a
+        text: "The first federal income tax"
+      - id: b
+        text: "The Department of Defense, the CIA, and the National Security Council"
+      - id: c
+        text: "The Emancipation Proclamation"
+      - id: d
+        text: "The Treaty of Paris"
+    correct_choice_id: b
+    explanation: "The 1947 act created the permanent defense and intelligence institutions that anchored the Cold War national-security state."
+    concepts: [cold-war, national-identity]
+
+  - id: q4
+    kind: free-response
+    text: "Choose one major American war and explain how it changed what Americans understood 'the nation' to mean."
+    concepts: [national-identity, american-revolution, civil-war]
+    socratic_seed: "Would Americans living before that war have described their country and their loyalties differently than those living after it?"

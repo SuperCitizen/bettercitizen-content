@@ -1,0 +1,15 @@
+schema: bettercitizen.content/v1
+slug: the-frontier-and-westward-expansion
+title: The Frontier and Westward Expansion
+summary: From the Louisiana Purchase to the closing of the frontier, westward expansion roughly tripled the size of the United States and reshaped its economy, politics, and sense of itself. This pack traces the doctrine of manifest destiny and the territorial gains it justified, and examines how the idea of "the frontier" became central to American identity — including the wars, dispossession, and removal of Native nations that were part of the record.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [history, frontier, westward-expansion, civics-201]
+level: intermediate
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-manifest-destiny.md
+  - 02-the-frontier-in-american-identity.md

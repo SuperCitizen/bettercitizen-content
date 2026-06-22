@@ -1,0 +1,15 @@
+schema: bettercitizen.content/v1
+slug: labor-and-the-american-worker
+title: Labor and the American Worker
+summary: Work has defined the United States from its founding — first as craft and slave labor, then as industrial wage labor that gave rise to a powerful labor movement. This pack traces the rise of organized labor from the early craft unions and the great strikes through the New Deal labor settlement, the postwar union peak, and the long decline that followed. It also examines the cultural meaning of work in American life — the work ethic, the weekend, the blue-collar middle class, and modern debates over automation and gig work.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [history, labor, work, economy, civics-201]
+level: intermediate
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-the-rise-of-organized-labor.md
+  - 02-work-and-the-american-dream.md

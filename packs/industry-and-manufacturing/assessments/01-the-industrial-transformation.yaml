@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: the-industrial-transformation
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Samuel Slater is conventionally credited with launching the American factory system in 1793 by building what kind of mill in Rhode Island?"
+    choices:
+      - id: a
+        text: "A steam-powered steel mill."
+      - id: b
+        text: "A water-powered cotton-spinning mill, based on Arkwright's English machinery."
+      - id: c
+        text: "An oil refinery."
+      - id: d
+        text: "A gunpowder works for the federal armory."
+    correct_choice_id: b
+    explanation: "Slater, an English mechanic, reproduced from memory the water-powered spinning machinery of Richard Arkwright and opened a successful cotton-spinning mill at Pawtucket, Rhode Island, in 1793 — conventionally treated as the start of the American factory system. Steel, oil, and the federal armories all came later or developed along separate lines."
+    concepts: [factory-system]
+
+  - id: q2
+    kind: multiple-choice
+    text: "The 'American system of manufactures' refers chiefly to which idea?"
+    choices:
+      - id: a
+        text: "Building goods from standardized, interchangeable parts assembled into finished products."
+      - id: b
+        text: "Paying workers a five-dollar daily wage."
+      - id: c
+        text: "Organizing industries into trusts to limit competition."
+      - id: d
+        text: "Coordinating railroads through salaried professional managers."
+    correct_choice_id: a
+    explanation: "The 'American system of manufactures' — a term British observers applied after the 1851 Crystal Palace Exhibition — describes production using standardized, machine-made, interchangeable parts. It grew out of work in the federal armories (Springfield, Harpers Ferry) and inventors such as John Hall, and Eli Whitney famously promoted the concept. The five-dollar day (Ford), the trust (Standard Oil), and managerial coordination (railroads) are distinct later developments."
+    concepts: [american-system-of-manufactures]
+
+  - id: q3
+    kind: multiple-choice
+    text: "In Alfred Chandler's account in The Visible Hand, what made the railroads pivotal to American business beyond their demand for steel?"
+    choices:
+      - id: a
+        text: "They were the first companies to use interchangeable parts."
+      - id: b
+        text: "They invented the moving assembly line."
+      - id: c
+        text: "They pioneered the large, multi-unit enterprise run by salaried professional managers."
+      - id: d
+        text: "They were the first to employ women in large numbers."
+    correct_choice_id: c
+    explanation: "Chandler argued that coordinating thousands of miles of track and complex schedules required a 'visible hand' of professional management — the large, multi-unit enterprise run by salaried managers — that increasingly replaced the market's 'invisible hand' in coordinating production and distribution. Interchangeable parts (the armories), the assembly line (Ford), and large female workforces (the Lowell mills) belong to other parts of the story."
+    concepts: [second-industrial-revolution]
+
+  - id: q4
+    kind: free-response
+    text: "Henry Ford's moving assembly line and Frederick Taylor's scientific management both aimed to raise manufacturing efficiency. Explain how each worked, and describe one way they reshaped the experience of work itself."
+    concepts: [mass-production, scientific-management]
+    socratic_seed: "Consider: Ford's moving line (Highland Park, 1913) brought work to a stationary worker and split assembly into small repeated tasks, cutting Model T build time from over twelve hours to about ninety minutes; the five-dollar day (1914) helped offset high turnover. Taylor's scientific management (1911) studied tasks with stopwatches and prescribed the 'one best way' for each motion. Both intensified the pace and managerial control over how workers used their time, deskilling some craft work and making labor more closely supervised and machine-paced — which is partly why Taylorism drew strong objections from organized labor."

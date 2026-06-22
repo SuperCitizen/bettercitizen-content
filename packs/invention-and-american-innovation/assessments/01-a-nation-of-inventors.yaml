@@ -1,0 +1,53 @@
+schema: bettercitizen.assessment/v1
+lesson: a-nation-of-inventors
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What does the Patent and Copyright Clause (Article I, Section 8, Clause 8) authorize Congress to do?"
+    choices:
+      - id: a
+        text: Regulate interstate commerce in manufactured goods
+      - id: b
+        text: Secure for limited times to authors and inventors the exclusive right to their writings and discoveries, to promote progress
+      - id: c
+        text: Establish a national bank to fund industrial development
+      - id: d
+        text: Grant permanent monopolies to inventors to reward their genius
+    correct_choice_id: b
+    explanation: "The clause empowers Congress to 'promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.' The protection is temporary, not permanent (ruling out d), and the stated purpose is progress, with public disclosure as part of the bargain."
+    concepts: [patent-and-copyright-clause]
+  - id: q2
+    kind: multiple-choice
+    text: "Why is Thomas Edison's Menlo Park laboratory considered historically important beyond his specific inventions?"
+    choices:
+      - id: a
+        text: It was the first university funded by the Morrill Land-Grant Act
+      - id: b
+        text: It proved that the telegraph could carry the human voice
+      - id: c
+        text: It was an early industrial research laboratory, organizing invention as a team enterprise on a schedule
+      - id: d
+        text: It was operated directly by the U.S. Patent Office to train examiners
+    correct_choice_id: c
+    explanation: "Edison built an 'invention factory' staffed with machinists, chemists, and engineers whose job was to produce inventions systematically. This model of the industrial research laboratory pointed toward invention as a team enterprise rather than the work of a lone genius."
+    concepts: [industrial-research-lab]
+  - id: q3
+    kind: multiple-choice
+    text: "What was the main purpose of the Morrill Land-Grant Act of 1862?"
+    choices:
+      - id: a
+        text: To grant federal land to states to fund colleges teaching agriculture and the mechanic arts
+      - id: b
+        text: To issue the first federal patents to American inventors
+      - id: c
+        text: To subsidize the construction of the transcontinental telegraph
+      - id: d
+        text: To create the Smithsonian Institution for the diffusion of knowledge
+    correct_choice_id: a
+    explanation: "The Morrill Act granted federal land to the states to fund colleges devoted to 'agriculture and the mechanic arts.' These land-grant universities built a broad, practical base in science and engineering that a technological economy required."
+    concepts: [morrill-land-grant-act]
+  - id: q4
+    kind: free-response
+    text: "The historian Thomas Hughes argued that what set American invention apart was not just clever devices but the institutions that made invention continuous and cumulative. Using at least two examples from the lesson, explain how legal protections, education, or laboratories made invention systematic rather than accidental."
+    concepts: [patent-act-of-1790, industrial-research-lab, nineteenth-century-invention]
+    socratic_seed: "Consider the bargain at the heart of the patent system — exclusive rights in exchange for public disclosure. How might publishing every patent's specification, or training thousands of engineers in land-grant colleges, let later inventors build on earlier work rather than start from scratch?"

@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: waves-of-immigration
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The mid-1800s 'old immigration' was driven heavily by which event, and came largely from which region?"
+    choices:
+      - id: a
+        text: "The Irish Potato Famine; northern and western Europe (especially Ireland and the German states)."
+      - id: b
+        text: "The Russian Revolution; Eastern Europe."
+      - id: c
+        text: "The Gold Rush; East Asia."
+      - id: d
+        text: "The Mexican Revolution; Latin America."
+    correct_choice_id: a
+    explanation: "The 'old immigration' of the 1840s and 1850s came largely from northern and western Europe. Its single most catastrophic driver was the Irish Potato Famine (c. 1845-1852), which killed about a million people in Ireland and drove a million more to emigrate; German arrivals, pushed by crop failures and political upheaval, were also large. The Eastern European and East Asian streams belong to later periods."
+    concepts: [old-immigration, immigration-waves]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did the Immigration Act of 1924 (Johnson-Reed) do, and what was its demographic effect over the following decades?"
+    choices:
+      - id: a
+        text: "It opened immigration to all nations equally and raised the foreign-born share to a record high."
+      - id: b
+        text: "It set national-origins quotas favoring northern and western Europe and excluding most Asians, helping drive the foreign-born share to a historic low."
+      - id: c
+        text: "It abolished all numerical limits but required English literacy."
+      - id: d
+        text: "It applied only to Chinese laborers and left European immigration untouched."
+    correct_choice_id: b
+    explanation: "The 1924 Act imposed national-origins quotas calibrated to favor northern and western Europeans, sharply limit southern and eastern Europeans, and exclude most Asians. Combined with the Depression and World War II, it reduced immigration dramatically; the foreign-born share fell to about 4.7 percent by 1970, the lowest in the nation's recorded history. The Chinese-only restriction was the earlier 1882 Exclusion Act."
+    concepts: [national-origins-quotas, immigration-waves]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What was the most significant demographic consequence of the Immigration and Nationality Act of 1965 (Hart-Celler)?"
+    choices:
+      - id: a
+        text: "It ended immigration from Latin America."
+      - id: b
+        text: "It restored the national-origins quotas of 1924."
+      - id: c
+        text: "It abolished the national-origins quotas, after which immigration rose and its sources shifted toward Latin America and Asia."
+      - id: d
+        text: "It had no measurable effect on the sources of immigration."
+    correct_choice_id: c
+    explanation: "Hart-Celler abolished the national-origins quota system and replaced it with preferences based on family reunification and skills. Although its sponsors anticipated little change, immigration rose and its geography shifted decisively away from Europe toward Latin America and Asia; by 2020 Mexico, China, India, and the Philippines were among the leading countries of origin, and the foreign-born share had climbed back to roughly 13.7 percent."
+    concepts: [hart-celler-act, immigration-waves]
+
+  - id: q4
+    kind: free-response
+    text: "Contemporaries in the early 1900s described southern and eastern European arrivals as the 'new immigration' and often doubted they could assimilate. Using the historical record, explain how this perception related to the 1924 quota law, and what later happened to that assessment."
+    concepts: [new-immigration, national-origins-quotas]
+    socratic_seed: "Consider how the perception of unassimilability was written into the 1924 quota formula, which deliberately favored the 'old immigration' nationalities. Then ask: what became of the descendants of Italian, Polish, Jewish, and Slavic immigrants over the following generations, and how does that outcome bear on the original prediction?"

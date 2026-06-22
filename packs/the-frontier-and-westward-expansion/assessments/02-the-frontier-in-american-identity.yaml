@@ -1,0 +1,43 @@
+schema: bettercitizen.assessment/v1
+lesson: the-frontier-in-american-identity
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What was the central claim of Frederick Jackson Turner's 1893 Frontier Thesis?"
+    choices:
+      - id: a
+        text: That the frontier had little effect on American life and was mainly a myth
+      - id: b
+        text: That the existence and continuous recession of free land on the frontier explained American development and character
+      - id: c
+        text: That American democracy was inherited directly and unchanged from European institutions
+      - id: d
+        text: That the West should be understood through the lasting consequences of conquest
+    correct_choice_id: b
+    explanation: "Turner argued that 'the existence of an area of free land, its continuous recession, and the advance of American settlement westward, explain American development.' He credited the frontier with fostering democracy, individualism, and a distinct national character. Choice (d) describes the later New Western History critique."
+    concepts: [frontier-thesis, turner]
+  - id: q2
+    kind: multiple-choice
+    text: "What did the 1890 census observation mean for Turner's argument, and what did the Dawes Act of 1887 do?"
+    choices:
+      - id: a
+        text: The census reported a closed frontier line; the Dawes Act broke up communal tribal lands into individual allotments, with surplus land opened to non-Native buyers
+      - id: b
+        text: The census reported record immigration; the Dawes Act funded the transcontinental railroad
+      - id: c
+        text: The census doubled the nation's territory; the Dawes Act ended the Mexican–American War
+      - id: d
+        text: The census established new states; the Dawes Act guaranteed tribal lands permanently
+    correct_choice_id: a
+    explanation: "The 1890 census noted there was no longer a continuous frontier line, which Turner read as the 'closing' of the frontier. The Dawes Severalty Act of 1887 broke communally held tribal land into individual allotments and sold off 'surplus' land, contributing to a sharp loss of Native landholdings — from roughly 138 million acres in 1887 to about 48 million by 1934."
+    concepts: [frontier-thesis, dawes-act, native-removal]
+  - id: q3
+    kind: free-response
+    text: "Contrast the romantic myth of the frontier (the self-reliant cowboy or pioneer) with the documented realities of westward settlement. Give at least two concrete points of difference."
+    concepts: [frontier-myth, native-removal]
+    socratic_seed: "If homesteading often failed and the land was already inhabited, who benefited most from the frontier — and whose experiences does the cowboy myth leave out?"
+  - id: q4
+    kind: free-response
+    text: "The 'New Western History' revised Turner's account beginning in the 1980s. Explain one way these historians, such as Patricia Nelson Limerick, reframed the story of the West, and assess whether their critique discards Turner or builds on him."
+    concepts: [new-western-history, frontier-thesis]
+    socratic_seed: "Limerick treats the West as a region shaped by ongoing conquest rather than a process that ended in 1890. Why might a thesis still be considered a landmark even when much later scholarship defines itself against it?"
