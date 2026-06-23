@@ -1,0 +1,16 @@
+schema: bettercitizen.content/v1
+slug: federal-banking-system
+title: Banking & the Federal Money System
+summary: How banking and the U.S. federal money system actually work — what a bank is, how banks create money when they lend, what the Federal Reserve does (and does not) control, and who the federal regulators are (Fed, OCC, FDIC, NCUA, CFPB, Treasury). Then the strongest cases in the live regulation debate — financial-stability regulation, market discipline, and monetary reform — and the current policy landscape after the 2023 bank failures, the Dodd-Frank rollback, Basel III, stablecoins, and the fight over the CFPB and Fed independence. How much to regulate banks, and who should control the money supply, are more genuinely contested than partisan rhetoric admits.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [issues, banking, finance, monetary-policy, civics-201, public-policy]
+level: intermediate
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-how-it-works.md
+  - 02-the-strongest-cases.md
+  - 03-the-policy-landscape.md

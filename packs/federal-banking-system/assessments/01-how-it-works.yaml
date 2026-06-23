@@ -1,0 +1,88 @@
+schema: bettercitizen.assessment/v1
+lesson: how-it-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is the core function of a bank that makes it structurally fragile?"
+    choices:
+      - id: a
+        text: "It keeps all deposits in a vault and lends nothing out."
+      - id: b
+        text: "Maturity transformation — it borrows short (deposits you can withdraw today) and lends long (loans it cannot call back today)."
+      - id: c
+        text: "It prints its own physical currency."
+      - id: d
+        text: "It is required by law to lose money on every loan."
+    correct_choice_id: b
+    explanation: "A bank borrows short and lends long. Your deposit is withdrawable today; the mortgage it funded is not repayable today. That mismatch is genuinely useful — it channels savings into long-term investment — but it means no bank can satisfy all depositors at once. The fear of a run can therefore cause one. Deposit insurance and the lender of last resort exist specifically to break that self-fulfilling dynamic."
+    concepts: [bank-regulation]
+
+  - id: q2
+    kind: multiple-choice
+    text: "In a modern economy, how is most money created?"
+    choices:
+      - id: a
+        text: "The Federal Reserve prints it and hands it directly to consumers."
+      - id: b
+        text: "Banks lend out a fixed fraction of the gold they hold in reserve."
+      - id: c
+        text: "Commercial banks create new deposits when they make loans; that money is destroyed when loans are repaid."
+      - id: d
+        text: "Congress votes to create each dollar in the federal budget."
+    correct_choice_id: c
+    explanation: "When a bank makes a loan, it credits the borrower's account with a newly created deposit — it does not lend out someone else's money. As the Bank of England's 2014 study put it, 'whenever a bank makes a loan, it simultaneously creates a matching deposit.' Repaying the loan destroys that money. Most money is created by private banks lending, while the Fed sets the conditions. This shared public/private control over the money supply is why both bank regulation and monetary policy are contested."
+    concepts: [money-creation]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What is the binding constraint on how much money banks can create today, given that U.S. reserve requirements were cut to zero in 2020?"
+    choices:
+      - id: a
+        text: "Reserve requirements, which remain the primary constraint."
+      - id: b
+        text: "Capital and liquidity requirements (plus credit risk and monetary policy)."
+      - id: c
+        text: "A hard cap on total deposits set by Congress each year."
+      - id: d
+        text: "The amount of physical cash printed by the Treasury."
+    correct_choice_id: b
+    explanation: "The popular 'fractional reserve' picture is outdated: the Fed set reserve requirements to zero in March 2020. The real constraints are capital requirements (banks must fund a minimum share of assets with the owners' own equity, so losses hit shareholders before depositors), liquidity requirements, credit risk and profitability, and the price of credit set by monetary policy. Capital requirements are the single most important prudential rule."
+    concepts: [bank-regulation, capital-requirements]
+
+  - id: q4
+    kind: multiple-choice
+    text: "What is the Federal Reserve's 'dual mandate'?"
+    choices:
+      - id: a
+        text: "Regulating banks and printing currency."
+      - id: b
+        text: "Maximum employment and stable prices."
+      - id: c
+        text: "Balancing the federal budget and managing the national debt."
+      - id: d
+        text: "Setting tax rates and approving the federal budget."
+    correct_choice_id: b
+    explanation: "Congress directs the Fed to pursue maximum employment and stable prices ('stable prices' has been operationalized since 2012 as a 2% inflation target). When the two halves conflict — high inflation alongside rising unemployment — the Fed must make a judgment call that is inherently political even when made by unelected officials. Note also what the Fed does NOT directly control: it sets short-term rates and influences conditions, but inflation, employment, and mortgage rates respond only indirectly, with long lags."
+    concepts: [federal-reserve, monetary-policy]
+
+  - id: q5
+    kind: multiple-choice
+    text: "Which federal agency insures bank deposits and acts as receiver to wind down failed banks?"
+    choices:
+      - id: a
+        text: "The Office of the Comptroller of the Currency (OCC)."
+      - id: b
+        text: "The Consumer Financial Protection Bureau (CFPB)."
+      - id: c
+        text: "The Federal Deposit Insurance Corporation (FDIC)."
+      - id: d
+        text: "The Federal Open Market Committee (FOMC)."
+    correct_choice_id: c
+    explanation: "The FDIC insures deposits up to $250,000 per depositor, per insured bank, per ownership category; supervises state non-member banks; and resolves failed banks as receiver. It was created by the Banking Act of 1933 to stop Depression-era runs and is funded by premiums from banks, not taxpayers. The OCC charters national banks; the CFPB handles consumer protection; the FOMC sets monetary policy. No single agency is 'the bank regulator' — responsibility is split by charter type, size, and function."
+    concepts: [deposit-insurance, bank-regulation]
+
+  - id: q6
+    kind: free-response
+    text: "Deposit insurance and the lender of last resort are described as tools that 'break the run dynamic.' In your own words, explain how they stop bank runs — and why the same feature that calms depositors might also be a problem."
+    concepts: [deposit-insurance, lender-of-last-resort]
+    socratic_seed: "A run happens because withdrawing first is rational when you fear the bank might fail. If depositors KNOW they'll be made whole (insurance) or the bank can always borrow emergency cash (lender of last resort), the incentive to run first disappears — so the run never starts. But if depositors and creditors no longer fear losses, do they still have any reason to care whether their bank is taking reckless risks? That weakened incentive to monitor risk is 'moral hazard,' and it sets up the whole regulation debate in Lesson 2."

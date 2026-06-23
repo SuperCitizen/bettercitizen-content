@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is the central fix the financial-stability camp (e.g., Admati & Hellwig) argues is most important and most underused?"
+    choices:
+      - id: a
+        text: "Abolishing the Federal Reserve."
+      - id: b
+        text: "Requiring banks to fund far more of their assets with equity (capital) rather than debt."
+      - id: c
+        text: "Returning to a gold standard."
+      - id: d
+        text: "Eliminating deposit insurance entirely."
+    correct_choice_id: b
+    explanation: "Admati & Hellwig (The Bankers' New Clothes) argue the simplest, most powerful fix is much higher equity capital. Highly leveraged banks gamble with other people's money — keeping the upside and socializing the downside. Higher capital makes losses fall on shareholders first and sharply reduces failure risk, at little real cost to lending. Note that higher capital is also where this camp partly OVERLAPS with the market-discipline camp; they diverge on the rest of the rulebook."
+    concepts: [capital-requirements, bank-regulation]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What is the 'moral hazard' argument at the heart of the market-discipline case?"
+    choices:
+      - id: a
+        text: "Bankers are inherently more dishonest than other people."
+      - id: b
+        text: "Regulation is always unconstitutional."
+      - id: c
+        text: "If depositors and creditors expect to be made whole by insurance or bailouts, they stop monitoring risk — so banks take more of it, manufacturing the recklessness regulation then tries to suppress."
+      - id: d
+        text: "Banks should never be allowed to fail."
+    correct_choice_id: c
+    explanation: "The market-discipline camp argues the government guarantee is the disease, not the cure. When creditors and depositors know they'll be protected, they have no reason to avoid risky banks, and risky banks have no reason to be careful. The safety net therefore manufactures the recklessness that more rules are then deployed to suppress — a ratchet. The proposed fix is to let creditors (and sometimes uninsured depositors) bear losses so risk is priced again."
+    concepts: [moral-hazard, too-big-to-fail]
+
+  - id: q3
+    kind: multiple-choice
+    text: "How does the monetary-reform camp REFRAME the bank-regulation debate?"
+    choices:
+      - id: a
+        text: "It argues both other camps are managing symptoms of a deeper problem — discretionary control of the money supply by a central bank that creates booms and busts in the first place."
+      - id: b
+        text: "It argues banks should simply be nationalized."
+      - id: c
+        text: "It agrees entirely with the financial-stability camp."
+      - id: d
+        text: "It argues regulation should be set by a popular vote each year."
+    correct_choice_id: a
+    explanation: "The monetary-reform camp steps back from the regulation argument to ask a prior question: who should control the money supply, and by what rule? On this view, easy or discretionary monetary policy inflates the asset bubbles that later burst, so boom-and-bust is a monetary phenomenon, not just a market failure to be regulated. It connects to the market-discipline camp: the lender of last resort can rescue banks at scale only because the central bank can create money without limit."
+    concepts: [sound-money, fed-independence]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which of the following is described as genuinely CONTESTED rather than settled?"
+    choices:
+      - id: a
+        text: "Whether bank runs can hit even solvent banks."
+      - id: b
+        text: "Whether higher equity capital shifts losses from the public toward bank owners."
+      - id: c
+        text: "Whether 2008 was primarily a failure of markets (under-regulation) or of policy (intervention and easy money)."
+      - id: d
+        text: "Whether deposit insurance creates some degree of moral hazard."
+    correct_choice_id: c
+    explanation: "The cause of 2008 is genuinely contested: the financial-stability camp reads it as under-regulation, while the market-discipline and monetary-reform camps point to easy Fed policy, housing mandates, and implicit guarantees. The other three options are near-settled: runs can hit solvent banks (Diamond-Dybvig), higher capital shifts losses to owners (the dispute is how high, not the direction), and the safety net does create moral hazard (the dispute is where to set the dial)."
+    concepts: [bank-regulation]
+
+  - id: q5
+    kind: free-response
+    text: "The financial-stability camp and the market-discipline camp both endorse higher equity capital, yet draw opposite conclusions about the rest of bank regulation. Explain why both can agree on capital while disagreeing about everything else."
+    concepts: [capital-requirements, moral-hazard, bank-regulation]
+    socratic_seed: "Both camps agree that making owners bear losses first is good: high equity means a bank rarely reaches the point of needing a rescue, which serves stability AND restores skin in the game. They diverge on the safety net and the rulebook. The stability camp wants capital PLUS detailed supervision, stress tests, and a strong backstop, because runs move faster than markets can discipline. The market-discipline camp wants capital INSTEAD OF much of that — strip the rulebook, shrink or price the safety net, and let the real prospect of failure do the disciplining regulators can't. Same tool, opposite theory of what else is needed."
