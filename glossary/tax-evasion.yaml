@@ -1,0 +1,14 @@
+slug: tax-evasion
+name: Tax Evasion
+short_definition: "The illegal nonpayment or underpayment of taxes that are legally owed, typically by concealing income or assets."
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English: 'evasion' (escaping by deceit, from Latin evadere, to escape); the unlawful counterpart to legal tax avoidance"
+why_it_matters: "Evasion is what the law already prohibits and enforcement targets; conflating it with lawful avoidance distorts debates about the wealthy, who mostly use legal strategies rather than crime."
+context_example: "The IRS estimates a gross tax gap of hundreds of billions of dollars a year in legally owed tax that goes unpaid — the measure of evasion, error, and nonfiling, separate from lawful avoidance."
+related_term_slugs:
+  - tax-avoidance
+  - kleptocracy
+tags: []

@@ -1,0 +1,16 @@
+slug: pluralism
+name: Pluralism
+short_definition: "The view that political power is dispersed among many competing groups, none of which dominates, rather than concentrated in a single ruling elite."
+body_md: ""
+category: government
+difficulty: intermediate
+status: active
+etymology: "English: 'plural' (many, from Latin pluralis) plus the suffix -ism; in political science, closely associated with Robert Dahl's study 'Who Governs?' (1961)"
+why_it_matters: "Pluralism is the central rival to power-elite and oligarchy theories: it holds that elections, parties, courts, and rival interest groups keep any one faction — including the wealthy — from ruling, which is why pluralists demand strong proof before accepting claims of elite domination."
+context_example: "Robert Dahl's study of New Haven argued that different groups won on different issues, rebutting theorists who saw a unified ruling class behind American politics."
+related_term_slugs:
+  - oligarchy
+  - plutocracy
+  - democracy
+  - representative-democracy
+tags: []

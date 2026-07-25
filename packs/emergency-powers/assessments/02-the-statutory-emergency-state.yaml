@@ -1,0 +1,180 @@
+schema: bettercitizen.assessment/v1
+lesson: the-statutory-emergency-state
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      How did INS v. Chadha (1983) break the National Emergencies Act's
+      original design?
+    choices:
+      - id: a
+        text: >-
+          It struck down the NEA itself, restoring the pre-1976 standing
+          emergencies.
+      - id: b
+        text: >-
+          It voided the legislative veto, so the NEA's concurrent-resolution
+          recall became unconstitutional — and the 1985 patch (a vetoable
+          joint resolution) means ending an emergency over the President's
+          objection now takes two-thirds of both chambers.
+      - id: c
+        text: >-
+          It held that emergencies must be renewed by Congress annually rather
+          than by presidential notice.
+      - id: d
+        text: >-
+          It upheld the legislative veto for emergencies but struck it down
+          for deportations.
+    correct_choice_id: b
+    explanation: >-
+      Chadha held that action altering legal rights outside Congress is
+      legislation and requires bicameralism and presentment — killing the
+      concurrent-resolution termination device the NEA's bargain rested on.
+      Congress's 1985 fix substituted a joint resolution, which the President
+      can veto: the majority-vote recall became a supermajority problem.
+      (a) overstates — the NEA survived; (c) inverts the renewal mechanic
+      (presidential notice suffices, which is why the 1979 Iran emergency
+      still runs); (d) reverses the holding's scope — it condemned
+      legislative vetoes across the board.
+    concepts: [separation-of-powers, executive-order]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      The week after Learning Resources, Inc. v. Trump (Feb. 20, 2026), a
+      newspaper claims "the Supreme Court ruled presidential tariffs
+      unconstitutional." What is wrong with that sentence?
+    choices:
+      - id: a
+        text: >-
+          Nothing — the Court held tariff power can never be delegated to the
+          President.
+      - id: b
+        text: >-
+          The holding was statutory, not constitutional: IEEPA's power to
+          "regulate … importation" does not include imposing tariffs, while
+          tariffs under express delegations like Sections 232 and 301
+          remained lawful.
+      - id: c
+        text: >-
+          The Court actually upheld the tariffs but required refunds for
+          procedural defects.
+      - id: d
+        text: >-
+          The decision was only about Canada and Mexico, not the global
+          tariff schedule.
+    correct_choice_id: b
+    explanation: >-
+      The Court read two words — "regulate" and "importation" — and found
+      they "cannot bear such weight": IEEPA "contains no reference to tariffs
+      or duties," and when Congress delegates tariff power it does so "in
+      explicit terms, and subject to strict limits." That is statutory
+      interpretation, leaving express tariff delegations (232, 301, 122)
+      intact — which is why the administration could attempt a Section 122
+      replacement within days. Only a three-justice plurality went further to
+      say there is no inherent peacetime tariff power. (a), (c), and (d)
+      each misstate the disposition.
+    concepts: [tariff, sanctions]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      In the December 23, 2025 per curiam in Trump v. Illinois, the Supreme
+      Court declined to let the Chicago National Guard deployment proceed.
+      What was the core of its reasoning?
+    choices:
+      - id: a
+        text: >-
+          The Insurrection Act is unconstitutional and may never be invoked
+          against a state's wishes.
+      - id: b
+        text: >-
+          Presidential deployment decisions are political questions that
+          courts cannot review, but the paperwork was defective.
+      - id: c
+        text: >-
+          At that preliminary stage, the government had identified no source
+          of authority for the military to execute the laws in Illinois —
+          reading §12406(3)'s "unable with the regular forces" to require
+          that regular federal forces actually be insufficient.
+      - id: d
+        text: >-
+          The Posse Comitatus Act repealed §12406 by implication in 1878.
+    correct_choice_id: c
+    explanation: >-
+      The order's key sentence: "At this preliminary stage, the Government
+      has failed to identify a source of authority that would allow the
+      military to execute the laws in Illinois." The majority read "unable
+      with the regular forces" as a real statutory predicate about the
+      regular military's insufficiency — not a presidential preference. The
+      Insurrection Act (a) was never invoked in 2025–26, so nothing was held
+      about it; (b) describes the unreviewability position the courts
+      rejected; (d) is chronologically impossible — §12406's lineage
+      postdates 1878 — and wrong about how the statutes interact: the PCA
+      forbids military law enforcement except where a statute expressly
+      authorizes it.
+    concepts: [separation-of-powers, martial-law]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      During a declared "critical minerals emergency," the President orders
+      the seizure of three privately owned mines — two months after Congress
+      debated and rejected a bill that would have authorized exactly such
+      seizures. Under Jackson's Youngstown framework, this action sits in…
+    choices:
+      - id: a
+        text: >-
+          Category one — the emergency declaration is itself congressional
+          authorization, so presidential power is at its maximum.
+      - id: b
+        text: >-
+          Category two — the zone of twilight, because Congress has neither
+          granted nor denied the power.
+      - id: c
+        text: >-
+          Category three — the lowest ebb, because Congress's considered
+          rejection is an expressed or implied will against the measure.
+      - id: d
+        text: >-
+          Outside the framework — Youngstown applies only to wartime
+          seizures.
+    correct_choice_id: c
+    explanation: >-
+      Congress considered and refused this very authority, so the President
+      "takes measures incompatible with the expressed or implied will of
+      Congress" and "can rely only upon his own constitutional powers minus
+      any constitutional powers of Congress over the matter" — the
+      Youngstown facts themselves, where Congress had rejected seizure
+      authority during the Taft–Hartley debates. (a) is the classic error
+      the lesson targets: an NEA declaration unlocks only the statutory
+      powers Congress attached; "emergency" is not a category, authorization
+      is. (b) requires congressional silence — absent here. (d) misreads the
+      framework's reach: it governs all contested executive action.
+    concepts: [separation-of-powers, executive-order]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Classify each action under Jackson's three Youngstown categories and
+      state the consequence of the classification: (1) the President blocks a
+      foreign bank's U.S. assets under IEEPA after declaring an emergency
+      over that country's weapons program; (2) the President federalizes a
+      state's National Guard under §12406(3) to protect federal buildings
+      during protests, over the governor's objection, while regular federal
+      forces stand available; (3) the President directs active-duty troops to
+      make arrests at those protests without invoking the Insurrection Act.
+    socratic_seed: >-
+      For (1): is this not the IEEPA heartland — "unusual and extraordinary
+      threat" with a foreign source — and so category one at maximum power
+      (compare Dames & Moore)? For (2): the claim is category one, but after
+      Trump v. Illinois, does the "unable with the regular forces" predicate
+      fail — and if the statute does not apply, what is left to stand on?
+      For (3): the Posse Comitatus Act is an express congressional
+      prohibition on military law enforcement — does that make this category
+      three, and what did Judge Breyer's September 2, 2025 ruling say about
+      exactly this conduct in Los Angeles? Notice the larger lesson: the same
+      President, the same week, can occupy all three categories at once —
+      the category is a property of the action and the statute, not of the
+      office.
+    concepts: [separation-of-powers, sanctions]

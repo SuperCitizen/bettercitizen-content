@@ -1,0 +1,16 @@
+slug: stepped-up-basis
+name: Stepped-Up Basis
+short_definition: "The rule that resets the cost basis of an inherited asset to its market value at the owner's death, erasing the capital-gains tax on a lifetime of appreciation."
+body_md: ""
+category: economy
+difficulty: advanced
+status: active
+etymology: "English: an asset's 'basis' (the figure from which a taxable gain is measured) is 'stepped up' to fair-market value at death; codified at Internal Revenue Code section 1014"
+why_it_matters: "Stepped-up basis is the keystone of the buy-borrow-die strategy: appreciation held until death is never subject to income tax by anyone, letting the largest gains escape the system entirely."
+context_example: "A founder who never sells her stock can pass it to heirs at a stepped-up basis, so the billions in gains that funded her borrowing during life are wiped clean for tax purposes."
+related_term_slugs:
+  - buy-borrow-die
+  - estate-tax
+  - carried-interest
+  - dynasty-trust
+tags: []

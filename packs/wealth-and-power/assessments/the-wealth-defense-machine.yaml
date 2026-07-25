@@ -1,0 +1,68 @@
+schema: bettercitizen.assessment/v1
+lesson: the-wealth-defense-machine
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A petro-state's ruling family diverts national oil revenue into private offshore accounts by overriding the central bank, then jails auditors who object. A peer country's tech founders pay almost no tax on tens of billions in stock gains, all through provisions written into the tax code, and bankroll the campaigns of legislators who keep those provisions in place. Using the oligarchy/plutocracy/kleptocracy ladder, how should each be labeled?"
+    choices:
+      - id: a
+        text: "Both are kleptocracies, because in each case the rich end up paying far less than they could."
+      - id: b
+        text: "The petro-state is a kleptocracy (enrichment by subverting public institutions); the peer country is a plutocracy (wealth-derived power operating lawfully) — and plutocracy is a subtype of oligarchy."
+      - id: c
+        text: "The petro-state is a plutocracy and the peer country is a kleptocracy, because the tech founders are effectively stealing tax revenue."
+      - id: d
+        text: "Both are plutocracies, since wealthy actors get favorable outcomes in each."
+    correct_choice_id: b
+    explanation: "The load-bearing distinction is legality, not how good the deal is for the rich. Kleptocracy is defined by the crime — enrichment through subverting public institutions and looting the state — which is exactly the petro-state's overridden central bank and jailed auditors. The peer country's founders use provisions written into the code; nothing is described as illegal, so calling it theft (a, c) imports the kleptocracy error the lesson warns against. Their power derives from concentrated wealth, which makes it plutocracy — and since every plutocracy is an oligarchy but not vice versa, (d) loses the precision the ladder exists to provide."
+    concepts: [oligarchy, plutocracy, kleptocracy]
+  - id: q2
+    kind: multiple-choice
+    text: "An entrepreneur holds $900 million of founder's stock she has never sold, takes a $30-million-a-year line of credit secured by that stock to fund her life, and dies still holding the shares, which pass to her children. Which provision is most responsible for the lifetime gain never being reached by the income tax, and why?"
+    choices:
+      - id: a
+        text: "26 U.S.C. sec. 1061 (carried interest), because her gains are recharacterized at capital-gains rates."
+      - id: b
+        text: "26 U.S.C. sec. 4966 (donor-advised funds), because the credit line functions as a charitable deduction."
+      - id: c
+        text: "26 U.S.C. sec. 1014 (stepped-up basis), because at death the assets' basis resets to fair-market value, so the lifetime appreciation is erased for the heirs and never income-taxed by anyone."
+      - id: d
+        text: "There is no single provision; the gain is simply taxed later when the children eventually sell."
+    correct_choice_id: c
+    explanation: "This is the 'buy, borrow, die' relay. The unrealized gain is untaxed while she holds (income tax reaches only realized gains), the loans are not income (borrowed money is owed back), and sec. 1014 is the keystone that closes the loop: at death the basis steps up to fair-market value, so the appreciation that funded a lifetime of borrowing is never income-taxed. (d) is the common error — without sec. 1014 the deferred gain would resurface when the heirs sold, but the step-up erases it, so the children inherit at the new basis and owe tax only on gains after the death. Carried interest and DAFs are different tools shielding different things; neither is doing the work here."
+    concepts: [capitalism]
+  - id: q3
+    kind: multiple-choice
+    text: "A news segment runs the headline 'Report proves billionaires are tax cheats,' citing ProPublica's 3.4 percent 'true tax rate.' A guest responds that the figure is 'meaningless, since the law doesn't tax unrealized gains.' What is the defensible middle ground?"
+    choices:
+      - id: a
+        text: "The headline is right: paying 3.4 percent on wealth growth is by definition cheating."
+      - id: b
+        text: "The guest is right: because the number's denominator is something the law has never taxed, it tells us nothing."
+      - id: c
+        text: "The 3.4 percent rate is real but uses an unconventional wealth-growth denominator on purpose — to surface gains the income tax never reaches; the conduct is lawful avoidance, not evasion, so the live dispute is whether that denominator should count, a policy question separate from legality."
+      - id: d
+        text: "Both speakers are correct, since the report documented both cheating and a meaningless statistic."
+    correct_choice_id: c
+    explanation: "The headline commits the kleptocracy error — conflating avoidance (lawful) with evasion (illegal) — and almost nothing in the files was illegal, so 'cheats' is wrong (a, d). But the guest hides behind a true premise: it is correct that current law does not tax unrealized gains, yet that is precisely the design choice ProPublica is spotlighting, not a reason the figure is empty (b). The honest framing holds two things at once: the number is genuine and the denominator is deliberately unconventional. Whether wealth growth should be the measure is the contestable policy question — and it is a question about the statute, not about whether any taxpayer broke the law."
+    concepts: [capitalism]
+  - id: q4
+    kind: multiple-choice
+    text: "A budget analyst proposes raising $696 billion a year by 'closing the wealth-defense loopholes that let the rich avoid tax.' She cites the IRS tax-gap figure for that amount. What is the central error in conflating these two numbers?"
+    choices:
+      - id: a
+        text: "The tax gap is too small to matter; the real avoidance figure is far larger."
+      - id: b
+        text: "The tax gap measures evasion — legally owed tax that goes unpaid — whereas the wealth-defense industry produces lawful avoidance that owes nothing more; closing 'loopholes' is a change to the statute, while collecting the gap is enforcing the law as written."
+      - id: c
+        text: "The two are the same thing, so the proposal is sound as stated."
+      - id: d
+        text: "The tax gap is unconstitutional to collect after Moore v. United States, so it cannot be raised."
+    correct_choice_id: b
+    explanation: "These are categorically different magnitudes. The $696 billion gross tax gap (tax year 2022) is the illegal shortfall — owed tax that is not paid on time, including evasion, error, and nonfiling — which the law already prohibits and which enforcement, not new legislation, addresses. The wealth-defense industry operates in daylight, files accurate returns, and owes nothing more because the code asks for nothing more; reducing what it shields requires rewriting the statute, not collecting an existing debt. (d) misreads Moore, which upheld the specific tax at issue on narrow grounds and left the broader realization question unresolved — it did not bar collecting owed tax."
+    concepts: [capitalism]
+  - id: q5
+    kind: free-response
+    text: "The lesson establishes that the wealth-defense machine is real and mostly legal, but deliberately withholds the verdict on whether it actually bends policy. Pick the perspective you find most persuasive on that withheld question — the oligarchy realist, the pluralist skeptic, or the public-choice limited-government view — state its strongest version, then engage the strongest objection from a rival camp and name the evidence that would move you toward it."
+    socratic_seed: "A strong answer first separates the two questions the lesson keeps apart: the machinery is real and lawful (established here), but whether it captures policy is contested (Lesson 2), and the realization debate left open in Moore v. United States shows even the constitutional ground is unsettled. The oligarchy realist reads the long-run U-shape — top-0.1% wealth climbing from roughly 7 percent in the late 1970s back toward Gilded-Age levels — plus the professionalized income-defense apparatus as convergent evidence that wealth has bent policy toward the rich; its strongest objection is the pluralist's, that concentration and influence are correlated but the causal arrow is unproven, and that demanding rigorous identification before structural remedies is the disciplined stance. The public-choice view reframes both: the disease is not private wealth but the state's discretionary power to sell favors, so the realist and pluralist are arguing about a symptom. Whichever camp the writer picks, the answer should name movable evidence rather than restate priors: for the realist, credible causal studies showing policy outcomes tracking elite preferences against majority preferences would harden the case (and their absence should soften it); for the pluralist, replicated findings that the income-defense apparatus measurably shifts statutes — not just effective rates — would move them; for the public-choice view, evidence that shrinking discretionary state power reduced rather than merely relocated the wealth-defense market. The neutral move is to hold that none of the three is established by Lesson 1, which proved only that the machine exists and is largely legal — leaving 'does it rule?' genuinely open."
+    concepts: [oligarchy, plutocracy, capitalism]

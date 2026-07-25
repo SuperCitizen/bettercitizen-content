@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: does-wealth-actually-rule
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Winters and Page's Material Power Indices show the top 0.1% hold enough resources to prevail on taxation if they chose to; Gilens finds that when affluent and middle-income preferences diverge, policy tracks the affluent. What is the key difference between what these two findings establish?"
+    choices:
+      - id: a
+        text: "Winters-Page proves causation and Gilens only proves correlation, so the two findings contradict each other."
+      - id: b
+        text: "Winters-Page measures capacity — the potential to prevail inferred from the distribution of resources — while Gilens measures an observed correlation between affluent preferences and outcomes; showing the wealthy could dominate is not the same as showing they did, and even the correlation is not yet proof of causation."
+      - id: c
+        text: "Both findings demonstrate capture, because resources and outcomes are the same kind of evidence."
+      - id: d
+        text: "Gilens measures capacity and Winters-Page measures capture, so the affluent's edge is fully demonstrated."
+    correct_choice_id: b
+    explanation: "The lesson's central methodological seam is between capacity and capture. Winters-Page infer potential from a resource distribution — oligarchs 'need not occupy formal office, conspire together, or even engage extensively in politics' to count. Gilens observes a preference-policy correlation when groups diverge, which is closer to capture but still only a correlation. (a) misreads Winters-Page, which claims potential, not a demonstrated win; (c) collapses a distinct distinction; (d) inverts the two. The point is not that either finding is worthless — it is knowing exactly what each can and cannot prove."
+    concepts: [oligarchy, plutocracy, democracy]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Enns argues that because income groups' policy preferences correlate at about 0.9, a pure median-voter democracy would automatically appear to 'represent the affluent.' Gilens replies in the same 2015 symposium. What is the most accurate statement of what their exchange did and did not settle?"
+    choices:
+      - id: a
+        text: "Enns proved the rich have no influence, and Gilens conceded the point."
+      - id: b
+        text: "Enns showed the preference-gap method cannot by itself separate elite capture from coincidental alignment; Gilens countered that coincidental alignment is not democratic influence, since citizens who get liked outcomes only because the affluent agreed are 'coincident beneficiaries rather than causes' — the argument clarified the identification problem without closing it."
+      - id: c
+        text: "Gilens demonstrated with new data that the affluent causally move policy, ending the dispute."
+      - id: d
+        text: "The two were disputing different numbers from different motives, so the exchange revealed only bias."
+    correct_choice_id: b
+    explanation: "This is an identification problem, not an exoneration. Enns's tight 0.9 correlation means the observed preference-policy link is consistent with both elite domination and an honest median-voter democracy, so the method is underpowered to demonstrate capture. Gilens's rejoinder is normative-causal: outcomes you would have gotten anyway are not 'representation.' (a) overreads Enns — he never claimed zero influence; (c) invents a resolution that did not happen; (d) misses that the two dispute what a correlation is allowed to prove, not the underlying numbers. The argument 'did not resolve; it clarified.'"
+    concepts: [oligarchy, plutocracy, democracy]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A city council creates a discretionary fund that awards exclusive vending permits at officials' choosing. Within a year, firms are spending heavily on lobbyists and consultants to win permits, and the permit-holders are mostly well-connected incumbents. Which scholar's framework most directly explains this pattern, and what does it imply about the cure?"
+    choices:
+      - id: a
+        text: "Dahl's pluralism — power is dispersed, so the lobbying simply reflects healthy group competition and needs no remedy."
+      - id: b
+        text: "Tullock and Krueger's rent-seeking, reinforced by Olson — firms burn real resources competing for a government-granted privilege, and the concentrated few who each gain a large slice organize easily; the implied cure is shrinking the discretionary favor itself, not taxing the firms that chase it."
+      - id: c
+        text: "Bartels's representational weighting — senators weight high-income constituents three-to-one, which is what produced the permits."
+      - id: d
+        text: "Schumpeter's creative destruction — the incumbents will soon be displaced, so the permit system is self-correcting."
+    correct_choice_id: b
+    explanation: "This is the public-choice diagnosis applied to a new case: a discretionary prize calls forth resource-burning competition (Tullock 1967; Krueger 1974), and the concentrated beneficiaries organize where diffuse majorities free-ride (Olson 1965). The implied lever is the state's discretion — remove the favor-granting power and the prize disappears. (a) misapplies Dahl, who describes dispersed power, not a remedy for a captured permit fund; (c) borrows the realist's roll-call finding, which is about constituent weighting in legislatures, not agency rent-seeking; (d) invokes churn, which the tradition uses to dispute durable dynasties, not to explain or excuse an active capture mechanism."
+    concepts: [capitalism, democracy, oligarchy]
+
+  - id: q4
+    kind: multiple-choice
+    text: "On the empirical durability of top fortunes, Kaplan-Rauh (2013) and Korom-Lutter-Beckert (2017) analyzed the same Forbes 400 list and reached findings often read as opposed. What is the accurate account of what each found?"
+    choices:
+      - id: a
+        text: "Kaplan-Rauh found fortunes are entirely inherited; Korom-Lutter-Beckert found they are entirely self-made."
+      - id: b
+        text: "Kaplan-Rauh found the share who 'grew up wealthy' fell from about 60% in 1982 to roughly 32% by 2011, reading top fortunes as increasingly rewards to scalable talent; Korom-Lutter-Beckert found that even as entry became more entrepreneurial, heirs were significantly more likely to remain on the list — churn at the door does not prove churn at the top."
+      - id: c
+        text: "Both found that inherited advantage has disappeared entirely, settling the question in favor of the talent view."
+      - id: d
+        text: "Both found that the list is frozen with no entry or exit, confirming a permanent ruling class."
+    correct_choice_id: b
+    explanation: "The two findings are about different margins, which is why both can be true. Kaplan-Rauh measure entry — who newly arrives — and find it more entrepreneurial over time (creative-destruction-friendly). Korom-Lutter-Beckert measure persistence — who stays — and find inherited advantage entrenches. (a) caricatures both into absolutes neither claims; (c) and (d) each pick one side and overstate it into a settled verdict. The lesson explicitly lists this as 'genuinely contested': whether top fortunes are durable dynasties or churning rewards to talent."
+    concepts: [capitalism, plutocracy]
+
+  - id: q5
+    kind: free-response
+    text: "The oligarchy realist and the pluralist skeptic dispute the same evidence — whether the preference-policy correlation proves influence. The public-choice scholar disputes the frame itself. Pick the position you find most persuasive for the specific question of whether wealth captures policy in the United States, explain it, then engage the strongest point from a camp you did not pick — and name the evidence that would move you."
+    socratic_seed: "A strong answer commits to one frame and defends it against the best opposing case, not the weakest. If you favor the realist, the strongest threat is Enns's identification problem — a 0.9 preference correlation means a median-voter democracy would look identical to capture — and Branham-Soroka-Wlezien's finding that rich and middle class agree ~90% of the time, with only a modest rich edge inside ~185 divergent issues; movable evidence: design-based studies showing that, holding median preferences fixed, changes in elite preference or spending do not causally move policy. If you favor the skeptic, the strongest threat is Gilens's reply that coincidental alignment is not democratic influence — non-affluent citizens who matter only when they agree with the affluent are 'coincident beneficiaries rather than causes'; movable evidence: natural experiments showing elite preference or spending shifts causally moving policy beyond the divergent slice. If you favor the public-choice reframe, the strongest threat is the realist's point that capacity (Winters-Page) and built-in drift (Hacker-Pierson) operate even without obvious rent-granting; movable evidence: fortunes entrenching across generations (the Korom-Lutter-Beckert persistence finding, extended) even where the state's discretionary favors are minimal, which would show that shrinking government does not shrink capture. The honest closing note is that the realist-versus-public-choice split is about mechanism, not measurement, so no amount of preference data can adjudicate it — a defensible position picks a frame, names what would change its mind, and concedes what remains genuinely contested."
+    concepts: [oligarchy, plutocracy, capitalism, democracy]

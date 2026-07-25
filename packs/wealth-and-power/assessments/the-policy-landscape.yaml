@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A friend says, 'The Supreme Court already ruled in Moore v. United States (2024) that a federal wealth tax is unconstitutional — that's settled.' Drawing only on what Moore actually held, what is the precise correction?"
+    choices:
+      - id: a
+        text: "Correct as stated — Moore struck down the wealth tax 5-4, so the apportionment question is now closed."
+      - id: b
+        text: "Wrong on the vote and the holding: Moore upheld the Mandatory Repatriation Tax 7-2 on the narrow ground that Congress may attribute an entity's realized, undistributed income to its shareholders, and a footnote expressly reserved 'taxes on holdings, wealth, or net worth' — there is no federal wealth tax to rule on, and the constitutional question is left open."
+      - id: c
+        text: "Wrong only on direction — Moore actually upheld a federal wealth tax, so a future tax is now safe from constitutional challenge."
+      - id: d
+        text: "Wrong because Moore held that the 16th Amendment authorizes any tax Congress chooses, mooting the apportionment clause entirely."
+    correct_choice_id: b
+    explanation: "Moore was decided 7-2 (Kavanaugh for five, Barrett and Alito concurring in the judgment, Thomas and Gorsuch dissenting) — not the 5-4 cliffhanger it is often misremembered as. It upheld the 2017 repatriation tax on a deliberately narrow theory: attributing a corporation's realized but undistributed income to its shareholders. A footnote pointedly reserved taxes on wealth, holdings, net worth, and appreciation. So (a) and (c) both invent a wealth-tax holding that does not exist, and (d) overstates the 16th Amendment, which carves out income specifically, not 'any tax.' The honest statement is that Moore neither blessed nor killed a wealth tax — a future Court inherits the apportionment question cold."
+    concepts: [oligarchy, plutocracy, capitalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Sponsors of the Ultra-Millionaire Tax Act announced it would raise $6.2 trillion over ten years. A reporter wants to characterize that figure responsibly. Which framing is most accurate?"
+    choices:
+      - id: a
+        text: "It is the official Congressional Budget Office score, so it can be reported as the authoritative projection Congress will book."
+      - id: b
+        text: "It is the sponsors' own commissioned estimate — an advocacy figure, not a score from CBO or the Joint Committee on Taxation — and wealth-tax projections are unusually fragile because they hinge on contested assumptions about valuation, avoidance, and behavioral response."
+      - id: c
+        text: "It is a Joint Committee on Taxation estimate, which makes it the nonpartisan baseline both parties accept."
+      - id: d
+        text: "It is a worst-case ceiling that the tax could never actually reach, so it should be reported as deliberately inflated."
+    correct_choice_id: b
+    explanation: "The $6.2 trillion came from analysis the senator's office commissioned, not from the nonpartisan scorekeepers — CBO and JCT — whose numbers Congress actually books. That distinction is the whole point: an advocacy estimate is not the same as an official score, so (a) and (c) misattribute it. And (d) overcorrects in the other direction — the figure is not necessarily an inflated ceiling, it is simply uncertain, because wealth-tax revenue depends on valuation, avoidance, and behavioral assumptions that reasonable analysts dispute by wide margins. Treating a sponsor's number as a settled forecast is exactly the error the lesson warns against."
+    concepts: [oligarchy, plutocracy, capitalism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Switzerland has levied cantonal net wealth taxes for over a century while most European wealth taxes were repealed. According to the OECD's own 2018 study, what best explains the contrast — and what does it imply for a proposed U.S. wealth tax?"
+    choices:
+      - id: a
+        text: "Switzerland succeeds because it sets very high rates on a narrow base of financial assets, proving that aggressive rates are the key to durability."
+      - id: b
+        text: "Switzerland succeeds because it taxes a broad base at low rates with strong enforcement, while the repealed taxes tended to pair high rates with narrow, exemption-riddled bases that invited avoidance — suggesting the European failures were partly failures of design, though whether the U.S. could administer such a tax given far greater asset complexity remains open."
+      - id: c
+        text: "The OECD found that wealth taxes have large, well-documented negative economic effects everywhere, so Switzerland is simply an anomaly with no lesson for the U.S."
+      - id: d
+        text: "The contrast shows wealth taxes only work in small countries, so the size of the U.S. economy alone makes the design question irrelevant."
+    correct_choice_id: b
+    explanation: "The OECD attributed the European retreat to valuation difficulty, narrow exemption-riddled bases, avoidance and flight, and modest revenue relative to administrative burden — and noted Switzerland's durable system does the opposite: broad base, low rates, third-party valuation. So (a) inverts the actual design lesson. The same OECD report found the claimed large negative economic effects had 'limited empirical support,' which sinks (c). And (d) ignores that the report frames this as a design question, not a country-size question — which is why the genuinely open issue is administrability at U.S. scale, not whether a wealth tax can work in principle. The strongest neutral reading holds the design-lesson rebuttal and the administrability caution side by side."
+    concepts: [oligarchy, plutocracy, capitalism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Three concentration-limiting tools — OECD Pillar Two, the Corporate Transparency Act, and the 2023 Merger Guidelines — each advanced and then partly retreated in 2024-25. A reader wants the one structural feature their retreats share. Which is it?"
+    choices:
+      - id: a
+        text: "Each was struck down on the merits by the Supreme Court after a constitutional challenge."
+      - id: b
+        text: "Each was repealed by an act of Congress after bipartisan votes."
+      - id: c
+        text: "Each was narrowed through executive-branch discretion rather than by Congress or the courts: Pillar Two via a G7 'side-by-side' negotiation, the CTA via a FinCEN interim final rule, and the Merger Guidelines' durability via who chairs the agencies — illustrating how reversible policy is when it lives in agency discretion that changes hands with administrations."
+      - id: d
+        text: "Each was a purely symbolic measure that never took legal effect anywhere, so 'retreat' is a misnomer."
+    correct_choice_id: c
+    explanation: "None of the three was reversed by Congress or struck down on the merits, so (a) and (b) misidentify the venue. The shared feature is that each rollback happened through the executive branch: Pillar Two's U.S. carve-out came from the June 2025 G7 statement, the CTA's domestic exemption from a FinCEN interim final rule, and the Merger Guidelines' fate turns on agency leadership. That is the lesson's veto-point echo — concentration-limiting policy is unusually reversible because so much of it sits in agency discretion. And (d) is wrong because these tools did take effect (Pillar Two's income-inclusion rule applied abroad from 2024; the CTA registry existed; the guidelines issued) before being narrowed."
+    concepts: [antitrust, capitalism]
+
+  - id: q5
+    kind: free-response
+    text: "The lesson presents three camps reading the same policy map: the oligarchy realist, the pluralist skeptic, and the public-choice limited-government view. Pick the camp whose reading you find most persuasive on the question of why every concentration-limiting tool stalled or retreated. Then state the strongest version of the camp you find least persuasive, and name the specific evidence that would move you toward it."
+    socratic_seed: "A strong answer commits to one reading and then does real work for an opponent rather than caricaturing it. Example: one might find the oligarchy realist most persuasive — the estate exclusion made permanent at $15M/person, Pillar Two carved open for U.S. firms, the beneficial-ownership registry gutted for domestic shells, all within a few years, fits Gilens-and-Page-style domination better than coincidence. But the strongest opposing reading is the pluralist skeptic's: Moore split 7-2 with cross-cutting concurrences (a Court wrestling with a hard text, not taking orders), the 'death tax' has a genuine bipartisan constituency including merely affluent farmers and small-business owners, and the wealth tax may stall because the public is ambivalent and the policy is genuinely hard to administer, not because the rich command the Senate. The public-choice view supplies a third frame: the rollbacks reflect a discretionary state that wealth competes to capture, not private wealth as such. Movable evidence cuts in identifiable directions: longitudinal proof that policy tracks the preferences of the top 0.1 percent specifically, against majorities, across many issues would move one toward the oligarchy realist; evidence that these outcomes track ordinary cross-class coalition politics (per Branham, Soroka and Wlezien's finding that income groups agree ~90 percent of the time) would move one toward the pluralist; evidence that concentrated wealth distorts policy even where the state holds little discretionary favor to sell would weaken the public-choice frame. The discipline the pack trains is to take a position and then build the strongest case against it — naming what would actually change your mind, not what conveniently would not."
+    concepts: [oligarchy, plutocracy, antitrust, capitalism]

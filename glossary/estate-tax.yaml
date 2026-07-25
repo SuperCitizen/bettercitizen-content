@@ -1,0 +1,16 @@
+slug: estate-tax
+name: Estate Tax
+short_definition: "A one-time federal tax on the transfer of a person's estate to their heirs at death, applied only to the portion above a large exemption."
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English: 'estate' (via Old French estat, condition or property) plus 'tax'; a levy assessed on a decedent's estate before it passes to heirs"
+why_it_matters: "The estate tax is the main federal check on dynastic wealth, but a high exemption (made permanent at 15 million dollars per person in 2025) combined with the stepped-up basis and dynasty trusts lets most large fortunes pass with little or no tax."
+context_example: "For 2025 the federal estate and gift tax exemption was 13.99 million dollars per individual with a 40 percent top rate; critics call it a 'death tax,' defenders a brake on inherited oligarchy."
+related_term_slugs:
+  - stepped-up-basis
+  - dynasty-trust
+  - wealth-tax
+  - gilded-age
+tags: []
