@@ -20,6 +20,8 @@ public — that is the whole point.
 | `issues/` | Issue cards + per-issue charitable framings (left/center/right). | YAML, one file per issue |
 | `organizations/` | Civic + governmental organizations. | YAML, one file per org |
 | `persons/` | **Editorial** people (tier 3/4 commentators, journalists, public figures). | YAML, one file per person |
+| `touchstones/` | Touchstones — short memorable lines in four kinds (`saying`/`quote`/`fact`/`number`), the corpus behind the app's recall training. Authoring standard: [TOUCHSTONES.md](TOUCHSTONES.md). | YAML, one file per item |
+| `meta/` | Repo-level data read by the validator *and* the authoring prompts (e.g. `banned-sources.yaml`). | YAML |
 
 > Federal and state officeholders (tier 1/2) are **not** authored here — the app
 > imports those from GovTrack and Open States. This repo is editorial content
@@ -87,4 +89,21 @@ CONTENT_LOCAL_PATH=../supercitizen-content pnpm validate-content
 
 ## License
 
-See [LICENSE](./LICENSE).
+[CC BY-SA 4.0](./LICENSE) — with the carve-outs any quotation corpus needs,
+because parts of what this repo *contains* were never ours to license:
+
+- **Curation, annotations, and metadata** — the selection and arrangement,
+  lesson prose, every Touchstone `explanation`, origin and correction notes,
+  and the structured metadata around them — are licensed **CC BY-SA 4.0**.
+- **Quoted text** — the `line` of a `quote` Touchstone, and any quoted
+  passage elsewhere — **remains © its original authors** where copyright
+  applies. It is reproduced here as brief, attributed quotation (fair use);
+  the license above does not, and cannot, relicense it.
+- **Facts are not copyrightable, and US government works are public domain**
+  (17 U.S.C. § 105) — statutes, court opinions, official statistics, and
+  official government speech reproduced here carry no copyright at all.
+- **Contributor credits:** a `contributed_by` display name is published with
+  the content it credits and, like the rest of a public git history, is
+  retained permanently — in this repo, in releases, and wherever the content
+  is redistributed with its CC BY-SA attribution. Contribute under a name you
+  are content to see in that record for good.
