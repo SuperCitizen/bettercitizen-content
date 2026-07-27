@@ -373,6 +373,36 @@ Batch 1 exists to harden this document, not to fill the corpus. Contract:
 - Validator green before each PR opens. Acceptance is PRs merged + validator
   green — no retro gate.
 
+### Backfill after batch 1 — lesson-side `touchstone_slugs`
+
+Batch 1 authors **no lesson edits** (rule above: facts link outward via
+`related`, and that is the whole link). The app side is already wired the
+other way ([SuperCitizen/bettercitizen.ai#25]): a lesson listing
+`touchstone_slugs` renders those `fact` Touchstones as an in-lesson
+flashcard drill, and grading one joins it to the learner's deck — so the
+moment the batch-1 **facts** PR merges, a small follow-up PR here makes
+them reachable from the curriculum.
+
+That backfill PR adds `touchstone_slugs` only where a lesson actually
+teaches the fact, using **merged slugs only** — never slugs that don't
+exist yet (`validate-content` fails a dangling reference). Only the
+`fact` kind is lesson-referenced; quotes, sayings, and numbers keep
+linking outward via `related`. Candidate lessons, matching the batch-1
+theme (elections & voting + constitutional structure):
+
+- `packs/constitution-basics/lessons/preamble-and-articles.md`
+- `packs/three-branches/lessons/01-overview.md` + `02-checks-and-balances.md`
+- `packs/bill-of-rights/lessons/first-ten-amendments.md`
+- `packs/federalism/lessons/federal-vs-state.md`
+- `packs/electoral-college/lessons/01-how-it-works.md` +
+  `03-how-its-played-out.md`
+- `packs/voting-systems-overview/lessons/01-the-five-systems.md`
+- `packs/primaries-and-caucuses/lessons/01-how-it-works.md`
+- `packs/voter-id-and-mail-ballots/lessons/01-how-it-works.md`
+- `packs/how-bills-become-law/lessons/from-idea-to-law.md`
+
+[SuperCitizen/bettercitizen.ai#25]: https://github.com/SuperCitizen/bettercitizen.ai/issues/25
+
 ## Worked examples
 
 One per kind, fully sourced, final field names. The `number` is the
