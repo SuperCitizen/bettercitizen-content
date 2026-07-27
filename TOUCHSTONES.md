@@ -337,6 +337,50 @@ design.
    **added-files-only** — no edits to lessons, glossary, or app-side
    anything.
 
+## Consuming a contributed lead
+
+Issues labelled **`contributed-lead`** are learner nominations filed from the
+app (the `Touchstone suggestion` issue template — a proposed kind, a claim, a
+value, the citation the learner had or an explicit *none*, and their "why it
+belongs"). They are **leads, not submissions**
+([bettercitizen.ai#14](https://github.com/SuperCitizen/bettercitizen.ai/issues/14)):
+the learner contributed the idea; every compliance-bearing field — `line`,
+`explanation`, `sources`, the per-kind fields — is authored fresh, from
+primary sources, against this document. Never copy the issue's wording into a
+`line` on the issue's authority; the card was written to be remembered, not to
+clear the sourcing bar.
+
+How a batch consumes them:
+
+- [ ] **Leads pool as theme input.** At step 1 of a batch, read the open
+      `contributed-lead` issues. They are evidence about which anchored theme
+      to pick next — accumulated leads on one topic are a strong signal. A
+      lead does **not** become its own PR, and there is no per-lead SLA.
+- [ ] **A lead taken up goes through the full per-item pipeline** — research,
+      per-kind bar, dedupe — exactly as if the agent had proposed it. The
+      usual outcomes apply: reclassified (a saying with a named author becomes
+      a `quote`), trimmed to the word cap, re-entered attributed, or refused.
+      The merged entry may differ substantially from the issue, and that is
+      the design.
+- [ ] **`contributed_by` is copied from the issue's credit line only.** If the
+      issue's first line reads `Suggested by **@<name>** (self-chosen display
+      name)`, carry `<name>` — exactly, without the `@` — into the new item's
+      `contributed_by`. If it reads `Suggested by a BetterCitizen learner`,
+      the nomination is anonymous: **omit the key entirely.** Never substitute
+      the GitHub username of the issue's author or anyone in the thread —
+      the bot files on learners' behalf, so the author field means nothing.
+- [ ] **Close the loop on the issue, briefly.** When a lead's item merges,
+      comment with the slug and close; when a lead is declined at the bar,
+      say which gate fired in one line and close. The issue is the record —
+      the learner's card links to it — so an honest close (including a
+      decline) is part of the deliverable. No reply is guaranteed by the
+      product, so a backlog is acceptable; a silent drop of an *examined*
+      lead is not.
+- [ ] **The credit is for the lead, not authorship.** The app renders
+      `contributed_by` as a footer line far from `sources` and any byline.
+      Nothing in the YAML or the PR body should present the contributor as
+      the origin of the claim.
+
 ## Batch 1 — the calibration batch
 
 Batch 1 exists to harden this document, not to fill the corpus. Contract:
