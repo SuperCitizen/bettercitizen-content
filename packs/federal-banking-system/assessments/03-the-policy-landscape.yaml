@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What was the headline change in the 2018 Economic Growth, Regulatory Relief, and Consumer Protection Act (S.2155)?"
+    choices:
+      - id: a
+        text: "It abolished the FDIC."
+      - id: b
+        text: "It raised the threshold for enhanced supervision (stress tests, tougher liquidity rules) from $50B to $250B in assets, freeing many mid-size regional banks."
+      - id: c
+        text: "It created the Consumer Financial Protection Bureau."
+      - id: d
+        text: "It re-imposed the full Glass-Steagall separation of commercial and investment banking."
+    correct_choice_id: b
+    explanation: "S.2155 was the partial rollback of Dodd-Frank. It raised the enhanced-supervision threshold from $50B to $250B, exempting dozens of regional banks from the toughest stress-testing and liquidity rules. Supporters said the strictest rules were never meant for regional lenders; critics warned mid-size banks can still be dangerous. That warning was tested when Silicon Valley Bank (~$209B) failed in 2023."
+    concepts: [dodd-frank, bank-regulation]
+
+  - id: q2
+    kind: multiple-choice
+    text: "During the 2023 failures of SVB and Signature, what did regulators do that went beyond normal deposit insurance?"
+    choices:
+      - id: a
+        text: "They let all depositors lose everything above $250,000."
+      - id: b
+        text: "They invoked a systemic risk exception to guarantee ALL deposits, including uninsured balances above the $250,000 limit, to stop the run from spreading."
+      - id: c
+        text: "They nationalized every bank in the country."
+      - id: d
+        text: "They raised the statutory deposit-insurance limit to $10 million by regulation."
+    correct_choice_id: b
+    explanation: "Regulators invoked the systemic risk exception to protect ALL deposits at SVB and Signature — including uninsured balances above $250,000 — and the Fed opened the Bank Term Funding Program (lending against bonds at par). Each Lesson-2 camp read this differently: stability advocates blamed the 2018 deregulation; market-discipline advocates saw the safety net stretched further than ever; monetary-reform advocates noted the Fed's own rate hikes caused SVB's bond losses in the first place."
+    concepts: [too-big-to-fail, bank-regulation]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What did the Supreme Court decide about the CFPB in 2024 (CFPB v. CFSA), and what remained unsettled?"
+    choices:
+      - id: a
+        text: "It abolished the CFPB; nothing remained unsettled."
+      - id: b
+        text: "It upheld the CFPB's funding mechanism as constitutional, but the political fight over the bureau's funding, staffing, and existence stayed wide open."
+      - id: c
+        text: "It ruled the CFPB must be funded only by congressional appropriations going forward."
+      - id: d
+        text: "It transferred the CFPB's powers to the Federal Reserve."
+    correct_choice_id: b
+    explanation: "In CFPB v. CFSA (2024), the Supreme Court rejected the challenge to the bureau's funding (drawn from the Fed rather than congressional appropriations), settling the constitutional question. But the political question stayed open: the bureau's funding, leadership, staffing, and very existence have been targets of repeated efforts to shrink or dismantle it, and its reach swings with each administration. Whether a dedicated consumer regulator should exist at all is still a fault line."
+    concepts: [bank-regulation]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which of these changes can U.S. bank regulators generally make ON THEIR OWN, without an act of Congress?"
+    choices:
+      - id: a
+        text: "Changing the $250,000 deposit-insurance limit."
+      - id: b
+        text: "Authorizing or prohibiting a central bank digital currency."
+      - id: c
+        text: "Revising bank capital, liquidity, and stress-test rules (as in the Basel III 'endgame')."
+      - id: d
+        text: "Abolishing the Consumer Financial Protection Bureau."
+    correct_choice_id: c
+    explanation: "Regulators can do a great deal within their statutes: the Fed, OCC, and FDIC write and revise capital, liquidity, and stress-test rules (this is how Basel III endgame and most post-2023 tightening happen), and the Fed sets rates and opens emergency facilities. This is why so much policy swings with each administration. But only Congress can move the big levers — the $250,000 insurance limit, the $250B threshold, a stablecoin framework, authorizing/prohibiting a CBDC, restructuring the CFPB, or changing the Fed's mandate or independence."
+    concepts: [bank-regulation, cbdc]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one live fight from this lesson — Basel III capital, the CFPB, stablecoins/CBDC, or Fed independence — and explain how it is really one of the three Lesson-2 camps' arguments playing out in a concrete policy decision."
+    concepts: [bank-regulation, fed-independence, stablecoin]
+    socratic_seed: "Examples: Basel III endgame IS the financial-stability vs. market-discipline fight over how high capital should go (Admati-Hellwig vs. the industry). Fed independence and a CBDC are the monetary-reform camp's 'who controls money, with what accountability?' question made concrete — a digital dollar concentrates monetary power, which is exactly what that camp warns about. The CFPB fight is whether a dedicated public regulator reduces harm (stability/consumer-protection view) or whether market discipline and existing agencies suffice. Whichever you pick, name the camp, the value at stake, and what the decision would actually change."
