@@ -1,0 +1,13 @@
+slug: pied-a-terre-tax
+name: Pied-à-Terre Tax
+short_definition: A recurring surcharge on high-value homes that are not the owner's primary residence, charged annually on top of ordinary property tax. It differs from a vacancy tax, which targets units sitting empty, and from a mansion tax, which is collected once at the moment of sale.
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "French: pied à terre (literally 'foot on the ground'), originally a temporary lodging or stopping place. English borrowed the phrase in the early 19th century for a small secondary residence kept for occasional use; the policy name simply attaches the tax to the kind of property it targets"
+why_it_matters: A pied-à-terre tax forces a city to answer whether housing is primarily shelter or primarily an asset. Supporters argue that non-resident owners consume city services and bid up prices while paying no resident income tax and casting no vote there. Opponents argue such properties are hard to value fairly, that mobile capital will simply move to a rival city, and that leaning on a small set of owners makes revenue more volatile, not less.
+context_example: New York's pied-à-terre tax was first floated in 2014 and collapsed in 2019, when Albany substituted a one-time mansion tax instead; a version finally passed in the 2026-27 state budget and took effect on July 1, 2026, applying an annual surcharge to New York City homes that are not primary residences.
+related_term_slugs:
+  - fiscal-policy
+tags: []
