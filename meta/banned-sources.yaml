@@ -1,0 +1,36 @@
+# Domains that may never appear in a Touchstone's `sources:`.
+#
+# One list, two readers, zero drift: the app's `validate-content` loads this
+# file and hard-errors on any source URL whose host matches an entry (SPEC
+# §16.2 extension 2), and TOUCHSTONES.md — the seed prompt — points here
+# rather than restating the list. Matching is by hostname suffix, so
+# `goodreads.com` also covers `www.goodreads.com`.
+#
+# Why these are banned outright (#5 sourcing survey): quote aggregators
+# carry no sourcing, freely invent and launder attributions, and are the
+# single largest vector for the misattributions this corpus exists to
+# correct. There is no legitimate use of any of these as a source for any
+# kind. Cite the archive that holds the material instead — Founders Online,
+# the American Presidency Project, govinfo, LoC/NARA — per TOUCHSTONES.md.
+#
+# The file is read by machines: keep the shape exactly
+# `domains: [<hostname>, …]` — reasons stay up here in comments.
+domains:
+  # The four the decision record names (#5, #11):
+  - brainyquote.com # no sourcing, attribution-laundering at scale; the canonical bad citation
+  - azquotes.com # no sourcing; mirrors and amplifies BrainyQuote-tier misattributions
+  - goodreads.com # quote pages are user-submitted with zero verification (book metadata is not a Touchstone source either)
+  - quotefancy.com # wallpaper-quote aggregator; no sourcing at all
+  # Same category, same reasoning ("… and other aggregators"):
+  - quotes.net # user-submitted (STANDS4); no editorial verification
+  - quotationspage.com # user-submitted collections; no primary sourcing
+  - thinkexist.com # defunct aggregator whose unsourced copies still circulate
+  - izquotes.com # aggregator; scrapes other aggregators
+  - wisdomquotes.com # curated-looking but unsourced
+  - quoteland.com # user-submitted; no verification
+  - quotepark.com # aggregator; machine-collected attributions
+  - allauthor.com # aggregator; no sourcing
+  # Never a source for a different reason — it is the negative-check surface:
+  # a Wikiquote check is recorded in `attribution_checks: [wikiquote]`, never
+  # cited in `sources:` (user-generated, never terminal — #5, #11 §5).
+  - wikiquote.org

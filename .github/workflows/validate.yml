@@ -5,11 +5,15 @@
 # runs the app's DB-free validator (`pnpm validate-content`). The
 # standalone structural checks (no app needed) live in check-mdx.yml.
 #
-# NOTE: this job will fail until the app's MDX migration lands — the app's
-# loader/validator still expects .md lessons; see MIGRATION.md.
+# The app is checked out at `main` by default so content is always
+# validated against the schemas the app currently ships. Dispatch the
+# workflow with a different `sc_app_ref` to validate against another
+# app ref, or change the fallback below to pin a tag/SHA.
 #
-# The app is checked out at `main` by default. Pin SC_APP_REF to a tag
-# if you need validation against a specific app release.
+# While the app repo (SuperCitizen/bettercitizen.ai) is private, the
+# default Actions token cannot read it: add a fine-grained PAT with
+# contents:read on the app repo as the `SC_APP_TOKEN` secret. If the
+# app repo goes public, the secret becomes unnecessary.
 
 name: Validate content
 
@@ -17,6 +21,12 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      sc_app_ref:
+        description: App ref (branch/tag/SHA) to validate against
+        required: false
+        default: main
 
 concurrency:
   group: validate-${{ github.ref }}
@@ -28,22 +38,30 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      SC_APP_REF: main
+      SC_APP_REF: ${{ inputs.sc_app_ref || 'main' }}
     steps:
       - name: Checkout content
         uses: actions/checkout@v4
         with:
           path: bettercitizen-content
+          persist-credentials: false
 
       - name: Checkout app (schemas + validator)
         uses: actions/checkout@v4
         with:
           repository: SuperCitizen/bettercitizen.ai
           ref: ${{ env.SC_APP_REF }}
+          token: ${{ secrets.SC_APP_TOKEN || github.token }}
           path: bettercitizen.ai
+          persist-credentials: false
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
+        with:
+          # Both checkouts live in subdirectories, so point the action at
+          # the app's `packageManager` field — the workspace root has no
+          # package.json of its own.
+          package_json_file: bettercitizen.ai/package.json
 
       - name: Setup Node
         uses: actions/setup-node@v4
