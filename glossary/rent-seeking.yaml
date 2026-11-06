@@ -1,0 +1,16 @@
+slug: rent-seeking
+name: Rent-Seeking
+short_definition: "Spending resources to capture government-granted privileges or wealth transfers rather than to create new value."
+body_md: ""
+category: economy
+difficulty: advanced
+status: active
+etymology: "English: 'rent' in the economic sense (income from a privileged position, not productive effort); the term was coined by economist Anne Krueger in 1974, building on Gordon Tullock's 1967 analysis"
+why_it_matters: "Rent-seeking reframes inequality and corruption as byproducts of discretionary state power: wherever government can grant a tariff, license, or tax break, firms burn real resources competing for it — a core idea of public-choice economics."
+context_example: "Lobbying for a special tax carve-out is classic rent-seeking: the resources spent winning the privilege are a pure social loss, producing nothing but a transfer from the public to the winner."
+related_term_slugs:
+  - public-choice
+  - regulatory-capture
+  - lobbyist
+  - free-rider-problem
+tags: []

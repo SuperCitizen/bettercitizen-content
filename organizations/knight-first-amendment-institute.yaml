@@ -1,0 +1,19 @@
+slug: knight-first-amendment-institute
+name: Knight First Amendment Institute
+kind: think-tank
+subtype: university-affiliated
+description: "Litigation and research organization created in 2016 by Columbia University and the Knight Foundation as an independent 501(c)(3). Defends freedoms of speech and the press through lawsuits — it has sued administrations of both parties — alongside research on social media, surveillance, and government transparency."
+website: https://knightcolumbia.org
+jurisdiction: national
+partisan_lean: none
+parent_org: columbia-university
+org_relationship: independent-affiliated
+influence_channels:
+  - litigation
+  - amicus-briefs
+  - policy-research
+concept_tags:
+  - first-amendment
+  - section-230
+  - whistleblower
+is_active: true

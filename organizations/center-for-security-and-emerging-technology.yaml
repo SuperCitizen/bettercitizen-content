@@ -1,0 +1,18 @@
+slug: center-for-security-and-emerging-technology
+name: Center for Security and Emerging Technology
+kind: think-tank
+subtype: university-affiliated
+description: "Policy research center at Georgetown University's Walsh School of Foreign Service, founded in 2019, focused on artificial intelligence, semiconductors, and national security. Its analysts are among the most frequent congressional witnesses on AI and U.S.–China technology competition."
+website: https://cset.georgetown.edu
+jurisdiction: national
+partisan_lean: none
+parent_org: georgetown-university
+org_relationship: unit-of
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - training-staffers
+concept_tags:
+  - think-tank
+  - cyber-warfare
+is_active: true

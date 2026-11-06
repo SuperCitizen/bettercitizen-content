@@ -1,0 +1,159 @@
+---
+schema: bettercitizen.lesson/v1
+slug: platforms-and-the-modern-square
+kind: reading
+title: Platforms and the modern public square
+objectives:
+  - Apply the state-action doctrine to platform moderation and explain why most "censorship" claims against platforms fail in court
+  - State what Section 230(c)(1) and (c)(2) actually say, and what each immunizes
+  - Summarize the NetChoice framework for content curation and identify what Moody left undecided
+  - Distinguish permissible government persuasion from unconstitutional coercion after Vullo, and explain why Murthy was decided on standing
+  - Describe what TikTok v. Garland and FSC v. Paxton held — precisely — and what followed each
+concepts:
+  - first-amendment
+  - section-230
+  - civil-liberties
+  - standing
+sources:
+  - type: statute
+    citation: '47 U.S.C. § 230 (1996) — "No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider."'
+    url: https://www.law.cornell.edu/uscode/text/47/230
+  - type: court-opinion
+    citation: 'Manhattan Community Access Corp. v. Halleck, 587 U.S. 802 (2019) — a private entity hosting the speech of others is not, for that reason, a state actor.'
+    url: https://www.oyez.org/cases/2018/17-1702
+  - type: court-opinion
+    citation: 'Moody v. NetChoice, LLC, 603 U.S. 707 (2024) — facial rulings on the Texas and Florida must-carry laws vacated; a majority holds that content curation is protected editorial activity.'
+    url: https://www.law.cornell.edu/supremecourt/text/22-277
+  - type: court-opinion
+    citation: 'National Rifle Association v. Vullo, 602 U.S. 175 (2024) — unanimous; a regulator may not coerce third parties to cut ties with a speaker in order to punish its advocacy.'
+    url: https://www.supremecourt.gov/opinions/23pdf/22-842_6kg7.pdf
+  - type: court-opinion
+    citation: 'Murthy v. Missouri, 603 U.S. 43 (2024) — plaintiffs lacked standing to enjoin federal communications with platforms; the merits of "jawboning" were not reached.'
+    url: https://www.supremecourt.gov/opinions/23pdf/23-411_3dq3.pdf
+  - type: court-opinion
+    citation: 'TikTok Inc. v. Garland, 604 U.S. ___ (2025) — per curiam; the divestiture-or-ban act is facially content neutral and survives intermediate scrutiny as applied to TikTok.'
+    url: https://www.supremecourt.gov/opinions/24pdf/24-656_ca7d.pdf
+  - type: court-opinion
+    citation: 'Free Speech Coalition v. Paxton, 606 U.S. ___ (2025) — age-verification for commercial sites publishing material obscene to minors triggers and survives intermediate scrutiny.'
+    url: https://supreme.justia.com/cases/federal/us/606/23-1122/
+  - type: website
+    citation: 'Knight First Amendment Institute, case page for AAUP v. Rubio (D. Mass.) — filings, the September 2025 post-trial opinion, and the January 2026 remedial order under appeal.'
+    url: https://knightcolumbia.org/cases/aaup-v-rubio
+  - type: website
+    citation: 'NPR, "TikTok finalizes deal to form new American entity" (Jan. 22, 2026) — the closing of the qualified divestiture into a new U.S. joint venture managed by Oracle, Silver Lake, and MGX, with ByteDance retaining 19.9 percent.'
+    url: https://www.npr.org/2026/01/22/nx-s1-5685456/tiktok-finalizes-deal-to-form-new-american-entity
+  - type: book
+    citation: 'Jeff Kosseff, The Twenty-Six Words That Created the Internet (Cornell University Press, 2019) — the standard history of Section 230.'
+perspectives:
+  - name: Platform-editorial-rights view
+  - name: Common-carrier reformer
+  - name: Accountability reformer
+duration_min: 19
+---
+
+# Platforms and the modern public square
+
+On January 17, 2025, the Supreme Court unanimously upheld a federal law requiring TikTok's Chinese parent company to sell the platform or see it banned. Two days later, when the law took effect, the app went dark for its roughly 170 million American users — then came back on, and sat unenforced under successive presidential orders until a brokered divestiture closed in January 2026. Every thread of this lesson runs through that episode: a public square that is privately owned, a Congress that can reach it only on certain rationales, an executive with discretion over whether law is enforced at all, and a [[term:first-amendment]] written for governments now refereeing fights among governments, companies, and the people who post.
+
+## The square is privately owned
+
+Start from the state-action doctrine of Lesson 1, because every platform dispute begins there. In *Manhattan Community Access Corp. v. Halleck* (2019), the Court held 5–4 that a private nonprofit running New York's public-access TV channels was not a state actor, even though it operated a forum the city created for public speech. Justice Kavanaugh's majority confined the "public function" route to state action to functions *traditionally and exclusively* performed by government — and hosting other people's speech has never been one. The holding transfers directly: when a platform demonetizes, deranks, labels, or bans, no First Amendment claim lies against it, which is why the steady stream of "platform censorship" suits by suspended users has gone nowhere. Justice Sotomayor's dissent — an operator standing in the city's shoes should inherit the city's obligations — marks the road not taken.
+
+But *Halleck* settled only the easy direction. Two harder questions survived it. May the *government force* platforms to carry speech they want to remove? And when officials *pressure* platforms to remove speech the government dislikes, does private moderation become state censorship in disguise? The first is the NetChoice problem; the second is the jawboning problem.
+
+## The twenty-six words
+
+Before either, you need the statute that built the moderated internet. In the early 1990s two cases created the moderator's dilemma: CompuServe, which did not police its forums, was treated like a newsstand and escaped liability for users' posts, while Prodigy — which advertised family-friendly moderation — was held to be a *publisher* of a user's defamatory post in *Stratton Oakmont v. Prodigy* (N.Y. trial court, 1995), exposed to ruinous damages precisely *because* it moderated. Congress responded in the Communications Decency Act of 1996 with [[term:section-230]], written by Representatives Christopher Cox and Ron Wyden. Subsection (c)(1) is twenty-six words: "No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider." Subsection (c)(2) adds that providers are not liable for good-faith removal of material they consider "obscene, lewd, lascivious, filthy, excessively violent, harassing, or otherwise objectionable, whether or not such material is constitutionally protected."
+
+Two shields, one unmistakable design: platforms are not liable for what users post, *and* not liable for taking it down. The subsection's own heading — "Protection for 'Good Samaritan' blocking and screening of offensive material" — shows Congress encouraging moderation, not neutrality. Courts read (c)(1) expansively, starting with *Zeran v. AOL* (4th Cir. 1997), making it, in the title of Jeff Kosseff's standard history, the twenty-six words that created the internet. Note two things the statute is not. It is not the First Amendment: Congress could amend it tomorrow. And it is not unconditional: federal criminal and intellectual-property law sit outside it, and the Supreme Court has never decided how it applies to a platform's own algorithmic *recommendations* — *Gonzalez v. Google* (2023) ducked that question by resolving the companion case on other grounds.
+
+<QuickCheck
+  question="A user posts a defamatory lie about you on a social network. Under Section 230, whom can you successfully sue for defamation?"
+  choices={[
+    {id: 'a', text: 'The platform — it published the post to millions'},
+    {id: 'b', text: 'The user who wrote it'},
+    {id: 'c', text: 'Both the user and the platform'},
+    {id: 'd', text: 'The platform, but only if it moderates unevenly and loses its neutrality protection'},
+  ]}
+  answer="b"
+  explanation="Section 230(c)(1) bars treating the platform as the publisher or speaker of another person's content, so the claim against the platform fails; the author remains fully liable. Choice (d) is the most common myth in the debate: nothing in Section 230 conditions immunity on neutrality — the statute was written to encourage moderation, and its Good Samaritan clause protects takedowns of even constitutionally protected material."
+/>
+
+## Reforming the twenty-six words — from both directions
+
+Section 230 is that rare statute attacked simultaneously from opposite flanks, for opposite reasons. The debate is genuinely three-cornered.
+
+<PerspectiveTabs>
+  <Perspective name="Platform-editorial-rights view">
+    Section 230 is the internet's load-bearing wall. Without it, anyone hosting user speech — forums, review sites, small newspapers with comment sections — faces the moderator's dilemma again: moderate and be liable as a publisher, or host a cesspool. Repeal would produce both over-removal of lawful speech (to manage legal risk) and unmoderated sludge; the giants can afford lawyers either way, startups cannot. The deeper point is constitutional: after *Moody*, curation is editorial judgment the First Amendment protects, so most "reforms" aimed at forcing carriage or punishing moderation choices would fail even without the statute.
+  </Perspective>
+  <Perspective name="Common-carrier reformer">
+    A handful of companies control the effective public square, and they moderate with an ideological lean their critics consider demonstrable. The common-law answer to private chokepoints — telegraphs, railroads, phone networks — was common carriage: serve all comers without viewpoint discrimination. Justice Thomas floated the analogy in a 2021 concurrence, and Texas wrote it into HB 20. Section 230 compounds the problem: it hands platforms a subsidy newspapers never had — immunity for what they carry — while they exercise a newspaper's editorial control over what citizens may say. Pick one: editor with liability, or carrier with immunity. The current settlement — editorial power plus immunity — is the worst of both.
+  </Perspective>
+  <Perspective name="Accountability reformer">
+    The problem is not that platforms remove too much; it is that the statute shields a business model. (c)(1) was written for passive hosting, yet courts extended it to *amplification* — recommendation engines that select, rank, and push content for engagement, including content that defames, defrauds, or endangers. No other industry enjoys blanket immunity for harms its own design choices foreseeably cause. The reform is recalibration, not repeal: keep hosting immunity, carve out algorithmic promotion and paid content, so victims of [[term:misinformation]]-driven fraud or coordinated harassment have someone to sue. The Good Samaritan bargain was immunity in exchange for cleanup; the duty side needs teeth.
+  </Perspective>
+</PerspectiveTabs>
+
+## Must-carry meets the editor: the NetChoice cases
+
+In 2021, after major platforms banned President Trump following January 6, Florida and Texas passed laws restricting large platforms' moderation — Texas's HB 20 flatly barred viewpoint-based removal. NetChoice, the platforms' trade group, challenged both laws on their face; the Eleventh Circuit mostly blocked Florida's, the Fifth Circuit upheld Texas's, and the Supreme Court took both. *Moody v. NetChoice* (2024) is easy to overread, so state it carefully. The Court was unanimous — 9–0 — only in vacating both decisions and remanding, because a *facial* challenge required analyzing all of each law's applications, which no court had done. But Justice Kagan's majority opinion laid down the framework that controls on remand: when platforms decide which third-party content to display and how to order it, they are making expressive choices, like a newspaper editor or a parade organizer — and a state's desire to balance the marketplace of ideas is not a legitimate interest that can override them. The Fifth Circuit, the majority said, was wrong on both counts as applied to curated feeds.
+
+So forcing speech onto a curated feed is presumptively unconstitutional — yet the laws themselves are still in litigation, and the framework's edges are open: direct messages, marketplaces, search, and feeds ranked purely by algorithm were all left for another day. *Moody* remanded; it struck down nothing. Keeping that straight is the difference between citing the case and misciting it.
+
+## Jawboning: pressure without process
+
+The inverse problem is older than the internet. In *Bantam Books v. Sullivan* (1963), a Rhode Island commission sent a magazine distributor polite notices that certain titles were "objectionable," copied to the police; the Supreme Court called the scheme informal censorship and struck it down. Sixty-one years later the Court reaffirmed the principle unanimously. In *NRA v. Vullo* (2024), New York's chief financial regulator — after the Parkland shooting — pressed banks and insurers to drop the National Rifle Association, pairing public "guidance letters" with the quiet leverage of pending enforcement actions. Justice Sotomayor wrote for all nine justices that the NRA plausibly alleged a First Amendment violation: a regulator may criticize, advocate, and persuade, but may not wield threats of legal sanction against third parties "to punish or suppress" a speaker's advocacy.
+
+Decided the same term, *Murthy v. Missouri* (2024) shows how hard such claims are to *prove*. Two states and five individuals alleged that White House, CDC, and FBI pressure on platforms during the COVID era — over vaccine claims, election [[term:disinformation]], and more — got their posts suppressed. The Court never reached the merits: by 6–3, Justice Barrett wrote that the plaintiffs lacked [[term:standing]], unable to trace specific moderation decisions to government conduct rather than the platforms' own independently developed policies. Together the pair draws the current map: coercion is unconstitutional in principle (*Vullo*) and nearly unreachable in practice without proof of causation (*Murthy*). Where persuasion ends and coercion begins — tone, regulatory power, threats, consequences — is decided case by case.
+
+<Checkpoint question="A state attorney general writes to a platform: 'Posts falsely claiming our election was rigged are spreading. Remove them within 30 days, or this office will open a consumer-fraud investigation into your company.' A city health department separately emails the same platform a list of viral posts it considers false, 'flagged for whatever review you deem appropriate.' Which communication crosses the constitutional line?">
+  **The attorney general's.** Under *Vullo*, the combination of regulatory authority, a demand aimed at specific viewpoints, and an explicit threat of legal consequences is coercion — the state punishing speech through an intermediary. The health department's email is government speech: flagging, informing, and persuading are permitted, and *Murthy* confirms platforms remain free to ignore it. The hard cases sit between these poles — repeated "requests" from an agency that regulates you carry implicit weight even without a stated threat.
+</Checkpoint>
+
+## The 2025–26 docket: a ban, an age gate, and the border
+
+Three sets of cases since then have tested the framework's edges, and each rewards precision about what was actually held.
+
+**TikTok.** In *TikTok v. Garland* (Jan. 17, 2025), a per curiam Court upheld the Protecting Americans from Foreign Adversary Controlled Applications Act as applied to TikTok. The key move: the Act is facially content neutral — it targets foreign-adversary *control* and *data collection*, not any message — so intermediate rather than strict scrutiny applied, and the data-security interest carried it. The Court pointedly declined to rely on the government's separate worry about covert content manipulation, which would have raised content-based problems. What happened next belongs to civics as much as constitutional law: the statute took effect January 19; the app went dark for less than a day; and successive executive orders directed non-enforcement of a law the Court had just upheld — a use of enforcement discretion debated across the political spectrum — until a September 2025 order declared a qualified divestiture and the new U.S. joint venture (ByteDance's stake under the Act's 20 percent ceiling) closed in January 2026.
+
+**Age verification.** In *Free Speech Coalition v. Paxton* (June 27, 2025), the Court upheld, 6–3, Texas's requirement that commercial websites whose content is more than one-third sexual material "harmful to minors" verify users' ages. Justice Thomas's majority held the law triggers only intermediate scrutiny: minors have no right to the material, adults retain access, and proving age is an incidental burden — adults, the Court said, have no First Amendment right to *avoid age verification*. Justice Kagan's dissent, for three, objected that a content-based burden on adults' protected speech has always demanded strict scrutiny. The holding's reach is the live question: a wave of state age-gating laws, including laws aimed at app stores generally, is now being measured against it.
+
+**Speech at the border.** The sharpest 2025–26 controversies involved noncitizen speakers. After federal agents arrested and moved to deport university students and scholars active in pro-Palestinian advocacy, faculty associations sued in *AAUP v. Rubio* (D. Mass.). Following a bench trial, Judge William Young found in September 2025 that officials had pursued an ideologically targeted enforcement campaign intended to chill protected speech — holding that lawfully present noncitizens share First Amendment protections — and in January 2026 entered a remedial order setting the policy aside. The government denies any such policy exists, maintains that visa and removal decisions are discretionary foreign-policy judgments, and has appealed; as of mid-2026 the case sits in the First Circuit, while parallel habeas rulings had already ordered individual detained students released. However it ends, the case poses this lesson's question at its starkest: whether First Amendment limits travel with the government into immigration enforcement, where executive discretion peaks.
+
+<QuickCheck
+  question="Which statement about TikTok v. Garland (2025) is accurate?"
+  choices={[
+    {id: 'a', text: 'The Court struck down the divestiture law as viewpoint discrimination against a disfavored platform'},
+    {id: 'b', text: 'The Court upheld the law under strict scrutiny because national security always overrides speech'},
+    {id: 'c', text: 'The Court upheld the law as content neutral, applying intermediate scrutiny to the data-security rationale'},
+    {id: 'd', text: 'The Court held that foreign-owned platforms have no First Amendment rights to assert'},
+  ]}
+  answer="c"
+  explanation="The per curiam opinion treated the Act as facially content neutral — aimed at foreign-adversary control and data collection, not at messages — so intermediate scrutiny applied and the data-security interest satisfied it. The Court assumed First Amendment scrutiny applied (rejecting d), did not use strict scrutiny (b), and upheld rather than struck the law (a). It conspicuously declined to rely on the government's content-manipulation rationale."
+/>
+
+The docket reduces to a table worth keeping, because each case is routinely cited for more than it held.
+
+| Case | The question | What was actually decided | What it left open |
+| --- | --- | --- | --- |
+| *Moody v. NetChoice* (2024) | Can states force platforms to carry speech? | 9–0 vacate and remand; majority framework: feed curation is protected editorial activity | The laws' ultimate fate; DMs, search, pure-algorithm feeds |
+| *NRA v. Vullo* (2024) | Can regulators pressure third parties to drop a speaker? | 9–0: coercion to punish advocacy states a First Amendment claim | The persuasion–coercion line in closer cases |
+| *Murthy v. Missouri* (2024) | Did federal outreach to platforms violate users' rights? | 6–3: no standing; injuries not traceable to government | The merits of jawboning liability |
+| *TikTok v. Garland* (2025) | Can Congress force divestiture of a foreign-controlled platform? | Per curiam: yes — content-neutral data-security law survives intermediate scrutiny | Laws resting on content-manipulation rationales |
+| *FSC v. Paxton* (2025) | Can states age-gate sexual content online? | 6–3: yes — intermediate scrutiny; adults' burden is incidental | How far age-gating extends beyond obscenity-for-minors |
+
+<Timeline title="How the private square got its law" events={[
+  {date: '1995', title: 'The moderator’s dilemma', detail: "Stratton Oakmont v. Prodigy: a New York court holds Prodigy liable as publisher of a user's post precisely because it moderated — clean hands for the careless, lawsuits for the careful."},
+  {date: '1996', title: 'Section 230', detail: 'Congress answers in the CDA: platforms are not the publisher of user content, and good-faith removal is immunized. Twenty-six words found the moderated internet.'},
+  {date: '2019', title: 'Halleck', detail: 'Hosting the speech of others does not make a private entity a state actor (5–4) — the gate that stops user "censorship" suits against platforms.'},
+  {date: '2021', title: 'Texas and Florida push back', detail: 'After post–January 6 deplatformings, HB 20 and SB 7072 restrict large platforms’ moderation. The common-carrier theory gets its statutory test.'},
+  {date: '2024', title: 'The trilogy term', detail: 'Vullo (9–0): regulators may not coerce third parties to punish advocacy. Murthy (6–3): jawboning plaintiffs lack standing. Moody (9–0): remand, but curation is editorial.'},
+  {date: 'Jan 2025', title: 'TikTok v. Garland', detail: 'Divestiture-or-ban upheld per curiam as content neutral. The app goes dark for part of a weekend — then executive non-enforcement begins.'},
+  {date: 'Jun 2025', title: 'FSC v. Paxton', detail: 'Texas age verification for sexual content survives, 6–3, under intermediate scrutiny. States race to extend the model.'},
+  {date: '2025–26', title: 'The square keeps moving', detail: 'AAUP v. Rubio finds an ideological-deportation campaign unconstitutional (now on appeal); the TikTok divestiture closes in January 2026.'},
+]} />
+
+## What this lesson did not settle
+
+Almost everything, honestly — which is the point of studying it now. *Moody*'s framework awaits its as-applied tests; nobody knows how it treats feeds ranked by machine-learning systems no human curates. The jawboning cases leave a clear principle with no workable evidentiary path. Section 230 reform bills keep arriving from both flanks and keep dying, while the *Gonzalez* question — does (c)(1) cover the recommendation engine itself? — remains open. *Paxton*'s intermediate scrutiny is already being invoked for age-gating far beyond sexual content. And *AAUP v. Rubio* sits on appeal, asking whether the First Amendment disciplines immigration enforcement at all. Lesson 1 gave you the doctrine's architecture; Lesson 2, its hardest trade-offs; this lesson ends the pack where the law actually is in mid-2026 — unfinished, contested by serious people in every direction, and being written in real time by courts, Congress, platforms, and the citizens who keep posting.

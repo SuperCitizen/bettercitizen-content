@@ -1,0 +1,19 @@
+slug: uc-berkeley-labor-center
+name: UC Berkeley Labor Center
+kind: think-tank
+subtype: university-affiliated
+description: "Research center at UC Berkeley's Institute for Research on Labor and Employment focused on low-wage work, union organizing, and labor standards. Its minimum-wage and health-coverage studies are standard citations for labor-side advocates in state and federal policy fights."
+website: https://laborcenter.berkeley.edu
+jurisdiction: national
+partisan_lean: left
+parent_org: university-of-california-berkeley
+org_relationship: unit-of
+ideology_tags:
+  - american-progressivism
+  - social-democracy
+influence_channels:
+  - policy-research
+  - legislative-testimony
+concept_tags:
+  - think-tank
+is_active: true

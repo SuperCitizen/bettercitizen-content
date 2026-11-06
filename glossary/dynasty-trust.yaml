@@ -1,0 +1,15 @@
+slug: dynasty-trust
+name: Dynasty Trust
+short_definition: "A trust designed to hold and pass family wealth across many generations while minimizing transfer taxes at each handoff."
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English: 'dynasty' (a succession of powerful families, from Greek dynasteia, power) plus 'trust'; a long-lived trust shielding multigenerational wealth"
+why_it_matters: "By pairing the generation-skipping transfer-tax exemption with states that abolished the centuries-old Rule Against Perpetuities, dynasty trusts let large fortunes compound largely untaxed across generations — a key vehicle of inherited wealth."
+context_example: "A trust established in South Dakota or Nevada, where the Rule Against Perpetuities was repealed, can in principle hold sheltered family wealth for centuries rather than a fixed term."
+related_term_slugs:
+  - estate-tax
+  - stepped-up-basis
+  - wealth-defense-industry
+tags: []

@@ -1,0 +1,11 @@
+slug: stanford-university
+name: Stanford University
+kind: university
+subtype: private-university
+description: "Private research university in Stanford, California, founded in 1885. Its campus houses the Hoover Institution, one of the country's most influential conservative-leaning policy research institutions."
+website: https://www.stanford.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

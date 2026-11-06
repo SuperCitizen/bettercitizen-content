@@ -1,0 +1,151 @@
+---
+schema: bettercitizen.lesson/v1
+slug: how-the-process-actually-works
+kind: reading
+title: How the process actually works (and doesn't)
+objectives:
+  - Walk the textbook budget process — President's request, budget resolution, twelve appropriations bills — and the authorization/appropriation distinction
+  - Explain continuing resolutions, omnibus packages, and shutdowns, using the three funding lapses of fiscal 2026 as the case study
+  - Describe reconciliation and the Byrd rule, and how the 2025 One Big Beautiful Bill Act used and stretched them
+  - State what the debt ceiling does and does not control, including X-date mechanics and the 2011, 2023, and 2025 episodes
+  - Summarize the 2025–26 impoundment and pocket-rescission fights and the constitutional power-of-the-purse stakes
+concepts:
+  - appropriations
+  - continuing-resolution
+  - omnibus-bill
+  - reconciliation
+  - filibuster
+  - earmark
+sources:
+  - type: statute
+    citation: 'Congressional Budget and Impoundment Control Act of 1974, Pub. L. 93-344 — created the modern budget process, CBO, reconciliation, and the impoundment-control regime (2 U.S.C. §§601 et seq., 681–688).'
+  - type: website
+    citation: 'Pew Research Center, "Congress has long struggled to pass spending bills on time" (October 1, 2025) — on-time appropriations in only fiscal 1977, 1989, 1995, and 1997.'
+    url: https://www.pewresearch.org/short-reads/2025/10/01/congress-has-long-struggled-to-pass-spending-bills-on-time/
+  - type: crs-report
+    citation: 'Congressional Research Service, "Past Government Shutdowns: Key Resources" (R41759, updated March 2026).'
+    url: https://www.congress.gov/crs-product/R41759
+  - type: crs-report
+    citation: 'Congressional Research Service, "Pocket Rescissions and the Impoundment Control Act: Legal Authority and Options for Congress" (LSB11374).'
+    url: https://www.congress.gov/crs-product/LSB11374
+  - type: statute
+    citation: 'One Big Beautiful Bill Act, Pub. L. 119-21 (July 4, 2025) — the FY2025 reconciliation act, including the $5 trillion debt-limit increase.'
+    url: https://www.congress.gov/bill/119th-congress/house-bill/1
+  - type: website
+    citation: 'CBO, "Estimated Budgetary Effects of Public Law 119-21" (final score: $3.4 trillion added to deficits, 2025–2034).'
+    url: https://www.cbo.gov/publication/61570
+  - type: website
+    citation: 'CBO, "Effects on Deficits and the Debt of Public Law 119-21 and of Making Certain Tax Policies in the Act Permanent" — about $718 billion in additional debt-service costs.'
+    url: https://www.cbo.gov/publication/61466
+  - type: statute
+    citation: 'Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026 (H.R. 6938, P.L. 119-74, signed January 23, 2026).'
+    url: https://www.congress.gov/bill/119th-congress/house-bill/6938
+  - type: statute
+    citation: 'Consolidated Appropriations Act, 2026 (H.R. 7148, P.L. 119-75, signed February 3, 2026) — five full-year bills after the February lapse.'
+    url: https://www.congress.gov/bill/119th-congress/house-bill/7148
+  - type: website
+    citation: 'GAO, "Impoundment Control Act" resource page — decisions on 2025–26 withholdings, including findings of multiple violations.'
+    url: https://www.gao.gov/legal/appropriations-law/impoundment-control-act
+  - type: website
+    citation: 'GAO, "Impoundment Control Act of 1974: Review of the President''s Special Message of June 3, 2025" (B-337581).'
+    url: https://www.gao.gov/products/b-337581
+  - type: website
+    citation: 'Bipartisan Policy Center, "When Will We Reach the Debt Limit (Again)?" — projection that the $41.1 trillion limit binds between late winter and mid-summer 2027.'
+    url: https://bipartisanpolicy.org/article/when-will-we-reach-the-debt-limit-again/
+  - type: website
+    citation: 'Committee for a Responsible Federal Budget, "Q&A: Everything You Should Know About the Debt Ceiling" (updated May 2026).'
+    url: https://www.crfb.org/papers/qa-everything-you-should-know-about-debt-ceiling
+  - type: statute
+    citation: 'Fiscal Responsibility Act of 2023, Pub. L. 118-5 — the 2023 debt-limit suspension and spending-cap deal.'
+    url: https://www.congress.gov/bill/118th-congress/house-bill/3746
+  - type: website
+    citation: 'USAFacts, "What''s in the Rescissions Act of 2025?" — the $9 billion package: $7.9 billion international assistance, $1.1 billion public broadcasting.'
+    url: https://usafacts.org/articles/whats-in-the-rescissions-act-of-2025/
+perspectives:
+  - name: Fiscal consolidation hawk
+  - name: Full-employment (functional finance) dove
+  - name: Public-investment (capital budgeting) advocate
+duration_min: 18
+---
+
+# How the process actually works (and doesn't)
+
+On April 30, 2026, the President signed the funding bill that reopened the Department of Homeland Security, ending a 76-day lapse — the longest partial shutdown in American history — and funding the last unfunded department of a fiscal year that was, by then, seven months old. It was the *third* funding collapse of that single fiscal year: a 43-day full-government shutdown in October and November 2025 (the longest full shutdown ever), a brief lapse at the turn of February 2026, and then the DHS standoff from Valentine's Day to the end of April. Fiscal 2026's twelve appropriations bills finally became law in four installments spread across five and a half months. Here is the uncomfortable joke of American civics: the diagram every textbook prints — President proposes in February, Congress passes twelve bills by October 1 — describes a process that has run on schedule **four times since 1977**. This lesson teaches both machines: the one on paper, and the one that actually runs — continuing resolutions, omnibus packages, shutdowns, reconciliation, the debt ceiling, and a constitutional fight over whether the President must spend what Congress appropriates at all.
+
+## The machine on paper
+
+The modern process dates to the Congressional Budget and Impoundment Control Act of 1974, Congress's institutional counterattack against Richard Nixon, who had claimed the power to simply not spend appropriated money he disliked. The Act built Congress its own budget machinery — budget committees, the Congressional Budget Office as a counterweight to the President's numbers, a fiscal year starting October 1, and a formal calendar:
+
+<ProcessFlow title="The textbook appropriations pipeline" steps={[
+  {title: "President's budget request", detail: "Due the first Monday in February: the administration's opening bid for every agency, assembled by OMB. It is a request — Congress can and does ignore it wholesale.", branch: 'Frequently late in transition years; routinely declared "dead on arrival."'},
+  {title: 'Budget resolution', detail: 'A concurrent resolution setting overall totals and committee allocations. It is not a law — the President never signs it — but it binds the chambers procedurally and can unlock reconciliation.', branch: 'Congress has often skipped it entirely in recent decades, "deeming" totals instead.'},
+  {title: 'Twelve subcommittee bills', detail: 'Each Appropriations subcommittee (Defense; Labor-HHS; Homeland Security; and nine more) drafts one bill funding its slice of discretionary government for the year.'},
+  {title: 'Floor passage in both chambers', detail: 'Each bill must pass House and Senate in identical form — in the Senate, that usually means 60 votes to clear a filibuster.', branch: 'This is where the schedule dies: since fiscal 1997, Congress has never passed more than 5 of the 12 on time.'},
+  {title: 'Presidential signature by October 1', detail: 'All twelve signed before the fiscal year begins. Any account left unfunded at midnight triggers the Antideficiency Act: affected agencies must cease non-excepted operations — a shutdown.', branch: "Miss the date and Congress reaches for a continuing resolution — or doesn't, and the lights go out."},
+]} />
+
+One distinction makes the rest of the lesson legible: **authorization versus appropriation**. An authorizing law creates a program and sets its legal ceiling ("there is authorized to be appropriated $5 billion for X"); an [[term:appropriations]] act actually provides money. Only the appropriation spends. Programs can be authorized and never funded, funded above their authorization, or — vast stretches of the government — funded for decades on expired authorizations. And recall from Lesson 1 what this entire pipeline governs: only discretionary spending, about a quarter of the budget. Social Security checks went out on time through every shutdown of fiscal 2026, because [[term:entitlement-program]] spending never passes through these twelve bills.
+
+<Checkpoint question="Congress authorizes a new rural broadband program 'at $5 billion per year,' and the press celebrates. The following year, the program spends $0. What happened — and was anything illegal?">
+  Nothing illegal — nothing happened at all. Authorization is permission, not money. Unless an appropriations act (or mandatory spending provision) actually provides budget authority, an authorized program is an empty vessel. The reverse surprise also occurs: appropriators routinely fund programs whose authorizations expired years ago. When you read "Congress passed a $5 billion program," always ask which of the two acts actually occurred — the headline usually doesn't say.
+</Checkpoint>
+
+## The machine in practice: CRs, omnibus, shutdown
+
+The on-time record, per Pew Research: all twelve bills enacted by October 1 in fiscal 1977, 1989, 1995, and 1997 — four years out of nearly fifty. In 13 of the 15 fiscal years through 2026, Congress passed *zero* bills by opening day. What fills the gap is a technology of improvisation. A [[term:continuing-resolution]] (CR) extends the prior year's funding levels for weeks or months — keeping lights on at the price of freezing every agency in last year's priorities, banning program "new starts," and converting budgeting into a recurring hostage negotiation, since each CR expiration is a new shutdown deadline. When the bills finally move, they rarely move alone: leadership bundles several or all twelve into an [[term:omnibus-bill]], thousands of pages negotiated by a handful of principals and voted on in days — a vehicle members denounce and reliably pass, since the alternative by that point is a shutdown nobody scheduled. Earmarks, banned in 2011 and revived in 2021 as "community project funding" with disclosure rules and caps, grease the gears; an [[term:earmark]] buys a member's vote with a named project back home, the modern, regulated descendant of classic [[term:pork-barrel]] politics.
+
+Fiscal 2026 compressed the whole pathology into one academic year:
+
+<Timeline title="Fiscal 2026: twelve bills, four laws, three lapses" events={[
+  {date: 'Oct 1, 2025', title: 'Full shutdown begins', detail: 'The fiscal year opens with zero bills enacted and no CR: Senate Democrats withhold the votes needed for 60, demanding an extension of expiring enhanced ACA premium subsidies. Roughly the entire discretionary government lapses.'},
+  {date: 'Nov 12, 2025', title: 'Day 43: longest full shutdown ever ends', detail: 'A package provides full-year funding for three bills (Agriculture-FDA, Military Construction-VA, Legislative Branch) and a CR for the other nine through January 30, 2026.'},
+  {date: 'Jan 23, 2026', title: 'Three more bills become law', detail: 'H.R. 6938 (P.L. 119-74) funds Commerce-Justice-Science, Energy-Water, and Interior for the full year — six bills now done, six left, one week before the CR expires.'},
+  {date: 'Jan 31 – Feb 3, 2026', title: 'Second lapse — a long-weekend shutdown', detail: 'The January 30 deadline passes with six bills unfinished. After a brief lapse, the Consolidated Appropriations Act, 2026 (P.L. 119-75) funds five of them — Defense, Labor-HHS, State, Transportation-HUD, Financial Services — plus a short CR for Homeland Security.'},
+  {date: 'Feb 14, 2026', title: 'Third lapse: DHS alone shuts down', detail: 'The DHS-only CR expires amid an impasse over immigration-enforcement policy. One department, roughly a quarter-million employees, enters lapse; most are "excepted" and work unpaid.'},
+  {date: 'Mar 29, 2026', title: 'A record inside a record', detail: 'The DHS lapse passes 43 days, surpassing the October–November shutdown to become the longest funding lapse in U.S. history — while the rest of the government operates normally.'},
+  {date: 'Apr 30, 2026', title: 'Day 76: fiscal 2026 finally funded', detail: 'Congress passes the DHS bill — covering nearly all of the department, with ICE and CBP carved out for separate funding through reconciliation — and the President signs it the same day. The fiscal year is 212 days old. The FY2027 request is already overdue at the agencies still reopening.'},
+]} />
+
+Read the timeline as a mechanism, not a melodrama. Shutdowns happen because funding requires *affirmative action* by three veto players — House, Senate (effectively 60 votes, given the [[term:filibuster]]), President — and any one of them can convert the deadline into leverage for an unrelated policy demand: ACA subsidies in October, immigration enforcement in February. The Antideficiency Act then makes the failure physical: furloughs, unpaid "excepted" work by air-traffic controllers and Border Patrol agents, suspended statistics, closed parks. CBO estimated the 43-day shutdown alone permanently destroyed billions in output even after back pay. The deeper cost is what the improvisation regime does to governance even in lapse-free years: agencies that cannot sign contracts in October, grant cycles that slip, and a Congress whose floor time is consumed relitigating last year's budget instead of writing next year's.
+
+<QuickCheck
+  question="During a CR, an agency wants to launch a new cybersecurity initiative Congress fully funded in a bill that passed the House but not yet the Senate. Can it?"
+  choices={[
+    {id: 'a', text: 'Yes — House passage signals congressional intent, and the CR provides the cash'},
+    {id: 'b', text: 'Yes — CRs fund everything at slightly reduced levels, including new programs'},
+    {id: 'c', text: 'No — CRs generally freeze prior-year activities at prior-year levels and bar new starts until real appropriations pass'},
+    {id: 'd', text: 'No — because during a CR all agencies are shut down'},
+  ]}
+  answer="c"
+  explanation="A continuing resolution is a photocopy of last year's budget, not an early draft of this year's: it generally continues existing activities at existing rates and prohibits new starts, no matter how far along the real bills are. (And a CR is the opposite of a shutdown — it's what *prevents* one.) This freeze is the quiet cost of CR governance: even when Congress agrees on something new, the agency waits. In fiscal 2026, agencies under the November CR waited until January or February for any new priority."
+/>
+
+## Reconciliation and the Byrd rule: the budget's express lane
+
+Everything above requires 60 Senate votes. The 1974 Act left one express lane: **budget [[term:reconciliation]]**, a process by which Congress, after adopting a budget resolution with instructions, can pass *one* filibuster-proof bill changing mandatory spending, revenues, and the debt limit — 51 votes, debate capped at 20 hours. Nearly every major one-party fiscal law of the modern era rode it: the Bush, Trump, and OBBBA tax cuts, much of the ACA's final form, the 2021 American Rescue Plan, the 2022 Inflation Reduction Act.
+
+The toll for the express lane is the **Byrd rule** (1985, codified 1990): a senator can strike any provision that is "extraneous" to the budget — most importantly, anything whose budgetary effect is "merely incidental" to a policy aim, anything outside the instructed committees' jurisdiction, anything increasing deficits beyond the budget window, and any change to Social Security. Sixty votes are required to waive it, which would defeat the point. Before floor debate, the parliamentarian conducts the "Byrd bath," ruling provision by provision.
+
+The **One Big Beautiful Bill Act** of July 2025 is the live case study in both the lane's power and its stretching. Power: a once-in-a-generation fiscal package — permanent extension of the 2017 tax rates, new temporary deductions, about $1.1 trillion in mandatory-spending reductions, and a $5 trillion debt-limit increase — passed the Senate 51–50 (Vice President Vance breaking the tie) and the House 218–214, with zero minority votes needed. The Byrd bath bit: the parliamentarian ruled more than a dozen provisions extraneous, from a forced sale of millions of acres of public lands to various regulatory riders, and they fell out. The stretch: Senate Republicans scored the bill against a novel **"current-policy baseline"** under which extending the expiring 2017 tax cuts — the bill's costliest element — counted as costing *nothing*, since the rates were "current policy"; the majority declined to submit that question to the parliamentarian and turned back the challenge on the floor. Against CBO's standard current-law baseline, the law adds about **$3.4 trillion to deficits over 2025–2034, plus roughly $718 billion in interest** — about $4.1 trillion all in. Whatever one thinks of the policy, process scholars in both parties noticed the precedent: if "current policy" is free, any expiring giveaway can be made permanent at an official price of zero, by either party, forever.
+
+<Checkpoint question="A senator wants to add two provisions to a reconciliation bill: (1) raising the federal tobacco tax by $1 per pack; (2) requiring all federal contractors to use E-Verify, which CBO scores as having a tiny, indirect budget effect. Which survives the Byrd bath?">
+  The tobacco tax survives — it is a direct revenue change, reconciliation's core business. The E-Verify mandate almost certainly falls: its budgetary effect is "merely incidental" to a regulatory policy goal, the classic Byrd-rule kill. This is the rule's logic in one example — reconciliation moves dollars, not policy wearing a dollar costume. It is also why reconciliation bills read like tax-and-transfer code rather than broad legislation, and why majorities keep testing the line (and sometimes, as with the 2025 baseline maneuver, route around the referee instead of past the rule).
+</Checkpoint>
+
+## The debt ceiling: a limit on paying, not on spending
+
+The debt limit is the most misunderstood lever in the budget. It is a statutory cap — descended from the Second Liberty Bond Act of 1917 — on the total face value of debt the Treasury may have outstanding. It does **not** authorize or restrain any spending: every dollar requiring borrowing was already enacted by past Congresses through the processes above. Refusing to raise the ceiling is not refusing a new credit card; it is refusing to pay the bill for dinner already eaten. When the limit binds, Treasury buys time with "extraordinary measures" — accounting maneuvers like suspending investments in federal retirement funds — until the **X-date**, when cash and maneuvers run out and the government cannot meet all obligations in full and on time. What happens at the X-date is genuinely unknown territory: missed payments on Treasury securities — the bonds that anchor global finance as the "risk-free" asset — would be a sovereign default with consequences every camp in Lesson 2 agrees would be severe.
+
+The brinkmanship record: in **2011**, a deal (the Budget Control Act) came two days before Treasury's estimated exhaustion, and Standard & Poor's downgraded the United States from AAA anyway — the first downgrade in history, citing not arithmetic but *governance*. In **2023**, the Fiscal Responsibility Act suspended the limit on June 3, two days before Treasury Secretary Yellen's announced June 5 X-date, trading the suspension for discretionary caps. The limit returned January 2, 2025 at $36.1 trillion; Treasury ran extraordinary measures for six months until OBBBA raised it by **$5 trillion, to $41.1 trillion**, in July 2025. As of June 2026 the debt stands at $39.2 trillion, and the Bipartisan Policy Center projects the new limit binds again **between late winter and mid-summer 2027**, with extraordinary measures then buying perhaps six to nine months. The cycle, in other words, is already scheduled.
+
+> **Common misconception:** "Raising the debt ceiling green-lights new spending." It authorizes borrowing to cover *past* decisions — appropriations and tax laws already on the books. That is why economists across the spectrum, hawks included, treat default threats as a category error: a Congress that wants smaller deficits has two real levers (spend less, tax more) and uses the ceiling fight mostly as theater attached to a live grenade. Some reformers would abolish the limit or restore the "Gephardt rule" (deeming it raised when a budget passes); defenders reply it is the one moment forcing Congress to look at the debt it has already created.
+
+## Impoundment: who controls the purse after the law passes?
+
+The newest front is the oldest question: once Congress appropriates, must the President spend? The 1974 Act's answer was supposed to be final — Nixon's "impoundments" prompted Title X, which requires the President to spend appropriations unless Congress approves a proposed **rescission** within 45 days of continuous session. In July 2025, that route worked as designed for the first time in more than three decades: Congress enacted a $9 billion rescissions package ($7.9 billion international assistance, $1.1 billion public broadcasting) — proposed in a June 3 special message that GAO reviewed under B-337581 — the first enacted presidential rescission bill since the early 1990s.
+
+What happened next is the constitutional story of 2025–26. The administration, asserting broad authority to withhold spending it opposed, accumulated adverse findings from the Government Accountability Office — by September 2025, GAO had found **six violations of the Impoundment Control Act** (including withheld electric-vehicle-charging infrastructure funds, Head Start grants, and FEMA shelter programs) and had opened dozens more inquiries. Then, on August 28, 2025, came the escalation: a **"pocket rescission"** — a rescission message sent so close to September 30 that the targeted $4.9 billion in foreign-aid funds would expire before the 45-day clock ran, canceling the spending *without* congressional approval. GAO's position is that pocket rescissions are flatly illegal — a unilateral repeal of duly enacted law, the same defect that doomed the line-item veto in *Clinton v. City of New York* (1998). The administration's position is that the ICA itself unconstitutionally invades inherent executive authority. The courts now hold the question: in September 2025 the Supreme Court — first a temporary stay from the Chief Justice, then an interim order of the full Court — let the administration keep withholding roughly $4 billion of the disputed funds while litigation proceeded, the money lapsed on schedule, and as of mid-2026 the broader fight — including a March 2026 OMB directive contesting GAO's oversight role itself — remains unresolved on the merits. Watch it: the outcome decides whether "Congress's power of the purse" describes the Constitution or merely a custom.
+
+## What this lesson doesn't settle
+
+Process is never neutral, which is why this lesson ends the pack rather than starting it. Whether you read fiscal 2026's three lapses, the baseline maneuver, and the impoundment campaign as a system in crisis or a system absorbing hardball depends partly on Lesson 2's camps: a Buchanan-style hawk sees institutions doing exactly what unconstrained incentives predict and wants harder rules (automatic CRs, debt-limit reform, enforced baselines); a dove sees procedural fetishism distracting from outcomes; an investment advocate sees a process structurally incapable of distinguishing what borrowing buys. Unsettled questions worth carrying out the door: Would an automatic CR end shutdowns or merely make minority leverage permanent? Does reconciliation's current-policy precedent now bind both parties, and can it be undone? And if the courts bless even part of the impoundment theory, what exactly does an appropriations law *mean*? The composition of the budget (Lesson 1) is arithmetic; the meaning of deficits (Lesson 2) is argument; the process (this lesson) is power — and all three are on the ballot, every cycle, whether the ballot says so or not.

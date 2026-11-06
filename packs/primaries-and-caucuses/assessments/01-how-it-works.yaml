@@ -15,7 +15,7 @@ questions:
         text: "The caucus repeats the count until one candidate clears 50 percent."
     correct_choice_id: b
     explanation: "In most precincts the Democratic viability threshold is 15 percent (25 percent where only two delegates are at stake, one-sixth where there are three). Non-viable groups don't lose automatically — their members realign in person, including by merging two non-viable groups into a viable one. Choice (c) is the classic confusion: a caucus realignment is public and physical, with no secret ballot and no automatic transfer; RCV does something analogous on paper. Final counts convert to delegates by formula — plurality (a) and majority-rerun (d) describe neither system."
-    concepts: [caucus, caucuses]
+    concepts: [caucuses]
 
   - id: q2
     kind: multiple-choice
@@ -47,7 +47,7 @@ questions:
         text: "Top-two — all candidates appear on one ballot and the top two advance."
     correct_choice_id: c
     explanation: "The discriminating question is who holds the choice. Partially closed states (nine as of NCSL's May 2026 update, including Connecticut, Maryland, Oregon, and Utah) let the party decide each cycle whether to admit unaffiliated voters. Open states (like Wisconsin and Michigan) give every voter a private choice; partially open states (like Iowa and Illinois) allow crossover but record or rebind it; top-two abolishes the party primary altogether."
-    concepts: [primaries, primary]
+    concepts: [primaries]
 
   - id: q4
     kind: multiple-choice

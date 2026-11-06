@@ -1,0 +1,56 @@
+schema: bettercitizen.assessment/v1
+lesson: cross-spectrum
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A politician you know nothing else about gives a speech arguing that unaccountable concentrations of power — federal agencies, elite universities, Wall Street, tech platforms — have escaped democratic control and must be reined in. What can you safely infer about the speaker's ideology?"
+    choices:
+      - id: a
+        text: "The speaker is a populist conservative — distrust of elites is the giveaway."
+      - id: b
+        text: "The speaker is a progressive — Wall Street and corporate power are the giveaway."
+      - id: c
+        text: "Very little — skepticism of unaccountable power is shared across populist conservatism and progressivism; which targets get emphasized, not the concern itself, marks the ideology."
+      - id: d
+        text: "The speaker is a classical liberal, since classical liberals distrust concentrated state power."
+    correct_choice_id: c
+    explanation: "The speech deliberately mixes both sides' targets: conservatives typically aim the critique at agencies and universities, progressives at corporate power and finance. The underlying concern — technocratic governance escaping democratic accountability — is genuinely cross-ideological, which is why options (a) and (b) each cherry-pick half the evidence. A classical liberal (d) would distrust the agencies but defend the platforms and banks against political control. Diagnosing ideology requires watching which institutions someone wants disciplined, and by whom."
+    concepts: [conservatism, progressivism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Conservatives and libertarians both defend a private association's right to govern its own affairs. Which additional claim is distinctively conservative rather than libertarian?"
+    choices:
+      - id: a
+        text: "The association is valuable because its members freely chose it."
+      - id: b
+        text: "The association embodies inherited practices whose worth does not depend on current members' choices — its decay would be a real loss even if every departure were voluntary."
+      - id: c
+        text: "The state should not subsidize the association with taxpayer money."
+      - id: d
+        text: "The association should be free to dissolve itself whenever its members wish."
+    correct_choice_id: b
+    explanation: "Options (a), (c), and (d) are common ground — they all derive value from voluntary individual choice, the libertarian premise. The conservative addition is that institutions carry accumulated, often unarticulated wisdom and constitute their members' identities, so their loss is a civilizational cost even absent any coercion. This is the deepest fault line between the two traditions, and it predicts their divergence on everything from family law to community zoning."
+    concepts: [conservatism, libertarianism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "An American national conservative approvingly cites German Christian Democracy as a model for family policy. Why is this less paradoxical than it sounds to American ears?"
+    choices:
+      - id: a
+        text: "Christian Democrats are actually a party of the left, so the citation is simply an error."
+      - id: b
+        text: "European conservatism has long combined cultural conservatism with acceptance of a large welfare state and corporatist economics — the free-market default is a distinctly American, post-1955 feature, not conservatism as such."
+      - id: c
+        text: "American conservatives have always supported large welfare states; the difference is rhetorical."
+      - id: d
+        text: "Family policy is uncontested across all ideologies, so any model serves."
+    correct_choice_id: b
+    explanation: "The equation of conservatism with free-market minimalism is the legacy of the American fusionist settlement, not a universal feature of the tradition. European conservative parties — Christian Democrats above all — have defended family, faith, and social order through generous welfare states and corporatist bargaining for decades. That is precisely why American national conservatives shop in the European catalog: it offers a conservatism comfortable with state action that the American tradition mostly lacks."
+    concepts: [conservatism]
+
+  - id: q4
+    kind: free-response
+    text: "Identify the neighboring tradition — progressivism, libertarianism, or communitarianism — whose critique of American conservatism you find strongest. State that critique in its strongest form, then identify which internal conservative stream is best equipped to answer it, and sketch the answer."
+    socratic_seed: "Strong answers steel-man before they answer. Examples: the progressive critique (conservation of inherited institutions has historically meant conservation of inherited hierarchies and exclusions) is best answered by classical liberals pointing to the tradition's constitutionalism and by traditionalists distinguishing reform-within-inheritance from demolition. The libertarian critique (conservatives invoke liberty selectively and abandon it for cultural ends) is best answered by traditionalists arguing that liberty depends on pre-liberal institutions. The communitarian critique (conservatism talks community but allies with market forces that dissolve it) bites hardest — the national-conservative stream exists largely to answer it, by accepting state restraints on markets in defense of family and place. Push the learner: does the chosen stream's answer concede anything, and what evidence would show the critique had won?"
+    concepts: [conservatism, progressivism, libertarianism, communitarianism]

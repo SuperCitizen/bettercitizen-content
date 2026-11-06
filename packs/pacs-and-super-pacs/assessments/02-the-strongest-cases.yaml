@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Why, under current doctrine, can Congress cap what a donor gives to a candidate but not what the same donor gives to a super PAC?"
+    choices:
+      - id: a
+        text: "Because super PACs are corporations, and corporations have greater First Amendment rights than individuals."
+      - id: b
+        text: "Because Buckley upheld contribution limits only as an anti-quid-pro-quo measure, Citizens United held independent expenditures non-corrupting, and SpeechNow completed the syllogism: contributions to a group that makes only independent expenditures present no cognizable corruption risk to justify a cap."
+      - id: c
+        text: "Because the FEC issued an advisory opinion exempting super PACs from all limits."
+      - id: d
+        text: "Because super PAC donations are anonymous and therefore cannot corrupt."
+    correct_choice_id: b
+    explanation: "The chain matters more than any single link: Buckley (1976) tied contribution caps to quid-pro-quo corruption; Citizens United (2010) declared independent spending non-corrupting 'by definition'; SpeechNow (2010, en banc) connected them. Knock out the middle premise — say, by showing 'independent' spending isn't independent — and the conclusion is exposed, which is exactly where the restrictionist and the coordination reformer aim. (d) is doubly wrong: super PAC donors are disclosed, and disclosure is part of the system's constitutional defense."
+    concepts: [super-pac, campaign-finance]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Lessig's 'dependence corruption' is often dismissed as 'corruption without a crime.' What is the claim, stated as its advocates mean it?"
+    choices:
+      - id: a
+        text: "That super PAC donors routinely bribe candidates and simply avoid getting caught."
+      - id: b
+        text: "That because viable candidacies have come to depend on the largest funders, officials' attention and policy respond to the funder class even with no explicit exchange — a systemic dependence that competes with the dependence on voters the Framers designed."
+      - id: c
+        text: "That all private money in politics is unconstitutional."
+      - id: d
+        text: "That voters are corrupted by watching too much political advertising."
+    correct_choice_id: b
+    explanation: "The dependence claim deliberately does not allege bribery — that's its point, and why dismissing it as unproven bribery misses it. The mechanism is structural: gratitude and fear toward those who fund (or could fund) the decisive outside spending, operating lawfully and in the open. Its empirical anchor is the Gilens–Page finding that policy tracks elite and organized-interest preferences far better than average citizens' — a finding that is itself contested, which honest restrictionists concede. The constitutional dispute is whether this kind of corruption counts: current doctrine recognizes only quid pro quo."
+    concepts: [super-pac, campaign-finance]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which verified piece of evidence does the PAC-defender's 'hydraulics' argument lean on most directly?"
+    choices:
+      - id: a
+        text: "The post-2002 history in which restricting regulated channels (soft money, then 527s) shifted money into successively less transparent vehicles, and La Raja and Schaffner's finding that weakening parties empowered more ideologically extreme outside money."
+      - id: b
+        text: "Wood and Spencer's finding that disclosure deters almost no donors."
+      - id: c
+        text: "The Gilens–Page finding that policy tracks elite preferences."
+      - id: d
+        text: "The FEC's 3–3 deadlock statistics."
+    correct_choice_id: a
+    explanation: "Hydraulics is a claim about regulatory displacement: cap a transparent channel and the money reroutes somewhere darker — BCRA's soft-money ban fed the 527 boom, the 527 disclosure law of 2000 taught operatives to reclassify as 501(c)(4)s, and La Raja and Schaffner (2015) found that starving pragmatic parties empowered purist outside groups. On this view the disclosed super PAC is the least-bad uncapped vehicle. (c) is the restrictionist's evidence, and (d) belongs to the coordination reformer's enforcement story."
+    concepts: [super-pac, pac, campaign-finance]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A columnist proposes: 'Keep super PACs, but pass a law deeming any super PAC that spends 80% of its money supporting a single candidate to be coordinated with that candidate.' Which camp does this proposal belong to, and what is its theory?"
+    choices:
+      - id: a
+        text: "The PAC-defender — it expands the First Amendment protection of single-candidate groups."
+      - id: b
+        text: "The PAC-restrictionist — it caps total spending by the wealthiest donors."
+      - id: c
+        text: "The coordination-rules reformer — it accepts the constitutional framework but attacks the independence premise where it is least plausible, treating de facto candidate-adjuncts as what they functionally are."
+      - id: d
+        text: "None — the proposal is logically incompatible with all three camps."
+    correct_choice_id: c
+    explanation: "The proposal caps nothing and overturns no precedent; it redraws the legal line between independent and coordinated, which is the reformer's signature move. Buckley protected independent expenditures because independence 'alleviates the danger' of quid pro quo; a presumption against single-candidate super PACs claims that for such groups the premise is fiction. The defender would object that it burdens genuinely independent supporters of one candidate; the restrictionist would call it welcome but inadequate since a multi-candidate mega-donor network sails through. Placing proposals on this map is the skill this lesson exists to build."
+    concepts: [super-pac, campaign-finance]
+
+  - id: q5
+    kind: free-response
+    text: "Pick the camp you find least convincing — PAC-defender, PAC-restrictionist, or coordination-rules reformer — and write its strongest paragraph: the best verified evidence, the best precedent or scholarship, and the specific evidence that would falsify it. Then say, in one sentence, why you still aren't persuaded."
+    socratic_seed: "Grade for steel-manning, not agreement. Defender at strength: Buckley's 'wholly foreign' principle; the hydraulics record (FECA→PACs→527s→c4s); La Raja–Schaffner on purist money; super PACs as the most disclosed uncapped vehicle; falsified by evidence transparency and competition fail to discipline funder-tracking policy. Restrictionist at strength: verified concentration (one donor above $291M in 2024; the Adelsons sustaining a 2012 candidacy); Lessig's dependence framework; Gilens–Page (with its contested status acknowledged); Hasen's equality argument and Stephanopoulos's alignment frame; falsified by replicated null results on policy effects. Reformer at strength: Buckley at 47 as a testable premise; the catalogued workarounds (single-candidate super PACs, 120-day windows, redboxing); Briffault's blueprint; no amendment needed; falsified by showing tighter conduct rules inevitably chill independent speech or leave equivalent workarounds. The closing sentence should identify a genuine crux — an empirical or constitutional disagreement — not a vibe."
+    concepts: [super-pac, pac, campaign-finance]

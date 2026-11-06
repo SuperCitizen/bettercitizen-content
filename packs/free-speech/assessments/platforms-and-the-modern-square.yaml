@@ -1,0 +1,133 @@
+schema: bettercitizen.assessment/v1
+lesson: platforms-and-the-modern-square
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      A review site hosts a user's one-star review that a restaurant insists
+      is defamatory; the site refuses to take it down even after the
+      restaurant sends proof. The same week, the site deletes a different
+      user's lawful political rant. Under Section 230, which decision
+      exposes the site to liability?
+    choices:
+      - id: a
+        text: "Refusing to remove the review — notice of defamation strips a platform of its immunity."
+      - id: b
+        text: "Deleting the rant — removing lawful speech forfeits the statute's protection."
+      - id: c
+        text: "Both — a platform that moderates selectively becomes a publisher of everything it hosts."
+      - id: d
+        text: "Neither — hosting user content and good-faith removal are each immunized; the review's author remains liable."
+    correct_choice_id: d
+    explanation: >-
+      The two shields cover both moves. Under (c)(1), the site cannot be
+      treated as the publisher of the user's review — and courts since Zeran
+      v. AOL have held that notice does not change that (a). Under the Good
+      Samaritan clause, good-faith removal is protected even when the removed
+      speech was lawful (b). Choice (c) restates the pre-1996 Stratton
+      Oakmont trap that Section 230 was written to abolish. The defamed
+      restaurant's remedy is a suit against the reviewer.
+    concepts: [section-230, first-amendment]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Which statement accurately describes what the Supreme Court did in
+      Moody v. NetChoice (2024)?
+    choices:
+      - id: a
+        text: "It struck down the Texas and Florida laws permanently, 9-0."
+      - id: b
+        text: "It vacated and remanded the facial rulings, while a majority explained that feed curation is protected editorial activity."
+      - id: c
+        text: "It upheld the Texas law on the ground that large platforms are common carriers."
+      - id: d
+        text: "It held that platforms become state actors when they moderate political speech."
+    correct_choice_id: b
+    explanation: >-
+      Moody is the most-miscited platform case. The unanimity was procedural:
+      facial challenges required analyzing all of each law's applications,
+      so both appellate rulings were vacated and the cases remanded — nothing
+      was struck down (a). But Justice Kagan's majority supplied the
+      controlling framework: choosing and ordering third-party content is
+      expressive, and a state's wish to balance the marketplace of ideas
+      cannot override it — the opposite of (c). Choice (d) inverts Halleck,
+      which the Court has never disturbed.
+    concepts: [first-amendment, section-230]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      Which official communication is most clearly unconstitutional under
+      NRA v. Vullo (2024)?
+    choices:
+      - id: a
+        text: "The surgeon general publishes an op-ed urging platforms to fight health misinformation."
+      - id: b
+        text: "A state insurance regulator tells insurers they can expect enforcement scrutiny to ease if they cut ties with a gun-rights group."
+      - id: c
+        text: "A health agency emails a platform a list of posts it believes are false, for whatever review the platform deems appropriate."
+      - id: d
+        text: "The president harshly criticizes a platform's moderation choices in a televised speech."
+    correct_choice_id: b
+    explanation: >-
+      Vullo's line runs between persuasion and coercion. Op-eds, criticism,
+      and non-binding flagging (a, c, d) are government speech — officials
+      may advocate forcefully, and Murthy confirms platforms remain free to
+      ignore them. Choice (b) is Vullo's own fact pattern: a regulator with
+      enforcement power over the intermediaries, dangling concrete legal
+      consequences to induce them to punish a speaker's advocacy. That uses
+      state power to suppress disfavored expression through third parties.
+    concepts: [first-amendment, standing]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      In Free Speech Coalition v. Paxton (2025), the Supreme Court upheld
+      Texas's age-verification law for sexual-content websites. The
+      majority's key reasoning was that the law:
+    choices:
+      - id: a
+        text: "Survived strict scrutiny because protecting minors is a compelling interest."
+      - id: b
+        text: "Triggered only intermediate scrutiny, because requiring adults to verify age is an incidental burden on their protected access."
+      - id: c
+        text: "Raised no First Amendment issue, because pornography is unprotected speech for adults too."
+      - id: d
+        text: "Was valid because websites, unlike bookstores, receive a lower tier of constitutional protection."
+    correct_choice_id: b
+    explanation: >-
+      The fight in Paxton was over the standard of review, and the majority
+      chose intermediate scrutiny: minors have no right to material obscene
+      to them, adults keep their access, and adults have no First Amendment
+      right to avoid proving their age. The dissent argued for strict
+      scrutiny (a) precisely because the majority refused it. Choice (c) is
+      the classic near-miss — sexual material that is not obscene under
+      Miller remains protected for adults — and (d) invents a medium-based
+      hierarchy the Court has rejected since its earliest internet cases.
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      The state-action doctrine means a handful of private companies can
+      shape public debate with almost no constitutional constraint, while
+      governments face strict limits. Drawing on Halleck, Moody, and Vullo,
+      defend or criticize that allocation of power — and state the strongest
+      argument on the other side.
+    socratic_seed: >-
+      A defense assembles the three cases into one design: Halleck keeps the
+      Constitution aimed at the actor with police power; Moody recognizes
+      that moderation is itself speech, so constitutionalizing platforms
+      would trade one set of editors for government ones; Vullo polices the
+      real danger — officials laundering censorship through private hands.
+      A critique answers that the doctrine was built for a world where
+      government owned the parks and presses were plural: when a few firms
+      control effective reach, formal liberty against the state coexists
+      with private governance of discourse — Sotomayor's Halleck dissent,
+      the common-carrier tradition, and the Texas HB 20 theory all push
+      here. Strong answers name the trade explicitly: more constitutional
+      constraint on platforms means more government power over editorial
+      choices, and vice versa — and connect it to Murthy's proof problem,
+      where the two kinds of power blur.
+    concepts: [first-amendment, section-230, civil-liberties]

@@ -1,0 +1,159 @@
+schema: bettercitizen.assessment/v1
+lesson: federal-state-conflict-today
+questions:
+  - id: q1-preemption-types
+    kind: multiple-choice
+    text: "A federal pesticide statute is silent about state law. An EPA rule
+      requires a warning label with exact federal wording; a state law forbids
+      that wording as misleading and requires different text on the same label.
+      A manufacturer cannot print both. The strongest preemption theory
+      against the state law is:"
+    choices:
+      - id: a
+        text: Express preemption — Congress wrote a clause displacing state labeling
+          law
+      - id: b
+        text: Field preemption — pesticide regulation is pervasively federal
+      - id: c
+        text: Conflict preemption (impossibility) — complying with both the federal
+          and state requirements at once literally cannot be done
+      - id: d
+        text: No preemption — the presumption against preemption protects all state
+          health and safety laws
+    correct_choice_id: c
+    explanation: When one sovereign requires what the other forbids on the very
+      same label, dual compliance is impossible — the cleanest and narrowest
+      form of conflict preemption. Choice (a) fails on the facts given (the
+      statute is silent — there is no express clause); choice (b) requires
+      showing a pervasive scheme that leaves no room for any state law, far
+      more than these facts need; choice (d) misstates the presumption, which
+      is a tiebreaker about congressional intent in traditional state fields,
+      not an immunity — it yields when compliance with both laws is actually
+      impossible.
+    concepts:
+      - preemption
+      - supremacy-clause
+  - id: q2-marijuana-survives
+    kind: multiple-choice
+    text: "Federal law still prohibits recreational marijuana, and Gonzales v.
+      Raich holds that prohibition constitutional. Which statement best
+      explains why state legalization laws nonetheless stand?"
+    choices:
+      - id: a
+        text: Raich was effectively overruled by the 2026 rescheduling, which
+          legalized marijuana federally
+      - id: b
+        text: The Cole Memorandum preempted federal enforcement in legalizing states
+      - id: c
+        text: A state that repeals its own penalties hasn't enacted anything that
+          conflicts with federal law — and ordering states to recriminalize
+          would commandeer their legislatures
+      - id: d
+        text: The Supremacy Clause applies only to state constitutions, not state
+          criminal codes
+    correct_choice_id: c
+    explanation: Preemption displaces conflicting state law; an absence of state
+      law conflicts with nothing, since anyone can comply with both sovereigns
+      by simply not selling marijuana. And the move that would close the gap —
+      forcing states to keep prohibition on their books — is exactly what the
+      anticommandeering cases (New York, Printz, Murphy v. NCAA) forbid.
+      Choice (a) is the near-miss from the 2026 news — the partial
+      rescheduling moved only FDA-approved products and state-licensed medical
+      marijuana to Schedule III; recreational marijuana remains Schedule I.
+      Choice (b) inverts the Cole Memo, which was mere enforcement-priority
+      guidance with no legal force against the statute. Choice (d) is not law.
+    concepts:
+      - preemption
+      - tenth-amendment
+      - federalism
+  - id: q3-nullification-line
+    kind: multiple-choice
+    text: "Four state responses to a federal law the state opposes. Which one
+      crosses the constitutional line the courts have actually drawn?"
+    choices:
+      - id: a
+        text: Directing state police to spend no time or money assisting federal
+          enforcement
+      - id: b
+        text: Declining federal grant money rather than accept its conditions
+      - id: c
+        text: Enacting a statute declaring the federal law "invalid in this state"
+          and penalizing local agencies that help enforce it
+      - id: d
+        text: Suing the federal government, arguing the law exceeds Congress's
+          enumerated powers
+    correct_choice_id: c
+    explanation: The line runs between withholding your own hands and nullifying
+      federal law. States may refuse to participate (a) — that is the
+      anticommandeering shield protecting sanctuary cities and Second
+      Amendment counties alike; they may walk away from conditioned money (b);
+      and they may litigate (d) — that is the whole AG-wars playbook.
+      What they may not do is purport to void federal law within their
+      borders, which is why Missouri's Second Amendment Preservation Act —
+      declaring federal gun laws invalid and punishing cooperation — was
+      struck down. Withholding help is federalism; declaring federal law void
+      is nullification, and the Supremacy Clause has always categorically
+      forbidden it.
+    concepts:
+      - supremacy-clause
+      - tenth-amendment
+      - federalism
+  - id: q4-ag-standing
+    kind: multiple-choice
+    text: "A trade association and a coalition of twenty states file
+      near-identical lawsuits challenging the same federal rule. The states
+      survive a motion to dismiss for lack of standing; the association does
+      not. Which precedent best explains the different outcomes?"
+    choices:
+      - id: a
+        text: Printz v. United States — states cannot be commandeered into federal
+          litigation
+      - id: b
+        text: Massachusetts v. EPA — states receive "special solicitude" in standing
+          analysis, so injuries to their fiscs and quasi-sovereign interests
+          open doors closed to many private plaintiffs
+      - id: c
+        text: South Dakota v. Dole — states have standing whenever federal money is
+          involved
+      - id: d
+        text: Arizona v. United States — states may always litigate in fields they
+          traditionally regulate
+    correct_choice_id: b
+    explanation: Massachusetts v. EPA (2007) is the launchpad of the modern AG
+      wars precisely because it eased states' path through the standing
+      doctrine that filters out other plaintiffs — a structural advantage that
+      both parties' AG coalitions have exploited against every administration
+      since. Choice (a) borrows the right case from the wrong doctrine
+      (anticommandeering limits Congress, and says nothing about standing);
+      choice (c) invents a money-equals-standing rule Dole doesn't contain;
+      choice (d) gets Arizona backwards — the state lost most of that case,
+      and it concerned preemption, not access to court.
+    concepts:
+      - federalism
+      - supremacy-clause
+  - id: q5-uniformity-draft
+    kind: free-response
+    text: A future Congress, tired of the standoffs, asks you to draft a bill
+      achieving genuine national uniformity in ONE of this lesson's two
+      flashpoints — marijuana policy or immigration-enforcement cooperation.
+      Choose one, identify every constitutional tool available, and explain
+      what each would cost — fiscally, politically, and in enforcement
+      capacity.
+    socratic_seed: >-
+      Inventory the tools from all three lessons before drafting —
+      direct federal enforcement (who pays for the personnel?), preemption of
+      state law (what exactly would you preempt, given that you cannot
+      conscript state police or force states to legislate?), and conditional
+      spending (which pot of money, how big a share, and does NFIB's coercion
+      line let you touch existing funds?). For marijuana, ask whether
+      uniformity means national legalization or enforced prohibition, and why
+      Congress has chosen neither for a decade — what does that legislative
+      silence tell you? For sanctuary policy, ask what Printz and Murphy leave
+      standing of any cooperation mandate, and whether germane, modest grant
+      conditions could buy what commands cannot. Then the harder question:
+      if every tool is either too weak or too expensive, is the standoff a
+      failure of the system — or the system's answer?
+    concepts:
+      - federalism
+      - preemption
+      - spending-power

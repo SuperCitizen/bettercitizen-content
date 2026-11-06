@@ -1,0 +1,19 @@
+slug: cato-institute
+name: Cato Institute
+kind: think-tank
+description: "Libertarian think tank in Washington, D.C., founded in 1977. Argues for limited government, free markets, individual liberty, and a restrained foreign policy — positions that put it with the right on economics and often with the left on civil liberties, immigration, and criminal justice. A frequent amicus filer at the Supreme Court."
+website: https://www.cato.org
+jurisdiction: national
+partisan_lean: mixed
+ideology_tags:
+  - libertarianism
+  - classical-liberalism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - amicus-briefs
+  - public-education
+concept_tags:
+  - think-tank
+  - civil-liberties
+is_active: true

@@ -1,0 +1,12 @@
+slug: university-of-chicago
+name: University of Chicago
+kind: university
+subtype: private-university
+description: "Private research university founded in 1890, historically the home of the market-oriented 'Chicago school' of economics. Its Becker Friedman Institute carries that tradition into contemporary economic policy research."
+website: https://www.uchicago.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+  - supply-side-economics
+is_active: true

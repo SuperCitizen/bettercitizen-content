@@ -1,0 +1,16 @@
+slug: progressive-policy-institute
+name: Progressive Policy Institute
+kind: think-tank
+description: "Center-left think tank founded in 1989, historically the policy shop of the 'New Democrat' movement associated with the Democratic Leadership Council. Advocates market-friendly, growth-oriented progressivism — trade openness, charter schools, fiscal discipline — often in tension with the party's left flank."
+website: https://www.progressivepolicy.org
+jurisdiction: national
+partisan_lean: center-left
+ideology_tags:
+  - technocratic-liberalism
+  - american-progressivism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+concept_tags:
+  - think-tank
+is_active: true

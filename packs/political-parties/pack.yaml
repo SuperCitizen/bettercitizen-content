@@ -1,0 +1,25 @@
+schema: bettercitizen.content/v1
+slug: political-parties
+title: Political Parties
+summary: >-
+  What American political parties actually are and why there are exactly two —
+  the Framers' party-less Constitution colliding with parties by 1796,
+  V. O. Key's three faces, the real org chart and the super-PAC economy that
+  eclipsed it, and the party-systems history — plus the strongest cases for
+  stronger parties, weaker parties, and the weak-parties/strong-partisanship
+  diagnosis, and the live reform landscape of primary rules, fusion voting,
+  proportional representation, party finance, and internal party democracy.
+  Washington warned against parties while his own cabinet was splitting into
+  them; the argument has never stopped.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [parties, civics-101, elections]
+level: intro
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-what-parties-actually-are.mdx
+  - 02-the-strongest-cases.mdx
+  - 03-the-reform-landscape.mdx

@@ -4,7 +4,7 @@ title: Money in politics — what's actually legal, and where the lines are
 summary: A primer on how political money flows in U.S. federal elections — campaign committees, PACs, Super PACs, 501(c)(4)s ("dark money"), the FEC, the IRS, and the legal framework set by Buckley v. Valeo, FECA, BCRA, and Citizens United. Neutral and source-grounded.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.1.0
+version: 1.3.0
 tags: [money-in-politics, campaign-finance, civics-201]
 level: intermediate
 official: true
@@ -12,6 +12,6 @@ contested: false
 core: true
 languages: [en]
 lessons:
-  - 01-the-flow-of-political-money.md
-  - 02-the-legal-framework.md
-  - 03-give-thoughtfully.md
+  - 01-the-flow-of-political-money.mdx
+  - 02-the-legal-framework.mdx
+  - 03-give-thoughtfully.mdx

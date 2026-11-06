@@ -1,0 +1,142 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-live-debates
+kind: reading
+title: "The live debates: registration, rolls, and the price of error"
+objectives:
+  - Compare the three registration models in use — traditional deadline, automatic, and same-day — and what the evidence says about each
+  - Explain the NVRA's list-maintenance rules and what Husted v. A. Philip Randolph Institute (2018) held about purge triggers
+  - Describe the felony-disenfranchisement patchwork across states and its constitutional anchor in Richardson v. Ramirez (1974)
+  - State what Arizona v. Inter Tribal Council of Arizona (2013) held about documentary proof of citizenship and the federal form
+  - Steel-man the ballot-access, election-integrity, and state-administration positions on each fight
+concepts:
+  - voter-registration
+  - disenfranchisement
+  - voter-turnout
+sources:
+  - type: website
+    citation: 'U.S. Census Bureau, "2024 Presidential Election Voting and Registration Tables" (CPS Voting and Registration Supplement) — 73.6% of citizen voting-age population registered, 65.3% voted, November 2024.'
+    url: https://www.census.gov/newsroom/press-releases/2025/2024-presidential-election-voting-registration-tables.html
+  - type: website
+    citation: 'National Conference of State Legislatures, "Automatic Voter Registration" — about half the states plus D.C.; Oregon first (enacted 2015, implemented 2016); front-end vs. back-end opt-out designs. As of July 2025.'
+    url: https://www.ncsl.org/elections-and-campaigns/automatic-voter-registration
+  - type: website
+    citation: 'National Conference of State Legislatures, "Same-Day Voter Registration" — 24 states plus D.C.; research finds turnout effects of roughly 3–7 percentage points, with causal isolation difficult. As of March 2026.'
+    url: https://www.ncsl.org/elections-and-campaigns/same-day-voter-registration
+  - type: website
+    citation: 'National Conference of State Legislatures, "Felon Voting Rights" — 2 states plus D.C. never withdraw the vote; 23 restore on release; 15 after completion of supervision; 10 require further action. As of May 2026.'
+    url: https://www.ncsl.org/elections-and-campaigns/felon-voting-rights
+  - type: court-opinion
+    citation: 'Husted v. A. Philip Randolph Institute, 584 U.S. 756 (2018) — Ohio''s nonvoting-triggered removal process does not violate the NVRA''s failure-to-vote clause; 5–4.'
+    url: https://www.law.cornell.edu/supremecourt/text/16-980
+  - type: court-opinion
+    citation: 'Arizona v. Inter Tribal Council of Arizona, 570 U.S. 1 (2013) — the NVRA''s "accept and use" mandate preempts documentary proof-of-citizenship requirements for federal-form registrants.'
+    url: https://www.law.cornell.edu/supremecourt/text/12-71
+  - type: court-opinion
+    citation: 'Richardson v. Ramirez, 418 U.S. 24 (1974) — felony disenfranchisement has "affirmative sanction" in §2 of the 14th Amendment and does not violate equal protection.'
+    url: https://www.law.cornell.edu/supremecourt/text/418/24
+  - type: statute
+    citation: 'National Voter Registration Act of 1993, 52 U.S.C. §20501 et seq. — motor-voter registration, the federal form, and list-maintenance rules (notice plus two federal general elections before removal).'
+  - type: statute
+    citation: 'SAVE Act, H.R. 22, 119th Congress — documentary proof of citizenship for voter registration; passed House Apr. 10, 2025; not enacted.'
+    url: https://www.congress.gov/bill/119th-congress/house-bill/22
+perspectives:
+  - name: Ballot-access expander
+  - name: Election-integrity conservative
+  - name: State-administration pragmatist
+duration_min: 15
+---
+
+# The live debates: registration, rolls, and the price of error
+
+In November 2024, by the Census Bureau's survey count, 73.6 percent of America's citizen voting-age population was registered to vote and 65.3 percent voted. Run the subtraction and something jumps out: the gap between *registered* and *voted* is about eight points — but the gap between *eligible* and *registered* is more than twenty-six, upwards of sixty million adult citizens who were not on the rolls at all. After two lessons of amendments and landmark statutes, this is where the franchise actually lives now: not in whether you may vote, but in the administrative pipeline between you and a counted ballot — registration, list maintenance, identity rules. Every fight in this lesson is, underneath, the same fight: errors are inevitable in a system of 50 states and thousands of counties, so *which direction of error do you prefer, and who pays for it?*
+
+## Getting on the rolls
+
+The United States is unusual among democracies in making registration chiefly the *voter's* job rather than the state's — a structural choice, dating to the 19th century, that explains much of that sixty-million gap. The National Voter Registration Act of 1993 (the "motor voter" law) built the modern floor: states must offer registration at driver's-license agencies and by a standard federal mail form. The live debate is over what sits on top of that floor, and it comes in two main models. [[term:voter-registration]] sounds procedural; the design choices are anything but.
+
+**Automatic voter registration** flips the default. Instead of asking eligible citizens to opt *in* at the DMV, the agency registers them unless they opt *out* — either on the spot ("front-end") or by ignoring a mailed notice ("back-end"). Oregon went first, enacting AVR in 2015 and implementing it in 2016; by NCSL's count, about half the states plus D.C. now have some version ([[issue:automatic-voter-registration]]). Nobody is compelled to register — the argument is entirely about defaults, and decades of behavioral evidence that defaults do enormous quiet work.
+
+**Same-day registration** attacks the deadline instead: 24 states plus D.C. let an eligible citizen register (or fix a stale registration) and vote in one visit ([[issue:same-day-registration]]). The research consensus, as NCSL summarizes it, is that same-day registration raises turnout by roughly 3 to 7 percentage points — with the honest caveat that the states adopting it tended to be high-turnout states already, so the causal share is hard to isolate.
+
+| Model | The default | Scale (per NCSL) | The contested question |
+| --- | --- | --- | --- |
+| Traditional deadline | Citizen opts in, weeks before Election Day | The historical baseline | Is a deadline a safeguard for verification, or a trap for movers and first-timers? |
+| Automatic (AVR) | State registers at agency contact; citizen may opt out | About half the states + D.C. (as of 2025) | Do cleaner, government-sourced rolls aid integrity — or does state-built registration centralize error? |
+| Same-day | Register and vote in one visit | 24 states + D.C. (as of 2026) | Does eliminating the deadline help eligible voters, or eliminate the buffer in which records get checked? |
+
+Read the table's last column as a single running argument: each model allocates the risk of error differently — between the citizen who did everything late and the administrator who must verify in real time.
+
+<Checkpoint question="A back-end AVR state registers a DMV customer who ignores the mailed opt-out notice. He never asked to be registered and never votes. Who would each of this pack's three perspectives say bears the cost here — and of what error, exactly?">
+  The access expander says there is no cost: an extra accurate registration burdens no one, and the default captured an eligible citizen the old system would have missed. The integrity conservative says the cost is roll inflation — entries created without an affirmative act are entries no one is curating, and inflated rolls are where bad things start. The pragmatist says the real question is data quality: a DMV-sourced record with a verified address is typically *cleaner* than a handwritten form, so the error being traded is legibility, not eligibility. Notice nobody disputes the facts — they dispute which error matters.
+</Checkpoint>
+
+## Staying on the rolls
+
+Registration has a second half that gets less attention and generates more litigation: *staying* registered. The NVRA gives states two commands in deliberate tension — conduct a "general program" of list maintenance to remove voters who die or move, *and* do not remove anyone "by reason of the person's failure to vote." For removals on change-of-residence grounds, the statute prescribes a slow, specific ritual: send a forwardable notice card; if the voter neither returns it nor votes through the *second* following federal general election — roughly four years — the registration may be canceled ([[issue:voter-roll-purges]]).
+
+The fight is over the trigger. Ohio started the notice process for anyone who missed a single two-year cycle, and in **Husted v. A. Philip Randolph Institute (2018)** the Supreme Court upheld it, 5–4: the statute forbids removal *solely* for nonvoting, and Ohio's removals rested on nonvoting *plus* the unreturned notice and four more years of silence. The dissenters read the same word to mean nonvoting cannot be the proximate trigger at all, since the overwhelming majority of people simply do not return government postcards.
+
+<QuickCheck
+  question="Which of these removals would violate the NVRA, even after Husted?"
+  choices={[
+    {id: 'a', text: 'Removing a voter who was mailed a notice, never responded, and then sat out the next two federal general elections'},
+    {id: 'b', text: 'Removing a voter immediately upon receiving official confirmation she registered in another state'},
+    {id: 'c', text: 'Removing a voter the day after she misses her second consecutive federal election, with no notice ever sent'},
+    {id: 'd', text: 'Using failure to vote in one election as the trigger to send the confirmation notice'},
+  ]}
+  answer="c"
+  explanation="The NVRA's ritual is notice first, then waiting: a card by forwardable mail, then no response and no voting through the second following federal general election. Choice (a) is exactly the lawful sequence; (b) rests on independent evidence of moving, not nonvoting; (d) is precisely what Husted blessed — nonvoting may start the process. What it may never do is finish it alone: (c) removes for nonvoting with no notice and no waiting period, which violates the statute under every reading."
+/>
+
+## The felony patchwork
+
+An estimated few million Americans are barred from voting by a felony conviction — but the word "barred" hides the real story, which is variance. The constitutional anchor is **Richardson v. Ramirez (1974)**: Section 2 of the 14th Amendment penalizes states for abridging the vote *except* for "participation in rebellion, or other crime," and the Court read that exception as "affirmative sanction" — states *may* disenfranchise for crime without violating equal protection. So the question is purely one of state policy, and the states have answered it every possible way ([[issue:felony-disenfranchisement]]):
+
+<Figure caption="Where the states stand on felony disenfranchisement, per NCSL (as of May 2026). The same conviction can mean an uninterrupted ballot in Vermont, a wait of years in a supervision state, or an individual petition to the governor elsewhere." source="NCSL, Felon Voting Rights (May 2026)">
+  <DataBars
+    title="State approaches to voting after a felony conviction"
+    unit="jurisdictions"
+    max={25}
+    bars={[
+      {label: 'Never lose the vote (incl. D.C.)', value: 3, color: 'green'},
+      {label: 'Restored on release from prison', value: 23, color: 'blue'},
+      {label: 'Restored after parole/probation', value: 15, color: 'gold'},
+      {label: 'Further action required', value: 10, color: 'accent'},
+    ]}
+  />
+</Figure>
+
+Maine, Vermont, and the District of Columbia never withdraw the franchise — people vote from prison. Twenty-three states restore the vote automatically at release; fifteen wait until parole and probation end, with some also requiring outstanding fines, fees, or restitution to be paid first — which critics call a wealth test on rights restoration — an echo, they argue, of poll-tax logic — and which supporters defend as simply completing the sentence. Ten states require something more: a waiting period, a petition, or executive clemency. And "automatic" never means effortless — restoration restores *eligibility*, but the citizen must still register like anyone else, and confusion about eligibility is itself a deterrent with legal risk attached.
+
+<Checkpoint question="Two people are convicted of the same federal felony and serve identical sentences. In 2026 one finishes parole in a restore-on-release state; the other lives in a state requiring an individual clemency petition. What single fact explains how the same Constitution permits both outcomes?">
+  Richardson v. Ramirez. Because §2 of the 14th Amendment carves out disenfranchisement for "participation in rebellion, or other crime," the Court held the practice affirmatively sanctioned — so there is no federal constitutional floor for restoration, and each state's policy governs its own residents. The franchise here is pure state law, which is why an identical conviction yields a ballot in one state and a petition to the governor in another.
+</Checkpoint>
+
+## Who are you? ID and proof of citizenship
+
+The remaining fights concern proving identity and eligibility — and one of them already has a full pack. **Voter ID** ([[issue:voter-id]]) — what counts, who lacks it, what the fraud and turnout evidence shows, from *Crawford v. Marion County Election Board* (2008) through *Brnovich* — is covered in depth in the *Voter ID & Mail Ballots* pack, along with mail-ballot rules and [[issue:early-voting-expansion]]; this lesson won't duplicate it.
+
+**Proof of citizenship** is the newer front. Federal law already requires every registrant to attest citizenship under penalty of perjury; the live proposal is requiring *documentary* proof — a passport or birth certificate — to register ([[issue:proof-of-citizenship-voting]]). The governing precedent is **Arizona v. Inter Tribal Council of Arizona (2013)**: Arizona demanded documents from registrants using the NVRA's federal form, and the Supreme Court — Justice Scalia writing, with only Justices Thomas and Alito in dissent — held that the NVRA's command that states "accept and use" the federal form preempts the demand. A state must register a federal-form applicant who attests citizenship; if it wants documents required, its remedy is to petition the federal Election Assistance Commission to amend the form's state-specific instructions, then challenge a refusal in court. The holding's seams are where today's fight runs: it governs the *federal* form and federal elections — states retain more room over their own state-form registrations — and Congress could change the statute itself. The SAVE Act (H.R. 22), which would require documentary proof nationwide, passed the House on April 10, 2025, but has not become law.
+
+## Three honest positions
+
+Each camp below is presented as its smartest advocates argue it — and note, before you read, what they share: all three claim the mantle of Lessons 1 and 2, and none of them defends fraud or defends turnout suppression. They disagree about default settings and the direction of tolerable error.
+
+<PerspectiveTabs>
+  <Perspective name="Ballot-access expander">
+    History's lesson is that administrative friction *is* the modern franchise fight — the literacy test was paperwork too. Every hurdle between an eligible citizen and a counted ballot — registration deadlines, purge notices, documentary demands — filters out real voters at the margins, and the margins are never distributed evenly: movers, renters, the poor, the young, and minority citizens bear them first, as the Census registration gap shows. Documented fraud of the kind ID and citizenship-documents rules target is vanishingly rare, so these rules buy near-zero integrity at real participation cost. The default should be the one used for jury rolls and Selective Service: the state builds the list, automatically and accurately, and a citizen's failure to file paperwork on time is never the reason an eligible vote goes uncounted. AVR, same-day registration, and restoration at release are simply that principle applied.
+  </Perspective>
+  <Perspective name="Election-integrity conservative">
+    Elections run on public confidence, and confidence is a function of *verifiable* rules — not assurances after the fact. Attestation under penalty of perjury is an honor system; a perjury prosecution after an illegal ballot is counted un-rings no bells. Rare fraud is an argument for cheap prevention, not against it: we lock doors in low-burglary neighborhoods. Inflated rolls — millions of entries for the moved and the dead — are an attack surface and a confidence drain even when never exploited, which is why *Husted*-style maintenance is hygiene, not suppression. The Brnovich guideposts get the law right: the usual burdens of voting — producing the ID you need for daily life, registering before a deadline, updating an address — are civic responsibilities, not disenfranchisement, and states are entitled to prefer prevention over remediation.
+  </Perspective>
+  <Perspective name="State-administration pragmatist">
+    Both camps argue about defaults while the real action is in data plumbing. The dirty secret of this debate: AVR is a *list-quality* tool that conservatives should love (government-verified records beat handwritten cards), and aggressive purges are an *error-generation* machine that integrity advocates should fear (false removals of eligible voters are detected on Election Day, in public, one angry voter at a time). The pragmatist's rules: judge every proposal by its error rates in both directions, not its slogan; fund the boring infrastructure — interstate data sharing, address-change feeds, provisional-ballot backstops — that makes both access and integrity cheap; and stop legislating in the dark when measurement is possible. Most of what each side wants is compatible if you build it competently; most of what they fear comes from building it badly on no budget.
+  </Perspective>
+</PerspectiveTabs>
+
+## What's settled here — and what isn't
+
+Settled: the legal architecture and the descriptive facts. The NVRA sets the registration floor and the purge ritual, and *Husted* fixed its meaning; *Richardson* leaves felony disenfranchisement to the states, and NCSL's four-bucket map of state policy is simply a fact; *Arizona v. ITCA* means documentary proof of citizenship cannot be bolted onto the federal form by a state acting alone; the registration gap — a quarter of eligible citizens off the rolls in 2024 — is measured, not asserted.
+
+Not settled: every question of degree that the settled law leaves open. Whether defaults that demonstrably raise registration also change *who governs* — the evidence on partisan effects of these reforms is far thinner than partisans assume; whether prevention-shaped rules are worth their participation cost when the prevented event is rare; whether a fines-and-fees condition is completed punishment or a wealth test; and whether Congress will move the citizenship-proof line that *ITCA* drew. This pack closes where it opened, with the structural fact from Lesson 1: there is still no affirmative constitutional right to vote, so all of this — defaults, purges, documents — is decided statute by statute, state by state, term by term. A defensible position on any of it names the error it tolerates, the error it refuses, and the evidence that would change its mind.

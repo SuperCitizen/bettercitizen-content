@@ -1,0 +1,132 @@
+schema: bettercitizen.assessment/v1
+lesson: correlation-causation-and-the-study-behind-the-headline
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      A widely shared chart compares all 50 states in 2026 and shows that states with stricter
+      voter-ID laws have lower turnout. As evidence that ID laws cause lower turnout, this
+      design is…
+    choices:
+      - id: a
+        text: Strong — fifty states is a complete population, not a sample, so the correlation is exact.
+      - id: b
+        text: >-
+          Weak — it is a cross-section: states differ in countless ways besides ID laws, the
+          comparison has no time order, and the states that adopt strict laws are not a random draw.
+      - id: c
+        text: Strong, provided the correlation is statistically significant.
+      - id: d
+        text: Worthless — observational data can never support any causal conclusion.
+    correct_choice_id: b
+    explanation: >-
+      A cross-section sits on the ladder's second rung: it shows association at one moment among
+      self-selected adopters, so confounding (the political culture that produces strict laws
+      also shapes turnout) and even reverse pathways are wide open. Significance (c) only says
+      the association isn't sampling noise — it says nothing about why. But (d) overcorrects:
+      better designs on the same question exist, and the strongest (Cantoni & Pons's 1.6-billion-
+      observation panel exploiting staggered adoption) finds turnout effects near zero — an
+      "associated with" that careful design largely dissolved.
+    concepts: [correlation-vs-causation]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      A state gives intensive tutoring to the 20 schools with the lowest test scores in 2027.
+      In 2028 those schools improve by 8 points and the program is declared a success. Which
+      rival explanation is guaranteed — not merely possible — by how the schools were chosen?
+    choices:
+      - id: a
+        text: Funding was diverted from other schools, which declined in parallel.
+      - id: b
+        text: Teachers taught to the test, inflating scores without learning.
+      - id: c
+        text: Regression to the mean — schools selected for an extreme year will move back toward their own average with or without the program.
+      - id: d
+        text: The Hawthorne effect — schools improved because they knew they were being studied.
+    correct_choice_id: c
+    explanation: >-
+      Diversion (a), test prep (b), and Hawthorne effects (d) are real possibilities that
+      evidence could confirm or rule out. Regression to the mean is different in kind: an
+      extreme score is partly luck, luck doesn't repeat, so reversion is built into the
+      selection itself — the same arithmetic that fooled Kahneman's flight instructors and
+      Secrist's business-firms book ("proving the multiplication table by arranging elephants,"
+      as Hotelling put it). The test is a comparison group selected the same extreme way and
+      left untreated — for instance, schools ranked 21st through 40th.
+    concepts: [regression-to-the-mean]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      In 2015, the Open Science Collaboration re-ran 100 published psychology studies with the
+      original materials and high statistical power. Which result did it report — and what is
+      the right-sized conclusion?
+    choices:
+      - id: a
+        text: About 36% of replications were statistically significant versus 97% of originals, with effect sizes roughly halved — so single unreplicated studies deserve heavy discounting.
+      - id: b
+        text: Nearly all replications succeeded, showing the "replication crisis" was media hype.
+      - id: c
+        text: About 36% replicated, proving most scientists committed fraud.
+      - id: d
+        text: About 36% replicated, proving psychology as a field produces no real knowledge.
+    correct_choice_id: a
+    explanation: >-
+      The verified figures are 97% of originals significant, 36% of replications, effect sizes
+      about half the originals. The mechanism is mostly structural, not fraudulent (c):
+      publication's preference for positive results plus flexible analysis — Gelman's "garden of
+      forking paths" — manufactures false positives without anyone consciously cheating, which
+      is exactly the machine Ioannidis described in 2005. And (d) proves too much: replication
+      is the system self-correcting, and findings that are large, pre-registered, and replicated
+      across teams hold up — the discounting applies to single, fresh, flexible findings.
+    concepts: [replication-crisis]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      At a hearing on a downtown tax credit, every testifying business owner who used the credit
+      says it saved their business, and a council staffer reports that credit users had 30%
+      higher five-year survival than non-users. What is the central problem with this evidence?
+    choices:
+      - id: a
+        text: The sample of testifying owners is too small for statistical significance.
+      - id: b
+        text: Survivorship and selection — failed businesses can't testify, and the firms that sought the credit likely differed from non-users in ways that drive survival.
+      - id: c
+        text: The five-year window is too short to measure business survival.
+      - id: d
+        text: Nothing — a 30% difference with consistent testimony is convincing evidence the credit works.
+    correct_choice_id: b
+    explanation: >-
+      This is Wald's bomber problem in a council chamber: the dataset contains only the planes
+      that returned. Dead firms don't testify, and credit applicants are self-selected — better
+      capitalized, better advised, more growth-oriented — so the 30% gap mixes the credit's
+      effect with everything that made firms apply. Sample size (a) is not the issue; a million
+      survivors would carry the same bias. The fix is a design that breaks self-selection:
+      compare similar firms just above and below an eligibility cutoff, or randomize outreach —
+      the ladder's upper rungs.
+    concepts: [correlation-vs-causation, natural-experiment]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      In 2022, FBI statistics showed violent crime falling about 2% while the federal
+      victimization survey showed violent victimization rising from 16.5 to 23.5 per 1,000.
+      A mayoral candidate calls the FBI number "proof crime is down"; her opponent calls the
+      survey "proof crime is exploding." Write the paragraph an honest analyst would give the
+      city council, explaining how both numbers can be right, what each one selects for, and
+      which you would weight for which purpose.
+    socratic_seed: >-
+      Look for the manufacturing-chain move: a crime enters FBI data only if it is noticed,
+      reported (well under half of violent victimizations are), recorded, and forwarded — and
+      the 2021 NIBRS transition snapped the last link, with roughly 7,000 of 18,000 agencies
+      (including NYPD and LAPD) missing, leaving national figures partly imputed. The NCVS asks
+      households directly, capturing unreported crime but missing homicide, the institutionalized,
+      and the unhoused, and leaning on recall. So the FBI series tracks what police came to know;
+      the NCVS tracks what residents experienced; divergence can mean reporting behavior changed,
+      police recording changed, or composition shifted — itself a finding. Strong answers
+      weight NCVS for victimization trends, homicide data (nearly fully reported) for the most
+      serious violence, and treat single-year swings in either series with suspicion. Press the
+      student: what additional data would discriminate between "more crime" and "less reporting"
+      — and what would they advise the council to do if the answer stayed ambiguous?
+    concepts: [correlation-vs-causation]

@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A legislator cites the 2018 North Carolina 9th District scandal — the Dowless absentee operation — as proof her state needs a strict polling-place photo-ID law. What's the strongest objection?"
+    choices:
+      - id: a
+        text: "The scandal never actually happened."
+      - id: b
+        text: "Fraud that rare can simply be ignored."
+      - id: c
+        text: "The fraud ran through the mail-ballot channel, which polling-place photo ID does not touch; the matched remedies are envelope verification, ballot-collection limits, and anomaly detection — which is how Dowless was caught."
+      - id: d
+        text: "Congressional elections are federal, so states may not regulate them."
+    correct_choice_id: c
+    explanation: "Bladen County is the strongest documented organized-fraud case of the modern era, and it is mail fraud — collection, completion, and forgery of absentee ballots. A photo requirement at polling places is orthogonal to it. The episode is legitimately cited for the proposition that organized fraud happens and that detection systems work (the statistical thumbprint triggered the investigation); it is miscited as evidence for the policy that wouldn't have stopped it. Matching remedy to vector is the discipline this lesson trains."
+    concepts: [voter-id, mail-ballots]
+
+  - id: q2
+    kind: multiple-choice
+    text: "The Heritage Foundation's database recorded more than 1,600 proven election-fraud instances as of late 2025. Justin Levitt found 31 credible impersonation cases from 2000–2014. What makes both numbers consistent with the claim that fraud is vanishingly rare?"
+    choices:
+      - id: a
+        text: "Both databases are run by partisan organizations, so the numbers are fabricated."
+      - id: b
+        text: "The denominators: Heritage's count spans all fraud types across four-plus decades and billions of ballots, and Levitt's spans more than 1 billion ballots — as rates, both round to zero."
+      - id: c
+        text: "The numbers only count convictions, and most fraud is never prosecuted."
+      - id: d
+        text: "They aren't consistent — 1,567 cases proves fraud is widespread."
+    correct_choice_id: b
+    explanation: "A numerator means nothing without its denominator. Heritage built its database to demonstrate vulnerability, and read honestly it documents that proven fraud exists in every channel and is extraordinarily rare in all of them. Option (c) is the serious security-side rejoinder — undetected fraud is by definition uncounted — but Cantoni and Pons tested the detectable implications and found strict ID laws produce no measurable fraud reduction, which caps how much hidden fraud the impersonation channel could plausibly contain."
+    concepts: [voter-id]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Cantoni and Pons (2021) studied 1.6 billion voter-file observations from 2008–2018. Their central finding about strict voter-ID laws was:"
+    choices:
+      - id: a
+        text: "They reduce minority turnout by about 10 percentage points."
+      - id: b
+        text: "They increase fraud by driving voters to mail ballots."
+      - id: c
+        text: "No significant effect on registration or turnout — for any racial group — and no detectable effect on fraud or on public confidence."
+      - id: d
+        text: "They raise turnout by mobilizing angry opponents."
+    correct_choice_id: c
+    explanation: "The double null is the finding's power and its discomfort: it undercuts the access-side's suppression catastrophe AND the security-side's protection rationale in one design. Note what it does not show: null average effects can mask concentrated burdens on subgroups too small for even huge panels to resolve, and countermobilization (Valentino & Neuner's anger findings — option d's kernel of truth) may offset real burdens at real cost. The careful conclusion is that ID laws move far fewer votes, in both directions, than the political fight implies."
+    concepts: [voter-id, turnout]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In 2020, one party urged supporters to vote by mail while the other warned mail voting would rig the outcome. What had Thompson, Wu, Yoder, and Hall's PNAS study already shown about universal vote-by-mail?"
+    choices:
+      - id: a
+        text: "It raises overall turnout modestly (about 2 points) and has no effect on either party's vote share or turnout share."
+      - id: b
+        text: "It advantages Democrats by roughly 5 points."
+      - id: c
+        text: "It advantages Republicans in rural states only."
+      - id: d
+        text: "It cuts turnout by making voting feel less ceremonial."
+    correct_choice_id: a
+    explanation: "Using decades of staggered county-level rollouts in California, Utah, and Washington, the study found universal mail delivery is partisan-neutral — a result published in mid-2020 and ignored by both campaigns. The pre-2020 history makes sense of it: heavy mail-voting states included deep-red Utah, and the practice had no partisan valence until 2020's rhetoric assigned it one. It remains the cleanest example in this pack of evidence failing to constrain a political narrative in real time."
+    concepts: [mail-ballots, turnout]
+
+  - id: q5
+    kind: free-response
+    text: "Every verification rule risks excluding an eligible voter; every accommodation risks admitting an ineligible ballot. Given Lesson 2's evidence that both error rates are small, make your best argument for which error a democracy should weight more heavily — and then state the strongest consideration on the other side."
+    socratic_seed: "Weighting exclusion: the franchise is a right; exclusion errors fall measurably on identifiable groups (rejection-rate disparities, document-access gaps) while inclusion errors are nearly unmeasurable; a vote wrongly blocked is a harm to a citizen, a vote wrongly counted dilutes everyone infinitesimally. Weighting inclusion: legitimacy is about the loser accepting the count; Bladen County shows organized inclusion-error at outcome scale is possible; deterrence rationale (Crawford) doesn't require frequent fraud. Strong answers notice the asymmetry of measurement (exclusion is countable, successful fraud isn't) cuts in both directions, and end by naming what evidence would flip them."
+    concepts: [voter-id, mail-ballots, disparate-impact]

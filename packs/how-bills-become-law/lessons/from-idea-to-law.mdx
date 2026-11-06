@@ -1,0 +1,172 @@
+---
+schema: bettercitizen.lesson/v1
+slug: from-idea-to-law
+kind: media
+title: From idea to enacted law
+objectives:
+  - Trace a bill's path from introduction to enactment, naming each major step and each kill point
+  - Explain why most bills die in committee and what a discharge petition can do about it
+  - Distinguish House floor procedure (Rules Committee) from Senate floor procedure (filibuster, cloture, and the reconciliation exception policed by the Byrd rule)
+  - Explain veto, pocket veto, and override mechanics, with the historical odds of each
+  - Contrast the textbook process with how major legislation actually passes today (omnibus bills and continuing resolutions)
+concepts:
+  - legislative-process
+  - committee-system
+  - filibuster
+  - cloture
+  - reconciliation
+  - veto
+  - veto-override
+  - conference-committee
+  - omnibus-bill
+  - continuing-resolution
+sources:
+  - type: video
+    url: https://www.youtube.com/watch?v=SZ8psP4S6BQ
+    citation: Schoolhouse Rock — 'I'm Just a Bill'
+  - type: website
+    url: https://www.congress.gov/help/legislative-process
+    citation: Congress.gov, Library of Congress — official overview of the legislative process
+  - type: website
+    url: https://www.senate.gov/about/powers-procedures/filibusters-cloture.htm
+    citation: "U.S. Senate, \"Filibusters and Cloture\" — Rule XXII adopted 1917 (two-thirds); reduced to three-fifths of the full Senate (60) in 1975"
+  - type: website
+    url: https://www.senate.gov/legislative/cloture/clotureCounts.htm
+    citation: "U.S. Senate, \"Cloture Motions\" — official per-Congress counts of cloture motions filed and invoked"
+  - type: website
+    url: https://www.senate.gov/legislative/vetoes/vetoCounts.htm
+    citation: "U.S. Senate, \"Vetoes, 1789 to Present\" — official veto and override counts"
+  - type: website
+    url: https://www.archives.gov/federal-register/laws/118-second-session
+    citation: "National Archives, Federal Register — public laws of the 118th Congress (P.L. 118-1 through 118-274)"
+  - type: website
+    url: https://www.govtrack.us/congress/bills/statistics
+    citation: "GovTrack, \"Historical Statistics about Legislation in the U.S. Congress\" — bills introduced vs. enacted by Congress"
+  - type: website
+    url: https://www.usnews.com/news/national-news/articles/2024-12-24/the-118th-congress-by-the-numbers
+    citation: "U.S. News (Dec. 24, 2024), \"The 118th Congress, by the Numbers\" — more than 19,000 measures introduced"
+  - type: crs-report
+    url: https://www.congress.gov/crs-product/R48640
+    citation: "Congressional Research Service, R48640 — \"The Senate's Byrd Rule: Frequently Asked Questions\""
+  - type: crs-report
+    url: https://www.congress.gov/crs-product/R44819
+    citation: "Congressional Research Service, R44819 — Senate proceedings establishing majority cloture for Supreme Court nominations (the 2013 and 2017 precedents)"
+  - type: website
+    url: https://www.pewresearch.org/short-reads/2025/10/01/congress-has-long-struggled-to-pass-spending-bills-on-time/
+    citation: "Pew Research Center (Oct. 1, 2025) — Congress has passed all appropriations bills on time in only four fiscal years since 1977"
+  - type: statute
+    url: https://www.congress.gov/119/plaws/publ4/PLAW-119publ4.pdf
+    citation: "Full-Year Continuing Appropriations and Extensions Act, 2025, P.L. 119-4 (signed March 15, 2025) — a full-year CR in place of regular appropriations"
+  - type: website
+    url: https://www.npr.org/2025/11/18/nx-s1-5611438/epstein-files-bill-house-vote
+    citation: "NPR (Nov. 18, 2025) — discharge petition forces House vote on the Epstein Files Transparency Act, which passed 427–1"
+  - type: website
+    url: https://rollcall.com/2025/07/01/big-beautiful-budget-reconciliation-package-passes-senate/
+    citation: "Roll Call (July 1, 2025) — reconciliation package passes Senate 51–50 with the Vice President breaking the tie"
+  - type: website
+    url: https://www.law.cornell.edu/constitution-conan/article-1/section-7/clause-2/veto-power
+    citation: "Constitution Annotated (LII) — veto and override mechanics, including the two-thirds-of-those-present rule"
+  - type: book
+    citation: "Sinclair, B. (2016), Unorthodox Lawmaking: New Legislative Processes in the U.S. Congress, 5th ed., CQ Press."
+  - type: book
+    citation: "Mayhew, D. R. (1991; 2nd ed. 2005), Divided We Govern: Party Control, Lawmaking, and Investigations, Yale University Press."
+duration_min: 17
+---
+
+# From idea to enacted law
+
+In the old Schoolhouse Rock cartoon, a rolled-up scrap of paper sits on the Capitol steps and sighs, "I'm just a bill" — and by the end of the song, the gavels bang and he's a law. The cartoon is accurate about the steps and wildly optimistic about the odds. In the 118th Congress (2023–24), members introduced more than 19,000 bills and resolutions. Exactly 274 became public law — fewer than two in every hundred, and that count includes post-office namings. Even in productive decades the share of introduced bills that get enacted hovers in the low single digits, roughly 2 to 5 percent. So the honest version of this lesson's question is not "how does a bill become a law?" but "where do bills *die*, and what does it take to survive every kill point in sequence?" Watch the [three-minute cartoon](https://www.youtube.com/watch?v=SZ8psP4S6BQ) for the skeleton, then come back for the parts the song leaves out.
+
+## The gauntlet at a glance
+
+The path below is the map for everything that follows. Five chokepoints, in order: committee, the House Rules Committee, the Senate's 60-vote cloture threshold, the identical-text requirement, and the President's desk. A bill must clear *all* of them; its opponents need to win at only *one*. Click each stage to see what happens there — and where the bodies are buried.
+
+<ProcessFlow
+  title="The legislative gauntlet"
+  steps={[
+    {title: "Introduced by a member", detail: "A representative drops the bill in the hopper; a senator hands it to a clerk or introduces it from the floor. The parliamentarian refers it to the committee — sometimes several — with jurisdiction. Revenue bills must start in the House (Art. I §7)."},
+    {title: "Committee and subcommittee", detail: "Hearings, line-by-line markup, and a majority vote to report the bill to the floor — for the few bills a chair chooses to move.", branch: "KILL POINT 1 — the default fate is silence: no hearing, no vote. House escape hatch: a discharge petition signed by 218 members."},
+    {title: "Floor debate and passage", detail: "The House moves under a special rule written by the Rules Committee; the Senate moves by unanimous consent — or by invoking cloture.", branch: "KILL POINT 2 — the Rules Committee never schedules it. KILL POINT 3 — cloture fails short of 60 votes (exception: reconciliation, 51)."},
+    {title: "Both chambers pass identical text", detail: "A conference committee or amendment ping-pong reconciles the two versions; each chamber then approves the final text without further amendment.", branch: "KILL POINT 4 — the versions are never reconciled. A bill that passes both chambers in different forms has not passed Congress."},
+    {title: "The President: 10 days to act", detail: "Sign it; let it become law unsigned while Congress sits; veto it; or — if Congress has adjourned — pocket-veto it by doing nothing.", branch: "KILL POINT 5 — veto (override takes two-thirds of both chambers and succeeds about 7% of the time) or pocket veto (no override possible at all)."},
+    {title: "Law", detail: "118th Congress: more than 19,000 measures in, 274 public laws out — under 2%."},
+  ]}
+/>
+
+Notice the asymmetry the diagram encodes: supporters must win at every stage, opponents at only one, which is why the status quo wins almost every tie. And none of the kill points is an accident — each was added deliberately, at a different moment in history, by someone who wanted lawmaking to be harder.
+
+## From the hopper to the committee graveyard
+
+Only a sitting member can introduce a bill — a representative drops it in the "hopper," a wooden box beside the House rostrum, while a senator hands it to a clerk or introduces it from the floor. Anyone can *write* one (the executive branch, advocacy groups, and lobbyists draft constantly), but a member must put their name on it. One constitutional carve-out shapes the choreography: under Article I §7, "All Bills for raising Revenue shall originate in the House of Representatives," which is why tax legislation always carries an H.R. number. After introduction, the parliamentarian refers the bill to the committee — sometimes several — with jurisdiction over its subject. And there, at the very first stop, the textbook and reality diverge — this is kill point one.
+
+Each chamber divides its work among standing committees — about twenty in the House, sixteen in the Senate, plus scores of subcommittees — and a referred bill's default fate is *nothing*: no hearing, no markup, no vote, just a quiet death at session's end. This is the single deadliest point in the process; the handful of bills that advance do so because a chair schedules hearings, the committee amends the text line by line in markup, and a majority votes to report it to the floor.
+
+There is one escape hatch in the House: the **discharge petition**. If 218 members — a majority of the full House — sign, a bill is pried out of committee and onto the floor whether leadership likes it or not. Because signing is public defiance of one's own leaders, successful discharges are rare — but they happen. In November 2025, a petition forced a floor vote on the Epstein Files Transparency Act over the Speaker's opposition; the petition reached its 218th signature on November 12, the House then passed the bill 427–1 on November 18, the Senate cleared it by unanimous consent immediately afterward, and the President signed it on November 19 — seven days from the petition's 218th signature to public law. The episode is a clean demonstration of what the petition is for: revealing a majority that committee gatekeeping had been suppressing.
+
+<Checkpoint question="A bill has 230 declared House supporters, but the committee chair refuses to schedule it and leadership won't bring it up. Is the bill dead?">
+  Not necessarily — 230 is more than the 218 signatures a discharge petition needs to force the bill out of committee and onto the floor. The real question is whether all 230 will *sign publicly*, because a signature defies the chair and the Speaker, not just opposes them in spirit. That gap — between quiet support and public commitment — is exactly why most discharge petitions stall short of 218 even when "the votes are there."
+</Checkpoint>
+
+## Kill points two and three: two floors, two physics — and one side door
+
+A reported bill still needs floor time, and the two chambers ration it in opposite ways.
+
+The **House** runs on majority control of the calendar. For any significant bill, the **Rules Committee** — stacked in the majority's favor and effectively an arm of the Speaker — writes a "special rule" setting how long debate lasts and which amendments, if any, are in order. A bill the Rules Committee never schedules simply waits, and usually dies waiting. The House is a machine a majority can drive: ruthless, fast, and centralized.
+
+The **Senate** runs on the opposite premise: any senator may speak, and most business requires unanimous consent to proceed. The refusal to stop debating — the **[[term:filibuster]]** — means that, in practice, most legislation needs the supermajority required to invoke **[[term:cloture]]** and force a vote. The thresholds have their own history: the Senate adopted Rule XXII in 1917 requiring two-thirds of senators voting to cut off debate, then lowered it in 1975 to three-fifths of the full Senate — **60 votes** — where it stands for legislation today. Two carve-outs came later, by majority-vote precedent rather than rule change: in November 2013 the Senate reduced cloture on executive-branch and most judicial nominations to a simple majority (the first "nuclear option"), and in April 2017 it extended that to Supreme Court nominations. Changing the Senate's standing rules themselves still formally requires two-thirds of senators present and voting — which is why the "nuclear" precedent route, not formal amendment, is how the thresholds have actually moved.
+
+| What the Senate is voting on | Votes needed to end debate (mid-2026) |
+| --- | --- |
+| Ordinary legislation | 60 (three-fifths of all senators) |
+| Executive and judicial nominations | Simple majority (since Nov. 2013) |
+| Supreme Court nominations | Simple majority (since Apr. 2017) |
+| Budget reconciliation bills | No cloture needed — debate capped by statute |
+| Changing the standing rules | Two-thirds of senators present and voting |
+
+The modern filibuster requires no Mr. Smith marathon speech; a signaled objection suffices, and the majority simply schedules around the blocked bill. The result shows up in the Senate's own ledger: in the 66th Congress (1919–20), two cloture motions were filed; by mid-2026 the 119th (2025–26) had already filed 258 — out of 3,146 in the institution's entire history. Filibustering went from a rarity to the Senate's default operating condition within living memory. The fall 2025 government shutdown displayed the mechanics in their purest form: a funding bill backed by a House majority and a Senate majority still sat for six weeks, failing cloture vote after cloture vote, because its supporters could not assemble 60 — and the 43-day shutdown that resulted was the longest in American history.
+
+<Checkpoint question="A bill has 55 solid Senate supporters and all 100 senators are present. The minority objects to ending debate. The Majority Leader insists 'we have the votes to pass it.' Does the bill pass?">
+  No. Passage takes 51, but *getting to the passage vote* takes 60 under Rule XXII, and 55 is five short. Unless five more senators cross over on cloture, or the bill qualifies for reconciliation, or the Senate sets a new majority-cloture precedent for legislation (the "nuclear option" it has so far used only for nominations), the bill stalls indefinitely. Having a majority and having sixty are different currencies in the Senate.
+</Checkpoint>
+
+Now the side door. There is one regular exception to the 60-vote Senate. A **[[term:reconciliation]]** bill — authorized by the annual budget resolution and limited to fiscal matters — gets statutorily capped debate, so it cannot be filibustered and passes with a simple majority. Most of the last decade's biggest domestic laws took this door: the 2017 tax act, the 2021 American Rescue Plan, the 2022 Inflation Reduction Act, and the sprawling July 2025 package its sponsors titled the One Big Beautiful Bill Act, which cleared the Senate 51–50 on the Vice President's tiebreaker and the House 218–214 before being signed on July 4, 2025.
+
+The door has a bouncer. The **Byrd rule** (adopted 1985, permanent since 1990) lets any senator strike "extraneous" provisions — anything with no budgetary effect, or whose budgetary effect is "merely incidental" to a policy aim, or that increases deficits beyond the budget window, or that touches Social Security — unless 60 senators vote to waive the objection, which defeats the point. The Senate parliamentarian advises on what survives this "Byrd bath," which is why each reconciliation cycle features news stories about provisions being quietly carved out of a bill that no filibuster could touch — including several stripped from the 2025 act.
+
+## Kill point four: one text, two chambers
+
+Nothing goes to the President until House and Senate pass *word-for-word identical* text. The textbook mechanism is the **[[term:conference-committee]]**: negotiators from both chambers blend the two versions into a conference report, which each chamber must then approve without amendment. The modern reality, as congressional scholar Barbara Sinclair documented across editions of *Unorthodox Lawmaking*, is that formal conferences have grown rare; leaders more often reconcile versions by "ping-pong" — bouncing amendments between chambers — or by pre-negotiating one text behind closed doors before either floor votes. Either way, the requirement bites: a bill that passes both chambers in different versions and never gets reconciled dies as surely as one that never left committee.
+
+## Kill point five: the President's desk
+
+Article I §7 gives the President ten days, Sundays excepted, to act on a presented bill. Four things can happen. Sign it: law. Do nothing while Congress remains in session: law without a signature. **[[term:veto]]** it — return it with written objections — and Congress can override with two-thirds of those present and voting in *each* chamber. Or do nothing after Congress has adjourned and thereby prevented the bill's return: the **pocket veto**, which kills the bill with no possibility of override because there is nothing to override.
+
+The historical odds favor the President overwhelmingly. Of the 2,599 vetoes cast from 1789 through mid-2026, Congress has overridden 112 — about 7 percent of the 1,533 regular vetoes, and the 1,066 pocket vetoes were untouchable by design. Congress did not manage its first override until 1845, against John Tyler. The most recent was completed on New Year's Day 2021, when the Senate (81–13) joined the House (322–87, four days earlier) to enact the FY2021 defense bill over a veto — the only successful override of the 25 vetoes cast since 2017 (ten in Donald Trump's first term, thirteen by Joe Biden, and two so far in Trump's second term as of mid-2026). The veto's deepest effect never shows up in these counts: knowing the override math, Congress routinely reshapes bills *before* passage to keep the veto holstered.
+
+<Checkpoint question="Congress passes two bills. Bill A is vetoed and returned in February, mid-session. Bill B is presented on the session's final day, and Congress adjourns; the President simply never signs it. Which bill has a future, and why?">
+  Only Bill A. A returned (regular) veto can be overridden by two-thirds of those present and voting in both chambers — steep, but possible, as the FY2021 defense bill proved. Bill B suffered a pocket veto: because adjournment prevented its return, it never became law and there is no veto message to override. Its sponsors must start from scratch next session. Timing a bill's presentment, it turns out, is part of legislative strategy.
+</Checkpoint>
+
+## The textbook process vs. the actual one
+
+Before we break the textbook diagram, lock in its sequence — you will need it as the baseline for everything the modern Congress does differently.
+
+<OrderIt
+  prompt="Put the official stages of a federal bill in order."
+  items={[
+    "Introduced and referred to committee",
+    "Committee hearings, markup, and report",
+    "Floor passage — House under a special rule, Senate after cloture",
+    "Both chambers agree on identical text",
+    "Presented to the President: sign, veto, or pocket veto",
+  ]}
+  explanation="Identical text must clear both chambers before presentment — a bill that passes the House and Senate in different forms has not passed Congress. And because each stage presumes survival at every earlier one, the order is the strategy: opponents aim for the earliest gate they control."
+/>
+
+Everything above describes the official lane markings. The traffic increasingly ignores them. The clearest case is the spending process: the law contemplates twelve separate [[term:appropriations]] bills passing each year by October 1, yet Congress has hit that mark in only four fiscal years since the current budget process took effect in 1977 — none more recently than 1997. Instead it governs by **[[term:continuing-resolution]]** (stopgaps freezing last year's funding levels) and giant **[[term:omnibus-bill]]** packages that bundle thousands of pages into one must-pass vote. Fiscal 2025 ended with no regular bills at all — just a full-year continuing resolution signed March 15, 2025, the fourth such full-year stopgap since 2000. Fiscal 2026 began with the 43-day shutdown. Leadership-drafted mega-bills, reconciliation packages, and CRs are now how most consequential lawmaking happens; political scientists call the drift "the decline of regular order," and Sinclair's blunter label — *unorthodox lawmaking* — has become the standard description, not the exception.
+
+One more scholarly corrective belongs in your toolkit. It is tempting to blame divided party control for everything that dies in this gauntlet. David Mayhew's *Divided We Govern* (1991), tracking landmark enactments from 1946 onward, found that unified and divided governments produced major laws at strikingly similar rates — gridlock has structural causes (the kill points you just toured) that operate regardless of which party holds what. The deadliest stretches of the gauntlet were built into the rules long before today's parties showed up to run it.
+
+## What this lesson did not settle
+
+Whether all this friction is a feature or a defect. The Framers wanted lawmaking slow — bicameralism and presentment are deliberate brakes — but the filibuster, the Rules Committee, and government-by-CR are not in the Constitution; they are accumulated institutional choices that could be unmade by the chambers that made them. Whether the 60-vote Senate protects deliberation or just entrenches minority veto power, and whether omnibus governance is pragmatic adaptation or an accountability dodge, are live arguments — the next lesson takes them up in earnest, and the honest starting point is the map you now have: five kill points, each defended by someone who put it there on purpose.

@@ -1,0 +1,156 @@
+schema: bettercitizen.assessment/v1
+lesson: the-price-of-federalism
+questions:
+  - id: q1-dole-prongs
+    kind: multiple-choice
+    text: "Congress conditions ALL federal education funds on states adopting a
+      specific reading curriculum — but the requirement appears only in agency
+      guidance issued two years after states accepted the money. A state sues.
+      Under South Dakota v. Dole, the state's strongest argument is that the
+      condition:"
+    choices:
+      - id: a
+        text: Does not serve the general welfare, because curriculum choices are
+          inherently local
+      - id: b
+        text: Was not stated unambiguously when states took the funds — the deal
+          changed after acceptance
+      - id: c
+        text: Violates the Establishment Clause as an independent constitutional bar
+      - id: d
+        text: Is automatically invalid, because education is a reserved power and
+          Congress may never attach education conditions
+    correct_choice_id: b
+    explanation: Dole's second requirement — conditions must be unambiguous so
+      states can "exercise their choice knowingly" — is the contract logic at
+      the doctrine's core, and a condition sprung via later guidance flunks it.
+      Choice (a) fails because courts apply the general-welfare prong with
+      near-total deference; choice (c) invents a constitutional violation the
+      facts don't contain (the independent-bar prong stops Congress from
+      paying states to violate rights, like establishing a church); choice (d)
+      proves too much — Dole exists precisely because conditional spending can
+      reach subjects, like drinking ages, that Congress cannot regulate
+      directly. (The sheer scale of "all education funds" would also support a
+      coercion argument under NFIB — but the ambiguity problem is the cleaner
+      kill.)
+    concepts:
+      - spending-power
+      - federalism
+  - id: q2-block-erosion
+    kind: multiple-choice
+    text: "The TANF block grant has been $16.5 billion every year since 1996. What
+      does this fact illustrate about block grants as a funding form?"
+    choices:
+      - id: a
+        text: Block grants tend to grow automatically because states control how the
+          money is spent
+      - id: b
+        text: Courts have capped block-grant spending under the Tenth Amendment
+      - id: c
+        text: A fixed nominal sum that Congress never inflation-adjusts loses real
+          value year after year — a quiet defunding no one has to vote for
+      - id: d
+        text: Block grants must be renewed unanimously by the states, which blocks
+          increases
+    correct_choice_id: c
+    explanation: The block-grant bargain trades flexibility for a fixed price.
+      Unlike an open-ended matching categorical such as Medicaid — which grows
+      automatically with enrollment and costs — a block grant is a frozen
+      number, and inflation has eroded TANF's real value by roughly half since
+      1996 without Congress ever casting a vote to cut it. Choice (a) describes
+      the opposite funding behavior (that's the matching-grant dynamic);
+      choices (b) and (d) invent legal mechanisms that don't exist — block
+      grant levels are ordinary appropriations politics.
+    concepts:
+      - grants-in-aid
+      - federalism
+  - id: q3-coercion-transfer
+    kind: multiple-choice
+    text: "Congress passes a law: any state that declines to adopt a new federal
+      housing code loses 100 percent of its existing federal highway funding —
+      a program states have built budgets around for seventy years. Under Dole
+      and NFIB v. Sebelius, the law is:"
+    choices:
+      - id: a
+        text: Valid — states remain legally free to refuse federal funds, which is
+          all the Constitution requires
+      - id: b
+        text: Invalid — any condition attached to federal money is commandeering
+      - id: c
+        text: Valid — highway funding conditions were specifically upheld in South
+          Dakota v. Dole
+      - id: d
+        text: Highly vulnerable — leveraging the totality of a large, existing,
+          decades-old program to force an unrelated policy looks like NFIB's
+          coercion plus a Dole germaneness failure
+    correct_choice_id: d
+    explanation: >-
+      This stacks both limits at once. NFIB held that threatening all
+      of an existing program states have come to depend on — there, Medicaid,
+      over 10 percent of most state budgets — is "a gun to the head," not a
+      bargain; and a housing code has no meaningful relation to how highway
+      money is spent, flunking Dole's relatedness prong (the prong O'Connor
+      thought should have decided Dole itself). Choice (a) is the formalism
+      NFIB rejected — "free to refuse" must be real, not theoretical. Choice
+      (b) overcorrects: modest, germane, refusable conditions are routine and
+      valid. Choice (c) misreads Dole, which upheld a threatened 5 percent of
+      highway funds — less than half a percent of South Dakota's budget — and
+      expressly warned that pressure can become compulsion.
+    concepts:
+      - spending-power
+      - federalism
+      - tenth-amendment
+  - id: q4-umra
+    kind: multiple-choice
+    text: "Which of the following does the Unfunded Mandates Reform Act of 1995
+      actually do?"
+    choices:
+      - id: a
+        text: Prohibits Congress from imposing costs on state and local governments
+          without full federal funding
+      - id: b
+        text: Requires CBO cost estimates for large intergovernmental mandates and
+          allows a point of order — while exempting grant conditions and
+          civil-rights requirements entirely
+      - id: c
+        text: Makes unfunded mandates unconstitutional under the Tenth Amendment
+      - id: d
+        text: Guarantees the federal government pays 40 percent of special-education
+          costs
+    correct_choice_id: b
+    explanation: UMRA is a transparency-and-procedure statute, not a prohibition.
+      It makes the price tag visible — CBO must estimate the cost of
+      intergovernmental mandates above an inflation-adjusted threshold ($50
+      million in 1996 dollars, about $103 million by 2025) — and arms any
+      member with a point of order, which Congress can and does waive. Its
+      exclusions are the loopholes that matter — conditions of federal aid and
+      civil-rights requirements are outside it. Choice (d) is a near-miss
+      built from the IDEA story — 40 percent was an authorization ceiling
+      Congress has never come close to appropriating, and UMRA has nothing to
+      do with it. Choices (a) and (c) describe powers and doctrines the act
+      does not contain.
+    concepts:
+      - unfunded-mandates
+      - federalism
+  - id: q5-governor
+    kind: free-response
+    text: The federal government offers to convert your state's Medicaid funding
+      from today's open-ended matching grant into a fixed block grant with far
+      fewer strings. As governor, make the decision — and defend it using this
+      lesson's tools.
+    socratic_seed: Start with the TANF precedent — what happened to a block
+      grant's real value over thirty years of congressional inaction, and why
+      does a matching grant behave differently when a recession hits and
+      enrollment spikes? Then weigh the flexibility honestly — what could your
+      state actually do better with fewer conditions, and would your successors
+      use that freedom the same way? Bring in Peterson's ledger — if states
+      systematically underinvest in redistribution because they compete for
+      taxpayers, what does shifting Medicaid's funding risk from Washington to
+      the states do to that dynamic? And test the politics of the offer itself
+      — is this a bargain between sovereigns or pressure that NFIB would
+      recognize, and does your answer change if declining the conversion means
+      forgoing a funding increase?
+    concepts:
+      - grants-in-aid
+      - spending-power
+      - federalism

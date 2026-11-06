@@ -1,0 +1,127 @@
+schema: bettercitizen.assessment/v1
+lesson: how-polls-work-and-fail
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      A national poll samples 1,000 of America's roughly 260 million adults and reports a ±3.1
+      margin of error. A city pollster samples 1,000 of her city's 500,000 adults. Assuming both
+      are clean random samples, her margin of error is roughly…
+    choices:
+      - id: a
+        text: Much smaller, because 1,000 people is a far larger share of the city's population.
+      - id: b
+        text: Much larger, because small populations are more variable.
+      - id: c
+        text: About the same ±3.1 — precision comes from the absolute sample size, not the share of the population sampled.
+      - id: d
+        text: Impossible to compute without knowing the city's demographics.
+    correct_choice_id: c
+    explanation: >-
+      Once the population is much larger than the sample, population size drops out of the
+      margin-of-error formula almost entirely — the soup-tasting principle: one stirred spoonful
+      judges any size pot. (A finite-population correction exists, but at 1,000 out of 500,000 it
+      changes the MOE by a fraction of a tenth of a point.) Choice (a) is the oldest confusion in
+      sampling — the Literary Digest's 2.4 million returned ballots were a huge share of the
+      electorate and missed by 19 points, because selection, not size, is what matters.
+    concepts: [margin-of-error]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What does a published ±3 margin of error actually cover?"
+    choices:
+      - id: a
+        text: All sources of polling error, which is why misses beyond ±3 indicate misconduct.
+      - id: b
+        text: Random sampling error only, at 95% confidence — not coverage, nonresponse, measurement, or weighting error.
+      - id: c
+        text: Sampling error plus nonresponse error, since pollsters adjust for people who decline.
+      - id: d
+        text: The maximum possible error — a clean poll can never miss by more than its MOE.
+    correct_choice_id: b
+    explanation: >-
+      The MOE quantifies only the bad luck possible in who a random draw happened to reach — and
+      even then, about 1 poll in 20 misses beyond it by chance alone, so (d) is wrong twice over.
+      The total-survey-error framework (Groves & Lyberg 2010) catalogs what the published number
+      excludes: coverage error (bad lists), nonresponse error (biased silence — the Digest's
+      deeper wound, per Squire 1988), measurement error (wording, likely-voter screens), and
+      weighting error. Weighting reduces nonresponse bias but does not eliminate it, so (c)
+      overclaims. That is how 2020's state polls missed by 4-plus with ±3.5 MOEs and nobody lied.
+    concepts: [margin-of-error, total-survey-error]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      In October 2024, nearly 80% of battleground-state polls showed the race within 2.5 points,
+      when sampling math predicts only about 55% would — odds of roughly 1 in 9.5 trillion absent
+      some common cause. Whatever the mechanism (suppressed outliers, or many firms weighting on
+      the same political variables), why does this convergence weaken a polling average?
+    choices:
+      - id: a
+        text: It proves the race was not actually close, so the average pointed the wrong way.
+      - id: b
+        text: Averages only work when errors are independent enough to cancel; converging methods correlate the errors, so the average gains precision but not accuracy.
+      - id: c
+        text: It shows pollsters fabricated data, which invalidates every poll in the average.
+      - id: d
+        text: It doesn't — more agreement among polls always means more reliability.
+    correct_choice_id: b
+    explanation: >-
+      The power of averaging is error cancellation, which requires independence. When firms herd
+      toward consensus or independently bolt their samples to the same partisan-weighting
+      template (AAPOR's 2024 task force found the latter, not the former), their misses point the
+      same way and the average inherits the shared blind spot — twenty clustered polls become one
+      poll photocopied. Note (a) overreaches: 2024's race really was close; the convergence just
+      meant the cluster couldn't be trusted to be close for the right reasons. (d) confuses
+      consensus with truth — 2020's agreeing state polls missed together by 4-plus points.
+    concepts: [herding, margin-of-error]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      A poll of 1,200 adults shows a Senate challenger gaining 12 points since last month among
+      voters aged 18–29, who are about 15% of the sample. The topline barely moved. The most
+      defensible reading?
+    choices:
+      - id: a
+        text: A real youth surge — 1,200 respondents is a large, professional sample.
+      - id: b
+        text: A real shift, because 12 points exceeds the poll's ±2.8 margin of error.
+      - id: c
+        text: Likely statistical noise — the subgroup's margin of error is around ±8 per share, margins double that, and comparing two polls' subgroups compounds it further.
+      - id: d
+        text: Meaningless by definition, since polls cannot measure subgroups at all.
+    correct_choice_id: c
+    explanation: >-
+      Fifteen percent of 1,200 is about 180 respondents: roughly ±7.3 on each candidate's share,
+      roughly double that on the gap between them, before any weighting penalty — and a
+      month-over-month "swing" stacks two such noisy estimates. Choice (b) is the classic trap:
+      the headline ±2.8 belongs to the full sample, never to a crosstab. But (d) overcorrects —
+      subgroups can be measured by pooling many polls or months of samples, which is exactly how
+      serious analysts report them. AAPOR's 2024 report found polls that agreed on toplines
+      scattered by tens of points on subgroup margins.
+    concepts: [margin-of-error, exit-poll]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      It is October 2028. Your feed shows: (1) a poll of your swing state with the Democrat up 2
+      (±4); (2) a polling average with the race at "Republican +0.3"; (3) an exit-poll-based
+      claim from 2024 about how your state's Hispanic voters shifted; and (4) a friend insisting
+      that after 2016 and 2020, polls always understate Republicans. Using this lesson, write a
+      short protocol for what you can and cannot conclude from each.
+    socratic_seed: >-
+      Strong answers should hit four moves. (1) A 2-point lead inside a ±4 share MOE — and ±8 on
+      the margin — is statistically a tie; one poll is a data point, not news. (2) The average is
+      the better object but inherits correlated-method risk: 2024's convergence (78% of
+      battleground polls within 2.5 points, odds ~1 in 9.5 trillion absent common cause) means
+      tight clustering can be manufactured consensus, so error bands, not decimals, are the unit.
+      (3) Exit polls misdescribe composition — 2016's said 50% of voters were college graduates
+      when validated-voter data said 37% — so prefer validated-voter studies (Pew, AP VoteCast,
+      Catalist) for subgroup claims. (4) The direction-of-error history is real (Democratic
+      margins overstated by 3.1, 4.6, and 2.7 points in 2016/2020/2024) but not a law: AAPOR
+      notes same-direction streaks beyond two cycles are historically rare, 2012's polls
+      understated the Democrat, and a reader who "corrects" polls by a fixed amount is doing
+      uncompensated herding. Push the student: what would have to be true for the 2028 polls to
+      err the other way — and would their protocol catch it?
+    concepts: [margin-of-error, total-survey-error, herding, exit-poll]

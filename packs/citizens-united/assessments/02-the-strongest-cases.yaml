@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which argument belongs to the *strongest* version of the First Amendment maximalist case — rather than the caricature its critics attack?"
+    choices:
+      - id: a
+        text: "Money is literally speech, so any rule touching money is unconstitutional."
+      - id: b
+        text: "The means of amplification are inseparable from speech itself — \"you may speak but not spend to be heard\" hollows the right for any speaker who is not already famous."
+      - id: c
+        text: "Corporations are people, so they hold every right individuals do."
+      - id: d
+        text: "Elections work best when the wealthiest voices predominate."
+    correct_choice_id: b
+    explanation: "The serious maximalist claim is about amplification, not a money-equals-speech slogan: leaflets, films, and airtime all cost money, so capping the spending caps the speaking. It pairs with the speaker-discrimination point (banning corporate speech while exempting media corporations) and Bradley Smith's incumbent-protection argument. Options a and c are the caricatures the lesson warns against; d is no one's stated position."
+    concepts: [citizens-united, independent-expenditures]
+
+  - id: q2
+    kind: multiple-choice
+    text: "The anti-corruption advocate and the democratic-equality advocate both oppose Citizens United — but they disagree about something fundamental. What?"
+    choices:
+      - id: a
+        text: "Whether Buckley v. Valeo was rightly decided: the anti-corruption position works within Buckley's framework; the equality position says Buckley itself was the wrong turn."
+      - id: b
+        text: "Whether disclosure is constitutional."
+      - id: c
+        text: "Whether the Tillman Act should be repealed."
+      - id: d
+        text: "Whether elections should be publicly financed — equality advocates oppose it."
+    correct_choice_id: a
+    explanation: "The anti-corruption case accepts Buckley's corruption-centered framework and argues Citizens United misapplied it (independence is fictional; 'appearance' was read too narrowly). The equality case attacks the premise: Buckley's refusal to count political equality as a constitutional interest — 'wholly foreign to the First Amendment' — was the original error, and Citizens United merely applied it faithfully. Diagnosis determines remedy: doctrinal repair within Buckley versus displacing Buckley."
+    concepts: [citizens-united, quid-pro-quo, campaign-finance]
+
+  - id: q3
+    kind: multiple-choice
+    text: "La Raja and Schaffner's institutionalist argument scrambles the usual sides of this debate because it concludes that…"
+    choices:
+      - id: a
+        text: "outside spending should be banned and parties capped harder."
+      - id: b
+        text: "polarization is caused entirely by social media, so campaign-finance law is irrelevant."
+      - id: c
+        text: "restricting party money rerouted political cash to ideological outside groups and purist donors — so the cure is to deregulate the parties, not re-cap the outside groups."
+      - id: d
+        text: "Citizens United should be overruled and replaced with full public financing."
+    correct_choice_id: c
+    explanation: "Their fifty-state evidence associates party-centered finance with less polarized legislatures: parties rationally fund electable moderates, while ideological donors fund purists. They agree with reformers that the post-2010 system is pathological and with maximalists that the remedy is less restriction — for parties. That is why the pending party-coordination case, NRSC v. FEC, is effectively their literature's day in court."
+    concepts: [campaign-finance, citizens-united]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A new study conclusively shows that access to officeholders and the legislative agenda track large independent spenders, even though no explicit exchanges occur. Which position does this MOST directly strengthen, and why?"
+    choices:
+      - id: a
+        text: "The maximalist position — it proves disclosure is working."
+      - id: b
+        text: "The anti-corruption position — it is evidence for dependence-style corruption that Buckley's quid-pro-quo definition cannot see."
+      - id: c
+        text: "The democratic-equality position — it proves Reynolds v. Sims was wrongly decided."
+      - id: d
+        text: "No position — agenda influence is irrelevant to every camp."
+    correct_choice_id: b
+    explanation: "Each position published its falsification conditions. The anti-corruption camp's central empirical bet is that money buys access and agenda-setting without prosecutable exchanges — exactly what this hypothetical documents; it would directly counter the maximalist's standing claim that no systemic harm traceable to independent spending has been shown. (The equality camp would also cite it, but its core claim is normative, about wealth-scaled influence, not corruption evidence.)"
+    concepts: [citizens-united, quid-pro-quo]
+
+  - id: q5
+    kind: free-response
+    text: "Pick the position you find LEAST persuasive of the four. State its strongest argument so fairly that an adherent would sign it, then identify the specific evidence that keeps you unpersuaded — and what new evidence would change your mind."
+    socratic_seed: "If you chose the maximalists: can you state the amplification and incumbent-protection arguments without the 'money is speech' strawman? If the anti-corruption camp: can you handle Stratmann's and Ansolabehere's findings that money's measurable effects are weak? If the equality camp: what is your answer to entrenchment? If the institutionalists: what if polarization is demand-driven? A position you cannot steel-man is one you do not yet understand."
+    concepts: [citizens-united, campaign-finance]

@@ -1,0 +1,19 @@
+slug: williams-institute
+name: Williams Institute
+kind: think-tank
+subtype: university-affiliated
+description: "Research center at UCLA School of Law, founded in 2001, focused on sexual orientation and gender identity law and public policy. Its demographic and legal research is the most-cited in the field and appears regularly in court filings and legislative debate on LGBTQ issues."
+website: https://williamsinstitute.law.ucla.edu
+jurisdiction: national
+partisan_lean: center-left
+parent_org: university-of-california-los-angeles
+org_relationship: unit-of
+influence_channels:
+  - policy-research
+  - amicus-briefs
+  - legislative-testimony
+concept_tags:
+  - think-tank
+  - civil-rights
+  - equal-protection
+is_active: true

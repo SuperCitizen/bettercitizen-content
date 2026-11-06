@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: how-its-played-out
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which election most cleanly demonstrates winner-take-all arithmetic producing a popular-vote inversion — with no disputed counts, no contingent procedure, and no court intervention?"
+    choices:
+      - id: a
+        text: "1824"
+      - id: b
+        text: "1876"
+      - id: c
+        text: "1888"
+      - id: d
+        text: "2000"
+    correct_choice_id: c
+    explanation: "In 1888 Cleveland won the popular vote by roughly 89,000 but lost 233–168 because Harrison's votes were distributed more efficiently (New York by 1.09% delivered all 36 electors) — pure arithmetic. 1824 carries two asterisks (incomplete popular vote, House contingent election); 1876 was resolved by an invented commission amid violence and competing certificates; 2000 turned on a disputed 537-vote certification and Bush v. Gore. 2016 is 1888's modern twin."
+    concepts: [electoral-college, popular-vote]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did the Electoral Commission of 1877 actually decide?"
+    choices:
+      - id: a
+        text: "Which of the competing certificates of electors from four states would be counted."
+      - id: b
+        text: "Who had won the national popular vote after recounts."
+      - id: c
+        text: "The contingent election between Hayes and Tilden in the House."
+      - id: d
+        text: "Whether new elections would be held in Florida, Louisiana, and South Carolina."
+    correct_choice_id: a
+    explanation: "Rival state authorities had mailed Congress competing certificates from Florida, Louisiana, South Carolina, and (for one elector) Oregon — an antecedent counting question the Constitution doesn't answer, so Congress invented a 15-member tribunal. After Justice David Davis withdrew and Joseph P. Bradley replaced him, it awarded every disputed vote to Hayes, 8–7, on party lines. It was not a contingent election (c): with the 20 votes Hayes had exactly the 185 majority. No recounts or re-runs were ordered (b, d) — and the Compromise of 1877 traded acquiescence for the end of Reconstruction."
+    concepts: [electoral-college, contingent-election]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which statement about Bush v. Gore (2000) is accurate?"
+    choices:
+      - id: a
+        text: "Seven justices found the standardless recount violated equal protection; five held no adequate recount could finish by the December 12 safe-harbor date."
+      - id: b
+        text: "The Court ruled 5–4 that the recount violated equal protection."
+      - id: c
+        text: "The Court ordered Florida to certify Bush as the winner."
+      - id: d
+        text: "The Court ruled 9–0 that manual recounts are unconstitutional in presidential elections."
+    correct_choice_id: a
+    explanation: "The equal-protection problem commanded seven votes (Souter and Breyer agreed there was a defect but would have remanded for a uniform-standard recount); only the remedy — stopping for the 3 U.S.C. §5 safe harbor — was 5–4. The Court never declared a winner (c): halting the recount left Florida's certified 537-vote margin standing, and Gore conceded. (d) overreads a per curiam that explicitly limited itself 'to the present circumstances.'"
+    concepts: [electoral-college, equal-protection]
+
+  - id: q4
+    kind: multiple-choice
+    text: "It's 2036. A regional third-party candidate wins 28 electoral votes, leaving the major-party candidates at 262 and 248. Based on the constitutional rules and the historical record, what happens next — and what is the historically grounded risk?"
+    choices:
+      - id: a
+        text: "The House chooses among the top three, one vote per state delegation; the risk is a bargained outcome that wounds the winner's legitimacy, as in 1824."
+      - id: b
+        text: "A national runoff is held between the top two electoral-vote recipients."
+      - id: c
+        text: "The plurality electoral-vote leader is inaugurated; the risk is a weak mandate."
+      - id: d
+        text: "The Senate selects the President from the top two; the risk is a party-line tie."
+    correct_choice_id: a
+    explanation: "With nobody at 270, the 12th Amendment sends the presidential choice to the House voting one-state-one-vote among the top three (the Senate picks only the Vice President). The record supplies the risk: in 1824 the choice was brokered — Clay's support, Adams's win, Clay's appointment as Secretary of State — and the 'Corrupt Bargain' charge crippled the administration it produced. There is no runoff and no plurality rule; that is exactly the deadlock George Wallace hoped to force in 1968."
+    concepts: [electoral-college, contingent-election]
+
+  - id: q5
+    kind: free-response
+    text: "Three counting crises produced three procedural fixes: the 12th Amendment after 1800, the Electoral Count Act after 1876, and the Electoral Count Reform Act after 2020. Does that pattern show a system that self-corrects, or one accumulating patches on an unsound design? Defend either reading using at least two specifics from this lesson."
+    socratic_seed: "Press on what each statute fixed versus what it left untouched: all three hardened the counting procedure, none touched allocation — 1888- and 2016-style inversions would unfold identically under the ECRA. If the learner says 'self-correcting,' ask why the fixes always arrive after near-catastrophe rather than before, and whether 1876's resolution (the abandonment of Reconstruction) counts as the system working. If 'unsound design,' ask why sixty elections produced only five inversions and why the 2024 count under the ECRA took half an hour without objection. Then ask: what would the next crisis have to look like to change their reading?"
+    concepts: [electoral-college, contingent-election]

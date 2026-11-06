@@ -1,0 +1,16 @@
+slug: regulatory-capture
+name: Regulatory Capture
+short_definition: "When a government agency comes to serve the interests of the industry it is supposed to regulate rather than the public."
+body_md: ""
+category: government
+difficulty: advanced
+status: active
+etymology: "English: the regulated industry 'captures' its regulator; the theory was formalized by economist George Stigler in 'The Theory of Economic Regulation' (1971)"
+why_it_matters: "Capture theory holds that regulation is often acquired by industry and operated for its benefit, which reframes state power as a prize organized interests compete for rather than a neutral check on the wealthy."
+context_example: "When the firms an agency oversees supply most of its expertise, staffing, and political pressure, the rules can end up shielding incumbents from competition — a textbook case of regulatory capture."
+related_term_slugs:
+  - rent-seeking
+  - public-choice
+  - lobbyist
+  - antitrust
+tags: []

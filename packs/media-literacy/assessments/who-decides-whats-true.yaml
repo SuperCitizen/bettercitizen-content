@@ -1,0 +1,136 @@
+schema: bettercitizen.assessment/v1
+lesson: who-decides-whats-true
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      Which statement most accurately captures the lab-leak hypothesis's
+      status arc from 2020 to 2026, as the lesson reconstructs it?
+    choices:
+      - id: a
+        text: It was debunked in 2020 and remains debunked; platforms were right to remove it.
+      - id: b
+        text: It was proven true by the CIA's 2025 assessment, vindicating those who were censored.
+      - id: c
+        text: It was prematurely labeled debunked and suppressed, later reopened — and as of mid-2026 remains genuinely unresolved, with agencies split and assessments at low confidence.
+      - id: d
+        text: It was never actually treated as misinformation by any major institution; the controversy is retrospective myth-making.
+    correct_choice_id: c
+    explanation: >-
+      Both popular endings are wrong. The gatekeeping failure was real — the
+      Lancet letter (organized with undisclosed conflicts), "debunked"
+      labeling, and Facebook's removal policy enforced a consensus the
+      evidence did not support. But the CIA's January 2025 judgment was
+      explicitly low confidence, based on re-analysis rather than new
+      evidence, with both origins still plausible — and much of the published
+      virology still favors a market origin. "Suppressed" and "true" are
+      different properties; the lesson's point is that an honest reader can
+      hold "wrongly censored" and "still unproven" simultaneously.
+    concepts: [misinformation, fact-checking, conspiracism]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Research on X's Community Notes produced two headline findings that are
+      often quoted against each other. Which pair is correct?
+    choices:
+      - id: a
+        text: Attached notes cut a post's reposts roughly in half in the moment — yet the platform-wide rollout showed no detectable drop in misinformation engagement, mostly because notes arrive after the viral peak.
+      - id: b
+        text: Notes have no effect on individual posts, but the rollout halved misinformation platform-wide.
+      - id: c
+        text: Notes work only on left-leaning misinformation, which is why Meta declined to adopt the model.
+      - id: d
+        text: Notes were shown to outperform professional fact-checkers, who they have now fully replaced as an evidence source.
+    correct_choice_id: a
+    explanation: >-
+      Both findings hold at different levels: Slaughter et al. (PNAS 2025)
+      found about 46% fewer reposts immediately after a note attaches (about
+      12% over the post's lifetime), while Chuai et al. (CSCW 2024) found no
+      detectable platform-level effect because the cross-perspective consensus
+      mechanism is slower than virality. Effects appear across the political
+      spectrum, Meta adopted (not declined) the model in January 2025, and
+      notes in practice cite professional fact-checks heavily — symbiosis,
+      not replacement.
+    concepts: [fact-checking]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      "Finland tops the media-literacy rankings, so we know its curriculum
+      defeats misinformation." What is the honest caveat the lesson attaches
+      to this claim?
+    choices:
+      - id: a
+        text: Finland's ranking is fabricated; its schools do not actually teach media literacy.
+      - id: b
+        text: The famous index scores structural inputs — education quality, press freedom, trust, e-participation — not measured citizen performance against misinformation.
+      - id: c
+        text: Finland ranks first only because other countries refuse to participate in testing.
+      - id: d
+        text: The rankings measure outcomes accurately, but only for print media.
+    correct_choice_id: b
+    explanation: >-
+      The Open Society Institute's Media Literacy Index builds country scores
+      from inputs like PISA education results and press-freedom measures, so
+      it cannot show that Finnish citizens actually resist misinformation
+      better — a distinction the lesson insists on because a media-literacy
+      pack that hyped its own product would be self-refuting. Finland's
+      decades-deep curriculum is real and seriously implemented (and in the
+      2026 edition it shares first place with Denmark, Ireland, and the
+      Netherlands); what is missing is outcome evidence, not effort.
+    concepts: [fact-checking, propaganda]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      During a future disease outbreak, a video claiming a vaccine ingredient
+      is "banned in Europe" goes viral. A platform weighs three responses:
+      (1) professional fact-check label, (2) wait for a community note,
+      (3) rely on users' literacy skills. Given the research in this lesson,
+      which assessment of the trade-offs is most accurate?
+    choices:
+      - id: a
+        text: Option 1 is pointless because fact-checks backfire and entrench false beliefs in most people.
+      - id: b
+        text: Option 2 guarantees a fast, trusted correction, since crowds outpace professionals.
+      - id: c
+        text: Each fails differently — fact-checks improve accuracy but reach poorly and polarize as a label; notes work when attached but usually arrive post-peak and may never publish on contested claims; literacy gains are real but modest and decay.
+      - id: d
+        text: All three are equivalent in effect, so the choice is purely political.
+    correct_choice_id: c
+    explanation: >-
+      This is the lesson's evidence section in one scenario. Backfire effects
+      (a) are rare — corrections durably improve accuracy (Porter & Wood
+      2021) — but reach and label-trust are the binding constraints; notes
+      (b) cut engagement when attached yet typically miss the viral phase and
+      can fail the cross-perspective publication bar on charged topics;
+      literacy (c's third clause) shows replicated but modest, perishable
+      gains. Option (d) is the false-equivalence trap: "every referee has
+      failed somewhere" does not make their failure profiles identical.
+    concepts: [fact-checking, false-equivalence]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Pick the referee you currently trust most — professional gatekeepers,
+      decentralized crowds, or an educated citizenry. Make the strongest case
+      AGAINST your own pick using evidence from this pack, then state one
+      observable development that would move you to a different answer.
+    socratic_seed: >-
+      Grade the self-argument, not the pick. Against gatekeepers: the lab-leak
+      arc (conflicted consensus enforced at platform scale), the laptop-story
+      suppression, WMD, Gell-Mann amnesia, and the replication crisis (36% of
+      100 landmark findings replicated) show concentrated refereeing failing
+      non-randomly. Against crowds: notes arrive after the viral peak, the
+      bridging bar silences notes on exactly the contested political claims
+      that matter most, and notes free-ride on the professional verification
+      they would replace. Against literacy: effects are modest and decay
+      within months, population-scale behavioral change is unproven, and the
+      flagship Finland evidence measures inputs, not outcomes. A strong answer
+      also names a real falsifier (e.g., crowds beating newsrooms on speed
+      AND accuracy in a documented breaking event; prebunking showing durable
+      effects on real sharing at scale) — and a weak one defends its pick by
+      attacking only the other two, which is the tribal failure mode the
+      lesson warns against.
+    concepts: [fact-checking, bothsidesism, conspiracism]

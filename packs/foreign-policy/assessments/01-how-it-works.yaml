@@ -51,22 +51,22 @@ questions:
 
   - id: q4
     kind: multiple-choice
-    text: "What did the 2017 National Security Strategy and 2018 National Defense Strategy formally shift?"
+    text: "At a summit, a President announces that the United States 'commits' to defend a new partner country. Nothing is ever submitted to Congress. Her successor disavows the commitment on day one. What did the partner actually have?"
     choices:
       - id: a
-        text: "From 'great-power competition' to 'global war on terror.'"
+        text: "A binding treaty obligation — a President's public commitment binds successors until the Senate votes to withdraw from it."
       - id: b
-        text: "From 'global war on terror' to 'long-term strategic competition with China and Russia.'"
+        text: "A congressional-executive agreement, enforceable as a statute until repealed."
       - id: c
-        text: "From 'forward defense' to 'restraint and offshore balancing.'"
+        text: "A political commitment with no domestic legal force — exactly the form a successor can walk away from with a signature."
       - id: d
-        text: "From 'multilateralism' to 'unilateralism.'"
-    correct_choice_id: b
-    explanation: "The 2017 NSS and 2018 NDS formally shifted U.S. strategic framing from counter-terrorism (the post-9/11 frame) to great-power competition with China and Russia. This shift has been continued under both Republican and Democratic administrations and has practical consequences for defense procurement (longer-range strike, undersea, hypersonic, space and cyber), trade policy, and alliance posture."
-    concepts: [foreign-policy]
+        text: "Nothing unusual was lost: even Senate-ratified treaties lapse automatically when a new President takes office."
+    correct_choice_id: c
+    explanation: "Durability tracks the approval hurdle. A summit announcement that never goes to Congress is a political commitment — the Paris/JCPOA pattern, built for speed and unwound by a signature. A congressional-executive agreement (b) requires actual passage by both chambers, which never happened here. And treaties do not lapse with administrations (a, d) — that durability is precisely why the two-thirds Senate hurdle exists, and why foreign capitals price the difference between the instruments."
+    concepts: [foreign-policy, treaty]
 
   - id: q5
     kind: free-response
-    text: "The restrainer and the conservative realist often agree about U.S. overextension but disagree about why. State the strongest version of each position."
-    socratic_seed: "Restrainer: U.S. is overextended because the framework treating global engagement as inherently valuable produces commitments without honest cost-benefit analysis; the right response is significant retrenchment from secondary commitments. Conservative realist: U.S. is overextended because resources are spread thinly across regions of unequal strategic stakes; the right response is selective retrenchment from secondary regions to concentrate on the China challenge. The disagreement is about whether engagement should be reduced overall (restrainer) or reallocated more sharply (realist)."
-    concepts: [foreign-policy, realism, restraint]
+    text: "The June 2025 Iran strikes produced a 48-hour report, one failed Senate resolution, and no other congressional action. Using this lesson's war-powers history, explain why the War Powers Resolution has constrained presidents so little — and name the one congressional tool presidents cannot work around."
+    socratic_seed: "Press on the mechanics: every administration files reports 'consistent with,' never 'pursuant to,' the Resolution; only the 1975 Mayaguez report ever cited the clause that starts the 60-day clock, and after the fact; executives read 'hostilities' narrowly (Libya 2011) or declare them terminated on their own schedule (the June 2025 ceasefire). Then press on the math: binding the executive requires both chambers plus a veto-proof margin, which no war-powers measure has ever assembled. The tool that cannot be lawyered around is the appropriations power — force can be ordered, but money must be voted. Close by connecting that to the December 2025 Iraq-AUMF repeals: symbolically real, but irrelevant to operations resting on Article II claims alone."
+    concepts: [foreign-policy, war-powers, war-powers-act]

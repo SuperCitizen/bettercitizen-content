@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The DISCLOSE Act passed the House in 2010 and has commanded Senate majorities, yet sixteen years later it has never become law. Which explanation best fits the verified record?"
+    choices:
+      - id: a
+        text: "Public support for disclosure collapsed after Citizens United."
+      - id: b
+        text: "The Supreme Court struck the bill down each time it passed."
+      - id: c
+        text: "Every Senate defeat came at the 60-vote cloture threshold (57–41 and 59–39 in 2010; 49–49 in 2022), and the parties' institutional positions hardened into a pure party-line split — so a majority-supported idea keeps dying at a supermajority veto point."
+      - id: d
+        text: "Sponsors stopped introducing it after 2014."
+    correct_choice_id: c
+    explanation: "The bill has never lost a floor majority; it has lost cloture. H.R. 5175 passed the House 219–206 in June 2010, then fell at 57–41 and 59–39 cloture votes that year, and the September 2022 vote was a party-line 49–49. It has been reintroduced in every Congress since — the current version is S. 3991, the DISCLOSE Act of 2026. Courts have never ruled on it (it never passed), and disclosure continues to poll well. The structural lesson: when an outcome persists for sixteen years against majority support, look for the veto point."
+    concepts: [dark-money, disclose-act]
+
+  - id: q2
+    kind: multiple-choice
+    text: "As of mid-2026, which statement most accurately captures the legal position of the IRS's 'primarily engaged' standard for 501(c)(4)s?"
+    choices:
+      - id: a
+        text: "The IRS finalized its 2013 rule, so 'candidate-related political activity' is now precisely defined."
+      - id: b
+        text: "A federal district court (Freedom Path v. IRS, 2025) has held the standard unconstitutionally vague — while appropriations riders, renewed since FY2016, forbid the IRS from spending funds to write a clearer one."
+      - id: c
+        text: "Congress repealed section 501(c)(4), mooting the question."
+      - id: d
+        text: "The Supreme Court upheld the 51/49 rule as a binding regulation."
+    correct_choice_id: b
+    explanation: "The 2013 proposed rule (REG-134417-13) drew a record 150,000+ comments and was shelved in 2014; riders have barred a fix ever since. Then in September 2025 the D.D.C. held in Freedom Path that both the 'primarily engaged' threshold and the multi-factor test of Revenue Ruling 2004-6 are unconstitutionally vague. The result is close to Kafka: a court says the standard is too vague to satisfy due process, and Congress forbids the agency from clarifying it. The '51/49' figure has never been law — it is practitioner folklore filling a regulatory vacuum."
+    concepts: [dark-money, irs-rules]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A reform group in another state copies Arizona's Proposition 211 word for word. What does that law add beyond federal disclosure rules, and what is the principal constitutional argument it will face?"
+    choices:
+      - id: a
+        text: "It bans dark-money spending outright; it will face a challenge under the Tenth Amendment."
+      - id: b
+        text: "It requires large campaign-media spenders to disclose major donors traced through intermediaries to the original source — closing the pass-through dead end — and challengers will argue from AFPF v. Bonta that compelled donor disclosure must survive exacting scrutiny with narrow tailoring."
+      - id: c
+        text: "It caps contributions to 501(c)(4)s; it will face a challenge under Buckley v. Valeo's contribution-limit doctrine."
+      - id: d
+        text: "It requires ads to be pre-approved by the state elections commission; it will face a prior-restraint challenge."
+    correct_choice_id: b
+    explanation: "Prop 211 (passed 2022 with about 72% of the vote) attacks the pipeline at its joint: covered spenders ($50,000+ statewide, $25,000+ local) must disclose $5,000+ donors traced to the original source, not just the intermediary nonprofit whose name is a dead end on a super PAC report. It bans nothing and caps nothing — it is pure disclosure, which is why defenders argue from the Buckley/Citizens United electoral line. Challengers counter from Bonta. A definitive merits ruling on Prop 211 is the cleanest pending test of whether Bonta migrates into election law."
+    concepts: [dark-money, donor-disclosure]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Why does the FEC so rarely resolve dark-money and coordination enforcement cases on the merits?"
+    choices:
+      - id: a
+        text: "It lacks jurisdiction over election spending, which belongs to the IRS."
+      - id: b
+        text: "Its six-commissioner, no-more-than-three-per-party structure requires four votes to act, inviting 3–3 deadlocks — which on substantive enforcement votes rose from about 2.9% in 2006 to roughly 30% by 2016 (Ravel, Dysfunction and Deadlock)."
+      - id: c
+        text: "Federal courts enjoined the agency from enforcing disclosure law after CREW v. FEC."
+      - id: d
+        text: "Congress abolished its enforcement division in 2018."
+    correct_choice_id: b
+    explanation: "The deadlock is structural arithmetic: six commissioners, a three-per-party cap, and a four-vote requirement for most action. Commissioner Ann Ravel's 2017 report documented substantive-vote deadlocks in enforcement matters rising from about 2.9% (2006) to about 30% (2016). CREW v. FEC actually broadened disclosure obligations — the courts vacated a narrowing regulation — but an obligation without an enforcer operates as a suggestion, which is why post-CREW reports still arrive listing no donors and the complaints die in ties."
+    concepts: [dark-money, donor-disclosure]
+
+  - id: q5
+    kind: free-response
+    text: "Of the four live tripwires from this lesson — a merits ruling on Arizona's Prop 211, the Freedom Path aftermath, the Johnson Amendment's enforcement posture, and the DISCLOSE Act's perennial return — pick the one you judge most likely to reshape the dark-money landscape by 2030. Defend the pick, and state what outcome on your chosen tripwire would most surprise you."
+    socratic_seed: "Strong answers reason about mechanism and scale, not just likelihood. Prop 211: a square post-Bonta merits ruling either licenses copycat original-source laws in the states or imports Bonta into election law nationwide — high leverage either way. Freedom Path: if 'primarily engaged' is void for vagueness and the rider blocks any fix, the practical ceiling on (c)(4) electioneering could vanish — arguably the biggest deregulatory tripwire, though an appeal could erase it. Johnson Amendment: the NRB dismissal (March 2026) left the Amendment on the books, but Treasury guidance could open the door to tax-DEDUCTIBLE anonymous electoral money, which would dwarf the (c)(4) story — low probability of going far, enormous magnitude if it does. DISCLOSE: requires 60 votes or filibuster reform — the least likely near-term, but the only one that fixes the federal gap directly. Surprise test: a thoughtful answer names a falsifier, e.g., 'I would be most surprised if the Arizona courts struck Prop 211 down on its face despite Bonta's express preservation of the electoral-disclosure cases.'"
+    concepts: [dark-money, disclose-act, donor-disclosure]

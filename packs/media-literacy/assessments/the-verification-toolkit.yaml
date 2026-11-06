@@ -1,0 +1,136 @@
+schema: bettercitizen.assessment/v1
+lesson: the-verification-toolkit
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      In the Stanford study comparing PhD historians, undergraduates, and
+      professional fact-checkers evaluating unfamiliar websites, what
+      behavioral difference explained the fact-checkers' superior speed and
+      accuracy?
+    choices:
+      - id: a
+        text: They read the full site more carefully, scrutinizing its citations, design, and About page.
+      - id: b
+        text: They left the site almost immediately and opened new tabs to see what the rest of the web said about the source.
+      - id: c
+        text: They had memorized lists of known unreliable domains from their fact-checking work.
+      - id: d
+        text: They used specialized paid software unavailable to the other groups.
+    correct_choice_id: b
+    explanation: >-
+      Wineburg and McGrew (2019) found the historians and students read
+      vertically — judging the page by features its authors controlled, like
+      design and footnotes — and were often deceived, while fact-checkers read
+      laterally, leaving the page to cross-examine the source elsewhere.
+      Option (a) describes the losing strategy: reading the deceiver's own
+      testimony more carefully. No memorized blocklists or special tools were
+      involved — which is why the skill transfers to sources nobody has seen
+      before.
+    concepts: [source-criticism, fact-checking]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      A viral post quotes a governor saying "we will cut every school's budget
+      gladly" — with a link to a 40-minute speech. Which SIFT move most
+      directly tests whether the post is misleading, and why?
+    choices:
+      - id: a
+        text: Stop — refuse to engage with emotionally charged content at all.
+      - id: b
+        text: Investigate the source — check who runs the account that posted it.
+      - id: c
+        text: Find better coverage — see whether other outlets ran the quote.
+      - id: d
+        text: Trace to the original — find that moment in the speech and hear the sentence in full context.
+    correct_choice_id: d
+    explanation: >-
+      The post's factual core is a quotation with an available original, so the
+      decisive test is tracing it: most viral misinformation is real material
+      amputated from context — a sentence truncated at the comma that reversed
+      it, or sarcasm played straight. Stop is the precondition, not the test;
+      investigating the account helps but a sketchy account can share a real
+      quote; and other outlets may all be quoting the same clipped version —
+      republication is not confirmation.
+    concepts: [misinformation, source-criticism]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      The 2023 Nature study by Aslett and colleagues found that encouraging
+      people to search online about false news stories often INCREASED belief
+      in them. What mechanism explains this, and what is the indicated
+      countermeasure?
+    choices:
+      - id: a
+        text: Search engines deliberately promote misinformation for ad revenue; the countermeasure is avoiding search entirely.
+      - id: b
+        text: Fresh false claims live in "data voids" where the claim's own phrasing retrieves mostly sources repeating it; the countermeasure is searching the event in neutral terms and vetting sources laterally.
+      - id: c
+        text: People only skim headlines; the countermeasure is reading full articles.
+      - id: d
+        text: The effect appeared only in people with low education, so no general countermeasure is needed.
+    correct_choice_id: b
+    explanation: >-
+      Searching a hoax's own distinctive phrasing pulls you into the data void
+      — the corner of the web where mostly the claim's promoters have
+      published — so the results page becomes the lie, mirrored. The study
+      found the effect concentrated where search returned low-quality results,
+      across five experiments. Search remains essential; what changes is
+      technique: neutral phrasing, click restraint on the results page, and
+      lateral vetting of what ranks. "Do your own research" fails not because
+      research is bad but because naive research inherits the ecosystem's
+      distortions.
+    concepts: [misinformation, source-criticism]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Minutes after a downtown protest turns violent, a screenshot circulates
+      showing a burning police cruiser captioned "Main Street, tonight." You
+      have two minutes. Which sequence is the best triage?
+    choices:
+      - id: a
+        text: Examine the flames and shadows for signs of AI generation, then share with a caution if nothing looks off.
+      - id: b
+        text: Reverse image search the photo, then check whether any outlet or local reporter on the scene corroborates a burned cruiser.
+      - id: c
+        text: Read the comments to gauge whether other users believe it, then decide.
+      - id: d
+        text: Search the exact caption text in quotes and read the top results.
+    correct_choice_id: b
+    explanation: >-
+      Reverse image search catches the commonest lie in breaking events — a
+      real photo from a different city or year, relabeled — in seconds, and
+      finding better coverage tests the claim against people actually in a
+      position to know. Artifact-squinting (a) evaluates evidence the faker
+      controls and generators improve monthly; comment sentiment (c) is the
+      bandwagon fallacy as a method; and searching the caption verbatim (d)
+      walks straight into the data void, retrieving everyone who shared the
+      same caption.
+    concepts: [misinformation, source-criticism, bandwagon-fallacy]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      After this lesson, a classmate concludes: "So the press chases clicks,
+      the photos are AI, and even searching makes it worse — the rational move
+      is to trust nothing." Explain, with evidence from the lesson, why this
+      conclusion is not media literacy but its failure mode — and what the
+      toolkit's actual end state is.
+    socratic_seed: >-
+      The strongest answers make three moves. First, name who benefits: RAND's
+      firehose-of-falsehood analysis shows high-volume propaganda does not
+      need belief in any one story — its strategic payoff is the conclusion
+      that nothing can be known, after which disputes are settled by tribe and
+      volume; Pomerantsev's "nothing is true and everything is possible" is
+      that end state described from inside. Second, the asymmetry: "trust
+      nothing" sounds rigorous but is unfalsifiable and selectively applied —
+      in practice the cynic still believes things, just without verification.
+      Third, the alternative: calibrated trust — provisional confidence
+      proportioned to track record and independent corroboration, revisable on
+      evidence, applied equally to claims you like. A good probe: ask what the
+      classmate DOES believe about yesterday's news and how they know — the
+      conversation usually reveals they trust plenty, untested.
+    concepts: [propaganda, disinformation, fact-checking]

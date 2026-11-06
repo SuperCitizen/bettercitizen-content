@@ -1,0 +1,18 @@
+slug: harvard-kennedy-school
+name: Harvard Kennedy School
+kind: university
+subtype: policy-school
+description: "Harvard University's school of public policy and government, named for President John F. Kennedy in 1966. Trains a large share of American and international public officials and houses major research centers including the Belfer Center and the Shorenstein Center."
+website: https://www.hks.harvard.edu
+jurisdiction: national
+partisan_lean: center-left
+parent_org: harvard-university
+org_relationship: school-within
+influence_channels:
+  - policy-research
+  - training-staffers
+  - public-education
+concept_tags:
+  - think-tank
+  - bureaucracy
+is_active: true

@@ -1,0 +1,164 @@
+schema: bettercitizen.assessment/v1
+lesson: alaska-the-first-state
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      In the August 2022 special election, Nick Begich was eliminated after
+      the first count. What does the official tabulation show happened to his
+      53,810 ballots?
+    choices:
+      - id: a
+        text: >-
+          Most transferred to Peltola, which is how a Democrat won a
+          Republican state.
+      - id: b
+        text: >-
+          They broke roughly two-to-one for Palin (27,053 to 15,467), while
+          about 11,000 ranked no one else and exhausted.
+      - id: c
+        text: >-
+          They were discarded, exactly as they would have been under
+          plurality rules.
+      - id: d
+        text: >-
+          Election officials allocated them between the finalists in
+          proportion to the statewide result.
+    correct_choice_id: b
+    explanation: >-
+      The transfer data is the answer to the "rigged" charge: Begich's
+      voters' ballots went where those voters directed them — mostly to the
+      other Republican. Palin gained 27,053, Peltola 15,467, and 11,243
+      exhausted (47 were set aside as overvotes). They simply weren't enough
+      to overcome Peltola's first-choice lead. (d) describes no system that
+      exists — every transfer follows the individual voter's own ranking.
+      (a) gets the arithmetic backwards, and (c) misses the entire point of
+      ranked ballots: those votes kept counting.
+    concepts: [ranked-choice-voting, instant-runoff]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      In another state's first ranked-choice election, candidate M is
+      eliminated first — yet later ballot analysis shows M would have beaten
+      either remaining rival head-to-head. What is the honest conclusion?
+    choices:
+      - id: a
+        text: >-
+          The tabulation must have been corrupted, since the most-preferred
+          candidate cannot lose a fair count.
+      - id: b
+        text: >-
+          Instant-runoff voting showed a real, known weakness — a consensus
+          candidate short on first-choice votes can be squeezed out — which
+          the ranked ballots themselves made visible.
+      - id: c
+        text: >-
+          The old plurality-and-primaries system would have elected M, so the
+          reform clearly made things worse.
+      - id: d
+        text: >-
+          Head-to-head preferences are irrelevant to judging an election
+          method.
+    correct_choice_id: b
+    explanation: >-
+      This is Alaska's center-squeeze, generalized — the strongest honest
+      criticism of instant-runoff voting, and one advocates should concede.
+      But (c) doesn't follow: a candidate weak in first choices typically
+      loses a partisan primary too, and a pick-one ballot would never have
+      recorded the head-to-head data proving M was the consensus choice. We
+      know the failure occurred only because ranked ballots exist. (a) is
+      false — the count operated exactly as designed; the critique is of the
+      design, and (d) abandons the very standard the critique rests on.
+    concepts: [ranked-choice-voting, majority-threshold]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      On the same November 2022 ballots that elected Peltola and Murkowski
+      through transfer rounds, Governor Mike Dunleavy won more than 50
+      percent of first choices. What happened in his race's count?
+    choices:
+      - id: a
+        text: >-
+          Transfer rounds ran anyway, slightly reducing his final margin.
+      - id: b
+        text: >-
+          Nothing more — a first-round majority ends the count immediately,
+          exactly as in a traditional election.
+      - id: c
+        text: >-
+          Officials exercised discretion not to apply ranked-choice rules to
+          that race.
+      - id: d
+        text: >-
+          His race was counted under the old plurality law, which still
+          governs gubernatorial contests.
+    correct_choice_id: b
+    explanation: >-
+      Ranked-choice voting is an insurance policy: when a candidate wins an
+      outright majority of first choices, the backup rankings are never
+      consulted and the result is identical to a pick-one election. Dunleavy's
+      race ended in round one. There is no official discretion involved (c),
+      no separate plurality regime for governor in Alaska (d) — Measure 2
+      covers the whole general election — and no transfer round ever runs
+      after a majority is reached (a). One ballot produced a Republican
+      governor, a Republican senator, and a Democratic representative: voters,
+      not the method, picked the winners.
+    concepts: [ranked-choice-voting, instant-runoff]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      As of mid-2026, what is the status of Alaska's top-four ranked-choice
+      system?
+    choices:
+      - id: a
+        text: >-
+          It was repealed by voters in November 2024 and is no longer in use.
+      - id: b
+        text: >-
+          It survived a 2024 repeal initiative by 743 votes, confirmed by
+          recount — and a third ballot measure, certified in December 2025,
+          puts repeal before voters again in November 2026.
+      - id: c
+        text: >-
+          The Alaska Supreme Court struck it down as unconstitutional in
+          Kohlhaas v. State.
+      - id: d
+        text: >-
+          Congress preempted it for federal races, so it now applies only to
+          state offices.
+    correct_choice_id: b
+    explanation: >-
+      The 2024 repeal failed 160,973 to 160,230 — the closest ballot-measure
+      result in state history — and opponents qualified a third measure with
+      42,837 verified signatures, certified December 31, 2025. The fight is
+      live. (c) is backwards: Kohlhaas v. State (2022) *upheld* the system
+      against constitutional challenge. (d) invents a federal preemption that
+      doesn't exist — Alaska's ranked ballots elected its U.S. senator and
+      representative. (a) is what the 743 votes prevented.
+    concepts: [ranked-choice-voting, ballot-initiative]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      You are advising the campaign defending Alaska's system in the November
+      2026 repeal vote. Repeal advocates lead with two facts: the 2022
+      special election passed over Begich, the head-to-head favorite, and the
+      system has twice survived only by about a point. Draft the campaign's
+      strongest honest argument — one that concedes what must be conceded and
+      still makes the case for keeping the system.
+    socratic_seed: >-
+      Press for honesty before advocacy: what exactly should the campaign
+      concede about the center squeeze, and why does conceding it beat
+      denying it? Then test the affirmative case. Who has actually won under
+      the system — Peltola, then Dunleavy and Murkowski on the same ballots,
+      then Begich himself in 2024 — and what does that bipartisan winner
+      list do to the "partisan scheme" charge? What did the November 2022
+      rematch show about whether August was a fluke? What would repeal
+      restore — low-turnout partisan primaries deciding most races — and is
+      that better on the critics' own stated standard of majority rule?
+      Finally: do narrow margins weaken the mandate, or does winning twice,
+      post-experience, strengthen it?
+    concepts: [ranked-choice-voting, ballot-initiative]

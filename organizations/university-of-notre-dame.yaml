@@ -1,0 +1,11 @@
+slug: university-of-notre-dame
+name: University of Notre Dame
+kind: university
+subtype: private-university
+description: "Private Catholic research university in Notre Dame, Indiana, founded in 1842. Its de Nicola Center for Ethics and Culture is a leading institutional voice for the Catholic moral and social tradition in American public debate."
+website: https://www.nd.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

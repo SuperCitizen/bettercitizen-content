@@ -1,0 +1,142 @@
+schema: bettercitizen.assessment/v1
+lesson: constitutional-and-legal-questions
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      Under the "one person, one vote" line of cases (Gray v. Sanders, Reynolds
+      v. Sims), what does the Constitution actually require of a voting system?
+    choices:
+      - id: a
+        text: That each voter make exactly one mark, for exactly one candidate, per office.
+      - id: b
+        text: That every voter's ballot carry equal weight — the doctrine governs weight, not ballot format.
+      - id: c
+        text: That the winning candidate receive a majority, not a plurality, of votes cast.
+      - id: d
+        text: That all states use the same ballot design in federal elections.
+    correct_choice_id: b
+    explanation: >-
+      Gray struck down Georgia's county-unit system and Reynolds required
+      equal-population districts because both made some citizens' votes weigh
+      more than others'. Neither case says anything about how many marks a
+      ballot may contain — that is the confusion Dudum v. Arntz (9th Cir. 2011)
+      corrected when it upheld ranked ballots: every ballot counted "no more
+      than one vote at each tabulation step" with "the same mathematical
+      weight." (c) describes no constitutional rule at all — plurality winners
+      are routine; (d) inverts the decentralized reality of U.S. election
+      administration.
+    concepts: [equal-protection, score-voting]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      A century after Brown v. Smallwood (Minn. 1915), which voting method —
+      and in which jurisdiction — does that decision's reasoning most directly
+      threaten today?
+    choices:
+      - id: a
+        text: Ranked-choice voting nationwide, since Brown condemned all preferential ballots.
+      - id: b
+        text: Approval and score voting in Minnesota only — the 2009 Minneapolis case saved IRV by reading Brown as condemning methods that count multiple marks simultaneously.
+      - id: c
+        text: No method anywhere — Brown was overruled in Minnesota Voters Alliance v. City of Minneapolis (2009).
+      - id: d
+        text: Approval voting in every state, because Brown construed the federal Equal Protection Clause.
+    correct_choice_id: b
+    explanation: >-
+      Brown construed the Minnesota Constitution, so it binds only Minnesota —
+      that disposes of (a) and (d). The 2009 court distinguished Brown rather
+      than overruling it (eliminating (c)): instant-runoff counts one choice
+      per ballot at any moment, while Duluth's Bucklin system counted later
+      choices into the totals simultaneously. That narrow reading is exactly
+      what leaves simultaneous-counting methods — approval and score — under
+      Brown's shadow in one state, and only one.
+    concepts: [precedent, judicial-review, score-voting]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      You are a city attorney in a home-rule city. Your state's statute, like
+      Tennessee's, prohibits election methods "in which voters rank candidates
+      in order of preference," tabulated in rounds in which last-place
+      candidates are eliminated and votes transfer. Citizens petition to amend
+      the charter to adopt approval voting. What is the soundest legal advice?
+    choices:
+      - id: a
+        text: The amendment conflicts with the ban — allowing votes for multiple candidates is a form of ranking them.
+      - id: b
+        text: The amendment is void because federal "one person, one vote" doctrine forbids multi-candidate support.
+      - id: c
+        text: The amendment likely does not conflict — approval voting involves no ranking and no elimination rounds — but counsel should verify no other state law prescribes municipal ballot form and flag the legislature's power to preempt later.
+      - id: d
+        text: The ban is irrelevant because home-rule charters always supersede state election statutes.
+    correct_choice_id: c
+    explanation: >-
+      Statutory bans reach what their definitions describe. A ballot on which
+      voters mark every candidate they support, counted by simple addition,
+      involves neither ranking "in order of preference" nor round-by-round
+      transfers — it is outside the statute's definition, not an exception to
+      it. (a) collapses the legal distinction the drafters themselves made;
+      (b) misstates the doctrine (see q1); and (d) gets home rule backwards —
+      Michigan's five adopted-but-blocked RCV charters and North Dakota's 2025
+      preemption of Fargo show state law can both occupy the field and claw
+      back charter authority. Sound advice names the opening and the residual
+      risks.
+    concepts: [federalism, score-voting, precedent]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Of the nineteen state ranked-choice-voting bans enacted from 2022 to
+      2026, Missouri's and North Dakota's stand apart. What do those two — and
+      only those two — have in common?
+    choices:
+      - id: a
+        text: They are the only bans that also reach cardinal methods — Missouri via constitutional "single vote for each candidate or issue" language, North Dakota by prohibiting approval voting by name.
+      - id: b
+        text: They are the only bans enacted by constitutional amendment rather than statute.
+      - id: c
+        text: They are the only bans that courts have struck down as violations of home rule.
+      - id: d
+        text: They are the only bans that exempt every existing municipal system from their effect.
+    correct_choice_id: a
+    explanation: >-
+      The other seventeen bans define their target as ranking candidates in
+      order of preference, leaving approval and score ballots untouched.
+      Catching cardinal methods required different drafting: Missouri's
+      Amendment 7 (68% of the vote, Nov. 2024) wrote a single-vote rule into
+      the constitution, and North Dakota's HB 1297 (April 2025) named approval
+      voting explicitly to reach Fargo. (b) is half right — only Missouri's is
+      constitutional; North Dakota's is statutory. (c) describes nothing that
+      has happened — no court has invalidated either. (d) fits only Missouri's
+      St. Louis carve-out; North Dakota grandfathered nothing and ended
+      Fargo's system outright.
+    concepts: [federalism, score-voting]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Suppose a state adopts 0-to-5 score voting for statewide offices, and
+      voters sue, alleging the system violates "one person, one vote" because
+      different voters' ballots contribute different total amounts of points.
+      Drawing on Gray, Reynolds, Dudum, and Brown v. Smallwood, construct the
+      strongest argument for each side, then say which should prevail and why.
+    socratic_seed: >-
+      Push the student to separate weight from expressiveness. The plaintiffs'
+      best case leans on Brown's intuition — more marks counted simultaneously
+      means some voters "did more" to the result — and on the raw fact that a
+      ballot scoring every candidate 5 injects more total points than a ballot
+      scoring one candidate 1. The state's best case: every voter faces an
+      identical ballot with an identical maximum influence on every candidate
+      and every pairwise comparison; the doctrine from Gray and Reynolds
+      polices unequal weighting imposed by the system (county units,
+      malapportioned districts), not unequal use of equal options — and Dudum
+      expressly rejected confusing "the option" to say more with extra voting
+      power. Strong answers should notice that points-injected is the wrong
+      denominator (a voter scoring everyone 5 has expressed indifference and
+      moved no candidate relative to another), should locate Brown as
+      persuasive-at-best authority outside Minnesota, and should state a
+      limiting principle — what ballot design WOULD violate equal protection
+      (e.g., giving some voters a higher maximum score than others).
+    concepts: [equal-protection, score-voting, judicial-review]

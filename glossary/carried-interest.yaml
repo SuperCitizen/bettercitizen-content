@@ -1,0 +1,14 @@
+slug: carried-interest
+name: Carried Interest
+short_definition: "The share of an investment fund's profits paid to its managers as compensation, taxed at lower capital-gains rates rather than as ordinary income."
+body_md: ""
+category: economy
+difficulty: advanced
+status: active
+etymology: "English: traced to 16th-century sea trade, where a ship captain took a share (often about 20 percent) of the profit on the goods 'carried' across the ocean; the 'carry' is the goods transported"
+why_it_matters: "Because a manager's carried interest is treated as investment gain rather than wages, private-equity and hedge-fund managers pay a lower rate on much of their compensation than ordinary workers pay on salary — one of the most debated features of the tax code."
+context_example: "The 2017 Tax Cuts and Jobs Act narrowed but did not close the carried-interest preference, requiring an asset to be held more than three years to qualify for the lower rate."
+related_term_slugs:
+  - tax-avoidance
+  - wealth-defense-industry
+tags: []

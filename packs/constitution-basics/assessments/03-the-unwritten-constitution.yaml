@@ -1,0 +1,137 @@
+schema: bettercitizen.assessment/v1
+lesson: the-unwritten-constitution
+questions:
+  - id: q1-text-vs-convention
+    kind: multiple-choice
+    text: Which of the following is actually provided for in the Constitution's
+      written text?
+    choices:
+      - id: a
+        text: The cabinet meeting as a deliberative body
+      - id: b
+        text: The President's power to demand a written opinion from the head of
+          an executive department
+      - id: c
+        text: The Supreme Court's power to strike down Acts of Congress
+      - id: d
+        text: The two-party system's role in organizing elections
+    correct_choice_id: b
+    explanation: "The Opinion Clause (Art. II §2) really is in the text — the
+      President 'may require the Opinion, in writing, of the principal Officer
+      in each of the executive Departments.' That is the trap in this question:
+      the modest memo power is written down, while the famous things around it
+      are not. The cabinet as a body was Washington's invention, judicial
+      review was inferred in Marbury v. Madison (1803), and parties appear
+      nowhere — the framers wrote against them, not about them."
+    concepts:
+      - separation-of-powers
+      - judicial-review
+  - id: q2-transplant-scenario
+    kind: multiple-choice
+    text: A newly democratic country adopts a constitution copied nearly word for
+      word from the United States Constitution. Based on this lesson, what is
+      the most defensible prediction about how its government will actually
+      operate?
+    choices:
+      - id: a
+        text: Substantially like the American government, since the structural
+          text is identical
+      - id: b
+        text: Possibly very differently — the text leaves most daily operation to
+          conventions, precedents, and norms the new country has not yet built
+      - id: c
+        text: Identically, once its supreme court issues an equivalent of Marbury
+          v. Madison
+      - id: d
+        text: Better than the American original, since it inherits the text
+          without the accumulated informal baggage
+    correct_choice_id: b
+    explanation: The lesson's central claim cuts against (a) and (c) — the
+      written text never specifies judicial review, parties, cabinet practice,
+      or the customs of legislative consent, and Levinson and Pildes showed
+      that even checks and balances operate through the unwritten party system.
+      A single court decision can't conjure two centuries of acquiescence, and
+      the "baggage" in (d) is precisely what Levitsky and Ziblatt identify as
+      the guardrails — mutual toleration and forbearance — without which
+      identical text yields a very different government.
+    concepts:
+      - separation-of-powers
+      - precedent
+  - id: q3-senatorial-courtesy
+    kind: multiple-choice
+    text: The President nominates a highly qualified judge for a district court
+      seat in Ohio. Both Ohio senators object, and the Judiciary Committee
+      declines to schedule a hearing, killing the nomination. Which best
+      describes the rule at work?
+    choices:
+      - id: a
+        text: Article II's requirement that home-state senators approve judicial
+          nominees
+      - id: b
+        text: A federal statute granting senators a veto over appointments in
+          their states
+      - id: c
+        text: Senatorial courtesy — a pure Senate practice with no textual or
+          statutory basis, dating to the Fishbourn rejection of 1789
+      - id: d
+        text: The filibuster, which requires sixty votes for judicial
+          confirmations
+    correct_choice_id: c
+    explanation: "Nothing in Article II or any statute gives home-state senators
+      a veto — the text says only 'Advice and Consent' of the Senate as a
+      whole. The blue-slip custom descends from the Senate's 1789 rejection of
+      Benjamin Fishbourn as a courtesy to Georgia's senators, and its strength
+      varies with each Judiciary Committee chair precisely because nothing but
+      custom defines it. The filibuster (d) is a different conventional
+      creature, and it operates on the floor, not in committee scheduling."
+    concepts:
+      - advice-and-consent
+  - id: q4-norm-lifecycle
+    kind: multiple-choice
+    text: Which sequence correctly describes the presidential two-term limit?
+    choices:
+      - id: a
+        text: Written into Article II in 1787 and enforced by courts ever since
+      - id: b
+        text: A convention set by Washington's retirement, broken by Franklin
+          Roosevelt in 1940, then written into the Constitution as the 22nd
+          Amendment in 1951
+      - id: c
+        text: A convention set by Washington that still rests entirely on
+          tradition today
+      - id: d
+        text: Created by the 22nd Amendment in 1951 and retroactively voided
+          Roosevelt's third and fourth terms
+    correct_choice_id: b
+    explanation: The two-term limit ran the full norm lifecycle — set by
+      precedent (Washington, reinforced by Jefferson), tested and held for
+      almost 150 years, broken legally but spectacularly in 1940, then
+      codified in 1951 once the system learned the convention couldn't hold
+      under pressure. Nothing was retroactive — FDR's terms were lawful when
+      served, which is exactly the point about norms — and the limit no
+      longer rests on tradition, which is what distinguishes it from, say,
+      senatorial courtesy.
+    concepts:
+      - precedent
+      - separation-of-powers
+  - id: q5-codification-judgment
+    kind: free-response
+    text: Pick one unwritten norm of American government that you believe should
+      be written into law or constitutional text, or one that you believe must
+      stay unwritten. Defend your choice by explaining what codification would
+      gain and what it would cost, using the norm-to-text pattern from this
+      lesson.
+    socratic_seed: Start from why the system codified the two-term limit and the
+      electoral count but never codified senatorial courtesy or cabinet
+      practice — what made the first pair worth the price? Then weigh Renan's
+      warning that norms are most fragile exactly when most needed against the
+      cost she and others identify in writing rules down — a precise line
+      invites actors to march right up to it, and forbearance can't really be
+      drafted. If your chosen norm were codified tomorrow, who would test the
+      new boundary first, and what behavior just outside the written line
+      would become newly acceptable? And if it stays unwritten, what is your
+      enforcement plan when someone simply ignores it — elections, as in 1940?
+      Is that enough?
+    concepts:
+      - precedent
+      - judicial-review

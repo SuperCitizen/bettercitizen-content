@@ -1,0 +1,202 @@
+---
+schema: bettercitizen.lesson/v1
+slug: models-forecasts-and-what-to-trust
+kind: reading
+title: Models, forecasts, and what to trust
+objectives:
+  - Explain what an election-forecast probability claims, and why a single outcome can neither confirm nor refute it
+  - Define calibration and the Brier score, and apply them as the fair test of any probabilistic forecaster
+  - Contrast polling averages, fundamentals models, and hybrids, and explain how correlated inputs limit all three
+  - Steel-man the Taleb critique of election models and the modeler's reply, on the dispute's actual published terms
+  - State what a CBO ten-year score is and is not, using CBO's own accuracy self-evaluations
+  - Assess the 2025–26 stress test of statistical-agency independence and why it matters for every number in this pack
+concepts:
+  - forecast-calibration
+  - brier-score
+  - cbo-baseline
+  - statistical-agency-independence
+sources:
+  - type: website
+    citation: 'Boice, J., & Wezerek, G. / FiveThirtyEight (2019), "When We Say 70 Percent, It Really Means 70 Percent" — the self-audit: across 5,589 events forecast at about 70 percent, 71 percent occurred.'
+    url: https://fivethirtyeight.com/features/when-we-say-70-percent-it-really-means-70-percent/
+  - type: paper
+    citation: 'Taleb, N. N. (2018), "Election predictions as martingales: an arbitrage approach," Quantitative Finance 18(1), 1–5.'
+    url: https://arxiv.org/abs/1703.06351
+  - type: paper
+    citation: 'Clayton, A. (2019), "Election predictions are arbitrage-free: response to Taleb," Quantitative Finance 19(11), 1771–1774.'
+    url: https://arxiv.org/abs/1907.01576
+  - type: paper
+    citation: 'Brier, G. W. (1950), "Verification of Forecasts Expressed in Terms of Probability," Monthly Weather Review 78(1), 1–3 — the original scoring rule.'
+  - type: paper
+    citation: 'Murphy, A. H., & Winkler, R. L. (1977), "Reliability of Subjective Probability Forecasts of Precipitation and Temperature," Journal of the Royal Statistical Society Series C (Applied Statistics) 26(1), 41–47 — National Weather Service probability forecasts are strikingly well calibrated.'
+    url: https://rss.onlinelibrary.wiley.com/doi/abs/10.2307/2346866
+  - type: website
+    citation: 'Silver, N. (Nov. 5, 2024), "Final Silver Bulletin 2024 presidential election forecast" — Harris won 40,012 of 80,000 final simulations (50.015 percent): an explicit coin flip.'
+    url: https://www.natesilver.net/p/nate-silver-2024-president-election-polls-model
+  - type: website
+    citation: 'Congressional Budget Office (July 2025), "CBO''s Economic Forecasting Record: 2025 Update" — two-year forecasts comparable in accuracy to the Blue Chip consensus and the Administration''s; real output growth misses average about 1.4 percentage points per year.'
+    url: https://www.cbo.gov/publication/61334
+  - type: website
+    citation: 'Congressional Budget Office (June 2020), "An Evaluation of CBO''s Past Revenue Projections" — average absolute error of 4.9 percent for budget-year revenue projections and about 10 percent by the sixth year.'
+    url: https://www.cbo.gov/publication/56499
+  - type: website
+    citation: 'CNBC (Aug. 1, 2025), "Trump fires commissioner of labor statistics after weaker-than-expected jobs figures" — the McEntarfer firing, hours after the +73,000 July report with 258,000 in downward revisions.'
+    url: https://www.cnbc.com/2025/08/01/trump-erika-mcentarfer-jobs-report-fired.html
+  - type: website
+    citation: 'U.S. Bureau of Labor Statistics (2025), "2025 federal government shutdown impact on the Consumer Price Index" — no October 2025 all-items CPI estimate was published.'
+    url: https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi.htm
+  - type: pdf
+    citation: 'AAPOR Task Force on 2024 Pre-Election Polling (2025) — the input-data record the 2024 models consumed.'
+    url: https://aapor.org/wp-content/uploads/2025/10/AAPOR-Task-Force-on-2024-Pre-Election-Polling_Report.pdf
+  - type: book
+    citation: 'Tetlock, P. E. (2005), Expert Political Judgment: How Good Is It? How Can We Know?, Princeton University Press.'
+perspectives:
+  - name: The modeler's case
+  - name: The model skeptic's case
+  - name: The institutional-numbers conservative
+duration_min: 19
+---
+
+# Models, forecasts, and what to trust
+
+On the morning of November 8, 2016, three respected statistical operations published final answers to the same question from substantially the same polls. FiveThirtyEight gave Donald Trump about a 29 percent chance of winning. The HuffPost Pollster model gave him 2 percent. The Princeton Election Consortium gave him 1, its proprietor having promised on air to eat a bug if Trump cleared 240 electoral votes. By midnight Trump had won, the bug was eventually eaten, and a durable piece of folk wisdom was born: *the models failed.* Here is the uncomfortable question this lesson exists to answer: **which of those three numbers was wrong — and how could you ever know?** Trump winning doesn't refute "29 percent"; events with a 29 percent chance happen slightly more often than flipping two heads in a row. It doesn't even strictly refute "1 percent." A single observation cannot grade a probability. Yet the question has a real answer, the three forecasts were *not* equally defensible, and the concept that separates them — calibration — is the most portable idea in this pack. It also governs how you should read a hurricane forecast, a CBO score, and the increasingly embattled numbers the government publishes about itself.
+
+## What "Harris 70 percent" actually claims
+
+A probabilistic forecast is not a prediction wearing decimals. "Harris 70 percent" does not mean "Harris will win, roughly" — it means: *given the polls, their historical error distribution, and the assumptions of this model, in 70 of 100 elections statistically like this one, Harris wins — and in 30 she loses.* The 30 is not a hedge; it is content. The number is also **conditional**: it inherits everything Lesson 1 taught about its inputs. A model fed herded, same-direction-biased polls will be confidently wrong, with impeccable math, because models quantify only the uncertainty they are told about.
+
+The 2016 spread shows what modeling adds on top of the polls. All three operations saw the same Clinton-plus-3 national picture. They diverged on two questions polls cannot answer: *how fat are the tails* — how often does reality land far from the polling consensus? — and *how correlated are state errors* — if the polls are wrong in Wisconsin, are they wrong in Pennsylvania and Michigan too? FiveThirtyEight assumed thick tails and heavily correlated errors, the documented signature of every polling miss in Lesson 1; that is most of how the same data yielded 29 percent instead of 1. When the Upper Midwest missed as a bloc, the 1-percent models hadn't merely been unlucky. They had asserted that what happened essentially couldn't.
+
+<Figure caption="Same polls, different theories of error. Final 2016 win probabilities for Trump from three poll-driven forecasts. The differences came almost entirely from assumptions about tail thickness and correlated state error — not from reading different surveys." source="FiveThirtyEight final 2016 forecast; HuffPost Pollster; Princeton Election Consortium (final published probabilities)">
+  <DataBars
+    title="Probability of a Trump win, morning of Election Day 2016"
+    unit="%"
+    max={100}
+    bars={[
+      {label: 'FiveThirtyEight', value: 29, color: 'blue'},
+      {label: 'HuffPost Pollster', value: 2, color: 'accent'},
+      {label: 'Princeton Election Consortium', value: 1, color: 'gold'},
+    ]}
+  />
+</Figure>
+
+2024 supplied the cleanest illustration yet of probability-as-claim. The final Silver Bulletin run gave Harris 40,012 of 80,000 simulations — 50.015 percent, a coin flip stated to mock-precision — and the major models clustered at the same shrug. Trump then swept all seven battlegrounds. Pundits scored that a humiliation: how did "50–50" miss a sweep? But in a model with properly correlated errors, *a sweep is what a tied forecast usually looks like when resolved* — the battlegrounds were within a couple points of each other, so whichever way the shared polling error broke would tip most of them together. The models' actual vulnerability in 2024 was upstream, in Lesson 1's territory: if the input polls had carried a fourth consecutive same-direction bias, every model would have broken with them. They were spared the test; the polls were good.
+
+<QuickCheck
+  question="A forecaster gives Candidate A a 70 percent chance; Candidate A loses. What did you just learn about the forecaster?"
+  choices={[
+    {id: 'a', text: 'The forecast was wrong — A was supposed to win'},
+    {id: 'b', text: 'The forecast was dishonest or biased toward A'},
+    {id: 'c', text: 'Almost nothing — 30 percent events occur constantly; only a track record of many forecasts can grade calibration'},
+    {id: 'd', text: 'The forecast was right, since it allowed for a loss'},
+  ]}
+  answer="c"
+  explanation="One resolved event carries almost no information about one probability: 70 percent claims A loses 3 times in 10. (a) treats a probability as a prediction; (d) makes the forecast unfalsifiable in the other direction — 'it allowed for everything' is not vindication. The fix is (c): collect every 70 percent call the forecaster ever made and check whether about 70 percent happened. That test has a name — calibration — and it's the next section."
+/>
+
+## Calibration: the only fair test
+
+The test was invented where forecasting grew up: the weather service. Glenn Brier's 1950 paper in *Monthly Weather Review* proposed scoring a probability forecast by its squared miss — say 0.9 and the event happens, you're charged (1 − 0.9)²; it doesn't happen, (0 − 0.9)². The **Brier score** averages that charge over every forecast you ever issued (0 is prophecy; 0.25 is the coward's score for always saying 50 percent; lower is better). Buried in it is the property a citizen can check by eye: **calibration**. Take every event you called "70 percent." If about 70 percent of them happened, you are calibrated — your numbers mean what they say. If 95 percent happened, you were underconfident; if 45 percent, you were selling certainty you didn't have.
+
+<Figure caption="The calibration test, drawn. Each dot: 'of all events this forecaster called X percent likely, what share happened?' A calibrated forecaster hugs the diagonal. The labeled point is real: FiveThirtyEight's 2019 self-audit of its sports and politics forecasts found events it had called at about 70 percent occurred 71 percent of the time across 5,589 of them. The other dots are illustrative." source="FiveThirtyEight, 'When We Say 70 Percent, It Really Means 70 Percent' (2019)">
+  <svg viewBox="0 0 720 400" width="100%" role="img" aria-label="A calibration plot. Horizontal axis: stated forecast probability from 0 to 100 percent. Vertical axis: share of those events that actually happened. A diagonal line marks perfect calibration, with dots lying near it, including a highlighted point at 70 percent stated and 71 percent observed." style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+    <text x="90" y="24" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Share that actually happened (%)</text>
+    <line x1="90" y1="40" x2="90" y2="340" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
+    <line x1="90" y1="340" x2="650" y2="340" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
+    <line x1="84" y1="265" x2="90" y2="265" stroke="var(--ink, #14130f)" strokeWidth="1"/>
+    <line x1="84" y1="190" x2="90" y2="190" stroke="var(--ink, #14130f)" strokeWidth="1"/>
+    <line x1="84" y1="115" x2="90" y2="115" stroke="var(--ink, #14130f)" strokeWidth="1"/>
+    <line x1="84" y1="40" x2="90" y2="40" stroke="var(--ink, #14130f)" strokeWidth="1"/>
+    <text x="78" y="344" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">0</text>
+    <text x="78" y="269" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">25</text>
+    <text x="78" y="194" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">50</text>
+    <text x="78" y="119" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">75</text>
+    <text x="78" y="44" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">100</text>
+    <line x1="230" y1="340" x2="230" y2="346" stroke="var(--ink, #14130f)" strokeWidth="1"/>
+    <line x1="370" y1="340" x2="370" y2="346" stroke="var(--ink, #14130f)" strokeWidth="1"/>
+    <line x1="510" y1="340" x2="510" y2="346" stroke="var(--ink, #14130f)" strokeWidth="1"/>
+    <line x1="650" y1="340" x2="650" y2="346" stroke="var(--ink, #14130f)" strokeWidth="1"/>
+    <text x="90" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">0</text>
+    <text x="230" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">25</text>
+    <text x="370" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">50</text>
+    <text x="510" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">75</text>
+    <text x="650" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">100</text>
+    <text x="370" y="392" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle">Stated forecast probability (%)</text>
+    <line x1="90" y1="340" x2="650" y2="40" stroke="var(--line, #d9d5c9)" strokeWidth="2"/>
+    <text x="220" y="170" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle" fontStyle="italic">Perfect calibration</text>
+    <circle cx="146" cy="307" r="5" fill="var(--blue, #2f4d6e)" fillOpacity="0.7"/>
+    <circle cx="258" cy="256" r="5" fill="var(--blue, #2f4d6e)" fillOpacity="0.7"/>
+    <circle cx="370" cy="184" r="5" fill="var(--blue, #2f4d6e)" fillOpacity="0.7"/>
+    <circle cx="594" cy="76" r="5" fill="var(--blue, #2f4d6e)" fillOpacity="0.7"/>
+    <circle cx="482" cy="127" r="7" fill="var(--accent, #8a2a1e)"/>
+    <text x="470" y="104" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--accent, #8a2a1e)" textAnchor="end">70% calls → happened 71% of the time</text>
+  </svg>
+</Figure>
+
+Forecasters can be audited this way, and the good ones audit themselves. FiveThirtyEight's 2019 self-study, "When We Say 70 Percent, It Really Means 70 Percent," checked every probability the site had ever published — politics and sports — against what happened: across 5,589 events given roughly a 70 percent chance, 71 percent occurred, and the political forecasts produced slightly *fewer* upsets than advertised, if anything. That is the sense in which 2016's "29 percent" was defensible and "1 percent" was not: one came from a system whose stated probabilities, audited across thousands of events, mean what they say; the others asserted a precision about tail risk that the polling record flatly contradicts.
+
+The deep precedent is the one forecast you already read fluently. Allan Murphy and Robert Winkler's classic 1977 study found National Weather Service rain probabilities strikingly well calibrated — when forecasters say 30 percent, it rains very close to 30 percent of the time — and the public, marinated in daily probabilistic forecasts with next-day feedback, has learned to *use* them: 30 percent doesn't mean "no rain," it means "maybe carry the umbrella." (Murphy spent a career insisting a forecast's goodness has three parts — calibration, sharpness, and value to the decision-maker; his 1993 essay "What Is a Good Forecast?" is the field's conscience.) Elections are weather's evil twin: the forecast is consumed by millions, but feedback arrives *once every four years*, and nobody — modeler or reader — accumulates the weather forecaster's training data. That asymmetry, not public stupidity, is why "70 percent" gets heard as "sure thing" in politics and as "maybe" in weather.
+
+<Checkpoint question="Forecaster A's events called at 60 percent happen 60 percent of the time. Forecaster B calls everything 95 percent, and those events happen 80 percent of the time. B's fans note that B is 'right' far more often than A. Who is the better forecaster, and in what precise sense?">
+  A is calibrated: her numbers mean what they say, so you can act on them — take 60/40 risks at 60/40 stakes. B is *overconfident* by 15 points per claim; the Brier score charges that gap quadratically, and decisions priced at B's stated certainty (bet heavily, skip the umbrella, ignore the 20 percent) systematically lose. "Right more often" is the wrong test — B also forecasts easier events. The portable lesson: never grade forecasters on swagger-adjusted hit rate; grade the *distance between stated probability and observed frequency*.
+</Checkpoint>
+
+## Averages, fundamentals, and the model zoo
+
+Election models come in three families, and knowing which one is talking tells you what can break. **Polling averages** (RealClearPolitics pioneered the genre; FiveThirtyEight professionalized it) weight surveys by recency, sample size, and pollster track record, and adjust for house effects — they answer *what do the polls say now*, inheriting every input pathology from Lesson 1, herding above all. **Fundamentals models** ignore polls early and forecast from structural conditions — [[term:gdp]] growth, incumbency, presidential approval; Alan Abramowitz's "Time for Change" model is the textbook example — on the theory that campaigns mostly deliver the verdict the economy already wrote. Their sample is the problem: two dozen postwar elections is a pittance, and 2024 humiliated the genre's assumptions when the incumbent party swapped nominees in July — *which candidate is the incumbent* stopped being a well-defined input. **Hybrids** (FiveThirtyEight, the Silver Bulletin, The Economist) blend fundamentals early with polls late, then simulate thousands of elections with correlated state errors to produce the headline probability and — read it — the [[term:electoral-college]] tie scenarios, the popular-vote/electoral split odds, the sweep frequencies.
+
+What should a citizen *do* with the headline number? Three disciplines. Read the **distribution, not the topline** — a 60/40 with a 6-point band of plausible popular votes is ignorance, honestly priced. Watch **movement, not levels** — a model that lurches on every poll is amplifying noise (Taleb's serious point, next section). And refuse **certainty laundering**, the retroactive conversion of "7 in 10" into "called it": a forecaster graded only when right will sell you confidence forever.
+
+## The Taleb objection — and who should hold the microphone
+
+The sharpest published attack on election forecasting came from Nassim Nicholas Taleb, the *Black Swan* author, in a four-page 2018 paper in *Quantitative Finance* — "Election predictions as martingales: an arbitrage approach." Taleb's move: treat a forecast probability as the *price of a binary option* paying $1 if the candidate wins. Finance has hard rules for such prices: a legitimate one must follow a martingale — already incorporating predictable future swings, so the forecast itself shouldn't be forecastably volatile. When real uncertainty about the final vote share is high, the arbitrage-consistent price hugs 50 percent and *moves little on news*; a probability that swings through a wide range across the campaign, as FiveThirtyEight's 2016 Clinton number did, is in Taleb's terms revealing "stark errors" — a mispricing a trader could systematically exploit. The published reply (Aubrey Clayton, *Quantitative Finance*, 2019, "Election predictions are arbitrage-free") argued the heuristic is simply false: under mild assumptions, a forecast that updates honestly on incoming information is *exactly* what a martingale looks like, and Taleb had confused volatility with incoherence. Around the formal exchange the Silver–Taleb feud turned memorably venomous online; underneath the insults sits a real civic question — is publishing a mid-campaign probability information, or theater?
+
+<PerspectiveTabs>
+  <Perspective name="The modeler's case">
+    The alternative to a model is not humility — it is a pundit. Philip Tetlock's two-decade study of expert political prediction (*Expert Political Judgment*, 2005) found celebrated commentators performed, in his own famous summary, about as well as a dart-throwing chimpanzee at long-range political forecasts, and *more* famous experts did worse. Models replaced that with something auditable: stated probabilities, archived, scored. The calibration record is public and good — the 70-percent audit above — and a probabilistic forecast is the only format that *forces* the author to own uncertainty in advance rather than discover it in the postmortem. Yes, 2016's "29 percent" was widely misread as "Clinton has it." That is an argument for teaching the reading, not banning the writing: nobody proposes suppressing hurricane tracks because some residents treat the cone's edge as a wall. And the martingale critique, per Clayton, fails on its own mathematics — a forecast that didn't move on real information would be the dishonest one.
+  </Perspective>
+  <Perspective name="The model skeptic's case">
+    Grant the math and the problem remains. A presidential forecast resolves once per four years: no individual forecast is falsifiable, the calibration ledger pools easy congressional calls with the hard one everyone actually consumed, and the forecaster collects attention up front while "29 percent — we told you it was live!" launders any outcome after the fact. Taleb's deeper point survives Clayton's reply: when uncertainty about the world is this deep — polls with documented same-direction failures, one-off candidate swaps, model assumptions chosen by hand — a two-decimal probability (50.015 percent!) is precision theater, and the honest statement compresses toward "we don't know," stated plainly. Skin in the game is the test: would the forecaster sell options at his stated price, in size? Prediction markets at least meet that bar; pundit-proof models, ironically, have become the new punditry — the daily needle-twitch is engagement product, not civic information, and it demobilizes or panics voters over noise. Read the polls' error bars, skip the win probability.
+  </Perspective>
+  <Perspective name="The institutional-numbers conservative">
+    Both camps quarrel over entertainment; the numbers that actually run the republic are the boring ones. [[term:inflation]] as measured by CPI sets Social Security checks and bond payments; the jobs report steers the [[term:federal-reserve]]; census counts apportion the House. Those series deserve a different default — trust — because they are produced under published methodology, revised on a documented schedule, and checked against each other, by agencies that publish their errors. The 2025–26 stress test (next section) shows what's at stake: a fired commissioner, a never-published inflation report, statistical agencies governed by acting leadership through budget chaos. The conservative's claim is not that official numbers are perfect — revisions prove they aren't and that the system is working — but that an imperfect number produced by insulated, transparent process beats any number produced to please. When a politician of either party tells you the books are cooked because the revision went against them, the burden of proof sits with the politician: the methodology is public; show the flaw or withdraw the charge.
+  </Perspective>
+</PerspectiveTabs>
+
+## What a CBO score is — and isn't
+
+The forecast citizens most misread isn't electoral. When the Congressional Budget Office "scores" a bill — *this plan adds $3 trillion to deficits over ten years* — partisans treat the number as prophecy or propaganda, and it is neither. A score is a **disciplined comparison against a current-law baseline**: CBO projects revenues and outlays for a decade *assuming existing law continues*, then estimates how the bill would change that path. It is a ruler, deliberately common to all proposals, wielded by an agency that since 1975 has answered to both parties and pleased neither — not a prediction of actual future deficits, because Congress will change the law again, and the [[term:national-debt]] a decade out depends on laws not yet written and recessions not yet visible.
+
+How good is the ruler? CBO grades itself in public, which is itself the credential. Its 2025 forecasting self-evaluation finds its two-year economic forecasts about as accurate as the Blue Chip private-consensus and the Administration's — real output growth misses by an average of about 1.4 percentage points a year, CPI inflation by about 0.8 — and its revenue self-evaluation reports an average absolute error of 4.9 percent for budget-year projections, swelling to roughly 10 percent by year six, with errors driven overwhelmingly by two things no scorekeeper escapes: unforeseen economic turning points and subsequent legislation. On a federal revenue base now near $5 trillion a year, a 10 percent sixth-year miss dwarfs most policies being scored. The mature reading follows: treat ten-year scores as *directionally serious and decimally false* — a $3 trillion score and a $0.3 trillion score describe genuinely different bills; a $1.4 trillion score versus a $1.2 trillion one does not settle anything — and distrust equally the legislator who quotes a score to the dollar and the one who dismisses scoring because year six is foggy.
+
+<QuickCheck
+  question="A senator says: 'CBO admits its sixth-year revenue projections miss by about 10 percent, so its score of my bill is worthless and should be ignored.' What's the best response?"
+  choices={[
+    {id: 'a', text: "CBO scores are actually precise; the 10 percent figure is critics' spin"},
+    {id: 'b', text: "The score compares bills against a common current-law baseline — its value is the disciplined comparison, and the documented error applies to every alternative estimate too, including the senator's"},
+    {id: 'c', text: 'The senator is right: projections beyond two years carry no information'},
+    {id: 'd', text: 'Scores are negotiated politically, so accuracy is beside the point'},
+  ]}
+  answer="b"
+  explanation="The 10 percent figure comes from CBO's own published self-evaluation — that transparency is the credential, not the indictment (a and d get this backward). The score's job is comparison under shared rules, not prophecy; uncertainty afflicts the senator's preferred number more, since it lacks the audit trail. And (c) proves too much — by that logic no decade-long commitment could ever be evaluated at all."
+/>
+
+## The numbers the government runs on — and 2025's stress test
+
+Every instrument in this pack — poll weights benchmarked to the census, crime rates, models fed jobs and inflation data — bottoms out in a handful of federal statistical agencies whose product is trusted *because they are boring*: methodology published, revisions scheduled, staff careerist. In 2025–26 that boringness met politics, and the episode now belongs in any honest lesson on civic numbers.
+
+<Timeline title="The BLS stress test, 2025–26" events={[
+  {date: 'Aug 1, 2025', title: 'The commissioner is fired over a jobs report', detail: 'Hours after BLS reported just 73,000 July jobs and revised May–June down by a combined 258,000, President Trump fired Commissioner Erika McEntarfer, accusing her without evidence of rigging the numbers. Commissioners do not produce the estimates and see them only shortly before release; revisions are routine incorporation of late-arriving survey responses.'},
+  {date: 'Aug 2025', title: 'A movement economist is nominated', detail: 'The administration nominated E.J. Antoni of the Heritage Foundation, who had publicly suggested suspending the monthly jobs report — for many economists across the spectrum, a disqualifying position for the job of publishing it.'},
+  {date: 'Sept 30, 2025', title: 'The nomination collapses', detail: 'The White House withdrew Antoni after reporting on inflammatory posts; the bureau remained under acting leadership. Former commissioners of both parties and the American Statistical Association warned that firing statisticians over unwelcome numbers invites anticipatory self-censorship.'},
+  {date: 'Nov 2025', title: 'An inflation number simply ceases to exist', detail: 'The 43-day government shutdown halted data collection; BLS later announced the October 2025 all-items CPI would never be published. The Federal Reserve went into its December rate decision without the inflation report; Treasury invoked contingency provisions for inflation-indexed bonds.'},
+  {date: 'Feb 2026', title: 'A second lapse, a second gap', detail: 'Another shutdown delayed the January jobs report. As of mid-2026 the bureau still lacked a Senate-confirmed commissioner, and "data gap" had entered the vocabulary of Fed-watchers and budget forecasters alike.'},
+]} />
+
+Why does this belong in a statistics pack rather than a politics pack? Because the threat model is statistical. Nobody serious claims the BLS now fabricates numbers; the documented dangers are subtler. **Anticipatory bias**: statisticians who watched a commissioner fired over a revision face a quiet thumb on every future judgment call — and survey methodology is nothing but judgment calls. **Credibility decay**: once revisions are recast as treachery, every inconvenient number becomes deniable by either party, and the shared factual substrate this pack assumes — what lets a poll be weighted, a model be fed, a score be checked — dissolves into "your numbers versus mine." The agencies' defense is the one this lesson has preached throughout: radical proceduralism — published methods, scheduled releases, documented revisions, self-reported error. It only works if citizens can tell it apart from its imitations, which, after three lessons, you can.
+
+## What this lesson doesn't settle
+
+A checklist first, since this closes the pack. Before trusting any forecast or model, ask: Is there a **public track record**, scored by calibration rather than highlight reel? Was it tested **out of sample** — on data it didn't train on? Are **error bars shown**, and does the author say what would prove the model wrong? Does the number come with its **conditions** ("if current law continues," "given the polls") attached? Official statistics earn default trust through procedure; private models earn it through audit; pundits earn it never.
+
+What remains genuinely open: whether probabilistic election coverage is, net, good for self-government — the demobilization worry is serious and unresolved, and the modeler and skeptic above are both right about different readers. Whether prediction markets' skin-in-the-game discipline beats models' transparency. And — newly, gravely — whether statistical-agency independence survives the decade, a question that as of mid-2026 turns on appointments, court fights, and appropriations still in motion. Hold the pack's last distinction firmly: refusing to treat all numbers as equally suspect is not naïveté, and treating a calibrated forecast and a partisan guess as "both just predictions" is the quantitative version of [[term:false-equivalence]]. The numbers were never going to tell you what to value. They can, read this way, tell you what it costs.

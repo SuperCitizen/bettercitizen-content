@@ -4,13 +4,13 @@ title: American Conservatism
 summary: What the American conservative tradition actually believes (steel-manned by adherents), the internal disagreements that have shaped it from Burke through Buckley to today's fusionists, populists, and national conservatives, and how it relates to other American ideological traditions. Conservatism is not a single position but a family of positions with overlapping commitments and genuine disagreements.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.0.0
+version: 1.2.0
 tags: [ideologies, conservatism, civics-201, political-philosophy]
 level: intermediate
 official: true
 contested: true
 languages: [en]
 lessons:
-  - 01-what-it-believes.md
-  - 02-internal-disagreements.md
-  - 03-cross-spectrum.md
+  - 01-what-it-believes.mdx
+  - 02-internal-disagreements.mdx
+  - 03-cross-spectrum.mdx

@@ -1,0 +1,142 @@
+schema: bettercitizen.assessment/v1
+lesson: the-data
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      Burnett & Kogan (2015) analyzed more than 600,000 ballots from four early
+      RCV elections. What did they actually document?
+    choices:
+      - id: a
+        text: >-
+          Ballot exhaustion of roughly 10–27%, leaving every winner with a
+          majority of final-round ballots but less than half of all votes cast
+      - id: b
+        text: Widespread fraud in the transfer of ballots between rounds
+      - id: c
+        text: >-
+          That most voters could not understand the ballot, producing rejection
+          rates above 20%
+      - id: d
+        text: That RCV winners always trailed in the first round and won on transfers
+    correct_choice_id: a
+    explanation: >-
+      The paper's finding is about exhaustion, not fraud or confusion: 9.6%
+      (San Leandro), 10.2% (Pierce County), 11.6% (Oakland), and 27.1% (San
+      Francisco) of first-round ballots carried no preference into the final
+      round, so winners' "majorities" were 43.4–45.7% of total votes cast. Note
+      the design caveat the authors themselves flag: all four elections capped
+      voters at three rankings, and the worst figure came from a 16-candidate
+      race squeezed into those three slots. (d) describes something that can
+      happen under RCV but is not what this study measured.
+    concepts: [ranked-choice-voting, instant-runoff]
+
+  - id: q2
+    kind: multiple-choice
+    text: Where is the turnout evidence for RCV strongest?
+    choices:
+      - id: a
+        text: RCV reliably raises general-election turnout by about 10 points everywhere
+      - id: b
+        text: >-
+          Where RCV replaces separate runoff elections, which historically shed
+          a median 40% of voters between rounds
+      - id: c
+        text: RCV raises turnout among older voters but lowers it among the young
+      - id: d
+        text: There is no turnout evidence of any kind in either direction
+    correct_choice_id: b
+    explanation: >-
+      The direct effects are modest and mixed — null in matched-city
+      comparisons (Kimball & Anthony), positive in specific contexts (McGinn's
+      9.6-point estimate for Twin Cities mayoral races; Juelich & Coll's
+      9-point effect for young voters only). The structural effect is the
+      strong one: FairVote found turnout fell in 266 of 276 federal primary
+      runoffs from 1994 to 2022, with a median decline of 40%, and an instant
+      runoff collects everyone's backup preference in the single high-turnout
+      election instead.
+    concepts: [voter-turnout, runoff-election]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      Donovan and Tolbert's 2023 follow-up on campaign civility concluded the
+      evidence "only partly fits the normative narrative." Which statement best
+      captures that conclusion?
+    choices:
+      - id: a
+        text: The civility claim was debunked entirely; RCV campaigns are just as nasty
+      - id: b
+        text: >-
+          Voters in RCV cities do perceive less negativity and candidates do
+          court rankings, but the tone effects do not extend to frontrunners
+      - id: c
+        text: RCV eliminates negative campaigning wherever it is adopted
+      - id: d
+        text: Civility improves only in cities that also adopted public campaign financing
+    correct_choice_id: b
+    explanation: >-
+      The mature reading of the civility literature is "modest and real, not
+      transformative." Voters in RCV cities report less negativity, and about
+      a third report explicit appeals for second- and third-choice rankings —
+      but the candidates with the most at stake, the frontrunners, campaign
+      about as aggressively either way. Advocates who promise a personality
+      transplant for politics, and critics who say nothing changes, are both
+      overclaiming.
+    concepts: [ranked-choice-voting]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Transfer question. Your county elects its executive with a December
+      runoff if no one clears 50% in November. A commission asks what the
+      research predicts if the county switches to ranked-choice voting. Which
+      prediction is best supported?
+    choices:
+      - id: a
+        text: >-
+          The final decision will be made by far more voters than the December
+          runoff would have drawn, at the cost of some exhausted ballots and a
+          slightly higher ballot-error rate
+      - id: b
+        text: Turnout in November will roughly double because ranking excites voters
+      - id: c
+        text: >-
+          Nothing changes except the count takes longer, since runoffs and
+          instant runoffs are equivalent
+      - id: d
+        text: Ballot errors will disenfranchise so many voters that the runoff is safer
+    correct_choice_id: a
+    explanation: >-
+      This is the textbook strong case for RCV: December runoffs historically
+      lose a median 40% of first-round voters, while an instant runoff resolves
+      the same contest within the single high-turnout election. The honest
+      costs to disclose are bounded: some ballots will exhaust (about 10–27%
+      under old three-rank designs, less with more rankings allowed) and
+      ranked contests show higher — but still sub-1% — rejection rates that
+      decline as voters gain experience. (b) overclaims direct turnout
+      effects, which are modest; (c) and (d) ignore the measured magnitudes.
+    concepts: [runoff-election, voter-turnout, ranked-choice-voting]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      The author argues that every cost of RCV in the data is "measurable,
+      bounded, and shrinkable by design choices," while the costs of plurality
+      and runoff systems are "structural and permanent." Evaluate that claim
+      using two specific findings from the chapter — one that supports it and
+      one that complicates it.
+    socratic_seed: >-
+      Supporting material: exhaustion fell when ranking caps rose (San
+      Francisco's 27.1% under a three-rank cap vs. Alaska carrying 94% of
+      ballots to the final round); NYC error rates declined with experience
+      (Cormack 2026); runoff turnout decline (median 40%) is inherent to
+      holding a second election. Complicating material: Pettigrew & Radley's
+      error disparities track income and education — a design-and-education
+      problem in theory, but one with no guaranteed fix, and the equity burden
+      recurs with every new adoption; exhaustion from voluntary truncation
+      never goes to zero, so the "majority of votes cast" asterisk is
+      permanent too. A strong answer notices that "shrinkable" is not
+      "eliminated," and asks what evidence would distinguish a shrinking
+      transition cost from a recurring structural one.
+    concepts: [ranked-choice-voting, voter-turnout]

@@ -1,0 +1,138 @@
+schema: bettercitizen.assessment/v1
+lesson: the-reform-debate
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What did the 2021 Presidential Commission on the Supreme Court actually produce?"
+    choices:
+      - id: a
+        text: "A formal recommendation that Congress enact eighteen-year term limits and reject expansion"
+      - id: b
+        text: "A party-line report that deadlocked before any final document could be approved"
+      - id: c
+        text: "A unanimously approved, nearly 300-page analysis that by design made no recommendations — while reporting 'considerable, bipartisan support' for eighteen-year term limits and 'profound disagreement' over expansion"
+      - id: d
+        text: "The Court's first binding ethics code, complete with an enforcement mechanism"
+    correct_choice_id: c
+    explanation: >-
+      The 34-member commission — created by executive order in April 2021, with
+      members from across the ideological spectrum — approved its final report
+      unanimously in December 2021 precisely because it declined to recommend
+      anything; its lasting contribution was a map of the terrain. That is what
+      choice (a) gets wrong: finding considerable bipartisan support for term
+      limits is not recommending them, and reporting profound disagreement on
+      expansion is not rejecting it. The ethics code in (d) came two years later,
+      from the Court's own hand — and is notable for lacking any enforcement
+      mechanism.
+    concepts: [judicial-branch, checks-and-balances]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Under the standard eighteen-year term-limit proposal, what feature eliminates the 'actuarial lottery' of Supreme Court appointments?"
+    choices:
+      - id: a
+        text: "Adding a new seat for every sitting justice over seventy who declines to retire"
+      - id: b
+        text: "A mandatory retirement age, the device most state supreme courts use"
+      - id: c
+        text: "An ordinary statute simply terminating each justice's judicial service after eighteen years"
+      - id: d
+        text: "Staggered, non-renewable eighteen-year terms with one seat turning over every two years — so every presidential term yields exactly two appointments"
+    correct_choice_id: d
+    explanation: >-
+      The lottery is chance plus strategy: one president may fill three seats while
+      another fills none, and justices time retirements to friendly
+      administrations. Staggering turns vacancies into a metronome — two per
+      presidential term, no windfalls, no timed exits. Choice (a) is Franklin
+      Roosevelt's 1937 court-packing formula, which expanded the bench rather than
+      limiting tenure; (b) is how nearly every state supreme court and major
+      democracy handles it, but not the standard federal proposal; and (c) would
+      collide head-on with Article III's good-Behaviour guarantee, which is why the
+      actual bills route justices into senior status — still life-tenured federal
+      judges, just off the Court's regular merits docket.
+    concepts: [judicial-branch]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      In 2027 Congress passes, by simple majorities, a 'Court Renewal Act' with two
+      provisions: it adds two seats, bringing the bench to eleven, and it moves
+      every justice with eighteen years of service into compulsory senior status.
+      Based on this lesson, which provision stands on firmer constitutional ground?
+    choices:
+      - id: a
+        text: "The added seats — the Court's size has always been set by ordinary statute, while compulsory rotation collides with the 'good Behaviour' clause's guarantee of life tenure"
+      - id: b
+        text: "The senior-status provision — senior status already exists for lower-court judges, so extending it to justices is settled law"
+      - id: c
+        text: "Both are equally settled — Article III leaves the judiciary's entire structure to Congress"
+      - id: d
+        text: "Neither — any change to the Court's composition requires a constitutional amendment"
+    correct_choice_id: a
+    explanation: >-
+      Size is the easy half: the Constitution never fixes the number of justices,
+      and Congress has changed it seven times by statute — six seats in 1789, ten
+      in 1863, briefly seven, and nine since 1869. The rotation half is the
+      contested one: 'during good Behaviour' is the textual anchor of life tenure,
+      and skeptics argue a justice involuntarily moved off the Court's merits
+      docket has in substance been removed from a distinct office, whatever the
+      statute calls it — a theory that would be litigated before the very justices
+      it demotes. Note the asymmetry runs in opposite directions: expansion is
+      legally easy but politically explosive, term limits the reverse.
+    concepts: [separation-of-powers, judicial-branch]
+
+  - id: q4
+    kind: multiple-choice
+    text: "When the justices adopted their first Code of Conduct on November 13, 2023, what gap did critics immediately identify?"
+    choices:
+      - id: a
+        text: "The code imposed stricter rules on the justices than on lower-court judges"
+      - id: b
+        text: "Congress wrote the code, threatening judicial independence"
+      - id: c
+        text: "The code contains no enforcement mechanism — no one investigates complaints, and recusal remains each justice's unreviewable personal call"
+      - id: d
+        text: "The code banned all gifts and travel and created an inspector general to audit compliance"
+    correct_choice_id: c
+    explanation: >-
+      The code was the Court's own act, largely adapted from the lower-court code,
+      and its accompanying statement said the rules were mostly not new — what it
+      conspicuously lacks is teeth. Lower-court judges answer to the Judicial
+      Conduct and Disability Act's complaint-and-discipline machinery; the justices
+      answer to no one but themselves. Choice (d) describes the accountability
+      reformers' agenda — a binding code, disclosure with teeth, recusal reviewed by
+      someone other than the challenged justice, an inspector general — not the code
+      itself; resisters warn that any such enforcement body could become a pressure
+      point, inviting strategic complaints on the eve of every major case.
+    concepts: [judicial-branch, checks-and-balances]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      The lesson says Franklin Roosevelt's 1937 plan 'failed, and arguably worked'
+      — and both the institutionalist preservationist and the structural reformer
+      claim the episode as evidence. Lay out what each posture takes from 1937,
+      then say which reading you find more persuasive and what evidence could
+      actually test it.
+    concepts: [checks-and-balances, separation-of-powers, judicial-branch]
+    socratic_seed: >-
+      The preservationist reading: even a president fresh off a 46-state landslide
+      could not persuade his own party that packing was anything but a seizure —
+      proof that structural retaliation is the third rail, and that the Court
+      recovers from bad eras (Dred Scott, Lochner, the New Deal confrontation)
+      precisely because its structure stays still while politics moves. The
+      structural-reformer reading: Justice Roberts's same-spring vote in West Coast
+      Hotel — the switch in time — shows credible structural pressure disciplines
+      the Court, and deterrence cuts both ways: a credible threat of response is
+      what makes future hardball irrational. Press the causal problem: the plan's
+      failure and the Court's shift happened in the same spring, so what would
+      distinguish pressure from coincidence — can any evidence settle a
+      counterfactual? Press the escalation problem: if pressure worked once, what
+      limiting principle stops re-expansion at every unified government? Then bring
+      in the third posture: the accountability reformer says the whole fight is
+      mis-sequenced — start with enforceable ethics, where no amendment is needed
+      and the rules bind whoever sits. Ask whether 1937 bears on that claim at all.
+      Close with the lesson's own observation: the preservationist and the
+      structural reformer share an empirical dispute about what protects judicial
+      independence over decades — so what would the learner accept as evidence
+      against their own side?

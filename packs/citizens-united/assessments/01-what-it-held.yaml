@@ -19,19 +19,19 @@ questions:
 
   - id: q2
     kind: multiple-choice
-    text: "Which of the following did Citizens United NOT change?"
+    text: "A national labor union plans two uses of its treasury funds in a Senate race: (1) \\$2 million on its own TV ads urging the incumbent's defeat, with no contact with any campaign, and (2) a \\$25,000 check from the same treasury directly to the challenger's campaign. After Citizens United, what does federal law allow?"
     choices:
       - id: a
-        text: "The legality of corporate general-treasury spending on independent expenditures."
+        text: "Both — Citizens United deregulated corporate and union money across the board."
       - id: b
-        text: "The 'anti-distortion' rationale from Austin v. Michigan Chamber of Commerce."
+        text: "The ads but not the check — independent expenditures from a union treasury are now protected speech, while the Taft–Hartley ban on union treasury contributions to candidates stands."
       - id: c
-        text: "Direct corporate contributions to federal candidates."
+        text: "The check but not the ads — direct contributions are smaller and therefore less corrupting."
       - id: d
-        text: "The constitutional treatment of speaker-based discrimination in election law."
-    correct_choice_id: c
-    explanation: "Direct corporate contributions to federal candidates have been illegal since the Tillman Act (1907) and remain illegal after Citizens United. The case explicitly preserved this rule. The other three options were all directly affected."
-    concepts: [citizens-united, campaign-finance]
+        text: "Neither — the holding covered corporations only, leaving unions outside it."
+    correct_choice_id: b
+    explanation: "Citizens United extended Buckley's independent-expenditure protection to corporate AND union treasuries, but it never touched the direct-contribution track: union treasury contributions to federal candidates have been banned since Taft–Hartley (1947), just as corporate ones have been since the Tillman Act (1907). Option d misses that the holding expressly covered unions alongside corporations; option c inverts the doctrine, which treats contributions as MORE regulable, not less."
+    concepts: [citizens-united, independent-expenditures, campaign-finance]
 
   - id: q3
     kind: multiple-choice
@@ -70,9 +70,3 @@ questions:
     text: "Citizens United is often summarized as 'the case that ruled corporations are people.' Why is this characterization misleading? Be specific about what the case actually held."
     socratic_seed: "Consider two distinctions: (1) corporate personhood as a doctrine vs. corporate speech as a First Amendment matter, and (2) what the case said about who can SPEAK vs. who can spend without limit. The 'corporations are people' phrase predates CU by a century — it goes back to Santa Clara County v. Southern Pacific Railroad (1886) — and applies far beyond election law."
     concepts: [citizens-united]
-
-  - id: q6
-    kind: free-response
-    text: "The majority's reasoning depended on the premise that 'independent expenditures … do not give rise to corruption or the appearance of corruption.' What empirical or structural arguments would the strongest critique of that premise make?"
-    socratic_seed: "Consider: (1) how 'independent' Super PACs actually operate in practice (staffing, vendors, coordination via public signaling), (2) Lessig's distinction between quid-pro-quo corruption and dependence corruption, (3) the 'appearance of corruption' standard from Buckley itself. The strongest critique doesn't reject the categorical distinction wholesale — it argues the empirical premise behind the distinction has eroded."
-    concepts: [citizens-united, quid-pro-quo, independent-expenditures]

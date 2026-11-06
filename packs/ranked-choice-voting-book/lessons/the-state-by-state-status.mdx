@@ -1,0 +1,119 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-state-by-state-status
+kind: reading
+title: The State-by-State Status
+objectives:
+  - Decompose FairVote's 49-jurisdiction count into what each category actually does
+  - Map the nineteen-state ban wave and what its preemption architecture reveals
+  - Explain why D.C.'s Initiative 83 is only half-implemented despite 73 percent approval
+  - State what is on the 2026 ballot — D.C.'s debut and Alaska's third repeal vote — and the stakes of each
+concepts:
+  - ranked-choice-voting
+  - ballot-initiative
+  - majority-threshold
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Rank the Vote* (2026), "The State-by-State Status"'
+  - type: website
+    citation: 'FairVote, "Where is ranked choice voting used?" (2026) — 49 jurisdictions use RCV or have passed it, reaching nearly 14 million voters across 22 states and D.C.; 2 states statewide, 36 cities, 3 counties, 1 state for special elections, and 6 states plus 1 city for military and overseas runoff ballots.'
+    url: https://fairvote.org/where-is-ranked-choice-voting-used/
+  - type: website
+    citation: 'FairVote, "The 2026 elections and ranked choice voting" — 17 jurisdictions vote with RCV in 2026, including Maine primaries June 9, D.C. primaries June 16, and Arlington County August 4.'
+    url: https://fairvote.org/the-2026-elections-and-ranked-choice-voting/
+  - type: website
+    citation: 'Ballotpedia, "Alaska Repeal Top-Four Ranked-Choice Voting Initiative (2026)" — certified for the Nov. 3, 2026 ballot on Dec. 31, 2025, with 42,837 verified signatures; the 2024 repeal failed 50.12% to 49.88%.'
+    url: https://ballotpedia.org/Alaska_Repeal_Top-Four_Ranked-Choice_Voting_Initiative_(2026)
+  - type: website
+    citation: 'Wikipedia, "Initiative 83" — D.C. measure passed Nov. 2024, 72.89% (212,332–78,961); Council funded the RCV provisions 8–4 in July 2025 but declined to fund semi-open primaries.'
+    url: https://en.wikipedia.org/wiki/Initiative_83
+  - type: website
+    citation: 'Ballotpedia News, "Ohio becomes second state this year to ban ranked-choice voting" (Mar. 19, 2026) — 19 state bans as of March 2026; Indiana signed in February 2026; 17 of 19 enacted under Republican trifectas.'
+    url: https://news.ballotpedia.org/2026/03/19/ohio-becomes-second-state-this-year-to-ban-ranked-choice-voting/
+  - type: statute
+    citation: 'Hawaii Revised Statutes §11-100 (Act 47, 2022) — ranked-choice voting for federal special elections and county-council vacancy special elections.'
+    url: https://law.justia.com/codes/hawaii/title-2/chapter-11/section-11-100/
+  - type: website
+    citation: 'CPR News, "Boulder will have one of Colorado''s first ranked-choice elections this November" (2023) — Colorado''s HB21-1071 local option in practice.'
+    url: https://www.cpr.org/2023/08/24/boulder-ranked-choice-voting-november-election/
+  - type: website
+    citation: 'Votebeat, "Michigan won''t vote on ranked choice voting amendment in 2026" (Dec. 18, 2025) — Rank MI Vote suspended its 2026 drive and is targeting 2028.'
+    url: https://www.votebeat.org/michigan/2025/12/18/ranked-choice-voting-constitutional-amendment-stops-signature-collection-2026/
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 10
+---
+
+# The State-by-State Status
+
+This June, two American capitals told two different stories about the same reform. In Washington, D.C., voters are ranking candidates for mayor for the first time — the result of a [[term:ballot-initiative]] that 72.9 percent of them approved. Three months earlier in Columbus, Governor Mike DeWine signed the law making Ohio the nineteenth state to *ban* ranked-choice voting, complete with a provision cutting state funds to any city that defies it. Both things are true at once, and any chapter that shows you only one of them is lying by omission. So here is the whole map as of mid-2026 — where [[term:ranked-choice-voting]] is used, where it's banned, where it's on the ballot this November, and what the pattern actually means.
+
+## Where it's used: 49 jurisdictions, 14 million voters
+
+FairVote's running inventory counts 49 American jurisdictions that use RCV in public elections or have adopted it for upcoming ones — reaching nearly 14 million voters across 22 states and D.C. The number is worth decomposing, because the categories do different work:
+
+<Figure caption="The 49 jurisdictions, by category. 'Statewide' is Maine and Alaska; Hawaii uses RCV for certain special elections; six states and one city send ranked ballots to military and overseas voters so they can vote in runoffs without a second mailing." source="FairVote, 'Where is ranked choice voting used?' (2026)">
+  <DataBars
+    unit="jurisdictions"
+    max={40}
+    bars={[
+      {label: 'Cities (incl. NYC, San Francisco, Minneapolis, Portland)', value: 36, color: 'blue'},
+      {label: 'States, military & overseas runoff ballots only', value: 6, color: 'gold'},
+      {label: 'Counties', value: 3, color: 'blue'},
+      {label: 'States, statewide elections (ME, AK)', value: 2, color: 'accent'},
+      {label: 'States, special elections (HI)', value: 1, color: 'gold'},
+      {label: 'City, military & overseas runoff ballots', value: 1, color: 'gold'},
+    ]}
+  />
+</Figure>
+
+Read the bars honestly and you see both the movement's reach and its limits. The beachheads are urban and coastal-plus-Mountain-West: New York, San Francisco, Oakland, Minneapolis, St. Paul, Salt Lake City's former pilot peers, and — since its voters built a proportional multi-winner system in 2022 — Portland, Oregon. The two statewide systems remain Maine (adopted 2016, first used 2018, covering state and federal primaries plus federal general elections, presidential included since 2020) and Alaska (top-four primaries plus RCV generals for everything from governor down, since 2022). Hawaii's Act 47 quietly added RCV for federal special elections and county-council vacancies. And the least-known category is my favorite trivia weapon: six states — including runoff states in the Deep South — already mail *ranked* ballots to soldiers and overseas voters so a runoff doesn't require a second envelope with a three-week round trip. Several states that ban RCV for everyone else still rank their soldiers' ballots, because for that problem nothing else works.
+
+In 2026 itself, 17 of those jurisdictions are actually electing people with ranked ballots: Maine's June 9 primaries, D.C.'s June 16 primaries, New York City's April council specials, San Francisco's June supervisor specials, Arlington County's August 4 board primary, and November generals from Portland, Maine to Portland, Oregon.
+
+<Checkpoint question="An op-ed claims 'RCV is used by 49 states' worth of voters'; a rebuttal claims 'only two states really use it.' Using the breakdown above, what is the precise statement both are mangling?">
+  Forty-nine *jurisdictions* — not states — use or have adopted RCV, reaching about 14 million voters across 22 states plus D.C. Only two states (Maine and Alaska) use it statewide; most of the 49 are cities and counties, one state uses it for special elections, and seven jurisdictions use it only for military and overseas runoff ballots. Precision here is strategic as well as honest: inflating the count hands the opposition an easy correction, and deflating it erases 14 million voters' actual experience.
+</Checkpoint>
+
+## Where it's banned: nineteen states and counting
+
+The mirror image, as of mid-2026: nineteen states statutorily or constitutionally prohibit RCV, almost all by forbidding their own municipalities from adopting it. The sequence — Tennessee and Florida in 2022; Idaho, Montana, and South Dakota in 2023; Alabama, Kentucky, Louisiana, Mississippi, Oklahoma, and Missouri in 2024; Arkansas, Iowa, Kansas, North Dakota, West Virginia, and Wyoming in 2025; Indiana and Ohio in early 2026 — tracks the model-legislation network you met in "The Opposition." Seventeen of the nineteen came from Republican trifectas; Kansas and Kentucky enacted bans under divided government, and Ohio's passed with bipartisan votes. Missouri's is the only one written into a constitution by voters, 68.4 percent, in a package that led with citizenship language and carved out St. Louis's existing system.
+
+Notice what the ban map and the usage map have in common: in both, the action is *states deciding for cities*. Most of the fourteen million voters covered by RCV got it through local democracy; the bans mostly exist to make sure no more do. Whatever else that is, it is not federalism's famous laboratory at work — it's the lab being padlocked.
+
+## The 2026 ballot: one debut, one rubber match
+
+**Washington, D.C., is the year's debut.** Initiative 83 passed in November 2024 with 72.89 percent — 212,332 votes to 78,961 — surviving two lawsuits from the D.C. Democratic Party along the way. But initiatives in the District can't appropriate money, which gave the Council a pocket veto, and in July 2025 it exercised half of it: by an 8–4 vote it funded the ranked-choice provisions for the 2026 cycle while declining to fund the other half of the initiative, which would have let the District's tens of thousands of independent voters participate in primaries. So this June, D.C. voters rank up to five candidates for mayor and council — while the [[issue:nonpartisan-primaries|semi-open-primary]] half of what they approved sits unfunded. Half a loaf, delivered late, is still a precedent: the nation's capital now ranks its ballots.
+
+**Alaska is the rubber match.** On December 31, 2025, the lieutenant governor certified a new repeal initiative for the November 3, 2026 ballot — 42,837 verified signatures, comfortably over the 34,098 required. Alaskans have voted on this system twice: 50.55 percent yes in 2020, and a 50.12 percent no-on-repeal in 2024 — a 743-vote margin, recount-confirmed. Now they'll vote a third time, with six years of lived experience. I won't predict it. I'll only note what repeal would restore: partisan primaries and [[term:plurality]] generals, in a state where more voters register nonpartisan than with both major parties combined.
+
+**And the column of setbacks, stated plainly.** Michigan's Rank MI Vote suspended its 2026 constitutional-amendment drive in December 2025, more than 200,000 signatures short of the 446,198 required — an all-volunteer operation that learned what Maine's 2014 Election Day signature blitz taught a decade earlier, that passion needs infrastructure. They've announced a 2028 target. Utah's pilot is gone — sunset January 1, 2026, its cities reverted. Nevada, Oregon, Colorado, Idaho, and Arizona remain "no" states after 2024. Statewide expansion, right now, runs through exactly one place: defending Alaska.
+
+<QuickCheck
+  question="D.C. voters approved Initiative 83 with 72.89% in 2024, yet in June 2026 only half of it is operating. What explains the gap?"
+  choices={[
+    {id: 'a', text: 'A federal court struck down the semi-open primary provisions'},
+    {id: 'b', text: 'Congress used its oversight power to block part of the initiative'},
+    {id: 'c', text: 'D.C. initiatives cannot appropriate funds, and the Council funded the RCV half while leaving semi-open primaries unfunded'},
+    {id: 'd', text: 'Turnout fell below the threshold required to trigger full implementation'},
+  ]}
+  answer="c"
+  explanation="The lawsuits (a) failed — one withdrawn, one dismissed — and Congress (b) never acted. The mechanism is structural: District initiatives can't spend money, so implementation requires Council appropriation, and in July 2025 the Council voted 8–4 to fund ranked-choice voting for 2026 while declining to fund the primary-access half. A supermajority of voters can approve a reform and still need the institution it bypassed to switch it on — which is why the implementation chapter told you a yes vote is the middle of the campaign."
+/>
+
+## Ten years on the map
+
+<Timeline events={[
+  {date: 'Nov 2016', title: 'Maine adopts RCV', detail: 'Question 5 passes 52–48 — the first statewide adoption, by citizen initiative.'},
+  {date: 'Jun 2018', title: 'Maine defends it', detail: "After a legislative delay-and-repeal, voters reinstate RCV by people's veto, 54–46, and use it that same day."},
+  {date: 'Nov 2020', title: 'Alaska adopts top-four + RCV', detail: 'Measure 2 passes 50.55–49.45. The same month, Massachusetts votes no, 45–55 — adoption was never inevitable.'},
+  {date: 'Jun 2021', title: 'New York City debuts', detail: 'The largest RCV election in U.S. history: 89.3% of Democratic primary voters rank multiple candidates.'},
+  {date: 'Feb 2022', title: 'The ban era begins', detail: 'Tennessee enacts the first statewide prohibition; Florida follows in April. Hawaii adopts RCV for special elections the same year.'},
+  {date: 'Nov 2024', title: 'The split decision', detail: 'Statewide measures lose in CO, ID, NV, OR, and AZ; Missouri bans by amendment — while D.C. approves I-83 with 72.9% and Alaska keeps RCV by 743 votes.'},
+  {date: 'Jan–Mar 2026', title: 'Nineteen bans', detail: "Indiana (February) and Ohio (March 17) bring the ban count to 19; Utah's municipal pilot sunsets with the new year."},
+  {date: 'Jun–Nov 2026', title: 'Debut and rubber match', detail: 'D.C. ranks its first ballots June 16; Alaska votes on repeal a third time November 3.'},
+]} />
+
+What this chapter settles: the raw geography. Fourteen million voters rank ballots; nineteen states forbid their cities to try; the 2026 cycle will move the map again in D.C. and Alaska. What it doesn't settle is *why* the fight has hardened into this shape — why one party's national infrastructure now treats a voting method as an enemy, and why the deepest argument isn't about general elections at all. It's about the elections most Americans never vote in, the ones that actually pick their representatives: the primaries. That machine is the next chapter.

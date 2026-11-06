@@ -1,0 +1,170 @@
+schema: bettercitizen.assessment/v1
+lesson: what-is-score-voting
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      At the level of the ballot itself, what distinguishes score voting from
+      ranked-choice voting?
+    choices:
+      - id: a
+        text: >-
+          Score voting asks for your order of preference, while ranked-choice
+          voting asks how strongly you feel about each candidate
+      - id: b
+        text: >-
+          A score ballot records an independent intensity judgment (cardinal
+          information) for every candidate; a ranked ballot records only the
+          order (ordinal information), not the size of the gaps
+      - id: c
+        text: >-
+          A score ballot requires the winner to clear a majority of total
+          possible points, while a ranked ballot does not
+      - id: d
+        text: >-
+          A score ballot only lets you evaluate the candidates you support,
+          while a ranked ballot forces you to address all of them
+    correct_choice_id: b
+    explanation: >-
+      The cardinal/ordinal distinction is the load-bearing idea of the whole
+      book. A ranking of A over B over C is identical whether you love B almost
+      as much as A or barely prefer B to C — the distances die. Scores keep
+      them, and each candidate's score is its own independent judgment. Choice
+      (a) reverses the two systems; (c) invents a majority-of-points rule that
+      no score proposal uses (highest total wins, whatever it is); (d) is
+      backwards — score voting asks you to evaluate everyone, including
+      candidates you'd score 0.
+    concepts: [score-voting]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      A candidate boasts: "I received more 5s — more maximum scores — than
+      anyone else in the race, so under score voting I'd be the winner." What is
+      wrong with that claim?
+    choices:
+      - id: a
+        text: >-
+          Nothing — the candidate with the most maximum scores wins under score
+          voting
+      - id: b
+        text: >-
+          Score voting elects the highest total (or average), which aggregates
+          breadth and depth together — a candidate with broad 3s and 4s from
+          everyone can outscore one with passionate 5s from a faction and 0s
+          from the rest
+      - id: c
+        text: >-
+          Maximum scores are discarded as presumptively strategic before
+          tallying
+      - id: d
+        text: >-
+          The claim holds on a 0–5 scale but fails on a 0–10 scale
+    correct_choice_id: b
+    explanation: >-
+      Counting 5s would just rebuild plurality with extra steps — first-place
+      enthusiasm and nothing else. The sum is the point: a 5 from a devotee and
+      two 4s from people who'd happily accept you both flow into one total, so
+      the winner is the candidate the electorate as a whole supports most. A
+      candidate who is nobody's favorite can legitimately win — and that is the
+      consensus-finding feature, not a bug. No version discards honest maximum
+      scores (c), and the scale choice (d) changes granularity, not the
+      highest-total rule.
+    concepts: [score-voting]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      Your city is debating whether its score-voting ordinance should use a 0–5
+      scale, a 0–10 scale, or a simple approve/don't-approve ballot. What does
+      the simulation evidence actually say about that choice?
+    choices:
+      - id: a
+        text: >-
+          Width is everything — a 0–100 scale would substantially outperform
+          0–10, which substantially outperforms 0–5
+      - id: b
+        text: >-
+          Even the two-level approval ballot already captures most of the
+          cardinal advantage; widening the scale adds a few points of simulated
+          voter satisfaction with diminishing returns
+      - id: c
+        text: >-
+          Scales coarser than 0–10 perform worse than plurality voting, so 0–10
+          is the minimum responsible choice
+      - id: d
+        text: >-
+          The evidence shows the scale is meaningless because all voting
+          systems perform identically
+    correct_choice_id: b
+    explanation: >-
+      In Jameson Quinn's published simulations, approval voting — score on a
+      two-point scale — already reaches roughly 89–95% voter satisfaction
+      efficiency, and an 0–10 score ballot reaches about 96% with honest
+      voters. The structure (judge every candidate independently) does almost
+      all the work; granularity is a tuning knob. Even Kenneth Arrow's hedged
+      2012 endorsement imagined just "three or four classes." That is why
+      scale debates shouldn't split the reform coalition: choices (a) and (c)
+      both overweight a parameter the evidence treats as minor.
+    concepts: [score-voting]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      A nine-member book club elects its next host by score voting (0–5).
+      Totals: Priya 28, Marcus 31, Jo 19. Counting only each member's single
+      favorite, Priya is the favorite of 4 members, Jo of 3, and Marcus of 2.
+      What happened, and what would a pick-one election have done?
+    choices:
+      - id: a
+        text: >-
+          Something went wrong in the count — the candidate with the most
+          favorites must also have the highest score total
+      - id: b
+        text: >-
+          Marcus won because members who favored others still scored him
+          highly; a pick-one vote among favorites would have elected Priya
+          instead, never seeing Marcus's broad support
+      - id: c
+        text: >-
+          Jo actually wins, because 3 favorites out of 9 is the largest share
+          once Priya and Marcus split the rest
+      - id: d
+        text: >-
+          Priya wins under both systems, since score voting always agrees with
+          plurality when one candidate has the most favorites
+    correct_choice_id: b
+    explanation: >-
+      This is the consensus-versus-faction pattern transferred to a small
+      scale. Marcus is only two members' favorite, but his 31 points mean the
+      other seven gave him solid scores; Priya's four devotees couldn't lift
+      her past the broader support. A pick-one vote reads only favorites —
+      Priya 4, Jo 3, Marcus 2 — and elects Priya while discarding everything
+      else the members believed. Choices (a) and (d) assert an agreement
+      between plurality and score that the arithmetic plainly doesn't require.
+    concepts: [score-voting, plurality]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Your neighbor says: "If I give points to two candidates, I've watered
+      down my vote. Under the old system, at least my one vote counted at full
+      strength." In three or four sentences, identify the specific
+      misunderstanding and correct it.
+    socratic_seed: >-
+      The misunderstanding is treating scores as shares of a fixed budget.
+      Strong answers make three moves. First: each candidate's score is an
+      independent judgment — your 5 for your favorite is at full strength no
+      matter what you give anyone else, and if the race comes down to your
+      favorite versus your second choice, your ballot still favors the
+      favorite by exactly the gap you chose. Second: it's the pick-one ballot
+      that actually discards strength — it records nothing at all about your
+      views on every other candidate, which is why it manufactures spoilers
+      and wasted votes. Third, the practical kicker: bullet-voting (scoring
+      only your favorite and leaving the rest at 0) is legal but
+      self-defeating, because it surrenders your influence over the contest
+      among everyone else — the contest you care about most if your favorite
+      can't win. The strongest responses also notice the neighbor's intuition
+      is correct under plurality, which is precisely the indictment of
+      plurality.
+    concepts: [score-voting]

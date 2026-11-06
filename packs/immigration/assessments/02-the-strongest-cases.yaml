@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Borjas's 2017 Mariel reappraisal found a 10–30 percent wage decline that Card's 1990 study had missed. According to the Clemens–Hunt critique, what could account for the entire difference?"
+    choices:
+      - id: a
+        text: "Borjas used an incorrect formula for computing real wages, which Clemens and Hunt corrected."
+      - id: b
+        text: "The Census Bureau's coverage of Black men improved around 1980, roughly doubling the Black share of Miami's small surveyed-dropout sample — importing a pre-existing racial wage gap into the measured trend."
+      - id: c
+        text: "Card had quietly included the Marielitos themselves in his wage sample, which diluted the effect on natives."
+      - id: d
+        text: "Borjas's comparison cities experienced refugee waves of their own, contaminating the control group."
+    correct_choice_id: b
+    explanation: "No one in the dispute made an arithmetic error — that is the point. Borjas narrowed the sample to prime-age male dropouts; Clemens and Hunt showed that exactly this thin subsample changed racial composition just as the boatlift hit, because survey coverage of Black men improved around 1980, and Black dropouts earned less for reasons unrelated to Mariel. Borjas's rejoinder argued the decline survives controls for the racial mix. The dispute is about research design and sample composition — which is why it has never fully resolved, and why a single-city natural experiment has no replication to fall back on."
+    concepts: [immigration, labor-market-effects]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A governor cites the NAS consensus report to argue immigration is a fiscal burden; a federal budget official cites the same report to argue it is a long-run fiscal gain. Who is misreading the report?"
+    choices:
+      - id: a
+        text: "The governor — the report found immigrants are net fiscal contributors at every level of government."
+      - id: b
+        text: "The official — the report found immigrants are net fiscal costs at every level of government."
+      - id: c
+        text: "Neither — first-generation costs concentrate at the state and local level (schooling is the big line item), while the long-run federal picture is positive and the second generation are among the strongest net contributors."
+      - id: d
+        text: "Both — the report concluded the fiscal effects of immigration cannot be estimated."
+    correct_choice_id: c
+    explanation: "The NAS fiscal finding is an asymmetry, not a single number: the sign flips by level of government, by education mix, and by time horizon. School boards and county hospitals bear first-generation costs now; the federal ledger gains over the long run; the U.S.-raised second generation contributes strongly. Both officials can quote the report accurately while talking past each other — and Borjas's own 'user's guide' warns that the 75-year projections are scenario-sensitive, so any single dollar figure should be treated as a scenario, not a measurement."
+    concepts: [immigration, fiscal-impact]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A 2031 bill triples temporary guest-worker visas, cuts family-based green cards, and offers the new workers no path to permanent status. On Tichenor's two-axis grid, this bill is the signature program of which camp — and which camp is its most natural opponent?"
+    choices:
+      - id: a
+        text: "A free-market expansionist program (more admissions, restricted rights); nationalist egalitarians are its natural opponents."
+      - id: b
+        text: "A cosmopolitan program (more admissions, full rights); classic exclusionists are its natural opponents."
+      - id: c
+        text: "A nationalist egalitarian program (fewer admissions, full rights); free-marketeers are its natural opponents."
+      - id: d
+        text: "A classic exclusionist program (fewer admissions, fewer rights); cosmopolitans are its natural opponents."
+    correct_choice_id: a
+    explanation: "More workers admitted with fewer rights — labor without membership — is the free-market expansionist cell of Tichenor's grid. Its mirror-image opponent is the nationalist egalitarian (the old labor-union position): protect and legalize the people already here, but resist new labor competition. Note that these two camps are conventionally coded 'right' and 'left,' yet the disagreement here is not about how many immigrants but about what they are owed — which is why party labels predict immigration politics so poorly."
+    concepts: [immigration]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Putnam's 'E Pluribus Unum' (2007) is the most-cited study in the social-cohesion argument. Which statement matches what it actually found?"
+    choices:
+      - id: a
+        text: "In more ethnically diverse U.S. communities, residents reported lower trust toward out-groups but higher in-group solidarity."
+      - id: b
+        text: "In more ethnically diverse U.S. communities, short-run trust was lower across the board — toward neighbors and even one's own group — though Putnam argued societies rebuild broader identities over time."
+      - id: c
+        text: "Diversity showed no measurable relationship to social trust once income and education were controlled."
+      - id: d
+        text: "The study found durable, permanent declines in trust, and Putnam endorsed reduced immigration as the remedy."
+    correct_choice_id: b
+    explanation: "The counterintuitive part of Putnam's finding is that diversity correlated with lower trust of one's own group too — people 'hunker down' rather than polarize. (a) is the near-miss most people assume. (d) doubly fails: Putnam emphasized the effects were short-run, argued societies rebuild shared identities, and explicitly opposed restrictionist uses of his data. The restrictionist point that survives his caveats is narrower: transitions have real costs and the pace of change is a policy variable. Whether those costs are transitional or durable remains genuinely contested."
+    concepts: [immigration]
+
+  - id: q5
+    kind: free-response
+    text: "Zolberg's A Nation by Design argues that the U-shaped curve of the foreign-born share was legislated at every turn — policy, not weather. Pick one of the three camps (restrictionist, expansionist, comprehensive-reform centrist) and explain how that historical claim both strengthens and complicates its case. Then name the contested empirical question your chosen camp is betting on most heavily."
+    socratic_seed: "Each camp can use Zolberg both ways. Restrictionist: 1924–1965 proves a polity can deliberately choose a much lower number and absorb the consequences — but the 1924 instrument was explicitly racist, so the camp must show the number can be chosen without the taint. Expansionist: the 1890s prove the country has absorbed a 14–15 percent foreign-born share before and prospered — but that wave was followed by a four-decade legislated pause that may itself have aided integration; does the case quietly depend on a pause it cannot endorse? Centrist: every turn of the curve was a legislated bargain, proving bargains are possible — but the last one was 1986, and its verification half failed. Push the learner to name their camp's empirical bet: wage effects on the least-skilled (Card–Borjas–Clemens), fiscal incidence by level of government and horizon, durability of Putnam-style cohesion costs, or the sequencing hypothesis now being tested. Close by asking what evidence would move them off their chosen camp — and whether their answer is empirical or, like the sovereignty claim, a values commitment no regression can refute."
+    concepts: [immigration, labor-market-effects, fiscal-impact]

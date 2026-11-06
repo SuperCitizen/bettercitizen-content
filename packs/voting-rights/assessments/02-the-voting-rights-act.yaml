@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-voting-rights-act
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What exactly did Shelby County v. Holder (2013) hold unconstitutional?"
+    choices:
+      - id: a
+        text: "Section 5 — preclearance itself was held to exceed Congress's enforcement power."
+      - id: b
+        text: "Section 2 — the nationwide results test was held to require proof of intent."
+      - id: c
+        text: "Section 4(b) — the coverage formula, keyed to 1964–1972 election data, failed the 'current burdens, current needs' test."
+      - id: d
+        text: "The entire Voting Rights Act, as superseded by the 2006 reauthorization."
+    correct_choice_id: c
+    explanation: "The Court, 5–4, struck only the §4(b) coverage formula: a remedy that treats states unequally must be justified by current conditions, and Congress had reauthorized in 2006 without updating triggers built on data from 1964, 1968, and 1972. Section 5 survives as written and Section 2 is untouched — but with no formula, no jurisdiction is covered, so preclearance binds no one. The engineering detail is the whole case: the Court removed the ignition, not the engine, and invited Congress to build a new one."
+    concepts: [voting-rights-act, civil-rights]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Between 1965 and 2013, what made Section 5 preclearance fundamentally different from ordinary civil-rights litigation under Section 2?"
+    choices:
+      - id: a
+        text: "Section 5 reversed the burden and the timing: covered jurisdictions had to prove a change nondiscriminatory before it could take effect, instead of plaintiffs proving discrimination after."
+      - id: b
+        text: "Section 5 applied nationwide, while Section 2 applied only in the South."
+      - id: c
+        text: "Section 5 claims were decided by the Department of Justice alone, with no judicial route available."
+      - id: d
+        text: "Section 5 required proof of discriminatory intent, while Section 2 required only discriminatory effect."
+    correct_choice_id: a
+    explanation: "Preclearance froze every voting change in covered jurisdictions until the jurisdiction itself proved the change had neither the purpose nor the effect of abridging the vote on account of race — to the Attorney General (60 days) or a three-judge D.C. court, so (c) is wrong on the judicial route. The geography in (b) is backwards: Section 2 is the nationwide provision; coverage under §4(b) was selective. The flip of burden and timing is what ended the cat-and-mouse tempo in which each struck-down device was replaced by a fresh one that governed elections while the next lawsuit ran."
+    concepts: [voting-rights-act]
+
+  - id: q3
+    kind: multiple-choice
+    text: "In 2027, a state cuts its early-voting period and closes some rural polling places. Plaintiffs sue under Section 2, showing a modest statistical disparity in burden on minority voters. Under Brnovich v. DNC (2021), which factor will most likely cut against the plaintiffs?"
+    choices:
+      - id: a
+        text: "Courts now ask whether the rule exceeds the 'usual burdens of voting' and weigh the openness of the state's entire system of voting opportunities — small disparities plus inconvenience rarely suffice."
+      - id: b
+        text: "Section 2 no longer applies to time, place, or manner rules at all after Brnovich."
+      - id: c
+        text: "The plaintiffs failed to seek preclearance before suing."
+      - id: d
+        text: "The Gingles preconditions require plaintiffs to first draw an alternative majority-minority district."
+    correct_choice_id: a
+    explanation: "Brnovich did not remove voting procedures from Section 2's reach (b); it announced guideposts that make vote-denial claims harder: burden size measured against the usual burdens of voting, departure from 1982 practice, magnitude of the disparity, available alternatives across the whole system, and state interests like fraud prevention. Preclearance (c) has been inoperative since Shelby County, and the Gingles framework (d) governs vote-dilution districting claims — the Milligan side of the ledger, not this one. Distinguishing the two kinds of Section 2 claims is the lesson's key discrimination."
+    concepts: [voting-rights-act]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In Allen v. Milligan (2023), Alabama asked the Court to evaluate Section 2 districting claims against a 'race-neutral benchmark' built from computer-simulated maps. What did the Court do?"
+    choices:
+      - id: a
+        text: "Adopted the benchmark, effectively ending majority-minority districting requirements."
+      - id: b
+        text: "Rejected it and reaffirmed the Thornburg v. Gingles framework, affirming the order that Alabama's map likely diluted Black voting strength."
+      - id: c
+        text: "Held that Section 2 no longer applies to redistricting, only to ballot-access rules."
+      - id: d
+        text: "Remanded without deciding, ordering Congress to clarify Section 2's scope."
+    correct_choice_id: b
+    explanation: "Milligan — written by Chief Justice Roberts, the author of Shelby County — declined Alabama's invitation to remake §2 doctrine, calling the simulation-benchmark theory flawed in its fundamentals, and reaffirmed the Gingles framework that had governed for 37 years. The result preserved vote-dilution claims exactly as they were, requiring a second district where Black Alabamians could elect candidates of their choice. Read with Brnovich, it maps post-2013 law: Section 2 remains strong against district lines, weaker against voting procedures."
+    concepts: [voting-rights-act, civil-rights]
+
+  - id: q5
+    kind: free-response
+    text: "You are a Senate staffer drafting a replacement coverage formula to revive preclearance after Shelby County. Describe the design features your formula would need to survive the Court's reasoning, and then make the strongest argument that it would be struck down anyway."
+    socratic_seed: "Shelby County demands 'current burdens justified by current needs,' so a survivable formula must be keyed to recent conduct — the John Lewis VRAA approach uses rolling coverage triggered by recent adjudicated violations, with automatic aging-out for clean records, answering both staleness and equal-sovereignty objections. The counterargument: any preclearance is prior restraint of state lawmaking, extraordinary medicine the Court reserved for extraordinary conditions, and a violations-based trigger inherits litigation's slowness — the very defect §5 existed to cure — while a more sensitive trigger revives the staleness objection on a delay. Push the student to take a side on the deeper empirical question the 0.16% objection rate poses: cured disease or working vaccine? Ginsburg's umbrella metaphor and Roberts's current-needs test are not really legal disagreements — they are rival theories of deterrence, and the student should say which evidence would distinguish them."
+    concepts: [voting-rights-act, civil-rights]

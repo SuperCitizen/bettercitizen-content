@@ -1,0 +1,16 @@
+slug: wealth-tax
+name: Wealth Tax
+short_definition: "A recurring tax levied on the total net worth a household holds (assets minus debts), rather than on the income it earns."
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English: a levy on the stock of accumulated 'wealth' rather than the flow of income; sometimes called a net-worth tax"
+why_it_matters: "Because the richest households hold most of their fortunes as unrealized asset gains the income tax never reaches, a wealth tax is the reformers' headline tool — but its constitutionality under the direct-tax apportionment clause and its administrability are sharply contested."
+context_example: "Senator Elizabeth Warren's Ultra-Millionaire Tax Act proposed a 2 percent annual tax on net worth above 50 million dollars and 3 percent above 1 billion; most European countries that tried net wealth taxes later repealed them."
+related_term_slugs:
+  - estate-tax
+  - oligarchy
+  - plutocracy
+  - tax-avoidance
+tags: []

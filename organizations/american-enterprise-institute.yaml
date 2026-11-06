@@ -1,0 +1,17 @@
+slug: american-enterprise-institute
+name: American Enterprise Institute
+kind: think-tank
+description: "Center-right think tank in Washington, D.C., founded in 1938, focused on economics, social policy, and foreign affairs. Historically the intellectual home of mainstream and neoconservative policy thinking, with scholars who move regularly into Republican administrations."
+website: https://www.aei.org
+jurisdiction: national
+partisan_lean: center-right
+ideology_tags:
+  - american-conservatism
+  - neoconservatism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - public-education
+concept_tags:
+  - think-tank
+is_active: true

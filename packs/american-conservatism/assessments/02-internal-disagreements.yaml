@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: internal-disagreements
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A senator introduces a bill creating federal subsidies for domestic semiconductor plants, funded by new tariffs on imported electronics. Within the conservative family, who is the bill's most reliable supporter and who is its most reliable opponent?"
+    choices:
+      - id: a
+        text: "Traditionalists support it; national conservatives oppose it."
+      - id: b
+        text: "National conservatives support it; classical liberals oppose it."
+      - id: c
+        text: "Classical liberals support it; traditionalists oppose it."
+      - id: d
+        text: "All three streams support it; opposition comes only from progressives."
+    correct_choice_id: b
+    explanation: "Industrial policy plus tariffs is the signature national-conservative program — state action in service of the industrial base and working-class employment. Classical liberals oppose both halves on free-market and free-trade grounds, predicting capture by the well-connected. Traditionalists sit in between: sympathetic to the goal of stable working communities, but wary of economy-steering state machinery — which is why they are neither the strongest supporters nor the strongest opponents."
+    concepts: [conservatism, national-conservatism, classical-liberalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Traditionalists and national conservatives largely share a cultural diagnosis — family breakdown, religious decline, institutional decay. What most sharply separates the two streams?"
+    choices:
+      - id: a
+        text: "Whether the cultural diagnosis is accurate in the first place."
+      - id: b
+        text: "Whether the remedy runs through winning and using state power, or through patiently rebuilding civil society from below."
+      - id: c
+        text: "Whether free trade benefits American consumers."
+      - id: d
+        text: "Whether the Constitution should be read as originalists read it."
+    correct_choice_id: b
+    explanation: "Both streams accept the diagnosis; the split is over the instrument. National conservatives argue that cultural conservation requires political power and the legitimate use of government — family benefits, civic education, industrial policy. Traditionalists answer that the state is too blunt and too easily captured, and that the work belongs to parishes, schools, and families (Levin's A Time to Build is the fullest statement). Trade (c) chiefly separates classical liberals from national conservatives, and originalism (d) is broadly shared across all three streams."
+    concepts: [conservatism, traditionalism, national-conservatism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which of these is the strongest version of the classical-liberal critique of national conservatism?"
+    choices:
+      - id: a
+        text: "National conservatives are insufficiently committed to religious faith."
+      - id: b
+        text: "By embracing tariffs, industrial policy, and immigration restriction, national conservatism abandons the substance that made the movement distinct — and builds state machinery that future progressive majorities will inherit and use."
+      - id: c
+        text: "National conservatism is electorally unpopular and therefore self-defeating."
+      - id: d
+        text: "National conservatism pays too much attention to the working class and not enough to entrepreneurs."
+    correct_choice_id: b
+    explanation: "The strongest classical-liberal critique is double-edged: first, that a 'conservatism' of tariffs and industrial policy conserves nothing of conservative economic substance; second — the sharper edge — that expanded state power does not stay in friendly hands. Whatever cultural or industrial machinery national conservatives build will eventually be operated by their opponents. Options (a), (c), and (d) are either inaccurate or weak forms of the argument, and a steel-manned critique always takes the strongest form."
+    concepts: [conservatism, classical-liberalism, national-conservatism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Yoram Hazony's Conservatism: A Rediscovery (2022) argues primarily that…"
+    choices:
+      - id: a
+        text: "free markets are the historical core of the Anglo-American conservative tradition."
+      - id: b
+        text: "the Anglo-American conservative tradition is nationalist and religious, and postwar fusionism mistook one historical phase for conservatism itself."
+      - id: c
+        text: "conservatives should withdraw from national politics and rebuild local community life."
+      - id: d
+        text: "liberal proceduralism remains the best available framework for resolving cultural disagreement."
+    correct_choice_id: b
+    explanation: "Hazony's book is the foundational national-conservative text: it recovers an older nationalist and religious conservative tradition and argues the post-WWII fusionist settlement was one contingent phase, not conservatism as such. Option (a) is closer to the fusionist economism he rejects; (c) is the traditionalist/localist posture of Dreher or the Front Porch Republic; (d) is the classical-liberal position of Will's The Conservative Sensibility — the very view Hazony writes against."
+    concepts: [conservatism, national-conservatism]
+
+  - id: q5
+    kind: free-response
+    text: "The fusionist synthesis is often described as philosophically unstable but politically effective. Choose one of the three streams — traditionalist, classical liberal, or national conservative — and make its best case for setting the direction of American conservatism over the next decade. Then state the strongest single objection one of the other streams would raise against your choice."
+    socratic_seed: "Strong answers argue from circumstances, not just principles. A traditionalist case: institutional decay is the deepest problem, the state cannot fix it, and both rivals overinvest in national politics. A classical-liberal case: prosperity and constitutional constraint are the tradition's proven achievements, and abandoning them for state-directed economics surrenders the movement's distinct contribution. A national-conservative case: the working-class coalition is the only available majority, and pre-2016 orthodoxy demonstrably failed it. The objection should be the strongest available — e.g., against the national conservative: the machinery you build will be inherited by your opponents; against the classical liberal: your framework cannot even see the losses that produced the populist revolt; against the traditionalist: while you rebuild one parish, the state educates everyone's children."
+    concepts: [conservatism, traditionalism, classical-liberalism, national-conservatism]

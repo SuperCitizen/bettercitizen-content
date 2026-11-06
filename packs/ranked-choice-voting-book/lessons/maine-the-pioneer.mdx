@@ -1,0 +1,144 @@
+---
+schema: bettercitizen.lesson/v1
+slug: maine-the-pioneer
+kind: reading
+title: "Maine: The Pioneer"
+objectives:
+  - Explain the plurality-winner pattern that drove Maine to adopt ranked choice voting
+  - Trace the 2016–2018 fight — initiative, advisory opinion, legislative delay, people's veto
+  - Describe the 2018 second-district election and the federal court ruling that upheld it
+  - State exactly where Maine's constitution still limits RCV, as reaffirmed in 2026
+concepts:
+  - ranked-choice-voting
+  - ballot-initiative
+  - plurality
+  - referendum
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Rank the Vote* (2026), "Maine: The Pioneer"'
+  - type: pdf
+    citation: 'League of Women Voters of Maine, "Maine Gubernatorial Races 1974–2014" — nine of eleven races won without a majority; five winners below 40%.'
+    url: https://www.lwvme.org/sites/default/files/pdfs/RCV_Maine_Gubernatorial.pdf
+  - type: website
+    citation: 'Ballotpedia, "Maine Question 5, Ranked-Choice Voting Initiative (2016)" — approved 388,273 (52.12%) to 356,621 (47.88%) on November 8, 2016.'
+    url: https://ballotpedia.org/Maine_Ranked_Choice_Voting_Initiative,_Question_5_(2016)
+  - type: court-opinion
+    citation: 'Opinion of the Justices, 2017 ME 100 (May 23, 2017) — RCV conflicts with the Maine Constitution''s plurality clauses (art. IV, pt. 1, §5; art. IV, pt. 2, §4; art. V, pt. 1, §3) for general elections to the State House, State Senate, and governorship only.'
+    url: https://legislature.maine.gov/doc/1739
+  - type: website
+    citation: 'Ballotpedia, "Maine Question 1, Ranked-Choice Voting Delayed Enactment and Automatic Repeal Referendum (June 2018)" — the people''s veto, approved with about 54% of the vote.'
+    url: https://ballotpedia.org/Maine_Question_1,_Ranked-Choice_Voting_Delayed_Enactment_and_Automatic_Repeal_Referendum_(June_2018)
+  - type: website
+    citation: 'Ballotpedia, "Maine''s 2nd Congressional District election, 2018" — round 1: Poliquin 134,184 (46.33%), Golden 132,013 (45.58%); final round: Golden 142,440 (50.62%), Poliquin 138,931 (49.38%).'
+    url: https://ballotpedia.org/Maine%27s_2nd_Congressional_District_election,_2018
+  - type: crs-report
+    citation: 'Congressional Research Service, "Ranked-Choice Voting: Legal Challenges and Considerations for Congress" (LSB10837) — including Baber v. Dunlap, 376 F. Supp. 3d 108 (D. Me. 2018), rejecting constitutional and VRA challenges to Maine''s 2018 RCV count.'
+    url: https://www.congress.gov/crs-product/LSB10837
+  - type: website
+    citation: 'Maine Secretary of State, "Ranked-Choice Voting Frequently Asked Questions" — where RCV applies in Maine: state and federal primaries, general elections for U.S. Senate and U.S. House, and presidential elections.'
+    url: https://www.maine.gov/sos/elections-voting/ranked-choice-voting-frequently-asked-questions
+  - type: court-opinion
+    citation: 'Opinion of the Justices, 2026 ME 32 (Apr. 6, 2026) — advising that L.D. 1666''s extension of RCV to general elections for state offices would violate the constitution''s plurality provisions.'
+    url: https://www.courts.maine.gov/courts/sjc/lawcourt/2026/26me032.pdf
+  - type: website
+    citation: 'Maine Public, "Maine Supreme Court says proposed ranked-choice voting expansion is unconstitutional" (Apr. 6, 2026).'
+    url: https://www.mainepublic.org/politics/2026-04-06/maine-supreme-court-says-proposed-ranked-choice-voting-expansion-is-unconstitutional
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 11
+---
+
+# Maine: The Pioneer
+
+On election night in November 2010, Maine elected a governor with 37.6 percent of the vote. Paul LePage finished 9,795 votes ahead of independent Eliot Cutler — 218,065 to 208,270 — while Democrat Libby Mitchell took 18.8 percent and two more independents split the remainder. More than three of every five Maine voters had marked someone else. It wasn't an upset, and it wasn't a fluke. It was the system Maine had been living under for decades, finally producing a result polarizing enough that people stopped shrugging at it.
+
+Alaska, the previous chapter, was the first state to run its *entire* general election on ranked ballots. But Alaska was not first to adopt them. That distinction belongs to Maine — which got there six years earlier, the hard way: a citizen initiative, a constitutional ambush, a legislative betrayal, a winter signature drive, a people's veto, a federal lawsuit, and a court fight that is still going in 2026. If Alaska is the proof of concept, Maine is the proof of persistence.
+
+## The governor problem
+
+LePage was the catalyst, but the pattern was older than him. From 1974 through 2014, Maine held eleven races for governor; in nine of them, the winner failed to reach a majority, and in five the winner didn't reach 40 percent. James Longley won with 39.7 percent in 1974; Angus King with 35.4 in 1994; John Baldacci with 38.1 in 2006. Maine's healthy independent streak — the state elects unaffiliated governors and senators with regularity — collided with a [[term:plurality]] rule built for two-candidate races, and the collision produced governor after governor a majority had voted against.
+
+<Figure caption="Maine's 2010 race for governor. The dashed line marks a majority of the 580,538 votes cast — no one came close. Under pick-one rules, the largest fragment takes the Blaine House." source="League of Women Voters of Maine; official 2010 results">
+  <DataBars
+    unit="votes"
+    max={300000}
+    marker={{value: 290270, label: 'Majority of votes cast'}}
+    bars={[
+      {label: 'LePage (R) — 37.6%', value: 218065, color: 'accent'},
+      {label: 'Cutler (I) — 35.9%', value: 208270, color: 'blue'},
+      {label: 'Mitchell (D) — 18.8%', value: 109387, color: 'gold'},
+      {label: 'Moody (I) — 5.0%', value: 28756, color: 'ink'},
+      {label: 'Scott (I) — 1.0%', value: 5664, color: 'ink'},
+    ]}
+  />
+</Figure>
+
+Read that figure the way a Cutler voter did in 2014, when LePage stood for reelection against Democrat Mike Michaud, with Cutler running again: vote your conscience and risk reelecting the governor you opposed, or abandon your favorite and vote your fears. LePage won again with 48.2 percent — a stronger showing, still not a majority. I'm not interested in relitigating LePage, who governed exactly as 37.6 percent of the state hoped he would. I'm interested in the question his elections forced: why does Maine's ballot keep making Maine's voters choose between honesty and effectiveness?
+
+## Question 5
+
+The answer came from outside the political establishment — a volunteer coalition led by the League of Women Voters of Maine and what became the Committee for Ranked Choice Voting, which gathered signatures town by town to put the question directly to voters. On November 8, 2016, Question 5 passed, 388,273 votes to 356,621 — 52.12 percent. Maine had become the first state in American history to adopt [[term:ranked-choice-voting]] for its primaries, its legislature, its governor, and its congressional delegation.
+
+Fifty-two percent is not a landslide, and I won't dress it up as one — reform never wins in landslides, because it asks voters to bet on something they haven't seen. What matters is what happened over the next nineteen months, when nearly every institution in the state tried to take the win back.
+
+## The constitution bites back
+
+Maine's constitution contains a trap laid in the nineteenth century. After a string of contested races, the state amended its constitution to elect governors — and later legislators — "by a plurality of all votes returned." Those clauses (article IV, part 1, section 5; article IV, part 2, section 4; article V, part 1, section 3) were written to *end* majority requirements, which in the 1800s had thrown deadlocked elections into the legislature. A century and a half later, they became the weapon against the majority's return.
+
+In February 2017, the State Senate asked the Supreme Judicial Court for an advisory opinion, and on May 23, 2017, the justices answered unanimously: ranked-choice voting conflicts with the plurality clauses — but only where those clauses reach. That scope is the part everyone gets wrong, so let me be exact. The opinion covered **general elections for three offices: governor, state senator, and state representative.** Primaries are not mentioned in those clauses. Federal offices — U.S. House and U.S. Senate — are governed by the U.S. Constitution, not Maine's plurality language. So the law remained fully constitutional for primaries and for congressional general elections. An advisory opinion binds no one; but it told the legislature exactly where the law stood.
+
+What the legislature did next is why this chapter is called what it's called. In an October 2017 special session, rather than fix the constitutional conflict or implement the rest, lawmakers passed a delayed-enactment bill: ranked-choice voting would be suspended until December 2021 and then *automatically repealed in its entirety* unless a constitutional amendment passed by then — an amendment requiring two-thirds of both chambers, which everyone understood would never come. The politicians had found a way to repeal a citizen initiative without ever casting a vote labeled "repeal."
+
+Maine's constitution offered the voters one tool: the people's veto, a [[term:referendum]] to strike down an act of the legislature. It required more than 61,000 valid signatures in roughly ninety days — a Maine winter's worth of clipboards outside hockey rinks and grocery stores. The campaign delivered over 66,000 valid signatures, and on June 12, 2018, Question 1 passed with about 54 percent: the delayed repeal was itself repealed. Note the score: the voters had now approved ranked-choice voting **twice in nineteen months**, the second time specifically to overrule their own legislature. And the timing carried its own poetry — on the very same June ballot, Maine ran the first statewide ranked-choice elections in American history. In the seven-way Democratic primary for governor, Janet Mills won the final round with 54.1 percent over Adam Cote. The sky did not fall. Mills went on to win the Blaine House that fall.
+
+<Checkpoint question="After June 2018, a Mainer votes in (a) a gubernatorial primary, (b) the November election for governor, and (c) the November election for U.S. Senate. Which of these is counted by ranked ballot, and what single sentence explains the pattern?">
+  (a) and (c) are ranked; (b) is not. The pattern: ranked-choice voting applies everywhere except where the Maine Constitution's "plurality" clauses reach — general elections for governor and the state legislature. Primaries fall outside those clauses, and federal offices are governed by the U.S. Constitution. The line isn't a policy judgment about which races "deserve" RCV; it's the exact boundary of three sentences written in the nineteenth century.
+</Checkpoint>
+
+## November 2018: the race that proved it
+
+The first ranked-choice congressional election in American history arrived five months later, in Maine's sprawling second district, and it could not have been scripted better — or uglier. Incumbent Republican Bruce Poliquin led Democrat Jared Golden on first choices but fell short of a majority, with two independents holding the balance:
+
+| Count | Poliquin (R) | Golden (D) | Bond (I) | Hoar (I) |
+| --- | --- | --- | --- | --- |
+| First choices | 134,184 (46.33%) | 132,013 (45.58%) | 16,552 (5.71%) | 6,875 (2.37%) |
+| Final round | 138,931 (49.38%) | 142,440 (50.62%) | — | — |
+
+When Bond and Hoar were eliminated, their voters' backup rankings broke roughly two-to-one for Golden, who won the final count by 3,509 votes. Roughly eight thousand ballots ranked neither finalist and exhausted. Poliquin had led the first count and lost the election — legitimately, by the counting rule Maine's voters had twice enacted, because more voters preferred Golden to him than the reverse.
+
+Poliquin sued in federal court mid-count, arguing ranked-choice voting violated Article I of the Constitution, equal protection, due process, the First Amendment, and the Voting Rights Act. In *Baber v. Dunlap* (D. Me. 2018), Judge Lance Walker — a Trump appointee, for whatever that's worth — rejected every claim, declining to enjoin the count and then ruling against the suit on the merits in December: ranked ballots treat every voter alike, and one person, one vote is not offended when each ballot counts once per round for one candidate. Poliquin sought a recount, then abandoned it. Golden took the seat.
+
+<QuickCheck
+  question="Poliquin led round one by 2,171 votes and lost the final round by 3,509. What had to be true for that to happen?"
+  choices={[
+    {id: 'a', text: "Election officials reassigned Republican ballots to Golden during tabulation"},
+    {id: 'b', text: "Golden's lead came from voters whose ballots were counted twice"},
+    {id: 'c', text: 'Among Bond and Hoar voters who ranked a finalist, substantially more ranked Golden above Poliquin'},
+    {id: 'd', text: 'A majority of second-district voters listed Golden as their first choice'},
+  ]}
+  answer="c"
+  explanation="The only votes that moved were Bond's and Hoar's voters' ballots, each moving to that voter's own next choice — and they broke for Golden by enough to erase a 2,171-vote deficit and create a 3,509-vote lead. (a) and (b) are the conspiracy and double-counting myths Baber v. Dunlap rejected: every ballot counts once per round. (d) is false — Golden had 45.58% of first choices; his majority was assembled in the final round, which is precisely what the method is for."
+/>
+
+## 2020: the presidential first
+
+In 2019 the legislature extended ranked-choice voting to presidential elections, and in November 2020 Maine became the first state ever to elect presidential electors by ranked ballot. Here's the honest postscript: no 2020 Maine race needed a second round — Joe Biden cleared a majority statewide, Donald Trump cleared one in the second district, and Susan Collins won her Senate race outright on first choices. Opponents called that proof the system was pointless; I'd call it proof of what the system actually is. Ranked-choice voting is an insurance policy: when a candidate wins a true majority, it changes nothing at all. It speaks only when the field fractures — which in Maine, history says, is about every other election.
+
+<Timeline title="Maine's nineteen-month war — and the long tail" events={[
+  {date: 'Nov 2016', title: 'Question 5 passes', detail: 'Maine becomes the first state to adopt ranked-choice voting, 52.12% to 47.88% — 388,273 votes to 356,621.'},
+  {date: 'May 2017', title: 'The advisory opinion', detail: 'The Supreme Judicial Court unanimously advises that the constitution’s "plurality" clauses bar RCV in general elections for governor and the legislature — and only there. Primaries and federal races are untouched.'},
+  {date: 'Oct 2017', title: 'The legislature stalls it', detail: 'A special-session bill delays RCV to December 2021, then repeals it automatically unless a constitutional amendment passes — a repeal dressed as a postponement.'},
+  {date: 'Jun 2018', title: 'The people’s veto', detail: 'Question 1 passes with about 54%, overriding the legislature. The same day, Maine runs the first statewide ranked-choice elections in U.S. history; Janet Mills wins the 7-way Democratic primary with 54.1% in the final round.'},
+  {date: 'Nov 2018', title: 'Golden defeats Poliquin', detail: 'The first RCV congressional race: Poliquin leads round one 46.33% to 45.58%, Golden wins the final round 50.62% to 49.38%. Baber v. Dunlap rejects the constitutional challenge.'},
+  {date: 'Sep 2019', title: 'Presidential expansion', detail: 'The legislature extends ranked ballots to presidential primaries and general elections.'},
+  {date: 'Nov 2020', title: 'A presidential first', detail: 'Maine becomes the first state to elect presidential electors by ranked ballot. No race requires a second round.'},
+  {date: 'Apr 2026', title: 'The ceiling holds', detail: 'Asked about L.D. 1666, the justices advise (2026 ME 32) that extending RCV to general elections for state offices still violates the plurality clauses. The amendment fight continues.'},
+]} />
+
+## Still unfinished
+
+This story has no tidy ending, because it's still being written. In 2026, reform legislators tried again: L.D. 1666 would have extended ranked-choice voting to general elections for governor and the legislature by redefining the count so that "plurality" is measured at the final round. The Supreme Judicial Court heard arguments on April 2, 2026, and on April 6 advised that there are strong and convincing reasons the bill would be unconstitutional — the plurality clauses mean the count town clerks return, not the count after transfers. The justices have now said the same thing twice, nine years apart, and they are probably right about the text. The fix is the one available since 2017: a constitutional amendment, which requires two-thirds of each chamber plus a majority of voters. Maine's voters have already shown they'll supply their half. The supermajority in Augusta is the wall.
+
+So here is what Maine settles, and what it doesn't. It settles that a state can adopt ranked-choice voting by [[term:ballot-initiative]], defend it against its own political class, run it in primaries, congressional races, and presidential elections for eight years, and watch it operate without confusion or crisis — Mills, Golden, Collins, Biden, and Trump all won under it. It settles that voters who use the system keep choosing it: 2016, then again, harder, in 2018. What it doesn't settle: whether ranked ballots can reach the governor's race that started it all — that answer is written in a nineteenth-century clause, awaiting a twenty-first-century amendment — and whether any of this changes how campaigns behave and how voters feel. For that, the laboratories are the cities, and they've been running the experiment for twenty years. Next stop: San Francisco, Minneapolis, and a very loud Tuesday in New York.

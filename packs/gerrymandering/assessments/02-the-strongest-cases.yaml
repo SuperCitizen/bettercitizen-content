@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The partisan-realist's strongest historical exhibit is that gerrymandering predates its own name. Which episode makes that point?"
+    choices:
+      - id: a
+        text: "Elbridge Gerry's 1812 Massachusetts senate map"
+      - id: b
+        text: "Patrick Henry's allies drawing James Madison's 1788 congressional district to force him to face James Monroe"
+      - id: c
+        text: "Texas's 2003 mid-decade redistricting under Tom DeLay"
+      - id: d
+        text: "Connecticut's 1973 'political fairness' map in Gaffney v. Cummings"
+    correct_choice_id: b
+    explanation: "The 1788 Virginia episode — district lines drawn against the future author of the Bill of Rights, who had to out-campaign them — is older than the 1812 map that named the practice. The realist uses it to argue that districting has been political since before the First Congress, so 'take the politics out' misdescribes what the activity has ever been. Gerry's map (a) supplied the word; (c) and (d) are much later data points."
+    concepts: [gerrymandering]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Reform advocates were embarrassed when California's voters used Proposition 50 (Nov. 2025) to suspend their own independent commission's map. What feature of Prop 50 do reformers cite to distinguish it from the Texas redraw it answered?"
+    choices:
+      - id: a
+        text: "It was drawn by a court rather than by politicians."
+      - id: b
+        text: "It produced no partisan advantage for either party."
+      - id: c
+        text: "It was approved directly by voters, as a temporary override that returns mapmaking to the commission after the 2030 census."
+      - id: d
+        text: "It only affected state legislative districts, not congressional ones."
+    correct_choice_id: c
+    explanation: "Prop 50 was a 64.4%–35.6% statewide vote for a legislature-drawn map that expires with the next census, while Texas's 2025 map was enacted by the legislature alone, indefinitely. Reformers lean on consent and sunset; realists answer that a gerrymander ratified by referendum is still a gerrymander — voters in the targeted districts elsewhere never consented. Knowing both moves is the point of the steel-man exercise."
+    concepts: [gerrymandering, redistricting]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which empirical finding, if firmly established, would do the most damage to the reform-advocate case for independent commissions?"
+    choices:
+      - id: a
+        text: "Commission states' maps turn out statistically indistinguishable from legislature states' maps once political geography is controlled for."
+      - id: b
+        text: "Voters in commission states report lower trust in elections."
+      - id: c
+        text: "Commission-drawn districts are less compact than legislature-drawn ones."
+      - id: d
+        text: "Most commission states adopted their commissions by ballot initiative."
+    correct_choice_id: a
+    explanation: "The reform case is instrumental: change who holds the pen and you change what gets drawn. If outcomes didn't differ once geography is held constant, the procedural fix would be empty — which is why the lesson states this as the reform position's falsifier. Compactness (c) is cosmetic; (d) is how the reform happened, not whether it works."
+    concepts: [redistricting]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Utah's saga — voters pass anti-gerrymandering Proposition 4, the legislature repeals it and draws its own map, state courts revive the initiative and impose a remedial map for 2026 — is claimed as a win by multiple perspectives. Which reading belongs to the FEDERALIST?"
+    choices:
+      - id: a
+        text: "Neutral criteria adopted by voters ultimately bound the politicians."
+      - id: b
+        text: "The correction ran entirely through state institutions — initiative, state constitution, state courts — with no federal judge needed, exactly as the constitutional design intends."
+      - id: c
+        text: "The 'neutral' map's practical effect was a new Democratic-leaning seat, so politics was relocated, not removed."
+      - id: d
+        text: "The episode shows only Congress can solve redistricting, because state remedies are too slow."
+    correct_choice_id: b
+    explanation: "The federalist's claim is about WHERE the correction happened: inside the state's own constitutional machinery, vindicating the view that Article I, §4 leaves districting to state politics checked by state law. Reading (a) is the reformer's, (c) is the realist's, and (d) is the opposite of the federalist position. One episode, three lessons — which is why the perspectives are genuinely contested rather than one being simply right."
+    concepts: [redistricting, gerrymandering]
+
+  - id: q5
+    kind: free-response
+    text: "Pick the perspective you find most persuasive — reform advocate, partisan realist, or federalist. State its core claim in one sentence, then identify the single episode from the 2025–26 mid-decade war that is HARDEST for your chosen perspective to explain, and say how its smartest adherent would answer."
+    socratic_seed: "Reformers must explain California suspending its own commission (their answer: collective-action problem, hence a federal standard). Realists must explain Indiana's senate refusing a costless partisan gain 31–19 (their answer: backlash is also politics — but then 'maps follow power' needs an asterisk). Federalists must explain Texans' map being answered by Californians (their answer: Congress's §4 power exists — but it goes unused). A position that can't survive its hardest case isn't yet a position."
+    concepts: [gerrymandering, redistricting]

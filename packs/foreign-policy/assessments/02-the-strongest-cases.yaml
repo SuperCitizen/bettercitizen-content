@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The three schools read the same history and disagree about its meaning. Which of the following do all three accept as fact?"
+    choices:
+      - id: a
+        text: "There has been no war between great powers since 1945 — the longest such stretch in modern history."
+      - id: b
+        text: "The U.S.-led order of alliances and institutions is what caused the long peace."
+      - id: c
+        text: "Nuclear deterrence, not American engagement, kept the peace."
+      - id: d
+        text: "Alliances systematically cause allies to under-invest in their own defense."
+    correct_choice_id: a
+    explanation: "The fact of the Long Peace — Gaddis's term — is shared ground; the fight is over its cause. (b) is the liberal internationalist's causal inference and (c) the restrainer's: both are readings of the same unrepeatable n-of-1 history, which is why the dispute is so durable. (d) is the restrainer's moral-hazard thesis, which internationalists contest by pointing to the Hague pledge as evidence allies can be moved. Separating shared facts from contested inference is the first discipline this debate demands."
+    concepts: [foreign-policy, hegemony, deterrence]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A columnist writes that restrainers 'want America to retreat behind its oceans and let the world burn.' What does the restraint school, per Posen and Walt, actually propose?"
+    choices:
+      - id: a
+        text: "Ending alliances, trade agreements, and diplomatic engagement alike — genuine disengagement from the world."
+      - id: b
+        text: "Defending genuinely vital interests — the homeland, command of the commons, key balances of power — while shedding secondary commitments, alongside vigorous trade and diplomacy."
+      - id: c
+        text: "Shifting all forces from Europe and the Middle East to Asia to concentrate on China."
+      - id: d
+        text: "Keeping every commitment but requiring allies to reimburse the United States for protection."
+    correct_choice_id: b
+    explanation: "Restraint is not isolationism — the school's most-repeated clarification. Posen's program keeps offshore naval power and the Japan alliance as hedges and treats trade and diplomacy as the preferred instruments; what it cuts is the claim that every region is vital. (c) is the near-miss: that is the conservative realist's reallocation, which keeps overall power concentrated rather than reduced. (d) repeats the 'dues' misconception — burden-sharing is about allies investing in their own defense, not paying America."
+    concepts: [foreign-policy, restraint, isolationism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A 2029 white paper proposes: withdraw ground forces from Europe and the Middle East, keep naval power offshore, retain the Japan alliance as a hedge, expand trade diplomacy everywhere — and cut defense spending toward 2.5 percent of GDP. Whose program is this?"
+    choices:
+      - id: a
+        text: "The restrainer's — retrenchment from secondary commitments plus offshore hedges, with the spending cut as the tell."
+      - id: b
+        text: "The conservative realist's — withdrawal from secondary theaters is the realist signature."
+      - id: c
+        text: "The liberal internationalist's — offshore posture preserves the order at lower cost."
+      - id: d
+        text: "An isolationist's — any withdrawal of ground forces qualifies."
+    correct_choice_id: a
+    explanation: "The budget number gives it away: 2.5 percent of GDP is Posen's figure, and an overall reduction in the size of the enterprise is restraint's goal. The realist (b) is the designed near-miss — a realist also leaves secondary theaters, but to concentrate resources on the Indo-Pacific, which means spending stays high or rises; this paper cuts it. The retained Japan alliance, offshore navy, and expanded trade diplomacy rule out (d): that is engagement by cheaper means, not withdrawal from the world."
+    concepts: [foreign-policy, restraint, realism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Each school names evidence that would count against it. Which development would most directly undermine the liberal internationalist case on its own stated terms?"
+    choices:
+      - id: a
+        text: "Allies persistently consuming security without producing it, while the order's maintenance costs swamp its economic dividend."
+      - id: b
+        text: "A rising challenger growing wealthy inside the order's institutions."
+      - id: c
+        text: "The United States spending more on defense than the next several countries combined."
+      - id: d
+        text: "Two autocracies going to war with each other."
+    correct_choice_id: a
+    explanation: "Free-riding allies, captured institutions, and costs exceeding the dividend are the falsifiers internationalists themselves name — which is why they treat the Hague 5-percent pledge as a live test of their model rather than a footnote. (b) is closer to confirmation than refutation in Ikenberry's framework: an order easy to join and hard to overturn is supposed to enrich its members. (c) is a fact all three schools accept, and (d) says nothing about the democratic-peace claim, which concerns pairs of democracies."
+    concepts: [foreign-policy, liberal-internationalism, hegemony]
+
+  - id: q5
+    kind: free-response
+    text: "Choose the school you find least persuasive. State its strongest claim in terms its own advocates would accept, then name one piece of real-world evidence from the past five years that should make you take that school more seriously."
+    socratic_seed: "First test the steel-man: would an advocate sign it? Watch for the classic strawmen — restraint rendered as isolationism, internationalism as endless war, realism as cynicism without strategy. Then press on the evidence: if they picked internationalism, raise Finland and Sweden abandoning two centuries of neutrality to join NATO — a 'market signal' from the states with the best view of Russia. If restraint, raise the Costs of War ledger (roughly $8 trillion, 900,000-plus direct deaths) and the pre-2022 free-riding record. If realism, raise the 155mm artillery-shell scramble as evidence about the industrial base a Pacific war would demand. Push them to classify each disagreement as empirical (evidence could settle it) or values-based (it cannot), and close by asking what evidence would move them back to their original view."
+    concepts: [foreign-policy, restraint, realism, liberal-internationalism]

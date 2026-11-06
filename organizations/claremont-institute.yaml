@@ -1,0 +1,19 @@
+slug: claremont-institute
+name: Claremont Institute
+kind: think-tank
+description: "Conservative institute in California, founded in 1979, devoted to recovering the political philosophy of the American founding. Publishes the Claremont Review of Books, runs fellowships for rising conservatives, and files constitutional litigation through its Center for Constitutional Jurisprudence. Despite the name, it is not affiliated with the Claremont Colleges."
+website: https://www.claremont.org
+jurisdiction: national
+partisan_lean: right
+ideology_tags:
+  - american-conservatism
+  - right-populism
+influence_channels:
+  - public-education
+  - amicus-briefs
+  - training-staffers
+  - policy-research
+concept_tags:
+  - think-tank
+  - originalism
+is_active: true

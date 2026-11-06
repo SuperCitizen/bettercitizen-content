@@ -1,0 +1,11 @@
+slug: georgetown-university
+name: Georgetown University
+kind: university
+subtype: private-university
+description: "Private Jesuit research university in Washington, D.C., founded in 1789 — the oldest Catholic university in the United States. Its location and Walsh School of Foreign Service make it a major pipeline into government; the Center for Security and Emerging Technology is its most prominent policy research center."
+website: https://www.georgetown.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

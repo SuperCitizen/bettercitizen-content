@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Lessig's 'dependence corruption' argument is often misread. Which statement captures it correctly?"
+    choices:
+      - id: a
+        text: "Most members of Congress are taking bribes that prosecutors simply cannot prove."
+      - id: b
+        text: "Even with bribery rare, a Congress dependent on funders, lobbyist-supplied expertise, and future influence-industry careers is corrupt as a system, because the Framers designed it to be dependent 'on the people alone.'"
+      - id: c
+        text: "Corruption only occurs when a specific official trades a specific act for a specific payment."
+      - id: d
+        text: "Disclosure rules themselves corrupt Congress by teaching members where the money is."
+    correct_choice_id: b
+    explanation: "Lessig's move in Republic, Lost is to relocate corruption from the individual transaction to the institution's web of dependencies. He concedes quid-pro-quo bribery is rare — that's choice (c)'s definition, which he argues is too narrow. The restriction-first camp builds on this: if the corruption is structural, disclosure (which polices transactions) cannot reach it; only changing the dependencies — revolving-door bans, lobbyist money bans — can."
+    concepts: [lobbying, revolving-door]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Hall & Deardorff's 'Lobbying as Legislative Subsidy' (2006) is claimed by all three reform camps. Which pairing correctly matches camp to reading?"
+    choices:
+      - id: a
+        text: "Restriction-first: the subsidy is a dependency mechanism. Transparency-only: the subsidy is valuable information transfer. Structural-reform: the subsidy fills a vacuum Congress created by gutting its own staff capacity."
+      - id: b
+        text: "All three camps read the paper as proof that lobbyists bribe legislators with research instead of cash."
+      - id: c
+        text: "Restriction-first: the subsidy shows lobbying is harmless. Transparency-only: the subsidy must be banned. Structural-reform: the paper is irrelevant to institutions."
+      - id: d
+        text: "The paper supports only the transparency-only camp, which is why the others ignore it."
+    correct_choice_id: a
+    explanation: "The subsidy model — lobbyists give allied legislators free research, draft text, and analysis, expanding what allies can do — is the shared text with three morals. Restrictionists see manufactured dependence; transparency advocates see genuine informational value that restrictions would destroy; structuralists see the symptom of Congress's self-inflicted capacity collapse (OTA abolished in 1995, staff eroded), fixable by rebuilding in-house expertise. Knowing which fact each camp treats as load-bearing is the heart of this lesson."
+    concepts: [lobbying]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A reform coalition proposes: (1) closing the LDA's 20% registration loophole, (2) a lifetime lobbying ban for former members of Congress, and (3) restoring the Office of Technology Assessment. Which proposal faces the most serious First Amendment exposure, and why?"
+    choices:
+      - id: a
+        text: "Proposal 1 — disclosure mandates were struck down in United States v. Harriss."
+      - id: b
+        text: "Proposal 3 — government-funded expertise competes with private speech."
+      - id: c
+        text: "Proposal 2 — it permanently prohibits a class of citizens from petitioning activity, while disclosure (upheld in Harriss) and capacity-building (restricting no one) face little exposure."
+      - id: d
+        text: "All three equally — any lobbying regulation triggers strict scrutiny."
+    correct_choice_id: c
+    explanation: "Harriss upheld disclosure (it struck nothing — it narrowed the 1946 act to save it), so proposal 1 is the consensus shelf. Capacity-building restricts no one's speech. A lifetime ban, though, forbids petitioning-for-hire forever for former members — the restriction-first camp argues the anti-corruption interest justifies it; the transparency-only camp considers it plainly overbroad under the Buckley line. Mapping reforms to their constitutional exposure is what separates a position from a slogan."
+    concepts: [lobbying, first-amendment]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Business outspends labor and public-interest groups on lobbying by roughly 34:1 (Drutman), yet Baumgartner et al. found the wealthier side wins only slightly more often. The structural-reform centrist's distinctive inference is:"
+    choices:
+      - id: a
+        text: "The asymmetry is harmless, so no reform is needed."
+      - id: b
+        text: "The asymmetry must be attacked directly by capping business lobbying expenditures."
+      - id: c
+        text: "The status-quo bias and the asymmetry both reflect institutional weakness — so rebuild congressional capacity and subsidize the organization of diffuse interests rather than restricting anyone's lobbying."
+      - id: d
+        text: "Outcomes would equalize if disclosure reports were filed monthly instead of quarterly."
+    correct_choice_id: c
+    explanation: "The centrist accepts both findings and targets neither speech nor spending: if lobbyists dominate because Congress defunded its own expertise (OTA, staff) and because Olsonian diffuse interests can't self-organize, then the remedies are capacity (staff, research agencies) and demand-side organization subsidies (public financing, matching funds, vouchers) — all of which survive Buckley untouched. Choice (b) is the restriction-first instinct; choice (a) is the strawman version of transparency-only."
+    concepts: [lobbying]
+
+  - id: q5
+    kind: free-response
+    text: "Pick the camp you find least persuasive — restriction-first, transparency-only, or structural-reform — and write its strongest two-sentence case, then name the single piece of evidence that would most move you toward it."
+    socratic_seed: "A strong answer steel-mans rather than caricatures. Restriction-first at its best: dependence corruption operates through career incentives while members still hold office, and no disclosure regime polices what officials do to stay employable. Transparency-only at its best: paid petitioning is constitutionally protected, the Baumgartner evidence shows the harm is overstated, and restriction regimes historically entrench incumbents. Structural-reform at its best: the lobbying asymmetry is downstream of capacity asymmetry, and rebuilding congressional expertise plus public financing addresses causes rather than symptoms without constitutional risk. Evidence that would move someone: e.g., a natural experiment showing cooling-off extensions changed sitting members' votes (toward restriction-first); evidence voters punish disclosed conflicts (toward transparency-only); staff-capacity expansions measurably reducing lobbyist-drafted bill text (toward structural-reform)."
+    concepts: [lobbying, first-amendment]

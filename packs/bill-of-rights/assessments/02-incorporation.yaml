@@ -1,0 +1,147 @@
+schema: bettercitizen.assessment/v1
+lesson: incorporation
+questions:
+  - id: q1-slaughterhouse
+    kind: multiple-choice
+    text: "The Fourteenth Amendment's framers said openly that it would make
+      states respect the Bill of Rights. Why didn't that happen in 1868?"
+    choices:
+      - id: a
+        text: The amendment was never properly ratified by three-fourths of the
+          states, so courts treated it as advisory
+      - id: b
+        text: The Slaughter-House Cases (1873) read the Privileges or Immunities
+          Clause to protect only a thin set of national-citizenship rights,
+          neutralizing the clause best suited to carry the Bill of Rights to
+          the states
+      - id: c
+        text: The Supreme Court held in Barron v. Baltimore that the Fourteenth
+          Amendment applied only to the federal government
+      - id: d
+        text: Congress repealed the amendment's enforcement provisions during
+          Reconstruction
+    correct_choice_id: b
+    explanation: Slaughter-House (1873) is the hinge. Five years after
+      ratification, the Court confined "privileges or immunities of citizens
+      of the United States" to rights like access to federal ports and
+      offices — rights nobody needed a constitutional amendment to secure.
+      Choice (c) garbles the chronology — Barron (1833) predates the
+      Fourteenth Amendment and concerned the original Bill of Rights.
+      Incorporation eventually happened anyway, but it had to travel through
+      the Due Process Clause, one right at a time, starting in 1925.
+    concepts:
+      - incorporation-doctrine
+      - civil-war-amendments
+      - due-process
+  - id: q2-selective-test
+    kind: multiple-choice
+    text: "Under selective incorporation as practiced since Duncan v. Louisiana
+      (1968), a Bill of Rights guarantee binds the states if it is:"
+    choices:
+      - id: a
+        text: Essential to any imaginable civilized system of justice, including
+          those without juries
+      - id: b
+        text: Fundamental to the American scheme of justice — and once it crosses,
+          it applies to the states with the same force as against the federal
+          government
+      - id: c
+        text: Approved for state application by an act of Congress under Section 5
+          of the Fourteenth Amendment
+      - id: d
+        text: Listed among the first eight amendments — all of which were absorbed
+          together in 1868
+    correct_choice_id: b
+    explanation: Duncan reframed Cardozo's Palko question. Palko (1937) had
+      asked whether a right was essential to any "scheme of ordered liberty" —
+      a test double jeopardy flunked, since civil-law systems function without
+      it (choice a). Duncan asks instead about the system Americans actually
+      inherited, and adds the "jot-for-jot" rule — no watered-down state
+      versions. Choice (d) is Justice Black's total incorporation, which never
+      commanded a majority; choice (c) confuses judicial incorporation with
+      congressional enforcement power.
+    concepts:
+      - incorporation-doctrine
+      - due-process
+  - id: q3-timing-transfer
+    kind: multiple-choice
+    text: "A state defendant too poor to hire a lawyer is convicted of a felony
+      without appointed counsel and appeals on Sixth Amendment grounds — once
+      in 1950, once in 1970. What results, and why?"
+    choices:
+      - id: a
+        text: Both claims win — the Sixth Amendment has guaranteed appointed counsel
+          in all felony cases since 1791
+      - id: b
+        text: Both claims lose — the right to appointed counsel has never been
+          incorporated against the states
+      - id: c
+        text: The 1950 claim loses but the 1970 claim wins — Gideon v. Wainwright
+          (1963) incorporated the right to appointed counsel in the interim
+      - id: d
+        text: The 1950 claim wins but the 1970 claim loses — the Burger Court
+          de-incorporated several Warren Court precedents
+    correct_choice_id: c
+    explanation: Incorporation gives constitutional rights a timeline as well
+      as a text. Before Gideon (1963), states could deny appointed counsel in
+      ordinary felony cases as a matter of federal constitutional law; after
+      Gideon, they cannot. Choice (a) misses both Barron (the Bill of Rights
+      didn't bind states at all before the Fourteenth Amendment) and the
+      case-by-case pace of absorption; choice (d) invents de-incorporation,
+      which has never happened — the doctrine has only ever moved in one
+      direction.
+    concepts:
+      - incorporation-doctrine
+      - due-process
+  - id: q4-mcdonald-vehicle
+    kind: multiple-choice
+    text: "In McDonald v. City of Chicago (2010), the Court incorporated the
+      Second Amendment. Which clause did the controlling opinion use — and
+      what alternative did Justice Thomas urge?"
+    choices:
+      - id: a
+        text: The Due Process Clause; Thomas would have revived the Privileges or
+          Immunities Clause and overruled Slaughter-House
+      - id: b
+        text: The Privileges or Immunities Clause; Thomas would have used due
+          process like every prior incorporation case
+      - id: c
+        text: The Equal Protection Clause; Thomas would have left the question to
+          the states
+      - id: d
+        text: The Ninth Amendment; Thomas would have used the Tenth
+    correct_choice_id: a
+    explanation: The plurality stayed on the well-worn due-process path —
+      ninety years of precedent runs through it. Thomas supplied the fifth
+      vote but wrote separately that the historically honest vehicle is the
+      Privileges or Immunities Clause, the provision actually written to make
+      states respect the Bill of Rights, which would require overruling
+      Slaughter-House. The vehicle question still matters — relocating
+      incorporation could unsettle adjacent doctrine, including the
+      unenumerated-rights cases built on due process.
+    concepts:
+      - incorporation-doctrine
+      - due-process
+  - id: q5-hurtado-pressure
+    kind: free-response
+    text: Hurtado v. California (1884) — holding that states need not use grand
+      juries — has never been overruled, even as nearly everything else in the
+      Bill of Rights has been incorporated. Should the Supreme Court finally
+      incorporate the grand-jury clause? Make the strongest argument you can
+      for one side, and state the best objection to your own position.
+    socratic_seed: Start from the test — is grand-jury indictment "fundamental
+      to the American scheme of justice" when roughly half the states charge
+      felonies by prosecutor's information and have for over a century? Does
+      Ramos (2020) help the incorporation argument — there, long state practice
+      (nonunanimous juries) lost to the clause's original meaning — or is the
+      grand jury different because abandoning it reflects considered policy
+      rather than a discriminatory origin? Consider Amar's structural point —
+      if the grand jury is partly a local-self-government institution rather
+      than a personal right, does it translate to a restraint on states at
+      all? And weigh the practical stakes — would incorporation protect
+      defendants, or just add a rubber stamp, given how rarely grand juries
+      refuse prosecutors?
+    concepts:
+      - incorporation-doctrine
+      - grand-jury
+      - due-process

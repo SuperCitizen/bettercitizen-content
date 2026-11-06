@@ -1,0 +1,18 @@
+slug: ethics-and-public-policy-center
+name: Ethics and Public Policy Center
+kind: think-tank
+description: "Washington, D.C. institute founded in 1976, dedicated to applying the Judeo-Christian moral tradition to questions of public policy. A leading institutional voice of religious conservatism on life issues, religious liberty, and the culture of the family, with an active appellate amicus practice."
+website: https://eppc.org
+jurisdiction: national
+partisan_lean: right
+ideology_tags:
+  - american-conservatism
+  - christian-democracy
+influence_channels:
+  - policy-research
+  - amicus-briefs
+  - public-education
+concept_tags:
+  - think-tank
+  - religious-liberty
+is_active: true

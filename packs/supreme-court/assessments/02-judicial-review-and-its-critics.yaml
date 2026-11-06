@@ -1,0 +1,137 @@
+schema: bettercitizen.assessment/v1
+lesson: judicial-review-and-its-critics
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A student summarizes Marbury v. Madison: 'The Supreme Court ordered Jefferson's administration to seat Marbury, proving that courts can command presidents.' What did the Court actually do?"
+    choices:
+      - id: a
+        text: "Ordered Madison to deliver the commission, which the administration did under protest"
+      - id: b
+        text: "Held that the President controls commissions absolutely, so Marbury never had any legal right to one"
+      - id: c
+        text: "Held Marbury had a right to his commission but struck down, as exceeding Article III, the statutory provision that would have let the Court order delivery — handing Jefferson the result he wanted while claiming the power to void acts of Congress"
+      - id: d
+        text: "Upheld the Judiciary Act of 1789 but ruled the commission void because it was never delivered"
+    correct_choice_id: c
+    explanation: >-
+      Marshall's opinion runs in a deliberate sequence: Marbury had a legal right
+      and the law owed him a remedy — a scolding for Jefferson on the merits — but
+      the Court could not provide it, because Section 13 of the Judiciary Act of
+      1789, read as letting such suits begin in the Supreme Court, enlarged the
+      Court's original jurisdiction beyond what Article III allows, and a statute
+      conflicting with the Constitution is not law. Because Marbury lost, there was
+      nothing for Jefferson to defy: the Court asserted judicial review in the very
+      act of declining power — and then did not use it against another federal
+      statute for half a century.
+    concepts: [judicial-review]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A critic charges that judicial review makes judges the people's masters. As this lesson presents Federalist No. 78, how does Hamilton's theory answer the charge?"
+    choices:
+      - id: a
+        text: "The Constitution is the people's own enactment and a statute merely the act of their agents — so a court enforcing the Constitution against a statute is enforcing the principal's instructions, not ruling over the principal"
+      - id: b
+        text: "Judges hold neither force nor will, which is why they may safely update the Constitution's meaning as society changes"
+      - id: c
+        text: "Life tenure makes judges wiser and more public-spirited than elected officials"
+      - id: d
+        text: "The people retain the power to overturn any judicial decision by majority vote"
+    correct_choice_id: a
+    explanation: >-
+      Hamilton's move is agency, not supremacy: when statute and Constitution
+      collide, the court sides with the people's own enactment over the act of their
+      legislative agents. Choice (b) splices Hamilton's famous phrase onto a
+      living-constitutionalist conclusion he never drew. And the lesson immediately
+      adds the record's complication: the second federal statute ever struck down
+      fell in Dred Scott (1857), which voided the Missouri Compromise's restriction
+      on slavery and declared that Black Americans could not be citizens — so
+      whatever judicial review is, it is not reliably heroic, and an honest theory
+      of the power has to own Dred Scott and Brown alike.
+    concepts: [judicial-review, precedent]
+
+  - id: q3
+    kind: multiple-choice
+    text: "The lesson says the countermajoritarian difficulty 'has never been dissolved, only managed.' Which pairing correctly matches a thinker to his management strategy?"
+    choices:
+      - id: a
+        text: "Ely — uphold any statute whose constitutionality is fairly debatable, striking only clear mistakes"
+      - id: b
+        text: "Bickel — the passive virtues: deny review, find cases unripe, avoid constitutional questions, deciding as little as possible as late as possible"
+      - id: c
+        text: "Thayer — strike statutes that clog the channels of democracy, deferring everywhere else"
+      - id: d
+        text: "Marshall — declare what the law is, but never actually void an act of Congress"
+    correct_choice_id: b
+    explanation: >-
+      Bickel's answer to his own difficulty was institutional modesty: courts should
+      husband their legitimacy by deciding as little as possible as late as
+      possible. Choices (a) and (c) swap the other two strategies — the
+      fairly-debatable, clear-mistake rule is Thayer's (1893), and policing the
+      channels of democracy (voting, speech, shut-out minorities) is John Hart Ely's
+      escape in Democracy and Distrust (1980). Marshall is the wrong claim
+      entirely: Marbury itself voided an act of Congress, even though the power then
+      sat unused against federal statutes for half a century.
+    concepts: [judicial-review, judicial-activism]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      In 2031 Congress bans AI-generated 'deepfake' political ads. Judge A votes to
+      strike the ban, writing that the Framers chose majestic generalities
+      deliberately, and that the free-speech guarantee must be read to serve its
+      animating purpose — a workable, participatory democracy — under conditions
+      the Framers could not have imagined. Judge B votes to uphold, writing that
+      the ban's constitutionality is at least fairly debatable, and that this alone
+      ends the judicial inquiry. Which schools are speaking?
+    choices:
+      - id: a
+        text: "Judge A is a living constitutionalist; Judge B is a Thayerian — whose vote reveals nothing about what he privately thinks the Constitution means"
+      - id: b
+        text: "Judge A is an originalist; Judge B is a living constitutionalist"
+      - id: c
+        text: "Judge A is a Thayerian; Judge B is an originalist enforcing the ratified text"
+      - id: d
+        text: "Both are originalists who disagree about the original public meaning of the free-speech guarantee"
+    correct_choice_id: a
+    explanation: >-
+      Judge A makes Breyer's Active Liberty move — reading the document's
+      open-textured words through its democratic purpose in circumstances the
+      Framers never saw — where an originalist would instead ask what those words
+      publicly meant at ratification. Judge B never says what the Constitution means
+      at all: reasonable debatability ends the case, which is Thayer's clear-mistake
+      rule. That asymmetry is the lesson's structural point — originalism and living
+      constitutionalism are rival theories of meaning, while restraint is a theory
+      of who decides — which is why a Thayerian could privately share Judge A's
+      reading and still vote to uphold.
+    concepts: [originalism, judicial-activism]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      The lesson claims every interpretive school is, at bottom, a strategy for
+      managing the countermajoritarian difficulty. Pick one — originalism, living
+      constitutionalism, or Thayerian restraint — and explain how it makes judicial
+      review legitimate on its own terms. Then state the strongest objection a
+      rival school would press against it.
+    concepts: [judicial-review, originalism]
+    socratic_seed: >-
+      Whichever school the learner picks, test it against the lesson's hardest
+      cases. Originalism: legitimacy flows from enforcing only what the people
+      ratified, with change reserved to Article V — press the Brown problem (the
+      Congress that proposed the Fourteenth Amendment ran segregated schools in the
+      District of Columbia; rivals say a method that struggles to generate the
+      twentieth century's canonical case is an alibi, not a constraint). Living
+      constitutionalism: legitimacy flows from purposive, common-law development,
+      precedent by precedent — press Scalia's rejoinder that a Constitution meaning
+      whatever the current Court's majority says is no constraint at all, and that
+      evolution belongs at the ballot box through Article V. Thayerian restraint:
+      legitimacy comes from shrinking the countermajoritarian act itself to clear
+      mistakes — press whether that abandons Marshall's province and duty to say
+      what the law is whenever a legislature's error is merely probable rather than
+      clear. Then widen the lens: the same power produced Dred Scott and Brown, and
+      the lesson insists an honest theory must own both — which does the learner's
+      chosen school explain better? Close by asking whether their confidence in the
+      school would survive its use by judges whose politics they oppose, since
+      'activism' tends to describe whose ox is gored.

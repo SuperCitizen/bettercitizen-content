@@ -1,0 +1,174 @@
+---
+schema: bettercitizen.lesson/v1
+slug: how-polls-work-and-fail
+kind: reading
+title: How polls work — and how they fail
+objectives:
+  - Explain why a random sample of roughly 1,000 people can estimate national opinion, and why the size of the population barely matters
+  - State precisely what a ±3 margin of error covers, and name the error sources it does not cover (coverage, nonresponse, measurement, weighting)
+  - Define house effects and herding, and explain what correlated methods do to the value of a polling average
+  - Summarize the verified 2016, 2020, and 2024 polling-error record from the AAPOR post-mortems
+  - Read a crosstab without overinterpreting subgroup swings, and explain why exit polls systematically misdescribe the electorate
+concepts:
+  - margin-of-error
+  - total-survey-error
+  - exit-poll
+  - herding
+sources:
+  - type: paper
+    citation: 'Squire, P. (1988), "Why the 1936 Literary Digest Poll Failed," Public Opinion Quarterly 52(1), 125–133 — the autopsy showing coverage and nonresponse bias jointly produced the disaster.'
+    url: https://academic.oup.com/poq/article-abstract/52/1/125/1878544
+  - type: pdf
+    citation: 'AAPOR Ad Hoc Committee on 2016 Election Polling (2017), "An Evaluation of the 2016 Election Polls in the United States" — national polls accurate, state polls off 5.1 points absolute; education weighting and late deciders.'
+    url: https://aapor.org/wp-content/uploads/2022/11/AAPOR-2016-Election-Polling-Report.pdf
+  - type: pdf
+    citation: 'AAPOR Task Force on 2020 Pre-Election Polling (2021) — national polls overstated the Biden margin by 3.9 points, state polls by 4.3; the largest national error in 40 years.'
+    url: https://aapor.org/wp-content/uploads/2022/11/AAPOR-Task-Force-on-2020-Pre-Election-Polling_Report-FNL.pdf
+  - type: pdf
+    citation: 'AAPOR Task Force on 2024 Pre-Election Polling (2025) — average absolute error of 3.3 points across 611 final-two-week polls; state presidential polls their most accurate since 1944; third straight cycle of Democratic overstatement (2.7 points).'
+    url: https://aapor.org/wp-content/uploads/2025/10/AAPOR-Task-Force-on-2024-Pre-Election-Polling_Report.pdf
+  - type: paper
+    citation: 'Groves, R. M., & Lyberg, L. (2010), "Total Survey Error: Past, Present, and Future," Public Opinion Quarterly 74(5), 849–879 — the framework for every error source the margin of error leaves out.'
+  - type: website
+    citation: 'Pew Research Center (Feb. 27, 2019), "Response rates in telephone surveys have resumed their decline" — 36% in 1997, 9% in 2016, 6% in 2018.'
+    url: https://www.pewresearch.org/short-reads/2019/02/27/response-rates-in-telephone-surveys-have-resumed-their-decline/
+  - type: website
+    citation: 'Pew Research Center (Aug. 9, 2018), "An examination of the 2016 electorate, based on validated voters" — college graduates were 37% of validated voters; the exit poll said 50%.'
+    url: https://www.pewresearch.org/politics/2018/08/09/an-examination-of-the-2016-electorate-based-on-validated-voters/
+  - type: website
+    citation: 'Silver, N. (Oct. 2024), "There''s more herding in swing state polls than at a sheep farm in the Scottish Highlands," Silver Bulletin — 193 of 249 October battleground polls within 2.5 points; roughly 1-in-9.5-trillion odds absent herding.'
+    url: https://www.natesilver.net/p/theres-more-herding-in-swing-state
+perspectives:
+  - name: Survey-methods institutionalist
+  - name: Structural polling skeptic
+  - name: Aggregation pragmatist
+duration_min: 18
+---
+
+# How polls work — and how they fail
+
+In the autumn of 1936, the most trusted election poll in America was run by a magazine. *The Literary Digest* had called five straight presidential races, and its method was scale: it mailed about ten million straw ballots to addresses harvested from telephone directories and automobile registrations, and got roughly 2.4 million back — a sample more than two thousand times larger than anything a modern pollster fields. Its verdict: Alf Landon over Franklin Roosevelt with about 57 percent of the two-party preference and 370 electoral votes. A young market researcher named George Gallup, working with a sample of around 50,000 people selected to *resemble* the electorate, said Roosevelt in a walk — and, in the era's great act of statistical showmanship, had already announced months earlier, from a far smaller sample drawn from the same kinds of lists the *Digest* used, almost exactly the wrong answer the magazine's method would produce. Roosevelt took 60.8 percent of the [[term:popular-vote]] and every state but Maine and Vermont. The *Digest* was out of business within two years.
+
+The lesson everyone remembers is *bigger isn't better*. The lesson that actually matters for reading any poll today is sharper: **how you select people determines what your sample can say, and the people who don't answer can matter more than the millions who do.** Both of the *Digest*'s diseases — bad lists and biased silence — are still polling's living problems. They have just changed clothes.
+
+## The miracle, and the arithmetic, of 1,000
+
+Start with the part that genuinely deserves the word miracle. If — a load-bearing if — every member of a population has a known, nonzero chance of landing in your sample, then a sample of about 1,000 estimates a percentage for the whole population within about ±3 points, 95 times out of 100. Not 1,000 per state. One thousand, total, for a country of roughly 260 million adults.
+
+The intuition is soup: a cook judges the pot from one spoonful — not because the spoon is large relative to the pot, but because the pot is *stirred*, and random selection is the stirring. Population size thus drops out of the math almost entirely; a random sample of 1,000 reads the United States about as precisely as it reads Wyoming. What governs precision is absolute sample size, and the returns diminish brutally:
+
+| Sample size (n) | Margin of error (95% confidence) |
+| --- | --- |
+| 100 | ±9.8 |
+| 250 | ±6.2 |
+| 500 | ±4.4 |
+| 1,000 | ±3.1 |
+| 2,000 | ±2.2 |
+| 4,000 | ±1.6 |
+| 10,000 | ±1.0 |
+
+Read the table from the bottom up and you see why national polls cluster near 1,000: each halving of the error requires roughly *quadrupling* the sample, and the budget quadruples with it. Two fine-print clauses follow directly from the same arithmetic. First, the margin of error applies to each candidate's *share*; the **gap between two candidates** is roughly twice as uncertain, so "48–45, MOE ±3" is not a lead in any statistical sense. Second, the famous 95 percent is a promise about the *procedure*, not the poll: even a flawless random poll misses by more than its margin of error about one time in twenty, by design.
+
+<QuickCheck
+  question="A pollster with a ±3.1 margin of error (n = 1,000) wants to cut it to roughly ±1.5. What sample does she need?"
+  choices={[
+    {id: 'a', text: 'About 2,000 — double the sample, half the error'},
+    {id: 'b', text: 'About 4,000 — error shrinks with the square root of n'},
+    {id: 'c', text: 'About 10,000 — precision requires an order of magnitude'},
+    {id: 'd', text: 'It depends on the population size — a bigger country needs more'},
+  ]}
+  answer="b"
+  explanation="Error shrinks with the square root of the sample size, so halving it requires quadrupling n (1,000 → 4,000). Doubling to 2,000 only gets you to ±2.2. And (d) is the oldest confusion in the subject: once the population is much larger than the sample, its size barely enters the formula — the Literary Digest's 2.4 million bought it nothing."
+/>
+
+## What the ±3 actually covers — and what it doesn't
+
+Here is the most consequential fine print in civic statistics: the margin of error quantifies **sampling error only** — the bad luck possible in *who the random draw happened to reach*, assuming everything else about the survey worked perfectly. Survey methodologists work from a wider ledger, the **total survey error** framework (the canonical statement is Groves and Lyberg's 2010 essay in *Public Opinion Quarterly*), and the other entries never appear in the published ±3:
+
+- **Coverage error.** Your list of people-who-could-be-sampled isn't the population. The *Digest*'s telephone and automobile lists skewed prosperous in Depression America; today's version is the opt-in online panel that simply contains no one who doesn't do paid surveys.
+- **Nonresponse error.** The people who answer differ from the people who don't, *in ways related to what you're measuring*. This was the *Digest*'s deeper wound: Peverill Squire's 1988 autopsy in *Public Opinion Quarterly*, using a 1937 Gallup survey that asked who had received and returned a *Digest* ballot, found the mailing list alone wouldn't have sunk the poll — had everyone responded, the *Digest* would at least have called the winner. Landon's supporters mailed theirs back at far higher rates; the silence was partisan.
+- **Measurement error.** Question wording, question order, the social pressure of an interviewer, and — uniquely in elections — the likely-voter screen, which must guess at [[term:voter-turnout]] before any vote exists to check it against.
+- **Adjustment error.** Weighting (next paragraph) repairs the skews you can name, at a price, and does nothing about the ones you can't.
+
+Nonresponse is the entry that has exploded. When Pew Research Center ran the numbers on its own telephone surveys, the response rate had fallen from 36 percent in 1997 to 9 percent in 2016 and 6 percent by 2018 — and conventional live-caller polling has only retreated further since. Commit to a guess before you reveal these; the size of the collapse is the point.
+
+<GuessTheShare
+  title="Who actually answers? Response and return rates, then and now"
+  unit="%"
+  source="Literary Digest (1936 straw poll, ballots returned); Pew Research Center, 'Response rates in telephone surveys have resumed their decline' (2019)"
+  items={[
+    {label: 'Literary Digest 1936: share of 10 million mailed ballots returned', actual: 24, hint: 'The most infamous sample ever collected.'},
+    {label: 'Typical Pew telephone poll, 1997: share of contacted households responding', actual: 36},
+    {label: 'Same, 2016', actual: 9},
+    {label: 'Same, 2018', actual: 6},
+  ]}
+/>
+
+A 6 percent response rate does not automatically doom a poll — Pew's own studies find low-response phone samples still track benchmarks reasonably well on many measures once weighted — but it changes what a poll *is*. Modern polling is no longer "ask a random slice of America"; it is "ask the unusual people willing to answer, then statistically reshape them until they resemble America." **Weighting** is that reshaping: if your respondents are 35 percent college graduates and the electorate is closer to 40, you count each college-grad answer slightly less or more until the proportions match, on education, age, race, region, and increasingly partisanship and past vote. The catch: weighting only fixes [[term:bias]] along dimensions you thought to measure, and it inflates the effective margin of error (a design effect the best pollsters disclose and most headlines ignore). The published ±3 under an opt-in online poll is thus a modeled analogy to the classical guarantee, not the guarantee itself — which is why methodologists wince when the number is recited like a warranty.
+
+> **Common misconception:** "The poll missed by more than its margin of error, so the pollster lied or the math is broken." The margin of error never covered nonresponse, coverage, or weighting failure. A poll that misses by 5 with a ±3 MOE is usually telling you the *systematic* errors moved together — which no sample size can fix. The 2.4-million-ballot *Digest* poll had a sampling margin of error near zero. It missed by 19 points.
+
+## House effects, herding, and the strange calm of 2024
+
+Follow polls across a cycle and you notice signatures. One firm's numbers run a point or two friendlier to Republicans than the field; another leans Democratic. Aggregators call these **house effects** — persistent, directional leans produced by a firm's design choices (sample source, weighting scheme, likely-voter model), not necessarily by its politics. A house effect isn't a sin; it's a fingerprint, and averaging across houses is supposed to cancel them.
+
+**Herding** is the sin. As election day approaches, a pollster sitting on a result that looks like an outlier — say, Candidate A by 7 when the average says 1 — faces an asymmetric career risk: publish and be wrong *alone*, or quietly re-weight, re-screen, or shelve the poll and be wrong *with everyone*. Late-campaign polls that converge suspiciously on the consensus have hedged exactly that way. In late October 2024, Nate Silver ran the numbers on battleground-state surveys: of 249 polls fielded at least partly in October, 193 — nearly 80 percent — showed Harris and Trump within 2.5 points, when even in genuinely tied races random sampling noise should have produced that only about 55 percent of the time. The odds of so little variance arising by chance: roughly 1 in 9.5 trillion. Wisconsin was the worst offender — 33 of 36 polls inside 2.5 points, about a 1-in-2.8-million coincidence.
+
+The methodological dispute that followed is worth holding in full, because both sides are serious. AAPOR's 2024 task force ran its own tests and found **no evidence that firms were copying competitors**; its explanation is that the industry's broad turn toward weighting on political variables (partisanship, 2020 vote) mechanically compresses the spread — many firms independently bolting their samples to the same template. That is herding's effect without herding's intent, and the citizen's takeaway is identical either way: **twenty clustered polls are not twenty independent confirmations.** When methods converge, errors converge, and the average gets more precise without getting more accurate.
+
+<Checkpoint question="Five final-week polls of your state all show the governor's race tied 48–48, each with a ±3.5 margin of error. Your friend says five agreeing polls make a tie five times as certain. What's wrong with that?">
+  Averaging cancels only *independent* error. If the five firms weight on the same political variables or trim toward the same consensus — by intent (herding) or by shared template (AAPOR's 2024 finding) — their errors are correlated, and the five polls are closer to one poll photocopied. The race is probably close, but "tied ±1.5" is false precision: in 2020, whole batteries of agreeing state polls missed in the *same direction* by 4-plus points. Agreement measures consensus, not truth.
+</Checkpoint>
+
+## The record: 2016, 2020, 2024
+
+So how wrong are polls, actually? The honest answer comes from the field's own post-mortems — the American Association for Public Opinion Research convenes a task force after each cycle, and its reports are the closest thing polling has to a flight recorder.
+
+**2016** broke into two different stories. National polls had Clinton up about 3; she won the popular vote by about 2 — by AAPOR's accounting, among the most accurate national estimates since 1936. State polls were the disaster: an average absolute error of 5.1 points, signed 3.0 toward Clinton, concentrated in the Upper Midwest. The committee found two main culprits. Voters who decided in the last week broke hard for Trump (in Wisconsin by roughly 30 points), which no earlier poll could have captured. And most state polls did not weight by education at a moment when diplomas had begun predicting the vote: their samples contained too many college graduates, and therefore too many Clinton voters. Note what the explanation is *not* — there was little evidence for "shy Trump" voters lying to interviewers. The polls didn't get false answers; they got the wrong people.
+
+**2020** was worse and stranger: the national signed error was 3.9 points toward Biden — the largest in 40 years — and state polls erred by 4.3, with down-ballot races worse still. No education fix could explain it; pollsters had largely adopted education weighting. The task force, examining 2,858 polls, could not definitively identify the cause, and the leading suspect is the one weighting can't reach: **differential nonresponse** — Republicans, and particularly low-social-trust Republicans, were simply less likely to take surveys at all in the pandemic year, in ways no demographic weight captures, because the missingness tracked the very thing being measured.
+
+**2024** was, by these standards, a good year — with an asterisk. Across 611 final-two-week polls of all contests, the average absolute error on the two-party margin was 3.3 points, down from 5.3 in 2020 and 5.2 in 2016; national presidential polls missed by 2.6 on average (about their long-run norm), and state presidential polls by 3.0 — their most accurate cycle since 1944. The asterisk: for the third consecutive presidential cycle, the misses pointed the same way, overstating Democratic margins by 2.7 points on average. The task force traced the residue to blocs polls still can't hold: Hispanic voters (whose support for Harris was overstated relative to every post-election benchmark), people who hadn't voted in 2020 (polls saw they leaned Republican but undercounted how many would show up), and a turnout surge in Trump-friendly counties that turnout models keyed to 2020 didn't anticipate.
+
+<Figure caption="Polling's recent record, by the field's own audit: the average overstatement of the Democratic margin in polls completed in the final two weeks, all offices. 2024's error was the smallest of the three presidential cycles — and the third in a row pointing the same direction, which is the part that keeps methodologists up at night. (Recent midterms erred small and in mixed directions: Republicans overestimated by 0.6 in 2022, Democrats by 0.1 in 2018.)" source="AAPOR Task Force on 2024 Pre-Election Polling (2025), Executive Summary">
+  <DataBars
+    title="Average overstatement of the Democratic margin (points)"
+    unit="pts"
+    max={6}
+    bars={[
+      {label: '2016 (final two weeks, all offices)', value: 3.1, color: 'blue'},
+      {label: '2020', value: 4.6, color: 'accent'},
+      {label: '2024', value: 2.7, color: 'gold'},
+    ]}
+  />
+</Figure>
+
+One more date explains the field's paranoia about same-direction errors: 1948, when Gallup, Roper, and Crossley — the *Digest*'s scientific conquerors — unanimously elected Thomas Dewey, because their quota-sampling method shared a tilt toward the approachable and prosperous, and they all stopped polling weeks early. The embarrassment killed quota sampling and birthed modern probability polling. Every method eventually meets its 1948; the careful reader's standing question is *which shared assumption is currently untested*.
+
+<QuickCheck
+  question="In 2020, dozens of state polls with ±3.5 margins of error missed by 4 to 5 points — in the same direction. Which reading does the total-survey-error framework support?"
+  choices={[
+    {id: 'a', text: 'The pollsters understated their true margins of error to look confident'},
+    {id: 'b', text: 'Random bad luck — about 1 in 20 polls misses beyond its MOE'},
+    {id: 'c', text: 'A systematic error (likely differential nonresponse) that sample size and the published MOE never covered'},
+    {id: 'd', text: 'Voters changed their minds after being polled, which counts as polling error'},
+  ]}
+  answer="c"
+  explanation="Random sampling error (b) scatters misses in both directions and rarely beyond the MOE; dozens of same-direction misses are the signature of systematic error — and the ±3.5 never claimed to cover nonresponse or weighting failure (a is a category mistake, not a lie). Late opinion change (d) was real in 2016's final week but was largely ruled out for 2020. The MOE is a floor on uncertainty, never a ceiling."
+/>
+
+## Exit polls, verified voters, and how to read a crosstab
+
+Election night's most quoted numbers — "X won voters under 30 by 11" — come overwhelmingly from the [[term:exit-poll]], and the exit poll is the least understood instrument in the kit. It is a cluster sample: interviewers stand at a few hundred selected precincts offering questionnaires to exiting voters (plus phone and early-voting supplements), and the design optimizes for speed on election night, not composition. Who briskly agrees to a survey on a sidewalk is its own selection problem — cooperation skews toward the educated — and the early-evening numbers that leak into commentary are later *reweighted to match the actual results*, a detail that quietly invalidates most "the exit polls prove fraud" arguments in both directions.
+
+The composition problem is not hypothetical. The 2016 national exit poll described an electorate that was 50 percent college graduates. Pew Research Center's **validated voter** study — which matches survey respondents to official state vote records, so "voted" means *verified*, not claimed — found 37 percent. That single skew rewrote the story of the election: the exit poll showed Trump narrowly winning college-educated white voters; the validated data showed him losing them by double digits while winning non-college whites by far more than the exits implied. Same election, different instruments, different "facts" — and a generation of takes built on the leakier one. The serious alternatives — Pew's validated voters, AP VoteCast (built to replace precinct exits), voter-file analyses like Catalist's — are exactly what AAPOR's 2024 task force used as benchmarks.
+
+Which brings us to the everyday version of the trap: the **crosstab**. A national poll of 1,000 contains perhaps 150 respondents under 30 and 120 Hispanic respondents. Run the margin-of-error table from the top of this lesson on those subsamples: ±8 and ±9 on each *share* — roughly double that on any margin between candidates — before a single point of weighting penalty. The 2024 record shows what this means in practice: polls that agreed beautifully on the topline scattered wildly on subgroups, with estimates of the Hispanic margin varying by tens of points across reputable firms. A subgroup number in a single poll is a hypothesis, not a finding.
+
+<Checkpoint question="A poll of 1,100 adults reports the challenger leading by 9 among union households, which are about 12 percent of the sample. Last month's poll from the same firm had the incumbent up 2 with that group — 'an 11-point swing,' says the write-up. Before repeating it, what arithmetic do you run?">
+  Twelve percent of 1,100 is roughly 130 respondents: the margin of error on each candidate's *share* is about ±8.6, so the margin between them carries something like ±17 — and comparing *two* polls' subgroup margins compounds the noise further. An 11-point "swing" sits comfortably inside what pure sampling error produces between two such snapshots. The professional move: pool multiple polls (or many months of one pollster's samples) before believing any subgroup trend — which is exactly why serious outlets report subgroup shifts from aggregated data, not single crosstabs.
+</Checkpoint>
+
+## What this lesson doesn't settle
+
+Three live arguments, each held by serious people, and the data so far refuses to retire any of them. The **survey-methods institutionalist** reads the record as a system working: errors are audited and published by the field itself, 2024's accuracy was historically good, and total survey error is managed risk, not scandal. The **structural polling skeptic** replies that a 6 percent response world means polls now measure *the kind of person who answers*, that weighting on past vote borrows accuracy from the past at the price of missing every electorate that breaks pattern, and that three same-direction presidential misses are the symptom of a nonresponse disease no weight can cure — 2024 looked good partly because the race sat close to the polls' standing bias. The **aggregation pragmatist** splits the difference: no single poll is news, averages-with-error-bands are the proper unit of belief — conceding that converging methods quietly sap the independence that makes averaging work. Lesson 2 leaves opinion for causation — what it takes for a number to support the word *because*; Lesson 3 asks when a *forecast* built on all of this deserves your trust.

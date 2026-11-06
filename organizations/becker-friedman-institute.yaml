@@ -1,0 +1,19 @@
+slug: becker-friedman-institute
+name: Becker Friedman Institute for Economics
+kind: think-tank
+subtype: university-affiliated
+description: "Economic research institute at the University of Chicago, named for Nobel laureates Gary Becker and Milton Friedman. Carries the empirical, market-oriented Chicago-school tradition into contemporary policy questions — taxation, regulation, labor markets — primarily through academic research rather than advocacy."
+website: https://bfi.uchicago.edu
+jurisdiction: national
+partisan_lean: center
+parent_org: university-of-chicago
+org_relationship: unit-of
+ideology_tags:
+  - classical-liberalism
+influence_channels:
+  - policy-research
+concept_tags:
+  - think-tank
+  - supply-side-economics
+  - fiscal-policy
+is_active: true

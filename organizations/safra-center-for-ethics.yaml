@@ -1,0 +1,18 @@
+slug: safra-center-for-ethics
+name: Edmond & Lily Safra Center for Ethics
+kind: think-tank
+subtype: university-affiliated
+description: "Harvard University center for the study of ethics in public life. Its multi-year 'institutional corruption' research program — examining how dependence on funders distorts institutions like Congress, medicine, and the academy — directly shaped the modern money-in-politics reform debate."
+website: https://ethics.harvard.edu
+jurisdiction: national
+partisan_lean: none
+parent_org: harvard-university
+org_relationship: unit-of
+influence_channels:
+  - policy-research
+  - public-education
+concept_tags:
+  - campaign-finance
+  - dark-money
+  - lobbyist
+is_active: true

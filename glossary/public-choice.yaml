@@ -1,0 +1,16 @@
+slug: public-choice
+name: Public Choice
+short_definition: "The branch of economics that applies the tools of market analysis to politics, treating voters, politicians, and bureaucrats as self-interested actors."
+body_md: ""
+category: economy
+difficulty: advanced
+status: active
+etymology: "English: 'public' (the political sphere) plus 'choice' (decision-making); developed by James Buchanan and Gordon Tullock, notably in 'The Calculus of Consent' (1962); Buchanan won the 1986 Nobel Memorial Prize in Economic Sciences"
+why_it_matters: "Public-choice theory locates the danger to good government not in private wealth as such but in the state's discretionary power to grant favors, which organized interests then compete to capture."
+context_example: "A public-choice analyst argues that a wealth tax leaves the favor-granting power intact, so the real cure for capture is shrinking what government can be lobbied to grant — not adding new levers."
+related_term_slugs:
+  - rent-seeking
+  - regulatory-capture
+  - free-rider-problem
+  - creative-destruction
+tags: []

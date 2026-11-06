@@ -1,0 +1,16 @@
+schema: bettercitizen.content/v1
+slug: the-administrative-state
+title: The Administrative State
+summary: How federal agencies actually make binding law — organic statutes and delegation, APA notice-and-comment, OIRA review and the 2025–26 executive-order regime, the Congressional Review Act's record-setting use, and hard-look judicial review — and why that machinery is in its deepest constitutional renovation since 1935. Chevron is overruled, the major questions doctrine is ascendant, nondelegation has three declared votes, and Humphrey's Executor awaits judgment in Trump v. Slaughter. The mechanics are settled law; whether insulated expertise or presidential control better serves accountable government is genuinely contested, and this pack steel-mans Landis, Hamburger, and the congressional reformers alike.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [administrative-law, regulation, civics-301, separation-of-powers]
+level: advanced
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-how-rules-actually-get-made.mdx
+  - 02-the-constitutional-fight.mdx
+  - 03-the-accountability-debate.mdx

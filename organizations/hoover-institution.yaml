@@ -1,0 +1,20 @@
+slug: hoover-institution
+name: Hoover Institution
+kind: think-tank
+subtype: university-affiliated
+description: "Public policy research institution founded by Herbert Hoover in 1919 on the campus of Stanford University. Unlike many university-affiliated centers it is an actual unit of the university, while maintaining a distinct conservative-leaning identity; its fellows regularly move between academia and Republican administrations."
+website: https://www.hoover.org
+jurisdiction: national
+partisan_lean: center-right
+parent_org: stanford-university
+org_relationship: unit-of
+ideology_tags:
+  - american-conservatism
+  - classical-liberalism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - public-education
+concept_tags:
+  - think-tank
+is_active: true

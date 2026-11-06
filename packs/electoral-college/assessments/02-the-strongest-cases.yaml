@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "All three camps in this debate accept certain facts and fight over others. Which of the following is a claim that all three camps accept?"
+    choices:
+      - id: a
+        text: "Presidential campaign attention concentrates overwhelmingly in competitive states — 94% of 2024 general-election events occurred in seven battlegrounds."
+      - id: b
+        text: "The Electoral College reliably steers campaign attention toward small states."
+      - id: c
+        text: "Direct national election would produce simultaneous fifty-state recount crises in close years."
+      - id: d
+        text: "Winner-take-all forces governing coalitions to be geographically broader than direct election would."
+    correct_choice_id: a
+    explanation: "The campaign-event data (96% in 12 states in 2020; 94% in 7 states in 2024) is settled — the camps disagree about what it means, not whether it's true. (b) is contradicted by that same data: small safe states are ignored as thoroughly as large safe ones. (c) is the preservationist's prediction and (d) the defender's claim — both are contested inferences, not shared facts. Separating shared arithmetic from contested interpretation is the lesson's first discipline."
+    concepts: [electoral-college, swing-state]
+
+  - id: q2
+    kind: multiple-choice
+    text: "The 'nearly 4-to-1' Wyoming-versus-California figure measures which of these?"
+    choices:
+      - id: a
+        text: "Per-capita electoral weight — population per elector, driven by the +2 Senate-seat floor."
+      - id: b
+        text: "The relative chance that one voter's ballot decides the presidency."
+      - id: c
+        text: "Campaign events per resident in each state."
+      - id: d
+        text: "How much each state is overrepresented in the House of Representatives."
+    correct_choice_id: a
+    explanation: "It is a paper ratio: roughly 192,000 people per Wyoming elector versus roughly 732,000 per California elector, a product of the constitutional +2 floor. It is not pivotality — the reformer's argument is precisely that practical voting power tracks swing status, not the per-capita ratio, so a safe-state vote of any 'weight' is effectively inert. (d) is wrong because the House component is apportioned by population; the skew comes from the Senate-equivalent electors."
+    concepts: [electoral-college, small-state-equality]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A leaked 2032 strategy memo reads: 'Skip Wyoming, Vermont, and the Dakotas entirely; the candidate should practically live in Pennsylvania.' Which thesis from the lesson does this memo most directly support?"
+    choices:
+      - id: a
+        text: "The reformer's: campaign attention follows competitiveness, not state size, undercutting the small-state-protection rationale."
+      - id: b
+        text: "The defender's: the system forces candidates to assemble broad federal coalitions."
+      - id: c
+        text: "The preservationist's: state-by-state structure contains election disputes."
+      - id: d
+        text: "The reformer's: the +2 elector floor gives small-state voters too much weight."
+    correct_choice_id: a
+    explanation: "The memo ignores three small states and obsesses over one large competitive one — George C. Edwards III's point exactly: attention follows competitiveness, not size. (d) is the near-miss: the +2 floor is about vote weight, but the memo is about attention, which winner-take-all allocates to closeness. A memo like this is evidence against (b), and it says nothing about dispute containment (c)."
+    concepts: [electoral-college, swing-state]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Madison's July 19, 1787 remark that 'the substitution of electors obviated this difficulty' is most directly evidence for which historical claim?"
+    choices:
+      - id: a
+        text: "The elector device accommodated Southern states, whose enslaved populations could not vote but counted toward House seats — and therefore toward electors."
+      - id: b
+        text: "Madison believed electors would deliberate independently of popular sentiment."
+      - id: c
+        text: "Madison opposed any popular role in choosing the executive."
+      - id: d
+        text: "The Convention intended winner-take-all allocation from the start."
+    correct_choice_id: a
+    explanation: "Madison called the people 'the fittest' electorate but flagged that Northern suffrage was 'much more diffusive' — the South 'could have no influence in the election on the score of the Negroes.' Electors, allocated by House-plus-Senate seats, imported the three-fifths ratio into presidential selection. (c) inverts his stated view; (b) is Hamilton's Federalist 68 theory, not this passage; (d) is false — winner-take-all is a later state-law artifact Madison himself wanted amended away."
+    concepts: [electoral-college, suffrage]
+
+  - id: q5
+    kind: free-response
+    text: "Each camp in this lesson stated what evidence would change its mind. Pick one camp, restate its 'what would change my mind' test in your own words, and then assess honestly: does that evidence already exist, or not?"
+    socratic_seed: "Push the learner to separate values claims (no evidence can move them) from empirical claims (evidence can). If they pick the defender: the campaign-attention data (96%/94%) already pressures the small-state rationale — does the defender's retreat to 'federal composition matters anyway' concede the empirical fight? If the reformer: do the fifty-Floridas scenario and the 1979 civil-rights-leverage concern count as existing evidence or speculation? If the preservationist: Brazil, Mexico, Argentina, and Nigeria elect executives directly within federal systems — does that satisfy the preservationist's own stated test, and if not, what would? Close by asking which camp's test is hardest to satisfy even in principle, and what that suggests about where the debate really lives."
+    concepts: [electoral-college, federalism, popular-vote]

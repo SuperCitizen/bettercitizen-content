@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: cross-spectrum
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The lesson calls the communitarian–libertarian disagreement 'more philosophical than total.' What is the philosophical core of that disagreement?"
+    choices:
+      - id: a
+        text: "Whether individual choice and property are foundational, or community membership is constitutive of selfhood."
+      - id: b
+        text: "Whether bureaucratic centralization is dangerous — libertarians say yes, communitarians say no."
+      - id: c
+        text: "Whether decisions should be made at the local level — communitarians prefer centralized decision-making."
+      - id: d
+        text: "Whether civil society organizations should exist independently of the state."
+    correct_choice_id: a
+    explanation: "The divide is about the order of explanation: libertarians start from individual choice and property rights; communitarians hold that selves are constituted by membership and that property is one good among several, limited by communal commitments. (b), (c), and (d) all name points of agreement, not disagreement — both traditions distrust distant centralized power, both prefer subsidiarity and local decision-making, and both value voluntary civil society. That is exactly why the disagreement is philosophical rather than total."
+    concepts: [communitarianism, liberalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A 2030 bill pairs a universal child allowance with grants to local civic and religious associations. It is co-sponsored by a national-conservative Republican and a social-democratic Democrat. Per the lesson, what best explains how this coalition is possible?"
+    choices:
+      - id: a
+        text: "Both parties have formally adopted communitarianism in their platforms."
+      - id: b
+        text: "The pairing is an ordinary logroll: each sponsor accepts the half they oppose to get the half they want."
+      - id: c
+        text: "Child allowances are a libertarian policy, and libertarians hold the balance of power in both parties."
+      - id: d
+        text: "The communitarian framing — families and community institutions as goods that policy should support — cuts across the partisan axis, so each sponsor can reach it from their own tradition."
+    correct_choice_id: d
+    explanation: "This is the lesson's convergence pattern in action: communitarianism has no party, but its framing (supporting families and community institutions as shared goods) is reachable from the religious-traditionalist right and the progressive-communitarian left simultaneously — like the real bipartisan child-allowance proposals (Romney's Family Security Act, the Brown-backed Child Tax Credit expansions). (b) is the near-miss: in a logroll each side dislikes the other half, but here both sponsors can endorse the whole package from within their own commitments. (a) overstates — communitarian influence is intellectual, not platform-level."
+    concepts: [communitarianism, conservatism, progressivism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Why does the lesson say American communitarianism functions 'more as critique of American political culture than as established political program,' compared with Europe?"
+    choices:
+      - id: a
+        text: "American thinkers abandoned communitarianism after the 1990s, while European philosophers carried it forward."
+      - id: b
+        text: "European polities institutionalized communitarian-adjacent commitments — Christian-democratic parties, subsidiarity, strong welfare states — while American institutions did not."
+      - id: c
+        text: "American federalism already delivers full subsidiarity, leaving communitarians nothing to advocate."
+      - id: d
+        text: "Communitarianism is constitutionally barred from American party politics by the First Amendment."
+    correct_choice_id: b
+    explanation: "Europe never had 'communitarianism' as a named movement, but its political space embeds the closest analogues — Catholic social teaching's subsidiarity and solidarity, Christian-democratic parties like Germany's CDU, and welfare-state institutions. American communitarians, lacking such institutional vehicles, write critique: Putnam on civic decline, Sandel on meritocracy. (c) is the near-miss — American federalism decentralizes government power but does not institutionalize the welfare-state and religious-accommodation commitments the lesson points to. (a) is false: Sandel, Putnam, and Levin published major communitarian-resonant work after 2015."
+    concepts: [communitarianism, conservatism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Communitarianism and democratic socialism converge on decommodifying healthcare and education. Where, per the lesson, do they part ways?"
+    choices:
+      - id: a
+        text: "Communitarians treat markets as intrinsically unjust, while socialists accept them in every sphere."
+      - id: b
+        text: "Socialists deny that atomization is a problem, while communitarians make it central."
+      - id: c
+        text: "Socialism carries a further economic-restructuring program (worker ownership, public production); communitarianism is more moderate on economic structure and more focused on civic-cultural questions."
+      - id: d
+        text: "They do not part ways — progressive communitarianism simply is democratic socialism under another name."
+    correct_choice_id: c
+    explanation: "The traditions share the decommodification commitment and the anti-atomization critique, but socialism's program reaches into the structure of production itself — worker ownership, public enterprise — where communitarianism stays comparatively moderate, spending its energy instead on civic and cultural institutions. (a) inverts both traditions. (b) is wrong because the socialist critique of capitalist atomization is one of the convergence points. (d) is the tempting overreach: the progressive-communitarian and democratic-socialist streams overlap most, but overlap is not identity — the difference shows up precisely on economic restructuring."
+    concepts: [communitarianism, progressivism]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one of the lesson's five cross-ideological convergence points (universal child allowance, anti-Big-Tech coalitions, national service, loneliness and 'deaths of despair,' local journalism). Explain what the communitarian framing adds that a standard left framing and a standard right framing each lack — and name the strongest objection the convergence will face from inside one of the major parties."
+    socratic_seed: "Whichever issue the learner picks, push them to articulate all three framings concretely. For local journalism: the left framing is accountability and misinformation, the right framing is market failure to be tolerated — the communitarian framing treats a local newsroom as civic infrastructure, a constitutively shared good like a library. Then press the objection: from the progressive coalition, can a state-subsidized press hold the state accountable? From the conservative coalition, if readers won't pay, what justifies taxpayers paying? Ask whether the communitarian framing actually changes policy design (universal vs. targeted, institution-supporting vs. individual-transferring) or just supplies better rhetoric for a deal that interest alignment already made possible. End by asking what evidence would distinguish those two possibilities."
+    concepts: [communitarianism, conservatism, progressivism]

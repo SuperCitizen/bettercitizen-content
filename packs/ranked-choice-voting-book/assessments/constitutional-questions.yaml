@@ -1,0 +1,178 @@
+schema: bettercitizen.assessment/v1
+lesson: constitutional-questions
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      After the 2018 Maine election, Rep. Bruce Poliquin asked a federal court
+      to stop the ranked-choice count, arguing the U.S. Constitution requires
+      House members to be elected by plurality. How did that argument fare,
+      and why?
+    choices:
+      - id: a
+        text: >-
+          It won — Article I, Section 2's "by the People" language was held to
+          require a single-round plurality count.
+      - id: b
+        text: >-
+          It lost — the Constitution assigns the manner of elections to the
+          states and never prescribes a counting rule, and judgment was
+          entered against every one of Poliquin's claims.
+      - id: c
+        text: >-
+          The court split the difference, allowing the count but declaring
+          ranked-choice voting unconstitutional for future elections.
+      - id: d
+        text: >-
+          The case was never decided, because the recount made it moot before
+          any ruling.
+    correct_choice_id: b
+    explanation: >-
+      In Baber v. Dunlap (D. Me. 2018), Judge Lance Walker declined to halt
+      the count and then rejected the Article I, due-process, First
+      Amendment, and Voting Rights Act claims on the merits; Poliquin dropped
+      the suit. The textual point does the work: no constitutional clause
+      requires plurality winners — states have used majority-or-runoff
+      systems since the founding era, and Georgia still does. (a) describes
+      the losing argument, (c) invents a holding that exists nowhere, and (d)
+      is false — there was a final merits ruling in December 2018.
+    concepts: [ranked-choice-voting, federalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      A critic says ranked-choice voting violates "one person, one vote"
+      because a voter whose ballot transfers "gets to vote twice." Which
+      response states what courts like Dudum v. Arntz (9th Cir. 2011)
+      actually held?
+    choices:
+      - id: a
+        text: >-
+          Courts agree it technically counts some ballots twice, but allow it
+          because the burden is minimal.
+      - id: b
+        text: >-
+          The doctrine doesn't apply to municipal elections, so the question
+          remains open for state and federal races.
+      - id: c
+        text: >-
+          In every round of tabulation each active ballot counts exactly
+          once, for exactly one candidate — rankings are contingency
+          instructions for a single vote, so no ballot outweighs another.
+      - id: d
+        text: >-
+          Ranked ballots survive only because voters can choose not to rank
+          more than one candidate.
+    correct_choice_id: c
+    explanation: >-
+      The mechanics are the answer: a transferred ballot stops counting for
+      the eliminated candidate the moment it starts counting for the next
+      one, so at any instant it is one ballot, one vote. Dudum upheld San
+      Francisco's system on exactly that reasoning — and rejected the mirror
+      image claim that ballots which exhaust are unequally treated. (a)
+      concedes a premise the courts rejected; (b) is wrong because federal
+      courts applied the analysis to congressional and presidential elections
+      in Baber and Hagopian; (d) confuses an option voters happen to have
+      with the legal rationale.
+    concepts: [ranked-choice-voting, equal-protection]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      Ranked-choice voting has genuinely lost in court — but where, and on
+      what ground?
+    choices:
+      - id: a
+        text: >-
+          In Maine — its Supreme Judicial Court advised in 2017, and again in
+          April 2026, that the state constitution's plurality clause bars RCV
+          in general elections for governor and the Legislature.
+      - id: b
+        text: >-
+          In the Ninth Circuit, which struck down San Francisco's system for
+          disenfranchising voters whose ballots exhaust.
+      - id: c
+        text: >-
+          In Alaska, where Kohlhaas v. State invalidated the top-four
+          ranked-choice system in 2022.
+      - id: d
+        text: >-
+          In the U.S. Supreme Court, which has held that congressional
+          elections require plurality winners.
+    correct_choice_id: a
+    explanation: >-
+      The one real legal defeat is a state constitutional text problem, not a
+      rights problem: Maine's constitution says state officers are elected
+      "by a plurality of all votes returned," and its high court has twice
+      read that clause to freeze single-round counting into place for those
+      offices — which is why Maine ranks ballots in primaries and federal
+      races but not for governor or Legislature in November. (b) reverses
+      Dudum, which upheld San Francisco's system. (c) reverses Kohlhaas,
+      which upheld Alaska's. (d) describes a case that does not exist — the
+      Supreme Court has never so held.
+    concepts: [ranked-choice-voting, majority-threshold, precedent]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Transfer question. The (hypothetical) state of Jefferson's constitution
+      says the governor is elected by "a majority of all votes cast." A
+      reform group proposes an instant-runoff statute. What is the most
+      legally careful assessment?
+    choices:
+      - id: a
+        text: >-
+          Same problem as Maine — any constitutional clause about winning
+          margins automatically forbids ranked-choice voting.
+      - id: b
+        text: >-
+          No issue at all — RCV always produces a majority, so the clause is
+          satisfied by definition.
+      - id: c
+        text: >-
+          Friendlier ground than Maine's plurality clause, since RCV
+          manufactures majorities — but a real wrinkle remains: with
+          exhausted ballots, the final-round "majority" can be less than a
+          majority of all votes cast, so drafting and a possible amendment
+          still matter.
+      - id: d
+        text: >-
+          The clause is unenforceable, because the federal Constitution
+          preempts state rules about how governors are elected.
+    correct_choice_id: c
+    explanation: >-
+      This is where the Maine lesson transfers without copying. A majority
+      clause points the same direction as RCV's purpose — unlike Maine's
+      plurality clause, which a court read as mandating a single count. But
+      "majority of all votes cast" is not automatic: if enough ballots
+      exhaust before the final round, the winner's final-round majority can
+      fall short of a majority of every ballot cast in the race, and a
+      textualist court could seize on exactly that gap. So (b) overclaims.
+      (a) overreads Maine — the holding turned on what its specific text
+      froze in place, not on margins clauses generally. (d) inverts
+      federalism: states have broad authority over their own offices.
+    concepts: [majority-threshold, federalism, instant-runoff]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      A city council invites you to assess the legal risk of adopting
+      ranked-choice voting for municipal elections. Drawing on this chapter,
+      write the core of your memo: what is legally settled, what must be
+      checked in this particular state, and how you would honestly
+      characterize the remaining risk to a skeptical councilmember.
+    socratic_seed: >-
+      Start by separating the layers: what have federal courts settled about
+      one person, one vote and the absence of any constitutional plurality
+      requirement — and which cases would you cite (Dudum, Minnesota Voters
+      Alliance, Baber, Hagopian)? Then the state layer: what made Maine
+      different, and what exactly would you read in this state's
+      constitution before opining? What does a statutory ban mean here —
+      is it a constitutional barrier or a policy choice, and how does Ohio's
+      funding-penalty model change the practical risk for a city? Push for
+      honesty about residual risk: procedural challenges like D.C.'s
+      Initiative 83 fight, Voting Rights Act theories courts have so far
+      rejected, and home-rule limits. If the law is this settled, why does
+      the councilmember keep hearing that RCV is unconstitutional — and
+      what does that gap tell us about where the real fight is?
+    concepts: [ranked-choice-voting, precedent, federalism]

@@ -1,0 +1,142 @@
+---
+schema: bettercitizen.lesson/v1
+slug: what-is-score-voting
+kind: reading
+title: What Is Score Voting?
+objectives:
+  - Walk through a complete score-voting count and explain why each candidate's score is an independent judgment, not a share of a budget
+  - Explain how score independence dissolves vote splitting and the spoiler effect by construction
+  - State what the simulation evidence says about ballot scale — why two-level approval already captures most of the cardinal advantage
+concepts:
+  - score-voting
+  - plurality
+duration_min: 9
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "What Is Score Voting?"'
+  - type: website
+    citation: 'Jameson Quinn, "Voter Satisfaction Efficiency (VSE) summary," electionscience.github.io/vse-sim — approval (a two-level score ballot) reaches roughly 89–95% VSE; 0–10 score reaches about 96% with honest voters: most of the cardinal advantage arrives with even the coarsest scale.'
+    url: https://electionscience.github.io/vse-sim/VSEbasic
+  - type: website
+    citation: 'Transcript of Aaron Hamlin''s 2012 podcast interview with Kenneth Arrow (The Center for Election Science) — Arrow: "score systems where you categorize in maybe three or four classes... is probably the best."'
+    url: https://rangevoting.org/ArrowTranscript.html
+  - type: website
+    citation: 'Wikipedia, "2021 St. Louis mayoral election" — first approval-voting (two-level score) primary in St. Louis, March 2, 2021: percentages sum past 100 because every candidate is evaluated by every voter.'
+    url: https://en.wikipedia.org/wiki/2021_St._Louis_mayoral_election
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+---
+
+# What Is Score Voting?
+
+You already know how to do this. You did it the last time you rated a restaurant, tipped a driver, or argued about whether a movie deserved four stars or five. Humans evaluate things on scales constantly, casually, and well. The only place we're forbidden to do it is the one place it matters most.
+
+[[term:score-voting]] — researchers often call it range voting — is exactly what it sounds like: give every candidate a score on a fixed scale, say 0 to 5. Highest total wins. That's the whole system. No rounds. No eliminations. No transfers. One ballot, one count, one winner.
+
+## The ballot
+
+Picture four candidates for mayor. Next to each name sits a row of bubbles, 0 through 5. You fill in one bubble per candidate — every candidate, including the ones you oppose, because a 0 is information too.
+
+<Figure caption="One voter's score ballot, and what the whole city did with the same four names. You scored Gutierrez a 5 — but the citywide averages elected Park at 3.4. Here's the part plurality can't do: your ballot still counted at full strength for that outcome, because your 4 for Park weighed in at exactly the value you assigned. Nothing was wasted, transferred, or eliminated." source="Illustrative election; averages are hypothetical">
+  <svg viewBox="0 0 720 280" width="100%" role="img" aria-label="A score ballot with four candidates, bubbles for scores 0 through 5 with one filled per row, and citywide average scores shown at right; Park wins with a 3.4 average">
+    <text x="20" y="28" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">MAYOR — score each candidate from 0 (no support) to 5 (strongest support)</text>
+    <text x="208" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">0</text>
+    <text x="262" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">1</text>
+    <text x="316" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">2</text>
+    <text x="370" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">3</text>
+    <text x="424" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">4</text>
+    <text x="478" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">5</text>
+    <text x="585" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fontWeight="bold" fill="var(--muted, #6b6457)">city average</text>
+    <text x="20" y="95" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Ana Gutierrez</text>
+    <circle cx="208" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="262" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="316" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="370" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="424" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="478" cy="90" r="9" fill="var(--accent, #8a2a1e)" />
+    <text x="585" y="95" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">3.1</text>
+    <text x="20" y="145" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">James Park</text>
+    <circle cx="208" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="262" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="316" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="370" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="424" cy="140" r="9" fill="var(--accent, #8a2a1e)" />
+    <circle cx="478" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <text x="585" y="145" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--green, #4a6b3a)">3.4 ★</text>
+    <text x="20" y="195" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Maria Thompson</text>
+    <circle cx="208" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="262" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="316" cy="190" r="9" fill="var(--accent, #8a2a1e)" />
+    <circle cx="370" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="424" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="478" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <text x="585" y="195" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">2.6</text>
+    <text x="20" y="245" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">David Chen</text>
+    <circle cx="208" cy="240" r="9" fill="var(--accent, #8a2a1e)" />
+    <circle cx="262" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="316" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="370" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="424" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <circle cx="478" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
+    <text x="585" y="245" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">1.2</text>
+  </svg>
+</Figure>
+
+Six bubbles per row. Fill one per candidate. You have just expressed more political information than a lifetime of [[term:plurality]] ballots could carry: your favorite (Gutierrez, 5), a strong second you'd gladly accept (Park, 4), a tolerable fallback (Thompson, 2), and a hard no (Chen, 0) — with the *sizes of the gaps* recorded, not just the order.
+
+## A worked count
+
+Tallying is addition. Here's a complete five-voter election so you can check every number yourself:
+
+| Ballot | Avila | Brooks | Chen | Dimas |
+| --- | --- | --- | --- | --- |
+| Voter 1 | 5 | 4 | 1 | 0 |
+| Voter 2 | 5 | 3 | 0 | 1 |
+| Voter 3 | 0 | 4 | 5 | 2 |
+| Voter 4 | 1 | 3 | 5 | 0 |
+| Voter 5 | 0 | 4 | 2 | 5 |
+| **Total** | **11** | **18** | **13** | **8** |
+
+Brooks wins with 18 points — and notice the shape of that win. Brooks is *nobody's* favorite: not one voter scored him a 5. Avila and Chen each have two passionate supporters and two detractors who scored them at the floor. Dimas has one devotee. Brooks is the candidate every single voter scored a 3 or a 4 — the one the whole town can live with, and govern under. Plurality literally cannot see this candidate. Score voting finds him with arithmetic a fourth-grader can audit.
+
+<Checkpoint question="Run those same five voters through a pick-one election, assuming each marks their highest-scored candidate. Who wins — and what information did that count never see?">
+  Avila and Chen tie at two votes each (Voters 1–2 pick Avila; 3–4 pick Chen; 5 picks Dimas), so the office goes to a coin flip, a lawsuit, or a runoff between the town's two *most polarizing* candidates. The count never saw that all five voters rated Brooks a 3 or better — the consensus simply vanished at the ballot box. Same voters, same opinions, different ballot: different town.
+</Checkpoint>
+
+## No vote splitting, by construction
+
+Here is the property that does the most work, so I'll state it carefully: **every candidate's score is independent**. Your 5 for Gutierrez doesn't draw down some account that your 4 for Park also taps. Each row of the ballot is its own question, answered on its own merits.
+
+That single design choice dissolves the pathologies of the last chapter. The spoiler effect runs on forced choices — supporting your favorite *instead of* your fallback. Score voting un-forces the choice: support both, at the levels you actually feel. A third-party candidate polling at 2 percent can collect every honest point her supporters want to give her without electing anyone's nightmare, because those supporters are simultaneously scoring the major candidates. "Don't waste your vote" stops parsing. There is nothing to waste.
+
+<QuickCheck
+  question="A pundit warns: 'If you score your compromise candidate a 4, you're splitting your vote and hurting your favorite, whom you scored 5.' What actually happens under score voting?"
+  choices={[
+    {id: 'a', text: 'The pundit is right — points given to one candidate dilute the others, so you should bullet-vote your favorite'},
+    {id: 'b', text: 'Nothing is split: each candidate is scored independently, and in any contest between the two, your ballot still favors your favorite by exactly the one-point gap you chose'},
+    {id: 'c', text: 'The 4 is subtracted from your favorite, so the favorite effectively receives a 1'},
+    {id: 'd', text: 'It depends on the scale — splitting only happens on scales wider than 0 to 5'},
+  ]}
+  answer="b"
+  explanation="Scores are independent judgments, not shares of a fixed budget. If the race comes down to your favorite versus your compromise, your ballot contributes 5 against 4 — still a vote for your favorite, by precisely the margin you believed. Choices (a) and (c) import plurality's zero-sum logic into a system built to eliminate it. (Whether voters might still *strategically* inflate or deflate scores is a real question — that's the math chapter, and I won't dodge it.)"
+/>
+
+## What scale? (It matters less than you've been told)
+
+Score voting comes in scales: 0–5, 0–10, and the minimalist version — 0 or 1, score everyone either "approve" or "don't" — which the world knows as approval voting. Approval is not a rival system; it *is* score voting on the coarsest possible scale, and when St. Louis ran its first approval primary in March 2021, the results page carried the signature of the whole cardinal family: candidate percentages summing past 100, because every voter judged every candidate.
+
+Partisans of particular scales overstate their case, and I've corrected my own draft on this point, so let me give you the evidence as it stands. In Jameson Quinn's voter-satisfaction simulations — the standard reference, which gets its own chapter — a two-level approval ballot already reaches roughly 89 to 95 percent of ideal voter satisfaction; widening to eleven levels (0–10) buys about 96 percent with honest voters. Read that again: going from two levels to eleven moves the needle a few points. The cardinal *structure* — judge everyone, independently — does almost all the work; the granularity is a tuning knob. Even Kenneth Arrow, whose impossibility theorem we'll meet properly in the math chapter, told an interviewer in 2012 that he was "a little inclined to think that score systems where you categorize in maybe three or four classes... is probably the best."
+
+So my practical advice runs against scale maximalism. A 0–5 scale fits a ballot row, matches the star-rating idiom every adult already speaks, and gives voters room to separate "strongest support" from "acceptable" from "no." A 0–10 scale is fine too. What I'd insist on is the zero: the scale must start at 0, not 1, because voters deserve a mark that means *opposition*, not merely faint praise. And one bookkeeping rule worth knowing: in the simplest version, a blank row counts as a 0, and the highest total wins. (Some proposals average scores instead, with safeguards for little-known candidates; I'll flag the difference when it matters.)
+
+## Two warnings before the sales pitch continues
+
+You should hear the catches from me first, and both get full chapters. First, Gibbard's theorem from the introduction applies here: a tactical score voter's optimal play is usually to push scores to the endpoints — 5s and 0s — which compresses score voting toward approval voting. I'll show you that math, and why a system whose worst case is *approval voting* is a system I can live with. Second, score voting elects the candidate with the broadest, deepest support — which is not always the candidate a bare majority would pick in a head-to-head fight. There's a worked example with my name on it in the math chapter, because you should see the strongest case against score voting written by someone who wants it to win.
+
+## What this chapter settles — and what it doesn't
+
+Settled: the mechanics. Score voting is rate-don't-rank; tallying is addition; every candidate is judged independently, which structurally eliminates vote splitting and the spoiler effect; and the choice of scale is a detail, not a doctrine — approval voting is the same machine with two settings.
+
+Not settled: whether "broadest, deepest support" is the right target for an election, how the system behaves when voters scheme, and how it stacks up against ranked-choice and STAR head-to-head. Next, the reform landscape — who the rivals are and what each one promises — before we start keeping score.

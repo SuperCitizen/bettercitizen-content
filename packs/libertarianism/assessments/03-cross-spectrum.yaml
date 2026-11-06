@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: cross-spectrum
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What was 'fusionism,' and what is its current condition?"
+    choices:
+      - id: a
+        text: "Frank Meyer's argument that traditionalist conservatism and libertarian economics are halves of one position; it ran the Republican coalition from Goldwater through Reagan and is now cracking as national conservatives embrace tariffs, industrial policy, and state power."
+      - id: b
+        text: "The Libertarian Party's strategy of running fusion tickets with both major parties; it ended with the 2022 Reno convention."
+      - id: c
+        text: "John Tomasi's synthesis of Rawlsian justice and free markets; it remains the dominant view among Republican policymakers."
+      - id: d
+        text: "The Cold War merger of libertarians and progressives around civil liberties; it dissolved after the First Step Act passed."
+    correct_choice_id: a
+    explanation: "Fusionism was Meyer's National Review-era synthesis: virtue must be freely chosen, so a free economy is the precondition of a virtuous society — libertarian means serving traditionalist ends. It was a treaty, not a theory, and the national-conservative turn (tariffs, industrial policy, state power against cultural adversaries) is breaking it from the conservative side. Option (c) describes bleeding-heart libertarianism, an academic position, not a governing coalition; (b) and (d) attach real events to invented arrangements."
+    concepts: [libertarianism, conservatism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A libertarian organization joins progressives to end civil asset forfeiture, then joins conservatives weeks later to block a new occupational-licensing law that many progressives support. Which principle predicts both moves?"
+    choices:
+      - id: a
+        text: "Minimize coercion as the libertarian defines it: forfeiture is state seizure of property without conviction, and licensing is state restriction of voluntary exchange — different allies, same premise."
+      - id: b
+        text: "Support property rights when conservatives do, and civil liberties when progressives do — borrowing each coalition's premise in turn."
+      - id: c
+        text: "Oppose whichever party currently holds power, to preserve independence."
+      - id: d
+        text: "Side with business interests: forfeiture disrupts commerce and licensing protects incumbents."
+    correct_choice_id: a
+    explanation: "Both moves apply one premise — state coercion of peaceful conduct is presumptively wrong — to issues that other traditions sort differently (progressives by equality, conservatives by order). That is why libertarian coalitions assemble and dissolve issue by issue: the partners share conclusions, not premises. Option (b) gets the pattern backwards — the premise is constant and the allies rotate. Option (d) fails on forfeiture, which targets individuals, and would also predict libertarians *supporting* licensing when incumbent businesses want it — the opposite of the record."
+    concepts: [libertarianism, progressivism, conservatism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "As of mid-2026, which statement about Argentina under Javier Milei is supported by the verified record?"
+    choices:
+      - id: a
+        text: "Anarcho-capitalism has been tested at national scale: courts, police, and the currency were privatized."
+      - id: b
+        text: "Monthly inflation fell steeply, the government ran its first primary fiscal surplus since 2010, and poverty spiked severely in 2024 before falling below its pre-Milei level by mid-2025."
+      - id: c
+        text: "Inflation fell, but poverty has remained above 50 percent since the program began."
+      - id: d
+        text: "Voters punished the program: Milei's party lost seats in the October 2025 midterms."
+    correct_choice_id: b
+    explanation: "The verified record holds three things at once: steep disinflation (monthly inflation from a 25.5% peak in December 2023 to the 2–2.5% range by late 2025), a primary fiscal surplus, and a brutal poverty spike to 52.9% in early 2024 that receded to 31.6% by mid-2025. Option (a) overclaims the regime — Milei has governed as a fiscal stabilizer, and no core state function has been privatized, so anarcho-capitalism's distinctive claims remain untested. Options (c) and (d) reverse the trends: poverty fell and Milei's party won about 41% and more than doubled its lower-house seats."
+    concepts: [libertarianism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "The Libertarian Party has never exceeded 3.3 percent of the presidential vote, yet adult-use cannabis is legal in 24 states, universal school choice spread across 19 states, and the draft has been gone since 1973. Which reading of this record do the verified facts support?"
+    choices:
+      - id: a
+        text: "Small movements can win arguments without winning offices — these ideas became law because both major parties and the courts carried them."
+      - id: b
+        text: "The Libertarian Party quietly controls the swing votes in most state legislatures."
+      - id: c
+        text: "The policies were adopted for reasons unconnected to libertarian advocacy, so the movement's influence is an illusion."
+      - id: d
+        text: "Libertarianism has won across the board — including on surveillance, spending, and executive power."
+    correct_choice_id: a
+    explanation: "The electoral scoreboard and the policy scoreboard can diverge for decades: libertarians supplied arguments (Friedman's 1955 voucher essay, the Gates Commission, the LP's 1972 victimless-crime plank) that other coalitions later enacted. Option (c) ignores the documented advocacy pipelines (Friedman on the draft, Koch-network groups on the First Step Act); option (d) is the overclaim the record refutes — the same decades saw expansions of surveillance, debt, and executive power that libertarians opposed and lost. Honest evaluation separates the two scoreboards."
+    concepts: [libertarianism]
+
+  - id: q5
+    kind: free-response
+    text: "G. A. Cohen argued that taking self-ownership seriously does not yield capitalist property in the external world — and that 'liberty' for the propertyless is formal, not real. Construct the strongest libertarian reply, then say where you think Cohen's critique still bites."
+    socratic_seed: "Replies available in the tradition: the Lockean labor-mixing account ties external property to self-ownership directly; Brennan's Why Not Capitalism? presses that fair comparisons match ideal against ideal — comparing real capitalism to imagined socialism stacks the deck; the bleeding-heart move answers 'formal liberty' empirically, pointing to market economies' record of raising the floor for the worst-off. Where Cohen may still bite: initial acquisition was historically violent almost everywhere, so Nozick's own rectification principle is doing more work than most libertarians let it; and freedom of contract under destitution raises the background-conditions problem Rawlsians press too — a hungry person's 'voluntary' agreement is the hard case for the voluntary/coerced distinction the whole tradition rests on. A strong answer engages both the property derivation and the formal-versus-real liberty question rather than only one."
+    concepts: [libertarianism, socialism]

@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Two integrated-assessment models accept identical climate science yet produce social-cost-of-carbon estimates an order of magnitude apart — one urging crash decarbonization, the other a modest carbon price. What is the most likely source of the divergence?"
+    choices:
+      - id: a
+        text: "Different equilibrium climate sensitivity estimates."
+      - id: b
+        text: "Different discount rates — that is, different ethical weightings of future people's welfare."
+      - id: c
+        text: "One model includes co-benefits like air quality and the other does not."
+      - id: d
+        text: "Different projections of future population growth."
+    correct_choice_id: b
+    explanation: "This is the Stern–Nordhaus fight in miniature: Stern's roughly 1.4 percent rate (pure time preference near zero, on ethical grounds) versus Nordhaus's roughly 4.3 percent (calibrated to market returns) moved their social-cost estimates by about an order of magnitude from the same physics — $1,000 of damage in 2100 is worth about $350 today at the first rate and about $43 at the second. Sensitivity, co-benefits, and population matter at the margins, but no other single parameter moves the answer that much. The deep point: the rate is an ethical choice wearing quantitative clothing."
+    concepts: [climate, integrated-assessment, consequentialism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Weitzman's 'dismal theorem' argues that climate risk is fat-tailed. What does that imply for how policy analysis should be framed?"
+    choices:
+      - id: a
+        text: "Expected-value optimization should be replaced or supplemented by an insurance logic: pay premiums to trim the catastrophic tail."
+      - id: b
+        text: "Since catastrophe is unlikely, central estimates are the only sound basis for policy."
+      - id: c
+        text: "Discount rates should be raised to reflect the extra uncertainty."
+      - id: d
+        text: "Damage estimates should exclude low-probability outcomes to avoid alarmism."
+    correct_choice_id: a
+    explanation: "Weitzman (2009) showed that when the probability of extreme outcomes shrinks too slowly relative to how bad they get, expected-value arithmetic misbehaves — the tail dominates the calculation. The practical legacy is reframing mitigation as insurance against ruin rather than an optimization around the central case: societies routinely pay premiums far above expected losses to cap catastrophic exposure. Choices (b) and (d) do exactly what the theorem warns against; (c) gets the direction of the adjustment wrong."
+    concepts: [climate, integrated-assessment]
+
+  - id: q3
+    kind: multiple-choice
+    text: "From the Global Carbon Budget 2025: China emits about 32% of fossil CO2 (about 8.6 tonnes per person); the U.S. about 13% (about 14.3 tonnes per person) and holds the largest cumulative total since industrialization; India about 8% (about 2.1 tonnes per person). Which negotiating claim is factually accurate?"
+    choices:
+      - id: a
+        text: "'The U.S. is the largest current emitter, so it must move first.'"
+      - id: b
+        text: "'China's per-person emissions exceed America's, so China owes the larger cut.'"
+      - id: c
+        text: "'An average American's footprint is roughly seven times an average Indian's, and the U.S. has used more of the cumulative budget than any country.'"
+      - id: d
+        text: "'India's total emissions are falling, so it needs no target.'"
+    correct_choice_id: c
+    explanation: "Only (c) matches the data: 14.3 versus 2.1 tonnes per person is roughly sevenfold, and the U.S. leads cumulatively. China is the largest *current* emitter (not the U.S.), American per-person emissions far exceed China's (not the reverse), and India's totals are rising, not falling. The harder lesson: absolute, per-capita, and cumulative measures are all real and answer different normative questions — where is leverage now, who lives highest-carbon, who consumed the budget. Naming the metric before drawing the conclusion is what separates argument from table-pounding."
+    concepts: [climate, mitigation]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Adaptation-first advocates cite the partial repeal of the IRA's clean-energy credits in 2025 — three years after enactment — as confirming evidence. Confirming evidence of what claim?"
+    choices:
+      - id: a
+        text: "That clean-energy technologies do not reduce emissions."
+      - id: b
+        text: "Pielke's 'iron law': policies imposing visible near-term costs in the name of emissions goals get reversed when they exceed voters' cost tolerance."
+      - id: c
+        text: "That adaptation spending is always more cost-effective than mitigation spending."
+      - id: d
+        text: "That carbon taxes outperform subsidies."
+    correct_choice_id: b
+    explanation: "The 'iron law' is a political-economy claim about durability, not a claim about technology or cost-effectiveness — and the 2022–2026 arc (largest climate investment in history, partially repealed by the next bare majority, plus a second Paris exit) is its strongest real-world exhibit. Note what the evidence does and does not show: it says nothing about whether solar works or whether adaptation beats mitigation per dollar (a and c), and the repealed policy was a subsidy regime, not a carbon tax (d). Innovation-led advocates read the same episode differently — as proof that subsidy strategies survive only if they build constituencies faster than opponents organize."
+    concepts: [climate, mitigation, adaptation, subsidy]
+
+  - id: q5
+    kind: free-response
+    text: "Pick the position you find least persuasive — aggressive mitigation, adaptation-first, or innovation-led — and write its strongest response to the most damaging piece of evidence against it from this lesson."
+    socratic_seed: "Test for genuine steel-manning, not caricature. Aggressive mitigation vs. the iron-law evidence: the answer should invoke design (dividends, transition assistance), falling technology costs shrinking the visible-cost problem, and Weitzman-style insurance logic that justifies premium costs. Adaptation-first vs. the nonlinearity/tipping-point evidence: the answer should concede limits, argue marginal-dollar logic still favors resilience for decades, and note adaptation's incentive-compatibility (local, excludable benefits). Innovation-led vs. the OBBBA repeal: the answer should argue the strategy's bet is constituency-building (factories in opposing-party districts slowed repeal), that cost declines persist independent of any statute, and that cheap clean energy is the only mechanism that routes around the global free-rider problem. A strong answer names the evidence honestly before answering it."
+    concepts: [climate, steel-man, mitigation, adaptation]

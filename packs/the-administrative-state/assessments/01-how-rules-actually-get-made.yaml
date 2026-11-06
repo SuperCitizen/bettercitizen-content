@@ -1,0 +1,179 @@
+schema: bettercitizen.assessment/v1
+lesson: how-rules-actually-get-made
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      The EPA publishes a final rule in the Federal Register setting a new
+      limit on a pollutant, citing its Clean Air Act authority. Which
+      statement about that rule's legal status is correct?
+    choices:
+      - id: a
+        text: >-
+          It is advisory until Congress votes to codify it into the U.S. Code
+      - id: b
+        text: >-
+          It binds with the force of law — enforceable in court like a
+          statute — so long as it falls within the delegated authority and
+          followed required procedure
+      - id: c
+        text: >-
+          It binds only the regulated firms that submitted comments during
+          the rulemaking
+      - id: d
+        text: >-
+          It binds until the next presidential inauguration, when all rules
+          lapse unless renewed
+    correct_choice_id: b
+    explanation: >-
+      A valid legislative rule carries the full force of law the moment it
+      takes effect — violating it carries the same kind of legal consequence
+      as violating a statute. Congress never votes on it (choice a confuses
+      the U.S. Code with the CFR, the rules' own codification), comment
+      participation has nothing to do with who is bound (choice c), and
+      rules persist across administrations unless rescinded through a new
+      State Farm-proof rulemaking or killed by CRA resolution (choice d is
+      the misconception the 2025 deregulation push ran into — repeal
+      requires process too).
+    concepts: [administrative-state, bureaucracy]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      An agency announces, without notice and comment, that it now reads its
+      decades-old equipment rule to cover drone-mounted devices, and begins
+      enforcement. Challengers say this needed §553 process. The dispute
+      turns on whether the announcement is…
+    choices:
+      - id: a
+        text: >-
+          A formal rule, invalid because the agency skipped trial-type
+          hearings under §§556–557
+      - id: b
+        text: >-
+          A legislative rule in disguise — it adds new binding obligations
+          rather than fairly interpreting existing ones — which would make
+          it procedurally invalid
+      - id: c
+        text: >-
+          A significant regulatory action, invalid because it skipped OIRA
+          review
+      - id: d
+        text: >-
+          A major rule, invalid because it was never submitted to Congress
+          under the CRA
+    correct_choice_id: b
+    explanation: >-
+      Interpretive rules and policy statements are exempt from notice and
+      comment, but the exemption holds only if the document genuinely
+      interprets duties the existing rule already imposed. If drones were
+      not fairly within the old rule, the "interpretation" legislates new
+      obligations without process. Choice a fails because formal rulemaking
+      applies only when a statute requires rules "on the record after
+      opportunity for an agency hearing" (Florida East Coast, 1973) — magic
+      words almost never present. Choices c and d name real checkpoints but
+      wrong ones: OIRA review is an executive-order requirement enforced
+      inside the executive branch, not a ground private challengers
+      typically win on, and CRA submission governs effectiveness, not the
+      legislative-vs-interpretive line.
+    concepts: [administrative-state, judicial-review]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      Comparing the regulatory-review regime of mid-2026 with the system
+      that operated from 1993 through 2024, which feature is genuinely new?
+    choices:
+      - id: a
+        text: >-
+          Centralized White House cost-benefit review of significant rules
+      - id: b
+        text: >-
+          A $100 million threshold defining a "significant regulatory
+          action"
+      - id: c
+        text: >-
+          OIRA review of significant rules from independent regulatory
+          agencies like the SEC and FCC, required by EO 14215 (2025)
+      - id: d
+        text: >-
+          OIRA's power to return a draft rule to the issuing agency
+    correct_choice_id: c
+    explanation: >-
+      Every prior version of centralized review since Reagan's EO 12291
+      (1981) — including Clinton's EO 12866, which still anchors the system
+      — exempted the independent regulatory commissions. EO 14215 (February
+      2025) erased that exemption, pulling the SEC, FCC, FTC and their
+      siblings into White House review for the first time. Choices a, b,
+      and d describe the standing machinery: cost-benefit review dates to
+      1981, the $100 million significance line and return-letter practice
+      to EO 12866 in 1993 (the threshold briefly rose to $200 million under
+      Biden's EO 14094 before its January 2025 rescission). Distinguishing
+      the durable architecture from each administration's dial-settings is
+      the skill this question tests.
+    concepts: [executive-order, administrative-state]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Four rules are finalized during a presidential election year. The
+      incumbent party loses the White House; in January the new President's
+      party also holds 52 Senate seats and a House majority. Which rule is
+      in the MOST procedural danger from the Congressional Review Act?
+    choices:
+      - id: a
+        text: A rule finalized in February of the election year
+      - id: b
+        text: >-
+          A rule finalized in late October, inside the final 60 legislative
+          days of the outgoing Congress
+      - id: c
+        text: >-
+          A rule finalized three years earlier that the new majority
+          strongly opposes
+      - id: d
+        text: >-
+          All four are equally exposed, since the CRA reaches any rule a
+          majority dislikes
+    correct_choice_id: b
+    explanation: >-
+      The CRA's lookback provision re-opens the disapproval clock, for the
+      next Congress, on every rule submitted within the final 60 legislative
+      days of the prior one — and with unified government, the joint
+      resolution gets simple majorities (no Senate filibuster) plus a
+      willing presidential signature. That is why 2017, 2021, and 2025 saw
+      nearly all CRA activity in history, including 2025's record 22
+      resolutions. The February rule's window expired mid-year against a
+      certain veto; the three-year-old rule is far outside any window
+      (choices c and d describe a power the CRA does not confer — it is a
+      transition-season weapon, not a general repeal tool). Repealing old
+      rules requires fresh notice-and-comment rulemaking that survives
+      State Farm review.
+    concepts: [administrative-state, filibuster]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      A newly inaugurated administration wants a predecessor's
+      eighteen-month-old final rule gone. Its lawyers list every lawful
+      path. Write that list as you understand it, and for each path name
+      the constraint most likely to defeat it.
+    socratic_seed: >-
+      Strong answers find at least three paths and price each one. (1) CRA
+      disapproval is unavailable — at eighteen months the rule is far
+      outside the review and lookback windows, a distinction sloppier
+      answers miss. (2) Rescission by new notice-and-comment rulemaking is
+      the standard route, but State Farm applies the same hard look to
+      repeals as to rules: the agency must build a record, address the old
+      rule's factual findings, consider alternatives and reliance
+      interests, and survive arbitrary-and-capricious review — typically a
+      one-to-three-year project. (3) Non-enforcement discretion and
+      guidance can blunt the rule's bite immediately but cannot erase
+      private rights of action or bind future administrations, and
+      aggressive "guidance repeals" invite their own APA challenges. (4)
+      Declining to defend the rule in pending litigation, or supporting
+      congressional repeal by statute, round out the menu. Probe whether
+      the student sees the system's deliberate asymmetry: the
+      administrative state is slow in reverse for the same procedural
+      reasons it is slow forward.
+    concepts: [administrative-state, executive-order, judicial-review]

@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: cross-spectrum
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Under the socialist tradition's own definition — social ownership or control of the means of production — which single plank of Mamdani's program counts as socialism in the strict sense?"
+    choices:
+      - id: a
+        text: "The rent freeze on roughly one million rent-stabilized apartments."
+      - id: b
+        text: "The five city-owned grocery stores."
+      - id: c
+        text: "Fare-free city buses."
+      - id: d
+        text: "The $30-by-2030 minimum wage."
+    correct_choice_id: b
+    explanation: "Only the grocery pilots put production in public hands — five stores in a city with thousands. The buses (and childcare) are decommodified services, free at the point of use but transferring no ownership; the rent freeze and the minimum wage are price regulation of private markets, where ownership stays put. That the flagship 'socialist' program is overwhelmingly social-democratic in mechanism is exactly why the lesson reads it as Milwaukee's sewer socialism at New York scale — and why the intra-left debate over whether it is 'really' socialism is so lively."
+    concepts: [socialism, social-democracy]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Sanders, Warren, and the Squad campaign on overlapping bills. What is the cleanest analytical line between progressivism and socialism that survives the overlap?"
+    choices:
+      - id: a
+        text: "Progressives want larger welfare spending than socialists do."
+      - id: b
+        text: "Socialists reject electoral politics; progressives embrace it."
+      - id: c
+        text: "Progressives aim to regulate and tax private capitalism into fairness; socialists locate the problem in ownership itself and treat regulation as scaffolding for changing who owns."
+      - id: d
+        text: "Progressives accept Piketty's r > g data; socialists dispute it."
+    correct_choice_id: c
+    explanation: "The dividing line is the end-state, not this year's bill docket: Warren's 'capitalist to my bones' and DSA's constitution describe different destinations even when the legislation matches. (d) is backwards in an instructive way — both camps accept Piketty's diagnosis and split on the prescription (wealth taxes within capitalism versus changing ownership). (b) describes only the Marxist-revolutionary stream; nearly all elected U.S. socialists work through elections. (a) has no basis — spending levels do not distinguish the camps."
+    concepts: [socialism, progressivism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A country privatizes its water systems, converts public housing to market rents, and reclassifies most of its workforce as independent contractors within a decade. Using Polanyi's double movement, what should you predict comes next — and from where?"
+    choices:
+      - id: a
+        text: "A socialist revolution, since commodifying labor mechanically radicalizes workers."
+      - id: b
+        text: "Nothing systematic: markets clear, and politics adjusts to the new equilibrium."
+      - id: c
+        text: "A protective counter-movement only if unions are already strong, since Polanyi's mechanism runs through organized labor."
+      - id: d
+        text: "Protective counter-movements demanding shelter from commodification — potentially from both left and right, since the counter-movement is not the property of either."
+    correct_choice_id: d
+    explanation: "Polanyi's claim is that land, labor, and money are 'fictitious commodities': treat them as pure market goods and society tears, generating a protective counter-thrust. The point easy to miss — and the one this question tests — is that the reaction has no fixed partisan home: Tory paternalists backed factory acts, and Bismarck built social insurance precisely to take the socialists' issue away. (a) predicts a specific left outcome Polanyi does not; (c) inverts him — the counter-movement produces organization as much as it requires it; (b) is the view the double movement was written against."
+    concepts: [socialism, communitarianism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A governor pledges to 'bring the Nordic model' to her state. Judged against what the Nordic countries actually built, which item on her list is the odd one out?"
+    choices:
+      - id: a
+        text: "Universal, tax-funded childcare."
+      - id: b
+        text: "Broad-based taxes that reach the middle class, not just the rich."
+      - id: c
+        text: "A high statutory minimum wage."
+      - id: d
+        text: "Policies designed to raise union density and enable sectoral bargaining."
+    correct_choice_id: c
+    explanation: "No Nordic country has any statutory minimum wage — wage floors are set sector by sector through collective bargaining backed by union density of roughly 50 to 67 percent (versus 10 percent in the U.S.). The other three items are genuinely Nordic: universal services, taxes worth 40–45 percent of GDP that necessarily reach the middle class, and the bargaining institutions that do the work a statute does in America. The deeper lesson: importing the benefits without the taxes and the institutions — or calling the package 'socialism' when it sits atop emphatically private ownership — misreads what the Nordics built."
+    concepts: [social-democracy, socialism]
+
+  - id: q5
+    kind: free-response
+    text: "The lesson says reading Mamdani's first eighteen months as vindication ('material wins, delivered democratically') or as dilution ('social democracy with a bolder label') is close to a perfect test of which socialist stream you occupy. Take a side — and name one concrete observable from the next two years that would flip you to the other reading."
+    socratic_seed: "Press for mechanism-level evidence rather than vibes: the June 2026 rent-board vote, the grocery pilots' books once stores open, whether Albany ever grants the surtax and the bus money. Connect to Przeworski — if every program that wins is the affordability program, is dilution structural rather than a choice, and would that count for or against the learner's reading? Make the observable do real work: ask what the OTHER reading predicts differently about the same event, so the evidence actually discriminates rather than confirms. If the learner picks an observable the mayor does not control (Albany, the MTA), ask whether it tests socialism or merely tests federalism and coalition politics."
+    concepts: [socialism, social-democracy]

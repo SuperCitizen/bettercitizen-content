@@ -1,6 +1,6 @@
-# supercitizen-content
+# bettercitizen-content
 
-Curriculum and reference content for [SuperCitizen](https://supercitizen.ai) —
+Curriculum and reference content for [BetterCitizen](https://bettercitizen.ai) —
 the personal AI civic coach.
 
 This repo is the **source of truth** for everything the app teaches. It is
@@ -18,8 +18,10 @@ public — that is the whole point.
 | `glossary/` | Glossary terms (definitions the coach and lessons reference). | YAML, one file per term |
 | `ideologies/` | Political traditions used by the steel-man flow. | YAML, one file per ideology |
 | `issues/` | Issue cards + per-issue charitable framings (left/center/right). | YAML, one file per issue |
-| `organizations/` | Civic + governmental organizations. | YAML, one file per org |
+| `news-sources/` | News outlets the app's news features draw from (feed URL, tier, editorial lean). | YAML, one file per outlet |
+| `organizations/` | Civic, governmental, think-tank, and university organizations. University-hosted policy centers link to their host via `parent_org` + `org_relationship` and carry `partisan_lean`, `ideology_tags`, and `influence_channels`. | YAML, one file per org |
 | `persons/` | **Editorial** people (tier 3/4 commentators, journalists, public figures). | YAML, one file per person |
+| `scripts/` | Dev-only structural checks (MDX compile, catalog whitelist, render smoke test). Content authors never need these. | Node |
 | `touchstones/` | Touchstones — short memorable lines in four kinds (`saying`/`quote`/`fact`/`number`), the corpus behind the app's recall training. Authoring standard: [TOUCHSTONES.md](TOUCHSTONES.md). | YAML, one file per item |
 | `meta/` | Repo-level data read by the validator *and* the authoring prompts (e.g. `banned-sources.yaml`). | YAML |
 
@@ -55,12 +57,12 @@ Today (Phase 1) the app reads this repo from a sibling checkout on disk:
 
 ```
 Repos/
-├── supercitizen/            # the app
-└── supercitizen-content/    # this repo
+├── bettercitizen.ai/        # the app
+└── bettercitizen-content/   # this repo
 ```
 
 The app's `CONTENT_LOCAL_PATH` env var points at this checkout (default
-`../supercitizen-content`). Seeding happens through the app — the
+`../bettercitizen-content`). Seeding happens through the app — the
 `/setup/seed` step on a fresh install, or an admin "Re-seed" action — which
 parses + validates everything here and writes it into the app's database.
 
@@ -78,14 +80,30 @@ sibling. The on-disk layout here won't change when that lands.
 
 ### Validation
 
-Content is validated against the schemas the app defines. CI runs the validator
-on every PR. To run it locally, point a SuperCitizen app checkout at this repo
-and run its content validator:
+Two layers of checks run in CI on every PR (see `.github/workflows/`):
 
-```sh
-# from the supercitizen app checkout
-CONTENT_LOCAL_PATH=../supercitizen-content pnpm validate-content
-```
+1. **Standalone structural checks** (`check-mdx.yml`) — no app checkout needed.
+   Compiles every `.mdx` lesson, enforces the component catalog and the
+   no-`import`/`export` rule, cross-checks `pack.yaml` lesson lists,
+   typechecks the component library, and server-renders every lesson:
+
+   ```sh
+   npm install
+   npm run check
+   ```
+
+2. **The app's schema validator** (`validate.yml`) — content is validated
+   against the schemas the app defines. To run it locally, point a
+   BetterCitizen app checkout at this repo and run its content validator:
+
+   ```sh
+   # from the bettercitizen.ai app checkout
+   CONTENT_LOCAL_PATH=../bettercitizen-content pnpm validate-content
+   ```
+
+   Note: until the app's MDX migration lands (see
+   [MIGRATION.md](MIGRATION.md)), the app validator targets the last pre-MDX
+   commit of this repo.
 
 ## License
 

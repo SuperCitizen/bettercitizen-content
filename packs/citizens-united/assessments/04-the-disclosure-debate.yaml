@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-disclosure-debate
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A donor gives \\$5 million to a 501(c)(4) for its \"general purposes.\" The group spends heavily on election ads and transfers millions to a Super PAC. Under current federal law, where does the donor's name appear publicly?"
+    choices:
+      - id: a
+        text: "In the Super PAC's FEC filings, which must trace money to original sources."
+      - id: b
+        text: "In the 501(c)(4)'s public IRS filings."
+      - id: c
+        text: "Nowhere — the FEC rule reaches only contributions earmarked \"for the purpose of furthering\" a specific reported ad, and unearmarked gifts to a nonprofit never surface."
+      - id: d
+        text: "On the ads themselves, under the disclaimer rules."
+    correct_choice_id: c
+    explanation: "The Super PAC discloses its donor — the nonprofit's name. The nonprofit's donors are not public under IRS rules, and the FEC regulation's \"purpose of furthering\" language is avoided by simply not earmarking. This single regulatory phrase, not any court holding, is the architecture of dark money — which is why reform proposals target original-source tracing."
+    concepts: [dark-money, donor-disclosure]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did Wood and Spencer's study \"In the Shadows of Sunlight\" (2016) actually find about disclosure's chilling effect on donors?"
+    choices:
+      - id: a
+        text: "Disclosure cuts political giving roughly in half."
+      - id: b
+        text: "The chilling effect is negligible — on average less than one donor per candidate stops giving when contributions become publicly visible, with no outsized effect on small or ideologically extreme donors."
+      - id: c
+        text: "Disclosure increases giving, because donors seek publicity."
+      - id: d
+        text: "The study found state data too poor to draw any conclusion."
+    correct_choice_id: b
+    explanation: "Using variation in state disclosure regimes, Wood and Spencer found speech-chilling effects near zero on average — the key empirical exhibit for the reformer position. Privacy advocates respond by pointing at the tails rather than the average: NAACP v. Alabama protects against rare-but-severe retaliation, which average effects can mask. Knowing what the study found — and what it cannot answer — is the difference between citing evidence and citing a talisman."
+    concepts: [donor-disclosure]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Why do reformers say the constitutional question about DISCLOSE-style laws is largely settled, while privacy advocates say it is newly open? Both point at real cases — which pairing is right?"
+    choices:
+      - id: a
+        text: "Reformers cite Citizens United's 8–1 disclosure holding and Doe v. Reed (2010); privacy advocates cite Americans for Prosperity Foundation v. Bonta (2021), whose narrow-tailoring requirement a future Court could extend to electoral disclosure."
+      - id: b
+        text: "Reformers cite Bonta; privacy advocates cite Doe v. Reed."
+      - id: c
+        text: "Both sides rely on McCutcheon v. FEC."
+      - id: d
+        text: "Neither side has any precedent; the area is a blank slate."
+    correct_choice_id: a
+    explanation: "The 2010 cases (Citizens United on disclosure, 8–1; Doe v. Reed, 8–1) bless electoral transparency on the voters' informational interest. Bonta (2021, 6–3) struck a nonelectoral donor-disclosure dragnet and demands narrow tailoring for any compelled disclosure. The unresolved question — likely to be tested by litigation over state laws like Arizona's Prop 211 — is whether Bonta stays confined to its non-election context or migrates."
+    concepts: [donor-disclosure, citizens-united]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Arizona's Proposition 211 (2022) differs from the California regime struck down in Bonta chiefly because it…"
+    choices:
+      - id: a
+        text: "collects every charity's full donor list confidentially for fraud prevention."
+      - id: b
+        text: "requires original-source disclosure only above high spending and donation thresholds, and only for money actually spent on campaign media — where courts recognize voters' informational interest."
+      - id: c
+        text: "bans dark-money groups from spending in Arizona elections."
+      - id: d
+        text: "applies only to corporations, not individuals."
+    correct_choice_id: b
+    explanation: "Prop 211 (adopted with about 72 percent of the vote) traces money spent on campaign media back through intermediaries to true sources, but only for spenders over \\$50,000 statewide (\\$25,000 other) and donors over \\$5,000. That election nexus plus tailoring is the design distinction from Bonta's dragnet — and exactly the ground on which its pending court challenges will be decided. It bans nothing; it identifies."
+    concepts: [donor-disclosure, dark-money]
+
+  - id: q5
+    kind: free-response
+    text: "The NAACP in 1958 and an anonymous donor to a controversial cause in 2026 both claim that compelled disclosure would expose them to retaliation. Construct the strongest argument that the two cases should be treated the SAME, and the strongest argument that they should be treated DIFFERENTLY — then say where you would draw the line and what evidence your line depends on."
+    socratic_seed: "Same: the anonymity principle is viewpoint-neutral; retaliation is mechanized (doxxing, employment consequences) in ways 1958 never imagined; rights cannot depend on whose causes are currently unpopular. Different: the NAACP's members were private associates, not financiers of mass election advertising aimed at the public; Buckley and Doe v. Reed recognize voters' distinct interest in knowing who is trying to persuade them; as-applied exemptions (which Buckley itself preserved for genuinely threatened groups) can protect the tails without keeping the public blind by default. Your line probably turns on an empirical claim about how common severe retaliation actually is — name it."
+    concepts: [donor-disclosure, dark-money, citizens-united]

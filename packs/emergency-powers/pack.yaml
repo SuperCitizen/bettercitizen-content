@@ -1,0 +1,31 @@
+schema: bettercitizen.content/v1
+slug: emergency-powers
+title: Emergency Powers
+summary: >-
+  The Constitution gives emergencies one sentence — the Suspension Clause —
+  and the republic has been arguing about the rest since Lincoln and Taney
+  collided over a 2 a.m. arrest in 1861. This pack reads the founding silence
+  against the Roman dictatorship the Framers knew; works through the wartime
+  canon (Merryman, Milligan, Quirin, Korematsu, Hamdi) with the opinions
+  quoted and argued with; maps the statutory emergency state Congress built
+  instead — the National Emergencies Act and its Chadha-broken termination
+  machinery, IEEPA and the 2026 tariff ruling, the Insurrection Act and Posse
+  Comitatus tested in the 2025–26 deployment litigation — through Youngstown's
+  three categories; and then holds the live argument honestly: Schmitt's
+  challenge, Rossiter's constitutional dictatorship, Posner and Vermeule's
+  executive flexibility, the ARTICLE ONE reform agenda, and the
+  judicial-engagement tradition from Sterling to the present, with
+  forty-eight emergencies running as of mid-2026 and the oldest in its fifth
+  decade.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [emergency-powers, executive-power, constitution, civics-401]
+level: scholar
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-the-constitution-of-emergency.mdx
+  - 02-the-statutory-emergency-state.mdx
+  - 03-reform-and-the-permanent-emergency.mdx

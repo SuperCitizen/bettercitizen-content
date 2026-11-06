@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-aftermath
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In SpeechNow.org v. FEC (2010), the en banc D.C. Circuit struck the \\$5,000 cap on contributions to independent-expenditure-only groups — but the same opinion UPHELD something. What?"
+    choices:
+      - id: a
+        text: "The ban on corporate contributions to candidates."
+      - id: b
+        text: "SpeechNow's obligation to register as a political committee and publicly report its donors."
+      - id: c
+        text: "BCRA §203's electioneering-communication ban."
+      - id: d
+        text: "The aggregate limit on individual giving."
+    correct_choice_id: b
+    explanation: "SpeechNow lost on disclosure: the court unanimously upheld the organizational, registration, and reporting requirements even while voiding the contribution caps. That is why Super PACs itemize their donors in FEC filings to this day — and why the dark-money problem runs through 501(c)(4) intermediaries (an IRS regime) rather than through Super PACs themselves."
+    concepts: [super-pacs, independent-expenditures, donor-disclosure]
+
+  - id: q2
+    kind: multiple-choice
+    text: "After McCutcheon v. FEC (2014), a donor wants to give the legal per-candidate maximum to 100 different House candidates in one cycle. What does federal law say?"
+    choices:
+      - id: a
+        text: "Illegal — the aggregate limit caps total giving across all candidates."
+      - id: b
+        text: "Legal — McCutcheon struck the aggregate ceiling; only each per-candidate base limit constrains her."
+      - id: c
+        text: "Legal only if the candidates are in different states."
+      - id: d
+        text: "Illegal — individuals may support at most nine candidates per cycle."
+    correct_choice_id: b
+    explanation: "McCutcheon (5–4, Roberts plurality) eliminated the two-year aggregate ceiling (then \\$123,200) on the reasoning that base limits already police the quid pro quo risk candidate-by-candidate, so capping the number of candidates supported adds no anti-corruption protection. One hundred base-limit checks are now lawful; what remains capped is each individual gift."
+    concepts: [mccutcheon, campaign-finance]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Why does \"redboxing\" — a campaign posting ad scripts and targeting guidance on its public website for its Super PAC to use — defeat the FEC's coordination rules?"
+    choices:
+      - id: a
+        text: "Because Super PACs are exempt from all coordination rules."
+      - id: b
+        text: "Because the coordination conduct standards turn on privately conveyed, material, NONPUBLIC campaign information — and a public webpage is by definition not nonpublic."
+      - id: c
+        text: "Because the First Amendment forbids the FEC from reading campaign websites."
+      - id: d
+        text: "Because redboxing was explicitly legalized by Citizens United."
+    correct_choice_id: b
+    explanation: "The coordination regulation catches inside information crossing the wall — through staff, vendors, or private requests. Publishing the playbook launders it: once the targeting and message guidance is public, no nonpublic conveyance occurs, and the 2024 Election Law Journal study by Foy-Sutherland and Ghosh found 200+ congressional campaigns using the technique in 2022. No court ruling blessed it; non-enforcement and the rules' design did."
+    concepts: [super-pacs, independent-expenditures]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which statement about the FEC as of mid-2026 is accurate?"
+    choices:
+      - id: a
+        text: "It has six sitting commissioners and is processing cases normally."
+      - id: b
+        text: "It was abolished by the Electoral Count Reform Act."
+      - id: c
+        text: "It dropped below its four-member quorum on May 1, 2025, and — pending Senate confirmation of February 2026 nominees — cannot open investigations, issue rules, or resolve enforcement cases."
+      - id: d
+        text: "It now operates with a single commissioner who decides cases alone."
+    correct_choice_id: c
+    explanation: "The Commission needs four affirmative votes to act and fell below four members on May 1, 2025 — down to two by early 2026, with two nominees announced in February 2026 awaiting confirmation as of mid-2026. The paralysis matters doctrinally: the Citizens United majority's picture of unlimited-but-policed independent spending presumes a regulator that can actually police coordination and disclosure."
+    concepts: [super-pacs, campaign-finance]
+
+  - id: q5
+    kind: free-response
+    text: "Kennedy's majority opinion assumed independent spending would be transparent and uncoordinated. Using at least three verified facts from this lesson (cycle totals, the dark-money pipeline, staffing/redboxing practices, the FEC's status), make the strongest case EITHER that the post-2010 record vindicates that assumption OR that it falsifies it — then state the best single fact the other side would cite against you."
+    socratic_seed: "Vindication evidence: Super PAC donors are itemized; no wave of proven quid pro quo prosecutions; more political speech than ever. Falsification evidence: $1.9B undisclosed at the original-source level in 2024; single-candidate Super PACs run by former aides executing publicly posted playbooks; a regulator that deadlocked for a decade and then lost its quorum. Notice that both cases use the same record — the dispute is over what 'independence' and 'transparency' must mean for the assumption to count as true."
+    concepts: [super-pacs, dark-money, independent-expenditures]

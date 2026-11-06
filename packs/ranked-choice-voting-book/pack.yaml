@@ -1,14 +1,19 @@
 schema: bettercitizen.content/v1
 slug: ranked-choice-voting-book
 title: Rank the Vote
-summary: How Ranked Choice Voting Is Fixing American Democracy — One Ballot at a
-  Time A book-length advocacy treatment by Chris Borgia (2026); ingested as a
-  contested pack. (License auto-set to CC-BY-SA-4.0 — original book metadata
-  says "© 2026 Chris Borgia. All rights reserved.". Author confirmation required
-  before merging.)
+summary: >-
+  How ranked choice voting is fixing American democracy — one ballot at a
+  time. A book-length advocacy treatment by Chris Borgia (2026), ingested as
+  a contested pack in the author's first-person voice. It diagnoses what the
+  pick-one plurality ballot discards, walks the instant-runoff mechanics, and
+  builds the evidence case from Maine, Alaska, two decades of American
+  cities, and a century abroad — then gives the opposition's strongest
+  arguments a full chapter, surveys the research literature costs and all,
+  and closes with the legal landscape, the state-by-state map as of
+  mid-2026, and a practical playbook for adoption and defense.
 author: Chris Borgia
 license: CC-BY-SA-4.0
-version: 1.0.0
+version: 1.1.0
 tags:
   - voting-systems
   - electoral-reform
@@ -19,21 +24,21 @@ contested: true
 languages:
   - en
 lessons:
-  - introduction.md
-  - the-problem-with-one-vote.md
-  - what-is-ranked-choice-voting.md
-  - alaska-the-first-state.md
-  - maine-the-pioneer.md
-  - cities-leading-the-way.md
-  - the-opposition.md
-  - the-data.md
-  - around-the-world.md
-  - how-to-pass-rcv-in-your-state.md
-  - the-state-by-state-status.md
-  - primaries-and-the-extremism-machine.md
-  - the-media-problem.md
-  - money-and-elections.md
-  - constitutional-questions.md
-  - the-path-to-fifty-states.md
-  - why-this-matters-now.md
-  - your-move.md
+  - introduction.mdx
+  - the-problem-with-one-vote.mdx
+  - what-is-ranked-choice-voting.mdx
+  - alaska-the-first-state.mdx
+  - maine-the-pioneer.mdx
+  - cities-leading-the-way.mdx
+  - the-opposition.mdx
+  - the-data.mdx
+  - around-the-world.mdx
+  - how-to-pass-rcv-in-your-state.mdx
+  - the-state-by-state-status.mdx
+  - primaries-and-the-extremism-machine.mdx
+  - the-media-problem.mdx
+  - money-and-elections.mdx
+  - constitutional-questions.mdx
+  - the-path-to-fifty-states.mdx
+  - why-this-matters-now.mdx
+  - your-move.mdx

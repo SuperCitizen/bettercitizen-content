@@ -1,0 +1,16 @@
+schema: bettercitizen.content/v1
+slug: free-speech
+title: Free Speech and the First Amendment
+summary: What the First Amendment actually protects and against whom — the state-action doctrine, the unprotected categories and their tests (Brandenburg, Counterman, Chaplinsky, Miller, Sullivan) — then the hard cases (hate speech, compelled speech, money as speech, students and public employees) and the modern fight over platforms, Section 230, content moderation, and government jawboning. The doctrine is among the most speech-protective in the world, and nearly every piece of it is contested by serious people on serious grounds.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.1.0
+tags: [first-amendment, constitution, civil-liberties, civics-201]
+level: intermediate
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-what-the-first-amendment-protects.mdx
+  - 02-the-hard-cases.mdx
+  - 03-platforms-and-the-modern-square.mdx

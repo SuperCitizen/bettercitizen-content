@@ -1,0 +1,142 @@
+schema: bettercitizen.assessment/v1
+lesson: how-the-process-actually-works
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which statement about the congressional budget resolution is correct?"
+    choices:
+      - id: a
+        text: "It is signed by the President and has the force of law"
+      - id: b
+        text: "It directly provides money to federal agencies"
+      - id: c
+        text: "It is a concurrent resolution the President never signs — it sets internal totals, binds the chambers procedurally, and can unlock reconciliation"
+      - id: d
+        text: "Failing to adopt one triggers an automatic government shutdown"
+    correct_choice_id: c
+    explanation: >-
+      The budget resolution is Congress's internal blueprint: totals and
+      committee allocations adopted by both chambers, never presented to the
+      President, never law. It spends nothing — only appropriations acts (or
+      mandatory-spending statutes) do that — and skipping it causes no
+      shutdown; Congress has often skipped it and 'deemed' totals instead.
+      Its most consequential modern power is procedural: a resolution with
+      reconciliation instructions unlocks the Senate's filibuster-proof
+      express lane. Confusing the blueprint with the money is the most common
+      error in reading budget headlines each spring.
+    concepts: [appropriations, reconciliation]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      A reconciliation bill is in its 'Byrd bath.' Which provision is MOST
+      likely to survive a challenge?
+    choices:
+      - id: a
+        text: "A change to Medicare provider payment rates scored as saving $90 billion"
+      - id: b
+        text: "An increase in the Social Security retirement age scored as saving $200 billion"
+      - id: c
+        text: "A requirement that federal contractors adopt specified workplace policies, scored as having a negligible, incidental budget effect"
+      - id: d
+        text: "A provision declaring a national official language, with no budget score"
+    correct_choice_id: a
+    explanation: >-
+      Reconciliation's core business is provisions whose essence is moving
+      federal dollars — a Medicare payment-rate change is the classic
+      survivor. The trap is choice b: the Byrd rule categorically bars
+      changes to Social Security in reconciliation, no matter how large the
+      savings, which is why every entitlement-reform fight that touches
+      Social Security must find 60 votes instead. Choices c and d fall as
+      'extraneous' — budgetary effects that are merely incidental to a
+      policy aim, or absent entirely. This filter is why reconciliation
+      bills read like tax-and-transfer code, and why the 2025 parliamentarian
+      review stripped more than a dozen provisions from the One Big
+      Beautiful Bill Act before passage.
+    concepts: [reconciliation, filibuster]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What does raising the federal debt ceiling actually do?"
+    choices:
+      - id: a
+        text: "It authorizes new spending programs for the coming fiscal year"
+      - id: b
+        text: "It permits the Treasury to borrow to cover obligations Congress has already enacted through past spending and tax laws"
+      - id: c
+        text: "It increases the deficit by the amount of the raise"
+      - id: d
+        text: "It prevents a government shutdown when appropriations lapse"
+    correct_choice_id: b
+    explanation: >-
+      The debt limit caps total borrowing, and the borrowing covers
+      commitments already made — appropriations enacted, benefits promised,
+      taxes set — by past Congresses. Raising it authorizes nothing new
+      (choice a) and changes no deficit (choice c); the deficit is set by the
+      spending and tax laws themselves. Choice d confuses the two recurring
+      crises: a lapse in appropriations causes a shutdown, while hitting the
+      debt ceiling past the X-date threatens default on obligations
+      including Treasury securities — a different and likely far worse
+      event. After the 2025 reconciliation act raised the limit by $5
+      trillion to $41.1 trillion, projections put the next binding moment in
+      2027; the mechanics will matter again soon.
+    concepts: [national-debt, appropriations]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      In a 'pocket rescission,' the timing of the President's message to
+      Congress is the entire trick. Why?
+    choices:
+      - id: a
+        text: "Messages sent in September receive expedited floor consideration"
+      - id: b
+        text: "Sent close enough to September 30, the targeted funds expire before the Impoundment Control Act's 45-day clock runs out — canceling spending without Congress ever approving the rescission"
+      - id: c
+        text: "The Constitution gives the President unlimited rescission power in the final quarter of the fiscal year"
+      - id: d
+        text: "After September 30, the GAO loses jurisdiction to review impoundments"
+    correct_choice_id: b
+    explanation: >-
+      Under the 1974 Act, a President proposing a rescission may withhold the
+      funds for up to 45 days of continuous session while Congress decides;
+      if Congress does not approve, the money must be spent. The pocket
+      maneuver exploits expiring appropriations — send the message in late
+      August (as with the $4.9 billion foreign-aid message of August 28,
+      2025), run out the clock, and the funds lapse at the fiscal year's end
+      regardless of congressional silence. GAO's position is that this is an
+      illegal end-run that effectively repeals enacted law without
+      bicameralism and presentment — the defect that doomed the line-item
+      veto in Clinton v. City of New York (1998); the administration argues
+      the ICA itself intrudes on executive power. As of mid-2026 the courts
+      had not finally resolved it — which is why this question's answer
+      describes the mechanism, not a settled constitutional verdict.
+    concepts: [appropriations]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Reformers propose an 'automatic continuing resolution' — if the twelve
+      appropriations bills are not enacted by October 1, last year's funding
+      continues automatically and no shutdown occurs. Using fiscal 2026's
+      three lapses as your test case, argue the strongest case FOR this
+      reform and the strongest case AGAINST it, and say which side you find
+      more persuasive and why.
+    socratic_seed: >-
+      For: the FY2026 record — a 43-day full shutdown, a turn-of-February
+      lapse, and a 76-day DHS shutdown — imposed furloughs, unpaid excepted
+      work, and permanent output losses while changing few negotiating
+      positions; an automatic CR removes the hostage (federal workers and
+      services) from negotiations that are really about unrelated policy
+      (ACA subsidies, immigration enforcement). Against: an automatic CR
+      makes last year's budget the permanent default, which rewards whichever
+      party prefers the status quo — they can simply refuse to negotiate
+      forever, converting CR governance's freeze (no new starts, stale
+      priorities) from an emergency into the steady state; shutdown pain,
+      however ugly, is the forcing mechanism that eventually produced all
+      twelve FY2026 bills. Strong answers connect to Lesson 2's Buchanan
+      point — rules shape incentives — and ask WHO gains leverage under each
+      regime, perhaps noting the DHS standoff: an automatic CR would have
+      prevented the 76-day lapse but might also have let the underlying
+      dispute persist indefinitely with DHS frozen at old funding levels.
+    concepts: [continuing-resolution, appropriations, omnibus-bill]

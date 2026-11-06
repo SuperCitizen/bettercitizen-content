@@ -1,0 +1,16 @@
+slug: goldman-school-of-public-policy
+name: Goldman School of Public Policy
+kind: university
+subtype: policy-school
+description: "UC Berkeley's graduate school of public policy. Trains policy analysts for federal, state, and California government and produces research on inequality, climate, and social policy that generally proceeds from progressive premises."
+website: https://gspp.berkeley.edu
+jurisdiction: national
+partisan_lean: center-left
+parent_org: university-of-california-berkeley
+org_relationship: school-within
+influence_channels:
+  - policy-research
+  - training-staffers
+concept_tags:
+  - think-tank
+is_active: true

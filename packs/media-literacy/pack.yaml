@@ -1,0 +1,16 @@
+schema: bettercitizen.content/v1
+slug: media-literacy
+title: Media Literacy
+summary: How the modern information ecosystem actually works — the ad-funded attention economy, engagement-ranked feeds, the collapse of local news, and the new synthetic-media layer — then the verification skills with real evidence behind them (lateral reading, SIFT, click restraint, tracing claims to their origin), and finally the genuinely contested question of who should decide what's true — professional gatekeepers, decentralized crowds, or a literate citizenry. The skills are teachable and the evidence for them is strong, but every lesson is honest about limits — and reflexive cynicism, the propagandist's favorite outcome, is the one failure mode this pack refuses to teach.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [media, civics-101, information]
+level: intro
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-how-the-information-ecosystem-works.mdx
+  - 02-the-verification-toolkit.mdx
+  - 03-who-decides-whats-true.mdx

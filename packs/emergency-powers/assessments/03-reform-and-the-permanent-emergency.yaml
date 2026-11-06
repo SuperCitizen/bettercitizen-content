@@ -1,0 +1,172 @@
+schema: bettercitizen.assessment/v1
+lesson: reform-and-the-permanent-emergency
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      The ARTICLE ONE Act's central mechanism is best described as…
+    choices:
+      - id: a
+        text: >-
+          Restoring the pre-Chadha legislative veto so Congress can end
+          emergencies by concurrent resolution.
+      - id: b
+        text: >-
+          Flipping the default — declared emergencies expire after 30 days
+          unless both chambers affirmatively approve them under expedited,
+          filibuster-proof procedures, with renewals requiring fresh approval
+          and a ban on redeclaring a rejected emergency on the same facts.
+      - id: c
+        text: >-
+          Transferring emergency-termination authority to the federal courts
+          on an expedited docket.
+      - id: d
+        text: >-
+          Abolishing the National Emergencies Act and IEEPA outright.
+    correct_choice_id: b
+    explanation: >-
+      The design inverts the post-Chadha inertia: today an emergency persists
+      unless two-thirds of both chambers override a veto; under ARTICLE ONE,
+      congressional inaction terminates instead of preserves. Choice (a) is
+      unconstitutional after Chadha — a concurrent resolution evades
+      presentment, which is precisely what the Court forbade; the bill is
+      engineered around Chadha, not against it. (c) confuses the legalist
+      program with judicial engagement, and (d) confuses reform with repeal.
+    concepts: [supermajority, separation-of-powers]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Which statement most accurately captures Posner and Vermeule's thesis
+      in The Executive Unbound?
+    choices:
+      - id: a
+        text: >-
+          The executive should be freed from all constraint because crisis
+          government requires a Schmittian sovereign.
+      - id: b
+        text: >-
+          Legal checks like Youngstown and framework statutes are the only
+          real constraint on emergency power and must be strengthened.
+      - id: c
+        text: >-
+          The Madisonian separation of powers no longer meaningfully governs
+          crises; what actually disciplines the modern executive is politics —
+          elections, opinion, markets, bureaucratic resistance — and fear of
+          executive tyranny is itself overblown.
+      - id: d
+        text: >-
+          Courts should review every emergency declaration de novo within
+          thirty days.
+    correct_choice_id: c
+    explanation: >-
+      Their claim is descriptive before it is normative: law does little of
+      the constraining work in crises (the wartime canon's record is their
+      evidence), while political costs do — and "tyrannophobia," their coinage,
+      overstates the danger of energetic executives. They do not celebrate
+      lawlessness (a) — they argue political constraint is real constraint.
+      (b) is the legalist-reform position they attack, and (d) is a
+      judicial-engagement remedy. Distinguishing "the executive is unbound by
+      law" from "the executive should be unbound by everything" is the whole
+      point of steel-manning this school.
+    concepts: [separation-of-powers]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      Sterling v. Constantin (1932) anchors the judicial-engagement tradition
+      because it held that…
+    choices:
+      - id: a
+        text: >-
+          Governors enjoy absolute immunity for actions taken under declared
+          martial law.
+      - id: b
+        text: >-
+          What are the allowable limits of military discretion, and whether
+          they have been overstepped in a particular case, are judicial
+          questions — an emergency declaration is not self-validating.
+      - id: c
+        text: >-
+          Courts must abstain from reviewing emergency measures until the
+          emergency formally ends.
+      - id: d
+        text: >-
+          Only Congress, never courts, may police a state executive's
+          emergency powers.
+    correct_choice_id: b
+    explanation: >-
+      Hughes refused the political-question escape when a governor used
+      martial law to shut down oil production: "What are the allowable limits
+      of military discretion, and whether or not they have been overstepped
+      in a particular case, are judicial questions" — otherwise "the fiat of
+      a state Governor, and not the Constitution of the United States, would
+      be the supreme law of the land." Choices (a) and (c) are the positions
+      Sterling rejected; (d) inverts the holding. The 2025–26 deployment
+      rulings are this tradition's modern descendants.
+    concepts: [judicial-review, civil-liberties]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      In 2028, a President announces emergency export restrictions. Before
+      any court rules, a market selloff and congressional pressure force a
+      reversal within ten days; litigation is later dismissed as moot. Which
+      school's account of emergency power does this episode most directly
+      support, and why?
+    choices:
+      - id: a
+        text: >-
+          Judicial engagement — because the courts ultimately disposed of the
+          case.
+      - id: b
+        text: >-
+          Executive flexibility — because the binding constraint operated
+          through politics and markets before and without any legal mandate.
+      - id: c
+        text: >-
+          Legalist reform — because the episode shows sunset clauses work as
+          designed.
+      - id: d
+        text: >-
+          None — a single episode can never be evidence for any theory.
+    correct_choice_id: b
+    explanation: >-
+      The diagnostic the lesson builds: ask what the compliance tracked. Here
+      retreat preceded any ruling and followed political-economic cost —
+      Posner and Vermeule's mechanism exactly. Contrast 2025–26, where troop
+      withdrawal followed a Supreme Court stay denial and refunds followed
+      the mandate — compliance keyed to legal process, which cuts the other
+      way. (a) mistakes a mootness dismissal for judicial constraint; (c)
+      invents a statute that played no role; (d) overcorrects — single
+      episodes are weak but real evidence, which is why the lesson's closing
+      table asks you to accumulate them.
+    concepts: [separation-of-powers, judicial-review]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      You are advising a Senate office in late 2026 on emergency-powers
+      reform. Choose ONE primary instrument — (i) an ARTICLE ONE-style
+      30-day sunset, (ii) Ackerman's supermajoritarian escalator, or (iii) a
+      judicial-engagement package (codified justiciability of statutory
+      predicates, fast-track standing, deference that decays with an
+      emergency's age). Defend your choice against the strongest objection
+      from EACH of the other two schools, using at least two verified
+      data points from 2025–26.
+    socratic_seed: >-
+      Force the trade-offs into the open. If you choose the sunset: answer
+      the flexibility school's objection that Congress will rubber-stamp in
+      a panic (does the 2025 record of forced tariff votes support or
+      undercut that?) and the engagement school's point that a 30-day window
+      is useless against a deployment completed in week one. If the
+      escalator: answer whether escalating supermajorities are credible when
+      the House wouldn't even hold simple-majority termination votes in
+      2025. If engagement: answer Quirin — what stops the storm-case court
+      from deferring exactly when it matters — and the flexibility school's
+      claim that the 2025–26 compliance was really political. Strong answers
+      cite the December 23, 2025 per curiam, the February 20, 2026 tariff
+      ruling and refunds, the dropped Oregon appeal, or the 48-emergencies
+      count, and say what evidence over the next five years would prove the
+      chosen instrument wrong.
+    concepts: [supermajority, judicial-review, separation-of-powers]

@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A campaign ad claims: 'Border encounters fell more than 90 percent — illegal immigration has effectively ended.' What is the strongest objection to that inference?"
+    choices:
+      - id: a
+        text: "Encounters count events at the border, not the unauthorized population — they say nothing about visa overstays, departures, or the millions of people already in the country."
+      - id: b
+        text: "Encounter data is collected by border states rather than the federal government, so the numbers are unreliable."
+      - id: c
+        text: "Encounters are survey-based estimates with wide error bars, so a 90 percent decline is within the margin of error."
+      - id: d
+        text: "Encounters include removals and returns, so the decline double-counts people who were deported."
+    correct_choice_id: a
+    explanation: "An encounter is a border event — one person crossing three times is three encounters — so the metric tracks flow at the border, not the stock of unauthorized residents, which also changes through visa overstays (about 42 percent of the pre-surge population) and quiet departures no agency counts directly. (b) is false: CBP, a federal agency, produces the data. (c) confuses encounters (counted) with net migration (estimated). (d) garbles the categories — removals and returns are separate enforcement metrics. Checking which metric a claim rides on is the first move of immigration-data literacy."
+    concepts: [immigration]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Between 1996 and 2025, Congress passed no comprehensive immigration statute — yet in July 2025 it appropriated roughly $170 billion for enforcement in a single act. What explains why the money could pass when policy bills could not?"
+    choices:
+      - id: a
+        text: "The Constitution assigns immigration enforcement to the executive branch, so Congress may fund it but may not legislate the underlying policy."
+      - id: b
+        text: "Budget reconciliation needs only 51 Senate votes but can generally move only money — the Byrd rule keeps policy changes like new visa categories or legalization out — so enforcement funding is filibuster-proof while structural reform is not."
+      - id: c
+        text: "The 2025 act attracted a bipartisan supermajority, unlike the failed bills of 2007, 2013, and 2024."
+      - id: d
+        text: "The Senate parliamentarian ruled that enforcement spending is a national-security matter exempt from cloture requirements."
+    correct_choice_id: b
+    explanation: "Reconciliation's 51-vote path moves money, not policy: the Byrd rule strips provisions whose budgetary effect is incidental, which is how the parliamentarian ruled legalization out of a Democratic reconciliation attempt in 2021 and shaped what Republicans could include in 2025. (a) inverts the constitutional allocation — Congress owns the structure; the executive owns the throttle. (c) is false: the act passed on party lines. The resulting asymmetry — enforcement fundable party-line, the legal system rebuildable only with 60 votes — explains record detention funding sitting alongside visa caps untouched since 1990."
+    concepts: [immigration]
+
+  - id: q3
+    kind: multiple-choice
+    text: "After Trump v. CASA (2025) curtailed universal injunctions, Executive Order 14160 on birthright citizenship nevertheless remained blocked nationwide. How?"
+    choices:
+      - id: a
+        text: "The Supreme Court ruled the order unconstitutional on the merits a few weeks after CASA."
+      - id: b
+        text: "Congress passed a statute codifying United States v. Wong Kim Ark, mooting the order."
+      - id: c
+        text: "Plaintiffs used the avenues the CASA opinion left open — a certified nationwide class action, along with state suits — to win relief covering everyone the order would affect."
+      - id: d
+        text: "The administration voluntarily withdrew the order pending the merits litigation."
+    correct_choice_id: c
+    explanation: "CASA decided a remedies question only: district courts may not enjoin a policy for non-parties, but the opinion left class actions and state suits available — and within weeks a certified nationwide class kept the order blocked. (a) is the classic misreading: the Court expressly declined to reach the Fourteenth Amendment question, which was argued separately in Trump v. Barbara on April 1, 2026 and remained pending as of mid-2026. (b) and (d) never happened. The episode is a working lesson in the difference between merits and remedies."
+    concepts: [immigration]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A state government that considers federal enforcement too harsh adopts three measures: (1) it declines to hold people in county jails past their release dates at ICE's request; (2) it issues its own two-year state work visas to unauthorized residents; (3) it directs state police to arrest federal officers conducting immigration raids. Which survives?"
+    choices:
+      - id: a
+        text: "All three — Arizona v. United States recognized immigration as a shared state-federal power."
+      - id: b
+        text: "Only (1) — a state may decline to lend its resources to federal enforcement, but it can neither confer immigration status nor obstruct federal officers performing federal duties."
+      - id: c
+        text: "(1) and (2) — states control both their jails and their own labor markets."
+      - id: d
+        text: "None — sanctuary-style non-cooperation is preempted by federal immigration law."
+    correct_choice_id: b
+    explanation: "States act at the margins, in both directions. Declining cooperation — the sanctuary-jurisdiction model — is lawful because the federal government cannot commandeer state resources for its enforcement. But immigration status is exclusively federal (Arizona v. United States held the field is federal — the opposite of (a)), so a state 'work visa' is void, and arresting federal officers for doing their federal jobs fails under the Supremacy Clause. The same margins-not-membership logic governs restriction-minded states: they may mandate E-Verify but may not criminalize unlawful presence."
+    concepts: [immigration, e-verify]
+
+  - id: q5
+    kind: free-response
+    text: "The lesson calls the sequencing theory — demonstrate border control first, and legalization becomes politically possible — one of the most informative natural experiments of the decade. Design the test: by the end of the 2027–28 Congress, what specific outcomes would count as confirming the theory, what would count as falsifying it, and what confounding explanations would you have to rule out either way?"
+    socratic_seed: "Push for observable outcomes: does a Dreamer bill get a committee markup, a floor vote, 60 Senate votes, a signature? Falsification is the hard part — if nothing moves, is the theory failed, or simply untested because no one brought a bill? Confounds to surface: which party controls each chamber and the presidency; whether border numbers stay low through the test window; whether labor shortages or the projected growth drag from negative net migration shift salience; and Tichenor's coalition logic — each side may prefer keeping the issue to making the deal, independent of border conditions. Then the deeper assumption: the theory holds that public resistance to legalization was about control, not about composition or scale. What evidence would distinguish those? Close by asking the learner to commit to a prediction now and name what they would concede if it fails."
+    concepts: [immigration, daca]

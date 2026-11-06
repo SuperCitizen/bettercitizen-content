@@ -1,0 +1,17 @@
+slug: heritage-foundation
+name: The Heritage Foundation
+kind: think-tank
+description: "Conservative think tank in Washington, D.C., founded in 1973, built around delivering timely, actionable policy briefs to legislators. Its presidential transition blueprints — from the 1981 'Mandate for Leadership' to Project 2025 — pair policy agendas with vetted lists of personnel to staff an administration."
+website: https://www.heritage.org
+jurisdiction: national
+partisan_lean: right
+ideology_tags:
+  - american-conservatism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - training-staffers
+  - public-education
+concept_tags:
+  - think-tank
+is_active: true

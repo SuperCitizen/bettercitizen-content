@@ -1,0 +1,11 @@
+slug: new-york-university
+name: New York University
+kind: university
+subtype: private-university
+description: "Private research university in New York City, founded in 1831. Its law school is the institutional home of the Brennan Center for Justice, an independent law-and-policy institute focused on democracy and justice."
+website: https://www.nyu.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

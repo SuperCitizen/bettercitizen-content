@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-legal-framework
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Congress passes a law capping at \\$10,000 what a wealthy candidate may spend of her *own* money on her *own* campaign. Under Buckley v. Valeo (1976), what happens to it?"
+    choices:
+      - id: a
+        text: "It survives — all campaign money limits are constitutional if they apply equally to everyone."
+      - id: b
+        text: "It falls — a candidate spending her own money is an expenditure, and Buckley held expenditure limits unconstitutional because no corrupting bargain is possible."
+      - id: c
+        text: "It survives — self-funding creates the strongest appearance of corruption."
+      - id: d
+        text: "It falls, but only because \\$10,000 is too low; a higher cap would be fine."
+    correct_choice_id: b
+    explanation: "Buckley split the 1974 regime in two: contribution limits survive (the gift to a candidate poses a quid pro quo risk), but expenditure limits fall — including FECA's cap on a candidate's personal spending, which the Court struck down. You cannot corruptly bargain with yourself, and capping the spending caps the speech. The dollar amount is irrelevant to the doctrine."
+    concepts: [campaign-finance, first-amendment]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did BCRA §203 — the provision at issue in Citizens United — actually prohibit?"
+    choices:
+      - id: a
+        text: "All corporate spending on politics, including lobbying"
+      - id: b
+        text: "Corporate and union treasury funding of broadcast ads naming a federal candidate within 30 days of a primary or 60 days of a general election"
+      - id: c
+        text: "Direct corporate contributions to federal candidates"
+      - id: d
+        text: "Unlimited individual donations to political parties (\"soft money\")"
+    correct_choice_id: b
+    explanation: "§203 targeted \"electioneering communications\" — broadcast, cable, or satellite ads naming a federal candidate in the pre-election windows — funded from corporate or union treasuries. Direct corporate contributions were already banned by the Tillman Act (1907), and the soft-money ban was a different BCRA title. Keeping these provisions distinct is the key to stating what Citizens United did and did not strike down."
+    concepts: [campaign-finance, citizens-united]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A columnist writes: \"In 2010 the Supreme Court ruled that contribution limits to Super PACs are unconstitutional.\" What is wrong with that sentence?"
+    choices:
+      - id: a
+        text: "Nothing — that is the holding of Citizens United."
+      - id: b
+        text: "The year — that ruling came in McCutcheon v. FEC (2014)."
+      - id: c
+        text: "The court — it was the D.C. Circuit, in SpeechNow.org v. FEC, that struck contribution limits to independent-expenditure-only committees; the Supreme Court has never ruled on the question."
+      - id: d
+        text: "The subject — Super PAC contribution limits still exist and are enforced today."
+    correct_choice_id: c
+    explanation: "Citizens United freed corporate and union *spending*; two months later the en banc D.C. Circuit in SpeechNow.org extended its logic to *contributions* to independent-only committees, creating the Super PAC. The FEC did not seek Supreme Court review, so the highest court has never itself decided whether Super PAC contribution limits would be constitutional — the most commonly botched attribution in this field."
+    concepts: [super-pac, citizens-united, campaign-finance]
+
+  - id: q4
+    kind: multiple-choice
+    text: "After McCutcheon v. FEC (2014), which of these is the correct description of federal contribution law?"
+    choices:
+      - id: a
+        text: "A donor may give unlimited amounts to a single candidate."
+      - id: b
+        text: "A donor faces no cap on the total number of candidates she may support at the per-candidate limit, but each per-candidate (base) limit still applies."
+      - id: c
+        text: "All contribution limits, base and aggregate, were struck down."
+      - id: d
+        text: "Aggregate limits survived, but base limits fell."
+    correct_choice_id: b
+    explanation: "McCutcheon struck only the *aggregate* two-year ceiling (then \\$123,200 across all federal recipients). Chief Justice Roberts's plurality reasoned that once each base limit polices the quid pro quo risk with each candidate, capping how many candidates a donor may max out to adds no anti-corruption protection. Base limits — \\$3,500 per candidate per election in 2025–26 — remain fully in force."
+    concepts: [campaign-finance]
+
+  - id: q5
+    kind: free-response
+    text: "Buckley defined the corruption that justifies regulation as quid pro quo — a bargained exchange. Lessig calls the real disease \"dependence corruption.\" Describe a concrete situation the two definitions classify differently, and explain which classification you find more persuasive and why."
+    socratic_seed: "Think about a legislator's daily calendar rather than any single transaction. If no individual gift buys any individual vote, can an institution still be bent? And if it can, is that something courts could police without licensing incumbents to regulate their critics' speech — the danger the other side keeps pointing to?"
+    concepts: [campaign-finance, citizens-united]

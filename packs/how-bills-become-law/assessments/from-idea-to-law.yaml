@@ -44,26 +44,28 @@ questions:
       - legislative-process
   - id: q3-cloture
     kind: multiple-choice
-    text: A bill has 55 committed supporters in the Senate; all 100 senators are
-      present, and the minority refuses to end debate. Under the rules as they
-      stand today, what happens?
+    text: The Majority Leader files a cloture motion on an ordinary (non-budget)
+      bill. The cloture vote is 58–42, with all 100 senators voting. What is the
+      bill's status?
     choices:
       - id: a
-        text: The bill passes — 55 votes is a majority
+        text: It passed — 58 votes is well above the simple majority needed
       - id: b
-        text: The bill stalls — ending debate on legislation requires 60 votes,
-          unless the bill qualifies for budget reconciliation
+        text: It advances to a final passage vote, where it will need 60 votes
       - id: c
-        text: The Vice President breaks the deadlock with a tie-breaking vote
+        text: Debate continues and the bill remains blocked — cloture failed, two
+          votes short of the 60 required
       - id: d
-        text: Debate ends automatically after a fixed number of hours
-    correct_choice_id: b
-    explanation: Passage takes a simple majority, but reaching the passage vote
-      requires invoking cloture — 60 votes for legislation under Rule XXII since
-      1975. The simple-majority carve-outs created in 2013 and 2017 apply only to
-      nominations. Reconciliation bills are the main legislative exception, with
-      debate capped by statute. (The Vice President breaks ties, and 55–45 is not
-      a tie.)
+        text: It is dead for the rest of the Congress — a failed cloture vote
+          kills a bill permanently
+    correct_choice_id: c
+    explanation: Cloture on legislation takes three-fifths of the full Senate —
+      60 votes — so 58 fails and the blockade continues. The thresholds run in
+      the opposite order from choice (b) — 60 to *reach* the final vote, then only
+      a simple majority to pass. And a failed cloture motion is not fatal in
+      itself — leaders can file again if they can find the missing votes, which
+      is why contested bills sometimes fail cloture repeatedly before passing or
+      being shelved.
     concepts:
       - filibuster
       - cloture

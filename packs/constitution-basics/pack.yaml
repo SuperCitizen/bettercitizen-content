@@ -1,11 +1,15 @@
 schema: bettercitizen.content/v1
 slug: constitution-basics
 title: Constitution basics
-summary: What the Constitution actually says, what it set out to do, and how the
-  Preamble and the seven Articles fit together.
+summary: What the Constitution actually says, what it set out to do, and how it
+  changes. The pack maps the Preamble and the seven Articles, takes the Article V
+  amendment machine apart — from the 27th Amendment's 202-year ratification to
+  the Equal Rights Amendment's contested present — and ends with the unwritten
+  constitution of precedent, practice, and norm that does much of the daily
+  governing.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.1.0
+version: 1.3.0
 tags:
   - civics-101
 level: intro
@@ -14,4 +18,6 @@ contested: false
 languages:
   - en
 lessons:
-  - preamble-and-articles.md
+  - preamble-and-articles.mdx
+  - 02-amending-the-constitution.mdx
+  - 03-the-unwritten-constitution.mdx

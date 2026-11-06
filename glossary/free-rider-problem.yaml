@@ -1,0 +1,15 @@
+slug: free-rider-problem
+name: Free-Rider Problem
+short_definition: "The tendency of people to enjoy a shared benefit without contributing to it, which makes large, diffuse groups hard to organize."
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English: a 'free rider' takes a ride without paying the fare; the dynamic was analyzed by economist Mancur Olson in 'The Logic of Collective Action' (1965)"
+why_it_matters: "The free-rider problem explains why small, concentrated interests routinely beat large majorities without any conspiracy: a few who each gain a lot will organize, while millions who each gain a little stay home — a structural tilt toward organized wealth."
+context_example: "Olson showed that a tax break worth millions to a handful of firms will be lobbied for fiercely, while the diffuse public that pays for it has little incentive to organize against it."
+related_term_slugs:
+  - public-choice
+  - rent-seeking
+  - lobbyist
+tags: []

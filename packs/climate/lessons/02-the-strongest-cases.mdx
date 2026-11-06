@@ -1,0 +1,181 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-strongest-cases
+kind: reading
+title: The strongest case for and against
+objectives:
+  - Explain the discount-rate disagreement between Stern and Nordhaus and why it, not the science, drives most cost-benefit divergence
+  - State the aggressive-mitigation case at its strongest, including Weitzman's fat-tail argument
+  - State the adaptation-first case at its strongest, including the empirical record on disaster mortality and the "iron law" of political economy
+  - State the innovation-led centrist case, including the directed-technical-change evidence
+  - Read absolute, per-capita, and cumulative emissions data and explain how each position uses them
+concepts:
+  - climate
+  - mitigation
+  - adaptation
+  - carbon-pricing
+  - integrated-assessment
+  - steel-man
+  - consequentialism
+sources:
+  - type: book
+    citation: 'Stern, N. (2007), The Economics of Climate Change: The Stern Review, Cambridge University Press.'
+  - type: paper
+    citation: 'Nordhaus, W. D. (2018), "Projections and Uncertainties about Climate Change in an Era of Minimal Climate Policies," American Economic Journal: Economic Policy 10:3.'
+  - type: paper
+    citation: 'Nordhaus, W. D. (2007), "A Review of the Stern Review on the Economics of Climate Change," Journal of Economic Literature 45:3. (The canonical statement of the discount-rate objection.)'
+  - type: paper
+    citation: 'Weitzman, M. L. (2009), "On Modeling and Interpreting the Economics of Catastrophic Climate Change," Review of Economics and Statistics 91:1. (The "dismal theorem" on fat-tailed climate risk.)'
+  - type: paper
+    citation: 'EPA (2023), "Report on the Social Cost of Greenhouse Gases: Estimates Incorporating Recent Scientific Advances" — central estimate $190 per ton of CO2 (2020 emissions) at a 2 percent near-term Ramsey discount rate.'
+  - type: book
+    citation: 'Lomborg, B. (2020), False Alarm: How Climate Change Panic Costs Us Trillions, Hurts the Poor, and Fails to Fix the Planet, Basic Books. (Adaptation-first; controversial.)'
+  - type: book
+    citation: 'Goklany, I. M. (2007), The Improving State of the World: Why We''re Living Longer, Healthier, More Comfortable Lives on a Cleaner Planet, Cato Institute.'
+  - type: paper
+    citation: 'Acemoglu, D., Akcigit, U., Hanley, D., & Kerr, W. (2016), "Transition to Clean Technology," Journal of Political Economy 124:1.'
+  - type: book
+    citation: 'Smil, V. (2022), How the World Really Works: The Science Behind How We Got Here and Where We''re Going, Viking. (Transition-realist; influential on innovation-led perspective.)'
+  - type: book
+    citation: 'Klein, N. (2014), This Changes Everything: Capitalism vs. The Climate, Simon & Schuster. (Aggressive-mitigation framing.)'
+  - type: book
+    citation: 'Goulder, L. H. & Hafstead, M. A. (2017), Confronting the Climate Challenge: U.S. Policy Options, Columbia University Press. (Carbon-pricing economics.)'
+  - type: website
+    citation: 'Global Carbon Budget 2025 — record 38.1 GtCO2 fossil emissions in 2025; country shares; remaining 1.5°C budget of roughly four years at current rates.'
+    url: https://globalcarbonbudget.org/fossil-fuel-co2-emissions-hit-record-high-in-2025/
+  - type: paper
+    citation: 'IPCC (2018), Special Report: Global Warming of 1.5°C — released October 8, 2018, the day Nordhaus''s Nobel was announced.'
+    url: https://www.ipcc.ch/sr15/
+perspectives:
+  - name: Aggressive-mitigation advocate
+  - name: Adaptation-first advocate
+  - name: Innovation-led centrist
+duration_min: 17
+---
+
+# The strongest case for and against
+
+On Monday, October 8, 2018, two announcements landed hours apart. In Stockholm, the Royal Swedish Academy of Sciences awarded William Nordhaus the Nobel Memorial Prize in economics for building DICE — the first model to bolt a climate system onto a growing economy and ask what emissions path maximizes human welfare. In Incheon, South Korea, the IPCC released its *Special Report on Global Warming of 1.5°C*, urging global CO2 cuts of roughly 45 percent below 2010 levels by 2030 to hold warming to 1.5°C. The awkward part: Nordhaus's own prize-winning model, run with his preferred assumptions, found the *optimal* amount of warming to be around 3°C or more — double what the IPCC was calling the safety threshold, on the same day. Both documents accepted the same physics. They diverged on something the physics cannot settle: how to value people who do not exist yet. Start there, because nearly every honest disagreement in this lesson runs through it.
+
+## The fight under the fight: how much is the future worth?
+
+Climate policy buys benefits for people decades away with costs paid by people alive now. Any cost-benefit analysis therefore needs a **discount rate** — the annual percentage by which future welfare is shrunk to present value. Pick it and you have largely picked your conclusion.
+
+The *Stern Review* (2006–07), commissioned by the UK Treasury, discounted the future at about **1.4 percent**, on an explicitly ethical argument: the only defensible reason to count a future person's welfare for less is the small chance humanity won't be there at all, so pure time preference should be nearly zero. Nordhaus's DICE runs of that era discounted at roughly **4.3 percent**, on a revealed-preference argument: discount rates should match the returns societies actually demand from investments (observable in markets), not a philosopher's ideal; using an artificially low rate misallocates capital that could grow into greater future wealth. Stern's number told governments to decarbonize urgently; Nordhaus's recommended a modest, slowly rising carbon price. Their estimates of the social cost of carbon differed by roughly an order of magnitude — from identical climate science.
+
+<Figure caption="Compounding a constant discount rate over the 75 years from 2025 to 2100. The same $1,000 of damage justifies spending about $350 today to prevent at Stern's rate, but only about $43 at Nordhaus's — an eightfold gap produced entirely by the choice of rate. (Illustrative arithmetic; both economists used rate schedules that decline over time.)">
+  <svg viewBox="0 0 720 270" width="100%" role="img" aria-label="Two bars comparing the present value of 1,000 dollars of climate damage occurring in 2100: about 350 dollars at Stern's 1.4 percent discount rate versus about 43 dollars at Nordhaus's 4.3 percent rate" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+    <text x="40" y="26" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">What is $1,000 of climate damage in 2100 worth today?</text>
+    <line x1="40" y1="210" x2="680" y2="210" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
+    <rect x="150" y="52" width="150" height="158" fill="var(--blue, #2f4d6e)" />
+    <rect x="430" y="191" width="150" height="19" fill="var(--accent, #8a2a1e)" />
+    <text x="225" y="44" fontFamily="Georgia, serif" fontSize="16" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">about $350</text>
+    <text x="505" y="183" fontFamily="Georgia, serif" fontSize="16" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">about $43</text>
+    <text x="225" y="232" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Stern: 1.4% discount rate</text>
+    <text x="505" y="232" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Nordhaus: 4.3% discount rate</text>
+    <text x="225" y="250" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">"act aggressively now"</text>
+    <text x="505" y="250" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">"modest carbon price, rising slowly"</text>
+  </svg>
+</Figure>
+
+Notice what kind of disagreement this is. The choice between 1.4 and 4.3 percent is not an empirical question awaiting better data; it is a [[term:consequentialism]]-flavored ethical question — how much does a person born in 2090 count? — wearing quantitative clothing. That is why the U.S. government's own number has swung with the ethics and the politics: EPA's 2023 update put the central social cost of carbon at **$190 per ton** of CO2 (for 2020 emissions) using a 2 percent near-term discount rate, with sensitivity runs from $120 (at 2.5 percent) to $340 (at 1.5 percent). Whoever picks the rate largely picks the verdict.
+
+Then Martin Weitzman pulled the rug from under the whole exercise. In a famous 2009 paper, he argued that climate risk is **fat-tailed**: the probability of catastrophic outcomes (think 6°C or more) does not shrink fast enough, as the outcomes get worse, for expected-value arithmetic to behave. Push the logic — his "dismal theorem" — and society should be willing to pay almost anything to trim the tail, regardless of the discount rate. Practical economists do not take the theorem literally, but its working legacy is everywhere: climate policy framed as *insurance against ruin* rather than as an optimization, which is the strongest analytic ground the aggressive-mitigation position stands on.
+
+<Checkpoint question="An official says: “I take no ethical positions — I just discount at the market rate of return, like any investment analysis.” What would Stern and Weitzman each say back?">
+  Stern: using the market rate *is* an ethical position — it imports savers' impatience about their own consumption into a question about other people's lives a century out, effectively counting a 2100 life at pennies on the dollar. Weitzman: even granting the market rate, expected-value analysis breaks down when the loss distribution is fat-tailed; the right frame is insurance against catastrophe, where we routinely pay premiums far above expected losses. Both deny that the official has escaped judgment — he has only hidden it inside a parameter.
+</Checkpoint>
+
+## Position 1: the aggressive-mitigation case
+
+The starting move is to take the damage and risk literature seriously and conclude that the costs of inaction now exceed the costs of decarbonization, especially once tail risks and distribution are priced in.
+
+- **Damages compound nonlinearly.** The harm at 3°C is far more than 1.5 times the harm at 2°C — agricultural stress, infrastructure failure, ecosystem collapse, and migration scale superlinearly, and the post-Stern damage literature (including IPCC AR6 Working Group II) has generally revised damages upward as sectors once ignored were counted.
+
+- **Tail risk justifies paying a premium.** Some impacts are plausibly irreversible at scale — Greenland and West Antarctic ice-sheet destabilization, Amazon dieback, permafrost carbon release. This is Weitzman's point made concrete: when you cannot rule out ruin, expected-value optimization understates the value of prevention. Buy the insurance.
+
+- **The cost side collapsed.** Solar, wind, batteries, and EVs fell roughly 70 to 90 percent in cost between 2010 and the mid-2020s. The 2005-era assumption that deep decarbonization meant deep sacrifice is empirically dead; the cost-benefit case for acting now is stronger than it has ever been.
+
+- **Co-benefits arrive immediately.** Coal phase-out cuts particulate pollution and respiratory mortality on the spot — benefits large enough that many mitigation policies pass cost-benefit *before* counting climate at all.
+
+- **Distribution argues for rich-world leadership.** Climate damage falls hardest on populations that emitted least and can least afford to adapt. Klein's *This Changes Everything* gives the global-justice version; the empirical pattern (poor, hot countries are most exposed) is mainstream development economics.
+
+What would change this position? Evidence that aggressive mitigation imposes welfare losses on lower-income populations larger than the damage it avoids, or that adaptation can absorb several degrees of warming at acceptable cost. Its serious advocates respond with policy design — carbon dividends, transition assistance, international finance — rather than denial that the costs exist.
+
+## Position 2: the adaptation-first case
+
+The starting move is the warming already locked in: even sharp emissions cuts change the temperature path only marginally for decades, while adaptation pays off within years. From there, it is an argument about the marginal dollar.
+
+- **Adaptation demonstrably works.** Goklany's compilations show global death *rates* from extreme weather fell by roughly 98 percent between the 1920s and the 2000s — over a span in which world population more than tripled — because of early-warning systems, building codes, infrastructure, and wealth. A dollar spent on flood defenses or heat-health systems saves identifiable lives this decade; a dollar of mitigation buys a sliver of avoided warming in 2070.
+
+- **Mitigation costs are regressive and politically explosive.** Energy is a bigger budget share for the poor, so carbon prices bite them hardest; phase-outs concentrate job losses in coal and industrial regions while dispersing benefits across the planet. Roger Pielke Jr.'s **"iron law" of climate policy** — voters will tolerate only modest costs in the name of emissions reduction, and will reverse policies that exceed the tolerance — used to be a hypothesis. The 2025–26 United States is its demonstration: the largest climate-investment law in American history partially repealed three years in, and the country out of Paris a second time. Lomborg's *False Alarm* states the strongest (and most contested) version of the cost-benefit critique.
+
+- **The 1.5°C target is gone, and pretending otherwise misallocates.** With the remaining 1.5°C carbon budget at roughly four years of current emissions (Global Carbon Budget 2025), policy premised on 1.5°C is premised on a fiction. Honest planning for a 2.5°C world prioritizes resilience.
+
+- **Development is the best adaptation — and it requires energy.** An average American's fossil CO2 footprint is about 14 tonnes a year; an average Indian's is about 2. Asking poor countries to slow the development that builds sea walls, grids, and hospitals in order to avoid emissions the rich world already banked is, on this view, both unjust and self-defeating: wealth *is* resilience.
+
+- **Incentives favor adaptation.** Mitigation is a global public good — your costly cuts mostly benefit everyone else — so it invites free-riding. A sea wall protects exactly the people who paid for it. Adaptation aligns with sovereign self-interest; mitigation fights it.
+
+What would change this position? Evidence that the next degree of warming produces damages adaptation cannot absorb (the nonlinearity claim), or mitigation costs falling so far that the marginal dollar flips. Its advocates concede the flip is underway in electricity — and argue it has not reached steel, cement, aviation, or agriculture.
+
+<Checkpoint question="Why does a sea wall escape the free-rider problem that haunts a carbon tax?">
+  Because its benefits are *excludable and local*: the town that pays for the wall captures the protection. A ton of CO2 abated benefits all eight billion people fractionally, whoever paid — so each country rationally hopes others pay (free-riding). This is why adaptation-first advocates argue adaptation aligns with sovereign incentives, and why mitigation advocates put so much weight on treaties, finance, and border mechanisms that try to rebuild the missing incentive.
+</Checkpoint>
+
+## Position 3: the innovation-led centrist case
+
+The starting move: the mitigation-versus-adaptation frame misses what has actually cut emissions, which is **technological substitution** — cheaper low-carbon tech displacing fossil processes because it wins on its own terms.
+
+- **The track record is technological.** U.S. and U.K. emissions declines since 2005 came mostly from coal-to-gas switching (driven by fracking economics, not climate law) and from renewables whose costs fell on R&D and deployment [[term:subsidy]] learning curves. Carbon prices where implemented (the EU ETS, RGGI, British Columbia) produced real but smaller reductions. Acemoglu and co-authors' "Transition to Clean Technology" (2016) supplies the theory: subsidizing clean innovation directly can beat taxing dirty output, because innovation compounds.
+
+- **Energy R&D is badly underfunded** relative to the stakes — a fraction of public biomedical research in most rich countries. ARPA-E-style programs and demonstration funding move technology frontiers; the centrist case calls for multiplying them severalfold.
+
+- **Carbon pricing: yes, but as complement.** A revenue-neutral carbon fee with per-capita dividends (the 2017 Baker–Shultz proposal from the Climate Leadership Council, a Washington [[term:think-tank]]-style advocacy group) corrects prices while protecting most households' budgets — but no politically survivable price drives substitution at the needed rate by itself. Standards, procurement, and infrastructure do heavy lifting.
+
+- **Make clean cheap, because cheap is what diffuses.** China and India will not adopt expensive virtue; they adopt cheap kilowatt-hours. Rich-world innovation that drops the global price of clean energy mitigates everywhere at once — the only mechanism that routes around the free-rider problem entirely. Smil's *How the World Really Works* supplies the sobering scale arithmetic: cement, steel, ammonia, and plastics have no cheap substitutes yet, which is exactly where innovation policy should aim.
+
+- **The 2022–2025 American experiment cuts both ways.** The Inflation Reduction Act was this position's policy embodiment — hundreds of billions in technology-neutral tax credits rather than a carbon price. Its partial repeal in 2025 is read by adaptation-firsters as the iron law claiming another victim, and by innovation advocates as proof the strategy works only if it builds durable constituencies faster than opponents can organize — which manufacturing investment in red-state districts visibly began to do (in the OBBBA fight, the quiet internal resistance to full repeal came largely from majority-party members whose districts had won factories).
+
+What would change this position? Evidence that politically achievable carbon prices alone drive sufficient substitution (making subsidies wasteful), or that innovation has hit physical limits in the hard sectors (making adaptation the binding strategy).
+
+## Who emits — one table, three readings
+
+Every position above appeals to "the emissions data." Here is the data, from the Global Carbon Budget 2025 (projected fossil CO2 for 2025; world total a record 38.1 billion tonnes):
+
+| Emitter | Share of global fossil CO2 | Approximate total (GtCO2) | Per person (tonnes CO2) |
+| --- | --- | --- | --- |
+| China | 32% | 12.2 | about 8.6 |
+| United States | 13% | 5.0 | about 14.3 |
+| India | 8% | 3.1 | about 2.1 |
+| European Union (27) | 6% | 2.3 | about 5.1 |
+| World | 100% | 38.1 | about 4.6 |
+
+(Per-person figures derived from the Budget's totals and UN population estimates; the U.S. also remains the largest *cumulative* emitter since the Industrial Revolution, a third column of moral arithmetic the table doesn't show.)
+
+Now watch the same numbers argue three ways:
+
+<PerspectiveTabs>
+  <Perspective name="Aggressive-mitigation advocate">
+    Read the **per-capita and cumulative** columns. Americans emit nearly seven times what Indians do — about 14.3 tonnes a year against 2.1 — and they do it atop two centuries of banked emissions that make the United States the largest cumulative emitter in history. On this reading, rich-world leadership is not charity but arrears: the countries that used the atmosphere's budget owe the steepest cuts and the financing for everyone else's transition.
+  </Perspective>
+  <Perspective name="Adaptation-first advocate">
+    Read the **India row** — as destiny, not as a problem. Development will raise that 2.1 tonnes for decades and *should*: energy is how poor countries build the sea walls, grids, and hospitals that survive a warmer world. On this reading, the table says significant further warming is already baked into global development arithmetic, so the honest policy plans for it — resilience first.
+  </Perspective>
+  <Perspective name="Innovation-led centrist">
+    Read the **China column**. Nearly a third of the world total is decided by the price of Chinese solar, batteries, and coal power — and tomorrow's totals will be decided by what India and its successors find cheapest. On this reading, the highest-leverage U.S. policy is whatever makes clean energy the cheap option in Asia: innovation that drops the global price mitigates everywhere at once, no treaty required.
+  </Perspective>
+</PerspectiveTabs>
+
+None of the three is misreading the table. They are answering different questions with it.
+
+<Checkpoint question="A negotiator says “China is the problem — 32 percent of emissions.” Another says “America is — 14 tonnes per head and the largest cumulative total.” Who is factually wrong?">
+  Neither — and that is the point. Absolute, per-capita, and cumulative emissions are all real measurements that answer different normative questions: *where is the most leverage now?* (absolute), *who is living highest-carbon?* (per-capita), *who used the atmosphere's budget?* (cumulative). Treaty negotiations stall partly because each bloc insists its preferred metric is "the" metric. A careful citizen names the metric before drawing the conclusion.
+</Checkpoint>
+
+## What's settled and what's contested
+
+**Settled or near-settled:** the core science (Lesson 1); that clean-energy costs collapsed after 2010; that 1.5°C is, for practical purposes, out of reach without overshoot and large-scale carbon removal; that climate damages are already material to U.S. infrastructure, agriculture, and insurance markets.
+
+**Genuinely contested:** the discount rate — which is to say, the ethics of intergenerational trade-offs (Stern's roughly 1.4 percent versus Nordhaus's roughly 4.3 percent moves the social cost of carbon by an order of magnitude, and EPA's $190 sits on a contested 2 percent); how much weight catastrophic tails should carry (Weitzman versus the optimizers); whether prices, regulation, or subsidized innovation actually drive substitution; and whether *any* high-cost mitigation policy can survive democratic politics long enough to matter — the iron-law question on which the American experience of 2022–2026 is now Exhibit A for every side.
+
+A defensible position picks one of the three frames, states its discount-rate ethics out loud, and names what evidence would change it — the [[term:steel-man]] discipline this pack exists to practice. Lesson 3 turns to the machinery those positions must work through: what the IRA built, what its partial repeal dismantled, what the courts left standing, and what the states and the world are doing about it.

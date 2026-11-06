@@ -1,0 +1,151 @@
+schema: bettercitizen.assessment/v1
+lesson: the-quiet-amendments
+questions:
+  - id: q1-third-quiet
+    kind: multiple-choice
+    text: "The Third Amendment has produced essentially no litigation in 235
+      years. The best explanation is that:"
+    choices:
+      - id: a
+        text: It was effectively repealed when Congress created a standing army
+      - id: b
+        text: The Supreme Court held in Engblom v. Carey that it creates no
+          enforceable rights
+      - id: c
+        text: The grievance it answered — forced quartering of soldiers in private
+          homes — disappeared once the military was professionalized and housed
+          on bases
+      - id: d
+        text: It applies only in wartime, and the United States has rarely declared
+          war
+    correct_choice_id: c
+    explanation: The Third Amendment is quiet because it won — the practice it
+      banned simply ended, so there is nothing to litigate. Engblom (2d Cir.
+      1982) held the opposite of choice (b) — it took the claim seriously,
+      finding that National Guardsmen are "soldiers" and a rented staff
+      apartment a "house" (the officers ultimately lost on qualified-immunity
+      grounds, not on the meaning of the amendment). Choice (d) inverts the
+      text — the amendment is at its strongest in peacetime, when quartering
+      requires the owner's consent, full stop.
+    concepts:
+      - bill-of-rights
+      - civil-liberties
+  - id: q2-seventh-transfer
+    kind: multiple-choice
+    text: "A plaintiff suing for $80,000 in damages is denied a jury — once in
+      federal district court, once in a state court whose rules allow bench
+      trials in such cases. Where does the Seventh Amendment claim succeed?"
+    choices:
+      - id: a
+        text: In both courts — $80,000 comfortably exceeds the twenty-dollar
+          threshold
+      - id: b
+        text: Only in federal court — the Seventh Amendment was never incorporated
+          against the states
+      - id: c
+        text: Only in state court — the amendment reserves civil juries to the
+          states
+      - id: d
+        text: In neither court — the civil-jury right applies only to suits in
+          equity
+    correct_choice_id: b
+    explanation: The Seventh Amendment is one of the two Bill of Rights
+      guarantees never incorporated (Minneapolis & St. Louis R. Co. v.
+      Bombolis, 1916), so it governs federal courtrooms only — the
+      twenty-dollar threshold does real work in federal damages suits and no
+      work at all across the street in state court. Choice (d) is backwards
+      on the history — the amendment preserves the jury right where the
+      common law provided one in 1791 (damages suits), not in equity
+      (injunctions). The state-court plaintiff's remedy lies in the state
+      constitution's own jury clause.
+    concepts:
+      - bill-of-rights
+      - incorporation-doctrine
+  - id: q3-ninth-vs-tenth
+    kind: multiple-choice
+    text: "A brief argues: 'Nothing in the Constitution's enumeration of rights
+      should be read to deny the existence of a right to bodily autonomy the
+      people have always retained.' A second brief argues: 'Nothing in the
+      Constitution delegates to Congress the power to regulate purely local
+      land use, so that power remains with the states.' Which amendments do
+      the two briefs invoke?"
+    choices:
+      - id: a
+        text: The first invokes the Tenth; the second the Ninth
+      - id: b
+        text: Both invoke the Ninth — retained rights and reserved powers are
+          synonyms
+      - id: c
+        text: The first invokes the Ninth (unenumerated rights retained by the
+          people); the second the Tenth (undelegated powers reserved to the
+          states or the people)
+      - id: d
+        text: Neither — both arguments depend on the Fourteenth Amendment
+    correct_choice_id: c
+    explanation: The two amendments are constantly swapped, but they answer
+      different questions. The Ninth is about rights — it blocks the inference
+      that an unlisted right is a forfeited right, which is exactly the move
+      the first brief makes. The Tenth is about powers — it restates that the
+      federal government has only what was delegated, the second brief's
+      premise. The distinction also tells you who complains — individuals
+      assert retained rights; states characteristically assert reserved
+      powers.
+    concepts:
+      - bill-of-rights
+      - federalism
+  - id: q4-commandeering-transfer
+    kind: multiple-choice
+    text: "Congress passes the 'Safe Streets Act,' which (1) creates federal
+      grants for states that adopt tougher car-theft laws, and (2) requires
+      every state attorney general to prosecute car-theft cases referred by
+      the FBI. A state that wants neither sues. Under the Tenth Amendment
+      cases, what result?"
+    choices:
+      - id: a
+        text: Both provisions stand — car theft affects interstate commerce, so
+          Congress may structure enforcement as it sees fit
+      - id: b
+        text: Both provisions fall — Congress may neither pay states to legislate
+          nor direct their officers
+      - id: c
+        text: The grants stand, but the prosecution mandate falls — Congress may
+          induce state cooperation with money, but may not conscript state
+          officers to administer a federal program
+      - id: d
+        text: The grants fall, but the prosecution mandate stands — spending
+          conditions invade state sovereignty more deeply than direct orders
+    correct_choice_id: c
+    explanation: This is the line the anti-commandeering cases draw.
+      Conditional funding is the classic permitted tool — states remain free
+      to refuse the money. Ordering state attorneys general to prosecute is
+      Printz v. United States (1997) in new clothing — Congress conscripting
+      state executive officers to run a federal program — and it falls
+      regardless of how strong Congress's commerce power over car theft is.
+      The doctrine polices the means (commandeering state government), not
+      the ends.
+    concepts:
+      - federalism
+      - bill-of-rights
+  - id: q5-ninth-inkblot
+    kind: free-response
+    text: Robert Bork compared the Ninth Amendment to a clause covered by an
+      inkblot — unenforceable because unknowable. Randy Barnett reads it as a
+      command to presume liberty; Kurt Lash reads it as a guardian of state
+      self-government. Which reading do you find most persuasive, and what
+      would courts actually do differently under your reading?
+    socratic_seed: Start with the text — "shall not be construed to deny or
+      disparage" is an instruction about interpretation; does an instruction
+      need judicial enforcement to have force, or does it work by blocking a
+      bad inference? Test Bork's worry — if judges may enforce unlisted
+      rights, what disciplines their choices, and is that discipline any
+      weaker than what governs "liberty" under due process? Test Barnett —
+      would a presumption of liberty have changed real cases (Griswold, the
+      occupational-licensing cases)? Test Lash — if the retained rights are
+      the people's rights in their states, does the Ninth end up protecting
+      majorities rather than dissenters? Then ask the institutional question —
+      whichever reading is right historically, which produces the fewest
+      judicial mistakes?
+    concepts:
+      - bill-of-rights
+      - civil-liberties
+      - federalism

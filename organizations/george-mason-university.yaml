@@ -1,0 +1,11 @@
+slug: george-mason-university
+name: George Mason University
+kind: university
+subtype: public-university
+description: "Virginia's largest public research university, based in Fairfax with an Arlington campus near Washington. Hosts several market-oriented policy organizations — including the Mercatus Center and the Institute for Humane Studies — making it a significant node in classical-liberal policy networks."
+website: https://www.gmu.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+is_active: true

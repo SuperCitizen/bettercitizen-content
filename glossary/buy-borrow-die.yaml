@@ -1,0 +1,16 @@
+slug: buy-borrow-die
+name: Buy, Borrow, Die
+short_definition: "A tax strategy in which the wealthy hold appreciating assets, borrow against them to fund spending, and pass them to heirs at death — paying little or no income tax on the gains."
+body_md: ""
+category: economy
+difficulty: advanced
+status: active
+etymology: "English: named by USC law professor Edward McCaffery in the 1990s to illustrate tax inequality; the three-word label entered wide use after 2021 reporting on billionaire taxes"
+why_it_matters: "Buy-borrow-die shows how the income tax can be avoided entirely on enormous gains: unsold assets are not taxed, loans are not income, and the stepped-up basis at death erases the gain — all lawfully."
+context_example: "A billionaire who borrows against stock instead of selling it, then leaves the stock to heirs, can fund a lavish life while the lifetime gain is never reached by the income tax — the essence of buy, borrow, die."
+related_term_slugs:
+  - stepped-up-basis
+  - carried-interest
+  - wealth-tax
+  - tax-avoidance
+tags: []

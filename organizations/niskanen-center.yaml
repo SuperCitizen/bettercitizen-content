@@ -1,0 +1,16 @@
+slug: niskanen-center
+name: Niskanen Center
+kind: think-tank
+description: "Moderate think tank in Washington, D.C., founded by former libertarians who concluded that an effective state and a free market are complements, not rivals. Advocates a 'free-market welfare state' — open trade and immigration, carbon pricing, social insurance — and works deliberately across party lines."
+website: https://www.niskanencenter.org
+jurisdiction: national
+partisan_lean: center
+ideology_tags:
+  - classical-liberalism
+  - technocratic-liberalism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+concept_tags:
+  - think-tank
+is_active: true

@@ -1,0 +1,136 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-price-of-federalism
+kind: reading
+title: "The price of federalism: grants, strings, and mandates"
+objectives:
+  - Explain what grants-in-aid are and trace their growth from the Morrill Act to the trillion-dollar present
+  - Distinguish categorical grants, block grants, and revenue sharing — and the politics of each
+  - State the South Dakota v. Dole test for conditional federal spending, including the coercion caveat
+  - Explain what counts as an unfunded mandate and what the Unfunded Mandates Reform Act does and does not do
+  - Apply the coercion line drawn in NFIB v. Sebelius to a novel funding condition
+concepts:
+  - federalism
+  - spending-power
+  - grants-in-aid
+  - unfunded-mandates
+  - tenth-amendment
+sources:
+  - type: court-opinion
+    citation: 'South Dakota v. Dole, 483 U.S. 203 (1987) — conditional highway funds and the drinking age; the four-part spending-condition test and the coercion caveat.'
+    url: https://supreme.justia.com/cases/federal/us/483/203/
+  - type: court-opinion
+    citation: 'Steward Machine Co. v. Davis, 301 U.S. 548 (1937) — upholding the Social Security unemployment-compensation scheme; the "point at which pressure turns into compulsion."'
+    url: https://supreme.justia.com/cases/federal/us/301/548/
+  - type: court-opinion
+    citation: 'NFIB v. Sebelius, 567 U.S. 519 (2012) — the Medicaid-expansion condition held unconstitutionally coercive: "a gun to the head."'
+    url: https://supreme.justia.com/cases/federal/us/567/519/
+  - type: statute
+    citation: '23 U.S.C. § 158 — the National Minimum Drinking Age provision: withholding federal highway funds from states with a purchase age under 21.'
+    url: https://www.law.cornell.edu/uscode/text/23/158
+  - type: crs-report
+    citation: 'Congressional Research Service, R40638, "Federal Grants to State and Local Governments: Trends and Issues" — over $1 trillion in annual grants; Medicaid the majority.'
+    url: https://www.congress.gov/crs-product/R40638
+  - type: crs-report
+    citation: 'Congressional Research Service, RL32760, "The Temporary Assistance for Needy Families (TANF) Block Grant: Responses to Frequently Asked Questions" — the $16.5 billion basic block grant, fixed since 1996.'
+    url: https://www.congress.gov/crs-product/RL32760
+  - type: crs-report
+    citation: 'Congressional Research Service, R44624, "The Individuals with Disabilities Education Act (IDEA) Funding: A Primer" — the 40 percent "full funding" benchmark and actual appropriations.'
+    url: https://www.congress.gov/crs-product/R44624
+  - type: website
+    citation: 'Congressional Budget Office, "CBO''s Activities Under the Unfunded Mandates Reform Act" — mandate cost estimates and the inflation-adjusted thresholds.'
+    url: https://www.cbo.gov/publication/51335
+  - type: website
+    citation: 'Pew Charitable Trusts, Fiscal 50, "Federal Share of State Budgets Continues Decline From Pandemic Highs" (May 2026) — federal funds as a share of state revenue, fiscal 2024.'
+    url: https://www.pew.org/en/research-and-analysis/articles/2026/05/28/federal-share-of-state-budgets-continues-decline-from-pandemic-highs
+  - type: website
+    citation: 'KFF, "Status of State Medicaid Expansion Decisions" — adoption map as of mid-2026: 41 states (including D.C.) in, 10 out.'
+    url: https://www.kff.org/medicaid/status-of-state-medicaid-expansion-decisions/
+  - type: book
+    citation: 'Peterson, P. E. (1995), The Price of Federalism, Brookings Institution Press — developmental vs. redistributive functions and which level of government does each well.'
+duration_min: 16
+---
+
+# The price of federalism: grants, strings, and mandates
+
+The drinking age in every state is 21, and there is no federal law that says it must be. Search the U.S. Code and the closest thing you will find is an instruction to the Secretary of Transportation: withhold a percentage of federal highway money from any state that lets people under 21 buy alcohol. South Dakota — which sold low-alcohol beer to nineteen-year-olds and wanted to keep doing so — sued, arguing Congress was regulating drinking ages by laundering a command through a checkbook. It lost, 7–2 (*South Dakota v. Dole*, 1987), did the arithmetic, and raised its drinking age like everyone else. Nobody was ordered to do anything. That is how the modern federal government most often governs the states: not by command — Lesson 1 explained why direct commands are unconstitutional — but by contract. This lesson follows the money: where the grants came from, what forms they take, what strings can legally be attached, and where the Supreme Court finally said the strings become a leash.
+
+## The cash constitution
+
+Federal money for state purposes is older than the income tax. The Morrill Act of 1862 granted federal land to the states to endow colleges — the "land-grant" universities that still carry the name. The Federal-Aid Road Act of 1916 set the modern template: cash instead of land, a matching requirement so states had skin in the game, and conditions — each state had to create a highway department to qualify. The [[term:new-deal]] scaled the template up; the [[term:great-society]] multiplied it, adding Medicaid in 1965, the program that now dominates the whole system. Today the Congressional Research Service counts federal **grants-in-aid** — transfers from the national treasury to state and local governments for defined purposes — at over $1 trillion a year, with Medicaid alone the majority of it.
+
+What does that buy? Dependence is a loaded word; measure it instead. Before revealing the actual figures, commit to a guess:
+
+<GuessTheShare
+  title="How much of a state's revenue comes from Washington?"
+  unit="% of state revenue, FY 2024"
+  items={[
+    {label: 'All 50 states combined', actual: 34.2},
+    {label: 'Louisiana (the most reliant)', actual: 50.7},
+    {label: 'Alaska', actual: 48.8},
+    {label: 'North Dakota (the least reliant)', actual: 23.9},
+  ]}
+  source="Pew Charitable Trusts, Fiscal 50: federal share of state government revenue, fiscal 2024"
+/>
+
+Whatever you guessed, notice two things the actuals force on you. First, the floor is high everywhere: even the *least* federally dependent state raises nearly a quarter of its revenue from Washington, and in Louisiana the federal government supplies more than half. The fifty-year average share is about 28.6 percent, and it has trended upward — 34.2 percent in fiscal 2024, down from a pandemic peak of 36.7 percent in 2021 but still above the long-run norm. Second, and this is the constitutional point: every condition Congress attaches rides on money of this magnitude. "States are free to refuse federal funds" is a true sentence about sums no state can actually refuse. Hold that thought; the Supreme Court eventually had to.
+
+## Categorical, block, and the politics of strings
+
+Not all grants are alike, and the differences are where the politics lives. A **categorical grant** is money for a narrowly defined purpose — highway construction, special education, childhood vaccination — hedged with conditions on how it may be spent, who must be served, and what must be reported. Categoricals are the dominant form by far, and Congress prefers them for an obvious reason: they let national majorities buy specific outcomes. A **block grant** consolidates funding into a broad purpose — "community development," "maternal and child health" — and hands states wide discretion within it. Governors of both parties love block grants; appropriators of both parties distrust them. **General revenue sharing**, the no-strings extreme — Washington simply mailing checks — existed from 1972 to 1986 and died without a constituency in Congress, which is itself a lesson: politicians do not enjoy raising taxes so that other politicians can take credit for spending them.
+
+| | Categorical grant | Block grant |
+| --- | --- | --- |
+| Purpose | Narrow, defined program | Broad functional area |
+| State discretion | Low — detailed conditions | High — formula allocation, light rules |
+| Who favors them | Congress, federal agencies, program advocates | Governors, state legislatures |
+| Funding behavior over time | Can grow automatically (Medicaid's open-ended match) | Tends to stagnate — a fixed sum inflation quietly shrinks |
+| Examples | Medicaid, IDEA special-education grants, highway aid | Community Development Block Grant (1974), TANF (1996) |
+
+The table's last row is the sleeper. When welfare reform converted Aid to Families with Dependent Children into the TANF block grant in 1996, states won flexibility and Congress won a fixed price: $16.5 billion a year. That figure has never been adjusted for inflation, which means its real value has eroded by roughly half since 1996. Flexibility was real; so was the slow defunding nobody ever had to vote for. The reverse drift afflicts block grants too — Congress, unable to resist, re-attaches strings over time. Political scientists describe a cycle: categoricals proliferate, governors revolt, consolidation into blocks, strings and erosion creep back, repeat. The Reagan administration's 1981 budget act, which folded dozens of categoricals into a handful of block grants, is the cycle's most famous turn.
+
+<QuickCheck
+  question="A federal program sends every state a fixed annual sum, set by formula, to spend on 'services that strengthen families' — states choose the mix, file an annual report, and that's it. This is best described as…"
+  choices={[
+    {id: 'a', text: 'A categorical grant — it comes with a reporting condition'},
+    {id: 'b', text: 'A block grant — broad purpose, formula funding, wide state discretion'},
+    {id: 'c', text: 'General revenue sharing — the states decide how to use it'},
+    {id: 'd', text: 'An unfunded mandate — Congress is making states run a program'},
+  ]}
+  answer="b"
+  explanation="Broad purpose plus formula allocation plus state discretion is the block-grant signature. It isn't categorical (no narrow program definition or detailed use conditions — a bare report doesn't change the species), and it isn't revenue sharing, because the money is still tied to a functional area. And nothing is mandated: states that take the money must spend it on the broad purpose, but taking it is their choice."
+/>
+
+## The Dole test: how strings became doctrine
+
+The constitutional question under all of this: if Congress cannot *order* states to do something (Lesson 1's anticommandeering rule), how can it *pay* them to do the same thing? *South Dakota v. Dole* gave the canonical answer. Chief Justice Rehnquist upheld the drinking-age condition and organized the doctrine into four requirements. The spending must serve the **general welfare** (a test the Court applies with near-total deference). The condition must be **unambiguous** — states must know the deal when they take the money, because the doctrine's whole legitimacy rests on the metaphor of contract. The condition must be **related** "to the federal interest in particular national projects or programs" — drunk nineteen-year-olds driving across state lines relate to highway funds; the germaneness requirement has teeth mostly in theory. And the condition may not induce states to violate some **independent constitutional bar** — Congress cannot pay states to establish a church.
+
+Then came the caveat that waited twenty-five years for a client. Quoting *Steward Machine Co. v. Davis* (1937), the Court allowed that "in some circumstances the financial inducement offered by Congress might be so coercive as to pass the point at which 'pressure turns into compulsion.'" In *Dole* itself the threatened 5 percent of highway funds was "relatively mild encouragement." Justice O'Connor, dissenting, pressed the soft spot: if germaneness means anything, a drinking age is a condition on how states regulate their citizens, not on how highway money is spent — and if it means nothing, the spending power can buy what the commerce power cannot reach. Her dissent is still the best short statement of the worry that conditional spending is commandeering with extra steps.
+
+<Checkpoint question="Congress offers states a 4 percent bonus on federal transit grants if they lower default urban speed limits to 20 mph. Run the Dole test: does the condition survive, and which prong gives the challenger the best argument?">
+  It almost certainly survives. General welfare — easily (deference). Unambiguous — yes, if the statute states the deal clearly. Germaneness is the challenger's best prong — but street safety relates to transportation spending at least as closely as drinking ages related to highway funds in *Dole* itself, so the precedent forecloses it. No independent constitutional bar, and a 4 percent *bonus* on one grant program is nowhere near coercion. The lesson: under *Dole*, modest and refusable conditions win even when they regulate things Congress could not command directly.
+</Checkpoint>
+
+## Mandates without money
+
+Sometimes Congress skips the checkbook and simply legislates costs onto states. The Americans with Disabilities Act obliges state and local governments, like private employers, to make facilities accessible — at their own expense. The Clean Air Act requires states to write implementation plans and backs the requirement with highway-fund sanctions. The REAL ID Act of 2005 set federal standards for driver's licenses; no state was ordered to comply, but noncompliant licenses would stop working at airport security — states protested the multibillion-dollar compliance costs for years. The political vocabulary calls all of this the **unfunded mandate** problem, and it is worth being precise where the politics is not: a *direct* requirement that states bear costs is constitutional when Congress regulates states the same way it regulates everyone else (a generally applicable wage law, for example) — anticommandeering bars conscripting states to govern *third parties*, not subjecting states to law. Conditions on grants are not mandates at all, however mandatory they feel.
+
+Congress responded to a revolt by governors and mayors with the Unfunded Mandates Reform Act of 1995 — a transparency statute, not a prohibition. UMRA requires the Congressional Budget Office to estimate the cost of any intergovernmental mandate above a threshold ($50 million in 1996 dollars — about $103 million by 2025) and lets any member raise a point of order against the bill. It bans nothing, and its exclusions are where the action went: conditions of federal aid, civil-rights requirements, and constitutional-rights enforcement are all outside its scope. The deepest grievance it never touches is the *underfunded promise*: when Congress passed what became the Individuals with Disabilities Education Act, it authorized federal grants of up to 40 percent of the average per-pupil cost of educating children with disabilities. Appropriations have never come close; in recent years the federal contribution has run at roughly a third of the promised share, with states and school districts carrying the rest of a requirement they cannot decline.
+
+<Checkpoint question="Three federal moves: (A) a statute requiring every state-run prison to meet new federal safety codes, no money attached; (B) the same codes required only of prisons accepting federal corrections grants; (C) the same codes imposed on private prison companies. Which one is the 'unfunded mandate' in the strict sense — and which body of law governs each?">
+  **A** is the true unfunded mandate: a direct federal requirement that states bear costs, lawful if Congress has an enumerated-power hook and is regulating states' own operations as it regulates others' — and it is exactly what UMRA's cost-estimate machinery was built for. **B** is a *Dole* condition — not a mandate at all legally, and expressly excluded from UMRA, however coercive it feels. **C** is ordinary regulation of private parties, raising no federalism question whatsoever. The political word "unfunded mandate" gets applied to all three; the law treats them completely differently.
+</Checkpoint>
+
+## The coercion line: NFIB v. Sebelius
+
+Everything above assumed the state could walk away from the deal. In 2012 the Supreme Court confronted a deal designed so that no state could. The Affordable Care Act expanded Medicaid eligibility to all adults under 138 percent of the poverty line, with Washington paying the overwhelming share of expansion costs — and provided that a state refusing the expansion could lose *all* of its existing Medicaid funding. The scale made *Dole* look quaint, and the *NFIB* Court said so with numbers: in *Dole*, South Dakota stood to lose less than half of one percent of its budget; here, Medicaid's federal funds amounted to more than 10 percent of most states' entire budgets. Chief Justice Roberts called the threat "a gun to the head" — "economic dragooning that leaves the States with no real option but to acquiesce" — and seven justices agreed the condition crossed *Steward Machine*'s long-dormant line from pressure into compulsion. The remedy rewrote the deal rather than killing it: states could take the expansion money or leave it, keeping their existing Medicaid either way.
+
+The aftermath is a live experiment in what "optional" means at scale. As of mid-2026, forty-one states (counting the District of Columbia) have adopted the [[issue:medicaid-expansion]] and ten have not — a decade and a half of standing offers, ballot initiatives, and legislative reversals. And the doctrinal map *NFIB* left behind is mostly blank: the Court located one point on the coercion spectrum (10-plus percent of a state's budget, attached to an *existing* [[term:entitlement-program]], is too much) and declined to draw the rest of the line. Every aggressive funding condition since — including the sanctuary-jurisdiction fights in the next lesson — is litigated in that blank space.
+
+## The scholar's lens: Peterson's ledger
+
+The political-science frame for this whole lesson belongs to Paul Peterson, whose *The Price of Federalism* (1995) sorted everything governments do into two functions. **Developmental** policy — roads, schools, public safety — makes a jurisdiction more attractive, and states and localities do it well, because competition for residents and businesses rewards them for it. **Redistributive** policy — welfare, health care for the poor — does the opposite at the state level: a state generous alone fears attracting the needy and repelling the taxed, so competition pushes every state to do less than its own voters might prefer. Peterson's ledger explains the grant system's deepest pattern without a single case citation: Washington finances redistribution (Medicaid, TANF, disability education) while states deliver it, and the fights — matching rates, block-granting Medicaid, expansion holdouts — are fights over which level absorbs redistribution's costs. Public-finance economists add a wrinkle worth knowing: grant money tends to stick where it lands rather than displacing state spending dollar-for-dollar — the **flypaper effect** — which is precisely why Congress finds grants such an effective lever.
+
+## What this lesson is not
+
+This lesson priced the system: grants-in-aid and their history, the categorical–block tradeoff, the *Dole* rules for strings, the mandate problem UMRA documents but does not solve, and the coercion line *NFIB* drew at Medicaid's scale. It did not resolve what no court has: where between half a percent and ten percent compulsion begins, whether conditions on *new* money are ever coercive, or whether the whole conditional-spending edifice is — as O'Connor warned — commandeering on layaway. Nor did it ask what happens when the two sovereigns stop bargaining and start suing each other. That open warfare — preemption, marijuana, sanctuary jurisdictions, and the state attorneys general — is Lesson 3.

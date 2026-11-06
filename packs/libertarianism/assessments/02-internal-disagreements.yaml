@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: internal-disagreements
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In Anarchy, State, and Utopia, Nozick answers Rothbard's anarchism with an 'invisible-hand' argument. What does that argument claim to show?"
+    choices:
+      - id: a
+        text: "That without a state, society collapses into violent chaos, so rational people would sign a social contract creating one."
+      - id: b
+        text: "That a minimal state would emerge from a stateless market for protection through steps that violate no one's rights — so the night-watchman state is compatible with libertarian principle."
+      - id: c
+        text: "That competing protection agencies are more efficient than a state monopoly, so anarchy is the stable equilibrium."
+      - id: d
+        text: "That any state, once established, inevitably grows beyond its minimal functions."
+    correct_choice_id: b
+    explanation: "Nozick's derivation is an invisible-hand story, not a social contract: protection agencies form, clients cluster toward the dominant agency, and when it compensates holdouts it forcibly brings under its procedures, it has become a minimal state — without anyone designing it and, Nozick argues, without rights violations along the way. Option (a) is Hobbes, not Nozick; (c) inverts the conclusion (it is roughly the anarcho-capitalist claim); (d) is the anarcho-capitalists' instability argument *against* minarchy."
+    concepts: [libertarianism, minarchism, anarcho-capitalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "An essayist writes: 'Rectification of past injustice is part of Nozick's own entitlement theory — and a universal basic income, not a caseworker bureaucracy, is the libertarian way to honor it.' Which stream is this, and what gives it away?"
+    choices:
+      - id: a
+        text: "Minarchist — the appeal to Nozick's authority."
+      - id: b
+        text: "Anarcho-capitalist — the hostility to bureaucracy."
+      - id: c
+        text: "Bleeding-heart libertarian — turning Nozick's rectification principle toward social-justice ends and endorsing a basic-income floor."
+      - id: d
+        text: "Consequentialist anarchist — the appeal to what works rather than what is right."
+    correct_choice_id: c
+    explanation: "The tell is not citing Nozick (all streams engage him) but the *use*: bleeding-heart libertarians argue that rectifying historical injustice is internal to the entitlement theory and that minarchists simply decline to apply it, and they favor a UBI over the conditional welfare bureaucracy. Minarchists typically resist UBI as dependency-creating; anarcho-capitalists reject state transfers entirely; and the argument here is rights-based, not consequentialist."
+    concepts: [bleeding-heart-libertarianism, minarchism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What is the minarchists' core structural objection to a fully private market for law and defense?"
+    choices:
+      - id: a
+        text: "Private protection would be too expensive for the poor to afford."
+      - id: b
+        text: "Protection agencies that disagree about procedure have no neutral arbiter, so competition in force ends in conquest or cartel — a monopoly on force is what makes rights enforceable at all."
+      - id: c
+        text: "Private legal systems would violate the Constitution's guarantee of due process."
+      - id: d
+        text: "Citizens would free-ride and never voluntarily pay for protection, so agencies could not form in the first place."
+    correct_choice_id: b
+    explanation: "The minarchist objection is structural: a market for force eats itself, because agencies that disagree about procedure have no umpire above them, and the 'winner' of that competition is a state in all but name. Option (c) is a category error — anarcho-capitalists reject the Constitution's authority anyway, and minarchists don't argue from it here. Option (d) overshoots: agencies plausibly could form (commercial arbitration exists); the problem is what happens when they conflict. The free-rider worry (a close cousin of d) is the minarchists' argument about national defense, not about private courts generally."
+    concepts: [minarchism, anarcho-capitalism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A pollster wants a single question that reliably separates a minarchist from a bleeding-heart libertarian. Which works best?"
+    choices:
+      - id: a
+        text: "Should drug use among adults be legal?"
+      - id: b
+        text: "Should the United States avoid foreign military intervention?"
+      - id: c
+        text: "Should the state guarantee an income floor for the least advantaged?"
+      - id: d
+        text: "Should marriage equality be the law?"
+    correct_choice_id: c
+    explanation: "Drugs, non-intervention, and marriage equality are rows where all three streams agree — they tell you someone is a libertarian, not which kind. The income-floor question discriminates: bleeding-heart libertarians affirm a basic floor (often as a UBI) as a moral precondition of libertarian institutions, while minarchists answer no — private charity first, and admitting 'social justice' as a standard surrenders the limiting principle. Anti-discrimination law and constitutional originalism would also work; the unanimous rows would not."
+    concepts: [minarchism, bleeding-heart-libertarianism]
+
+  - id: q5
+    kind: free-response
+    text: "Anarcho-capitalists argue that minarchy is unstable: a state strong enough to monopolize force is strong enough to grow, and the American founding is their Exhibit A. State the strongest minarchist reply, and identify what evidence would help settle the dispute."
+    socratic_seed: "Strong minarchist replies: constitutional design is a technology that can be improved — the founding is version one, not the final word; the relevant comparison is not 'limited state vs. no growth' but 'limited state vs. stateless orders,' and historical non-state legal systems were conquered or consolidated too (medieval Iceland's commonwealth ended in submission to Norway in the 1260s); growth may trace to identifiable design flaws (vague delegations, weak enforcement of limits) rather than to statehood itself. Evidence that would bear on it: comparative trajectories of constitutional states with different designs, the fate of historical private-law orders under external and internal pressure, and whether any institution — state or non-state — has durably resisted scope creep. Notice the dispute is partly empirical (trajectories) and partly conceptual (what counts as 'the same' institution growing)."
+    concepts: [libertarianism, minarchism, anarcho-capitalism]

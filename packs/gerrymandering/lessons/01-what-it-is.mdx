@@ -1,0 +1,127 @@
+---
+schema: bettercitizen.lesson/v1
+slug: what-it-is
+kind: reading
+title: What gerrymandering is — and what it isn't
+objectives:
+  - Define gerrymandering in mechanical terms a non-specialist can repeat
+  - Identify "packing" and "cracking" as the two core moves and show how each wastes votes
+  - Compute a simple efficiency gap and state what it does and doesn't prove
+  - Distinguish partisan, racial, and incumbent-protection variants
+  - Explain why a weird-looking or lopsided map is not, by itself, evidence of gerrymandering
+concepts:
+  - gerrymandering
+  - redistricting
+sources:
+  - type: paper
+    citation: 'Stephanopoulos, N. & McGhee, E. (2015), "Partisan Gerrymandering and the Efficiency Gap," U. Chi. L. Rev. 82: 831.'
+    url: https://chicagounbound.uchicago.edu/uclrev/vol82/iss2/4/
+  - type: book
+    citation: 'Cain, B. (2015), Democracy More or Less, Cambridge University Press.'
+  - type: website
+    citation: 'Brennan Center for Justice, "Gerrymandering Explained" (last updated 2024).'
+    url: https://www.brennancenter.org/our-work/research-reports/gerrymandering-explained
+  - type: website
+    citation: 'Library of Congress, "Elbridge Gerry and the Monstrous Gerrymander" (In Custodia Legis, 2017) — the 1812 origin, the Tisdale cartoon, and the election result.'
+    url: https://blogs.loc.gov/law/2017/02/elbridge-gerry-and-the-monstrous-gerrymander/
+  - type: paper
+    citation: 'Wang, S. (2016), "Three Tests for Practical Evaluation of Partisan Gerrymandering," Stanford Law Review 68: 1263.'
+    url: https://www.stanfordlawreview.org/print/article/three-tests-for-practical-evaluation-of-partisan-gerrymandering/
+  - type: paper
+    citation: 'Chen, J. & Rodden, J. (2013), "Unintentional Gerrymandering: Political Geography and Electoral Bias in Legislatures," Quarterly Journal of Political Science 8.'
+    url: https://www.nowpublishers.com/article/Details/QJPS-12033
+  - type: book
+    citation: 'Rodden, J. (2019), Why Cities Lose: The Deep Roots of the Urban-Rural Political Divide, Basic Books.'
+  - type: website
+    citation: 'Ballotpedia, "United States House of Representatives elections in North Carolina, 2016" — statewide vote share vs. seats.'
+    url: https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2016
+perspectives:
+  - name: Reform advocate
+  - name: Partisan-realist defender
+  - name: Federalist (states-decide) view
+duration_min: 13
+---
+
+# What gerrymandering is — and what it isn't
+
+On February 11, 1812, Governor Elbridge Gerry of Massachusetts signed a redistricting bill that, by contemporary accounts, he personally disliked. His Democratic-Republican party controlled the legislature, faced a Federalist resurgence, and had drawn the state's senate districts to survive it. One district curled through Essex County in a long, lumpy arc that ignored every town-line convention of the day. In the offices of the *Boston Gazette*, someone (legend says the painter Gilbert Stuart, though the engraver Elkanah Tisdale drew the published version) added wings, claws, and fangs to the district's outline. On March 26, 1812, the *Gazette* printed the beast over a new word: **the Gerry-mander**. That spring the monster did exactly what it was built to do. Federalists won the governorship — Gerry himself was turned out — and won more votes statewide in senate races, yet the gerrymandered senate went Democratic-Republican by 29 seats to 11. More votes, fewer seats: that inversion, not the funny shape, is the thing the word names. Gerry got a consolation prize — he died in 1814 as James Madison's vice president — and his name (hard *G*, originally) got attached, soft *G* and all, to a practice older than the label and very much alive in the 2026 midterms.
+
+The word now gets thrown around as a synonym for "election map I dislike," which makes it useless for thinking with. So start with the mechanics.
+
+## Two moves: packing and cracking
+
+Gerrymandering is the **deliberate manipulation of district boundaries to produce partisan, racial, or incumbent-protection outcomes that diverge from what neutral line-drawing would produce**. Strip away the litigation and the cartography and there are only two moves:
+
+- **Packing.** Concentrate the opposing party's voters into a few districts they win by overwhelming margins. Every vote past the winning threshold is surplus — it elects no one extra.
+- **Cracking.** Split the opposing party's remaining voters across many districts where they fall just short everywhere. Every vote in a losing cause elects no one at all.
+
+Both moves work by **wasting** the other side's votes — piling them up above the threshold (packing) or stranding them below it (cracking) — while spreading your own voters with maximal efficiency: comfortable wins, no blowouts, no losses. The lab below is the whole logic in one electorate. Fifty voters, 30 for party A (60%) and 20 for party B (40%), districted three different ways into five districts of ten voters each. Same voters, same houses, same opinions — toggle the plans and watch the delegation change.
+
+<GerrymanderLab title="One electorate, three maps" />
+
+Run all three plans before reading on, because each one names a move. The proportional-ish plan is the baseline: compact districts that translate 60% of the votes into three of five seats. The **Crack B** plan spreads B's voters so thin that every district splits 6–4 — party A converts the same 60% of votes into a 5–0 sweep, and all twenty B votes are wasted in losses. The **Pack A** plan runs the opposite move against the majority: A's voters are piled into two districts it wins overwhelmingly (one of them 10–0), and B takes the other three — a party with 40% of the votes walks away with a majority of the seats. Notice, finally, what none of this requires: ugly shapes. The packed plan's districts are reasonably tidy blocks. A gerrymander is defined by what it does to votes, not by how it offends the eye — which is why modern gerrymanders, drawn with precinct-level data and optimization software, can look perfectly innocent while being more durable than anything Elbridge Gerry's allies could draw by hand. [[term:redistricting]] happens on a clock — every state redraws after each decennial census — and the party holding the pen when the clock strikes can bank the advantage for a decade.
+
+<Checkpoint question="Your party expects 45% of the statewide vote. As the line-drawer, which move do you apply to the majority party — packing or cracking — and why can't you crack them?">
+  You **pack** them. Cracking only works against a side you can hold *under* 50% in many districts at once — impossible when the other side has the statewide majority, since spreading their voters evenly hands them every seat (that's the Crack B plan, run against you). Instead you concentrate their surplus into a few overwhelming wins and assemble narrow majorities for yourself everywhere else — exactly the Pack A plan.
+</Checkpoint>
+
+## Measuring the waste: the efficiency gap
+
+For decades the standard objection to policing gerrymanders was that "fairness" couldn't be measured. The modern political-science answer is that wasted votes can be counted. In a 2015 *University of Chicago Law Review* article, law professor Nicholas Stephanopoulos and political scientist Eric McGhee defined the **efficiency gap**: the difference between the two parties' wasted votes (surplus votes in wins, plus all votes in losses), divided by all votes cast. Here is the arithmetic on a five-district state, 100 voters per district:
+
+| District | Party A votes | Party B votes | Winner | A's wasted votes | B's wasted votes |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 80 | 20 | A | 30 (surplus) | 20 (losing) |
+| 2 | 80 | 20 | A | 30 (surplus) | 20 (losing) |
+| 3 | 35 | 65 | B | 35 (losing) | 15 (surplus) |
+| 4 | 35 | 65 | B | 35 (losing) | 15 (surplus) |
+| 5 | 35 | 65 | B | 35 (losing) | 15 (surplus) |
+| **Total** | **265 (53%)** | **235 (47%)** | **B wins 3–2** | **165** | **85** |
+
+Party A wins a 53% majority of votes and a minority of seats. The efficiency gap is (165 − 85) ÷ 500 = **16% in Party B's favor** — B turned votes into seats far more efficiently, because the map was built to waste A's. Stephanopoulos and McGhee proposed treating a plan as presumptively suspect when the gap exceeds **8% in a state legislature, or two seats in a congressional delegation**, sustained across elections. Their measure anchored the *Whitford* challenge to Wisconsin's 2011 assembly map and is now a standard exhibit in redistricting litigation and journalism alike.
+
+The efficiency gap is not the only ruler. Princeton neuroscientist-turned-elections-analyst Samuel Wang proposed three statistical tests (*Stanford Law Review*, 2016) that detect gerrymanders from election results alone — including the telltale signature of a packed map: the gerrymandering party wins its districts by suspiciously uniform, modest margins while the victim party wins its few districts by landslides. Political scientists Bernard Grofman and Gary King's "partisan symmetry" standard asks a hypothetical: if the parties' vote shares were swapped, would the seat shares swap too? A symmetric map can favor a party in fact; an asymmetric one favors it by construction. No single metric is dispositive — and the Supreme Court ultimately found none judicially manageable, as Lesson 3 recounts — but the empirical claim that gerrymanders are detectable and measurable is no longer seriously contested.
+
+<Checkpoint question="In the table above, suppose 25 of District 1's Party A voters were swapped for 25 of District 3's Party B voters — making District 1 a 55–45 win for A and District 3 a 60–40 win for A. Would the efficiency gap shrink or grow — and what does that tell you about what the gap is really measuring?">
+  It would **shrink dramatically** — A now wastes only 5 surplus votes in District 1 instead of 30, and District 3 flips from 35 wasted losing votes to a win wasting just 10. The gap measures *how unequally the map wastes the two sides' votes*, so un-packing Party A and letting it win a previously cracked district moves the map toward zero. The metric rewards maps where both parties' wins are similarly efficient — not maps that look pretty.
+</Checkpoint>
+
+## What gerrymandering isn't
+
+Three things are routinely called gerrymandering and aren't — and each confusion has a body of scholarship attached.
+
+**1. Districts that look weird because geography is weird.** A district that hugs a coastline, follows a river valley, or snakes along a mountain ridge is non-compact for reasons that have nothing to do with vote-wasting. Compactness is a useful screening signal, nothing more. The converse matters more: as the lab above showed, a tidy-looking map can be a ruthless gerrymander. Shape is neither necessary nor sufficient.
+
+**2. Lopsided outcomes that political geography produces on its own.** In a 2013 *Quarterly Journal of Political Science* paper, Jowei Chen and Jonathan Rodden ran thousands of computer-simulated, intent-free districting plans for Florida and found that most of them favored Republicans anyway — because Democrats cluster so densely in cities that they pack *themselves*. Rodden's book *Why Cities Lose* (2019) generalizes the point: under winner-take-all districts, a party whose voters are geographically concentrated wins its turf by 80% and loses everywhere else by 8%. This "unintentional gerrymander" means a bare seats-votes mismatch is not proof of foul play; the analytical gold standard is now to compare an enacted map against an ensemble of simulated neutral maps and ask whether it's an outlier. Many challenged maps are outliers — beyond even the most partisan of the simulated alternatives — which is the rebuttal to treating geography as a universal alibi.
+
+**3. Districts drawn to comply with the Voting Rights Act.** Section 2 of the VRA has long required states, under conditions the Supreme Court set out in *Thornburg v. Gingles* (1986), to draw districts where geographically compact, politically cohesive minority communities can elect candidates of their choice. A district drawn to satisfy that mandate is a statutory remedy for vote dilution, not a partisan weapon — though the same map can be both, and the line between "majority-minority district the VRA requires" and "racial sort the [[term:equal-protection]] Clause forbids" has been litigated for thirty years. The Supreme Court redrew that line again in 2026, in *Louisiana v. Callais* — Lesson 3 takes it up in full.
+
+Before moving to the variants, pin the vocabulary down — the rest of this pack (and most newspaper coverage) assumes you can tell these four apart without slowing down.
+
+<MatchUp
+  title="Match the term to what it does"
+  pairs={[
+    {left: "Packing", right: "Concentrate the other side's voters into a few districts they win overwhelmingly, wasting their surplus votes"},
+    {left: "Cracking", right: "Split the other side's voters across many districts they narrowly lose, wasting their votes in defeats"},
+    {left: "Efficiency gap", right: "The difference between the two parties' wasted votes, divided by all votes cast"},
+    {left: "Majority-minority district", right: "A district where a cohesive minority community can elect its chosen candidate — a Voting Rights Act remedy, not a partisan move"},
+  ]}
+/>
+
+## Three variants worth keeping separate
+
+**Partisan gerrymandering** advantages a party. It is the 1812 original and the headline modern cases. North Carolina's 2016 congressional map produced a 10–3 Republican delegation on about 53% of the statewide vote, and its author, Representative David Lewis, said the quiet part into a microphone: "I propose that we draw the maps to give a partisan advantage to 10 Republicans and 3 Democrats because I do not believe it's possible to draw a map with 11 Republicans and 2 Democrats." Maryland Democrats did the mirror image in 2011, redrawing the 6th District to unseat a 20-year Republican incumbent — former governor Martin O'Malley later testified that flipping the seat "was certainly my hope, and it was part of my intent."
+
+**Racial gerrymandering** dilutes (or, in the *Shaw v. Reno* line of cases, excessively sorts by) race. It is governed by the 14th and 15th Amendments and the VRA rather than by politics doctrine, and it remains justiciable in federal court — though on terms the Court narrowed sharply in 2026. Because Black and Latino voters vote heavily Democratic in most covered states, nearly every racial case has a partisan shadow, and *disentangling race from party* has become the central evidentiary fight.
+
+**Incumbent-protection (bipartisan) gerrymandering** packs *both* parties' voters into safe seats so that sitting legislators of each party stop facing competitive elections. The Supreme Court blessed a Connecticut "political fairness" plan of exactly this kind in *Gaffney v. Cummings* (1973). It is rarely litigated, arguably the most common variant, and corrosive in a different way: instead of skewing *which party* wins, it removes the voters' practical ability to fire anyone, shifting real competition to low-turnout party primaries and rewarding [[term:incumbency]] as such.
+
+The same map can do all three at once — which is precisely why the legal doctrine, which treats them under different constitutional theories, feels so misaligned with the practice.
+
+<Checkpoint question="A state's map gives the majority party 70% of seats on 55% of votes. Its districts are compact and follow county lines. A simulation ensemble of 50,000 neutral maps shows the enacted plan awards the majority party more seats than 49,900 of them. Gerrymander or geography?">
+  Almost certainly a **gerrymander** — and the compact shapes are irrelevant. The ensemble comparison is the test built to answer exactly this question: political geography (the Chen–Rodden effect) is already baked into the 50,000 neutral maps, so landing in the top 0.2% of pro-majority outcomes means the lines themselves, not the geography, are doing the work. Lopsidedness alone proves nothing; being an extreme *outlier against neutral alternatives* is the modern smoking gun.
+</Checkpoint>
+
+## What this lesson is not
+
+It is not yet an argument about what, if anything, should be *done*. You now have the mechanics — packing, cracking, wasted votes, the efficiency gap, the geography confound, the three variants. What remains genuinely contested is everything downstream: whether the practice is a democratic emergency or politics-as-usual, who should hold the pen, and whether any institution can be trusted to police it. Lesson 2 steel-mans the three live positions — reform advocates, partisan realists, and federalists — and Lesson 3 follows the courts from *Baker v. Carr* (1962) through *Rucho* (2019) to the 2026 *Callais* decision and the mid-decade redistricting war that is reshaping the 2026 midterms as you read this.

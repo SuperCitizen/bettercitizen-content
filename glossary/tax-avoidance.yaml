@@ -1,0 +1,15 @@
+slug: tax-avoidance
+name: Tax Avoidance
+short_definition: "Legally arranging one's finances to reduce the tax owed, as distinct from illegally evading taxes that are due."
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English: 'avoidance' (steering clear of, via Old French esvuidier); the lawful counterpart to illegal tax evasion, a distinction sharpened in 20th-century tax law"
+why_it_matters: "The line between avoidance and evasion is the central discipline of any honest debate about wealth and taxes: most controversial strategies of the rich are lawful avoidance, so the real question is whether the law should permit them, not whether anyone broke it."
+context_example: "Using a stepped-up basis or a donor-advised fund is tax avoidance, which is lawful; hiding income in an undisclosed offshore account is tax evasion, which is a crime."
+related_term_slugs:
+  - tax-evasion
+  - buy-borrow-die
+  - wealth-defense-industry
+tags: []

@@ -1,0 +1,12 @@
+slug: university-of-pennsylvania
+name: University of Pennsylvania
+kind: university
+subtype: private-university
+description: "Private Ivy League research university in Philadelphia. Home to the Penn Wharton Budget Model, whose fiscal estimates are cited in congressional debate, and the Annenberg Public Policy Center, which runs FactCheck.org."
+website: https://www.upenn.edu
+jurisdiction: national
+partisan_lean: none
+concept_tags:
+  - think-tank
+  - fact-checking
+is_active: true

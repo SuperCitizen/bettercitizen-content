@@ -1,0 +1,17 @@
+schema: bettercitizen.content/v1
+slug: wealth-and-power
+title: Wealth and power — does concentrated wealth rule American politics?
+summary: >-
+  The "wealth defense industry" and the oligarchy debate. Lesson 1 is the machinery — how large fortunes are legally defended against taxation (buy-borrow-die, stepped-up basis, carried interest, dynasty trusts, offshore) and how concentrated wealth actually is. Lesson 2 steel-mans the empirical fight over whether that wealth captures policy — Gilens & Page, the reanalyses that dispute them, and the public-choice reframing. Lesson 3 maps the live 2025–26 fights: wealth taxes, Moore v. United States, the global minimum tax, ownership transparency, and the antitrust revival. Builds on money-in-politics-101 and dark-money.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [money-in-politics, inequality, tax-policy, civics-301]
+level: advanced
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-the-wealth-defense-machine.mdx
+  - 02-does-wealth-actually-rule.mdx
+  - 03-the-policy-landscape.mdx

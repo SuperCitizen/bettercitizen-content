@@ -1,9 +1,9 @@
 # Validates all content in this repo on every PR + push.
 #
-# This repo is pure content with no toolchain of its own. Validation
-# lives in the BetterCitizen app (it owns the schemas), so CI checks out
-# the app, points CONTENT_LOCAL_PATH at this repo, and runs the app's
-# DB-free validator (`pnpm validate-content`).
+# Schema validation lives in the BetterCitizen app (it owns the schemas),
+# so CI checks out the app, points CONTENT_LOCAL_PATH at this repo, and
+# runs the app's DB-free validator (`pnpm validate-content`). The
+# standalone structural checks (no app needed) live in check-mdx.yml.
 #
 # The app is checked out at `main` by default so content is always
 # validated against the schemas the app currently ships. Dispatch the

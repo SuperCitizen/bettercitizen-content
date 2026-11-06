@@ -1,0 +1,187 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-five-systems
+kind: socratic
+title: The five voting systems most people argue about
+objectives:
+  - Describe how a ballot is filled out under plurality, ranked-choice (IRV), approval, score, and STAR voting
+  - Trace the same set of ballots through plurality, a top-two runoff, and an instant runoff, and explain why the winners can differ
+  - Identify what each system optimizes for and what it explicitly does not
+  - State where each system is actually used in the United States as of mid-2026
+  - Recognize that "best voting system" is not a single question — it depends on which property you care about
+concepts:
+  - plurality-voting
+  - ranked-choice-voting
+  - instant-runoff
+  - score-voting
+  - approval-voting
+  - plurality
+  - runoff-election
+sources:
+  - type: website
+    url: https://fairvote.org/our-reforms/ranked-choice-voting-information/data-on-rcv/
+    citation: 'FairVote, "Research and data on RCV in practice" (advocate-leaning, well-sourced)'
+  - type: website
+    url: https://www.electionscience.org/library/approval-voting/
+    citation: 'Center for Election Science, "Approval Voting" (advocate-leaning, primary-source citations)'
+  - type: website
+    url: https://www.starvoting.org/star
+    citation: 'Equal Vote Coalition / STAR Voting, "About STAR Voting" — official explainer of the score-then-automatic-runoff mechanics'
+  - type: court-opinion
+    url: https://supreme.justia.com/cases/federal/us/504/428/
+    citation: "Burdick v. Takushi, 504 U.S. 428 (1992) — upheld Hawaii's write-in ban under a balancing test; election mechanics are largely a state legislative prerogative"
+  - type: book
+    citation: 'Brams & Fishburn, "Approval Voting" (Springer, 2nd ed., 2007; 1st ed. Birkhäuser, 1983) — the foundational academic treatment'
+  - type: website
+    citation: 'ranked.vote, "Burlington 2009 Mayoral Election" — ballot-level IRV tabulation and pairwise matrix behind the cold-open numbers.'
+    url: https://ranked.vote/report/us/vt/btv/2009/03/mayor
+  - type: book
+    citation: 'Duverger, M. (1954), Political Parties: Their Organization and Activity in the Modern State (trans. B. & R. North), Methuen/Wiley — source of "Duverger''s law" and the mechanical/psychological effects.'
+  - type: website
+    citation: 'FairVote, "Where is ranked choice voting used?" — jurisdiction count and adoption status, updated through 2026.'
+    url: https://fairvote.org/where-is-ranked-choice-voting-used/
+  - type: website
+    citation: 'Maine State Legislature Law Library, "Ranked Choice Voting in Maine" — adoption history, the 2017 advisory opinion, and current scope.'
+    url: https://legislature.maine.gov/lawlibrary/ranked-choice-voting-in-maine/9509
+  - type: website
+    citation: 'Ballotpedia, "Alaska Ballot Measure 2, Repeal Top-Four Ranked-Choice Voting Initiative (2024)" — certified result and recount margin.'
+    url: https://ballotpedia.org/Alaska_Ballot_Measure_2,_Repeal_Top-Four_Ranked-Choice_Voting_Initiative_(2024)
+  - type: website
+    citation: 'Ballotpedia, "St. Louis, Missouri, Proposition D, Approval Voting Initiative (November 2020)" — adoption margin and mechanics.'
+    url: https://ballotpedia.org/St._Louis,_Missouri,_Proposition_D,_Approval_Voting_Initiative_(November_2020)
+  - type: statute
+    citation: 'North Dakota HB 1297 (2025) — statewide prohibition on approval voting and ranked-choice voting; voided Fargo''s approval-voting ordinance.'
+    url: https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo1297.html
+  - type: website
+    citation: 'Ballotpedia, "Eugene, Oregon, Measure 20-349, STAR Voting Initiative (May 2024)" — text and result of the STAR voting vote.'
+    url: https://ballotpedia.org/Eugene,_Oregon,_Measure_20-349,_STAR_Voting_for_Mayor_and_City_Council_Elections_Initiative_(May_2024)
+  - type: website
+    citation: 'Ballotpedia, "Washington, D.C., Initiative 83, Ranked-Choice Voting Initiative (November 2024)" — adoption margin and the Council''s partial implementation funding.'
+    url: https://ballotpedia.org/Washington,_D.C.,_Initiative_83,_Ranked-Choice_Voting_Initiative_(November_2024)
+duration_min: 16
+---
+
+# The five voting systems most people argue about
+
+On March 3, 2009, the voters of Burlington, Vermont elected a mayor — and then spent a year arguing about who had actually won. Count only first choices, and Republican Kurt Wright led the field. Run the city's instant-runoff rules, and Progressive incumbent Bob Kiss won. Examine every head-to-head matchup hidden in those same ranked ballots, and Democrat Andy Montroll beat *both* of them — Wright by 56 to 44, Kiss by 54 to 46 — while finishing third. One stack of ballots, three defensible "winners," depending entirely on the counting rule. Burlington voters repealed instant-runoff voting the next year, 52 to 48, then re-adopted a version of it a decade later. The episode is the whole subject in miniature: a voting system is not neutral plumbing. It is a choice about which information on the ballot counts, and how.
+
+Most American jurisdictions use **plurality** voting for federal and most state offices. The four systems that follow it in this lesson are the live alternatives — either already in use somewhere in the United States or actively contested at the ballot box. This lesson explains how each works *mechanically*: what the ballot asks, how the count proceeds, where it is used as of mid-2026. The next lesson covers what each does well, what each does poorly, and where the evidence lands. The order matters. You can argue about tradeoffs intelligently only after you can describe each system in one paragraph without looking it up.
+
+## 1. Plurality — the incumbent system
+
+The ballot asks one question: pick one candidate. The winner is whoever gets the most votes — a [[term:plurality]] — even if that is far short of 50 percent. This is the rule for the U.S. House and Senate, for the presidential vote within most states, and for most state offices. Abraham Lincoln won the presidency in 1860 with 39.8 percent of the popular vote; Bill Clinton won in 1992 with 43 percent. Neither needed a majority, because plurality does not ask for one.
+
+The defining feature is that you cannot express any preference beyond a single first choice. If your favorite is unlikely to win, voting for them can help elect the candidate you like *least* — the **spoiler effect**. Some states patch this with a [[term:runoff-election]]: Georgia, for example, requires a second election between the top two if nobody clears a [[term:majority-threshold]]. But the patch costs a second campaign, a second election day, and (typically) a steep drop in turnout between rounds.
+
+The scholar's lens here belongs to Maurice Duverger, the French political scientist whose *Political Parties* (1951; English edition 1954) stated what is now called **Duverger's law**: "the simple-majority single-ballot system favours the two-party system." Of all the propositions in the book, he ventured, this one comes closest "to a true sociological law." He gave it two engines. The *mechanical effect*: a party that wins 15 percent of the vote everywhere wins zero seats anywhere, so plurality systematically converts dispersed support into nothing. The *psychological effect*: voters see the mechanical effect coming and desert third candidates in advance — Duverger described electors transferring their vote "to the less evil of its two adversaries in order to prevent the success of the greater evil." Political scientists measure the result with the *effective number of parties* (Laakso and Taagepera's 1979 index): plurality countries cluster near two; proportional systems run higher. Every reform system below is, in one way or another, an attempt to relax the pressures Duverger described — which is why parties comfortable under the current rules are so often the most determined opponents of changing them.
+
+<Checkpoint question="Polls show your favorite candidate running third in a plurality race. What does Duverger's psychological effect predict you will do — and what is the system-level consequence if most voters reason the same way?">
+  It predicts you will abandon your favorite and vote for whichever of the top two you dislike less, because a third-place vote is mechanically wasted. Aggregated across voters and repeated across elections, that reasoning starves third parties of votes *before* the count even happens — which is how a counting rule, not any law about parties, sustains a two-party system.
+</Checkpoint>
+
+## 2. Ranked-choice voting (the instant-runoff form)
+
+The ballot asks you to rank candidates: first choice, second, third, as far as you care to go. If a candidate wins a majority of first choices, they win outright. If not, the last-place candidate is eliminated and each of their ballots transfers to its next-ranked continuing candidate. Repeat until someone holds a majority of the ballots still in play. The method is called [[term:instant-runoff]] because it simulates a series of runoff elections from a single ballot; "[[term:ranked-choice-voting]]" (RCV) is the umbrella term Americans now use for it. (A multi-winner cousin, the single transferable vote, elects legislatures in Ireland and Australia and the city council of Cambridge, Massachusetts — which has used it since 1941 — but it is rare in the U.S.)
+
+Reading the rule and running it are different experiences. Step through a 100-ballot illustrative election round by round:
+
+<RankedChoiceSim />
+
+Watch what happens to the round-one leader. Brooks opens with 38 first choices — a comfortable win if this were a plurality count. But Brooks's voters ranked no one else, while the other 62 ballots chain toward Avila as Dimas and then Chen are eliminated: Avila wins the final round 62 to 38. That is the entire mechanical difference in one election. Plurality reads only the top line of each ballot; the instant runoff keeps reading down until a majority coalition emerges — and a candidate who leads on first choices can sit on a ceiling the transfers expose.
+
+Where it is used, as of mid-2026:
+
+- **Maine** adopted RCV by citizen initiative in 2016 (52 to 48) and first used it statewide in June 2018 — the first state to do so. A wrinkle: the Maine constitution requires only a plurality for *state* general elections, so after a 2017 advisory opinion from Maine's high court, RCV applies to all primaries and to general elections for federal office (president, U.S. Senate, U.S. House), but not to general elections for governor or the legislature.
+- **Alaska** adopted a combined system by initiative in 2020 (50.55 percent): a top-four all-candidate primary, then RCV in the general election. It survived a 2024 repeal initiative by 743 votes out of more than 320,000 after a recount — and a third ballot fight has already qualified for Alaska's 2026 ballot.
+- **Dozens of cities and counties** — 49 American jurisdictions in all, the two states included, by FairVote's February 2026 count — among them New York City (adopted 2019 with 73.5 percent, first used in the 2021 primaries), San Francisco (since 2004), and Minneapolis (since 2009). Washington, D.C. voters approved RCV plus semi-open primaries in November 2024 (Initiative 83, about 73 percent), though the D.C. Council funded only the ranked-ballot half — which debuts in the June 2026 primary while the semi-open provision waits.
+- **The counter-trend is just as real**: nineteen states — mostly Republican-led, from Tennessee and Florida (2022) through Ohio (March 2026) — have passed laws banning RCV, in most cases preempting cities from adopting it.
+
+> **Common misconception:** "RCV guarantees the winner has majority support." It guarantees a majority of *continuing* ballots in the final round. Ballots that ranked only eliminated candidates are "exhausted" and drop out of the denominator. In Burlington 2009, Bob Kiss won 48 percent of all ballots cast — a majority only after exhausted ballots were set aside.
+
+## Same ballots, three winners
+
+Here is the cleanest way to see that the counting rule is doing real work. Imagine 100 voters, five candidates, and the following honest preferences:
+
+| Voters | 1st choice | 2nd choice | 3rd choice |
+| --- | --- | --- | --- |
+| 35 | Avery | Brooks | Cruz |
+| 25 | Brooks | Cruz | Avery |
+| 16 | Cruz | Brooks | Diaz |
+| 13 | Diaz | Cruz | Brooks |
+| 11 | Ellis | Cruz | Brooks |
+
+Count these one stack of ballots three ways and you elect three different people:
+
+<Figure caption="The same 100 ballots produce Avery under plurality, Brooks under a top-two runoff, and Cruz under instant runoff. No one miscounted; the rules simply weigh different parts of the ballot.">
+<svg viewBox="0 0 720 440" width="100%" role="img" aria-label="The same 100 ballots counted three ways: plurality elects Avery with 35 votes; a top-two runoff elects Brooks 65 to 35; an instant runoff elects Cruz 65 to 35" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">One election, three counting rules, three winners</text>
+
+  <text x="20" y="58" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Plurality — count first choices only</text>
+  <rect x="20" y="68" width="210" height="20" fill="var(--accent, #8a2a1e)" />
+  <text x="238" y="83" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Avery 35 — wins</text>
+  <rect x="20" y="92" width="150" height="20" fill="var(--line, #d9d5c9)" />
+  <text x="178" y="107" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Brooks 25</text>
+  <rect x="20" y="116" width="96" height="20" fill="var(--line, #d9d5c9)" />
+  <text x="124" y="131" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Cruz 16 · Diaz 13 · Ellis 11</text>
+
+  <text x="20" y="178" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Top-two runoff — Avery vs. Brooks in a second election</text>
+  <rect x="20" y="188" width="390" height="20" fill="var(--blue, #2f4d6e)" />
+  <text x="418" y="203" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Brooks 65 — wins</text>
+  <rect x="20" y="212" width="210" height="20" fill="var(--line, #d9d5c9)" />
+  <text x="238" y="227" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Avery 35</text>
+  <text x="20" y="252" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">Cruz, Diaz, and Ellis voters all prefer Brooks to Avery, so they break 65–35 for Brooks.</text>
+
+  <text x="20" y="298" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Instant runoff — eliminate last place, transfer, repeat</text>
+  <rect x="20" y="308" width="390" height="20" fill="var(--green, #4a6b3a)" />
+  <text x="418" y="323" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Cruz 65 — wins</text>
+  <rect x="20" y="332" width="210" height="20" fill="var(--line, #d9d5c9)" />
+  <text x="238" y="347" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Avery 35</text>
+  <text x="20" y="372" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">Ellis out first (Cruz 27), then Diaz (Cruz 40), then Brooks — whose voters transfer to Cruz.</text>
+  <text x="20" y="404" fontFamily="Georgia, serif" fontSize="12" fontStyle="italic" fill="var(--muted, #6b6457)">And a fourth rule would crown a fourth result: Brooks beats every rival head-to-head (a "Condorcet</text>
+  <text x="20" y="420" fontFamily="Georgia, serif" fontSize="12" fontStyle="italic" fill="var(--muted, #6b6457)">winner") yet loses under instant runoff — exactly what happened to Montroll in Burlington in 2009.</text>
+</svg>
+</Figure>
+
+Walk the instant runoff yourself to see the gears turn. First count: Avery 35, Brooks 25, Cruz 16, Diaz 13, Ellis 11 — no majority. Ellis is eliminated; those 11 ballots transfer to Cruz (27). Diaz goes next; 13 more to Cruz (40). Now Brooks, at 25, is last among the three remaining and is eliminated — and Brooks's voters listed Cruz next, so Cruz beats Avery 65 to 35. The runoff and the instant runoff disagree because they choose *different finalists*: the runoff locks in the top two first choices (Avery, Brooks), while IRV's transfers let Cruz overtake Brooks before the final round.
+
+<Checkpoint question="Same 100 ballots, one change: Diaz's 13 voters rank Brooks second instead of Cruz. Walk the instant-runoff count. Who wins now?">
+  **Brooks.** Ellis is still eliminated first (Cruz goes to 27). Diaz goes next — but those 13 ballots now flow to Brooks (38). Cruz, at 27, is now the one eliminated, and Cruz's ballots (the original 16 plus Ellis's 11) list Brooks next: Brooks beats Avery 65–35. Moral: under IRV, *who gets eliminated early* determines who survives to the final round — transfers are the whole game.
+</Checkpoint>
+
+## 3. Approval voting
+
+The ballot lists every candidate with a checkbox: mark every one you find acceptable. No ranking, no scores, no limit. The winner is whoever collects the most checks. Mechanically this is the smallest possible change to a plurality ballot — same grid, same counting machines, just delete the "vote for only one" rule — which is why its advocates pitch it as reform without new infrastructure.
+
+Its U.S. governmental track record is short and turbulent. Fargo, North Dakota adopted approval voting by initiative in 2018 with about 64 percent of the vote — the first American city to do so — and used it for city elections from 2020 through 2024. Then in April 2025 North Dakota's legislature banned both approval voting and RCV statewide (HB 1297), voiding Fargo's ordinance. St. Louis, Missouri adopted a variant in November 2020 (Proposition D, 68 percent): an open, nonpartisan approval-voting first round, with the top two advancing to a runoff. First used in the March 2021 mayoral race, it survives — Missouri voters banned RCV and approval voting statewide in 2024 (Amendment 7), but the amendment grandfathered St. Louis. Outside government, approval voting has a long, quieter career: several major professional societies, including the Mathematical Association of America and the Econometric Society, have elected their officers this way since the 1980s, a record documented by Steven Brams and Peter Fishburn, the method's leading academic theorists.
+
+## 4. Score voting (range voting)
+
+The ballot asks you to grade every candidate on a numeric scale — 0 to 5, 0 to 10 — the way you would rate a restaurant. Same score for multiple candidates is allowed; skipping a candidate is allowed. The winner is the candidate with the highest total (or average). Score is the most *expressive* system in this lesson: it captures not just your ordering but how much daylight you see between candidates — a 5/4/0 ballot says something a ranking cannot.
+
+No U.S. government currently elects officials by score voting; its constituency is academic and online (ratings platforms are score voting for products). Its real-world relevance to this pack is twofold: it is the system the *Score the Vote* book in this library advocates, and it is the foundation for STAR, which was engineered specifically to fix score voting's biggest strategic weakness — a story the next lesson takes up in detail.
+
+## 5. STAR voting (Score Then Automatic Runoff)
+
+STAR begins as score voting: rate every candidate 0 to 5. Then comes the twist that gives it its name. The two highest-scoring candidates advance to an "automatic runoff," decided not by scores but by *preferences*: your full ballot is consulted, and your vote in the runoff goes to whichever finalist you scored higher (score them equally and you abstain from that round). Scoring captures intensity; the runoff restores the one-person-one-vote head-to-head choice.
+
+STAR is the youngest system here and the only one with no governmental adoption anywhere. Its proving ground is Oregon: party organizations there have used it for internal elections, and a citizen initiative to adopt it for city elections in Eugene (Measure 20-349) reached the ballot in May 2024 — and lost by roughly two to one. Six months later the small Oregon city of Oakridge voted on a three-election STAR trial and rejected it by just 24 votes, 575 to 551. As of mid-2026 STAR remains a proposal with an unusually rigorous simulation literature and no public-election track record, a combination worth keeping in mind when you weigh claims about it.
+
+<Checkpoint question="On an approval ballot you check three of five candidates, including your absolute favorite. How much more does your ballot help your favorite than your third choice — and which two systems were designed to fix exactly that?">
+  Not at all — approval is binary, so all three checked candidates get identical support from you. That flattening is the price of approval's simplicity. **Score** voting restores intensity (you can give your favorite a 5 and your third choice a 2), and **STAR** adds a runoff on top so that expressing middle scores still leaves you a full-strength vote between the two finalists.
+</Checkpoint>
+
+## The five at a glance
+
+| System | The ballot asks | Winner | Used in U.S. government, mid-2026 |
+| --- | --- | --- | --- |
+| Plurality | Pick one | Most votes, majority not required | Federal elections and most states |
+| RCV / instant runoff | Rank the candidates | Majority of continuing ballots after transfers | Maine; Alaska; dozens of localities incl. NYC, San Francisco, D.C. (June 2026) — 49 jurisdictions in all; banned in 19 states |
+| Approval | Check all you accept | Most checks | St. Louis (with runoff); Fargo 2020–24 until a 2025 state ban |
+| Score | Grade everyone on a scale | Highest total | None |
+| STAR | Grade 0–5 | Runoff between top two scorers, by preference | None (rejected in Eugene, OR, 2024) |
+
+Read down the table and a pattern emerges: every reform system lets you say something plurality cannot — a backup choice, a boundary of acceptability, a grade. They differ in *what* extra information they collect and *how* the count uses it, and those differences are where the real argument lives.
+
+## What this lesson did not settle
+
+Mechanics, locations, and one demonstration that counting rules change outcomes — that is all this lesson claims. It has *not* told you which differences matter most: whether the spoiler effect is worse than ballot exhaustion, whether expressiveness is worth strategic fragility, whether Burlington was an indictment of IRV or a fluke, or why a mathematically literate person might still prefer plurality's brutal simplicity. "Which is best" is not even the right question yet. The right questions are: best at *what*? Under what conditions? At what cost in voter effort and counting complexity? The next lesson takes those up — starting with a theorem that proves no system can win on every count at once.

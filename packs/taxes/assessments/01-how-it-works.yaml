@@ -14,7 +14,7 @@ questions:
       - id: d
         text: "Estate and gift taxes"
     correct_choice_id: b
-    explanation: "Payroll taxes are ~36% of federal revenue, second only to individual income taxes (~50%). Corporate income taxes are ~9%. For most working Americans, payroll taxes exceed income taxes paid. The political rhetoric typically focuses on income taxes, which means much of the actual tax burden goes underdiscussed."
+    explanation: "Payroll taxes were about 33% of federal revenue in FY2025, second only to individual income taxes (about 51%). Corporate income taxes were under 9%. For a large share of working households, payroll taxes exceed income taxes paid — especially once the employer half, which economists generally treat as coming out of wages, is counted. The political rhetoric typically focuses on income taxes, which means much of the actual tax burden goes underdiscussed."
     concepts: [taxes]
 
   - id: q2
@@ -30,23 +30,23 @@ questions:
       - id: d
         text: "The statutory rate Congress sets in law."
     correct_choice_id: c
-    explanation: "Effective rate = total taxes / total income. The marginal rate (the rate on your next dollar) is generally higher than the effective rate because lower brackets and the standard deduction reduce the average. A single filer with $60K wages has a 22% marginal rate but only ~11% effective rate. The system is more progressive than marginal rates suggest because of refundable credits at the bottom."
+    explanation: "Effective rate = total taxes / total income. The marginal rate (the rate on your next dollar) is generally higher than the effective rate because the standard deduction and the lower brackets shield the first dollars. The lesson's worked example: a single filer with a $100,000 salary in 2026 is 'in the 22 percent bracket' but owes $13,170 — an effective income-tax rate of about 13 percent. Confusing the two numbers is the most common arithmetic error in tax politics."
     concepts: [taxes]
 
   - id: q3
     kind: multiple-choice
-    text: "What happens to most TCJA individual provisions at the end of 2025 if Congress takes no action?"
+    text: "In early 2026 a financial blog warns readers: 'Brace yourselves — the TCJA expires this year, so your tax rates are about to snap back to pre-2017 levels.' What is wrong with that warning?"
     choices:
       - id: a
-        text: "They become permanent automatically."
+        text: "Nothing — the TCJA's individual provisions expired on schedule at the end of 2025."
       - id: b
-        text: "They expire, with rates reverting to pre-2017 levels and the standard deduction halving."
+        text: "The TCJA never had an expiration date; its provisions were always permanent."
       - id: c
-        text: "They are extended for another 8 years by statute."
+        text: "The One Big Beautiful Bill Act (July 2025) made the TCJA's individual rate structure and enlarged standard deduction permanent, so no reversion is scheduled — though OBBBA added its own new deductions that expire after 2028."
       - id: d
-        text: "Only the corporate rate cut expires."
-    correct_choice_id: b
-    explanation: "Most TCJA individual provisions expire after 2025: rates revert (top rate 37% → 39.6%), standard deduction halves, personal exemptions return, SALT cap goes away, estate exemption halves, §199A pass-through deduction expires. The corporate rate cut to 21% is permanent. The 2025 expiration is the largest single tax-policy event of the next several years."
+        text: "Only the corporate rate was scheduled to revert, so individual rates were never at stake."
+    correct_choice_id: c
+    explanation: "The TCJA really did schedule almost all of its individual provisions to die at the end of 2025 — that was the price of passing it through reconciliation. But the expiration never came: OBBBA (Pub. L. 119-21, signed July 4, 2025) made the seven-bracket rate structure, the enlarged standard deduction, and the $2,200 child tax credit permanent. The blog is recycling a pre-2025 talking point. The reverse confusion also matters: OBBBA's own headline deductions (tips, overtime, seniors, car loans) are deliberately temporary, lapsing after 2028."
     concepts: [taxes, tcja]
 
   - id: q4

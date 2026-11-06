@@ -1,0 +1,14 @@
+slug: donor-advised-fund
+name: Donor-Advised Fund
+short_definition: "A charitable account that gives the donor an immediate full tax deduction while letting them recommend how and when the money is granted to charities."
+body_md: ""
+category: economy
+difficulty: intermediate
+status: active
+etymology: "English: a fund whose donor keeps 'advisory' privileges over the gifts; governed by Internal Revenue Code section 4966, enacted in the Pension Protection Act of 2006"
+why_it_matters: "Unlike a private foundation, a donor-advised fund has no required annual payout, so the deduction is immediate but the money can sit indefinitely — making such funds both a popular giving tool and a target of payout-reform debates."
+context_example: "A donor can deduct a 10 million dollar contribution to a donor-advised fund this year while the funds remain invested and ungranted for years, with no legal minimum distribution."
+related_term_slugs:
+  - tax-avoidance
+  - wealth-defense-industry
+tags: []

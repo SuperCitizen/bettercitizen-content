@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What did The Party Decides (2008) argue about presidential nominations — and how did its authors respond to 2016?"
+    choices:
+      - id: a
+        text: "It argued voters fully control nominations; 2016 confirmed the thesis, so no reassessment was needed."
+      - id: b
+        text: "It argued the 'invisible primary' of party-elite endorsements largely picked nominees before voting began; after Trump won with almost no endorsements, the authors themselves published a reassessment arguing the party's coordinating power had weakened."
+      - id: c
+        text: "It argued money alone decides nominations; 2016 disproved it because Trump spent the least."
+      - id: d
+        text: "It argued caucuses systematically nominate extremists; 2016 was irrelevant to the claim."
+    correct_choice_id: b
+    explanation: "Cohen, Karol, Noel, and Zaller showed that since the 1980s the candidate who won the pre-voting contest for elite endorsements almost always won the nomination. Trump entered with almost none and was opposed by nearly every organ of his party — and won. By October 2016 the authors had published 'Party Versus Faction in the Reformed Presidential Nominating System' (PS: Political Science & Politics), pointing to new media, early money, and factional warfare as solvents of party coordination. The arc matters because every reform position is partly a theory of who should decide — and 2016 is the case each must explain."
+    concepts: [primaries]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which of these is the NATIONAL-PRIMARY REFORMER'S argument, stated at its strongest?"
+    choices:
+      - id: a
+        text: "Sequential contests are a vetting technology: later voters learn from earlier results and correct first impressions."
+      - id: b
+        text: "In safe seats the primary is the real election, so the decisive question is who may vote in that round and under what counting rule."
+      - id: c
+        text: "Momentum is an information cascade, not deliberation: a few hundred thousand early-state voters move polls, money, and media for everyone else, and candidates die before 95 percent of the country votes."
+      - id: d
+        text: "The extended party network screens candidates for governing competence in ways low-information electorates cannot."
+    correct_choice_id: c
+    explanation: "Choice (c) is the reformer's reading of the very mechanism the status-quo defender celebrates in (a) — early results changing later votes is 'learning' to one camp and 'herding' to the other. Choice (b) is the ranked-choice / open-primary advocate's structural claim, which deliberately shifts attention away from the presidential calendar. Choices (a) and (d) are the defender's brief. Matching argument to camp matters because the camps mostly agree on the facts and disagree about which facts are decisive."
+    concepts: [primaries]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A campaigner says: 'Open up the closed primaries and polarization will fall.' What does the empirical record actually support?"
+    choices:
+      - id: a
+        text: "Strong support — Brady, Han, and Pope (2007) proved that opening primaries moderates legislators."
+      - id: b
+        text: "Little support for eligibility alone: McGhee, Masket, Shor, Rogers, and McCarty (2014) found how open a primary is has little measurable effect on legislator ideology — which is why structural advocates pair openness with all-candidate ballots and ranked counting."
+      - id: c
+        text: "The record shows closed primaries produce the most moderate nominees."
+      - id: d
+        text: "No research has examined the question."
+    correct_choice_id: b
+    explanation: "This is the advocate's own 'honest asterisk.' Brady, Han, and Pope showed candidates position toward primary electorates — a real polarization mechanism — but the 2014 American Journal of Political Science study found that simply loosening who may vote barely moves legislator ideology. The strongest advocate case therefore treats the problem as a combination — low turnout, partisan filtering, AND plurality counting — requiring structural remedies, not just looser registration rules. Overclaiming the eligibility effect is the most common error in popular coverage of this debate."
+    concepts: [primaries]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In 2030, a new state adopts a top-four primary with a ranked-choice general election, and its first cycle elects a self-described moderate. Applying this lesson's evidence discipline, what is the best-supported inference?"
+    choices:
+      - id: a
+        text: "The result proves all-candidate systems reliably elect moderates."
+      - id: b
+        text: "The result is meaningless, since electoral rules never affect outcomes."
+      - id: c
+        text: "One case consistent with the advocates' coalition-builder theory — but confounded by candidate quality and national tides, exactly like Alaska electing a Democrat in 2022 and a Republican in 2024 under identical rules."
+      - id: d
+        text: "The result settles the question, because top-two studies already proved large moderation effects."
+    correct_choice_id: c
+    explanation: "Alaska's pair of results is the discipline in miniature: identical rules, opposite party outcomes — evidence the system rewards broad coalitions rather than serving one party, and simultaneously a warning that two data points cannot carry causal claims about polarization. The best-studied adjacent reform, California and Washington's top-two, shows moderation effects that are real but modest and entangled with same-cycle changes (McGhee and Shor 2017), not 'large' or 'settled' (d). Single new cases discipline a theory; they don't confirm it."
+    concepts: [primaries, ranked-choice-voting]
+
+  - id: q5
+    kind: free-response
+    text: "In the 2022 midterms, 21.3 percent of eligible voters participated in primaries. Write one sentence a status-quo defender would build on this number and one sentence a reformer would build on it — then name what each sentence implicitly chooses as its benchmark."
+    socratic_seed: "Defender: '21.3 percent of all eligible adults — tens of millions of people — helped choose nominees in a system that was pure elite property before the 1970s,' benchmarking against history and against the smoke-filled room. Reformer: 'Nearly four in five eligible Americans had no voice in the round that, in safe seats, actually decided who governs — while about 64 percent voted in the 2024 general election that mostly ratified those choices,' benchmarking against the full electorate and the general-election turnout gap. The load-bearing move is the choice of denominator — history versus the whole electorate — and strong answers notice that both camps accept the 21.3 percent figure itself; the disagreement is entirely about weights, which is why more data alone doesn't settle it."
+    concepts: [primaries]

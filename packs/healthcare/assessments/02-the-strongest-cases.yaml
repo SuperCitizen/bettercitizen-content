@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The Mercatus Center's 2018 analysis of Medicare-for-All projected both $32.6 trillion in new federal spending over a decade and a roughly $2 trillion drop in total national health spending. The national-spending drop depends on which load-bearing assumption?"
+    choices:
+      - id: a
+        text: "That Americans would use less care once everyone was insured."
+      - id: b
+        text: "That all providers would be paid Medicare rates — roughly 40 percent below private-payer prices — and would absorb the cut without reducing the supply of care."
+      - id: c
+        text: "That administrative savings alone are large enough to pay for universal coverage."
+      - id: d
+        text: "That prescription drug prices would stay at current U.S. levels."
+    correct_choice_id: b
+    explanation: "Blahous himself stressed the assumption: the bill he scored pays every provider at Medicare rates, about 40 percent below what private insurers pay, and the savings only materialize if hospitals and physicians take that cut without exiting or restricting care. Utilization is actually assumed to rise, not fall, once coverage is universal — which is why (a) is backwards. Administrative and drug savings help but cannot carry the result alone. The honest debate is over whether the payment-rate assumption is achievable, not over either headline number."
+    concepts: [healthcare, single-payer]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A think-tank brief claims the RAND Health Insurance Experiment proved that 'patients are smart shoppers who cut only wasteful care when they pay more of the bill.' Which actual RAND finding contradicts the quoted claim while leaving the rest of the market-reform reading intact?"
+    choices:
+      - id: a
+        text: "Families facing cost-sharing spent about 30 percent less than families with free care."
+      - id: b
+        text: "Cost-sharing had no measurable effect on how much families spent."
+      - id: c
+        text: "Cost-sharing cut effective and ineffective care indiscriminately — and free care produced real health gains for the poorest, sickest participants."
+      - id: d
+        text: "Families with cost-sharing relied more heavily on emergency departments."
+    correct_choice_id: c
+    explanation: "RAND's headline result — roughly 30 percent less spending with no measurable harm to the average person's health — is the market-reform crown jewel, and (a) is part of it, not a contradiction. The complication is in how the savings happened: patients cut back on care economists judged effective just as readily as care judged ineffective, and among the poorest hypertensive participants free care produced better blood-pressure control and projected mortality gains. Patients economize, but bluntly — they are not the discriminating shoppers the strongest version of the model requires."
+    concepts: [healthcare, market-reform]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A state legislator proposes expanding Medicaid and promises it will 'pay for itself by keeping people out of emergency rooms.' Based on the best randomized evidence available, what should you expect?"
+    choices:
+      - id: a
+        text: "The promise is well supported — Oregon's lottery study found ER use fell sharply once people gained Medicaid."
+      - id: b
+        text: "The promise is unsupported — Oregon found ER use rose by about 40 percent — but coverage did deliver large financial-protection and mental-health gains."
+      - id: c
+        text: "There is no experimental evidence either way on what coverage does to ER use."
+      - id: d
+        text: "Oregon found coverage had no effects of any kind, so the expansion is pointless."
+    correct_choice_id: b
+    explanation: "The Oregon Health Insurance Experiment — a literal randomized lottery for Medicaid slots — found emergency-department use went up about 40 percent (Taubman et al. 2014), falsifying the comfortable bipartisan story that coverage pays for itself by emptying ERs. But it also found a roughly 30 percent drop in depression, more diabetes detection and treatment, and the near-elimination of catastrophic out-of-pocket costs. The legislator can defend the expansion honestly on financial-protection and health grounds; the self-financing claim is the part the evidence rejects."
+    concepts: [healthcare, aca]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which pairing correctly matches a perspective to the evidence that perspective has the hardest time explaining?"
+    choices:
+      - id: a
+        text: "Single-payer advocate — Vermont's 2014 collapse and California's shelved CalCare bill."
+      - id: b
+        text: "Market-reform advocate — the record 24.3 million marketplace enrollment of 2025."
+      - id: c
+        text: "ACA incrementalist — falling cash prices in the LASIK market."
+      - id: d
+        text: "Single-payer advocate — Oregon's null results on physical biomarkers."
+    correct_choice_id: a
+    explanation: "Vermont wrote down the tax swap single-payer requires (an 11.5 percent payroll tax plus up to 9.5 percent income tax) and a friendly governor abandoned it; CalCare died without a floor vote in a Democratic legislature. Advocates have answers — small states lack pricing leverage — but it is their hardest evidence. The other pairings are mismatched: subsidized enrollment records are the incrementalist's favorite evidence, not a problem for market reform specifically; LASIK is the market camp's favorite, not the incrementalist's burden; and Oregon's biomarker nulls cut hardest against coverage-centric cases generally, but the lesson's table assigns them to the incrementalist, whose program is coverage expansion itself."
+    concepts: [healthcare, single-payer, market-reform]
+
+  - id: q5
+    kind: free-response
+    text: "Choose the perspective you find least persuasive. State its single strongest piece of evidence the way its advocates would — naming the study or episode — and then say what evidence would have to appear for you to take the position seriously."
+    socratic_seed: "Push past slogans toward named evidence: the single-payer case leans on the Himmelstein administrative-cost comparison and RAND's drug-price ratios; the market case leans on the RAND Health Insurance Experiment and supply-side moats like certificate-of-need laws; the incrementalist case leans on the expansion-mortality literature and the enrollment record under the enhanced subsidies. A real steel-man states what the evidence shows and what it does not. Then check the falsifier against the lesson's table — single-payer peers underperforming at scale, enabled shoppers still failing to discipline prices, progress plateauing despite full funding — and ask whether the learner's stated 'evidence that would change my mind' actually matches the position's structure or is just a restated objection."
+    concepts: [healthcare, single-payer, market-reform, aca]

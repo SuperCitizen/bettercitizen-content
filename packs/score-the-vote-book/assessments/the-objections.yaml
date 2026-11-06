@@ -1,0 +1,195 @@
+schema: bettercitizen.assessment/v1
+lesson: the-objections
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      A state legislator argues score voting is unconstitutional: "One voter
+      might spend sixty points across six candidates while another spends ten
+      on one — that's unequal voting power." Which response correctly states
+      the governing law?
+    choices:
+      - id: a
+        text: >-
+          The legislator is right: Reynolds v. Sims requires that every voter
+          expend an identical number of points, so any scored ballot is
+          presumptively invalid.
+      - id: b
+        text: >-
+          Ballot-format challenges run through the Burdick balancing test, and
+          courts applying it — Dudum v. Arntz for San Francisco's ranked
+          ballots, Minnesota Voters Alliance for Minneapolis — have held that
+          expressing multiple preferences "is not the same as providing
+          additional votes" so long as every voter faces identical rules.
+      - id: c
+        text: >-
+          Citizens United v. FEC settled that ballot design is expressive
+          conduct that legislatures may not regulate.
+      - id: d
+        text: >-
+          No American court has ever reviewed an alternative ballot format, so
+          the question is legally untested.
+    correct_choice_id: b
+    explanation: >-
+      One person, one vote governs the weight of votes across districts, not
+      the format of ballots — that is the near-miss in (a), which transplants
+      apportionment doctrine into ballot mechanics. Mechanics are reviewed
+      under Burdick v. Takushi's balancing framework, and the courts that have
+      applied it to expressive ballots (Dudum v. Arntz, 9th Cir. 2011;
+      Minnesota Voters Alliance v. City of Minneapolis, Minn. 2009) rejected
+      the "extra votes" theory because every voter holds the identical
+      instrument. (c) confuses campaign-finance speech doctrine with election
+      mechanics, and (d) is simply false — which matters, because the case law
+      is the advocate's strongest material.
+    concepts: [equal-protection, score-voting]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      A Wisconsin city is drafting an approval-voting ordinance. An opponent
+      testifies that Brown v. Smallwood already makes it illegal. What is the
+      accurate assessment of that claim?
+    choices:
+      - id: a
+        text: >-
+          Accurate — Brown v. Smallwood binds Wisconsin courts because it was
+          decided before Wisconsin adopted its election code.
+      - id: b
+        text: >-
+          Inaccurate as to authority but accurate as to substance: Brown was a
+          federal ruling, so it controls in every state until the Supreme
+          Court revisits it.
+      - id: c
+        text: >-
+          Inaccurate: Brown construed the Minnesota constitution, binds no
+          court outside Minnesota, and was confined by Minnesota's own supreme
+          court in 2009 — though it remains a genuine litigation risk for
+          cardinal ballots in Minnesota itself.
+      - id: d
+        text: >-
+          Inaccurate: Brown v. Smallwood was overruled by Dudum v. Arntz in
+          2011, so it has no remaining force anywhere.
+    correct_choice_id: c
+    explanation: >-
+      Brown v. Smallwood (1915) struck down Duluth's Bucklin system under the
+      Minnesota constitution — state-law grounds, binding only in Minnesota,
+      and read narrowly by the same court when it upheld Minneapolis's
+      instant-runoff system in Minnesota Voters Alliance (2009). (d) is the
+      tempting wrong answer for reformers: Dudum is a federal Ninth Circuit
+      case applying the federal constitution — it cannot overrule a state
+      court's reading of its own constitution, which is also why (b) inverts
+      the case's actual posture. The honest position concedes the Minnesota
+      risk while refusing to let one confined, century-old state precedent be
+      cited as a nationwide ban.
+    concepts: [score-voting, equal-protection]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      The author formally concedes that under widespread strategic voting,
+      score ballots collapse toward maximum-or-zero marks. Why does he argue
+      the concession doesn't sink the case for score voting?
+    choices:
+      - id: a
+        text: >-
+          Because the collapse leaves score voting performing like plurality,
+          which voters are already used to.
+      - id: b
+        text: >-
+          Because strategic voters are rare enough in practice that the
+          theoretical optimum never materializes.
+      - id: c
+        text: >-
+          Because a fully min-maxed score electorate is running an approval
+          election — a spoiler-free, summable system that is itself a strong
+          reform — so the strategic worst case is another good voting system,
+          while plurality's strategic equilibrium is lesser-evil duopoly.
+      - id: d
+        text: >-
+          Because Gibbard's theorem shows every system is equally manipulable,
+          so strategy is a wash across methods.
+    correct_choice_id: c
+    explanation: >-
+      The argument is about floors: judge each system by where strategy drives
+      it. Score's floor is approval voting — the conceded collapse — which
+      remains spoiler-free and broadly representative; plurality's floor is
+      the abandon-your-favorite equilibrium we live in. (a) misstates the
+      floor. (b) contradicts the chapter, which concedes the theory outright
+      rather than betting against strategists. (d) misreads Gibbard: the
+      theorem says every method is manipulable somewhere, not that all
+      manipulation is equally frequent, easy, or damaging — the differences
+      between those floors are exactly where the argument lives.
+    concepts: [score-voting, plurality]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      A 100-voter city elects its mayor by score voting (0–10). Fifty-two
+      voters score the Incumbent 10 and the Challenger 9; the other
+      forty-eight score the Challenger 10 and the Incumbent 1. What happens,
+      and what does it illustrate?
+    choices:
+      - id: a
+        text: >-
+          The Incumbent wins, because score voting awards the office to the
+          candidate a majority scored highest.
+      - id: b
+        text: >-
+          The Challenger wins, 948 points to 568 — a designed failure of the
+          majority criterion: the majority's preference is weak (10 vs. 9)
+          while the minority's opposition is intense, so the utilitarian
+          winner prevails over the majoritarian one.
+      - id: c
+        text: >-
+          The result is a tie, because each voter wielded the same total
+          voting power.
+      - id: d
+        text: >-
+          The Challenger wins, which demonstrates that score voting
+          malfunctioned — any legitimate democratic method must elect the
+          first choice of a majority.
+    correct_choice_id: b
+    explanation: >-
+      Run the totals: Incumbent 52 × 10 + 48 × 1 = 568; Challenger 52 × 9 +
+      48 × 10 = 948. The majority barely prefers the Incumbent while the
+      minority regards the Incumbent as a near-catastrophe — information a
+      pick-one ballot cannot record. Score voting elects the
+      highest-total-satisfaction candidate on purpose; that is the
+      utilitarian-versus-majoritarian choice the author owns rather than
+      hides. (d) assumes the majority criterion is the definition of
+      legitimacy, which begs the contested question — and no rival on offer
+      delivers unconditional true majorities either: plurality elects
+      sub-majority winners routinely, and instant-runoff majorities are
+      majorities of continuing ballots after exhaustion.
+    concepts: [score-voting, majority-threshold]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Your city council holds a hearing on an approval-voting ordinance, and
+      three objections land in one evening: a lawyer says it violates "one
+      person, one vote"; a researcher predicts everyone will bullet-vote,
+      reducing it to plurality; and a council member says any system that can
+      deny the majority's favorite is illegitimate. Write the response of an
+      honest advocate: identify what you would concede on each point, what you
+      would rebut, and why the case survives the concessions.
+    socratic_seed: >-
+      Strong answers separate concession from rebuttal on each prong. One
+      person, one vote: concede nothing of substance — the doctrine concerns
+      vote weight, not ballot format; under Burdick, Dudum v. Arntz, and
+      Minnesota Voters Alliance, identical rules for every voter satisfy
+      equal protection, and approval is perfectly symmetric (every voter may
+      mark every candidate). Bullet voting: concede some voters will — then
+      note a bullet-voted approval ballot just is a plurality ballot, so the
+      floor leaves no one worse off, while Fargo's 2.3 and St. Louis's 1.56
+      approvals per ballot show real electorates use the latitude
+      immediately, and overvotes cease to exist as an error class. Majority
+      criterion: concede formally — approval and score can pass over a bare
+      majority's weak favorite for a broadly supported alternative — and own
+      it as the utilitarian choice, while pressing the consistency point that
+      plurality routinely elects sub-majority winners and IRV's "majorities"
+      exclude exhausted ballots (9.6–27.1% in Burnett and Kogan's four
+      elections). The best responses notice the meta-move: conceding the two
+      real points (strategy floor, majority criterion) is what makes the
+      rebuttals on law and usability credible.
+    concepts: [score-voting, equal-protection, majority-threshold]

@@ -1,0 +1,18 @@
+slug: institute-for-humane-studies
+name: Institute for Humane Studies
+kind: think-tank
+subtype: university-affiliated
+description: "Educational nonprofit founded in 1961 that supports students, scholars, and professors working in the classical liberal tradition through fellowships, seminars, and grants. A separate 501(c)(3) based at George Mason University since the 1980s — an academic talent pipeline rather than a policy shop."
+website: https://www.theihs.org
+jurisdiction: national
+partisan_lean: center-right
+parent_org: george-mason-university
+org_relationship: independent-affiliated
+ideology_tags:
+  - classical-liberalism
+influence_channels:
+  - public-education
+  - policy-research
+concept_tags:
+  - think-tank
+is_active: true

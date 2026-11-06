@@ -1,0 +1,16 @@
+slug: edmund-burke-foundation
+name: Edmund Burke Foundation
+kind: think-tank
+description: "Public affairs institute founded in 2019 to develop and promote national conservatism. Best known for convening the National Conservatism (NatCon) conferences, which have become the principal gathering point for nationalist and post-liberal currents on the American and European right."
+website: https://nationalconservatism.org
+jurisdiction: international
+partisan_lean: right
+ideology_tags:
+  - nationalism
+  - right-populism
+influence_channels:
+  - public-education
+concept_tags:
+  - think-tank
+  - nationalism
+is_active: true

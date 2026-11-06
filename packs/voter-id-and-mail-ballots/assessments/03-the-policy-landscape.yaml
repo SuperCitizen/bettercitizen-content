@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-policy-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which statement about Georgia's SB 202 (2021) is accurate?"
+    choices:
+      - id: a
+        text: "It eliminated early voting in Georgia."
+      - id: b
+        text: "It replaced signature match with ID numbers for absentee voting, capped drop boxes, and shortened the absentee window — while also ADDING a second mandatory Saturday of early voting."
+      - id: c
+        text: "It banned mail voting entirely."
+      - id: d
+        text: "It made no changes to mail-ballot rules."
+    correct_choice_id: b
+    explanation: "SB 202 is the era's best test of whether you read statutes or slogans: it tightened the mail channel substantially (ID numbers, compressed request window, drop-box caps, the food-and-water rule, State Election Board takeover authority) while expanding mandatory weekend early voting. 'Jim Crow 2.0' and 'simple election integrity' are both campaign descriptions of a 98-page text that is more specific — and more mixed — than either."
+    concepts: [voter-id, mail-ballots]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Before 2013, a covered state's new voting law needed federal preclearance before taking effect. What is the post-Shelby County sequence?"
+    choices:
+      - id: a
+        text: "Laws take effect immediately and face challenge afterward under VRA §2 — litigation whose bar Brnovich (2021) then raised."
+      - id: b
+        text: "Laws still require DOJ approval, but the deadline is longer."
+      - id: c
+        text: "Federal courts must approve all state voting laws within 60 days."
+      - id: d
+        text: "Voting laws can no longer be challenged in federal court at all."
+    correct_choice_id: a
+    explanation: "Shelby County flipped the burden of inertia: Texas's strict-ID law activated within hours of the decision, and North Carolina's omnibus law followed within weeks (struck down in 2016 for targeting Black voters 'with almost surgical precision'). Challenges now come after implementation, under a §2 standard Brnovich read narrowly — five guideposts friendly to state rules, including a legitimate fraud-prevention interest that requires no proof of in-state fraud. Laws remain challengeable (d is wrong); what changed is who must win, and when."
+    concepts: [voting-rights-act, shelby]
+
+  - id: q3
+    kind: multiple-choice
+    text: "As of mid-2026, what is the actual legal status of the SAVE Act's documentary proof-of-citizenship requirement for federal voter registration?"
+    choices:
+      - id: a
+        text: "It is federal law, in effect for the 2026 midterms."
+      - id: b
+        text: "It passed the House repeatedly (2024, 2025, and in expanded 'SAVE America' form in Feb. 2026) but has not passed the Senate, where it failed to advance in March 2026 — so attestation, not documentation, remains the federal registration standard."
+      - id: c
+        text: "The Supreme Court struck it down in 2025."
+      - id: d
+        text: "It was enacted through the budget reconciliation process."
+    correct_choice_id: b
+    explanation: "Status questions reward precision: House passage three times is real momentum and real signal, but the 60-vote Senate threshold has held — the March 17, 2026 motion to take up the bill drew just 51 votes, with Murkowski the lone Republican opposed, and an April bid to attach it to a reconciliation package failed too. A parallel executive order attempting similar requirements was preliminarily enjoined in 2025, with appeals pending. Meanwhile the policy advances at the state level (Arizona since 2004, New Hampshire, Wyoming, and others). Overstating a bill into a law — in either direction — is the most common factual error in this debate."
+    concepts: [voter-id]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A 2027 challenge to a mail-ballot ID-number law fails in federal court, citing Crawford, Brnovich, and the Fifth Circuit's SB 1 rulings. The plaintiffs' most promising remaining venue, based on the actual track record since 2019, is:"
+    choices:
+      - id: a
+        text: "A United Nations election-monitoring complaint"
+      - id: b
+        text: "State constitutional litigation in state court — the venue where photo-ID laws were struck in Missouri and Pennsylvania, and where election-rule fights have migrated as federal doctrine narrowed"
+      - id: c
+        text: "Asking the Election Assistance Commission to veto the law"
+      - id: d
+        text: "Re-filing the identical federal claim in a different circuit"
+    correct_choice_id: b
+    explanation: "The pattern across this pack and the gerrymandering pack is the same: as federal doctrine narrows (Rucho for partisan maps; Shelby, Brnovich, and the SB 1 rulings for voting rules), litigation migrates to state constitutions — which can and do provide more protection than the federal floor. The countermove is also live: Wisconsin's 2025 constitutional amendment shows the security side using ballot measures to take state courts out of the game. The EAC (c) has no veto power; it's a standards-and-funding body."
+    concepts: [voter-id, voting-rights-act]
+
+  - id: q5
+    kind: free-response
+    text: "Design a federal election-administration package you believe could plausibly win 60 Senate votes — name two or three specific provisions and what each side gives up. Then be honest: identify the strongest reason, from this lesson's record (2021–2026), to think no such package can pass."
+    socratic_seed: "Plausible trades echo Carter–Baker: a national ID standard WITH automatically issued free IDs and document subsidies; uniform mail-ballot verification and cure rules; mandatory post-election risk-limiting audits; SAVE-style citizenship checks via database matching rather than in-person documents. The pessimistic evidence: every comprehensive bill since 2021 — Freedom to Vote, John Lewis VRAA, SAVE, SAVE America — passed one chamber and died at the same 60-vote wall; both parties get more mobilization value from the unresolved fight than policy value from a compromise; and the trust problem may be driven by elite rhetoric, not rules, in which case no statute purchases legitimacy. A complete answer engages that last possibility rather than waving it off."
+    concepts: [voter-id, mail-ballots, voting-rights-act]

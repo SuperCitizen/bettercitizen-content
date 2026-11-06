@@ -1,0 +1,171 @@
+schema: bettercitizen.assessment/v1
+lesson: the-constitution-of-emergency
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      What does the Suspension Clause (Art. I, §9, cl. 2) actually provide?
+    choices:
+      - id: a
+        text: >-
+          It grants the President power to declare martial law when public
+          safety requires it.
+      - id: b
+        text: >-
+          It permits suspending the privilege of the writ of habeas corpus
+          only in cases of rebellion or invasion when public safety requires
+          it — without saying who may suspend.
+      - id: c
+        text: >-
+          It authorizes Congress to suspend any constitutional right during a
+          declared national emergency.
+      - id: d
+        text: >-
+          It expressly assigns the suspension power to Congress and forbids
+          presidential suspension in all circumstances.
+    correct_choice_id: b
+    explanation: >-
+      The clause is written as a limit, not a grant: the habeas privilege
+      "shall not be suspended, unless when in Cases of Rebellion or Invasion
+      the public Safety may require it." It names two triggers and one right —
+      not martial law (a), not rights generally (c). And (d) overstates the
+      text: the actor is implied by the clause's placement among Article I,
+      Section 9's limits on Congress, but the passive voice never names who
+      suspends — which is exactly why Merryman remains unresolved.
+    concepts: [habeas-corpus-suspension]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      In his July 4, 1861 message, Lincoln made two distinct defenses of the
+      suspension. Which pairing states them correctly?
+    choices:
+      - id: a
+        text: >-
+          A necessity argument (better to break one law than let the
+          government perish) and a legal argument (the clause does not say who
+          may suspend, and the emergency arose while Congress was adjourned).
+      - id: b
+        text: >-
+          A commander-in-chief argument (martial law nationwide in wartime)
+          and a precedent argument (Jefferson had suspended the writ during
+          the Burr conspiracy).
+      - id: c
+        text: >-
+          A judicial-supremacy argument (Taney lacked jurisdiction) and a
+          textual argument (the writ does not protect those in arms against
+          the government).
+      - id: d
+        text: >-
+          A pure necessity argument only — Lincoln conceded the suspension was
+          unlawful but justified.
+    correct_choice_id: a
+    explanation: >-
+      Lincoln argued in the alternative: "are all the laws, but one, to go
+      unexecuted…?" (necessity), and then "it was not believed that any law
+      was violated" (legality — the clause is silent on the suspender, and
+      the emergency could not await an adjourned Congress). Choice (d) is the
+      common misreading: the famous necessity line was the fallback, not the
+      whole case. Jefferson (b) had asked Congress for a suspension and been
+      refused — precedent against, not for; and (c) was Taney's terrain, not
+      Lincoln's.
+    concepts: [habeas-corpus-suspension, civil-liberties]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      In 2031, a U.S. citizen who trained with and joined a hostile state's
+      army during a declared war is captured inside Texas, out of uniform,
+      preparing sabotage. Every civilian court in Texas is open. The
+      government convenes a military commission. Under the canon, the
+      commission is…
+    choices:
+      - id: a
+        text: >-
+          Unconstitutional under Milligan, because military trial of anyone is
+          impossible where civilian courts are open.
+      - id: b
+        text: >-
+          Permissible under Quirin, because enemy-belligerent status — not
+          whether courts are open — controls, and citizenship does not remove
+          that status.
+      - id: c
+        text: >-
+          Permissible under Korematsu, because wartime military judgments
+          receive controlling deference.
+      - id: d
+        text: >-
+          Unconstitutional under Hamdi, which forbids any military
+          jurisdiction over citizens.
+    correct_choice_id: b
+    explanation: >-
+      This is Quirin's exact fact pattern: Herbert Haupt was a citizen,
+      captured stateside with courts open, and the Court held that one who is
+      "a part of or associated with the armed forces of the enemy" is
+      triable by commission. Milligan (a) protects civilians not associated
+      with enemy forces — that association is the distinction doing all the
+      work. Korematsu (c) was repudiated in Trump v. Hawaii and concerned
+      exclusion, not trial. Hamdi (d) actually permitted citizen detention
+      with due process; it forbids nothing categorically.
+    concepts: [martial-law, habeas-corpus-suspension]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      What did Trump v. Hawaii (2018) actually do to Korematsu — and why do
+      scholars still argue about it?
+    choices:
+      - id: a
+        text: >-
+          It reversed Korematsu's judgment and compensated the victims, fully
+          closing the question.
+      - id: b
+        text: >-
+          It formally repudiated Korematsu ("gravely wrong the day it was
+          decided") in an opinion that simultaneously upheld a different
+          national-security order under highly deferential review.
+      - id: c
+        text: >-
+          It declined to discuss Korematsu, leaving the precedent technically
+          binding on lower courts.
+      - id: d
+        text: >-
+          It adopted Justice Jackson's dissent as the new standard of review
+          for all emergency actions.
+    correct_choice_id: b
+    explanation: >-
+      Roberts wrote that Korematsu "was gravely wrong the day it was decided,
+      has been overruled in the court of history," and — quoting Jackson's
+      dissent — "has no place in law under the Constitution." But the same
+      opinion sustained the travel ban under deference that accepted the
+      government's stated security rationale. The live dispute is whether the
+      Court retired Jackson's "loaded weapon" or merely the citation: it
+      repudiated the precedent while exercising the deference that produced
+      it. (a) confuses the 1984 coram nobis and 1988 Civil Liberties Act with
+      the Court's own action; (c) and (d) are simply not what happened.
+    concepts: [civil-liberties, checks-and-balances]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      A catastrophic and continuing drone-swarm attack on the East Coast is
+      attributed to a foreign state. Congress is in session but deadlocked.
+      The President suspends habeas corpus for persons "reasonably suspected
+      of facilitating the attacks" and orders citizen suspects held
+      militarily. Evaluate the suspension and the detentions using Merryman,
+      Lincoln's July 4 message, Quirin, and Hamdi — then say which framework
+      from the lesson (Schmitt, Rossiter, or Ackerman) best describes what the
+      President is implicitly claiming, and why.
+    socratic_seed: >-
+      Push on each element separately. Condition: is a state-directed drone
+      campaign an "Invasion"? Who decides? Actor: Taney says only Congress —
+      but Lincoln's strongest fact was an adjourned Congress, and this one is
+      sitting (deadlock is not absence: does that destroy or merely weaken
+      the Lincoln argument?). Detainees: are "facilitators" enemy
+      belligerents under Quirin, or civilians under Milligan — and after
+      Hamdi, what process must citizen detainees get even if detention is
+      authorized? Framework: a president who decides the exception himself
+      while Congress sits looks Schmittian; one who seeks ratification and
+      accepts review looks Rossiterian; ask what facts would move the case
+      from one description to the other.
+    concepts: [habeas-corpus-suspension, due-process]

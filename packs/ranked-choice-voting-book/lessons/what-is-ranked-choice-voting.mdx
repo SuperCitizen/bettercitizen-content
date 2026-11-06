@@ -1,0 +1,121 @@
+---
+schema: bettercitizen.lesson/v1
+slug: what-is-ranked-choice-voting
+kind: reading
+title: What Is Ranked Choice Voting?
+objectives:
+  - Mark up a ranked ballot and explain when each ranking is examined
+  - Run an instant-runoff count — eliminations, transfers, exhausted ballots, and the majority threshold
+  - Distinguish single-winner instant-runoff voting from multi-winner single transferable vote
+  - State what RCV does not promise — and where its honest limits lie
+concepts:
+  - ranked-choice-voting
+  - instant-runoff
+  - majority-threshold
+sources:
+  - type: book
+    citation: Chris Borgia, *Rank the Vote* (2026), "What Is Ranked Choice Voting?"
+  - type: website
+    citation: 'Maine Secretary of State, "Ranked-Choice Voting Frequently Asked Questions" — official description of ranking, eliminations, transfers, and the rule that voters may rank as many or as few candidates as they wish.'
+    url: https://www.maine.gov/sos/elections-voting/ranked-choice-voting-frequently-asked-questions
+  - type: website
+    citation: 'Australian Electoral Commission, "A short history of federal electoral reform in Australia" — preferential voting adopted 1918; Senate STV adopted 1948.'
+    url: https://www.aec.gov.au/Elections/history-of-electoral-reform.htm
+  - type: statute
+    citation: 'Constitution of Ireland, Art. 16.2.5° — Dáil elections "on the system of proportional representation by means of the single transferable vote"; STV in use since independence in 1922.'
+    url: https://www.irishstatutebook.ie/eli/cons/en/html
+  - type: website
+    citation: 'FairVote, "Where is ranked choice voting used?" — 49 jurisdictions and nearly 14 million voters as of early 2026; Cambridge, Mass. (since 1941) and Portland, Ore. among STV users.'
+    url: https://fairvote.org/where-is-ranked-choice-voting-used/
+  - type: website
+    citation: 'City of Cambridge Election Commission — proportional representation (ranked ballots) for City Council and School Committee elections.'
+    url: https://www.cambridgema.gov/Departments/electioncommission
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+duration_min: 10
+---
+
+# What Is Ranked Choice Voting?
+
+Strip away the policy fights, the lawsuits, and the cable-news segments, and the entire reform fits in one sentence: instead of picking one candidate, you rank them. First choice, second choice, third — as many or as few as you want. That's it. That's the machine. Everything else in this book is what happens when you turn it on.
+
+This chapter is the owner's manual. By the end you'll have run a count yourself, round by round, and you'll know the honest fine print — including the parts my opponents are right to bring up.
+
+## The ballot
+
+A ranked ballot lists the same candidates a pick-one ballot would. Next to each name sits a row of columns: 1st, 2nd, 3rd, and so on. You fill in one candidate per column — your favorite under "1st," your backup under "2nd," and down the line as far as your opinions actually go. Maine's Secretary of State puts the rule plainly: rank as many or as few as you wish. Ranking only one candidate is a legal, countable ballot; it just means your ballot has nothing more to say if that candidate is eliminated.
+
+Two things a ranked ballot is *not*, because these misunderstandings do real damage. It is not a points system: your second choice does not get half a vote, and your vote never counts for two candidates at once. At every moment of the count, your ballot counts as exactly one vote, for exactly one candidate — the highest-ranked one still in the race. And ranking a backup cannot hurt your favorite:
+
+<Callout type="misconception">
+  "If I rank a second choice, I'm voting against my first choice." No. The count never looks at your second choice until your first choice has been eliminated — at which point your first choice can't be hurt, because they're already out. Voting theorists call this property "later-no-harm," and instant-runoff counting satisfies it. Leaving the later columns blank protects no one; it only silences your ballot early.
+</Callout>
+
+## The count
+
+Here's the engine — what Americans usually call [[term:instant-runoff]] voting. Count everyone's first choices. If a candidate has a majority of the ballots in play, done; that's the winner, exactly as in any election. If nobody does, the candidate in last place is eliminated, and each of that candidate's ballots moves — at full strength — to whoever that *voter* ranked next. Count again. Repeat until someone clears the [[term:majority-threshold]] of the ballots still in play. It is a [[term:runoff-election]] without the second trip to the polls, which is why the older literature calls the ballots "instant runoffs": the backup information needed for every possible runoff is collected once, on one Tuesday.
+
+Don't take my word for how it feels. Run one. Below is a four-candidate city race I've built from one thousand ballots — including plenty of voters who ranked only one or two names, because real voters do that, and an honest simulation should too. Step through the rounds and watch where the votes actually go.
+
+<RankedChoiceSim
+  title="A four-way race, 1,000 ballots — step through the rounds"
+  candidates={['Rivera', 'Okafor', 'Tran', 'Lund']}
+  ballots={[
+    {ranking: ['Rivera'], count: 200},
+    {ranking: ['Rivera', 'Lund'], count: 180},
+    {ranking: ['Okafor', 'Tran'], count: 170},
+    {ranking: ['Okafor'], count: 120},
+    {ranking: ['Tran', 'Okafor', 'Rivera'], count: 120},
+    {ranking: ['Tran', 'Rivera'], count: 50},
+    {ranking: ['Tran'], count: 30},
+    {ranking: ['Lund', 'Tran', 'Okafor'], count: 70},
+    {ranking: ['Lund', 'Okafor'], count: 40},
+    {ranking: ['Lund'], count: 20},
+  ]}
+/>
+
+Now name what you just saw, because each piece matters later in this book. **Rivera led the first round with 380 votes — and lost.** Rivera's support was a large fragment that never grew: under pick-one rules, that fragment wins the election outright with 38 percent. **The transfers followed the voters' own instructions, not a party's and not an official's** — Lund's 130 ballots split three ways because Lund's voters had three different second preferences. **Fifty ballots "exhausted":** their owners ranked only candidates who got eliminated, so by the final round those ballots had nothing more to say — the price of ranking briefly, and a choice each voter made freely. And Okafor's winning 520 was **a majority of the 950 ballots still active**, not of all 1,000 cast — in this race it happens to clear half of the original total too, but that is not guaranteed, and honest advocates say so out loud.
+
+<Checkpoint question="Replay the simulation in your head under pick-one rules: same voters, same preferences, one mark each. Who wins, and what specifically changes the outcome under ranked counting?">
+  Rivera wins under pick-one, 380 to Okafor's 290 — a 38 percent winner opposed by 62 percent of the electorate. What changes under ranked counting isn't anyone's vote total; it's that the 330 voters who preferred Tran or Lund first get to answer the question pick-one never asks: *with your favorite gone, whom do you prefer among the rest?* Most of them answered Okafor. The ranked ballot didn't move a single vote — it collected more of each voter's judgment and used it only when needed.
+</Checkpoint>
+
+## It's not new
+
+Ranked choice voting carries an experimental reputation it has not earned. Australia has elected its House of Representatives this way since 1918 — adopted, as a later chapter details, by a *conservative* government tired of vote-splitting. Ireland has elected its parliament by ranked ballot since independence in 1922 and wrote the method into its 1937 constitution. Malta has used it since 1921. In the United States, Cambridge, Massachusetts has elected its city council and school committee by ranked ballot since 1941 — eighty-five years of continuous American use, counted through depressions, wars, and every change of election technology since the mechanical lever.
+
+| Where | Ranked ballots since | Scope |
+| --- | --- | --- |
+| Australia | 1918 | National House of Representatives (Senate since 1948) |
+| Malta | 1921 | National parliament |
+| Ireland | 1922 | National parliament (constitutionalized 1937) |
+| Cambridge, Mass. | 1941 | City council and school committee |
+| San Francisco | 2004 | Citywide offices |
+| Maine | 2018 | Statewide primaries and federal elections |
+| Alaska | 2022 | Entire general election, governor on down |
+
+Read the left column against the right one: national legislatures for over a century, an American city for over eight decades, American states within the decade. The honest version of the stub claim is not "dozens of democracies use it for everything" — it's that a handful of full democracies have used it nationally for generations, dozens of governments use it somewhere, and by [[org:fairvote]]'s count 49 American jurisdictions, home to nearly 14 million voters, use or have adopted it as of early 2026. "Untested" is not a serious description of this record. The serious objections lie elsewhere, and we'll get to them.
+
+## Two flavors: instant runoff and the single transferable vote
+
+Everything above describes the single-winner version — one mayor, one governor, one seat. The same ranked ballot also comes in a multi-winner version for bodies like city councils, called the **single transferable vote** (STV). Electing, say, five council seats at once, STV sets the winning threshold lower (just over one-sixth of the votes, for five seats), and transfers both the surplus votes of winners and the votes of eliminated candidates. The effect is rough proportionality: a bloc with 40 percent of the votes ends up with about 40 percent of the seats, instead of either everything or nothing. Cambridge's eighty-five-year-old system is STV; Portland, Oregon adopted it for its city council in the 2020s. Same ballot in the voter's hand — the number of seats does the rest.
+
+<QuickCheck
+  question="Your county elects five commissioners at-large and is weighing reform. Which is true?"
+  choices={[
+    {id: 'a', text: 'Instant-runoff voting is the natural fit — it was designed for multi-seat races'},
+    {id: 'b', text: 'STV fits: with five seats, candidates win by clearing roughly a sixth of the vote, and seats track voter blocs roughly proportionally'},
+    {id: 'c', text: 'Ranked ballots cannot be used for multi-seat bodies'},
+    {id: 'd', text: 'STV requires a separate, more complicated ballot than instant-runoff voting'},
+  ]}
+  answer="b"
+  explanation="IRV is the single-winner form — one seat, majority threshold. STV is the multi-winner form: more seats lower the threshold (about 1/6 for five seats) and produce rough proportionality, the way Cambridge has elected its council since 1941. The ballot the voter marks is the same ranked ballot in both — the counting rule, not the ballot, changes with the number of seats."
+/>
+
+## What ranking does not promise
+
+Now the fine print, stated by an advocate on purpose. Ranked choice voting does not guarantee that the *consensus* candidate wins: a candidate who would beat every rival head-to-head can still be eliminated early for lack of first-choice votes — it happened in Alaska in August 2022, and the next chapter confronts it rather than hiding it. Single-winner RCV does not produce proportional outcomes or end two-party dominance; Australia's century proves both points. Exhausted ballots are real, and so is the distinction between "a majority of continuing ballots" and "a majority of everyone who showed up." And the count is genuinely more centralized than a pick-one tally — ballots, or their digital images, must be tabulated together, which is exactly the thread Maine's constitutional fight pulled on, two chapters from now.
+
+What this chapter settles: the mechanism, and the provenance. You now know precisely what a ranked ballot collects, when each ranking is read, and how long this machinery has run elsewhere. What it doesn't settle is whether the machine delivers what I've claimed for it under American conditions — majority winners, no spoilers, campaigns that reach beyond their base. For that we go to the proving grounds, starting with the state that bet its entire general election on it: Alaska.

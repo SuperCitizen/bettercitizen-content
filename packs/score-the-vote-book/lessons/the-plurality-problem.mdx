@@ -1,0 +1,115 @@
+---
+schema: bettercitizen.lesson/v1
+slug: the-plurality-problem
+kind: reading
+title: The Plurality Problem
+objectives:
+  - Explain how Maine's 2010 governor won with 37.6 percent and why that outcome is plurality working as designed, not failing
+  - Distinguish the mechanical and psychological effects in Duverger's law and apply them to American third-party collapse
+  - Explain why spoiler debates (Nader 2000, Perot 1992) are unresolvable under pick-one ballots, and define favorite betrayal
+concepts:
+  - plurality
+  - majority-threshold
+  - runoff-election
+duration_min: 8
+sources:
+  - type: book
+    citation: 'Chris Borgia, *Score the Vote* (2026), "The Plurality Problem"'
+  - type: website
+    citation: 'Ballotpedia, "Maine gubernatorial election, 2010" — LePage (R) 218,065 (37.6%); Cutler (I) 208,270 (35.9%); Mitchell (D) 109,387 (18.8%).'
+    url: https://ballotpedia.org/Maine_gubernatorial_election,_2010
+  - type: website
+    citation: 'A-Mark Foundation, "Did Ralph Nader or Florida''s Butterfly Ballot Cost Al Gore the 2000 Election?" — certified Florida margin of 537 votes (Bush 2,912,790; Gore 2,912,253); Nader 97,488; with survey evidence on both sides of the spoiler question.'
+    url: https://amarkfoundation.org/reports/nader-florida-and-the-2000-election/
+  - type: website
+    citation: 'National Archives, "1992 Electoral College Results" — Perot received zero electoral votes despite 18.9% of the national popular vote (19,743,821 votes).'
+    url: https://www.archives.gov/electoral-college/1992
+  - type: book
+    citation: 'Maurice Duverger, *Political Parties: Their Organization and Activity in the Modern State* (1951; English ed. 1954) — plurality rule''s mechanical and psychological pressures toward two-party systems.'
+  - type: website
+    citation: 'Ballotpedia, "Maine Question 5, Ranked-Choice Voting Initiative (2016)" — approved 52.12% to 47.88%, a direct response to Maine''s plurality winners.'
+    url: https://ballotpedia.org/Maine_Question_5,_Ranked-Choice_Voting_Initiative_(2016)
+perspectives:
+  - name: Reform advocate
+  - name: Status-quo defender
+  - name: Alternative-reform advocate
+---
+
+# The Plurality Problem
+
+In November 2010, Maine elected a governor whom 62 percent of its voters had just voted against.
+
+Paul LePage won with 218,065 votes — 37.6 percent. Independent Eliot Cutler took 35.9 percent, Democrat Libby Mitchell 18.8, and two more independents split the rest. Cutler and Mitchell were both center-left candidates competing for overlapping voters; together their supporters outnumbered LePage's by more than seventeen points. It didn't matter. Under [[term:plurality]] rules — pick one, most votes wins — the largest splinter takes the whole office. Nobody cheated. Nobody miscounted. The system performed exactly as designed, and that is the indictment.
+
+Maine's eventual answer was to become the first state to adopt ranked-choice voting, by [[term:referendum]] in 2016, 52 percent to 48. Hold that thought — this book will argue Maine reached for the second-best tool. But Maine got the diagnosis exactly right, and the diagnosis is where we have to start.
+
+## One mark, zero nuance
+
+Plurality voting asks you the shallowest possible question — *which one?* — and then treats your answer as your entire political existence. You cannot say "this one, but I'd accept that one." You cannot say "anyone but him." You cannot distinguish enthusiasm from resignation. Whatever you actually believe gets compressed into a single mark, and the compression is lossy in the way that matters most: it discards exactly the information a close multi-candidate election turns on.
+
+I'm going to show you simulation tables later in this book — Warren Smith's Bayesian-regret work, Jameson Quinn's voter-satisfaction-efficiency numbers — comparing every serious voting method across millions of model elections. I'll flag their assumptions and their limits honestly when we get there. For now, one preview is enough: in every published table you will see in this book, plurality finishes last. The argument among researchers is over which reform is best, not over which system is worst. That argument was settled long ago.
+
+<Figure caption="Maine, 2010: the plurality machine at work. Two center-left candidates split 54.7 percent of the vote between them; the candidate opposed by 62 percent of voters won the office. No counting error occurred — this is the system working as designed." source="Ballotpedia, Maine gubernatorial election, 2010 (certified results)">
+  <DataBars
+    unit="% of vote"
+    max={100}
+    marker={{value: 50, label: '50% = a majority'}}
+    bars={[
+      {label: 'LePage (R) — winner', value: 37.6, color: 'accent'},
+      {label: 'Cutler (I)', value: 35.9, color: 'blue'},
+      {label: 'Mitchell (D)', value: 18.8, color: 'gold'},
+      {label: 'Moody (I)', value: 5.0, color: 'green'},
+      {label: 'Scott (I)', value: 1.0, color: 'ink'},
+    ]}
+  />
+</Figure>
+
+Look at how far the winning bar sits from the majority line. A [[term:majority-threshold]] is not a technicality; it's the difference between "most of us chose this" and "the biggest faction got there first." Plurality elections routinely certify the second thing and call it the first.
+
+## The spoiler effect
+
+Florida, 2000. The certified count: George W. Bush 2,912,790, Al Gore 2,912,253 — a margin of 537 votes, with the presidency attached. Ralph Nader received 97,488 votes in Florida.
+
+Here is where I'm supposed to tell you Nader cost Gore the White House, and here is where I won't — not in that simple form. The honest record is messier. Exit-poll-based estimates suggested Nader's voters leaned toward Gore over Bush at roughly two to one, which would have flipped 537 votes many times over. But skeptics answer with a brutal counter-statistic: only about 24,000 registered Democrats voted for Nader in Florida, while roughly 308,000 registered Democrats voted for *Bush*. If you want to blame someone for Gore's loss, the defectors dwarf the Greens.
+
+So was Nader a spoiler? Decades later, people still argue — and *that is the system's confession*. The pick-one ballot recorded 97,488 first choices and destroyed every second choice. The information needed to answer the question was in voters' heads on election night, and the ballot had no place to put it. A spoiler debate is what it looks like when an electoral system deletes its own evidence.
+
+Eight years earlier the same machine ran at larger scale. Ross Perot won 19,743,821 votes in 1992 — 18.9 percent, the strongest independent showing in eighty years — and received zero [[term:electoral-college]] votes. Whom did he "spoil"? We genuinely don't know; the ballots can't say. What we know is that one in five American voters tried to leave the two-party menu, and the system absorbed the rebellion without registering so much as a dent in the outcome's legitimacy math.
+
+<Checkpoint question="What single piece of information would settle whether Nader 'cost' Gore Florida in 2000 — and where would that information live under a score ballot?">
+  You'd need each Nader voter's relative preference between Bush and Gore. Plurality ballots never record it, which is why the argument has run for a quarter century on dueling surveys. On a score ballot, it's right there on the face of every ballot: Nader 5, Gore 3, Bush 0 — counted, archived, arguable about never. The spoiler debate isn't just resolved under cardinal voting; it becomes impossible to have.
+</Checkpoint>
+
+## Duverger's law
+
+In 1951, the French political scientist Maurice Duverger published *Political Parties* and put a name on what plurality does over time: it manufactures two-party systems. The claim — "Duverger's law" is the rare social-science generalization sturdy enough to keep the title — rests on two distinct mechanisms, and the distinction matters.
+
+The *mechanical* effect is arithmetic. A party winning 15 percent everywhere wins zero seats anywhere; plurality converts dispersed support into nothing. The *psychological* effect is anticipation. Voters who can count don't wait to be mechanically erased — they abandon their sincere favorite in advance to avoid "wasting" their vote, and donors and ambitious candidates abandon the party before the voters do. The mechanical effect kills third parties; the psychological effect persuades them to die quietly. Political scientists have spent seventy years refining the law's scope — regionally concentrated parties can survive it, which is why Canada and the United Kingdom still seat third parties — but as a description of incentives in single-winner plurality districts, it has held up disturbingly well.
+
+Understand what this means for the American duopoly: it is not primarily a story about culture, money, or media. It is a story about ballot design. The two-party stranglehold is *downstream of the pick-one rule*. Change the rule and you change the equilibrium — which is precisely why the parties that benefit from the current equilibrium take such an interest in keeping the rule, a pattern you'll see documented, statute by statute, later in this book.
+
+<QuickCheck
+  question="A third party polls a genuine 15 percent, spread evenly across every district in a plurality system. Duverger's two effects predict, in order:"
+  choices={[
+    {id: 'a', text: 'It wins about 15 percent of seats; voters then reward its success with more support'},
+    {id: 'b', text: 'It wins zero seats (mechanical effect); anticipating this, its voters defect to lesser evils and its support erodes before the next election (psychological effect)'},
+    {id: 'c', text: 'It wins zero seats, but its vote share stays stable because supporters are sincere'},
+    {id: 'd', text: 'It is banned from the ballot by the two major parties'},
+  ]}
+  answer="b"
+  explanation="Even support means no pluralities anywhere: 15 percent of votes converts to zero percent of seats — that's the mechanical effect. The psychological effect is the anticipation of that arithmetic: voters, donors, and candidates defect in advance rather than 'waste' their participation. Choice (c) misses that voters can count; choice (a) describes a proportional system, not plurality. Legal ballot-access barriers (d) are real but are a separate mechanism from Duverger's."
+/>
+
+## Strategic voting is the norm
+
+Put the pieces together and you get the quiet scandal of American elections: under plurality, dishonesty is the rational strategy for millions of voters, every cycle. "Don't waste your vote" isn't cynicism — it is correct advice within the rules as written. The voter who prefers a third candidate but marks a major-party ballot isn't a coward; she's solving the optimization problem the ballot handed her.
+
+I want to be precise about what's broken here, because the precision pays off later. The defect has a name in voting theory: plurality forces *favorite betrayal*. The system is built so that supporting your sincere favorite can directly help elect the candidate you most fear, and the defense — voting for a lesser evil — requires abandoning your favorite entirely. A century of American third-party collapse is mostly this one defect, iterated.
+
+The solution is not to shame strategic voters. It is to change the ballot so that honesty stops being punished. That is the bar any reform must clear, and it gives us a sharp question to carry through this book: *under the proposed system, what does it cost to support your true favorite?* Under plurality the cost can be the whole election. Under ranked-choice voting, we'll see, the cost shrinks but doesn't reach zero — Alaska's 2022 special election made that vivid, and I'll walk you through the ballot data in the math chapter. Under score voting the answer is structural: your favorite gets your maximum score, always, and it never costs you a thing on any other line of the ballot.
+
+## What this chapter settles — and what it doesn't
+
+Settled: plurality discards nearly all voter information, manufactures unresolvable spoiler arguments, suppresses honest support for outsiders by design, and — per Duverger — locks in the duopoly as an equilibrium. None of that is contested among people who study voting systems; the worst-system verdict is as close to consensus as this field gets.
+
+Not settled: what replaces it. Everything in this chapter is common ground between ranked-choice advocates, STAR advocates, and me — we are allies until the moment the prescription is written. The next chapter writes mine. It's simpler than you think, you already know how to do it, and you've probably done it this week.

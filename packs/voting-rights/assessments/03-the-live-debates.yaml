@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-live-debates
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In Husted v. A. Philip Randolph Institute (2018), Ohio used a voter's failure to vote in one two-year cycle as the trigger to begin its removal process. Why did the Supreme Court uphold this?"
+    choices:
+      - id: a
+        text: "Because the NVRA's failure-to-vote clause forbids removal 'solely' for nonvoting, and Ohio removed voters only after an unreturned notice plus four more years of silence."
+      - id: b
+        text: "Because the NVRA does not apply to states that joined an interstate data-sharing compact."
+      - id: c
+        text: "Because the Court held that list maintenance is a state power that federal statutes cannot regulate."
+      - id: d
+        text: "Because Ohio proved that every removed registrant had actually moved out of state."
+    correct_choice_id: a
+    explanation: "The 5–4 majority read 'solely' literally: nonvoting may start the process, it just cannot be the only basis for removal. Ohio's removals rested on nonvoting plus the unreturned confirmation notice plus failure to vote through the second following federal general election — the NVRA's own prescribed ritual. Choice (c) inverts the case: the NVRA plainly governs state list maintenance, which is why the fight was over its words. Choice (d) misses the dissent's whole point — most removed voters had not moved; they had merely ignored a postcard, which is exactly why the trigger mattered."
+    concepts: [voter-registration]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Felony disenfranchisement varies enormously — Vermont lets people vote from prison while other states require individual clemency petitions. What is the constitutional basis for letting states diverge this way?"
+    choices:
+      - id: a
+        text: "The 15th Amendment, which lists crime as a permissible ground for denying the vote."
+      - id: b
+        text: "Richardson v. Ramirez (1974), reading Section 2 of the 14th Amendment — which excepts abridgment 'for participation in rebellion, or other crime' — as affirmative sanction for felony disenfranchisement."
+      - id: c
+        text: "The Voting Rights Act, which exempts criminal-justice policies from Section 2 review."
+      - id: d
+        text: "Shelby County v. Holder (2013), which returned all franchise questions to the states."
+    correct_choice_id: b
+    explanation: "Richardson v. Ramirez found in the 14th Amendment's own text — the §2 exception for 'participation in rebellion, or other crime' — affirmative sanction for disenfranchising people with felony convictions, so equal protection sets no floor and each state's policy governs. The 15th Amendment (a) lists prohibited grounds (race), not permitted ones. Shelby County (d) concerned the VRA's coverage formula, not felony voting. Because the rule is purely state law, the same conviction can mean an uninterrupted ballot in one state and a petition to the governor in another."
+    concepts: [disenfranchisement]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A new state law requires anyone registering to vote to attach a birth certificate or passport. A resident instead submits the NVRA federal form, attesting citizenship under penalty of perjury, with no documents. Under Arizona v. Inter Tribal Council of Arizona (2013), what must the state do?"
+    choices:
+      - id: a
+        text: "Reject the application — states set voter qualifications, and citizenship documentation is a qualification."
+      - id: b
+        text: "Register the applicant for federal elections: the NVRA's command to 'accept and use' the federal form preempts the documentary requirement for federal-form registrants."
+      - id: c
+        text: "Hold the application until the Department of Justice preclears the documentary requirement."
+      - id: d
+        text: "Register the applicant only if the state's own form also omits a documentary requirement."
+    correct_choice_id: b
+    explanation: "ITCA held that 'accept and use' means the federal form is sufficient — a state cannot demand more from federal-form registrants, though it may petition the Election Assistance Commission to add a documentary instruction and sue if refused. Choice (a) states Arizona's losing argument; the Court located registration procedure for federal elections under the Elections Clause, where federal law prevails. Choice (c) imports preclearance, which is a different statute and inoperative since 2013. The seams matter: states retain more room over their own state-form registrations and state elections — which is why Congress's SAVE Act, not state law, is where the proof-of-citizenship fight now centers."
+    concepts: [voter-registration]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which statement about same-day voter registration reflects the research record as summarized by NCSL?"
+    choices:
+      - id: a
+        text: "It raises turnout by roughly 3 to 7 percentage points, though adopting states were often high-turnout already, making the causal share hard to isolate."
+      - id: b
+        text: "It has no measurable relationship to turnout in any study."
+      - id: c
+        text: "It raises turnout by more than 15 percentage points, which is why most states adopted it."
+      - id: d
+        text: "It reliably shifts election outcomes toward one party, which is why adoption maps onto partisan control."
+    correct_choice_id: a
+    explanation: "The honest summary has both halves: studies find a turnout effect of roughly 3–7 points (about 5 on average), and the states adopting same-day registration tended to outperform on turnout anyway, so isolating the policy's independent effect is genuinely difficult. Choices (b) and (c) each drop one half. Choice (d) is the assumption partisans on both sides make; the evidence for large partisan effects from registration reforms is far thinner than the political fight implies — a gap between assumed stakes and measured stakes that recurs across this lesson's debates."
+    concepts: [voter-registration, voter-turnout]
+
+  - id: q5
+    kind: free-response
+    text: "Your state's legislature convenes a working group with one ballot-access expander, one election-integrity conservative, and one state-administration pragmatist, and asks them to co-design the registration and list-maintenance system. Propose a package all three could sign, and identify what each must concede. Then name the one design question on which you think no compromise is available, and defend your answer."
+    socratic_seed: "A signable package likely pairs automatic registration sourced from verified government records (the expander gets the default flip; the conservative gets cleaner, document-backed rolls — the pragmatist's point that AVR is a list-quality tool) with disciplined NVRA-plus maintenance: data-driven triggers from address-change and interstate feeds rather than nonvoting alone, robust notice, and provisional-ballot backstops so false removals are correctable on the spot. Concessions: the expander accepts systematic maintenance and verification at registration; the conservative accepts that prevention happens at data-sourcing, not at documentary hurdles on the voter; the pragmatist needs both to fund infrastructure. The hardest residue is the direction-of-error question — when records conflict on Election Day, does the ballot count provisionally (risking a rare ineligible vote) or not (risking a rare eligible voter silenced)? Push the student to say which error their design tolerates and why that is not just the expander or conservative position restated."
+    concepts: [voter-registration, disenfranchisement]

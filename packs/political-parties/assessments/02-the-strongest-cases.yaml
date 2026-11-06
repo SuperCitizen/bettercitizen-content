@@ -1,0 +1,159 @@
+schema: bettercitizen.assessment/v1
+lesson: the-strongest-cases
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      What did the APSA's 1950 report "Toward a More Responsible Two-Party
+      System" argue was wrong with American parties?
+    choices:
+      - id: a
+        text: >-
+          They were too polarized and ideological, and should converge on a
+          bipartisan center.
+      - id: b
+        text: >-
+          They were too similar and too internally incoherent to offer voters
+          a real, accountable choice — and should become more programmatic and
+          disciplined.
+      - id: c
+        text: >-
+          They were unconstitutional monopolies that should be broken up by
+          antitrust action.
+      - id: d
+        text: >-
+          They relied too heavily on television advertising rather than
+          grassroots organizing.
+    correct_choice_id: b
+    explanation: >-
+      The 1950 committee, chaired by E. E. Schattschneider, complained the
+      parties were loose, overlapping coalitions that agreed on little and
+      enforced nothing — so elections couldn't translate majorities into
+      programs. Choice (a) is the classic reversal error: the report wanted
+      MORE distinctness, not less. Its wish was largely granted over the
+      following decades, which is why the report now anchors arguments on
+      every side of the parties debate.
+    concepts: [partisan, bipartisan]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Which piece of evidence fits the Katz–Mair "cartel party" critique of
+      the American system most directly?
+    choices:
+      - id: a
+        text: >-
+          Voters increasingly dislike the opposing party more than they like
+          their own.
+      - id: b
+        text: >-
+          The two major parties write the ballot-access laws, draw the
+          districts, and long set the polling threshold for presidential-debate
+          inclusion — the rules their competitors must satisfy.
+      - id: c
+        text: >-
+          National party committees raise less money than super PACs.
+      - id: d
+        text: >-
+          Most American municipalities elect their councils on nonpartisan
+          ballots.
+    correct_choice_id: b
+    explanation: >-
+      The cartel thesis is about collusion through the machinery of the state:
+      established parties using public rules and resources to entrench
+      themselves against challengers. Duopoly-written ballot access,
+      districting, and debate thresholds are the American translation. Choice
+      (a) is negative partisanship (the diagnosticians' evidence), (c) is the
+      hollowness evidence, and (d) is the reformers' counter-evidence that
+      government can function without party labels — related arguments, but
+      different mechanisms.
+    concepts: [partisan]
+
+  - id: q3
+    kind: multiple-choice
+    text: What is "negative partisanship," as documented by Abramowitz and Webster?
+    choices:
+      - id: a
+        text: >-
+          The tendency of voters to abstain when dissatisfied with both
+          parties.
+      - id: b
+        text: >-
+          Hostility toward one's own party after a lost primary.
+      - id: c
+        text: >-
+          Voting behavior driven more by fear and dislike of the opposing
+          party than by enthusiasm for one's own.
+      - id: d
+        text: >-
+          The decline in party registration among young voters.
+    correct_choice_id: c
+    explanation: >-
+      Abramowitz and Webster (2016) showed that out-party hostility has become
+      the stronger motive force — producing record straight-ticket voting and
+      nationalized elections even as Americans' expressed affection for their
+      own party stagnated. It matters because it inverts accountability:
+      voters who see the other side as an existential threat cannot
+      realistically fire their own team for poor performance.
+    concepts: [partisan]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      Gallup finds a record 45% of Americans calling themselves independents —
+      while straight-ticket party-line voting also sits near record highs. How
+      does the weak-parties / strong-partisanship camp read this apparent
+      contradiction?
+    choices:
+      - id: a
+        text: >-
+          The polls must be wrong, since the two findings cannot both be true.
+      - id: b
+        text: >-
+          Americans are abandoning the party brands while keeping the
+          behavior — most independents lean toward a side and vote like
+          loyalists, so partisan identity is strong even as party
+          organizations command no loyalty.
+      - id: c
+        text: >-
+          It proves the parties' organizations are stronger than ever, since
+          they still win every election.
+      - id: d
+        text: >-
+          It shows voters are becoming more ideologically moderate.
+    correct_choice_id: b
+    explanation: >-
+      The diagnosticians' signature move is splitting the dials: attachment to
+      party-as-brand has collapsed (45% refuse the label) while partisanship
+      as behavior and identity has intensified (leaners vote like loyalists,
+      driven substantially by negative partisanship). No contradiction —
+      hollow organizations, fierce loyalties. Choice (c) confuses winning
+      under a duopoly with organizational strength; (d) doesn't follow from
+      either finding.
+    concepts: [partisan, populism]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Could all three camps — responsible-party advocates, anti-party
+      reformers, and the weak-parties / strong-partisanship diagnosticians —
+      be substantially right at the same time? Use V. O. Key's three faces to
+      structure your answer, and identify where the camps' claims genuinely
+      collide.
+    socratic_seed: >-
+      A strong answer maps each camp to a face: the responsible-party camp
+      describes the party-as-organization (genuinely weakened — nominations,
+      money, and discipline all migrated away); the anti-party camp describes
+      the system level, where the two parties jointly write the rules of
+      competition (cartel behavior can coexist with weak individual
+      organizations); the diagnosticians describe the party-in-the-electorate,
+      where identity-partisanship and negative partisanship run at historic
+      intensity. As descriptions, all three can hold simultaneously. The
+      collision is prescriptive: strengthening organizations (camp 1) versus
+      stripping the duopoly's privileges (camp 2) versus treating the
+      identity problem first (camp 3) — e.g., opening primaries further
+      weakens the organization camp 1 wants rebuilt. The best answers also
+      name evidence that would adjudicate, such as the state-level
+      party-finance findings or the modest measured effects of open-primary
+      reforms.
+    concepts: [partisan, bipartisan]

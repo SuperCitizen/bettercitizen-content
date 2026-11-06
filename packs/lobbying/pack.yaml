@@ -4,13 +4,13 @@ title: Lobbying
 summary: How U.S. lobbying actually works — registration, spending, the revolving door, foreign agent registration — plus the strongest cases for restriction, transparency-only, and structural reform. Lobbying is an activity protected by the First Amendment's petition clause, but the modern apparatus is far larger and more concentrated than the Founders contemplated.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.1.0
+version: 1.3.0
 tags: [money-in-politics, civics-201, public-policy]
 level: intermediate
 official: true
 contested: true
 languages: [en]
 lessons:
-  - 01-how-it-works.md
-  - 02-the-strongest-cases.md
-  - 03-the-policy-landscape.md
+  - 01-how-it-works.mdx
+  - 02-the-strongest-cases.mdx
+  - 03-the-policy-landscape.mdx

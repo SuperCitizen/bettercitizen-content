@@ -1,0 +1,170 @@
+schema: bettercitizen.assessment/v1
+lesson: voter-satisfaction-efficiency
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: >-
+      Why do researchers measure voter satisfaction efficiency on simulated
+      electorates instead of real election returns?
+    choices:
+      - id: a
+        text: >-
+          Real election data is secret, so simulation is the only option
+      - id: b
+        text: >-
+          With simulated voters, the researcher knows every voter's true
+          satisfaction with every candidate, so the ideal winner is computable
+          and every method can be run on identical electorates — none of which
+          is possible with real ballots
+      - id: c
+        text: >-
+          Simulations are cheaper than polling, though polling would be more
+          accurate
+      - id: d
+        text: >-
+          Real voters are too strategic for their ballots to be studied
+          mathematically
+    correct_choice_id: b
+    explanation: >-
+      VSE needs two things reality never provides: the full satisfaction each
+      voter would feel under each possible winner (real ballots record marks,
+      not minds), and a counterfactual rerun of the same voters under
+      different rules. Building the electorate solves both — you wrote the
+      preferences, so you can score every method against the true optimum.
+      That's also the metric's built-in weakness, which honest advocates
+      label: the results are only as good as the voter model. Choices (a),
+      (c), and (d) each miss that the obstacle is conceptual, not logistical.
+    concepts: [score-voting]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      Which of these claims is actually supported by Jameson Quinn's published
+      VSE figures?
+    choices:
+      - id: a
+        text: >-
+          Score voting holds above 95% VSE even when every voter strategizes
+      - id: b
+        text: >-
+          Score voting scores about 96% with honest voters but falls to about
+          84% under full strategy, while approval voting holds roughly 89–95%
+          across strategy mixes — so the honest claim is graceful degradation,
+          not immunity
+      - id: c
+        text: >-
+          Instant-runoff voting outperforms approval voting once voters
+          strategize
+      - id: d
+        text: >-
+          Plurality matches the reform methods as long as voters vote honestly
+    correct_choice_id: b
+    explanation: >-
+      Choice (a) is the inflated version that circulates in advocacy
+      materials — and it is not what the published numbers say. The real
+      table shows score topping the honest-voter chart and sliding twelve
+      points under full strategy, with approval's high floor (about 89%) as
+      the cardinal family's worst case. That honest reading still favors
+      cardinal methods: strategic IRV falls to about 79% (refuting c), and
+      plurality sits around twenty points below the reform cluster in every
+      published run (refuting d). Advocacy that needs retouched numbers isn't
+      advocacy you can build a movement on.
+    concepts: [score-voting, instant-runoff]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      A simulated city has three candidates. Moderate M is the second choice of
+      nearly everyone but the first choice of only 22% of voters; extremists L
+      and R take 40% and 38% of first choices. Based on this lesson, which
+      prediction fits the systems' structures?
+    choices:
+      - id: a
+        text: >-
+          Instant runoff elects M, because second choices are added to the
+          count from the first round
+      - id: b
+        text: >-
+          Instant runoff eliminates M first — last in first choices — and
+          elects L or R; score voting counts M's broad support from the start
+          and is structurally positioned to elect M
+      - id: c
+        text: >-
+          Plurality elects M, since moderates always win pick-one elections
+      - id: d
+        text: >-
+          All three methods elect M, because every method must elect a
+          candidate who would beat the others head-to-head
+    correct_choice_id: b
+    explanation: >-
+      This is the center squeeze in miniature. IRV consults a ballot's lower
+      preferences only after its higher ones are eliminated — so M's mountain
+      of second-choice support is invisible at the moment of M's elimination
+      (a is exactly the misconception). Score voting has no elimination step:
+      M's breadth sits in the totals from the first ballot counted. Choice (d)
+      names the Condorcet criterion, which IRV demonstrably fails (Burlington
+      2009, Alaska 2022) and which no method here guarantees. Plurality (c)
+      reads only first choices, where M is weakest.
+    concepts: [score-voting, instant-runoff]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      A skeptic shrugs: "Those VSE numbers are just simulations." According to
+      this lesson, what is the most defensible response?
+    choices:
+      - id: a
+        text: >-
+          Simulations are mathematical proof, so real-world evidence is
+          unnecessary
+      - id: b
+        text: >-
+          The skeptic is right, and simulation evidence should be discarded in
+          favor of real election results alone
+      - id: c
+        text: >-
+          Point estimates are model-dependent and the top methods reshuffle
+          across scenarios — but the structural findings (plurality far below
+          the reform cluster; cardinal methods with the gentlest worst cases)
+          replicate across independent researchers, models, and decades
+      - id: d
+        text: >-
+          The simulations must be accurate because they were peer reviewed
+    correct_choice_id: c
+    explanation: >-
+      The honest epistemic position treats a single VSE decimal as
+      decoration and the cross-model structure as the signal. Warren Smith's
+      2000 Bayesian-regret simulations and Quinn's 2017 VSE work used
+      different code, different voter models, and different decades — and
+      converged on the same shape. Meanwhile real elections supply
+      qualitative validation of the simulations' specific predictions, such
+      as IRV's center squeeze appearing in Burlington 2009 and Alaska 2022.
+      Choices (a) and (d) overclaim certainty; choice (b) discards the only
+      tool that can compare methods on identical electorates.
+    concepts: [score-voting]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      A city councilmember tells you: "Don't show me robot elections. Give me
+      one honest reason to believe these simulations say anything about my
+      city." Respond in three to five sentences — including at least one thing
+      the simulations genuinely cannot tell her.
+    socratic_seed: >-
+      Strong answers concede before they claim. The concession: simulations
+      cannot promise her city's voters behave like modeled ones, and no
+      single VSE decimal should be quoted as a forecast — the voter model is
+      an assumption, and the magnitudes move when it does. The claim:
+      simulations answer the one question her city's history never can —
+      rerunning the same voters under different rules with satisfaction
+      observable — and their robust findings replicated across two
+      independent researchers seventeen years apart. The bridge to her
+      world: the simulations' marquee prediction about elimination counting
+      (the center squeeze) has now happened in documented public elections —
+      Burlington 2009 and Alaska 2022 — and the cardinal methods' structural
+      properties (no eliminations, no exhausted ballots, precinct-summable
+      addition) hold by arithmetic, not by model. The best answers also note
+      what to pair with the simulations for a complete case: the real usage
+      data from Fargo and St. Louis, where actual voters handled the wider
+      ballot without difficulty.
+    concepts: [score-voting]

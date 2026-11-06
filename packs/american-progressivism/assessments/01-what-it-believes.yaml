@@ -35,18 +35,18 @@ questions:
 
   - id: q3
     kind: multiple-choice
-    text: "What is the strongest version of the New Deal liberal critique of identity-justice progressivism?"
+    text: "A county board votes to keep its 150-year-old at-large election system. One member argues: 'It has lasted a century and a half — that is evidence it embodies accumulated wisdom.' Which response best captures the progressive position developed in this lesson?"
     choices:
       - id: a
-        text: "Identity-justice goals are wrong."
+        text: "Any institution older than a century is presumptively unjust and should be replaced."
       - id: b
-        text: "Identity-justice framing fragments the political coalition that economic-justice progressivism requires, while universal economic programs deliver disproportionate benefits to historically excluded groups anyway."
+        text: "Longevity is evidence of survival, not of wisdom — an arrangement can persist because it serves entrenched power, so it earns scrutiny on its merits rather than the benefit of the doubt."
       - id: c
-        text: "Identity politics is unconstitutional."
+        text: "The decision should be transferred from the elected board to administrative experts, who are better placed to judge electoral systems."
       - id: d
-        text: "Identity-justice progressives don't care about the working class."
+        text: "Inherited institutions deserve deference, but only those that predate the Constitution."
     correct_choice_id: b
-    explanation: "The strongest New Deal liberal critique is strategic and substantive: that universal programs (Social Security, Medicare, public education) are politically more durable than targeted ones, and that universal programs deliver disproportionate benefits to historically excluded groups precisely because those groups are over-represented in working-class positions. This is not 'identity goals are wrong' but 'there's a more effective way to achieve them.' Adolph Reed Jr.'s essays make this case at length."
+    explanation: "This is the lesson's temperamental break with the Burkean presumption-of-continuity: inherited arrangements may be defensible on their merits, but they don't get the benefit of the doubt that comes from longevity, because persistence can reflect accumulated power rather than accumulated wisdom — at-large systems, in fact, were sometimes retained precisely because they diluted minority voting strength. Choice (a) overstates the claim: progressives say 'presumptively suspect, judge on the merits,' not 'presumptively unjust.' Choice (c) confuses the separate expertise commitment with the argument about tradition; (d) is no tradition's position."
     concepts: [progressivism]
 
   - id: q4
@@ -67,6 +67,6 @@ questions:
 
   - id: q5
     kind: free-response
-    text: "American progressivism and American national conservatism share more substantive policy commitments than partisan rhetoric suggests. State the strongest version of the overlap, and identify where the genuine disagreement remains."
-    socratic_seed: "Overlap: both center the working class, both worry about concentrated private power (corporations, finance, Big Tech), both support family-supporting policies (CTC expansion, parental leave), both favor industrial policy and supply-chain reshoring, both are skeptical of post-1990s free-trade orthodoxy. Genuine disagreement: progressives generally support immigration as economic and demographic stabilizer; national conservatives generally favor restriction on cultural-cohesion grounds. Progressives generally support inclusive cultural agendas; national conservatives generally support traditional cultural agendas. The economic substance overlaps; the cultural substance does not."
-    concepts: [progressivism, national-conservatism]
+    text: "This lesson names trust in expert judgment and the widening of democratic inclusion as two core progressive commitments. Describe a concrete situation where the two commitments pull against each other, and explain how a progressive could honor both without abandoning either."
+    socratic_seed: "Candidate situations: public-health mandates (expert agencies overriding contested public preferences), central-bank independence, environmental permitting (agency science vs. community input), curriculum standards. The tension: expertise concentrates authority in unelected institutions, while inclusion promises every citizen an equal political voice. Resolution moves available within the tradition: Dewey's answer — expertise informs but an educated, deliberating public decides; procedural designs (notice-and-comment, citizen assemblies, agency accountability to elected branches); distinguishing technical questions about means from value questions about ends. Strong answers notice that this same tension is what populist critics of progressivism exploit, and say what evidence would show a given delegation to experts had gone too far."
+    concepts: [progressivism]

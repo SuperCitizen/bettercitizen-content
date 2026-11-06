@@ -1,0 +1,16 @@
+schema: bettercitizen.content/v1
+slug: voting-rights
+title: Voting Rights in America
+summary: Who gets to vote in America has never been settled once — it has been fought over continuously for 250 years, expanding by amendment and statute, contracting by state law and administrative device, and expanding again. This pack traces the franchise from property qualifications through the 15th, 19th, 24th, and 26th Amendments; takes apart the Voting Rights Act of 1965 and what remains of it after Shelby County, Brnovich, and Milligan; and steel-mans the live fights over registration, list maintenance, felony disenfranchisement, and proof of citizenship. The mechanics and the case law are verifiable; what counts as a burden on the vote, and who should bear the cost of error, is where the argument still lives.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 1.0.0
+tags: [voting, civil-rights, elections, civics-201]
+level: intermediate
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-the-long-expansion.mdx
+  - 02-the-voting-rights-act.mdx
+  - 03-the-live-debates.mdx

@@ -1,0 +1,164 @@
+schema: bettercitizen.assessment/v1
+lesson: the-reform-landscape
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: Under fusion voting, what actually happens on the ballot?
+    choices:
+      - id: a
+        text: >-
+          Voters rank candidates, and the lowest-ranked candidates are
+          eliminated round by round.
+      - id: b
+        text: >-
+          Two or more parties nominate the same candidate, the candidate
+          appears on each party's line, and the votes from all lines are added
+          together.
+      - id: c
+        text: >-
+          The top two finishers in an all-candidate primary advance to a
+          runoff regardless of party.
+      - id: d
+        text: >-
+          Minor parties are merged into the major party closest to them after
+          the election.
+    correct_choice_id: b
+    explanation: >-
+      Fusion is cross-nomination with aggregation: the same candidate, multiple
+      party lines, one combined total — so a minor party can deliver countable
+      support to a major-party candidate instead of splitting the vote.
+      Choice (a) is ranked-choice voting and (c) is the top-two primary —
+      different reforms that solve the spoiler problem by different
+      mechanisms. Nothing in fusion merges parties (d); its point is that the
+      minor party stays distinct and bargains with its line.
+    concepts: [plurality]
+
+  - id: q2
+    kind: multiple-choice
+    text: >-
+      What did the Supreme Court hold in Timmons v. Twin Cities Area New Party
+      (1997)?
+    choices:
+      - id: a
+        text: >-
+          Fusion voting violates the First Amendment, so New York and
+          Connecticut must end it.
+      - id: b
+        text: >-
+          States must allow fusion, because a ban burdens minor parties'
+          associational rights.
+      - id: c
+        text: >-
+          States MAY ban fusion — election rules that in practice favor the
+          traditional two-party system are constitutionally permissible.
+      - id: d
+        text: >-
+          Fusion is a federal question on which states may not legislate.
+    correct_choice_id: c
+    explanation: >-
+      Timmons (6–3) upheld Minnesota's ban: states may enact reasonable
+      election regulations "that may, in practice, favor the traditional
+      two-party system" in the name of political stability. The ruling
+      permitted bans without requiring them — fusion remains fully legal where
+      never banned (New York, Connecticut), and the current revival litigation
+      proceeds under STATE constitutions precisely because Timmons closed the
+      federal route. New Jersey's courts declined to reopen it in 2025;
+      Wisconsin's case is pending.
+    concepts: [partisan]
+
+  - id: q3
+    kind: multiple-choice
+    text: >-
+      The Fair Representation Act (H.R. 4632) would move the U.S. House to
+      multi-member districts elected by ranked-choice voting. What would its
+      enactment require?
+    choices:
+      - id: a
+        text: >-
+          A constitutional amendment, since single-member districts are
+          mandated by Article I.
+      - id: b
+        text: >-
+          An ordinary federal statute — Congress regulates the manner of
+          congressional elections under the Elections Clause, the same power
+          used to mandate single-member districts in 1967.
+      - id: c
+        text: >-
+          Unanimous agreement of the fifty state legislatures.
+      - id: d
+        text: >-
+          A Supreme Court ruling overturning Duverger's law.
+    correct_choice_id: b
+    explanation: >-
+      Single-member districts are statutory, not constitutional — required by
+      the Uniform Congressional District Act of 1967 (2 U.S.C. §2c), which a
+      later Congress could repeal or replace by ordinary legislation. That is
+      what makes proportional representation for the House the rare structural
+      reform with no amendment hurdle; its obstacle is political, not
+      constitutional. (Duverger's law is a social-science regularity, not a
+      legal rule — courts have nothing to overturn.)
+    concepts: [ranked-choice-voting, gerrymandering]
+
+  - id: q4
+    kind: multiple-choice
+    text: >-
+      A state repeals its strict limits on party contributions to candidates.
+      Based on La Raja and Schaffner's research in When Purists Prevail, what
+      should you predict — and what is the honest cost to watch for?
+    choices:
+      - id: a
+        text: >-
+          Prediction: legislative polarization falls as pragmatic party money
+          backs electable candidates. Cost: parties can become conduits for
+          donors circumventing candidate contribution limits.
+      - id: b
+        text: >-
+          Prediction: total campaign spending falls sharply. Cost: incumbents
+          lose their fundraising advantage.
+      - id: c
+        text: >-
+          Prediction: super PACs are banned from the state. Cost: less money
+          for state parties.
+      - id: d
+        text: >-
+          Prediction: turnout rises in primaries. Cost: minor parties qualify
+          for the ballot more easily.
+    correct_choice_id: a
+    explanation: >-
+      The comparative state evidence in When Purists Prevail found
+      party-restricting states had MORE polarized legislatures — parties fund
+      electable pragmatists, while the purist donors and outside groups that
+      fill any vacuum fund ideologues. Repeal should shift routing and exert a
+      moderating pull. The cost is the anti-circumvention worry that carried
+      FEC v. Colorado Republican (2001): maxed-out donors giving "through" the
+      party. The same two predictions, scaled federal, are what NRSC v. FEC
+      will test.
+    concepts: [campaign-finance, super-pac]
+
+  - id: q5
+    kind: free-response
+    text: >-
+      Suppose you accept the weak-parties / strong-partisanship diagnosis from
+      Lesson 2. Which two reforms from this lesson best fit that diagnosis,
+      which prominent reform actively conflicts with it, and what trade-off
+      does each of your choices accept?
+    socratic_seed: >-
+      The diagnosis says organizations are hollow while identity-partisanship
+      rages, so the fitting reforms are ones that rebuild accountable
+      organizational capacity or channel partisan energy into structures that
+      face voters. Strong candidates: party-finance deregulation (re-routes
+      money from unaccountable outside groups back through committees that
+      file disclosures and want majorities — trade-off: parties as
+      circumvention conduits for big donors), and fusion voting (builds real,
+      countable minor parties that organize identity into bargaining
+      coalitions without spoilers — trade-off: modest ceiling, as New York's
+      century of fusion produced pressure groups rather than a multiparty
+      system, and the litigation path runs through skeptical state courts).
+      Proportional representation also fits if the student argues sorted
+      binary identity needs more than two homes. The conflicting reform:
+      further opening primaries or nonpartisan ballots, which weakens the
+      already-hollow organization while leaving negative partisanship
+      untouched — the diagnosticians' core objection to the anti-party
+      program. Reward answers that name a falsifying observation, e.g.,
+      post-NRSC spending data showing no moderation.
+    concepts: [campaign-finance, ranked-choice-voting]

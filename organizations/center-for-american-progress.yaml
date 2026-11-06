@@ -1,0 +1,17 @@
+slug: center-for-american-progress
+name: Center for American Progress
+kind: think-tank
+description: "Progressive think tank in Washington, D.C., founded in 2003 by John Podesta as an explicit counterweight to conservative policy institutions. Functions as a policy arm and talent bench for Democratic administrations, with a 501(c)(4) affiliate (CAP Action) for direct advocacy."
+website: https://www.americanprogress.org
+jurisdiction: national
+partisan_lean: left
+ideology_tags:
+  - american-progressivism
+influence_channels:
+  - policy-research
+  - legislative-testimony
+  - training-staffers
+  - public-education
+concept_tags:
+  - think-tank
+is_active: true

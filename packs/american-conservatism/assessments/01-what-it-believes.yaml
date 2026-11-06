@@ -50,7 +50,23 @@ questions:
     concepts: [conservatism, national-conservatism]
 
   - id: q4
+    kind: multiple-choice
+    text: "A city's church-run shelter network, built up over decades, is failing financially. One councilmember proposes replacing it with a single city-run homelessness agency; another proposes routing public grants through the existing church network. Drawing on the core commitments in the lesson, which proposal is more conservative in design — and why?"
+    choices:
+      - id: a
+        text: "The city-run agency: conservatives prefer consolidated, efficient administration."
+      - id: b
+        text: "The grants through the church network: the state's role is to support civil-society institutions, not displace them — even when that means spending public money."
+      - id: c
+        text: "Neither: conservatism opposes any public spending on social services."
+      - id: d
+        text: "Both equally: what matters to conservatives is the total amount spent, not the channel it flows through."
+    correct_choice_id: b
+    explanation: "The family-and-civil-society commitment makes the design, not the spending, the test: government action that reinforces the institutions doing the work (money routed through the church network, decisions kept local) is conservative in design; action that absorbs their functions into the state is not, however well-intentioned. Option (c) is the classic confusion the lesson flags — reflexive opposition to all programs describes a libertarian instinct, not conservatism's support-versus-displace test — and (a) and (d) miss that the channel is precisely what is at stake."
+    concepts: [conservatism]
+
+  - id: q5
     kind: free-response
-    text: "Both American conservatives and progressive communitarians share critiques of pure individualism. State the substantive overlap, and identify where they nonetheless disagree."
-    socratic_seed: "Overlap: both tradition (Deneen, Reno) and communitarianism (Sandel, Etzioni) argue that pure individualism dissolves the institutions that give life meaning, that civic and religious institutions matter for human flourishing, and that public policy should support family, neighborhood, and voluntary association. Disagreement: communitarians generally support inclusive multicultural civic frameworks; traditionalists are more committed to particular cultural inheritances (religious, ethnic, regional) and skeptical of multicultural reforms that they see as displacing them. The disagreement is about which inheritances should be preserved and how change should occur."
-    concepts: [conservatism, communitarianism]
+    text: "In 1950 Lionel Trilling dismissed American conservative impulses as 'irritable mental gestures which seek to resemble ideas.' Using the history this lesson covers, evaluate his claim: what would you cite as the strongest evidence that the post-war movement refuted him — and what part of the fusionist synthesis suggests he was partly right that it lacked a single coherent philosophy?"
+    socratic_seed: "Evidence against Trilling: within a generation of his remark the movement produced a serious intellectual canon (Kirk's The Conservative Mind, Hayek's Road to Serfdom, Strauss's Natural Right and History, Chambers's Witness), an institutional engine (National Review, 1955), and electoral victories (Goldwater's capture of the 1964 nomination, Reagan in 1980). Evidence he was partly right: the synthesis was a coalition, not a philosophy — Meyer's fusionism papered over real tensions (Hayek himself wrote 'Why I Am Not a Conservative'; Bozell attacked the synthesis from inside), and anti-communism supplied the practical glue. When the Soviet Union dissolved, the philosophical incoherence resurfaced — which is why the post-2016 fracture is evidence on both sides of the Trilling question. Push the learner: is a durable coalition of ideas different in kind from a single intellectual tradition, and does the difference matter?"
+    concepts: [conservatism]
