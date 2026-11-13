@@ -25,6 +25,9 @@ should build next.
   episodes and the 2026 *Gerrymandering* episode were read in full. The
   2026 *Voter Fraud* episode was read in part. The other four were fetched
   but not read closely, so nothing below draws on them.
+- For the `congress` pilot, the 2015 *Bicameral Congress* (#2) and
+  *Constitutional Compromises* (#5) were read in caption transcripts
+  (nerdfighteria.info, cross-checked against rosetta.to for #2).
 
 ## The relevant series
 
@@ -88,6 +91,11 @@ of Congress are "old, rich, and white."
   held they had expired, so contiguity is now a matter of state law.
 - It lists Montana among the one-seat states. Montana gained a second seat
   after the 2020 census.
+- The 2015 *Bicameral Congress* episode says the Constitution has 28
+  amendments; it has had 27 since 1992. Its list of one-seat states
+  (Vermont, the Dakotas, Wyoming, Alaska) left out Delaware and Montana,
+  both single-seat states in 2015. After 2020 the list is six: Alaska,
+  Delaware, North Dakota, South Dakota, Vermont, Wyoming.
 - The 2015 *Judicial Review* episode's account of courts deferring to agency
   readings of statutes is out of date: *Loper Bright* (2024) overruled
   *Chevron*. Our *Administrative State* pack covers this.
