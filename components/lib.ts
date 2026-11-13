@@ -74,8 +74,45 @@ export const primaryButtonStyle: CSSProperties = {
   ...buttonStyle,
   background: tokens.accent,
   borderColor: tokens.accent,
-  color: '#ffffff',
+  color: tokens.card,
 };
+
+/**
+ * Text set on a token fill (a selected chip, a primary button). The surface
+ * color is white in the light palette and near-black in the dark one, where the
+ * tokens turn pale, so it keeps its contrast in both. Never hard-code #ffffff.
+ */
+export const onFill = tokens.card;
+
+/** Resets a list's bullets and indent, so a component can use real list markup. */
+export const listReset: CSSProperties = { listStyle: 'none', margin: 0, padding: 0 };
+
+/** Present for screen readers, absent on screen. */
+export const visuallyHidden: CSSProperties = {
+  position: 'absolute',
+  width: 1,
+  height: 1,
+  margin: -1,
+  padding: 0,
+  overflow: 'hidden',
+  clip: 'rect(0 0 0 0)',
+  whiteSpace: 'nowrap',
+  border: 0,
+};
+
+/** A faint fill for bar tracks and plot areas that reads on both palettes. */
+export const trackFill = 'rgba(127, 120, 105, 0.14)';
+
+/**
+ * Flex-basis for a child of a wrapping flex row that should sit beside its
+ * siblings only when all of them fit: below `thresholdEm` of container width
+ * the basis is enormous, so every child takes its own row; above it the basis
+ * is negative (clamped to 0), so all share one row. Measured in em, so larger
+ * text stacks sooner. Needs no stylesheet and no script.
+ */
+export function allOrNothingBasis(thresholdEm: number): string {
+  return `calc((${thresholdEm}em - 100%) * 999)`;
+}
 
 /**
  * Deterministic shuffle (mulberry32). Components must not reorder teaching

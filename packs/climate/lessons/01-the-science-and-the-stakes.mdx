@@ -71,34 +71,33 @@ duration_min: 16
 
 In March 1958, on a bare lava field 11,000 feet up the slope of Mauna Loa volcano in Hawaii, a 29-year-old geochemist named Charles David Keeling switched on a new infrared gas analyzer. He had picked the site precisely because nothing was there: no cities, no forests, no smokestacks — just clean mid-Pacific air. The first reading came back at 313 parts per million of carbon dioxide. Within two years the instrument had revealed two things nobody had ever directly observed. First, the atmosphere *breathes*: CO2 falls every Northern Hemisphere summer as the world's forests leaf out and draw carbon in, then rises every winter as decay returns it — a sawtooth of about 6 ppm, repeating annually. Second, underneath that breathing, the baseline was climbing. It has climbed every single year since. The annual average at Mauna Loa was 427 ppm in 2025; the May 2026 seasonal peak touched 432 ppm. The Keeling Curve, as the graph came to be called, is arguably the most consequential data series in modern science — and the cleanest place to start, because climate-policy debate routinely confuses two different questions: *is the warming real and human-caused?* (settled science) and *what should be done about it?* (genuinely contested policy). This lesson separates them.
 
-<Figure caption="A stylized rendering of the Mauna Loa CO2 record (annual means; sawtooth smoothed except in the inset). The 2025 annual mean of 427.35 ppm is more than 50 percent above the pre-industrial level of about 280 ppm, and recent years have added 2.5 to 3.5 ppm per year — the fastest sustained rate in the record." source="Schematic trend — for the measured monthly series, see NOAA Global Monitoring Laboratory.">
-  <svg viewBox="0 0 720 368" width="100%" role="img" aria-label="Stylized Keeling Curve showing atmospheric CO2 rising from 313 ppm in 1958 to a 427 ppm annual mean in 2025, with an inset showing the annual sawtooth seasonal cycle" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-    <text x="60" y="24" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">The Keeling Curve, 1958–2025 (schematic)</text>
-    <line x1="60" y1="61" x2="680" y2="61" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <line x1="60" y1="123" x2="680" y2="123" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <line x1="60" y1="206" x2="680" y2="206" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <line x1="60" y1="289" x2="680" y2="289" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <line x1="60" y1="330" x2="680" y2="330" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-    <text x="54" y="65" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">430</text>
-    <text x="54" y="127" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">400</text>
-    <text x="54" y="210" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">360</text>
-    <text x="54" y="293" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">320</text>
-    <text x="30" y="46" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">ppm</text>
-    <path d="M60,303 Q115,290 169,278 Q215,265 261,251 Q306,235 352,218 Q397,203 443,187 Q488,166 534,144 Q579,120 625,94 Q648,80 671,67" fill="none" stroke="var(--accent, #8a2a1e)" strokeWidth="3" />
-    <circle cx="60" cy="303" r="4" fill="var(--accent, #8a2a1e)" />
-    <circle cx="671" cy="67" r="4" fill="var(--accent, #8a2a1e)" />
-    <text x="72" y="320" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Mar 1958: 313 ppm</text>
-    <text x="660" y="50" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="end">2025 annual mean: 427 ppm</text>
-    <rect x="80" y="75" width="250" height="120" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <path d="M109,100 L133,88 L157,105 L181,93 L205,110 L229,98 L253,115 L277,103 L301,120" fill="none" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
-    <text x="205" y="158" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">zoomed in: the seasonal "breath,"</text>
-    <text x="205" y="172" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">about 6 ppm down-and-up each year</text>
-    <line x1="330" y1="135" x2="393" y2="200" stroke="var(--muted, #6b6457)" strokeWidth="1.5" strokeDasharray="4,3" />
-    <text x="60" y="350" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">1958</text>
-    <text x="261" y="350" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">1980</text>
-    <text x="443" y="350" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2000</text>
-    <text x="671" y="350" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2025</text>
-  </svg>
+<Figure caption="The Mauna Loa CO2 record as annual means, which average out the seasonal sawtooth of about 6 ppm. The 2025 annual mean of 427.35 ppm is more than 50 percent above the pre-industrial level of about 280 ppm, and recent years have added 2.5 to 3.5 ppm per year — the fastest sustained rate in the record." source="NOAA Global Monitoring Laboratory, Mauna Loa annual mean CO2 (data file of October 9, 2026).">
+<Chart
+  title="The Keeling Curve: CO2 at Mauna Loa, annual means, 1959–2025"
+  unit="ppm"
+  yMin={270}
+  yMax={440}
+  yTicks={[280, 320, 360, 400, 440]}
+  xMin={1957}
+  xMax={2026}
+  xTicks={[1960, 1980, 2000, 2020]}
+  rules={[{y: 280, label: 'Pre-industrial: about 280 ppm'}]}
+  marks={[
+    {x: 1959, y: 315.98, label: '1959: 316 ppm'},
+    {x: 2025, y: 427.35, label: '2025: 427 ppm', place: 'left'},
+  ]}
+  series={[{label: 'Annual mean CO2', points: [
+    [1959, 315.98], [1960, 316.91], [1961, 317.64], [1962, 318.45], [1963, 318.99], [1964, 319.62], [1965, 320.04], [1966, 321.37],
+    [1967, 322.18], [1968, 323.05], [1969, 324.62], [1970, 325.68], [1971, 326.32], [1972, 327.46], [1973, 329.68], [1974, 330.19],
+    [1975, 331.13], [1976, 332.03], [1977, 333.84], [1978, 335.41], [1979, 336.84], [1980, 338.76], [1981, 340.12], [1982, 341.48],
+    [1983, 343.15], [1984, 344.87], [1985, 346.35], [1986, 347.61], [1987, 349.31], [1988, 351.69], [1989, 353.2], [1990, 354.45],
+    [1991, 355.7], [1992, 356.54], [1993, 357.21], [1994, 358.96], [1995, 360.97], [1996, 362.74], [1997, 363.88], [1998, 366.84],
+    [1999, 368.54], [2000, 369.71], [2001, 371.32], [2002, 373.45], [2003, 375.98], [2004, 377.7], [2005, 379.98], [2006, 382.09],
+    [2007, 384.02], [2008, 385.83], [2009, 387.64], [2010, 390.1], [2011, 391.85], [2012, 394.06], [2013, 396.74], [2014, 398.81],
+    [2015, 401.01], [2016, 404.41], [2017, 406.76], [2018, 408.72], [2019, 411.65], [2020, 414.21], [2021, 416.41], [2022, 418.53],
+    [2023, 421.08], [2024, 424.61], [2025, 427.35],
+  ]}]}
+/>
 </Figure>
 
 ## What the science actually establishes

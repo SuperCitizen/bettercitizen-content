@@ -50,46 +50,14 @@ In November 2000, the presidency of the United States came down to 537 votes —
 The fix this book argues for is almost embarrassingly small. Same candidates, same booths, same Tuesday in November. One change: instead of picking one candidate, you rank them — first choice, second choice, third, as far down as you care to go. If your favorite can't win, your ballot counts for your next choice instead of going in the trash. That's [[term:ranked-choice-voting]], and the version used for single offices — the [[term:instant-runoff]] — does with one trip to the polls what a runoff election does with two.
 
 <Figure caption="The entire reform, in one picture. The candidates, the booth, and the Tuesday stay the same; the only thing that changes is how much of your mind the ballot is allowed to record.">
-  <svg viewBox="0 0 720 320" width="100%" role="img" aria-label="Two ballots side by side. The left ballot, labeled the old way, lets the voter mark one candidate of four. The right ballot, labeled the ranked ballot, lets the voter mark a first, second, and third choice among the same four candidates.">
-    <rect x="20" y="20" width="320" height="280" rx="10" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" />
-    <rect x="380" y="20" width="320" height="280" rx="10" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" />
-    <text x="180" y="55" textAnchor="middle" fontFamily="Georgia, serif" fontSize="17" fontWeight="bold" fill="var(--ink, #14130f)">The old way: pick one</text>
-    <text x="540" y="55" textAnchor="middle" fontFamily="Georgia, serif" fontSize="17" fontWeight="bold" fill="var(--ink, #14130f)">The ranked ballot</text>
-    <g fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)">
-      <rect x="50" y="85" width="20" height="20" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <text x="85" y="101">Avila</text>
-      <rect x="50" y="135" width="20" height="20" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <text x="60" y="151" fontSize="16" fontWeight="bold" fill="var(--accent, #8a2a1e)">X</text>
-      <text x="85" y="151">Brooks</text>
-      <rect x="50" y="185" width="20" height="20" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <text x="85" y="201">Chen</text>
-      <rect x="50" y="235" width="20" height="20" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <text x="85" y="251">Dimas</text>
-    </g>
-    <text x="180" y="285" textAnchor="middle" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Everything else you think: discarded</text>
-    <g fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)">
-      <text x="432" y="80" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">1st</text>
-      <text x="464" y="80" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2nd</text>
-      <text x="496" y="80" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">3rd</text>
-      <circle cx="432" cy="101" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <circle cx="464" cy="101" r="9" fill="var(--blue, #2f4d6e)" />
-      <circle cx="496" cy="101" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <text x="520" y="107">Avila</text>
-      <circle cx="432" cy="146" r="9" fill="var(--accent, #8a2a1e)" />
-      <circle cx="464" cy="146" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <circle cx="496" cy="146" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <text x="520" y="152">Brooks</text>
-      <circle cx="432" cy="191" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <circle cx="464" cy="191" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <circle cx="496" cy="191" r="9" fill="var(--gold, #b08a3e)" />
-      <text x="520" y="197">Chen</text>
-      <circle cx="432" cy="236" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <circle cx="464" cy="236" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <circle cx="496" cy="236" r="9" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-      <text x="520" y="242">Dimas</text>
-    </g>
-    <text x="540" y="285" textAnchor="middle" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Rank as many or as few as you want</text>
-  </svg>
+<Ballot
+  candidates={['Avila', 'Brooks', 'Chen', 'Dimas']}
+  methods={['pick', 'rank']}
+  pick="Brooks"
+  rank={['Brooks', 'Avila', 'Chen']}
+  headings={{pick: 'The old way: pick one', rank: 'The ranked ballot'}}
+  notes={{pick: 'Everything else you think: discarded.', rank: 'Rank as many or as few as you want.'}}
+/>
 </Figure>
 
 Ranked choice voting fixes the pick-one pathology. Not with revolution, not with a constitutional amendment, not with some untested theory cooked up in a think tank. It fixes it with arithmetic, with common sense, and with a track record now running from Canberra to Cambridge, Massachusetts, from Maine's mill towns to every village in Alaska.

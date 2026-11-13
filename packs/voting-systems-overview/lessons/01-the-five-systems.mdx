@@ -113,33 +113,27 @@ Here is the cleanest way to see that the counting rule is doing real work. Imagi
 Count these one stack of ballots three ways and you elect three different people:
 
 <Figure caption="The same 100 ballots produce Avery under plurality, Brooks under a top-two runoff, and Cruz under instant runoff. No one miscounted; the rules simply weigh different parts of the ballot.">
-<svg viewBox="0 0 720 440" width="100%" role="img" aria-label="The same 100 ballots counted three ways: plurality elects Avery with 35 votes; a top-two runoff elects Brooks 65 to 35; an instant runoff elects Cruz 65 to 35" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">One election, three counting rules, three winners</text>
 
-  <text x="20" y="58" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Plurality — count first choices only</text>
-  <rect x="20" y="68" width="210" height="20" fill="var(--accent, #8a2a1e)" />
-  <text x="238" y="83" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Avery 35 — wins</text>
-  <rect x="20" y="92" width="150" height="20" fill="var(--line, #d9d5c9)" />
-  <text x="178" y="107" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Brooks 25</text>
-  <rect x="20" y="116" width="96" height="20" fill="var(--line, #d9d5c9)" />
-  <text x="124" y="131" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Cruz 16 · Diaz 13 · Ellis 11</text>
+<DataBars title="One election, three counting rules, three winners" unit="votes" max={100} groups={[
+  {label: 'Plurality: count first choices only', bars: [
+    {label: 'Avery — wins', value: 35, color: 'accent'},
+    {label: 'Brooks', value: 25, color: 'ink'},
+    {label: 'Cruz', value: 16, color: 'ink'},
+    {label: 'Diaz', value: 13, color: 'ink'},
+    {label: 'Ellis', value: 11, color: 'ink'},
+  ]},
+  {label: 'Top-two runoff: Avery vs. Brooks in a second election', note: 'Cruz, Diaz, and Ellis voters all prefer Brooks to Avery, so they break 65–35 for Brooks.', bars: [
+    {label: 'Brooks — wins', value: 65, color: 'blue'},
+    {label: 'Avery', value: 35, color: 'ink'},
+  ]},
+  {label: 'Instant runoff: eliminate last place, transfer, repeat', note: 'Ellis out first (Cruz 27), then Diaz (Cruz 40), then Brooks — whose voters transfer to Cruz.', bars: [
+    {label: 'Cruz — wins', value: 65, color: 'green'},
+    {label: 'Avery', value: 35, color: 'ink'},
+  ]},
+]} />
 
-  <text x="20" y="178" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Top-two runoff — Avery vs. Brooks in a second election</text>
-  <rect x="20" y="188" width="390" height="20" fill="var(--blue, #2f4d6e)" />
-  <text x="418" y="203" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Brooks 65 — wins</text>
-  <rect x="20" y="212" width="210" height="20" fill="var(--line, #d9d5c9)" />
-  <text x="238" y="227" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Avery 35</text>
-  <text x="20" y="252" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">Cruz, Diaz, and Ellis voters all prefer Brooks to Avery, so they break 65–35 for Brooks.</text>
+And a fourth rule would crown a fourth result: Brooks beats every rival head-to-head (a "Condorcet winner") yet loses under instant runoff — exactly what happened to Montroll in Burlington in 2009.
 
-  <text x="20" y="298" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">Instant runoff — eliminate last place, transfer, repeat</text>
-  <rect x="20" y="308" width="390" height="20" fill="var(--green, #4a6b3a)" />
-  <text x="418" y="323" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Cruz 65 — wins</text>
-  <rect x="20" y="332" width="210" height="20" fill="var(--line, #d9d5c9)" />
-  <text x="238" y="347" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Avery 35</text>
-  <text x="20" y="372" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">Ellis out first (Cruz 27), then Diaz (Cruz 40), then Brooks — whose voters transfer to Cruz.</text>
-  <text x="20" y="404" fontFamily="Georgia, serif" fontSize="12" fontStyle="italic" fill="var(--muted, #6b6457)">And a fourth rule would crown a fourth result: Brooks beats every rival head-to-head (a "Condorcet</text>
-  <text x="20" y="420" fontFamily="Georgia, serif" fontSize="12" fontStyle="italic" fill="var(--muted, #6b6457)">winner") yet loses under instant runoff — exactly what happened to Montroll in Burlington in 2009.</text>
-</svg>
 </Figure>
 
 Walk the instant runoff yourself to see the gears turn. First count: Avery 35, Brooks 25, Cruz 16, Diaz 13, Ellis 11 — no majority. Ellis is eliminated; those 11 ballots transfer to Cruz (27). Diaz goes next; 13 more to Cruz (40). Now Brooks, at 25, is last among the three remaining and is eliminated — and Brooks's voters listed Cruz next, so Cruz beats Avery 65 to 35. The runoff and the instant runoff disagree because they choose *different finalists*: the runoff locks in the top two first choices (Avery, Brooks), while IRV's transfers let Cruz overtake Brooks before the final round.

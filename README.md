@@ -24,6 +24,7 @@ public — that is the whole point.
 | `scripts/` | Dev-only structural checks (MDX compile, catalog whitelist, render smoke test). Content authors never need these. | Node |
 | `touchstones/` | Touchstones — short memorable lines in four kinds (`saying`/`quote`/`fact`/`number`), the corpus behind the app's recall training. Authoring standard: [TOUCHSTONES.md](TOUCHSTONES.md). | YAML, one file per item |
 | `meta/` | Repo-level data read by the validator *and* the authoring prompts (e.g. `banned-sources.yaml`). | YAML |
+| `docs/` | Decisions about the lesson format (`docs/adr/`), and what they ask of the engine and the apps that render lessons (`docs/core-requests.md`, `docs/renderer-requests.md`). | Markdown |
 
 > Federal and state officeholders (tier 1/2) are **not** authored here — the app
 > imports those from GovTrack and Open States. This repo is editorial content

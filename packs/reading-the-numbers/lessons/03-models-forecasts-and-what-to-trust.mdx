@@ -99,38 +99,21 @@ The 2016 spread shows what modeling adds on top of the polls. All three operatio
 The test was invented where forecasting grew up: the weather service. Glenn Brier's 1950 paper in *Monthly Weather Review* proposed scoring a probability forecast by its squared miss — say 0.9 and the event happens, you're charged (1 − 0.9)²; it doesn't happen, (0 − 0.9)². The **Brier score** averages that charge over every forecast you ever issued (0 is prophecy; 0.25 is the coward's score for always saying 50 percent; lower is better). Buried in it is the property a citizen can check by eye: **calibration**. Take every event you called "70 percent." If about 70 percent of them happened, you are calibrated — your numbers mean what they say. If 95 percent happened, you were underconfident; if 45 percent, you were selling certainty you didn't have.
 
 <Figure caption="The calibration test, drawn. Each dot: 'of all events this forecaster called X percent likely, what share happened?' A calibrated forecaster hugs the diagonal. The labeled point is real: FiveThirtyEight's 2019 self-audit of its sports and politics forecasts found events it had called at about 70 percent occurred 71 percent of the time across 5,589 of them. The other dots are illustrative." source="FiveThirtyEight, 'When We Say 70 Percent, It Really Means 70 Percent' (2019)">
-  <svg viewBox="0 0 720 400" width="100%" role="img" aria-label="A calibration plot. Horizontal axis: stated forecast probability from 0 to 100 percent. Vertical axis: share of those events that actually happened. A diagonal line marks perfect calibration, with dots lying near it, including a highlighted point at 70 percent stated and 71 percent observed." style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-    <text x="90" y="24" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">Share that actually happened (%)</text>
-    <line x1="90" y1="40" x2="90" y2="340" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
-    <line x1="90" y1="340" x2="650" y2="340" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
-    <line x1="84" y1="265" x2="90" y2="265" stroke="var(--ink, #14130f)" strokeWidth="1"/>
-    <line x1="84" y1="190" x2="90" y2="190" stroke="var(--ink, #14130f)" strokeWidth="1"/>
-    <line x1="84" y1="115" x2="90" y2="115" stroke="var(--ink, #14130f)" strokeWidth="1"/>
-    <line x1="84" y1="40" x2="90" y2="40" stroke="var(--ink, #14130f)" strokeWidth="1"/>
-    <text x="78" y="344" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">0</text>
-    <text x="78" y="269" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">25</text>
-    <text x="78" y="194" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">50</text>
-    <text x="78" y="119" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">75</text>
-    <text x="78" y="44" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">100</text>
-    <line x1="230" y1="340" x2="230" y2="346" stroke="var(--ink, #14130f)" strokeWidth="1"/>
-    <line x1="370" y1="340" x2="370" y2="346" stroke="var(--ink, #14130f)" strokeWidth="1"/>
-    <line x1="510" y1="340" x2="510" y2="346" stroke="var(--ink, #14130f)" strokeWidth="1"/>
-    <line x1="650" y1="340" x2="650" y2="346" stroke="var(--ink, #14130f)" strokeWidth="1"/>
-    <text x="90" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">0</text>
-    <text x="230" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">25</text>
-    <text x="370" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">50</text>
-    <text x="510" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">75</text>
-    <text x="650" y="362" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">100</text>
-    <text x="370" y="392" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle">Stated forecast probability (%)</text>
-    <line x1="90" y1="340" x2="650" y2="40" stroke="var(--line, #d9d5c9)" strokeWidth="2"/>
-    <text x="220" y="170" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle" fontStyle="italic">Perfect calibration</text>
-    <circle cx="146" cy="307" r="5" fill="var(--blue, #2f4d6e)" fillOpacity="0.7"/>
-    <circle cx="258" cy="256" r="5" fill="var(--blue, #2f4d6e)" fillOpacity="0.7"/>
-    <circle cx="370" cy="184" r="5" fill="var(--blue, #2f4d6e)" fillOpacity="0.7"/>
-    <circle cx="594" cy="76" r="5" fill="var(--blue, #2f4d6e)" fillOpacity="0.7"/>
-    <circle cx="482" cy="127" r="7" fill="var(--accent, #8a2a1e)"/>
-    <text x="470" y="104" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--accent, #8a2a1e)" textAnchor="end">70% calls → happened 71% of the time</text>
-  </svg>
+<Chart
+  title="Does 70 percent mean 70 percent?"
+  unit="%"
+  xUnit="%"
+  xLabel="Stated forecast probability (%)"
+  yLabel="Share that actually happened (%)"
+  xTicks={[0, 25, 50, 75, 100]}
+  yTicks={[0, 25, 50, 75, 100]}
+  marks={[{x: 70, y: 71, label: 'Called 70%: happened 71%', place: 'left'}]}
+  series={[
+    {label: 'Perfect calibration', color: 'ink', dashed: true, points: [[0, 0], [100, 100]]},
+    {label: 'Illustrative forecaster', color: 'blue', show: 'points', points: [[10, 11], [30, 28], [50, 52], [90, 88]]},
+    {label: 'FiveThirtyEight, 2019 self-audit', color: 'accent', show: 'points', points: [[70, 71]]},
+  ]}
+/>
 </Figure>
 
 Forecasters can be audited this way, and the good ones audit themselves. FiveThirtyEight's 2019 self-study, "When We Say 70 Percent, It Really Means 70 Percent," checked every probability the site had ever published — politics and sports — against what happened: across 5,589 events given roughly a 70 percent chance, 71 percent occurred, and the political forecasts produced slightly *fewer* upsets than advertised, if anything. That is the sense in which 2016's "29 percent" was defensible and "1 percent" was not: one came from a system whose stated probabilities, audited across thousands of events, mean what they say; the others asserted a precision about tail risk that the polling record flatly contradicts.

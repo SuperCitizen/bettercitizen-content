@@ -145,7 +145,7 @@ export function GerrymanderLab({ title }: GerrymanderLabProps) {
                 height={CELL}
                 fill={isA ? tokens.blue : tokens.gold}
               />
-              {/* white letter so party reads without color */}
+              {/* a letter so party reads without color; the surface color keeps its contrast on both palettes */}
               <text
                 x={c * PITCH + CELL / 2}
                 y={r * PITCH + CELL / 2}
@@ -153,7 +153,7 @@ export function GerrymanderLab({ title }: GerrymanderLabProps) {
                 dominantBaseline="central"
                 fontSize={10}
                 fontWeight={700}
-                fill="#ffffff"
+                fill={tokens.card}
                 fontFamily="inherit"
               >
                 {isA ? 'A' : 'B'}

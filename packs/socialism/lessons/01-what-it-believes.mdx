@@ -66,35 +66,20 @@ On November 2, 1920, more than nine hundred thousand Americans voted for a presi
 Strip away a century of polemics and [[term:socialism]] makes one core claim: the major productive assets of an economy — factories, land, banks, infrastructure, what Marx called the *means of production* — should be socially owned or controlled rather than held as private capital. Everything that divides socialists from one another lives inside two follow-up questions. *How much* of the economy should be socially owned — everything, the "commanding heights," scattered worker cooperatives, or merely a decommodified slice (health care, schooling) carved out of an otherwise private economy? And *by what means* — ballots, courts, and parliaments, or a revolutionary party that does not intend to share power? Plot those two questions as axes and the confusing word resolves into a legible map.
 
 <Figure caption="The two questions that organize the socialist family — how much social ownership, and by what political means. Position is description, not endorsement. Note that the Nordic countries sit far to the left on ownership: their economies are overwhelmingly private and market-driven; what is “socialized” is consumption (health care, education, childcare), not production.">
-<svg viewBox="0 0 720 470" width="100%" role="img" aria-label="Two-axis map of the socialist family: horizontal axis runs from mostly private ownership to comprehensive social ownership; vertical axis runs from single-party coercive means to democratic pluralist means. The U.S. status quo, the Nordic model, social democracy, democratic socialism, and market socialism sit in the democratic upper region at increasing levels of social ownership; Marxist-Leninist state socialism sits at high ownership and authoritarian means." style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="36" y="28" fontFamily="Georgia, serif" fontSize="16" fontWeight="bold" fill="var(--ink, #14130f)">One word, four families</text>
-  <line x1="90" y1="400" x2="690" y2="400" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <line x1="90" y1="400" x2="90" y2="60" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <text x="390" y="430" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Social ownership of the means of production →</text>
-  <text x="100" y="446" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">mostly private</text>
-  <text x="688" y="446" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">comprehensive</text>
-  <text x="70" y="230" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle" transform="rotate(-90 70 230)">Political means</text>
-  <text x="104" y="78" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">democratic, pluralist</text>
-  <text x="104" y="394" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">single-party, coercive</text>
-  <circle cx="165" cy="125" r="7" fill="var(--muted, #6b6457)" />
-  <text x="165" y="108" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle">U.S. status quo</text>
-  <circle cx="265" cy="100" r="8" fill="var(--gold, #b08a3e)" />
-  <text x="265" y="143" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">Nordic model</text>
-  <text x="265" y="158" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">(market economy + welfare state)</text>
-  <circle cx="350" cy="115" r="8" fill="var(--blue, #2f4d6e)" />
-  <text x="350" y="92" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">Social democracy</text>
-  <circle cx="465" cy="105" r="8" fill="var(--accent, #8a2a1e)" />
-  <text x="465" y="148" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">Democratic socialism</text>
-  <text x="465" y="163" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">(Debs, Harrington, DSA)</text>
-  <circle cx="560" cy="180" r="8" fill="none" stroke="var(--green, #4a6b3a)" strokeWidth="2.5" strokeDasharray="4,3" />
-  <text x="560" y="215" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">Market socialism</text>
-  <text x="560" y="230" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">(Lange, Roemer — largely on paper)</text>
-  <circle cx="600" cy="345" r="8" fill="var(--ink, #14130f)" />
-  <text x="600" y="320" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">Marxist–Leninist state socialism</text>
-  <text x="600" y="335" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">(USSR, Mao’s China, Cuba)</text>
-  <text x="180" y="360" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)">authoritarian capitalism sits here —</text>
-  <text x="180" y="375" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)">outside the socialist family entirely</text>
-</svg>
+<PositionMap
+  title="One word, four families"
+  x={{label: 'Social ownership of the means of production', low: 'mostly private', high: 'comprehensive'}}
+  y={{label: 'Political means', low: 'single-party, coercive', high: 'democratic, pluralist'}}
+  points={[
+    {label: 'U.S. status quo', x: 0.125, y: 0.81, tone: 'ink'},
+    {label: 'Nordic model', x: 0.29, y: 0.88, detail: 'Market economy plus welfare state.', tone: 'gold'},
+    {label: 'Social democracy', x: 0.43, y: 0.84, tone: 'blue'},
+    {label: 'Democratic socialism', x: 0.625, y: 0.87, detail: 'Debs, Harrington, DSA.', tone: 'accent'},
+    {label: 'Market socialism', x: 0.78, y: 0.65, detail: 'Lange, Roemer. Largely on paper.', tone: 'green', dashed: true},
+    {label: 'Marxist–Leninist state socialism', x: 0.85, y: 0.16, detail: 'USSR, Mao’s China, Cuba.', tone: 'ink'},
+    {label: 'Authoritarian capitalism', x: 0.2, y: 0.1, detail: 'Sits here, outside the socialist family entirely.', dashed: true},
+  ]}
+/>
 </Figure>
 
 Read the map's four named families carefully, because American discourse routinely collapses them. **Marxist–Leninist state socialism** (the USSR from 1928, Maoist China, Cuba, North Korea) combined comprehensive state ownership and central planning with single-party rule. **Democratic socialism** wants substantial social ownership — cooperatives, public enterprises, socialized finance — achieved and maintained *only* through democratic politics; its adherents regard the Soviet model as a catastrophe, not an embarrassment to be explained away. **[[ideology:social-democracy]]** accepts a predominantly private market economy and uses taxes, transfers, universal services, and strong unions to civilize it; the difference from democratic socialism is that social democracy treats this as the destination, not a way station. And the **Nordic model** is social democracy in practice — which is why Danish Prime Minister Lars Løkke Rasmussen, speaking at Harvard's Kennedy School in 2015 while Sanders was invoking Denmark on debate stages, drew the line himself: "I know that some people in the US associate the Nordic model with some sort of socialism. Therefore I would like to make one thing clear. Denmark is far from a socialist planned economy. Denmark is a market economy."

@@ -84,27 +84,12 @@ From there the case runs on three planks:
 **New market-rate housing helps the bottom of the market through filtering.** The skeptic's instinct — "luxury towers can't help poor renters" — misses that homes are not consumed once. Evan Mast (2023) traced the actual chains: take 686 new market-rate buildings in 12 cities, find the 52,000 people who moved in, then find who moved into *their* old homes, and so on. Building 100 new market-rate units leads 45 to 70 people to move out of below-median-income neighborhoods — 17 to 39 of them out of the poorest fifth — each move opening a home behind it, almost all within about five years. Vicki Been, Ingrid Gould Ellen, and Katherine O'Regan, reviewing this literature under the pointed title "Supply Skepticism" (2019, updated since), conclude that new supply lowers rents in the surrounding market even when the new units themselves are expensive. And over decades, filtering is where almost all unsubsidized affordable housing comes from: today's cheap apartment is a building someone built at market rate in 1968. Choke off today's market-rate construction and you have canceled 2060's affordable stock.
 
 <Figure caption="Filtering in one picture. Nobody poor moves into the new tower — and the tower still opens homes downstream, because every move out of an older unit is a vacancy somebody else can fill." source="Mast (2023): 686 buildings, 12 cities, 52,000 movers traced; most of the effect lands within ~5 years">
-<svg viewBox="0 0 720 270" width="100%" role="img" aria-label="Filtering chain diagram: a new 100-unit market-rate building triggers a chain of moves through mid-tier and older housing, drawing 45 to 70 people out of below-median-income neighborhoods within about five years and opening homes behind them." style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <rect x="30" y="40" width="200" height="56" fill="var(--blue, #2f4d6e)" rx="4" />
-  <text x="130" y="64" fontFamily="Georgia, serif" fontSize="13.5" fill="#ffffff" textAnchor="middle">New market-rate building</text>
-  <text x="130" y="83" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">100 units, high rents</text>
-  <path d="M 230 68 L 280 68" stroke="var(--accent, #8a2a1e)" strokeWidth="2" fill="none" />
-  <path d="M 280 68 L 272 62 L 272 74 Z" fill="var(--accent, #8a2a1e)" />
-  <rect x="284" y="40" width="190" height="56" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" rx="4" />
-  <text x="379" y="64" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Movers leave mid-tier</text>
-  <text x="379" y="82" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">apartments → vacancies</text>
-  <path d="M 474 68 L 524 68" stroke="var(--accent, #8a2a1e)" strokeWidth="2" fill="none" />
-  <path d="M 524 68 L 516 62 L 516 74 Z" fill="var(--accent, #8a2a1e)" />
-  <rect x="528" y="40" width="162" height="56" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" rx="4" />
-  <text x="609" y="64" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Their old units fill</text>
-  <text x="609" y="82" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">from older stock…</text>
-  <path d="M 609 96 L 609 150 L 240 150 L 240 176" stroke="var(--muted, #6b6457)" strokeWidth="1.8" fill="none" strokeDasharray="5,4" />
-  <polygon points="235,176 245,176 240,184" fill="var(--muted, #6b6457)" />
-  <text x="425" y="141" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle">…the chain runs ~6 rounds of moves</text>
-  <rect x="30" y="184" width="420" height="62" fill="var(--green, #4a6b3a)" rx="4" />
-  <text x="240" y="210" fontFamily="Georgia, serif" fontSize="13.5" fill="#ffffff" textAnchor="middle">45–70 people move out of below-median-income</text>
-  <text x="240" y="230" fontFamily="Georgia, serif" fontSize="13.5" fill="#ffffff" textAnchor="middle">neighborhoods — opening homes behind them</text>
-</svg>
+<Flow title="Filtering: one new building, a chain of moves" steps={[
+  {title: 'New market-rate building', detail: '100 units, high rents.', tone: 'blue'},
+  {title: 'Movers leave mid-tier apartments', detail: 'Their moves open vacancies.'},
+  {title: 'Their old units fill from older stock', detail: 'Which opens vacancies in turn.'},
+  {via: 'the chain runs about 6 rounds of moves', title: '45–70 people move out of below-median-income neighborhoods', detail: 'Opening homes behind them.', tone: 'green'},
+]} />
 </Figure>
 
 **The macro claim — handled with tongs.** For years the supply-side case carried a macroeconomic trump card: Chang-Tai Hsieh and Enrico Moretti's "Housing Constraints and Spatial Misallocation" (2019), which estimated that housing constraints lowered aggregate U.S. growth by 36 percent from 1964 to 2009, and that relaxing regulation in just New York, San Francisco, and San Jose to the median city's level would lift GDP by 3.7 percent. The numbers escaped the seminar room and turned up in White House documents and a thousand op-eds. Then came replication. Brian Greaney's published comment (2026) documented coding errors — run as written, the paper's own counterfactual *lowers* output — and showed the model's results hinged on an arbitrary modeling choice; in his repaired version, the gains from liberalizing the three superstar metros are real but roughly two orders of magnitude smaller, on the order of 0.02 percent of GDP. The authors have publicly acknowledged error. The honest supply-sider's response is to stop citing the headline number and rest the case on the micro evidence — zoning taxes, price-cost gaps, filtering chains, and city-level natural experiments — which emerged from the episode intact.

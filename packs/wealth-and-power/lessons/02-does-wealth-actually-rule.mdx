@@ -118,18 +118,14 @@ The first is the overlap problem. When Branham, Soroka, and Wlezien re-examined 
 The figure below puts the two readings side by side on the same 1,779 issues. It is the heart of the disagreement, so read it slowly.
 
 <Figure caption="Two honest readings of the same 1,779 issues. Almost all of the cases are agreement (where 'who won' is undefined); the contested zone — where rich and middle-class preferences diverge — is the thin slice, and even there the rich edge is modest, not total.">
-  <svg viewBox="0 0 720 230" width="100%" role="img" aria-label="A wide bar of about 1,779 issues, roughly 90 percent shaded as agreement and a thin slice as divergence; below it, the divergence slice split into a modest rich-win majority and the rest.">
-    <text x="20" y="30" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)">All 1,779 policy issues (1981–2002)</text>
-    <rect x="20" y="45" width="586" height="46" fill="var(--blue, #2f4d6e)" fillOpacity="0.18" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <rect x="606" y="45" width="64" height="46" fill="var(--accent, #8a2a1e)" fillOpacity="0.85" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <text x="313" y="73" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)" textAnchor="middle">Rich and middle class AGREE — about 90%</text>
-    <text x="638" y="112" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">diverge ~185</text>
-    <text x="20" y="170" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Zoom in on the ~185 where they diverge:</text>
-    <rect x="20" y="184" width="340" height="28" fill="var(--accent, #8a2a1e)" fillOpacity="0.85" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <rect x="360" y="184" width="300" height="28" fill="var(--blue, #2f4d6e)" fillOpacity="0.30" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-    <text x="190" y="203" fontFamily="Georgia, serif" fontSize="12" fill="var(--card, #ffffff)" textAnchor="middle">rich win (modestly more than half)</text>
-    <text x="510" y="203" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">rich do not</text>
-  </svg>
+
+<DataBars title="All 1,779 policy issues (1981–2002), approximate shares" unit="%" stacked max={100} bars={[
+  {label: 'Rich and middle class agree', value: 90, color: 'blue'},
+  {label: 'They diverge (about 185 issues)', value: 10, color: 'accent'},
+]} />
+
+Zoom in on the roughly 185 issues where they diverge: the rich win modestly more than half the time, and the rest of the time they do not.
+
 </Figure>
 
 What the picture shows is that the dramatic finding lives entirely inside that thin right-hand slice. On roughly nine issues in ten, asking "did the rich beat the middle class?" has no answer, because they wanted the same thing. That is the empirical wedge the skeptics drive into the oligarchy story.

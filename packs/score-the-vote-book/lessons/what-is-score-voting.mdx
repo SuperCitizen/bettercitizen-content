@@ -40,48 +40,16 @@ You already know how to do this. You did it the last time you rated a restaurant
 Picture four candidates for mayor. Next to each name sits a row of bubbles, 0 through 5. You fill in one bubble per candidate — every candidate, including the ones you oppose, because a 0 is information too.
 
 <Figure caption="One voter's score ballot, and what the whole city did with the same four names. You scored Gutierrez a 5 — but the citywide averages elected Park at 3.4. Here's the part plurality can't do: your ballot still counted at full strength for that outcome, because your 4 for Park weighed in at exactly the value you assigned. Nothing was wasted, transferred, or eliminated." source="Illustrative election; averages are hypothetical">
-  <svg viewBox="0 0 720 280" width="100%" role="img" aria-label="A score ballot with four candidates, bubbles for scores 0 through 5 with one filled per row, and citywide average scores shown at right; Park wins with a 3.4 average">
-    <text x="20" y="28" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">MAYOR — score each candidate from 0 (no support) to 5 (strongest support)</text>
-    <text x="208" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">0</text>
-    <text x="262" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">1</text>
-    <text x="316" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">2</text>
-    <text x="370" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">3</text>
-    <text x="424" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">4</text>
-    <text x="478" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)">5</text>
-    <text x="585" y="62" textAnchor="middle" fontFamily="Georgia, serif" fontSize="13" fontWeight="bold" fill="var(--muted, #6b6457)">city average</text>
-    <text x="20" y="95" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Ana Gutierrez</text>
-    <circle cx="208" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="262" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="316" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="370" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="424" cy="90" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="478" cy="90" r="9" fill="var(--accent, #8a2a1e)" />
-    <text x="585" y="95" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">3.1</text>
-    <text x="20" y="145" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">James Park</text>
-    <circle cx="208" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="262" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="316" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="370" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="424" cy="140" r="9" fill="var(--accent, #8a2a1e)" />
-    <circle cx="478" cy="140" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <text x="585" y="145" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--green, #4a6b3a)">3.4 ★</text>
-    <text x="20" y="195" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Maria Thompson</text>
-    <circle cx="208" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="262" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="316" cy="190" r="9" fill="var(--accent, #8a2a1e)" />
-    <circle cx="370" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="424" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="478" cy="190" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <text x="585" y="195" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">2.6</text>
-    <text x="20" y="245" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">David Chen</text>
-    <circle cx="208" cy="240" r="9" fill="var(--accent, #8a2a1e)" />
-    <circle cx="262" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="316" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="370" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="424" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="478" cy="240" r="9" fill="none" stroke="var(--muted, #6b6457)" />
-    <text x="585" y="245" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">1.2</text>
-  </svg>
+<Ballot
+  title="Mayor: score each candidate from 0 (no support) to 5 (strongest support)"
+  candidates={['Ana Gutierrez', 'James Park', 'Maria Thompson', 'David Chen']}
+  methods={['score']}
+  score={{'Ana Gutierrez': 5, 'James Park': 4, 'Maria Thompson': 2, 'David Chen': 0}}
+  averages={{'Ana Gutierrez': 3.1, 'James Park': 3.4, 'Maria Thompson': 2.6, 'David Chen': 1.2}}
+  averagesLabel="city average"
+  headings={{score: 'Your ballot'}}
+  notes={{score: 'The highest city average wins.'}}
+/>
 </Figure>
 
 Six bubbles per row. Fill one per candidate. You have just expressed more political information than a lifetime of [[term:plurality]] ballots could carry: your favorite (Gutierrez, 5), a strong second you'd gladly accept (Park, 4), a tolerable fallback (Thompson, 2), and a hard no (Chen, 0) — with the *sizes of the gaps* recorded, not just the order.

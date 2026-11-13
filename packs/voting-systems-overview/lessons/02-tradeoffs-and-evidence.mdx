@@ -80,22 +80,15 @@ Two more properties round out the standard scorecard. The first is **counting si
 The second is the **Condorcet criterion**: does the system always elect the candidate who would beat every rival head-to-head, when such a candidate exists? You met the canonical American counterexample in Lesson 1 — Burlington, 2009, where Democrat Andy Montroll won every pairwise matchup and finished third under IRV. The mechanism has a name, **center squeeze**: a candidate positioned between two larger blocs is everyone's acceptable second choice and too few voters' first choice, so sequential elimination kills the consensus candidate first.
 
 <Figure caption="The center-squeeze configuration behind Burlington 2009. Any system that filters on first-choice strength — plurality, runoffs, IRV — can eliminate the candidate a majority prefers to every alternative.">
-<svg viewBox="0 0 720 240" width="100%" role="img" aria-label="A left-right spectrum with three candidates: Left with 35 percent first choices, Center with 28 percent, Right with 37 percent. The center candidate would win either head-to-head matchup but is eliminated first under instant runoff." style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Center squeeze: why elimination order matters</text>
-  <line x1="40" y1="120" x2="680" y2="120" stroke="var(--line, #d9d5c9)" strokeWidth="2" />
-  <text x="40" y="142" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">left</text>
-  <text x="680" y="142" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">right</text>
-  <circle cx="150" cy="120" r="26" fill="var(--blue, #2f4d6e)" />
-  <text x="150" y="125" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">L: 35%</text>
-  <circle cx="360" cy="120" r="22" fill="var(--gold, #b08a3e)" />
-  <text x="360" y="125" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">C: 28%</text>
-  <circle cx="570" cy="120" r="27" fill="var(--accent, #8a2a1e)" />
-  <text x="570" y="125" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">R: 37%</text>
-  <text x="360" y="78" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">C is the second choice of nearly all L and R voters —</text>
-  <text x="360" y="94" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">C beats L head-to-head and beats R head-to-head</text>
-  <text x="360" y="178" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">But C has the fewest first choices, so instant runoff eliminates C first.</text>
-  <text x="360" y="198" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle">Final round: L vs. R. The consensus candidate never gets there. (Plurality fails the same way.)</text>
-</svg>
+
+<DataBars title="Center squeeze: why elimination order matters" unit="% of first choices" max={50} bars={[
+  {label: 'L, on the left', value: 35, color: 'green'},
+  {label: 'C, in the center', value: 28, color: 'gold', note: 'The second choice of nearly all L and R voters: C beats L head-to-head and beats R head-to-head.'},
+  {label: 'R, on the right', value: 37, color: 'ink'},
+]} />
+
+But C has the fewest first choices, so instant runoff eliminates C first. Final round: L vs. R. The consensus candidate never gets there. (Plurality fails the same way.)
+
 </Figure>
 
 Here is the standard scorecard in one table. Read it as a menu of tradeoffs, not a ranking — every "no" is the price of some "yes" elsewhere:

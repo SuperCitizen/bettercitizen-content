@@ -127,34 +127,41 @@ Every stage is a place where someone can say no, and no stage is a place where a
 
 The economic consequence is the central fact of this pack: **where rules make supply unresponsive, demand becomes price.** Glaeser and Gyourko (2018) document the pattern — in lightly regulated metros like Houston or Atlanta, prices hover near the cost of construction because builders answer demand with units; in tightly regulated coastal metros, prices float far above construction cost because builders legally cannot. The figure below is the whole mechanism in one picture.
 
-<Figure caption="The same growth in demand (blue shift) produces homes where supply can respond and prices where it cannot. This single diagram is the supply-side movement's core claim about coastal metros — and the baseline every rival perspective argues against.">
-<svg viewBox="0 0 720 320" width="100%" role="img" aria-label="Two supply-and-demand panels. Left: elastic supply — a demand increase mostly raises quantity, price rises a little. Right: inelastic supply — the same demand increase mostly raises price, quantity barely moves." style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="100" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Elastic supply (loosely zoned)</text>
-  <line x1="70" y1="270" x2="330" y2="270" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <line x1="70" y1="270" x2="70" y2="50" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <text x="200" y="296" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle">homes</text>
-  <text x="52" y="160" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle" transform="rotate(-90 52 160)">price</text>
-  <line x1="80" y1="230" x2="320" y2="170" stroke="var(--green, #4a6b3a)" strokeWidth="2.5" />
-  <text x="318" y="158" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--green, #4a6b3a)" textAnchor="end">supply</text>
-  <line x1="110" y1="80" x2="270" y2="262" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
-  <line x1="170" y1="80" x2="330" y2="262" stroke="var(--blue, #2f4d6e)" strokeWidth="2" strokeDasharray="6,4" />
-  <text x="238" y="92" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--blue, #2f4d6e)">demand grows</text>
-  <circle cx="178" cy="205" r="4" fill="var(--ink, #14130f)" />
-  <circle cx="243" cy="189" r="4" fill="var(--accent, #8a2a1e)" />
-  <text x="200" y="245" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--accent, #8a2a1e)">more homes, small price rise</text>
-  <text x="420" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Inelastic supply (tightly zoned)</text>
-  <line x1="430" y1="270" x2="690" y2="270" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <line x1="430" y1="270" x2="430" y2="50" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <text x="560" y="296" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" textAnchor="middle">homes</text>
-  <line x1="545" y1="250" x2="575" y2="70" stroke="var(--green, #4a6b3a)" strokeWidth="2.5" />
-  <text x="585" y="70" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--green, #4a6b3a)">supply</text>
-  <line x1="470" y1="80" x2="630" y2="262" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
-  <line x1="530" y1="80" x2="690" y2="262" stroke="var(--blue, #2f4d6e)" strokeWidth="2" strokeDasharray="6,4" />
-  <circle cx="553" cy="175" r="4" fill="var(--ink, #14130f)" />
-  <circle cx="567" cy="121" r="4" fill="var(--accent, #8a2a1e)" />
-  <text x="600" y="120" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--accent, #8a2a1e)">price spikes,</text>
-  <text x="600" y="136" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--accent, #8a2a1e)">few new homes</text>
-</svg>
+<Figure caption="The same growth in demand (the dashed line) produces homes where supply can respond and prices where it cannot. This single diagram is the supply-side movement's core claim about coastal metros — and the baseline every rival perspective argues against.">
+<Panels>
+<Panel title="Elastic supply (loosely zoned)" tone="green">
+<Chart plain schematic xLabel="homes" yLabel="price" xTicks={[]} xMin={0} xMax={100} yMin={0} yMax={100}
+  series={[
+    {label: 'Supply', color: 'green', points: [[3.8, 18.2], [96.2, 45.5]]},
+    {label: 'Demand', color: 'blue', points: [[15.4, 86.4], [76.9, 3.6]]},
+    {label: 'Demand grows', color: 'blue', dashed: true, points: [[38.5, 86.4], [100, 3.6]]},
+  ]}
+  marks={[
+    {x: 41.5, y: 29.5, label: 'before', place: 'below'},
+    {x: 66.5, y: 36.8, label: 'after', place: 'above'},
+  ]}
+/>
+
+**More homes, small price rise.**
+
+</Panel>
+<Panel title="Inelastic supply (tightly zoned)" tone="accent">
+<Chart plain schematic xLabel="homes" yLabel="price" xTicks={[]} xMin={0} xMax={100} yMin={0} yMax={100}
+  series={[
+    {label: 'Supply', color: 'green', points: [[44.2, 9.1], [55.8, 90.9]]},
+    {label: 'Demand', color: 'blue', points: [[15.4, 86.4], [76.9, 3.6]]},
+    {label: 'Demand grows', color: 'blue', dashed: true, points: [[38.5, 86.4], [100, 3.6]]},
+  ]}
+  marks={[
+    {x: 47.3, y: 43.2, label: 'before', place: 'left'},
+    {x: 52.7, y: 67.7, label: 'after', place: 'left'},
+  ]}
+/>
+
+**Price spikes, few new homes.**
+
+</Panel>
+</Panels>
 </Figure>
 
 <Checkpoint question="A booming tech metro and a flat Midwestern metro both see 50,000 new high-paying jobs announced. In which one do existing homeowners gain more wealth, and why?">

@@ -83,26 +83,14 @@ On October 3, 1965, at the foot of the Statue of Liberty, Lyndon Johnson signed 
 Permanent immigration — a green card, formally lawful permanent resident (LPR) status — comes through four doors. Their relative sizes surprise most people, so look at the proportions first.
 
 <Figure caption="Composition of lawful permanent residence, FY2014–2023 average (DHS Office of Homeland Security Statistics; CRS R42866). Family reunification — not employment — is the system's center of gravity, and has been since 1965. FY2023 total: 1,172,910 green cards. Immediate relatives and asylees have no numerical cap; every other door does.">
-<svg viewBox="0 0 720 184" width="100%" role="img" aria-label="Stacked bar showing the composition of U.S. green cards by category: immediate relatives 46 percent, family preference 19 percent, employment 16 percent, refugees and asylees 11 percent, diversity 4 percent, other 4 percent" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="30" y="24" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">Who gets a green card (share of grants, FY2014–2023 average)</text>
-  <line x1="601" y1="64" x2="601" y2="50" stroke="var(--muted, #6b6457)" strokeWidth="1" />
-  <text x="601" y="44" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">Refugees &amp; asylees — 11%</text>
-  <rect x="30" y="64" width="304" height="46" fill="var(--blue, #2f4d6e)" />
-  <rect x="334" y="64" width="125" height="46" fill="var(--green, #4a6b3a)" />
-  <rect x="459" y="64" width="106" height="46" fill="var(--accent, #8a2a1e)" />
-  <rect x="565" y="64" width="73" height="46" fill="var(--gold, #b08a3e)" />
-  <rect x="638" y="64" width="26" height="46" fill="var(--muted, #6b6457)" />
-  <rect x="664" y="64" width="26" height="46" fill="var(--line, #d9d5c9)" />
-  <text x="182" y="91" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">Immediate relatives — 46%</text>
-  <text x="396" y="91" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">Family pref. 19%</text>
-  <text x="512" y="91" fontFamily="Georgia, serif" fontSize="12.5" fill="#ffffff" textAnchor="middle">Employment 16%</text>
-  <path d="M 30 116 L 30 124 L 459 124 L 459 116" fill="none" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <text x="244" y="140" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" fontWeight="bold" textAnchor="middle">Family-based together: about 65%</text>
-  <line x1="651" y1="110" x2="651" y2="126" stroke="var(--muted, #6b6457)" strokeWidth="1" />
-  <text x="651" y="140" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">Diversity 4%</text>
-  <line x1="677" y1="110" x2="677" y2="148" stroke="var(--muted, #6b6457)" strokeWidth="1" />
-  <text x="700" y="162" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">Other 4%</text>
-</svg>
+<DataBars title="Who gets a green card (share of grants, FY2014–2023 average)" unit="%" max={50} bars={[
+  {label: 'Immediate relatives', value: 46, color: 'blue'},
+  {label: 'Family preference', value: 19, color: 'green', note: 'Family-based together: about 65%'},
+  {label: 'Employment', value: 16, color: 'accent'},
+  {label: 'Refugees and asylees', value: 11, color: 'gold'},
+  {label: 'Diversity', value: 4, color: 'ink'},
+  {label: 'Other', value: 4, color: 'ink'},
+]} />
 </Figure>
 
 **Family** is the dominant door, about 65 percent of green cards over the past decade. It splits in two. *Immediate relatives* of U.S. citizens — spouses, unmarried minor children, parents — are numerically uncapped: qualify and a visa exists, which is why this single category alone is nearly half of all permanent immigration. *Family preference* covers everyone else (adult children, siblings, spouses and children of green-card holders) under a statutory floor of 226,000 a year, and the queues are long enough that the most oversubscribed category — Mexican-born siblings of U.S. citizens — is only now reaching applications filed in April 2001 (State Department Visa Bulletin, 2026): a quarter-century in line.

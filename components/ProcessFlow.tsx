@@ -48,7 +48,7 @@ export function ProcessFlow({ steps, title }: ProcessFlowProps) {
                   borderRadius: 999,
                   border: `1px solid ${isSelected ? tokens.blue : tokens.line}`,
                   background: isSelected ? tokens.blue : tokens.card,
-                  color: isSelected ? '#ffffff' : tokens.ink,
+                  color: isSelected ? tokens.card : tokens.ink,
                   cursor: 'pointer',
                 }}
               >

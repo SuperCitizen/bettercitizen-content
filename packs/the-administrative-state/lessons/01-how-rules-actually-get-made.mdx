@@ -76,38 +76,20 @@ In calendar 2025, the Congress of the United States — two chambers, 535 member
 The [[term:administrative-state]] runs on a delegation. Congress passes what administrative lawyers call an **organic statute** — the law that creates an agency and hands it power. The Clean Air Act tells the EPA to set air-quality standards "requisite to protect the public health." The Federal Trade Commission Act of 1914 tells the FTC to prevent "unfair methods of competition." The statute states the goal and the boundaries; the agency writes the binding specifics — which pollutant, how many parts per billion, measured how. The result is two parallel assembly lines. Congress's products are compiled chronologically in the Statutes at Large and codified by subject into the United States Code. Agencies' products appear daily in the Federal Register and are codified into the Code of Federal Regulations. Both shelves are law.
 
 <Figure caption="The two assembly lines of federal law. Congress enacts statutes, which are codified into the U.S. Code; statutes delegate rulemaking power to agencies, whose rules run through the Federal Register into the Code of Federal Regulations. Both end products legally bind — but one line out-produced the other 34-to-1 in 2025." source="Federal Register API; National Archives, Public Laws of the 119th Congress, 1st session; CEI Ten Thousand Commandments (2026)">
-  <svg viewBox="0 0 720 270" width="100%" role="img" aria-label="Diagram of two parallel tracks: Congress producing public laws through the Statutes at Large into the U.S. Code, and agencies producing final rules through the Federal Register into the Code of Federal Regulations, with a vertical arrow showing organic statutes delegating rulemaking power from Congress to agencies" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <marker id="arrInk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="var(--ink, #14130f)"/></marker>
-    </defs>
-    <text x="30" y="24" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">Two assembly lines for federal law</text>
-    <rect x="30" y="50" width="150" height="44" fill="var(--blue, #2f4d6e)" rx="8" />
-    <text x="105" y="77" fontFamily="Georgia, serif" fontSize="14" fill="#ffffff" textAnchor="middle" fontWeight="bold">CONGRESS</text>
-    <text x="105" y="112" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">72 public laws in 2025</text>
-    <line x1="180" y1="72" x2="276" y2="72" stroke="var(--ink, #14130f)" strokeWidth="2" markerEnd="url(#arrInk)" />
-    <rect x="280" y="50" width="170" height="44" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" rx="8" />
-    <text x="365" y="77" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Statutes at Large</text>
-    <text x="365" y="112" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2,008 pages (2025)</text>
-    <line x1="450" y1="72" x2="536" y2="72" stroke="var(--ink, #14130f)" strokeWidth="2" markerEnd="url(#arrInk)" />
-    <rect x="540" y="50" width="150" height="44" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" rx="8" />
-    <text x="615" y="77" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">U.S. Code</text>
-    <text x="615" y="112" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">codified by subject</text>
-    <line x1="105" y1="130" x2="105" y2="182" stroke="var(--accent, #8a2a1e)" strokeWidth="2" markerEnd="url(#arrInk)" />
-    <text x="120" y="152" fontFamily="Georgia, serif" fontSize="12" fill="var(--accent, #8a2a1e)">organic statutes delegate</text>
-    <text x="120" y="168" fontFamily="Georgia, serif" fontSize="12" fill="var(--accent, #8a2a1e)">rulemaking power</text>
-    <rect x="30" y="186" width="150" height="44" fill="var(--accent, #8a2a1e)" rx="8" />
-    <text x="105" y="213" fontFamily="Georgia, serif" fontSize="14" fill="#ffffff" textAnchor="middle" fontWeight="bold">AGENCIES</text>
-    <text x="105" y="248" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2,441 final rules in 2025</text>
-    <line x1="180" y1="208" x2="276" y2="208" stroke="var(--ink, #14130f)" strokeWidth="2" markerEnd="url(#arrInk)" />
-    <rect x="280" y="186" width="170" height="44" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" rx="8" />
-    <text x="365" y="213" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Federal Register</text>
-    <text x="365" y="248" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">60,917 pages (2025)</text>
-    <line x1="450" y1="208" x2="536" y2="208" stroke="var(--ink, #14130f)" strokeWidth="2" markerEnd="url(#arrInk)" />
-    <rect x="540" y="186" width="150" height="44" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" rx="8" />
-    <text x="615" y="207" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Code of Federal</text>
-    <text x="615" y="223" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Regulations</text>
-    <text x="615" y="248" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">codified by agency</text>
-  </svg>
+<Flow title="Two assembly lines for federal law" steps={[
+  {between: 'organic statutes delegate rulemaking power to agencies', nodes: [
+    {title: 'Congress', detail: '72 public laws in 2025.', tone: 'blue'},
+    {title: 'Agencies', detail: '2,441 final rules in 2025.', tone: 'accent'},
+  ]},
+  {nodes: [
+    {title: 'Statutes at Large', detail: '2,008 pages (2025).'},
+    {title: 'Federal Register', detail: '60,917 pages (2025).'},
+  ]},
+  {nodes: [
+    {title: 'U.S. Code', detail: 'Codified by subject.'},
+    {title: 'Code of Federal Regulations', detail: 'Codified by agency.'},
+  ]},
+]} />
 </Figure>
 
 How many agencies run the second line? Nobody can tell you exactly — and that is itself a finding. The Administrative Conference of the United States, the federal government's own in-house authority on administrative procedure, opens its *Sourcebook of United States Executive Agencies* by conceding that "there is no authoritative list of government agencies"; counts range from a few dozen rulemaking departments to several hundred entities depending on the definition. What can be said precisely is what the lines produce, and the asymmetry is the single most important fact about modern American governance:

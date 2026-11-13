@@ -122,35 +122,14 @@ Oregon went first, by 1998 ballot initiative, and has run every election by mail
 What happens to a mail ballot after the voter signs the envelope is where security design actually lives, and it is the part of the system almost nobody can describe. The figure traces it.
 
 <Figure caption="Every mail ballot travels this path. States differ at step 1 (who gets a ballot), step 3 (drop boxes allowed? postmark or receipt deadline?), step 4 (signature match vs. ID number vs. witness requirement), and step 5 (whether and how voters can cure defects). The verification-and-cure stage, not the mailbox, is where mail-ballot security actually operates. Rejected if unverified and uncured: about 1.2% of returned mail ballots nationally in 2024 (EAVS), higher for first-time mail voters — which is why steps 4 and 5 carry most of the policy argument.">
-  <svg viewBox="0 0 720 208" width="100%" role="img" aria-label="Flow diagram of a mail ballot's life in six steps: ballot goes out, voter marks and signs, ballot returns by mail or drop box, election office verifies the envelope, problems go to a cure process, verified ballots are counted and audited" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-    <text x="20" y="24" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">The life of a mail ballot</text>
-    <rect x="20" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
-    <text x="120" y="68" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">1. Ballot goes out</text>
-    <text x="120" y="84" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">automatically (all-mail)</text>
-    <text x="120" y="98" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">or on request</text>
-    <rect x="260" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
-    <text x="360" y="68" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">2. Voter marks ballot,</text>
-    <text x="360" y="88" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">signs the return envelope</text>
-    <rect x="500" y="44" width="200" height="58" rx="6" fill="none" stroke="var(--blue, #2f4d6e)" strokeWidth="2" />
-    <text x="600" y="68" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">3. Returned by mail,</text>
-    <text x="600" y="88" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">drop box, or in person</text>
-    <line x1="220" y1="73" x2="260" y2="73" stroke="var(--ink, #14130f)" strokeWidth="2" />
-    <line x1="460" y1="73" x2="500" y2="73" stroke="var(--ink, #14130f)" strokeWidth="2" />
-    <line x1="600" y1="102" x2="600" y2="130" stroke="var(--ink, #14130f)" strokeWidth="2" />
-    <rect x="500" y="130" width="200" height="58" rx="6" fill="none" stroke="var(--gold, #b08a3e)" strokeWidth="2.5" />
-    <text x="600" y="154" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">4. Envelope verified:</text>
-    <text x="600" y="170" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">signature match,</text>
-    <text x="600" y="184" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">ID number, or witness</text>
-    <line x1="500" y1="159" x2="460" y2="159" stroke="var(--ink, #14130f)" strokeWidth="2" />
-    <rect x="260" y="130" width="200" height="58" rx="6" fill="none" stroke="var(--accent, #8a2a1e)" strokeWidth="2" strokeDasharray="6,4" />
-    <text x="360" y="154" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">5. Problem? Notice + cure</text>
-    <text x="360" y="170" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">voter fixes signature/ID</text>
-    <text x="360" y="184" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">by deadline</text>
-    <line x1="260" y1="159" x2="220" y2="159" stroke="var(--ink, #14130f)" strokeWidth="2" />
-    <rect x="20" y="130" width="200" height="58" rx="6" fill="var(--green, #4a6b3a)" fillOpacity="0.12" stroke="var(--green, #4a6b3a)" strokeWidth="2.5" />
-    <text x="120" y="154" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">6. Counted — and checked</text>
-    <text x="120" y="174" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">in post-election audits</text>
-  </svg>
+<Flow numbered title="The life of a mail ballot" steps={[
+  {title: 'Ballot goes out', detail: 'Automatically (all-mail states) or on request.'},
+  {title: 'Voter marks the ballot', detail: 'And signs the return envelope.'},
+  {title: 'Returned', detail: 'By mail, drop box, or in person.'},
+  {title: 'Envelope verified', detail: 'Signature match, ID number, or witness.', tone: 'gold'},
+  {title: 'Problem? Notice and cure', detail: 'The voter fixes the signature or ID by a deadline.', tone: 'accent'},
+  {title: 'Counted, and checked', detail: 'In post-election audits.', tone: 'green'},
+]} />
 </Figure>
 
 Three details from that pipeline carry most of the policy weight. *Verification:* most states compare the envelope signature against registration records; some instead or additionally require an ID number (Georgia since 2021, Texas since 2021) or a witness signature. *Deadlines:* more than half of states require ballots to be *received* by Election Day; the rest count ballots *postmarked* by Election Day and arriving within a grace window — the difference decides tens of thousands of ballots in every close state. *Cure:* in roughly two-thirds of states, officials must notify a voter whose envelope fails verification and give them a window to fix it; in the rest, a flagged ballot is simply rejected. Nationally about 1.2 percent of returned mail ballots — roughly 584,000 — were rejected in 2024, with first-time mail voters rejected at multiples of that rate — and studies in Georgia and Florida have found rejection falling disproportionately on younger and nonwhite voters, a fact every perspective in Lesson 2 has to account for.

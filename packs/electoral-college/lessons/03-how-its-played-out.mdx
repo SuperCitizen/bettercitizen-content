@@ -132,32 +132,16 @@ Lay the five inversions side by side and the pattern is visible: they are not fi
 | 2016 | Trump (R), 304–227 | Clinton (D) | 2.1 pts | Winner-take-all arithmetic (77,744 votes in 3 states) |
 
 <Figure caption="The failure events cluster — two in the founding generation, two in the Gilded Age, two since 2000 — and each cluster forced a procedural invention: the 12th Amendment, the 1887 Electoral Count Act, the 2022 reform of it.">
-  <svg viewBox="0 0 720 200" width="100%" role="img" aria-label="Timeline from 1788 to 2024 marking the five popular-vote inversions in 1824, 1876, 1888, 2000, and 2016, the two contingent elections of 1800 and 1824, and the two counting statutes of 1887 and 2022" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-    <text x="30" y="24" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">Sixty elections, five inversions, two invented fixes</text>
-    <line x1="40" y1="100" x2="690" y2="100" stroke="var(--line, #d9d5c9)" strokeWidth="2" />
-    <text x="40" y="124" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">1788</text>
-    <text x="690" y="124" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">2024</text>
-    <rect x="68" y="94" width="12" height="12" fill="var(--blue, #2f4d6e)" />
-    <text x="74" y="84" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--blue, #2f4d6e)" textAnchor="middle">1800</text>
-    <circle cx="139" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
-    <text x="139" y="84" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--accent, #8a2a1e)" textAnchor="middle">1824</text>
-    <circle cx="282" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
-    <text x="282" y="84" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--accent, #8a2a1e)" textAnchor="middle">1876</text>
-    <circle cx="315" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
-    <text x="322" y="135" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--accent, #8a2a1e)" textAnchor="middle">1888</text>
-    <circle cx="623" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
-    <text x="616" y="84" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--accent, #8a2a1e)" textAnchor="middle">2000</text>
-    <circle cx="667" cy="100" r="7" fill="var(--accent, #8a2a1e)" />
-    <text x="667" y="135" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--accent, #8a2a1e)" textAnchor="middle">2016</text>
-    <line x1="312" y1="100" x2="312" y2="158" stroke="var(--gold, #b08a3e)" strokeWidth="1.5" strokeDasharray="4,3" />
-    <text x="312" y="172" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--gold, #b08a3e)" textAnchor="middle">1887 Electoral Count Act</text>
-    <line x1="678" y1="100" x2="678" y2="52" stroke="var(--gold, #b08a3e)" strokeWidth="1.5" strokeDasharray="4,3" />
-    <text x="664" y="44" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--gold, #b08a3e)" textAnchor="end">2022 ECRA</text>
-    <circle cx="60" cy="186" r="6" fill="var(--accent, #8a2a1e)" />
-    <text x="72" y="190" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)">popular-vote inversion</text>
-    <rect x="232" y="180" width="11" height="11" fill="var(--blue, #2f4d6e)" />
-    <text x="250" y="190" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)">House contingent election (1800, 1824)</text>
-  </svg>
+<Timeline title="Sixty elections, five inversions, two invented fixes" events={[
+  {date: '1800', title: 'House contingent election', tone: 'blue'},
+  {date: '1824', title: 'Popular-vote inversion, settled by a House contingent election', tone: 'accent'},
+  {date: '1876', title: 'Popular-vote inversion', tone: 'accent'},
+  {date: '1887', title: 'Electoral Count Act', tone: 'gold'},
+  {date: '1888', title: 'Popular-vote inversion', tone: 'accent'},
+  {date: '2000', title: 'Popular-vote inversion', tone: 'accent'},
+  {date: '2016', title: 'Popular-vote inversion', tone: 'accent'},
+  {date: '2022', title: 'Electoral Count Reform Act', tone: 'gold'},
+]} />
 </Figure>
 
 Before reading on, make sure the five-row table is actually yours — the inversions matter less as a list than as a taxonomy of *how* each one happened.

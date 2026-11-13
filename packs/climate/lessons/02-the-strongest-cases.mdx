@@ -64,18 +64,10 @@ Climate policy buys benefits for people decades away with costs paid by people a
 The *Stern Review* (2006–07), commissioned by the UK Treasury, discounted the future at about **1.4 percent**, on an explicitly ethical argument: the only defensible reason to count a future person's welfare for less is the small chance humanity won't be there at all, so pure time preference should be nearly zero. Nordhaus's DICE runs of that era discounted at roughly **4.3 percent**, on a revealed-preference argument: discount rates should match the returns societies actually demand from investments (observable in markets), not a philosopher's ideal; using an artificially low rate misallocates capital that could grow into greater future wealth. Stern's number told governments to decarbonize urgently; Nordhaus's recommended a modest, slowly rising carbon price. Their estimates of the social cost of carbon differed by roughly an order of magnitude — from identical climate science.
 
 <Figure caption="Compounding a constant discount rate over the 75 years from 2025 to 2100. The same $1,000 of damage justifies spending about $350 today to prevent at Stern's rate, but only about $43 at Nordhaus's — an eightfold gap produced entirely by the choice of rate. (Illustrative arithmetic; both economists used rate schedules that decline over time.)">
-  <svg viewBox="0 0 720 270" width="100%" role="img" aria-label="Two bars comparing the present value of 1,000 dollars of climate damage occurring in 2100: about 350 dollars at Stern's 1.4 percent discount rate versus about 43 dollars at Nordhaus's 4.3 percent rate" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-    <text x="40" y="26" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">What is $1,000 of climate damage in 2100 worth today?</text>
-    <line x1="40" y1="210" x2="680" y2="210" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-    <rect x="150" y="52" width="150" height="158" fill="var(--blue, #2f4d6e)" />
-    <rect x="430" y="191" width="150" height="19" fill="var(--accent, #8a2a1e)" />
-    <text x="225" y="44" fontFamily="Georgia, serif" fontSize="16" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">about $350</text>
-    <text x="505" y="183" fontFamily="Georgia, serif" fontSize="16" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">about $43</text>
-    <text x="225" y="232" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Stern: 1.4% discount rate</text>
-    <text x="505" y="232" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle">Nordhaus: 4.3% discount rate</text>
-    <text x="225" y="250" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">"act aggressively now"</text>
-    <text x="505" y="250" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">"modest carbon price, rising slowly"</text>
-  </svg>
+<DataBars title="What is $1,000 of climate damage in 2100 worth today? (rounded)" unit="$" max={1000} bars={[
+  {label: 'Stern: 1.4% discount rate', value: 350, color: 'blue', note: '“Act aggressively now”'},
+  {label: 'Nordhaus: 4.3% discount rate', value: 43, color: 'accent', note: '“Modest carbon price, rising slowly”'},
+]} />
 </Figure>
 
 Notice what kind of disagreement this is. The choice between 1.4 and 4.3 percent is not an empirical question awaiting better data; it is a [[term:consequentialism]]-flavored ethical question — how much does a person born in 2090 count? — wearing quantitative clothing. That is why the U.S. government's own number has swung with the ethics and the politics: EPA's 2023 update put the central social cost of carbon at **$190 per ton** of CO2 (for 2020 emissions) using a 2 percent near-term discount rate, with sensitivity runs from $120 (at 2.5 percent) to $340 (at 1.5 percent). Whoever picks the rate largely picks the verdict.

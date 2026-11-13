@@ -80,26 +80,28 @@ Inaction has a second virtue defeat lacks: it leaves no record. A member forced 
 
 Now to the gate where Manchin–Toomey died. The Senate has not one threshold but three, and confusing them is the most common error in reading congressional news. Fifty-one votes (or fifty plus the Vice President) pass a bill — once it gets a final vote. Sixty votes invoke cloture and *get* it that final vote. Sixty-seven — two-thirds, if all hundred are voting — override a veto. The figure below puts the three on one line:
 
-<Figure caption="The Senate's three thresholds, drawn on a line of 100 senators sorted from opposition to support. A bill backed by 51 to 59 senators commands a majority and, for ordinary legislation, has no path to a final vote; at 60 it can defeat a filibuster but not a veto; at 67 it is unstoppable. Manchin–Toomey, at 54, died in the gold zone — a majority that cannot legislate.">
-  <svg viewBox="0 0 720 200" width="100%" role="img" aria-label="Number line of 100 senators showing thresholds at 51 votes to pass, 60 to invoke cloture, and 67 to override a veto, with the zone from 51 to 59 marked as a majority that is still blocked">
-    <rect x="40" y="100" width="320" height="28" fill="var(--line, #d9d5c9)" rx="3"/>
-    <rect x="360" y="100" width="58" height="28" fill="var(--gold, #b08a3e)"/>
-    <rect x="418" y="100" width="44" height="28" fill="var(--blue, #2f4d6e)"/>
-    <rect x="462" y="100" width="218" height="28" fill="var(--green, #4a6b3a)" rx="3"/>
-    <line x1="360" y1="58" x2="360" y2="100" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
-    <line x1="418" y1="88" x2="418" y2="100" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
-    <line x1="462" y1="58" x2="462" y2="100" stroke="var(--ink, #14130f)" strokeWidth="1.5"/>
-    <text x="354" y="50" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="end" fontWeight="bold">51 — passage</text>
-    <text x="418" y="82" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">60 — cloture</text>
-    <text x="468" y="50" fontFamily="Georgia, serif" fontSize="13" fill="var(--ink, #14130f)" textAnchor="start" fontWeight="bold">67 — veto override</text>
-    <text x="200" y="152" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">1–50: cannot pass</text>
-    <text x="380" y="170" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">51–59: majority, still blocked</text>
-    <text x="471" y="152" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="start">60–66: filibuster-proof</text>
-    <text x="571" y="170" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">67+: veto-proof</text>
-  </svg>
+<Figure caption="The Senate's three thresholds, drawn on a line of 100 senators sorted from opposition to support. A bill backed by 51 to 59 senators commands a majority and, for ordinary legislation, has no path to a final vote; at 60 it can defeat a filibuster but not a veto; at 67 it is unstoppable. Manchin–Toomey, at 54, died in the 51-to-59 zone — a majority that cannot legislate.">
+<Scale
+  title="How many senators support the bill?"
+  unit="senators in favor"
+  max={100}
+  start={54}
+  zones={[
+    {upTo: 50, label: 'Cannot pass', detail: 'Short of the 51 votes passage takes.'},
+    {upTo: 59, label: 'A majority, still blocked', detail: 'Enough to pass, but for ordinary legislation there is no path to a final vote without 60.', tone: 'gold'},
+    {upTo: 66, label: 'Filibuster-proof', detail: 'Enough to invoke cloture and defeat a filibuster, but not a veto.', tone: 'blue'},
+    {upTo: 100, label: 'Veto-proof', detail: 'Enough to override a veto. The bill is unstoppable.', tone: 'green'},
+  ]}
+  examples={[
+    {value: 51, label: 'passage'},
+    {value: 54, label: 'Manchin–Toomey'},
+    {value: 60, label: 'cloture'},
+    {value: 67, label: 'veto override'},
+  ]}
+/>
 </Figure>
 
-The gold zone is where modern legislation goes to die. A proposal with 54 or 57 supporters reads as a winner in every poll and every press release, yet for ordinary legislation it has no more path to enactment than a proposal with 20 — unless it can be recast as budget math and ride reconciliation, which is precisely the Lesson 2 story run in reverse. And the zone's history cuts the other way too: when the Senate invoked cloture on the Civil Rights Act on June 10, 1964 — 71 votes to 29, the first cloture ever achieved on a civil rights bill — the supermajority requirement meant the law arrived with a coalition broad enough that no later Congress seriously tried to repeal it. Both facts are the same mechanism.
+The 51-to-59 zone is where modern legislation goes to die. A proposal with 54 or 57 supporters reads as a winner in every poll and every press release, yet for ordinary legislation it has no more path to enactment than a proposal with 20 — unless it can be recast as budget math and ride reconciliation, which is precisely the Lesson 2 story run in reverse. And the zone's history cuts the other way too: when the Senate invoked cloture on the Civil Rights Act on June 10, 1964 — 71 votes to 29, the first cloture ever achieved on a civil rights bill — the supermajority requirement meant the law arrived with a coalition broad enough that no later Congress seriously tried to repeal it. Both facts are the same mechanism.
 
 <QuickCheck
   question="A (non-budget) bill passes the House 290–140. Fifty-seven senators are committed supporters, and the President is eager to sign it. Where does it most likely die?"

@@ -118,36 +118,16 @@ The framers knew they were shipping version 1.0. Article V is the update mechani
 **Proposal** can happen two ways: two-thirds of both the House and the Senate can propose an amendment, or two-thirds of the state legislatures (34 of 50) can apply to Congress, which "shall call a Convention for proposing Amendments." **Ratification** then requires three-fourths of the states — 38 of 50 — acting either through their legislatures or through one-time state conventions, whichever mode Congress designates.
 
 <Figure caption="Article V's two-by-two design. In over two centuries of practice, only one cell of the matrix has carried every amendment but one — congressional proposal plus legislative ratification. The convention track has never produced a proposal, and the convention ratification mode was used exactly once. Either proposal track can pair with either ratification track — Congress picks the ratification mode — and the President has no formal role in any of it (Hollingsworth v. Virginia, 1798).">
-  <svg viewBox="0 0 720 280" width="100%" role="img" aria-label="Flow diagram of the Article V amendment process: two proposal tracks (Congress, used 33 times; a national convention, never used) converge and then branch to two ratification tracks (state legislatures, used for 26 amendments; state conventions, used once)" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-        <path d="M0,0 L8,4 L0,8 z" fill="var(--muted, #6b6457)" />
-      </marker>
-    </defs>
-    <text x="40" y="28" fontFamily="Georgia, serif" fontSize="14" fill="var(--muted, #6b6457)" fontWeight="bold">1 · PROPOSAL (either track)</text>
-    <text x="440" y="28" fontFamily="Georgia, serif" fontSize="14" fill="var(--muted, #6b6457)" fontWeight="bold">2 · RATIFICATION (either track)</text>
-    <rect x="40" y="44" width="290" height="88" rx="10" fill="var(--blue, #2f4d6e)" fillOpacity="0.12" stroke="var(--blue, #2f4d6e)" strokeWidth="1.5" />
-    <text x="56" y="70" fontFamily="Georgia, serif" fontSize="14.5" fill="var(--ink, #14130f)" fontWeight="bold">Congress proposes</text>
-    <text x="56" y="92" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">2/3 of the House and 2/3 of the Senate</text>
-    <text x="56" y="116" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--blue, #2f4d6e)" fontWeight="bold">Used for all 33 amendments sent out</text>
-    <rect x="40" y="166" width="290" height="88" rx="10" fill="none" stroke="var(--muted, #6b6457)" strokeWidth="1.5" strokeDasharray="6,4" />
-    <text x="56" y="192" fontFamily="Georgia, serif" fontSize="14.5" fill="var(--ink, #14130f)" fontWeight="bold">National convention proposes</text>
-    <text x="56" y="214" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">Called by Congress when 2/3 of the</text>
-    <text x="56" y="232" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">states (34) apply for one</text>
-    <text x="56" y="250" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)" fontWeight="bold">Used 0 times</text>
-    <line x1="330" y1="88" x2="385" y2="149" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-    <line x1="330" y1="210" x2="385" y2="149" stroke="var(--muted, #6b6457)" strokeWidth="1.5" />
-    <line x1="385" y1="149" x2="432" y2="88" stroke="var(--muted, #6b6457)" strokeWidth="1.5" markerEnd="url(#arrowhead)" />
-    <line x1="385" y1="149" x2="432" y2="210" stroke="var(--muted, #6b6457)" strokeWidth="1.5" markerEnd="url(#arrowhead)" />
-    <rect x="440" y="44" width="260" height="88" rx="10" fill="var(--green, #4a6b3a)" fillOpacity="0.12" stroke="var(--green, #4a6b3a)" strokeWidth="1.5" />
-    <text x="456" y="70" fontFamily="Georgia, serif" fontSize="14.5" fill="var(--ink, #14130f)" fontWeight="bold">3/4 of state legislatures</text>
-    <text x="456" y="92" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">38 of 50 states</text>
-    <text x="456" y="116" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--green, #4a6b3a)" fontWeight="bold">Used for 26 of the 27 amendments</text>
-    <rect x="440" y="166" width="260" height="88" rx="10" fill="var(--gold, #b08a3e)" fillOpacity="0.14" stroke="var(--gold, #b08a3e)" strokeWidth="1.5" />
-    <text x="456" y="192" fontFamily="Georgia, serif" fontSize="14.5" fill="var(--ink, #14130f)" fontWeight="bold">Conventions in 3/4 of states</text>
-    <text x="456" y="214" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)">One-time state conventions</text>
-    <text x="456" y="238" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--gold, #b08a3e)" fontWeight="bold">Used once — 21st Amendment (1933)</text>
-  </svg>
+<Flow title="Article V: two ways to propose, two ways to ratify" steps={[
+  {label: '1 · Proposal (either track)', nodes: [
+    {title: 'Congress proposes', detail: '2/3 of the House and 2/3 of the Senate. Used for all 33 amendments sent out.', tone: 'blue'},
+    {title: 'A national convention proposes', detail: 'Called by Congress when 2/3 of the states (34) apply for one. Used 0 times.', tone: 'ink'},
+  ]},
+  {label: '2 · Ratification (either track)', nodes: [
+    {title: '3/4 of state legislatures', detail: '38 of 50 states. Used for 26 of the 27 amendments.', tone: 'green'},
+    {title: 'Conventions in 3/4 of states', detail: 'One-time state conventions. Used once: the 21st Amendment (1933).', tone: 'gold'},
+  ]},
+]} />
 </Figure>
 
 The numbers tell you how steep the climb is. Members of Congress have introduced more than 11,000 amendment proposals since 1789, by the Senate's own count. Thirty-three cleared the two-thirds hurdle and went to the states. Twenty-seven made it through [[term:ratification]]. The convention route — the states' emergency bypass around a Congress that refuses to act — has never once been used, though campaigns for a balanced-budget-amendment convention have come within a handful of states of the 34 needed, and the procedure's unsettled rules (Who picks delegates? Can a convention be limited to one topic?) are among the liveliest open questions in constitutional law.

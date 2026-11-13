@@ -164,36 +164,11 @@ The mechanisms matter because of what they protect, so anchor the scale in verif
 The deeper pattern is a long-run U-shape, which the figure below traces for the very top sliver — the wealthiest one-thousandth of households.
 
 <Figure caption="The top 0.1% wealth share traces a U: a 1929 peak near 25%, a mid-century trough, and a climb from about 7% in 1978 to roughly 22% by 2012. The shape, not any single point, is the finding." source="Saez & Zucman, Quarterly Journal of Economics 131(2) (2016).">
-  <svg viewBox="0 0 720 300" width="100%" role="img" aria-label="Line chart of the top 0.1 percent U.S. wealth share from 1913 to 2012, peaking near 25 percent around 1929, falling to about 7 percent in the late 1970s, and rising to about 22 percent by 2012.">
-    {/* axes */}
-    <line x1="70" y1="40" x2="70" y2="250" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" />
-    <line x1="70" y1="250" x2="690" y2="250" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" />
-    {/* y gridlines + labels: 0,10,20,25 -> y = 250 - share*8.4 */}
-    <line x1="70" y1="208" x2="690" y2="208" stroke="var(--line, #d9d5c9)" strokeWidth="1" strokeDasharray="3 4" />
-    <line x1="70" y1="166" x2="690" y2="166" stroke="var(--line, #d9d5c9)" strokeWidth="1" strokeDasharray="3 4" />
-    <line x1="70" y1="40" x2="690" y2="40" stroke="var(--line, #d9d5c9)" strokeWidth="1" strokeDasharray="3 4" />
-    <text x="58" y="254" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="end">0%</text>
-    <text x="58" y="212" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="end">10%</text>
-    <text x="58" y="170" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="end">20%</text>
-    <text x="58" y="44" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="end">25%</text>
-    {/* x labels: 1913 -> x=70, 2012 -> x=690, span 99 yrs, ~6.26 px/yr */}
-    <text x="70" y="270" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="middle">1913</text>
-    <text x="170" y="270" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="middle">1929</text>
-    <text x="427" y="270" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="middle">1970</text>
-    <text x="640" y="270" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="middle">2004</text>
-    <text x="690" y="270" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="middle">2012</text>
-    {/* the U curve. y = 250 - share*8.4 */}
-    <polyline
-      points="70,124 120,103 170,40 220,99 290,140 365,180 415,191 465,182 540,145 615,90 690,66"
-      fill="none" stroke="var(--accent, #8a2a1e)" strokeWidth="2.5" strokeLinejoin="round" />
-    {/* annotation dots */}
-    <circle cx="170" cy="40" r="4" fill="var(--accent, #8a2a1e)" />
-    <circle cx="415" cy="191" r="4" fill="var(--accent, #8a2a1e)" />
-    <circle cx="690" cy="66" r="4" fill="var(--accent, #8a2a1e)" />
-    <text x="186" y="36" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="start">~25% (1929)</text>
-    <text x="400" y="212" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="start">~7% trough (late 1970s)</text>
-    <text x="676" y="58" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="end">~22% (2012)</text>
-  </svg>
+<DataBars title="Top 0.1% share of U.S. wealth (approximate)" unit="%" max={30} bars={[
+  {label: '1929: the peak', value: 25, color: 'accent'},
+  {label: 'Late 1970s: the trough', value: 7, color: 'blue'},
+  {label: '2012', value: 22, color: 'accent'},
+]} />
 </Figure>
 
 Read the curve as a sentence. Wealth concentration at the very top was near its modern maximum on the eve of the Great Depression, collapsed across the New Deal and the mid-century decades of high top tax rates and broad growth, bottomed out in the 1970s, and has climbed steeply since — from roughly 7 percent in 1978 to about 22 percent by 2012 (Saez and Zucman, *QJE*, 2016). That return toward [[term:gilded-age]] levels is the empirical fact that makes the wealth-defense question urgent: this is not a permanent feature of American capitalism but a historically specific reversal, which means policy and institutions plausibly drove it — and could plausibly bend it back. *Whether* they did, and *whose* policy, is the fight Lesson 2 takes up.
