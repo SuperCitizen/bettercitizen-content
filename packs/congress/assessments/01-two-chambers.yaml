@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: two-chambers
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The Great Compromise of July 16, 1787 resolved a deadlock between the Virginia and New Jersey plans. What did it actually settle?"
+    choices:
+      - id: a
+        text: "Both chambers would be apportioned by population, but small states got an extra seat in each"
+      - id: b
+        text: "The House would be apportioned by population and the Senate would give every state an equal vote"
+      - id: c
+        text: "Congress would have a single chamber in which votes were weighted half by population and half by statehood"
+      - id: d
+        text: "The Senate would be apportioned by population and the House would give every state an equal vote"
+    correct_choice_id: b
+    explanation: "Sherman's formula kept the Virginia Plan's two chambers but gave them different foundations: population in the House, one equal voice per state in the Senate. Option (d) is the classic reversal — the chamber whose seats follow the census is the House, which is why California has 52 representatives and still only two senators."
+    concepts: [bicameral, federalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A party wins a landslide in a single November election. Which outcome is structurally impossible that year?"
+    choices:
+      - id: a
+        text: "The party gains a majority in the House it did not previously hold"
+      - id: b
+        text: "Every House incumbent from the other party loses"
+      - id: c
+        text: "The party wins control of the Senate by flipping a few seats"
+      - id: d
+        text: "The party replaces a majority of all sitting senators in that one election"
+    correct_choice_id: d
+    explanation: "Only about a third of Senate seats (33 or 34) are on any one ballot because terms are six years and staggered, so no single election can replace most of the Senate. Flipping *control* (c) is possible if the chamber is closely divided, and every House seat (a, b) is up every two years. The staggered calendar is what makes the Senate the slower-turning chamber."
+    concepts: [bicameral]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which power belongs to the Senate alone, with no role for the House?"
+    choices:
+      - id: a
+        text: "Starting a bill that raises revenue"
+      - id: b
+        text: "Bringing articles of impeachment against a federal official"
+      - id: c
+        text: "Confirming a President's nominee to the Supreme Court"
+      - id: d
+        text: "Overriding a presidential veto"
+    correct_choice_id: c
+    explanation: "Confirmation is part of the Senate's advice-and-consent power (Art. II, §2). Revenue bills must *start* in the House (a), the House *brings* impeachment charges while the Senate tries them (b), and a veto override takes two-thirds of *both* chambers (d)."
+    concepts: [advice-and-consent, impeachment, separation-of-powers]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A friend says, 'The Constitution requires 60 votes to pass a bill in the Senate, so getting rid of the filibuster would take an amendment.' What's wrong with that claim?"
+    choices:
+      - id: a
+        text: "Nothing — the 60-vote rule is in Article I"
+      - id: b
+        text: "The 60-vote cloture threshold is a Senate rule (Rule XXII), so the Senate can change it without amending the Constitution"
+      - id: c
+        text: "The filibuster was abolished by the Seventeenth Amendment in 1913"
+      - id: d
+        text: "The 60-vote rule applies to the House, not the Senate"
+    correct_choice_id: b
+    explanation: "The Constitution asks for a simple majority in each chamber. The three-fifths cloture threshold comes from the Senate's own Rule XXII, in its current form since 1975. That's why filibuster fights are fights over Senate rules, while changing equal representation in the Senate would require an amendment — and the consent of every affected state under Article V."
+    concepts: [bicameral]
+
+  - id: q5
+    kind: free-response
+    text: "Nebraska has run a one-chamber legislature since 1937, and the U.S. Senate gives Wyoming (about 577,000 people) the same two senators as California (about 39.5 million). Pick one: should a legislature have a second chamber at all, or should the U.S. Senate keep equal representation? Make the strongest case for the side you *don't* hold first, then your own."
+    socratic_seed: "Start from the two-locks image: what bad outcomes does a second chamber block, and what good ones does it also block? If you're defending equal representation, who exactly is protected — and are those people defined by shared interests or only by state lines? If you're attacking it, what protects less-populous regions in a purely population-based Congress?"
+    concepts: [bicameral, federalism]

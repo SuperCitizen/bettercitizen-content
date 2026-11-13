@@ -6,9 +6,9 @@
     "dangling_term_links": 0,
     "dangling_topic_tags": 225,
     "glossary_terms": 306,
-    "lessons": 149,
+    "lessons": 150,
     "orphan_glossary_terms": 120,
-    "packs": 40,
+    "packs": 41,
     "packs_with_explicit_teaches": 1,
     "prerequisite_edges": 1,
     "terms_referenced": 186
@@ -774,6 +774,66 @@
         "progressivism",
         "religious-traditionalism",
         "shared-goods"
+      ]
+    },
+    "congress": {
+      "assumes": [],
+      "lessons": [
+        {
+          "concepts": [
+            "advice-and-consent",
+            "bicameral",
+            "federalism",
+            "impeachment",
+            "separation-of-powers"
+          ],
+          "effective": [
+            "advice-and-consent",
+            "bicameral",
+            "federalism",
+            "filibuster",
+            "impeachment",
+            "separation-of-powers"
+          ],
+          "links": [
+            "advice-and-consent",
+            "bicameral",
+            "federalism",
+            "filibuster",
+            "impeachment",
+            "separation-of-powers"
+          ],
+          "slug": "two-chambers",
+          "teaches": [],
+          "teaches_source": "links",
+          "title": "Why does Congress have two chambers?"
+        }
+      ],
+      "level": "intro",
+      "references": [
+        "advice-and-consent",
+        "bicameral",
+        "federalism",
+        "filibuster",
+        "impeachment",
+        "separation-of-powers"
+      ],
+      "teaches": [
+        "advice-and-consent",
+        "bicameral",
+        "federalism",
+        "filibuster",
+        "impeachment",
+        "separation-of-powers"
+      ],
+      "teaches_source": "links",
+      "title": "Congress",
+      "topics": [
+        "advice-and-consent",
+        "bicameral",
+        "federalism",
+        "impeachment",
+        "separation-of-powers"
       ]
     },
     "constitution-basics": {
@@ -5514,15 +5574,24 @@
     "advice-and-consent": {
       "glossary": true,
       "packs": [
+        "congress",
         "three-branches"
       ],
       "referenced_in": [
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
+        },
         {
           "lesson": "checks-and-balances",
           "pack": "three-branches"
         }
       ],
       "taught_in": [
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
+        },
         {
           "lesson": "checks-and-balances",
           "pack": "three-branches"
@@ -5951,11 +6020,16 @@
     "bicameral": {
       "glossary": true,
       "packs": [
+        "congress",
         "constitution-basics",
         "how-bills-become-law",
         "three-branches"
       ],
       "referenced_in": [
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
+        },
         {
           "lesson": "preamble-and-articles",
           "pack": "constitution-basics"
@@ -5970,6 +6044,10 @@
         }
       ],
       "taught_in": [
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
+        },
         {
           "lesson": "preamble-and-articles",
           "pack": "constitution-basics"
@@ -7702,6 +7780,7 @@
         "bill-of-rights",
         "city-councils",
         "climate",
+        "congress",
         "electoral-college",
         "healthcare",
         "housing",
@@ -7736,6 +7815,10 @@
         {
           "lesson": "the-policy-landscape",
           "pack": "climate"
+        },
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
         },
         {
           "lesson": "the-strongest-cases",
@@ -7810,6 +7893,10 @@
         {
           "lesson": "the-policy-landscape",
           "pack": "climate"
+        },
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
         },
         {
           "lesson": "the-strongest-cases",
@@ -7980,6 +8067,7 @@
       "packs": [
         "citizens-united",
         "climate",
+        "congress",
         "constitution-basics",
         "electoral-college",
         "emergency-powers",
@@ -8002,6 +8090,10 @@
         {
           "lesson": "the-policy-landscape",
           "pack": "climate"
+        },
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
         },
         {
           "lesson": "the-unwritten-constitution",
@@ -8080,6 +8172,10 @@
         {
           "lesson": "the-policy-landscape",
           "pack": "climate"
+        },
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
         },
         {
           "lesson": "the-unwritten-constitution",
@@ -8729,9 +8825,14 @@
     "impeachment": {
       "glossary": true,
       "packs": [
+        "congress",
         "three-branches"
       ],
       "referenced_in": [
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
+        },
         {
           "lesson": "checks-and-balances",
           "pack": "three-branches"
@@ -8742,6 +8843,10 @@
         }
       ],
       "taught_in": [
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
+        },
         {
           "lesson": "checks-and-balances",
           "pack": "three-branches"
@@ -11137,12 +11242,17 @@
     "separation-of-powers": {
       "glossary": true,
       "packs": [
+        "congress",
         "constitution-basics",
         "emergency-powers",
         "the-administrative-state",
         "three-branches"
       ],
       "referenced_in": [
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
+        },
         {
           "lesson": "preamble-and-articles",
           "pack": "constitution-basics"
@@ -11165,6 +11275,10 @@
         }
       ],
       "taught_in": [
+        {
+          "lesson": "two-chambers",
+          "pack": "congress"
+        },
         {
           "lesson": "preamble-and-articles",
           "pack": "constitution-basics"
