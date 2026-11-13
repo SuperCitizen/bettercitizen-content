@@ -30,7 +30,7 @@ questions:
       - id: d
         text: "The party replaces a majority of all sitting senators in that one election"
     correct_choice_id: d
-    explanation: "Only about a third of Senate seats (33 or 34) are on any one ballot because terms are six years and staggered, so no single election can replace most of the Senate. Flipping *control* (c) is possible if the chamber is closely divided, and every House seat (a, b) is up every two years. The staggered calendar is what makes the Senate the slower-turning chamber."
+    explanation: "Only about a third of Senate seats (33 or 34, plus the occasional special election for a vacancy) are on any one ballot because terms are six years and staggered, so no single election can replace most of the Senate. Flipping *control* (c) is possible if the chamber is closely divided, and every House seat (a, b) is up every two years. The staggered calendar is what makes the Senate the slower-turning chamber."
     concepts: [bicameral]
 
   - id: q3
@@ -62,7 +62,7 @@ questions:
       - id: d
         text: "The 60-vote rule applies to the House, not the Senate"
     correct_choice_id: b
-    explanation: "The Constitution asks for a simple majority in each chamber. The three-fifths cloture threshold comes from the Senate's own Rule XXII, in its current form since 1975. That's why filibuster fights are fights over Senate rules, while changing equal representation in the Senate would require an amendment — and the consent of every affected state under Article V."
+    explanation: "The Constitution asks for a simple majority in each chamber. The three-fifths cloture threshold comes from the Senate's own Rule XXII, which has set it at that level for legislation since 1975. That's why filibuster fights are fights over Senate rules, while changing equal representation in the Senate would require an amendment — and the consent of every affected state under Article V."
     concepts: [bicameral]
 
   - id: q5
