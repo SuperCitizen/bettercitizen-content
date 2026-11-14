@@ -73,6 +73,67 @@ same sourcing bar.
 
 A pack takes one level; pick the rung of its *first* lesson's assumptions.
 
+## Reading levels (editions)
+
+A topic can be written more than once, at different reading levels. Each version is an **edition**: a pack of its own, with its own lessons and assessments, that names its `reading_level:` and the `topic:` it shares with the other editions. The decision record is [`docs/adr/0002-editions-one-topic-three-reading-levels.md`](docs/adr/0002-editions-one-topic-three-reading-levels.md), and the first topic written this way is the three branches: [`packs/three-branches-1`](packs/three-branches-1), [`packs/three-branches-2`](packs/three-branches-2) and [`packs/three-branches`](packs/three-branches).
+
+```yaml
+slug: three-branches-1
+title: The three branches
+topic: three-branches     # the same on every edition of the topic; the pack's own slug when absent
+reading_level: 1          # 1 | 2 | 3; 3 when absent
+```
+
+**The levels are numbers, and only numbers.** A level describes the text. It never names the reader, their age or their school, because nobody should be told at every turn that they are on the text for younger readers, and because the same level serves a ten-year-old, an adult coming to the subject cold and a learner whose first language is not English. So:
+
+- Every edition of a topic carries the same title. The level is never written into a title, a summary, a heading or the body of a lesson.
+- The slug carries it as a bare number: the level 3 edition keeps the topic's slug, and the others add `-1` or `-2`.
+- An app shows it as a small mark of one, two or three bars, and says "level 1", "level 2" or "level 3".
+- Who each level suits is written here, for authors, and published through the app's API for the adults and partner sites that choose a level for someone. It is not shown to the learner.
+
+`reading_level` is how hard the text is to read. `level` (above) is what the pack assumes the reader already knows. They are separate: a level 1 or level 2 edition is almost always `level: intro`, and the four values of `level` keep their meaning inside level 3.
+
+An edition is written from scratch for its reader. It is never the level 3 text with shorter words. It may have a different number of lessons, and its lessons have their own slugs. Editions are for the core civics spine, not for every pack.
+
+Every edition keeps the same bar for truth and sourcing, the same neutrality rules, the same component catalog and the same figure rules. The rest of this guide describes level 3. What changes for the other two:
+
+### Level 1
+
+Written to be read alone from about age 10 (roughly grades 5 to 8), and with an adult by younger readers.
+
+- **Reading grade about 5 to 7, never above 8. 600–1,000 words a lesson.** Three or four short lessons serve this reader better than two long ones.
+- **Open with a scene the reader has lived** (a playground, a classroom, a family rule), then say where the comparison breaks down.
+- **Define every new word in the sentence that introduces it.** Name a document or a case only when the lesson needs it. Leave the scholars out.
+- **One idea to a paragraph, in sentences of ordinary length** (about twelve words on average). A run of very short sentences reads as talking down, and it is not what a good book for this reader sounds like.
+- **Simplify, never falsify.** Prefer "most", "usually" and "almost no" to a clean rule that is not true. Every number still has a source and a date.
+- **Per lesson:** two checks (`Checkpoint`, `QuickCheck`), one thing to do (`MatchUp`, `OrderIt`), and one or two figures.
+- **Assessment:** three or four multiple-choice questions in plain words, with choices of similar length, and one free response that asks the reader to explain the idea to someone else.
+- **Anchor:** the grades 6–8 civics indicators of the C3 Framework for Social Studies State Standards (for the three branches, D2.Civ.4.6-8, the powers and limits of the three branches).
+
+### Level 2
+
+Written to be read alone from about age 14 (roughly grades 9 to 12).
+
+- **Reading grade about 9 to 11, never above 12. 1,200–1,800 words a lesson.**
+- **Title the question the reader already has.** Teach a mechanism on invented, neutral ground before the real cases. Pair real examples across party lines. Name the near miss right after each definition. (These are the Foundations track's teaching moves, bettercitizen.ai#52.)
+- **Put a document in front of the reader.** Each lesson quotes at least one primary-source passage at length (`<Callout type="sources" title="Read the document: …">`) and asks a question that can only be answered from it. The assessment has at least one question built on a quoted passage.
+- **Name a scholar when their argument is the open question**, in a sentence or two, and close on what the lesson does not settle.
+- **Per lesson:** two to four checks, at most one simulator, and the figures the argument needs.
+- **Assessment:** four multiple-choice questions and one free response that asks for evidence.
+- **Anchor:** the AP U.S. Government and Politics course framework.
+
+### Level 3
+
+Written for adults and college students. Everything else in this guide.
+
+### Glossary links in any edition
+
+A `[[term:slug]]` link shows the term's name as the glossary writes it, capital letter included. Place it where that reads as a sentence, which usually means at the start: "[[term:judicial-review]] is the name for that power." A level 1 lesson needs one to three links; the definitions behind them are written at level 3.
+
+### The check
+
+`npm run check:reading` measures each lesson's prose (the Markdown body and the children of components; not frontmatter, tables or component props) and reports its Flesch-Kincaid grade and word count. It fails a level 1 or level 2 lesson outside its band and reports level 3 lessons without failing them. Syllables are counted by rule, so read the grade as a gauge good to about half a grade. As measured in November 2026, the three-branches topic reads at about grade 5 (level 1), 9 (level 2) and 12 (level 3).
+
 ## Interactive components (MDX)
 
 Lessons are **MDX**: markdown plus a fixed catalog of interactive components

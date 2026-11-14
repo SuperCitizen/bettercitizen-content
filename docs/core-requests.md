@@ -2,7 +2,7 @@
 
 What the lesson content needs from core that `core-api.md` doesn't offer yet. Core reads this file and answers in its `CHANGELOG.md`, as it does for each app's `docs/core-requests.md`. Numbers here start with C so they don't collide with an app's.
 
-Last updated 2026-11-09, against core 0.1.0 as built on 2026-11-06 and this repo's working tree after [ADR 0001](adr/0001-figures-are-content.md) (figures are content, not drawings). These extend two requests the Apple app already filed: its R21 (type the MDX components, keep `<Figure caption>`) and R22 (figure assets as real SVG).
+Last updated 2026-11-13 (C7 added; the rest is as of 2026-11-09), against core 0.1.0 as built on 2026-11-06 and this repo's working tree after [ADR 0001](adr/0001-figures-are-content.md) (figures are content, not drawings). These extend two requests the Apple app already filed: its R21 (type the MDX components, keep `<Figure caption>`) and R22 (figure assets as real SVG).
 
 ## Why this is urgent
 
@@ -83,3 +83,23 @@ After ADR 0001 the content has two drawings (four assets with the dark palette),
 ### C6. Validation
 
 Core accepts exactly what the web validator accepts, and the web validator does not check props. The catalog now has shapes worth refusing at import: a `Panels` with fewer than two or more than four panels, a `Scale` whose zones don't ascend to `max`, a `Chart` point that isn't two numbers, a `Ballot` preset naming a candidate who isn't on it. If core checks them, please tell bettercitizen.ai so both validators agree.
+
+### C7. Editions: carry `reading_level` and `topic` on a pack (ADR 0002)
+
+A pack may now say how hard it is to read and which topic it belongs to ([ADR 0002](adr/0002-editions-one-topic-three-reading-levels.md)):
+
+```yaml
+slug: three-branches-1
+title: The three branches
+topic: three-branches     # the pack's own slug when absent
+reading_level: 1          # 1 | 2 | 3; 3 when absent
+```
+
+Proposed:
+
+- `PackDoc` gains `reading_level` (an integer 1 to 3, default 3) and `topic` (a slug, default the pack's slug), and `list_packs` and `get_pack` return both.
+- The importer rejects two packs with the same `topic` and `reading_level`.
+- `list_packs` and `get_pack` take an optional `reading_level`, as the server's `/api/v1/packs?reading_level=` does, so an app can show one level at a time.
+- An app shows the level as a small mark of one, two or three bars and never as a name for the reader ("middle school"). Editions of a topic share a title on purpose.
+
+Until this lands, core reads an edition as one more pack with the same title as its siblings. The native apps should stay on content from before the first edition pack (`packs/three-branches-1`, `packs/three-branches-2`).

@@ -4,12 +4,13 @@
   "description": "Curriculum and reference content for BetterCitizen. Content authors never need npm — these dev tools only verify MDX lessons and the component library.",
   "type": "module",
   "scripts": {
-    "check": "npm run check:mdx && npm run check:components && npm run check:render && npm run check:concepts",
+    "check": "npm run check:mdx && npm run check:components && npm run check:render && npm run check:concepts && npm run check:reading",
     "check:mdx": "node scripts/check-mdx.mjs",
     "check:components": "tsc --noEmit",
     "check:render": "node scripts/render-smoke.mjs",
     "check:figures": "node scripts/check-figures.mjs",
     "check:concepts": "node scripts/build-concept-index.mjs --check",
+    "check:reading": "node scripts/check-reading-level.mjs",
     "build:concepts": "node scripts/build-concept-index.mjs"
   },
   "devDependencies": {

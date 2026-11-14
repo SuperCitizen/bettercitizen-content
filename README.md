@@ -52,6 +52,8 @@ Contested packs (`contested: true`) require each lesson to carry
 `perspectives:` presenting multiple viewpoints without editorializing. The
 validator rejects content that breaks these rules — see **Validation** below.
 
+A topic can be written at more than one reading level. Each **edition** is a pack of its own that names its `reading_level:` (`1`, `2` or `3`; `3` when absent) and the `topic:` it shares with the others. `packs/three-branches-1`, `packs/three-branches-2` and `packs/three-branches` are the first set. See [STYLE.md](STYLE.md), "Reading levels (editions)".
+
 ## How the app consumes this
 
 Today (Phase 1) the app reads this repo from a sibling checkout on disk:
