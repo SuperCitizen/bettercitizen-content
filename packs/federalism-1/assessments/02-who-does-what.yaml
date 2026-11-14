@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: who-does-what
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Why can one stamp carry a letter across many states?"
+    choices:
+      - id: a
+        text: "Each state agrees to carry the mail of the others"
+      - id: b
+        text: "The national government runs the mail everywhere"
+      - id: c
+        text: "The biggest state runs the mail for all the rest"
+      - id: d
+        text: "Each city pays for the mail that passes through"
+    correct_choice_id: b
+    explanation: "The Constitution gives Congress the power to set up post offices. One government runs the mail for the whole country, so a letter does not need a new stamp at each state line."
+    concepts: [federalism, enumerated-powers]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A power is not given to the national government, and it is not taken away from the states. Who holds it?"
+    choices:
+      - id: a
+        text: "The states or the people"
+      - id: b
+        text: "The President or Congress"
+      - id: c
+        text: "The courts or the judges"
+      - id: d
+        text: "The army or the navy"
+    correct_choice_id: a
+    explanation: "That is what the Tenth Amendment says. Powers that were not handed to the national government, and were not forbidden to the states, are kept by the states or by the people."
+    concepts: [tenth-amendment, reserved-powers]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which of these jobs do both governments share?"
+    choices:
+      - id: a
+        text: "Coining money"
+      - id: b
+        text: "Declaring war"
+      - id: c
+        text: "Collecting taxes"
+      - id: d
+        text: "Making treaties"
+    correct_choice_id: c
+    explanation: "Both the national government and the states can collect taxes. The other three jobs belong only to the national government, and the Constitution says that no state may coin money or make a treaty."
+    concepts: [concurrent-powers, federalism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A national law and a state law say opposite things. When does the national law win?"
+    choices:
+      - id: a
+        text: "Always, no matter what the law is about"
+      - id: b
+        text: "Never, because the states came first"
+      - id: c
+        text: "Only when the state agrees to follow it"
+      - id: d
+        text: "When the Constitution allowed Congress to make it"
+    correct_choice_id: d
+    explanation: "The Constitution and the national laws made under it are the supreme law of the land. But a national law counts only if the Constitution gave the national government the power to make it."
+    concepts: [supremacy-clause, federalism]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one job from the lesson, such as coining money or running schools. Tell which government does that job, and explain why that might make sense."
+    concepts: [federalism, enumerated-powers, reserved-powers]
+    socratic_seed: "What would happen if all fifty states did this job in different ways? What would happen if one faraway government did it for everyone?"

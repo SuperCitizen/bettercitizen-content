@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: why-it-looks-this-way
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Madison's notes for July 16, 1787 record that \"the equality of votes in the 2d. branch\" passed with Connecticut, New Jersey, Delaware, Maryland and North Carolina in favor, and Pennsylvania, Virginia, South Carolina and Georgia opposed. What did that vote decide?"
+    choices:
+      - id: a
+        text: "That each state would have the same number of senators"
+      - id: b
+        text: "That seats in the House would be based on population"
+      - id: c
+        text: "That enslaved people would be counted at three-fifths"
+      - id: d
+        text: "That nine states would be enough to ratify the plan"
+    correct_choice_id: a
+    explanation: "The \"2d. branch\" is the Senate, and \"equality of votes\" means every state gets the same number. That was the small states' condition for accepting a House based on population. The three-fifths count and the nine-state rule were separate decisions."
+    concepts: [constitution]
+
+  - id: q2
+    kind: multiple-choice
+    text: "During the debate over the three-fifths clause, which delegates wanted enslaved people counted in full toward a state's seats in the House?"
+    choices:
+      - id: a
+        text: "Delegates from slaveholding states, because it would add to their power"
+      - id: b
+        text: "Delegates from free states, because it would recognize equal dignity"
+      - id: c
+        text: "Delegates from small states, because it would protect the Senate"
+      - id: d
+        text: "Delegates from every state, because the count also set tax bills"
+    correct_choice_id: a
+    explanation: "Madison's notes for July 11 record South Carolina's delegates moving that enslaved people be counted \"equally with the Whites.\" A larger count meant more House seats and electoral votes for states that denied those same people any vote. Delegates who opposed that power wanted a smaller count or none."
+    concepts: [constitution]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which statement about the Preamble is accurate?"
+    choices:
+      - id: a
+        text: "It names the people as the source of authority but grants no powers"
+      - id: b
+        text: "It grants Congress its power to tax and to regulate commerce"
+      - id: c
+        text: "It lists the rights that the government may never take away"
+      - id: d
+        text: "It names the thirteen states as the parties to the agreement"
+    correct_choice_id: a
+    explanation: "The Preamble says who is establishing the government (\"We the People\") and for what purposes. Powers are granted in the articles that follow, and the list of rights came later, in the first ten amendments. An early draft did name the states, but the final text does not."
+    concepts: [preamble, constitution]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Brutus wrote that in \"so extensive a republic, the great officers of government would soon become above the controul of the people.\" How did Madison answer that kind of objection in Federalist No. 10?"
+    choices:
+      - id: a
+        text: "A large republic contains so many interests that no single faction can easily dominate"
+      - id: b
+        text: "A large republic can afford an army strong enough to keep its officials in line"
+      - id: c
+        text: "A large republic should be divided into several smaller and freer countries"
+      - id: d
+        text: "A large republic needs a bill of rights before it can be trusted with power"
+    correct_choice_id: a
+    explanation: "Madison turned the size of the country into an advantage: \"Extend the sphere, and you take in a greater variety of parties and interests.\" With more groups competing, a majority bent on oppressing others is harder to assemble. A bill of rights was the Anti-Federalists' demand, not Madison's argument in this essay."
+    concepts: [federalist-papers, ratification]
+
+  - id: q5
+    kind: free-response
+    text: "The Senate gives every state two votes, whatever its population. Using Madison's tally of July 16, 1787, explain why that rule was adopted. Then argue either that it remains a fair bargain today or that it does not, and say what the strongest objection to your position would be."
+    concepts: [constitution, ratification]
+    socratic_seed: "Would the small states have joined the union without equal votes in the Senate? Does the answer to that question settle whether the rule is fair now?"

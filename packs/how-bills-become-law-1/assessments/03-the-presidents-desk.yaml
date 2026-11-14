@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-presidents-desk
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "How long does the President have to decide what to do with a bill?"
+    choices:
+      - id: a
+        text: "Three days, counting every day"
+      - id: b
+        text: "Ten days, not counting Sundays"
+      - id: c
+        text: "Thirty days, counting every day"
+      - id: d
+        text: "As long as the President likes"
+    correct_choice_id: b
+    explanation: "The Constitution gives the President ten days, and Sundays do not count. What happens after that depends on whether Congress is still meeting."
+    concepts: [veto, legislative-process]
+
+  - id: q2
+    kind: multiple-choice
+    text: "The President does not sign a bill and does not veto it. Ten days pass, and Congress is still meeting. What happens?"
+    choices:
+      - id: a
+        text: "The bill becomes a law without a signature"
+      - id: b
+        text: "The bill dies and has to start all over"
+      - id: c
+        text: "The bill goes back to its committee"
+      - id: d
+        text: "The Supreme Court decides what to do"
+    correct_choice_id: a
+    explanation: "If Congress is still meeting, a bill the President ignores for ten days becomes a law anyway. The bill dies only if Congress has gone home. That is the pocket veto."
+    concepts: [veto, legislative-process]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Why can Congress not override a pocket veto?"
+    choices:
+      - id: a
+        text: "Because a pocket veto needs every member to agree"
+      - id: b
+        text: "Because Congress has gone home, and no veto came back"
+      - id: c
+        text: "Because the Supreme Court has to approve it first"
+      - id: d
+        text: "Because the bill has already become a law"
+    correct_choice_id: b
+    explanation: "In a pocket veto, the President never sends the bill back, and Congress is no longer meeting. There is nothing for Congress to vote on. The bill's supporters have to start again with a new bill."
+    concepts: [veto]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which list shows the steps of making a law in the right order?"
+    choices:
+      - id: a
+        text: "Committee, introduced, floor votes, President"
+      - id: b
+        text: "Introduced, committee, floor votes, President"
+      - id: c
+        text: "Introduced, floor votes, committee, President"
+      - id: d
+        text: "President, introduced, committee, floor votes"
+    correct_choice_id: b
+    explanation: "A member introduces the bill, a committee studies it, the whole House and Senate vote, and then the bill goes to the President. The President comes last."
+    concepts: [legislative-process]
+
+  - id: q5
+    kind: free-response
+    text: "Some people say it is too hard to make a law. Others say it should be hard. Explain one reason for each side. Then say which side you agree with more, and why."
+    concepts: [legislative-process]
+    socratic_seed: "Think of a law you would want passed quickly, and a law you would want stopped. Would the same rules help you with both?"

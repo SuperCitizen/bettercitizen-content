@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: whats-inside
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The Constitution begins with the words \"We the People.\" What do those words tell you?"
+    choices:
+      - id: a
+        text: "The government gets its power from the people"
+      - id: b
+        text: "The government gets its power from the states"
+      - id: c
+        text: "The people must obey whatever leaders decide"
+      - id: d
+        text: "The people chose a king to rule the country"
+    correct_choice_id: a
+    explanation: "\"We the People\" says who is creating the government. Its power comes from the people of the country, not from a king and not from the thirteen states acting as separate countries."
+    concepts: [preamble, constitution]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What does the Preamble do?"
+    choices:
+      - id: a
+        text: "It lists the rights of every citizen"
+      - id: b
+        text: "It gives Congress its main powers"
+      - id: c
+        text: "It says who made the government, and why"
+      - id: d
+        text: "It tells how to change the Constitution"
+    correct_choice_id: c
+    explanation: "The Preamble is an introduction. It names the people as the makers of the government and gives six goals. It does not hand out any powers or list any rights. Those come later."
+    concepts: [preamble]
+
+  - id: q3
+    kind: multiple-choice
+    text: "You want to find the part of the Constitution that sets up the courts. Where do you look?"
+    choices:
+      - id: a
+        text: "Article I"
+      - id: b
+        text: "Article II"
+      - id: c
+        text: "Article III"
+      - id: d
+        text: "Article VI"
+    correct_choice_id: c
+    explanation: "The first three articles set up the three branches in order: Article I for Congress, Article II for the President, and Article III for the courts."
+    concepts: [constitution]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A city makes a rule that goes against the Constitution. Why can a court throw the rule out?"
+    choices:
+      - id: a
+        text: "Because cities are not allowed to make any rules"
+      - id: b
+        text: "Because the Constitution is the highest law"
+      - id: c
+        text: "Because the President can cancel city rules"
+      - id: d
+        text: "Because courts are in charge of all the cities"
+    correct_choice_id: b
+    explanation: "Article VI makes the Constitution the highest law in the country. Cities and states can make rules of their own, but none of those rules may go against the Constitution."
+    concepts: [supremacy-clause, constitution]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one of the six goals in the Preamble. Explain it in your own words, and give one example of something a government does today that helps reach that goal."
+    concepts: [preamble]
+    socratic_seed: "Is there anything a government does near where you live that does not seem to fit any of the six goals?"

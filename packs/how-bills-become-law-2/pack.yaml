@@ -1,0 +1,19 @@
+schema: bettercitizen.content/v1
+slug: how-bills-become-law-2
+title: How a bill becomes law
+summary: "Why fewer than two bills in a hundred become law, and how the big ones get through anyway. Two lessons built on Article I of the Constitution and Federalist No. 73, with the votes that killed and passed real bills under both parties. Covers ground from Unit 2 of AP U.S. Government and Politics."
+author: BetterCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags:
+  - civics-101
+level: intro
+reading_level: 2
+topic: how-bills-become-law
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - 01-why-most-bills-die.mdx
+  - 02-how-big-laws-pass.mdx

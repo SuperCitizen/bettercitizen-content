@@ -1,0 +1,179 @@
+---
+schema: bettercitizen.lesson/v1
+slug: how-one-branch-stops-another
+kind: socratic
+title: How does one branch stop another?
+objectives:
+  - Explain the veto and the override, including why overrides are rare
+  - Describe the power of the purse, advice and consent, judicial review and impeachment, and say who holds each
+  - Distinguish judicial review from appellate review, and impeachment from removal
+  - Weigh the argument that party loyalty can weaken the checks between branches
+concepts:
+  - checks-and-balances
+  - veto-power
+  - advice-and-consent
+  - judicial-review
+  - impeachment
+sources:
+  - type: statute
+    url: https://www.archives.gov/founding-docs/constitution-transcript
+    citation: "Constitution of the United States, Article I, sections 2, 3, 7 and 9; Article II, sections 2 and 4; Article III (National Archives transcription)"
+  - type: website
+    url: https://www.senate.gov/legislative/vetoes/vetoCounts.htm
+    citation: "U.S. Senate, \"Vetoes, 1789 to Present\": 1,533 regular vetoes, 1,066 pocket vetoes and 112 overrides, as checked in November 2026"
+  - type: website
+    url: https://www.senate.gov/legislative/vetoes/ObamaBH.htm
+    citation: "U.S. Senate, Vetoes by President Barack H. Obama: S. 2040, vetoed Sept. 23, 2016; overridden 348-77 (House) and 97-1 (Senate) on Sept. 28"
+  - type: website
+    url: https://www.senate.gov/legislative/vetoes/TrumpDJ.htm
+    citation: "U.S. Senate, Vetoes by President Donald J. Trump: H.R. 6395, vetoed Dec. 23, 2020; overridden 322-87 (House, Dec. 28) and 81-13 (Senate, Jan. 1, 2021)"
+  - type: court-opinion
+    url: https://www.law.cornell.edu/supremecourt/text/248/276
+    citation: "Missouri Pacific Railway Co. v. Kansas, 248 U.S. 276 (1919): an override takes two-thirds of the members voting, a quorum being present"
+  - type: book
+    citation: "Cameron, C. M. (2000), Veto Bargaining: Presidents and the Politics of Negative Power, Cambridge University Press."
+  - type: paper
+    url: https://avalon.law.yale.edu/18th_century/fed58.asp
+    citation: "Madison, Federalist No. 58 (1788): the power over the purse as \"the most complete and effectual weapon\""
+  - type: website
+    url: https://www.senate.gov/legislative/nominations/SupremeCourtNominations1789present.htm
+    citation: "U.S. Senate, Supreme Court Nominations, 1789 to Present: Bork rejected 42-58 (Oct. 23, 1987); no action on Garland (nominated Mar. 16, 2016); Gorsuch confirmed 54-45 (Apr. 7, 2017)"
+  - type: court-opinion
+    url: https://www.law.cornell.edu/supremecourt/text/5/137
+    citation: "Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803)"
+  - type: paper
+    url: https://avalon.law.yale.edu/18th_century/fed78.asp
+    citation: "Hamilton, Federalist No. 78 (1788): the judiciary has \"neither FORCE nor WILL, but merely judgment\""
+  - type: court-opinion
+    url: https://www.law.cornell.edu/supremecourt/text/343/579
+    citation: "Youngstown Sheet & Tube Co. v. Sawyer, 343 U.S. 579 (1952): the steel seizure case"
+  - type: court-opinion
+    url: https://www.law.cornell.edu/supremecourt/text/418/683
+    citation: "United States v. Nixon, 418 U.S. 683 (1974): the White House tapes case"
+  - type: website
+    url: https://www.senate.gov/about/powers-procedures/impeachment.htm
+    citation: "U.S. Senate, About Impeachment: the House impeaches; the Senate tries, and two-thirds of the members present must vote to convict"
+  - type: website
+    url: https://www.senate.gov/about/powers-procedures/impeachment/impeachment-list.htm
+    citation: "U.S. Senate, Impeachment Trials: the results of every Senate impeachment trial"
+  - type: paper
+    url: https://avalon.law.yale.edu/18th_century/fed51.asp
+    citation: "Madison, Federalist No. 51 (1788): \"Ambition must be made to counteract ambition.\""
+  - type: paper
+    citation: "Levinson, D. J., & Pildes, R. H. (2006), Separation of Parties, Not Powers, 119 Harvard Law Review 2311."
+duration_min: 12
+---
+
+# How does one branch stop another?
+
+On September 23, 2016, President Barack Obama, a Democrat, vetoed a bill that allowed the families of September 11 victims to sue foreign governments in American courts. Five days later Congress overrode him, by 97 to 1 in the Senate and 348 to 77 in the House, in what turned out to be the only override of his eight years in office.
+
+On December 23, 2020, President Donald Trump, a Republican, vetoed the annual defense policy bill. The House overrode him on December 28, by 322 to 87, and the Senate followed on New Year's Day, by 81 to 13. That was the only override of his first term.
+
+In both fights, members of the President's own party voted against him, and the totals could not have been reached without them.
+
+The previous lesson described a blueprint of three institutions that share powers. This one is about the moving parts: which tools each branch holds against the others, how often those tools are actually used, and what their use depends on.
+
+## The veto and its arithmetic
+
+Article I, Section 7 sets out the rule. A bill that passes both chambers goes to the President, who may either sign it or return it with objections. If the President returns it, each chamber votes again, and a bill "approved by two thirds of that House," in both chambers, becomes law without the President's signature.
+
+Two details are easy to overlook. In 1919 the Supreme Court read "two thirds" to mean two-thirds of the members voting, provided that a quorum is present, and not two-thirds of every seat in the chamber. In addition, a veto cannot be overridden at all when Congress has adjourned and the President simply declines to sign the bill, a maneuver known as a pocket veto.
+
+Try the arithmetic for a Senate in which all 100 members vote.
+
+<Scale
+  title="How many of 100 senators vote to override?"
+  unit="senators voting yes"
+  max={100}
+  start={60}
+  zones={[
+    {upTo: 66, label: 'The veto stands', detail: 'Short of two-thirds. From 51 up, this is a majority that could pass the bill but cannot force it into law.', tone: 'gold'},
+    {upTo: 100, label: 'Override', detail: 'Two-thirds reached. The House has to reach two-thirds as well.', tone: 'green'},
+  ]}
+  examples={[{value: 67, label: 'the minimum'}, {value: 81, label: '2021 defense bill'}, {value: 97, label: '2016 lawsuit bill'}]}
+/>
+
+What matters here is the distance between 51 and 67. A simple majority is enough to pass a bill, but forcing one into law over a veto takes a supermajority, and a supermajority almost always requires votes from the President's own party. That requirement explains why overrides are so rare.
+
+<Figure caption="Congress has overridden about 7 percent of regular vetoes. A pocket veto cannot be overridden." source="U.S. Senate, Vetoes, 1789 to Present, as checked in November 2026">
+
+| The veto since 1789 | Count |
+| --- | --- |
+| Regular vetoes | 1,533 |
+| Pocket vetoes | 1,066 |
+| Overridden | 112 |
+
+</Figure>
+
+Those counts understate the veto's real force. Because everyone in Congress can count to 67, a believable threat of a veto shapes a bill long before it reaches the President's desk. The political scientist Charles Cameron gave this process a name, *veto bargaining*.
+
+## The purse: the check that runs all year
+
+The veto is a weapon the President holds against Congress. The strongest weapon pointing the other way is money. Article I, Section 9 provides that "No Money shall be drawn from the Treasury, but in Consequence of Appropriations made by Law," which means that a President can command the executive branch but cannot fund any part of it without an act of Congress.
+
+Madison regarded this as the legislature's decisive advantage. In Federalist No. 58 he called the power over the purse "the most complete and effectual weapon with which any constitution can arm the immediate representatives of the people." Unlike a veto fight or an impeachment, which are rare events, the budget returns every year, and each return gives Congress another opportunity to attach conditions to what the executive branch may do.
+
+## Advice and consent: saying no, or saying nothing
+
+Article II, Section 2 gives the President the power to nominate judges and senior officials, but only "by and with the Advice and Consent of the Senate." [[term:advice-and-consent]] is the name this power goes by, and it has been used in more than one way.
+
+In 1987 a Senate with a Democratic majority voted down Robert Bork, the nominee of Republican President Ronald Reagan, by 42 to 58. In 2016 a Senate with a Republican majority took no action at all on Merrick Garland, whom Democratic President Barack Obama had nominated that March. The seat remained open until 2017, when the Senate confirmed a new President's nominee by 54 to 45.
+
+Each side insisted that its own case was principled and that the other was not. The text of the Constitution settles less than either side would like, because it requires the Senate's consent while saying nothing about hearings, deadlines or reasons.
+
+<Checkpoint question='The Constitution says the President appoints judges "by and with the Advice and Consent of the Senate." Does that text require the Senate to vote on every nominee?'>
+
+The text does not say. It makes the Senate's consent a condition of appointment, but it sets no deadline and prescribes no procedure. That is why 1987, with its vote and its rejection, and 2016, with no vote at all, were both uses of the same power. Whether declining to act is a fair use of that power is a political argument, and the words of the Constitution do not resolve it.
+
+</Checkpoint>
+
+## Judicial review: the check the text never mentions
+
+Where does the Constitution give courts the power to strike down a law? Nowhere in so many words, since Article III vests "the judicial Power" and stops there.
+
+Chief Justice John Marshall supplied the reasoning in *Marbury v. Madison* in 1803. The Constitution is law, he argued, and a statute that conflicts with it cannot also be law, so deciding which one governs a case is simply the ordinary work of a court. "It is emphatically the province and duty of the judicial department," Marshall wrote, "to say what the law is." [[term:judicial-review]] is the name for that power.
+
+Alexander Hamilton had made the same case fifteen years earlier, in Federalist No. 78, and he had added a caution. The courts would be the "least dangerous" branch, he wrote, because they have "neither FORCE nor WILL, but merely judgment." A court commands no army and controls no budget, so its rulings bind only because the other branches, and the public, treat them as binding.
+
+The record shows this check operating against Presidents of both parties. In 1952 President Harry Truman, a Democrat, ordered the government to seize the nation's steel mills in order to head off a strike during the Korean War, and the Supreme Court ruled 6 to 3 that he had no authority to do so. In 1974 the Court ruled 8 to 0 that President Richard Nixon, a Republican, had to surrender White House tape recordings for use in a criminal trial. Truman returned the mills. Nixon released the tapes, and sixteen days after the ruling he resigned.
+
+<QuickCheck
+  question="Which of these is an example of judicial review?"
+  choices={[
+    {id: 'a', text: 'An appeals court reverses a trial judge who allowed improper evidence'},
+    {id: 'b', text: 'The Supreme Court rules that a federal law violates the Constitution'},
+    {id: 'c', text: 'A Senate committee questions a nominee for the Supreme Court'},
+    {id: 'd', text: 'The Supreme Court agrees to hear a case from a state court'},
+  ]}
+  answer="b"
+  explanation="Judicial review is a court measuring a law or an official act against the Constitution. Choice a is appellate review, in which a higher court corrects a lower one. Choice c is advice and consent, and d is a court choosing its cases."
+/>
+
+## Impeachment: an accusation, then a trial
+
+The last tool is the heaviest. [[term:impeachment]] begins in the House, which may accuse a President, a judge or another civil officer by a majority vote. To impeach means to accuse, not to remove. The Senate then holds a trial, and a conviction requires two-thirds of the senators present.
+
+The Senate has tried a President four times: Andrew Johnson in 1868, Bill Clinton in 1999, and Donald Trump in 2020 and again in 2021. Every one of those trials ended in acquittal. In its entire history the Senate has convicted only eight officials, and all eight were federal judges.
+
+The explanation is the same two-thirds arithmetic that governs the veto. Unless one party holds 67 seats in the Senate, removing a President requires votes from members of the President's own party.
+
+Before the final section, check that you can match each tool to the vote it requires.
+
+<MatchUp
+  title="Match each check to the vote it takes"
+  pairs={[
+    {left: 'Override a veto', right: 'Two-thirds of each chamber'},
+    {left: 'Confirm a judge', right: 'A majority of the Senate'},
+    {left: 'Impeach an official', right: 'A majority of the House'},
+    {left: 'Convict and remove', right: 'Two-thirds of senators present'},
+  ]}
+/>
+
+## What this lesson does not settle
+
+Madison's design assumes that officeholders will defend their own branch: "Ambition must be made to counteract ambition." In 2006 the legal scholars Daryl Levinson and Richard Pildes argued that this assumption fails once political parties are strong. Members of Congress, they wrote, tend to act as allies or opponents of the President according to party, so that the real contest becomes a "separation of parties, not powers." On their account, the checks operate vigorously when different parties hold different branches and weakly when a single party holds them all.
+
+The two overrides that opened this lesson point in the other direction, since in each of them members crossed a President of their own party. A handful of cases cannot settle the question, however, and the record contains examples on both sides.
+
+What you can carry away is a set of questions to ask about any clash between the branches. Who holds the tool? How many votes does it take to use it? And what would make the people who hold it willing to use it?

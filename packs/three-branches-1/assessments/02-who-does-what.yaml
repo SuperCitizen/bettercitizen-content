@@ -1,0 +1,70 @@
+schema: bettercitizen.assessment/v1
+lesson: who-does-what
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "How many senators does each state have?"
+    choices:
+      - id: a
+        text: "One, for every state"
+      - id: b
+        text: "Two, for every state"
+      - id: c
+        text: "More for bigger states"
+      - id: d
+        text: "Nine, for every state"
+    correct_choice_id: b
+    explanation: "Every state has two senators, no matter how many people live there. That is why the Senate has 100 members. It is the House where bigger states get more members."
+    concepts: [legislative-branch, bicameral]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Who decides how many justices sit on the Supreme Court?"
+    choices:
+      - id: a
+        text: "The Constitution names the number"
+      - id: b
+        text: "The President picks the number"
+      - id: c
+        text: "Congress sets the number by law"
+      - id: d
+        text: "The justices choose the number"
+    correct_choice_id: c
+    explanation: "The Constitution creates the Supreme Court but gives no number. Congress sets it by law, and the number has been nine since 1869."
+    concepts: [judicial-branch]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A law says every new car must have a certain safety part. A car company says the law does not cover its trucks. Which branch settles that argument?"
+    choices:
+      - id: a
+        text: "Congress, because it wrote the law"
+      - id: b
+        text: "The President, who carries it out"
+      - id: c
+        text: "The courts, which say what it means"
+    correct_choice_id: c
+    explanation: "When people disagree about what a law means, a court decides. Congress wrote the law and the executive branch carries it out, but settling the argument is the courts' job. Congress could later rewrite the law to make it clearer."
+    concepts: [judicial-branch]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Why do federal judges keep their jobs with no set term?"
+    choices:
+      - id: a
+        text: "So they can rule without fear of being fired"
+      - id: b
+        text: "So the President never has to pick new ones"
+      - id: c
+        text: "So they have time to write the nation's laws"
+      - id: d
+        text: "So voters can keep the judges they like best"
+    correct_choice_id: a
+    explanation: "A judge sometimes has to make a ruling that many people dislike. Keeping the job \"during good Behaviour\" lets a judge do that without fear. Judges do not write laws, and voters do not elect federal judges."
+    concepts: [judicial-branch]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one branch. Explain its main job, and tell how the people in it get their jobs."
+    concepts: [legislative-branch, executive-branch, judicial-branch]
+    socratic_seed: "Are the people in the branch you picked elected, or chosen some other way? Why might that be?"

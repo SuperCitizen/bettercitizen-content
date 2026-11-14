@@ -1,0 +1,17 @@
+schema: bettercitizen.content/v1
+slug: three-branches-2
+title: The three branches
+summary: "Why the Framers divided federal power among Congress, the President and the courts, and how each branch can stop the others. Two lessons built on the Constitution's own text, Federalist Nos. 47, 51 and 78, and Marbury v. Madison, with examples paired across party lines. Covers ground from Units 1 and 2 of AP U.S. Government and Politics."
+author: BetterCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags: [civics-101, constitution, separation-of-powers]
+level: intro
+reading_level: 2
+topic: three-branches
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-why-split-power.mdx
+  - 02-how-one-branch-stops-another.mdx

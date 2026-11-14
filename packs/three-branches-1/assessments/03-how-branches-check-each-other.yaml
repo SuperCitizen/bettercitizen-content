@@ -1,0 +1,70 @@
+schema: bettercitizen.assessment/v1
+lesson: how-branches-check-each-other
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The President vetoes a bill. What can Congress do?"
+    choices:
+      - id: a
+        text: "Nothing, because a veto ends the bill for good"
+      - id: b
+        text: "Override it with two-thirds of both parts of Congress"
+      - id: c
+        text: "Ask the Supreme Court to sign the bill instead"
+      - id: d
+        text: "Pass it again with more than half of the votes"
+    correct_choice_id: b
+    explanation: "A vetoed bill goes back to Congress. If two-thirds of the House and two-thirds of the Senate vote yes, it becomes a law anyway. More than half is enough to pass a bill the first time, but not to beat a veto."
+    concepts: [veto-power, checks-and-balances]
+
+  - id: q2
+    kind: multiple-choice
+    text: "All 100 senators vote on whether to override a veto. How many yes votes does the Senate need?"
+    choices:
+      - id: a
+        text: "51"
+      - id: b
+        text: "60"
+      - id: c
+        text: "67"
+      - id: d
+        text: "75"
+    correct_choice_id: c
+    explanation: "An override takes two-thirds. Two-thirds of 100 is a little more than 66, so it takes 67 senators. The House has to reach two-thirds as well."
+    concepts: [veto-power]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which branch can rule that a law breaks the Constitution?"
+    choices:
+      - id: a
+        text: "The legislative branch"
+      - id: b
+        text: "The executive branch"
+      - id: c
+        text: "The judicial branch"
+    correct_choice_id: c
+    explanation: "The courts are the judicial branch. Their power to rule that a law breaks the Constitution is called judicial review. The Supreme Court first used it in Marbury v. Madison in 1803."
+    concepts: [judicial-review]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A news story says, \"The House impeached the judge today.\" What do you know for sure?"
+    choices:
+      - id: a
+        text: "The judge has been formally accused"
+      - id: b
+        text: "The judge has been found guilty"
+      - id: c
+        text: "The judge has lost the job"
+      - id: d
+        text: "The judge has been sent to jail"
+    correct_choice_id: a
+    explanation: "To impeach is to accuse. The judge keeps the job unless two-thirds of the senators at the trial vote \"guilty.\" Impeachment can remove someone from office, but it does not send anyone to jail."
+    concepts: [impeachment]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one check from this lesson. Describe how it works, and explain what could go wrong if it did not exist."
+    concepts: [checks-and-balances]
+    socratic_seed: "Which branch would gain power if that check disappeared? What could that branch then do that it cannot do today?"

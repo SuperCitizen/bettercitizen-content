@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: two-governments
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Two fourteen-year-olds live in different states. One can get a learner's permit and the other cannot. Why?"
+    choices:
+      - id: a
+        text: "Each state writes its own driving laws"
+      - id: b
+        text: "Each family writes its own driving laws"
+      - id: c
+        text: "The President picks an age for each state"
+      - id: d
+        text: "The older state always gets the lower age"
+    correct_choice_id: a
+    explanation: "Driving laws are made by the states. South Dakota lets a person start learning at fourteen, and New Jersey makes a person wait until sixteen. Neither age was chosen by the national government."
+    concepts: [federalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What does federalism mean?"
+    choices:
+      - id: a
+        text: "The national government holds all of the power"
+      - id: b
+        text: "The national government and the states share power"
+      - id: c
+        text: "The state governments hold all of the power"
+      - id: d
+        text: "The cities and the towns share all of the power"
+    correct_choice_id: b
+    explanation: "Federalism splits power between a national government and the states. Each one has jobs of its own, so every American lives under two governments at once."
+    concepts: [federalism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What was the main problem with the Articles of Confederation?"
+    choices:
+      - id: a
+        text: "The states had been erased from the plan"
+      - id: b
+        text: "One leader had been given all of the power"
+      - id: c
+        text: "The national government was too weak to do its work"
+      - id: d
+        text: "The national government was too strong for the states"
+    correct_choice_id: c
+    explanation: "The Articles left almost all of the power with the states. The national government could ask the states for money, but it could not make them pay. That weakness is why a new plan was written in 1787."
+    concepts: [federalism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "How is the national government different from a school principal?"
+    choices:
+      - id: a
+        text: "It cannot simply take away the powers of the states"
+      - id: b
+        text: "It cannot make any laws for the whole country"
+      - id: c
+        text: "It must ask every state before it makes a law"
+      - id: d
+        text: "It can change any rule that a state has made"
+    correct_choice_id: a
+    explanation: "A principal is the boss of the teachers. The national government is not the boss of the states in that way. The Constitution gives each side powers of its own."
+    concepts: [federalism]
+
+  - id: q5
+    kind: free-response
+    text: "Explain why the writers of the Constitution split power between a national government and the states. Use the Articles of Confederation in your answer."
+    concepts: [federalism]
+    socratic_seed: "What went wrong when the states held almost all of the power? What were people afraid of if one faraway government held it all?"

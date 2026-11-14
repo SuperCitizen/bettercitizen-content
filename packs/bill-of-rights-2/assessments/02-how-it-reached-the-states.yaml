@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: how-it-reached-the-states
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In Barron v. Baltimore, Marshall wrote of the Bill of Rights: \"These amendments contain no expression indicating an intention to apply them to the state governments.\" What followed from that holding?"
+    choices:
+      - id: a
+        text: "A state could act in ways the Bill of Rights forbade the federal government"
+      - id: b
+        text: "The federal government could ignore the Bill of Rights in the states"
+      - id: c
+        text: "A state had to pay compensation whenever it took private property"
+      - id: d
+        text: "The Bill of Rights no longer protected citizens who lived in cities"
+    correct_choice_id: a
+    explanation: "Barron confined the Bill of Rights to the federal government. A state or city remained free to do what Congress could not, limited only by its own constitution. That is why Barron received no compensation, and why the rule had to be changed by amendment and by later cases."
+    concepts: [bill-of-rights, incorporation-doctrine]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which clause of the Fourteenth Amendment has the Supreme Court actually used to apply the Bill of Rights to the states?"
+    choices:
+      - id: a
+        text: "The Due Process Clause"
+      - id: b
+        text: "The Privileges or Immunities Clause"
+      - id: c
+        text: "The Equal Protection Clause"
+      - id: d
+        text: "The Citizenship Clause"
+    correct_choice_id: a
+    explanation: "After the Slaughter-House Cases read the Privileges or Immunities Clause narrowly in 1873, incorporation proceeded through the guarantee that no state may deprive a person of liberty \"without due process of law.\" Justice Thomas has argued the Court chose the wrong clause, but due process is the one it used."
+    concepts: [incorporation-doctrine, due-process]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A state charges a defendant with a felony on a prosecutor's own filing, with no grand jury. The defendant says this violates the Fifth Amendment. What is the result?"
+    choices:
+      - id: a
+        text: "The defendant loses, because the grand jury clause has never been applied to the states"
+      - id: b
+        text: "The defendant wins, because every clause of the Fifth Amendment binds the states"
+      - id: c
+        text: "The defendant wins, because Gideon applied all criminal protections to the states"
+      - id: d
+        text: "The defendant loses, because the Fifth Amendment was repealed by the Fourteenth"
+    correct_choice_id: a
+    explanation: "Incorporation is selective, and the answer is sometimes no. Hurtado v. California held in 1884 that a state need not use a grand jury, and that ruling stands. Other parts of the Fifth Amendment, such as the protection against self-incrimination, do bind the states."
+    concepts: [incorporation-doctrine, due-process]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Gideon v. Wainwright (1963) and McDonald v. City of Chicago (2010) were welcomed by very different groups. What do the two decisions have in common?"
+    choices:
+      - id: a
+        text: "Each held that a right in the Bill of Rights is fundamental and so binds the states"
+      - id: b
+        text: "Each relied on the Privileges or Immunities Clause to reach its result"
+      - id: c
+        text: "Each expanded the powers of state governments over their citizens"
+      - id: d
+        text: "Each was decided unanimously and has never been questioned"
+    correct_choice_id: a
+    explanation: "Both decisions apply the same doctrine: a guarantee judged fundamental is incorporated through the Fourteenth Amendment and limits every level of government. Gideon was unanimous and McDonald was five to four, and both rested on due process."
+    concepts: [incorporation-doctrine, civil-liberties]
+
+  - id: q5
+    kind: free-response
+    text: "Justice Black argued that the Fourteenth Amendment applied the whole Bill of Rights to the states at once. The Court instead applied rights one at a time. Using the timeline in this lesson as evidence, argue which approach was better, and name one cost of the approach you prefer."
+    concepts: [incorporation-doctrine, due-process]
+    socratic_seed: "Under selective incorporation, who decided which rights counted as fundamental? Under Black's approach, who would have decided?"

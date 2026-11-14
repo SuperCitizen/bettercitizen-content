@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: inside-congress
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What happens to most bills after they are sent to a committee?"
+    choices:
+      - id: a
+        text: "The committee votes them down"
+      - id: b
+        text: "The committee sends them to the floor"
+      - id: c
+        text: "They sit there until time runs out"
+      - id: d
+        text: "They go straight to the President"
+    correct_choice_id: c
+    explanation: "Most bills are never voted down. The committee simply does not act on them, and they end when time runs out. Only a small share are sent on to the whole House or Senate."
+    concepts: [committee-system, legislative-process]
+
+  - id: q2
+    kind: multiple-choice
+    text: "All 435 members of the House vote on a bill. How many yes votes does it need to pass?"
+    choices:
+      - id: a
+        text: "200"
+      - id: b
+        text: "218"
+      - id: c
+        text: "290"
+      - id: d
+        text: "435"
+    correct_choice_id: b
+    explanation: "A bill needs more than half of the members who vote. Half of 435 is 217 and a half, so it takes 218. The number 290 is two-thirds, which is what it takes to beat a veto."
+    concepts: [legislative-process]
+
+  - id: q3
+    kind: multiple-choice
+    text: "What is a filibuster?"
+    choices:
+      - id: a
+        text: "A vote to send a bill to the President"
+      - id: b
+        text: "A meeting where experts answer questions"
+      - id: c
+        text: "A way for senators to keep a vote from happening"
+      - id: d
+        text: "A rule that lets the House skip a committee"
+    correct_choice_id: c
+    explanation: "In a filibuster, senators keep the debate going so the vote never comes. Ending one takes 60 of the 100 senators. A meeting where experts answer questions is a hearing."
+    concepts: [filibuster]
+
+  - id: q4
+    kind: multiple-choice
+    text: "The House passes a bill that gives parks $10 million. The Senate passes the same bill, but with $12 million. What has to happen next?"
+    choices:
+      - id: a
+        text: "The bill goes to the President, who picks a number"
+      - id: b
+        text: "The two houses must agree on one set of words"
+      - id: c
+        text: "The bigger number wins, since the Senate went last"
+      - id: d
+        text: "The bill becomes a law with both numbers in it"
+    correct_choice_id: b
+    explanation: "Both houses have to pass the very same words. Here the bills differ by one number, so the two houses must settle on one version and vote again. The President never sees a bill until that happens."
+    concepts: [legislative-process]
+
+  - id: q5
+    kind: free-response
+    text: "The people who want a bill have to win at every stop. The people against it have to win at only one. Explain what that means, using at least two of the stops from this lesson."
+    concepts: [legislative-process, committee-system]
+    socratic_seed: "If you wanted to stop a bill, which stop would you choose, and why might that be easier than winning a vote?"

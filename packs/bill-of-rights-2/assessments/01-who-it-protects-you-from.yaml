@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: who-it-protects-you-from
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In Federalist No. 84, Hamilton asks: \"why declare that things shall not be done which there is no power to do?\" What is he arguing?"
+    choices:
+      - id: a
+        text: "A bill of rights is unnecessary, because the government has only listed powers"
+      - id: b
+        text: "A bill of rights is necessary, because the listed powers are too broad"
+      - id: c
+        text: "The states should write bills of rights, and Congress should not"
+      - id: d
+        text: "The press should be regulated, because it has too much power"
+    correct_choice_id: a
+    explanation: "Hamilton's point is that the Constitution gives the federal government no power over the press, so a clause protecting the press would forbid something that could not happen anyway. Choice b is the position of his opponents, who prevailed when the Bill of Rights was added in 1791."
+    concepts: [bill-of-rights]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A private company fires an employee for a political post on her personal account. She says her First Amendment rights were violated. Is she correct?"
+    choices:
+      - id: a
+        text: "No, because the First Amendment restrains the government, not private employers"
+      - id: b
+        text: "Yes, because the First Amendment protects all political speech from punishment"
+      - id: c
+        text: "Yes, because posts on a personal account are private property"
+      - id: d
+        text: "No, because the First Amendment protects only speech made in person"
+    correct_choice_id: a
+    explanation: "The First Amendment begins \"Congress shall make no law\" and applies to government action. A private employer is not the government. Other laws may protect the employee in some states, but the First Amendment is not one of them."
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Under Brandenburg v. Ohio, which speech may a state punish?"
+    choices:
+      - id: a
+        text: "A speech arguing that the government deserves to be overthrown someday"
+      - id: b
+        text: "A speech urging a crowd to attack a building across the street right now"
+      - id: c
+        text: "A pamphlet praising a violent movement from another country’s history"
+      - id: d
+        text: "A rally where speakers express hatred of a religious minority"
+    correct_choice_id: b
+    explanation: "Brandenburg protects advocacy, however offensive, unless it is directed to inciting imminent lawless action and is likely to produce it. Urging a crowd to attack a nearby building immediately meets both parts. The other three are abstract advocacy or hateful opinion, which the test protects."
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A public high school suspends a student for wearing a shirt supporting a candidate. No class was disrupted. Under Tinker v. Des Moines, what is the likely result?"
+    choices:
+      - id: a
+        text: "The suspension fails, because dislike of a message is not enough to restrict it"
+      - id: b
+        text: "The suspension stands, because schools may ban all political speech"
+      - id: c
+        text: "The suspension stands, because students have no rights at school"
+      - id: d
+        text: "The suspension fails, because schools may never limit what students wear"
+    correct_choice_id: a
+    explanation: "Tinker lets a public school restrict student speech that would substantially disrupt its work. With no disruption, disapproval of the message is not a sufficient reason. Choice d goes too far: the same test would allow a restriction if real disruption were shown."
+    concepts: [first-amendment]
+
+  - id: q5
+    kind: free-response
+    text: "In 1969 the Supreme Court protected the speech of antiwar students and of a Ku Klux Klan leader. Explain why a rule that protects one almost has to protect the other. Then describe a situation in which you think speech should lose protection, and say which test from this lesson supports you."
+    concepts: [first-amendment, civil-liberties]
+    socratic_seed: "If judges could protect only the speech they found worthwhile, whose speech would be safest? Whose would be most at risk?"

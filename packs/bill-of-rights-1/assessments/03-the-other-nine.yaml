@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-other-nine
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What did Clarence Gideon ask the Supreme Court for?"
+    choices:
+      - id: a
+        text: "The right to have a lawyer at his trial"
+      - id: b
+        text: "The right to stay silent at his trial"
+      - id: c
+        text: "The right to choose his own judge"
+      - id: d
+        text: "The right to skip his trial entirely"
+    correct_choice_id: a
+    explanation: "Gideon was too poor to pay for a lawyer, and the judge would not give him one. The Supreme Court agreed that the Sixth Amendment promises a lawyer to a person accused of a serious crime."
+    concepts: [bill-of-rights, due-process]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Police want to search a family's apartment. Which amendment says they need a good reason?"
+    choices:
+      - id: a
+        text: "The Second Amendment"
+      - id: b
+        text: "The Fourth Amendment"
+      - id: c
+        text: "The Eighth Amendment"
+      - id: d
+        text: "The Ninth Amendment"
+    correct_choice_id: b
+    explanation: "The Fourth Amendment protects people from unreasonable searches of themselves and their homes. The Eighth is about punishments, and the Ninth says people have rights beyond the ones listed."
+    concepts: [bill-of-rights, civil-liberties]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A right is not named anywhere in the Bill of Rights. What does the Ninth Amendment say about that?"
+    choices:
+      - id: a
+        text: "People can still have rights that are not on the list"
+      - id: b
+        text: "People have only the rights that are on the list"
+      - id: c
+        text: "The states decide which rights people may have"
+      - id: d
+        text: "Congress must vote to add each new right"
+    correct_choice_id: a
+    explanation: "The Ninth Amendment says the list is not complete. Naming some rights does not mean people have no others. It answers the worry that a list would shrink people's rights."
+    concepts: [bill-of-rights]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In 1800, could a state government ignore most of the Bill of Rights?"
+    choices:
+      - id: a
+        text: "Yes, because at first it limited only the national government"
+      - id: b
+        text: "Yes, because the Bill of Rights had not been approved yet"
+      - id: c
+        text: "No, because it has always limited every government"
+      - id: d
+        text: "No, because states had written the Bill of Rights"
+    correct_choice_id: a
+    explanation: "When it was new, the Bill of Rights limited only the national government. The Fourteenth Amendment, added in 1868, is what allowed the Supreme Court to make states follow it too. That change took more than a hundred years."
+    concepts: [bill-of-rights, due-process]
+
+  - id: q5
+    kind: free-response
+    text: "Half of the Bill of Rights protects people who are accused of crimes. Explain why the writers thought those people needed protecting. Use Clarence Gideon's story in your answer."
+    concepts: [bill-of-rights, due-process]
+    socratic_seed: "How well do you think you could defend yourself in a courtroom, with no lawyer, against a trained one on the other side?"

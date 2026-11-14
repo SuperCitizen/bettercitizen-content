@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: why-a-bill-of-rights
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Why did George Mason refuse to sign the Constitution?"
+    choices:
+      - id: a
+        text: "It had no list of the people's rights"
+      - id: b
+        text: "It gave too much power to the states"
+      - id: c
+        text: "It did not create a president"
+      - id: d
+        text: "It was written much too quickly"
+    correct_choice_id: a
+    explanation: "Mason thought the Constitution said what the government could do but not what it was forbidden to do to people. He wanted a written list of rights."
+    concepts: [bill-of-rights]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What is the Bill of Rights?"
+    choices:
+      - id: a
+        text: "The first sentence of the Constitution"
+      - id: b
+        text: "The first ten amendments to the Constitution"
+      - id: c
+        text: "A law passed by the state of Virginia"
+      - id: d
+        text: "A speech given by James Madison"
+    correct_choice_id: b
+    explanation: "The Bill of Rights is the first ten amendments. They were approved by the states on December 15, 1791. The first sentence of the Constitution is the Preamble."
+    concepts: [bill-of-rights]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A city government shuts down a newspaper because it printed a story the mayor did not like. Why is this a Bill of Rights problem?"
+    choices:
+      - id: a
+        text: "Because the government is doing something it may not do"
+      - id: b
+        text: "Because the newspaper broke one of the ten rules"
+      - id: c
+        text: "Because the mayor did not ask the President first"
+      - id: d
+        text: "Because newspapers have to be owned by the city"
+    correct_choice_id: a
+    explanation: "The Bill of Rights is a list of limits on the government. Shutting down a newspaper over a story it printed is the government stepping past one of those limits."
+    concepts: [bill-of-rights, civil-liberties]
+
+  - id: q4
+    kind: multiple-choice
+    text: "James Madison first said a list of rights was not needed. What did he do in 1789?"
+    choices:
+      - id: a
+        text: "He proposed the amendments in Congress himself"
+      - id: b
+        text: "He voted against every one of the amendments"
+      - id: c
+        text: "He asked the states to write their own lists"
+      - id: d
+        text: "He left Congress so he would not have to choose"
+    correct_choice_id: a
+    explanation: "Madison changed his mind. On June 8, 1789, he proposed a list of amendments in the first Congress. Ten of them became the Bill of Rights."
+    concepts: [bill-of-rights]
+
+  - id: q5
+    kind: free-response
+    text: "Madison said a list of rights was not needed. Mason said it was. Explain each man's reason in your own words, and say who you think was right."
+    concepts: [bill-of-rights]
+    socratic_seed: "If your school had a rule you thought was unfair, would it help to have your rights written down somewhere? Why?"

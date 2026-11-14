@@ -1,0 +1,20 @@
+schema: bettercitizen.content/v1
+slug: constitution-basics-1
+title: Constitution basics
+summary: "Who wrote the Constitution and why, what it says, and how it can be changed. Three short lessons that start in a shuttered room in Philadelphia in 1787 and end with a college student whose idea became the 27th Amendment."
+author: BetterCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags:
+  - civics-101
+level: intro
+reading_level: 1
+topic: constitution-basics
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - 01-who-wrote-it.mdx
+  - 02-whats-inside.mdx
+  - 03-how-it-changes.mdx

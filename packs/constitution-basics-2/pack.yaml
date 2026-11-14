@@ -1,0 +1,19 @@
+schema: bettercitizen.content/v1
+slug: constitution-basics-2
+title: Constitution basics
+summary: "Why the Constitution looks the way it does, and why it is so hard to change. Two lessons built on Madison's notes from the Convention, the clauses on slavery, Brutus No. 1 against Federalist No. 10, Article V, and Madison and Jefferson on whether constitutions should change. Covers ground from Unit 1 of AP U.S. Government and Politics."
+author: BetterCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags:
+  - civics-101
+level: intro
+reading_level: 2
+topic: constitution-basics
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - 01-why-it-looks-this-way.mdx
+  - 02-why-so-hard-to-change.mdx

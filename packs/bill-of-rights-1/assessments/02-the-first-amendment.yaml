@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-first-amendment
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which list names freedoms that the First Amendment protects?"
+    choices:
+      - id: a
+        text: "Speech, religion and the press"
+      - id: b
+        text: "Speech, voting and a lawyer"
+      - id: c
+        text: "Religion, a jury and privacy"
+      - id: d
+        text: "The press, voting and a jury"
+    correct_choice_id: a
+    explanation: "The First Amendment protects religion, speech, the press, assembly and petition. Voting, juries and lawyers are covered by other parts of the Constitution."
+    concepts: [first-amendment]
+
+  - id: q2
+    kind: multiple-choice
+    text: "In the armband case, why did the students win?"
+    choices:
+      - id: a
+        text: "Their quiet protest was speech, and it did not disrupt school"
+      - id: b
+        text: "Students may say anything at school, at any time at all"
+      - id: c
+        text: "The principals had no power to make any rules for students"
+      - id: d
+        text: "The Supreme Court agreed with them about the war in Vietnam"
+    correct_choice_id: a
+    explanation: "The Court said students keep their freedom of speech at school, and the armbands were a quiet way of sending a message. The Court did not say students may say anything at any time, and it did not take a side on the war."
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A company that runs a video game bans a player for breaking its chat rules. Does the First Amendment protect the player?"
+    choices:
+      - id: a
+        text: "Yes, because all speech is always protected"
+      - id: b
+        text: "Yes, because games are a kind of free press"
+      - id: c
+        text: "No, because the company is not the government"
+      - id: d
+        text: "No, because players under 18 have no rights"
+    correct_choice_id: c
+    explanation: "The First Amendment limits the government. A private company can make rules for its own game. Young people do have First Amendment rights, as the armband case shows, but those rights are protections against the government."
+    concepts: [first-amendment]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A public school orders every student to say out loud that they agree with a new rule. What would the 1943 flag case say about that?"
+    choices:
+      - id: a
+        text: "The school may not force students to say what they do not believe"
+      - id: b
+        text: "The school may require it, because students must always obey"
+      - id: c
+        text: "The school may require it, if most of the parents agree"
+      - id: d
+        text: "The school may not make any rules about what students say"
+    correct_choice_id: a
+    explanation: "In the 1943 case the Supreme Court said officials cannot force people to say what they do not believe. A school can still make rules about behavior. What it cannot do is make students declare an opinion."
+    concepts: [first-amendment, civil-liberties]
+
+  - id: q5
+    kind: free-response
+    text: "The First Amendment protected students who wanted to speak and students who wanted to stay silent. Explain how both can be part of the same freedom. Use the two cases from this lesson."
+    concepts: [first-amendment]
+    socratic_seed: "What would freedom of speech be worth if the government could make you say things you do not believe?"
