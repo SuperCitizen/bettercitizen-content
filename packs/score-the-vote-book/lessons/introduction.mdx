@@ -48,35 +48,14 @@ This book lives between those two scenes: a method so natural that the world's m
 Every voting method is a question posed to you, the voter. The differences hide in how much of your answer the ballot can hear.
 
 <Figure caption="Three ballots, one voter, escalating information. The pick-one ballot records a single fact. The ranked ballot adds order but not distance — it cannot say how far apart your second and third choices are. The score ballot records a judgment about every candidate, including how strongly you hold it.">
-  <svg viewBox="0 0 720 230" width="100%" role="img" aria-label="Three sample ballots side by side: a plurality ballot with one bubble filled, a ranked ballot with candidates numbered 1 through 3, and a score ballot with numeric scores 5, 4, and 0">
-    <rect x="8" y="8" width="220" height="190" rx="8" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" />
-    <rect x="250" y="8" width="220" height="190" rx="8" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" />
-    <rect x="492" y="8" width="220" height="190" rx="8" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" />
-    <text x="118" y="36" textAnchor="middle" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Pick one</text>
-    <text x="360" y="36" textAnchor="middle" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Rank them</text>
-    <text x="602" y="36" textAnchor="middle" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">Score them</text>
-    <circle cx="40" cy="72" r="8" fill="var(--accent, #8a2a1e)" />
-    <circle cx="40" cy="108" r="8" fill="none" stroke="var(--muted, #6b6457)" />
-    <circle cx="40" cy="144" r="8" fill="none" stroke="var(--muted, #6b6457)" />
-    <text x="60" y="77" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Avila</text>
-    <text x="60" y="113" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Brooks</text>
-    <text x="60" y="149" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Chen</text>
-    <text x="282" y="77" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--blue, #2f4d6e)">1</text>
-    <text x="282" y="113" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--blue, #2f4d6e)">2</text>
-    <text x="282" y="149" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--blue, #2f4d6e)">3</text>
-    <text x="302" y="77" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Avila</text>
-    <text x="302" y="113" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Brooks</text>
-    <text x="302" y="149" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Chen</text>
-    <text x="524" y="77" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--green, #4a6b3a)">5</text>
-    <text x="524" y="113" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--green, #4a6b3a)">4</text>
-    <text x="524" y="149" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--accent, #8a2a1e)">0</text>
-    <text x="544" y="77" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Avila</text>
-    <text x="544" y="113" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Brooks</text>
-    <text x="544" y="149" fontFamily="Georgia, serif" fontSize="14" fill="var(--ink, #14130f)">Chen</text>
-    <text x="118" y="182" textAnchor="middle" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">your favorite, nothing else</text>
-    <text x="360" y="182" textAnchor="middle" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">order, but not distance</text>
-    <text x="602" y="182" textAnchor="middle" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">how much, for everyone</text>
-  </svg>
+<Ballot
+  candidates={['Avila', 'Brooks', 'Chen']}
+  methods={['pick', 'rank', 'score']}
+  pick="Avila"
+  rank={['Avila', 'Brooks', 'Chen']}
+  score={{Avila: 5, Brooks: 4, Chen: 0}}
+  notes={{pick: 'Your favorite, nothing else.', rank: 'Order, but not distance.', score: 'How much, for everyone.'}}
+/>
 </Figure>
 
 The first ballot is the one most Americans use: [[term:plurality]], pick one, most votes wins. The second is the ranked ballot behind [[term:ranked-choice-voting]], the reform with the headlines and the momentum. The third is [[term:score-voting]] — also called range voting — and it is the subject of this book: give every candidate a score, highest total wins. One count. No rounds, no eliminations, no transfers.

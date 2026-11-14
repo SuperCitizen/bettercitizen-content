@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: why-most-bills-die
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Article I, Section 7 says a bill \"which shall have passed the House of Representatives and the Senate, shall, before it become a Law, be presented to the President.\" Which of these steps does the Constitution itself require?"
+    choices:
+      - id: a
+        text: "A committee must hold a hearing on the bill"
+      - id: b
+        text: "Sixty senators must vote to end the debate"
+      - id: c
+        text: "Both chambers must pass the bill before the President acts"
+      - id: d
+        text: "The Rules Committee must set terms for the debate"
+    correct_choice_id: c
+    explanation: "The passage names three actors: the House, the Senate and the President. Hearings, the Rules Committee and the 60-vote threshold come from each chamber's own rules, which Article I, Section 5 lets it write and rewrite."
+    concepts: [legislative-process]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A bill has 56 supporters in the Senate, all 100 senators are present, and the minority refuses to end debate. What happens?"
+    choices:
+      - id: a
+        text: "It passes, since 56 is a clear majority of the Senate"
+      - id: b
+        text: "It stalls, since ending debate takes 60 votes, not 51"
+      - id: c
+        text: "It passes, once the Vice President casts a vote for it"
+      - id: d
+        text: "It stalls, since passing a bill takes two-thirds of the Senate"
+    correct_choice_id: b
+    explanation: "Passage takes a simple majority, which the bill has. Getting to the vote on passage takes 60 under the Senate's cloture rule, and the bill is four short. The Vice President votes only to break a tie, and two-thirds is the threshold for overriding a veto."
+    concepts: [filibuster, cloture, supermajority]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A committee chair refuses to schedule a bill that most House members support. Which tool exists for exactly this situation?"
+    choices:
+      - id: a
+        text: "A cloture motion signed by sixty members"
+      - id: b
+        text: "A discharge petition signed by 218 members"
+      - id: c
+        text: "A veto override passed by two-thirds"
+      - id: d
+        text: "A pocket veto issued by the Speaker"
+    correct_choice_id: b
+    explanation: "A discharge petition signed by a majority of the whole House brings a bill to the floor without the committee's consent. Cloture is a Senate procedure, an override answers a President's veto, and a pocket veto belongs to the President, not the Speaker."
+    concepts: [committee-system, legislative-process]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Hamilton wrote that \"the injury which may possibly be done by defeating a few good laws, will be amply compensated by the advantage of preventing a number of bad ones.\" Which present-day argument relies on the same reasoning?"
+    choices:
+      - id: a
+        text: "The filibuster should stay, because it keeps narrow majorities from passing hasty laws"
+      - id: b
+        text: "The filibuster should go, because the majority that won the election should govern"
+      - id: c
+        text: "Committees should lose their power, because chairs block popular bills"
+      - id: d
+        text: "Presidents should act alone, because Congress moves too slowly"
+    correct_choice_id: a
+    explanation: "Hamilton accepts that hurdles will stop some good laws and judges the cost worth paying to stop bad ones. Defenders of the filibuster make that trade explicitly. The other three choices all argue that the cost of blocked action is too high, which is the critics' side of the debate."
+    concepts: [filibuster, legislative-process]
+
+  - id: q5
+    kind: free-response
+    text: "Two bills in this lesson passed the House and died in the Senate: the 2017 health care bill (49 to 51) and the 2021 elections bill (50 votes, with 60 needed). Explain how the two failures differ, and say which one a critic of the filibuster would point to. Use the vote counts as evidence."
+    concepts: [filibuster, supermajority, legislative-process]
+    socratic_seed: "Would either bill have passed if the Senate decided everything by simple majority? What does your answer tell you about what the filibuster did, and did not, change?"

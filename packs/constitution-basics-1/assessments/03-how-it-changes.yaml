@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: how-it-changes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is an amendment?"
+    choices:
+      - id: a
+        text: "A change added to the Constitution"
+      - id: b
+        text: "A law passed by a single state"
+      - id: c
+        text: "A speech given by the President"
+      - id: d
+        text: "A ruling made by the Supreme Court"
+    correct_choice_id: a
+    explanation: "An amendment is a change to the Constitution. It is added at the end, and there are 27 of them. A state law, a speech and a court ruling are all different things."
+    concepts: [amendment]
+
+  - id: q2
+    kind: multiple-choice
+    text: "How many of the 50 states must approve an amendment before it becomes part of the Constitution?"
+    choices:
+      - id: a
+        text: "26"
+      - id: b
+        text: "34"
+      - id: c
+        text: "38"
+      - id: d
+        text: "50"
+    correct_choice_id: c
+    explanation: "It takes three-fourths of the states, and three-fourths of 50 is 37 and a half, so 38 states are needed. Twenty-six would be only a little more than half."
+    concepts: [amendment-process, ratification]
+
+  - id: q3
+    kind: multiple-choice
+    text: "An amendment has 45 states ready to approve it, but only half of the Senate will vote for it. What happens?"
+    choices:
+      - id: a
+        text: "It becomes part of the Constitution, since 45 is more than 38"
+      - id: b
+        text: "It is stuck, since it was never properly proposed"
+      - id: c
+        text: "It goes to the President, who makes the final choice"
+      - id: d
+        text: "It goes to the Supreme Court, which counts the states"
+    correct_choice_id: b
+    explanation: "An amendment needs both steps. Two-thirds of the House and two-thirds of the Senate have to propose it before the states can approve it. Half of the Senate is not enough, so the states never get their turn. The President has no part in amending the Constitution."
+    concepts: [amendment-process]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Madison worried about changing the Constitution too often. What was his reason?"
+    choices:
+      - id: a
+        text: "People would stop respecting rules that kept changing"
+      - id: b
+        text: "People would have to pay for each new amendment"
+      - id: c
+        text: "People in small states would lose all their votes"
+      - id: d
+        text: "People would forget who wrote the Constitution"
+    correct_choice_id: a
+    explanation: "Madison thought a government earns trust over time. If the rules were rewritten again and again, he feared people would stop respecting them. Jefferson took the other side and said rules must be able to change as people learn."
+    concepts: [amendment-process]
+
+  - id: q5
+    kind: free-response
+    text: "Is it good or bad that the Constitution is so hard to change? Give one reason on each side, then say what you think. You may use Madison's view, Jefferson's view, or Gregory Watson's story."
+    concepts: [amendment-process, amendment]
+    socratic_seed: "Think of a rule at home or at school. Would you want it to be easy to change, or hard? Does your answer depend on who is doing the changing?"

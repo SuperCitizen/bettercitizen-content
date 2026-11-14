@@ -39,7 +39,8 @@ read both before authoring.
 Crash Course's government series are the best-known free civics explainers,
 so they are the bar our explanations have to clear. We studied them in
 November 2026 ([`docs/benchmarks/crash-course.md`](docs/benchmarks/crash-course.md)).
-These moves are worth borrowing, on any level, alongside the rules above:
+These moves are worth borrowing at every reading level and every `level`,
+alongside the rules above:
 
 - **Title the question the reader already has.** Especially at `intro`:
   "Why does Congress have two chambers?" beats "Bicameralism."
@@ -112,6 +113,67 @@ same sourcing bar.
 
 A pack takes one level; pick the rung of its *first* lesson's assumptions.
 
+## Reading levels (editions)
+
+A topic can be written more than once, at different reading levels. Each version is an **edition**: a pack of its own, with its own lessons and assessments, that names its `reading_level:` and the `topic:` it shares with the other editions. The decision record is [`docs/adr/0002-editions-one-topic-three-reading-levels.md`](docs/adr/0002-editions-one-topic-three-reading-levels.md), and the first topic written this way is the three branches: [`packs/three-branches-1`](packs/three-branches-1), [`packs/three-branches-2`](packs/three-branches-2) and [`packs/three-branches`](packs/three-branches).
+
+```yaml
+slug: three-branches-1
+title: The three branches
+topic: three-branches     # the same on every edition of the topic; the pack's own slug when absent
+reading_level: 1          # 1 | 2 | 3; 3 when absent
+```
+
+**The levels are numbers, and only numbers.** A level describes the text. It never names the reader, their age or their school, because nobody should be told at every turn that they are on the text for younger readers, and because the same level serves a ten-year-old, an adult coming to the subject cold and a learner whose first language is not English. So:
+
+- Every edition of a topic carries the same title. The level is never written into a title, a summary, a heading or the body of a lesson.
+- The slug carries it as a bare number: the level 3 edition keeps the topic's slug, and the others add `-1` or `-2`.
+- An app shows it as a small mark of one, two or three bars, and says "level 1", "level 2" or "level 3".
+- Who each level suits is written here, for authors, and published through the app's API for the adults and partner sites that choose a level for someone. It is not shown to the learner.
+
+`reading_level` is how hard the text is to read. `level` (above) is what the pack assumes the reader already knows. They are separate: a level 1 or level 2 edition is almost always `level: intro`, and the four values of `level` keep their meaning inside level 3.
+
+An edition is written from scratch for its reader. It is never the level 3 text with shorter words. It may have a different number of lessons, and its lessons have their own slugs. Editions are for the core civics spine, not for every pack.
+
+Every edition keeps the same bar for truth and sourcing, the same neutrality rules, the same component catalog and the same figure rules. The rest of this guide describes level 3. What changes for the other two:
+
+### Level 1
+
+Written to be read alone from about age 10 (roughly grades 5 to 8), and with an adult by younger readers.
+
+- **Reading grade about 5 to 7, never above 8. 600–1,000 words a lesson.** Three or four short lessons serve this reader better than two long ones.
+- **Open with a scene the reader has lived** (a playground, a classroom, a family rule), then say where the comparison breaks down.
+- **Define every new word in the sentence that introduces it.** Name a document or a case only when the lesson needs it. Leave the scholars out.
+- **One idea to a paragraph, in sentences of ordinary length** (about twelve words on average). A run of very short sentences reads as talking down, and it is not what a good book for this reader sounds like.
+- **Simplify, never falsify.** Prefer "most", "usually" and "almost no" to a clean rule that is not true. Every number still has a source and a date.
+- **Per lesson:** two checks (`Checkpoint`, `QuickCheck`), one thing to do (`MatchUp`, `OrderIt`), and one or two figures.
+- **Assessment:** three or four multiple-choice questions in plain words, with choices of similar length, and one free response that asks the reader to explain the idea to someone else.
+- **Anchor:** the grades 6–8 civics indicators of the C3 Framework for Social Studies State Standards (for the three branches, D2.Civ.4.6-8, the powers and limits of the three branches).
+
+### Level 2
+
+Written to be read alone from about age 14 (roughly grades 9 to 12).
+
+- **Reading grade about 9 to 11, never above 12. 1,200–1,800 words a lesson.**
+- **Title the question the reader already has.** Teach a mechanism on invented, neutral ground before the real cases. Pair real examples across party lines. Name the near miss right after each definition. (These are the [teaching moves](#teaching-moves-benchmarked-against-crash-course) above, written for the Foundations track, bettercitizen.ai#52.)
+- **Put a document in front of the reader.** Each lesson quotes at least one primary-source passage at length (`<Callout type="sources" title="Read the document: …">`) and asks a question that can only be answered from it. The assessment has at least one question built on a quoted passage.
+- **Name a scholar when their argument is the open question**, in a sentence or two, and close on what the lesson does not settle.
+- **Per lesson:** two to four checks, at most one simulator, and the figures the argument needs.
+- **Assessment:** four multiple-choice questions and one free response that asks for evidence.
+- **Anchor:** the AP U.S. Government and Politics course framework.
+
+### Level 3
+
+Written for adults and college students. Everything else in this guide.
+
+### Glossary links in any edition
+
+A `[[term:slug]]` link shows the term's name as the glossary writes it, capital letter included. Place it where that reads as a sentence, which usually means at the start: "[[term:judicial-review]] is the name for that power." A level 1 lesson needs one to three links; the definitions behind them are written at level 3.
+
+### The check
+
+`npm run check:reading` measures each lesson's prose (the Markdown body and the children of components; not frontmatter, tables or component props) and reports its Flesch-Kincaid grade and word count. It fails a level 1 or level 2 lesson outside its band and reports level 3 lessons without failing them. Syllables are counted by rule, so read the grade as a gauge good to about half a grade. As measured in November 2026, the three-branches topic reads at about grade 5 (level 1), 9 (level 2) and 12 (level 3).
+
 ## Interactive components (MDX)
 
 Lessons are **MDX**: markdown plus a fixed catalog of interactive components
@@ -138,9 +200,9 @@ Rules:
   near-misses. Together: 2–4 per lesson, never back-to-back, never at the
   very end (that's the assessment's job).
 - At most **one simulator** per lesson (`RankedChoiceSim`, `GerrymanderLab`,
-  `TaxBracketExplorer`, `Path270`, `GuessTheShare`), always followed by a
+  `TaxBracketExplorer`, `Path270`, `GuessTheShare`, `Scale`, `Ballot`), always followed by a
   paragraph naming what the reader should have noticed.
-- Sequences and structures: `Timeline`, `ProcessFlow`, `OrderIt`. Enumerable
+- Sequences and structures: `Timeline`, `ProcessFlow`, `OrderIt`, `Flow`. Enumerable
   drill: `Flashcards`, `MatchUp`. Contested positions: `PerspectiveTabs`.
 - For a purely Socratic pause (no answer revealed), use a markdown blockquote
   instead, sparingly — at most one per lesson:
@@ -156,56 +218,46 @@ not `class=`, style **objects** not style strings, `{/* … */}` not
 
 ## Figures, diagrams, and tables
 
-- **GFM tables** for anything comparative (methods, cases, thresholds). Always
-  introduce a table in prose and read its meaning afterward — a table never
-  speaks for itself.
-- **Inline SVG** for structure, flows, timelines, and proportions. The SVG is
-  inline in the app's DOM, so use the app's CSS variables with fallbacks —
-  figures then theme themselves:
-  - ink/text: `var(--ink, #14130f)`; muted: `var(--muted, #6b6457)`
-  - accent (burgundy): `var(--accent, #8a2a1e)`; gold: `var(--gold, #b08a3e)`
-  - blue: `var(--blue, #2f4d6e)`; green: `var(--green, #4a6b3a)`
-  - rules/lines: `var(--line, #d9d5c9)`; surface: `var(--card, #ffffff)`
-- Wrap every SVG in `<Figure caption="…">` (see COMPONENTS.md); give the SVG
-  `role="img"`, an `aria-label`, `width="100%"`, and a `viewBox`. Remember
-  MDX is JSX: style **objects**, not style strings. Text inside SVG:
-  `font-family="Georgia, serif"` or the sans stack, size ≥ 12.
-- Prefer `<DataBars>` over hand-drawn SVG when the figure is really just
-  labeled magnitudes; prefer `<GuessTheShare>` when the magnitudes are
-  surprising enough that the reader should guess first.
-- Keep diagrams *diagrammatic*: 1 idea per figure, ≤ ~40 elements, no
-  decorative clutter. If it needs a legend of more than 4 items, split it.
+**A figure is content, not a picture of content.** Lessons are read on phones, in native apps that render no web view, and by screen readers. A drawing 720 units wide lands in a phone's reading column (about 300 px on the web) at about 40 percent of its size, with its labels near 5 px, and nothing can make it reflow. So a figure is written as structure and text, and every renderer lays it out for the width and text size it has. The decision record is [`docs/adr/0001-figures-are-content.md`](docs/adr/0001-figures-are-content.md).
+
+Ask what the figure really is, then write that:
+
+| The figure is… | Write it as |
+| --- | --- |
+| A few numbers or single words in rows and columns | A **GFM table**: two columns, or three when every cell is that short |
+| Two to four things read against each other, in sentences; or two tracks side by side (two parties' calendars, two lines of cases) | `<Panels>`, one panel per thing or track |
+| Boxes and arrows: a process, a lineage, a fork, a merge, two lanes | `<Flow>` |
+| A chronology | `<Timeline>` (add `expanded` when it stands in for a figure) |
+| Magnitudes, shares, a handful of dated values | `<DataBars>` (`<GuessTheShare>` when the reader should guess first) |
+| A series over time, or a curve that is the point | `<Chart>` |
+| Places on a spectrum or a two-question plane | `<PositionMap>` |
+| A count and the thresholds it crosses | `<Scale>` |
+| A ballot | `<Ballot>` |
+| A shape none of these draws | A small drawing, by the rules below |
+
+Rules that hold for every form:
+
+- Wrap it in `<Figure caption="…" source="…">`. Introduce it in prose and read its meaning afterward: a figure never speaks for itself.
+- **Every number is a claim.** A chart's points are sourced like any sentence. If you cannot cite the values between the ones you know, do not draw a line through them: show the values you have as `DataBars`, or mark the chart `schematic`.
+- **Color never carries meaning alone.** Name the kind in words (a `tag`, a title, a legend); a tone only decorates. Never write a caption that points at a color or a line style ("the dashed arrow", "the gold zone"): a list has no dashes, and a screen reader has no gold.
+- **No party colors.** Never red for Republicans beside blue for Democrats, in a bar, a dot or a rule. Pick tones that mean nothing.
+- **A table has to fit a phone, because it cannot stack its columns.** On bettercitizen.ai a phone's lesson column is about 300 px, which leaves three columns about nine characters each: one ten-letter word and the table is cut off at the edge of the screen. So a table is two columns, or three when every cell is a number or one short word. Sentences, and anything on two tracks, go in `Panels`. Keep a date in one piece with `&nbsp;` (`Jan&nbsp;15`). Many older lesson tables are wider than this. The web now lays those out as one card per row on a phone (`docs/renderer-requests.md`, W2), so give any table a first column that names its row and short column headings: on a phone each heading becomes the label above its cell.
 - **Never** use `<script>`, `<style>`, `<iframe>`, event-handler attributes,
   or external image URLs. Interactivity comes from the component catalog
   only. (Content must stay auditable and safe.)
 - `~~text~~` is GFM strikethrough. Never use `~~` around numbers to mean
   "approximately" — write "about 56,000" or use a single `~`.
 
-### Hand-drawn SVG layout (the part generators get wrong)
+### When a drawing has to stay
 
-The two failure modes that make a figure look broken are text running past
-the viewBox edge and labels sitting on top of connector lines. The rules
-that prevent them:
+Rarely: a picture whose shape is the content and that no component draws (the layer cake and the marble cake). Then:
 
-- **Compose in row lanes.** Source box(es) in one column, destination boxes
-  in another, one row per relationship. Connectors are **orthogonal**
-  (horizontal/vertical elbows, not bezier fans), and each connector's label
-  sits in its own clear band *above its own horizontal run* — never on,
-  under, or across a line. Exemplar: the money-flow figure in
-  [`money-in-politics-101/01`](packs/money-in-politics-101/lessons/01-the-flow-of-political-money.mdx).
-- **Do the width arithmetic.** Estimated text width ≈ chars × fontSize ×
-  0.56. Every label must fit its run with ≥ 20px to spare inside the
-  viewBox; `textAnchor="middle"` text must fit its box. If it doesn't fit:
-  shorten it, wrap it to a second `<text>` line, or re-anchor it — widen the
-  viewBox only as a last resort.
-- **Captions don't live in the canvas.** Multi-sentence explanations and
-  source notes go in `<Figure caption="…" source="…">`, not in 11px `<text>`
-  crammed along the bottom of the SVG. In-SVG text is for labels.
-- **Keep ≥ 24px vertical clearance** between any label band and any line
-  that crosses the same x-range.
-- **Lint it:** `npm run check:figures` flags likely overflow and
-  label-path collisions (estimates, not proof — but a flag usually means a
-  real problem).
+- **Put no text in it.** Words go in the `Panel` or caption around the drawing, where they stay the reader's size. If a label truly must sit inside, it is at least 14 units tall in a viewBox no wider than 360, so it is still about 13 px in a phone's column.
+- **Draw it small and let it sit in a `Panel`.** A viewBox about 300 units wide, `width="100%"`, and `style={{maxWidth: 300, height: 'auto', display: 'block', margin: '0 auto'}}` so it never balloons on a desk. Two drawings to compare are two panels, never one wide canvas.
+- **Use the tokens**, so the drawing themes itself: ink `var(--ink, #14130f)`, muted `var(--muted, #6b6457)`, accent `var(--accent, #8a2a1e)`, gold `var(--gold, #b08a3e)`, blue `var(--blue, #2f4d6e)`, green `var(--green, #4a6b3a)`, lines `var(--line, #d9d5c9)`, surface `var(--card, #ffffff)`. Never hard-code `#ffffff` text on a token fill: it washes out on the dark palette.
+- **Stay inside the subset every platform draws:** `rect`, `circle`, `ellipse`, `line`, `polyline`, `polygon`, `path`, `g`, `text`, with fill, stroke, opacity, dashes and transforms. No gradients, filters, clip paths, `<use>`, images or style sheets: the native apps draw figures themselves and show only the alt text for anything else.
+- Give it `role="img"` and an `aria-label` that says what it shows, and camelCase attributes (MDX is JSX).
+- **Lint it:** `npm run check:figures` flags text that overflows the viewBox or sits on a line.
 
 ## Callouts
 

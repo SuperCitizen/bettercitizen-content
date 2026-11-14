@@ -68,7 +68,7 @@ On March 20, 2024, the Federal Election Commission answered a question from a De
 
 ## Why one word carries the whole structure
 
-Recall Lesson 1's diagram: two doors into a race, the capped-contribution door and the uncapped-independence door, separated by a dashed wall. The wall is built from one statutory sentence. Under federal law, an expenditure made "in cooperation, consultation, or concert, with, or at the request or suggestion of" a candidate is treated as a **contribution** to that candidate. Cross the line and the legal character of the money transforms: a $40 million "independent" ad campaign becomes a $40 million in-kind contribution — roughly 11,000 times the legal limit, and flatly illegal if any corporate or union money funded it. Every uncapped dollar in American elections flows on the premise that this line is real. *Buckley* rested the expenditure/contribution distinction on it; *Citizens United* assumed it ("independent expenditures... do not give rise to corruption or the appearance of corruption"); *SpeechNow* built the super PAC on it.
+Recall Lesson 1's diagram: two doors into a race, the capped-contribution door and the uncapped-independence door, separated by the coordination wall. The wall is built from one statutory sentence. Under federal law, an expenditure made "in cooperation, consultation, or concert, with, or at the request or suggestion of" a candidate is treated as a **contribution** to that candidate. Cross the line and the legal character of the money transforms: a $40 million "independent" ad campaign becomes a $40 million in-kind contribution — roughly 11,000 times the legal limit, and flatly illegal if any corporate or union money funded it. Every uncapped dollar in American elections flows on the premise that this line is real. *Buckley* rested the expenditure/contribution distinction on it; *Citizens United* assumed it ("independent expenditures... do not give rise to corruption or the appearance of corruption"); *SpeechNow* built the super PAC on it.
 
 So the operative question is not philosophical but administrative: *how does the FEC decide what counts?* The answer lives in one regulation, 11 CFR 109.21, and its architecture explains most of what you see in the wild.
 
@@ -77,44 +77,23 @@ So the operative question is not philosophical but administrative: *how does the
 A communication is "coordinated" only if it satisfies **all three** prongs — payment, content, and conduct. Miss any one, and the communication is independent, whatever else was going on.
 
 <Figure caption="The three-prong test is a logical AND. Reformers' complaint is not that any prong is crazy, but that the conjunction — each prong independently narrow, with safe harbors draining the conduct prong — makes the wall easy to walk around rather than through.">
-<svg viewBox="0 0 720 460" width="100%" role="img" aria-label="Diagram of the three-prong coordination test of 11 CFR 109.21: payment by an outside spender, content that is electoral, and conduct connecting spender to campaign — all three required; safe harbors for firewalls and publicly available information drain the conduct prong" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="20" y="26" fontFamily="Georgia, serif" fontSize="15" fontWeight="bold" fill="var(--ink, #14130f)">The coordination test (11 CFR 109.21): all three prongs, or nothing</text>
-  <rect x="20" y="50" width="216" height="120" rx="8" fill="var(--card, #ffffff)" stroke="var(--blue, #2f4d6e)" strokeWidth="2"/>
-  <text x="128" y="76" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--blue, #2f4d6e)" textAnchor="middle">1 · PAYMENT</text>
-  <text x="128" y="100" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">Paid for by someone other</text>
-  <text x="128" y="117" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle">than the candidate or party</text>
-  <text x="128" y="148" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">(almost always met)</text>
-  <rect x="252" y="50" width="216" height="120" rx="8" fill="var(--card, #ffffff)" stroke="var(--accent, #8a2a1e)" strokeWidth="2"/>
-  <text x="360" y="76" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--accent, #8a2a1e)" textAnchor="middle">2 · CONTENT</text>
-  <text x="360" y="98" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">Electioneering communication;</text>
-  <text x="360" y="114" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">express advocacy (or equivalent);</text>
-  <text x="360" y="130" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">republished campaign material;</text>
-  <text x="360" y="146" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">or names a candidate ≤90/120 days out</text>
-  <rect x="484" y="50" width="216" height="120" rx="8" fill="var(--card, #ffffff)" stroke="var(--green, #4a6b3a)" strokeWidth="2"/>
-  <text x="592" y="76" fontFamily="Georgia, serif" fontSize="14" fontWeight="bold" fill="var(--green, #4a6b3a)" textAnchor="middle">3 · CONDUCT</text>
-  <text x="592" y="98" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">Request or suggestion;</text>
-  <text x="592" y="114" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">material involvement;</text>
-  <text x="592" y="130" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">substantial discussion;</text>
-  <text x="592" y="146" fontFamily="Georgia, serif" fontSize="12" fill="var(--ink, #14130f)" textAnchor="middle">common vendor / ex-staffer (120 days)</text>
-  <text x="244" y="115" fontFamily="Georgia, serif" fontSize="16" fontWeight="bold" fill="var(--ink, #14130f)" textAnchor="middle">+</text>
-  <text x="476" y="115" fontFamily="Georgia, serif" fontSize="16" fontWeight="bold" fill="var(--ink, #14130f)" textAnchor="middle">+</text>
-  <line x1="360" y1="170" x2="360" y2="212" stroke="var(--ink, #14130f)" strokeWidth="2"/>
-  <path d="M355 206 L360 216 L365 206 Z" fill="var(--ink, #14130f)"/>
-  <rect x="200" y="216" width="320" height="56" rx="8" fill="var(--gold, #b08a3e)"/>
-  <text x="360" y="240" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="#ffffff" textAnchor="middle">All three met = COORDINATED</text>
-  <text x="360" y="259" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">the spending is an in-kind contribution: capped, maybe illegal</text>
-  <text x="20" y="306" fontFamily="Georgia, serif" fontSize="13.5" fontWeight="bold" fill="var(--ink, #14130f)">The escape hatches (why prong 3 almost never closes):</text>
-  <rect x="20" y="320" width="330" height="64" rx="6" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5"/>
-  <text x="34" y="342" fontFamily="Georgia, serif" fontSize="12.5" fontWeight="bold" fill="var(--ink, #14130f)">Publicly available information</text>
-  <text x="34" y="360" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">strategy posted on a campaign website is fair</text>
-  <text x="34" y="376" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">game for anyone — the redboxing door</text>
-  <rect x="370" y="320" width="330" height="64" rx="6" fill="var(--card, #ffffff)" stroke="var(--line, #d9d5c9)" strokeWidth="1.5"/>
-  <text x="384" y="342" fontFamily="Georgia, serif" fontSize="12.5" fontWeight="bold" fill="var(--ink, #14130f)">Firewall safe harbor</text>
-  <text x="384" y="360" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">a shared vendor with a written information-</text>
-  <text x="384" y="376" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">wall policy defeats the conduct prong</text>
-  <text x="20" y="420" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">And if the activity is not a "public communication" at all — door-to-door canvassing, per AO 2024-01 —</text>
-  <text x="20" y="438" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">the content prong can never be met, and candidates may share strategy directly.</text>
-</svg>
+
+<Flow title="The coordination test (11 CFR 109.21): all three prongs, or nothing" steps={[
+  {nodes: [
+    {title: '1 · Payment', detail: 'Paid for by someone other than the candidate or party. Almost always met.', tone: 'blue'},
+    {title: '2 · Content', detail: 'Electioneering communication; express advocacy (or its equivalent); republished campaign material; or names a candidate 90/120 days or less before the vote.', tone: 'gold'},
+    {title: '3 · Conduct', detail: 'Request or suggestion; material involvement; substantial discussion; common vendor or ex-staffer (120 days).', tone: 'green'},
+  ]},
+  {via: 'all three met', title: 'Coordinated', detail: 'The spending is an in-kind contribution: capped, maybe illegal.', tone: 'accent'},
+]} />
+
+**The escape hatches** (why prong 3 almost never closes):
+
+- **Publicly available information.** Strategy posted on a campaign website is fair game for anyone: the redboxing door.
+- **Firewall safe harbor.** A shared vendor with a written information-wall policy defeats the conduct prong.
+
+And if the activity is not a "public communication" at all — door-to-door canvassing, per AO 2024-01 — the content prong can never be met, and candidates may share strategy directly.
+
 </Figure>
 
 Walk the prongs with the regulation in hand. **Payment** is trivial — someone other than the campaign paid. **Content** asks whether the communication is electoral enough to matter: an electioneering communication; express advocacy or its functional equivalent; republished campaign material; or any public communication that merely *names* a candidate within 90 days of a House or Senate election (120 days for presidential races, primary through general). **Conduct** is where the action is. The rule lists the ways a spender and campaign can be connected: the campaign requested or suggested the ad; was materially involved in decisions about its content, audience, timing, or placement; held substantial discussions conveying campaign plans; or the spender used a **common vendor** or hired a **former campaign employee** who used material campaign knowledge — both within a 120-day window. Then come the exits: information the campaign made *publicly available* doesn't count, and a shared vendor with a written **firewall** policy defeats the prong unless evidence shows information actually crossed it.

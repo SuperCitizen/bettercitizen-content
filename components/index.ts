@@ -8,6 +8,12 @@
 export { Checkpoint } from './Checkpoint';
 export { QuickCheck } from './QuickCheck';
 export { Figure } from './Figure';
+export { Panels, Panel } from './Panels';
+export { Flow } from './Flow';
+export { Chart } from './Chart';
+export { Scale } from './Scale';
+export { PositionMap } from './PositionMap';
+export { Ballot } from './Ballot';
 export { Callout } from './Callout';
 export { Timeline } from './Timeline';
 export { ProcessFlow } from './ProcessFlow';
@@ -25,6 +31,12 @@ export { Path270 } from './Path270';
 import { Checkpoint } from './Checkpoint';
 import { QuickCheck } from './QuickCheck';
 import { Figure } from './Figure';
+import { Panels, Panel } from './Panels';
+import { Flow } from './Flow';
+import { Chart } from './Chart';
+import { Scale } from './Scale';
+import { PositionMap } from './PositionMap';
+import { Ballot } from './Ballot';
 import { Callout } from './Callout';
 import { Timeline } from './Timeline';
 import { ProcessFlow } from './ProcessFlow';
@@ -44,6 +56,13 @@ export const mdxComponents = {
   Checkpoint,
   QuickCheck,
   Figure,
+  Panels,
+  Panel,
+  Flow,
+  Chart,
+  Scale,
+  PositionMap,
+  Ballot,
   Callout,
   Timeline,
   ProcessFlow,

@@ -4,7 +4,7 @@ title: Reading the Numbers
 summary: A citizen's working knowledge of polls, studies, and statistics — what a margin of error actually covers (and the four kinds of error it doesn't), why a 1,000-person sample can read a nation of 260 million while a 120-person crosstab can't read anything, how to climb the ladder from anecdote to randomized experiment without mistaking correlation for destiny, and when a forecast deserves trust — calibration over confidence, track records over vibes, error bars shown rather than hidden. The pack engages the methods literature directly — the AAPOR polling post-mortems, the replication crisis, the credibility revolution, the Taleb–Silver dispute, CBO's own accuracy self-evaluations — and closes on the newly live question of whether official statistics themselves can stay above the partisan fray.
 author: SuperCitizen Editorial
 license: CC-BY-SA-4.0
-version: 1.0.0
+version: 1.1.0
 tags: [data-literacy, polling, methods, civics-301]
 level: advanced
 official: true

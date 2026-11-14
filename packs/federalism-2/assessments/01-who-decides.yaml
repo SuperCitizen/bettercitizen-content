@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: who-decides
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In Federalist No. 45, Madison wrote that the powers of the federal government are \"few and defined\" and those of the states \"numerous and indefinite.\" Which feature of the Constitution best supports his description?"
+    choices:
+      - id: a
+        text: "Article I lists the powers of Congress, and the rest are reserved"
+      - id: b
+        text: "Article VI makes federal law the supreme law of the land"
+      - id: c
+        text: "Article I lets Congress make all necessary and proper laws"
+      - id: d
+        text: "Article II gives the President command of the armed forces"
+    correct_choice_id: a
+    explanation: "Madison's claim rests on enumeration. Congress has the powers that Article I names, and the Tenth Amendment reserves the remainder to the states or the people. The Supremacy Clause and the Necessary and Proper Clause are the provisions later used to read federal power broadly."
+    concepts: [enumerated-powers, reserved-powers, federalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did McCulloch v. Maryland decide about a power that is not named in Article I, such as chartering a bank?"
+    choices:
+      - id: a
+        text: "Congress may not use it unless the states agree first"
+      - id: b
+        text: "Congress may use it only after a constitutional amendment"
+      - id: c
+        text: "Congress may use it as a means of carrying out a named power"
+      - id: d
+        text: "Congress may use it only if no state has taxed the subject"
+    correct_choice_id: c
+    explanation: "Marshall held that the Necessary and Proper Clause lets Congress choose appropriate means of carrying out its enumerated powers. A bank was a useful means of taxing, borrowing and paying the government's bills. These are called implied powers."
+    concepts: [enumerated-powers, federalism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "In Wickard v. Filburn the Court said a farmer's own effect on the wheat market \"may be trivial by itself.\" Why did he lose anyway?"
+    choices:
+      - id: a
+        text: "He had sold most of his extra wheat in another state"
+      - id: b
+        text: "His wheat, added to that of many farmers like him, affected the market"
+      - id: c
+        text: "The Tenth Amendment did not apply to farms in Ohio"
+      - id: d
+        text: "His state had passed a law that copied the federal one"
+    correct_choice_id: b
+    explanation: "The Court reasoned in the aggregate. One farmer's home-grown wheat changes little, but the same choice made by many farmers changes the national supply and demand that Congress was regulating. That reasoning greatly widened the commerce power."
+    concepts: [commerce-clause, federalism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A student says: \"The Supremacy Clause means a federal law always beats a state law.\" Which case from this lesson shows why that is too broad?"
+    choices:
+      - id: a
+        text: "Gibbons v. Ogden, where a federal license defeated a state monopoly"
+      - id: b
+        text: "McCulloch v. Maryland, where a state tax on a federal bank failed"
+      - id: c
+        text: "Gonzales v. Raich, where federal drug law overrode state policy"
+      - id: d
+        text: "United States v. Lopez, where a federal law exceeded the commerce power"
+    correct_choice_id: d
+    explanation: "The Supremacy Clause protects only federal laws made \"in Pursuance\" of the Constitution. In Lopez the Gun-Free School Zones Act was struck down because no enumerated power reached it. In the other three cases the federal side won."
+    concepts: [supremacy-clause, commerce-clause]
+
+  - id: q5
+    kind: free-response
+    text: "Madison predicted that federal powers would be \"few and defined.\" Using at least two cases from the timeline as evidence, argue whether that prediction has held. Then state the strongest point on the other side."
+    concepts: [federalism, commerce-clause, enumerated-powers]
+    socratic_seed: "If wheat that never leaves a farm counts as commerce among the states, what activity would not count? And if nothing reaches across state lines, who is left to regulate a national market?"

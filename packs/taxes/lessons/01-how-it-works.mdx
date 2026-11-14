@@ -140,29 +140,16 @@ Here is the machine that kills the raise-refusing myth. For 2026, the IRS inflat
 Take a single filer earning a $100,000 salary in 2026. First subtract the **standard deduction** of $16,100 (it's $32,200 for joint filers), leaving $83,900 of taxable income. Now walk up the stairs:
 
 <Figure caption="A $100,000 earner's income climbs the 2026 brackets one step at a time. Only the dollars on each step pay that step's rate, so the total bill is $13,170 — an effective rate of 13.2 percent of salary, even though the marginal rate is 22 percent." source="Bracket figures: IRS Rev. Proc. 2025-32.">
-<svg viewBox="0 0 720 400" width="100%" role="img" aria-label="Staircase diagram of 2026 single-filer tax brackets showing a $100,000 earner: 10 percent on the first $12,400 of taxable income equals $1,240; 12 percent on the next $38,000 equals $4,560; 22 percent on the last $33,500 equals $7,370; total tax $13,170, an effective rate of 13.2 percent against a 22 percent marginal rate" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="24" y="26" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">Walking $100,000 up the 2026 brackets (single filer)</text>
-  <text x="24" y="46" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--muted, #6b6457)">$100,000 salary − $16,100 standard deduction = $83,900 taxable income</text>
-  <rect x="24" y="296" width="120" height="64" fill="var(--green, #4a6b3a)" />
-  <text x="84" y="322" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">10% step</text>
-  <text x="84" y="340" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">first $12,400</text>
-  <text x="84" y="378" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">= $1,240</text>
-  <rect x="144" y="232" width="200" height="128" fill="var(--blue, #2f4d6e)" />
-  <text x="244" y="290" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">12% step</text>
-  <text x="244" y="308" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">next $38,000 (to $50,400)</text>
-  <text x="244" y="378" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">= $4,560</text>
-  <rect x="344" y="168" width="180" height="192" fill="var(--accent, #8a2a1e)" />
-  <text x="434" y="256" fontFamily="Georgia, serif" fontSize="13" fill="#ffffff" textAnchor="middle">22% step</text>
-  <text x="434" y="274" fontFamily="Georgia, serif" fontSize="12" fill="#ffffff" textAnchor="middle">last $33,500 (to $83,900)</text>
-  <text x="434" y="378" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">= $7,370</text>
-  <rect x="524" y="104" width="100" height="256" fill="none" stroke="var(--line, #d9d5c9)" strokeWidth="2" strokeDasharray="6,4" />
-  <text x="574" y="230" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">24% step</text>
-  <text x="574" y="248" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">never reached</text>
-  <line x1="524" y1="168" x2="344" y2="168" stroke="var(--gold, #b08a3e)" strokeWidth="2" strokeDasharray="4,3" />
-  <text x="640" y="96" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="end" fontWeight="bold">Total: $13,170</text>
-  <text x="640" y="114" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="end">Effective: 13.2%</text>
-  <text x="640" y="132" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--accent, #8a2a1e)" textAnchor="end">Marginal: 22%</text>
-</svg>
+
+<DataBars title="Walking $100,000 up the 2026 brackets (single filer): tax owed on each step" unit="$" bars={[
+  {label: '10% step', value: 1240, color: 'green', note: 'First $12,400 of taxable income'},
+  {label: '12% step', value: 4560, color: 'blue', note: 'Next $38,000 (to $50,400)'},
+  {label: '22% step', value: 7370, color: 'accent', note: 'Last $33,500 (to $83,900)'},
+  {label: '24% step', value: 0, color: 'ink', note: 'Never reached'},
+]} />
+
+$100,000 salary − $16,100 standard deduction = $83,900 taxable income. **Total: $13,170.** Effective rate: 13.2%. Marginal rate: 22%.
+
 </Figure>
 
 The tax is 10 percent of the first $12,400 ($1,240), plus 12 percent of the next $38,000 ($4,560), plus 22 percent of the remaining $33,500 ($7,370): **$13,170 total**. That is an effective rate of 13.2 percent on the $100,000 salary — even though this taxpayer "is in the 22 percent bracket." Add the employee share of payroll taxes (7.65 percent, $7,650) and the combined federal bite is around 21 percent. Nowhere near 22-plus-percent-of-everything, and structurally *incapable* of jumping when a raise crosses a threshold.

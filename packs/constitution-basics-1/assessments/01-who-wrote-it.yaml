@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: who-wrote-it
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is a constitution?"
+    choices:
+      - id: a
+        text: "A list of every law in a country"
+      - id: b
+        text: "The set of rules for a government"
+      - id: c
+        text: "A promise made by a new president"
+      - id: d
+        text: "A meeting of leaders from the states"
+    correct_choice_id: b
+    explanation: "A constitution is the set of rules for a government. It says who is in charge of what and what the government may not do. It is not a list of all the laws, which are made later under those rules."
+    concepts: [constitution]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Why did leaders want to replace the Articles of Confederation?"
+    choices:
+      - id: a
+        text: "The national government was too weak to do its job"
+      - id: b
+        text: "The national government had become far too strong"
+      - id: c
+        text: "The Articles gave all the power to one president"
+      - id: d
+        text: "The Articles had been written by the British king"
+    correct_choice_id: a
+    explanation: "Under the Articles there was no president and there were almost no national courts, and Congress could not make the states pay what it asked for. Leaders feared the country would not last with a government that weak."
+    concepts: [constitution]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A big state and a small state both send people to Congress. Under the compromise of 1787, which is true?"
+    choices:
+      - id: a
+        text: "They have the same number of members in both parts"
+      - id: b
+        text: "The big state has more members in both parts"
+      - id: c
+        text: "The big state has more in the House, and they are equal in the Senate"
+      - id: d
+        text: "The big state has more in the Senate, and they are equal in the House"
+    correct_choice_id: c
+    explanation: "In the House, a state with more people gets more members. In the Senate, every state gets two. That was the deal between the large states and the small ones."
+    concepts: [constitution]
+
+  - id: q4
+    kind: multiple-choice
+    text: "What did the Constitution of 1787 do about slavery?"
+    choices:
+      - id: a
+        text: "It ended slavery in every state at once"
+      - id: b
+        text: "It ended slavery in the northern states only"
+      - id: c
+        text: "It did not end slavery, and it protected it"
+      - id: d
+        text: "It said nothing that affected slavery at all"
+    correct_choice_id: c
+    explanation: "The delegates made deals that protected slavery. One counted three of every five enslaved people toward a state's seats in the House. Another kept Congress from stopping the slave trade until 1808. Slavery ended in 1865 with the Thirteenth Amendment."
+    concepts: [constitution]
+
+  - id: q5
+    kind: free-response
+    text: "The delegates made compromises to get a Constitution that the states would accept. Pick one compromise from this lesson. Explain what each side wanted, and say whether you think the deal was fair."
+    concepts: [constitution, ratification]
+    socratic_seed: "Who got something from the deal you picked? Was anyone affected by it who had no say in it at all?"

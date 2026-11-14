@@ -81,34 +81,32 @@ Where does the profession land? The National Academies of Sciences' consensus re
 
 Every position in this debate is ultimately a position about scale and composition, so fix the long arc in your mind. The foreign-born share of the U.S. population is a U-shape: about 13 to 15 percent through the great industrial wave (peaking at 14.8 percent in 1890), driven down to 4.7 percent by 1970 under the 1924 quotas, then climbing for five straight decades after 1965 — back to 14.3 percent in 2023 (Census/ACS), with survey-based estimates briefly touching 15.8 percent in early 2025 before the first decline since the 1960s set in.
 
-<Figure caption="Foreign-born share of the U.S. population, 1850–2025. Restrictionists read the right side of the U as an unprecedented experiment; expansionists read the left side as proof the country has absorbed this share before — and prospered." source="Decennial census and ACS (Census Bureau). The 2025 points (dashed) are CPS-based Pew estimates — a different survey, shown separately.">
-<svg viewBox="0 0 720 276" width="100%" role="img" aria-label="Line chart of the foreign-born share of the U.S. population from 1850 to 2025, showing a U-shape: about 14.8 percent in 1890, falling to 4.7 percent in 1970, rising to 14.3 percent in 2023 and an estimated 15.8 percent in early 2025 before declining" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="30" y="24" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">The U-shape: foreign-born share of the U.S. population, 1850–2025</text>
-  <line x1="60" y1="52.5" x2="690" y2="52.5" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-  <line x1="60" y1="115" x2="690" y2="115" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-  <line x1="60" y1="177.5" x2="690" y2="177.5" stroke="var(--line, #d9d5c9)" strokeWidth="1" />
-  <line x1="60" y1="240" x2="690" y2="240" stroke="var(--muted, #6b6457)" strokeWidth="1" />
-  <text x="54" y="57" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">15%</text>
-  <text x="54" y="119" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">10%</text>
-  <text x="54" y="182" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="end">5%</text>
-  <line x1="462" y1="56" x2="462" y2="240" stroke="var(--line, #d9d5c9)" strokeWidth="1.5" strokeDasharray="4,4" />
-  <text x="462" y="46" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">1965 Act</text>
-  <polyline points="60,118.8 95,75 130,60 165,73.8 200,55 235,70 270,56.3 305,75 340,95 375,130 410,153.8 445,172.5 480,181.3 515,162.5 550,141.3 585,101.3 620,78.8 665,61.3" fill="none" stroke="var(--accent, #8a2a1e)" strokeWidth="2.5" />
-  <polyline points="665,61.3 672,42.5 676,47.5" fill="none" stroke="var(--blue, #2f4d6e)" strokeWidth="2.5" strokeDasharray="3,3" />
-  <circle cx="200" cy="55" r="4" fill="var(--accent, #8a2a1e)" />
-  <circle cx="480" cy="181.3" r="4" fill="var(--accent, #8a2a1e)" />
-  <circle cx="665" cy="61.3" r="4" fill="var(--accent, #8a2a1e)" />
-  <circle cx="672" cy="42.5" r="3.5" fill="var(--blue, #2f4d6e)" />
-  <text x="200" y="40" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">1890: 14.8%</text>
-  <text x="508" y="202" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">1970: 4.7%</text>
-  <line x1="633" y1="124" x2="660" y2="70" stroke="var(--muted, #6b6457)" strokeWidth="1" strokeDasharray="3,3" />
-  <text x="620" y="140" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">2023: 14.3%</text>
-  <text x="668" y="30" fontFamily="Georgia, serif" fontSize="12" fill="var(--blue, #2f4d6e)" textAnchor="end">early 2025: 15.8% → mid-2025: 15.4%</text>
-  <text x="60" y="262" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">1850</text>
-  <text x="235" y="262" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">1900</text>
-  <text x="410" y="262" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">1950</text>
-  <text x="585" y="262" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2000</text>
-</svg>
+<Figure caption="Foreign-born share of the U.S. population, 1850–2025. Restrictionists read the right side of the U as an unprecedented experiment; expansionists read the left side as proof the country has absorbed this share before — and prospered." source="Decennial census and ACS (Census Bureau). The 2025 points are CPS-based Pew estimates (15.8 percent in early 2025, 15.4 percent by mid-2025) — a different survey, shown separately.">
+<Chart
+  title="The U-shape: foreign-born share of the U.S. population, 1850–2025"
+  unit="%"
+  yMax={18}
+  yTicks={[0, 5, 10, 15]}
+  xMin={1850}
+  xMax={2028}
+  xTicks={[1850, 1900, 1950, 2000]}
+  rules={[{x: 1965, label: '1965 Act'}]}
+  marks={[
+    {x: 1890, y: 14.8, label: '1890: 14.8%', place: 'above'},
+    {x: 1970, y: 4.7, label: '1970: 4.7%', place: 'below'},
+    {x: 2023, y: 14.3, label: '2023: 14.3%', place: 'left'},
+  ]}
+  series={[
+    {label: 'Census and ACS', points: [
+      [1850, 9.7], [1860, 13.2], [1870, 14.4], [1880, 13.3], [1890, 14.8], [1900, 13.6],
+      [1910, 14.7], [1920, 13.2], [1930, 11.6], [1940, 8.8], [1950, 6.9], [1960, 5.4],
+      [1970, 4.7], [1980, 6.2], [1990, 7.9], [2000, 11.1], [2010, 12.9], [2023, 14.3],
+    ]},
+    {label: 'Pew estimates (CPS-based)', color: 'blue', dashed: true, show: 'both', points: [
+      [2025, 15.8, 'early 2025'], [2025.5, 15.4, 'mid-2025'],
+    ]},
+  ]}
+/>
 </Figure>
 
 The historian Aristide Zolberg's *A Nation by Design* (2006) supplies the corrective to every "nation of immigrants" and every "invasion" cliché alike: immigration levels in America have *always* been engineered policy choices — colonial recruitment subsidies, the 1924 quotas, Hart-Celler's caps — made by political coalitions pursuing the national composition they wanted. The U-shape is not weather. Each turn of the curve was legislated. That is precisely why the present argument matters: it is the argument that produces the next segment of the line.

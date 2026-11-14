@@ -1,0 +1,18 @@
+schema: bettercitizen.content/v1
+slug: three-branches-1
+title: The three branches
+summary: "Why the United States splits its government into three parts, what each part does, and how the parts keep each other in line. Three short lessons, with every new word explained where it first appears."
+author: BetterCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags: [civics-101, constitution, separation-of-powers]
+level: intro
+reading_level: 1
+topic: three-branches
+official: true
+contested: false
+languages: [en]
+lessons:
+  - 01-why-three-branches.mdx
+  - 02-who-does-what.mdx
+  - 03-how-branches-check-each-other.mdx

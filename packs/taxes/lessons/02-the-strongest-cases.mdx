@@ -78,25 +78,22 @@ As the story goes, one evening in 1974 the economist Arthur Laffer sat in the Tw
 The Laffer curve is the revenue slice of that same logic, and it is trivially true at the endpoints: a 0 percent rate raises nothing, and a 100 percent rate on reported income raises (almost) nothing because nobody reports income to be fully confiscated. Everything interesting is the location of the peak. The benchmark calculation comes from Peter Diamond and Emmanuel Saez (2011): with the mid-range elasticity from the empirical literature (about 0.25) and the observed thickness of the U.S. top tail, the revenue-maximizing *all-in* top rate — federal, state, and payroll combined, applied to a base purged of loopholes — is about **73 percent**. Mathias Trabandt and Harald Uhlig's macroeconomic estimate (2011) puts the peak of the U.S. labor-tax Laffer curve at about 63 percent in their benchmark calibration, and finds the United States sitting well on the left, upward-sloping side. That is why, when the University of Chicago's IGM panel asked top economists across the political spectrum in 2012 whether a U.S. federal income-tax cut would raise revenue within five years, **not a single panelist said yes**. But the 73 percent figure is an estimate, not a law: economists who model long-run responses the static framework misses — careers chosen, skills built, ideas pursued — derive much lower revenue-maximizing rates, with published estimates running from the 20s to the 40s. The honest summary: *"tax cuts from current U.S. rates pay for themselves" has essentially no empirical support, and "rates near 70 percent are costless" doesn't follow from the evidence either.* The curve is a constraint everyone shares; the peak is a fight.
 
 <Figure caption="Everyone accepts the curve's endpoints; the dispute is the peak. The static empirical benchmarks (Diamond–Saez 2011; Trabandt–Uhlig 2011) put the revenue-maximizing rate roughly between 60 and 75 percent; models with long-run human-capital and innovation responses put it far lower. The current U.S. all-in top marginal rate — 37 percent federal plus Medicare and typical state taxes — sits in the mid-40s, on the rising side of every mainstream estimate.">
-<svg viewBox="0 0 720 340" width="100%" role="img" aria-label="A Laffer curve: revenue rises with the top tax rate, peaks in a shaded band around 60 to 75 percent where most empirical estimates place the revenue-maximizing rate, then falls to zero at 100 percent; a marker shows the current U.S. all-in top marginal rate in the mid-40s, on the rising side" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="24" y="26" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">The Laffer curve, with the empirical fight marked</text>
-  <line x1="60" y1="280" x2="680" y2="280" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <line x1="60" y1="280" x2="60" y2="60" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <text x="370" y="312" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="middle">all-in top marginal tax rate</text>
-  <text x="60" y="328" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">0%</text>
-  <text x="680" y="328" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">100%</text>
-  <text x="44" y="170" fontFamily="Georgia, serif" fontSize="13" fill="var(--muted, #6b6457)" textAnchor="middle" transform="rotate(-90 44 170)">revenue</text>
-  <rect x="432" y="60" width="93" height="220" fill="var(--gold, #b08a3e)" opacity="0.18" />
-  <path d="M 60 280 Q 300 60 478 88 Q 580 110 680 280" fill="none" stroke="var(--accent, #8a2a1e)" strokeWidth="3" />
-  <line x1="478" y1="88" x2="478" y2="280" stroke="var(--gold, #b08a3e)" strokeWidth="1.5" strokeDasharray="5,4" />
-  <text x="478" y="50" fontFamily="Georgia, serif" fontSize="12.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">est. peak band: ~60–75%</text>
-  <text x="478" y="296" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">Diamond–Saez 73% · Trabandt–Uhlig 63%</text>
-  <circle cx="340" cy="118" r="6" fill="var(--blue, #2f4d6e)" />
-  <line x1="340" y1="118" x2="340" y2="280" stroke="var(--blue, #2f4d6e)" strokeWidth="1.5" strokeDasharray="3,4" />
-  <text x="340" y="296" fontFamily="Georgia, serif" fontSize="12" fill="var(--blue, #2f4d6e)" textAnchor="middle">U.S. today: mid-40s%</text>
-  <text x="200" y="240" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">critics with long-run dynamics</text>
-  <text x="200" y="256" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)">put the peak down here (20s–40s%)</text>
-</svg>
+<Chart
+  schematic
+  title="The Laffer curve, with the empirical fight marked"
+  xUnit="%"
+  xLabel="All-in top marginal tax rate"
+  yLabel="Revenue"
+  xTicks={[0, 25, 50, 75, 100]}
+  yMin={0}
+  yMax={1.1}
+  bands={[
+    {from: 60, to: 75, label: 'Estimated peak band, about 60–75%: Diamond–Saez 73%, Trabandt–Uhlig 63%', color: 'gold'},
+    {from: 20, to: 40, label: 'Critics with long-run dynamics put the peak down here: 20s–40s%', color: 'blue'},
+  ]}
+  marks={[{x: 45, y: 0.864, label: 'U.S. today', place: 'right'}]}
+  series={[{label: 'Revenue', points: [[0, 0.000], [5, 0.126], [10, 0.245], [15, 0.357], [20, 0.462], [25, 0.559], [30, 0.648], [35, 0.729], [40, 0.801], [45, 0.864], [50, 0.916], [55, 0.956], [60, 0.985], [65, 0.999], [70, 0.997], [75, 0.976], [80, 0.933], [85, 0.860], [90, 0.746], [95, 0.560], [97, 0.444], [98.5, 0.321], [100, 0.000]]}]}
+/>
 </Figure>
 
 <Checkpoint question="A senator says: “It's basic Laffer-curve economics — cutting the top rate will increase federal revenue.” What does the curve actually establish, and what would the senator need to show?">

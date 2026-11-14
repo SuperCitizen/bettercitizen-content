@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: idea-to-bill
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What is a bill?"
+    choices:
+      - id: a
+        text: "A law that the President has signed"
+      - id: b
+        text: "A written plan for a new law"
+      - id: c
+        text: "A list of people who want a law"
+      - id: d
+        text: "A vote taken by the whole Congress"
+    correct_choice_id: b
+    explanation: "A bill is a written plan for a new law. It is not a law yet. A list of names is a petition, which can show support for an idea but is not a bill."
+    concepts: [legislative-process]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A scientist writes a careful plan for a law about clean water. What has to happen before it is a bill?"
+    choices:
+      - id: a
+        text: "A million people have to sign it"
+      - id: b
+        text: "The President has to approve it"
+      - id: c
+        text: "A member of Congress has to introduce it"
+      - id: d
+        text: "A judge has to read it and agree"
+    correct_choice_id: c
+    explanation: "Anyone can write a plan, but only a representative or a senator can introduce it. Until a member of Congress does that, the plan is still only an idea."
+    concepts: [legislative-process]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A bill is numbered H.R. 2200. What does that tell you?"
+    choices:
+      - id: a
+        text: "It started in the House"
+      - id: b
+        text: "It started in the Senate"
+      - id: c
+        text: "It has become a law"
+      - id: d
+        text: "It has 2,200 sponsors"
+    correct_choice_id: a
+    explanation: "\"H.R.\" stands for House of Representatives, so the bill was introduced there. A Senate bill would begin with \"S.\" The number shows the order in which it was introduced, not how many people support it."
+    concepts: [legislative-process]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Opal Lee walked for a Juneteenth holiday in 2016. The bill became a law in 2021. What does her story show?"
+    choices:
+      - id: a
+        text: "A person outside Congress can start an idea that becomes a law"
+      - id: b
+        text: "A long walk is one of the steps for making any new law"
+      - id: c
+        text: "A petition with enough names turns into a law by itself"
+      - id: d
+        text: "A person outside Congress can introduce a bill by walking"
+    correct_choice_id: a
+    explanation: "Ms. Lee was not in Congress, and her walk and her petition could not make a law. But they helped an idea reach people who could introduce a bill and vote on it. The idea came from outside. The bill had to come from a member."
+    concepts: [legislative-process]
+
+  - id: q5
+    kind: free-response
+    text: "Think of a rule you would like the whole country to follow. Explain the steps your idea would have to take before it could even be called a bill."
+    concepts: [legislative-process]
+    socratic_seed: "Who would you need to convince first, and why that person and not, say, the President?"

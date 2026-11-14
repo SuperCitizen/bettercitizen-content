@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: how-big-laws-pass
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Why can a budget reconciliation bill pass the Senate with a simple majority?"
+    choices:
+      - id: a
+        text: "Because the Constitution exempts budget bills from the filibuster"
+      - id: b
+        text: "Because the law limits debate on it, so it cannot be filibustered"
+      - id: c
+        text: "Because the President may waive the 60-vote rule for budget bills"
+      - id: d
+        text: "Because the House may override a filibuster by a two-thirds vote"
+    correct_choice_id: b
+    explanation: "The Congressional Budget Act of 1974 caps Senate debate on a reconciliation bill at 20 hours. A debate that must end cannot be used to block a vote, so a simple majority is enough. Neither the Constitution, the President nor the House has any say over Senate debate rules."
+    concepts: [reconciliation, filibuster]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A party with 52 Senate seats wants to pass two things: a cut in tax rates, and a new national standard for voter registration. Which can it realistically pass through reconciliation?"
+    choices:
+      - id: a
+        text: "Both, because reconciliation covers any bill the majority chooses"
+      - id: b
+        text: "Only the tax cut, because the voting standard is not a budget matter"
+      - id: c
+        text: "Only the voting standard, because tax bills must begin in the House"
+      - id: d
+        text: "Neither, because reconciliation still requires sixty votes to pass"
+    correct_choice_id: b
+    explanation: "Reconciliation is limited to taxes, spending and the debt. Under the Byrd rule a provision that is not really about the budget can be struck unless 60 senators vote to keep it. Revenue bills do begin in the House, but that is no bar to reconciliation, which both chambers take part in."
+    concepts: [reconciliation, legislative-process]
+
+  - id: q3
+    kind: multiple-choice
+    text: "October 1 arrives, and Congress has passed none of its regular spending bills. Which measure would keep the government open for six more weeks while talks continue?"
+    choices:
+      - id: a
+        text: "A reconciliation bill"
+      - id: b
+        text: "A discharge petition"
+      - id: c
+        text: "A continuing resolution"
+      - id: d
+        text: "A pocket veto"
+    correct_choice_id: c
+    explanation: "A continuing resolution extends funding at about the current level for a set period. Reconciliation changes tax and spending law, a discharge petition forces a House vote on a stuck bill, and a pocket veto kills a bill. None of those funds the agencies."
+    concepts: [continuing-resolution, appropriations]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In Federalist No. 73, Hamilton praises whatever helps \"to restrain the excess of law-making\" because it favors \"greater stability in the system of legislation.\" Which fact about reconciliation fits least comfortably with that view?"
+    choices:
+      - id: a
+        text: "A law passed by 51 votes can be repealed by the next 51 votes"
+      - id: b
+        text: "A reconciliation bill is limited to taxes, spending and the debt"
+      - id: c
+        text: "A provision can be challenged as having nothing to do with the budget"
+      - id: d
+        text: "A reconciliation bill must still pass the House and reach the President"
+    correct_choice_id: a
+    explanation: "Hamilton's concern is laws that change too easily. A route that needs only a bare majority makes it easier both to pass a major law and to reverse it after the next election. The other three choices are limits on reconciliation, which restrain lawmaking in the way he favored."
+    concepts: [reconciliation, legislative-process]
+
+  - id: q5
+    kind: free-response
+    text: "Some scholars see reconciliation and omnibus bills as a sensible adaptation. Others see them as a loss of careful deliberation. Choose one law or event from this lesson and argue which view it supports better. Use specific details, and say what evidence would change your mind."
+    concepts: [legislative-process, omnibus-bill, reconciliation]
+    socratic_seed: "Who had a real chance to change the bill you chose before it passed, and who did not? Does that matter if the bill had the votes?"

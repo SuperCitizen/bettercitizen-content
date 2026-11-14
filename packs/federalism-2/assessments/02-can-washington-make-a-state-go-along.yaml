@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: can-washington-make-a-state-go-along
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In South Dakota v. Dole the Court said a financial inducement must not be \"so coercive as to pass the point at which 'pressure turns into compulsion.'\" Why did the drinking-age condition survive that test?"
+    choices:
+      - id: a
+        text: "South Dakota had already agreed to raise its drinking age"
+      - id: b
+        text: "The state stood to lose only 5 percent of certain highway funds"
+      - id: c
+        text: "Congress has an enumerated power to set a drinking age"
+      - id: d
+        text: "The Twenty-first Amendment gives Congress control of liquor"
+    correct_choice_id: b
+    explanation: "The Court called the condition \"relatively mild encouragement.\" A state could keep a lower drinking age and give up a small share of some highway money, so the choice remained real. The Court did not decide whether Congress could have set a drinking age directly."
+    concepts: [spending-power, grants-in-aid]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What distinguished the Medicaid expansion in NFIB v. Sebelius from the condition upheld in Dole?"
+    choices:
+      - id: a
+        text: "It was unrelated to the purpose of the federal money"
+      - id: b
+        text: "It was written so vaguely that states could not understand it"
+      - id: c
+        text: "It applied only to states that had voted against the law"
+      - id: d
+        text: "It threatened money that states already received and relied on"
+    correct_choice_id: d
+    explanation: "A state that declined the expansion risked losing all of its existing Medicaid funding, which Chief Justice Roberts described as more than 10 percent of a state's overall budget. He called that \"a gun to the head.\" In Dole the state risked only a small part of certain highway funds."
+    concepts: [spending-power, grants-in-aid, federalism]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Printz v. United States held that the federal government may not \"command the States' officers ... to administer or enforce a federal regulatory program.\" Which later dispute applied the same rule?"
+    choices:
+      - id: a
+        text: "Cities that declined to help enforce federal immigration law"
+      - id: b
+        text: "A governor who used the National Guard to defy a court order"
+      - id: c
+        text: "A state that taxed the local branch of a national bank"
+      - id: d
+        text: "A state court that freed a prisoner held by a federal marshal"
+    correct_choice_id: a
+    explanation: "The anti-commandeering rule protects a state's own officers from federal command, whatever the policy. Several federal trial judges applied it to cities and states that limited their cooperation with immigration authorities. The other three choices describe attempts to obstruct federal authority, which the rule does not protect."
+    concepts: [federalism, tenth-amendment]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Ableman v. Booth (1859) and Cooper v. Aaron (1958) involved states with opposite aims. What do the two decisions have in common?"
+    choices:
+      - id: a
+        text: "Each allowed a state to refuse help to federal officers"
+      - id: b
+        text: "Each struck down a federal law that commanded the states"
+      - id: c
+        text: "Each rejected a state's attempt to override federal authority"
+      - id: d
+        text: "Each upheld a condition that Congress attached to a grant"
+    correct_choice_id: c
+    explanation: "Wisconsin's court tried to free a man held under the Fugitive Slave Act, and Arkansas officials claimed they were not bound by the ruling against segregated schools. In both cases the Supreme Court held that a state cannot nullify federal law or defy the Constitution, whatever its purpose."
+    concepts: [supremacy-clause, federalism]
+
+  - id: q5
+    kind: free-response
+    text: "Brandeis praised the states as laboratories, and Madison wrote that dividing power between two governments gives \"a double security\" to the rights of the people. Using Cooper v. Aaron and one other case from this lesson, argue whether state independence has done more to protect rights or to endanger them."
+    concepts: [federalism, supremacy-clause, tenth-amendment]
+    socratic_seed: "Pick a policy you care about. Would you still defend a state's right to go its own way if most states chose the opposite of what you want?"

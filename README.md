@@ -24,6 +24,7 @@ public — that is the whole point.
 | `scripts/` | Dev-only structural checks (MDX compile, catalog whitelist, render smoke test). Content authors never need these. | Node |
 | `touchstones/` | Touchstones — short memorable lines in four kinds (`saying`/`quote`/`fact`/`number`), the corpus behind the app's recall training. Authoring standard: [TOUCHSTONES.md](TOUCHSTONES.md). | YAML, one file per item |
 | `meta/` | Repo-level data read by the validator *and* the authoring prompts (e.g. `banned-sources.yaml`). | YAML |
+| `docs/` | Decisions about the lesson format (`docs/adr/`), and what they ask of the engine and the apps that render lessons (`docs/core-requests.md`, `docs/renderer-requests.md`). | Markdown |
 
 > Federal and state officeholders (tier 1/2) are **not** authored here — the app
 > imports those from GovTrack and Open States. This repo is editorial content
@@ -50,6 +51,8 @@ Every lesson's frontmatter **must** include `sources:` with primary sources.
 Contested packs (`contested: true`) require each lesson to carry
 `perspectives:` presenting multiple viewpoints without editorializing. The
 validator rejects content that breaks these rules — see **Validation** below.
+
+A topic can be written at more than one reading level. Each **edition** is a pack of its own that names its `reading_level:` (`1`, `2` or `3`; `3` when absent) and the `topic:` it shares with the others. `packs/three-branches-1`, `packs/three-branches-2` and `packs/three-branches` are the first set. See [STYLE.md](STYLE.md), "Reading levels (editions)".
 
 ## How the app consumes this
 

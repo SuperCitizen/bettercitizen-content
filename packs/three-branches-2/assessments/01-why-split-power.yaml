@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: why-split-power
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In Federalist No. 51, Madison writes: \"Ambition must be made to counteract ambition. The interest of the man must be connected with the constitutional rights of the place.\" Which feature of the Constitution best reflects that strategy?"
+    choices:
+      - id: a
+        text: "Each branch holds powers it can use to resist the other two"
+      - id: b
+        text: "Every officeholder swears an oath to support the Constitution"
+      - id: c
+        text: "Voters may remove their representatives at the next election"
+      - id: d
+        text: "Powers not given to the federal government stay with the states"
+    correct_choice_id: a
+    explanation: "Madison's remedy gives officials a personal stake in defending their own institution, and the tools to do it. An oath (b) relies on virtue, which is what he declined to count on. Elections (c) are what he called the primary control, and the passage is about the additional ones. Choice d describes federalism, a different division of power."
+    concepts: [separation-of-powers, checks-and-balances]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which of these phrases appears in the text of the Constitution?"
+    choices:
+      - id: a
+        text: "\"a strict separation of powers among the branches\""
+      - id: b
+        text: "\"a system of checks and balances among the branches\""
+      - id: c
+        text: "\"The executive Power shall be vested in a President\""
+      - id: d
+        text: "\"three coequal branches of the federal government\""
+    correct_choice_id: c
+    explanation: "Only the vesting clause is in the text. The Constitution never uses the phrases \"separation of powers,\" \"checks and balances\" or \"coequal branches.\" It creates the arrangement through the structure of Articles I, II and III."
+    concepts: [separation-of-powers, executive-branch]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which statement about a single federal election day is accurate?"
+    choices:
+      - id: a
+        text: "Every House seat and about a third of Senate seats are on the ballot"
+      - id: b
+        text: "Every House seat and every Senate seat are on the ballot together"
+      - id: c
+        text: "About a third of House seats and every Senate seat are on the ballot"
+      - id: d
+        text: "Every House seat and the federal judges in each district are on the ballot"
+    correct_choice_id: a
+    explanation: "The whole House is elected every two years, but senators serve staggered six-year terms, so only 33 or 34 of the 100 seats come up at a time. Federal judges are appointed and never appear on a ballot. That staggering keeps one election from changing every institution at once."
+    concepts: [legislative-branch, bicameral]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A state creates a water board. Its five members write the rules for water use, send out the inspectors who enforce those rules, and sit as the only judges when someone appeals a fine. No court may review their decisions. Which concern does this raise most directly?"
+    choices:
+      - id: a
+        text: "Federalist No. 47: all three powers are gathered in the same hands"
+      - id: b
+        text: "Federalist No. 51: the legislature will tend to dominate the others"
+      - id: c
+        text: "The vesting clauses: only Congress may write rules of any kind"
+      - id: d
+        text: "The Seventeenth Amendment: the members were not directly elected"
+    correct_choice_id: a
+    explanation: "The board makes the rules, enforces them and judges disputes under them, with no outside review. That is the accumulation Madison called \"the very definition of tyranny,\" and it would be so whether the members were elected or appointed. The vesting clauses govern the federal branches, not a state board."
+    concepts: [separation-of-powers]
+
+  - id: q5
+    kind: free-response
+    text: "Madison wrote that keeping the branches separate does not mean they should have \"no partial agency in, or no control over, the acts of each other.\" Choose one shared power, such as the veto or Senate confirmation of judges, and explain how it can protect the separation of powers instead of violating it."
+    concepts: [separation-of-powers, checks-and-balances]
+    socratic_seed: "If the President had no veto at all, what could a determined Congress do to the executive branch over time?"

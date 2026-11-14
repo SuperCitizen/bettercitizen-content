@@ -1,0 +1,70 @@
+schema: bettercitizen.assessment/v1
+lesson: why-three-branches
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which branch of the government makes the laws?"
+    choices:
+      - id: a
+        text: "The executive branch, led by the President"
+      - id: b
+        text: "The judicial branch, made up of the courts"
+      - id: c
+        text: "The legislative branch, which is Congress"
+    correct_choice_id: c
+    explanation: "Congress is the legislative branch, and Article I of the Constitution gives it the job of making laws. The President carries out the laws. The courts decide what the laws mean."
+    concepts: [legislative-branch]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What was missing from the first plan, the Articles of Confederation?"
+    choices:
+      - id: a
+        text: "A Congress to make decisions for the country"
+      - id: b
+        text: "A president to carry out the country's laws"
+      - id: c
+        text: "State governments with leaders of their own"
+      - id: d
+        text: "A written set of rules for the government"
+    correct_choice_id: b
+    explanation: "The Articles set up a Congress, and the states kept their own governments. But there was no president to carry out the laws, and there were almost no national courts. That is one reason the plan worked poorly."
+    concepts: [executive-branch]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A club president writes the club rules, decides who broke them, and picks the punishment. Which idea from this lesson does the club ignore?"
+    choices:
+      - id: a
+        text: "Separation of powers"
+      - id: b
+        text: "Rule by the majority"
+      - id: c
+        text: "Freedom of speech"
+      - id: d
+        text: "The right to vote"
+    correct_choice_id: a
+    explanation: "Separation of powers means the three jobs go to different people or groups. In this club one person makes the rules, enforces them, and judges them. The other three ideas matter too, but they are about different things."
+    concepts: [separation-of-powers]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Madison wrote, \"If men were angels, no government would be necessary.\" What did he mean?"
+    choices:
+      - id: a
+        text: "Leaders should be chosen for their kindness"
+      - id: b
+        text: "People are not perfect, so power needs limits"
+      - id: c
+        text: "Governments always do more harm than good"
+      - id: d
+        text: "Good leaders matter more than good laws"
+    correct_choice_id: b
+    explanation: "Madison was saying that people, including leaders, are not perfect. So a government should not depend on its leaders being good. It should split up power so that no one can misuse all of it."
+    concepts: [separation-of-powers]
+
+  - id: q5
+    kind: free-response
+    text: "Explain to a younger student why the Constitution splits power into three branches. Use an example of your own, not the kickball game."
+    concepts: [separation-of-powers]
+    socratic_seed: "What could go wrong if the same person made a rule and also judged who broke it?"

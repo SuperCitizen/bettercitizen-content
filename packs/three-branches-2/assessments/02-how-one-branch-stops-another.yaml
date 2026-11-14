@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: how-one-branch-stops-another
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In Federalist No. 78, Hamilton writes that the judiciary has \"neither FORCE nor WILL, but merely judgment.\" What follows from that description?"
+    choices:
+      - id: a
+        text: "Courts rely on the other branches to carry out their rulings"
+      - id: b
+        text: "Courts may not review the acts of an elected Congress"
+      - id: c
+        text: "Courts should leave questions of policy to the President"
+      - id: d
+        text: "Courts need the Senate to approve each of their rulings"
+    correct_choice_id: a
+    explanation: "Hamilton's point is that a court commands no army (force) and controls no budget or policy (will). Its judgments take effect because the other branches enforce and obey them. He used this to argue that judicial review was safe, not to argue against it."
+    concepts: [judicial-review, checks-and-balances]
+
+  - id: q2
+    kind: multiple-choice
+    text: "The House votes on whether to override a veto. With 430 members voting, the result is 280 in favor and 150 against. Does the override pass the House?"
+    choices:
+      - id: a
+        text: "Yes, because 280 is a clear majority of the members voting"
+      - id: b
+        text: "Yes, because 280 is more than 60 percent of those voting"
+      - id: c
+        text: "No, because two-thirds of the 430 voting comes to 287"
+      - id: d
+        text: "No, because it takes two-thirds of all 435 seats, or 290"
+    correct_choice_id: c
+    explanation: "An override takes two-thirds of the members voting, with a quorum present. Two-thirds of 430 is 286.67, so 287 votes are needed, and 280 falls short. Choice d has the right verdict for the wrong reason: the Supreme Court held in 1919 that the base is the members voting, not every seat."
+    concepts: [veto-power]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A headline reads, \"House impeaches federal judge.\" Which statement must be true?"
+    choices:
+      - id: a
+        text: "A majority of the House has voted to accuse the judge"
+      - id: b
+        text: "Two-thirds of the House has voted to remove the judge"
+      - id: c
+        text: "The Senate has convicted the judge of the charges"
+      - id: d
+        text: "The judge has been suspended until the trial ends"
+    correct_choice_id: a
+    explanation: "Impeachment is the House's accusation, by majority vote. Removal requires a Senate trial and a conviction by two-thirds of the senators present. An impeached official stays in office unless the Senate convicts."
+    concepts: [impeachment]
+
+  - id: q4
+    kind: multiple-choice
+    text: "If Levinson and Pildes are right that the contest is a \"separation of parties, not powers,\" when should Congress check the President most actively?"
+    choices:
+      - id: a
+        text: "When the President's party controls both chambers"
+      - id: b
+        text: "When the other party controls at least one chamber"
+      - id: c
+        text: "During the first year of any President's term"
+      - id: d
+        text: "Whenever the President is popular with voters"
+    correct_choice_id: b
+    explanation: "Their argument is that members of Congress act as allies or opponents of the President according to party. A chamber held by the other party has a reason to investigate, block and override. One held by the President's party has a reason to cooperate. This is a prediction from their theory, and the lesson notes cases that cut against it."
+    concepts: [checks-and-balances]
+
+  - id: q5
+    kind: free-response
+    text: "Madison wrote that \"ambition must be made to counteract ambition.\" Choose one confrontation from this lesson: an override, a Supreme Court nomination, or a ruling against a President. Did the officeholders involved defend their institution, their party, or both? Support your answer with specifics."
+    concepts: [checks-and-balances, separation-of-powers]
+    socratic_seed: "Which officials acted against a President of their own party in the case you chose, and which did not? What might explain the difference?"

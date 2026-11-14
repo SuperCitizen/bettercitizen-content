@@ -1,11 +1,17 @@
-'use client';
-import { useEffect, useState } from 'react';
-import { barColor, blockStyle, formatNumber, labelStyle, tokens, type TokenColor } from './lib';
+import { barColor, blockStyle, formatNumber, labelStyle, listReset, tokens, trackFill, type TokenColor } from './lib';
 
 export interface DataBarsBar {
   label: string;
   value: number;
   color?: TokenColor;
+  note?: string;
+}
+
+export interface DataBarsGroup {
+  /** Heading for this set of bars, e.g. a counting rule or a state. */
+  label: string;
+  bars: DataBarsBar[];
+  /** One line read after the group's bars. */
   note?: string;
 }
 
@@ -15,9 +21,16 @@ export interface DataBarsMarker {
 }
 
 export interface DataBarsProps {
-  bars: DataBarsBar[];
+  /** The bars. Required unless `groups` is given. */
+  bars?: DataBarsBar[];
+  /** Sets of bars under their own headings, all drawn to one scale. */
+  groups?: DataBarsGroup[];
   title?: string;
-  /** Shown after values, e.g. "electors". */
+  /**
+   * Shown after values, e.g. "electors". A unit that starts with "%" attaches
+   * without a space ("51% of receipts"), and one that starts with "$" goes in
+   * front ("$" gives "$3,500"; "$ billion" gives "$4,200 billion").
+   */
   unit?: string;
   /** Scale max; defaults to the largest bar value (rows) or the bars' sum (stacked). */
   max?: number;
@@ -27,221 +40,168 @@ export interface DataBarsProps {
   stacked?: boolean;
 }
 
-const LABEL_COL = 140;
-const COL_GAP = 12;
-const TRACK_BG = 'rgba(0, 0, 0, 0.04)';
-const MARKER_SPACE = '1.3rem';
-
 /**
- * Animated horizontal bar comparison. Static display — no interaction.
- * Bars animate in on mount (width transition from 0), which is SSR-safe:
- * the server renders 0-width fills and the client animates to the real value.
+ * Horizontal bar comparison. Each row sets the label and its value on one
+ * line with the bar beneath, so a row never needs more width than its words
+ * and reads the same on a phone as on a desk. Values are always text, never
+ * painted inside a fill. Static: nothing moves, and the server renders the
+ * final widths.
  */
-export function DataBars({ bars, title, unit, max, marker, stacked = false }: DataBarsProps) {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  const largest = bars.reduce((m, b) => Math.max(m, b.value), 0);
-  const total = bars.reduce((s, b) => s + b.value, 0);
+export function DataBars({ bars = [], groups, title, unit, max, marker, stacked = false }: DataBarsProps) {
+  const all = groups ? groups.flatMap((g) => g.bars) : bars;
+  const largest = all.reduce((m, b) => Math.max(m, b.value), 0);
+  const total = all.reduce((s, b) => s + b.value, 0);
   // Guard against an all-zero dataset; a 0 denominator would yield NaN widths.
   const scaleMax = Math.max(max ?? (stacked ? total : largest), 0) || 1;
-  const markerFrac = marker ? Math.min(Math.max(marker.value / scaleMax, 0), 1) : 0;
+  const frac = (v: number) => Math.min(Math.max(v / scaleMax, 0), 1);
+  const markerAt = marker ? `${frac(marker.value) * 100}%` : null;
+  const valueText = (value: number) => {
+    const n = formatNumber(value);
+    if (!unit) return n;
+    if (unit.startsWith('$')) return `$${n}${unit.length > 1 ? ` ${unit.slice(1).trim()}` : ''}`;
+    return unit.startsWith('%') ? `${n}${unit}` : `${n} ${unit}`;
+  };
 
-  const valueText = (value: number) => `${formatNumber(value)}${unit ? ` ${unit}` : ''}`;
-
-  const markerOverlay = marker && (
-    <div style={{ position: 'absolute', top: 0, bottom: 0, left: 0, right: 0 }}>
-      <div
-        style={{
-          position: 'absolute',
-          top: 0,
-          left: `${markerFrac * 100}%`,
-          transform: 'translateX(-50%)',
-          fontSize: '0.72rem',
-          color: tokens.muted,
-          whiteSpace: 'nowrap',
-        }}
-      >
-        {marker.label}
-      </div>
-      <div
+  // The marker is a dashed tick on every track, with its meaning stated once above the bars.
+  const tick = markerAt && (
+    <span
+      aria-hidden="true"
+      style={{ position: 'absolute', top: -3, bottom: -3, left: markerAt, borderLeft: `2px dashed ${tokens.ink}` }}
+    />
+  );
+  const markerKey = marker && (
+    <p style={{ margin: '0 0 0.6rem', fontSize: '0.8rem', lineHeight: 1.4, color: tokens.muted }}>
+      <span
         aria-hidden="true"
         style={{
-          position: 'absolute',
-          top: MARKER_SPACE,
-          bottom: 0,
-          left: `${markerFrac * 100}%`,
+          display: 'inline-block',
+          height: '0.9em',
           borderLeft: `2px dashed ${tokens.ink}`,
+          marginRight: '0.45em',
+          verticalAlign: '-0.1em',
         }}
       />
-    </div>
+      {marker.label}
+    </p>
+  );
+
+  const rows = (items: DataBarsBar[]) => (
+    <ul style={{ ...listReset, display: 'grid', gap: '0.65rem' }}>
+      {items.map((bar, i) => (
+        <li key={i} style={{ margin: 0 }}>
+          {/* A value with a long unit drops to its own line, right-aligned, instead of overflowing. */}
+          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', gap: '0.1em 0.75em', fontSize: '0.88rem', lineHeight: 1.3 }}>
+            <span style={{ flex: '1 1 8em', minWidth: 0, color: tokens.ink }}>
+              {bar.label}
+              {bar.note && (
+                <span style={{ display: 'block', fontSize: '0.78rem', color: tokens.muted, marginTop: 1 }}>
+                  {bar.note}
+                </span>
+              )}
+            </span>
+            <span
+              style={{
+                flex: '0 1 auto',
+                minWidth: 0,
+                marginLeft: 'auto',
+                textAlign: 'right',
+                fontWeight: 600,
+                color: tokens.ink,
+                fontVariantNumeric: 'tabular-nums',
+              }}
+            >
+              {valueText(bar.value)}
+            </span>
+          </div>
+          <div
+            aria-hidden="true"
+            style={{ position: 'relative', marginTop: 4, height: 12, background: trackFill, borderRadius: 3 }}
+          >
+            <div
+              style={{
+                width: `${frac(bar.value) * 100}%`,
+                height: '100%',
+                background: barColor(bar.color),
+                borderRadius: 3,
+              }}
+            />
+            {tick}
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 
   return (
     <div style={{ ...blockStyle, borderLeft: `3px solid ${tokens.gold}` }}>
       <div style={labelStyle}>By the numbers</div>
-      {title && <p style={{ margin: '0 0 0.85rem', fontWeight: 600, color: tokens.ink }}>{title}</p>}
+      {title && <p style={{ margin: '0 0 0.7rem', fontWeight: 600, lineHeight: 1.35, color: tokens.ink }}>{title}</p>}
+      {markerKey}
 
-      {!stacked && (
-        <div style={{ position: 'relative', paddingTop: marker ? MARKER_SPACE : 0 }}>
-          <div style={{ display: 'grid', gap: '0.6rem' }}>
-            {bars.map((bar, i) => {
-              const frac = Math.min(Math.max(bar.value / scaleMax, 0), 1);
-              // Near-full bars print the value inside the fill so it never
-              // overflows the track; the 0.82 cutoff is a deterministic stand-in
-              // for "wide enough" (no client-side text measurement).
-              const inside = frac > 0.82;
-              return (
-                <div key={i} style={{ display: 'flex', gap: COL_GAP, alignItems: 'flex-start' }}>
-                  <div
-                    style={{
-                      flex: `0 0 ${LABEL_COL}px`,
-                      minWidth: LABEL_COL,
-                      fontSize: '0.85rem',
-                      color: tokens.ink,
-                      paddingTop: 3,
-                      lineHeight: 1.25,
-                    }}
-                  >
-                    <div>{bar.label}</div>
-                    {bar.note && (
-                      <div style={{ fontSize: '0.75rem', color: tokens.muted, marginTop: 2 }}>{bar.note}</div>
-                    )}
-                  </div>
-                  <div
-                    style={{
-                      flex: 1,
-                      background: TRACK_BG,
-                      borderRadius: 4,
-                      height: 22,
-                      display: 'flex',
-                      alignItems: 'center',
-                    }}
-                  >
-                    <div
-                      style={{
-                        width: mounted ? `${frac * 100}%` : '0%',
-                        height: '100%',
-                        background: barColor(bar.color),
-                        borderRadius: 4,
-                        transition: 'width 700ms ease',
-                        position: 'relative',
-                      }}
-                    >
-                      {inside && (
-                        <span
-                          style={{
-                            position: 'absolute',
-                            right: 6,
-                            top: '50%',
-                            transform: 'translateY(-50%)',
-                            color: '#ffffff',
-                            fontSize: '0.75rem',
-                            whiteSpace: 'nowrap',
-                          }}
-                        >
-                          {valueText(bar.value)}
-                        </span>
-                      )}
-                    </div>
-                    {!inside && (
-                      <span
-                        style={{
-                          marginLeft: 6,
-                          fontSize: '0.75rem',
-                          color: tokens.ink,
-                          whiteSpace: 'nowrap',
-                        }}
-                      >
-                        {valueText(bar.value)}
-                      </span>
-                    )}
-                  </div>
-                </div>
-              );
-            })}
+      {!stacked && !groups && rows(bars)}
+
+      {!stacked &&
+        groups &&
+        groups.map((group, g) => (
+          <div
+            key={g}
+            role="group"
+            aria-label={group.label}
+            style={{
+              marginTop: g === 0 ? 0 : '0.9rem',
+              paddingTop: g === 0 ? 0 : '0.8rem',
+              borderTop: g === 0 ? undefined : `1px solid ${tokens.line}`,
+            }}
+          >
+            <p style={{ margin: '0 0 0.5rem', fontSize: '0.92rem', fontWeight: 700, lineHeight: 1.3, color: tokens.ink }}>
+              {group.label}
+            </p>
+            {rows(group.bars)}
+            {group.note && (
+              <p style={{ margin: '0.5rem 0 0', fontSize: '0.82rem', lineHeight: 1.45, color: tokens.muted }}>
+                {group.note}
+              </p>
+            )}
           </div>
-          {/* Marker spans only the track column, so the overlay starts past the label column. */}
-          {marker && (
-            <div
-              style={{
-                position: 'absolute',
-                top: 0,
-                bottom: 0,
-                left: LABEL_COL + COL_GAP,
-                right: 0,
-                pointerEvents: 'none',
-              }}
-            >
-              {markerOverlay}
-            </div>
-          )}
-        </div>
-      )}
+        ))}
 
       {stacked && (
         <div>
-          <div style={{ position: 'relative', paddingTop: marker ? MARKER_SPACE : 0 }}>
-            <div
-              style={{
-                display: 'flex',
-                height: 36,
-                background: TRACK_BG,
-                borderRadius: 6,
-                overflow: 'hidden',
-              }}
-            >
-              {bars.map((bar, i) => {
-                const frac = Math.min(Math.max(bar.value / scaleMax, 0), 1);
-                return (
-                  <div
-                    key={i}
-                    style={{
-                      width: mounted ? `${frac * 100}%` : '0%',
-                      transition: 'width 700ms ease',
-                      background: barColor(bar.color),
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      overflow: 'hidden',
-                      whiteSpace: 'nowrap',
-                    }}
-                  >
-                    {/* Segment label only when the segment is plausibly wide enough. */}
-                    {frac >= 0.14 && (
-                      <span aria-hidden="true" style={{ color: '#ffffff', fontSize: '0.75rem' }}>
-                        {bar.label}
-                      </span>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-            {marker && (
-              <div style={{ position: 'absolute', top: 0, bottom: 0, left: 0, right: 0, pointerEvents: 'none' }}>
-                {markerOverlay}
-              </div>
-            )}
-          </div>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem 1.1rem', marginTop: '0.7rem' }}>
-            {bars.map((bar, i) => (
-              <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: '0.85rem' }}>
-                <span
+          <div aria-hidden="true" style={{ position: 'relative' }}>
+            <div style={{ display: 'flex', height: 22, background: trackFill, borderRadius: 4, overflow: 'hidden' }}>
+              {all.map((bar, i) => (
+                <div
+                  key={i}
                   style={{
-                    width: 12,
-                    height: 12,
+                    width: `${frac(bar.value) * 100}%`,
+                    background: barColor(bar.color),
+                    boxSizing: 'border-box',
+                    borderRight: i < all.length - 1 ? `2px solid ${tokens.card}` : undefined,
+                  }}
+                />
+              ))}
+            </div>
+            {tick}
+          </div>
+          <ul style={{ ...listReset, display: 'flex', flexWrap: 'wrap', gap: '0.4rem 1.1rem', marginTop: '0.7rem' }}>
+            {all.map((bar, i) => (
+              <li key={i} style={{ display: 'flex', alignItems: 'baseline', gap: 6, margin: 0, fontSize: '0.85rem', lineHeight: 1.35 }}>
+                <span
+                  aria-hidden="true"
+                  style={{
+                    width: 11,
+                    height: 11,
                     borderRadius: 3,
                     background: barColor(bar.color),
                     flex: '0 0 auto',
+                    alignSelf: 'center',
                   }}
                 />
                 <span style={{ color: tokens.ink }}>{bar.label}</span>
-                <span style={{ color: tokens.muted }}>{valueText(bar.value)}</span>
-              </div>
+                <span style={{ color: tokens.muted, fontVariantNumeric: 'tabular-nums' }}>{valueText(bar.value)}</span>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       )}
     </div>

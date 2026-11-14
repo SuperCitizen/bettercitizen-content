@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: when-they-disagree
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "How did Congress get the states to raise the drinking age to twenty-one?"
+    choices:
+      - id: a
+        text: "It ordered every governor to sign a new law"
+      - id: b
+        text: "It tied the rule to money for building highways"
+      - id: c
+        text: "It asked the Supreme Court to choose the age"
+      - id: d
+        text: "It added a new amendment to the Constitution"
+    correct_choice_id: b
+    explanation: "Congress passed a law in 1984 about highway money. A state that let people under twenty-one buy alcohol would lose part of that money. Congress did not order the states to change their laws."
+    concepts: [federalism, spending-power]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Why did South Dakota lose its case in 1987?"
+    choices:
+      - id: a
+        text: "The Court said the state could still say no to the offer"
+      - id: b
+        text: "The Court said the states have no powers of their own"
+      - id: c
+        text: "The Court said highways belong to the states alone"
+      - id: d
+        text: "The Court said the state had waited too long to sue"
+    correct_choice_id: a
+    explanation: "The Supreme Court ruled seven to two that Congress had made an offer and had not given an order. South Dakota could keep its own rule and lose only five percent of that highway money."
+    concepts: [spending-power, grants-in-aid]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Justice Brandeis wrote that a state may \"serve as a laboratory.\" What did he mean?"
+    choices:
+      - id: a
+        text: "A state should spend more of its money on science"
+      - id: b
+        text: "A state must copy the laws of the states around it"
+      - id: c
+        text: "A state can test a new idea before the country does"
+      - id: d
+        text: "A state can ignore a national law it does not like"
+    correct_choice_id: c
+    explanation: "A laboratory is a place for experiments. One state can try a new idea, and the other states can watch. Wyoming let women vote in 1869, long before the Nineteenth Amendment made it the rule everywhere in 1920."
+    concepts: [federalism]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In 1957 the governor of Arkansas tried to keep nine Black students out of a high school. What did the Supreme Court say the next year?"
+    choices:
+      - id: a
+        text: "Each state may decide who attends its schools"
+      - id: b
+        text: "A governor may ignore rulings he believes are wrong"
+      - id: c
+        text: "The students had to move to a different state"
+      - id: d
+        text: "State leaders must follow the Constitution"
+    correct_choice_id: d
+    explanation: "Every justice agreed. A state can choose many things for itself, but it cannot take away rights that the Constitution protects, and its leaders cannot refuse to obey."
+    concepts: [supremacy-clause, federalism]
+
+  - id: q5
+    kind: free-response
+    text: "Think of one rule that you believe should be the same in every state, and one rule that each state should choose for itself. Explain your reasons for both."
+    concepts: [federalism]
+    socratic_seed: "Would you still want one rule for the whole country if it turned out to be a rule you did not like?"

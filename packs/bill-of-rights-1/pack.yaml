@@ -1,0 +1,20 @@
+schema: bettercitizen.content/v1
+slug: bill-of-rights-1
+title: The Bill of Rights
+summary: "Why a list of rights was added to the Constitution, what the First Amendment protects, and what the other nine amendments do. Three short lessons built around real people: the delegate who would not sign, the students who wore armbands to school, and the prisoner who wrote to the Supreme Court by hand."
+author: BetterCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags:
+  - civics-101
+level: intro
+reading_level: 1
+topic: bill-of-rights
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - 01-why-a-bill-of-rights.mdx
+  - 02-the-first-amendment.mdx
+  - 03-the-other-nine.mdx

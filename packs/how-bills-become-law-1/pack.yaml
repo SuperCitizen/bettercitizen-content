@@ -1,0 +1,20 @@
+schema: bettercitizen.content/v1
+slug: how-bills-become-law-1
+title: How a bill becomes law
+summary: "How an idea turns into a bill, what happens to that bill inside Congress, and what the President can do with it at the end. Three short lessons that follow one real law, the Juneteenth holiday, from a long walk in Texas to the President's desk."
+author: BetterCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags:
+  - civics-101
+level: intro
+reading_level: 1
+topic: how-bills-become-law
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - 01-idea-to-bill.mdx
+  - 02-inside-congress.mdx
+  - 03-the-presidents-desk.mdx

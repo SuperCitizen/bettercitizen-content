@@ -107,34 +107,14 @@ Why would a Congress with the votes to make things permanent choose to sunset it
 CBO's final score of OBBBA: about **$3.4 trillion added to deficits over 2025–2034** — roughly $4.5 trillion in revenue reductions, partly offset by about $1.1 trillion in net spending cuts (chiefly Medicaid, SNAP, and student loans, with CBO projecting about 10 million fewer people insured) — and about **$4.1 trillion including debt service**. That lands on a fiscal position that was already historically abnormal for peacetime. As of June 2026, gross federal debt passed **$39 trillion** (Treasury), of which about $31.6 trillion is debt held by the public — about **101 percent of GDP in 2026, on CBO's projection rising past the all-time record of 106 percent (set in 1946, after World War II) around 2030, and reaching 120 percent by 2036**. The deficit ran at 5.9 percent of GDP in fiscal 2025 ($1.8 trillion) and is projected at 5.8 percent ($1.9 trillion) for 2026 — a share reached before only in world wars, the 2008–09 crisis, and the pandemic. Net interest now costs about $1.0 trillion a year — more than defense — and reaches a projected $2.1 trillion by 2036.
 
 <Figure caption="Debt held by the public as a share of GDP — the World War II record falls within this decade on current law." source="Historical points: CBO historical budget data. 2026 and 2036: CBO, The Budget and Economic Outlook (2026), which incorporates OBBBA.">
-<svg viewBox="0 0 720 330" width="100%" role="img" aria-label="Line chart of federal debt held by the public as a percent of GDP: 106 percent record in 1946, falling to about 23 percent in 1974, 35 percent in 2007, 79 percent in 2019, 101 percent in 2026, with CBO projecting 120 percent by 2036" style={{maxWidth: 680, height: 'auto', display: 'block', margin: '0 auto'}} xmlns="http://www.w3.org/2000/svg">
-  <text x="24" y="26" fontFamily="Georgia, serif" fontSize="15" fill="var(--ink, #14130f)" fontWeight="bold">Debt held by the public, share of GDP</text>
-  <line x1="60" y1="280" x2="690" y2="280" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <line x1="60" y1="280" x2="60" y2="50" stroke="var(--ink, #14130f)" strokeWidth="1.5" />
-  <line x1="60" y1="93" x2="690" y2="93" stroke="var(--gold, #b08a3e)" strokeWidth="1.5" strokeDasharray="6,4" />
-  <text x="66" y="86" fontFamily="Georgia, serif" fontSize="12" fill="var(--gold, #b08a3e)">1946 record: 106%</text>
-  <polyline points="90,93 230,239 370,218 480,141 580,102" fill="none" stroke="var(--accent, #8a2a1e)" strokeWidth="3" />
-  <polyline points="580,102 670,68" fill="none" stroke="var(--accent, #8a2a1e)" strokeWidth="3" strokeDasharray="6,5" />
-  <circle cx="90" cy="93" r="4" fill="var(--accent, #8a2a1e)" />
-  <circle cx="230" cy="239" r="4" fill="var(--accent, #8a2a1e)" />
-  <circle cx="370" cy="218" r="4" fill="var(--accent, #8a2a1e)" />
-  <circle cx="480" cy="141" r="4" fill="var(--accent, #8a2a1e)" />
-  <circle cx="580" cy="102" r="4" fill="var(--accent, #8a2a1e)" />
-  <circle cx="670" cy="68" r="4" fill="var(--accent, #8a2a1e)" />
-  <text x="90" y="300" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">1946</text>
-  <text x="230" y="300" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">1974</text>
-  <text x="370" y="300" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2007</text>
-  <text x="480" y="300" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2019</text>
-  <text x="580" y="300" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2026</text>
-  <text x="670" y="300" fontFamily="Georgia, serif" fontSize="12" fill="var(--muted, #6b6457)" textAnchor="middle">2036</text>
-  <text x="230" y="258" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">~23%</text>
-  <text x="370" y="237" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">~35%</text>
-  <text x="480" y="133" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">79%</text>
-  <text x="568" y="124" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">101%</text>
-  <text x="664" y="56" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--ink, #14130f)" textAnchor="middle" fontWeight="bold">120% (proj.)</text>
-  <text x="625" y="250" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">dashed = CBO</text>
-  <text x="625" y="265" fontFamily="Georgia, serif" fontSize="11.5" fill="var(--muted, #6b6457)" textAnchor="middle">projection</text>
-</svg>
+<DataBars title="Debt held by the public, share of GDP" unit="% of GDP" max={120} marker={{value: 106, label: 'The 1946 record: 106% of GDP'}} bars={[
+  {label: '1946', value: 106, color: 'accent', note: 'The record'},
+  {label: '1974', value: 23, color: 'blue', note: 'Approximate'},
+  {label: '2007', value: 35, color: 'blue', note: 'Approximate'},
+  {label: '2019', value: 79, color: 'blue'},
+  {label: '2026', value: 101, color: 'accent'},
+  {label: '2036', value: 120, color: 'gold', note: 'CBO projection'},
+]} />
 </Figure>
 
 Every reform conversation below happens in this shadow, and each Lesson 2 camp reads the same chart its own way: the progressive sees a revenue level (about 17.5 percent of GDP) that simply cannot fund an aging society and must rise at the top; the supply-sider sees outlays at 23.3 percent against a 21.2 percent historical norm and concludes the spending path, especially the big [[term:entitlement-program]]s, is the variable (the 2025 Trustees put the Social Security retirement fund's depletion at 2033, after which current law pays 77 percent of scheduled benefits); the consumption-taxer sees a gap too large for either and a VAT as the only instrument of sufficient size. The [[term:national-debt]] doesn't pick a side; it just compounds.
