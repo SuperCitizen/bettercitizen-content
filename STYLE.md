@@ -34,6 +34,46 @@ read both before authoring.
   settle and where the live argument continues (existing "What this lesson is
   not" convention). Keep it.
 
+## Teaching moves (benchmarked against Crash Course)
+
+Crash Course's government series are the best-known free civics explainers,
+so they are the bar our explanations have to clear. We studied them in
+November 2026 ([`docs/benchmarks/crash-course.md`](docs/benchmarks/crash-course.md)).
+These moves are worth borrowing at every reading level and every `level`,
+alongside the rules above:
+
+- **Title the question the reader already has.** Especially at `intro`:
+  "Why does Congress have two chambers?" beats "Bicameralism."
+- **Teach a fought-over mechanism on neutral ground first.** Show packing,
+  vote-counting, or apportionment in an invented state with placeholder
+  parties, where nobody's team is on the line. Then move to real cases.
+- **Pair real examples across the aisle.** When a tool has been used or
+  abused, give one case from each side (a Republican House bill and a
+  Democratic House bill that both died in the Senate). One-sided examples
+  read as editorializing even when every fact is right.
+- **One concrete analogy per hard idea, then say where it breaks.** "Two
+  locks on one door" carries bicameralism; say what the image leaves out.
+- **Name the near miss right after the definition.** Judicial review is not
+  appellate review; the 60-vote Senate hurdle is a Senate rule, not the
+  Constitution. A `QuickCheck` is the natural home for this.
+- **Overturn an assumption with the text.** "Where does the Constitution
+  grant judicial review? It doesn't." Lead with what the reader expects,
+  then show the primary source.
+- **End by pointing forward.** Close on the question the next lesson
+  answers, so the pack reads as a series, not a stack.
+
+What we deliberately do **not** copy:
+
+- **Verdicts on contested questions.** Their newer episodes say things like
+  "the system is broken." We steel-man and stop. Settled empirical findings
+  (what courts and audits found) are stated as findings. Value questions
+  stay open.
+- **Undated, unsourced numbers.** Several 2015 episodes are now wrong
+  because the facts moved: seat counts, Supreme Court doctrine. A few were
+  wrong to begin with. Everything we state carries a source and a date.
+- **Their material.** Characters, running jokes, names, and scripts belong to
+  Crash Course. We borrow techniques, never text.
+
 ## Structure of a lesson body
 
 1. `# Title` (H1, matches frontmatter title)
@@ -115,7 +155,7 @@ Written to be read alone from about age 10 (roughly grades 5 to 8), and with an 
 Written to be read alone from about age 14 (roughly grades 9 to 12).
 
 - **Reading grade about 9 to 11, never above 12. 1,200–1,800 words a lesson.**
-- **Title the question the reader already has.** Teach a mechanism on invented, neutral ground before the real cases. Pair real examples across party lines. Name the near miss right after each definition. (These are the Foundations track's teaching moves, bettercitizen.ai#52.)
+- **Title the question the reader already has.** Teach a mechanism on invented, neutral ground before the real cases. Pair real examples across party lines. Name the near miss right after each definition. (These are the [teaching moves](#teaching-moves-benchmarked-against-crash-course) above, written for the Foundations track, bettercitizen.ai#52.)
 - **Put a document in front of the reader.** Each lesson quotes at least one primary-source passage at length (`<Callout type="sources" title="Read the document: …">`) and asks a question that can only be answered from it. The assessment has at least one question built on a quoted passage.
 - **Name a scholar when their argument is the open question**, in a sentence or two, and close on what the lesson does not settle.
 - **Per lesson:** two to four checks, at most one simulator, and the figures the argument needs.

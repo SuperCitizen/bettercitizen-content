@@ -1,0 +1,20 @@
+schema: bettercitizen.content/v1
+slug: congress
+title: Congress
+summary: How the national legislature is actually built — why it has two
+  chambers that are elected on different clocks and different maps, what each
+  chamber alone can do, and what that design buys and costs. The first pack of
+  the foundations track benchmarked against Crash Course's US Government
+  series.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags:
+  - civics-101
+level: intro
+official: true
+contested: false
+languages:
+  - en
+lessons:
+  - 01-two-chambers.mdx
