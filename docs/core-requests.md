@@ -2,7 +2,7 @@
 
 What the lesson content needs from core that `core-api.md` doesn't offer yet. Core reads this file and answers in its `CHANGELOG.md`, as it does for each app's `docs/core-requests.md`. Numbers here start with C so they don't collide with an app's.
 
-Last updated 2026-11-13 (C7 added; the rest is as of 2026-11-09), against core 0.1.0 as built on 2026-11-06 and this repo's working tree after [ADR 0001](adr/0001-figures-are-content.md) (figures are content, not drawings). These extend two requests the Apple app already filed: its R21 (type the MDX components, keep `<Figure caption>`) and R22 (figure assets as real SVG).
+Last updated 2026-11-16 (C8 to C12 added, for [ADR 0003](adr/0003-laws-cases-and-states.md), against core 0.2.1 as unreleased that day). C7 was added on 2026-11-13. C1 to C6 are as of 2026-11-09, against core 0.1.0 as built on 2026-11-06 and this repo's working tree after [ADR 0001](adr/0001-figures-are-content.md) (figures are content, not drawings); they extend two requests the Apple app already filed, its R21 (type the MDX components, keep `<Figure caption>`) and R22 (figure assets as real SVG).
 
 ## Why this is urgent
 
@@ -103,3 +103,82 @@ Proposed:
 - An app shows the level as a small mark of one, two or three bars and never as a name for the reader ("middle school"). Editions of a topic share a title on purpose.
 
 Until this lands, core reads an edition as one more pack with the same title as its siblings. The native apps should stay on content from before the first edition pack (`packs/three-branches-1`, `packs/three-branches-2`).
+
+### C8. Laws, cases and states are entities (ADR 0003)
+
+Three new collections, `laws/`, `cases/` and `states/`, plus `meta/courts.yaml`, whose formats are decisions 1 to 4 of [ADR 0003](adr/0003-laws-cases-and-states.md). Proposed:
+
+```text
+enum EntityKind { …, Law, Case, State }                // as_str: "law", "case", "state"
+async fn get_law(slug) -> Law
+  record Law   { slug, name, short_name?, official_title?, jurisdiction: Jurisdiction, congress?, session?, bill_number?,
+                 other_bills: [BillRef], introduced?, enacted?, public_law?, citation?, codified?, status: LawStatus,
+                 sponsors: [Sponsor], amends: [EntityRef], amended_by: [EntityRef], cases: [EntityRef],
+                 summary, body: [LessonBlock], sources: [Source], linked_from: Backlinks }
+  enum   LawStatus    { Introduced, PassedOneChamber, PassedBoth, Enacted, Vetoed, Died, Repealed }
+  enum   Jurisdiction { Federal, State(EntityRef) }
+  record Sponsor      { name, person: EntityRef? }      // `name` always set; `person` when the sponsor has a page
+  record BillRef      { congress?, session?, bill_number }
+async fn get_case(slug) -> Case
+  record Case  { slug, name, short_name?, court: Court, argued?, decided?, citation?, docket?, holding?,
+                 laws: [EntityRef], overrules: [EntityRef], overruled_by: [EntityRef],
+                 summary, body: [LessonBlock], sources: [Source], linked_from: Backlinks }
+  record Court { id, name, state: EntityRef? }          // from meta/courts.yaml; CourtListener's ids
+async fn get_state(slug) -> State
+  record State { slug, name, code, kind: StateKind, ocd_id, capital?, admitted?, legislature?,
+                 summary, body: [LessonBlock], sources: [Source],
+                 senators: [Member], representatives: [Member],      // current members, from C10; representatives by district
+                 people: [EntityRef], laws: [EntityRef], cases: [EntityRef], linked_from: Backlinks }
+  enum   StateKind { State, District }
+```
+
+- Dates are strings and may be partial (`YYYY`, `YYYY-MM`, `YYYY-MM-DD`). A case with no `decided` is pending and has no holding.
+- `amended_by`, `cases` (on a law) and `overruled_by` are the reverse of `amends`, a case's `laws` and `overrules`, computed at import.
+- `list_entities` and `search` cover the three kinds. `EntitySummary.category` is a law's status, a case's court and a state's kind.
+- The importer rejects what the web's validator rejects: a missing required field, an unknown `status`, `court` or jurisdiction, a `holding` missing from a decided case, a sponsor or `laws`/`amends`/`overrules` slug that resolves to nothing, and a duplicate slug. If core checks more, please tell bettercitizen.ai, as in C6.
+
+### C9. Cross-references: three kinds and a label (ADR 0003, decision 8)
+
+```text
+[[law:voting-rights-act]]   [[case:citizens-united-v-fec]]   [[state:ma]]
+[[case:buckley-v-valeo|Buckley]]                              // the labeled form, for every kind
+```
+
+- `split_cross_refs` reads the kinds `law`, `case` and `state`, and an optional `|label` of 1 to 80 characters with no `[`, `]`, `|` or newline.
+- A labeled ref keeps its label through resolution; an unlabeled one gets the entity's name, as now. `Inline::CrossRef` needs no new field: apps set a `Case` link in italics, label or not.
+- A ref whose kind core does not know, or whose slug resolves to nothing, becomes `Text` of its label or its slug's words, never the raw `[[…]]`. Today `split_cross_refs` leaves an unknown kind, and a slug with a `|` in it, as text with its brackets, which is what an app on core 0.2 would show for every new link. The native apps should stay on content from before the first `[[law:]]`, `[[case:]]`, `[[state:]]` or labeled link until this lands.
+- A ref that resolves to nothing fails import, as now.
+
+### C10. Persons: a state, offices, a Bioguide ID, and members of Congress from `congress/` (ADR 0003, decisions 5 and 6)
+
+- `PersonDoc` gains `state?` (a state slug), `offices: [OfficeDoc]` and `bioguide?`. `OfficeDoc { office, level: federal | state | local, chamber?: upper | lower, state?, district?, from, to? }`.
+- Import `congress/members.json` and `congress/slugs.json`. A member whose Bioguide ID is on a `persons/` file is that person; a member without one becomes a person with no editorial fields. `[[person:]]` refs and law sponsors resolve against both.
+- `get_person` returns, beside what it returns now: `state: EntityRef?` (written, or the state of the latest office), `offices: [Office]` (the file's offices and the member's terms in Congress, newest first), `bioguide?`, `party?` (from the snapshot for a sitting member when the file has none), `sponsored: [EntityRef]` (laws naming the person as a sponsor) and `linked_from: Backlinks`. A generated member's `role` is their current or last office ("U.S. Senator from Vermont"), and their `bio` is empty.
+- `record Member { person: EntityRef, chamber: Senate | House, state: EntityRef, district?, party_label, term_ends }` for C8's state pages and C11.
+- `list_entities(Person)` would grow from 217 to about 800. Please consider listing only people with a `persons/` file there, and reaching members without one through state pages, links and search.
+- The importer rejects a `bioguide` that is not in the snapshot, or whose snapshot slug is not the file's slug.
+
+### C11. "Who represents me" from the snapshot, offline (ADR 0003, decision 6)
+
+`who_represents_me` reads `https://supercitizen.org/civic-data/home/<st>.json`, which has answered 404 since supercitizen.org's production site deleted its civic routes on 2026-11-09. A stopgap serving only the members of Congress, in the fields core already parses, was committed to supercitizen.org's `main` on 2026-11-16 (`1815f50`, not yet deployed when this was written). It is meant to last until core reads members from content. Proposed:
+
+- Answer from the imported members: the two senators of the place's state, and the representative for its district when one is set. No network.
+- `Officeholder.id` becomes the person's slug, and `profile_url` gives way to `person: EntityRef`, so an app opens the person page. `sources` cite congress-legislators through `congress/README.md`, with the snapshot's build date. `on_ballot` has no source in the snapshot and should go, or be absent.
+- `civic_status` reports the content snapshot as its source and its build date as `data_version`.
+- The snapshot gives each member's district as Congress numbers it. The maps nine states redrew for 2026 take effect when the 120th Congress meets on January 3, 2027. Until then the snapshot cannot give the district picker those states' new districts (supercitizen.org's file carries them as `house` keys), and a place on the new map may name a district its sitting member does not hold. So switch to the snapshot with the first content release built after January 3, 2027, and keep reading supercitizen.org's file until then. Core's `redrawn` handling should keep saying which map it used.
+- After the switch, whether to keep supercitizen.org as an optional source is core's call. The stopgap is meant to be removed.
+
+### C12. Backlinks on every entity (ADR 0003, decision 7)
+
+At import, build one index of links: from lesson bodies, from entity bodies (terms, issues, ideologies, persons, organizations, laws, cases, states) and from fields (a law's `sponsors`, `amends` and `jurisdiction`; a case's `laws`, `overrules` and its court's state; a person's `state`). Proposed:
+
+```text
+record Backlinks  { lessons: [LessonRef], entities: [EntityLink] }   // on every get_* record above, and on Term, Issue,
+record EntityLink { entity: EntityRef, via: LinkVia }                //   Ideology, Person and Organization
+enum   LinkVia    { Body, Sponsor, Amends, Jurisdiction, ReviewedLaw, Overrules, State, Court }
+```
+
+- Lessons in curriculum order: packs as `list_packs` orders them, then lesson order. Each `LessonRef` carries its pack's `reading_level` (C7), so an app can put the reader's level first.
+- Entities grouped by kind, then sorted by name.
+- An issue's `related_lessons` stays as it is: it comes from the issue's hand-kept list and need not match its backlinks.
+- bettercitizen.ai computes the same lists by the same rules. If core's rules differ in any case, please say so in the CHANGELOG, so the web can follow.
