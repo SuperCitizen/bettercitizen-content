@@ -1,10 +1,13 @@
 # Pack covers: one image per topic, shown behind the pack's title on every Learn list.
 #
-# Every cover is generated from the same `style` plus its topic's `subject`, so the set reads as
-# one series. Images carry no text: the apps draw the title, level and length on top, and that
-# overlay can change without touching an image. Editions of a topic share its cover.
+# A set is every topic's cover in one style: each cover is generated from the set's style plus its
+# topic's `subject`, so a set reads as one series, and every set shares the subjects. Sets live in
+# covers/sets/<style>/<topic>.jpg. The apps read covers/<topic>.jpg, a copy of the `active` set.
+# Images carry no text: the apps draw the title, level and length on top, and that overlay can
+# change without touching an image. Editions of a topic share its cover.
 #
-# Regenerate with `npm run covers` (see README, "Pack covers"). Decision: docs/adr/0004-pack-covers.md.
+# Generate with `npm run covers -- --style <name>`, switch with `npm run covers -- --use <name>`
+# (see README, "Pack covers"). Decisions: docs/adr/0004-pack-covers.md, 0005-airy-cover-set.md.
 #
 # Writing a subject:
 # - One clear symbolic subject, made of objects, buildings or landscape. No real people, no faces;
@@ -14,21 +17,45 @@
 # - Say where the gold accent goes, and put it on the thing that unifies, not on one side.
 # - Nothing written: documents show abstract lines, screens and dials stay blank.
 
-style: >-
-  A cover illustration for a civics course, one image in a matching series of book-cover-like
-  illustrations. Style: refined editorial illustration, like the covers of a premium nonfiction
-  book series. Fine engraved line-work combined with soft, flat gouache shading and a subtle
-  paper grain. The palette is strictly limited to a deep warm charcoal background, warm stone
-  grays, pale parchment highlights and a single muted gold accent used sparingly on the focal
-  element. No other colors anywhere: no red, no blue, no green, no purple. Composition: one
-  clear symbolic subject, centered horizontally and sitting in the upper two thirds of the
-  frame, with calm, dark, empty space around it. The bottom third of the frame is plain, quiet
-  background with almost no detail, because a title will be laid over it. Soft directional light
-  from the upper left. Wide landscape format. There is no text of any kind: no letters, words,
-  numbers, signage, captions, labels, logos, watermarks or legible writing anywhere in the image;
-  documents, books and screens show only abstract lines. No identifiable real people and no faces;
-  any people are small, anonymous silhouettes. No flags, no party symbols, no elephants or
-  donkeys, no campaign imagery. Dignified, calm, neutral and timeless.
+# The set covers/<topic>.jpg is copied from. `npm run covers -- --use <style>` changes it.
+active: airy
+
+styles:
+  # The first set (2026-11-16): warm charcoal, engraved line-work and gouache, one gold accent.
+  dark: >-
+    A cover illustration for a civics course, one image in a matching series of book-cover-like
+    illustrations. Style: refined editorial illustration, like the covers of a premium nonfiction
+    book series. Fine engraved line-work combined with soft, flat gouache shading and a subtle
+    paper grain. The palette is strictly limited to a deep warm charcoal background, warm stone
+    grays, pale parchment highlights and a single muted gold accent used sparingly on the focal
+    element. No other colors anywhere: no red, no blue, no green, no purple. Composition: one
+    clear symbolic subject, centered horizontally and sitting in the upper two thirds of the
+    frame, with calm, dark, empty space around it. The bottom third of the frame is plain, quiet
+    background with almost no detail, because a title will be laid over it. Soft directional light
+    from the upper left. Wide landscape format. There is no text of any kind: no letters, words,
+    numbers, signage, captions, labels, logos, watermarks or legible writing anywhere in the image;
+    documents, books and screens show only abstract lines. No identifiable real people and no faces;
+    any people are small, anonymous silhouettes. No flags, no party symbols, no elephants or
+    donkeys, no campaign imagery. Dignified, calm, neutral and timeless.
+  # Lighter and more open (2026-11-16), to compare with dark: watercolor on warm white paper.
+  airy: >-
+    A cover illustration for a civics course, one image in a matching series of book-cover-like
+    illustrations. Style: light, airy editorial illustration, like the covers of a modern
+    nonfiction book series: delicate ink line-work with soft, translucent watercolor washes on
+    warm white paper, with plenty of open white space. Render every subject in bright, soft
+    morning daylight, whatever the subject says about light or darkness: no night, no deep
+    shadow, no dark background. The palette is limited to warm white and cream paper, pale
+    parchment, soft warm grays, a little pale sage green in plants and landscape, and a single
+    muted gold accent used sparingly on the focal element. No saturated color anywhere: no red,
+    no blue, no purple; skies are pale warm white, never blue. Composition: one clear symbolic
+    subject, centered horizontally and sitting in the upper two thirds of the frame, surrounded
+    by calm, open space. The bottom third of the frame is plain, pale, quiet paper with almost no
+    detail, because a title will be laid over it. Wide landscape format. There is no text of any
+    kind: no letters, words, numbers, signage, captions, labels, logos, watermarks or legible
+    writing anywhere in the image; documents, books and screens show only abstract lines. No
+    identifiable real people and no faces; any people are small, anonymous silhouettes. No
+    flags, no party symbols, no elephants or donkeys, no campaign imagery. Open, calm, welcoming,
+    neutral and timeless.
 
 covers:
   american-conservatism: >-

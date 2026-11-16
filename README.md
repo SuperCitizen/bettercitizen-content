@@ -14,7 +14,7 @@ public — that is the whole point.
 | Directory | What it holds | Format |
 | --- | --- | --- |
 | `packs/` | Curriculum packs — the lessons in `/learn`. One directory per pack. | MDX + YAML |
-| `covers/` | One cover picture per topic, shown behind the pack title on Learn lists, and the prompts they were generated from. | JPEG + YAML |
+| `covers/` | One cover picture per topic, shown behind the pack title on Learn lists; the sets they come from (`sets/<style>/`) and the prompts they were generated from. | JPEG + YAML |
 | `components/` | The interactive lesson component library (the only JSX lessons may use — see [COMPONENTS.md](COMPONENTS.md)). | TypeScript/React |
 | `glossary/` | Glossary terms (definitions the coach and lessons reference). | YAML, one file per term |
 | `ideologies/` | Political traditions used by the steel-man flow. | YAML, one file per ideology |
@@ -57,16 +57,19 @@ A topic can be written at more than one reading level. Each **edition** is a pac
 
 ## Pack covers
 
-Every topic has a cover: one picture, `covers/<topic>.jpg`, that every app draws behind the pack's title on its Learn list, shared by all the topic's editions. The pictures have no text in them; the apps lay the title over them. They are AI-generated illustrations, all from one style and one subject per topic in [`covers/prompts.yaml`](covers/prompts.yaml), so the set stays consistent. The decision is [`docs/adr/0004-pack-covers.md`](docs/adr/0004-pack-covers.md).
+Every topic has a cover: one picture, `covers/<topic>.jpg`, that every app draws behind the pack's title on its Learn list, shared by all the topic's editions. The pictures have no text in them; the apps lay the title over them. They are AI-generated illustrations, made from one style and one subject per topic in [`covers/prompts.yaml`](covers/prompts.yaml), so a set stays consistent. Decisions: [`docs/adr/0004-pack-covers.md`](docs/adr/0004-pack-covers.md) and [`docs/adr/0005-airy-cover-set.md`](docs/adr/0005-airy-cover-set.md).
 
-To make or remake covers (content authors never have to; a topic without one shows a plain card):
+There are two sets, each in `covers/sets/<style>/`: `dark` (the first) and `airy` (lighter, to compare). `covers/<topic>.jpg` is a copy of the set `prompts.yaml` names as `active`, and that copy is all the apps read.
+
+To make, remake or switch covers (content authors never have to; a topic without one shows a plain card):
 
 ```sh
-cp .env.example .env              # then put your OpenAI API key in .env
+cp .env.example .env                          # then put your OpenAI API key in .env
 npm install
-npm run covers                    # every topic that has no cover yet
-npm run covers -- --only federalism,taxes   # remake these
-npm run check:covers              # every topic has a 1200x800 JPEG
+npm run covers -- --style airy                # every topic the airy set lacks
+npm run covers -- --style dark --only taxes   # remake one topic in one set
+npm run covers -- --use airy                  # make airy the active set
+npm run check:covers                          # every set complete, the active copy current
 ```
 
 Look at each new cover before committing it, and remake any that shows lettering, a color outside the palette, a face or anything partisan.
