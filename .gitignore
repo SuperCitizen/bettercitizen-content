@@ -10,3 +10,6 @@
 # This repo is pure content — no build artifacts, no node_modules.
 # Validation runs from a SuperCitizen app checkout, not from here.
 node_modules/
+
+# Secrets for dev tools (npm run covers). Only .env.example is committed.
+.env

@@ -1,0 +1,168 @@
+# Pack covers: one image per topic, shown behind the pack's title on every Learn list.
+#
+# Every cover is generated from the same `style` plus its topic's `subject`, so the set reads as
+# one series. Images carry no text: the apps draw the title, level and length on top, and that
+# overlay can change without touching an image. Editions of a topic share its cover.
+#
+# Regenerate with `npm run covers` (see README, "Pack covers"). Decision: docs/adr/0004-pack-covers.md.
+#
+# Writing a subject:
+# - One clear symbolic subject, made of objects, buildings or landscape. No real people, no faces;
+#   people, if any, are small anonymous silhouettes.
+# - Neutral: a subject illustrates the topic, never a side of it. Ideology packs each get a subject
+#   their own adherents would accept as fair. No party symbols, mascots or colors.
+# - Say where the gold accent goes, and put it on the thing that unifies, not on one side.
+# - Nothing written: documents show abstract lines, screens and dials stay blank.
+
+style: >-
+  A cover illustration for a civics course, one image in a matching series of book-cover-like
+  illustrations. Style: refined editorial illustration, like the covers of a premium nonfiction
+  book series. Fine engraved line-work combined with soft, flat gouache shading and a subtle
+  paper grain. The palette is strictly limited to a deep warm charcoal background, warm stone
+  grays, pale parchment highlights and a single muted gold accent used sparingly on the focal
+  element. No other colors anywhere: no red, no blue, no green, no purple. Composition: one
+  clear symbolic subject, centered horizontally and sitting in the upper two thirds of the
+  frame, with calm, dark, empty space around it. The bottom third of the frame is plain, quiet
+  background with almost no detail, because a title will be laid over it. Soft directional light
+  from the upper left. Wide landscape format. There is no text of any kind: no letters, words,
+  numbers, signage, captions, labels, logos, watermarks or legible writing anywhere in the image;
+  documents, books and screens show only abstract lines. No identifiable real people and no faces;
+  any people are small, anonymous silhouettes. No flags, no party symbols, no elephants or
+  donkeys, no campaign imagery. Dignified, calm, neutral and timeless.
+
+covers:
+  american-conservatism: >-
+    A sturdy old stone arch bridge spanning a quiet river, its weathered stones carefully
+    repointed and still carrying a footpath from one bank to the other. The keystone at the top of
+    the arch catches the gold light.
+  american-progressivism: >-
+    An architect's drafting table seen at an angle, with unrolled plans for a public building
+    (abstract lines only), a drafting compass and a set square. Through a tall window behind it,
+    the timber frame of a new civic building is being raised. The compass is gold.
+  bill-of-rights: >-
+    A single open parchment scroll resting on a stone pedestal under a protective glass bell jar,
+    the scroll showing only abstract lines of handwriting. The edge of the scroll and the base of
+    the glass dome catch the gold light.
+  citizens-united: >-
+    A vintage ribbon broadcast microphone on a short stand, standing on top of a neat stack of
+    coins on a dark table, lit from above. The rim of the microphone is gold.
+  city-councils: >-
+    A modest town hall chamber: a curved wooden council dais with a few empty chairs facing a few
+    rows of empty public seating. A gavel rests on the central desk, its band gold.
+  climate: >-
+    A wide open landscape at dusk with a low horizon: a wind turbine, a power-line pylon and a
+    distant factory chimney stand at different distances under a large, low sun. Thin layered
+    bands of atmosphere cross the sky. The sun is the gold accent.
+  communitarianism: >-
+    A village green seen from slightly above: a large shade tree at its center, a ring of wooden
+    benches around the tree, and small houses and a meeting hall at its edges. The tree's canopy
+    carries gold highlights.
+  constitution-basics: >-
+    An old parchment document partly unrolled on a plain wooden table, held flat by smooth stones,
+    its writing rendered only as abstract horizontal lines, with a quill pen and an inkwell beside
+    it. A wax seal on the parchment is gold.
+  dark-money: >-
+    A fan of identical sealed, unmarked envelopes on a dark table in deep shadow, lit by a single
+    desk lamp. One envelope is partly open, showing the edge of a gold coin.
+  electoral-college: >-
+    An abstract mosaic of irregular stone tiles of different sizes, like a map that is not any real
+    place, seen from above at a slight angle. Small round counters are stacked on some of the
+    tiles in piles of different heights. The counters are gold.
+  emergency-powers: >-
+    A glass-fronted emergency case mounted on a stone wall, holding a large old iron key on a hook,
+    with a small hammer hanging beside the case on a chain. The key is gold.
+  federal-budget: >-
+    A large old ledger book open on a desk, its columns rendered as abstract marks, with neat
+    stacks of coins of different heights lined up along its edge like a bar chart. One stack is
+    gold.
+  federalism: >-
+    Two domed government buildings in open countryside, one large and distant, one smaller in the
+    foreground, joined by a long straight road that runs between them. The road is lit gold.
+  foreign-policy: >-
+    A large antique globe on a wooden stand in a dim study, its landmasses soft shapes with no
+    lettering, with a brass navigational compass and a pair of dividers resting beside it. The
+    globe's meridian ring is gold.
+  free-speech: >-
+    An empty wooden soapbox on the cobblestones of a quiet town square, with a vintage microphone
+    on a stand in front of it. A shaft of gold light falls across the box.
+  gerrymandering: >-
+    A parchment map of abstract districts drawn as twisting, oddly shaped puzzle pieces, with a
+    pair of drafting dividers and a pencil resting on it. The tips of the dividers are gold.
+  healthcare: >-
+    A stethoscope coiled on a clipboard of blank forms, beside a small folded stack of papers
+    showing only abstract lines, on a plain table. The chestpiece of the stethoscope is gold.
+  housing: >-
+    A row of varied houses and a small apartment block stepping up a hillside, with a construction
+    crane above them against the sky. A few windows are warmly lit gold.
+  how-bills-become-law: >-
+    A single sheet of paper resting on the lowest of a long flight of broad stone steps that climbs
+    toward a domed building at the top. A small stamp on the paper is gold.
+  immigration: >-
+    A worn leather suitcase and a folded coat resting on a wooden bench in a grand old arrival hall
+    with tall arched windows. Morning light comes through the windows in gold.
+  libertarianism: >-
+    An open iron garden gate in a low stone wall, with a path leading through it toward open fields
+    under a wide sky. The latch of the gate is gold.
+  lobbying: >-
+    A long, grand marble corridor lined with tall closed doors, with a single leather briefcase
+    resting on a bench outside one of them. The door handles are gold.
+  media-literacy: >-
+    A layered still life of folded newspapers, an old radio and a smartphone lying on a table, all
+    showing only abstract lines and blank screens, with a pair of reading glasses resting on top.
+    The rims of the glasses are gold.
+  money-in-politics-101: >-
+    A clear glass ballot box with folded paper ballots inside it, standing on a table beside a
+    short stack of coins. The slot in the lid of the box is gold.
+  pacs-and-super-pacs: >-
+    Stacks of coins of steadily increasing height, from very short to very tall, standing in a row
+    like a city skyline at dusk. The top of the tallest stack is gold.
+  political-parties: >-
+    Several large canvas tents of different shapes and sizes pitched across one wide field at dusk,
+    their interiors glowing with warm gold light.
+  primaries-and-caucuses: >-
+    A school gymnasium with folding chairs gathered into several separate circles in different
+    parts of the room, under hanging lamps, with a ballot box on a small table in the foreground.
+    The lamps glow gold.
+  ranked-choice-voting-book: >-
+    A paper ballot lying on a desk, printed with a plain grid of empty circles in rows and columns
+    and nothing written, a few circles filled in on a diagonal, with a pencil resting across it.
+    The tip of the pencil is gold.
+  reading-the-numbers: >-
+    A sheet of graph paper on a desk with a hand-drawn line chart and a small bar chart in ink,
+    with a ruler and a sharpened pencil beside it. One data point on the line is gold.
+  school-boards: >-
+    A school library set up for a public meeting: a long table with a few empty chairs at the
+    front, rows of folding chairs facing it, and bookshelves behind. The table lamps glow gold.
+  score-the-vote-book: >-
+    A row of brass slider controls set into a dark wooden panel, each slider set at a different
+    height along its track, with no markings. The slider knobs are gold.
+  socialism: >-
+    A cooperative workshop: a long shared workbench with several identical stools, and the tools
+    hung neatly on one common pegboard wall. Light falls in gold from a high window.
+  supreme-court: >-
+    A long, dark wooden bench with a row of nine empty high-backed chairs behind it, softly lit,
+    with a gavel and sounding block resting on the bench. The band of the gavel is gold.
+  taxes: >-
+    A desk with a blank paper form showing only abstract lines, a pencil, a calculator with a blank
+    display, and a stack of coins divided into a few smaller piles. One pile is gold.
+  the-administrative-state: >-
+    A vast archive hall with long rows of filing cabinets and shelves of binders receding into the
+    distance. A single drawer stands open in the foreground, lit gold.
+  three-branches: >-
+    Three classical columns of equal height standing on one shared stone base and joined at their
+    tops by a single stone lintel. The shared lintel catches the gold light.
+  voter-id-and-mail-ballots: >-
+    A plain ballot envelope with no writing resting in an open rural mailbox, with a blank
+    identification card with no photo or text lying beside it. The flag of the mailbox is gold.
+  voting-rights: >-
+    A long line of small, anonymous silhouetted people waiting outside the open door of a polling
+    place at dawn. Light spills from the doorway in gold.
+  voting-systems-overview: >-
+    Three ballot boxes of different shapes and materials, one wooden, one glass and one metal,
+    standing side by side on a table with paper ballots beside them. The slots in their lids are
+    gold.
+  wealth-and-power: >-
+    A balanced scale on a dark table, with a single large plain silver coin on one pan and a small
+    heap of folded paper ballots on the other; the beam is level. The coin and the ballots are the
+    same pale stone-gray and parchment tones, so neither side is highlighted. Only the central
+    pivot of the scale is gold.
