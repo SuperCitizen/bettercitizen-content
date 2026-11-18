@@ -26,6 +26,8 @@ Status, 2026-11-17: fixed in bettercitizen.ai at Chris's request, committed on `
 
 **N1. Stay on content at d01c1c9 until core answers C1 to C3.** On core 0.1.0 a figure with no `<svg>` produces no block, so this content would show 74 of its 75 figures as nothing (`core-requests.md` has the detail).
 
+Status, 2026-11-18: lifted. Core answered C1 to C3 in 0.2.0 (its `6bad87d`, on GitHub since 2026-11-13), so an app that links core 0.2.0 or later gets every figure, as a typed block with a static form. An app still on core 0.1.0 should stay on content at d01c1c9. `core-requests.md` says how core answered, and its C7 and C9 carry their own cautions, for editions and for the new kinds of link.
+
 **N2. An order that never leaves a figure blank:**
 
 1. `Figure` as a captioned container: its body, then caption and source as secondary text, grouped for the screen reader.
