@@ -599,6 +599,8 @@ illustrative.
 (No other props in v1 — the built-in scenario is tuned so all three plans are
 contiguous and equal-population.)
 
+The file also exports the scenario itself: `COLS`, `ROWS`, `GRID`, `Plan`, `PLANS`, `districtWinners` and `boundaryPath`. bettercitizen.ai's interactive video for the gerrymandering pack draws the same electorate and plans from them, so keep them exported: the app's copy of this folder is replaced whole each time it is vendored.
+
 ### TaxBracketExplorer — marginal vs. effective, finally intuitive
 
 An income slider fills bracket buckets in sequence and reads out marginal vs.

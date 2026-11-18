@@ -6,8 +6,8 @@ export interface GerrymanderLabProps {
   title?: string;
 }
 
-const COLS = 10;
-const ROWS = 5;
+export const COLS = 10;
+export const ROWS = 5;
 const CELL = 34; // cell size in SVG units
 const PITCH = CELL + 1; // 1px white gap between cells
 const W = COLS * PITCH - 1;
@@ -19,10 +19,10 @@ const H = ROWS * PITCH - 1;
  * Grid and all three plans verified by script: 5 districts per plan, 10 cells
  * each, 4-neighbor contiguous, no 5-5 ties, seat outcomes as labeled.
  */
-const GRID =
+export const GRID =
   'AAAAAABBBB' + 'BAAAAAABBB' + 'AAAAAABBBB' + 'BAAAAAABBB' + 'AAAAAABBBB';
 
-interface Plan {
+export interface Plan {
   id: string;
   name: string;
   /** District index (0-4) per cell, row-major. */
@@ -30,7 +30,7 @@ interface Plan {
   takeaway: string;
 }
 
-const PLANS: readonly Plan[] = [
+export const PLANS: readonly Plan[] = [
   {
     id: 'prop',
     name: 'Proportional-ish',
@@ -55,7 +55,7 @@ const PLANS: readonly Plan[] = [
 ];
 
 /** Winner per district (index 0-4) for a plan. Never ties — verified offline. */
-function districtWinners(districts: string): Array<'A' | 'B'> {
+export function districtWinners(districts: string): Array<'A' | 'B'> {
   const aCount = [0, 0, 0, 0, 0];
   for (let i = 0; i < districts.length; i++) {
     const d = Number(districts[i]);
@@ -65,7 +65,7 @@ function districtWinners(districts: string): Array<'A' | 'B'> {
 }
 
 /** SVG path tracing 3px boundaries between cells of different districts. */
-function boundaryPath(districts: string): string {
+export function boundaryPath(districts: string): string {
   const parts: string[] = [];
   for (let r = 0; r < ROWS; r++) {
     for (let c = 0; c < COLS; c++) {
