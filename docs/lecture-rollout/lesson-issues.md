@@ -40,3 +40,10 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 02-incorporation.mdx "ninety years of precedent" has no clear baseline.
 - first-ten-amendments.mdx puts Engblom's "homes" in quotation marks; 03-the-quiet-amendments.mdx says "house".
 - first-ten-amendments.mdx says "Congress shall make no law" "mattered enormously in Barron" without saying how.
+
+## citizens-united
+- 01-what-it-held.mdx, "What stood": "The same five Justices … joined the four dissenters" contradicts its own "8–1, with only Justice Thomas dissenting" and lesson 04's "four of the five in the majority".
+- 01-what-it-held.mdx: Santa Clara (1886) is called "a century before this case"; it is 124 years.
+
+## communitarianism
+- Lessons 01 and 02 place Sandel in the civic-republican stream; lesson 03 says "Sandel, Reich, and Walzer are progressive communitarians".
