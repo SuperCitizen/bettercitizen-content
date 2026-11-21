@@ -125,3 +125,8 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 03-give-thoughtfully.mdx speaks as "SuperCitizen" and ends with a supercitizen.org donation plug: the product's old name. (The script leaves both out.)
 - 02-the-legal-framework.mdx: the intro says "one statute and five court decisions"; the title names two statutes and four cases, and the ledger lists six decisions.
 - 03-give-thoughtfully.mdx: the "Triple match" prompt has no answer in the lesson.
+
+## pacs-and-super-pacs
+- 01-how-it-works.mdx asserts "every cap reroutes; nothing evaporates" as fact; lesson 2 lists that as contested. (The script attributes it.)
+- 02-the-strongest-cases.mdx says the reformer accepts "what neither pole will" (the doctrine's logic), yet the defender relies on that doctrine.
+- 03-the-coordination-debate.mdx lists three perspectives but never names the restrictionist in its body.
