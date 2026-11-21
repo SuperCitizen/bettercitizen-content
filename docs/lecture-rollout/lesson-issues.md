@@ -92,3 +92,7 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 02-the-strongest-cases.mdx: "Two months later" spans August to November 4.
 - 02-the-strongest-cases.mdx puts "the Legislature of each State" in quotation marks, which is not the Constitution's wording.
 - 03-where-the-courts-have-landed.mdx says commentators "named" the loop, but "Rucho two-step" only appears later.
+
+## libertarianism
+- 03-cross-spectrum.mdx: the scoreboard says only "Friedman", which is ambiguous after lesson 2's David Friedman.
+- 02-internal-disagreements.mdx: the think-tank check names the "welfare and originalism rows" as the giveaway, though UBI has its own row.
