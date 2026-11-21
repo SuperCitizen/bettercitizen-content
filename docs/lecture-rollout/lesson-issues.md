@@ -54,3 +54,17 @@ Writing a lecture script means checking it line by line against its lesson, so t
 
 ## american-conservatism
 - 01-what-it-believes.mdx: the figure's four post-2016 branches and the body's four-bullet list do not match. The figure has traditionalists/post-liberals; the body has "Conservatism Inc." instead.
+
+## federal-budget
+- Lessons 2 and 3 price the 2025 reconciliation act differently: 4.7 trillion (CRFB, through 2035) and about 4.1 trillion (CBO, 2025–2034). Both are sourced, but a listener hears two totals.
+- 01-where-the-money-goes.mdx: "about 1.8 trillion" minus 917 billion is given as "roughly 860 billion" (from 1,775); mental arithmetic on the rounded figure gives about 880.
+
+## foreign-policy
+- 03-the-policy-landscape.mdx says Lesson 1 "cataloged" the Ukraine responses; Lesson 1 covers only the Finland and Sweden accession.
+
+## dark-money
+- 03-the-policy-landscape.mdx says every floor defeat came "not from losing a majority", yet its 2022 vote was a 49–49 tie.
+- 01-how-it-flows.mdx: 2020 is "more than $1 billion" in the table, "about $1 billion" in the text.
+
+## climate
+- 01-the-science-and-the-stakes.mdx: the figure cites a data file of October 9, 2026; the text says it was written in mid-2026.
