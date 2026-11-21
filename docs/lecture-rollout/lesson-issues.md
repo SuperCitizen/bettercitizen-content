@@ -150,3 +150,8 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 03-cross-spectrum.mdx says "the first eighteen months" of a mayoralty that began January 1, 2026, with evidence "as of mid-2026".
 - 03-cross-spectrum.mdx calls social ownership, decommodified provision and regulation "Lesson 1's categories"; Lesson 1 never lists them.
 - 03-cross-spectrum.mdx defines Polanyi's "double movement" by its second half only (the protective counter-thrust).
+
+## supreme-court
+- 01-how-the-court-works.mdx names the three reform postures in `perspectives:`, but its body never presents them.
+- 03-the-reform-debate.mdx: the body says an "eight-day sprint to confirm" Barrett and a "year-long blockade"; its Timeline says confirmed "eight days before" the election and "nearly a year".
+- 03-the-reform-debate.mdx gives Gallup's 25 percent as the lowest "in roughly five decades" in the body and "lowest-ever" in the Timeline.
