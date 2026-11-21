@@ -115,3 +115,8 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 03-the-policy-landscape.mdx: the hook compares December 2023 encounters with September 2025 apprehensions, and its Checkpoint says encounters are at 1970 levels.
 - 03-the-policy-landscape.mdx is dated: the Barbara decision is "expected by early July 2026".
 - 03-the-policy-landscape.mdx says state margins "moved in one direction", then describes divergence.
+
+## media-literacy
+- 01-how-the-information-ecosystem-works.mdx says "SuperCitizen maintains" outlet profiles: the product's old name.
+- 01-how-the-information-ecosystem-works.mdx calls 38 percent "barely a third".
+- 03-who-decides-whats-true.mdx says the skeptic's view "curdles fastest" and "has a body count", but its only example (the 2016 pizzeria) names no deaths. The script keeps the example and leaves both phrases out, as tilt against one of the three views.
