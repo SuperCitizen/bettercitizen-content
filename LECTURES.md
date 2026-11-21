@@ -212,7 +212,15 @@ A lecture adds restatement, questions and the gather, so it cannot also carry ev
 npm run check:lectures
 ```
 
-It measures every script: that it names a real lesson, its length against the lesson's, its average sentence, its key lines and think-pauses, and anything written for the eye. Then validate with the app, which is the source of truth for the format:
+It measures every script: that it names a real lesson, its length, its average sentence, its key lines, think-pauses and silences, and anything written for the eye.
+
+```bash
+npm run check:lecture-facts
+```
+
+It lists every number, quotation and name in a script that it cannot find in the script's lesson. Look at each line it prints: either the thing is in the lesson in another form, or it comes out.
+
+Then validate with the app, which is the source of truth for the format:
 
 ```bash
 cd ../bettercitizen.ai && CONTENT_LOCAL_PATH=../bettercitizen-content pnpm validate-content
