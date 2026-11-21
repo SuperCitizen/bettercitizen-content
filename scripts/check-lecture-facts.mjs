@@ -90,7 +90,8 @@ function checkScript(scriptBody, lessonSrc) {
   const lesson = plain(lessonSrc);
   const lessonBare = ` ${bare(lessonSrc)} `;
   const lessonNumbers = [...new Set([...(lesson.match(NUMBER) || []).map(value), ...wordNumbers(lesson)])];
-  const lessonWords = new Set(lesson.match(/[A-Za-z][A-Za-z'-]*/g) || []);
+  // Whole words, and the parts of hyphenated ones ("Jefferson-Burr tie" names Burr).
+  const lessonWords = new Set([...(lesson.match(/[A-Za-z][A-Za-z'-]*/g) || []), ...(lesson.match(/[A-Za-z][A-Za-z']*/g) || [])]);
   const lessonWordsLower = new Set([...lessonWords].map((w) => w.toLowerCase()));
 
   const script = plain(scriptBody.replace(/<!--[\s\S]*?-->/g, '').replace(/^#{1,6}\s.*$/gm, '').replace(/\[(?:beat|pause|long pause)[^\]]*\]/gi, ' '));

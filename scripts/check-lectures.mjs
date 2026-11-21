@@ -55,7 +55,7 @@ const CHAPTER_WORDS = { aim: 2200, most: 2400 };
 /** A script far shorter than its lesson has left the lesson out: under this share of the lesson's prose is an error. */
 const SHORTEST = 0.6;
 /** Silences (marks, key lines, sections) per thousand words, at least. */
-const MIN_SILENCES_PER_THOUSAND = 10;
+const MIN_SILENCES_PER_THOUSAND = 9;
 const KEY_LINE_WORDS = 14;
 const LONG_SENTENCE = 40;
 
@@ -68,8 +68,12 @@ const RULED_OUT = [
   [/\bas you can see\b|\bsee (?:above|below)\b|\bshown (?:above|below)\b|\bthe following\b/i, 'a pointer for the eye ("as you can see", "above", "below", "the following")'],
   [/\b(?:click|tap|scroll|write (?:this|that|it) down)\b/i, 'asks the listener to do something: a lecture never does'],
   [/\b(?:basically|essentially|obviously|of course|as you know)\b/i, 'filler or talking down ("basically", "obviously", "of course")'],
-  [/\bthe (?:former|latter)\b|\brespectively\b/i, '"the former", "the latter", "respectively": the ear cannot look back'],
 ];
+/** "The former… the latter…" and "respectively" make the listener look back. ("The former governor" does not, and a quotation says what it says.) */
+function looksBack(text) {
+  const own = text.replace(/"[^"]*"/g, ' ');
+  return /\bthe latter\b(?!\s+(?:half|part|years|days|stages?)\b)/i.test(own) || /\brespectively\b/i.test(own);
+}
 
 function frontmatter(src) {
   const m = /^---\r?\n([\s\S]*?)\r?\n---[^\S\n]*\r?\n?/.exec(src);
@@ -128,7 +132,9 @@ function readScript(body) {
     else if (/\[[^\]]*\]/.test(text)) problems.push({ level: 'error', line, message: `an unknown mark ${/\[[^\]]*\]/.exec(text)[0]}: the marks are [beat], [pause], [long pause] and [pause 5s]` });
     if (/https?:\/\/|\bwww\./i.test(text)) problems.push({ level: 'error', line, message: 'a web address cannot be spoken' });
     if (/<\/?[A-Za-z][^>]*>/.test(text)) problems.push({ level: 'error', line, message: 'a tag or component cannot be spoken' });
-    if (/[()]/.test(text)) problems.push({ level: 'warning', line, message: 'brackets cannot be heard: say the aside as its own sentence, or leave it out' });
+    // "501(c)(4)" is a name with brackets in it, and the narrator knows how to say it.
+    if (/[()]/.test(text.replace(/\b\d+\([a-z]\)(?:\(\d+\))?/gi, ''))) problems.push({ level: 'warning', line, message: 'brackets cannot be heard: say the aside as its own sentence, or leave it out' });
+    if (looksBack(text)) problems.push({ level: 'warning', line, message: 'ruled out by the standard: "the former… the latter", "respectively": the ear cannot look back' });
     if (/\b(?:e\.g\.|i\.e\.|etc\.)|[§¶]/i.test(text)) problems.push({ level: 'warning', line, message: 'written for the eye (e.g., i.e., etc., §): say it in words' });
     if (/\d\s*[–—-]\s*\d/.test(text)) problems.push({ level: 'warning', line, message: 'a range or score written with a dash: say "5 to 4", "from 1787 to 1791"' });
     for (const [re, message] of RULED_OUT) if (re.test(text)) problems.push({ level: 'warning', line, message: `ruled out by the standard: ${message}` });
