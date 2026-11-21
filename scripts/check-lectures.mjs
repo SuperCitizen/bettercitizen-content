@@ -66,7 +66,8 @@ const RULED_OUT = [
   [/\bthanks? (?:you )?for listening\b/i, '"thanks for listening"'],
   [/\bunquote\b/i, '"quote… unquote": say who is speaking, then the words'],
   [/\bas you can see\b|\bsee (?:above|below)\b|\bshown (?:above|below)\b|\bthe following\b/i, 'a pointer for the eye ("as you can see", "above", "below", "the following")'],
-  [/\b(?:click|tap|scroll|write (?:this|that|it) down)\b/i, 'asks the listener to do something: a lecture never does'],
+  // "Click restraint" is a term of art in media literacy, not an instruction.
+  [/\b(?:click(?! restraint)|tap|scroll|write (?:this|that|it) down)\b/i, 'asks the listener to do something: a lecture never does'],
   [/\b(?:basically|essentially|obviously|of course|as you know)\b/i, 'filler or talking down ("basically", "obviously", "of course")'],
 ];
 /** "The former… the latter…" and "respectively" make the listener look back. ("The former governor" does not, and a quotation says what it says.) */
