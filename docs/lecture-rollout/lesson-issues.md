@@ -108,3 +108,10 @@ Writing a lecture script means checking it line by line against its lesson, so t
 ## healthcare
 - 01-how-it-works.mdx gives two per-person spending figures (15,474 and 14,775) and two GDP shares (18.0 and 17.2); the coverage-gap count is dated mid-2026 in the body and 2025 in a checkpoint.
 - 02-the-strongest-cases.mdx: an objective promises market-reform concessions "about pre-ACA failures", and the lesson has none. "Taubman et al. 2014" is cited but is not in `sources:`.
+
+## immigration
+- 01-how-it-works.mdx says "Five statutes" but lists six.
+- 01-how-it-works.mdx: the misconception box says a "plurality" overstayed visas; the body says about 42 percent.
+- 03-the-policy-landscape.mdx: the hook compares December 2023 encounters with September 2025 apprehensions, and its Checkpoint says encounters are at 1970 levels.
+- 03-the-policy-landscape.mdx is dated: the Barbara decision is "expected by early July 2026".
+- 03-the-policy-landscape.mdx says state margins "moved in one direction", then describes divergence.
