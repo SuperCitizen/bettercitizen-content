@@ -7,9 +7,10 @@
  * checked by machine, and they catch most of what goes wrong when a writer
  * reaches for something they remember instead of something the lesson says:
  *
- *   numbers     every number in the script is in the lesson, as written or
- *               as the round figure of one that is ("about 577,000" for
- *               576,851; "39 and a half million" is left to a reader)
+ *   numbers     every figure in the script is in the lesson: as a figure, in
+ *               words ("fifty-three days"), or as the round figure of one
+ *               that is ("about 577,000" for 576,851). A number the SCRIPT
+ *               writes in words is not checked: that is left to a reader.
  *   quotations  every quoted passage of four words or more is in the lesson,
  *               word for word
  *   names       every capitalized word that is not starting a sentence is a
@@ -53,6 +54,28 @@ const bare = (s) => plain(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 const NUMBER = /\d[\d,]*(?:\.\d+)?/g;
 const value = (n) => Number(n.replace(/,/g, ''));
 
+/** Numbers a text writes in words ("fifty-three days", "two hundred statutes"), as figures. */
+const UNITS = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9 };
+const TEENS = { ten: 10, eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15, sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19 };
+const TENS = { twenty: 20, thirty: 30, forty: 40, fifty: 50, sixty: 60, seventy: 70, eighty: 80, ninety: 90 };
+function wordNumbers(text) {
+  const out = [];
+  const t = text.toLowerCase();
+  const small = `${Object.keys(TENS).join('|')}|${Object.keys(TEENS).join('|')}|${Object.keys(UNITS).join('|')}`;
+  const re = new RegExp(`\\b(${small})(?:[- ](${Object.keys(UNITS).join('|')}))?(?:\\s+(hundred|thousand|million|billion))?(?:\\s+(?:and\\s+)?(${small})(?:[- ](${Object.keys(UNITS).join('|')}))?)?\\b`, 'g');
+  const small2 = (a, b) => (TENS[a] ?? TEENS[a] ?? UNITS[a] ?? 0) + (TENS[a] && b ? UNITS[b] : 0);
+  for (const m of t.matchAll(re)) {
+    const head = small2(m[1], m[2]);
+    const scale = { hundred: 100, thousand: 1e3, million: 1e6, billion: 1e9 }[m[3]];
+    out.push(head);
+    if (scale) {
+      out.push(head * scale);
+      if (m[3] === 'hundred' && m[4]) out.push(head * 100 + small2(m[4], m[5]));
+    }
+  }
+  return out;
+}
+
 /** Words that are capitalized in a script for reasons of speech, not because they name something. */
 const SPOKEN_CAPS = new Set(
   `I One Two Three Four Five Six Seven Eight Nine Ten Eleven Twelve Twenty Thirty Forty Fifty Sixty Seventy Eighty Ninety Hundred Thousand Million Billion
@@ -66,7 +89,7 @@ function checkScript(scriptBody, lessonSrc) {
   const flags = [];
   const lesson = plain(lessonSrc);
   const lessonBare = ` ${bare(lessonSrc)} `;
-  const lessonNumbers = [...new Set((lesson.match(NUMBER) || []).map(value))];
+  const lessonNumbers = [...new Set([...(lesson.match(NUMBER) || []).map(value), ...wordNumbers(lesson)])];
   const lessonWords = new Set(lesson.match(/[A-Za-z][A-Za-z'-]*/g) || []);
   const lessonWordsLower = new Set([...lessonWords].map((w) => w.toLowerCase()));
 
