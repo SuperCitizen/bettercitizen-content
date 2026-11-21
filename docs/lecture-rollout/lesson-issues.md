@@ -145,3 +145,8 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 02-correlation-causation-and-the-study-behind-the-headline.mdx calls the pragmatist "the position this lesson has been quietly training": the lesson favors one of its three perspectives. (The script leaves the line out.)
 - 03-models-forecasts-and-what-to-trust.mdx: its own checklist line ("Official statistics earn default trust… pundits earn it never") leans toward two of its three cases.
 - 01-how-polls-work-and-fail.mdx gives several polling-error figures per year on different measures (2020: 3.9, 4.3, 4.6) without saying which is which.
+
+## socialism
+- 03-cross-spectrum.mdx says "the first eighteen months" of a mayoralty that began January 1, 2026, with evidence "as of mid-2026".
+- 03-cross-spectrum.mdx calls social ownership, decommodified provision and regulation "Lesson 1's categories"; Lesson 1 never lists them.
+- 03-cross-spectrum.mdx defines Polanyi's "double movement" by its second half only (the protective counter-thrust).
