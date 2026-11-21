@@ -86,3 +86,9 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 03-why-bills-die.mdx lists the veto and override under "the chambers' own construction", straight after saying the Constitution built presentment.
 - 02-how-laws-really-get-made.mdx cites "presentment is all-or-nothing" as a fact from Lesson 1; Lesson 1 never states it.
 - 02-how-laws-really-get-made.mdx has `PerspectiveTabs` although the pack is `contested: false`.
+
+## gerrymandering
+- 02-the-strongest-cases.mdx, the realist's concession: "Lose elections to change the map" reads like a slip for "Win elections" (the core claim two paragraphs up says "win elections"). The script says "win elections".
+- 02-the-strongest-cases.mdx: "Two months later" spans August to November 4.
+- 02-the-strongest-cases.mdx puts "the Legislature of each State" in quotation marks, which is not the Constitution's wording.
+- 03-where-the-courts-have-landed.mdx says commentators "named" the loop, but "Rucho two-step" only appears later.
