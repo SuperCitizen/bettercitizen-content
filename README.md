@@ -13,7 +13,7 @@ public — that is the whole point.
 
 | Directory | What it holds | Format |
 | --- | --- | --- |
-| `packs/` | Curriculum packs — the lessons in `/learn`. One directory per pack. | MDX + YAML |
+| `packs/` | Curriculum packs — the lessons in `/learn`. One directory per pack. A pack's `lectures/` holds its lessons' spoken scripts, the text lecture mode narrates (authoring standard: [LECTURES.md](LECTURES.md)). | MDX + YAML + Markdown |
 | `covers/` | One cover picture per topic, shown behind the pack title on Learn lists; the sets they come from (`sets/<style>/`) and the prompts they were generated from. | JPEG + YAML |
 | `components/` | The interactive lesson component library (the only JSX lessons may use — see [COMPONENTS.md](COMPONENTS.md)). | TypeScript/React |
 | `glossary/` | Glossary terms (definitions the coach and lessons reference). | YAML, one file per term |

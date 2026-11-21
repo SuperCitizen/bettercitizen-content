@@ -261,6 +261,7 @@ for (const pack of readdirSync(packsDir).sort()) {
     if (share < LENGTH.fail[0] || share > LENGTH.fail[1]) err(`${s.words} words is ${Math.round(share * 100)}% of its lesson's ${lesson.words}: a lecture runs about as long as its lesson`);
     else if (share < LENGTH.warn[0] || share > LENGTH.warn[1]) warn(`${s.words} words is ${Math.round(share * 100)}% of its lesson's ${lesson.words}`);
     if (s.perSentence > rules.sentence) err(`sentences average ${s.perSentence.toFixed(1)} words: ${rules.sentence} at most at level ${level}`);
+    if (s.perSentence < 7) warn(`sentences average ${s.perSentence.toFixed(1)} words: a run of very short sentences sounds like a telegram; let the explaining flow`);
     if (rules.maxGrade !== null && s.grade > rules.maxGrade) err(`reading grade ${s.grade} is above the level ${level} ceiling of ${rules.maxGrade}`);
     if (s.thinkPauses === 0) err('no think-pause: put a question to the listener and follow it with [long pause]');
     if (s.keyLines < 3) err(`${s.keyLines} key line(s): mark the three to eight lines a listener should keep with ">"`);

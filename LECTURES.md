@@ -71,6 +71,7 @@ Nothing else is allowed in a script: no links, no `[[term:…]]`, no components,
 
 - **Subject and verb early. One idea a sentence.** "Congress capped the House at 435, by an ordinary law, in 1929." Not "The House, whose size the Constitution leaves open, was capped at 435 by a 1929 statute."
 - **Average 16 words a sentence or fewer** (12 at level 1). No sentence over 30 except an exact quotation. Break a long one into several: "And there is a list. Most of it sits in Article One, section eight. Taxing. Borrowing. Declaring war."
+- **But let explanation flow.** Short sentences are for landing a point, not for everything. Three short ones in a row is a rhythm; ten is a telegram, and the narrator's voice falls the same way at the end of each. Most explaining should run in sentences of twelve to twenty words, with commas where you would breathe, and then land on a short one.
 - **No brackets, no asides inside a sentence.** An aside becomes its own sentence or goes. No "the former", "the latter", "respectively", "as shown above", "see below", "the following".
 - **Put the word that matters last.** The narrator cannot stress a word. The ear gives weight to the end of a sentence, so end there: "By Madison's lights, that is still a tyranny." Not "That is still a tyranny by Madison's lights."
 - **Verbs first, then the term.** Say what happens in plain verbs, then name it: "No money leaves the Treasury unless Congress approves it. That approval is called an appropriation." Use the new term again within two sentences so it sticks.
