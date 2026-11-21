@@ -47,3 +47,10 @@ Writing a lecture script means checking it line by line against its lesson, so t
 
 ## communitarianism
 - Lessons 01 and 02 place Sandel in the civic-republican stream; lesson 03 says "Sandel, Reich, and Walzer are progressive communitarians".
+
+## american-progressivism
+- 01-what-it-believes.mdx says lesson 2 takes up the Third Way "betrayal or adaptation" argument "directly"; lesson 2 never names it.
+- 03-cross-spectrum.mdx: "the civic-republican and traditionalist conservative streams" is ambiguous, because "civic-republican" is this pack's name for a progressive stream.
+
+## american-conservatism
+- 01-what-it-believes.mdx: the figure's four post-2016 branches and the body's four-bullet list do not match. The figure has traditionalists/post-liberals; the body has "Conservatism Inc." instead.
