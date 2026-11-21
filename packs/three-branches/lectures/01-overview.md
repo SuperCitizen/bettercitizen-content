@@ -19,7 +19,7 @@ Half. A quarter. A few paragraphs.
 
 > That layout is an argument.
 
-The men who drafted it, in the summer of 1787, had fought a war against a king. And in the ten years since, they had watched their own state legislatures overreach. Many of them, James Madison above all, had learned that an elected assembly could be just as dangerous as a king.
+The men who drafted it, in the summer of 1787, had fought a war against a king. And in the ten years since, they had watched their own state legislatures overreach. Many of them, Madison above all, had learned that an elected assembly could be just as dangerous as a king.
 
 So they did something unusual for their time. They split the government's power into three pieces. They gave each piece to a different institution. And they wrote those institutions down in order, from the one they expected to matter most, to the one they expected to matter least.
 
@@ -81,7 +81,7 @@ What the Constitution does say is that federal judges hold office "during good b
 
 Let's test what we have so far. Here is a scene.
 
-Your representative announces: "I will cut off every dollar for this military operation." Your neighbor scoffs: "Only the president controls the military."
+Your representative announces: "I'll cut off every dollar for this military operation." Your neighbor scoffs: "Only the president controls the military."
 
 Who has the Constitution on their side? Take a moment.
 
@@ -99,7 +99,7 @@ So the representative cannot direct the troops. And the president cannot fund th
 
 That is the what. Now the why. Why split power in the first place?
 
-The classic answer comes from James Madison, in Federalist 47. Here are his words. Listen for how the sentence ends.
+The classic answer comes from Madison, in Federalist 47. Here are his words. Listen for how the sentence ends.
 
 "The accumulation of all powers, legislative, executive, and judiciary, in the same hands, whether of one, a few, or many, and whether hereditary, self-appointed, or elective, [beat] may justly be pronounced the very definition of tyranny."
 
@@ -135,7 +135,7 @@ Not a share of another branch's power. [beat] The whole of it.
 
 Keep that distinction. The entire next lecture lives inside it.
 
-Let me put it to work. A friend says to you: "The president's veto violates the separation of powers. Vetoing is a legislative act, and the president is not the legislature."
+Let me put it to work. A friend says to you: "The president's veto violates separation of powers. Vetoing is a legislative act, and the president isn't the legislature."
 
 How would Madison answer? Think it through.
 

@@ -195,7 +195,16 @@ The narrator is a synthetic voice. It reads punctuation as timing: a comma is a 
 
 ## Length
 
-A lecture runs from about its lesson's length to a third longer: it adds restatement, questions and the gather, and it drops the fine print the ear cannot hold. As a guide: 1,800 to 2,800 words for a level 3 lesson (14 to 21 minutes), 1,400 to 2,200 at level 2, 800 to 1,300 at level 1, and 1,100 to 2,200 for a book chapter. If you are over, cut the fourth example before you cut a think-pause.
+A lecture is set by the listener's attention, not by the lesson's length. Past about twenty minutes, people stop holding on.
+
+| The lesson is | Aim for | Never more than |
+| --- | --- | --- |
+| Level 3 | 1,800 to 2,800 words (14 to 21 minutes) | 3,000 |
+| Level 2 | 1,400 to 2,200 words | 2,400 |
+| Level 1 | 800 to 1,200 words (6 to 9 minutes) | 1,400 |
+| A book chapter | 1,100 to 2,200 words | 2,400 |
+
+A lecture adds restatement, questions and the gather, so it cannot also carry every detail of a long lesson. Choose. Keep what the listener must leave with, and let the page keep the rest: cut the fourth example, the second statistic that makes the same point, the list of every statute. Never cut a think-pause or the gather to make room for a detail.
 
 ## Before you commit
 

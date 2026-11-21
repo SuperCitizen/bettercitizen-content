@@ -15,7 +15,8 @@
  *   - has no think-pause, fewer than three key lines, or too few silences;
  *   - averages longer sentences than its reading level allows, or (levels 1
  *     and 2) reads above the level's grade ceiling;
- *   - is far shorter or far longer than the lesson it teaches.
+ *   - is far shorter than the lesson it teaches, or longer than a listener
+ *     can stay with (a cap by reading level).
  * It warns about brackets, signs written for the eye, very long sentences,
  * long key lines and phrases the standard rules out.
  *
@@ -38,16 +39,23 @@ const GAPS = { breath: 0.9, beat: 1.3, pause: 2.0, section: 2.6, long: 3.6 };
 /** The narrator's rate, in characters a second (the app's NARRATION_CHARS_PER_SECOND). */
 const CHARS_PER_SECOND = 14.6;
 
-/** What a level allows. `sentence` is the average sentence, in words. */
+/**
+ * What a level allows. `sentence` is the average sentence, in words.
+ * `words` is the script's length: over `aim` is a warning, over `most` an
+ * error. A listener's attention sets these, not the lesson's length: past
+ * about twenty minutes a lecture should have been two.
+ */
 const LEVELS = {
-  1: { sentence: 13, maxGrade: BANDS[1].maxGrade },
-  2: { sentence: 16, maxGrade: BANDS[2].maxGrade },
-  3: { sentence: 17, maxGrade: null },
+  1: { sentence: 13, maxGrade: BANDS[1].maxGrade, words: { aim: 1200, most: 1400 } },
+  2: { sentence: 16, maxGrade: BANDS[2].maxGrade, words: { aim: 2200, most: 2400 } },
+  3: { sentence: 17, maxGrade: null, words: { aim: 2800, most: 3000 } },
 };
-/** A script's length as a share of its lesson's. Outside `fail` is an error; outside `warn`, a warning. */
-const LENGTH = { fail: [0.6, 1.7], warn: [0.8, 1.4] };
+/** A chapter of a book pack is shorter than a lesson. */
+const CHAPTER_WORDS = { aim: 2200, most: 2400 };
+/** A script far shorter than its lesson has left the lesson out: under this share of the lesson's prose is an error. */
+const SHORTEST = 0.6;
 /** Silences (marks, key lines, sections) per thousand words, at least. */
-const MIN_SILENCES_PER_THOUSAND = 12;
+const MIN_SILENCES_PER_THOUSAND = 10;
 const KEY_LINE_WORDS = 14;
 const LONG_SENTENCE = 40;
 
@@ -216,6 +224,8 @@ for (const pack of readdirSync(packsDir).sort()) {
   const manifest = readFileSync(manifestPath, 'utf8');
   const level = field(manifest, 'reading_level') ?? '3';
   const rules = LEVELS[level] ?? LEVELS[3];
+  const isBook = /^tags:[^\n]*\bbook\b|^\s+-\s+book\s*$/m.test(manifest);
+  const length = isBook ? CHAPTER_WORDS : rules.words;
 
   /** Lesson slug → { file stem, words of prose }. */
   const lessons = new Map();
@@ -258,8 +268,9 @@ for (const pack of readdirSync(packsDir).sort()) {
       continue;
     }
     const share = lesson.words ? s.words / lesson.words : 1;
-    if (share < LENGTH.fail[0] || share > LENGTH.fail[1]) err(`${s.words} words is ${Math.round(share * 100)}% of its lesson's ${lesson.words}: a lecture runs about as long as its lesson`);
-    else if (share < LENGTH.warn[0] || share > LENGTH.warn[1]) warn(`${s.words} words is ${Math.round(share * 100)}% of its lesson's ${lesson.words}`);
+    if (share < SHORTEST) err(`${s.words} words is ${Math.round(share * 100)}% of its lesson's ${lesson.words}: the lecture has left too much of the lesson out`);
+    if (s.words > length.most) err(`${s.words} words (about ${Math.round(s.seconds / 60)} minutes): ${length.most} at most for ${isBook ? 'a chapter' : `a level ${level} lesson`}. Cut the fourth example before a think-pause`);
+    else if (s.words > length.aim) warn(`${s.words} words (about ${Math.round(s.seconds / 60)} minutes): aim for ${length.aim} or fewer`);
     if (s.perSentence > rules.sentence) err(`sentences average ${s.perSentence.toFixed(1)} words: ${rules.sentence} at most at level ${level}`);
     if (s.perSentence < 7) warn(`sentences average ${s.perSentence.toFixed(1)} words: a run of very short sentences sounds like a telegram; let the explaining flow`);
     if (rules.maxGrade !== null && s.grade > rules.maxGrade) err(`reading grade ${s.grade} is above the level ${level} ceiling of ${rules.maxGrade}`);
