@@ -96,3 +96,7 @@ Writing a lecture script means checking it line by line against its lesson, so t
 ## libertarianism
 - 03-cross-spectrum.mdx: the scoreboard says only "Friedman", which is ambiguous after lesson 2's David Friedman.
 - 02-internal-disagreements.mdx: the think-tank check names the "welfare and originalism rows" as the giveaway, though UBI has its own row.
+
+## housing
+- 02-the-strongest-cases.mdx: "the D.C.–Newark contrast" is ambiguous (both cities are described as having laws with teeth).
+- 01-how-it-works.mdx, first Checkpoint: the question never says which metro is tightly zoned.
