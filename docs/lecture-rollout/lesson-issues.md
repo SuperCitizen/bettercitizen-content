@@ -100,3 +100,11 @@ Writing a lecture script means checking it line by line against its lesson, so t
 ## housing
 - 02-the-strongest-cases.mdx: "the D.C.–Newark contrast" is ambiguous (both cities are described as having laws with teeth).
 - 01-how-it-works.mdx, first Checkpoint: the question never says which metro is tightly zoned.
+
+## lobbying
+- 01-how-it-works.mdx says "each administration since Clinton's" imposed an ethics pledge; lesson 3 lists only Clinton, Obama, Trump and Biden.
+- 02-the-strongest-cases.mdx, first Checkpoint: the answer is in effect the restriction-first reading given in the lesson's own voice, before the three cases are laid out. Worth an editor's look for balance. (The script keeps it as the rejoinder the question asks for and adds that the camps lean on different halves of it.)
+
+## healthcare
+- 01-how-it-works.mdx gives two per-person spending figures (15,474 and 14,775) and two GDP shares (18.0 and 17.2); the coverage-gap count is dated mid-2026 in the body and 2025 in a checkpoint.
+- 02-the-strongest-cases.mdx: an objective promises market-reform concessions "about pre-ACA failures", and the lesson has none. "Taubman et al. 2014" is cited but is not in `sources:`.
