@@ -140,3 +140,8 @@ Writing a lecture script means checking it line by line against its lesson, so t
 ## political-parties
 - 03-the-reform-landscape.mdx assigns fusion and proportional representation to "diagnosticians"; lesson 2's diagnosticians prescribe rebuilding organizations and draining hostility, not adding parties.
 - 03-the-reform-landscape.mdx never says which court decided FEC v. Colorado Republican.
+
+## reading-the-numbers
+- 02-correlation-causation-and-the-study-behind-the-headline.mdx calls the pragmatist "the position this lesson has been quietly training": the lesson favors one of its three perspectives. (The script leaves the line out.)
+- 03-models-forecasts-and-what-to-trust.mdx: its own checklist line ("Official statistics earn default trust… pundits earn it never") leans toward two of its three cases.
+- 01-how-polls-work-and-fail.mdx gives several polling-error figures per year on different measures (2020: 3.9, 4.3, 4.6) without saying which is which.
