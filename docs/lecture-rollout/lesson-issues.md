@@ -81,3 +81,8 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 01-what-the-first-amendment-protects.mdx lists three `perspectives:` in its frontmatter but never presents them.
 - 03-platforms-and-the-modern-square.mdx says "early 1990s" but dates Prodigy 1995, and its hook has the app, not the law, sitting "unenforced".
 - 03-platforms-and-the-modern-square.mdx never defines intermediate or strict scrutiny, standing, or remand.
+
+## how-bills-become-law
+- 03-why-bills-die.mdx lists the veto and override under "the chambers' own construction", straight after saying the Constitution built presentment.
+- 02-how-laws-really-get-made.mdx cites "presentment is all-or-nothing" as a fact from Lesson 1; Lesson 1 never states it.
+- 02-how-laws-really-get-made.mdx has `PerspectiveTabs` although the pack is `contested: false`.
