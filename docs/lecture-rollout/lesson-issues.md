@@ -120,3 +120,8 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 01-how-the-information-ecosystem-works.mdx says "SuperCitizen maintains" outlet profiles: the product's old name.
 - 01-how-the-information-ecosystem-works.mdx calls 38 percent "barely a third".
 - 03-who-decides-whats-true.mdx says the skeptic's view "curdles fastest" and "has a body count", but its only example (the 2016 pizzeria) names no deaths. The script keeps the example and leaves both phrases out, as tilt against one of the three views.
+
+## money-in-politics-101
+- 03-give-thoughtfully.mdx speaks as "SuperCitizen" and ends with a supercitizen.org donation plug: the product's old name. (The script leaves both out.)
+- 02-the-legal-framework.mdx: the intro says "one statute and five court decisions"; the title names two statutes and four cases, and the ledger lists six decisions.
+- 03-give-thoughtfully.mdx: the "Triple match" prompt has no answer in the lesson.
