@@ -130,3 +130,9 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 01-how-it-works.mdx asserts "every cap reroutes; nothing evaporates" as fact; lesson 2 lists that as contested. (The script attributes it.)
 - 02-the-strongest-cases.mdx says the reformer accepts "what neither pole will" (the doctrine's logic), yet the defender relies on that doctrine.
 - 03-the-coordination-debate.mdx lists three perspectives but never names the restrictionist in its body.
+
+## primaries-and-caucuses
+- 03-the-reform-debate.mdx: "repeal on the ballot a third time", but its table shows one earlier repeal vote (2020 was adoption).
+- 03-the-reform-debate.mdx: "D.C. opening", yet the table says the Council funded only the ranked-choice half.
+- 01-how-it-works.mdx: Louisiana's "closed" primaries admit unaffiliated voters, contrary to the lesson's own taxonomy.
+- 01 and 03 treat November 2026 as the future; it is now past.
