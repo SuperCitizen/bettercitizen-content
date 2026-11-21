@@ -136,3 +136,7 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 03-the-reform-debate.mdx: "D.C. opening", yet the table says the Council funded only the ranked-choice half.
 - 01-how-it-works.mdx: Louisiana's "closed" primaries admit unaffiliated voters, contrary to the lesson's own taxonomy.
 - 01 and 03 treat November 2026 as the future; it is now past.
+
+## political-parties
+- 03-the-reform-landscape.mdx assigns fusion and proportional representation to "diagnosticians"; lesson 2's diagnosticians prescribe rebuilding organizations and draining hostility, not adding parties.
+- 03-the-reform-landscape.mdx never says which court decided FEC v. Colorado Republican.
