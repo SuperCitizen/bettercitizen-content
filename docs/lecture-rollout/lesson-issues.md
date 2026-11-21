@@ -76,3 +76,8 @@ Writing a lecture script means checking it line by line against its lesson, so t
 ## electoral-college
 - 02-the-strongest-cases.mdx: "one certified total of 537" is a margin (lesson 03 says "certified for Bush by 537 votes"). (The script says "margin".)
 - 02-the-strongest-cases.mdx: "flipping about 43,000 votes" in 2020 is the three states' combined margin (lesson 03: 42,918); the 1968 and 2004 counterfactuals count switched voters, which is half the margin.
+
+## free-speech
+- 01-what-the-first-amendment-protects.mdx lists three `perspectives:` in its frontmatter but never presents them.
+- 03-platforms-and-the-modern-square.mdx says "early 1990s" but dates Prodigy 1995, and its hook has the app, not the law, sitting "unenforced".
+- 03-platforms-and-the-modern-square.mdx never defines intermediate or strict scrutiny, standing, or remand.
