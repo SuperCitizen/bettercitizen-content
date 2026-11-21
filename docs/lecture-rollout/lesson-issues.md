@@ -68,3 +68,11 @@ Writing a lecture script means checking it line by line against its lesson, so t
 
 ## climate
 - 01-the-science-and-the-stakes.mdx: the figure cites a data file of October 9, 2026; the text says it was written in mid-2026.
+
+## emergency-powers
+- 03-reform-and-the-permanent-emergency.mdx, opening: "ten presidencies" since November 1979. Carter through Trump's second term is nine presidencies, eight presidents. (The script leaves the count out.)
+- 01-the-constitution-of-emergency.mdx: the timeline is titled "Fourteen weeks", but its events run from April 1861 to March 1863.
+
+## electoral-college
+- 02-the-strongest-cases.mdx: "one certified total of 537" is a margin (lesson 03 says "certified for Bush by 537 votes"). (The script says "margin".)
+- 02-the-strongest-cases.mdx: "flipping about 43,000 votes" in 2020 is the three states' combined margin (lesson 03: 42,918); the 1968 and 2004 counterfactuals count switched voters, which is half the margin.
