@@ -123,7 +123,9 @@ First, the modeler's case. What it protects is accountability. The modeler argue
 
 > The modeler's case: the alternative to a model is not humility, but a pundit.
 
-Second, the model skeptic's case. What it protects is honesty about how deep the uncertainty runs. The skeptic argues that even if you grant the math, the problem remains. A forecast that resolves once in four years cannot be falsified, one forecast at a time. They point to the calibration ledger, which pools easy congressional calls with the hard one everyone consumed. The forecaster collects attention up front, and can launder any outcome after the fact. They point to that 50.015 percent, and argue that a two-decimal probability is precision theater. The honest statement, they argue, compresses toward "we don't know," stated plainly. Their test is skin in the game: would the forecaster sell bets at the stated price, in size? Prediction markets at least meet that bar. And the daily twitch of the needle, they argue, is engagement product, not civic information. It demobilizes or panics voters over noise.
+Second, the model skeptic's case. What it protects is honesty about how deep the uncertainty runs. The skeptic argues that even if you grant the math, the problem remains. A forecast that resolves once in four years cannot be falsified, one forecast at a time. They point to the calibration ledger, which pools easy congressional calls with the hard one everyone consumed. The forecaster collects attention up front, and can launder any outcome after the fact.
+
+They point to that 50.015 percent, and argue that a two-decimal probability is precision theater. The honest statement, they argue, compresses toward "we don't know," stated plainly. Their test is skin in the game: would the forecaster sell bets at the stated price, in size? Prediction markets at least meet that bar. And the daily twitch of the needle, they argue, is engagement product, not civic information. It demobilizes or panics voters over noise.
 
 > The skeptic's case: when uncertainty runs this deep, a precise probability is theater.
 
