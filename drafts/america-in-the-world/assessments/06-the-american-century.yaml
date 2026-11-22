@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-american-century
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A documentary says that in 1945 the United States produced half of the world's output. Using the Maddison Project estimates in this lesson, what is the best correction?"
+    choices:
+      - id: a
+        text: "Maddison has no world total for 1945; it puts the US at about 21 percent in 1940 and 27 percent in 1950"
+      - id: b
+        text: "Half is right for 1945; the share then fell to about 27 percent by 1950 as Europe rebuilt"
+      - id: c
+        text: "The real 1945 figure was about 6 percent, since that was the American share of the world's people"
+      - id: d
+        text: "Half is right if output is measured at market exchange rates instead of Maddison's yardstick"
+    correct_choice_id: a
+    explanation: "The Maddison Project, the standard long-run series, skips 1945 in its world totals, and no source this lesson could verify supports 'half'. Its nearest years give about 21 percent (1940) and about 27 percent (1950). Choice b assumes the myth is true, choice c confuses a share of people with a share of output, and choice d swaps in a different yardstick that this lesson never shows supporting the claim; mixing yardsticks is itself a classic error."
+    concepts: [gdp, hegemony]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A new book argues that the Cold War grew from a decades-old American conviction that prosperity at home required open markets abroad, and that Moscow saw Washington's push for open economies in Europe as a threat. Which school of interpretation is the book writing in?"
+    choices:
+      - id: a
+        text: "Orthodox, because it explains American policy as a response to Soviet moves"
+      - id: b
+        text: "Revisionist, in the line of William Appleman Williams's Open Door thesis"
+      - id: c
+        text: "Post-revisionist, because it says Moscow and Washington both felt threatened"
+      - id: d
+        text: "Containment, the school founded by George Kennan's 1947 article"
+    correct_choice_id: b
+    explanation: "Tracing the conflict to America's drive for open markets, and placing more of the responsibility on the stronger United States, is the revisionist case that begins with Williams's The Tragedy of American Diplomacy (1959). The orthodox view starts from Soviet expansion; the post-revisionist view spreads the cause across both sides' fears and perceptions rather than putting it on American economic aims. Containment was a policy, not a school of historians."
+    concepts: [cold-war]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Two scholars agree that Marshall aid came to around 2 percent of the receiving countries' output. One calls the plan decisive; the other says its economic effect has been overstated. What are they really disagreeing about?"
+    choices:
+      - id: a
+        text: "Whether a small sum, with conditions attached and arriving at the right time, changed Europe's course"
+      - id: b
+        text: "Whether Congress ever appropriated the money, or only promised it in Marshall's speech"
+      - id: c
+        text: "Whether the aid was mostly larger than the investment Europe's own governments made"
+      - id: d
+        text: "Whether the Soviet Union and Eastern Europe received a share of the aid in the end"
+    correct_choice_id: a
+    explanation: "Both sides accept the size: a little over 1 percent of America's national income a year, around 2 percent of the recipients' output. The generosity-and-strategy side (Eichengreen, De Long, Hogan) argues that timing and terms, such as easing stabilization and pushing toward freer trade, mattered more than size. Milward and Crafts argue the direct effect on growth was modest and Europe's own governments did much of the work. Congress did appropriate $13.3 billion, and the Soviet bloc stayed out."
+    concepts: [marshall-plan]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In 1950, two Black veterans with identical service records each try to use the GI Bill for college. One can apply only to Mississippi's segregated colleges; the other lives in Ohio. The law's text treats them the same. By the evidence in this lesson, what most decides how much each gains?"
+    choices:
+      - id: a
+        text: "The local colleges, banks and offices that deliver the benefit, and whether they are segregated"
+      - id: b
+        text: "The size of the federal benefit, which Congress set lower for veterans in Southern states"
+      - id: c
+        text: "Whether each veteran served overseas, since only overseas service qualified for tuition"
+      - id: d
+        text: "The year each enlisted, since the act covered only veterans who joined after 1944"
+    correct_choice_id: a
+    explanation: "The GI Bill made no distinction by race in its text, but it ran through local institutions. Turner and Bound (2003) found it raised college attainment for white men and Black men born outside the South, and did little for Black veterans limited to the South's segregated colleges. Katznelson (2005) argues local administration was how the law accommodated Jim Crow. The benefit itself was the same everywhere, which is why the other choices miss."
+    concepts: [jim-crow]
+
+  - id: q5
+    kind: free-response
+    text: "Was America's position in 1950 mostly earned or mostly inherited? Make the strongest case that it came mainly from American choices and policy, then the strongest case that it came mainly from geography and timing and the troubles of other nations. Use evidence from the lesson for each, and name one fact that each side could claim."
+    socratic_seed: "Ask the learner which of the three kinds of advantage did the most work, and what evidence moved them. Press on scale: two oceans spared the country, but would being spared have mattered without about 6 percent of the world's people and a continent's resources? Press on choices: Bretton Woods, the Marshall Plan, NATO and the GI Bill could each have gone another way, and so could the camps, the quotas and the GI Bill's local delivery, so ask who shared in the choices' rewards. Then bring in the fact that cuts both ways: the American share fell back to about 22 percent by 1970 as Europe and Japan rebuilt. Does that show how much of 1950 was others' ruin, or that the policies worked? Finally ask whether a revisionist, who reads the choices as an informal empire, would sort them the same way."
+    concepts: [hegemony, marshall-plan, nato, cold-war]

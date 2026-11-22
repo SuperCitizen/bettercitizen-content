@@ -1,0 +1,71 @@
+schema: bettercitizen.assessment/v1
+lesson: the-1970s-turn
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "What did Richard Nixon's address of August 15, 1971, do to the link between the dollar and gold?"
+    choices:
+      - id: a
+        text: "It suspended foreign governments' right to trade dollars for American gold, and the suspension was never lifted"
+      - id: b
+        text: "It ended fixed exchange rates at once, so the dollar floated freely against other currencies from that night"
+      - id: c
+        text: "It put a tax of 10 percent on gold sold to foreign governments, to slow the outflow of American gold"
+      - id: d
+        text: "It tied the dollar to a basket of European currencies in place of gold, at a new fixed rate"
+    correct_choice_id: a
+    explanation: "Nixon suspended the dollar's convertibility into gold, and the dollar never went back to gold. Fixed exchange rates did not end that night: the December 1971 Smithsonian Agreement set new fixed rates around a devalued dollar, and they lasted until March 1973, when six European Community members floated jointly against the dollar. The 10 percent tax in the same speech was on imported goods, not on gold."
+    concepts: [fiat-currency]
+
+  - id: q2
+    kind: multiple-choice
+    text: "An economist studying another country finds that its inflation rose steadily for eight years before a sudden spike in energy prices, and kept rising afterward. Which explanation of inflation does that pattern support more, and why?"
+    choices:
+      - id: a
+        text: "The monetary explanation, because prices were climbing before any supply shock arrived"
+      - id: b
+        text: "The supply-shock explanation, because the energy spike came during the inflation"
+      - id: c
+        text: "Neither, because a spike in energy prices cannot raise the general price level"
+      - id: d
+        text: "Both equally, because the two explanations make the same predictions about timing"
+    correct_choice_id: a
+    explanation: "Inflation that is already climbing before a shock points to something other than the shock, which is the monetary explanation's argument about America: inflation began rising in the mid-1960s, before any oil shock. The supply-shock explanation rests on the opposite timing, bursts of inflation that arrive with the shocks, as in 1973–74 and 1979–80. The two make different predictions, which is how economists test them, and both accept that oil shocks and worsening stagflation coincided."
+    concepts: [inflation, monetary-policy, stagflation]
+
+  - id: q3
+    kind: multiple-choice
+    text: "By the Maddison Project's estimates, America produced about 27 percent of the world's output in 1950, about 22 percent in 1970 and about 21 percent in 1980. What does that pattern best support?"
+    choices:
+      - id: a
+        text: "Most of America's relative decline came before the oil shocks, as Europe and Japan rebuilt"
+      - id: b
+        text: "The oil shocks of the 1970s caused most of America's relative decline in output"
+      - id: c
+        text: "American output per person fell between 1950 and 1970 as rivals pulled ahead"
+      - id: d
+        text: "America's relative position held steady until the dollar left gold in 1971"
+    correct_choice_id: a
+    explanation: "About five of the roughly six points of decline came between 1950 and 1970, before either oil shock, while output per American went from 2.1 times the Western European average to 1.5 times. That is catching up in Moses Abramovitz's sense: others grew faster from further behind, while American output kept rising. The 1970s added real losses, but mostly in manufacturing and in productivity growth, not in America's overall share."
+    concepts: [gdp]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A student draws one line from lesson 5's 1938 estimate of America's share of world manufacturing through this lesson's figures for 1970 and 1980, and concludes that a single, steady decline began before World War II. What is the main problem?"
+    choices:
+      - id: a
+        text: "The 1938 estimate and the 1970 and 1980 figures measure different things, so they cannot be joined into one trend"
+      - id: b
+        text: "The 1970 and 1980 figures use purchasing power, so they overstate America's share of manufacturing"
+      - id: c
+        text: "The UN figures for 1970 and 1980 count China's manufacturing in full, so they understate America's share"
+      - id: d
+        text: "Nothing: all three figures come from one consistent series and can be read as a trend"
+    correct_choice_id: a
+    explanation: "The 1938 number is Paul Bairoch's estimate of manufacturing production; the 1970 and 1980 numbers are UN manufacturing value added at market exchange rates. Different measures cannot be read as one line. The later figures carry their own cautions: they use market exchange rates, not purchasing power, so part of the fall is the cheaper dollar, and the UN's world total for those years leaves out China's manufacturing, which overstates America's share. That is why the lesson gives them as ranges."
+
+  - id: q5
+    kind: free-response
+    text: "Was the end of the postwar boom in the 1970s something no policy could have prevented, or the result of choices made in Washington? Make the strongest case for each view, using evidence from the lesson, then say which kind of evidence would change your mind."
+    socratic_seed: "Start by asking which of the three kinds the reader put the end of the boom in: geography and timing, choices and policy, or the troubles of other nations. Press for evidence on both sides. For the extraordinary-era view (Levinson, Gordon, Abramovitz's catch-up), the reader should use the timing of the decline, most of it between 1950 and 1970, and a productivity slowdown that lasted from the early 1970s to about 1995 under presidents of both parties. For the choices view, the reader should note that its holders disagree with each other, with Judith Stein faulting a turn against factories and full employment and Allan Meltzer faulting a Fed that let money grow too fast, and should use the Fed's change of course in 1979, which broke the stagflation cycle at the cost of a severe recession, and the rescues of Lockheed and Chrysler. Then ask what a fair test would be: what would we expect to see if the boom could have been saved, and do the facts in the lesson show it? Close by asking who paid for the turn, and whether that answer depends on which view is right."
+    concepts: [stagflation, monetary-policy]

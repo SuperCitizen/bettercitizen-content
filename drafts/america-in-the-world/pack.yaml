@@ -1,0 +1,23 @@
+schema: bettercitizen.content/v1
+slug: america-in-the-world
+title: 250 Years of America in the World
+summary: How the United States became what it is, from 1776 to today, era by era, and how the rest of the world shaped it at each stage. Which American advantages came from geography and timing, which from choices and policy, and which from the troubles of other nations, and who shared in the prosperity.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags: [history, us-history, foreign-policy, economics, immigration]
+level: intermediate
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-founding.mdx
+  - 02-expansion.mdx
+  - 03-civil-war-and-reconstruction.mdx
+  - 04-industrial-rise.mdx
+  - 05-war-boom-and-depression.mdx
+  - 06-the-american-century.mdx
+  - 07-civil-rights-and-the-sixties.mdx
+  - 08-the-1970s-turn.mdx
+  - 09-globalization.mdx
+  - 10-since-2008.mdx

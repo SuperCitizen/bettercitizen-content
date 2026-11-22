@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: what-policy-could-do
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which of these causes of the postwar housing boom is a policy lever that government could still pull today, rather than a one-time condition?"
+    choices:
+      - id: a
+        text: "Open, cheap land at the edge of nearly every American city in 1950"
+      - id: b
+        text: "Federal guarantees that made long, low-down-payment mortgages normal"
+      - id: c
+        text: "Fifteen years of postponed households arriving at once after 1945"
+      - id: d
+        text: "A peak of 3.77 births per woman in 1957"
+    correct_choice_id: b
+    explanation: "Mortgage guarantees are an instrument government still holds, and the FHA and VA still use them. The other three were conditions of their moment: the land at the edge, the pent-up demand left by the Depression and the war, and the baby boom cannot be legislated back. The lesson's catch is that the guarantee worked so well partly because those conditions let builders answer each new buyer with a new house."
+    concepts: [subsidy, new-deal]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A state where local rules allow almost no new homes offers every first-time buyer a $25,000 down-payment grant. Based on the lesson, what is the most likely result?"
+    choices:
+      - id: a
+        text: "Builders add many homes, because the grant raises demand"
+      - id: b
+        text: "Much of the grant shows up as higher prices, with few homes added"
+      - id: c
+        text: "Prices fall, because more buyers now qualify for mortgages"
+      - id: d
+        text: "Nothing changes, because grants do not affect what buyers bid"
+    correct_choice_id: b
+    explanation: "Where the number of homes cannot grow, extra buying power lets every bidder offer more for the same houses, so prices rise. Collinson and Ganong (2018) found that when voucher limits rose across whole metro areas, landlords captured much of the gain, and Edward Pinto (2021) made the same argument about easier mortgage credit. In a place where builders can respond, the same money would become more homes; the building lever decides what the paying lever does."
+    concepts: [subsidy]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Each position in the lesson concedes a cost of its own lever. Which pairing of a position and its concession is correct?"
+    choices:
+      - id: a
+        text: "Supply-side reform: new building takes years and does not reach the poorest without subsidy"
+      - id: b
+        text: "Demand-side subsidy: vouchers cost more than building public projects for equally good housing"
+      - id: c
+        text: "Tenant protection: rent control in San Francisco increased the city's supply of rentals"
+      - id: d
+        text: "Family policy: cash for families has been shown to restore 1950s birth rates"
+    correct_choice_id: a
+    explanation: "Supply-siders grant that construction works over years and never reaches the poorest households without help. The other pairings reverse the evidence: Olsen points to studies finding vouchers cheaper than building projects; Diamond, McQuade and Qian found that covered San Francisco landlords cut rental supply by 15 percent; and Kearney, Levine and Pardue found no measurable economic or policy factor that explains most of the fall in births since 2007."
+    concepts: [steel-man]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A senator proposes doubling the mortgage interest deduction to help young families buy their first homes. Which objection does the evidence in the lesson most directly support?"
+    choices:
+      - id: a
+        text: "The deduction mostly benefits higher-income owners who would own anyway"
+      - id: b
+        text: "The deduction applies only to renters, so it cannot help buyers"
+      - id: c
+        text: "The deduction was abolished, so there is nothing left to double"
+      - id: d
+        text: "The deduction would lower home prices too fast for builders to keep up"
+    correct_choice_id: a
+    explanation: "Glaeser and Shapiro (2003) called the deduction a particularly poor instrument for encouraging homeownership, because its benefit flows mostly to wealthy households who would own anyway. Doubling it would enlarge that pattern rather than redirect it toward first-time buyers, and in a market where supply cannot grow, a larger tax benefit for buyers can also be bid into prices."
+    concepts: [subsidy, federalism]
+
+  - id: q5
+    kind: free-response
+    text: "Your state has the money and political room for one major housing initiative. Choose one lever from the lesson. Explain which of the postwar one-time conditions it can partly stand in for and which it cannot, name its main cost, and state the strongest objection a holder of one of the other three positions would raise."
+    socratic_seed: "Start with the sort: ask which one-time condition the chosen lever is trying to stand in for (cheap land at the edge, an economy without rivals, pent-up demand or the baby boom) and press on whether any law can supply it. Then test the musical-chairs logic: if the lever helps people pay, what happens to prices where the number of homes cannot grow; if it adds homes, how many years until anyone feels it, and does it reach the poorest? Ask the learner to give the objection in its advocates' own strongest terms, with a named scholar or finding (Glaeser and Gyourko, Desmond or Olsen, Diamond, McQuade and Qian, Cox and Stone or Kearney), and then to say what evidence would change their own choice. Close by asking whether their disagreement with that position is about evidence or about whose needs should count first."
+    concepts: [subsidy, steel-man]

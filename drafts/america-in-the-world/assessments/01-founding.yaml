@@ -1,0 +1,71 @@
+schema: bettercitizen.assessment/v1
+lesson: founding
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In 1782 Franklin, Adams and Jay signed preliminary peace terms with Britain without France at the table. Which part of the 1778 alliance made that step delicate?"
+    choices:
+      - id: a
+        text: "Its promise that neither ally would make peace with Britain without the other's formal consent"
+      - id: b
+        text: "Its guarantee, 'forever,' of France's possessions in America, including its Caribbean islands"
+      - id: c
+        text: "Its requirement that Spain approve any peace the United States made with Britain"
+      - id: d
+        text: "Its ban on any American trade with Britain for as long as the alliance lasted"
+    correct_choice_id: a
+    explanation: "Article 8 barred either side from making 'Truce or Peace with Great Britain, without the formal consent of the other.' The commissioners had Vergennes's consent to negotiate, and he complained when they reached terms on their own, then lent more money anyway. The guarantee of France's islands (Article 11) mattered later, in 1793, when France wanted help in the Caribbean. Spain never joined the American alliance, and the treaty did not ban trade with Britain."
+    concepts: [treaty, sovereignty]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which of these advantages is best sorted as coming from the troubles of other nations?"
+    choices:
+      - id: a
+        text: "The Constitution's power to tax imports and so fund the new government"
+      - id: b
+        text: "The Atlantic Ocean lying between the republic and Europe's armies"
+      - id: c
+        text: "Spain's willingness, after defeats in Europe, to open the Mississippi in 1795"
+      - id: d
+        text: "Washington's decision to proclaim neutrality when France and Britain went to war"
+    correct_choice_id: c
+    explanation: "Spain opened the Mississippi and New Orleans to American trade after losing battles in the wars of the French Revolution and fearing an Anglo-American alliance: another nation's trouble. The taxing power and the neutrality proclamation were choices and policy; the ocean is geography. Even the right answer is argued at the edges, because Pinckney's refusal of an alliance and his threat to walk out were American choices too."
+    concepts: [treaty]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A historian writes: 'Colonists sincerely believed British ministers were plotting against their liberty, and the tax acts mattered because they seemed to prove the plot.' Which reading is this, and what evidence does it lean on most?"
+    choices:
+      - id: a
+        text: "The economic reading, leaning on the delegates' holdings of securities and trade"
+      - id: b
+        text: "The ideological reading, leaning on the pamphlets colonists published before 1776"
+      - id: c
+        text: "Slavery at the center, leaning on the Constitution's clauses about enslaved people"
+      - id: d
+        text: "Bemis's reading, leaning on Europe's wars and the distress they caused"
+    correct_choice_id: b
+    explanation: "Bernard Bailyn's ideological reading (1967) built its case from the pamphlets, where he found a coherent fear of a plot against liberty; taxes were evidence of the plot, not the whole cause. The economic reading follows the framers' money, the slavery-centered reading follows who was excluded and why, and Bemis's phrase is about why European powers bargained with the republic, not why colonists revolted."
+    concepts: [popular-sovereignty]
+
+  - id: q4
+    kind: multiple-choice
+    text: "The word slave appears nowhere in the Constitution of 1787. Which statement fits the text and the debate over it?"
+    choices:
+      - id: a
+        text: "It abolished the slave trade in 1808, setting slavery on a path to end"
+      - id: b
+        text: "It protected slavery in several clauses without naming it, and what the omission meant is argued"
+      - id: c
+        text: "It counted enslaved people fully for representation, which strengthened the South"
+      - id: d
+        text: "It said nothing at all about slavery, leaving the subject entirely to the states"
+    correct_choice_id: b
+    explanation: "The text counted 'three fifths of all other Persons,' barred Congress from stopping 'the Migration or Importation of such Persons' before 1808 (a delay, not an abolition), and required escaped persons 'held to Service or Labour' to be 'delivered up.' Madison thought it wrong to admit 'the idea that there could be property in men.' David Waldstreicher reads the result as slavery at the Constitution's heart; Sean Wilentz argues the refusal to name property in man later gave antislavery politicians ground to stand on."
+
+  - id: q5
+    kind: free-response
+    text: "Pick one American advantage from 1776 to 1800 and argue which of the three kinds it was: geography and timing, choices and policy, or the troubles of other nations. Then make the strongest case that it belongs to a different kind, and say who paid for it."
+    socratic_seed: "Ask which advantage the learner chose and what evidence puts it in that kind. Then press on the overlap. The French alliance needed France's wish to undo 1763, but also American choices: Lee's resolution, Franklin's diplomacy, the victory at Saratoga. Pinckney's treaty needed Spain's defeats in Europe, but Pinckney also refused an alliance and threatened to walk out. Western land looked like a gift of geography, but it became American by war and treaty with Native nations, who were not at the table in 1783. Ask who paid for the advantage and who shared in it, and close by asking what evidence would change their sorting."
+    concepts: [sovereignty]

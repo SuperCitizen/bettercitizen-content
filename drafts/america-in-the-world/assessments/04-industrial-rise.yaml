@@ -1,0 +1,71 @@
+schema: bettercitizen.assessment/v1
+lesson: industrial-rise
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which statement matches the estimates this lesson uses for where the United States stood between 1860 and 1913?"
+    choices:
+      - id: a
+        text: "By Bairoch's estimates the US share of world manufacturing rose from 7.2 percent in 1860 to 32.0 percent in 1913, more than Britain and Germany combined."
+      - id: b
+        text: "By Bairoch's estimates the US already out-produced Britain in manufacturing in 1860, and the gap only widened by 1913."
+      - id: c
+        text: "By the Maddison estimates the US produced about a third of all world output in 1900, the same as its share of manufacturing."
+      - id: d
+        text: "By the Maddison estimates the US passed Britain in output per person in 1880 and never fell behind it again before 1913."
+    correct_choice_id: a
+    explanation: "Bairoch puts the US at 7.2 percent of world manufacturing in 1860, against Britain's 19.9, and at 32.0 percent in 1913, against Britain's 13.6 and Germany's 14.8. Total output is a different measure: the Maddison estimates give the US about 17.5 percent of world output in 1900, not a third. And output per person has no single crossing date: the US edged ahead of Britain in 1880, fell behind in several years between 1888 and 1898, and stayed ahead only from 1899."
+    concepts: [industrial-revolution]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A country puts a 40 percent tariff on imported solar panels. A domestic panel industry appears five years sooner than forecasts said it would, and panel buyers pay more in the meantime. How would the lesson's two readings of the tariff treat this outcome?"
+    choices:
+      - id: a
+        text: "The builder reading counts the head start as the point; the burden reading asks whether it was worth what buyers paid."
+      - id: b
+        text: "Both readings agree it proves the tariff caused the industry, so the outcome settles the debate between them."
+      - id: c
+        text: "The builder reading doubts that tariffs ever speed an industry up; the burden reading accepts the head start as proof."
+      - id: d
+        text: "The burden reading counts the head start as the point; the builder reading objects mainly to the higher prices."
+    correct_choice_id: a
+    explanation: "This is the tinplate case in a new setting. Irwin found that the McKinley tariff of 1890 brought American tinplate about a decade sooner, which the builder reading treats as learning bought by protection, yet he also concluded that the protection did not pass a cost-benefit test. The two readings can accept the same facts and still disagree over how to weigh a head start against the higher prices everyone else paid."
+    concepts: [tariff]
+
+  - id: q3
+    kind: multiple-choice
+    text: "How did federal immigration law treat Chinese laborers and European immigrants differently in this era?"
+    choices:
+      - id: a
+        text: "The 1882 act banned Chinese laborers and barred their naturalization, while Congress set no quotas on Europeans until the 1920s."
+      - id: b
+        text: "The 1882 act gave Chinese laborers a yearly quota, the same kind of numerical limit Congress then set for Europeans."
+      - id: c
+        text: "The 1882 act barred Chinese laborers only from Ellis Island, while letting them enter freely through Pacific ports."
+      - id: d
+        text: "The 1882 act banned all Asian immigration for good, and an 1892 law extended the same ban to southern Europeans."
+    correct_choice_id: a
+    explanation: "The Chinese Exclusion Act of May 6, 1882, banned Chinese laborers for ten years and barred courts from naturalizing Chinese immigrants; it was extended in 1892, made permanent in 1902 and repealed in 1943. Europeans faced no quotas until the 1920s. Quotas were the later method; in 1882 the Chinese were excluded outright, which is why the National Archives calls it the first time federal law barred an ethnic working group."
+
+  - id: q4
+    kind: multiple-choice
+    text: "In the Homestead lockout of 1892 and the Pullman boycott of 1894, what part did government play?"
+    choices:
+      - id: a
+        text: "State troops at Homestead and federal troops with an injunction at Pullman ended the strikes, and the Supreme Court upheld jailing the union's leaders."
+      - id: b
+        text: "Government stayed neutral in both, leaving owners and workers to settle the disputes through bargaining on their own."
+      - id: c
+        text: "The Sherman Act was used to break up Carnegie Steel after Homestead and the Pullman company after the boycott."
+      - id: d
+        text: "The Interstate Commerce Commission ordered the railroads to restore the wages they had cut before the boycott began."
+    correct_choice_id: a
+    explanation: "Pennsylvania's governor sent 8,500 troops to Homestead, and the union was broken. At Pullman a federal injunction and thousands of marshals and Army troops ended the boycott, and in In re Debs (1895) the Supreme Court upheld the jailing of its leaders. That is the pattern the lesson names: Washington regulated the giants lightly but sided with owners against strikers, and offered nothing like Germany's social insurance of the 1880s."
+    concepts: [antitrust, gilded-age]
+
+  - id: q5
+    kind: free-response
+    text: "Choose one American advantage of 1870 to 1914: the mineral wealth, the railroads, the protective tariff, the immigrant workforce, or the victory over Spain in 1898. Make the case for sorting it under two of the series' three kinds (geography and timing, choices and policy, the troubles of other nations), and say what evidence would decide between them."
+    socratic_seed: "Start by asking which kind the reader would put it under first, and why. Then press on the second kind with the lesson's own evidence: for minerals, David and Wright's argument that abundance was 'socially constructed' by law, institutions and technology; for railroads, the Pacific Railway Act's land and bonds against the continent's size, and Richard White's reading of subsidy and corruption; for the tariff, whether it was an advantage at all, from Chang and O'Rourke to Irwin; for immigrants, the push of cheap grain and hardship in Europe against the open-door policy and the 1882 exclusion; for 1898, the end of Spain's empire in the Americas against Mahan's program and the choice to take colonies. Ask what evidence would settle the sorting, and whether some advantages are irreducibly mixed. Do not supply a verdict on the contested readings."
+    concepts: [tariff, industrial-revolution]

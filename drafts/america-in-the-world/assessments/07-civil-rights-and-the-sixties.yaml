@@ -1,0 +1,70 @@
+schema: bettercitizen.assessment/v1
+lesson: civil-rights-and-the-sixties
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In its December 1952 brief in the school segregation cases, what did the U.S. government tell the Supreme Court in its own voice?"
+    choices:
+      - id: a
+        text: "That racial discrimination fed Communist propaganda and raised doubts among friendly nations about American democracy"
+      - id: b
+        text: "That the United Nations had formally ordered the United States to end segregation in its public schools"
+      - id: c
+        text: "That school segregation should stand until Congress passed a civil rights law to end it"
+    correct_choice_id: a
+    explanation: "The Justice Department wrote that racial discrimination 'furnishes grist for the Communist propaganda mills' and raises doubts 'even among friendly nations,' and it quoted the secretary of state on hostile foreign comment in the United Nations and elsewhere. That was comment and propaganda, not a UN order. And the brief did not ask the Court to wait for Congress: it called compulsory segregation an unconstitutional discrimination and urged the Court, if it reached the question, to overrule 'separate but equal.'"
+    concepts: [cold-war, civil-rights]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What replaced the national-origins quotas when the 1965 immigration law took full effect in 1968?"
+    choices:
+      - id: a
+        text: "A points system that scored applicants on education, language and age"
+      - id: b
+        text: "Quotas recalculated from the 1960 census instead of the old census formula"
+      - id: c
+        text: "Ceilings, a 20,000 per-country limit and preferences mostly for relatives, with visas in filing order"
+      - id: d
+        text: "An open door with no numerical limit for anyone outside the Western Hemisphere"
+    correct_choice_id: c
+    explanation: "The law barred preference or discrimination by race, sex, nationality, place of birth or place of residence. It set a 170,000 ceiling outside the Western Hemisphere, a first ceiling of 120,000 on the Western Hemisphere and a 20,000 per-country limit, reserved about three-quarters of capped visas for relatives, and issued them in the order petitions were filed. Recalculated quotas would still have sorted people by birthplace, which is exactly what the law ended."
+    concepts: [civil-rights]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Suppose that in 1970 a program replaced 1,000 dollars of cash aid with 1,000 dollars of food stamps for every poor family, leaving their spending power unchanged. What would happen to the official poverty rate?"
+    choices:
+      - id: a
+        text: "It would stay the same, because food stamps count as income just as cash does"
+      - id: b
+        text: "It would rise, because the official measure counts cash income and leaves out food stamps"
+      - id: c
+        text: "It would fall, because food stamps can only be spent on necessities"
+      - id: d
+        text: "It would stay the same, because the official measure counts what families consume"
+    correct_choice_id: b
+    explanation: "The official poverty measure uses money income before taxes and excludes noncash benefits such as Medicaid and food stamps. Swapping cash for an equal amount of food stamps lowers counted income, so measured poverty rises though no family is worse off. That is why defenders and critics of the Great Society can read the same official series differently."
+    concepts: [great-society]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A historian argues that the decisive first phase of the civil rights movement was the labor-based activism of the 1940s, and that the movement's economic goals did not end in 1965. Which reading is this, and whose work anchors it?"
+    choices:
+      - id: a
+        text: "The classical narrative, as defended by Sundiata Keita Cha-Jua and Clarence Lang"
+      - id: b
+        text: "The long civil rights movement, as set out by Jacquelyn Dowd Hall"
+      - id: c
+        text: "The Cold War reading, as set out by Mary Dudziak in Cold War Civil Rights"
+      - id: d
+        text: "The conservative and libertarian critique, as argued by Thomas Sowell"
+    correct_choice_id: b
+    explanation: "Hall argues that the movement took root in the late 1930s, grew in the 1940s as civil rights unionism, reached beyond the South and kept its economic agenda past 1965. Cha-Jua and Lang argue the opposite, that the 1954 to 1965 movement was a distinct era. Dudziak explains why Washington responded, not when the movement began, and Sowell's point is that Black incomes were rising before 1964."
+    concepts: [civil-rights, jim-crow]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one advantage or gain the United States had in the 1960s that the lesson discusses: the end of legal segregation, the 1965 immigration law, the postwar boom that paid for two wars, or the Cold War pressure on segregation. Argue which of the series' three kinds it belongs to (geography and timing, choices and policy, or the troubles of other nations), then make the strongest case for putting it in a different column."
+    socratic_seed: "Start with the column the learner chose and ask for the evidence that puts it there: a statute and a vote count (the 71 to 29 cloture vote, Public Law 89-236), a number from the figure (US share of world output falling from 27.4 to 22.4 percent as Western Europe rebuilt), or a document (the 1952 brief, Eisenhower's Little Rock address). Then press on the second column. If they chose the Cold War, ask how Dudziak and Hall can both be right: Dudziak counts the Soviet rivalry as outside pressure that helped end segregation, while Hall counts its anticommunism as the force that broke the movement's labor wing in the late 1940s. If they chose the end of segregation, ask whether the classical narrative (a decade of protest and landmark law) and the long-movement reading (a struggle rooted in the 1930s) would sort it differently, and what each would count as the movement's success. If they chose the 1965 law, ask how much of who came afterward reflected the law as a choice and how much the troubles of other nations, from the refugee slot defined in Cold War terms to the shift from European to Latin American and Asian birthplaces by 1990. Close by asking what evidence would move them from one column to the other, and whether that evidence is empirical or a judgment about what counts as the cause."
+    concepts: [civil-rights, cold-war, great-society]

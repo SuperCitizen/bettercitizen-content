@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-shortage-today
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Moody's Analytics (July 2025) puts the national housing shortage at about 2 million homes; the White House Council of Economic Advisers (April 2026) at 10 million or more. What best explains most of the gap?"
+    choices:
+      - id: a
+        text: "They ask different questions: Moody's sets a target of households plus a normal share of homes on the market, while the CEA asks how many more single-family homes there would be had building kept its pre-2008 pace."
+      - id: b
+        text: "They use the same method, but the CEA's estimate is newer, and the shortage grew fivefold between 2025 and 2026."
+      - id: c
+        text: "The CEA counts the affordability gap for extremely low-income renters, which is always larger than a count of missing homes."
+      - id: d
+        text: "Moody's counts only homeowners, while the CEA counts owners and renters together."
+    correct_choice_id: a
+    explanation: "A shortage is estimated, not counted. Stock-and-target estimates such as Moody's and Freddie Mac's add today's households, households that would form if housing cost less, and a normal vacancy rate, then subtract the homes that exist. Pace estimates such as NAR's and the CEA's compare building with an earlier era's rate. The affordability gap in choice c is a different measure again (the NLIHC count of homes the poorest renters can afford and get), and nothing in the data supports a fivefold jump in one year."
+    concepts: [federalism]
+
+  - id: q2
+    kind: multiple-choice
+    text: "You want to compare what a home costs today with what it cost in 1950, using the same yardstick this series has used in every lesson. Which comparison is the right one?"
+    choices:
+      - id: a
+        text: "About 3.5 years of median family income in 2025 against 2.4 in 1950, both from Census owner-reported home values, read as approximate because the group of homes measured changed."
+      - id: b
+        text: "4.7 times median household income in 2025, from Harvard's sale-price ratio, against 2.4 in 1950 from the Census."
+      - id: c
+        text: "5.0 times household income in 2022 against 1.8 in 1970, because those are the highest and lowest years."
+      - id: d
+        text: "The monthly payment of $2,420 in late 2025 against $1,240 at the end of 2020."
+    correct_choice_id: a
+    explanation: "Only choice a compares the same measure with itself: the Census value of the median owned home divided by median family income. Choice b mixes two different ratios, one dividing sale prices by household income and the other dividing owners' estimates by family income. Choice c also mixes measures and cherry-picks extremes. Choice d is a real and important comparison, but it compares payments five years apart, not price in years of income against 1950."
+    concepts: [monetary-policy]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A state legalizes apartments by right near its transit lines and speeds up approvals. Five years later, permits there have doubled and rents have risen more slowly than in neighboring states with the same job growth. Which explanation for high prices does this evidence most directly support?"
+    choices:
+      - id: a
+        text: "Land-use rules hold back supply, because loosening the rules produced more homes and slower rent growth than in comparable places."
+      - id: b
+        text: "Interest rates, investors and finance, because rates fell over the same five years."
+      - id: c
+        text: "Incomes and inequality, because only the incomes of the poorest renters decide rents."
+      - id: d
+        text: "None of the three, because a single state cannot tell us anything about the causes of high prices."
+    correct_choice_id: a
+    explanation: "The land-use view names exactly this test: it would change its mind if places that legalize more building got the homes but no slower rise in rents than their neighbors. Here the opposite happened, against neighbors with the same job growth, so the evidence supports it. Rates would have moved in the neighbors too, so choice b does not explain the difference. The income view can still reply that market-rate building may not reach the poorest renters, which is why it would look for evidence on their rents specifically."
+    concepts: [federalism, subsidy]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which of these is a one-time condition of the 2020s rather than a policy lever that still exists?"
+    choices:
+      - id: a
+        text: "The collapse of mortgage rates in 2020 and 2021, which left half of all mortgages below 4 percent and owners reluctant to sell"
+      - id: b
+        text: "Minimum lot sizes and bans on apartments in local zoning codes"
+      - id: c
+        text: "Subsidies for low-rent homes and help with childcare"
+      - id: d
+        text: "Building codes and the speed of permit approvals"
+    correct_choice_id: a
+    explanation: "Zoning, permitting, building codes, subsidies and childcare help are all choices governments make and can change. The near-record-low rates of 2020 and 2021, and the lock-in they left behind, came from a pandemic moment that cannot be recreated or undone; monetary policy still shapes borrowing costs going forward, but no policy can give today's buyers the loans of 2021."
+    concepts: [monetary-policy, subsidy]
+
+  - id: q5
+    kind: free-response
+    text: "A relative says: \"My parents bought a house at 25 on one paycheck. The only thing that changed is that investors bought everything up.\" Using at least three of the five measures, one estimate of the housing shortage, and the evidence for and against the investor explanation, write a reply that is fair to the claim and accurate about the numbers."
+    socratic_seed: "Start by asking what the relative's parents' world looked like in the five measures: in 1950 a home cost about 2.4 years of family income against about 3.5 in 2025, the median man married at 22.8 against 30.8, households averaged 3.37 people against 2.50, and 23.0 percent of married women were in the labor force against 58.2 percent. Then ask which parts of the claim the evidence supports: large investors did buy heavily after 2008 (nearly 450,000 homes by June 2022, about 3 percent of single-family rentals nationally but about 25 percent in metro Atlanta), and the White House's 2026 report blamed them too. Press on the limits: their national share is small and their buying has slowed, payments roughly doubled when rates rose, building slowed after 2008, and estimates of the shortage run from about 2 million to 10 million homes depending on the question asked. Finally, ask the learner to name which of the three explanations their reply leans on, what evidence would change their mind, and which parts of the parents' world were one-time conditions rather than levers policy could pull again."
+    concepts: [monetary-policy, federalism]

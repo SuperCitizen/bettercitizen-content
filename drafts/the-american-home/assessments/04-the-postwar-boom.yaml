@@ -1,0 +1,70 @@
+schema: bettercitizen.assessment/v1
+lesson: the-postwar-boom
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Under the 1944 GI Bill, what did the Veterans Administration mainly provide to a veteran buying a home?"
+    choices:
+      - id: a
+        text: "A cash grant covering half the price of the house"
+      - id: b
+        text: "A promise to repay part of the lender's loss if the veteran defaulted"
+      - id: c
+        text: "A federally built house rented to the veteran at cost"
+      - id: d
+        text: "A tax deduction for the interest the veteran paid each year"
+    correct_choice_id: b
+    explanation: "The law let the VA guarantee up to half of a veteran's loan, to a limit of $2,000, if the loan charged no more than 4 percent and ran no more than twenty years. A guaranty is a promise to the lender: the veteran still borrowed and repaid the loan, and the government paid only when loans failed, plus the first year's interest on the guaranteed share. Because lenders carried less risk, they accepted little or no down payment."
+    concepts: [subsidy]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A friend says the young marriages and large families of the 1950s show what the traditional American family looked like. Which fact from the lesson cuts most directly against that claim?"
+    choices:
+      - id: a
+        text: "Homeownership rose from 43.6 percent of households in 1940 to 61.9 percent in 1960"
+      - id: b
+        text: "The median man first married at 26.1 in both 1890 and 1990, but at 22.5 in 1956"
+      - id: c
+        text: "Levitt and Sons built more than 17,000 houses on Long Island between 1947 and 1951"
+      - id: d
+        text: "Home prices were about 2.4 years of median family income in 1950"
+    correct_choice_id: b
+    explanation: "The marriage-age series shows the 1950s as a dip between two higher plateaus, a swing away from the long-run trend rather than a return to an old normal. The other choices describe the era accurately but say nothing about whether its family pattern was traditional."
+
+  - id: q3
+    kind: multiple-choice
+    text: "In 1955 a developer records a new subdivision's deeds with a clause barring Black owners. Under the law and federal rules described in the lesson, which statement is accurate?"
+    choices:
+      - id: a
+        text: "Writing the clause was a federal crime after Shelley v. Kraemer"
+      - id: b
+        text: "No court would enforce the clause, and the FHA would not insure mortgages on those homes"
+      - id: c
+        text: "A court would enforce the clause because it was recorded by the developer, not a neighbor"
+      - id: d
+        text: "The clause was valid until Executive Order 11063 voided all existing covenants in 1962"
+    correct_choice_id: b
+    explanation: "Shelley v. Kraemer (1948) made covenants unenforceable in court but did not make writing them illegal, so (a) is wrong and (c) misreads the case: any court enforcement is state action. From February 15, 1950, the FHA refused to insure homes with newly recorded covenants. Executive Order 11063 reached only federally backed loans made after 1962 and did not void existing covenants."
+    concepts: [equal-protection]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which cause of the postwar boom is a policy lever that still exists, rather than a one-time condition?"
+    choices:
+      - id: a
+        text: "Savings piled up during fifteen years of Depression and war"
+      - id: b
+        text: "An American economy whose industrial rivals were in ruins"
+      - id: c
+        text: "Federal guarantees and insurance that change what mortgage lenders will accept"
+      - id: d
+        text: "The narrowing of pay gaps between workers in the 1940s"
+    correct_choice_id: c
+    explanation: "The VA and FHA still guarantee and insure mortgages, so that lever can be pulled again. Wartime savings, ruined foreign rivals and the Great Compression came from a particular moment in history, and no law can summon them back."
+
+  - id: q5
+    kind: free-response
+    text: "A city council member argues: \"After the war, government built the middle class with cheap mortgages and highways, so we can do it again the same way.\" Using the lesson, evaluate that argument. Say which parts of the postwar boom could be repeated, which could not, and what the argument leaves out about who was excluded."
+    socratic_seed: "Start with what the reader credits to policy, and test it against Fetter's numbers: GI loans explain 7.4 percent of the 1940 to 1960 rise in ownership, mostly by moving purchases earlier, while broader mortgage terms might explain 40 percent, and ownership rose about 10 points during the war before the postwar programs. Ask which causes were one-time (wartime savings, ruined rivals, the Great Compression, the baby boom, open land near cities) and which are levers (mortgage guarantees, roads and transit, land-use rules, labor law, fair housing enforcement). Then press on exclusion: covenants unenforceable after Shelley but still written, FHA and VA practice (2.9 percent of VA-financed homes with a nonwhite head against about 7.5 percent of veterans), and Levitt's sales rules. Ask the reader to steel-man the reading they find least convincing among built by policy, built by circumstance and built on exclusion, and to say what evidence would change their own view."
+    concepts: [subsidy, new-deal]

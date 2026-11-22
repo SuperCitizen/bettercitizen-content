@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: expansion
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Why did France offer the United States all of Louisiana in 1803, when the Americans had come to buy New Orleans and the Floridas?"
+    choices:
+      - id: a
+        text: "Revolution and yellow fever in Saint-Domingue wrecked Napoleon's plans, and war with Britain loomed"
+      - id: b
+        text: "Congress had raised an army to seize New Orleans, and France feared losing it for nothing"
+      - id: c
+        text: "Spain refused to hand Louisiana over, so Napoleon sold a claim he could not enforce"
+      - id: d
+        text: "The Native nations of the territory had agreed to sell their land to the United States"
+    correct_choice_id: a
+    explanation: "Napoleon wanted Louisiana to feed a rebuilt sugar empire centered on Saint-Domingue. When the Haitian Revolution and yellow fever destroyed his army there and a new war with Britain threatened, Louisiana lost its purpose. Spain had in fact transferred Louisiana to France, and France sold only its claim: the Native nations who lived there were never parties to the treaty."
+    concepts: [diplomacy]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A historian files the Indian Removal Act under 'geography and timing,' because the Southeast's land suited cotton just when Britain's mills wanted more. What is the strongest objection the lesson supports?"
+    choices:
+      - id: a
+        text: "The act passed the House 102 to 97, so removal was a policy choice that could have failed"
+      - id: b
+        text: "Removal belongs under the troubles of other nations, since Britain's demand for cotton caused it"
+      - id: c
+        text: "The removals came after 1850, too late to affect the cotton economy before the Civil War"
+      - id: d
+        text: "The act was passed by state legislatures, so it was never national policy at all"
+    correct_choice_id: a
+    explanation: "Good soil explains why planters wanted the land, but it does not explain how they got it. Congress chose removal by a five-vote margin in the House, which makes it choices and policy. Britain's demand was a market pull, not a trouble of another nation, and the removals ran from 1831 to 1838 under a federal law signed by President Jackson."
+    concepts: [trail-of-tears, manifest-destiny]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Edward Baptist put cotton's role at almost half of American economic activity in 1836. What was the economic historians' main objection to that figure?"
+    choices:
+      - id: a
+        text: "It added sales of land and enslaved people, and inputs already in cotton's price, to a crop worth about 5 percent of output"
+      - id: b
+        text: "It valued American cotton at British prices, which were higher than the prices paid in New Orleans"
+      - id: c
+        text: "It counted cotton spun in Northern mills, which economists say should be left out of output"
+      - id: d
+        text: "It left out the value of enslaved people as property, which would have made the share even larger"
+    correct_choice_id: a
+    explanation: "Baptist's own estimate put the crop at about $77 million, some 5 percent of output. Olmstead and his colleagues argued that he reached 'almost half' by double counting: asset sales are not output, and the cost of inputs is already inside the price of the cotton. The dispute is about how to count, not about whether slavery was brutal or profitable, which both sides accept."
+    concepts: [capitalism, gdp]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A state today pays for a new port and gives land to a private railroad that will serve it. A commentator says this is the opposite of how America grew in the nineteenth century. Which response does the lesson best support?"
+    choices:
+      - id: a
+        text: "Not so: New York built the Erie Canal, and Congress funded Morse's telegraph and granted railroad land in 1850"
+      - id: b
+        text: "Right: federal spending was only about 1.4 percent of output in 1860, so government stayed out of the economy"
+      - id: c
+        text: "Right: the canals and railroads of the era were built and paid for by private companies alone"
+      - id: d
+        text: "Not so, but only because the Constitution required the federal government to build national roads"
+    correct_choice_id: a
+    explanation: "The era's networks were built with public money and public land. New York's state-owned Erie Canal cut the cost of shipping a ton of wheat from about $100 to about $5, Congress paid $30,000 for Morse's first line, and the 1850 act granted public land for a railroad from Chicago to Mobile. A small federal budget did not mean a small role, because government acted through land and force."
+    concepts: [subsidy]
+
+  - id: q5
+    kind: free-response
+    text: "Choose one American advantage from 1800 to 1860: Louisiana, the cotton economy, the Erie Canal, or the immigrants of the 1840s and 1850s. Argue which of the three kinds of advantage it belongs to (geography and timing, choices and policy, or the troubles of other nations). Then give the strongest case that it belongs to a different kind, and say who shared in the gain and who paid for it."
+    socratic_seed: "Start by asking what the learner thinks made the advantage possible in the first place, then press on the sorting: Louisiana needed Haiti's revolution but also Jefferson's choice to buy; cotton needed fertile land and Britain's demand but also removal and slavery, and the new historians of capitalism and the economic historians disagree about how central it was; the Erie Canal needed geography but was a state's decision; the Irish and German arrivals were pushed by famine and hard times and met an anti-Catholic reaction. Ask whether the learner's sorting changes depending on whether they read the West as Turner's 'free land' or as Limerick's conquest. Finish by asking who paid: Native nations, enslaved people, Mexicans, Haitians, and immigrants facing nativism, and whether the answer to 'who paid' depends on the sorting at all."
+    concepts: [manifest-destiny, industrial-revolution]

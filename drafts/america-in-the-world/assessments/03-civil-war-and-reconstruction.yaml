@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: civil-war-and-reconstruction
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Someone tells you the Southern states seceded to defend states' rights against federal power. Which piece of evidence from the lesson most directly undercuts that claim?"
+    choices:
+      - id: a
+        text: "South Carolina's 1860 declaration complained that Northern states' own laws obstructed a federal law on people who escaped slavery"
+      - id: b
+        text: "Georgia's declaration said high tariffs since 1846 had ruined Southern farmers and forced the South to leave"
+      - id: c
+        text: "Mississippi's declaration said the federal government had seized Southern ports before any state seceded"
+      - id: d
+        text: "Edward Pollard's The Lost Cause, published in 1866, described the Confederacy as a defense of states' rights"
+    correct_choice_id: a
+    explanation: "South Carolina's grievance ran the other way: thirteen Northern states had passed laws that, in its words, 'either nullify the Acts of Congress or render useless any attempt to execute them', meaning the federal fugitive slave laws. It wanted federal power used, and objected to Northern states' rights. Georgia's declaration says the opposite of choice b: after 1846 'free trade, low duties' was 'the verdict of the American people.' Choice d is where the states'-rights story was named, after defeat, so it is the claim being tested, not evidence against it."
+    concepts: [tariff]
+
+  - id: q2
+    kind: multiple-choice
+    text: "What did the Thirteenth, Fourteenth and Fifteenth Amendments change about how the Constitution works?"
+    choices:
+      - id: a
+        text: "Each let Congress enforce it, so the national government became a guarantor of rights against the states"
+      - id: b
+        text: "They left citizenship and voting rules to each state, with no role for Congress in enforcing them"
+      - id: c
+        text: "They guaranteed every adult citizen the vote, women included, and barred all tests for voters"
+      - id: d
+        text: "They ended every form of involuntary servitude, including servitude as punishment for a crime"
+    correct_choice_id: a
+    explanation: "Each amendment closes by giving Congress the power to enforce it. A Constitution that had mostly limited the national government now made it a protector of rights against the states, which is why Eric Foner calls the amendments the Second Founding. The texts are narrower than choices c and d: the Fifteenth bars denying the vote on account of race, color or previous condition of servitude, not sex or literacy, and the Thirteenth keeps an exception for punishment after conviction."
+    concepts: [civil-war-amendments, equal-protection]
+
+  - id: q3
+    kind: multiple-choice
+    text: "The lesson presents three explanations for why Britain did not intervene in the Civil War. Which statement would all three accept?"
+    choices:
+      - id: a
+        text: "Britain depended heavily on Southern cotton, yet it never recognized the Confederacy as a nation"
+      - id: b
+        text: "The turn against slavery was the main reason Britain's government stayed neutral"
+      - id: c
+        text: "Britain stayed out mainly because a war with the United States would have exposed Canada"
+      - id: d
+        text: "The Confederacy's failure to win victories in a row was the deciding factor"
+    correct_choice_id: a
+    explanation: "Choice a is the common ground: by the late 1850s American cotton made up 77 percent of what Britain's mills consumed, and Britain still granted the Confederacy only belligerent status. Choices b, c and d are each one school's weighting: the slavery view, the interests view and the battlefield view. Telling the shared facts from the contested weighting is the point."
+    concepts: [emancipation-proclamation]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A state history written in the 1920s describes Reconstruction as a vindictive North placing corrupt carpetbaggers and Black voters over loyal white Southerners, and treats Black citizens as unfit to govern. How do historians now judge that kind of account?"
+    choices:
+      - id: a
+        text: "As the Dunning School's view, which later scholarship challenged and often discredited"
+      - id: b
+        text: "As Du Bois's view, which stressed corruption among the freedpeople's own leaders"
+      - id: c
+        text: "As Foner's synthesis, which dates Reconstruction from emancipation in 1863"
+      - id: d
+        text: "As the settled consensus on Reconstruction that historians still hold today"
+    correct_choice_id: a
+    explanation: "Dunning and his students cast Reconstruction as a catastrophic error driven by Northern vindictiveness, on the premise that Black Americans were at best second-class citizens. Du Bois answered that school directly, in his chapter 'The Propaganda of History', and made freedpeople the story's actors; Foner's synthesis credits the era's achievements, such as the South's first public schools. The factual quarrel with Dunning is settled; why the nation abandoned Reconstruction is still argued."
+    concepts: [reconstruction]
+
+  - id: q5
+    kind: free-response
+    text: "Choose one American advantage from 1860 to 1877: Britain's decision to stay out of the war, or the Union's wartime laws (the Homestead Act, the Pacific Railway Act, the Morrill Act and the national banking acts). Argue which of the three kinds of advantage it was: geography and timing, choices and policy, or the troubles of other nations. Then give the strongest case for sorting it differently, and say who paid for it."
+    socratic_seed: "Start with the evidence the learner chose. If it is Britain's neutrality, ask which of the three explanations they relied on (the battlefield, the turn against slavery, Britain's own interests) and what fact would move them to another: the State Department historians' verdict that the battlefield mattered most, the abolitionist feeling that restrained Palmerston, or Canada, the blockade precedent, the crises in Poland and Denmark and the new cotton from Egypt and India. If it is the wartime laws, press the Beard and Cochran disagreement: the Beards' 'Second American Revolution' against Cochran's finding that the war slowed industrial growth, and the Maddison estimates showing output per person slipping from about 87 to about 82 percent of Britain's in the 1860s. Then ask who paid: Native nations whose land endowed the colleges and railroads, freedpeople who never got land, the dead, and the white South whose income fell. Close by asking whether an advantage can be a choice and a stroke of timing at once, and what evidence would settle the weighting."
+    concepts: [reconstruction, tariff]

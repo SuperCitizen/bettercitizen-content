@@ -1,0 +1,54 @@
+schema: bettercitizen.assessment/v1
+lesson: two-earners-and-two-crashes
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A bank today funds 30-year mortgages at a fixed 4 percent with savings deposits whose rates it resets every month. Market rates jump to 9 percent and stay there. What risk does the bank face, and which episode in this lesson does it echo?"
+    choices:
+      - { id: a, text: "It must pay savers more than its old loans earn, the mismatch that broke the thrifts in the early 1980s" }
+      - { id: b, text: "Its borrowers' payments climb until they default, the pattern that drove the 2008 foreclosures" }
+      - { id: c, text: "Its old loans gain value as rates rise, the windfall that owners enjoyed in the 1970s" }
+      - { id: d, text: "None, because federal deposit insurance absorbs any loss the bank itself takes" }
+    correct_choice_id: a
+    explanation: "Borrowing short and lending long means the bank's costs reset with the market while its income stays fixed. That is what left 415 insured thrifts insolvent by the end of 1982. A fixed-rate borrower's payment does not rise, rising rates lower the value of old fixed-rate loans rather than raising it, and deposit insurance protects depositors, not the bank's owners; in the 1980s it raised the taxpayers' bill instead."
+    concepts: [inflation, monetary-policy, fdic]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which fact fits Claudia Goldin's opportunity-and-choice account better than it fits the two-income trap?"
+    choices:
+      - { id: a, text: "Married women's work rose from 1950 to 1970 while homes were getting cheaper relative to family income" }
+      - { id: b, text: "Median income for men working full time all year was about the same in 2007 as in 1973" }
+      - { id: c, text: "Families competed for homes in a shrinking set of neighborhoods with good public schools" }
+      - { id: d, text: "The home-value ratio barely moved after 1980 even as family income came to include a second paycheck" }
+    correct_choice_id: a
+    explanation: "If wives went to work mainly because housing costs pushed them, their work should have risen with prices; instead it climbed from 23.0 to 40.5 percent between 1950 and 1970 while the home-value ratio fell from 2.4 to 1.8 years. Flat men's pay and a steady ratio built on two paychecks are the facts the trap argument leans on, and the bidding war for school districts is its central claim."
+
+  - id: q3
+    kind: multiple-choice
+    text: "In one metro, new homes sell for about $700,000 but cost about $310,000 to build. A council member says the high prices just prove building is expensive there. What does Glaeser and Gyourko's test say?"
+    choices:
+      - { id: a, text: "The gap between price and building cost, not the cost itself, signals that something, often regulation, is stopping builders" }
+      - { id: b, text: "The council member is right, because home prices track construction costs in every market" }
+      - { id: c, text: "The gap shows the market is healthy, since builders who earn large margins will soon build enough" }
+      - { id: d, text: "The test cannot be used in high-income metros, because demand there has no upper limit" }
+    correct_choice_id: a
+    explanation: "Where supply can answer demand, homes sell near what they cost to build. A large, lasting gap means builders cannot add homes fast enough, so demand turns into price; Glaeser and Gyourko attribute much of such gaps to regulation and call them a regulatory tax. Large margins would draw builders in only if they were allowed to build, which is exactly what Petaluma's 500-unit cap prevented."
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which pairing of an explanation of the 2008 crash with the people who argue it is correct?"
+    choices:
+      - { id: a, text: "A global saving glut: Ben Bernanke, and the dissent of Hennessey, Holtz-Eakin and Thomas" }
+      - { id: b, text: "Government housing-finance policy: the Financial Crisis Inquiry Commission's majority" }
+      - { id: c, text: "Lax private lending and securitization: commissioner Peter Wallison" }
+      - { id: d, text: "A global saving glut: the economists Atif Mian and Amir Sufi" }
+    correct_choice_id: a
+    explanation: "Bernanke described a global saving glut in 2005, and three commissioners built their dissent on global imbalances. The commission's majority blamed collapsing lending standards and the securitization pipeline, with Mian and Sufi's ZIP-code evidence on the same side, and found that Fannie Mae and Freddie Mac were not a primary cause. Wallison, in his own dissent, blamed government housing policy."
+    concepts: [recession]
+
+  - id: q5
+    kind: free-response
+    text: "A candidate says: \"Between 1970 and 2008 Americans could still get ahead on housing. Let's bring those conditions back.\" Using this lesson, name two conditions of that era that policy could not recreate and two levers it still controls, and explain one tradeoff that comes with pulling one of those levers."
+    socratic_seed: "Start by asking which of the era's conditions the reader would call one-time: the Great Inflation and its cure, the long slide in mortgage rates from 18.63 percent in 1981 to an average of 5.83 percent in 2003, the move of wives into paid work that a household can make only once, the flood of global savings. Then ask which levers remain: land-use rules like Petaluma's cap, lending standards and supervision, deposit insurance and how fast failing lenders are shut, the rules for Fannie Mae and Freddie Mac, monetary policy. Press on the tradeoff: monetary policy broke inflation at the price of 18 percent mortgages; loosening land-use rules runs into the homevoter logic Fischel describes; tighter lending standards protect borrowers but also shut some out. Finally, ask whether 'those conditions' were good for everyone: the 1970s made owners richer and entry harder, and the S&L cleanup cost taxpayers an estimated $132 billion."
+    concepts: [stagflation, monetary-policy, inflation]

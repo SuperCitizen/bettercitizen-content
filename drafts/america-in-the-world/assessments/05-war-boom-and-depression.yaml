@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: war-boom-and-depression
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In mid-1914 foreigners held about $7.2 billion of investments in the United States, against $3.5 billion of American private investment abroad. By 1919 the position had reversed. What best explains the reversal?"
+    choices:
+      - id: a
+        text: "Europeans sold American assets and borrowed in America to fight, and the Treasury lent the Allies over $10 billion"
+      - id: b
+        text: "Closing the stock exchange in 1914 stopped Europeans from ever selling their American stocks and bonds"
+      - id: c
+        text: "The Fordney-McCumber tariff raised enough revenue to buy back the American assets Europeans held"
+      - id: d
+        text: "Joining the League of Nations gave the United States claims on the debts the Allies owed Britain"
+    correct_choice_id: a
+    explanation: "The war turned the flow around: the Allies paid for American munitions and supplies by selling American assets and borrowing, and the US Treasury lent them more than $10 billion. The 1914 closure only delayed selling for four and a half months; Fordney-McCumber came in 1922, after the reversal, and made repayment harder; and the United States never joined the League."
+    concepts: [tariff]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A country caps immigration from each nationality at 2 percent of the people born in that nation who lived in the country at a chosen census. Group X arrived mostly in the past twenty years; Group Y arrived mostly fifty years ago. Lawmakers who want to favor Group Y over Group X should pick which census?"
+    choices:
+      - id: a
+        text: "An old census, taken before most of Group X had arrived"
+      - id: b
+        text: "The most recent census, which counts both groups at full size"
+      - id: c
+        text: "Any census, because the same 2 percent rate treats every group alike"
+      - id: d
+        text: "No census at all, because only a higher rate could favor Group Y"
+    correct_choice_id: a
+    explanation: "Under a percentage-of-a-past-count formula, the base year decides who gets large quotas. The 1924 act used the 1890 census, taken before the largest arrivals from southern and eastern Europe, which limited what the State Department's historians call newer immigration. The equal 2 percent rate (choice c) hides the choice rather than neutralizing it."
+    concepts: []
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which piece of evidence does the gold-standard explanation of the Depression, as Barry Eichengreen argued it, rely on most?"
+    choices:
+      - id: a
+        text: "Countries that left the gold standard earlier recovered sooner than those that held on"
+      - id: b
+        text: "The US money supply fell by nearly 30 percent as banks failed from 1930 to 1933"
+      - id: c
+        text: "Spending, especially by consumers, fell before the money supply did"
+      - id: d
+        text: "A thousand economists asked Hoover to veto the Smoot-Hawley tariff of 1930"
+    correct_choice_id: a
+    explanation: "Eichengreen and Sachs (1985) used the different dates at which countries left gold as a natural experiment: leaving freed central banks to stop the contraction, and early leavers recovered sooner. The collapse of the money supply is the monetary-contraction case's main evidence, and a fall in spending before money is the core of Peter Temin's spending-and-debt case. The economists' petition shows opposition to the tariff, not what caused the slump."
+    concepts: [depression, monetary-policy, federal-reserve]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Scholars disagree about why the 1935 Social Security Act left out agricultural and domestic workers. Which statement would both sides of that debate accept?"
+    choices:
+      - id: a
+        text: "The exclusions fell hardest on Black workers, even though most of the workers excluded were white"
+      - id: b
+        text: "Southern Democrats in Congress were the source of the exclusions in the old-age insurance program"
+      - id: c
+        text: "Payroll taxes truly could not have been collected from farms and households in the 1930s"
+      - id: d
+        text: "Farm and domestic workers were kept out of Social Security permanently by the 1935 law"
+    correct_choice_id: a
+    explanation: "By the 1930 census about 65 percent of Black workers, against 27 percent of white workers, were in farm or domestic jobs, though about 74 percent of excluded workers were white; neither side disputes that effect. Choice b is the claim Davies and Derthick reject, and choice c is the Treasury's argument that Lieberman, Katznelson and Poole do not take at face value. Choice d is false: most of these workers were covered in 1950 and the rest in 1954."
+    concepts: [new-deal]
+
+  - id: q5
+    kind: free-response
+    text: "Choose one American advantage from 1914 to 1941 and argue which kind it was: geography and timing, choices and policy, or the troubles of other nations. Then give the strongest case for putting it in a different box."
+    socratic_seed: "Ask which advantage the learner chose and what evidence puts it in their box. Then press on a boundary case. The creditor position: was it Europe's war (troubles of others), America's distance from the fighting and late entry (geography and timing), or McAdoo's 1914 choices, which William Silber argues began the dollar's rise (choices and policy)? The recovery after 1933: Christina Romer traces it to gold flowing in after the 1933 devaluation, a choice, and to capital fleeing Europe after 1935, others' troubles. Ask what evidence would move the advantage from one box to another, and whether the answer changes who deserves credit for where America stood by 1941."
+    concepts: [isolationism, new-deal]

@@ -1,0 +1,257 @@
+---
+schema: bettercitizen.lesson/v1
+slug: two-earners-and-two-crashes
+kind: reading
+title: "Two paychecks, two crashes: what changed for the American home from 1970 to 2008?"
+objectives:
+  - Explain how the inflation of the 1970s and the mortgage rates of 1981 helped existing owners, hurt new buyers and broke the savings and loan industry
+  - Describe the move to two-earner married couples with the era's numbers, and state the two main interpretations of why it happened
+  - Explain Glaeser and Gyourko's test for whether land-use rules are holding prices above the cost of building
+  - Attribute the three main explanations of the 2008 crash to the people who make them, and say what the evidence does and does not settle
+  - Sort the era's forces into one-time conditions and policy levers that still exist
+concepts:
+  - stagflation
+  - inflation
+  - monetary-policy
+  - federal-reserve
+  - fdic
+  - recession
+sources:
+  - type: website
+    citation: 'Freddie Mac, Primary Mortgage Market Survey, weekly average 30-year fixed mortgage rates, April 1971 to 2026 (7.33 percent in the week of April 2, 1971; 18.63 percent in the week of October 9, 1981, the series high; annual averages computed from the weekly file), retrieved November 2026.'
+    url: https://www.freddiemac.com/pmms/docs/PMMS_history.csv
+  - type: website
+    citation: 'Bryan, M. (2013), "The Great Inflation: 1965–1982," Federal Reserve History, Federal Reserve Bank of Atlanta (written as of November 22, 2013).'
+    url: https://www.federalreservehistory.org/essays/great-inflation
+  - type: website
+    citation: 'Sablik, T. (2013), "Recession of 1981–82," Federal Reserve History (written as of November 22, 2013): federal funds rate approaching 20 percent; unemployment near 11 percent late in 1982; inflation down to 5 percent by October 1982.'
+    url: https://www.federalreservehistory.org/essays/recession-of-1981-82
+  - type: pdf
+    citation: 'Federal Deposit Insurance Corporation (1997), History of the Eighties: Lessons for the Future, vol. 1, chapter 4, "The Savings and Loan Crisis and Its Relationship to Banking," pp. 167–188 (Table 4.1; deposit insurance raised from $40,000 to $100,000 in 1980; Garn–St Germain Act of 1982; FIRREA, 1989; cost of just over $160 billion, including $132 billion from taxpayers).'
+    url: https://www.fdic.gov/resources/publications/history-eighties/volume-1/history-80s-volume-1-part1-04.pdf
+  - type: pdf
+    citation: 'Federal Deposit Insurance Corporation (1997), History of the Eighties: Lessons for the Future, vol. 1, chapter 1, "The Banking Crises of the 1980s and Early 1990s: Summary and Implications," note 1 (4,039 savings institutions in 1980; about 1,300 failed in 1980–94).'
+    url: https://www.fdic.gov/resources/publications/history-eighties/volume-1/history-80s-volume-1-part1-01.pdf
+  - type: website
+    citation: 'U.S. Census Bureau, "Historical Census of Housing Tables: Home Values," median values of specified owner-occupied units, decennial censuses 1940–2000, unadjusted and in 2000 dollars (retrieved 2026). Series dossier source S1.'
+    url: https://www.census.gov/data/tables/time-series/dec/coh-values.html
+  - type: website
+    citation: 'U.S. Census Bureau, Historical Income Tables, Table F-7, "Median and Mean Family Income of All Families by Type of Family: 1947 to 2025" (2026). Series dossier source S8.'
+    url: https://www2.census.gov/programs-surveys/cps/tables/time-series/historical-income-families/f07ar.xlsx
+  - type: website
+    citation: 'U.S. Census Bureau, Historical Income Tables, Table P-36, "Median Personal Income of All Full-Time, Year-Round Workers by Sex: 1955 to 2025," in 2025 dollars (2026).'
+    url: https://www2.census.gov/programs-surveys/cps/tables/time-series/historical-income-people/p36ar.xlsx
+  - type: website
+    citation: 'U.S. Census Bureau, Table HH-6, "Average Population Per Household and Family: 1940 to Present" (November 2026). Series dossier source S6.'
+    url: https://www2.census.gov/programs-surveys/demo/tables/families/time-series/households/hh6.xls
+  - type: website
+    citation: 'U.S. Census Bureau, Table MS-2, "Estimated Median Age at First Marriage, by Sex: 1890 to Present" (November 2026). Series dossier source S7.'
+    url: https://www2.census.gov/programs-surveys/demo/tables/families/time-series/marital/ms2.xls
+  - type: pdf
+    citation: 'U.S. Census Bureau (1975), Historical Statistics of the United States, Colonial Times to 1970, Bicentennial Edition, chapter D, Series D 49-62, "Marital Status of Women in the Civilian Labor Force: 1890 to 1970," p. 133 (4.6 percent of married women in 1890; 23.0 percent in 1950). Series dossier source S16.'
+    url: https://www2.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970/hist_stats_colonial-1970p1-chD.pdf
+  - type: pdf
+    citation: 'U.S. Census Bureau, Statistical Abstract of the United States: 2012, Table 598, "Marital Status of Women in the Civilian Labor Force: 1970 to 2010" (BLS data, 2011). Series dossier source S25.'
+    url: https://www2.census.gov/library/publications/2011/compendia/statab/131ed/tables/12s0598.pdf
+  - type: website
+    citation: 'U.S. Bureau of Labor Statistics (2023), Women in the Labor Force: A Databook, Report 1103, Table 24B, "Opposite-sex married-couple families, by number and relationship of earners, 1967–2020." Series dossier source S28.'
+    url: https://www.bls.gov/opub/reports/womens-databook/2022/home.htm
+  - type: pdf
+    citation: 'Martin, J. A., Hamilton, B. E., Ventura, S. J., Osterman, M. J. K. and others (2012), "Births: Final Data for 2010," National Vital Statistics Reports 61:1, Tables 1 and 4. Series dossier source S20.'
+    url: https://www.cdc.gov/nchs/data/nvsr/nvsr61/nvsr61_01.pdf
+  - type: pdf
+    citation: 'Cromwell, M. and Mazur, C. (2023), "Housing Characteristics: 2020," 2020 Census Briefs C2020BR-09, U.S. Census Bureau, Figure 6 (homeownership, 1890 to 2020). Series dossier source S3.'
+    url: https://www2.census.gov/library/publications/decennial/2020/census-briefs/c2020br-09.pdf
+  - type: website
+    citation: 'U.S. Census Bureau, Current Population Survey/Housing Vacancy Survey, Table 14, "Homeownership Rates for the US and Regions: 1964 to Present" (October 2026): 69.2 percent peak in 2004. Series dossier source S13.'
+    url: https://www.census.gov/housing/hvs/data/histtab14.xlsx
+  - type: paper
+    citation: 'Goldin, C. (2006), "The Quiet Revolution That Transformed Women''s Employment, Education, and Family," American Economic Review 96:2, 1–21 (NBER Working Paper 11953).'
+    url: https://www.nber.org/papers/w11953
+  - type: website
+    citation: 'The Royal Swedish Academy of Sciences (2023), press release on the Sveriges Riksbank Prize in Economic Sciences awarded to Claudia Goldin, October 9, 2023.'
+    url: https://www.nobelprize.org/prizes/economic-sciences/2023/press-release/
+  - type: book
+    citation: 'Warren, E. and Warren Tyagi, A. (2003), The Two-Income Trap: Why Middle-Class Mothers and Fathers Are Going Broke, Basic Books (paperback 2004).'
+  - type: website
+    citation: 'Hodder, H. F. (2004), "The Middle-Class Trapdoor," Harvard Magazine, January–February 2004, on the argument and proposals of The Two-Income Trap.'
+    url: https://www.harvardmagazine.com/print/228?page=all
+  - type: paper
+    citation: 'Glaeser, E. L., Gyourko, J. and Saks, R. (2005), "Why Have Housing Prices Gone Up?" American Economic Review 95:2, 329–333 (NBER Working Paper 11129).'
+    url: https://www.nber.org/papers/w11129
+  - type: paper
+    citation: 'Glaeser, E. and Gyourko, J. (2018), "The Economic Implications of Housing Supply," Journal of Economic Perspectives 32:1, 3–30.'
+    url: https://www.aeaweb.org/articles?id=10.1257/jep.32.1.3
+  - type: book
+    citation: 'Fischel, W. A. (2001), The Homevoter Hypothesis: How Home Values Influence Local Government Taxation, School Finance, and Land-Use Policies, Harvard University Press.'
+  - type: court-opinion
+    citation: 'Construction Industry Ass''n of Sonoma County v. City of Petaluma, 522 F.2d 897 (9th Cir. 1975), decided August 13, 1975: the Petaluma Plan (1972–1977) limited growth to 500 dwelling units a year.'
+    url: https://case-law.vlex.com/vid/522-f-2d-897-596171434
+  - type: website
+    citation: 'S&P Dow Jones Indices, S&P CoreLogic Case-Shiller U.S. National Home Price Index (CSUSHPINSA, January 2000 = 100), monthly 1987 to 2026, via FRED, Federal Reserve Bank of St. Louis, retrieved November 2026: 184.6 in July 2006; 134.0 in February 2012.'
+    url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=CSUSHPINSA
+  - type: pdf
+    citation: 'Financial Crisis Inquiry Commission (2011), The Financial Crisis Inquiry Report, January 2011, conclusions (pp. xv–xxviii), the dissenting statement of Keith Hennessey, Douglas Holtz-Eakin and Bill Thomas, and the dissenting statement of Peter J. Wallison (p. 444).'
+    url: https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf
+  - type: website
+    citation: 'Bernanke, B. S. (2005), "The Global Saving Glut and the U.S. Current Account Deficit," Sandridge Lecture, Virginia Association of Economists, Richmond, March 10, 2005.'
+    url: https://www.federalreserve.gov/boarddocs/speeches/2005/200503102/
+  - type: paper
+    citation: 'Mian, A. and Sufi, A. (2009), "The Consequences of Mortgage Credit Expansion: Evidence from the U.S. Mortgage Default Crisis," Quarterly Journal of Economics 124:4, 1449–1496 (NBER Working Paper 13936, 2008).'
+    url: https://www.nber.org/papers/w13936
+  - type: paper
+    citation: 'Adelino, M., Schoar, A. and Severino, F. (2016), "Loan Originations and Defaults in the Mortgage Crisis: The Role of the Middle Class," Review of Financial Studies 29:7, 1635–1670 (NBER Working Paper 20848).'
+    url: https://www.nber.org/papers/w20848
+  - type: paper
+    citation: 'Glaeser, E. L., Gottlieb, J. D. and Gyourko, J. (2010), "Can Cheap Credit Explain the Housing Boom?" NBER Working Paper 16230; published as a chapter in Housing and the Financial Crisis (2013), edited by E. Glaeser and T. Sinai.'
+    url: https://www.nber.org/papers/w16230
+perspectives:
+  - name: Opportunity and choice
+  - name: The two-income trap
+  - name: Lax private lending and securitization
+  - name: Government housing-finance policy
+  - name: A global saving glut
+duration_min: 16
+---
+
+# Two paychecks, two crashes: what changed for the American home from 1970 to 2008?
+
+In the week of October 9, 1981, Freddie Mac's weekly survey of lenders found the average 30-year fixed mortgage rate at 18.63 percent, the highest it has ever recorded. At that rate a $40,000 loan cost about $623 a month in principal and interest. When the survey began, in the first week of April 1971, the rate was 7.33 percent and the same loan cost about $275. Buyers were not the only ones hurt: the savings and loan associations that had lent at the old rates were going broke. This lesson follows the American home through four changes between 1970 and 2008 and sorts the one-time events from the choices policy can still make.
+
+## How did inflation help owners and break the lenders?
+
+The 1970s brought [[term:stagflation]]: prices rising fast while growth stalled and unemployment climbed. In what the Federal Reserve's own history calls the Great Inflation, from 1965 to 1982, inflation peaked close to 15 percent in March 1980. In 1979 Paul Volcker became chairman of the [[term:federal-reserve]], and the Fed squeezed money until the federal funds rate, the rate banks charge one another overnight, approached 20 percent. A recession from July 1981 to November 1982 pushed unemployment near 11 percent, and by October 1982 inflation was down to 5 percent.
+
+For a family that already owned a home with a fixed-rate mortgage, inflation was a gift: the house's price rose with everything else while the payment stayed the same, so the real weight of the debt shrank every year. In 2000 dollars, the Census median value of an owned single-family home rose from $65,300 in 1970 to $93,400 in 1980, and from 1.8 to 2.4 years of median family income. For a family trying to buy in 1981, the cure for inflation meant borrowing at 18 percent. The decade made owners richer and entry harder.
+
+The lenders paid for the owners' gift. Savings and loan associations, or thrifts, took in savings that could leave at any time and made 30-year loans at fixed rates. Picture a bakery that has promised bread at a fixed price for thirty years while buying flour at that week's price; the picture understates the danger, because a thrift's savers could also walk out. When rates soared, thrifts paid savers more than their old mortgages earned, and by the end of 1982, 415 insured thrifts holding $220 billion in assets were insolvent.
+
+Washington chose to wait and loosen rather than close them. A 1980 law raised federal deposit insurance from $40,000 to $100,000 an account, and the Garn–St Germain Act of 1982 wrote capital forbearance into law and let thrifts lend developers a project's full appraised value. Insolvent thrifts that stayed open bid up deposit rates and poured insured money into speculative real estate, much of which failed. About 1,300 savings institutions failed between 1980 and 1994, and in 1989 Congress abolished the thrifts' regulator and insurance fund. The history published by the [[term:fdic]] puts the cost at just over $160 billion, $132 billion of it from taxpayers, and concludes that the crisis "reflected a massive public policy failure."
+
+The Great Inflation and its cure were a one-time episode, and so was the long slide in mortgage rates that followed, to an average of 5.83 percent in 2003: a tailwind for later buyers that cannot repeat unless rates first climb that high. Deposit insurance, capital rules and how fast regulators close a failing lender are levers that remain.
+
+<Checkpoint question="In your own words: why was the inflation of the 1970s good news for some households and bad news for others?">
+Owners with fixed-rate loans saw prices rise while their payments stayed put, so their debt shrank. Buyers faced the cure, mortgage rates of 18.63 percent in 1981. The thrifts holding the old loans lost most.
+</Checkpoint>
+
+The same arithmetic applies to any lender that borrows short and lends long, so try it on one the section did not discuss.
+
+<QuickCheck
+  question="A credit union in 1972 lends a member money for 30 years at a fixed 7.5 percent, funded by savings accounts paying 5 percent. By 1981 it must pay 15 percent to keep those savers. What has happened to the credit union?"
+  choices={[
+    {id: 'a', text: 'It loses money on the loan every year, because its savers now cost more than the loan earns'},
+    {id: 'b', text: "It is protected, because the member's payment rises along with market rates"},
+    {id: 'c', text: 'It gains, because the house securing the loan is now worth much more'},
+  ]}
+  answer="a"
+  explanation="A fixed-rate loan earns 7.5 percent for its whole life while the deposits that fund it reprice to the market. That gap is the mismatch that left hundreds of thrifts insolvent by 1982. A fixed-rate payment does not rise, and a more valuable house helps the lender only if the borrower defaults; it does not raise what the loan earns."
+/>
+
+## Why did two paychecks become normal?
+
+In 1970, 40.5 percent of married women living with their husbands were in the labor force; by 2000 it was 61.1 percent, where it stayed through 2007. The share of married couples in which both spouses had earnings rose from 45.7 percent to 59.8 percent. Americans also married later, had fewer children and lived in smaller households.
+
+<Figure caption="The five measures, 1970 to 2007. Home price is the Census median value of an owned single-family home on less than 10 acres divided by median family income, and there is no 2007 figure. Labor force figures are annual averages for wives living with their husbands. Homeownership is the decennial census through 2000; the 2004 peak comes from the Census's quarterly survey, which runs higher." source="U.S. Census Bureau: Historical Census of Housing Tables, 1940–2000; Table F-7 (2026); Table HH-6 (2026); Table MS-2 (2026); Housing Characteristics: 2020 (2023); CPS/HVS Table 14 (2026). BLS data in the Statistical Abstract of the United States: 2012, Table 598; BLS, Women in the Labor Force: A Databook (2023), Table 24B. NCHS, Births: Final Data for 2010 (2012).">
+
+| Measure | 1970 to the end of the era |
+| --- | --- |
+| Home price in years of income | 1.8 in 1970; 2.4 in 1980; 2.3 in 1990; 2.4 in 2000; no 2007 figure |
+| People per household | 3.14 in 1970; 2.76 in 1980; 2.62 in 2000; 2.56 in 2007 |
+| Married women in the labor force | 40.5% in 1970; 49.8% in 1980; 61.1% in 2000; 61.0% in 2007 |
+| Married couples with two earners | 45.7% in 1970; 51.8% in 1980; 59.8% in 2000; 57.6% in 2007 |
+| Median age at first marriage (men / women) | 23.2 / 20.8 in 1970; 27.5 / 25.6 in 2007 |
+| Births per 1,000 people; births per woman | 18.4 and 2.48 in 1970; 15.9 and 1.84 in 1980; 14.3 and 2.12 in 2007 |
+| Households owning their home | 62.9% in 1970; 66.2% in 2000; 69.2% at the 2004 peak in the quarterly survey |
+
+</Figure>
+
+Two more facts frame the debate. Among men who worked full time all year, median income in 2025 dollars was about $69,500 in 1973 and $68,800 in 2007; among women it rose from about $39,300 to $53,900. And the home-value ratio barely moved after 1980, though family income now usually included a wife's paycheck. Nobody disputes these numbers. What caused what is the argument.
+
+<PerspectiveTabs>
+  <Perspective name="Opportunity and choice">
+    The economic historian Claudia Goldin, winner of the 2023 Nobel Prize in economics, argues that wives went to work because work and women's expectations changed. She points to a rise that began early in the twentieth century, as service jobs grew and women's schooling climbed, and to the pill, which let women plan careers. In "The Quiet Revolution" (2006) she dates a sharp break to the late 1970s, when young women began to expect long working lives and to count a career as part of who they were. On this view the second paycheck reflects wider choices, not a squeeze.
+  </Perspective>
+  <Perspective name="The two-income trap">
+    The bankruptcy scholar Elizabeth Warren and the consultant Amelia Warren Tyagi argue in The Two-Income Trap (2003) that much of the second paycheck never reached the family's pocket. They point to a bidding war: families competed for homes in a shrinking set of neighborhoods with good public schools, and two incomes let them push those prices up. The result, in their account, was a family that earned far more than its one-earner parents yet had less left after fixed costs, and had lost its safety net: a parent at home who could take a job if the other lost one. They propose school choice across a metropolitan area, so a child's school no longer depends on the family's address.
+  </Perspective>
+</PerspectiveTabs>
+
+What the evidence settles is the timing. Married women's work rose from 4.6 percent in 1890 to 23.0 percent in 1950 and 40.5 percent in 1970, and the climb from 1950 to 1970 came while homes got cheaper relative to income, from 2.4 to 1.8 years, which fits Goldin's long story. Warren and Tyagi's comparison starts in the 1970s, and national figures cannot show how much of the later second paycheck went into bidding for houses in particular school districts. Either way the shift was one-time: a household can go from one earner to two only once, and wives' labor force share stopped rising around 2000.
+
+<Checkpoint question="In your own words: what do the two views of the second paycheck agree on, and where do they part?">
+Both accept the numbers. Goldin reads the second paycheck as opportunity grown from long changes in work, schooling and expectations; Warren and Tyagi read much of it as income bid into the price of homes in good school districts.
+</Checkpoint>
+
+The trap argument makes a testable prediction about places, so test it on one.
+
+<Checkpoint question="A county lets any child attend its best high school by lottery, whatever the family's address. If Warren and Tyagi are right, what should happen to home prices inside the school's old attendance zone, and why?">
+They should fall relative to similar homes nearby, because part of what buyers paid for was a seat in that school. If prices barely moved, the bidding war explained less than the authors argue.
+</Checkpoint>
+
+## Why did prices climb so much faster in some places?
+
+In 1971 the town of Petaluma, California, completed 891 new homes. In 1972 it adopted a five-year plan allowing no more than 500 new dwelling units a year, "in order to protect its small town character and surrounding open space," as the appeals court put it. Builders sued and won in a federal district court, but in 1975 the Ninth Circuit Court of Appeals reversed. A town could ration its own growth.
+
+The economists Edward Glaeser and Joseph Gyourko built a test for what such rules do. Where homes sell for about what it costs to build them, supply is answering demand. Where homes sell far above construction cost, something is stopping builders; Glaeser and Gyourko attribute much of that gap to regulation and call it a regulatory tax (2018). With Raven Saks they argued (2005) that before 1970 rising prices mostly reflected better homes and higher building costs, and after 1970, the growing difficulty of getting approval to build, as residents got better at blocking projects.
+
+Why would a town choose scarcity? The economist William Fischel's homevoter hypothesis (2001) answers that a home is most families' largest asset and cannot be insured against changes in the neighborhood, so homeowners vote, reasonably from where they stand, against development that might lower its value, the logic behind today's [[issue:nimby-and-yimby]] fight. Economists broadly accept that tight rules raise prices where demand is strong; how much of the national rise they explain is still argued, and lesson 6 and the U.S. Housing Policy pack take up today's fight over [[issue:zoning-reform]]. Of every force in this lesson, land-use rules are the most plainly still in policy's hands.
+
+<Checkpoint question="In your own words: what is Glaeser and Gyourko's test for whether rules are holding prices up?">
+Compare what homes sell for with what they cost to build. Near cost, builders are meeting demand; far above it, something is stopping them, usually regulation in Glaeser and Gyourko's account.
+</Checkpoint>
+
+Now put the test to work on two places it was not built around.
+
+<QuickCheck
+  question="Two metros each gain 100,000 jobs. In Metro A, homes sell for about what they cost to build, and construction soars. In Metro B, homes sell for twice their construction cost, and few permits are issued. Which reading fits the Glaeser–Gyourko test?"
+  choices={[
+    {id: 'a', text: "Metro B's rules are likely restraining supply, so its new demand becomes higher prices"},
+    {id: 'b', text: "Metro A's rules are likely restraining supply, since its building boom shows pent-up demand"},
+    {id: 'c', text: 'Neither metro is constrained, because the same job growth must produce the same outcome'},
+  ]}
+  answer="a"
+  explanation="Prices far above construction cost mean builders cannot answer demand, so demand turns into price; that gap is what Glaeser and Gyourko call a regulatory tax. Metro A shows the opposite: prices near cost and rising construction mean supply is responding. The test reads the gap between price and cost, not the number of jobs."
+/>
+
+## What caused the crash of 2008?
+
+From January 2000 to July 2006 the S&P CoreLogic Case-Shiller national home price index rose about 85 percent; then it fell about 27 percent, to a low in February 2012. On the way up, homeownership reached 69.2 percent in 2004 in the Census's quarterly survey, its all-time high. On the way down, in September 2008, the government took Fannie Mae and Freddie Mac into conservatorship and Lehman Brothers failed. By early 2011 about four million families had lost their homes to foreclosure, according to the Financial Crisis Inquiry Commission, the ten-member panel Congress created to explain the crisis. Its members, appointed by leaders of both parties, split three ways.
+
+<PerspectiveTabs>
+  <Perspective name="Lax private lending and securitization">
+    The commission's majority argues that the crisis was avoidable and that "collapsing mortgage-lending standards and the mortgage securitization pipeline lit and spread the flame of contagion and crisis." Lenders made loans with little regard for borrowers' ability to pay and sold them on to be pooled into securities for investors around the world, while regulators heard warnings and did not act. The economists Atif Mian and Amir Sufi point to neighborhood data (2009): from 2002 to 2005 mortgage credit grew fastest in ZIP codes heavy with subprime borrowers even as their incomes fell behind, tracking the rise of subprime securitization. Lenders who sold loans soon after making them, they conclude, had too little reason to care whether the loans were repaid. At stake, on this view, is a lender's duty to check that a borrower can pay.
+  </Perspective>
+  <Perspective name="Government housing-finance policy">
+    Commissioner Peter Wallison argues in his dissent (2011) that U.S. government housing policy was the essential cause. Beginning with affordable-housing goals Congress imposed on Fannie Mae and Freddie Mac in 1992, and pressed by the housing department under Presidents Clinton and George W. Bush, policy pushed lenders to lower underwriting standards to reach borrowers at or below their area's median income. He points to his count of 27 million subprime and other risky loans, half of all U.S. mortgages, which he argues were ready to default once the 1997–2007 bubble began to deflate. At stake, on this view, are sound underwriting standards, which a political goal eroded.
+  </Perspective>
+  <Perspective name="A global saving glut">
+    Ben Bernanke, then a Federal Reserve governor, argued in a 2005 lecture that a "global saving glut" had emerged over the previous decade, helping to explain unusually low long-term interest rates. Commissioners Keith Hennessey, Douglas Holtz-Eakin and Bill Thomas built their dissent (2011) on that idea, calling global imbalances "an essential cause of the crisis": China, other developing countries and big oil producers saved more than they spent and sent the surplus to America and Europe. They point to housing bubbles in Britain, Spain, Australia, France and Ireland, some larger than America's, and some in countries that relied little on American-style securitization. At stake, on this view, is an explanation that fits every country the crisis hit.
+  </Perspective>
+</PerspectiveTabs>
+
+The boom, the bust, looser lending and the foreclosures are not in dispute; which cause was essential is. The commission's majority found that Fannie Mae and Freddie Mac "contributed to the crisis, but were not a primary cause," which Wallison disputes. Two studies complicate every side. Glaeser, Gyourko and Joshua Gottlieb (2010) estimated that lower real interest rates explain only about a fifth of the price rise from 1996 to 2006. Manuel Adelino, Antoinette Schoar and Felipe Severino (2016) found that middle- and high-income borrowers made up most new mortgages even at the peak, and read the boom as a bet, shared by buyers and lenders, that prices would keep rising. The global flood of savings was a condition of the world economy; lending standards, the rules for Fannie Mae and Freddie Mac, and the supervision of lenders are levers that remain.
+
+<Checkpoint question="In your own words: what are the three explanations of the 2008 crash, and what does each one blame?">
+The commission's majority blames private lenders and the securitization pipeline that let them pass risky loans on. Wallison blames government policy that pushed underwriting standards down. Bernanke and the three-member dissent blame global savings that made credit cheap in many countries at once.
+</Checkpoint>
+
+Each explanation predicts something different about where bubbles should appear, which gives you a way to test them.
+
+<QuickCheck
+  question="Suppose a country with no Fannie Mae or Freddie Mac and little American-style securitization had a house-price boom and bust as large as America's in the same years. Which explanation does that case help most?"
+  choices={[
+    {id: 'a', text: 'A global saving glut, because cheap credit reached many countries whatever their housing rules'},
+    {id: 'b', text: 'Government housing-finance policy, because it shows what affordable-housing goals can do'},
+    {id: 'c', text: 'Lax private lending and securitization, because it shows that securitization was essential'},
+  ]}
+  answer="a"
+  explanation="A boom without U.S. housing goals or U.S.-style securitization cannot be explained by either American cause alone, which is the point Hennessey, Holtz-Eakin and Thomas made about Spain, Ireland and others. It does not prove that the saving glut caused America's bubble; it shows that some cause common to many countries was at work."
+/>
+
+## What this era settled, and what it left open
+
+The rates, the counts and the price swings in this lesson are established. What remains contested is why two paychecks became normal, how much land-use rules explain, and what caused 2008.
+
+Sort the era the way this series sorts every era. The one-time conditions were the Great Inflation and its cure, the long slide in rates that followed, the move of wives into paid work, which a household makes only once, and the flood of global savings. The levers that remain are land-use rules; lending standards and supervision; deposit insurance and how fast failing lenders are closed; the rules for Fannie Mae and Freddie Mac; and [[term:monetary-policy]], which broke an inflation in the early 1980s at the price of 18 percent mortgages.
+
+Lesson 6 picks up where the crash left off: today's housing shortage, why the estimates of it differ, and what a home costs in years of income now.

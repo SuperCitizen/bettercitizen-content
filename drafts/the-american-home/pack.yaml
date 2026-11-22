@@ -1,0 +1,20 @@
+schema: bettercitizen.content/v1
+slug: the-american-home
+title: The American Home
+summary: What made a home and a family affordable in each era of American history, from frontier land to today's housing shortage, tracked with the same five measures throughout. What made the postwar "American dream" possible, which parts were one-time conditions, and which parts policy could realistically recreate.
+author: SuperCitizen Editorial
+license: CC-BY-SA-4.0
+version: 0.1.0
+tags: [history, housing, family, economics, public-policy]
+level: intermediate
+official: true
+contested: true
+languages: [en]
+lessons:
+  - 01-land-and-the-frontier.mdx
+  - 02-cities-boarders-and-wages.mdx
+  - 03-the-mortgage-and-the-new-deal.mdx
+  - 04-the-postwar-boom.mdx
+  - 05-two-earners-and-two-crashes.mdx
+  - 06-the-shortage-today.mdx
+  - 07-what-policy-could-do.mdx

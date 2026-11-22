@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: land-and-the-frontier
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "The series tracks home prices in years of income for every era. Why does this lesson give no such figure for the years from colonial times to 1890?"
+    choices:
+      - id: a
+        text: "Homes on the frontier were so cheap that the ratio would round to zero."
+      - id: b
+        text: "No national series of home values exists before 1940, or of median family income before 1947, so no ratio can be computed."
+      - id: c
+        text: "Most families homesteaded, so the census recorded their homes as having no value."
+      - id: d
+        text: "The census of that era counted only free people, so any ratio would leave out enslaved households."
+    correct_choice_id: b
+    explanation: "The ratio needs two national numbers for the same years: what homes were worth and what families earned. The Census home-value series begins in 1940 and the national median family income series in 1947, so no national price-to-income ratio exists before 1950. Choice d mixes in a real limit of a different measure: household sizes for 1790 to 1860 count free people only. That is why the lesson shows what a settler actually paid instead: $10 and $6 in fees, five years on the claim, and close to $1,000 to start a farm."
+    concepts: [subsidy]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A writer notes that only 4.6 percent of married women were in the labor force in 1890 and concludes that married women in 1890 did little productive work. What is the strongest objection, based on this lesson?"
+    choices:
+      - id: a
+        text: "The measure counts work for pay or profit by a reported usual occupation, so the production of farm households, where 44 percent of Americans lived in 1880, barely registers in it."
+      - id: b
+        text: "The 1890 figure is known to be overstated, because enumerators that year were told to record the occupations of women."
+      - id: c
+        text: "The 1890 figure covers white women only, because census estimates before 1909 leave out other groups."
+      - id: d
+        text: "Married women were legally barred from paid work in 1890, so the figure measures the law rather than behavior."
+    correct_choice_id: a
+    explanation: "The labor-force measure sees paid work, not work, and on a farm the household was the firm: butter, eggs, garden, accounts and child labor mostly went unrecorded. Choice b borrows the warning that belongs to the 1910 census, whose instructions to record women's occupations likely overcounted. Choice c borrows the caveat that belongs to the birth estimates. A low 1890 figure means less paid work was recorded, not that less work was done."
+    concepts: [subsidy]
+
+  - id: q3
+    kind: multiple-choice
+    text: "According to the economists Ann Carlos, Donna Feir and Angela Redish, what did the United States actually acquire when it bought Louisiana from France in 1803?"
+    choices:
+      - id: a
+        text: "Clear title to the land itself, ready to be surveyed and sold to settlers."
+      - id: b
+        text: "An exclusive right to treat with the sovereign Indigenous nations whose land lay inside the boundaries."
+      - id: c
+        text: "The land already ceded by Native nations to France, but nothing beyond it."
+      - id: d
+        text: "A lease on the territory that expired once American settlers arrived."
+    correct_choice_id: b
+    explanation: "France sold what it held, which was a claim against other empires, not the land. Native nations still held sovereignty over it, so the United States had to extinguish that sovereignty before the land could enter the public domain: by treaty (the Otoe and Missouria ceded their country in 1854 for about $405,000 over forty years), and by force. This is why the lesson treats the frontier's free land as free only to the settler."
+    concepts: [sovereignty, treaty]
+
+  - id: q4
+    kind: multiple-choice
+    text: "In 2026 a legislator proposes a new Homestead Act that would give federal land to young families who build a house and live on it for five years. Using the lesson's distinction, which part of the 1862 situation could such a law actually recreate?"
+    choices:
+      - id: a
+        text: "A vast supply of land newly brought into the public domain from the nations that held it."
+      - id: b
+        text: "An economy in which nearly half of Americans live on farms and children are part of the workforce."
+      - id: c
+        text: "Government land policy used as a subsidy for ownership, with rules that decide who qualifies."
+      - id: d
+        text: "The open frontier that Turner described before the 1890 census declared the frontier line gone."
+    correct_choice_id: c
+    explanation: "The lesson sorts the era into one-time conditions and levers that remain. A continent taken from its inhabitants (a), a farm economy where children were workers (b), and a frontier that, in Turner's words, would 'never again' offer such gifts of free land (d) cannot be repeated. What remains is the lever itself: governments still own land, still decide how it may be divided and built on, and still subsidize ownership. The 1862 rules also show that whoever writes the eligibility rules decides who is shut out."
+    concepts: [subsidy]
+
+  - id: q5
+    kind: free-response
+    text: "A friend says: “In the 1800s the government gave families land for free, so anyone who worked hard could own a home. Why can’t we just do that again?” Answer your friend in one paragraph that says what a homestead actually cost, who paid for the land and who was shut out, and which parts of that era were one-time conditions and which are levers that still exist."
+    socratic_seed: "Start by asking what 'free' left out. A strong answer names the settler's real costs ($10 and $6 in fees, five years on the claim, close to $1,000 to start a farm, often 30 to 60 miles from a railroad), says the land came from Native nations by treaty, by trades of sovereignty between empires and by force, and names at least one group the rules shut out (Chinese immigrants after 1882, most married women, freedpeople whose Field Order 15 land was taken back and whose Southern Homestead Act land was poor). Then press on the friend's 'anyone': fewer than half of households, 47.8 percent, owned their home in 1890, and the share of homesteaders who succeeded is disputed. Finally, ask the learner to separate the one-time conditions (a continent taken and given away, a farm economy) from the lever that remains (land policy and ownership subsidies), and to say which of the three perspectives, opportunity, captured subsidy or dispossession, their answer leans on, and what the strongest of the other two would say back."
+    concepts: [subsidy, treaty, sovereignty]

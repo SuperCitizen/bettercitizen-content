@@ -1,0 +1,71 @@
+schema: bettercitizen.assessment/v1
+lesson: globalization
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A country’s goods enter a large market at low tariffs, but the market’s legislature must renew that treatment every year or the tariffs jump about ninefold. The legislature makes the low rate permanent without changing it. Judging by Pierce and Schott’s findings on China, what is most likely to follow?"
+    choices:
+      - id: a
+        text: "Little changes, because no tariff rate anyone pays has moved"
+      - id: b
+        text: "Firms build more export capacity, and the market’s most exposed industries lose more jobs"
+      - id: c
+        text: "The exporting country must now cut its own tariffs to match"
+      - id: d
+        text: "Imports fall, because permanent status comes with new safeguards"
+    correct_choice_id: b
+    explanation: "Permanent normal trade relations changed no rate Americans paid, which is why Clinton could call the deal a one-way street. What it removed was the risk of a jump to rates first set in 1930. Pierce and Schott find that the industries most exposed to that removed threat lost the most jobs: like a permanent lease, the change altered nothing on the bill and everything about whether anyone builds. Choice a is the classic near miss, mistaking an unchanged rate for an unchanged incentive."
+    concepts: [tariff]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which statement best matches what David Autor, David Dorn and Gordon Hanson found about the China shock?"
+    choices:
+      - id: a
+        text: "Chinese imports caused nearly all of the fall in American manufacturing jobs from 1990 to 2007"
+      - id: b
+        text: "Chinese import competition explains about a quarter of that fall, and the losses stayed in exposed places for a decade"
+      - id: c
+        text: "Workers in exposed towns moved quickly to growing regions, so the local effects faded within two years"
+      - id: d
+        text: "Trade Adjustment Assistance replaced most of the income lost in the exposed places"
+    correct_choice_id: b
+    explanation: "In their main estimate, import competition from China explains one-quarter of the decline in manufacturing employment from 1990 to 2007, which leaves three-quarters to other causes, so a overstates it. Their later work finds wages in exposed places still depressed for at least a full decade, ruling out c. Trade Adjustment Assistance paid about $2 a person in 2007, and the rise in disability payments was over thirty times the rise in trade assistance, ruling out d."
+    concepts: [tariff]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Which of these claims belongs to Samuel Huntington rather than to Francis Fukuyama?"
+    choices:
+      - id: a
+        text: "Liberal democracy may be the end point of mankind’s ideological evolution"
+      - id: b
+        text: "Many states will try to modernize but not to Westernize"
+      - id: c
+        text: "Large-scale conflict needs large states still caught in the grip of history"
+      - id: d
+        text: "The end of history will be a very sad time"
+    correct_choice_id: b
+    explanation: "Huntington argued in 1993 that the dominating source of conflict would be cultural, and that many states would grow rich and strong while keeping their own values: to modernize but not to Westernize. The other three are Fukuyama’s, from his 1989 essay. Choice d is the near miss, because it sounds like a critic, but Fukuyama himself wrote that the end of history would be a very sad time."
+    concepts: [cold-war, hegemony]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Two brothers start working full time in 1980. One has a college degree; the other has only a high-school diploma. If each brother’s real hourly earnings followed the averages David Autor reports for 1980 to 2012, what happened?"
+    choices:
+      - id: a
+        text: "Both brothers’ earnings rose by about the same share, so the gap held steady"
+      - id: b
+        text: "The college graduate’s earnings rose 20 to 56 percent, and his brother’s fell about 11 percent"
+      - id: c
+        text: "Both brothers’ earnings fell, because trade and computers pushed all wages down"
+      - id: d
+        text: "The high-school graduate gained more, because computers did the skilled work"
+    correct_choice_id: b
+    explanation: "Autor finds that real hourly earnings of college-educated men rose anywhere from 20 to 56 percent between 1980 and 2012, while those of men with only a high-school diploma fell 11 percent. The college premium widened not only because one group gained but because the other lost ground, which is why c and a both miss. He points to computers taking over routine tasks, which hurt middle-skill work, the reverse of d."
+
+  - id: q5
+    kind: free-response
+    text: "It is October 2000, and a senator must vote on making China’s normal trade status permanent. Using this lesson, give her the strongest case that each of the three perspectives on trade would make, and the evidence each could point to by 2008. Then name one policy, beyond the yes-or-no vote, that might have answered the concentrated-costs objection, and say why it might or might not have worked."
+    socratic_seed: "Start by checking that the learner keeps the three cases distinct and gives each its own evidence: the gains view (broad but thin gains, cheaper goods that favor poorer households, Hufbauer and Lu’s estimate, China’s poverty decline), the concentrated-costs view (Autor, Dorn and Hanson’s quarter of the manufacturing decline, losses lasting a decade in places like furniture-making Tennessee, Trade Adjustment Assistance at about $2 a person against far larger disability payments), and the strengthened-rival view (Clinton’s promise that China would import economic freedom, China’s 14.5 percent of world manufacturing by 2008, the later judgments of the trade office and of Campbell and Ratner). Then press the policy: if they propose larger trade assistance or retraining, ask why workers did not move to growing places, and bring in Ganong and Shoag’s finding on housing costs. Finally ask what the senator could have known in 2000 and what only became clear later, and whether that difference should change how we judge her vote."
+    concepts: [tariff, hegemony]

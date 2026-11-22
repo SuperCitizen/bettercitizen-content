@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: the-mortgage-and-the-new-deal
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "In 1927 a buyer can take a bank's five-year balloon loan for half the price of a house, or a building and loan association's twelve-year installment loan for two-thirds of it. If incomes collapse in 1930, what makes the bank loan the riskier one for the family?"
+    choices:
+      - id: a
+        text: "Its whole principal falls due at the end of the term, so it depends on a lender agreeing to renew"
+      - id: b
+        text: "Its monthly payments are higher, because the borrower pays down principal every month"
+      - id: c
+        text: "Its down payment is smaller, so the family has less of its own money in the house"
+      - id: d
+        text: "Its interest rate is fixed by federal law, so it cannot be lowered in a slump"
+    correct_choice_id: a
+    explanation: "A balloon loan's danger is the lump at the end: the borrower pays interest, perhaps a little principal, and then owes the rest at once, which works only while lenders keep renewing. From 1929 to 1932 incomes fell 41.0 percent while mortgage debt fell only 6.8 percent, and thousands of lenders failed, so renewal stopped. Choice (b) describes the installment loan, which actually shrinks the debt; (c) has it backward, since the balloon loan needed the larger stake (half the price); and no federal rule set 1920s mortgage rates (d)."
+    concepts: [depression]
+
+  - id: q2
+    kind: multiple-choice
+    text: "Which statement matches each New Deal housing agency to the job it actually did?"
+    choices:
+      - id: a
+        text: "The HOLC insured new private loans, the FHA bought loans in default, and Fannie Mae built houses"
+      - id: b
+        text: "The HOLC refinanced loans already in default, the FHA insured new private loans and set their terms, and Fannie Mae bought FHA-insured loans from lenders"
+      - id: c
+        text: "The HOLC and the FHA both lent money directly to buyers, and Fannie Mae insured lenders against default"
+      - id: d
+        text: "The FHA refinanced loans in default, the HOLC set national underwriting rules, and Fannie Mae made loans to builders"
+    correct_choice_id: b
+    explanation: "Rescue, insure, resell. The HOLC (1933) bought mortgages in default and rewrote them as 15-year installment loans; just over a million by June 1936. The FHA (1934) did not lend at all: it insured private lenders' loans and, in exchange, required full amortization, monthly payments, at most 5 percent interest and at most 20 years (25 for some small new houses in 1938). Fannie Mae (1938) bought FHA-insured loans so lenders could lend again, which is what a secondary market does. Choice (c) is the classic confusion: insurance and lending are different jobs."
+    concepts: [new-deal]
+
+  - id: q3
+    kind: multiple-choice
+    text: "A legislator in 2026 says Congress should 'bring back what worked for homeowners in the 1930s.' Which of these could a new law actually recreate?"
+    choices:
+      - id: a
+        text: "The HOLC's timing: lending just after the bottom of a slump and collecting during a recovery"
+      - id: b
+        text: "A temporary federal agency that buys failing mortgages and rewrites them as long installment loans"
+      - id: c
+        text: "The sharp fall in interest rates that lowered the HOLC's own borrowing costs after 1933"
+      - id: d
+        text: "The collapse of the 1920s balloon loan, which forced lenders to accept new terms"
+    correct_choice_id: b
+    explanation: "The HOLC's design is a lever: an agency that buys and rewrites failing mortgages can be created again by statute, and the HOLC was cited as a model during the mortgage crisis of 2007 and 2008. Its timing (a) and the recovery and falling rates it rode (c) were conditions, not policies, and the 1929 to 1933 collapse (d) was a one-time catastrophe no one would choose to repeat. The lesson's other surviving levers are federal mortgage insurance, the long amortized loan and the secondary market."
+    concepts: [new-deal, subsidy]
+
+  - id: q4
+    kind: multiple-choice
+    text: "What did the FHA's 1938 Underwriting Manual tell the staff who decided which loans to insure?"
+    choices:
+      - id: a
+        text: "Nothing about race; racial exclusion came only from private lenders and realtors"
+      - id: b
+        text: "To treat nearby 'incompatible racial and social groups' as a risk, and to favor deed restrictions limiting occupancy to 'the race for which they are intended'"
+      - id: c
+        text: "To refuse any application in a neighborhood the HOLC had graded D, using the HOLC's maps"
+      - id: d
+        text: "To ignore a neighborhood's residents and judge only the house's construction and price"
+    correct_choice_id: b
+    explanation: "The manual said that for a neighborhood 'to retain stability, it is necessary that properties shall continue to be occupied by the same social and racial classes,' counted 'natural or artificially established barriers' as protection against 'inharmonious racial groups,' and listed among recommended covenants the 'Prohibition of the occupancy of properties except by the race for which they are intended.' Choice (c) is the near miss: the FHA made its own neighborhood maps from 1935, and Fishback and coauthors find its exclusionary pattern predates the HOLC maps and changed little after them."
+    concepts: [civil-rights]
+
+  - id: q5
+    kind: free-response
+    text: "A friend says: 'The HOLC's redlining maps destroyed Black neighborhoods. That's settled history.' Using this lesson, tell your friend what is settled, what is still argued, and what evidence each side of the argument points to."
+    socratic_seed: "Start by sorting the claim. Settled: the HOLC's City Survey (1935 to 1940, 239 cities) graded Black neighborhoods 'hazardous' almost without exception, and the FHA's 1938 manual wrote racial exclusion into the rules for insurance, which the FHA applied (one FHA loan to a Black borrower in Greensboro, none in Peoria, 1935 to 1940). Contested: how much the HOLC maps themselves caused. Ask the learner for the strongest evidence on each side: the boundary comparisons and the 40,000-population cutoff (Aaronson, Hartley and Mazumder) against the timing of HOLC lending, the FHA's earlier pattern, the maps' limited circulation and Hillier's Philadelphia lenders (Fishback and coauthors, Hillier), and the system reading's point that the HOLC and FHA spread racial appraisal as an industry norm (Michney and Winling). Then press: if the friend's sentence is wrong, is it wrong about the harm, about which agency did it, or about the unit of blame? And does any version of the debate make the federal role smaller?"
+    concepts: [new-deal, civil-rights]

@@ -1,0 +1,70 @@
+schema: bettercitizen.assessment/v1
+lesson: cities-boarders-and-wages
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "A census taker visits a Chicago household in 1900. The husband is a dock laborer. The wife cooks and cleans for three paying boarders but tells the enumerator she has no occupation. Their 12-year-old son sells newspapers and gives \"newsboy\" as his occupation. Under the census's gainful-worker count, who is counted as a worker?"
+    choices:
+      - id: a
+        text: "The husband and the son, because each reported a usual occupation"
+      - id: b
+        text: "Only the husband, because children under 14 were never counted"
+      - id: c
+        text: "The husband and the wife, because boarding income counted as work"
+      - id: d
+        text: "All three, because each brought money into the household"
+    correct_choice_id: a
+    explanation: "Before 1940 the census counted gainful workers: anyone aged 10 or older who reported a usual occupation. The son is over 10 and reported one, so he counts. The wife earns real income from boarders but reported no occupation, so she does not, which is exactly the undercount Claudia Goldin documented: married women kept most boarders, and the census missed most of them in cities. Earning money was not the test; reporting an occupation was."
+    concepts: [industrial-revolution]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A viral post claims: \"In 1900 a house cost only two years of a worker's pay, so housing was far cheaper then.\" Based on this lesson, what is the best response?"
+    choices:
+      - id: a
+        text: "No national price-to-income figure exists for 1900, so the claim is an estimate, not a statistic"
+      - id: b
+        text: "The claim is right: Census tables put the ratio at about 2.4 years of income in 1900"
+      - id: c
+        text: "The claim is wrong: Census tables put the ratio at about five years of income in 1900"
+      - id: d
+        text: "The claim is right for farm families but wrong for families who lived in cities"
+    correct_choice_id: a
+    explanation: "The Census Bureau's home-value series begins in 1940 and its national median family income in 1947, so there is no official price-to-income ratio for 1900 in either direction. What does survive is family budgets: in the 1901 federal survey of workers' families, food took 42.5 percent of spending and rent about 13 percent. Those shares describe what families spent, not what a house cost in years of income, and they reflect families who bought little space and shared it."
+
+  - id: q3
+    kind: multiple-choice
+    text: "From 1890 to 1920 the national homeownership rate barely moved, while ownership among nonfarm households rose from 36.9 to 40.9 percent. What best explains how both can be true?"
+    choices:
+      - id: a
+        text: "Households moved off farms, where most owned, into cities, where most rented"
+      - id: b
+        text: "Farm ownership rose over the period while city ownership fell by about as much"
+      - id: c
+        text: "The census stopped counting farm households in its tenure tables after 1900"
+      - id: d
+        text: "Immigrants were excluded from the homeownership count until the 1920 census"
+    correct_choice_id: a
+    explanation: "This is a composition effect. In 1890, 65.9 percent of farm households owned their home against 36.9 percent of nonfarm households. As the farm share of households shrank, more families sat in the low-owning group, which pulled the national rate down even as ownership off the farm crept up. Farm ownership actually fell (to 58.1 percent by 1920), and the census kept counting farm households throughout."
+    concepts: [industrial-revolution]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A chart shows the census share of married women counted as workers: 5.6 percent in 1900, 10.7 percent in 1910, 9.0 percent in 1920. A student concludes that wives rushed into paid work in the 1900s and then retreated. What is the best response?"
+    choices:
+      - id: a
+        text: "The 1910 figure is inflated by special instructions to record women's and children's occupations"
+      - id: b
+        text: "The student is right: the 1910s drew wives into paid work, and peace sent them home"
+      - id: c
+        text: "The 1920 figure is the faulty one, because the census switched to the labor force concept"
+      - id: d
+        text: "The 1900 figure is the faulty one, because it counted only women aged 21 and older"
+    correct_choice_id: a
+    explanation: "Enumerators in 1910 were specifically told to record the occupations of women and children, and the Census Bureau's historical tables warn that they likely counted many women, especially farm laborers, who would not have been counted in other years. The 1910 figure is an artifact of the instructions, not a trend. The labor force concept did not replace the gainful-worker count until 1940, and the 1890 to 1930 figures all cover women aged 15 and up."
+
+  - id: q5
+    kind: free-response
+    text: "A city council today is considering a rule that would let homeowners rent spare rooms to as many as three unrelated lodgers, which the city now bans. Drawing on the fight over New York's 1901 Tenement House Act and the campaign against lodging, make the strongest case for the rule and the strongest case against it. Then say which part of the old era is a one-time condition that does not apply today, and which part is a lever the council really holds."
+    socratic_seed: "Start by asking what each side in 1901 said it was protecting: the reformers (Riis, Veiller, Breckinridge and Abbott) protected health, safety and privacy, pointing to death rates like 139.83 per 1,000 children under five on the Mulberry Bend block and to lodgers sleeping beside a household's daughters; the family-strategy historians (Modell and Hareven, the Beitos, Groth) protected the bottom rung, pointing to Zunz's Detroit, where 35 percent of unskilled workers owned homes in 1900 largely by doubling up, and to Simon's Milwaukee, where owners rented rooms to meet the mortgage. Press the learner to translate each into today's terms: what would a lodger rule do to a homeowner's mortgage, to a renter's options, to a neighbor's street? Then test the one-time versus lever distinction: mass immigration from rural Europe and children's wages were conditions of that era, while rules on occupancy and housing types, like the limit on unrelated people the Supreme Court upheld in Belle Terre v. Boraas (1974), are levers a council still controls. Finally ask what evidence would change their mind, and whether the dispute is empirical (does the rule create cheap rooms or unsafe crowding?) or a value question about how high to set the floor."
+    concepts: [progressivism-political]

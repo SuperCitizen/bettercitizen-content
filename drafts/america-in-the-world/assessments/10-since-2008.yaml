@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: since-2008
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "Which statement about the votes on the 2008 and 2009 rescue laws is accurate?"
+    choices:
+      - id: a
+        text: "The first bank rescue failed in the House with no votes from Democrats, and the stimulus passed with Republican support."
+      - id: b
+        text: "The first bank rescue failed in the House with opposition from both parties, and the stimulus passed with no House Republican votes."
+      - id: c
+        text: "Both laws passed the House on their first try, each by a wide margin with large majorities of both parties."
+      - id: d
+        text: "The bank rescue passed the House only after the Federal Reserve agreed to pay its whole cost itself."
+    correct_choice_id: b
+    explanation: "On September 29, 2008, the House rejected the first rescue bill 205 to 228, with 133 Republicans and 95 Democrats voting no; a revised bill creating TARP passed four days later. The February 2009 stimulus passed the House without a single Republican vote. The rescue split both parties; the stimulus split them from each other."
+    concepts: [recession, partisan]
+
+  - id: q2
+    kind: multiple-choice
+    text: "During the 2008 crisis the Federal Reserve set up dollar swap lines with 14 foreign central banks. What does that episode best show about America's position after the crisis?"
+    choices:
+      - id: a
+        text: "That the crisis began abroad and spread to the United States through foreign banks."
+      - id: b
+        text: "That foreign central banks had stopped holding dollars and needed to rebuild their reserves in euros."
+      - id: c
+        text: "That because the world's banks owed dollars, a crisis that began in American housing left the Fed acting as the world's backstop."
+      - id: d
+        text: "That the dollar lost most of its role as a reserve currency by 2025, as the 2008 forecast predicted."
+    correct_choice_id: c
+    explanation: "The crisis began in American housing, yet banks abroad needed dollars because their debts were written in dollars, and only the Fed could create them. The 2008 forecast expected the dollar to become 'something of a first among equals' by 2025, but in mid-2025 it still made up 56.3 percent of reported reserves, against 21.1 percent for the euro."
+    concepts: [quantitative-easing]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Imagine that in the 2030s a president of one party tightens limits on selling advanced computer chips to China, and a successor from the other party keeps them and adds tariffs. Which shift since 2008 does this pattern illustrate?"
+    choices:
+      - id: a
+        text: "Both parties dropped the assumption that engaging China in world commerce would make it a benign partner."
+      - id: b
+        text: "Both parties decided that the United States should stop trading with China altogether."
+      - id: c
+        text: "One party embraced competition with China while the other reversed every measure it inherited."
+      - id: d
+        text: "Congress gave up its role in China policy, leaving it entirely to the president."
+    correct_choice_id: a
+    explanation: "Trump's 2017 strategy called for rethinking policies built on the assumption that engagement would turn rivals into 'benign actors and trustworthy partners'; Biden kept the 2018 tariffs, raised some, and restricted chips; Congress passed the CHIPS and Science Act with votes from both parties. Trade continued, so (b) overshoots, and the measures carried over between administrations, so (c) is wrong."
+    concepts: [tariff, geopolitics]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Between 2008 and 2025, America's share of world output fell from 17.8 to 14.6 percent at purchasing-power parity and rose from 22.8 to 26.0 percent at market exchange rates. Which conclusion does the evidence support?"
+    choices:
+      - id: a
+        text: "America's share fell from 26 percent to about 15 percent over the period."
+      - id: b
+        text: "The two yardsticks moved in opposite directions, and part of the market-rate rise reflects a stronger dollar."
+      - id: c
+        text: "The purchasing-power figure is wrong, because market exchange rates are the only valid measure."
+      - id: d
+        text: "Both yardsticks show a rise once the strong dollar is taken into account."
+    correct_choice_id: b
+    explanation: "Each yardstick can be followed over time, but a number from one cannot be compared with a number from the other, which is the error in (a). The Federal Reserve's broad dollar index averaged about 91 in 2008 and about 123 in 2025, so part of the market-rate rise is currency strength. Neither yardstick is wrong; they answer different questions, which is why the decline and endurance readings can both cite real numbers."
+    concepts: [hegemony]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one advantage the United States has gained or kept since 2008: the shale boom, the lead in artificial intelligence, or immigration. Say whether it belongs to geography and timing, to choices and policy, or to the troubles of other nations, give the strongest case for a different sorting, and say what that does to the claim that the 250-year arc predicts what comes next."
+    socratic_seed: "Ask the learner to name the evidence behind their sorting first. For shale, press on Wang and Krupnick (RFF, 2013): the rock was geography, but federal research and tax credits from the late 1970s planted the 'seed,' Mitchell Energy's private risk 'played the primary role' in the Barnett, and the private mineral-rights system made its payoff possible, while a Breakthrough Institute report stresses government's role. For AI, ask how $285.9 billion of private investment (23.1 times China's in 2025) and a 2.7 percent model lead in March 2026 sit beside a policy fight that reversed with the change of administration and an 89 percent drop since 2017 in AI scholars moving to the United States. For immigration, ask whether a foreign-born share of 14.8 percent in 2024, then net immigration falling from 2.7 million to 1.3 million in a year, is a choice or the pull of a large, rich economy. Then turn to prediction: the Maddison arc runs from about 2 percent of world output in 1820 to about 27 percent in 1950 and about 15 percent in 2022, and the 1950 peak was partly the ruin of rivals. If one advantage can be sorted three ways, what does that say about using the past to forecast? Close by asking which of the three readings (relative decline, enduring advantages, divided at home) their answer leans toward, and what evidence would move them off it."
+    concepts: [geopolitics, hegemony]
