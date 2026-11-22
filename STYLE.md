@@ -1,5 +1,7 @@
 # BetterCitizen lesson authoring standard
 
+> **The rules and numbers in this guide are published as the lesson spec**, [`LESSON_SPEC.md`](LESSON_SPEC.md): one versioned document, generated from the app's schemas and validator and served at `/api/v1/lesson-spec` and by the MCP tool `get_lesson_spec`, so any AI writing a lesson reads the current standard. Where this guide and the spec differ, the spec is right and this guide is out of date. This guide keeps the reasoning and the worked examples. Check a lesson with `pnpm validate-lesson <pack dir>` in the app.
+
 This guide governs every lesson in `packs/`. The bar: a chapter a college senior
 in a political science seminar would *want* to read — rigorous enough to cite,
 written like a book, never like a slide deck.

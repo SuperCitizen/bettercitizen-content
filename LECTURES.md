@@ -1,5 +1,7 @@
 # BetterCitizen lecture standard
 
+> **The rules and numbers in this guide are published as the lesson spec**, [`LESSON_SPEC.md`](LESSON_SPEC.md), section "The listening version": one versioned document that the app's validator enforces and that any AI writing a lesson reads from `/api/v1/lesson-spec` or the MCP tool `get_lesson_spec`. Where this guide and the spec differ, the spec is right. This guide keeps the craft and the reasons.
+
 Every lesson in `packs/` can be listened to as a lecture. This guide governs the **lecture script**: the lesson rewritten for the ear, which the narrator reads in lecture mode. The bar is the best lecturer you ever had, in a hall of several hundred people, teaching so that the room remembers it next week: someone who talks to people for a living, who knows when to slow down, when to stop, when to ask, and when to say it again.
 
 A lesson is written to be read. Read aloud as it stands, it sounds like a voice reading sentences: nothing lands, nothing is repeated, and there is never a moment to think. A lecture script fixes that with writing, not with a better voice. It is a different text that teaches the same lesson.
