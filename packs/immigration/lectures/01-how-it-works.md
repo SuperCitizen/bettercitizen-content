@@ -5,7 +5,7 @@ lesson: how-it-works
 
 October 3, 1965. The foot of the Statue of Liberty. Lyndon Johnson is signing an immigration bill called the Hart-Celler Act, and he tells the country not to worry about it.
 
-Here are his words. "This bill that we sign today is not a revolutionary bill. It does not affect the lives of millions."
+Here are his words. "This bill that we will sign today is not a revolutionary bill. It does not affect the lives of millions."
 
 [pause]
 

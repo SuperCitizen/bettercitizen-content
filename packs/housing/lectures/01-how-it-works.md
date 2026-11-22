@@ -141,7 +141,7 @@ In 2020 and 2021, millions of households locked in mortgages near 3 percent. In 
 
 That is the lock-in effect. In plainer words: a cheap old mortgage becomes a reason not to move.
 
-An FHFA working paper put a number on it. Over two years, lock-in prevented an estimated 1.7 million home sales. And by starving the market of listings, it pushed prices higher, even as borrowing costs soared.
+An FHFA working paper put a number on it. From the spring of 2022 to the end of 2023, lock-in prevented an estimated 1.33 million home sales. And by starving the market of listings, it pushed prices higher, even as borrowing costs soared.
 
 Then there is the tax code. It is the largest federal housing subsidy, and the least visible.
 
