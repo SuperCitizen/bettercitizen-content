@@ -13,7 +13,7 @@ public — that is the whole point.
 
 | Directory | What it holds | Format |
 | --- | --- | --- |
-| `packs/` | Curriculum packs — the lessons in `/learn`. One directory per pack. | MDX + YAML |
+| `packs/` | Curriculum packs — the lessons in `/learn`. One directory per pack. A pack's `lectures/` holds its lessons' spoken scripts, the text lecture mode narrates (authoring standard: [LECTURES.md](LECTURES.md)). | MDX + YAML + Markdown |
 | `covers/` | One cover picture per topic, shown behind the pack title on Learn lists; the sets they come from (`sets/<style>/`) and the prompts they were generated from. | JPEG + YAML |
 | `components/` | The interactive lesson component library (the only JSX lessons may use — see [COMPONENTS.md](COMPONENTS.md)). | TypeScript/React |
 | `glossary/` | Glossary terms (definitions the coach and lessons reference). | YAML, one file per term |
@@ -42,6 +42,8 @@ packs/<pack-slug>/
 └── assessments/
     └── <lesson-slug>.yaml # questions keyed to a lesson slug
 ```
+
+**The lesson standard is [`LESSON_SPEC.md`](LESSON_SPEC.md)**, generated from the app (it is also served at `/api/v1/lesson-spec` and by the MCP tool `get_lesson_spec`). Every lesson is written twice, a reading version (`lessons/*.mdx`) and a listening version for the narrator (`lectures/*.md`), plus an assessment. [`STYLE.md`](STYLE.md) and [`LECTURES.md`](LECTURES.md) explain the craft behind it.
 
 Lessons are MDX: markdown plus a fixed catalog of interactive components
 (checkpoints, quick checks, timelines, simulators) documented in

@@ -207,3 +207,17 @@ Proposed:
 - An app shows the level as a small mark of one, two or three bars and never as a name for the reader ("middle school"). Editions of a topic share a title on purpose.
 
 Until this lands, core reads an edition as one more pack with the same title as its siblings. The native apps should stay on content from before the first edition pack (`packs/three-branches-1`, `packs/three-branches-2`).
+
+### C8. Lecture scripts: import `lectures/`, and build a lecture from one (ADR 0006)
+
+A lesson may now have a spoken script beside it, `packs/<pack>/lectures/<lesson file>.md` ([ADR 0006](adr/0006-lecture-scripts.md), [LECTURES.md](../LECTURES.md)), and the site narrates a lesson's lecture from it (bettercitizen.ai ADR 0016). Core's lecture port (`src/lecture/`) builds every lecture from the lesson's page text, so for a lesson with a script its chunks, keys and lengths no longer match the site's. No app plays core's lectures yet (both play the site's manifest), so nothing breaks today.
+
+Proposed:
+
+- The importer reads `packs/<pack>/lectures/*.md` (frontmatter `schema: bettercitizen.lecture/v1`, `lesson: <slug>`; at most one per lesson) and stores the body beside the lesson (the site's column is `content_lessons.lecture_md`).
+- Port `parseSpokenScript` (bettercitizen.ai `src/content-schema/lecture.ts`): paragraphs become beats, each with the silence after it; `[beat]`, `[pause]`, `[long pause]`, `[pause 5s]`, `>` key lines and `##` headings set that silence from one table, `LECTURE_GAPS_MS`.
+- A part with a script is its title (followed by a pause) and then its beats, one chunk each. A chunk gains `speech` (today's key: voice and spoken text) and `pause_ms`; its `key` is `speech` when `pause_ms` is 0 and otherwise the first 20 hex digits of SHA-256 of `<speech>\npause <pause_ms>`. `pause_ms` is the gap less 550 ms, rounded to a multiple of 24 (bettercitizen.ai `src/lib/lectures/pacing.ts`).
+- The intro's stated length and every estimate count the pauses; the bumpers around a scripted part are followed by a pause (intro) and a beat (part marker).
+- A chunk's audio is its cached speech followed by `pause_ms` of silent MP3 frames (`FF F3 84 C4`, then 188 zero bytes, per 24 ms), which a native player can also write itself when it plays from core offline.
+- Terms, issues and ideologies are paced the same way without a script: each block of the entry is a beat (`pacedPart` in bettercitizen.ai `src/lib/lectures/source.ts`), with a pause after the name and the definition and a beat after each label. Their words are unchanged, but they are cut one chunk a block, so their keys change too.
+- Add each lecture's script file to the parity recorder's file list, raise `LECTURES_FORMAT`, and re-record.
