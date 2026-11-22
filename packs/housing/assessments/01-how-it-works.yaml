@@ -46,7 +46,7 @@ questions:
       - id: d
         text: "They refinance into the higher market rate first, which frees them to move at no extra cost."
     correct_choice_id: b
-    explanation: "Selling means trading a cheap loan for an expensive one, so owners stay: the FHFA study estimates lock-in prevented about 1.7 million sales between mid-2022 and mid-2024 and raised prices about 7 percent by starving the market of listings. The counterintuitive part is (b)'s second half — higher rates coincided with higher prices partly because lock-in cut supply. Choice (c) gets the supply direction backward: a household that doesn't sell removes a listing."
+    explanation: "Selling means trading a cheap loan for an expensive one, so owners stay: the FHFA study estimates lock-in prevented about 1.33 million sales between the second quarter of 2022 and the end of 2023 and raised prices about 5.7 percent by starving the market of listings. The counterintuitive part is (b)'s second half — higher rates coincided with higher prices partly because lock-in cut supply. Choice (c) gets the supply direction backward: a household that doesn't sell removes a listing."
     concepts: [housing, housing-finance]
 
   - id: q4
