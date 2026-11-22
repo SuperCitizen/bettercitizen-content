@@ -155,3 +155,66 @@ Writing a lecture script means checking it line by line against its lesson, so t
 - 01-how-the-court-works.mdx names the three reform postures in `perspectives:`, but its body never presents them.
 - 03-the-reform-debate.mdx: the body says an "eight-day sprint to confirm" Barrett and a "year-long blockade"; its Timeline says confirmed "eight days before" the election and "nearly a year".
 - 03-the-reform-debate.mdx gives Gallup's 25 percent as the lowest "in roughly five decades" in the body and "lowest-ever" in the Timeline.
+
+## taxes
+- 03-the-policy-landscape.mdx: "Three of those clocks were set deliberately; the fourth… was inherited", but the timeline's four entries are 2028, 2030, 2033 and 2034, and both 2033 and 2034 are trust-fund dates; the timeline's title says "the one it didn't". (The script says two deliberate clocks and one inherited.)
+
+## the-administrative-state
+- 02-the-constitutional-fight.mdx: "The bar… has proven almost unclearable from the government's perspective — by which I mean, almost no delegation has ever flunked it" reads backwards (the bar is easy for the government to clear), and uses a first-person "I".
+- 02-the-constitutional-fight.mdx cites SEC v. Jarkesy (2024) in the body with no entry in `sources`.
+- 02-the-constitutional-fight.mdx quotes Whitman's "only two statutes" while describing both 1935 cases as aimed at one statute, the NIRA.
+- 01-how-rules-actually-get-made.mdx: "the Congress seated in 2026"; no new Congress is seated in 2026, and the same paragraph's lookback rule speaks of "the next Congress".
+
+## voting-rights
+- 03-the-live-debates.mdx says a citizen opts out of back-end automatic registration "by ignoring a mailed notice"; its own Checkpoint has the person who ignores the notice registered. (The script follows the Checkpoint.)
+
+## wealth-and-power
+- 03-the-policy-landscape.mdx says each tool "stalled at a legislative veto point or was narrowed by the executive branch within a year of taking effect"; that does not fit the Merger Guidelines (not narrowed) or the Corporate Transparency Act (2021 to 2025; the realist tab says "within four years of passage").
+- 03-the-policy-landscape.mdx: its Checkpoint cites "Lesson 2's veto-point theme"; lesson 2 has no such theme (it has drift).
+- 03-the-policy-landscape.mdx uses "gutting the registry's reach" in its neutral narration. (The script keeps "gutted" in the realist's voice only.)
+- 01-the-wealth-defense-machine.mdx: its Checkpoint treats "$2 billion of stock" and "$2 billion in gains" as the same thing.
+
+## score-the-vote-book, chapters 4 to 19
+- the-reform-landscape.mdx: the heading says "five families" but the table has six rows.
+- the-reform-landscape.mdx and the-strategy-question.mdx call the destination a 0-to-10 ballot; what-is-score-voting.mdx and simplicity-wins.mdx recommend and use 0 to 5. the-path-to-fifty-states.mdx's "two levels to six" implies 0 to 5 again.
+- simplicity-wins.mdx: "Eleven words", but both quoted instructions are ten words each, and the Checkpoint gives a different, longer approval instruction.
+- the-strategy-question.mdx: Seattle's 75.4 to 24.6 is called "a twenty-five-point verdict"; the margin is about 51 points.
+- the-strategy-question.mdx: "Seventeen of those nineteen states" is never explained.
+- voter-satisfaction-efficiency.mdx: the prose says "score tops the honest-voter chart", "Score wins the honest world" and "the best satisfaction numbers ever simulated", but its own figure and table put STAR at 98 above score at 96 (ranked pairs "up to 98"); and "a one-point gap between STAR and score" against 98 and 96. (The script says score and STAR lead.)
+- voter-satisfaction-efficiency.mdx: approval's 89 is called "the best worst-case on the board", but the table shows STAR at about 91 and 3-2-1 at 92 to 95; and "both beat IRV in both worlds", though approval's 89 to 95 does not clearly beat instant runoff's honest 92.
+- where-score-voting-works.mdx: "four clean election cycles across two American cities", but its text gives Fargo 2020, 2022, 2024 and St. Louis 2021, 2025: five.
+- rcv-credit-where-due.mdx: "a fact I'll map in the reform-landscape chapter"; that is chapter 4, already past.
+- star-voting-the-hybrid.mdx: its Checkpoint says an A=5, B=3 ballot gives B "the same help" against C as a 5 would; 3 is less help than 5.
+- star-voting-the-hybrid.mdx closes by pointing to the objections chapter, which is not the next one (the math chapter is).
+- the-math-chapter.mdx calls the center squeeze "from the last chapter"; chapter 10 only names it (chapters 7 and 9 treat it). "Rather than toward 1992" is unexplained in that chapter. Smith's "range voting" result appears without saying range voting is score voting.
+- primaries-and-the-extremism-machine.mdx: the body says "8 percent of Americans"; its source citation says "8% of voters".
+- primaries-and-the-extremism-machine.mdx gives St. Louis 2021 as 57.0/46.4/38.6/14.4 and 1.56 approvals; the-media-and-education-challenge.mdx gives 57/46/39/14 and 1.6.
+- the-media-and-education-challenge.mdx and your-move.mdx: the pitch says "highest average wins" (and "zero to ten"); earlier chapters say highest total.
+- building-the-movement.mdx: the 2023 bill is called a repeal bill that threatened Fargo, yet HB 1297's predecessor is called "RCV-only"; and the task force's name differs between the body and the source note.
+- the-path-to-fifty-states.mdx: the chart lists three statewide ranked-choice states (Maine, Alaska, Hawaii); the body says Maine and Alaska.
+- your-move.mdx: "Twenty chapters of evidence" in a nineteen-chapter book.
+- Fargo's adoption is 64 percent in introduction.mdx and 63.5 in where-score-voting-works.mdx.
+
+## ranked-choice-voting-book
+- alaska-the-first-state.mdx: "both times by about a point", but 743 of about 321,000 is about a quarter of a point; and the November rematch is "eleven weeks later", about twelve from August 16.
+- maine-the-pioneer.mdx: "six years earlier" than Alaska; adoption was 2016 against 2020, first use 2018 against 2022.
+- maine-the-pioneer.mdx: the figure's five candidates sum to 570,142; its caption says 580,538 cast.
+- cities-leading-the-way.mdx: the body says Salt Lake City "and some twenty other" Utah cities; the timeline says "roughly twenty, Salt Lake City included".
+- introduction.mdx: its QuickCheck says Alaska's voters "have kept it twice"; the body gives one failed repeal (2024) and a second still pending.
+- introduction.mdx: the roadmap puts "a century abroad" before the opposition and data chapters; `pack.yaml` puts it after.
+- introduction.mdx calls Maine "the first state in American history"; chapter 4 is titled "Alaska: The First State".
+- the-opposition.mdx: the body credits the Heritage brief to von Spakovsky alone; its sources list adds a co-author, J. Adams.
+- around-the-world.mdx calls the Corangamite by-election, a single district, something "no national electorate had done before".
+- how-to-pass-rcv-in-your-state.mdx says Alaska "beat repeal initiatives in 2024" (plural); the-state-by-state-status.mdx has one, and calls November 2026 "Alaska's third repeal vote" though its body has one adoption vote (2020) and one repeal vote (2024).
+- primaries-and-the-extremism-machine.mdx says the reader met Murkowski "two chapters ago"; that is chapter 10, which never mentions her.
+- primaries-and-the-extremism-machine.mdx gives 83 percent of House seats and 8 percent of adults; why-this-matters-now.mdx gives 87 percent and about 7 percent.
+- the-media-problem.mdx says the bans-and-backlash machine was met "three chapters ago"; the opposition chapter is six back.
+- money-and-elections.mdx says "a few cities and two small states" in one place and "two small states and a few dozen cities" in another.
+- constitutional-questions.mdx: the author calls a ranking "standing instructions for your one vote", while the 2026 Maine opinion it reports holds a "series of instructions" inconsistent with a single vote; the tension is not addressed.
+- the-path-to-fifty-states.mdx opens with "five statewide ballot measures in five states", then its accounting also covers Montana's two measures.
+- your-move.mdx says Unite America's primary-problem research was "two chapters ago"; it is one chapter back.
+- the-state-by-state-status.mdx, the-path-to-fifty-states.mdx and your-move.mdx speak from mid-2026 with Alaska's November 3, 2026 vote still ahead; that date has passed. (The scripts say "as of mid-2026".)
+
+## score-the-vote-book, chapters 14 to 16
+- the-objections.mdx: the introduction says three objections are answered outright and two conceded, but the Brown answer "starts with a concession" and the table shows concessions on four of five rows (then says "two full, one partial").
+- constitutional-and-legal-questions.mdx ends saying the next chapter's objections "aren't legal ones"; chapter 16's first two are legal.
