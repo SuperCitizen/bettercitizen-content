@@ -7,9 +7,13 @@
 # Images carry no text: the apps draw the title, level and length on top, and that overlay can
 # change without touching an image. Editions of a topic share its cover.
 #
+# A style is a prompt, or it is derived: `from:` another style's set, with a `treatment:` the
+# script applies to each of its pictures, so a derived set needs no API call and follows its
+# source picture for picture.
+#
 # Generate with `npm run covers -- --style <name>`, switch with `npm run covers -- --use <name>`
 # or `--use-dark <name>` (see README, "Pack covers"). Decisions: docs/adr/0004-pack-covers.md,
-# 0005-airy-cover-set.md, 0006-covers-follow-appearance.md.
+# 0005-airy-cover-set.md, 0006-covers-follow-appearance.md, 0007-black-and-white-covers.md.
 #
 # Writing a subject:
 # - One clear symbolic subject, made of objects, buildings or landscape. No real people, no faces;
@@ -20,7 +24,7 @@
 # - Nothing written: documents show abstract lines, screens and dials stay blank.
 
 # The set covers/<topic>.jpg is copied from. `npm run covers -- --use <style>` changes it.
-active: airy
+active: airy-mono
 # The set covers/dark/<topic>.jpg is copied from, shown in dark appearance. `--use-dark <style>`.
 active_dark: dark
 
@@ -60,6 +64,12 @@ styles:
     identifiable real people and no faces; any people are small, anonymous silhouettes. No
     flags, no party symbols, no elephants or donkeys, no campaign imagery. Open, calm, welcoming,
     neutral and timeless.
+  # Black and white (2026-11-23): the airy set with its color taken out, its paper pushed to white
+  # and its line-work darkened a little, so each cover reads as a pencil drawing. Made, not
+  # generated: remake it with `--style airy-mono` whenever an airy cover changes.
+  airy-mono:
+    from: airy
+    treatment: crisp-grayscale
 
 covers:
   american-conservatism: >-

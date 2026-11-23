@@ -3,7 +3,8 @@
 //
 // A set is every topic's cover in one style, in covers/sets/<style>/<topic>.jpg. The apps read
 // covers/<topic>.jpg in light appearance, a copy of the `active` set, and covers/dark/<topic>.jpg
-// in dark appearance, a copy of the `active_dark` set.
+// in dark appearance, a copy of the `active_dark` set. A derived style (airy-mono) is made from
+// another set's pictures by sharp, not generated, so it needs no API key.
 //
 //   npm run covers                          the active style's topics that have no cover yet
 //   npm run covers -- --style airy          the same for another style's set
@@ -15,8 +16,9 @@
 //   npm run covers -- --list-models         the image models this API key can use
 //   npm run check:covers                    every set complete, both copies matching their sets
 //
-// Needs OPENAI_API_KEY in this repo's .env (see .env.example). OPENAI_IMAGE_MODEL picks the model.
-// Decisions: docs/adr/0004-pack-covers.md, 0005-airy-cover-set.md, 0006-covers-follow-appearance.md.
+// Generating needs OPENAI_API_KEY in this repo's .env (see .env.example). OPENAI_IMAGE_MODEL picks the
+// model. Decisions: docs/adr/0004-pack-covers.md, 0005-airy-cover-set.md,
+// 0006-covers-follow-appearance.md, 0007-black-and-white-covers.md.
 
 import { readFileSync, readdirSync, existsSync, writeFileSync, mkdirSync, copyFileSync, rmSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -38,6 +40,16 @@ const JPEG_QUALITY = 80;
 // The API is asked for its 3:2 landscape size; sharp scales it to the size above.
 const REQUEST_SIZE = '1536x1024';
 const CONCURRENCY = 3;
+
+// A derived style is made from another set's pictures instead of generated: its `from:` names a
+// generated style, its `treatment:` one of these. Making one calls no API (ADR 0007).
+const TREATMENTS = {
+  // Black and white: the color taken out, the paper pushed to white and the line-work darkened a
+  // little, so a watercolor reads as a pencil drawing. Levels: gray at `black` and below becomes
+  // black, at `white` and above becomes white, and the midtones take a 0.9 gamma.
+  'crisp-grayscale': { black: 0.06, white: 0.92, gamma: 0.9 },
+};
+const isDerived = (def) => typeof def === 'object' && def !== null;
 
 function loadEnv() {
   const file = join(ROOT, '.env');
@@ -66,6 +78,12 @@ function loadPrompts() {
   const doc = parse(readFileSync(PROMPTS, 'utf8'));
   if (typeof doc?.styles !== 'object' || typeof doc?.covers !== 'object' || !doc.styles[doc.active] || !doc.styles[doc.active_dark]) {
     throw new Error('covers/prompts.yaml needs `active:` and `active_dark:` each naming one of its `styles:`, and a `covers:` map');
+  }
+  for (const [name, def] of Object.entries(doc.styles)) {
+    if (typeof def === 'string') continue;
+    if (!isDerived(def) || typeof doc.styles[def.from] !== 'string' || !TREATMENTS[def.treatment]) {
+      throw new Error(`covers/prompts.yaml: style ${name} is either a prompt or \`from:\` a prompt style plus \`treatment:\` (${Object.keys(TREATMENTS).join(', ')})`);
+    }
   }
   return doc;
 }
@@ -152,6 +170,23 @@ async function toCover(png) {
     .toBuffer();
 }
 
+/** One cover of a derived style, from its `from` set's cover. Written as RGB, like every other set. */
+async function derive({ treatment }, jpeg) {
+  const { black, white, gamma } = TREATMENTS[treatment];
+  const lut = new Uint8Array(256);
+  for (let v = 0; v < 256; v++) {
+    const x = Math.min(1, Math.max(0, (v / 255 - black) / (white - black)));
+    lut[v] = Math.round(255 * x ** (1 / gamma));
+  }
+  const { data, info } = await sharp(jpeg).grayscale().raw().toBuffer({ resolveWithObject: true });
+  for (let i = 0; i < data.length; i++) data[i] = lut[data[i]];
+  return sharp(data, { raw: { width: info.width, height: info.height, channels: info.channels } })
+    .resize(COVER_WIDTH, COVER_HEIGHT, { fit: 'cover', position: 'centre' })
+    .toColourspace('srgb')
+    .jpeg({ quality: JPEG_QUALITY, mozjpeg: true, progressive: true })
+    .toBuffer();
+}
+
 /**
  * Makes `style` the set one appearance shows, and records it: light (`active`) copies
  * covers/sets/<style>/*.jpg to covers/, dark (`active_dark`) copies them to covers/dark/.
@@ -202,8 +237,11 @@ async function main() {
   loadEnv();
   const key = process.env.OPENAI_API_KEY;
   const model = process.env.OPENAI_IMAGE_MODEL || 'gpt-image-2.6-sunburst';
-  if (!key && !flag('--dry-run')) throw new Error('OPENAI_API_KEY is not set. Copy .env.example to .env and fill it in.');
-  if (flag('--list-models')) return listModels(key);
+  const noKey = 'OPENAI_API_KEY is not set. Copy .env.example to .env and fill it in.';
+  if (flag('--list-models')) {
+    if (!key) throw new Error(noKey);
+    return listModels(key);
+  }
 
   const setProblems = (await problems({ requireImages: false })).filter((p) => !p.includes('differs from'));
   if (setProblems.length) {
@@ -214,14 +252,18 @@ async function main() {
   const { active, active_dark: activeDark, styles, covers } = loadPrompts();
   const style = option(args, '--style') || active;
   if (!styles[style]) throw new Error(`${style}: no such style in covers/prompts.yaml`);
+  const def = styles[style];
+  const derived = isDerived(def);
+  if (!key && !derived && !flag('--dry-run')) throw new Error(noKey);
   const dir = setDir(style);
   for (const t of only ?? []) if (!covers[t]) throw new Error(`${t}: no subject in covers/prompts.yaml`);
   const todo = (only ?? topics()).filter((t) => only || flag('--force') || !existsSync(join(dir, `${t}.jpg`)));
   if (todo.length === 0) return console.log(`The ${style} set already has every cover. Pass --only or --force to replace some.`);
 
-  console.log(`${todo.length} ${style} cover${todo.length === 1 ? '' : 's'} with ${model}: ${todo.join(', ')}`);
+  const how = derived ? `from the ${def.from} set, ${def.treatment}` : `with ${model}`;
+  console.log(`${todo.length} ${style} cover${todo.length === 1 ? '' : 's'} ${how}: ${todo.join(', ')}`);
   if (flag('--dry-run')) {
-    console.log(`\nPrompt for ${todo[0]}:\n\n${styles[style]}\n\nSubject: ${covers[todo[0]]}`);
+    if (!derived) console.log(`\nPrompt for ${todo[0]}:\n\n${def}\n\nSubject: ${covers[todo[0]]}`);
     return;
   }
 
@@ -232,8 +274,14 @@ async function main() {
     Array.from({ length: Math.min(CONCURRENCY, queue.length) }, async () => {
       for (let t = queue.shift(); t; t = queue.shift()) {
         try {
-          const png = await generate(key, model, `${styles[style]}\n\nSubject: ${covers[t]}`);
-          writeFileSync(join(dir, `${t}.jpg`), await toCover(png));
+          if (derived) {
+            const source = join(setDir(def.from), `${t}.jpg`);
+            if (!existsSync(source)) throw new Error(`no covers/sets/${def.from}/${t}.jpg to make it from`);
+            writeFileSync(join(dir, `${t}.jpg`), await derive(def, readFileSync(source)));
+          } else {
+            const png = await generate(key, model, `${def}\n\nSubject: ${covers[t]}`);
+            writeFileSync(join(dir, `${t}.jpg`), await toCover(png));
+          }
           console.log(`✓ ${t}`);
         } catch (e) {
           failed.push(t);
@@ -242,6 +290,12 @@ async function main() {
       }
     }),
   );
+  const made = todo.filter((t) => !failed.includes(t));
+  for (const [name, d] of Object.entries(styles)) {
+    if (isDerived(d) && d.from === style && made.length) {
+      console.log(`\nThe ${name} set is made from ${style}: run npm run covers -- --style ${name} --only ${made.join(',')} to remake those.`);
+    }
+  }
   if (style === active) console.log(`\nThe ${style} set is active: run npm run covers -- --use ${style} to copy it to covers/.`);
   if (style === activeDark) console.log(`\nThe ${style} set is the dark-appearance one: run npm run covers -- --use-dark ${style} to copy it to covers/dark/.`);
   if (failed.length) {
