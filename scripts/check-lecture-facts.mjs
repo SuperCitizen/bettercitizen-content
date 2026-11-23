@@ -29,6 +29,9 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const strict = args.includes('--strict');
 const onlyPack = args.includes('--pack') ? args[args.indexOf('--pack') + 1] : null;
+/** `--videos`: read the video scripts (VIDEOS.md) in place of the lecture scripts. */
+const videos = args.includes('--videos');
+const scriptsDirName = videos ? 'videos' : 'lectures';
 
 const frontmatter = (src) => {
   const m = /^---\r?\n([\s\S]*?)\r?\n---[^\S\n]*\r?\n?/.exec(src);
@@ -149,7 +152,7 @@ const packsDir = join(root, 'packs');
 for (const pack of readdirSync(packsDir).sort()) {
   if (onlyPack && pack !== onlyPack) continue;
   const lessonsDir = join(packsDir, pack, 'lessons');
-  const lecturesDir = join(packsDir, pack, 'lectures');
+  const lecturesDir = join(packsDir, pack, scriptsDirName);
   if (!existsSync(lessonsDir) || !existsSync(lecturesDir)) continue;
   const lessons = new Map();
   for (const f of readdirSync(lessonsDir).filter((f) => f.endsWith('.mdx'))) {
@@ -160,14 +163,20 @@ for (const pack of readdirSync(packsDir).sort()) {
   }
   for (const f of readdirSync(lecturesDir).filter((f) => f.endsWith('.md')).sort()) {
     const fm = frontmatter(readFileSync(join(lecturesDir, f), 'utf8'));
-    const lesson = fm && lessons.get(field(fm.yaml, 'lesson'));
-    if (!lesson) continue; // check-lectures.mjs reports this
+    // A pack's introduction video draws on the whole pack: its manifest and every lesson.
+    const intro = videos && f === '_intro.md';
+    const lesson = intro
+      ? [readFileSync(join(packsDir, pack, 'pack.yaml'), 'utf8'), ...lessons.values()].join('\n')
+      : fm && lessons.get(field(fm.yaml, 'lesson'));
+    if (!fm || !lesson) continue; // check-lectures.mjs and check-videos.mjs report this
     scripts++;
-    const flags = checkScript(fm.body, lesson);
+    // A video's stops are not words, and its points are lines of their own.
+    const body = videos ? fm.body.replace(/^\[check\s+[^\]]*\]\s*$/gim, '').replace(/^\s*[-*+]\s+/gm, '') : fm.body;
+    const flags = checkScript(body, lesson);
     if (flags.length === 0) continue;
     flagged++;
     total += flags.length;
-    console.log(`packs/${pack}/lectures/${f}`);
+    console.log(`packs/${pack}/${scriptsDirName}/${f}`);
     for (const flag of flags) console.log(`  ? ${flag}`);
     console.log('');
   }

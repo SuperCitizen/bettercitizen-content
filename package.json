@@ -13,6 +13,8 @@
     "check:reading": "node scripts/check-reading-level.mjs",
     "check:lectures": "node scripts/check-lectures.mjs",
     "check:lecture-facts": "node scripts/check-lecture-facts.mjs",
+    "check:videos": "node scripts/check-videos.mjs",
+    "check:video-facts": "node scripts/check-lecture-facts.mjs --videos",
     "build:concepts": "node scripts/build-concept-index.mjs",
     "covers": "node scripts/generate-covers.mjs",
     "check:covers": "node scripts/generate-covers.mjs --check"
