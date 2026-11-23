@@ -170,6 +170,8 @@ Written for adults and college students. Everything else in this guide.
 
 ### Glossary links in any edition
 
+The website and the apps link the first mention of every glossary term by themselves (bettercitizen.ai ADR 0019), so a lesson does not need `[[term:slug]]` to be followable. Write one only where you want the term's name shown as the glossary writes it, or where the automatic link misses. If a term links where it shouldn't, set `autolink: false` in its glossary file and give it `aliases` that should link instead.
+
 A `[[term:slug]]` link shows the term's name as the glossary writes it, capital letter included. Place it where that reads as a sentence, which usually means at the start: "[[term:judicial-review]] is the name for that power." A level 1 lesson needs one to three links; the definitions behind them are written at level 3.
 
 ### The check
