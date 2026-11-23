@@ -59,9 +59,9 @@ A topic can be written at more than one reading level. Each **edition** is a pac
 
 ## Pack covers
 
-Every topic has a cover: one picture, `covers/<topic>.jpg`, that every app draws behind the pack's title on its Learn list, shared by all the topic's editions. The pictures have no text in them; the apps lay the title over them. They are AI-generated illustrations, made from one style and one subject per topic in [`covers/prompts.yaml`](covers/prompts.yaml), so a set stays consistent. Decisions: [`docs/adr/0004-pack-covers.md`](docs/adr/0004-pack-covers.md) and [`docs/adr/0005-airy-cover-set.md`](docs/adr/0005-airy-cover-set.md).
+Every topic has a cover that every app draws behind the pack's title on its Learn list, shared by all the topic's editions: `covers/<topic>.jpg` in light appearance and `covers/dark/<topic>.jpg` in dark. The pictures have no text in them; the apps lay the title over them. They are AI-generated illustrations, made from one style and one subject per topic in [`covers/prompts.yaml`](covers/prompts.yaml), so a set stays consistent. Decisions: [`docs/adr/0004-pack-covers.md`](docs/adr/0004-pack-covers.md), [`docs/adr/0005-airy-cover-set.md`](docs/adr/0005-airy-cover-set.md) and [`docs/adr/0006-covers-follow-appearance.md`](docs/adr/0006-covers-follow-appearance.md).
 
-There are two sets, each in `covers/sets/<style>/`: `dark` (the first) and `airy` (lighter, to compare). `covers/<topic>.jpg` is a copy of the set `prompts.yaml` names as `active`, and that copy is all the apps read.
+There are two sets, each in `covers/sets/<style>/`: `airy` (watercolor on warm white paper) and `dark` (warm charcoal). `covers/<topic>.jpg` is a copy of the set `prompts.yaml` names as `active`, and `covers/dark/<topic>.jpg` a copy of the one it names as `active_dark`. Those two copies are all the apps read.
 
 To make, remake or switch covers (content authors never have to; a topic without one shows a plain card):
 
@@ -70,8 +70,9 @@ cp .env.example .env                          # then put your OpenAI API key in 
 npm install
 npm run covers -- --style airy                # every topic the airy set lacks
 npm run covers -- --style dark --only taxes   # remake one topic in one set
-npm run covers -- --use airy                  # make airy the active set
-npm run check:covers                          # every set complete, the active copy current
+npm run covers -- --use airy                  # make airy the light-appearance set
+npm run covers -- --use-dark dark             # make dark the dark-appearance set
+npm run check:covers                          # every set complete, both copies current
 ```
 
 Look at each new cover before committing it, and remake any that shows lettering, a color outside the palette, a face or anything partisan.

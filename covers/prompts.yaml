@@ -2,12 +2,14 @@
 #
 # A set is every topic's cover in one style: each cover is generated from the set's style plus its
 # topic's `subject`, so a set reads as one series, and every set shares the subjects. Sets live in
-# covers/sets/<style>/<topic>.jpg. The apps read covers/<topic>.jpg, a copy of the `active` set.
+# covers/sets/<style>/<topic>.jpg. The apps read covers/<topic>.jpg in light appearance, a copy of
+# the `active` set, and covers/dark/<topic>.jpg in dark appearance, a copy of the `active_dark` set.
 # Images carry no text: the apps draw the title, level and length on top, and that overlay can
 # change without touching an image. Editions of a topic share its cover.
 #
 # Generate with `npm run covers -- --style <name>`, switch with `npm run covers -- --use <name>`
-# (see README, "Pack covers"). Decisions: docs/adr/0004-pack-covers.md, 0005-airy-cover-set.md.
+# or `--use-dark <name>` (see README, "Pack covers"). Decisions: docs/adr/0004-pack-covers.md,
+# 0005-airy-cover-set.md, 0006-covers-follow-appearance.md.
 #
 # Writing a subject:
 # - One clear symbolic subject, made of objects, buildings or landscape. No real people, no faces;
@@ -19,6 +21,8 @@
 
 # The set covers/<topic>.jpg is copied from. `npm run covers -- --use <style>` changes it.
 active: airy
+# The set covers/dark/<topic>.jpg is copied from, shown in dark appearance. `--use-dark <style>`.
+active_dark: dark
 
 styles:
   # The first set (2026-11-16): warm charcoal, engraved line-work and gouache, one gold accent.

@@ -2,7 +2,8 @@
 // Generates pack covers from covers/prompts.yaml with OpenAI's image API.
 //
 // A set is every topic's cover in one style, in covers/sets/<style>/<topic>.jpg. The apps read
-// covers/<topic>.jpg, which is a copy of the `active` set.
+// covers/<topic>.jpg in light appearance, a copy of the `active` set, and covers/dark/<topic>.jpg
+// in dark appearance, a copy of the `active_dark` set.
 //
 //   npm run covers                          the active style's topics that have no cover yet
 //   npm run covers -- --style airy          the same for another style's set
@@ -10,13 +11,14 @@
 //   npm run covers -- --force               every topic of the style, replacing every cover
 //   npm run covers -- --dry-run             print what would be generated, call nothing
 //   npm run covers -- --use airy            make airy the active set: copy it to covers/<topic>.jpg
+//   npm run covers -- --use-dark dark       make dark the dark-appearance set: copy it to covers/dark/
 //   npm run covers -- --list-models         the image models this API key can use
-//   npm run check:covers                    every set complete, the active copy matching its set
+//   npm run check:covers                    every set complete, both copies matching their sets
 //
 // Needs OPENAI_API_KEY in this repo's .env (see .env.example). OPENAI_IMAGE_MODEL picks the model.
-// Decisions: docs/adr/0004-pack-covers.md, docs/adr/0005-airy-cover-set.md.
+// Decisions: docs/adr/0004-pack-covers.md, 0005-airy-cover-set.md, 0006-covers-follow-appearance.md.
 
-import { readFileSync, readdirSync, existsSync, writeFileSync, mkdirSync, copyFileSync, statSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync, writeFileSync, mkdirSync, copyFileSync, rmSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'yaml';
@@ -25,6 +27,7 @@ import sharp from 'sharp';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const COVERS = join(ROOT, 'covers');
 const SETS = join(COVERS, 'sets');
+const DARK = join(COVERS, 'dark');
 const PROMPTS = join(COVERS, 'prompts.yaml');
 const PACKS = join(ROOT, 'packs');
 
@@ -61,8 +64,8 @@ function topics() {
 
 function loadPrompts() {
   const doc = parse(readFileSync(PROMPTS, 'utf8'));
-  if (typeof doc?.styles !== 'object' || typeof doc?.covers !== 'object' || !doc.styles[doc.active]) {
-    throw new Error('covers/prompts.yaml needs `active:` naming one of its `styles:`, and a `covers:` map');
+  if (typeof doc?.styles !== 'object' || typeof doc?.covers !== 'object' || !doc.styles[doc.active] || !doc.styles[doc.active_dark]) {
+    throw new Error('covers/prompts.yaml needs `active:` and `active_dark:` each naming one of its `styles:`, and a `covers:` map');
   }
   return doc;
 }
@@ -77,23 +80,29 @@ async function checkImage(file, label, out) {
   }
 }
 
-/** Problems with the covers as they stand. `requireImages`: every set and the active copy complete. */
+/** Problems with the covers as they stand. `requireImages`: every set and both copies complete. */
 async function problems({ requireImages }) {
   const out = [];
   const all = topics();
-  const { active, styles, covers } = loadPrompts();
+  const { active, active_dark: activeDark, styles, covers } = loadPrompts();
   for (const t of all) if (!covers[t]) out.push(`${t}: no subject in covers/prompts.yaml`);
   for (const t of Object.keys(covers)) if (!all.includes(t)) out.push(`${t}: in covers/prompts.yaml but no pack has this topic`);
 
-  // covers/: the active copy, the prompts and the sets, nothing else.
-  for (const f of readdirSync(COVERS)) {
-    if (f === 'prompts.yaml' || f === 'sets' || f.startsWith('.')) continue;
-    const m = f.match(/^(.+)\.jpg$/);
-    if (!m) { out.push(`covers/${f}: only <topic>.jpg, prompts.yaml and sets/ belong here`); continue; }
-    if (!all.includes(m[1])) { out.push(`covers/${f}: no pack has the topic ${m[1]}`); continue; }
-    await checkImage(join(COVERS, f), `covers/${f}`, out);
-    if (!sameBytes(join(COVERS, f), join(setDir(active), f))) {
-      out.push(`covers/${f}: differs from covers/sets/${active}/${f} (run npm run covers -- --use ${active})`);
+  // covers/: the active copy, the dark-appearance copy, the prompts and the sets, nothing else.
+  const copies = [
+    { dir: COVERS, label: 'covers', style: active, flag: '--use', skip: ['prompts.yaml', 'sets', 'dark'] },
+    { dir: DARK, label: 'covers/dark', style: activeDark, flag: '--use-dark', skip: [] },
+  ];
+  for (const { dir, label, style, flag, skip } of copies) {
+    for (const f of existsSync(dir) ? readdirSync(dir) : []) {
+      if (skip.includes(f) || f.startsWith('.')) continue;
+      const m = f.match(/^(.+)\.jpg$/);
+      if (!m) { out.push(`${label}/${f}: only <topic>.jpg${skip.length ? ', prompts.yaml, dark/ and sets/' : ''} belong here`); continue; }
+      if (!all.includes(m[1])) { out.push(`${label}/${f}: no pack has the topic ${m[1]}`); continue; }
+      await checkImage(join(dir, f), `${label}/${f}`, out);
+      if (!sameBytes(join(dir, f), join(setDir(style), f))) {
+        out.push(`${label}/${f}: differs from covers/sets/${style}/${f} (run npm run covers -- ${flag} ${style})`);
+      }
     }
   }
   // covers/sets/<style>/: one per style, holding only that style's topics.
@@ -112,6 +121,7 @@ async function problems({ requireImages }) {
       for (const t of all) if (!existsSync(join(setDir(name), `${t}.jpg`))) out.push(`${t}: no covers/sets/${name}/${t}.jpg`);
     }
     for (const t of all) if (!existsSync(join(COVERS, `${t}.jpg`))) out.push(`${t}: no covers/${t}.jpg (run npm run covers -- --use ${active})`);
+    for (const t of all) if (!existsSync(join(DARK, `${t}.jpg`))) out.push(`${t}: no covers/dark/${t}.jpg (run npm run covers -- --use-dark ${activeDark})`);
   }
   return out;
 }
@@ -142,17 +152,26 @@ async function toCover(png) {
     .toBuffer();
 }
 
-/** Makes `style` the active set: copies covers/sets/<style>/*.jpg to covers/ and records it. */
-function use(style) {
+/**
+ * Makes `style` the set one appearance shows, and records it: light (`active`) copies
+ * covers/sets/<style>/*.jpg to covers/, dark (`active_dark`) copies them to covers/dark/.
+ */
+function use(style, { dark }) {
   const { styles } = loadPrompts();
   if (!styles[style]) throw new Error(`${style}: no such style in covers/prompts.yaml`);
   const missing = topics().filter((t) => !existsSync(join(setDir(style), `${t}.jpg`)));
   if (missing.length) throw new Error(`covers/sets/${style} has no cover for: ${missing.join(', ')}`);
-  for (const t of topics()) copyFileSync(join(setDir(style), `${t}.jpg`), join(COVERS, `${t}.jpg`));
+  const dir = dark ? DARK : COVERS;
+  const key = dark ? 'active_dark' : 'active';
+  mkdirSync(dir, { recursive: true });
+  // Drop a copy whose topic is gone, so the folder holds exactly the set.
+  for (const f of readdirSync(dir)) if (f.endsWith('.jpg') && !topics().includes(f.slice(0, -4))) rmSync(join(dir, f));
+  for (const t of topics()) copyFileSync(join(setDir(style), `${t}.jpg`), join(dir, `${t}.jpg`));
   const text = readFileSync(PROMPTS, 'utf8');
-  if (!/^active: .*$/m.test(text)) throw new Error('covers/prompts.yaml has no `active:` line');
-  writeFileSync(PROMPTS, text.replace(/^active: .*$/m, `active: ${style}`));
-  console.log(`Active covers are now the ${style} set (${topics().length} topics).`);
+  const line = new RegExp(`^${key}: .*$`, 'm');
+  if (!line.test(text)) throw new Error(`covers/prompts.yaml has no \`${key}:\` line`);
+  writeFileSync(PROMPTS, text.replace(line, `${key}: ${style}`));
+  console.log(`${dark ? 'Dark-appearance' : 'Active'} covers are now the ${style} set (${topics().length} topics).`);
 }
 
 function option(args, name) {
@@ -171,12 +190,14 @@ async function main() {
     const found = await problems({ requireImages: true });
     for (const p of found) console.error(p);
     if (found.length) process.exit(1);
-    const { active, styles } = loadPrompts();
-    console.log(`covers: ${topics().length} topics, ${Object.keys(styles).length} complete sets (${Object.keys(styles).join(', ')}); active: ${active}`);
+    const { active, active_dark: activeDark, styles } = loadPrompts();
+    console.log(`covers: ${topics().length} topics, ${Object.keys(styles).length} complete sets (${Object.keys(styles).join(', ')}); light: ${active}, dark: ${activeDark}`);
     return;
   }
+  const useDarkArg = option(args, '--use-dark');
+  if (useDarkArg) return use(useDarkArg, { dark: true });
   const useArg = option(args, '--use');
-  if (useArg) return use(useArg);
+  if (useArg) return use(useArg, { dark: false });
 
   loadEnv();
   const key = process.env.OPENAI_API_KEY;
@@ -190,7 +211,7 @@ async function main() {
     process.exit(1);
   }
 
-  const { active, styles, covers } = loadPrompts();
+  const { active, active_dark: activeDark, styles, covers } = loadPrompts();
   const style = option(args, '--style') || active;
   if (!styles[style]) throw new Error(`${style}: no such style in covers/prompts.yaml`);
   const dir = setDir(style);
@@ -222,6 +243,7 @@ async function main() {
     }),
   );
   if (style === active) console.log(`\nThe ${style} set is active: run npm run covers -- --use ${style} to copy it to covers/.`);
+  if (style === activeDark) console.log(`\nThe ${style} set is the dark-appearance one: run npm run covers -- --use-dark ${style} to copy it to covers/dark/.`);
   if (failed.length) {
     console.error(`\n${failed.length} failed. Retry with: npm run covers -- --style ${style} --only ${failed.join(',')}`);
     process.exit(1);
