@@ -26,7 +26,7 @@
 # The set covers/<topic>.jpg is copied from. `npm run covers -- --use <style>` changes it.
 active: airy-mono
 # The set covers/dark/<topic>.jpg is copied from, shown in dark appearance. `--use-dark <style>`.
-active_dark: dark
+active_dark: dark-mono
 
 styles:
   # The first set (2026-11-16): warm charcoal, engraved line-work and gouache, one gold accent.
@@ -69,6 +69,12 @@ styles:
   # generated: remake it with `--style airy-mono` whenever an airy cover changes.
   airy-mono:
     from: airy
+    treatment: crisp-grayscale
+  # Black and white for dark appearance (2026-11-23): the dark set with its color taken out and
+  # its charcoal pushed toward black, so the two appearances are one drawing in two tones. Made,
+  # not generated: remake it with `--style dark-mono` whenever a dark cover changes.
+  dark-mono:
+    from: dark
     treatment: crisp-grayscale
 
 covers:

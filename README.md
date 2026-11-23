@@ -61,7 +61,7 @@ A topic can be written at more than one reading level. Each **edition** is a pac
 
 Every topic has a cover that every app draws behind the pack's title on its Learn list, shared by all the topic's editions: `covers/<topic>.jpg` in light appearance and `covers/dark/<topic>.jpg` in dark. The pictures have no text in them; the apps lay the title over them. They are AI-generated illustrations, made from one style and one subject per topic in [`covers/prompts.yaml`](covers/prompts.yaml), so a set stays consistent. Decisions: [`docs/adr/0004-pack-covers.md`](docs/adr/0004-pack-covers.md), [`docs/adr/0005-airy-cover-set.md`](docs/adr/0005-airy-cover-set.md), [`docs/adr/0006-covers-follow-appearance.md`](docs/adr/0006-covers-follow-appearance.md) and [`docs/adr/0007-black-and-white-covers.md`](docs/adr/0007-black-and-white-covers.md).
 
-There are three sets, each in `covers/sets/<style>/`: `airy` (watercolor on warm white paper), `airy-mono` (airy in black and white, made from airy by the script rather than generated) and `dark` (warm charcoal). Light appearance shows `airy-mono` and dark appearance `dark`. `covers/<topic>.jpg` is a copy of the set `prompts.yaml` names as `active`, and `covers/dark/<topic>.jpg` a copy of the one it names as `active_dark`. Those two copies are all the apps read.
+There are four sets, each in `covers/sets/<style>/`: `airy` (watercolor on warm white paper), `dark` (warm charcoal), and their black-and-white copies `airy-mono` and `dark-mono`, made from them by the script rather than generated. Light appearance shows `airy-mono` and dark appearance `dark-mono`. `covers/<topic>.jpg` is a copy of the set `prompts.yaml` names as `active`, and `covers/dark/<topic>.jpg` a copy of the one it names as `active_dark`. Those two copies are all the apps read.
 
 To make, remake or switch covers (content authors never have to; a topic without one shows a plain card):
 
@@ -72,7 +72,7 @@ npm run covers -- --style airy                # every topic the airy set lacks
 npm run covers -- --style dark --only taxes   # remake one topic in one set
 npm run covers -- --style airy-mono --only taxes  # remake its black-and-white copy after airy (no API key)
 npm run covers -- --use airy-mono             # make airy-mono the light-appearance set
-npm run covers -- --use-dark dark             # make dark the dark-appearance set
+npm run covers -- --use-dark dark-mono        # make dark-mono the dark-appearance set
 npm run check:covers                          # every set complete, both copies current
 ```
 

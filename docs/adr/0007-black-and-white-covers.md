@@ -10,14 +10,14 @@ The airy set is watercolor on warm white paper: cream, pale sage and one gold ac
 
 1. **A style can be derived from another set.** In `covers/prompts.yaml` a style is either a prompt, as before, or `from:` a prompt style plus a `treatment:`. `npm run covers -- --style <derived>` makes the set from its source set's pictures with sharp, calls no API and needs no key. The only treatment so far is `crisp-grayscale`: the picture in grayscale, levels from 6% (black) to 92% (white), a 0.9 gamma on the midtones, written as an RGB JPEG at 1200x800 like every other set.
 2. **`airy-mono` is airy in crisp grayscale, and it is the light-appearance set** (`active: airy-mono`). `covers/<topic>.jpg` is now a copy of it. The subjects are unchanged, so every cover shows the same scene as before.
-3. **Dark appearance is unchanged.** `covers/dark/` stays the `dark` set, warm charcoal with its gold accent. Chris's request was about the light covers.
+3. **Dark appearance is black and white too** (added later on 2026-11-23, when Chris asked to "use light and dark (black and white) images for dark like we do for light now"). `dark-mono` is the `dark` set under the same `crisp-grayscale` treatment, which takes out the warm charcoal and the gold and pushes the background toward black, and it is the dark-appearance set (`active_dark: dark-mono`). `covers/dark/` is now a copy of it. As first written, this decision left dark appearance on the warm `dark` set.
 4. **The pale text layer is white.** core's design.md, "Cover card", now makes `coverPaper` `#FFFFFF` instead of `#FBF8F1`, at the same 82% to 94% and with the same 48-tall fade, and every app draws it: bettercitizen.ai, Android, Apple, Linux and Windows. White is lighter than the cream it replaces, so the contrast design.md promises still holds: on at least 82% white over pure black the title measures 11.8:1 and the meta line 7.1:1.
 
 ## Consequences
 
-- The repo holds a third set, about 3.3 MB. As before, release archives carry only `covers/<topic>.jpg` and `covers/dark/`, not `covers/sets/`.
+- The repo holds a third and a fourth set, about 3.3 MB and 3.6 MB. As before, release archives carry only `covers/<topic>.jpg` and `covers/dark/`, not `covers/sets/`.
 - Remaking an airy cover means remaking its mono copy too: `--style airy --only x`, then `--style airy-mono --only x`, then `--use airy-mono`. The script prints that reminder after it generates airy covers. `check:covers` confirms every set is complete and the copies match their sets, but it does not notice a mono cover that is older than its airy source.
-- The prompts still ask for a gold accent. It shows in the dark set and becomes a light gray in the mono set.
+- The prompts still ask for a gold accent. It becomes a light gray in both mono sets, and no shipped cover shows gold any more.
 - The no-cover fill stays `coverFallback` `#EFE9DC`. Every topic has a cover, so it shows only while a picture loads.
 - Going back to color is `npm run covers -- --use airy`, plus the warm `#FBF8F1` band back in design.md and every app.
 - Screenshots in the app repos that show the Learn grid show the color covers until they are retaken.
