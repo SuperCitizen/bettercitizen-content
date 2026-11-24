@@ -46,7 +46,7 @@ Nothing is added around the script. The stage opens on a title card (the lesson'
 | `## A scene title` | Starts a **scene**. The title is shown on the stage and never spoken. A script begins with one. |
 | A paragraph | **Narration**: said in one go and shown as the caption, then a short silence. |
 | `> A line.` | A **key line**: spoken, and held large on the stage. The one thing from this scene to keep. |
-| `- A point` | A **point**: shown on the stage, never spoken. It appears when the narration reaches the place it is written, and stays until the scene ends. |
+| `- A point` | A **point**: shown on the stage, never spoken. It appears as the line written before it begins, and stays until the scene ends. |
 | `[beat]`, `[pause]`, `[long pause]` | Silences, as in a lecture (1.3 s, 2 s, 3.6 s). |
 | `[check q2]` | A **stop**, on a line of its own. A viewer who chose to be asked gets the lesson's question `q2` here, and the answer counts as it does on the lesson's page. A viewer who chose to watch straight through never sees it. |
 | `<!-- a note -->` | A note to other authors. Dropped. |
