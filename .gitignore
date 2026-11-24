@@ -13,3 +13,6 @@ node_modules/
 
 # Secrets for dev tools (npm run covers). Only .env.example is committed.
 .env
+
+# Content releases built by scripts/build-release.mjs.
+dist/

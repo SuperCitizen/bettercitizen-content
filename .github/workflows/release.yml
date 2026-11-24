@@ -1,0 +1,103 @@
+# Publishes the content to the apps.
+#
+# Every push to main that passes the checks becomes a signed content release (bettercitizen-core,
+# docs/content-release.md): `scripts/build-release.mjs` packs the committed content and signs its
+# manifest, and the result is uploaded to the release host, an S3-compatible bucket served at
+# https://content.bettercitizen.ai. An app checks the feed there each time it opens and installs
+# what is new, taking only the files that changed.
+#
+# Secrets (the job does nothing until all of them are set):
+#   CONTENT_RELEASE_KEY          the ed25519 signing key, a base64 32-byte seed
+#   CONTENT_RELEASE_BUCKET       the bucket's name
+#   CONTENT_RELEASE_ENDPOINT     the bucket's S3 endpoint, e.g. https://<account>.r2.cloudflarestorage.com
+#   CONTENT_RELEASE_ACCESS_KEY_ID / CONTENT_RELEASE_SECRET_ACCESS_KEY   a token that may write to it
+# Variable:
+#   CONTENT_RELEASE_KEY_ID       the key's name as the apps know it, e.g. bettercitizen-content-2026
+#
+# The feed is uploaded last, so an app never reads about a release whose files aren't there yet.
+
+name: Release content
+
+on:
+  workflow_run:
+    workflows: [Validate content]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One release at a time, in order, and never cancel one halfway through an upload.
+concurrency:
+  group: release-content
+  cancel-in-progress: false
+
+env:
+  FEED_URL: https://content.bettercitizen.ai/releases/index.json
+
+jobs:
+  release:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CONTENT_RELEASE_KEY: ${{ secrets.CONTENT_RELEASE_KEY }}
+      CONTENT_RELEASE_KEY_ID: ${{ vars.CONTENT_RELEASE_KEY_ID }}
+      BUCKET: ${{ secrets.CONTENT_RELEASE_BUCKET }}
+      ENDPOINT: ${{ secrets.CONTENT_RELEASE_ENDPOINT }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.CONTENT_RELEASE_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.CONTENT_RELEASE_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      # R2 doesn't take the checksums newer AWS CLIs send by default.
+      AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+      AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+    steps:
+      - name: Set up or skip
+        id: ready
+        run: |
+          if [ -n "$CONTENT_RELEASE_KEY" ] && [ -n "$CONTENT_RELEASE_KEY_ID" ] && [ -n "$BUCKET" ] && [ -n "$ENDPOINT" ] && [ -n "$AWS_ACCESS_KEY_ID" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not released: the release secrets aren't set (see this workflow's header)." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Check out the commit the checks passed
+        if: steps.ready.outputs.go == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        if: steps.ready.outputs.go == 'true'
+        with:
+          node-version: 24
+
+      - name: Skip when the content is already released
+        if: steps.ready.outputs.go == 'true'
+        id: fresh
+        run: |
+          released="$(curl --silent --fail --max-time 30 "$FEED_URL" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).releases[0].source_commit||"")}catch{console.log("")}})' || true)"
+          if [ "$released" = "$(git rev-parse HEAD)" ]; then
+            echo "Already released: $released" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build and sign the release
+        if: steps.fresh.outputs.go == 'true'
+        run: node scripts/build-release.mjs --out dist --feed "$FEED_URL" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the files, then the feed
+        if: steps.fresh.outputs.go == 'true'
+        run: |
+          forever="public, max-age=31536000, immutable"
+          aws s3 cp dist/blobs "s3://$BUCKET/blobs" --recursive --endpoint-url "$ENDPOINT" \
+            --cache-control "$forever" --content-type application/zstd --only-show-errors
+          aws s3 cp dist/releases "s3://$BUCKET/releases" --recursive --exclude index.json --endpoint-url "$ENDPOINT" \
+            --cache-control "$forever" --only-show-errors
+          aws s3 cp dist/releases/index.json "s3://$BUCKET/releases/index.json" --endpoint-url "$ENDPOINT" \
+            --cache-control "public, max-age=60" --content-type application/json --only-show-errors
