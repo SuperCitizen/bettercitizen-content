@@ -43,7 +43,7 @@ packs/<pack-slug>/
     └── <lesson-slug>.yaml # questions keyed to a lesson slug
 ```
 
-**The lesson standard is [`LESSON_SPEC.md`](LESSON_SPEC.md)**, generated from the app (it is also served at `/api/v1/lesson-spec` and by the MCP tool `get_lesson_spec`). Every lesson is written twice, a reading version (`lessons/*.mdx`) and a listening version for the narrator (`lectures/*.md`), plus an assessment. [`STYLE.md`](STYLE.md) and [`LECTURES.md`](LECTURES.md) explain the craft behind it.
+**The lesson standard is [`LESSON_SPEC.md`](LESSON_SPEC.md)**, generated from the app (it is also served at `/api/v1/lesson-spec` and by the MCP tool `get_lesson_spec`). [`lesson-spec.json`](lesson-spec.json) is the same spec as data, generated with it: `npm run check:lectures` reads its numbers from there, so never edit either copy by hand. Every lesson is written twice, a reading version (`lessons/*.mdx`) and a listening version for the narrator (`lectures/*.md`), plus an assessment. [`STYLE.md`](STYLE.md) and [`LECTURES.md`](LECTURES.md) explain the craft behind it.
 
 Lessons are MDX: markdown plus a fixed catalog of interactive components
 (checkpoints, quick checks, timelines, simulators) documented in

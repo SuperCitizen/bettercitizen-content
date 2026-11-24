@@ -1,10 +1,10 @@
-# Better Citizen lesson spec, version 1.0.0
+# Better Citizen lesson spec, version 1.0.1
 
 <!-- Generated from bettercitizen.ai (src/lib/lesson-spec). Do not edit by hand: change the spec there and run `pnpm lesson-spec:write`. -->
 
 How to write a Better Citizen lesson: three files (a reading version in MDX, a listening version for the narrator, and an assessment), the parts each needs in order, length and cadence targets, recall and challenge checks, and the sourcing and neutrality rules. Read it before writing or editing a lesson; validate_lesson checks a draft against it.
 
-Spec `bettercitizen.lesson-spec` 1.0.0, updated 2026-11-22. The current version is always at `/api/v1/lesson-spec` on bettercitizen.ai and from the MCP tool `get_lesson_spec`. Rule ids in bold are what `validate_lesson` cites; a rule marked *validator* is checked automatically, and the rest are for the author and the editor.
+Spec `bettercitizen.lesson-spec` 1.0.1, updated 2026-11-24. The current version is always at `/api/v1/lesson-spec` on bettercitizen.ai and from the MCP tool `get_lesson_spec`. Rule ids in bold are what `validate_lesson` cites; a rule marked *validator* is checked automatically, and the rest are for the author and the editor.
 
 ## How a lesson gets written
 
@@ -371,6 +371,11 @@ questions:
 ````
 
 ## Changelog
+
+### 1.0.1 (2026-11-24)
+
+- No rule changes. The JSON form now carries every number and phrase a lecture is checked against: the 900-character paragraph (limits.lectureParagraphChars), the length under which one or two think-pauses will do (limits.shortLectureWords), the narrator’s rate (numbers.narrationCharsPerSecond) and the phrases the listening version rules out (lectureRuledOut).
+- `pnpm lesson-spec:write` also writes the JSON form into bettercitizen-content as lesson-spec.json, which its lecture check reads, so the content repo’s checks and the app’s validator use the same numbers.
 
 ### 1.0.0 (2026-11-22)
 

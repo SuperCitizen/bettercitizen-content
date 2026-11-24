@@ -68,7 +68,7 @@ export function proseOf(body) {
       .replace(/^#{1,6}\s+/, '')
       .replace(/^>\s?/, '')
       .replace(/^([-*+]|\d+\.)\s+/, '')
-      .replace(/\[\[[a-z]+:([a-z0-9-]+)\]\]/g, (_, slug) => slug.replace(/-/g, ' '))
+      .replace(/\[\[[a-z]+:([a-z0-9-]+)(?:\|[^\]]*)?\]\]/g, (_, slug) => slug.replace(/-/g, ' '))
       .replace(/!?\[([^\]]*)\]\([^)]*\)/g, '$1')
       .replace(/[*_~]+/g, '')
       .replace(/&nbsp;/g, ' ');
@@ -89,8 +89,14 @@ export function syllables(word) {
   return Math.max(1, n);
 }
 
+/** Lesson source (frontmatter already removed): its prose's words, sentences and grade. */
 export function measure(body) {
-  const text = proseOf(body).replace(ABBREVIATIONS, '$1');
+  return measureText(proseOf(body));
+}
+
+/** Plain text (already prose, a sentence or more a line): its words, sentences and grade. */
+export function measureText(prose) {
+  const text = prose.replace(ABBREVIATIONS, '$1');
   const sentences = text
     .split(/(?<=[.!?])["'”’)\]]*\s+|\n+/)
     .map((x) => x.trim())

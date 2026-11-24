@@ -214,7 +214,7 @@ A lecture adds restatement, questions and the gather, so it cannot also carry ev
 npm run check:lectures
 ```
 
-It measures every script: that it names a real lesson, its length, its average sentence, its key lines, think-pauses and silences, and anything written for the eye.
+It measures every script against the numbers of the lesson spec, which it reads from `lesson-spec.json`: that it names a real lesson, its length, its paragraphs (each one breath), its average sentence, its key lines, think-pauses and silences, and anything written for the eye. It counts its warnings by rule; add `-- --warnings` to list them, or `-- --pack <slug>` to check one pack.
 
 ```bash
 npm run check:lecture-facts
