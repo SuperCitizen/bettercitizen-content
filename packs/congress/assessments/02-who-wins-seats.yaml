@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: who-wins-seats
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "House incumbents who sought reelection won 95.9 percent of the time in 2024. Which conclusion does that number support best?"
+    choices:
+      - id: a
+        text: "Holding a House seat, by itself, makes a member nearly unbeatable"
+      - id: b
+        text: "Incumbents usually win, but the rate also reflects who chose to run and how strongly many districts lean"
+      - id: c
+        text: "Most House members first won their seats by defeating an incumbent"
+      - id: d
+        text: "House elections have stopped mattering, because the result is known in advance"
+    correct_choice_id: b
+    explanation: "The rate is real, but it isn't a pure measure of incumbency. It counts only members who ran (46 left in 2024 instead), many districts lean so far one way that any nominee of that party would win, and strong challengers tend to wait for open seats. Option (c) is backwards: 258 of the 435 members at the start of the 119th Congress first won by succeeding a retiring member of their own party, and only 85 by beating an incumbent. And (d) ignores the primaries, where four House incumbents lost in 2024 and eleven in 2026."
+    concepts: [incumbency]
+
+  - id: q2
+    kind: multiple-choice
+    text: "In an invented state, the 7th District has voted about 72–28 for the Harbor Party for twenty years. Its Harbor incumbent is retiring. Where will the real contest for the seat most likely be decided?"
+    choices:
+      - id: a
+        text: "In the November general election, because the seat is open"
+      - id: b
+        text: "In the Harbor Party's primary"
+      - id: c
+        text: "In the other party's primary, which picks the strongest November challenger"
+      - id: d
+        text: "By the state legislature, which fills open House seats"
+    correct_choice_id: b
+    explanation: "An open seat removes the incumbent, not the district's lean. In a district that votes about 72–28 one way, whoever wins the Harbor primary is almost certain to win in November, so the primary is where the seat is decided, usually by a smaller and more committed electorate. The other party's nominee (c) rarely has a path in a seat like this, and House seats are always filled by election, never by appointment (d)."
+    concepts: [safe-seat, primary-election]
+
+  - id: q3
+    kind: multiple-choice
+    text: "Voters in a state approve a ballot measure limiting their members of the U.S. House to three terms. What happens if the limit is challenged in court?"
+    choices:
+      - id: a
+        text: "It stands, because the Constitution lets each state set the qualifications for its own members of Congress"
+      - id: b
+        text: "It falls, because the Supreme Court held in U.S. Term Limits v. Thornton (1995) that states can't add qualifications beyond the Constitution's"
+      - id: c
+        text: "It stands for the House but not the Senate, because senators represent whole states"
+      - id: d
+        text: "It falls, because the Twenty-Second Amendment bans term limits for every federal office except the presidency"
+    correct_choice_id: b
+    explanation: "In Thornton the Court held, 5–4, that the Constitution's qualifications for Congress (age, citizenship, residence) are the complete list, so a state can't add a term limit. Changing that would take a constitutional amendment. The Twenty-Second Amendment (d) limits presidents and says nothing about Congress, and nothing in Thornton treats the House and Senate differently (c)."
+    concepts: [incumbency]
+
+  - id: q4
+    kind: multiple-choice
+    text: "Which statement about the 119th Congress matches the data in this lesson?"
+    choices:
+      - id: a
+        text: "The House's share of Black members matches the Black share of the population, while its Hispanic share is about half the population's"
+      - id: b
+        text: "Women hold about half of all seats in Congress"
+      - id: c
+        text: "Fewer than half of House members hold a bachelor's degree, about the same share as the adult population"
+      - id: d
+        text: "Most members have served in the military, as in the early 1970s"
+    correct_choice_id: a
+    explanation: "Pew Research Center found the House 14 percent Black, the same as the population, and 11 percent Hispanic against 20 percent of the population. Women hold about 29 percent of seats, not half (b). Education shows the widest gap of all: 96 percent of House members hold a bachelor's degree, against about 39 percent of adults 25 and older (c). And veterans fell from 73 percent of members in 1971–72 to 18 percent at the start of 2025 (d)."
+    concepts: [descriptive-representation]
+
+  - id: q5
+    kind: free-response
+    text: "Pick one group that is underrepresented in Congress compared with the country: women, Hispanic Americans, or people who have worked in working-class jobs. Is that gap a problem for representation? Make the strongest case for the answer you find less convincing first, then make your own."
+    socratic_seed: "Start with Pitkin's question: should voters judge a representative by what they do or by who they are? Then take Mansbridge's: in what situations does shared experience change what a member notices, says, or is trusted to say? For working-class members, use Carnes's claim that background shapes economic votes. Then ask what a fix would cost: the Constitution sets only age, citizenship and residence, and voters are free to choose anyone. Would any remedy limit that choice?"
+    concepts: [descriptive-representation, representative-democracy]

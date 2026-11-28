@@ -1,0 +1,17 @@
+slug: speaker-of-the-house
+name: Speaker of the House
+short_definition: The presiding officer of the U.S. House of Representatives, elected by the whole House and in practice the leader of its majority party. It is the only House officer the Constitution names.
+body_md: ""
+category: government
+difficulty: foundational
+status: active
+etymology: "Article I, Section 2 of the Constitution: \"The House of Representatives shall chuse their Speaker and other Officers.\""
+why_it_matters: The Speaker decides, largely through the Rules Committee, which bills reach the House floor and on what terms. A Speaker needs a majority of the votes cast for a person by name, so keeping the job depends on holding the majority party together.
+context_example: When the majority party's nominee fell short on the first ballot, the House voted again and again over four days before it finally chose a Speaker.
+related_term_slugs:
+  - party-whip
+  - standing-committee
+tags: []
+aliases:
+  - House Speaker
+  - Speaker of the House of Representatives

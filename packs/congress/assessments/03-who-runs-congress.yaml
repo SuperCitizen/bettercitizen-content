@@ -1,0 +1,72 @@
+schema: bettercitizen.assessment/v1
+lesson: who-runs-congress
+questions:
+  - id: q1
+    kind: multiple-choice
+    text: "How does a member become chair of a House committee?"
+    choices:
+      - id: a
+        text: "The longest-serving member of the committee becomes chair automatically"
+      - id: b
+        text: "The majority party nominates the chair, and the whole House elects them"
+      - id: c
+        text: "The Speaker appoints every chair alone, with no vote"
+      - id: d
+        text: "The committee's members elect their own chair, and either party's members can win"
+    correct_choice_id: b
+    explanation: "Under House Rule X, each chair is elected by the House on the nomination of the majority party's caucus or conference, so every chair comes from the majority. Seniority still matters inside the parties but no longer guarantees a gavel (a): House Republicans limit their chairs to three consecutive terms. The Speaker has great influence over the majority party's choices, but the formal decision runs through the party and a House vote (c)."
+    concepts: [committee-system]
+
+  - id: q2
+    kind: multiple-choice
+    text: "A new House votes for Speaker. Candidate A gets 214 votes, Candidate B gets 211, and 10 members vote \"present.\" Is Candidate A elected?"
+    choices:
+      - id: a
+        text: "No. A Speaker needs 218 votes, a majority of the whole House"
+      - id: b
+        text: "Yes. 214 is a majority of the 425 votes cast for a person by name"
+      - id: c
+        text: "No. Any \"present\" votes force a second ballot"
+      - id: d
+        text: "Yes. Whoever gets the most votes wins, majority or not"
+    correct_choice_id: b
+    explanation: "A Speaker needs a majority of the votes cast for a person by name, and \"present\" votes don't count toward that total. Here 214 + 211 = 425 votes for named candidates, so 213 is a majority and A's 214 wins. That's how Kevin McCarthy won with 216 in January 2023, after six holdouts voted present. Option (d) is the near miss: a plurality isn't enough. If those 10 members had voted for a third candidate instead, 218 would have been needed and A would have fallen short."
+    concepts: [speaker-of-the-house]
+
+  - id: q3
+    kind: multiple-choice
+    text: "The Constitution gives the Senate majority leader no powers at all. What gives the majority leader the most control over what the Senate takes up?"
+    choices:
+      - id: a
+        text: "The Vice President's tie-breaking vote"
+      - id: b
+        text: "A precedent from 1937 that the presiding officer recognizes the majority leader first"
+      - id: c
+        text: "The power to appoint and remove committee chairs"
+      - id: d
+        text: "The president pro tempore's power to schedule bills, which the majority leader holds by law"
+    correct_choice_id: b
+    explanation: "Since Vice President John Nance Garner's announcement of August 13, 1937, the chair calls on the majority leader first when several senators seek recognition, which lets the leader make the first motion and shape the agenda. The Vice President (a) presides and votes only to break ties, and the president pro tempore (d) presides in the Vice President's absence, but neither runs the Senate. Committee chairs (c) are chosen through the party conferences, not appointed by the leader."
+    concepts: [representative-democracy]
+
+  - id: q4
+    kind: multiple-choice
+    text: "A senator says: \"Most of my constituents oppose this treaty. I've studied it, I think it's right, and I'm voting yes. If they disagree, they can replace me at the next election.\" Which model of representation is she describing?"
+    choices:
+      - id: a
+        text: "Delegate"
+      - id: b
+        text: "Trustee"
+      - id: c
+        text: "Partisan"
+      - id: d
+        text: "Politico"
+    correct_choice_id: b
+    explanation: "She's using her own judgment against her constituents' wishes and accepting that they'll judge her at the next election. That's Burke's trustee model: a representative owes voters \"his judgment.\" A delegate (a) would vote as the constituents want. Nothing in her statement mentions her party (c). A politico (d) mixes the models across issues, and one statement about one vote can't show that pattern."
+    concepts: [trustee-model, delegate-model]
+
+  - id: q5
+    kind: free-response
+    text: "In 2025, 85.3 percent of congressional roll calls were party-unity votes, a record. Explain how Keith Krehbiel's argument and Cox and McCubbins's argument would each read that number. Then describe one piece of evidence that would help you decide between them."
+    socratic_seed: "If members simply agree with their parties, what would we expect to see when a vote comes up that splits a party internally? If leaders control the agenda, where would we look for the votes that never happen: bills that sit in committee, discharge petitions, the 'majority of the majority' principle? What do the members who break ranks on big votes, like the One Big Beautiful Bill Act or the March 2025 funding bill, tell you, and what can't they tell you?"
+    concepts: [party-whip, representative-democracy]

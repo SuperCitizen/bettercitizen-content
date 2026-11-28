@@ -1,0 +1,15 @@
+slug: delegate-model
+name: Delegate model
+short_definition: The view that a representative should vote as their constituents want, acting as the voters' agent rather than on their own judgment.
+body_md: ""
+category: government
+difficulty: intermediate
+status: active
+why_it_matters: The delegate model has deep American roots. In 1789 a member of the First Congress proposed adding the people's right "to instruct their Representatives" to the Bill of Rights; it was not adopted, and the First Amendment protects the right to petition instead.
+context_example: The representative said she had polled her district, found it opposed the bill two to one, and would vote no because her job was to speak for them.
+related_term_slugs:
+  - trustee-model
+  - representative-democracy
+tags: []
+aliases:
+  - delegate model of representation

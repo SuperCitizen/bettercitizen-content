@@ -1,0 +1,15 @@
+slug: standing-committee
+name: Standing committee
+short_definition: A permanent committee of a legislative chamber with authority over a set of subjects. In the 119th Congress the House has 20 and the Senate 16.
+body_md: ""
+category: government
+difficulty: foundational
+status: active
+why_it_matters: Most bills never leave committee. Standing committees decide which bills get hearings and votes, rewrite them, and oversee the agencies in their area, and the majority party holds most of their seats and every chair.
+context_example: The bill was referred to the Agriculture Committee, whose chair had not scheduled a hearing by the end of the session.
+related_term_slugs:
+  - conference-committee
+  - discharge-petition
+tags: []
+aliases:
+  - standing committees
