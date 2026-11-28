@@ -1,0 +1,20 @@
+slug: party-whip
+name: Whip
+short_definition: A party leader in a legislature who counts votes before they happen and works to bring wavering members along, so that the party votes together. Each party in each chamber of Congress elects one.
+body_md: ""
+category: government
+difficulty: intermediate
+status: active
+etymology: "From fox hunting: the \"whipper-in\" was the member of a hunting team who kept the hounds from straying from the pack (U.S. Senate, Party Whips). The first Senate whip was elected in 1913."
+why_it_matters: Leaders rarely bring a bill to the floor without knowing how the vote will go. The whip's count tells them, and the whip's persuasion is often what turns a close count into a win.
+context_example: The majority whip spent the morning calling the dozen members still undecided before telling the Speaker the votes were there.
+related_term_slugs:
+  - speaker-of-the-house
+tags: []
+aliases:
+  - party whip
+  - majority whip
+  - minority whip
+  - Democratic whip
+  - Republican whip
+autolink: false

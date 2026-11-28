@@ -5,13 +5,13 @@
     "dangling_teaches": 0,
     "dangling_term_links": 0,
     "dangling_topic_tags": 253,
-    "glossary_terms": 306,
-    "lessons": 192,
-    "orphan_glossary_terms": 105,
+    "glossary_terms": 314,
+    "lessons": 194,
+    "orphan_glossary_terms": 111,
     "packs": 53,
     "packs_with_explicit_teaches": 1,
     "prerequisite_edges": 3,
-    "terms_referenced": 201
+    "terms_referenced": 203
   },
   "packs": {
     "america-in-the-world": {
@@ -1331,33 +1331,88 @@
           "teaches": [],
           "teaches_source": "links",
           "title": "Why does Congress have two chambers?"
+        },
+        {
+          "concepts": [
+            "descriptive-representation",
+            "gerrymandering",
+            "incumbency",
+            "primary-election",
+            "representative-democracy",
+            "safe-seat"
+          ],
+          "effective": [
+            "descriptive-representation"
+          ],
+          "links": [
+            "descriptive-representation"
+          ],
+          "slug": "who-wins-seats",
+          "teaches": [],
+          "teaches_source": "links",
+          "title": "Who wins seats in Congress, and why do incumbents rarely lose?"
+        },
+        {
+          "concepts": [
+            "delegate-model",
+            "party-whip",
+            "representative-democracy",
+            "speaker-of-the-house",
+            "standing-committee",
+            "trustee-model"
+          ],
+          "effective": [
+            "speaker-of-the-house"
+          ],
+          "links": [
+            "speaker-of-the-house"
+          ],
+          "slug": "who-runs-congress",
+          "teaches": [],
+          "teaches_source": "links",
+          "title": "Who runs Congress, and how do members decide how to vote?"
         }
       ],
       "level": "intro",
       "references": [
         "advice-and-consent",
         "bicameral",
+        "descriptive-representation",
         "federalism",
         "filibuster",
         "impeachment",
-        "separation-of-powers"
+        "separation-of-powers",
+        "speaker-of-the-house"
       ],
       "teaches": [
         "advice-and-consent",
         "bicameral",
+        "descriptive-representation",
         "federalism",
         "filibuster",
         "impeachment",
-        "separation-of-powers"
+        "separation-of-powers",
+        "speaker-of-the-house"
       ],
       "teaches_source": "links",
       "title": "Congress",
       "topics": [
         "advice-and-consent",
         "bicameral",
+        "delegate-model",
+        "descriptive-representation",
         "federalism",
+        "gerrymandering",
         "impeachment",
-        "separation-of-powers"
+        "incumbency",
+        "party-whip",
+        "primary-election",
+        "representative-democracy",
+        "safe-seat",
+        "separation-of-powers",
+        "speaker-of-the-house",
+        "standing-committee",
+        "trustee-model"
       ]
     },
     "constitution-basics": {
@@ -8615,6 +8670,24 @@
       ],
       "taught_in": []
     },
+    "descriptive-representation": {
+      "glossary": true,
+      "packs": [
+        "congress"
+      ],
+      "referenced_in": [
+        {
+          "lesson": "who-wins-seats",
+          "pack": "congress"
+        }
+      ],
+      "taught_in": [
+        {
+          "lesson": "who-wins-seats",
+          "pack": "congress"
+        }
+      ]
+    },
     "deterrence": {
       "glossary": true,
       "packs": [
@@ -13508,6 +13581,24 @@
         }
       ]
     },
+    "speaker-of-the-house": {
+      "glossary": true,
+      "packs": [
+        "congress"
+      ],
+      "referenced_in": [
+        {
+          "lesson": "who-runs-congress",
+          "pack": "congress"
+        }
+      ],
+      "taught_in": [
+        {
+          "lesson": "who-runs-congress",
+          "pack": "congress"
+        }
+      ]
+    },
     "stagflation": {
       "glossary": true,
       "packs": [
@@ -16032,8 +16123,10 @@
       "cyber-warfare",
       "d-tente",
       "dei",
+      "delegate-model",
       "democratic-restoration",
       "depression",
+      "discharge-petition",
       "dog-whistle",
       "doge",
       "drone-warfare",
@@ -16073,6 +16166,7 @@
       "nuclear-proliferation",
       "oppo-research",
       "overton-window",
+      "party-whip",
       "plea-bargain",
       "probable-cause",
       "progressivism-political",
@@ -16086,10 +16180,12 @@
       "representative-democracy",
       "republic",
       "rules-of-engagement",
+      "safe-seat",
       "secularism",
       "slippery-slope",
       "sovereign-immunity",
       "sphere-of-influence",
+      "standing-committee",
       "state-of-the-union",
       "stimulus",
       "straw-man",
@@ -16100,6 +16196,7 @@
       "tort",
       "trade-deficit",
       "trumpism",
+      "trustee-model",
       "tu-quoque",
       "united-nations",
       "urban-warfare",

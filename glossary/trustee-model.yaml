@@ -1,0 +1,15 @@
+slug: trustee-model
+name: Trustee model
+short_definition: The view that a representative should vote by their own best judgment, even against constituents' wishes, and answer to voters at the next election. Edmund Burke gave it its classic defense in a 1774 speech to the voters of Bristol.
+body_md: ""
+category: government
+difficulty: intermediate
+status: active
+why_it_matters: The trustee, delegate, and partisan models give different answers to the same vote, and most members blend them. A roll call shows how a member voted, but not which model they were following.
+context_example: The senator told reporters that her constituents opposed the treaty, but that she had studied it, believed it was right, and would let voters judge her at the next election.
+related_term_slugs:
+  - delegate-model
+  - representative-democracy
+tags: []
+aliases:
+  - trustee model of representation

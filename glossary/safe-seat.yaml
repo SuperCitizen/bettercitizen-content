@@ -1,0 +1,18 @@
+slug: safe-seat
+name: Safe seat
+short_definition: A legislative seat that reliably goes to one party, usually because the district or state leans heavily toward it, so the general election is rarely competitive.
+body_md: ""
+category: elections
+difficulty: intermediate
+status: active
+why_it_matters: In a safe seat the contest that can change who holds the seat is the leading party's primary, where turnout is usually lower, so members from safe seats often have more to fear from a challenger in their own party than from the other party's nominee.
+context_example: With the district voting about 70 to 30 for her party in every election, the congresswoman treated November as a formality and spent her campaign money preparing for a primary challenge.
+related_term_slugs:
+  - primary-election
+  - incumbency
+  - gerrymandering
+tags: []
+aliases:
+  - safe seats
+  - safe district
+  - safe districts
